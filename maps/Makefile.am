@@ -8,7 +8,8 @@ map_DATA =			\
 	new_4-1.tmx.gz		\
 	new_5-1.tmx.gz		\
 	new_6-1.tmx.gz		\
-	new_7-1.tmx.gz
+	new_7-1.tmx.gz		\
+	new_8-1.tmx.gz
 
 EXTRA_DIST =			\
 	$(map_DATA)
