@@ -7,6 +7,8 @@ tiles_DATA =			\
 	collision.png		\
 	desert1.png		\
 	desert2.png		\
+	desert_x2.png		\
+	desert_x3.png		\
 	inn.png			\
 	mountain.png
 
