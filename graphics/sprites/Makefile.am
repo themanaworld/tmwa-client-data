@@ -15,6 +15,10 @@ sprites_DATA =				\
 	monster8.png			\
 	monster9.png			\
 	monster10.png			\
+	monster11.png			\
+	monster12.png			\
+	monster13.png			\
+	monster14.png			\
 	npcs.png			\
 	player_male_base.png		\
 	player_male_hair.png		\
