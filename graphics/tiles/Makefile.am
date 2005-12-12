@@ -10,7 +10,9 @@ tiles_DATA =			\
 	desert_x2.png		\
 	desert_x3.png		\
 	inn.png			\
-	mountain.png
+	mountain.png			\
+	Woodland.png			\
+	snowset.png
 
 EXTRA_DIST =			\
 	$(tiles_DATA)
