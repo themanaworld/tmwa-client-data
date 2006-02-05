@@ -12,6 +12,9 @@ tiles_DATA =			\
 	inn.png			\
 	mountain.png			\
 	Woodland.png			\
+	Woodland_ground.png			\
+	Woodland_x2.png			\
+	Woodland_x3.png			\
 	snowset.png
 
 EXTRA_DIST =			\
