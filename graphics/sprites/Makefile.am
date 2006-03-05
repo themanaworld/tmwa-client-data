@@ -3,6 +3,12 @@ spritesdir = $(pkgdatadir)/data/graphics/sprites
 
 sprites_DATA =				\
 	emotions.png			\
+	hairstyle1.png			\
+	hairstyle2.png			\
+	hairstyle3.png			\
+	hairstyle4.png			\
+	hairstyle5.png			\
+	hairstyle6.png			\
 	items.png			\
 	monster0.png			\
 	monster1.png			\
@@ -21,8 +27,8 @@ sprites_DATA =				\
 	monster14.png			\
 	npcs.png			\
 	player_male_base.png		\
-	player_male_hair.png		\
-	weapons.png
+	weapon0.png			\
+	weapon1.png
 
 EXTRA_DIST =				\
 	$(sprites_DATA)
