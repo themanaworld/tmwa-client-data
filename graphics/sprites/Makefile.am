@@ -9,6 +9,7 @@ sprites_DATA =				\
 	hairstyle4.png			\
 	hairstyle5.png			\
 	hairstyle6.png			\
+	hairstyle7.png			\
 	items.png			\
 	monster0.png			\
 	monster1.png			\
@@ -25,6 +26,7 @@ sprites_DATA =				\
 	monster12.png			\
 	monster13.png			\
 	monster14.png			\
+	monster15.png			\
 	npcs.png			\
 	player_male_base.png		\
 	weapon0.png			\
