@@ -10,6 +10,7 @@ sprites_DATA =				\
 	hairstyle5.png			\
 	hairstyle6.png			\
 	hairstyle7.png			\
+	item1202.png			\
 	items.png			\
 	monster0.png			\
 	monster1.png			\
