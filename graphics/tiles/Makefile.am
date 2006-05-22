@@ -9,6 +9,7 @@ tiles_DATA =			\
 	desert2.png		\
 	desert_x2.png		\
 	desert_x3.png		\
+	icecave.png		\
 	inn.png			\
 	mountain.png			\
 	Woodland_ground.png			\
