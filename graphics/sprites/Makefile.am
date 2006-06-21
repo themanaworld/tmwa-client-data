@@ -31,6 +31,7 @@ sprites_DATA =				\
 	monster16.png			\
 	monster17.png			\
 	npcs.png			\
+	player_female_base.png		\
 	player_male_base.png		\
 	weapon0.png			\
 	weapon1.png
