@@ -16,11 +16,11 @@ sprites_DATA =				\
 	hairstyle6.png			\
 	hairstyle6.xml			\
 	hairstyle7.png			\
+	hairstyle7.xml			\
 	item001.png			\
 	item001.xml			\
 	item002.png			\
 	item002.xml			\
-	hairstyle7.xml			\
 	items.png			\
 	monster0.png			\
 	monster0.xml			\
