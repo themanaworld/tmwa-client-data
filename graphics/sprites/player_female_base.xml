@@ -20,21 +20,16 @@
 
 	<action name="walk" imageset="base">
 		<animation direction="down">
-			<frame index="1" delay="50" />
-			<frame index="2" delay="50" />
-			<frame index="3" delay="50" />
-			<frame index="4" delay="50" />
-			<frame index="5" delay="50" />
-			<frame index="6" delay="50" />
+			<sequence start="1" end="6" delay="75" />
 		</animation>
 		<animation direction="left">
-			<sequence start="19" end="24" delay="50" />
+			<sequence start="19" end="24" delay="75" />
 		</animation>
 		<animation direction="up">
-			<sequence start="37" end="42" delay="50" />
+			<sequence start="37" end="42" delay="75" />
 		</animation>
 		<animation direction="right">
-			<sequence start="55" end="60" delay="50" />
+			<sequence start="55" end="60" delay="75" />
 		</animation>
 	</action>
 
@@ -82,7 +77,7 @@
 			<sequence start="63" end="66" delay="75" />
 		</animation>
 	</action>
-	
+
 	<action name="attack_bow" imageset="base">
 		<animation direction="down">
 			<sequence start="13" end="17" delay="75" />
