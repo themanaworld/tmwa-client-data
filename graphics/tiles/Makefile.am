@@ -11,12 +11,15 @@ tiles_DATA =			\
 	desert_x3.png		\
 	icecave.png		\
 	inn.png			\
-	mountain.png			\
-	Woodland_ground.png			\
+	mountain.png		\
+	snow_building.png		\
+	snow_x2.png		\
+	snow_x3.png		\
+	snowset.png		\
+	Woodland_ground.png		\
 	Woodland_x2.png			\
-	Woodland_x3.png			\
-	snow_building.png			\
-	snowset.png
+	Woodland_x3.png
+	
 
 EXTRA_DIST =			\
 	$(tiles_DATA)
