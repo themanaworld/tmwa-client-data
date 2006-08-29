@@ -29,6 +29,8 @@ sprites_DATA =				\
 	item005.xml			\
 	item006.png			\
 	item006.xml			\
+	item008.png			\
+	item008.xml			\
 	monster0.png			\
 	monster0.xml			\
 	monster1.png			\
