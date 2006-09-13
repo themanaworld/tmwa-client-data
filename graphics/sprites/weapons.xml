@@ -3,6 +3,9 @@
 	<imageset name="dagger" src="graphics/sprites/weapon0.png" width="64" height="64" />
 	<imageset name="bow" src="graphics/sprites/weapon1.png" width="64" height="64" />
 
+	<action name="default" imageset="dagger">
+	</action>
+
 	<action name="attack_stab" imageset="dagger">
 		<animation direction="down">
 			<sequence start="0" end="3" delay="75" />
