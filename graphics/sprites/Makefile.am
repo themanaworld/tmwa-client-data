@@ -30,7 +30,7 @@ sprites_DATA =				\
 	item006.png			\
 	item006.xml			\
 	item007.png			\
-	item007.xml			\	
+	item007.xml			\
 	item008.png			\
 	item008.xml			\
 	item009.png			\
@@ -75,6 +75,8 @@ sprites_DATA =				\
 	monster17.xml			\
 	monster18.png			\
 	monster18.xml			\
+	monster19.png			\
+	monster19.xml			\
 	npcs.png			\
 	npc.xml			\
 	player_female_base.png		\
