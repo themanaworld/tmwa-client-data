@@ -28,16 +28,19 @@ items_DATA = armor-chest-cottonshirt.png \
 	     generic-bottleofsand.png \
 	     generic-bugleg.png \
 	     generic-casinocoins.png \
+	     generic-cavesnakelamp.png \
 	     generic-coinbag.png \
 	     generic-emptybottle.png \
 	     generic-greenhint.png \
 	     generic-greenpresentbox.png \
 	     generic-greyhint.png \
+	     generic-hardspike.png \
 	     generic-magentahint.png \
 	     generic-maggotslime.png \
 	     generic-orangehint.png \
 	     generic-otherbluehint.png \
 	     generic-petal.png \
+	     generic-pinkantennae.png \
 	     generic-purplehint.png \
 	     generic-purplepresentbox.png \
 	     generic-rawlog.png \
@@ -48,6 +51,7 @@ items_DATA = armor-chest-cottonshirt.png \
 	     generic-tealhint.png \
 	     generic-treasurekey.png \
 	     generic-yellowhint.png \
+	     generic-whitefur.png \
 	     use-food-apple.png \
 	     use-food-beer.png \
 	     use-food-bottleofwater.png \
