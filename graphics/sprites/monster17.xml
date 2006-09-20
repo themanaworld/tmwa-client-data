@@ -51,15 +51,19 @@
 	<action name="attack" imageset="base">
 		<animation direction="down">
 			<sequence start="5" end="8" delay="75" />
+			<end />
 		</animation>
 		<animation direction="left">
 			<sequence start="15" end="18" delay="75" />
+			<end />
 		</animation>
 		<animation direction="up">
 			<sequence start="25" end="28" delay="75" />
+			<end />
 		</animation>
 		<animation direction="right">
-			<sequence start="33" end="38" delay="75" />
+			<sequence start="35" end="38" delay="75" />
+			<end />
 		</animation>
 	</action>
 
