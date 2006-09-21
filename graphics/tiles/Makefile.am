@@ -16,6 +16,7 @@ tiles_DATA =			\
 	snow_x2.png		\
 	snow_x3.png		\
 	snowset.png		\
+	trans_woodland-desert.png		\
 	Woodland_ground.png		\
 	Woodland_x2.png			\
 	Woodland_x3.png
