@@ -10,8 +10,16 @@ items_DATA = armor-chest-cottonshirt.png \
 	     armor-hands-minergloves.png \
 	     armor-hands-scarabarmlet.png \
 	     armor-hands-wintergloves.png \
+	     armor-head-axehat.png \
+	     armor-head-bandana.png \
+	     armor-head-circlet.png \
+	     armor-head-eyepatch.png \
 	     armor-head-fancyhat.png \
+	     armor-head-goggles.png \
+	     armor-head-leather-goggles \
 	     armor-head-minershat.png \
+	     armor-head-piratehat.png \
+	     armor-head-pumpkinhelmet.png \
 	     armor-head-santahat.png \
 	     armor-head-silkheadband.png \
 	     armor-head-standardheadband.png \
