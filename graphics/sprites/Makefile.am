@@ -79,6 +79,10 @@ sprites_DATA =				\
 	monster19.xml			\
 	monster20.png			\
 	monster20.xml			\
+	monster21.png			\
+	monster21.xml			\
+	monster22.png			\
+	monster22.xml			\
 	npcs.png			\
 	npc.xml			\
 	player_female_base.png		\
