@@ -34,6 +34,22 @@ SET(FILES
     item009.xml
     item010.png
     item010.xml
+    item011.png
+    item011.xml
+    item012.png
+    item012.xml
+    item013.png
+    item013.xml
+    item014.png
+    item014.xml
+    item015.png
+    item015.xml
+    item016.png
+    item016.xml
+    item017.png
+    item017.xml
+    item018.png
+    item018.xml
     monster0.png
     monster0.xml
     monster1.png
@@ -76,6 +92,10 @@ SET(FILES
     monster19.xml
     monster20.png
     monster20.xml
+    monster21.png
+    monster21.xml
+    monster22.png
+    monster22.xml
     npcs.png
     npc.xml
     player_female_base.png
