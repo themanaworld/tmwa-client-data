@@ -8,8 +8,16 @@ SET(FILES
     armor-hands-minergloves.png
     armor-hands-scarabarmlet.png
     armor-hands-wintergloves.png
+    armor-head-axehat.png
+    armor-head-bandana.png
+    armor-head-circlet.png
+    armor-head-eyepatch.png
     armor-head-fancyhat.png
+    armor-head-goggles.png
+    armor-head-leathergoggles.png
     armor-head-minershat.png
+    armor-head-piratehat.png
+    armor-head-pumpkinhelmet.png
     armor-head-santahat.png
     armor-head-silkheadband.png
     armor-head-standardheadband.png
@@ -48,14 +56,14 @@ SET(FILES
     generic-smallmushroom.png
     generic-tealhint.png
     generic-treasurekey.png
-    generic-yellowhint.png
     generic-whitefur.png
+    generic-yellowhint.png
     use-food-apple.png
     use-food-beer.png
     use-food-bottleofwater.png
     use-food-cake.png
-    use-food-candy.png
     use-food-candycane.png
+    use-food-candy.png
     use-food-cherrycake.png
     use-food-chickenleg.png
     use-food-chocolatebar.png
