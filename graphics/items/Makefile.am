@@ -16,7 +16,7 @@ items_DATA = armor-chest-cottonshirt.png \
 	     armor-head-eyepatch.png \
 	     armor-head-fancyhat.png \
 	     armor-head-goggles.png \
-	     armor-head-leather-goggles \
+	     armor-head-leathergoggles.png \
 	     armor-head-minershat.png \
 	     armor-head-piratehat.png \
 	     armor-head-pumpkinhelmet.png \
