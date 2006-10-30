@@ -37,22 +37,22 @@ sprites_DATA =				\
 	item009.xml			\
 	item010.png			\
 	item010.xml			\
-	item11.png			\
-	item11.xml			\
-	item12.png			\
-	item12.xml			\
-	item13.png			\
-	item13.xml			\
-	item14.png			\
-	item14.xml			\
-	item15.png			\
-	item15.xml			\
-	item16.png			\
-	item16.xml			\
-	item17.png			\
-	item17.xml			\
-	item18.png			\
-	item18.xml			\
+	item011.png			\
+	item011.xml			\
+	item012.png			\
+	item012.xml			\
+	item013.png			\
+	item013.xml			\
+	item014.png			\
+	item014.xml			\
+	item015.png			\
+	item015.xml			\
+	item016.png			\
+	item016.xml			\
+	item017.png			\
+	item017.xml			\
+	item018.png			\
+	item018.xml			\
 	monster0.png			\
 	monster0.xml			\
 	monster1.png			\
