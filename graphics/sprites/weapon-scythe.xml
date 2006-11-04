@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<sprite name="player" action="stand">
+	<imageset name="scythe" src="graphics/sprites/weapon2.png" width="64" height="64" />
+
+	<action name="default" imageset="scythe">
+	</action>
+
+	<action name="attack" imageset="scythe">
+		<animation direction="down">
+			<sequence start="0" end="3" delay="75" />
+		 	<end />
+		</animation>
+		<animation direction="left">
+			<sequence start="4" end="7" delay="75" />
+		  	<end />
+		</animation>
+		<animation direction="up">
+			<sequence start="8" end="11" delay="75" />
+		  	<end />
+		</animation>
+		<animation direction="right">
+			<sequence start="12" end="15" delay="75" />
+		 	 <end />
+		</animation>
+	</action>
+</sprite>
