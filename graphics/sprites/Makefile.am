@@ -100,18 +100,18 @@ sprites_DATA =				\
 	monster22.png			\
 	monster22.xml			\
 	npcs.png			\
-	npc.xml			\
+	npc.xml				\
 	player_female_base.png		\
 	player_female_base.xml		\
 	player_male_base.png		\
-	player_male_base.xml			\
+	player_male_base.xml		\
 	weapon0.png			\
 	weapon1.png			\
-	weapon2.png		\
-    weapon_bow.xml	\
-    weapon_dagger.xml	\
-    weapon_fist.xml		\
-    weapon_scythe.xml	
+	weapon2.png			\
+	weapon_bow.xml			\
+	weapon_dagger.xml		\
+	weapon_fist.xml			\
+	weapon_scythe.xml
 
 EXTRA_DIST =				\
 	$(sprites_DATA)
