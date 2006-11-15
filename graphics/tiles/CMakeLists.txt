@@ -15,6 +15,8 @@ SET(FILES
     snowset.png
     trans_woodland-desert.png
     Woodland_ground.png
+    Woodland_village.png
+    Woodland_village_x2.png
     Woodland_x2.png
     Woodland_x3.png
     )

@@ -16,6 +16,8 @@ SET(FILES
     new_15-1.tmx.gz
     new_16-1.tmx.gz
     new_17-1.tmx.gz
+    new_18-1.tmx.gz
+    new_19-1.tmx.gz
     )
 
 INSTALL(FILES ${FILES} DESTINATION ${DATA_DIR}/maps)
