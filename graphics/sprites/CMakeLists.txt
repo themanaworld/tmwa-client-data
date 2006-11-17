@@ -105,10 +105,10 @@ SET(FILES
     weapon0.png
     weapon1.png
     weapon2.png
-    weapon_bow.xml
-    weapon_dagger.xml
-    weapon_fist.xml
-    weapon_scythe.xml
+    weapon-bow.xml
+    weapon-dagger.xml
+    weapon-fist.xml
+    weapon-scythe.xml
     )
 
 INSTALL(FILES ${FILES} DESTINATION ${DATA_DIR}/graphics/sprites)
