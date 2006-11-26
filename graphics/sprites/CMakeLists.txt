@@ -1,5 +1,10 @@
 SET(FILES
-    emotions.png
+	chest-leather-male.png
+	chest-leather-male.xml
+	chest-leather-female.png
+	chest-leather-female.xml
+	emotions.png
+	error.png
     hairstyle1.png
     hairstyle1.xml
     hairstyle2.png
@@ -18,8 +23,6 @@ SET(FILES
     item001.xml
     item002.png
     item002.xml
-    item003.png
-    item003.xml
     item004.png
     item004.xml
     item005.png

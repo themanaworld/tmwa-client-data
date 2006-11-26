@@ -2,7 +2,12 @@
 spritesdir = $(pkgdatadir)/data/graphics/sprites
 
 sprites_DATA =				\
+	chest-leather-male.png	\
+	chest-leather-male.xml	\
+	chest-leather-female.png	\
+	chest-leather-female.xml	\
 	emotions.png			\
+	error.xml				\
 	hairstyle1.png			\
 	hairstyle1.xml			\
 	hairstyle2.png			\
@@ -21,8 +26,6 @@ sprites_DATA =				\
 	item001.xml			\
 	item002.png			\
 	item002.xml			\
-	item003.png			\
-	item003.xml			\
 	item004.png			\
 	item004.xml			\
 	item005.png			\
