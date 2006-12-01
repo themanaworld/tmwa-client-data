@@ -1,39 +1,52 @@
 <monsters>
    	<monster id="0" name="Maggot">
     	<sprite>monster-maggot.xml</sprite>
-       	<sound event="hit">monster-maggot-hit.ogg</sound>
-       	<sound event="miss">monster-maggot-miss.ogg</sound>
-       	<sound event="hurt">monster-maggot-hurt.ogg</sound>
-       	<sound event="die">monster-maggot-die-1.ogg</sound>
-       	<sound event="die">monster-maggot-die-2.ogg</sound>
    	</monster>
-   
+
    	<monster id="1" name="Scorpion">
-       <sprite>monster-scorpion.xml</sprite>
+        <sprite>monster-scorpion.xml</sprite>
+        <sound event="hit">scorpion-hit1.ogg</sound>
+        <sound event="hit">scorpion-hit2.ogg</sound>
+        <sound event="hit">scorpion-hit3.ogg</sound>
+        <sound event="hit">scorpion-hit4.ogg</sound>
+        <sound event="miss">scorpion-miss1.ogg</sound>
    	</monster>
-   
+
    	<monster id="2" name="Red Scorpion">
    		<sprite>monster-scorpion-red.xml</sprite>
+        <sound event="hit">scorpion-hit1.ogg</sound>
+        <sound event="hit">scorpion-hit2.ogg</sound>
+        <sound event="hit">scorpion-hit3.ogg</sound>
+        <sound event="hit">scorpion-hit4.ogg</sound>
+        <sound event="miss">scorpion-miss1.ogg</sound>
    	</monster>
-   
+
    	<monster id="3" name="Green Slime">
    		<sprite>monster-slime-green.xml</sprite>
+   		<sound event="hit">slime-hit1.ogg</sound>
    	</monster>
-   
+
 	<monster id="4" name="Giant Maggot">
 		<sprite>monster-maggot-giant.xml</sprite>
    	</monster>
-   	
+
    	<monster id="5" name="Yellow Slime">
    		<sprite>monster-slime-yellow.xml</sprite>
+   		<sound event="hit">slime-hit1.ogg</sound>
    	</monster>
 
     <monster id="6" name="Red Slime">
         <sprite>monster-slime-red.xml</sprite>
+        <sound event="hit">slime-hit1.ogg</sound>
     </monster>
 
    	<monster id="7" name="Black Scorpion">
    		<sprite>monster-scorpion-black.xml</sprite>
+   		<sound event="hit">scorpion-hit1.ogg</sound>
+        <sound event="hit">scorpion-hit2.ogg</sound>
+        <sound event="hit">scorpion-hit3.ogg</sound>
+        <sound event="hit">scorpion-hit4.ogg</sound>
+        <sound event="miss">scorpion-miss1.ogg</sound>
    	</monster>
 
    	<monster id="8" name="Snake">
@@ -42,6 +55,9 @@
 
    	<monster id="9" name="Fire Goblin">
    		<sprite>monster-goblin-fire.xml</sprite>
+   		<sound event="hit">fire-goblin-hit1.ogg</sound>
+   		<sound event="hit">fire-goblin-hit2.ogg</sound>
+   		<sound event="miss">fire-goblin-miss1.ogg</sound>
    	</monster>
 
     <monster id="10" name="Spider">
@@ -50,10 +66,14 @@
 
     <monster id="11" name="Evil Mushroom">
        <sprite>monster-mushroom-red.xml</sprite>
+       <sound event="hit">shroom-hit1.ogg</sound>
     </monster>
 
     <monster id="12" name="Flower">
        <sprite>monster-flower.xml</sprite>
+       <sound event="hit">flower-hit1.ogg</sound>
+       <sound event="hit">flower-hit2.ogg</sound>
+       <sound event="miss">flower-miss1.ogg</sound>
     </monster>
 
     <monster id="13" name="Santa Slime">
@@ -66,6 +86,8 @@
 
     <monster id="15" name="Bat">
        <sprite>monster-bat.xml</sprite>
+       <sound event="die">bat-dying1.ogg</sound>
+       <sound event="hit">bat-hit1.ogg</sound>
     </monster>
 
     <monster id="16" name="Pinkie">
@@ -74,10 +96,16 @@
 
     <monster id="17" name="Spiky Mushroom">
        <sprite>monster-mushroom-spiky.xml</sprite>
+       <sound event="hit">shroom-hit1.ogg</sound>
     </monster>
 
     <monster id="18" name="Fluffy">
        <sprite>monster-fluffy.xml</sprite>
+       <sound event="hit">fluffy-hit1.ogg</sound>
+       <sound event="hit">fluffy-hit2.ogg</sound>
+       <sound event="hit">fluffy-hit3.ogg</sound>
+       <sound event="miss">fluffy-miss1.ogg</sound>
+       <sound event="hurt">fluffy-hurt1.ogg</sound>
     </monster>
 
     <monster id="19" name="Cave Snake">
@@ -95,5 +123,5 @@
     <monster id="22" name="Poison Skull">
         <sprite>monster-skull-poison.xml</sprite>
     </monster>
-   
+
 </monsters>

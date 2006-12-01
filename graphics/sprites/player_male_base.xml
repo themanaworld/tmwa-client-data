@@ -1,9 +1,15 @@
 <?xml version="1.0"?>
 <sprite name="player" action="stand">
 
-	<imageset name="base" src="graphics/sprites/player_male_base.png" width="64" height="64" />
+	<imageset name="base" 
+		src=      "graphics/sprites/player_male_base.png" 
+		width=    "64" 
+		height=   "64" 
+	/>
 
-	<action name="stand" imageset="base">
+	<action name   =    "stand" 
+				imageset 	 = "base"
+				>
 		<animation direction="down">
 		  <frame index="0" />
 		</animation>
