@@ -3,6 +3,14 @@ SET(FILES
 	chest-leather-male.xml
 	chest-leather-female.png
 	chest-leather-female.xml
+    chest-tnecksweater-male.png
+    chest-tnecksweater-male.xml
+    chest-tnecksweater-female.png
+    chest-tnecksweater-female.xml
+    chest-vnecksweater-male.png
+    chest-vnecksweater-male.xml
+    chest-vnecksweater-female.png
+    chest-vnecksweater-female.xml
 	emotions.png
 	error.png
     hairstyle1.png

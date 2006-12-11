@@ -4,7 +4,8 @@ itemsdir = $(pkgdatadir)/data/graphics/items
 items_DATA = armor-chest-cottonshirt.png \
 	     armor-chest-desertshirt.png \
 	     armor-chest-leathershirt.png \
-	     armor-chest-woolsweater.png \
+    	 armor-chest-tnecksweater.png \
+    	 armor-chest-vnecksweater.png \
 	     armor-feet-boots.png \
 	     armor-hands-leathergloves.png \
 	     armor-hands-minergloves.png \
