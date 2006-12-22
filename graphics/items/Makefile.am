@@ -4,15 +4,17 @@ itemsdir = $(pkgdatadir)/data/graphics/items
 items_DATA = armor-chest-cottonshirt.png \
 	     armor-chest-desertshirt.png \
 	     armor-chest-leathershirt.png \
-    	 armor-chest-tnecksweater.png \
-    	 armor-chest-vnecksweater.png \
+	     armor-chest-tnecksweater.png \
+	     armor-chest-vnecksweater.png \
 	     armor-feet-boots.png \
 	     armor-hands-leathergloves.png \
 	     armor-hands-minergloves.png \
 	     armor-hands-scarabarmlet.png \
 	     armor-hands-wintergloves.png \
+	     armor-head-antlerhat.png \
 	     armor-head-axehat.png \
 	     armor-head-bandana.png \
+	     armor-head-christmastree.png \
 	     armor-head-circlet.png \
 	     armor-head-eyepatch.png \
 	     armor-head-fancyhat.png \
@@ -21,6 +23,8 @@ items_DATA = armor-chest-cottonshirt.png \
 	     armor-head-minershat.png \
 	     armor-head-piratehat.png \
 	     armor-head-pumpkinhelmet.png \
+	     armor-head-rangerhat.png \
+	     armor-head-santabeardhat.png \
 	     armor-head-santahat.png \
 	     armor-head-silkheadband.png \
 	     armor-head-standardheadband.png \
@@ -55,6 +59,7 @@ items_DATA = armor-chest-cottonshirt.png \
 	     generic-rawlog.png \
 	     generic-redhint.png \
 	     generic-redscorpionstinger.png \
+	     generic-redstocking.png \
 	     generic-scorpionstinger.png \
 	     generic-smallmushroom.png \
 	     generic-tealhint.png \

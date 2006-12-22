@@ -1,8 +1,8 @@
 SET(FILES
-	chest-leather-male.png
-	chest-leather-male.xml
-	chest-leather-female.png
-	chest-leather-female.xml
+    chest-leather-male.png
+    chest-leather-male.xml
+    chest-leather-female.png
+    chest-leather-female.xml
     chest-tnecksweater-male.png
     chest-tnecksweater-male.xml
     chest-tnecksweater-female.png
@@ -11,8 +11,8 @@ SET(FILES
     chest-vnecksweater-male.xml
     chest-vnecksweater-female.png
     chest-vnecksweater-female.xml
-	emotions.png
-	error.png
+    emotions.png
+    error.png
     hairstyle1.png
     hairstyle1.xml
     hairstyle2.png
@@ -27,6 +27,14 @@ SET(FILES
     hairstyle6.xml
     hairstyle7.png
     hairstyle7.xml
+    head-antlerhat.png
+    head-antlerhat.xml
+    head-christmastree.xml
+    head-christmastreehat.png
+    head-rangerhat.png
+    head-rangerhat.xml
+    head-santabeardhat.png
+    head-santabeardhat.xml
     item001.png
     item001.xml
     item002.png

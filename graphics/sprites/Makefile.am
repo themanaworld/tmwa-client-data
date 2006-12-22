@@ -2,20 +2,20 @@
 spritesdir = $(pkgdatadir)/data/graphics/sprites
 
 sprites_DATA =				\
-	chest-leather-male.png	\
-	chest-leather-male.xml	\
+	chest-leather-male.png		\
+	chest-leather-male.xml		\
 	chest-leather-female.png	\
 	chest-leather-female.xml	\
-    chest-tnecksweater-male.png	\
-    chest-tnecksweater-male.xml	\
-    chest-tnecksweater-female.png	\
-    chest-tnecksweater-female.xml	\
-    chest-vnecksweater-male.png	\
-    chest-vnecksweater-male.xml	\
-    chest-vnecksweater-female.png	\
-    chest-vnecksweater-female.xml	\
+	chest-tnecksweater-male.png	\
+	chest-tnecksweater-male.xml	\
+	chest-tnecksweater-female.png	\
+	chest-tnecksweater-female.xml	\
+	chest-vnecksweater-male.png	\
+	chest-vnecksweater-male.xml	\
+	chest-vnecksweater-female.png	\
+	chest-vnecksweater-female.xml	\
 	emotions.png			\
-	error.xml				\
+	error.xml			\
 	hairstyle1.png			\
 	hairstyle1.xml			\
 	hairstyle2.png			\
@@ -30,6 +30,14 @@ sprites_DATA =				\
 	hairstyle6.xml			\
 	hairstyle7.png			\
 	hairstyle7.xml			\
+	head-antlerhat.png		\
+	head-antlerhat.xml		\
+	head-christmastree.xml		\
+	head-christmastreehat.png	\
+	head-rangerhat.png		\
+	head-rangerhat.xml		\
+	head-santabeardhat.png		\
+	head-santabeardhat.xml		\
 	item001.png			\
 	item001.xml			\
 	item002.png			\
@@ -64,52 +72,52 @@ sprites_DATA =				\
 	item017.xml			\
 	item018.png			\
 	item018.xml			\
-	monster-bat.png		\
-    monster-bat.xml		\
-    monster-flower.png		\
-    monster-flower.xml		\
-    monster-fluffy.png		\
-    monster-fluffy.xml		\
-    monster-ghost-pumpkin.png		\
-    monster-ghost-pumpkin.xml		\
-    monster-goblin-fire.png		\
-    monster-goblin-fire.xml		\
-    monster-maggot-giant.png		\
-    monster-maggot-giant.xml		\
-    monster-maggot.png		\
-    monster-maggot.xml		\
-    monster-mushroom-red.png		\
-    monster-mushroom-red.xml		\
-    monster-mushroom-spiky.png		\
-    monster-mushroom-spiky.xml		\
-    monster-pinkie.png		\
-    monster-pinkie.xml		\
-    monster-scorpion-black.png		\
-    monster-scorpion-black.xml		\
-    monster-scorpion-red.png		\
-    monster-scorpion-red.xml		\
-    monster-scorpion.png		\
-    monster-scorpion.xml		\
-    monster-skull-fire.png		\
-    monster-skull-fire.xml		\
-    monster-skull-poison.png		\
-    monster-skull-poison.xml		\
-    monster-slime-green.png		\
-    monster-slime-green.xml		\
-    monster-slime-red.png		\
-    monster-slime-red.xml		\
-    monster-slime-rudolph.png		\
-    monster-slime-rudolph.xml		\
-    monster-slime-santa.png		\
-    monster-slime-santa.xml		\
-    monster-slime-yellow.png		\
-    monster-slime-yellow.xml		\
-    monster-snake-cave.png		\
-    monster-snake-cave.xml		\
-    monster-snake.png		\
-    monster-snake.xml		\
-    monster-spider.png		\
-    monster-spider.xml		\
+	monster-bat.png			\
+	monster-bat.xml			\
+	monster-flower.png		\
+	monster-flower.xml		\
+	monster-fluffy.png		\
+	monster-fluffy.xml		\
+	monster-ghost-pumpkin.png	\
+	monster-ghost-pumpkin.xml	\
+	monster-goblin-fire.png		\
+	monster-goblin-fire.xml		\
+	monster-maggot-giant.png	\
+	monster-maggot-giant.xml	\
+	monster-maggot.png		\
+	monster-maggot.xml		\
+	monster-mushroom-red.png	\
+	monster-mushroom-red.xml	\
+	monster-mushroom-spiky.png	\
+	monster-mushroom-spiky.xml	\
+	monster-pinkie.png		\
+	monster-pinkie.xml		\
+	monster-scorpion-black.png	\
+	monster-scorpion-black.xml	\
+	monster-scorpion-red.png	\
+	monster-scorpion-red.xml	\
+	monster-scorpion.png		\
+	monster-scorpion.xml		\
+	monster-skull-fire.png		\
+	monster-skull-fire.xml		\
+	monster-skull-poison.png	\
+	monster-skull-poison.xml	\
+	monster-slime-green.png		\
+	monster-slime-green.xml		\
+	monster-slime-red.png		\
+	monster-slime-red.xml		\
+	monster-slime-rudolph.png	\
+	monster-slime-rudolph.xml	\
+	monster-slime-santa.png		\
+	monster-slime-santa.xml		\
+	monster-slime-yellow.png	\
+	monster-slime-yellow.xml	\
+	monster-snake-cave.png		\
+	monster-snake-cave.xml		\
+	monster-snake.png		\
+	monster-snake.xml		\
+	monster-spider.png		\
+	monster-spider.xml		\
 	npcs.png			\
 	npc.xml				\
 	player_female_base.png		\
