@@ -12,7 +12,7 @@ SET(FILES
     chest-vnecksweater-female.png
     chest-vnecksweater-female.xml
     emotions.png
-    error.png
+    error.xml
     hairstyle1.png
     hairstyle1.xml
     hairstyle2.png
