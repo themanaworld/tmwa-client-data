@@ -1,4 +1,8 @@
 SET(FILES
+    chest-cotton-male.xml
+    chest-cotton-male.png
+    chest-cotton-female.xml
+    chest-cotton-female.png
     chest-leather-male.png
     chest-leather-male.xml
     chest-leather-female.png
@@ -35,8 +39,6 @@ SET(FILES
     head-rangerhat.xml
     head-santabeardhat.png
     head-santabeardhat.xml
-    item001.png
-    item001.xml
     item002.png
     item002.xml
     item004.png
