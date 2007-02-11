@@ -1,4 +1,8 @@
 SET(FILES
+    chest-chainmail-female.png
+    chest-chainmail-female.xml
+    chest-chainmail-male.png
+    chest-chainmail-male.xml
     chest-cotton-male.xml
     chest-cotton-male.png
     chest-cotton-female.xml
@@ -41,10 +45,8 @@ SET(FILES
     head-santabeardhat.xml
     item002.png
     item002.xml
-    item004.png
-    item004.xml
-    item005.png
-    item005.xml
+    item003.png
+    item003.xml
     item006.png
     item006.xml
     item007.png
