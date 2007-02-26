@@ -1,6 +1,10 @@
 <monsters>
     <monster id="0" name="Maggot">
         <sprite>monster-maggot.xml</sprite>
+        <sound event="hit">maggot-hit1.ogg</sound>
+        <sound event="hit">maggot-hit2.ogg</sound>
+        <sound event="miss">maggot-miss1.ogg</sound>
+        <sound event="die">maggot-dying1.ogg</sound>
     </monster>
 
     <monster id="1" name="Scorpion">
@@ -28,6 +32,10 @@
 
     <monster id="4" name="Giant Maggot">
         <sprite>monster-maggot-giant.xml</sprite>
+        <sound event="hit">maggot-hit1.ogg</sound>
+        <sound event="hit">maggot-hit2.ogg</sound>
+        <sound event="miss">maggot-miss1.ogg</sound>
+        <sound event="die">maggot-dying1.ogg</sound>
     </monster>
 
     <monster id="5" name="Yellow Slime">
@@ -50,7 +58,7 @@
     </monster>
 
     <monster id="8" name="Snake">
-        <sprite>monster-mountsnake.xml</sprite>
+        <sprite>monster-snake.xml</sprite>
     </monster>
 
     <monster id="9" name="Fire Goblin">
@@ -92,6 +100,8 @@
 
     <monster id="16" name="Pinkie">
         <sprite>monster-pinkie.xml</sprite>
+        <sound event="hit">pinkie-hit1.ogg</sound>
+        <sound event="miss">pinkie-miss1.ogg</sound>
     </monster>
 
     <monster id="17" name="Spiky Mushroom">
