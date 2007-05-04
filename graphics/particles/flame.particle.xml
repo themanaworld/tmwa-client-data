@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<effect>
+	<particle
+		position-x = "17"
+		position-y = "0"
+		position-z = "32"
+		>
+		<emitter>
+			<property name="horizontal-angle" min="0" max="360"/>
+			<property name="vertical-angle" min="0" max="90"/>
+			<property name="power" min="0.25" max="0.5"/>
+			<property name="gravity" value="-0.05"/>
+			<property name="image" value="graphics/particles/blaze.png"/>
+			<property name="lifetime" min="20" max="30"/>
+			<property name="output" min="0" max="4"/>
+			<property name="fade-in" value="0"/>
+			<property name="fade-out" value="30"/>
+		</emitter>
+	</particle>
+</effect>
