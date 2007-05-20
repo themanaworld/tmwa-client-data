@@ -1,5 +1,5 @@
 <monsters>
-    <monster id="0" name="Maggot">
+    <monster id="0" name="Maggot" targetCursor="small">
         <sprite>monster-maggot.xml</sprite>
         <sound event="hit">maggot-hit1.ogg</sound>
         <sound event="hit">maggot-hit2.ogg</sound>
@@ -30,7 +30,7 @@
         <sound event="hit">slime-hit1.ogg</sound>
     </monster>
 
-    <monster id="4" name="Giant Maggot">
+    <monster id="4" name="Giant Maggot" targetCursor="large">
         <sprite>monster-maggot-giant.xml</sprite>
         <sound event="hit">maggot-hit1.ogg</sound>
         <sound event="hit">maggot-hit2.ogg</sound>
@@ -98,7 +98,7 @@
         <sound event="hit">bat-hit1.ogg</sound>
     </monster>
 
-    <monster id="16" name="Pinkie">
+    <monster id="16" name="Pinkie" targetCursor="small">
         <sprite>monster-pinkie.xml</sprite>
         <sound event="hit">pinkie-hit1.ogg</sound>
         <sound event="miss">pinkie-miss1.ogg</sound>
