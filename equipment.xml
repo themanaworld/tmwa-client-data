@@ -90,4 +90,61 @@
         <sprite gender="male">chest-lightplatemail-male.xml</sprite>
         <sprite gender="female">chest-lightplatenmail-female.xml</sprite>
     </equipment>
+
+	<!--
+	eAthenas equipment IDs for the local characters weapons
+	-->
+    <equipment id="623" slot="0" attacktype="swing">
+    	<sprite>weapon-scythe.xml</sprite>
+    </equipment>
+
+    <equipment id="1200" slot="0" attacktype="bow">
+    	<sprite>weapon-bow.xml</sprite>
+    	<sound event="swing">bow_shoot_1.ogg</sound>
+    </equipment>
+    <equipment id="530" slot="0" attacktype="bow">
+    	<sprite>weapon-bow.xml</sprite>
+    	<sound event="swing">bow_shoot_1.ogg</sound>
+    </equipment>
+    <equipment id="545" slot="0" attacktype="bow">
+    	<sprite>weapon-bow.xml</sprite>
+    	<sound event="swing">bow_shoot_1.ogg</sound>
+    </equipment>
+
+    <equipment id="521" slot="0" attacktype="stab">
+    	<sprite>weapon-dagger.xml</sprite>
+    	<sound event="strike">short-sword-miss1.ogg</sound>
+    	<sound event="hit">short-sword-hit1.ogg</sound>
+    </equipment>
+    <equipment id="522" slot="0" attacktype="stab">
+    	<sprite>weapon-dagger.xml</sprite>
+    	<sound event="strike">short-sword-miss1.ogg</sound>
+    	<sound event="hit">short-sword-hit1.ogg</sound>
+    </equipment>
+    <equipment id="536" slot="0" attacktype="stab">
+    	<sprite>weapon-dagger.xml</sprite>
+    	<sound event="strike">short-sword-miss1.ogg</sound>
+    	<sound event="hit">short-sword-hit1.ogg</sound>
+    </equipment>
+    <equipment id="1201" slot="0" attacktype="stab">
+    	<sprite>weapon-dagger.xml</sprite>
+    	<sound event="strike">short-sword-miss1.ogg</sound>
+    	<sound event="hit">short-sword-hit1.ogg</sound>
+    </equipment>
+
+    <!--
+	eAthenas equipment IDs for remote characters weapons
+	All numbers are * 10.000 to avoid collisions with the lower ID
+	equipment pieces
+    -->
+    <equipment id="10000" slot="0" attacktype="stab">
+    	<sprite>weapon-dagger.xml</sprite>
+    </equipment>
+    <equipment id="20000" slot="0" attacktype="bow">
+    	<sprite>weapon-bow.xml</sprite>
+    </equipment>
+    <equipment id="30000" slot="0" attacktype="swing">
+    	<sprite>weapon-scythe.xml</sprite>
+    </equipment>
+
 </equipments>
