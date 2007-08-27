@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<map version="0.99b" orientation="orthogonal" width="160" height="100" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="Magick - Casino.ogg"/>
+ </properties>
+ <tileset name="INN Tilleset" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png"/>
+ </tileset>
+ <tileset name="Collision" firstgid="257" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <layer name="Ground" width="160" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3cvW4UMRDAcV9IwmeKC99FkALiq0iR8FEALR2UdMkbJG9AAzVNqGmgTgl5AIR4AkC8SSgZC68wg317ubs9j7X/4idn7Y1uMh6tN5EyR865IwAAAAAAAAAAAAAAAAAAAAAAAPTGQCyKE2FcCuOyOClOidPRfcuGYl4IcTfj4oixi7gHic9eiD5vEMZn0b3NdekcWjEUq2E8r64viyviari+EUYLMV+I4llV48UwPlXzXeYuHps8NrbVPdsGcmjFurieGW+LO+KumrcScy7uW2F80XHcudw1Xzd21T27BnJoxWbCvnibWds0GnPs+Zzibouj8SZxXTqHVsR5uRfG9+LDiHxaijllZ05x67zlvEtcl86hFT4fH8UncZjJn14vGe9PFdtWIt69zFpX9dfmIHFdet+t8Pk4I86Kc5n8fXF/zrSvHe3jrPfd2vlr8Qyxwufim/gufmRy5dd3onULMWvxGTjv85f6m20OX4nXam7P2cld2976WFPvZLOOI3X2U3+T7eUj8Vg8qSB3VvY8rr+2dxhrObTCwj7Wiuff9OKcjMpnvFY6Ziuov+mRu/n5ZSAGa6g/lET9wRrOCQAAAAAAAAAAAAAAAAAAAAAAAACe7v8c9yvW89b6Qev+y0vub9/ltnndN7pZL70ffTN0//cw1v2Kc/2gu+qrPEnsuuey7g09VNf3xQPxUNyM1kvvR9/E/ZLj/sR+vORG94Nuvq9k7Lr/8vqY87l7Su9H36T+v/xlZj7XF8ZS7NMqvR9943O+7/7tN+77Y19TqD90tYe637jul13z82/lGD8L9VdmD7eUg8Rc3F9Rr1muv7XM/OeA+rNXf21WXD31t5GZp/5siM/Rca25euqP9z/bJqm/DWer/o7Te7l0vpHew3FrL3V/6dh5vtVrkudfTb9/UH+2UX8oifpDSTXXXwq9g+vC3yxQEvWHmnC+AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoKTf1CpYOwD6AAA=
+  </data>
+  <tileproperties/>
+ </layer>
+ <layer name="Fringe" width="160" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3duW4UQRDG8X4CCJEA+TWAwAGHZI4I7IBDQoKIIwISwCICJIxD4AmAB+DMEUfOKRFCQGYsWI6UanlbW7R6Zjze7enu2f9P+rQz22NPa12ew9bWGgMAAAAAAAAAAAAAAAAAAAAAAAAA3bguuVExtqXLiUR2M/UEEHRHcne4vCjZl3AuG7V3HeP3Iux3RnJQciiwvF9yIMI+++a+5MFweVmyoMZ2SHZKdg3Xj3Q4rzbmh4+7a8YfRtr3ccmJwPJRybFI++yTR5LHKk9ajufIr0P7e7Mn0r7OSc4Hls9IzqrtTklOSw5HmkepXnjrL1uOp/RU8kzlecV2tvYWKsa6ckFyUXIp8TxyU3L9vZK8VnlTs23TNSLSsPW1VbJNst3U199cYDylD5KPKp8qtrO1V3VtOEmXO9hH37yVvFN5XzFuKsZz5NfafOC5GG51sI8++1wzNmvyuf+18xiodb+2Zjuci3XFW1/seP+lsz8/fQ7u4ljRJ0tm7fW7atZev+W008GUup16AgX7Jfk9XP4WGOf+ETGErun+qOVNks1m9D8GIKVB8yYAAAAAAAAAAAAAAAAAAAAAAAAAABThb+oJoHfq+kb7qD9Mmu4bXTrXtxnpufeXu74H7tHS/aB13+hUBmYy74d3fZtnJvC9MJ71/jzbnH9zp/s2Iw9N9VXC+df15dP9+FbN/z3VS+inPo2a6iuH829TT66l4aPux2frT/cUzqmf8DRaUfmunvfrS/enzIXuyRXqvWyPfyfN6Phn++BTf4gh1HvZHv9sL153/LO95mz96Z7XJfSz7rNx7iHnJjmRDdK9l68Zei+XJvR3liZd9/eu43ovu2sDei+XZcVUXwMCsbU57uWm7Wd1xvoMOGycX3+r3vgXydfuptNKm890s7WXy+eXYMTdf7g68+vvh+SnWvd749MPGuNwdefqzK8/n+6Nn/OxEWVwdeeOY031F/paAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJgG/wCcXA4cAPoAAA==
+  </data>
+  <tileproperties/>
+ </layer>
+ <layer name="Top" width="160" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3cMQ3AMBADwOdROuVQCIVQBIEQCOHZJfNvr7TRneTJixE4AgAAAAAAAAAAAAAAAAAA4N/O1QMAYEMt6a4ZqNKT7p6BKiPpnhnY2bF6AAAAAAAAAAAAAAAAAAAAAAAAAAB8XIv8wxcq9cg/fKHSiPzDFwAAAAAAAAAAAAAAAAAAAAAAAAAAANjXC+YJdOsA+gAA
+  </data>
+  <tileproperties/>
+ </layer>
+ <layer name="Collision" width="160" height="100" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3cS47CMBAFQIb7HxrNDlmOPzFJd5KyVBokgnh53cMO3n+v1xsAAAAAAAAAAAAAAAAAgMP9n+/HtVNeF5l1K9f33+/nz+is9fiMPFe052TPfNa8Z/aPfbPMtn+j+c7av+x9ZVf2MzLTDJln9u+ozCsnusMsyi56fWXobmS2Z8y69769jMz1laW7maxH5u29by8j9T5afWXqrpYtYv9az9m/foez/UVnzsL+/a7DmROdOYtaLzpc67DVl+7Wu47OkNHo/6n949dmT3Re7s+eAQAAAAAAAAAAAAAAAABAjNHvl2/9FkKG7wqvnuj8Tzazf7XrIue3d9cy3stT9T4PWnOMntnIrpXX9l4XPY+nmZnb1muy5bd/1zU6lywza+1VeV3vHqPv5Yn2nPJ1GbLX7qW8tnXP0XN4uj37V841IvPsvUT3TH+mo/sXPVP7d0+z5yo57V9eK+cquaM7pj/HcqYjc86Q2+7dx8z+RWetZY/OwPoMfaYQxf6Rlb0DAAAAAAAAAAAAAAAAAAAAINIH9eb5dAD6AAA=
+  </data>
+  <tileproperties/>
+ </layer>
+</map>
