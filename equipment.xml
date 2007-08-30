@@ -4,89 +4,89 @@
     animation files.
 -->
 <equipments>
-    <equipment id="1" slot="0">
+    <equipment id="1202" slot="0">
         <sprite gender="male">chest-cotton-male.xml</sprite>
         <sprite gender="female">chest-cotton-female.xml</sprite>
     </equipment>
-    <equipment id="2" slot="0">
+    <equipment id="546" slot="0">
         <sprite>item002.xml</sprite>
     </equipment>
-    <equipment id="3" slot="0">
+    <equipment id="523" slot="0">
         <sprite gender="male">chest-leather-male.xml</sprite>
         <sprite gender="female">chest-leather-female.xml</sprite>
     </equipment>
-    <equipment id="4" slot="0">
+    <equipment id="586" slot="0">
         <sprite gender="male">leg-cotton-male.xml</sprite>
         <sprite gender="female">leg-cotton-female.xml</sprite>
     </equipment>
-    <equipment id="5" slot="0">
+    <equipment id="610" slot="0">
         <sprite gender="male">leg-jeans-male.xml</sprite>
         <sprite gender="female">leg-jeans-female.xml</sprite>
     </equipment>
-    <equipment id="6" slot="0">
+    <equipment id="544" slot="0">
         <sprite>item006.xml</sprite>
     </equipment>
-    <equipment id="7" slot="0">
+    <equipment id="543" slot="0">
         <sprite>item007.xml</sprite>
     </equipment>
-    <equipment id="8" slot="0">
+    <equipment id="524" slot="0">
         <sprite>item008.xml</sprite>
     </equipment>
-    <equipment id="9" slot="0">
+    <equipment id="525" slot="0">
         <sprite>item009.xml</sprite>
     </equipment>
-    <equipment id="10" slot="0">
+    <equipment id="511" slot="0">
         <sprite>item010.xml</sprite>
     </equipment>
-    <equipment id="11" slot="0">
+    <equipment id="615" slot="0">
         <sprite>item011.xml</sprite>
     </equipment>
-    <equipment id="12" slot="0">
+    <equipment id="616" slot="0">
         <sprite>item012.xml</sprite>
     </equipment>
-    <equipment id="13" slot="0">
+    <equipment id="617" slot="0">
         <sprite>item013.xml</sprite>
     </equipment>
-    <equipment id="14" slot="0">
+    <equipment id="618" slot="0">
         <sprite>item014.xml</sprite>
     </equipment>
-    <equipment id="15" slot="0">
+    <equipment id="619" slot="0">
         <sprite>item015.xml</sprite>
     </equipment>
-    <equipment id="16" slot="0">
+    <equipment id="620" slot="0">
         <sprite>item016.xml</sprite>
     </equipment>
-    <equipment id="17" slot="0">
+    <equipment id="621" slot="0">
         <sprite>item017.xml</sprite>
     </equipment>
-    <equipment id="18" slot="0">
+    <equipment id="622" slot="0">
         <sprite>item018.xml</sprite>
     </equipment>
-    <equipment id="19" slot="0">
+    <equipment id="624" slot="0">
         <sprite gender="male">chest-vnecksweater-male.xml</sprite>
         <sprite gender="female">chest-vnecksweater-female.xml</sprite>
     </equipment>
-    <equipment id="20" slot="0">
+    <equipment id="564" slot="0">
         <sprite gender="male">chest-tnecksweater-male.xml</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml</sprite>
     </equipment>
-    <equipment id="21" slot="0">
+    <equipment id="1203" slot="0">
         <sprite>head-rangerhat.xml</sprite>
     </equipment>
-    <equipment id="22" slot="0">
+    <equipment id="1204" slot="0">
         <sprite>head-antlerhat.xml</sprite>
     </equipment>
-    <equipment id="23" slot="0">
+    <equipment id="1205" slot="0">
         <sprite>head-christmastree.xml</sprite>
     </equipment>
-    <equipment id="24" slot="0">
+    <equipment id="1206" slot="0">
         <sprite>head-santabeardhat.xml</sprite>
     </equipment>
-    <equipment id="25" slot="0">
+    <equipment id="625" slot="0">
         <sprite gender="male">chest-chainmail-male.xml</sprite>
         <sprite gender="female">chest-chainmail-female.xml</sprite>
     </equipment>
-    <equipment id="26" slot="0">
+    <equipment id="626" slot="0">
         <sprite gender="male">chest-lightplatemail-male.xml</sprite>
         <sprite gender="female">chest-lightplatemail-female.xml</sprite>
     </equipment>
@@ -98,54 +98,13 @@
     <equipment id="623" slot="0" attacktype="swing">
         <sprite>weapon-scythe.xml</sprite>
     </equipment>
-
     <equipment id="1200" slot="0" attacktype="bow">
         <sprite>weapon-bow.xml</sprite>
         <sound event="swing">bow_shoot_1.ogg</sound>
     </equipment>
-    <equipment id="530" slot="0" attacktype="bow">
-        <sprite>weapon-bow.xml</sprite>
-        <sound event="swing">bow_shoot_1.ogg</sound>
-    </equipment>
-    <equipment id="545" slot="0" attacktype="bow">
-        <sprite>weapon-bow.xml</sprite>
-        <sound event="swing">bow_shoot_1.ogg</sound>
-    </equipment>
-
     <equipment id="521" slot="0" attacktype="stab">
         <sprite>weapon-dagger.xml</sprite>
         <sound event="strike">short-sword-miss1.ogg</sound>
         <sound event="hit">short-sword-hit1.ogg</sound>
     </equipment>
-    <equipment id="522" slot="0" attacktype="stab">
-        <sprite>weapon-dagger.xml</sprite>
-        <sound event="strike">short-sword-miss1.ogg</sound>
-        <sound event="hit">short-sword-hit1.ogg</sound>
-    </equipment>
-    <equipment id="536" slot="0" attacktype="stab">
-        <sprite>weapon-dagger.xml</sprite>
-        <sound event="strike">short-sword-miss1.ogg</sound>
-        <sound event="hit">short-sword-hit1.ogg</sound>
-    </equipment>
-    <equipment id="1201" slot="0" attacktype="stab">
-        <sprite>weapon-dagger.xml</sprite>
-        <sound event="strike">short-sword-miss1.ogg</sound>
-        <sound event="hit">short-sword-hit1.ogg</sound>
-    </equipment>
-
-    <!--
-    eAthenas equipment IDs for remote characters weapons
-    All numbers are * 10.000 to avoid collisions with the lower ID
-    equipment pieces
-    -->
-    <equipment id="10000" slot="0" attacktype="stab">
-        <sprite>weapon-dagger.xml</sprite>
-    </equipment>
-    <equipment id="20000" slot="0" attacktype="bow">
-        <sprite>weapon-bow.xml</sprite>
-    </equipment>
-    <equipment id="30000" slot="0" attacktype="swing">
-        <sprite>weapon-scythe.xml</sprite>
-    </equipment>
-
 </equipments>
