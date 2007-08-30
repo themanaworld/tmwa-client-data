@@ -95,6 +95,14 @@
     eAthenas equipment IDs for the local characters weapons
     (same as their item IDs)
     -->
+    <equipment id="623" slot="0" attacktype="swing">
+        <sprite>weapon-scythe.xml</sprite>
+    </equipment>
+
+    <equipment id="1200" slot="0" attacktype="bow">
+        <sprite>weapon-bow.xml</sprite>
+        <sound event="swing">bow_shoot_1.ogg</sound>
+    </equipment>
     <equipment id="530" slot="0" attacktype="bow">
         <sprite>weapon-bow.xml</sprite>
         <sound event="swing">bow_shoot_1.ogg</sound>
@@ -102,6 +110,12 @@
     <equipment id="545" slot="0" attacktype="bow">
         <sprite>weapon-bow.xml</sprite>
         <sound event="swing">bow_shoot_1.ogg</sound>
+    </equipment>
+
+    <equipment id="521" slot="0" attacktype="stab">
+        <sprite>weapon-dagger.xml</sprite>
+        <sound event="strike">short-sword-miss1.ogg</sound>
+        <sound event="hit">short-sword-hit1.ogg</sound>
     </equipment>
     <equipment id="522" slot="0" attacktype="stab">
         <sprite>weapon-dagger.xml</sprite>
@@ -134,124 +148,4 @@
         <sprite>weapon-scythe.xml</sprite>
     </equipment>
 
-    <equipment id="1202" slot="0">
-        <sprite gender="male">chest-cotton-male.xml</sprite>
-        <sprite gender="female">chest-cotton-female.xml</sprite>
-    </equipment>
-    <equipment id="546" slot="0">
-        <sprite>item002.xml</sprite>
-    </equipment>
-    <equipment id="523" slot="0">
-        <sprite gender="male">chest-leather-male.xml</sprite>
-        <sprite gender="female">chest-leather-female.xml</sprite>
-    </equipment>
-    <equipment id="586" slot="0">
-        <sprite gender="male">leg-cotton-male.xml</sprite>
-        <sprite gender="female">leg-cotton-female.xml</sprite>
-    </equipment>
-    <equipment id="610" slot="0">
-        <sprite gender="male">leg-jeans-male.xml</sprite>
-        <sprite gender="female">leg-jeans-female.xml</sprite>
-    </equipment>
-    <equipment id="544" slot="0">
-        <sprite>item006.xml</sprite>
-    </equipment>
-    <equipment id="543" slot="0">
-        <sprite>item007.xml</sprite>
-    </equipment>
-    <equipment id="524" slot="0">
-        <sprite>item008.xml</sprite>
-    </equipment>
-    <equipment id="525" slot="0">
-        <sprite>item009.xml</sprite>
-    </equipment>
-    <equipment id="511" slot="0">
-        <sprite>item010.xml</sprite>
-    </equipment>
-    <equipment id="615" slot="0">
-        <sprite>item011.xml</sprite>
-    </equipment>
-    <equipment id="616" slot="0">
-        <sprite>item012.xml</sprite>
-    </equipment>
-    <equipment id="617" slot="0">
-        <sprite>item013.xml</sprite>
-    </equipment>
-    <equipment id="618" slot="0">
-        <sprite>item014.xml</sprite>
-    </equipment>
-    <equipment id="619" slot="0">
-        <sprite>item015.xml</sprite>
-    </equipment>
-    <equipment id="620" slot="0">
-        <sprite>item016.xml</sprite>
-    </equipment>
-    <equipment id="621" slot="0">
-        <sprite>item017.xml</sprite>
-    </equipment>
-    <equipment id="622" slot="0">
-        <sprite>item018.xml</sprite>
-    </equipment>
-    <equipment id="624" slot="0">
-        <sprite gender="male">chest-vnecksweater-male.xml</sprite>
-        <sprite gender="female">chest-vnecksweater-female.xml</sprite>
-    </equipment>
-    <equipment id="564" slot="0">
-        <sprite gender="male">chest-tnecksweater-male.xml</sprite>
-        <sprite gender="female">chest-tnecksweater-female.xml</sprite>
-    </equipment>
-    <equipment id="1203" slot="0">
-        <sprite>head-rangerhat.xml</sprite>
-    </equipment>
-    <equipment id="1204" slot="0">
-        <sprite>head-antlerhat.xml</sprite>
-    </equipment>
-    <equipment id="1205" slot="0">
-        <sprite>head-christmastree.xml</sprite>
-    </equipment>
-    <equipment id="1206" slot="0">
-        <sprite>head-santabeardhat.xml</sprite>
-    </equipment>
-    <equipment id="625" slot="0">
-        <sprite gender="male">chest-chainmail-male.xml</sprite>
-        <sprite gender="female">chest-chainmail-female.xml</sprite>
-    </equipment>
-    <equipment id="626" slot="0">
-        <sprite gender="male">chest-lightplatemail-male.xml</sprite>
-        <sprite gender="female">chest-lightplatemail-female.xml</sprite>
-    </equipment>
-
-    <!--
-    eAthenas equipment IDs for the local characters weapons
-    (same as their item IDs)
-    -->
-    <equipment id="623" slot="0" attacktype="swing">
-        <sprite>weapon-scythe.xml</sprite>
-    </equipment>
-    <equipment id="1200" slot="0" attacktype="bow">
-        <sprite>weapon-bow.xml</sprite>
-        <sound event="swing">bow_shoot_1.ogg</sound>
-    </equipment>
-    <equipment id="521" slot="0" attacktype="stab">
-        <sprite>weapon-dagger.xml</sprite>
-        <sound event="strike">short-sword-miss1.ogg</sound>
-        <sound event="hit">short-sword-hit1.ogg</sound>
-    </equipment>
-
-    <!--
-    eAthenas equipment IDs for the other characters weapons
-    (TMW 0.0.23 multiplies those with 10000)
-    -->
-    <equipment id="6230000" slot="0" attacktype="swing">
-        <sprite>weapon-scythe.xml</sprite>
-    </equipment>
-    <equipment id="12000000" slot="0" attacktype="bow">
-        <sprite>weapon-bow.xml</sprite>
-        <sound event="swing">bow_shoot_1.ogg</sound>
-    </equipment>
-    <equipment id="5210000" slot="0" attacktype="stab">
-        <sprite>weapon-dagger.xml</sprite>
-        <sound event="strike">short-sword-miss1.ogg</sound>
-        <sound event="hit">short-sword-hit1.ogg</sound>
-    </equipment>
 </equipments>

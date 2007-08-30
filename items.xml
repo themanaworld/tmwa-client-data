@@ -6,6 +6,96 @@
     events related to the item.
 -->
 <items>
+    <!-- Temporarily include low-ID items for View column of eAthena, cause
+         it can't go above 255. Get rid of this with tmwserv.
+    -->
+    <item id="1" slot="0">
+        <sprite gender="male">chest-cotton-male.xml</sprite>
+        <sprite gender="female">chest-cotton-female.xml</sprite>
+    </item>
+    <item id="2" slot="0">
+        <sprite>item002.xml</sprite>
+    </item>
+    <item id="3" slot="0">
+        <sprite gender="male">chest-leather-male.xml</sprite>
+        <sprite gender="female">chest-leather-female.xml</sprite>
+    </item>
+    <item id="4" slot="0">
+        <sprite gender="male">leg-cotton-male.xml</sprite>
+        <sprite gender="female">leg-cotton-female.xml</sprite>
+    </item>
+    <item id="5" slot="0">
+        <sprite gender="male">leg-jeans-male.xml</sprite>
+        <sprite gender="female">leg-jeans-female.xml</sprite>
+    </item>
+    <item id="6" slot="0">
+        <sprite>item006.xml</sprite>
+    </item>
+    <item id="7" slot="0">
+        <sprite>item007.xml</sprite>
+    </item>
+    <item id="8" slot="0">
+        <sprite>item008.xml</sprite>
+    </item>
+    <item id="9" slot="0">
+        <sprite>item009.xml</sprite>
+    </item>
+    <item id="10" slot="0">
+        <sprite>item010.xml</sprite>
+    </item>
+    <item id="11" slot="0">
+        <sprite>item011.xml</sprite>
+    </item>
+    <item id="12" slot="0">
+        <sprite>item012.xml</sprite>
+    </item>
+    <item id="13" slot="0">
+        <sprite>item013.xml</sprite>
+    </item>
+    <item id="14" slot="0">
+        <sprite>item014.xml</sprite>
+    </item>
+    <item id="15" slot="0">
+        <sprite>item015.xml</sprite>
+    </item>
+    <item id="16" slot="0">
+        <sprite>item016.xml</sprite>
+    </item>
+    <item id="17" slot="0">
+        <sprite>item017.xml</sprite>
+    </item>
+    <item id="18" slot="0">
+        <sprite>item018.xml</sprite>
+    </item>
+    <item id="19" slot="0">
+        <sprite gender="male">chest-vnecksweater-male.xml</sprite>
+        <sprite gender="female">chest-vnecksweater-female.xml</sprite>
+    </item>
+    <item id="20" slot="0">
+        <sprite gender="male">chest-tnecksweater-male.xml</sprite>
+        <sprite gender="female">chest-tnecksweater-female.xml</sprite>
+    </item>
+    <item id="21" slot="0">
+        <sprite>head-rangerhat.xml</sprite>
+    </item>
+    <item id="22" slot="0">
+        <sprite>head-antlerhat.xml</sprite>
+    </item>
+    <item id="23" slot="0">
+        <sprite>head-christmastree.xml</sprite>
+    </item>
+    <item id="24" slot="0">
+        <sprite>head-santabeardhat.xml</sprite>
+    </item>
+    <item id="25" slot="0">
+        <sprite gender="male">chest-chainmail-male.xml</sprite>
+        <sprite gender="female">chest-chainmail-female.xml</sprite>
+    </item>
+    <item id="26" slot="0">
+        <sprite gender="male">chest-lightplatemail-male.xml</sprite>
+        <sprite gender="female">chest-lightplatemail-female.xml</sprite>
+    </item>
+
     <item id="501" image="use-potion-cactusdrink.png" name="Cactus drink" description="A fresh drink." effect="+15 HP" type="0" weight="25" slot="0"/>
     <item id="502" image="use-potion-cactuspotion.png" name="Cactus potion" description="A fresh potion." effect="+25 HP/+10 MP" type="0" weight="40" slot="0"/>
     <item id="503" image="generic-casinocoins.png" name="Casino coins" description="Just some casino coins." effect="" type="0" weight="10" slot="0"/>
