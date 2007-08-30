@@ -107,4 +107,21 @@
         <sound event="strike">short-sword-miss1.ogg</sound>
         <sound event="hit">short-sword-hit1.ogg</sound>
     </equipment>
+
+    <!--
+    eAthenas equipment IDs for the other characters weapons
+    (TMW 0.0.23 multiplies those with 10000)
+    -->
+    <equipment id="6230000" slot="0" attacktype="swing">
+        <sprite>weapon-scythe.xml</sprite>
+    </equipment>
+    <equipment id="12000000" slot="0" attacktype="bow">
+        <sprite>weapon-bow.xml</sprite>
+        <sound event="swing">bow_shoot_1.ogg</sound>
+    </equipment>
+    <equipment id="5210000" slot="0" attacktype="stab">
+        <sprite>weapon-dagger.xml</sprite>
+        <sound event="strike">short-sword-miss1.ogg</sound>
+        <sound event="hit">short-sword-hit1.ogg</sound>
+    </equipment>
 </equipments>
