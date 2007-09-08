@@ -10,12 +10,15 @@
 			<property name="horizontal-angle" min="0" max="360"/>
 			<property name="vertical-angle" min="0" max="90"/>
 			<property name="power" min="0.25" max="0.5"/>
-			<property name="gravity" value="-0.05"/>
-			<property name="image" value="graphics/particles/blaze.png"/>
-			<property name="lifetime" min="20" max="30"/>
-			<property name="output" min="0" max="4"/>
+			<property name="gravity" value="-0.04"/>
+			<animation imageset="graphics/particles/aniblaze.png" width="6" height="6">
+				<sequence start="0" end="14" delay="20" />
+				<frame index="8" delay="1000" />
+			</animation>
+			<property name="lifetime" min="25" max="30"/>
+			<property name="output" min="0" max="6"/>
 			<property name="fade-in" value="0"/>
-			<property name="fade-out" value="30"/>
+			<property name="fade-out" value="10"/>
 		</emitter>
 	</particle>
 </effect>
