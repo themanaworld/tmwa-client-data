@@ -96,6 +96,20 @@
         <sprite gender="female">chest-lightplatemail-female.xml</sprite>
     </item>
 
+    <!-- Temporary low weapon IDs (< 256) -->
+    <item id="30" slot="0" attacktype="stab">
+        <sprite>weapon-dagger.xml</sprite>
+        <sound event="strike">short-sword-miss1.ogg</sound>
+        <sound event="hit">short-sword-hit1.ogg</sound>
+    </item>
+    <item id="31" slot="0" attacktype="bow">
+        <sprite>weapon-bow.xml</sprite>
+        <sound event="swing">bow_shoot_1.ogg</sound>
+    </item>
+    <item id="32" slot="0" attacktype="swing">
+        <sprite>weapon-scythe.xml</sprite>
+    </item>
+
     <item id="501" image="use-potion-cactusdrink.png" name="Cactus drink" description="A fresh drink." effect="+15 HP" type="0" weight="25" slot="0"/>
     <item id="502" image="use-potion-cactuspotion.png" name="Cactus potion" description="A fresh potion." effect="+25 HP/+10 MP" type="0" weight="40" slot="0"/>
     <item id="503" image="generic-casinocoins.png" name="Casino coins" description="Just some casino coins." effect="" type="0" weight="10" slot="0"/>
