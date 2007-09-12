@@ -91,6 +91,20 @@
         <sprite gender="female">chest-lightplatemail-female.xml</sprite>
     </equipment>
 
+    <!-- Temporary low weapon IDs (< 256) -->
+    <item id="30" slot="0" attacktype="stab">
+        <sprite>weapon-dagger.xml</sprite>
+        <sound event="strike">short-sword-miss1.ogg</sound>
+        <sound event="hit">short-sword-hit1.ogg</sound>
+    </item>
+    <item id="31" slot="0" attacktype="bow">
+        <sprite>weapon-bow.xml</sprite>
+        <sound event="swing">bow_shoot_1.ogg</sound>
+    </item>
+    <item id="32" slot="0" attacktype="swing">
+        <sprite>weapon-scythe.xml</sprite>
+    </item>
+
     <!--
     eAthenas equipment IDs for the local characters weapons
     (same as their item IDs)
