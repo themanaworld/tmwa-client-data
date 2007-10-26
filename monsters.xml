@@ -133,9 +133,14 @@
     <monster id="22" name="Poison Skull">
         <sprite>monster-skull-poison.xml</sprite>
     </monster>
-    
+
 	<monster id="23" name="Log Head">
         <sprite>monster-logmonster.xml</sprite>
+        <sound event="hurt">loghead-hurt1.ogg</sound>
+        <sound event="hurt">loghead-hurt2.ogg</sound>
+        <sound event="hurt">loghead-hurt3.ogg</sound>
+        <sound event="hurt">loghead-hurt4.ogg</sound>
+        <sound event="hurt">loghead-hurt5.ogg</sound>
     </monster>
-    
+
 </monsters>
