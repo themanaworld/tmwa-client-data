@@ -4,6 +4,9 @@
     their name, icon, description, weight, etc. It also defines which sprite
     to use in the case of visible equipment and which sounds to play on certain
     events related to the item.
+
+    Note that the 'attacktype' attribute isn't used anymore since version
+    0.0.24, but it is kept until we stop supporting 0.0.23.
 -->
 <items>
     <!-- Temporarily include low-ID items for View column of eAthena, cause
@@ -96,20 +99,20 @@
         <sprite gender="female">chest-lightplatemail-female.xml</sprite>
     </item>
     <item id="27">
-    	<sprite>leg-skirt.xml</sprite>
+        <sprite>leg-skirt.xml</sprite>
     </item>
 
     <!-- Temporary low weapon IDs (< 256) -->
-    <item id="30" attacktype="stab">
+    <item id="30" weapon_type="1" attacktype="stab">
         <sprite>weapon-dagger.xml</sprite>
         <sound event="strike">short-sword-miss1.ogg</sound>
         <sound event="hit">short-sword-hit1.ogg</sound>
     </item>
-    <item id="31" attacktype="bow">
+    <item id="31" weapon_type="10" attacktype="bow">
         <sprite>weapon-bow.xml</sprite>
         <sound event="swing">bow_shoot_1.ogg</sound>
     </item>
-    <item id="32" attacktype="swing">
+    <item id="32" weapon_type="11" attacktype="swing">
         <sprite>weapon-scythe.xml</sprite>
     </item>
 
@@ -148,12 +151,12 @@
     <item id="518" image="generic-bugleg.png" name="Bug leg" description="A bug's leg. Mostly used for alchemy." effect="" type="0" weight="15"/>
     <item id="519" image="use-food-cherrycake.png" name="Cherry cake" description="A nice cherry cake." effect="+35 HP" type="0" weight="50"/>
     <item id="520" image="use-food-easteregg.png" name="Easter egg" description="A surprise." effect="+100 HP" type="0" weight="180"/>
-    <item id="521" image="weapon-dagger-dagger.png" name="Dagger" description="A simple Dagger." effect="Damage: +15 / Range: 1" type="0" weight="60" attacktype="stab">
+    <item id="521" image="weapon-dagger-dagger.png" name="Dagger" description="A simple Dagger." effect="Damage: +15 / Range: 1" type="0" weapon_type="1" weight="60" attacktype="stab">
         <sprite>weapon-dagger.xml</sprite>
         <sound event="strike">short-sword-miss1.ogg</sound>
         <sound event="hit">short-sword-hit1.ogg</sound>
     </item>
-    <item id="522" image="weapon-dagger-sharpknife.png" name="Sharp knife" description="A really sharp knife Don't hurt yourself!" effect="Damage: +10 / Range: 1" type="0" weight="45" attacktype="stab" view="521"/>
+    <item id="522" image="weapon-dagger-sharpknife.png" name="Sharp knife" description="A really sharp knife Don't hurt yourself!" effect="Damage: +10 / Range: 1" type="0" weapon_type="1" weight="45" attacktype="stab" view="521"/>
     <item id="523" image="armor-chest-leathershirt.png" name="Leather shirt" description="A shirt made of harded leather." effect="Defense: +4" type="0" weight="30">
         <sprite gender="male">chest-leather-male.xml</sprite>
         <sprite gender="female">chest-leather-female.xml</sprite>
@@ -168,13 +171,13 @@
     <item id="527" image="use-food-milk.png" name="Milk" description="A fresh litre of ice cold milk. Note: Cool people drink milk!" effect="+150 HP" type="0" weight="300"/>
     <item id="528" image="armor-feet-boots.png" name="Boots" description="Some robust boots, ideal for traveling." effect="Defense: +2" type="0" weight="15"/>
     <item id="529" image="weapon-arrow-iron.png" name="Iron arrow" description="A hard arrow made of iron." effect="Damage: +50" type="0" weight="12"/>
-    <item id="530" image="weapon-bow-shortbow.png" name="Short bow" description="A bow for short distances." effect="Damage: +50 / Range: 5" type="0" weight="210" attacktype="bow" view="1200"/>
+    <item id="530" image="weapon-bow-shortbow.png" name="Short bow" description="A bow for short distances." effect="Damage: +50 / Range: 5" type="0" weapon_type="10" weight="210" attacktype="bow" view="1200"/>
     <item id="531" image="armor-hands-minergloves.png" name="Miner gloves" description="Gloves used by miners; very useful." effect="Defense: +2" type="0" weight="10"/>
     <item id="532" image="armor-hands-leathergloves.png" name="Leather gloves" description="Gloves made of harded leather." effect="Defense: +3" type="0" weight="25"/>
     <item id="533" image="use-food-roastedmaggot.png" name="Roasted maggot" description="Maggot roasted on fire." effect="+150 HP" type="0" weight="290"/>
     <item id="534" image="use-food-orangecupcake.png" name="Orange cupcake" description="A very soft orange cupcake." effect="+100 HP / +10 MP" type="0" weight="185"/>
     <item id="535" image="use-food-apple.png" name="Apple" description="A healthy apple." effect="+50 HP" type="0" weight="70"/>
-    <item id="536" image="weapon-dagger-shortsword.png" name="Short sword" description="A small but sharp sword." effect="Damage: +100 / Range: 1" type="0" weight="1025" slot ="0" attacktype="stab" view="521"/>
+    <item id="536" image="weapon-dagger-shortsword.png" name="Short sword" description="A small but sharp sword." effect="Damage: +100 / Range: 1" type="0" weapon_type="2" weight="1025" slot ="0" attacktype="stab" view="521"/>
     <item id="537" image="generic-treasurekey.png" name="Treasure key" description="A rusty key." effect="Opens Chests" type="0" weight="35"/>
     <item id="538" image="generic-greenpresentbox.png" name="Green present box" description="Something mysterious inside." effect="" type="0" weight="25"/>
     <item id="539" image="use-food-beer.png" name="Beer" description="A fresh beer." effect="+200 HP" type="0" weight="400"/>
@@ -187,7 +190,7 @@
     <item id="544" image="armor-head-silkheadband.png" name="Silk headband" description="A cool headband made of silk." effect="Defense: +10" type="0" weight="20">
         <sprite>item006.xml</sprite>
     </item>
-    <item id="545" image="weapon-bow-forestbow.png" name="Forest bow" description="A bow usually used to hunt." effect="Damage: +65 / Range: 5" type="0" weight="530" attacktype="bow" view="1200"/>
+    <item id="545" image="weapon-bow-forestbow.png" name="Forest bow" description="A bow usually used to hunt." effect="Damage: +65 / Range: 5" type="0" weapon_type="10" weight="530" attacktype="bow" view="1200"/>
     <item id="546" image="armor-chest-desertshirt.png" name="Desert shirt" description="A shirt suitable for desert trips." effect="Defense: +6" type="0" weight="50">
         <sprite>item002.xml</sprite>
     </item>
@@ -292,7 +295,7 @@
     <item id="622" image="armor-head-bandana.png" name="Bandana" description="A striped bandana." effect="Defense: +3" type="0" weight="15">
         <sprite>item018.xml</sprite>
     </item>
-    <item id="623" image="weapon-polearm-scythe.png" name="Scythe" description="Usually used for farming but also useable as a weapon. Slow but deadly." effect="Damage: +75 / Range: 1" type="0" weight="400" attacktype="swing">
+    <item id="623" image="weapon-polearm-scythe.png" name="Scythe" description="Usually used for farming but also useable as a weapon. Slow but deadly." effect="Damage: +75 / Range: 1" type="0" weapon_type="11" weight="400" attacktype="swing">
         <sprite>weapon-scythe.xml</sprite>
     </item>
     <item id="624" image="armor-chest-vnecksweater.png" name="V-neck Sweater" description="A soft and warm sweater." effect="Defense: +8" type="0" weight="45">
@@ -324,11 +327,11 @@
         <sprite>leg-skirt.xml</sprite>
     </item>
     <item id="1199" image="weapon-arrow-arrow.png" name="Arrow" description="A standard arrow." effect="Damage: +25" type="0" weight="8"/>
-    <item id="1200" image="weapon-bow-bow.png" name="Bow" description="A distance weapon." effect="Damage: +15 / Range: 5" type="0" weight="125" attacktype="bow">
+    <item id="1200" image="weapon-bow-bow.png" name="Bow" description="A distance weapon." effect="Damage: +15 / Range: 5" type="0" weapon_type="10" weight="125" attacktype="bow">
         <sprite>weapon-bow.xml</sprite>
         <sound event="swing">bow_shoot_1.ogg</sound>
     </item>
-    <item id="1201" image="weapon-dagger-knive.png" name="Knife" description="A small knife, the perfect weapon for a beginner." effect="Damage: 5 / Range: 1" type="0" weight="20" attacktype="stab" view="521"/>
+    <item id="1201" image="weapon-dagger-knive.png" name="Knife" description="A small knife, the perfect weapon for a beginner." effect="Damage: 5 / Range: 1" type="0" weapon_type="1" weight="20" attacktype="stab" view="521"/>
     <item id="1202" image="armor-chest-cottonshirt.png" name="Cotton shirt" description="A shirt made of 100% cotton." effect="Defense: +2" type="0" weight="15">
         <sprite gender="male">chest-cotton-male.xml</sprite>
         <sprite gender="female">chest-cotton-female.xml</sprite>
