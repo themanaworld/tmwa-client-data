@@ -9,9 +9,43 @@
     0.0.24, but it is kept until we stop supporting 0.0.23.
 -->
 <items>
+    <!-- Pseudo-item hairstyles. Using negative IDs is just a temporary
+         solution. I would like to use the lower ID numbers when they aren't
+         required for eAthena compatiblity anymore.
+    -->
+    <item id="-1">
+        <sprite>hairstyle1.xml</sprite>
+    </item>
+    <item id="-2">
+        <sprite>hairstyle2.xml</sprite>
+    </item>
+    <item id="-3">
+        <sprite>hairstyle3.xml</sprite>
+    </item>
+    <item id="-4">
+        <sprite>hairstyle4.xml</sprite>
+    </item>
+    <item id="-5">
+        <sprite>hairstyle5.xml</sprite>
+    </item>
+    <item id="-6">
+        <sprite>hairstyle6.xml</sprite>
+    </item>
+    <item id="-7">
+        <sprite>hairstyle7.xml</sprite>
+    </item>
+    
+    <!-- treating the base sprite as equipment too will be useful when we
+         implement other playable races -->
+    <item id="-100">
+        <sprite gender="male">player_male_base.xml</sprite>
+        <sprite gender="female">player_female_base.xml</sprite>
+    </item>
+    
     <!-- Temporarily include low-ID items for View column of eAthena, cause
          it can't go above 255. Get rid of this with tmwserv.
     -->
+        
     <item id="1">
         <sprite gender="male">chest-cotton-male.xml</sprite>
         <sprite gender="female">chest-cotton-female.xml</sprite>
