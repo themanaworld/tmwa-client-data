@@ -11,6 +11,9 @@
  <tileset name="Collision" firstgid="129" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png" trans="ff00ff"/>
  </tileset>
+ <tileset name="Cave x2" firstgid="131" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/cave_x2.png"/>
+ </tileset>
  <layer name="Ground" width="60" height="60">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAAO2YyU7DQAxA51C4sKpQjoBKxSJWFUrhCpTCPyDgA9i+APrp2GIsrFGSSUii2MWHp2iSQ/3G7oxnOs65jmEYhmEYhmEYhmEYhmEwdoDdCHsC4qzKdQsYABf+iSwCS8CyH3eVOlMu28z1FBgBd/6JrAMbwKYf95U6D30eu8z1GpgJOAKOgRM/vlLqPPZ57Ge4pqHReY3FXsRVqzP5loE7twU41e3LnS8FOHH43kr1N1uh870ARw6uxwP3u4ei93YBp1ZkfnpOVk3jekx7KtYf7kXnEcc5YB5Y8D5Z83PmZNQ01TGP9cb97EW3Qf7CGt8HDoBD75M1P1JqmvqKWC57CfMS+sT2rVUBvtRX8Fym1eMgx7xI982772CNj3LMSxZNuyb5Jv1Py9LK+P0mSKq5qvoNib555uE/+Fblrc23rLNG35gzfk9b45qOuy7S1vppJey9JPQXdYF9adh79QTEVRfYl4a9F/agXQGxVcFKME46R2APSvc5Tcdb1pXu3om0c4TU+5wi+eR370RYy4/AM3OWcPYtAs9n7D4aXV+BD6dzrR4G+Yyd69+Ad+CF5ViT7ziHI+X1yecWfR+Aif+mqZ7HOVx5XgmqZ2191l98tea2iO8n8OWZsPfT6puGNt+QIq5Nx2oYhtE038OIAQZAOAAA
@@ -19,7 +22,7 @@
  </layer>
  <layer name="Object" width="60" height="60">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3FoQEAAAgDoN3h/4fa1zVBIQEAAAAAAAA+TQ0AAAAAAABwYQGRZbIlQDgAAA==
+   H4sIAAAAAAAAAO3OoQ0AMAwEscyRVQu7eHkG6EuRTY5eFQAAAAAAAPBTjwIAAABsdNMDASc9AAAAwwMSD89FQDgAAA==
   </data>
   <tileproperties/>
  </layer>
