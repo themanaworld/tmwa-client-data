@@ -90,6 +90,9 @@
         <sprite gender="male">chest-lightplatemail-male.xml</sprite>
         <sprite gender="female">chest-lightplatemail-female.xml</sprite>
     </equipment>
+    <equipment id="27">
+        <sprite>leg-skirt.xml</sprite>
+    </equipment>
 
     <!-- Temporary low weapon IDs (< 256) -->
     <item id="30" slot="0" attacktype="stab">
@@ -104,19 +107,25 @@
     <item id="32" slot="0" attacktype="swing">
         <sprite>weapon-scythe.xml</sprite>
     </item>
-    
-    <equipment id="33" slot="0">
-        <sprite>item019.xml</sprite>
+
+    <equipment id="33">
+        <sprite>head-tophat.xml</sprite>
     </equipment>
-    <equipment id="34" slot="0">
-        <sprite>item020.xml</sprite>
+    <equipment id="34">
+    	<sprite>head-funkywinter.xml</sprite>
     </equipment>
-    <equipment id="35" slot="0">
-        <sprite>item021.xml</sprite>
+    <equipment id="35">
+        <sprite>head-mask.xml</sprite>
     </equipment>
-    <equipment id="36" slot="0">
-        <sprite>item022.xml</sprite>
+    <equipment id="36">
+        <sprite>head-xmaself.xml</sprite>
     </equipment>
+    <equipment id="37">
+        <sprite>head-mushroom.xml</sprite>
+    </equipment>
+    <equipment id="38">
+        <sprite>head-shroom.xml</sprite>
+    </item>
 
     <!--
     eAthenas equipment IDs for the local characters weapons
