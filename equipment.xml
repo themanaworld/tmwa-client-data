@@ -95,24 +95,24 @@
     </equipment>
 
     <!-- Temporary low weapon IDs (< 256) -->
-    <item id="30" slot="0" attacktype="stab">
+    <equipment id="30" slot="0" attacktype="stab">
         <sprite>weapon-dagger.xml</sprite>
         <sound event="strike">short-sword-miss1.ogg</sound>
         <sound event="hit">short-sword-hit1.ogg</sound>
-    </item>
-    <item id="31" slot="0" attacktype="bow">
+    </equipment>
+    <equipment id="31" slot="0" attacktype="bow">
         <sprite>weapon-bow.xml</sprite>
         <sound event="swing">bow_shoot_1.ogg</sound>
-    </item>
-    <item id="32" slot="0" attacktype="swing">
+    </equipment>
+    <equipment id="32" slot="0" attacktype="swing">
         <sprite>weapon-scythe.xml</sprite>
-    </item>
+    </equipment>
 
     <equipment id="33">
         <sprite>head-tophat.xml</sprite>
     </equipment>
     <equipment id="34">
-    	<sprite>head-funkywinter.xml</sprite>
+        <sprite>head-funkywinter.xml</sprite>
     </equipment>
     <equipment id="35">
         <sprite>head-mask.xml</sprite>
@@ -125,7 +125,7 @@
     </equipment>
     <equipment id="38">
         <sprite>head-shroom.xml</sprite>
-    </item>
+    </equipment>
 
     <!--
     eAthenas equipment IDs for the local characters weapons
