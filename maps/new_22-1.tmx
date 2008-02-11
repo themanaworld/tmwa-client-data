@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <map version="0.99b" orientation="orthogonal" width="120" height="116" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
+  <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
+ </properties> 
  <tileset name="cave" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png"/>
  </tileset>
