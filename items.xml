@@ -175,7 +175,19 @@
     <item id="38">
         <sprite>head-shroom.xml</sprite>
     </item>
-
+    <item id="39">
+    	<sprite>head-warlordhelm.xml</sprite>
+    </item>
+	<item id="40">
+    	<sprite>head-knighthelm.xml</sprite>
+    </item>
+    <item id="41">
+    	<sprite>head-infantryhelm.xml</sprite>
+    </item>
+    <item id="42">
+    	<sprite>head-crusadehelm.xml</sprite>
+    </item>
+	
     <item id="501" image="use-potion-cactusdrink.png" name="Cactus drink" description="A fresh drink." effect="+15 HP" type="0" weight="25"/>
     <item id="502" image="use-potion-cactuspotion.png" name="Cactus potion" description="A fresh potion." effect="+25 HP/+10 MP" type="0" weight="40"/>
     <item id="503" image="generic-casinocoins.png" name="Casino coins" description="Just some casino coins." effect="" type="0" weight="10"/>
@@ -380,6 +392,19 @@
         <sprite>head-mask.xml</sprite>
     </item>
     <item id="635" image="generic-santacookie.png" name="Santa Cookie" description="This isn't for you to eat. It is for Santa Clause." effect="" type="0" weight="1" slot="0"/>
+
+    <item id="636" image="armor-head-warlordhelm.png" name="A Warlord Helmet" description="Worn by great warriors" effect="Defense: +21" type="0" weight="40">
+        <sprite>head-warlordhelm.xml</sprite>
+    </item>
+	<item id="637" image="armor-head-knighthelm.png" name="A Knight's Helmet" description="Helmet with two small wings on it" effect="Defense: +21" type="0" weight="35">
+        <sprite>head-knighthelm.xml</sprite>
+    </item>
+	<item id="638" image="armor-head-infantryhelm.png" name="A Infantry Helmet" description="For soldiers and guards" effect="Defense: +21" type="0" weight="35">
+        <sprite>head-infantryhelm.xml</sprite>
+    </item>
+	<item id="639" image="armor-head-crusadehelm.png" name="A Crusade Helmet" description="Start your own crusade" effect="Defense: +21" type="0" weight="40">
+        <sprite>head-crusadehelm.xml</sprite>
+    </item>
 
     <item id="1199" image="weapon-arrow-arrow.png" name="Arrow" description="A standard arrow." effect="Damage: +25" type="0" weight="8"/>
     <item id="1200" image="weapon-bow-bow.png" name="Bow" description="A distance weapon." effect="Damage: +15 / Range: 5" type="0" weapon_type="10" weight="125" attacktype="bow">
