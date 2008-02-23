@@ -361,11 +361,11 @@
         <sprite gender="male">chest-vnecksweater-male.xml</sprite>
         <sprite gender="female">chest-vnecksweater-female.xml</sprite>
     </item>
-    <item id="625" image="armor-chest-chainmail.png" name="Chainmail Shirt" description="A shirt made of chains. It weights a lot but offers excellent protection." effect="Defense: +12" type="0" weight="120">
+    <item id="625" image="armor-chest-chainmail.png" name="Chainmail Shirt" description="A shirt made of chains. It weights a lot but offers excellent protection." effect="Defense: +20" type="0" weight="120">
         <sprite gender="male">chest-chainmail-male.xml</sprite>
         <sprite gender="female">chest-chainmail-female.xml</sprite>
     </item>
-    <item id="626" image="armor-chest-lightplatemail.png" name="Light Platemail" description="A light cuirass with shoulder pads made of iron. A cheap and plain but efficient armor usually worn by foot soldiers." effect="Defense: +14" type="0" weight="240">
+    <item id="626" image="armor-chest-lightplatemail.png" name="Light Platemail" description="A light cuirass with shoulder pads made of iron. A cheap and plain but efficient armor usually worn by foot soldiers." effect="Defense: +25" type="0" weight="240">
         <sprite gender="male">chest-lightplatemail-male.xml</sprite>
         <sprite gender="female">chest-lightplatemail-female.xml</sprite>
     </item>
@@ -393,18 +393,19 @@
     </item>
     <item id="635" image="generic-santacookie.png" name="Santa Cookie" description="This isn't for you to eat. It is for Santa Clause." effect="" type="0" weight="1" slot="0"/>
 
-    <item id="636" image="armor-head-warlordhelm.png" name="A Warlord Helmet" description="Worn by great warriors" effect="Defense: +21" type="0" weight="40">
+    <item id="636" image="armor-head-warlordhelm.png" name="A Warlord Helmet" description="Worn by great warriors" effect="Defense: +25" type="0" weight="40">
         <sprite>head-warlordhelm.xml</sprite>
     </item>
-	<item id="637" image="armor-head-knighthelm.png" name="A Knight's Helmet" description="Helmet with two small wings on it" effect="Defense: +21" type="0" weight="35">
+    <item id="637" image="armor-head-knighthelm.png" name="A Knight's Helmet" description="Helmet with two small wings on it" effect="Defense: +20" type="0" weight="35">
         <sprite>head-knighthelm.xml</sprite>
     </item>
-	<item id="638" image="armor-head-infantryhelm.png" name="A Infantry Helmet" description="For soldiers and guards" effect="Defense: +21" type="0" weight="35">
+    <item id="638" image="armor-head-infantryhelm.png" name="A Infantry Helmet" description="For soldiers and guards" effect="Defense: +20" type="0" weight="35">
         <sprite>head-infantryhelm.xml</sprite>
     </item>
-	<item id="639" image="armor-head-crusadehelm.png" name="A Crusade Helmet" description="Start your own crusade" effect="Defense: +21" type="0" weight="40">
+    <item id="639" image="armor-head-crusadehelm.png" name="A Crusade Helmet" description="Start your own crusade" effect="Defense: +25" type="0" weight="40">
         <sprite>head-crusadehelm.xml</sprite>
     </item>
+    <item id="640" image="generic-ironore.png" name="Iron Ore" description="A lump of Iron Ore." effect="" type="0" weight="40"/>
 
     <item id="1199" image="weapon-arrow-arrow.png" name="Arrow" description="A standard arrow." effect="Damage: +25" type="0" weight="8"/>
     <item id="1200" image="weapon-bow-bow.png" name="Bow" description="A distance weapon." effect="Damage: +15 / Range: 5" type="0" weapon_type="10" weight="125" attacktype="bow">
