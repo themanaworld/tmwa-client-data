@@ -59,7 +59,7 @@
     </monster>
 
     <monster id="8" name="Snake">
-        <sprite>monster-snake.xml</sprite>
+        <sprite>monster-snake.xml|#664d28,a6673a,dbbc86,ffffff</sprite>
     </monster>
 
     <monster id="9" name="Fire Goblin">
@@ -136,13 +136,17 @@
         <sprite>monster-skull-poison.xml</sprite>
     </monster>
 
-	<monster id="23" name="Log Head">
+    <monster id="23" name="Log Head">
         <sprite>monster-logmonster.xml</sprite>
         <sound event="hurt">loghead-hurt1.ogg</sound>
         <sound event="hurt">loghead-hurt2.ogg</sound>
         <sound event="hurt">loghead-hurt3.ogg</sound>
         <sound event="hurt">loghead-hurt4.ogg</sound>
         <sound event="hurt">loghead-hurt5.ogg</sound>
+    </monster>
+
+    <monster id="24" name="Mountain Snake">
+        <sprite>monster-snake.xml|#585b39,a67c5d,dbc9a9,ffffff</sprite>
     </monster>
 
 </monsters>

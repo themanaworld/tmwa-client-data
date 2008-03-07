@@ -142,6 +142,10 @@
     <item id="27">
         <sprite>leg-skirt.xml</sprite>
     </item>
+    <item id="28">
+        <sprite gender="male">leg-chaps-male.xml</sprite>
+        <sprite gender="female">leg-chaps-female.xml</sprite>
+    </item>
 
     <!-- Temporary low weapon IDs (< 256) -->
     <item id="30" weapon_type="1" attacktype="stab">
@@ -186,6 +190,12 @@
     </item>
     <item id="42">
     	<sprite>head-crusadehelm.xml</sprite>
+    </item>
+    <item id="43">
+    	<sprite>head-cowboywhite.xml</sprite>
+    </item>
+    <item id="44">
+    	<sprite>head-cowboyblack.xml</sprite>
     </item>
 	
     <item id="501" image="use-potion-cactusdrink.png" name="Cactus drink" description="A fresh drink." effect="+15 HP" type="0" weight="25"/>
@@ -406,6 +416,17 @@
         <sprite>head-crusadehelm.xml</sprite>
     </item>
     <item id="640" image="generic-ironore.png" name="Iron Ore" description="A lump of Iron Ore." effect="" type="0" weight="40"/>
+    <item id="641" image="generic-snakeskin.png" name="Snake Skin" description="The skin of a slain snake." effect="" type="0" weight="20"/>
+    <item id="642" image="armor-legs-chaps.png" name="Jeans Chaps" description="Jeans with snake skin chaps." effect="Defense: +6" type="0" weight="40">
+        <sprite gender="male">leg-chaps-male.xml</sprite>
+        <sprite gender="female">leg-chaps-female.xml</sprite>
+    </item>
+    <item id="643" image="armour-head-cowboywhite.png" name="White Cowboy Hat" description="A white cowboy hat with a band." effect="Defense: +6" type="0" weight="30">
+        <sprite>head-cowboywhite.xml</sprite>
+    </item>
+    <item id="644" image="armour-head-cowboyblack.png" name="Black Cowboy Hat" description="A black cowboy hat with shinny buckles." effect="Defense: +6" type="0" weight="30">
+        <sprite>head-cowboyblack.xml</sprite>
+    </item>
 
     <item id="1199" image="weapon-arrow-arrow.png" name="Arrow" description="A standard arrow." effect="Damage: +25" type="0" weight="8"/>
     <item id="1200" image="weapon-bow-bow.png" name="Bow" description="A distance weapon." effect="Damage: +15 / Range: 5" type="0" weapon_type="10" weight="125" attacktype="bow">
