@@ -146,6 +146,9 @@
         <sprite gender="male">leg-chaps-male.xml</sprite>
         <sprite gender="female">leg-chaps-female.xml</sprite>
     </item>
+    <item id="29">
+        <sprite>head-bunnyears.xml</sprite>
+    </item>
 
     <!-- Temporary low weapon IDs (< 256) -->
     <item id="30" weapon_type="1" attacktype="stab">
@@ -197,7 +200,7 @@
     <item id="44">
     	<sprite>head-cowboyblack.xml</sprite>
     </item>
-	
+
     <item id="501" image="use-potion-cactusdrink.png" name="Cactus drink" description="A fresh drink." effect="+15 HP" type="0" weight="25"/>
     <item id="502" image="use-potion-cactuspotion.png" name="Cactus potion" description="A fresh potion." effect="+25 HP/+10 MP" type="0" weight="40"/>
     <item id="503" image="generic-casinocoins.png" name="Casino coins" description="Just some casino coins." effect="" type="0" weight="10"/>
@@ -457,4 +460,7 @@
     <item id="1211" image="generic-easteregg-yellow.png" name="Yellow Easter Egg" description="A yellow easter egg. Find all six different easter eggs to win a prize." effect="" type="0" weight="10"/>
     <item id="1212" image="generic-easteregg-pink.png" name="Pink Easter Egg" description="A pink easter egg. Find all six different easter eggs to win a prize." effect="" type="0" weight="10"/>
     <item id="1213" image="generic-easteregg-teal.png" name="Teal Easter Egg" description="A teal easter egg. Find all six different easter eggs to win a prize." effect="" type="0" weight="10"/>
+    <item id="1214" image="armor-head-bunnyears.png" name="Bunny Ears" description="A headband with plush bunny ears." effect="Defense: +10" type="0" weight="20">
+        <sprite>head-bunnyears.xml</sprite>
+    </item>
 </items>
