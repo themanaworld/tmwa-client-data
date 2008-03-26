@@ -37,4 +37,33 @@
   </data>
   <tileproperties/>
  </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="Warp1" type="WARP" x="2272" y="288" width="128" height="32">
+   <properties>
+    <property name="DEST_MAP">
+     4
+    </property>
+    <property name="DEST_X">
+     992
+    </property>
+    <property name="DEST_Y">
+     768
+    </property>
+   </properties>
+  </object>
+  <object name="Shroom" type="SPAWN" x="1024" y="320" width="1280" height="1280">
+   <properties>
+    <property name="MONSTER_ID">
+     1019
+    </property>
+   </properties>
+  </object>
+  <object name="Lamp Snake" type="SPAWN" x="2368" y="3040" width="1280" height="1280">
+   <properties>
+    <property name="MONSTER_ID">
+     1021
+    </property>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

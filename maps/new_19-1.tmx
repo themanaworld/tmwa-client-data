@@ -56,4 +56,58 @@
   </data>
   <tileproperties/>
  </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="WestGate" type="WARP" x="704" y="1120" width="64" height="96">
+   <properties>
+    <property name="DEST_MAP">
+     18
+    </property>
+    <property name="DEST_X">
+     1696
+    </property>
+    <property name="DEST_Y">
+     1952
+    </property>
+   </properties>
+  </object>
+  <object name="SouthGate" type="WARP" x="1504" y="1760" width="128" height="64">
+   <properties>
+    <property name="DEST_MAP">
+     18
+    </property>
+    <property name="DEST_X">
+     2496
+    </property>
+    <property name="DEST_Y">
+     2624
+    </property>
+   </properties>
+  </object>
+  <object name="EasthGate" type="WARP" x="3104" y="1120" width="64" height="64">
+   <properties>
+    <property name="DEST_MAP">
+     18
+    </property>
+    <property name="DEST_X">
+     4128
+    </property>
+    <property name="DEST_Y">
+     1920
+    </property>
+   </properties>
+  </object>
+  <object name="NorthGate" type="WARP" x="1504" y="736" width="128" height="64">
+   <properties>
+    <property name="DEST_MAP">
+     18
+    </property>
+    <property name="DEST_X">
+     2496
+    </property>
+    <property name="DEST_Y">
+     1536
+    </property>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

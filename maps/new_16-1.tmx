@@ -50,4 +50,72 @@
   </data>
   <tileproperties/>
  </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="ToDesert" type="WARP" x="3808" y="3648" width="96" height="64">
+   <properties>
+    <property name="DEST_MAP">
+     15
+    </property>
+    <property name="DEST_X">
+     640
+    </property>
+    <property name="DEST_Y">
+     480
+    </property>
+   </properties>
+  </object>
+  <object name="ToWoodland" type="WARP" x="640" y="1664" width="96" height="96">
+   <properties>
+    <property name="DEST_MAP">
+     14
+    </property>
+    <property name="DEST_X">
+     4064
+    </property>
+    <property name="DEST_Y">
+     1696
+    </property>
+   </properties>
+  </object>
+  <object name="ToWoodland" type="WARP" x="2144" y="672" width="128" height="64">
+   <properties>
+    <property name="DEST_MAP">
+     18
+    </property>
+    <property name="DEST_X">
+     2512
+    </property>
+    <property name="DEST_Y">
+     3200
+    </property>
+   </properties>
+  </object>
+  <object name="ToWoodland" type="WARP" x="3872" y="640" width="96" height="64">
+   <properties>
+    <property name="DEST_MAP">
+     18
+    </property>
+    <property name="DEST_X">
+     4224
+    </property>
+    <property name="DEST_Y">
+     3136
+    </property>
+   </properties>
+  </object>
+  <object name="Fluffy" type="SPAWN" x="3680" y="1984" width="320" height="320">
+   <properties>
+    <property name="MONSTER_ID">
+     1020
+    </property>
+   </properties>
+  </object>
+  <object name="Sleep Flower" type="SPAWN" x="2944" y="992" width="320" height="320">
+   <properties>
+    <property name="MONSTER_ID">
+     1014
+    </property>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

@@ -33,4 +33,49 @@
   </data>
   <tileproperties/>
  </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="ToINN" type="WARP" x="2272" y="928" width="96" height="32">
+   <properties>
+    <property name="DEST_MAP">
+     8
+    </property>
+    <property name="DEST_X">
+     768
+    </property>
+    <property name="DEST_Y">
+     736
+    </property>
+   </properties>
+  </object>
+  <object name="Phaet the Royal Guard" type="NPC" x="2480" y="1200" width="0" height="0">
+   <properties>
+    <property name="SCRIPT">
+     function npc_handler(npc, ch)
+       do_message(npc, ch, "Do you want to go back?")
+       local v = do_choice(npc, ch, "Yes", "No")
+       if v == 1 then
+         tmw.chr_warp(ch, 8, 25 * 32 + 16, 23 * 32 + 16)
+       elseif v == 2 then
+         do_message(npc, ch, "Have fun.")
+       end
+     end
+    </property>
+    <property name="NPC_ID">
+     125
+    </property>
+   </properties>
+  </object>
+  <object name="Aradin the Royal Guard" type="NPC" x="2224" y="1200" width="0" height="0">
+   <properties>
+    <property name="SCRIPT">
+     function npc_handler(npc, ch)
+       do_message(npc, ch, "Don't touch me!\nYou won't find it very funny.")
+     end
+    </property>
+    <property name="NPC_ID">
+     126
+    </property>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

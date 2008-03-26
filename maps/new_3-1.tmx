@@ -49,4 +49,32 @@
   </data>
   <tileproperties/>
  </layer>
+ <objectgroup name="Gruppo di Oggetti 4" width="0" height="0">
+  <object name="Warp to Tulimshar" type="WARP" x="1344" y="2816" width="160" height="32">
+   <properties>
+    <property name="DEST_MAP">
+     1
+    </property>
+    <property name="DEST_X">
+     1872
+    </property>
+    <property name="DEST_Y">
+     560
+    </property>
+   </properties>
+  </object>
+  <object name="ToINN" type="WARP" x="1024" y="2304" width="64" height="32">
+   <properties>
+    <property name="DEST_MAP">
+     8
+    </property>
+    <property name="DEST_X">
+     800
+    </property>
+    <property name="DEST_Y">
+     1088
+    </property>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

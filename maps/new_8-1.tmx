@@ -33,4 +33,136 @@
   </data>
   <tileproperties/>
  </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="ToOutside" type="WARP" x="800" y="1120" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP">
+     3
+    </property>
+    <property name="DEST_X">
+     1040
+    </property>
+    <property name="DEST_Y">
+     2336
+    </property>
+   </properties>
+  </object>
+  <object name="ToArena" type="WARP" x="736" y="736" width="32" height="64">
+   <properties>
+    <property name="DEST_MAP">
+     6
+    </property>
+    <property name="DEST_X">
+     2304
+    </property>
+    <property name="DEST_Y">
+     992
+    </property>
+   </properties>
+  </object>
+  <object name="To2ndFloor" type="WARP" x="1408" y="768" width="32" height="64">
+   <properties>
+    <property name="DEST_MAP">
+     8
+    </property>
+    <property name="DEST_X">
+     2080
+    </property>
+    <property name="DEST_Y">
+     800
+    </property>
+   </properties>
+  </object>
+  <object name="To1stFloor" type="WARP" x="2048" y="800" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP">
+     8
+    </property>
+    <property name="DEST_X">
+     1280
+    </property>
+    <property name="DEST_Y">
+     832
+    </property>
+   </properties>
+  </object>
+  <object name="ToBedroom" type="WARP" x="2144" y="960" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP">
+     8
+    </property>
+    <property name="DEST_X">
+     3280
+    </property>
+    <property name="DEST_Y">
+     736
+    </property>
+   </properties>
+  </object>
+  <object name="ToDeposit" type="WARP" x="2432" y="960" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP">
+     8
+    </property>
+    <property name="DEST_X">
+     4176
+    </property>
+    <property name="DEST_Y">
+     736
+    </property>
+   </properties>
+  </object>
+  <object name="ToCasino" type="WARP" x="2176" y="704" width="64" height="32">
+   <properties>
+    <property name="DEST_MAP">
+     8
+    </property>
+    <property name="DEST_X">
+     1024
+    </property>
+    <property name="DEST_Y">
+     2304
+    </property>
+   </properties>
+  </object>
+  <object name="To2ndFloor" type="WARP" x="3264" y="704" width="64" height="32">
+   <properties>
+    <property name="DEST_MAP">
+     8
+    </property>
+    <property name="DEST_X">
+     2144
+    </property>
+    <property name="DEST_Y">
+     928
+    </property>
+   </properties>
+  </object>
+  <object name="To2ndFloor" type="WARP" x="4160" y="704" width="64" height="32">
+   <properties>
+    <property name="DEST_MAP">
+     8
+    </property>
+    <property name="DEST_X">
+     2432
+    </property>
+    <property name="DEST_Y">
+     928
+    </property>
+   </properties>
+  </object>
+  <object name="To2ndFloor" type="WARP" x="1024" y="2336" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP">
+     8
+    </property>
+    <property name="DEST_X">
+     2192
+    </property>
+    <property name="DEST_Y">
+     736
+    </property>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

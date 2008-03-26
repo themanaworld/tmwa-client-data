@@ -45,4 +45,58 @@
    H4sIAAAAAAAAAO3VgYrkKBQF0GH+/6OXYWkomqRijHrVnAeH7e1K9Pm81fP3758/fwEAYHP/Kt0DjPRT6T5glN919Hm6R2jprI4+T/cKLdRUumd4oiTfss9uSvJ99V1InwHuKv0bf/bsUf59F5hZz0qfDc785FPu28zyrWdfzVler/J89uzvz3bTotJneLvelT7frDNLn4G6O3v7HT+tdP9vN6LSZ5xxbun+36z2vtxx3ex2n8kKnt6ZO342w53nMrOr+/j2/3fe3f1+n1S69ztnTPfQ+65a3OWq99t6lqXzmtGKPfe+q5pKn3nWWab73+0cLc5YO4+j99JnTs/y26xW7n+mszw5591ZlD6fPvfs2Vmt31nO0vLMrZ+bdRazZWmFHmc5y4xnnnkOs8833VfrrMx4H3fP+GQm6VyukvuWs5qxRt5B7Qw+3ytZo+R7tquWNUMPb6qa2d2ZeTqbq+T+7rySld7/rGqz3GPvdDZXynzJvNT/dTaLo/wlKp3PnXK/UiX7Lf1OPF3v6rl0RlfJ/LdZqT6Vus8V9a635f3pOdPvX629AzW+Ws591N+tz593sEvtdJbZK51Zud+nRv8b8GS/dGblfq36nPfT3F39rufdpjMr+/NUrznW/O3ufafpvMq++l0j7jKdVdl/X53dU8v7u1ornVPZL6+dzza60hmVffWtSv5uP1l7RyvX7uebpdIZfXv233DGnnU1h7PP0/l8c/ZnP+fvtUv26j33mvWP3kln8235f8MZE3VnBuk8viX/u5+vRV31f/Z5zbnTOXxD9nc8X+o71mrfdAZ3zX/6bD3PV7P21Tsla549U/Nu+m7SWlf6PKOyfzWD0WvVPJe+m7QWlT5DMv9P1m+d65r92dvTfIyoz33Ofu6xJ/sbWT/7He1b+ruaZ0rqszfeoVW1WOt3Xy37u7s/+0vXtx5a93e1XvouyOa+Zd7urDU650fP8x6j62zPdH/pe2CsGepufz36Tt8D4/Wukj1SvV3tz77SNUN/6TtgvHR99tC6t7vrpO+Ccc7uvyQjTz4vrVbr3NmP/Y3O1Od/n6wxotJ3wz7ZP8rW7JW+H/bN/2qVvivWzf3vfVf67qXvimzue2R1he9C+q7I5v5bLlo8f7VOz+9F+j5YL/clmSr5rPS50rXvVPo+2C/3s1f6Llgn9z9r9PwOtVz7bK30PbBW7kdU7z7Td8B+uS/do7aXb++VrJmePxm9MnX1eW21XDc9e3Ke5KnknZp176x3tn5pb7xTaUZKMjSqWu2Vnj05o7OWWv9sT96pNi9HP3/73YyVnj05Z3nonbfedbVHeu5k7VJ3zpKeOXnpGt1Det7MoSQnI7J49btWfaTnzRye5GdktdovPW/m8C1TZ7/vVSP6Sc+bOSQquS/8M1Md9XOnx2/PpufMXO5k7OrzO1WyVs1+R++kZ8x8ajN29/mn9WS/9IyZz9MM1q4xstIzZj5vqPSMmdPulZ4vcxqdwdGVni/z2qGOzpGeK3Mbnc1Re6bnyhpS1Wvv9DxZQ7Ja75+eJWsZXb32TM+R9bTK3d1nWu39sxbc1bt+79F6z/T8WFvPHH5+dvRz6/3gjtq83c1fy+ynZ8aeeudM5pnRiKzJPbNJZE3ueSuZ561kHgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAlfwHjJV4HMBRAgA=
   </data>
  </layer>
+<objectgroup name="Objects" width="0" height="0">
+  <object name="ToDesert" type="WARP" x="5440" y="2080" width="96" height="96">
+   <properties>
+    <property name="DEST_MAP">
+     1
+    </property>
+    <property name="DEST_X">
+     480
+    </property>
+    <property name="DEST_Y">
+     2112
+    </property>
+   </properties>
+  </object>
+  <object name="ToWoodland" type="WARP" x="608" y="416" width="96" height="32">
+   <properties>
+    <property name="DEST_MAP">
+     16
+    </property>
+    <property name="DEST_X">
+     3840
+    </property>
+    <property name="DEST_Y">
+     3584
+    </property>
+   </properties>
+  </object>
+  <object name="Black Scorpion" type="SPAWN" x="3456" y="928" width="640" height="640">
+   <properties>
+    <property name="MONSTER_ID">
+     1009
+    </property>
+    <property name="MAX_BEINGS">
+     10
+    </property>
+    <property name="SPAWN_RATE">
+     10
+    </property>
+   </properties>
+  </object>
+  <object name="Snake" type="SPAWN" x="3072" y="1440" width="640" height="640">
+   <properties>
+    <property name="MONSTER_ID">
+     1010
+    </property>
+    <property name="MAX_BEINGS">
+     10
+    </property>
+    <property name="SPAWN_RATE">
+     10
+    </property>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

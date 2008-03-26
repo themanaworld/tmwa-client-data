@@ -56,5 +56,44 @@
   <object name="graphics/particles/waterfall.particle.xml" type="PARTICLE_EFFECT" x="2112" y="930" width="32" height="32">
    <properties/>
   </object>
+  <object name="ToCave" type="WARP" x="1856" y="2944" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP">
+     4
+    </property>
+    <property name="DEST_X">
+     992
+    </property>
+    <property name="DEST_Y">
+     768
+    </property>
+   </properties>
+  </object>
+  <object name="ToSouth" type="WARP" x="1504" y="3302" width="96" height="64">
+   <properties>
+    <property name="DEST_MAP">
+     14
+    </property>
+    <property name="DEST_X">
+     1600
+    </property>
+    <property name="DEST_Y">
+     800
+    </property>
+   </properties>
+  </object>
+  <object name="ToWoodland" type="WARP" x="3968" y="1920" width="64" height="128">
+   <properties>
+    <property name="DEST_MAP">
+     18
+    </property>
+    <property name="DEST_X">
+     832
+    </property>
+    <property name="DEST_Y">
+     1968
+    </property>
+   </properties>
+  </object>
  </objectgroup>
 </map>

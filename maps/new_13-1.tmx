@@ -33,4 +33,71 @@
   </data>
   <tileproperties/>
  </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="ToOutside" type="WARP" x="800" y="1120" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP">
+     11
+    </property>
+    <property name="DEST_X">
+     1504
+    </property>
+    <property name="DEST_Y">
+     1600
+    </property>
+   </properties>
+  </object>
+  <object name="ToOutside" type="WARP" x="2048" y="800" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP">
+     11
+    </property>
+    <property name="DEST_X">
+     1760
+    </property>
+    <property name="DEST_Y">
+     2880
+    </property>
+   </properties>
+  </object>
+    <object name="ToOutside" type="WARP" x="3552" y="1024" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP">
+     11
+    </property>
+    <property name="DEST_X">
+     2048
+    </property>
+    <property name="DEST_Y">
+     2688
+    </property>
+   </properties>
+  </object>
+  <object name="ToOutside" type="WARP" x="1024" y="2336" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP">
+     11
+    </property>
+    <property name="DEST_X">
+     2688
+    </property>
+    <property name="DEST_Y">
+     1536
+    </property>
+   </properties>
+  </object>
+  <object name="ToOutside" type="WARP" x="2304" y="2240" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP">
+     11
+    </property>
+    <property name="DEST_X">
+     2112
+    </property>
+    <property name="DEST_Y">
+     1728
+    </property>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

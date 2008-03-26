@@ -101,5 +101,73 @@
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3104" y="1344" width="32" height="32">
    <properties/>
   </object>
+  <object name="Naem the Miner" type="NPC" x="1040" y="3024" width="0" height="0">
+   <properties>
+    <property name="SCRIPT">
+     function npc_handler(npc, ch)
+       do_message(npc, ch, "Do you want me to lift you to the upper level?")
+       local v = do_choice(npc, ch, "Sure", "Not yet!")
+       if v == 1 then
+         tmw.chr_warp(ch, 2, 87 * 32 + 16, 99 * 32 + 16)
+       end
+     end
+    </property>
+    <property name="NPC_ID">
+     109
+    </property>
+   </properties>
+  </object>
+  <object name="Chest" type="NPC" x="2976" y="1184" width="0" height="0">
+   <properties>
+    <property name="SCRIPT">
+     function npc_handler(npc, ch)
+       local g = tonumber(get_quest_var(npc, ch, "005_chest"))
+       if not g then
+         do_message(npc, ch, "Would you try to open it?")
+         local v = do_choice(npc, ch, "Yup", "Nope")
+         if v == 1 then
+           if tmw.chr_inv_change(ch, 537, -3, 536, 1) then
+             do_message(npc, ch, "You opened it and found a short sword!")
+             tmw.chr_set_quest(ch, "005_chest", 1)
+           else
+             do_message(npc, ch, "It seems that this is not the right key...")   
+           end
+         end
+       else
+         do_message(npc, ch, "You already opened this chest.")
+       end
+     end
+    </property>
+    <property name="NPC_ID">
+     111
+    </property>
+   </properties>
+  </object>
+  <object name="Spider" type="SPAWN" x="0" y="0" width="0" height="0">
+   <properties>
+    <property name="SPAWN_RATE">
+     10
+    </property>
+    <property name="MAX_BEINGS">
+     20
+    </property>
+    <property name="MONSTER_ID">
+     1012
+    </property>
+   </properties>
+  </object>
+  <object name="Spider" type="SPAWN" x="0" y="0" width="0" height="0">
+   <properties>
+    <property name="SPAWN_RATE">
+     10
+    </property>
+    <property name="MAX_BEINGS">
+     25
+    </property>
+    <property name="MONSTER_ID">
+     1007
+    </property>
+   </properties>
+  </object>
  </objectgroup>
 </map>

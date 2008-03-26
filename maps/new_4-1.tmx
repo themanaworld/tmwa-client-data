@@ -45,5 +45,34 @@
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="992" y="960" width="32" height="32">
    <properties/>
   </object>
+  <object name="ToOutside" type="WARP" x="960" y="704" width="96" height="32">
+   <properties>
+    <property name="DEST_MAP">
+     9
+    </property>
+    <property name="DEST_Y">
+     3008
+    </property>
+    <property name="DEST_X">
+     1856
+    </property>
+   </properties>
+  </object>
+  <object name="Arkim the Hermit" type="NPC" x="976" y="976" width="0" height="0">
+   <properties>
+    <property name="SCRIPT">
+     function npc_handler(npc, ch)
+       do_message(npc, ch, "Do you want to go back outside?")
+       local v = do_choice(npc, ch, "Yes please", "Not yet")
+       if v == 1 then
+         tmw.chr_warp(ch, 9, 60 * 32 + 16, 95 * 32 + 16)
+       end
+     end
+    </property>
+    <property name="NPC_ID">
+     116
+    </property>
+   </properties>
+  </object>
  </objectgroup>
 </map>

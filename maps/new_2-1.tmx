@@ -35,4 +35,61 @@
   </data>
   <tileproperties/>
  </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="CaveExit" type="WARP" x="1152" y="960" width="128" height="32">
+   <properties>
+    <property name="DEST_MAP">
+     1
+    </property>
+    <property name="DEST_X">
+     592
+    </property>
+    <property name="DEST_Y">
+     2880
+    </property>
+   </properties>
+  </object>
+  <object name="Red Slime" type="SPAWN" x="1088" y="1088" width="320" height="320">
+   <properties>
+    <property name="MONSTER_ID">
+     1008
+    </property>
+   </properties>
+  </object>
+  <object name="Black Scorpion" type="SPAWN" x="2496" y="2816" width="320" height="320">
+   <properties>
+    <property name="MONSTER_ID">
+     1009
+    </property>
+   </properties>
+  </object>
+  <object name="Nathan the Miner" type="NPC" x="1136" y="1136" width="0" height="0">
+   <properties>
+    <property name="SCRIPT">
+     function npc_handler(npc, ch)
+       do_message(npc, ch, "It's very dangerous in here\nBe careful")
+     end
+    </property>
+    <property name="NPC_ID">
+     109
+    </property>
+   </properties>
+  </object>
+  <object name="Naem the Miner" type="NPC" x="2736" y="3120" width="0" height="0">
+   <properties>
+    <property name="SCRIPT">
+     function npc_handler(npc, ch)
+       do_message(npc, ch, "We discovered an underground palace\nDo you want me to let you in?")
+       local v = do_choice(npc, ch, "Sure", "Not yet!")
+       if v == 1 then
+         tmw.chr_warp(ch, 5, 34 * 32 + 16, 92 * 32 + 16)
+       end
+     end
+    </property>
+    <property name="NPC_ID">
+     109
+    </property>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

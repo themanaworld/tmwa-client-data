@@ -58,4 +58,97 @@
    H4sIAAAAAAAAAO2U0Q7rKAwF797//+h9qjYbQbAxcDCMpZGatAH7MOnff/78+QsAAAAAAAAAAAAAAAAAAAAAAJCMWqn7gnN4+vT260bXbpx5doZf/2Ez/td29pj/8f68olXzw3p/ZA8r/Vqxb3aoMYVzOKeoknfPz6dizYSq1zun1vXXGifRm0XWWvluWvooXaudmOVZK4OTqmeuGZ6V1rfumZHbajfPauupvcCzWJVmnpFf7XtP7mo38Ky/VnnW29tzTbUbePZfef83LJ6V7lnyi+Q/ar1dyVyWs3rf75nd45m3/549M3Jb9cyMZ3jmrQyeqZ3As3jhGZ6tKDxb79dKzyxer3Afz3S+rSzVvs/9e56Zkd/X82ovMnpW26vVw4wen+up88Mzqqe8ebZ+r3bjBvd26cNTeJbHtffeM3uxzu/5nXf/3v5O4vTqnRXPznDtt+/s/Uue1Pa0eDXSM/W570T2spyz5/mRGarPdidm1G/dFR4/97I69/48szdY48Ev79VrW+eb+a7BPM9+ayocLs30vFf6jGc5PSvlPXv92Rn0ZKU+192gylXLx+sm4Fmr3hl5M1Of7U5Q/69aPr15qc93F1bmctIZ4Nm9Z6/MDc98ean7yQKexfJS95MFPOvL6net7ikLOBbLSt1TFvAslpO6ryzgWSwfdX9ZIMf+bG7PZ2SW6v52zOPmfGbmegs9pe45C6fkqCz17LtzUobKUs++OyflqCz17Bk4JUdVqefOwm1Zeua9LZtdcj+FiFenZ4Nn6+f+yuLkbFR5q3tUzn5rNqqs1X2unN2TjXqGLOBZrNQzZOHmPGszvj/flsuKrG/K0uPTbdnMyPrGLEeVeo4s3JrjCLdOzmd13ur+FPNbs7khn5k5n55jxKsb8lmR+S05Wue+NR9V3ificav1DPiyvt01b6n7z8LteVpmvjGXlTnfkmekVvalzml2xuoeV+bwvPZm1fqdZR3PuVif611zxdrvdU7HM7snt9Z3PecU8dV737NnpNTnr/TsPb8lJ+93X1mvqNJe0XkjfZxOK/ddS+HmrFI7sNIzSw671G79jCi1B6sd2/EMIz2tnqdnP7UH6v+xVh7e3Fq/H1HWtXZ5n9Qe7ObYV0bW70p9zDpv617WXlrPWu5b+jwFTx4zHJjl1YyyehR5b9Q+rHKtlaknq2hFvO8938gapWcia5xGb7Uy9XryvI56EunN0seod+lr/9OoZVe77snX61zvej39WZ7x/GbU+3cLrdl3Ka/D0Tki8+PYOCdrudbOO3JWpc+l3nr6/br/NZfn3vs78Ltmybp1Xt766mmED709eNZUn2MGaplFziv6m9azo7watZ/6DLMQLY9fHscjc4z0udWr+vyy4Mm8lrHn/Faclcehrx6sM0HfmYw+35XnM2sPPNvrnHZwbWYuGXs/kew+WeZS9wLnegYAAAAAAAAAAAAAAAAAAAAAAAAAcCP/AkO6gJPAIAEA
   </data>
  </layer>
+<objectgroup name="Objects" width="0" height="0">
+  <object name="WestGate" type="WARP" x="1728" y="1920" width="32" height="96">
+   <properties>
+    <property name="DEST_MAP">
+     19
+    </property>
+    <property name="DEST_X">
+     832
+    </property>
+    <property name="DEST_Y">
+     1152
+    </property>
+   </properties>
+  </object>
+  <object name="SouthGate" type="WARP" x="2464" y="2560" width="128" height="32">
+   <properties>
+    <property name="DEST_MAP">
+     19
+    </property>
+    <property name="DEST_X">
+     1536
+    </property>
+    <property name="DEST_Y">
+     1728
+    </property>
+   </properties>
+  </object>
+  <object name="EasthGate" type="WARP" x="4064" y="1920" width="32" height="64">
+   <properties>
+    <property name="DEST_MAP">
+     19
+    </property>
+    <property name="DEST_X">
+     3072
+    </property>
+    <property name="DEST_Y">
+     1120
+    </property>
+   </properties>
+  </object>
+  <object name="NorthGate" type="WARP" x="2464" y="1568" width="128" height="32">
+   <properties>
+    <property name="DEST_MAP">
+     19
+    </property>
+    <property name="DEST_X">
+     1552
+    </property>
+    <property name="DEST_Y">
+     800
+    </property>
+   </properties>
+  </object>
+  <object name="ToWoodland" type="WARP" x="2464" y="3232" width="128" height="64">
+   <properties>
+    <property name="DEST_MAP">
+     16
+    </property>
+    <property name="DEST_X">
+     2176
+    </property>
+    <property name="DEST_Y">
+     736
+    </property>
+   </properties>
+  </object>
+  <object name="ToWoodland" type="WARP" x="4192" y="3200" width="96" height="64">
+   <properties>
+    <property name="DEST_MAP">
+     16
+    </property>
+    <property name="DEST_X">
+     3904
+    </property>
+    <property name="DEST_Y">
+     736
+    </property>
+   </properties>
+  </object>
+  <object name="ToWoodland" type="WARP" x="768" y="1920" width="64" height="128">
+   <properties>
+    <property name="DEST_MAP">
+     9
+    </property>
+    <property name="DEST_X">
+     3904
+    </property>
+    <property name="DEST_Y">
+     1952
+    </property>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
