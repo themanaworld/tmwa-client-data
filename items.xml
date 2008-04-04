@@ -204,6 +204,13 @@
         <sprite gender="male">chest-lightplatemail-male.xml|#884422,ddaa22,ffff22</sprite>
         <sprite gender="female">chest-lightplatemail-female.xml||#884422,ddaa22,ffff22</sprite>
     </item>
+    <item id="46">
+    	<sprite>head-crown.xml</sprite>
+    </item>
+    <item id="47">
+    	<sprite>head-devcap.xml|#9999ff</sprite>
+    </item>
+
 
     <item id="501" image="use-potion-cactusdrink.png" name="Cactus drink" description="A fresh drink." effect="+15 HP" type="0" weight="25"/>
     <item id="502" image="use-potion-cactuspotion.png" name="Cactus potion" description="A fresh potion." effect="+25 HP/+10 MP" type="0" weight="40"/>
@@ -437,6 +444,12 @@
     <item id="645" image="armor-chest-lightplatemail.png|W:#884422,ddaa22,ffff22" name="Golden Platemail" description="A plate mail made from gold which can only be afforded by the richest of the richest." effect="Defense: +25" type="0" weight="240">
         <sprite gender="male">chest-lightplatemail-male.xml|#884422,ddaa22,ffff22</sprite>
         <sprite gender="female">chest-lightplatemail-female.xml||#884422,ddaa22,ffff22</sprite>
+    </item>
+    <item id="646" image="armor-head-crown.png" name="Crown" description="A jewel embossed crown fit for any ruler." effect="Defense: +4" type="0" weight="50">
+        <sprite>head-crown.xml</sprite>
+    </item>
+    <item id="647" image="armor-head-cap.png|R:#9999ff" name="Developers Cap" description="A cap which identifies you as a developer." effect="Defense: +5" type="0" weight="20">
+        <sprite>head-devcap.xml|#9999ff</sprite>
     </item>
 
     <item id="1199" image="weapon-arrow-arrow.png" name="Arrow" description="A standard arrow." effect="Damage: +25" type="0" weight="8"/>
