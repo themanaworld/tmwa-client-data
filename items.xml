@@ -136,8 +136,8 @@
         <sprite gender="female">chest-chainmail-female.xml</sprite>
     </item>
     <item id="26">
-        <sprite gender="male">chest-lightplatemail-male.xml|#ddeeff</sprite>
-        <sprite gender="female">chest-lightplatemail-female.xml||#ddeeff</sprite>
+        <sprite gender="male">chest-lightplatemail-male.xml</sprite>
+        <sprite gender="female">chest-lightplatemail-female.xml</sprite>
     </item>
     <item id="27">
         <sprite>leg-skirt.xml</sprite>
@@ -201,14 +201,14 @@
     	<sprite>head-cowboyblack.xml</sprite>
     </item>
     <item id="45">
-        <sprite gender="male">chest-lightplatemail-male.xml|#884422,ddaa22,ffff22</sprite>
-        <sprite gender="female">chest-lightplatemail-female.xml||#884422,ddaa22,ffff22</sprite>
+        <sprite gender="male">chest-lightplatemailgold-male.xml</sprite>
+        <sprite gender="female">chest-lightplatemailgold-female.xml</sprite>
     </item>
     <item id="46">
     	<sprite>head-crown.xml</sprite>
     </item>
     <item id="47">
-    	<sprite>head-devcap.xml|#9999ff</sprite>
+    	<sprite>head-devcap.xml</sprite>
     </item>
 
 
@@ -389,9 +389,9 @@
         <sprite gender="male">chest-chainmail-male.xml</sprite>
         <sprite gender="female">chest-chainmail-female.xml</sprite>
     </item>
-    <item id="626" image="armor-chest-lightplatemail.png|W:#ddeeff" name="Light Platemail" description="A light cuirass with shoulder pads made of iron. A cheap and plain but efficient armor usually worn by foot soldiers." effect="Defense: +25" type="0" weight="240">
-        <sprite gender="male">chest-lightplatemail-male.xml|#ddeeff</sprite>
-        <sprite gender="female">chest-lightplatemail-female.xml|#ddeeff</sprite>
+    <item id="626" image="armor-chest-lightplatemail.png" name="Light Platemail" description="A light cuirass with shoulder pads made of iron. A cheap and plain but efficient armor usually worn by foot soldiers." effect="Defense: +25" type="0" weight="240">
+        <sprite gender="male">chest-lightplatemail-male.xml</sprite>
+        <sprite gender="female">chest-lightplatemail-female.xml</sprite>
     </item>
     <item id="627" image="armor-head-tophat.png" name="Top hat" description="For the gentry of The Mana World." effect="Defense: +15" type="0" weight="20">
         <sprite>head-tophat.xml</sprite>
@@ -435,21 +435,21 @@
         <sprite gender="male">leg-chaps-male.xml</sprite>
         <sprite gender="female">leg-chaps-female.xml</sprite>
     </item>
-    <item id="643" image="armour-head-cowboywhite.png" name="White Cowboy Hat" description="A white cowboy hat with a band." effect="Defense: +6" type="0" weight="30">
+    <item id="643" image="armor-head-cowboywhite.png" name="White Cowboy Hat" description="A white cowboy hat with a band." effect="Defense: +6" type="0" weight="30">
         <sprite>head-cowboywhite.xml</sprite>
     </item>
-    <item id="644" image="armour-head-cowboyblack.png" name="Black Cowboy Hat" description="A black cowboy hat with shinny buckles." effect="Defense: +6" type="0" weight="30">
+    <item id="644" image="armor-head-cowboyblack.png" name="Black Cowboy Hat" description="A black cowboy hat with shinny buckles." effect="Defense: +6" type="0" weight="30">
         <sprite>head-cowboyblack.xml</sprite>
     </item>
-    <item id="645" image="armor-chest-lightplatemail.png|W:#884422,ddaa22,ffff22" name="Golden Platemail" description="A plate mail made from gold which can only be afforded by the richest of the richest." effect="Defense: +25" type="0" weight="240">
-        <sprite gender="male">chest-lightplatemail-male.xml|#884422,ddaa22,ffff22</sprite>
-        <sprite gender="female">chest-lightplatemail-female.xml||#884422,ddaa22,ffff22</sprite>
+    <item id="645" image="armor-chest-lightplatemailgold.png" name="Golden Platemail" description="A plate mail made from gold which can only be afforded by the richest of the richest." effect="Defense: +25" type="0" weight="240">
+        <sprite gender="male">chest-lightplatemailgold-male.xml</sprite>
+        <sprite gender="female">chest-lightplatemailgold-female.xml</sprite>
     </item>
     <item id="646" image="armor-head-crown.png" name="Crown" description="A jewel embossed crown fit for any ruler." effect="Defense: +4" type="0" weight="50">
         <sprite>head-crown.xml</sprite>
     </item>
-    <item id="647" image="armor-head-cap.png|R:#9999ff" name="Developers Cap" description="A cap which identifies you as a developer." effect="Defense: +5" type="0" weight="20">
-        <sprite>head-devcap.xml|#9999ff</sprite>
+    <item id="647" image="armor-head-cap.png" name="Developers Cap" description="A cap which identifies you as a developer." effect="Defense: +5" type="0" weight="20">
+        <sprite>head-devcap.xml</sprite>
     </item>
 
     <item id="1199" image="weapon-arrow-arrow.png" name="Arrow" description="A standard arrow." effect="Damage: +25" type="0" weight="8"/>
