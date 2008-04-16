@@ -1,0 +1,32 @@
+<?xml version = '1.0'?>
+<sprite action="stand" name="npc" >
+  <imageset width="64" height="64" name="base" src="graphics/sprites/npc-test.png" />
+  <action imageset="base" name="stand" >
+    <animation direction="down" >
+      <frame index="0" />
+    </animation>
+    <animation direction="left" >
+      <frame index="7" />
+    </animation>
+    <animation direction="up" >
+      <frame index="14" />
+    </animation>
+    <animation direction="right" >
+      <frame index="21" />
+    </animation>
+  </action>
+  <action imageset="base" name="walk" >
+    <animation direction="down" >
+      <sequence end="6" delay="75" start="1" />
+    </animation>
+    <animation direction="left" >
+      <sequence end="13" delay="75" start="8" />
+    </animation>
+    <animation direction="up" >
+      <sequence end="20" delay="75" start="15" />
+    </animation>
+    <animation direction="right" >
+      <sequence end="27" delay="75" start="22" />
+    </animation>
+  </action>
+</sprite>

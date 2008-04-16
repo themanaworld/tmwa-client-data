@@ -1,0 +1,9 @@
+<?xml version = '1.0'?>
+<sprite action="stand" name="open-treasure-npc" >
+  <imageset width="64" height="64" name="base" src="graphics/sprites/npc-treasurebox.png" />
+  <action imageset="base" name="stand" >
+    <animation stand="default" >
+      <sequence end="6" delay="75" start="0" />
+    </animation>
+  </action>
+</sprite>

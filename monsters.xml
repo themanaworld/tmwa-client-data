@@ -1,10 +1,51 @@
 <monsters>
+
     <monster id="0" name="Maggot" targetCursor="small">
         <sprite>monster-maggot.xml</sprite>
         <sound event="hit">maggot-hit1.ogg</sound>
         <sound event="hit">maggot-hit2.ogg</sound>
         <sound event="miss">maggot-miss1.ogg</sound>
         <sound event="die">maggot-dying1.ogg</sound>
+        <drop item="505" percent="8"/>
+        <drop item="518" percent="4"/>
+        <drop item="501" percent="1.5"/>
+        <drop item="533" percent="1.5"/>
+        <drop item="502" percent="0.7"/>
+        <drop item="522" percent="0.1"/>
+        <attributes
+            hp="20"
+            size="4"
+            speed="64"
+            attack-min="10"
+            attack-delta="2"
+            attack-magic="0"
+            hit="10"
+            evade="10"
+            physical-defence="5"
+            magical-defence="0"
+            mutation="50"
+            />
+        <vulnerability element="fire" factor="1.5"/>
+        <vulnerability element="earth" factor="0.7"/>
+        <exp>10</exp>
+        <!-- average stroll- and track range-->
+        <behavior
+            aggressive="false"
+            cowardly="false"
+            track-range="5"
+            stroll-range="5"
+            attack-distance="32"
+            />
+        <attack id="1"
+            priority="1"
+            type="physical"
+            pre-delay="10"
+            aft-delay="5"
+            damage-factor="1"
+            range="32"
+            angle="10"
+            animation="attack"
+            />
     </monster>
 
     <monster id="1" name="Scorpion">
@@ -14,6 +55,53 @@
         <sound event="hit">scorpion-hit3.ogg</sound>
         <sound event="hit">scorpion-hit4.ogg</sound>
         <sound event="miss">scorpion-miss1.ogg</sound>
+        <drop item="507" percent="7"/>
+        <drop item="510" percent="1"/>
+        <drop item="509" percent="0.5"/>
+        <drop item="518" percent="7"/>
+        <exp>20</exp>
+        <attributes
+            hp="20"
+            size="8"
+            speed="192"
+            attack-min="10"
+            attack-delta="2"
+            attack-magic="0"
+            hit="10"
+            evade="10"
+            physical-defence="5"
+            magical-defence="0"
+            />
+        <!-- doesn't move much, but attacks when you are comming too close. -->
+        <behavior
+            aggressive="true"
+            cowardly="false"
+            track-range="2"
+            stroll-range="1"
+            attack-distance="64"
+            />
+        <!-- slow, strong, long-range tail attack-->
+        <attack id="1"
+            priority="1"
+            type="physical"
+            pre-delay="5"
+            aft-delay="15"
+            damage-factor="3"
+            range="64"
+            angle="1"
+            particle-effect="graphics/particles/attack.particle.xml"
+            action="special1"
+            />
+        <!-- fast, weak, short-range scissor attack -->
+        <attack id="2"
+            priority="4"
+            type="physical"
+            pre-delay="3"
+            aft-delay="3"
+            damage-factor="1"
+            range="32"
+            angle="45"
+            />
     </monster>
 
     <monster id="2" name="Red Scorpion">
@@ -23,11 +111,80 @@
         <sound event="hit">scorpion-hit3.ogg</sound>
         <sound event="hit">scorpion-hit4.ogg</sound>
         <sound event="miss">scorpion-miss1.ogg</sound>
+        <drop item="517" percent="20"/>
+        <drop item="509" percent="1"/>
+        <drop item="518" percent="5"/>
+        <drop item="1200" percent="0.1"/>
+        <drop item="1199" percent="7.6"/>
+        <drop item="1201" percent="5.4"/>
+        <drop item="524" percent="0.1"/>
+        <exp>50</exp>
+        <attributes
+            hp="20"
+            size="8"
+            speed="192"
+            attack-min="20"
+            attack-delta="10"
+            attack-magic="0"
+            hit="30"
+            evade="30"
+            physical-defence="5"
+            magical-defence="0"
+            />
+        <!-- also quite lazy when unprovoked but much more territorial
+        than the normal one-->
+        <behavior
+            aggressive="true"
+            cowardly="false"
+            track-range="6"
+            stroll-range="1"
+            attack-distance="64"
+            />
+        <attack id="1"
+            priority="1"
+            type="physical"
+            element="fire"
+            pre-delay="5"
+            aft-delay="10"
+            damage-factor="1"
+            range="64"
+            angle="10"
+            />
     </monster>
 
     <monster id="3" name="Green Slime">
         <sprite>monster-slime.xml|#72982c,ffffff</sprite>
         <sound event="hit">slime-hit1.ogg</sound>
+        <drop item="502" percent="2"/>
+        <drop item="513" percent="1"/>
+        <drop item="501" percent="1"/>
+        <drop item="521" percent="1"/>
+        <drop item="522" percent="1.9"/>
+        <drop item="526" percent="0.1"/>
+        <drop item="503" percent="5"/>
+        <drop item="535" percent="7.5"/>
+        <exp>60</exp>
+        <attributes
+            hp="200"
+            size="4"
+            speed="32"
+            attack-min="2"
+            attack-delta="10"
+            attack-magic="0"
+            hit="100"
+            evade="10"
+            physical-defence="0"
+            magical-defence="0"
+            />
+        <!-- Is fulfilling some unknown purpose that requires it to move around
+        a lot and leaves no time for pursing attackers -->
+        <behavior
+            aggressive="false"
+            cowardly="false"
+            track-range="4"
+            stroll-range="24"
+            attack-distance="32"
+            />
     </monster>
 
     <monster id="4" name="Giant Maggot" targetCursor="large">
@@ -36,16 +193,36 @@
         <sound event="hit">maggot-hit2.ogg</sound>
         <sound event="miss">maggot-miss1.ogg</sound>
         <sound event="die">maggot-dying1.ogg</sound>
+        <drop item="1199" percent="9"/>
+        <drop item="519" percent="1"/>
+        <drop item="518" percent="7.5"/>
+        <drop item="501" percent="50"/>
+        <drop item="502" percent="30"/>
+        <drop item="503" percent="0.1"/>
+        <drop item="526" percent="0.1"/>
     </monster>
 
     <monster id="5" name="Yellow Slime">
         <sprite>monster-slime.xml|#b47f00,ffffff</sprite>
         <sound event="hit">slime-hit1.ogg</sound>
+        <drop item="534" percent="2"/>
+        <drop item="519" percent="1"/>
+        <drop item="501" percent="3.5"/>
+        <drop item="502" percent="2.5"/>
+        <drop item="522" percent="0.1"/>
     </monster>
 
     <monster id="6" name="Red Slime">
         <sprite>monster-slime.xml|#7e0000,ffffff</sprite>
         <sound event="hit">slime-hit1.ogg</sound>
+        <drop item="1201" percent="3"/>
+        <drop item="509" percent="1.1"/>
+        <drop item="521" percent="2"/>
+        <drop item="523" percent="0.4"/>
+        <drop item="525" percent="0.8"/>
+        <drop item="535" percent="7.5"/>
+        <drop item="528" percent="2.5"/>
+        <drop item="531" percent="1.5"/>
     </monster>
 
     <monster id="7" name="Black Scorpion">
@@ -55,6 +232,9 @@
         <sound event="hit">scorpion-hit3.ogg</sound>
         <sound event="hit">scorpion-hit4.ogg</sound>
         <sound event="miss">scorpion-miss1.ogg</sound>
+        <drop item="523" percent="1.5"/>
+        <drop item="509" percent="1.0"/>
+        <drop item="518" percent="8"/>
     </monster>
 
     <monster id="8" name="Snake">
@@ -66,15 +246,27 @@
         <sound event="hit">fire-goblin-hit1.ogg</sound>
         <sound event="hit">fire-goblin-hit2.ogg</sound>
         <sound event="miss">fire-goblin-miss1.ogg</sound>
+        <drop item="505" percent="8"/>
+        <drop item="501" percent="1.5"/>
+        <drop item="518" percent="8"/>
+        <drop item="502" percent="1.5"/>
+        <drop item="521" percent="0.7"/>
+        <drop item="522" percent="0.1"/>
     </monster>
 
     <monster id="10" name="Spider">
         <sprite>monster-spider.xml</sprite>
+        <drop item="537" percent="5"/>
+        <drop item="535" percent="1"/>
     </monster>
 
     <monster id="11" name="Evil Mushroom">
         <sprite>monster-mushroom-red.xml</sprite>
         <sound event="hit">shroom-hit1.ogg</sound>
+        <drop item="535" percent="5"/>
+        <drop item="540" percent="0.1"/>
+        <drop item="534" percent="1"/>
+        <drop item="566" percent="5"/>
     </monster>
 
     <monster id="12" name="Flower">
@@ -82,31 +274,60 @@
         <sound event="hit">flower-hit1.ogg</sound>
         <sound event="hit">flower-hit2.ogg</sound>
         <sound event="miss">flower-miss1.ogg</sound>
+        <drop item="535" percent="1"/>
+        <drop item="540" percent="0.1"/>
+        <drop item="1199" percent="1"/>
+        <drop item="526" percent="4"/>
+        <drop item="565" percent="5"/>
     </monster>
 
     <monster id="13" name="Santa Slime">
         <sprite>monster-slime-santa.xml</sprite>
+        <drop item="512" percent="8"/>
+        <drop item="513" percent="7"/>
+        <drop item="514" percent="6"/>
+        <drop item="519" percent="5"/>
+        <drop item="527" percent="4"/>
+        <drop item="538" percent="5"/>
     </monster>
 
     <monster id="14" name="Rudolph Slime">
         <sprite>monster-slime-rudolph.xml</sprite>
+        <drop item="504" percent="8"/>
+        <drop item="506" percent="5"/>
+        <drop item="508" percent="2"/>
+        <drop item="509" percent="3"/>
+        <drop item="510" percent="6"/>
+        <drop item="515" percent="8"/>
+        <drop item="516" percent="5"/>
     </monster>
 
     <monster id="15" name="Bat">
         <sprite>monster-bat.xml</sprite>
         <sound event="die">bat-dying1.ogg</sound>
         <sound event="hit">bat-hit1.ogg</sound>
+        <drop item="505" percent="8"/>
+        <drop item="501" percent="1.5"/>
+        <drop item="518" percent="4"/>
+        <drop item="533" percent="1.5"/>
+        <drop item="521" percent="0.7"/>
+        <drop item="522" percent="0.1"/>
     </monster>
 
     <monster id="16" name="Pinkie" targetCursor="small">
         <sprite>monster-pinkie.xml</sprite>
         <sound event="hit">pinkie-hit1.ogg</sound>
         <sound event="miss">pinkie-miss1.ogg</sound>
+        <drop item="614" percent="8"/>
     </monster>
 
     <monster id="17" name="Spiky Mushroom">
         <sprite>monster-mushroom-spiky.xml</sprite>
         <sound event="hit">shroom-hit1.ogg</sound>
+        <drop item="567" percent="8"/>
+        <drop item="501" percent="1.5"/>
+        <drop item="518" percent="0.5"/>
+        <drop item="613" percent="1.5"/>
     </monster>
 
     <monster id="18" name="Fluffy">
@@ -116,10 +337,15 @@
         <sound event="hit">fluffy-hit3.ogg</sound>
         <sound event="miss">fluffy-miss1.ogg</sound>
         <sound event="hurt">fluffy-hurt1.ogg</sound>
+        <drop item="611" percent="8"/>
+        <drop item="527" percent="1.5"/>
+        <drop item="535" percent="4"/>
     </monster>
 
     <monster id="19" name="Cave Snake">
         <sprite>monster-snake-cave.xml</sprite>
+        <drop item="612" percent="8"/>
+        <drop item="610" percent="0.1"/>
     </monster>
 
     <monster id="20" name="Pumpkin Ghost">
@@ -128,10 +354,14 @@
 
     <monster id="21" name="Fire Skull">
         <sprite>monster-skull-fire.xml</sprite>
+        <drop item="621" percent="0.1"/>
+        <drop item="540" percent="1.5"/>
     </monster>
 
     <monster id="22" name="Poison Skull">
         <sprite>monster-skull-poison.xml</sprite>
+        <drop item="621" percent="0.1"/>
+        <drop item="540" percent="1.5"/>
     </monster>
 
     <monster id="23" name="Log Head">
@@ -141,6 +371,7 @@
         <sound event="hurt">loghead-hurt3.ogg</sound>
         <sound event="hurt">loghead-hurt4.ogg</sound>
         <sound event="hurt">loghead-hurt5.ogg</sound>
+        <drop item="569" percent="20"/>
     </monster>
 
     <monster id="24" name="Mountain Snake">
