@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <map version="0.99b" orientation="orthogonal" width="190" height="200" tilewidth="32" tileheight="32">
  <properties>
-  <property name="minimap" value="graphics/images/minimap_new_15-1.png"/>
   <property name="music" value="Faith.ogg"/>
+  <property name="minimap" value="graphics/images/minimap_new_15-1.png"/>
  </properties>
  <tileset name="Desert1" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/desert1.png"/>
@@ -43,7 +43,7 @@
   </data>
   <tileproperties/>
  </layer>
- <layer name="Collisions" width="190" height="200">
+ <layer name="Collision" width="190" height="200">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAAO3Vi2rkOBAF0GH+/6OXYQk0wW7LsqQryafgsNm0rUfV7czfv3/+/AUAgM39q/QZYKSfSp8DRvldR5+nzwgtndXR5+mzQgs1lT4zPFGSb9lnNyX5vvoupO8Ad5X+jT979ij/vgvMrGel7wZnfvIp9216+da7r+Ysr1d5Pnv292e7aVHpO7xd70rfb9aepe9A3czePuOnlT7/242o9B1n7Fv6/G9WOy8zruvd7j1ZwdOZmfGzHu7cl5ldzePb/995d/f5Pqn02e/cMX2G3rNqMctV59u6l6X9mtGKZ+49q5pK33nWXqbPv9s9Wtyxth9H76XvnO7lt16tfP6Z7vLknnd7Ufp8+t6zZ2e1885yl5Z3bv3crL2YLUsrnHGWu8x455n7MHt/0+dqnZUZ53H3jk96ks7lKrlv2asZa+QManvw+V7JGiXfs121rBnO8Kaq6d2dnqezuUru7/YrWen9z6o2yz32TmdzpcyX9Ev9X2e9OMpfotL53Cn3K1XyvKXfiafrXT2Xzugqmf/WK9WnUvNcUe96W96f3jP9/tXaO1Djq2XfR/3d+vx5B7vUTneZvdKZlft9avS/AU/2S2dW7teqz34/zd3V73rONp1Z2Z+nevWx5m9375mm8yr76neNmGU6q7L/vjqbU8v5Xa2Vzqnsl9fOdxtd6YzKvvpWJX+3n6y9o5Vr9/vNUumMvj37b7hjz7rqw9nn6Xy+Ofuz3/P32iV79e57zfpH76Sz+bb8v+GOs1c6j2/J/+73a1FX5z/7vObe6Ry+Ifs73i/1HWu1bzqDu+Y/fbee96tZ++qdkjXPnql5Nz2btNaVvs+o7F/1YPRaNc+lZ5PWotJ3SOb/yfqtc12zP3t7mo8R9bnP2c899mR/I+tnv6N9S39X80xJfZ6Nd2hVLdb6fa6W57u7P/tL17cztD7f1XrpWZDNfcu83VlrdM6Pnuc9RtfZnunzpefAWDPU3fP1OHd6DozXu0r2SJ3tan/2la4ZzpeeAeOl6/MMrc92d530LBjnbP4lGXnyeenzd9d5Wul5kMt9z0x9/vfJGiMqPRv2yf5Rtmav9HzYN/+rVXpWrJv73/uu9N1Lz4ps7ntkdYXvQnpWZHP/LRctnr9ap+f3Ij0P1st9SaZKPit9rnTtO5WeB/vlfvZKz4J1cv+zRs/vUMu1z9ZKz4G1cj+iep8zPQP2y33pHrVn+fZeyZrp/pPRK1NXn9dWy3XTvSfnSZ5K3qlZ9856Z+uXno13Ks1ISYZGVau90r0nZ3TWUuuf7ck71ebl6Odvv5ux0r0n5ywPvfPWu672SPedrF3qzl3SPScvXaPPkO43cyjJyYgsXv2u1TnS/WYOT/Izslrtl+43c/iWqbPf96oR50n3mzkkKrkv/DNTHZ3nzhm/PZvuM3O5k7Grz+9UyVo1+x29k+4x86nN2N3nn9aT/dI9Zj5PM1i7xshK95j5vKHSPWZOu1e6v8xpdAZHV7q/zGuHOrpHuq/MbXQ2R+2Z7itrSFWvvdP9ZA3Jar1/upesZXT12jPdR9bTKnd3n2m1989acFfv+r1H6z3T/WNtPXP4+dnRz633gztq83Y3fy2zn+4Ze+qdM5lnRiOyJvfMJpE1ueetZJ63knkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFbyH741fHPAUQIA
   </data>
@@ -81,11 +81,11 @@
     <property name="SPAWN_RATE">
      10
     </property>
-    <property name="MONSTER_ID">
-     1009
-    </property>
     <property name="MAX_BEINGS">
      10
+    </property>
+    <property name="MONSTER_ID">
+     1009
     </property>
    </properties>
   </object>
@@ -94,11 +94,11 @@
     <property name="SPAWN_RATE">
      10
     </property>
-    <property name="MONSTER_ID">
-     1010
-    </property>
     <property name="MAX_BEINGS">
      10
+    </property>
+    <property name="MONSTER_ID">
+     1010
     </property>
    </properties>
   </object>

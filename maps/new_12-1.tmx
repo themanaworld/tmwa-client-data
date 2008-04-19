@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <map version="0.99b" orientation="orthogonal" width="80" height="80" tilewidth="32" tileheight="32">
  <properties>
-  <property name="minimap" value="graphics/images/minimap_new_12-1.png"/>
   <property name="music" value="The Mana World - Snow Village.ogg"/>
+  <property name="minimap" value="graphics/images/minimap_new_12-1.png"/>
  </properties>
  <tileset name="Untitled" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/icecave.png"/>
@@ -10,25 +10,29 @@
  <tileset name="Collision" firstgid="129" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>
  </tileset>
- <layer name="Layer 0" width="80" height="80">
+ <layer name="Ground" width="80" height="80">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAAO3Zu07DMBSAYS8wAgNlBEQrLguglutCUct1Ad7/aTghsZRCnDiJyUnc/0jfEKUM/iU7URgZY0YAAAAAAABAxEKM9hroN1whRnsNQ+/nGu210a+/yuZEnBY48y6XjvYatfrdimvxIObiMbu+9w2XjfYatfq9imfxIT7FV3b97l1udbTX2nW/PbFRYGKa7Wvttfal35VJ9/GW2BY7xm9fa6+1q372uXHs6Pdk0n28Lw7EofHb19pr7aqffW7cOPpZ5+JCXGbXu/T7GfvceKno5zoX677fNB3tdq5+rnOvSnIu3pn67zdtJqZ+ybn4Zpq/3zSdWPpZVedg6Imt36Rlj7oTWz/7fhjK0Zr1s++HoUwrGsbWL7RF1tD1XKefX0PXc51+fuhHP/pV9ysa7XZD79dmNg392kyo82Bo/ex3wCJF77Pj3L1x7rdV3xFj7We/AxaZmtWWSa9Z7t4s99u63xGH1K+sY9m+W/xqmfRa5u4tS/6Wfn9b/kevdenXFfrRj370ox/96Ec/+q1XP9f/lbXbufr5TNMWIUe7XZt+fRjtdvSjn7Yhj3a7vjTWXh8AAAAAAAAAAOiPb54+VncAZAAA
   </data>
+  <tileproperties/>
  </layer>
- <layer name="Layer 1" width="80" height="80">
+ <layer name="Fringe" width="80" height="80">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAAO3XUarDIBRF0Uyik8n8BxZCf4IYldyrnqt7QaAf77XHTaDpcQAAAAAAAABr+zlcO6OfDf1sPPrt3JV+33w9N/3+6Gczot/KHb3PS7/8eU/n91uF9znp967lHqRfnbWj16Wg164R/RQatm7K3XOl+3BUv9kNo99/9KPfCPSzo5+d2l61PTVqey17Wn8Te/7vSv1mUNurtqdGbW+EZ6wntW3Rnm/p5793Jsu5e57j7ft5pX4zqO5U3ZVS3VnaZXlOLvnyvhH73VrP6v13qaj9VKjuVN2VUt2puiululN1V0p1p+qulOpO1V2353e16s4eu6zPjWfm9U79elDdWfodXLpGf95q/RQuBbMb0I9+Ua8o6AAAAAAAAAAAAEa5AOWr22YAZAAA
   </data>
+  <tileproperties/>
  </layer>
- <layer name="Layer 2" width="80" height="80">
+ <layer name="Over" width="80" height="80">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAAO3YMQrAIBAEQNvkAyb//2isxeI4MJowA9vKueWWAgAAAAAAAAAAAAAAvO1oubrcSy/6vlGn0egeAAAAgBkim1Vmm6qBd0c581/ZVmYX/GMPAAAAAAAAAKz3AIobjiYAZAAA
   </data>
+  <tileproperties/>
  </layer>
- <layer name="Layer 3" width="80" height="80">
+ <layer name="Collision" width="80" height="80">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAAO3S0QqDMBBFwXy7X158KIjYWqPlZnUWhoI0sDlkaq1NAAAAAAAAADe3NemdKlk206+/33LSO1Wy7vZt0ruO6FMn/Y5325v0ziPZarP3Lb3zSM5MevcR6KeffnWNNOkW1fvNk+7xj35nOvecTTep/P7mSTfR79k90w2q90/fQb+6elrp5/0dvUtr+2d7J92it99ei95eR8+kW5x5f7/e9er/rc9UM9KkW+inXzUjTbqFfs/sNy1+q7ni3lecT3eo/P7ek24xUt/03gAAAAAAAADczwvupUiSAGQAAA==
   </data>
+  <tileproperties/>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
   <object name="Warp1" type="WARP" x="960" y="832" width="96" height="32">
@@ -36,11 +40,11 @@
     <property name="DEST_MAP">
      11
     </property>
-    <property name="DEST_X">
-     2432
-    </property>
     <property name="DEST_Y">
      1152
+    </property>
+    <property name="DEST_X">
+     2432
     </property>
    </properties>
   </object>

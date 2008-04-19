@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <map version="0.99b" orientation="orthogonal" width="138" height="128" tilewidth="32" tileheight="32">
  <properties>
-  <property name="minimap" value="graphics/images/minimap_new_10-1.png"/>
   <property name="music" value="The Mana World - Snow Village.ogg"/>
+  <property name="minimap" value="graphics/images/minimap_new_10-1.png"/>
  </properties>
  <tileset name="snow" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/snowset.png"/>
@@ -19,25 +19,29 @@
  <tileset name="Snow_x2" firstgid="209" tilewidth="32" tileheight="64">
   <image source="../graphics/tiles/snow_x2.png"/>
  </tileset>
- <layer name="Layer0" width="138" height="128">
+ <layer name="Ground" width="138" height="128">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAAO2dO68dNRRGt0KbhkcT0tMQcikIoiLnz5A21JQoZaAEynALXhJvJN78NmydWNcYe8aesff+5viztKSrO+fM2N5L256Xzy0RuUX+x7eO7xzfA9SF4EJPSA30hNTwq+M3x+8AdSGEEEIIIYQQQgghhBBCCCGEEEKILl84vnR81fCdOwD1Jn14ufJzPzh+dDyWdl+IPi8aHSd4EvgJoC8IFn7MeV9uHHnP8RdAvQgWfzj+jKAjhJBR3AOoAyHkcngDoA4EG447c/DSCjWOHCGfrLWzpd2kHe/KETwpQU/mIsT3YQbrus0O0rjjHTk5XihgXT+CwTtSdoSukAA9ITXUeDKbK34sFoB6oODnqiep82Q2V8iZk9T7QU/mpHasoSt9eQ2gDi2cZLsnqSsC0B7Sny255L7jTcm7IgBtQgY5h5TKFk/uR/vNuSKi3z6C58nb0X5z3433TS6HPZ54mFMw2hwXBE/eXfk+Qp/NTM++j+8Bn6TNk+BKfP84zimzeBKKdT1GcZJ2L2p8uZKzL7N4csnsuZ7WMmcRgLaSMZ74892riHR+2jJnEYC2kjGe+Jzg74u+9Rz/d6srD+Xm3Ni6rWSde1G8Y2o8iTkln8ldh03xxxeAPiB1nuT+v+SJzwexI7nP+s+cFvYREIA+INs9WYtxGDu2ni/7Y4Ri3Qdkuyct841Wwn0fAWg/2efJqPPi+N6gALSfYHoSXz8RgPaTfZ60nuu25pIjexLWWJxp3byld9q9K63X0WodOYonsROBeE00rXXzrPuqZu2DHmNQ7nq9ddtrSNdTjJlp3bwlT8JzdyVPwvX7tXxz1Fyy5MlMjqx5Esh5ksZ+yZfcPgWg7Sl+jEnnG7En3o1Z11bc6kk6jpR8iX2K1zIQ43aX5h2PM/+bMX9s8eQk9Z6kXoXrtvE+EDxZmnfMPsbkePCc1uv38XX7dL2TtXlvKD3bkeaGNeJzljW4FvgNOU9aznNq7/f4/cqA+tfGfAv0pJ8ntdATHUa9I6Z1PzCUI3nC3yxZ96SXK6PvEY/05Mh5RdMTz5ZnYXPnxjKo/vQEw5OcMznSaydX0fdCOaonHH/6rXEd7h1eZbbJwPpreMK8Mn4t9FB67jO+pkpPdHiwQC9PenrReq2MnuATyh4nLL3Y6smWds/KUl/lXEBzgvlEz5PStpZ7cSjwnqA+aJ7Ez5c8KmynI3qE8QZpbEkdCL/5+qiwXZPR5xiooOURTzrnEPmvL5Z5BOG3UbRJf8PbYkzJkXogAH01qycjHVlyYEs+CMW6z2bx5GvHN44PZWweGVF3Aei/4Mkl/y6ed+SJ47ox5kieCEA/IuWT3s8/BUc+q4wzoifBFevYIHkywpFfhJ7UsHTe67lET2JHPNcbYo7miQD06yUQ5qqe2JGlXPLU8fHCdhRP6Eo/fpYbN2JKnjxd2Y7mCV3R9cT78ZGMGZM02hmKdX8fkXQ+EpN68MnCNnpyWcRzkXQ+sjbmBE96O6LlCV2pd6TkRY0nz2Tc+Q89waDFkUDP8xkUT4Ir1vFA/e3Avx0fSJsnWtfYLDwRgJigUjqvQcgp2n0hAPFAxeeUf6Qtrxz9uj092U5rXvHXTEbnFW1HBCAO6IS80ppbRvqi7Yl1DI5GaSy6lvN58OeZ/9OTeYl9Seckz+TsyyhH0D3ZW0a1werYsS+fSv4dmEvwZGtMNJzsud9cGVEX/06DlivWLoxwJOWVHd+97Xh1Z51KpUfbtN7VsfZhqU977fOOnGNdIvXodrTtblKvEe1c23fpM5rv6lg68XpFX2iQenQ385nR9Vor6ee13+ey9MTaj9Z6ohzX4p2/WfsfvZ5xSbdZvD9s3f9HIRcvi+NZvT9s3f9HIBQET6zWIrCOwREoxYyeEHpCT1rjVYqZ9jGt5ib0pC5mCI54LNdJso4DOqWYaTtimUvoyfa4aR/Les0161ggsxQ3TUescwk9sfdEVo6D4Ag92R4/LRetxxt6si9+WsfRfBaJnhzXExRXrOOBSk38NI9j7Yp1PBAJBckTa1esY4JIS+y0j8X7Ozi0xo6ezElr7OjJnLTGjp7MSWvstI7F5wqwaImd5rH4XAEWLbGbxZN/ARM8XzgAFAEA
   </data>
+  <tileproperties/>
  </layer>
- <layer name="Layer1" width="138" height="128">
+ <layer name="Fringe" width="138" height="128">
   <data encoding="base64" compression="gzip">
    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
   </data>
+  <tileproperties/>
  </layer>
- <layer name="Layer2" width="138" height="128">
+ <layer name="Over" width="138" height="128">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAAO3dsW6DMBAAUNSt7VR1aju0VZP//8VgKajICgSCwQa/J92Q7WRdzgbLpmkAAAAAAAAAAACAvXjOnQCwuVMbr7mTYBfeo99hzjjnSISihZ7y0gs1AgAAQGm8CwMA4AjCXl3Yi7G+BYBlwpxqPuWejza+cidB8X7b+Gv+1+q3Qr+hqxMYo07me7S/5n6/Es8Z5on1GWOmulcr/f+vugIAAKDjvhYAADi23HvMuXjWAQBgb6xhYdx3Gz+5k4CDMOcAsBVzDpCCXgKkUGsvKeFc8dh9Nrlz66u1RoK3Np6uEX/nDzrhLrPPa7jTbFjNvQTmyLVGsd8IsF8lPDcCx6GnACnpKUBKegpTqRUgJT0FSElPAVLSUwAAgNpNOZe35Zm9Ofl4plsujPeU79KeN8hlLadG3aQyNHYl1sjS83dx3aidx3V9vbQaWcuUnhPPdTXXVm31MeRWz4nHpNaz+eoDAAAAAAAAAAAAAAAAqN0FxChEUQAUAQA=
   </data>
+  <tileproperties/>
  </layer>
- <layer name="Layer3" width="138" height="128">
+ <layer name="Collision" width="138" height="128">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAAO2VYc7cIAwFuWJ7/8P0V6QUkawDNs/APGlU6dsmcfxm2b+llL8AAAAAAAAAAAAAAAAAAAAAAAAAAACwJXXU80BO6qjngZzUUc8DOamjngdyUkc9D+TsM+q+0M+fzu4syeaJ9/1OwdqFJX8atP6PwpO3OdUdrIB1Zy0Hergyy5Ov86n7yIpX/62zwxpPTzzfB4e+7/ZLor0afS7uxHniddYouox8H3V3q3hyRd3bTDfqqPtTeNKKuh+lA0+pr1d3mP08UXXa07vVh56Z1B3O9kTpj6WjOl/Og+j51T2u7smvjlppfTbbW1wZ8+RXd29ZtX88ee6t/lsrVoc8z6dMtKLuM4p7LI7M2r/iuW/9v2Xnc6Xuw3vXGc+QYtjLPaPvvzrqviL6t2bmbtQ9n+JJT0Y7w5PxfXjtsydPe/fuzOuddvGkZydfrrVm9Pvp+f239n/amfJrz5brnhLRWfT3f9bMK3LfW71Hz7Moaveq/k/z5G2fmdx4mzMz6n69zxNl/+oZ8CS/J7uj7lfhSR11B9kpkzqcQSvRu1P35/EOlqi7VZ0n1p2pe4zs/st7qrud7Yl1Lxkpt38t8Xy2ulsvInZzQv8neaLu2eKBJeo5d/dE5Ys16o57Z8eTvh3en1XvMQOWWO5R/03d62xPRveoOLusueZ7u0fvDOpePbHscRRPTyyx3iPaVXW3s86RmViinvEkTzJ6oO4TT+IdeYu6JxyJd+Qt6g5WQN23lyetqHe7Ik87VPc96zxRo575np7ZV0fdv5p7op6h7ljliTXq/tUOnu4J/Z/lSCZfSoIZeueugydn8JS37u+f7+rICZ78ypd7Wfen7hRPbN2XoOda9qfuc1dPLMnyLr+e+WsudddZPfmaL/2s4skuZ83X3Xj2P9JPNk8s86i79nSkTn3NlehOVvfkvk91zyO00nPW4sn/n43Mn43R/ezmSSu9M67uiGdPsz3x6P2Kh7PefmdD3V/m/r1Rd72TJ5aoZzzNEaUrrWTo0tNtPPm2N3X/ni73vpO642hXSnnem7rHCAcinqXu1pPoXc3u/8l1BepuZ50pWbiinuN0T1SuXFH3iScaT+4Zubbn+iyo+1S60ttfT9Q99859Rd1lJPdE7rB1f6/7vM3rNbtlBnWXM105PfzuPKP+TVf/1ni/z86o97sL6h7xZB3UXeLJOqj7XNmTkqA/fNF4YomHJ16J9gFPfPvqyehsM8+NUxxpxeNZnlE++54dnfjqi/f5GfkdVs5yuitlwjMy9ZF5tkxE+mGlJNp/nbedqbubvRf1DKvBzgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD24h+Mf+xTABQBAA==
   </data>
+  <tileproperties/>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
   <object name="ToVillage" type="WARP" x="2176" y="832" width="128" height="128">
@@ -53,19 +57,47 @@
     </property>
    </properties>
   </object>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2000" y="592"/>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2032" y="592"/>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2000" y="624"/>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2032" y="624"/>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2064" y="624"/>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2096" y="624"/>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2000" y="656"/>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2032" y="656"/>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2064" y="656"/>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2096" y="656"/>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="1968" y="688"/>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2000" y="688"/>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2032" y="688"/>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2064" y="688"/>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2000" y="592" width="0" height="0">
+   <properties/>
+  </object>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2032" y="592" width="0" height="0">
+   <properties/>
+  </object>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2000" y="624" width="0" height="0">
+   <properties/>
+  </object>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2032" y="624" width="0" height="0">
+   <properties/>
+  </object>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2064" y="624" width="0" height="0">
+   <properties/>
+  </object>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2096" y="624" width="0" height="0">
+   <properties/>
+  </object>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2000" y="656" width="0" height="0">
+   <properties/>
+  </object>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2032" y="656" width="0" height="0">
+   <properties/>
+  </object>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2064" y="656" width="0" height="0">
+   <properties/>
+  </object>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2096" y="656" width="0" height="0">
+   <properties/>
+  </object>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="1968" y="688" width="0" height="0">
+   <properties/>
+  </object>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2000" y="688" width="0" height="0">
+   <properties/>
+  </object>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2032" y="688" width="0" height="0">
+   <properties/>
+  </object>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2064" y="688" width="0" height="0">
+   <properties/>
+  </object>
  </objectgroup>
 </map>

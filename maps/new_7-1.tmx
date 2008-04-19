@@ -8,13 +8,13 @@
   <property name="overlay2scrollX" value="12"/>
   <property name="overlay1scrollY" value="-2"/>
   <property name="overlay1scrollX" value="8"/>
-  <property name="minimap" value="graphics/images/minimap_new_7-1.png"/>
   <property name="overlay0scrollY" value="-1"/>
-  <property name="overlay2image" value="tmw/data/graphics/images/ambient/sandstorm.png"/>
-  <property name="overlay0scrollX" value="4"/>
+  <property name="minimap" value="graphics/images/minimap_new_7-1.png"/>
   <property name="overlay1parallax" value="1.5"/>
-  <property name="overlay2parallax" value="2.0"/>
+  <property name="overlay0scrollX" value="4"/>
+  <property name="overlay2image" value="tmw/data/graphics/images/ambient/sandstorm.png"/>
   <property name="overlay0image" value="tmw/data/graphics/images/ambient/sandstorm.png"/>
+  <property name="overlay2parallax" value="2.0"/>
  </properties>
  <tileset name="desert1" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/desert1.png" trans="ff00ff"/>
@@ -49,7 +49,7 @@
   </data>
   <tileproperties/>
  </layer>
- <layer name="Collisions" width="200" height="130">
+ <layer name="Collision" width="200" height="130">
   <data encoding="base64" compression="gzip">
    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
   </data>
@@ -61,11 +61,11 @@
     <property name="DEST_MAP">
      1
     </property>
-    <property name="DEST_X">
-     3392
-    </property>
     <property name="DEST_Y">
      2496
+    </property>
+    <property name="DEST_X">
+     3392
     </property>
    </properties>
   </object>
