@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <map version="0.99b" orientation="orthogonal" width="150" height="150" tilewidth="32" tileheight="32">
  <properties>
-  <property name="music" value="Faith.ogg"/>
   <property name="minimap" value="graphics/images/minimap_new_24-1.png"/>
+  <property name="music" value="Faith.ogg"/>
  </properties>
  <tileset name="desert1" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/desert1.png" trans="ff00ff"/>
@@ -36,7 +36,7 @@
  </layer>
  <layer name="Over" width="150" height="150">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
   <tileproperties/>
  </layer>
