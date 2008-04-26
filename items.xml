@@ -219,7 +219,10 @@
     <item id="47">
         <sprite>head-devcap.xml</sprite>
     </item>
-
+    <item id="48">
+        <sprite>head-cap.xml</sprite>
+    </item>
+    
     <!-- Recolorable item ViewIDs -->
     <item id="50">
         <sprite gender="male">chest-cotton-male.xml|#441111,aa3333,dd6666</sprite>
@@ -1708,7 +1711,7 @@
         <sprite>head-crown.xml</sprite>
     </item>
     <item id="647"
-        image="armor-head-cap.png"
+        image="armor-head-devcap.png"
         name="Developers Cap"
         description="A cap which identifies you as a developer."
         effect="Defense: +5"
@@ -1777,7 +1780,26 @@
         max-per-slot="1"
         willpower="5"
         />
-
+    <item id="654"
+        image="armor-head-cap.png"
+        name="Cap"
+        description="A hat with a peak to sheild your eyes from the sun."
+        effect="Defense: +5"
+        type="equip-head"
+        defense="5"
+        weight="20">
+        <sprite>head-cap.xml</sprite>
+    </item>
+    <item id="655"
+        image="armor-feet-furboots.png"
+        name="Fur Boots"
+        description="A pair of warm winter boots."
+        effect="Defense: +3"
+        type="equip-feet"
+        weight="25"
+        defense="3"
+        max-per-slot="1"/>
+    
     <item id="1199"
         image="weapon-arrow-arrow.png"
         name="Arrow"
