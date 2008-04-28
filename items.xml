@@ -57,8 +57,8 @@
     -->
 
     <item id="1">
-        <sprite gender="male">chest-cotton-male.xml</sprite>
-        <sprite gender="female">chest-cotton-female.xml</sprite>
+        <sprite gender="male">chest-cotton-male.xml|#2b454d,72818c,b7c0c5,ffffff</sprite>
+        <sprite gender="female">chest-cotton-female.xml|#2b454d,72818c,b7c0c5,ffffff</sprite>
     </item>
     <item id="2">
         <sprite>item002.xml</sprite>
@@ -115,12 +115,12 @@
         <sprite>item018.xml</sprite>
     </item>
     <item id="19">
-        <sprite gender="male">chest-vnecksweater-male.xml</sprite>
-        <sprite gender="female">chest-vnecksweater-female.xml</sprite>
+        <sprite gender="male">chest-vnecksweater-male.xml|#000000,690c13,ad3141,e08f9f</sprite>
+        <sprite gender="female">chest-vnecksweater-female.xml|#000000,690c13,ad3141,e08f9f</sprite>
     </item>
     <item id="20">
-        <sprite gender="male">chest-tnecksweater-male.xml</sprite>
-        <sprite gender="female">chest-tnecksweater-female.xml</sprite>
+        <sprite gender="male">chest-tnecksweater-male.xml|#333f76,787aac,bebddf,ffffff</sprite>
+        <sprite gender="female">chest-tnecksweater-female.xml|#333f76,787aac,bebddf,ffffff</sprite>
     </item>
     <item id="21">
         <sprite>head-rangerhat.xml</sprite>
@@ -139,8 +139,8 @@
         <sprite gender="female">chest-chainmail-female.xml</sprite>
     </item>
     <item id="26">
-        <sprite gender="male">chest-lightplatemail-male.xml</sprite>
-        <sprite gender="female">chest-lightplatemail-female.xml</sprite>
+        <sprite gender="male">chest-lightplatemail-male.xml|#ddeeff</sprite>
+        <sprite gender="female">chest-lightplatemail-female.xml|#ddeeff</sprite>
     </item>
     <item id="27">
         <sprite>leg-skirt.xml</sprite>
@@ -921,7 +921,7 @@
         defense="2"
         max-per-slot="1"/>
     <item id="564"
-        image="armor-chest-tnecksweater.png"
+        image="armor-chest-tnecksweater.png|W:#333f76,787aac,bebddf,ffffff"
         name="Turtleneck sweater"
         description="A soft and warm sweater."
         effect="Defense: +6"
@@ -929,8 +929,8 @@
         weight="40"
         defense="6"
         max-per-slot="1">
-        <sprite gender="male">chest-tnecksweater-male.xml</sprite>
-        <sprite gender="female">chest-tnecksweater-female.xml</sprite>
+        <sprite gender="male">chest-tnecksweater-male.xml|#333f76,787aac,bebddf,ffffff</sprite>
+        <sprite gender="female">chest-tnecksweater-female.xml|#333f76,787aac,bebddf,ffffff</sprite>
     </item>
     <item id="565"
         image="generic-petal.png"
@@ -1476,7 +1476,7 @@
         <sprite>weapon-scythe.xml</sprite>
     </item>
     <item id="624"
-        image="armor-chest-vnecksweater.png"
+        image="armor-chest-vnecksweater.png|W:#000000,690c13,ad3141,e08f9f"
         name="V-neck Sweater"
         description="A soft and warm sweater."
         effect="Defense: +8"
@@ -1484,8 +1484,8 @@
         weight="45"
         defense="8"
         max-per-slot="1">
-        <sprite gender="male">chest-vnecksweater-male.xml</sprite>
-        <sprite gender="female">chest-vnecksweater-female.xml</sprite>
+        <sprite gender="male">chest-vnecksweater-male.xml|#000000,690c13,ad3141,e08f9f</sprite>
+        <sprite gender="female">chest-vnecksweater-female.xml|#000000,690c13,ad3141,e08f9f</sprite>
     </item>
     <item id="625"
         image="armor-chest-chainmail.png"
@@ -1500,7 +1500,7 @@
         <sprite gender="female">chest-chainmail-female.xml</sprite>
     </item>
     <item id="626"
-        image="armor-chest-lightplatemail.png"
+        image="armor-chest-lightplatemail.png|W:#ddeeff"
         name="Light Platemail"
         description="A light cuirass with shoulder pads made of iron. A cheap and plain but efficient armor usually worn by foot soldiers."
         effect="Defense: +25"
@@ -1508,8 +1508,8 @@
         weight="240"
         defense="14"
         max-per-slot="1">
-        <sprite gender="male">chest-lightplatemail-male.xml</sprite>
-        <sprite gender="female">chest-lightplatemail-female.xml</sprite>
+        <sprite gender="male">chest-lightplatemail-male.xml|W:#ddeeff</sprite>
+        <sprite gender="female">chest-lightplatemail-female.xml|W:#ddeeff</sprite>
     </item>
     <item id="627"
         image="armor-head-tophat.png"
@@ -1799,7 +1799,7 @@
         weight="25"
         defense="3"
         max-per-slot="1"/>
-
+    
     <item id="1199"
         image="weapon-arrow-arrow.png"
         name="Arrow"
@@ -1847,8 +1847,8 @@
         weight="15"
         defense="2"
         max-per-slot="1">
-        <sprite gender="male">chest-cotton-male.xml</sprite>
-        <sprite gender="female">chest-cotton-female.xml</sprite>
+        <sprite gender="male">chest-cotton-male.xml|#2b454d,72818c,b7c0c5,ffffff</sprite>
+        <sprite gender="female">chest-cotton-female.xml|#2b454d,72818c,b7c0c5,ffffff</sprite>
     </item>
     <item id="1203"
         image="armor-head-rangerhat.png"
