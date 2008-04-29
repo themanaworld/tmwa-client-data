@@ -210,17 +210,17 @@
         <sprite>head-cowboyblack.xml</sprite>
     </item>
     <item id="45">
-        <sprite gender="male">chest-lightplatemailgold-male.xml</sprite>
-        <sprite gender="female">chest-lightplatemailgold-female.xml</sprite>
+        <sprite gender="male">chest-lightplatemail-male.xml|#884422,ddaa22,ffff22</sprite>
+        <sprite gender="female">chest-lightplatemail-female.xml|#884422,ddaa22,ffff22</sprite>
     </item>
     <item id="46">
         <sprite>head-crown.xml</sprite>
     </item>
     <item id="47">
-        <sprite>head-devcap.xml</sprite>
+        <sprite>head-devcap.xml|#9999ff</sprite>
     </item>
     <item id="48">
-        <sprite>head-cap.xml</sprite>
+        <sprite>head-cap.xml|#d94800</sprite>
     </item>
     
     <!-- Recolorable item ViewIDs -->
@@ -1690,15 +1690,15 @@
         <sprite>head-cowboyblack.xml</sprite>
     </item>
     <item id="645"
-        image="armor-chest-lightplatemailgold.png"
+        image="armor-chest-lightplatemail.png|W:#884422,ddaa22,ffff22"
         name="Golden Platemail"
         description="A plate mail made from gold which can only be afforded by the richest of the richest."
         effect="Defense: +25"
         type="equip-torso"
         defense="25"
         weight="240">
-        <sprite gender="male">chest-lightplatemailgold-male.xml</sprite>
-        <sprite gender="female">chest-lightplatemailgold-female.xml</sprite>
+        <sprite gender="male">chest-lightplatemail-male.xml|#884422,ddaa22,ffff22</sprite>
+        <sprite gender="female">chest-lightplatemail-female.xml|#884422,ddaa22,ffff22</sprite>
     </item>
     <item id="646"
         image="armor-head-crown.png"
@@ -1711,14 +1711,14 @@
         <sprite>head-crown.xml</sprite>
     </item>
     <item id="647"
-        image="armor-head-devcap.png"
+        image="armor-head-devcap.png|R:#9999ff"
         name="Developers Cap"
         description="A cap which identifies you as a developer."
         effect="Defense: +5"
         type="equip-head"
         defense="5"
         weight="20">
-        <sprite>head-devcap.xml</sprite>
+        <sprite>head-devcap.xml|#9999ff</sprite>
     </item>
     <item id="648"
         image="armor-ring-strength-rough.png"
@@ -1781,14 +1781,14 @@
         willpower="5"
         />
     <item id="654"
-        image="armor-head-cap.png"
+        image="armor-head-cap.png|R:#d94800"
         name="Cap"
         description="A hat with a peak to shield your eyes from the sun."
         effect="Defense: +5"
         type="equip-head"
         defense="5"
         weight="20">
-        <sprite>head-cap.xml</sprite>
+        <sprite>head-cap.xml|#d94800</sprite>
     </item>
     <item id="655"
         image="armor-feet-furboots.png"
