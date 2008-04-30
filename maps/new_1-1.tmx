@@ -8,13 +8,13 @@
   <property name="overlay2scrollX" value="12"/>
   <property name="overlay1scrollY" value="-2"/>
   <property name="overlay1scrollX" value="8"/>
-  <property name="minimap" value="graphics/images/minimap_new_1-1.png"/>
   <property name="overlay0scrollY" value="-1"/>
-  <property name="overlay2image" value="graphics/images/ambient/sandstorm.png"/>
-  <property name="overlay0scrollX" value="4"/>
+  <property name="minimap" value="graphics/images/minimap_new_1-1.png"/>
   <property name="overlay1parallax" value="1.5"/>
-  <property name="overlay2parallax" value="2.0"/>
+  <property name="overlay0scrollX" value="4"/>
+  <property name="overlay2image" value="graphics/images/ambient/sandstorm.png"/>
   <property name="overlay0image" value="graphics/images/ambient/sandstorm.png"/>
+  <property name="overlay2parallax" value="2.0"/>
  </properties>
  <tileset name="Desert1" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/desert1.png"/>
@@ -54,7 +54,7 @@
  </layer>
  <layer name="Collision" width="200" height="200">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
   <tileproperties/>
  </layer>
@@ -77,11 +77,11 @@
     <property name="SPAWN_RATE">
      10
     </property>
-    <property name="MONSTER_ID">
-     0
-    </property>
     <property name="MAX_BEINGS">
      20
+    </property>
+    <property name="MONSTER_ID">
+     0
     </property>
    </properties>
   </object>

@@ -222,6 +222,9 @@
     <item id="48">
         <sprite>head-cap.xml|#d94800</sprite>
     </item>
+    <item id="49">
+        <sprite>head-serf.xml</sprite>
+    </item>
     
     <!-- Recolorable item ViewIDs -->
     <item id="50">
@@ -1798,6 +1801,15 @@
         type="equip-feet"
         weight="25"
         defense="3"
+        max-per-slot="1"/>
+    <item id="656"
+        image="armor-head-serf.png"
+        name="Serf hat"
+        description="A simple hat made from cloth."
+        effect="Defense: +2"
+        type="equip-head"
+        weight="25"
+        defense="2"
         max-per-slot="1"/>
     
     <item id="1199"

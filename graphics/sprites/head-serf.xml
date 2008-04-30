@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <sprite>
-	<imageset name="base" src="graphics/sprites/head-funkywinter.png" width="21" height="20" />
+	<imageset name="base" src="graphics/sprites/head-serf.png" width="24" height="26" />
 
 	<action name="stand" imageset="base">
 		<animation direction="down">
-		  <frame index="0" offsetX="0" offsetY ="-42" />
+		  <frame index="0" offsetX="0" offsetY ="-40" />
 		</animation>
 		<animation direction="left">
 		  <frame index="1" offsetX="1" offsetY ="-40"/>
@@ -19,12 +19,12 @@
 
 	<action name="walk" imageset="base">
 		<animation direction="down">
-		  <frame index="0" offsetX="0" offsetY ="-41" delay="75"/>
-		  <frame index="0" offsetX="0" offsetY ="-42" delay="75" />
-		  <frame index="0" offsetX="0" offsetY ="-42" delay="75" />
-		  <frame index="0" offsetX="0" offsetY ="-41" delay="75" />
-		  <frame index="0" offsetX="0" offsetY ="-42" delay="75" />
-		  <frame index="0" offsetX="0" offsetY ="-42" delay="75" />
+		  <frame index="0" offsetX="0" offsetY ="-39" delay="75"/>
+		  <frame index="0" offsetX="0" offsetY ="-40" delay="75" />
+		  <frame index="0" offsetX="0" offsetY ="-40" delay="75" />
+		  <frame index="0" offsetX="0" offsetY ="-39" delay="75" />
+		  <frame index="0" offsetX="0" offsetY ="-40" delay="75" />
+		  <frame index="0" offsetX="0" offsetY ="-40" delay="75" />
 		</animation>
 		<animation direction="left">
 		  <frame index="1" offsetX="1" offsetY ="-40" delay="75"/>
@@ -54,10 +54,10 @@
 
 	<action name="attack" imageset="base">
 		<animation direction="down">
-		  <frame index="0" offsetX="0" offsetY ="-40" delay="75" />
-		  <frame index="0" offsetX="0" offsetY ="-41" delay="75" />
 		  <frame index="0" offsetX="0" offsetY ="-38" delay="75" />
-		  <frame index="0" offsetX="0" offsetY ="-37" delay="75" />
+		  <frame index="0" offsetX="0" offsetY ="-39" delay="75" />
+		  <frame index="0" offsetX="0" offsetY ="-36" delay="75" />
+		  <frame index="0" offsetX="0" offsetY ="-35" delay="75" />
 		  <end />
 		</animation>
 		<animation direction="left">
@@ -85,11 +85,11 @@
 
 	<action name="attack_bow" imageset="base">
 		<animation direction="down">
-		  <frame index="0" offsetX="0" offsetY ="-41" delay="75" />
-		  <frame index="0" offsetX="0" offsetY ="-41" delay="75" />
-		  <frame index="0" offsetX="0" offsetY ="-41" delay="75" />
-		  <frame index="0" offsetX="0" offsetY ="-40" delay="75" />
-		  <frame index="0" offsetX="0" offsetY ="-41" delay="75" />
+		  <frame index="0" offsetX="0" offsetY ="-39" delay="75" />
+		  <frame index="0" offsetX="0" offsetY ="-39" delay="75" />
+		  <frame index="0" offsetX="0" offsetY ="-39" delay="75" />
+		  <frame index="0" offsetX="0" offsetY ="-38" delay="75" />
+		  <frame index="0" offsetX="0" offsetY ="-39" delay="75" />
 		  <end />
 		</animation>
 		<animation direction="left">
@@ -120,7 +120,7 @@
 
 	<action name="sit" imageset="base">
 		<animation direction="down">
-		  <frame index="0" offsetX="0" offsetY ="-30" />
+		  <frame index="0" offsetX="0" offsetY ="-28" />
 		</animation>
 		<animation direction="left">
 		  <frame index="1" offsetX="5" offsetY ="-31"/>
@@ -135,7 +135,7 @@
 
 	<action name="dead" imageset="base">
 		<animation direction="default">
-			<frame index="4" offsetX="35" offsetY="-6"/>
+			<frame index="4" offsetX="23" offsetY="-13"/>
 		</animation>
 	</action>
 
