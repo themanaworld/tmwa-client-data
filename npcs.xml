@@ -4,52 +4,53 @@
     Note that it is possible to give an NPC multiple sprites. In this case the
     sprites are drawn in order of declaration.
 
-    IDs 101-199 should be used for unanimated NPCs (100 is added for 0.0 client compatibility)
+    IDs 100-199 should be used for unanimated NPCs (100 is added for 0.0 client compatibility)
 -->
 <npcs>
- <npc id="101"><sprite variant="1">npc.xml</sprite></npc><!-- Fat guy with scissors -->
- <npc id="102"><sprite variant="2">npc.xml</sprite></npc><!-- Oriental trader -->
- <npc id="103"><sprite variant="3">npc.xml</sprite></npc><!-- Boy with white hair -->
- <npc id="104"><sprite variant="4">npc.xml</sprite></npc><!-- Guy in black cloak -->
- <npc id="105"><sprite variant="5">npc.xml</sprite></npc><!-- Soldier with sword -->
- <npc id="106"><sprite variant="6">npc.xml</sprite></npc><!-- Santa Clause -->
- <npc id="107"><sprite variant="7">npc.xml</sprite></npc><!-- Girl with pink hair and blue top -->
- <npc id="108"><sprite variant="8">npc.xml</sprite></npc><!-- Scholar guy with glasses -->
- <npc id="109"><sprite variant="9">npc.xml</sprite></npc><!-- Woman with green hair and pink dress -->
- <npc id="110"><sprite variant="10">npc.xml</sprite></npc><!-- Miner -->
- <npc id="111"><sprite variant="11">npc.xml</sprite></npc><!-- Soldier with spear -->
- <npc id="112"><sprite variant="12">npc.xml</sprite></npc><!-- Treasure chest -->
- <npc id="113"><sprite variant="13">npc.xml</sprite></npc><!-- Barkeeper -->
- <npc id="114"><sprite variant="14">npc.xml</sprite></npc><!-- Gnome with hat -->
- <npc id="115"><sprite variant="15">npc.xml</sprite></npc><!-- Little blue-haired girl -->
- <npc id="116"><sprite variant="16">npc.xml</sprite></npc><!-- Guy with red hair and green cloak -->
- <npc id="117"><sprite variant="17">npc.xml</sprite></npc><!-- Old geezer with rod -->
- <npc id="118"><sprite variant="18">npc.xml</sprite></npc><!-- Boy with brown hair -->
- <npc id="119"><sprite variant="19">npc.xml</sprite></npc><!-- Nurse without hat -->
- <npc id="120"><sprite variant="20">npc.xml</sprite></npc><!-- Nurse with hat -->
- <npc id="121"><sprite variant="21">npc.xml</sprite></npc><!-- Guy with brown hair in plain clothes -->
- <npc id="122"><sprite variant="22">npc.xml</sprite></npc><!-- Soldier -->
- <npc id="123"><sprite variant="23">npc.xml</sprite></npc><!-- Soldier with sword and shield -->
- <npc id="124"><sprite variant="24">npc.xml</sprite></npc><!-- Soldier with sword, shield and helmet -->
- <npc id="125"><sprite variant="25">npc.xml</sprite></npc><!-- Guy with black hair in plain clothes -->
- <npc id="126"><sprite variant="26">npc.xml</sprite></npc><!-- Guy with black clothes -->
- <npc id="127"><sprite variant="27">npc.xml</sprite></npc><!-- Guy with black clothes and axe -->
- <npc id="128"><sprite variant="28">npc.xml</sprite></npc><!-- empty (Invisible NPC) -->
- <npc id="129"><sprite variant="29">npc.xml</sprite></npc><!-- Nomad, standing -->
- <npc id="130"><sprite variant="30">npc.xml</sprite></npc><!-- Snowman -->
- <npc id="131"><sprite variant="31">npc.xml</sprite></npc><!-- Paperboy (wtf? how does this one fit in a fantasy game?) -->
- <npc id="132"><sprite variant="32">npc.xml</sprite></npc><!-- Nomad, sitting -->
- <npc id="133"><sprite variant="33">npc.xml</sprite></npc><!-- Nomad, sitting with pipe -->
- <npc id="134"><sprite variant="34">npc.xml</sprite></npc><!-- Captain Kirk -->
- <npc id="135"><sprite variant="35">npc.xml</sprite></npc><!-- Mr. Spock -->
- <npc id="136"><sprite variant="36">npc.xml</sprite></npc><!-- Guy with sword over shoulder -->
- <npc id="137"><sprite variant="37">npc.xml</sprite></npc><!-- Creepy surgeon guy -->
- <npc id="138"><sprite variant="38">npc.xml</sprite></npc><!-- Metrosexual guy with pink jacket on stool -->
- <npc id="139"><sprite variant="39">npc.xml</sprite></npc><!-- Zombie pirate captain-->
- <npc id="140"><sprite variant="40">npc.xml</sprite></npc><!-- Girl in playboy bunny costume -->
- <npc id="141"><sprite variant="41">npc.xml</sprite></npc><!-- Woman with green dress and apron -->
- <npc id="142"><sprite variant="42">npc.xml</sprite></npc><!-- Lumberjack -->
- <npc id="143"><sprite variant="43">npc.xml</sprite></npc><!-- Farmer -->
+ <npc id="100"><sprite variant="0">npc.xml</sprite></npc><!-- Fat guy with scissors -->
+ <npc id="101"><sprite variant="1">npc.xml</sprite></npc><!-- Oriental trader -->
+ <npc id="102"><sprite variant="2">npc.xml</sprite></npc><!-- Boy with white hair -->
+ <npc id="103"><sprite variant="3">npc.xml</sprite></npc><!-- Guy in black cloak -->
+ <npc id="104"><sprite variant="4">npc.xml</sprite></npc><!-- Soldier with sword -->
+ <npc id="105"><sprite variant="5">npc.xml</sprite></npc><!-- Santa Clause -->
+ <npc id="106"><sprite variant="6">npc.xml</sprite></npc><!-- Girl with pink hair and blue top -->
+ <npc id="107"><sprite variant="7">npc.xml</sprite></npc><!-- Scholar guy with glasses -->
+ <npc id="108"><sprite variant="8">npc.xml</sprite></npc><!-- Woman with green hair and pink dress -->
+ <npc id="109"><sprite variant="9">npc.xml</sprite></npc><!-- Miner -->
+ <npc id="110"><sprite variant="10">npc.xml</sprite></npc><!-- Soldier with spear -->
+ <npc id="111"><sprite variant="11">npc.xml</sprite></npc><!-- Treasure chest -->
+ <npc id="112"><sprite variant="12">npc.xml</sprite></npc><!-- Barkeeper -->
+ <npc id="113"><sprite variant="13">npc.xml</sprite></npc><!-- Gnome with hat -->
+ <npc id="114"><sprite variant="14">npc.xml</sprite></npc><!-- Little blue-haired girl -->
+ <npc id="115"><sprite variant="15">npc.xml</sprite></npc><!-- Guy with red hair and green cloak -->
+ <npc id="116"><sprite variant="16">npc.xml</sprite></npc><!-- Old geezer with rod -->
+ <npc id="117"><sprite variant="17">npc.xml</sprite></npc><!-- Boy with brown hair -->
+ <npc id="118"><sprite variant="18">npc.xml</sprite></npc><!-- Nurse without hat -->
+ <npc id="119"><sprite variant="19">npc.xml</sprite></npc><!-- Nurse with hat -->
+ <npc id="120"><sprite variant="20">npc.xml</sprite></npc><!-- Guy with brown hair in plain clothes -->
+ <npc id="121"><sprite variant="21">npc.xml</sprite></npc><!-- Soldier -->
+ <npc id="122"><sprite variant="22">npc.xml</sprite></npc><!-- Soldier with sword and shield -->
+ <npc id="123"><sprite variant="23">npc.xml</sprite></npc><!-- Soldier with sword, shield and helmet -->
+ <npc id="124"><sprite variant="24">npc.xml</sprite></npc><!-- Guy with black hair in plain clothes -->
+ <npc id="125"><sprite variant="25">npc.xml</sprite></npc><!-- Guy with black clothes -->
+ <npc id="126"><sprite variant="26">npc.xml</sprite></npc><!-- Guy with black clothes and axe -->
+ <npc id="127"><sprite variant="27">npc.xml</sprite></npc><!-- empty (Invisible NPC) -->
+ <npc id="128"><sprite variant="28">npc.xml</sprite></npc><!-- Nomad, standing -->
+ <npc id="129"><sprite variant="29">npc.xml</sprite></npc><!-- Snowman -->
+ <npc id="130"><sprite variant="30">npc.xml</sprite></npc><!-- Paperboy (wtf? how does this one fit in a fantasy game?) -->
+ <npc id="131"><sprite variant="31">npc.xml</sprite></npc><!-- Nomad, sitting -->
+ <npc id="132"><sprite variant="32">npc.xml</sprite><particlefx>graphics/particles/nomadpipe.particle.xml</particlefx></npc><!-- Nomad, sitting with pipe -->
+ <npc id="133"><sprite variant="33">npc.xml</sprite></npc><!-- Captain Kirk -->
+ <npc id="134"><sprite variant="34">npc.xml</sprite></npc><!-- Mr. Spock -->
+ <npc id="135"><sprite variant="35">npc.xml</sprite></npc><!-- Guy with sword over shoulder -->
+ <npc id="136"><sprite variant="36">npc.xml</sprite></npc><!-- Creepy surgeon guy -->
+ <npc id="137"><sprite variant="37">npc.xml</sprite></npc><!-- Metrosexual guy with pink jacket on stool -->
+ <npc id="138"><sprite variant="38">npc.xml</sprite></npc><!-- Zombie pirate captain-->
+ <npc id="139"><sprite variant="39">npc.xml</sprite></npc><!-- Girl in playboy bunny costume -->
+ <npc id="140"><sprite variant="40">npc.xml</sprite></npc><!-- Woman with green dress and apron -->
+ <npc id="141"><sprite variant="41">npc.xml</sprite></npc><!-- Lumberjack -->
+ <npc id="142"><sprite variant="42">npc.xml</sprite></npc><!-- Farmer -->
+ <npc id="143"><sprite variant="43">npc.xml</sprite></npc><!-- empty (reserved for future NPCs) -->
  <npc id="144"><sprite variant="44">npc.xml</sprite></npc><!-- empty (reserved for future NPCs) -->
  <npc id="145"><sprite variant="45">npc.xml</sprite></npc><!-- empty (reserved for future NPCs) -->
  <npc id="146"><sprite variant="46">npc.xml</sprite></npc><!-- empty (reserved for future NPCs) -->
@@ -62,7 +63,6 @@
  <npc id="153"><sprite variant="53">npc.xml</sprite></npc><!-- empty (reserved for future NPCs) -->
  <npc id="154"><sprite variant="54">npc.xml</sprite></npc><!-- empty (reserved for future NPCs) -->
  <npc id="155"><sprite variant="55">npc.xml</sprite></npc><!-- empty (reserved for future NPCs) -->
- <npc id="156"><sprite variant="56">npc.xml</sprite></npc><!-- empty (reserved for future NPCs) -->
 
  <npc id="200">
  	<sprite>npc-test.xml</sprite>
