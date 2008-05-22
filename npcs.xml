@@ -51,7 +51,7 @@
  <npc id="141"><sprite variant="41">npc.xml</sprite></npc><!-- Lumberjack -->
  <npc id="142"><sprite variant="42">npc.xml</sprite></npc><!-- Farmer -->
  <npc id="143"><sprite variant="43">npc.xml</sprite></npc><!-- Indian Chief-->
- <npc id="144"><sprite variant="44">npc.xml</sprite><particlefx>graphics/particles/soulmenhir.particle.xml</particlefx></npc><!-- Boulder -->
+ <npc id="144"><sprite variant="44">npc.xml</sprite><particlefx>graphics/particles/hellblaze.particle.xml</particlefx></npc><!-- Boulder -->
  <npc id="145"><sprite variant="45">npc.xml</sprite></npc><!-- empty (reserved for future NPCs) -->
  <npc id="146"><sprite variant="46">npc.xml</sprite></npc><!-- empty (reserved for future NPCs) -->
  <npc id="147"><sprite variant="47">npc.xml</sprite></npc><!-- empty (reserved for future NPCs) -->
@@ -75,6 +75,10 @@
  	<sprite>player_female_base.xml</sprite>
  	<sprite>leg-jeans-female.xml</sprite>
  	<sprite>hairstyle4-female.xml|#bb2222,ffee33</sprite>
+ </npc>
+ <npc id="202">
+ 	<!-- An NPC made only from a particle effect. -->
+ 	<particlefx>graphics/particles/hellblaze.particle.xml</particlefx>
  </npc>
 
 
