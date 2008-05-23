@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+
+<effect>
+	<particle
+		position-x = "0"
+		position-y = "0"
+		position-z = "0"
+		>
+		<emitter>
+			<property name="position-x" min="-24" max="30"/>
+			<property name="position-y" min="-24" max="-20"/>
+			<property name="position-z" min="55" max="65"/>
+			<property name="image" value="graphics/particles/waterfall-a.png"/>
+			<property name="output" min="2" max="2"/>
+			<property name="horizontal-angle" value="90"/>
+			<property name="vertical-angle" min="0" max="0"/>
+			<property name="power" min="0.8" max="1.0"/>
+			<property name="gravity" value="0.05"/>
+			<property name="fade-in" value="20"/>
+		</emitter>
+		<emitter>
+			<property name="position-x" min="-40" max="48"/>
+			<property name="position-y" min="30" max="40"/>
+			<property name="position-z" min="0" max="8"/>
+			<property name="image" value="graphics/particles/fog-medium-white-a.png"/>
+			<property name="horizontal-angle" min="0" max="360"/>
+			<property name="vertical-angle" min="0" max="90"/>
+			<property name="power" value="1.0"/>
+			<property name="output" min="3" max="4"/>
+            <property name="lifetime" min="20" max="40"/>
+            <property name="fade-out" value="20"/>
+        </emitter>
+		<emitter>
+			<property name="position-x" min="-40" max="48"/>
+			<property name="position-y" min="30" max="40"/>
+			<property name="position-z" min="0" max="8"/>
+			<property name="image" value="graphics/particles/fog-medium-white-b.png"/>
+			<property name="horizontal-angle" min="0" max="360"/>
+			<property name="vertical-angle" min="0" max="90"/>
+			<property name="power" value="1.0"/>
+			<property name="output" min="3" max="4"/>
+            <property name="lifetime" min="20" max="40"/>
+            <property name="fade-out" value="20"/>
+		</emitter>
+		<emitter>
+			<property name="position-x" min="-40" max="48"/>
+			<property name="position-y" min="30" max="40"/>
+			<property name="position-z" min="0" max="8"/>
+			<property name="image" value="graphics/particles/fog-medium-white-c.png"/>
+			<property name="horizontal-angle" min="0" max="360"/>
+			<property name="vertical-angle" min="0" max="90"/>
+			<property name="power" value="1.0"/>
+			<property name="output" min="3" max="4"/>
+			<property name="lifetime" min="20" max="40"/>
+            <property name="fade-out" value="20"/>
+		</emitter>
+	</particle>
+</effect>

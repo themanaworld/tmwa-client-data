@@ -1,8 +1,8 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <map version="0.99b" orientation="orthogonal" width="80" height="80" tilewidth="32" tileheight="32">
  <properties>
-  <property name="music" value="The Mana World - Snow Village.ogg"/>
   <property name="minimap" value="graphics/images/minimap_new_12-1.png"/>
+  <property name="music" value="The Mana World - Snow Village.ogg"/>
  </properties>
  <tileset name="Untitled" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/icecave.png"/>
@@ -10,15 +10,16 @@
  <tileset name="Collision" firstgid="129" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>
  </tileset>
+ <!-- Layer data is compressed (GZip) binary data, encoded in Base64 -->
  <layer name="Ground" width="80" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3Zu07DMBSAYS8wAgNlBEQrLguglutCUct1Ad7/aTghsZRCnDiJyUnc/0jfEKUM/iU7URgZY0YAAAAAAABAxEKM9hroN1whRnsNQ+/nGu210a+/yuZEnBY48y6XjvYatfrdimvxIObiMbu+9w2XjfYatfq9imfxIT7FV3b97l1udbTX2nW/PbFRYGKa7Wvttfal35VJ9/GW2BY7xm9fa6+1q372uXHs6Pdk0n28Lw7EofHb19pr7aqffW7cOPpZ5+JCXGbXu/T7GfvceKno5zoX677fNB3tdq5+rnOvSnIu3pn67zdtJqZ+ybn4Zpq/3zSdWPpZVedg6Imt36Rlj7oTWz/7fhjK0Zr1s++HoUwrGsbWL7RF1tD1XKefX0PXc51+fuhHP/pV9ysa7XZD79dmNg392kyo82Bo/ex3wCJF77Pj3L1x7rdV3xFj7We/AxaZmtWWSa9Z7t4s99u63xGH1K+sY9m+W/xqmfRa5u4tS/6Wfn9b/kevdenXFfrRj370ox/96Ec/+q1XP9f/lbXbufr5TNMWIUe7XZt+fRjtdvSjn7Yhj3a7vjTWXh8AAAAAAAAAAOiPb54+VncAZAAA
+   H4sIAAAAAAAAAO3Zu07DMBSAYasIRmCgjIBoxWUB1HJdALVcF+D9n4YTGkspxIkbhx47/Y/0DVHC4F9NYoW+MaYPAAAAAAAAdFgbo70G+qWrjdFeQ+r9XKO9NvrFq2qOxUmJU+9ys9Feo1a/G3El7sWDeMyP73zD5aO9Rq1+r+JZfIhP8ZUfv3uXmx/ttS67365YLzE0ze5r7bXG0u/SzO7jTbElto3ffa291mX1s++NI0e/JzO7j/fEvjgwfve19lqX1c++N64d/awzcS4u8uMd+v2MfW+81PRzPRcX3d80He12rn6u516d7Ll4axbf34RMl/plz8U303x/03S60s+qew62PV3rNwzsseh0rZ/dH7blcMX62f1hW0Y1DVPotxbYNMQkb+h6r6fQT1vW0PVep58f+tGPfvX9yka7Xer9QmbD0C9kXN8Ru97PfgcsU7afHRTODQrXln1HbLKfTK2f/Q5YZmTmW2a9xoVz48K1i35HTKlfVceq9/DkV8us17Rwblrxt/T72/I/eq1Kv//Uox+/v0jQj370o19M/Xoe19AvDvQL4/q/snY7Vz+fadqizdFuF9IvhtFuRz/6aUt5tNvF0lh7fQAAAAAAAAAAIB7fFf7gvABkAAA=
   </data>
   <tileproperties/>
  </layer>
  <layer name="Fringe" width="80" height="80">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3XUarDIBRF0Uyik8n8BxZCf4IYldyrnqt7QaAf77XHTaDpcQAAAAAAAABr+zlcO6OfDf1sPPrt3JV+33w9N/3+6Gczot/KHb3PS7/8eU/n91uF9znp967lHqRfnbWj16Wg164R/RQatm7K3XOl+3BUv9kNo99/9KPfCPSzo5+d2l61PTVqey17Wn8Te/7vSv1mUNurtqdGbW+EZ6wntW3Rnm/p5793Jsu5e57j7ft5pX4zqO5U3ZVS3VnaZXlOLvnyvhH73VrP6v13qaj9VKjuVN2VUt2puiululN1V0p1p+qulOpO1V2353e16s4eu6zPjWfm9U79elDdWfodXLpGf95q/RQuBbMb0I9+Ua8o6AAAAAAAAAAAAEa5AOWr22YAZAAA
+   H4sIAAAAAAAAAO3XAQqDMBBEUc9g6RFK7RW8/8Gq2IKEGMVdk0n8D5YKtXYyBNSuAwAAAAAAANr2dJg7oz8b+rPx6O/OvdLfOWfXTX8L+rPJ0V/LPXqvl/7i6x2dr9cK73XS37Yje5D+9ll79BoFV+XK0Z9Ch0czxfZcah/m6q90h7XvP/qjvxzoz47+7NTyquXZo5bXkufoO7Hnb1vqrwS1vGp59qjlreEZa00tW23PtzX195hmmOb1m2H12UfOf/++71fHQ4a8JVn2zb+fT7d07Wnr/txSfyWo5lTNFVLNmcpleU5OOXPdGvubHV2r93mhWvtToZpTNVdINadqrpBqTtVcIdWcqrlCqjlVc83W92rVnFfksj43jpHjO/V3BdWcqffg1OT+v9b6UxgFpTugP/qrdWpBDwAAAAAAAAAAIJcvzQprJQBkAAA=
   </data>
   <tileproperties/>
  </layer>

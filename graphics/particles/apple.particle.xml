@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+<effect>
+	<particle position-x="0" position-y="0" position-z="0">
+		<emitter>
+			<property name="position-x" min="-13" max="30" />
+			<property name="position-y" min="15" max="18" />
+			<property name="position-z" min="35" max="88" />
+			<property name="image" value="graphics/particles/apple.png" />
+			<property name="output" min="-2350" max="1" /> 
+			<property name="horizontal-angle" value="90" />
+			<property name="gravity" value="0.01" />
+			<property name="fade-in" value="50" />
+			<property name="lifetime" value="1070" />
+			<property name="fade-out" value="20" />
+			<property name="bounce" min="0.2" max="0.2" />
+		</emitter>
+		<emitter>
+			<property name="position-x" min="-15" max="0" />
+			<property name="position-y" min="0" max="3" />
+			<property name="position-z" min="15" max="15" />
+			<property name="image" value="graphics/particles/apple.png" />
+			<property name="output" min="-3000" max="1" /> 
+			<property name="horizontal-angle" value="90" />
+			<property name="gravity" value="0.01" />
+			<property name="fade-in" value="30" />
+			<property name="lifetime" value="870" />
+			<property name="fade-out" value="20" />
+			<property name="bounce" min="0.3" max="0.3" />
+		</emitter>
+		<emitter>
+			<property name="position-x" min="13" max="30" />
+			<property name="position-y" min="0" max="3" />
+			<property name="position-z" min="15" max="15" />
+			<property name="image" value="graphics/particles/apple.png" />
+			<property name="output" min="-3000" max="1" /> 
+			<property name="horizontal-angle" value="90" />
+			<property name="gravity" value="0.01" />
+			<property name="fade-in" value="30" />
+			<property name="lifetime" value="870" />
+			<property name="fade-out" value="20" />
+			<property name="bounce" min="0.3" max="0.3" />
+		</emitter>
+	</particle>
+</effect>

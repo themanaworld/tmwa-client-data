@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<effect>
+	<particle
+		position-x = "0"
+		position-y = "0"
+		position-z = "0"
+		>
+		<emitter>
+			<property name="position-x" min="-26" max="39"/>
+			<property name="position-y" min="-28" max="-24"/>
+			<property name="position-z" min="122" max="132"/>
+			<property name="image" value="graphics/particles/waterfall-a.png"/>
+			<property name="output" min="2" max="2"/>
+			<property name="horizontal-angle" value="90"/>
+			<property name="vertical-angle" min="0" max="0"/>
+			<property name="power" min="0.8" max="1.0"/>
+			<property name="gravity" value="0.05"/>
+			<property name="fade-in" value="20"/>
+		</emitter>
+	</particle>
+</effect>
