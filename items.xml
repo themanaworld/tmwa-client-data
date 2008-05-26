@@ -5,9 +5,6 @@
     to use in the case of visible equipment and which sounds to play on certain
     events related to the item.
 
-    Note that the 'attacktype' attribute isn't used anymore since version
-    0.0.24, but it is kept until we stop supporting 0.0.23.
-
     The 'weapon_type' attribute is kept for 0.0 client compatibility. Not to be
     confused with 'weapon-type'.
 -->
@@ -26,7 +23,7 @@
     </item>
     <item id="-3" type="hairsprite">
         <sprite gender="male">hairstyle3-male.xml</sprite>
-        <sprite gender="female">hairstyle3-female.xml</sprite><!-- to be replaced with the animated one -->
+        <sprite gender="female">hairstyle3-female.xml</sprite>
     </item>
     <item id="-4" type="hairsprite">
         <sprite gender="male">hairstyle4-male.xml</sprite>
@@ -55,7 +52,6 @@
     <!-- Temporarily include low-ID items for View column of eAthena, cause
          it can't go above 255. Get rid of this with tmwserv.
     -->
-
     <item id="1">
         <sprite gender="male">chest-cotton-male.xml|#2b454d,72818c,b7c0c5,ffffff</sprite>
         <sprite gender="female">chest-cotton-female.xml|#2b454d,72818c,b7c0c5,ffffff</sprite>
@@ -69,6 +65,7 @@
     </item>
     <item id="4">
         <sprite gender="male">leg-cotton-male.xml</sprite>
+
         <sprite gender="female">leg-cotton-female.xml</sprite>
     </item>
     <item id="5">
@@ -155,24 +152,20 @@
 
     <!-- Temporary low weapon IDs (< 256) -->
     <item id="30"
-        weapon_type="1"
-        attacktype="stab">
+        weapon_type="1">
         <sprite>weapon-dagger.xml</sprite>
         <sound event="strike">short-sword-miss1.ogg</sound>
         <sound event="hit">short-sword-hit1.ogg</sound>
     </item>
     <item id="31"
-        weapon_type="10"
-        attacktype="bow">
+        weapon_type="10">
         <sprite>weapon-bow.xml</sprite>
         <sound event="swing">bow_shoot_1.ogg</sound>
     </item>
     <item id="32"
-        weapon_type="11"
-        attacktype="swing">
+        weapon_type="11">
         <sprite>weapon-scythe.xml</sprite>
     </item>
-
     <item id="33">
         <sprite>head-tophat.xml</sprite>
     </item>
@@ -225,12 +218,13 @@
     <item id="49">
         <sprite>head-serf.xml</sprite>
     </item>
-    
+
     <!-- Recolorable item ViewIDs -->
     <item id="50">
         <sprite gender="male">chest-cotton-male.xml|#441111,aa3333,dd6666</sprite>
         <sprite gender="female">chest-cotton-female.xml|#552222,bb4444,ff8888</sprite>
     </item>
+
     <item id="51">
         <sprite gender="male">chest-cotton-male.xml|#115511,22aa22,ccddcc</sprite>
         <sprite gender="female">chest-cotton-female.xml|#115511,22aa22,ccddcc</sprite>
@@ -238,6 +232,7 @@
     <item id="52">
         <sprite gender="male">chest-cotton-male.xml|#222255,6666dd</sprite>
         <sprite gender="female">chest-cotton-female.xml|#222255,6666dd</sprite>
+
     </item>
     <item id="53">
         <sprite gender="male">chest-cotton-male.xml|#665522,ccbb33,ffffaa</sprite>
@@ -267,7 +262,6 @@
         <sprite gender="male">chest-cotton-male.xml</sprite>
         <sprite gender="female">chest-cotton-female.xml</sprite>
     </item>
-
     <item id="60">
         <sprite gender="male">chest-vnecksweater-male.xml|#441111,aa3333,dd6666</sprite>
         <sprite gender="female">chest-vnecksweater-female.xml|#552222,bb4444,ff8888</sprite>
@@ -308,45 +302,44 @@
         <sprite gender="male">chest-vnecksweater-male.xml</sprite>
         <sprite gender="female">chest-vnecksweater-female.xml</sprite>
     </item>
-
     <item id="70">
-    	<sprite gender="male">chest-tnecksweater-male.xml|#441111,aa3333,dd6666</sprite>
+        <sprite gender="male">chest-tnecksweater-male.xml|#441111,aa3333,dd6666</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml|#441111,aa3333,dd6666</sprite>
     </item>
     <item id="71">
-    	<sprite gender="male">chest-tnecksweater-male.xml|#115511,22aa22,ccddcc</sprite>
+        <sprite gender="male">chest-tnecksweater-male.xml|#115511,22aa22,ccddcc</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml|#115511,22aa22,ccddcc</sprite>
     </item>
     <item id="72">
-    	<sprite gender="male">chest-tnecksweater-male.xml|#222255,6666dd</sprite>
+        <sprite gender="male">chest-tnecksweater-male.xml|#222255,6666dd</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml|#222255,6666dd</sprite>
     </item>
     <item id="73">
-    	<sprite gender="male">chest-tnecksweater-male.xml|#665522,ccbb33,ffffaa</sprite>
+        <sprite gender="male">chest-tnecksweater-male.xml|#665522,ccbb33,ffffaa</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml|#665522,ccbb33,ffffaa</sprite>
     </item>
     <item id="74">
-    	<sprite gender="male">chest-tnecksweater-male.xml|#223355,99aadd,bbccff</sprite>
+        <sprite gender="male">chest-tnecksweater-male.xml|#223355,99aadd,bbccff</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml|#223355,99aadd,bbccff</sprite>
     </item>
     <item id="75">
-    	<sprite gender="male">chest-tnecksweater-male.xml|#552255,ff66ff,ffffff</sprite>
+        <sprite gender="male">chest-tnecksweater-male.xml|#552255,ff66ff,ffffff</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml|#552255,ff66ff,ffffff</sprite>
     </item>
     <item id="76">
-    	<sprite gender="male">chest-tnecksweater-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="male">chest-tnecksweater-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
     <item id="77">
-    	<sprite gender="male">chest-tnecksweater-male.xml</sprite>
+        <sprite gender="male">chest-tnecksweater-male.xml</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml</sprite>
     </item>
     <item id="78">
-    	<sprite gender="male">chest-tnecksweater-male.xml</sprite>
+        <sprite gender="male">chest-tnecksweater-male.xml</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml</sprite>
     </item>
     <item id="79">
-    	<sprite gender="male">chest-tnecksweater-male.xml</sprite>
+        <sprite gender="male">chest-tnecksweater-male.xml</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml</sprite>
     </item>
 
@@ -443,8 +436,7 @@
         type="equip-head"
         weight="15"
         defense="2"
-        max-per-slot="1"
-        >
+        max-per-slot="1">
         <sprite>item010.xml</sprite>
     </item>
     <item id="512"
@@ -517,7 +509,6 @@
         effect="Damage: +15 / Range: 1"
         type="equip-1hand"
         weapon_type="1"
-        attacktype="stab"
         weight="60"
         weapon-type="knife"
         attack-min="5"
@@ -534,7 +525,6 @@
         effect="Damage: +10 / Range: 1"
         type="equip-1hand"
         weapon_type="1"
-        attacktype="stab"
         weight="45"
         max-per-slot="1"
         weapon-type="knife"
@@ -561,8 +551,7 @@
         type="equip-head"
         weight="25"
         defense="5"
-        max-per-slot="1"
-        >
+        max-per-slot="1">
         <sprite>item008.xml</sprite>
     </item>
     <item id="525"
@@ -620,7 +609,6 @@
         weapon-type="bow"
         weight="210"
         max-per-slot="1"
-        attacktype="bow"
         damage-min="50"
         damage-delta="0"
         view="1200"/>
@@ -678,7 +666,6 @@
         weapon_type="2"
         weight="1025"
         slot ="0"
-        attacktype="stab"
         weapon-type="sword"
         attack-min="20"
         attack-delta="30"
@@ -765,7 +752,6 @@
         weapon_type="10"
         weight="530"
         max-per-slot="1"
-        attacktype="bow"
         weapon-type="bow"
         attack-min="65"
         attack-delta="0"
@@ -1450,6 +1436,7 @@
         weight="15"
         defense="3"
         max-per-slot="1">
+
         <sprite>item017.xml</sprite>
     </item>
     <item id="622"
@@ -1469,7 +1456,6 @@
         description="Usually used for farming but also useable as a weapon. Slow but deadly."
         effect="Damage: +75 / Range: 1"
         type="equip-2hand"
-        attacktype="swing"
         weapon_type="11"
         weapon-type="polearm"
         weight="400"
@@ -1731,8 +1717,7 @@
         type="equip-ring"
         weight="1"
         max-per-slot="1"
-        strength="5"
-        />
+        strength="5"/>
     <item id="649"
         image="armor-ring-agility-rough.png"
         name="Rough agility ring"
@@ -1741,8 +1726,7 @@
         type="equip-ring"
         weight="1"
         max-per-slot="1"
-        agility="5"
-        />
+        agility="5"/>
     <item id="650"
         image="armor-ring-dexterity-rough.png"
         name="Rough dexterity ring"
@@ -1751,8 +1735,7 @@
         type="equip-ring"
         weight="1"
         max-per-slot="1"
-        dexterity="5"
-        />
+        dexterity="5"/>
     <item id="651"
         image="armor-ring-vitality-rough.png"
         name="Rough vitality ring"
@@ -1761,8 +1744,7 @@
         type="equip-ring"
         weight="1"
         max-per-slot="1"
-        vitality="5"
-        />
+        vitality="5"/>
     <item id="652"
         image="armor-ring-intelligence-rough.png"
         name="Rough intelligence ring"
@@ -1771,8 +1753,7 @@
         type="equip-ring"
         weight="1"
         max-per-slot="1"
-        intelligence="5"
-        />
+        intelligence="5"/>
     <item id="653"
         image="armor-ring-willpower-rough.png"
         name="Rough willpower ring"
@@ -1781,8 +1762,7 @@
         type="equip-ring"
         weight="1"
         max-per-slot="1"
-        willpower="5"
-        />
+        willpower="5"/>
     <item id="654"
         image="armor-head-cap.png|R:#d94800"
         name="Cap"
@@ -1810,14 +1790,15 @@
         type="equip-head"
         weight="25"
         defense="2"
-        max-per-slot="1"/>
-    
+        max-per-slot="1">
+        <sprite>head-serf.xml</sprite>
+    </item>
     <item id="1199"
         image="weapon-arrow-arrow.png"
         name="Arrow"
         description="A standard arrow."
         effect="Damage: +25"
-        type="generic"
+        type="equip-ammo"
         weight="8"
         max-per-slot="100"/>
     <item id="1200"
@@ -1831,8 +1812,7 @@
         attack-min="15"
         attack-delta="0"
         weapon-type="bow"
-        max-per-slot="1"
-        attacktype="bow">
+        max-per-slot="1">
         <sprite>weapon-bow.xml</sprite>
         <sound event="swing">bow_shoot_1.ogg</sound>
     </item>
@@ -1843,7 +1823,6 @@
         effect="Damage: 5 / Range: 1"
         type="equip-1hand"
         weapon_type="1"
-        attacktype="stab"
         weight="20"
         attack-min="0"
         attack-delta="5"
@@ -1974,136 +1953,312 @@
     </item>
 
     <!-- The 2XXY IDs are used for recolored items on eAthena.
-    	XX = item
-    	Y = color variant
-    	XXY = viewID
+        XX = item
+        Y = color variant
+        XXY = viewID
 
-    	On the new server recolorable items should use the same item number
-    	(as long as they are functionally identical while the color is sent as
-    	an additional item property.
+        On the new server recolorable items should use the same item number
+        (as long as they are functionally identical while the color is sent as
+        an additional item property.
     -->
     <item id="2050"
-    	image="armor-chest-cottonshirt.png|W:#441111,aa3333,dd6666" name="Red Cotton shirt" description="A shirt made of 100% cotton." effect="Defense: +2" type="0" weight="15">
-    	<sprite gender="male">chest-cotton-male.xml|#441111,aa3333,dd6666</sprite>
+        image="armor-chest-cottonshirt.png|W:#441111,aa3333,dd6666"
+        name="Red Cotton shirt"
+        description="A shirt made of 100% cotton."
+        effect="Defense: +2"
+        type="equip-torso"
+        weight="15">
+        <sprite gender="male">chest-cotton-male.xml|#441111,aa3333,dd6666</sprite>
         <sprite gender="female">chest-cotton-female.xml|#441111,aa3333,dd6666</sprite>
     </item>
-    <item id="2051" image="armor-chest-cottonshirt.png|W:#115511,22aa22,ccddcc" name="Green Cotton shirt" description="A shirt made of 100% cotton." effect="Defense: +2" type="0" weight="15">
-    	<sprite gender="male">chest-cotton-male.xml|#115511,22aa22,ccddcc</sprite>
+    <item id="2051"
+        image="armor-chest-cottonshirt.png|W:#115511,22aa22,ccddcc"
+        name="Green Cotton shirt"
+        description="A shirt made of 100% cotton."
+        effect="Defense: +2"
+        type="equip-torso"
+        weight="15">
+        <sprite gender="male">chest-cotton-male.xml|#115511,22aa22,ccddcc</sprite>
         <sprite gender="female">chest-cotton-female.xml|#115511,22aa22,ccddcc</sprite>
     </item>
-    <item id="2052" image="armor-chest-cottonshirt.png|W:#222255,6666dd" name="Dark Blue Cotton shirt" description="A shirt made of 100% cotton." effect="Defense: +2" type="0" weight="15">
-    	<sprite gender="male">chest-cotton-male.xml|#222255,6666dd</sprite>
+    <item id="2052"
+        image="armor-chest-cottonshirt.png|W:#222255,6666dd"
+        name="Dark Blue Cotton shirt"
+        description="A shirt made of 100% cotton."
+        effect="Defense: +2"
+        type="equip-torso"
+        weight="15">
+        <sprite gender="male">chest-cotton-male.xml|#222255,6666dd</sprite>
         <sprite gender="female">chest-cotton-female.xml|#222255,6666dd</sprite>
     </item>
-    <item id="2053" image="armor-chest-cottonshirt.png|W:#665522,ccbb33,ffffaa" name="Yellow Cotton shirt" description="A shirt made of 100% cotton." effect="Defense: +2" type="0" weight="15">
-    	<sprite gender="male">chest-cotton-male.xml|#665522,ccbb33,ffffaa</sprite>
+    <item id="2053"
+        image="armor-chest-cottonshirt.png|W:#665522,ccbb33,ffffaa"
+        name="Yellow Cotton shirt"
+        description="A shirt made of 100% cotton."
+        effect="Defense: +2"
+        type="equip-torso"
+        weight="15">
+        <sprite gender="male">chest-cotton-male.xml|#665522,ccbb33,ffffaa</sprite>
         <sprite gender="female">chest-cotton-female.xml|#665522,ccbb33,ffffaa</sprite>
     </item>
-    <item id="2054" image="armor-chest-cottonshirt.png|W:#2b454d,72818c,b7c0c5,ffffff" name="Light Blue Cotton shirt" description="A shirt made of 100% cotton." effect="Defense: +2" type="0" weight="15">
-    	<sprite gender="male">chest-cotton-male.xml|#2b454d,72818c,b7c0c5,ffffff</sprite>
+    <item id="2054"
+        image="armor-chest-cottonshirt.png|W:#2b454d,72818c,b7c0c5,ffffff"
+        name="Light Blue Cotton shirt"
+        description="A shirt made of 100% cotton."
+        effect="Defense: +2"
+        type="equip-torso"
+        weight="15">
+        <sprite gender="male">chest-cotton-male.xml|#2b454d,72818c,b7c0c5,ffffff</sprite>
         <sprite gender="female">chest-cotton-female.xml|#2b454d,72818c,b7c0c5,ffffff</sprite>
     </item>
-    <item id="2055" image="armor-chest-cottonshirt.png|W:#552255,ff66ff,ffffff" name="Pink Cotton shirt" description="A shirt made of 100% cotton." effect="Defense: +2" type="0" weight="15">
-    	<sprite gender="male">chest-cotton-male.xml|#552255,ff66ff,ffffff</sprite>
+    <item id="2055"
+        image="armor-chest-cottonshirt.png|W:#552255,ff66ff,ffffff"
+        name="Pink Cotton shirt"
+        description="A shirt made of 100% cotton."
+        effect="Defense: +2"
+        type="equip-torso"
+        weight="15">
+        <sprite gender="male">chest-cotton-male.xml|#552255,ff66ff,ffffff</sprite>
         <sprite gender="female">chest-cotton-female.xml|#552255,ff66ff,ffffff</sprite>
     </item>
-    <item id="2056" image="armor-chest-cottonshirt.png|W:#111111,222222,333333,444444,555555,aaaaaa" name="Black Cotton shirt" description="A shirt made of 100% cotton." effect="Defense: +2" type="0" weight="15">
-    	<sprite gender="male">chest-cotton-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+    <item id="2056"
+        image="armor-chest-cottonshirt.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+        name="Black Cotton shirt"
+        description="A shirt made of 100% cotton."
+        effect="Defense: +2"
+        type="equip-torso"
+        weight="15">
+        <sprite gender="male">chest-cotton-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
         <sprite gender="female">chest-cotton-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
-    <item id="2057" image="armor-chest-cottonshirt.png" name="2057 Cotton shirt" description="A shirt made of 100% cotton." effect="Defense: +2" type="0" weight="15">
-    	<sprite gender="male">chest-cotton-male.xml</sprite>
+    <item id="2057"
+        image="armor-chest-cottonshirt.png"
+        name="2057 Cotton shirt"
+        description="A shirt made of 100% cotton."
+        effect="Defense: +2"
+        type="equip-torso"
+        weight="15">
+        <sprite gender="male">chest-cotton-male.xml</sprite>
         <sprite gender="female">chest-cotton-female.xml</sprite>
     </item>
-    <item id="2058" image="armor-chest-cottonshirt.png" name="2058 Cotton shirt" description="A shirt made of 100% cotton." effect="Defense: +2" type="0" weight="15">
-    	<sprite gender="male">chest-cotton-male.xml</sprite>
+    <item id="2058"
+        image="armor-chest-cottonshirt.png"
+        name="2058 Cotton shirt"
+        description="A shirt made of 100% cotton."
+        effect="Defense: +2"
+        type="equip-torso"
+        weight="15">
+        <sprite gender="male">chest-cotton-male.xml</sprite>
         <sprite gender="female">chest-cotton-female.xml</sprite>
     </item>
-    <item id="2059" image="armor-chest-cottonshirt.png" name="2059 Cotton shirt" description="A shirt made of 100% cotton." effect="Defense: +2" type="0" weight="15">
-    	<sprite gender="male">chest-cotton-male.xml</sprite>
+    <item id="2059"
+        image="armor-chest-cottonshirt.png"
+        name="2059 Cotton shirt"
+        description="A shirt made of 100% cotton."
+        effect="Defense: +2"
+        type="equip-torso"
+        weight="15">
+        <sprite gender="male">chest-cotton-male.xml</sprite>
         <sprite gender="female">chest-cotton-female.xml</sprite>
     </item>
-
-    <item id="2060" image="armor-chest-vnecksweater.png|W:#441111,aa3333,dd6666" name="Red V-neck Sweater" description="A soft and warm sweater." effect="Defense: +8" type="0" weight="45">
-    	<sprite gender="male">chest-vnecksweater-male.xml|#441111,aa3333,dd6666</sprite>
+    <item id="2060"
+        image="armor-chest-vnecksweater.png|W:#441111,aa3333,dd6666"
+        name="Red V-neck Sweater"
+        description="A soft and warm sweater."
+        effect="Defense: +8"
+        type="equip-torso"
+        weight="45">
+        <sprite gender="male">chest-vnecksweater-male.xml|#441111,aa3333,dd6666</sprite>
         <sprite gender="female">chest-vnecksweater-female.xml|#441111,aa3333,dd6666</sprite>
     </item>
-    <item id="2061" image="armor-chest-vnecksweater.png|W:#115511,22aa22,ccddcc" name="Green V-neck Sweater" description="A soft and warm sweater." effect="Defense: +8" type="0" weight="45">
-    	<sprite gender="male">chest-vnecksweater-male.xml|#115511,22aa22,ccddcc</sprite>
+    <item id="2061"
+        image="armor-chest-vnecksweater.png|W:#115511,22aa22,ccddcc"
+        name="Green V-neck Sweater"
+        description="A soft and warm sweater."
+        effect="Defense: +8"
+        type="equip-torso"
+        weight="45">
+        <sprite gender="male">chest-vnecksweater-male.xml|#115511,22aa22,ccddcc</sprite>
         <sprite gender="female">chest-vnecksweater-female.xml|#115511,22aa22,ccddcc</sprite>
     </item>
-    <item id="2062" image="armor-chest-vnecksweater.png|W:#222255,6666dd" name="Dark Blue V-neck Sweater" description="A soft and warm sweater." effect="Defense: +8" type="0" weight="45">
-    	<sprite gender="male">chest-vnecksweater-male.xml|#222255,6666dd</sprite>
+    <item id="2062"
+        image="armor-chest-vnecksweater.png|W:#222255,6666dd"
+        name="Dark Blue V-neck Sweater"
+        description="A soft and warm sweater."
+        effect="Defense: +8"
+        type="equip-torso"
+        weight="45">
+        <sprite gender="male">chest-vnecksweater-male.xml|#222255,6666dd</sprite>
         <sprite gender="female">chest-vnecksweater-female.xml|#222255,6666dd</sprite>
     </item>
-    <item id="2063" image="armor-chest-vnecksweater.png|W:#665522,ccbb33,ffffaa" name="Yellow V-neck Sweater" description="A soft and warm sweater." effect="Defense: +8" type="0" weight="45">
-    	<sprite gender="male">chest-vnecksweater-male.xml|#665522,ccbb33,ffffaa</sprite>
+    <item id="2063"
+        image="armor-chest-vnecksweater.png|W:#665522,ccbb33,ffffaa"
+        name="Yellow V-neck Sweater"
+        description="A soft and warm sweater."
+        effect="Defense: +8"
+        type="equip-torso"
+        weight="45">
+        <sprite gender="male">chest-vnecksweater-male.xml|#665522,ccbb33,ffffaa</sprite>
         <sprite gender="female">chest-vnecksweater-female.xml|#665522,ccbb33,ffffaa</sprite>
     </item>
-    <item id="2064" image="armor-chest-vnecksweater.png|W:#223355,99aadd,bbccff" name="Light Blue V-neck Sweater" description="A soft and warm sweater." effect="Defense: +8" type="0" weight="45">
-    	<sprite gender="male">chest-vnecksweater-male.xml|#223355,99aadd,bbccff</sprite>
+    <item id="2064"
+        image="armor-chest-vnecksweater.png|W:#223355,99aadd,bbccff"
+        name="Light Blue V-neck Sweater"
+        description="A soft and warm sweater."
+        effect="Defense: +8"
+        type="equip-torso"
+        weight="45">
+        <sprite gender="male">chest-vnecksweater-male.xml|#223355,99aadd,bbccff</sprite>
         <sprite gender="female">chest-vnecksweater-female.xml|#223355,99aadd,bbccff</sprite>
     </item>
-    <item id="2065" image="armor-chest-vnecksweater.png|W:#552255,ff66ff,ffffff" name="Pink V-neck Sweater" description="A soft and warm sweater." effect="Defense: +8" type="0" weight="45">
-    	<sprite gender="male">chest-vnecksweater-male.xml|#552255,ff66ff,ffffff</sprite>
+    <item id="2065"
+        image="armor-chest-vnecksweater.png|W:#552255,ff66ff,ffffff"
+        name="Pink V-neck Sweater"
+        description="A soft and warm sweater."
+        effect="Defense: +8"
+        type="equip-torso"
+        weight="45">
+        <sprite gender="male">chest-vnecksweater-male.xml|#552255,ff66ff,ffffff</sprite>
         <sprite gender="female">chest-vnecksweater-female.xml|#552255,ff66ff,ffffff</sprite>
     </item>
-    <item id="2066" image="armor-chest-vnecksweater.png|W:#111111,222222,333333,444444,555555,aaaaaa" name="Black V-neck Sweater" description="A soft and warm sweater." effect="Defense: +8" type="0" weight="45">
-    	<sprite gender="male">chest-vnecksweater-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+    <item id="2066"
+        image="armor-chest-vnecksweater.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+        name="Black V-neck Sweater"
+        description="A soft and warm sweater."
+        effect="Defense: +8"
+        type="equip-torso"
+        weight="45">
+        <sprite gender="male">chest-vnecksweater-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
         <sprite gender="female">chest-vnecksweater-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
-    <item id="2067" image="armor-chest-vnecksweater.png" name="2057 V-neck Sweater" description="A soft and warm sweater." effect="Defense: +8" type="0" weight="45">
-    	<sprite gender="male">chest-vnecksweater-male.xml</sprite>
+    <item id="2067"
+        image="armor-chest-vnecksweater.png"
+        name="2057 V-neck Sweater"
+        description="A soft and warm sweater."
+        effect="Defense: +8"
+        type="equip-torso"
+        weight="45">
+        <sprite gender="male">chest-vnecksweater-male.xml</sprite>
         <sprite gender="female">chest-vnecksweater-female.xml</sprite>
     </item>
-    <item id="2068" image="armor-chest-vnecksweater.png" name="2058 V-neck Sweater" description="A soft and warm sweater." effect="Defense: +8" type="0" weight="45">
-    	<sprite gender="male">chest-vnecksweater-male.xml</sprite>
+    <item id="2068"
+        image="armor-chest-vnecksweater.png"
+        name="2058 V-neck Sweater"
+        description="A soft and warm sweater."
+        effect="Defense: +8"
+        type="equip-torso"
+        weight="45">
+        <sprite gender="male">chest-vnecksweater-male.xml</sprite>
         <sprite gender="female">chest-vnecksweater-female.xml</sprite>
     </item>
-    <item id="2069" image="armor-chest-vnecksweater.png" name="2059 V-neck Sweater" description="A soft and warm sweater." effect="Defense: +8" type="0" weight="45">
-    	<sprite gender="male">chest-vnecksweater-male.xml</sprite>
+    <item id="2069"
+        image="armor-chest-vnecksweater.png"
+        name="2059 V-neck Sweater"
+        description="A soft and warm sweater."
+        effect="Defense: +8"
+        type="equip-torso"
+        weight="45">
+        <sprite gender="male">chest-vnecksweater-male.xml</sprite>
         <sprite gender="female">chest-vnecksweater-female.xml</sprite>
     </item>
-
-    <item id="2070" image="armor-chest-tnecksweater.png|W:#441111,aa3333,dd6666" name="Red Turtleneck sweater" description="A soft and warm sweater." effect="Defense: +6" type="0" weight="40">
-    	<sprite gender="male">chest-tnecksweater-male.xml|#441111,aa3333,dd6666</sprite>
+    <item id="2070"
+        image="armor-chest-tnecksweater.png|W:#441111,aa3333,dd6666"
+        name="Red Turtleneck sweater"
+        description="A soft and warm sweater."
+        effect="Defense: +6"
+        type="equip-torso"
+        weight="40">
+        <sprite gender="male">chest-tnecksweater-male.xml|#441111,aa3333,dd6666</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml|#441111,aa3333,dd6666</sprite>
     </item>
-    <item id="2071" image="armor-chest-tnecksweater.png|W:#115511,22aa22,ccddcc" name="Green Turtleneck sweater" description="A soft and warm sweater." effect="Defense: +6" type="0" weight="40">
-    	<sprite gender="male">chest-tnecksweater-male.xml|#115511,22aa22,ccddcc</sprite>
+    <item id="2071"
+        image="armor-chest-tnecksweater.png|W:#115511,22aa22,ccddcc"
+        name="Green Turtleneck sweater"
+        description="A soft and warm sweater."
+        effect="Defense: +6"
+        type="equip-torso"
+        weight="40">
+        <sprite gender="male">chest-tnecksweater-male.xml|#115511,22aa22,ccddcc</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml|#115511,22aa22,ccddcc</sprite>
     </item>
-    <item id="2072" image="armor-chest-tnecksweater.png|W:#222255,6666dd" name="Dark Blue Turtleneck sweater" description="A soft and warm sweater." effect="Defense: +6" type="0" weight="40">
-    	<sprite gender="male">chest-tnecksweater-male.xml|#222255,6666dd</sprite>
+    <item id="2072"
+        image="armor-chest-tnecksweater.png|W:#222255,6666dd"
+        name="Dark Blue Turtleneck sweater"
+        description="A soft and warm sweater."
+        effect="Defense: +6"
+        type="equip-torso"
+        weight="40">
+        <sprite gender="male">chest-tnecksweater-male.xml|#222255,6666dd</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml|#222255,6666dd</sprite>
     </item>
-    <item id="2073" image="armor-chest-tnecksweater.png|W:#665522,ccbb33,ffffaa" name="Yellow Turtleneck sweater" description="A soft and warm sweater." effect="Defense: +6" type="0" weight="40">
-    	<sprite gender="male">chest-tnecksweater-male.xml|#665522,ccbb33,ffffaa</sprite>
+    <item id="2073"
+        image="armor-chest-tnecksweater.png|W:#665522,ccbb33,ffffaa"
+        name="Yellow Turtleneck sweater"
+        description="A soft and warm sweater."
+        effect="Defense: +6"
+        type="equip-torso"
+        weight="40">
+        <sprite gender="male">chest-tnecksweater-male.xml|#665522,ccbb33,ffffaa</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml|#665522,ccbb33,ffffaa</sprite>
     </item>
-    <item id="2074" image="armor-chest-tnecksweater.png|W:#333f76,787aac,bebddf,ffffff" name="Light Blue Turtleneck sweater" description="A soft and warm sweater." effect="Defense: +6" type="0" weight="40">
-    	<sprite gender="male">chest-tnecksweater-male.xml|#333f76,787aac,bebddf,ffffff</sprite>
+    <item id="2074"
+        image="armor-chest-tnecksweater.png|W:#333f76,787aac,bebddf,ffffff"
+        name="Light Blue Turtleneck sweater"
+        description="A soft and warm sweater."
+        effect="Defense: +6"
+        type="equip-torso"
+        weight="40">
+        <sprite gender="male">chest-tnecksweater-male.xml|#333f76,787aac,bebddf,ffffff</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml|#333f76,787aac,bebddf,ffffff</sprite>
     </item>
-    <item id="2075" image="armor-chest-tnecksweater.png|W:#552255,ff66ff,ffffff" name="Pink Turtleneck sweater" description="A soft and warm sweater." effect="Defense: +6" type="0" weight="40">
-    	<sprite gender="male">chest-tnecksweater-male.xml|#552255,ff66ff,ffffff</sprite>
+    <item id="2075"
+        image="armor-chest-tnecksweater.png|W:#552255,ff66ff,ffffff"
+        name="Pink Turtleneck sweater"
+        description="A soft and warm sweater."
+        effect="Defense: +6"
+        type="equip-torso"
+        weight="40">
+        <sprite gender="male">chest-tnecksweater-male.xml|#552255,ff66ff,ffffff</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml|#552255,ff66ff,ffffff</sprite>
     </item>
-    <item id="2076" image="armor-chest-tnecksweater.png|W:#111111,222222,333333,444444,555555,aaaaaa" name="Black Turtleneck sweater" description="A soft and warm sweater." effect="Defense: +6" type="0" weight="40">
-    	<sprite gender="male">chest-tnecksweater-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+    <item id="2076"
+        image="armor-chest-tnecksweater.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+        name="Black Turtleneck sweater"
+        description="A soft and warm sweater."
+        effect="Defense: +6"
+        type="equip-torso"
+        weight="40">
+        <sprite gender="male">chest-tnecksweater-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
-    <item id="2077" image="armor-chest-tnecksweater.png" name="2057 Turtleneck sweater" description="A soft and warm sweater." effect="Defense: +6" type="0" weight="40">
-    	<sprite gender="male">chest-tnecksweater-male.xml</sprite>
+    <item id="2077"
+        image="armor-chest-tnecksweater.png"
+        name="2057 Turtleneck sweater"
+        description="A soft and warm sweater."
+        effect="Defense: +6"
+        type="equip-torso"
+        weight="40">
+        <sprite gender="male">chest-tnecksweater-male.xml</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml</sprite>
     </item>
-    <item id="2078" image="armor-chest-tnecksweater.png" name="2058 Turtleneck sweater" description="A soft and warm sweater." effect="Defense: +6" type="0" weight="40">
-    	<sprite gender="male">chest-tnecksweater-male.xml</sprite>
+    <item id="2078"
+        image="armor-chest-tnecksweater.png"
+        name="2058 Turtleneck sweater"
+        description="A soft and warm sweater."
+        effect="Defense: +6"
+        type="equip-torso"
+        weight="40">
+        <sprite gender="male">chest-tnecksweater-male.xml</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml</sprite>
     </item>
-    <item id="2079" image="armor-chest-tnecksweater.png" name="2059 Turtleneck sweater" description="A soft and warm sweater." effect="Defense: +6" type="0" weight="40">
-    	<sprite gender="male">chest-tnecksweater-male.xml</sprite>
+    <item id="2079"
+        image="armor-chest-tnecksweater.png"
+        name="2059 Turtleneck sweater"
+        description="A soft and warm sweater."
+        effect="Defense: +6"
+        type="equip-torso"
+        weight="40">
+        <sprite gender="male">chest-tnecksweater-male.xml</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml</sprite>
     </item>
 </items>
-
