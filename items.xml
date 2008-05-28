@@ -39,7 +39,7 @@
     </item>
     <item id="-7" type="hairsprite">
         <sprite gender="male">hairstyle7-male.xml</sprite>
-        <sprite gender="female">hairstyle7-male.xml</sprite><!-- haven't got one yet -->
+        <sprite gender="female">hairstyle7-female.xml</sprite><!-- haven't got one yet -->
     </item>
 
     <!-- treating the base sprite as equipment too will be useful when we
@@ -203,8 +203,8 @@
         <sprite>head-cowboyblack.xml</sprite>
     </item>
     <item id="45">
-        <sprite gender="male">chest-lightplatemail-male.xml|#884422,ddaa22,ffff22</sprite>
-        <sprite gender="female">chest-lightplatemail-female.xml|#884422,ddaa22,ffff22</sprite>
+        <sprite gender="male">chest-lightplatemail-male.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
+        <sprite gender="female">chest-lightplatemail-female.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
     </item>
     <item id="46">
         <sprite>head-crown.xml</sprite>
@@ -341,6 +341,15 @@
     <item id="79">
         <sprite gender="male">chest-tnecksweater-male.xml</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml</sprite>
+    </item>
+    
+    <item id="80">
+        <sprite gender="male">chest-warlordplate-male.xml|#5c5c5c,ffffff</sprite>
+        <sprite gender="female">chest-warlordplate-female.xml|#5c5c5c,ffffff</sprite>
+    </item>
+    <item id="81">
+        <sprite gender="male">chest-warlordplate-male.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
+        <sprite gender="female">chest-warlordplate-female.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
     </item>
 
     <item id="501"
@@ -1588,14 +1597,14 @@
     <item id="635"
         image="generic-santacookie.png"
         name="Santa Cookie"
-        description="This isn't for you to eat. It is for Santa Clause."
+        description="This isn't for you to eat. It is for Santa Claus."
         effect=""
         type="generic"
         weight="1"
         max-per-slot="1"/>
     <item id="636"
         image="armor-head-warlordhelm.png"
-        name="A Warlord Helmet"
+        name="Warlord Helmet"
         description="Worn by great warriors"
         effect="Defense: +25"
         type="equip-head"
@@ -1605,7 +1614,7 @@
     </item>
     <item id="637"
         image="armor-head-knighthelm.png"
-        name="A Knight's Helmet"
+        name="Knight's Helmet"
         description="Helmet with two small wings on it"
         effect="Defense: +20"
         type="equip-head"
@@ -1615,7 +1624,7 @@
     </item>
     <item id="638"
         image="armor-head-infantryhelm.png"
-        name="A Infantry Helmet"
+        name="Infantry Helmet"
         description="For soldiers and guards"
         effect="Defense: +20"
         type="equip-head"
@@ -1625,7 +1634,7 @@
     </item>
     <item id="639"
         image="armor-head-crusadehelm.png"
-        name="A Crusade Helmet"
+        name="Crusade Helmet"
         description="Start your own crusade"
         effect="Defense: +25"
         type="equip-head"
@@ -1679,15 +1688,15 @@
         <sprite>head-cowboyblack.xml</sprite>
     </item>
     <item id="645"
-        image="armor-chest-lightplatemail.png|W:#884422,ddaa22,ffff22"
+        image="armor-chest-lightplatemail.png|W:#573f10,9c8226,d3c04b,ffffff"
         name="Golden Platemail"
         description="A plate mail made from gold which can only be afforded by the richest of the richest."
         effect="Defense: +25"
         type="equip-torso"
         defense="25"
         weight="240">
-        <sprite gender="male">chest-lightplatemail-male.xml|#884422,ddaa22,ffff22</sprite>
-        <sprite gender="female">chest-lightplatemail-female.xml|#884422,ddaa22,ffff22</sprite>
+        <sprite gender="male">chest-lightplatemail-male.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
+        <sprite gender="female">chest-lightplatemail-female.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
     </item>
     <item id="646"
         image="armor-head-crown.png"
@@ -1792,6 +1801,39 @@
         defense="2"
         max-per-slot="1">
         <sprite>head-serf.xml</sprite>
+    </item>
+    <item id="657"
+        image="use-food-orange.png"
+        name="Orange"
+        description="A juicy orange."
+        effect="+60 HP"
+        type="usable"
+        hp="60"
+        weight="80"
+        max-per-slot="10"/>
+    <item id="658"
+        image="armor-chest-warlordplate.png|W:#5c5c5c,ffffff"
+        name="Warlord Plate"
+        description="Strong and decrotive armor."
+        effect="Defense: +27"
+        type="equip-torso"
+        weight="275"
+        defense="27"
+        max-per-slot="1">
+        <sprite gender="male">chest-warlordplate-male.xml|W:#5c5c5c,ffffff</sprite>
+        <sprite gender="female">chest-warlordplate-female.xml|W:#5c5c5c,ffffff</sprite>
+    </item>
+        <item id="659"
+        image="armor-chest-warlordplate.png|W:#573f10,9c8226,d3c04b,ffffff"
+        name="Golden Warlord Plate"
+        description="Strong and decrotive armor made from gold."
+        effect="Defense: +27"
+        type="equip-torso"
+        weight="275"
+        defense="27"
+        max-per-slot="1">
+        <sprite gender="male">chest-warlordplate-male.xml|W:#573f10,9c8226,d3c04b,ffffff</sprite>
+        <sprite gender="female">chest-warlordplate-female.xml|W:#573f10,9c8226,d3c04b,ffffff</sprite>
     </item>
     <item id="1199"
         image="weapon-arrow-arrow.png"
