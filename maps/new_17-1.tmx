@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="0.99b" orientation="orthogonal" width="150" height="150" tilewidth="32" tileheight="32">
  <properties>
-  <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
   <property name="minimap" value="graphics/images/minimap_new_17-1.png"/>
+  <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
  </properties>
  <tileset name="Collision" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>
@@ -22,7 +22,7 @@
  </layer>
  <layer name="Fringe" width="150" height="150">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3dTU4CMRgG4GFjPIHxAhov4M9O40I9m4kewL8r6A3kBuoJxBOoK7eWhAmTpqA4YJnyPMmbUhbkW3xJB0jbqgIAAAAAAAAAAAAAAAAAAFgdh73cFQAAlMFzFQAAAAAAAACwzI574wAA+RxZi8noKeR5lJfMtdB9dT/1QwajvOUrh0K8VuN+qqOvVts8fsd4D/mI8tn+YwFgoc5DLhpjnMvRCLO4C7ltjHHq92EW+opFuAq5npKb0Qg5pZ7RoK3UWgptpdZSAAAAAAAAAIBYcw+yvci0ldqDXOex0ltM95V4b9hT/WrcR/chD5Xeop14X/uwh/qVve60U+9rH/wQfcVfpM5NGKZeE/UV81T3m7M5ACiFO8cBAOYrdeaGszdoK3XmhrM3aGvaOVYAAAAAAPxOaq8PALAc5nHXKwAAAMxiN3cBAABQkLXcBVCkjcbr9WxVUJpmX21mq4KSxGugvsrrckK6ZiOa66u87iaka/TVcrmakK6Y9B1w51+roDTb0XwrZD/kIEMtlGMvmg//Iz4NOctQC+U4ieb6CQAAAAAAgFXgfi8Wwf1eLIL7vQAAAAAAAAAA+K1v5t7yRpBfAQA=
+   H4sIAAAAAAAAAO3dzUkDQRgG4M1FrCDYgGID/twUD2ptgikg/rSgHZgO1AqMFagnr04gS5ZhEn82cZLJ88DLujnId3hhojAzVQUAAAAAAAAAAAAAAAAAALA+jjq5JwAAKIPvVQAAAAAAAADAMjvpTAIA5HNsLSajx5CncZ4zz8Lqq/s0CBmO85pvHArxUk36VEev1ts8/o/xFvIe5aP9rwWAhboIuWw84/TGT/iN25CbxjNO/Tn8hl6xCP2Qqxm5Hj8hp9R3NGgrtZZCW6m1FAAAAAAAAAAg1tyDbC8ybaX2INd5qHSL2T4Tn406NagmPboLua90i3bife2jDg0qe91pp97XPvwmesVfpM5NGKVeE/WKear75mwOAErhznEAgPlKnbnh7A3aSp254ewN2pp1jhUAAAAAAD+T2usDACyHedz1CgAAAAAAQB4buQegSN3Gz5vZpqA0zV5tZZuCksRroF7l1ZuSVdON3vUqr9spWTV6tVz6U7Iqpv0NuPuvU1Caneh9O+Qg5DDDLJRjP3rfCzkLOc8wC+U4jd71CQAAAAAAgHXgfi8Wwf1eLIL7vQAAAAAAAAAA+Kkvevh5R5BfAQA=
   </data>
   <tileproperties/>
  </layer>
@@ -32,13 +32,13 @@
   </data>
   <tileproperties/>
  </layer>
- <layer name="Collision" width="150" height="150" visible="0">
+ <layer name="Collision" width="150" height="150">
   <data encoding="base64" compression="gzip">
    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
   </data>
   <tileproperties/>
  </layer>
- <objectgroup name="Objects" width="0" height="0" visible="0">
+ <objectgroup name="Objects" width="0" height="0">
   <object name="Warp1" type="WARP" x="2272" y="288" width="128" height="32">
    <properties>
     <property name="DEST_MAP">
