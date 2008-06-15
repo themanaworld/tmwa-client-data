@@ -64,12 +64,12 @@
         <sprite gender="female">chest-leather-female.xml</sprite>
     </item>
     <item id="4">
-        <sprite gender="male">leg-cotton-male.xml</sprite>
-        <sprite gender="female">leg-cotton-female.xml</sprite>
+        <sprite gender="male">leg-shorts-male.xml|#6c858a,ffffff</sprite>
+        <sprite gender="female">leg-shorts-female.xml|#6c858a,ffffff</sprite>
     </item>
     <item id="5">
-        <sprite gender="male">leg-jeans-male.xml</sprite>
-        <sprite gender="female">leg-jeans-female.xml</sprite>
+        <sprite gender="male">leg-shorts-male.xml|#0e1d24,285f78,2c7c98,76b9ca</sprite>
+        <sprite gender="female">leg-shorts-female.xml|#0e1d24,285f78,2c7c98,76b9ca</sprite>
     </item>
     <item id="6">
         <sprite>item006.xml</sprite>
@@ -139,7 +139,7 @@
         <sprite gender="female">chest-lightplatemail-female.xml|#ddeeff</sprite>
     </item>
     <item id="27">
-        <sprite>leg-skirt.xml</sprite>
+        <sprite>leg-skirt.xml|#333e75,7a7cac,c3c1df,ffffff</sprite>
     </item>
     <item id="28">
         <sprite gender="male">leg-chaps-male.xml</sprite>
@@ -1155,7 +1155,7 @@
         weight="10"
         max-per-slot="1"/>
     <item id="586"
-        image="armor-legs-cottonshorts.png"
+        image="armor-legs-shorts.png|W:#6c858a,ffffff"
         name="Cotton shorts"
         description="Shorts made of 100% cotton."
         effect="Defense: +2"
@@ -1163,8 +1163,8 @@
         weight="10"
         defense="2"
         max-per-slot="1">
-        <sprite gender="male">leg-cotton-male.xml</sprite>
-        <sprite gender="female">leg-cotton-female.xml</sprite>
+        <sprite gender="male">leg-shorts-male.xml|#6c858a,ffffff</sprite>
+        <sprite gender="female">leg-shorts-female.xml|#6c858a,ffffff</sprite>
     </item>
     <item id="587"
         image="weapon-sword-sword.png"
@@ -1368,7 +1368,7 @@
         weight="10"
         max-per-slot="1"/>
     <item id="610"
-        image="armor-legs-jeanshorts.png"
+        image="armor-legs-shorts.png|W:#0e1d24,285f78,2c7c98,76b9ca"
         name="Jeans shorts"
         description="Shorts made of jeans."
         effect="Defense: +4"
@@ -1376,8 +1376,8 @@
         weight="30"
         defense="4"
         max-per-slot="1">
-        <sprite gender="male">leg-jeans-male.xml</sprite>
-        <sprite gender="female">leg-jeans-female.xml</sprite>
+        <sprite gender="male">leg-shorts-male.xml|#0e1d24,285f78,2c7c98,76b9ca</sprite>
+        <sprite gender="female">leg-shorts-female.xml|#0e1d24,285f78,2c7c98,76b9ca</sprite>
     </item>
     <item id="611"
         image="generic-whitefur.png"
@@ -1603,7 +1603,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="632"
-        image="armor-legs-skirt.png"
+        image="armor-legs-skirt.png|W:#333e75,7a7cac,c3c1df,ffffff"
         name="Skirt"
         description="A light-blue skirt made of linen cloth."
         effect="Defense: +4"
@@ -1611,7 +1611,7 @@
         type="equip-legs"
         weight="30"
         max-per-slot="1">
-        <sprite>leg-skirt.xml</sprite>
+        <sprite>leg-skirt.xml|#333e75,7a7cac,c3c1df,ffffff</sprite>
     </item>
     <item id="633"
         image="armor-head-xmaself.png"
