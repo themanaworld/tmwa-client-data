@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+
+<!--
+Pentagram on floor effect with flashes along the lines.
+Based on the one by fate with simplified structure and modified to be a permanent effect.
+Particle count fluctuates around 800-1000
+
+               (0, -76.0),
+
+(-57, -35),                      (57, -35),
+
+
+   (-35, 33)]                [(35, 33),
+-->
+
+
+<effect>
+	<particle
+		position-x = "0"
+		position-y = "0"
+		position-z = "0"
+		>
+		<emitter>
+			<property name="position-y" value="-16"/>
+			<property name="horizontal-angle" min="0" max="360"/>
+			<property name="vertical-angle" min="0" max="0"/>
+			<property name="power" value="60"/>
+			<property name="lifetime" value="1"/>
+			<property name="output" value="5"/>
+			<emitter>
+				<property name="image" value="graphics/particles/gloworb-small.png|W:#ffffff"/>
+				<property name="lifetime" value="77"/>
+				<property name="fade-in" value="57"/>
+				<property name="fade-out" value="20"/>
+				<property name="output" value="1"/>
+			</emitter>
+		</emitter>
+
+
+                <emitter>
+                  <property name="position-x" value="57" />
+                  <property name="position-y" value="-35" />
+		  <property name="output" min="-50" max="1"/>
+                  <property name="lifetime" value="1"/>
+                  <emitter>
+		    <property name="horizontal-angle" value="180"/>
+		    <property name="vertical-angle" min="0" max="0"/>
+		    <property name="power" value="2"/>
+                    <property name="lifetime" value="57"/>
+		    <property name="image" value="graphics/particles/gloworb-small.png|W:#ffffff"/>
+                    <emitter>
+		      <property name="image" value="graphics/particles/gloworb-small.png|W:#ffffff"/>
+		      <property name="lifetime" value="20"/>
+		      <property name="fade-out" value="20"/>
+		      <property name="output" value="1"/>
+                    </emitter>
+                  </emitter>
+                </emitter>
+
+
+                <emitter>
+                  <property name="position-x" value="-57" />
+                  <property name="position-y" value="-35" />
+		  <property name="output" min="-50" max="1"/>
+                  <property name="lifetime" value="1"/>
+                  <emitter>
+		    <property name="horizontal-angle" value="36"/>
+		    <property name="vertical-angle" min="0" max="0"/>
+		    <property name="power" value="2"/>
+                    <property name="lifetime" value="57"/>
+		    <property name="image" value="graphics/particles/gloworb-small.png|W:#ffffff"/>
+                    <emitter>
+		      <property name="image" value="graphics/particles/gloworb-small.png|W:#ffffff"/>
+		      <property name="lifetime" value="20"/>
+		      <property name="fade-out" value="20"/>
+		      <property name="output" value="1"/>
+                    </emitter>
+                  </emitter>
+                </emitter>
+
+
+                <emitter>
+                  <property name="position-x" value="35" />
+                  <property name="position-y" value="33" />
+		  <property name="output" min="-50" max="1"/>
+                  <property name="lifetime" value="1"/>
+                  <emitter>
+		    <property name="horizontal-angle" value="252"/>
+		    <property name="vertical-angle" min="0" max="0"/>
+		    <property name="power" value="2"/>
+                    <property name="lifetime" value="57"/>
+		    <property name="image" value="graphics/particles/gloworb-small.png|W:#ffffff"/>
+                    <emitter>
+		      <property name="image" value="graphics/particles/gloworb-small.png|W:#ffffff"/>
+		      <property name="lifetime" value="20"/>
+		      <property name="fade-out" value="20"/>
+		      <property name="output" value="1"/>
+                    </emitter>
+                  </emitter>
+                </emitter>
+
+                <emitter>
+                  <property name="position-y" value="-76" />
+                  <property name="position-x" value="0" />
+		  <property name="output" min="-50" max="1"/>
+                  <property name="lifetime" value="1"/>
+                  <emitter>
+		    <property name="horizontal-angle" value="108"/>
+		    <property name="vertical-angle" min="0" max="0"/>
+		    <property name="power" value="2"/>
+                    <property name="lifetime" value="57"/>
+		    <property name="image" value="graphics/particles/gloworb-small.png|W:#ffffff"/>
+                    <emitter>
+		      <property name="image" value="graphics/particles/gloworb-small.png|W:#ffffff"/>
+		      <property name="lifetime" value="20"/>
+		      <property name="fade-out" value="20"/>
+		      <property name="output" value="1"/>
+                    </emitter>
+                  </emitter>
+                </emitter>
+
+
+                <emitter>
+                  <property name="position-x" value="-35" />
+                  <property name="position-y" value="33" />
+		  <property name="output" min="-50" max="1"/>
+                  <property name="lifetime" value="1"/>
+                  <emitter>
+		    <property name="horizontal-angle" value="324"/>
+		    <property name="vertical-angle" min="0" max="0"/>
+		    <property name="power" value="2"/>
+                    <property name="lifetime" value="57"/>
+		    <property name="image" value="graphics/particles/gloworb-small.png|W:#ffffff"/>
+                    <emitter>
+		      <property name="image" value="graphics/particles/gloworb-small.png|W:#ffffff"/>
+		      <property name="lifetime" value="20"/>
+		      <property name="fade-out" value="20"/>
+		      <property name="output" value="1"/>
+                    </emitter>
+                  </emitter>
+                </emitter>
+
+	</particle>
+</effect>
+
