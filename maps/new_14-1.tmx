@@ -55,26 +55,42 @@
  <objectgroup name="Objects" width="0" height="0">
   <object name="ToField" type="WARP" x="4160" y="1696" width="64" height="128">
    <properties>
-    <property name="DEST_MAP" value="16"/>
-    <property name="DEST_X" value="768"/>
-    <property name="DEST_Y" value="1712"/>
+    <property name="DEST_MAP">
+     16
+    </property>
+    <property name="DEST_X">
+     768
+    </property>
+    <property name="DEST_Y">
+     1712
+    </property>
    </properties>
   </object>
   <object name="ToField" type="WARP" x="1536" y="736" width="64" height="64">
    <properties>
-    <property name="DEST_MAP" value="9"/>
-    <property name="DEST_X" value="1536"/>
-    <property name="DEST_Y" value="3232"/>
+    <property name="DEST_MAP">
+     9
+    </property>
+    <property name="DEST_X">
+     1536
+    </property>
+    <property name="DEST_Y">
+     3232
+    </property>
    </properties>
   </object>
   <object name="Scorpion" type="SPAWN" x="2336" y="1728" width="640" height="640">
    <properties>
-    <property name="MONSTER_ID" value="1"/>
+    <property name="MONSTER_ID">
+     1
+    </property>
    </properties>
   </object>
   <object name="Shroom" type="SPAWN" x="1088" y="1984" width="1024" height="640">
    <properties>
-    <property name="MONSTER_ID" value="17"/>
+    <property name="MONSTER_ID">
+     17
+    </property>
    </properties>
   </object>
  </objectgroup>
