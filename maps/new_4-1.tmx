@@ -1,10 +1,10 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <map version="0.99b" orientation="orthogonal" width="60" height="60" tilewidth="32" tileheight="32">
  <properties>
-  <property name="overlay0parallax" value="0.0"/>
-  <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
-  <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
   <property name="minimap" value="graphics/images/minimap_new_4-1.png"/>
+  <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
+  <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
+  <property name="overlay0parallax" value="0.0"/>
  </properties>
  <tileset name="Cave" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png" trans="ff00ff"/>
@@ -17,50 +17,45 @@
  </tileset>
  <layer name="Ground" width="60" height="60">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO2YyU7DQAxA51C4sKpQjoBKxSJWFUrhCpTCPyDgA9i+APrp2GIsrFGSSUii2MWHp2iSQ/3G7oxnOs65jmEYhmEYhmEYhmEYhmEwdoDdCHsC4qzKdQsYABf+iSwCS8CyH3eVOlMu28z1FBgBd/6JrAMbwKYf95U6D30eu8z1GpgJOAKOgRM/vlLqPPZ57Ge4pqHReY3FXsRVqzP5loE7twU41e3LnS8FOHH43kr1N1uh870ARw6uxwP3u4ei93YBp1ZkfnpOVk3jekx7KtYf7kXnEcc5YB5Y8D5Z83PmZNQ01TGP9cb97EW3Qf7CGt8HDoBD75M1P1JqmvqKWC57CfMS+sT2rVUBvtRX8Fym1eMgx7xI982772CNj3LMSxZNuyb5Jv1Py9LK+P0mSKq5qvoNib555uE/+Fblrc23rLNG35gzfk9b45qOuy7S1vppJey9JPQXdYF9adh79QTEVRfYl4a9F/agXQGxVcFKME46R2APSvc5Tcdb1pXu3om0c4TU+5wi+eR370RYy4/AM3OWcPYtAs9n7D4aXV+BD6dzrR4G+Yyd69+Ad+CF5ViT7ziHI+X1yecWfR+Aif+mqZ7HOVx5XgmqZ2191l98tea2iO8n8OWZsPfT6puGNt+QIq5Nx2oYhtE038OIAQZAOAAA
+   H4sIAAAAAAAAAO2YyU7DQAxA51C4sKpQjoBKxSJWFULhCpTAPyDgA9i+APrp2GJGWEOSmTSpYhcfnqK0h86z3bFnOsaYjqIoiqIoiqIoiqIoiqIQdoDdAHsM1lmX6xaQABf2iSwCS8Cyfe8KdXa5bBPXU2AI3Nknsg5sAJv2vS/UeWDz2CWu18CMxxFwDJzY9yuhzqnNY7/ANQ+Jzmtk7WVcpTo73ypQ5zYDp0n7UudLBk4U2ltd/c3W6HzPwJGC+3Fifnsoem+XcGoF4tMzvGoa92PXU7H+sBedBxzngHlgwfoUxefM8KhpV8d0rTfmpxfdevnza3wfOAAOrU9RfLjUtJsrQrnsZcTF9wn1rVUGvm6uoLnMq8ckIi7cfWP7Dtb4MCIuRTTtmuWb9T+tSqvg95sgq+bqmjc4+sbE4T/41uUtzbeqs0TfkDN+n7fHNb3uSZG3108jK+bv7MVhvpgUOJf6sxe3M1Gd4Fzqz144g0q424gB65fes2edI3AGlXKfE3J1d++OvHME1/ucMvmkd+8Ov5YfgWfizOHsO24+Q/fR6PoKfBiZe/XAy2foXP8GvAMvJMeSfNMIR5fXJ5tb9H0ARvY7SfWcRrjSvDpcPUubs8bxlZrbMr6fwJdlRD6fVt88pPn6lHFteq2KoihN8w3bZZN1QDgAAA==
   </data>
-  <tileproperties/>
  </layer>
  <layer name="Fringe" width="60" height="60">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAAO3OoQ0AMAwEscyRVQu7eHkG6EuRTY5eFQAAAAAAAPBTjwIAAABsdNMDASc9AAAAwwMSD89FQDgAAA==
   </data>
-  <tileproperties/>
  </layer>
  <layer name="Over" width="60" height="60">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAAO3XQQqAIBAFULd1ger+Fy2hSCKjFqHiezCbVn5ltAkBAAAAAACgrGGrpfQiKjYF+9OyeH5zcIYQxX4YSy/ixh99WlPWHt/ZmHnea0y+9boPPeaW+fR0x9V0V32V9nlauTwtZwUAqJn/LCjnOhe9nYWPObH13s3NhW/nRICerGLHOxRAOAAA
   </data>
-  <tileproperties/>
  </layer>
  <layer name="Collision" width="60" height="60">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAAO3SwQ6DIBBFUb6dL3drjDAq4zwYLslNm7aLd7C1lFKJiIiIiIiIiIiIEmcd9b5I6+rmcnn/5qi3//k8s5g9jtqA2cdr/V7t8PDW0+uK3rttvc/uPCt6rb1fvDOaR7xPjtr3Zv+oV21s7fd4jjNbr7ZdvCP/9UxeD7d6e7RZvdvb3PtevTfyPtRb8OLF+826oze7ObuzddS7Iq2ZvNZR74u0tryr3gNe29u7h9kbOertqudNRLRjB2l93JhAOAAA
   </data>
-  <tileproperties/>
  </layer>
  <objectgroup name="Object Group 1" width="0" height="0">
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="928" y="960" width="32" height="32">
-   <properties/>
-  </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="992" y="960" width="32" height="32">
-   <properties/>
-  </object>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="928" y="960" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="992" y="960" width="32" height="32"/>
   <object name="ToOutside" type="WARP" x="960" y="704" width="96" height="32">
    <properties>
     <property name="DEST_MAP">
      9
     </property>
-    <property name="DEST_Y">
-     3008
-    </property>
     <property name="DEST_X">
      1856
     </property>
+    <property name="DEST_Y">
+     3008
+    </property>
    </properties>
   </object>
-  <object name="Arkim the Hermit" type="NPC" x="976" y="976" width="0" height="0">
+  <object name="Arkim the Hermit" type="NPC" x="976" y="976">
    <properties>
+    <property name="NPC_ID">
+     116
+    </property>
     <property name="SCRIPT">
      function npc_handler(npc, ch)
        do_message(npc, ch, "Do you want to go back outside?")
@@ -69,9 +64,6 @@
          tmw.chr_warp(ch, 9, 60 * 32 + 16, 95 * 32 + 16)
        end
      end
-    </property>
-    <property name="NPC_ID">
-     116
     </property>
    </properties>
   </object>
