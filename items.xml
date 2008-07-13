@@ -2242,7 +2242,7 @@
     <item id="2057"
         image="armor-chest-cottonshirt.png"
         name="2057 Cotton shirt"
-        description="A shirt made of 100% cotton."
+        description="*Reserved for new colorisation of cotton shirt*"
         effect="Defense: +2"
         type="equip-torso"
         weight="15">
@@ -2252,7 +2252,7 @@
     <item id="2058"
         image="armor-chest-cottonshirt.png"
         name="2058 Cotton shirt"
-        description="A shirt made of 100% cotton."
+        description="*Reserved for new colorisation of cotton shirt*"
         effect="Defense: +2"
         type="equip-torso"
         weight="15">
@@ -2262,7 +2262,7 @@
     <item id="2059"
         image="armor-chest-cottonshirt.png"
         name="2059 Cotton shirt"
-        description="A shirt made of 100% cotton."
+        description="*Reserved for new colorisation of cotton shirt*"
         effect="Defense: +2"
         type="equip-torso"
         weight="15">
@@ -2342,7 +2342,7 @@
     <item id="2067"
         image="armor-chest-vnecksweater.png"
         name="2057 V-neck Sweater"
-        description="A soft and warm sweater."
+        description="*Reserved for new colorisation of v-neck sweater*"
         effect="Defense: +8"
         type="equip-torso"
         weight="45">
@@ -2352,7 +2352,7 @@
     <item id="2068"
         image="armor-chest-vnecksweater.png"
         name="2058 V-neck Sweater"
-        description="A soft and warm sweater."
+        description="*Reserved for new colorisation of v-neck sweater*"
         effect="Defense: +8"
         type="equip-torso"
         weight="45">
@@ -2362,7 +2362,7 @@
     <item id="2069"
         image="armor-chest-vnecksweater.png"
         name="2059 V-neck Sweater"
-        description="A soft and warm sweater."
+        description="*Reserved for new colorisation of v-neck sweater*"
         effect="Defense: +8"
         type="equip-torso"
         weight="45">
@@ -2442,7 +2442,7 @@
     <item id="2077"
         image="armor-chest-tnecksweater.png"
         name="2057 Turtleneck sweater"
-        description="A soft and warm sweater."
+        description="*Reserved for new colorisation of turtleneck sweater*"
         effect="Defense: +6"
         type="equip-torso"
         weight="40">
@@ -2452,7 +2452,7 @@
     <item id="2078"
         image="armor-chest-tnecksweater.png"
         name="2058 Turtleneck sweater"
-        description="A soft and warm sweater."
+        description="*Reserved for new colorisation of turtleneck sweater*"
         effect="Defense: +6"
         type="equip-torso"
         weight="40">
@@ -2462,7 +2462,7 @@
     <item id="2079"
         image="armor-chest-tnecksweater.png"
         name="2059 Turtleneck sweater"
-        description="A soft and warm sweater."
+        description="*Reserved for new colorisation of turtleneck sweater*"
         effect="Defense: +6"
         type="equip-torso"
         weight="40">
@@ -2471,43 +2471,95 @@
     </item>
 
     <item id="2090"
-        image="armor-chest-tanktop.png|W:#441111,aa2222,dd3333" name="Red Tank Top" description="A sleeveless shirt for hot summer days." effect="Defense: +2" type="0" weight="15">
+        image="armor-chest-tanktop.png|W:#441111,aa2222,dd3333" name="Red Tank Top"
+        description="A sleeveless shirt for hot summer days."
+        effect="Defense: +2"
+        type="0"
+        weight="15">
         <sprite gender="male">chest-tanktop-male.xml|#441111,aa2222,dd3333</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#441111,aa2222,dd3333</sprite>
     </item>
-    <item id="2091" image="armor-chest-tanktop.png|W:#115511,22aa22,99dd99" name="Green Tank Top" description="A sleeveless shirt for hot summer days." effect="Defense: +2" type="0" weight="15">
+    <item id="2091"
+        image="armor-chest-tanktop.png|W:#115511,22aa22,99dd99"
+        name="Green Tank Top" description="A sleeveless shirt for hot summer days."
+        effect="Defense: +2"
+        type="0"
+        weight="15">
         <sprite gender="male">chest-tanktop-male.xml|#115511,22aa22,99dd99</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#115511,22aa22,99dd99</sprite>
     </item>
-    <item id="2092" image="armor-chest-tanktop.png|W:#222255,6666ff" name="Dark Blue Tank Top" description="A sleeveless shirt for hot summer days." effect="Defense: +2" type="0" weight="15">
+    <item id="2092"
+        image="armor-chest-tanktop.png|W:#222255,6666ff"
+        name="Dark Blue Tank Top"
+        description="A sleeveless shirt for hot summer days."
+        effect="Defense: +2"
+        type="0"
+        weight="15">
         <sprite gender="male">chest-tanktop-male.xml|#222255,6666ff</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#222255,6666ff</sprite>
     </item>
-    <item id="2093" image="armor-chest-tanktop.png|W:#887722,ddcc66,ffffaa" name="Yellow Tank Top" description="A sleeveless shirt for hot summer days." effect="Defense: +2" type="0" weight="15">
+    <item id="2093"
+        image="armor-chest-tanktop.png|W:#887722,ddcc66,ffffaa"
+        name="Yellow Tank Top"
+        description="A sleeveless shirt for hot summer days."
+        effect="Defense: +2"
+        type="0"
+        weight="15">
         <sprite gender="male">chest-tanktop-male.xml|#887722,ddcc66,ffffaa</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#887722,ddcc66,ffffaa</sprite>
     </item>
-    <item id="2094" image="armor-chest-tanktop.png|W:#222288,77aacc,aaffff" name="Light Blue Tank Top" description="A sleeveless shirt for hot summer days." effect="Defense: +2" type="0" weight="15">
+    <item id="2094" image="armor-chest-tanktop.png|W:#222288,77aacc,aaffff"
+        name="Light Blue Tank Top"
+        description="A sleeveless shirt for hot summer days."
+        effect="Defense: +2"
+        type="0"
+        weight="15">
         <sprite gender="male">chest-tanktop-male.xml|#222288,77aacc,aaffff</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#222288,77aacc,aaffff</sprite>
     </item>
-    <item id="2095" image="armor-chest-tanktop.png|W:#550044,dd55aa,ff99ff" name="Pink Tank Top" description="A sleeveless shirt for hot summer days." effect="Defense: +2" type="0" weight="15">
+    <item id="2095" image="armor-chest-tanktop.png|W:#550044,dd55aa,ff99ff"
+        name="Pink Tank Top"
+        description="A sleeveless shirt for hot summer days."
+        effect="Defense: +2"
+        type="0"
+        weight="15">
         <sprite gender="male">chest-tanktop-male.xml|#550044,dd55aa,ff99ff</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#550044,dd55aa,ff99ff</sprite>
     </item>
-    <item id="2096" image="armor-chest-tanktop.png|W:#111111,222222,333333,444444,555555,aaaaaa" name="Black Tank Top" description="A sleeveless shirt for hot summer days." effect="Defense: +2" type="0" weight="15">
+    <item id="2096"
+        image="armor-chest-tanktop.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+        name="Black Tank Top"
+        description="A sleeveless shirt for hot summer days."
+        effect="Defense: +2"
+        type="0"
+        weight="15">
         <sprite gender="male">chest-tanktop-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
-    <item id="2097" image="armor-chest-tanktop.png" name="2097 Tank Top" description="A sleeveless shirt for hot summer days." effect="Defense: +2" type="0" weight="15">
+    <item id="2097" image="armor-chest-tanktop.png" name="2097 Tank Top"
+        description="*Reserved for new colorisation of tank top*"
+        effect="Defense: +2"
+        type="0"
+        weight="15">
         <sprite gender="male">chest-tanktop-male.xml</sprite>
         <sprite gender="female">chest-tanktop-female.xml</sprite>
     </item>
-    <item id="2098" image="armor-chest-tanktop.png" name="2098 Tank Top" description="A sleeveless shirt for hot summer days." effect="Defense: +2" type="0" weight="15">
+    <item id="2098" image="armor-chest-tanktop.png"
+        name="2098 Tank Top"
+        description="*Reserved for new colorisation of tank top*"
+        effect="Defense: +2"
+        type="0"
+        weight="15">
         <sprite gender="male">chest-tanktop-male.xml</sprite>
         <sprite gender="female">chest-tanktop-female.xml</sprite>
     </item>
-    <item id="2099" image="armor-chest-tanktop.png" name="2099 Tank Top" description="A sleeveless shirt for hot summer days." effect="Defense: +2" type="0" weight="15">
+    <item id="2099"
+        image="armor-chest-tanktop.png"
+        name="2099 Tank Top"
+        description="*Reserved for new colorisation of tank top*"
+        effect="Defense: +2"
+        type="0"
+        weight="15">
         <sprite gender="male">chest-tanktop-male.xml</sprite>
         <sprite gender="female">chest-tanktop-female.xml</sprite>
     </item>
