@@ -354,7 +354,14 @@
     <item id="82">
         <sprite>head-gradcap.xml</sprite>
     </item>
-
+    <item id="83">
+        <sprite>head-nomask.xml</sprite>
+    </item>
+    <item id="84">
+        <sprite>head-demonmask.xml</sprite>
+    </item>
+    
+    <!-- Space for some non dyed view id's here -->
 
     <item id="90">
         <sprite gender="male">chest-tanktop-male.xml|#441111,aa2222,dd3333</sprite>
@@ -2100,6 +2107,29 @@
         type="generic"
         weight="10"
         max-per-slot="10"/>
+    <item id="678"
+        image="armor-head-nohmask.png"
+        name="Noh mask"
+        description="A traditional Japanese mask worn in Noh plays."
+        effect="Defense: +3"
+        type="equip-head"
+        weight="15"
+        defense="3"
+        max-per-slot="1">
+        <sprite>head-nohnmask.xml</sprite>
+    </item>
+    <item id="679"
+        image="armor-head-demonmask.png"
+        name="Demon mask"
+        description="A scary mask to make you look like a demon."
+        effect="Defense: +3"
+        type="equip-head"
+        weight="15"
+        defense="3"
+        max-per-slot="1">
+        <sprite>head-demonmask.xml</sprite>
+    </item>
+    
     <!--
                          HERE ARE SOME UNUSED ITEM IDs
            -->
