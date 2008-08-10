@@ -1,4 +1,5 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="items.xsl"?>
 <!--
     Here are listed all the known items in The Mana World. This file defines
     their name, icon, description, weight, etc. It also defines which sprite
@@ -2607,7 +2608,7 @@
         image="armor-chest-tanktop.png|W:#441111,aa2222,dd3333" name="Red Tank Top"
         description="A sleeveless shirt for hot summer days."
         effect="Defense: +2"
-        type="0"
+        type="equip-torso"
         weight="15">
         <sprite gender="male">chest-tanktop-male.xml|#441111,aa2222,dd3333</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#441111,aa2222,dd3333</sprite>
@@ -2616,7 +2617,7 @@
         image="armor-chest-tanktop.png|W:#115511,22aa22,99dd99"
         name="Green Tank Top" description="A sleeveless shirt for hot summer days."
         effect="Defense: +2"
-        type="0"
+        type="equip-torso"
         weight="15">
         <sprite gender="male">chest-tanktop-male.xml|#115511,22aa22,99dd99</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#115511,22aa22,99dd99</sprite>
@@ -2626,7 +2627,7 @@
         name="Dark Blue Tank Top"
         description="A sleeveless shirt for hot summer days."
         effect="Defense: +2"
-        type="0"
+        type="equip-torso"
         weight="15">
         <sprite gender="male">chest-tanktop-male.xml|#222255,6666ff</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#222255,6666ff</sprite>
@@ -2636,7 +2637,7 @@
         name="Yellow Tank Top"
         description="A sleeveless shirt for hot summer days."
         effect="Defense: +2"
-        type="0"
+        type="equip-torso"
         weight="15">
         <sprite gender="male">chest-tanktop-male.xml|#887722,ddcc66,ffffaa</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#887722,ddcc66,ffffaa</sprite>
@@ -2645,7 +2646,7 @@
         name="Light Blue Tank Top"
         description="A sleeveless shirt for hot summer days."
         effect="Defense: +2"
-        type="0"
+        type="equip-torso"
         weight="15">
         <sprite gender="male">chest-tanktop-male.xml|#222288,77aacc,aaffff</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#222288,77aacc,aaffff</sprite>
@@ -2654,7 +2655,7 @@
         name="Pink Tank Top"
         description="A sleeveless shirt for hot summer days."
         effect="Defense: +2"
-        type="0"
+        type="equip-torso"
         weight="15">
         <sprite gender="male">chest-tanktop-male.xml|#550044,dd55aa,ff99ff</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#550044,dd55aa,ff99ff</sprite>
@@ -2664,7 +2665,7 @@
         name="Black Tank Top"
         description="A sleeveless shirt for hot summer days."
         effect="Defense: +2"
-        type="0"
+        type="equip-torso"
         weight="15">
         <sprite gender="male">chest-tanktop-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
@@ -2674,7 +2675,7 @@
         name="Orange Tank Top"
         description="A sleeveless shirt for hot summer days."
         effect="Defense: +2"
-        type="0"
+        type="equip-torso"
         weight="15">
         <sprite gender="male">chest-tanktop-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
@@ -2683,7 +2684,7 @@
         name="Purple Tank Top"
         description="A sleeveless shirt for hot summer days."
         effect="Defense: +2"
-        type="0"
+        type="equip-torso"
         weight="15">
         <sprite gender="male">chest-tanktop-male.xml|#4f0a76,8010c0,d699f7</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#4f0a76,8010c0,d699f7</sprite>
@@ -2693,7 +2694,7 @@
         name="2099 Tank Top"
         description="*Reserved for new colorisation of tank top*"
         effect="Defense: +2"
-        type="0"
+        type="equip-torso"
         weight="15">
         <sprite gender="male">chest-tanktop-male.xml</sprite>
         <sprite gender="female">chest-tanktop-female.xml</sprite>
