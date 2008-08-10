@@ -23,7 +23,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
               <img src="{$icon-dir}/{@image}"/>
               </xsl:if>
             </td>
-            <td colspan="2">
+            <td colspan="3">
               <xsl:value-of select="@name"/>
             </td>
           </tr>
@@ -31,14 +31,17 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
           <tr>
             <td><strong>ID: </strong><xsl:value-of select="@id"/></td>
             <td><strong>Type: </strong><xsl:value-of select="@type"/></td>
+            <xsl:if test="@weapon_type">
+              <td><strong>Skill: </strong><xsl:value-of select="@weapon-type"/></td>
+            </xsl:if>
             <td><strong>Weight: </strong><xsl:value-of select="@weight"/></td>          
           </tr>
           
           <tr>
-            <td colspan="3"><strong>Description: </strong><xsl:value-of select="@description"/></td>
+            <td colspan="4"><strong>Description: </strong><xsl:value-of select="@description"/></td>
           </tr>
           <tr>
-            <td colspan="3"><strong>Effect: </strong><xsl:value-of select="@effect"/></td>
+            <td colspan="4"><strong>Effect: </strong><xsl:value-of select="@effect"/></td>
           </tr>
           </table>
           </p>
