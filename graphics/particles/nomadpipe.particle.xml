@@ -13,7 +13,8 @@ nomad NPC.
 		>
 		<emitter>
 			<property name="position-x" value="24"/>
-			<property name="output" min="-200" max="1"/>
+			<property name="output" value="1"/>
+			<property name="output-skip" min="300" max="330"/>
 			<property name="lifetime" value="10"/>
 			<emitter>
 				<property name="image" value="graphics/particles/fog-medium-a.png|W:#9999bb"/>
@@ -23,10 +24,10 @@ nomad NPC.
 				<property name="momentum" value="0.99"/>
 				<property name="gravity" value="0"/>
 				<property name="output" min="0" max="2"/>
-	            <property name="lifetime" min="20" max="200"/>
-	            <property name="fade-out" value="100"/>
+				<property name="lifetime" min="20" max="200"/>
+				<property name="fade-out" value="100"/>
 				<property name="randomnes" value="50"/>
-	        </emitter>
+			</emitter>
 			<emitter>
 				<property name="image" value="graphics/particles/fog-medium-b.png|W:#9999bb"/>
 				<property name="horizontal-angle" min="0" max="360"/>
@@ -35,10 +36,10 @@ nomad NPC.
 				<property name="momentum" value="0.99"/>
 				<property name="gravity" value="0"/>
 				<property name="output" min="0" max="2"/>
-	            <property name="lifetime" min="20" max="200"/>
-	            <property name="fade-out" value="100"/>
+				<property name="lifetime" min="20" max="200"/>
+				<property name="fade-out" value="100"/>
 				<property name="randomnes" value="50"/>
-	        </emitter>
+			</emitter>
 			<emitter>
 				<property name="image" value="graphics/particles/fog-medium-c.png|W:#9999bb"/>
 				<property name="horizontal-angle" min="0" max="360"/>
@@ -47,10 +48,10 @@ nomad NPC.
 				<property name="momentum" value="0.99"/>
 				<property name="gravity" value="0"/>
 				<property name="output" min="0" max="2"/>
-	            <property name="lifetime" min="20" max="200"/>
-	            <property name="fade-out" value="100"/>
+				<property name="lifetime" min="20" max="200"/>
+				<property name="fade-out" value="100"/>
 				<property name="randomnes" value="50"/>
-	        </emitter>
+			</emitter>
 		</emitter>
 	</particle>
 </effect>
