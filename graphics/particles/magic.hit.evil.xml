@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+
+<effect>
+	<particle
+		position-x = "0"
+		position-y = "0"
+		position-z = "0"
+		lifetime = "1"
+		>
+		<emitter>
+			<property name="position-x" min="-8" max="8"/>
+			<property name="position-y" min="-8" max="8"/>
+			<property name="position-z" min="1" max="5"/>
+			<property name="vertical-angle" min="45" max="90"/>
+			<property name="horizontal-angle" min="0" max="360"/>
+			<property name="power" min="0" max="4"/>
+			<property name="gravity" value="100"/>
+			<property name="image" value="graphics/particles/orb-small.png|W:#000000"/>
+			<property name="lifetime" min="0" max="80"/>
+			<property name="output" min="30" max="60"/>
+			<property name="fade-out" value="20"/>
+		</emitter>
+		<emitter>
+			<property name="position-x" min="-8" max="8"/>
+			<property name="position-y" min="-8" max="8"/>
+			<property name="position-z" min="1" max="5"/>
+			<property name="vertical-angle" min="45" max="90"/>
+			<property name="horizontal-angle" min="0" max="360"/>
+			<property name="power" min="0" max="4"/>
+			<property name="gravity" value="0.1"/>
+			<property name="image" value="graphics/particles/star-medium.png|W:#000000"/>
+			<property name="lifetime" min="0" max="80"/>
+			<property name="output" min="40" max="55"/>
+			<property name="fade-out" value="20"/>
+		</emitter>
+		<emitter>
+			<property name="position-x" min="-8" max="8"/>
+			<property name="position-y" min="-8" max="8"/>
+			<property name="position-z" min="1" max="5"/>
+			<property name="vertical-angle" min="45" max="90"/>
+			<property name="horizontal-angle" min="0" max="360"/>
+			<property name="power" min="0" max="4"/>
+			<property name="gravity" value="0.1"/>
+			<property name="image" value="graphics/particles/orb-medium.png#W:#000000"/>
+			<property name="lifetime" min="0" max="80"/>
+			<property name="output" min="60" max="80"/>
+			<property name="fade-out" value="20"/>
+		</emitter>
+		<emitter>
+			<property name="position-x" min="-8" max="8"/>
+			<property name="position-y" min="-8" max="8"/>
+			<property name="position-z" min="1" max="5"/>
+			<property name="vertical-angle" min="45" max="90"/>
+			<property name="horizontal-angle" min="0" max="360"/>
+			<property name="power" min="0" max="2"/>
+			<property name="gravity" value="0.1"/>
+                        <animation imageset="graphics/particles/electricity-spark.png" width="15" height="15">
+                                <sequence start="0" end="7" delay="10" />
+                                <frame index="0" delay="10" />
+                        </animation>
+			<property name="lifetime" min="10" max="800"/>
+			<property name="output" min="5" max="20"/>
+		</emitter>
+	</particle>
+</effect>

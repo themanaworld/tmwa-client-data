@@ -1,0 +1,278 @@
+<?xml version="1.0"?>
+
+<effect>
+	<particle
+		position-x = "0"
+		position-y = "0"
+		position-z = "85"
+		lifetime = "1"
+                follow-parent = "1"
+		>
+                <!-- <property name="follow-parent" value="0"/> -->
+                <emitter><!-- <property name="follow-parent" value="0"/> -->
+                  <property name="vertical-angle" value="270"/>
+                  <property name="power" value="4"/>
+                  <property name="lifetime" value="1"/>
+                  <property name="output" min="1" max="1"/>
+                  
+                  <emitter><!-- <property name="follow-parent" value="0"/> -->
+                    <property name="vertical-angle" value="0"/>
+                    <property name="horizontal-angle" min="-11" max="11"/>
+                    <property name="power" min="18" max="20"/>
+                    <property name="lifetime" value="1"/>
+                    <property name="output" min="10" max="15"/>
+                    <emitter><!-- <property name="follow-parent" value="0"/> -->
+                      <animation imageset="graphics/particles/hex-facet-50.png|W:#ff0000" width="9" height="11">
+                        <sequence start="4" end="4" delay="10000" />
+                      </animation>
+                      <property name="position-z" min="-85" max="0"/>
+		      <property name="gravity" value="0.2"/>
+                      <property name="lifetime" value="40"/>
+                      <property name="fade-out" value="40"/>
+                    </emitter>
+                  </emitter>
+                 <emitter><!-- <property name="follow-parent" value="0"/> -->
+                    <property name="vertical-angle" value="0"/>
+                    <property name="horizontal-angle" min="11" max="33"/>
+                    <property name="power" min="18" max="20"/>
+                    <property name="lifetime" value="1"/>
+                    <property name="output" min="10" max="15"/>
+                    <emitter><!-- <property name="follow-parent" value="0"/> -->
+                      <animation imageset="graphics/particles/hex-facet-50.png|W:#ff0000" width="9" height="11">
+                        <sequence start="3" end="3" delay="10000" />
+                      </animation>
+                      <property name="position-z" min="-85" max="0"/>
+		      <property name="gravity" value="0.2"/>
+                      <property name="lifetime" value="40"/>
+                      <property name="fade-out" value="40"/>
+                    </emitter>
+                  </emitter>
+                 <emitter><!-- <property name="follow-parent" value="0"/> -->
+                    <property name="vertical-angle" value="0"/>
+                    <property name="horizontal-angle" min="34" max="56"/>
+                    <property name="power" min="18" max="20"/>
+                    <property name="lifetime" value="1"/>
+                    <property name="output" min="10" max="15"/>
+                    <emitter><!-- <property name="follow-parent" value="0"/> -->
+                      <animation imageset="graphics/particles/hex-facet-50.png|W:#ff0000" width="9" height="11">
+                        <sequence start="2" end="2" delay="10000" />
+                      </animation>
+                      <property name="position-z" min="-85" max="0"/>
+		      <property name="gravity" value="0.2"/>
+                      <property name="lifetime" value="40"/>
+                      <property name="fade-out" value="40"/>
+                    </emitter>
+                  </emitter>
+                 <emitter><!-- <property name="follow-parent" value="0"/> -->
+                    <property name="vertical-angle" value="0"/>
+                    <property name="horizontal-angle" min="56" max="78"/>
+                    <property name="power" min="18" max="20"/>
+                    <property name="lifetime" value="1"/>
+                    <property name="output" min="10" max="15"/>
+                    <emitter><!-- <property name="follow-parent" value="0"/> -->
+                      <animation imageset="graphics/particles/hex-facet-50.png|W:#ff0000" width="9" height="11">
+                        <sequence start="1" end="1" delay="10000" />
+                      </animation>
+                      <property name="position-z" min="-85" max="0"/>
+		      <property name="gravity" value="0.2"/>
+                      <property name="lifetime" value="40"/>
+                      <property name="fade-out" value="40"/>
+                    </emitter>
+                  </emitter>
+                 <emitter><!-- <property name="follow-parent" value="0"/> -->
+                    <property name="vertical-angle" value="0"/>
+                    <property name="horizontal-angle" min="79" max="101"/>
+                    <property name="power" min="18" max="20"/>
+                    <property name="lifetime" value="1"/>
+                    <property name="output" min="10" max="15"/>
+                    <emitter><!-- <property name="follow-parent" value="0"/> -->
+                      <animation imageset="graphics/particles/hex-facet-50.png|W:#ff0000" width="9" height="11">
+                        <sequence start="0" end="0" delay="10000" />
+                      </animation>
+                      <property name="position-z" min="-85" max="0"/>
+		      <property name="gravity" value="0.2"/>
+                      <property name="lifetime" value="40"/>
+                      <property name="fade-out" value="40"/>
+                    </emitter>
+                  </emitter>
+
+                 <emitter><!-- <property name="follow-parent" value="0"/> -->
+                    <property name="vertical-angle" value="0"/>
+                    <property name="horizontal-angle" min="101" max="123"/>
+                    <property name="power" min="18" max="20"/>
+                    <property name="lifetime" value="1"/>
+                    <property name="output" min="10" max="15"/>
+                    <emitter><!-- <property name="follow-parent" value="0"/> -->
+                      <animation imageset="graphics/particles/hex-facet-50.png|W:#ff0000" width="9" height="11">
+                        <sequence start="7" end="7" delay="10000" />
+                      </animation>
+                      <property name="position-z" min="-85" max="0"/>
+		      <property name="gravity" value="0.2"/>
+                      <property name="lifetime" value="40"/>
+                      <property name="fade-out" value="40"/>
+                    </emitter>
+                  </emitter>
+                 <emitter><!-- <property name="follow-parent" value="0"/> -->
+                    <property name="vertical-angle" value="0"/>
+                    <property name="horizontal-angle" min="124" max="146"/>
+                    <property name="power" min="18" max="20"/>
+                    <property name="lifetime" value="1"/>
+                    <property name="output" min="10" max="15"/>
+                    <emitter><!-- <property name="follow-parent" value="0"/> -->
+                      <animation imageset="graphics/particles/hex-facet-50.png|W:#ff0000" width="9" height="11">
+                        <sequence start="6" end="6" delay="10000" />
+                      </animation>
+                      <property name="position-z" min="-85" max="0"/>
+		      <property name="gravity" value="0.2"/>
+                      <property name="lifetime" value="40"/>
+                      <property name="fade-out" value="40"/>
+                    </emitter>
+                  </emitter>
+                 <emitter><!-- <property name="follow-parent" value="0"/> -->
+                    <property name="vertical-angle" value="0"/>
+                    <property name="horizontal-angle" min="146" max="168"/>
+                    <property name="power" min="18" max="20"/>
+                    <property name="lifetime" value="1"/>
+                    <property name="output" min="10" max="15"/>
+                    <emitter><!-- <property name="follow-parent" value="0"/> -->
+                      <animation imageset="graphics/particles/hex-facet-50.png|W:#ff0000" width="9" height="11">
+                        <sequence start="0" end="0" delay="10000" />
+                      </animation>
+                      <property name="position-z" min="-85" max="0"/>
+		      <property name="gravity" value="0.2"/>
+                      <property name="lifetime" value="40"/>
+                      <property name="fade-out" value="40"/>
+                    </emitter>
+                  </emitter>
+                 <emitter><!-- <property name="follow-parent" value="0"/> -->
+                    <property name="vertical-angle" value="0"/>
+                    <property name="horizontal-angle" min="169" max="191"/>
+                    <property name="power" min="18" max="20"/>
+                    <property name="lifetime" value="1"/>
+                    <property name="output" min="10" max="15"/>
+                    <emitter><!-- <property name="follow-parent" value="0"/> -->
+                      <animation imageset="graphics/particles/hex-facet-50.png|W:#ff0000" width="9" height="11">
+                        <sequence start="4" end="4" delay="10000" />
+                      </animation>
+                      <property name="position-z" min="-85" max="0"/>
+		      <property name="gravity" value="0.2"/>
+                      <property name="lifetime" value="40"/>
+                      <property name="fade-out" value="40"/>
+                    </emitter>
+                  </emitter>
+                 <emitter><!-- <property name="follow-parent" value="0"/> -->
+                    <property name="vertical-angle" value="0"/>
+                    <property name="horizontal-angle" min="191" max="213"/>
+                    <property name="power" min="18" max="20"/>
+                    <property name="lifetime" value="1"/>
+                    <property name="output" min="10" max="15"/>
+                    <emitter><!-- <property name="follow-parent" value="0"/> -->
+                      <animation imageset="graphics/particles/hex-facet-50.png|W:#ff0000" width="9" height="11">
+                        <sequence start="3" end="3" delay="10000" />
+                      </animation>
+                      <property name="position-z" min="-85" max="0"/>
+		      <property name="gravity" value="0.2"/>
+                      <property name="lifetime" value="40"/>
+                      <property name="fade-out" value="40"/>
+                    </emitter>
+                  </emitter>
+                 <emitter><!-- <property name="follow-parent" value="0"/> -->
+                    <property name="vertical-angle" value="0"/>
+                    <property name="horizontal-angle" min="214" max="236"/>
+                    <property name="power" min="18" max="20"/>
+                    <property name="lifetime" value="1"/>
+                    <property name="output" min="10" max="15"/>
+                    <emitter><!-- <property name="follow-parent" value="0"/> -->
+                      <animation imageset="graphics/particles/hex-facet-50.png|W:#ff0000" width="9" height="11">
+                        <sequence start="2" end="2" delay="10000" />
+                      </animation>
+                      <property name="position-z" min="-85" max="0"/>
+		      <property name="gravity" value="0.2"/>
+                      <property name="lifetime" value="40"/>
+                      <property name="fade-out" value="40"/>
+                    </emitter>
+                  </emitter>
+                 <emitter><!-- <property name="follow-parent" value="0"/> -->
+                    <property name="vertical-angle" value="0"/>
+                    <property name="horizontal-angle" min="236" max="258"/>
+                    <property name="power" min="18" max="20"/>
+                    <property name="lifetime" value="1"/>
+                    <property name="output" min="10" max="15"/>
+                    <emitter><!-- <property name="follow-parent" value="0"/> -->
+                      <animation imageset="graphics/particles/hex-facet-50.png|W:#ff0000" width="9" height="11">
+                        <sequence start="1" end="1" delay="10000" />
+                      </animation>
+                      <property name="position-z" min="-85" max="0"/>
+		      <property name="gravity" value="0.2"/>
+                      <property name="lifetime" value="40"/>
+                      <property name="fade-out" value="40"/>
+                    </emitter>
+                  </emitter>
+                 <emitter><!-- <property name="follow-parent" value="0"/> -->
+                    <property name="vertical-angle" value="0"/>
+                    <property name="horizontal-angle" min="259" max="281"/>
+                    <property name="power" min="18" max="20"/>
+                    <property name="lifetime" value="1"/>
+                    <property name="output" min="10" max="15"/>
+                    <emitter><!-- <property name="follow-parent" value="0"/> -->
+                      <animation imageset="graphics/particles/hex-facet-50.png|W:#ff0000" width="9" height="11">
+                        <sequence start="0" end="0" delay="10000" />
+                      </animation>
+                      <property name="position-z" min="-85" max="0"/>
+		      <property name="gravity" value="0.2"/>
+                      <property name="lifetime" value="40"/>
+                      <property name="fade-out" value="40"/>
+                    </emitter>
+                  </emitter>
+                 <emitter><!-- <property name="follow-parent" value="0"/> -->
+                    <property name="vertical-angle" value="0"/>
+                    <property name="horizontal-angle" min="281" max="303"/>
+                    <property name="power" min="18" max="20"/>
+                    <property name="lifetime" value="1"/>
+                    <property name="output" min="10" max="15"/>
+                    <emitter><!-- <property name="follow-parent" value="0"/> -->
+                      <animation imageset="graphics/particles/hex-facet-50.png|W:#ff0000" width="9" height="11">
+                        <sequence start="7" end="7" delay="10000" />
+                      </animation>
+                      <property name="position-z" min="-85" max="0"/>
+		      <property name="gravity" value="0.2"/>
+                      <property name="lifetime" value="40"/>
+                      <property name="fade-out" value="40"/>
+                    </emitter>
+                  </emitter>
+                 <emitter><!-- <property name="follow-parent" value="0"/> -->
+                    <property name="vertical-angle" value="0"/>
+                    <property name="horizontal-angle" min="304" max="326"/>
+                    <property name="power" min="18" max="20"/>
+                    <property name="lifetime" value="1"/>
+                    <property name="output" min="10" max="15"/>
+                    <emitter><!-- <property name="follow-parent" value="0"/> -->
+                      <animation imageset="graphics/particles/hex-facet-50.png|W:#ff0000" width="9" height="11">
+                        <sequence start="6" end="6" delay="10000" />
+                      </animation>
+                      <property name="position-z" min="-85" max="0"/>
+		      <property name="gravity" value="0.2"/>
+                      <property name="lifetime" value="40"/>
+                      <property name="fade-out" value="40"/>
+                    </emitter>
+                  </emitter>
+                 <emitter><!-- <property name="follow-parent" value="0"/> -->
+                    <property name="vertical-angle" value="0"/>
+                    <property name="horizontal-angle" min="326" max="348"/>
+                    <property name="power" min="18" max="20"/>
+                    <property name="lifetime" value="1"/>
+                    <property name="output" min="10" max="15"/>
+                    <emitter><!-- <property name="follow-parent" value="0"/> -->
+                      <animation imageset="graphics/particles/hex-facet-50.png|W:#ff0000" width="9" height="11">
+                        <sequence start="0" end="0" delay="10000" />
+                      </animation>
+                      <property name="position-z" min="-85" max="0"/>
+		      <property name="gravity" value="0.2"/>
+                      <property name="lifetime" value="40"/>
+                      <property name="fade-out" value="40"/>
+                    </emitter>
+                  </emitter>
+
+                </emitter>
+	</particle>
+</effect>
