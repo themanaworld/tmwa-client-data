@@ -386,9 +386,25 @@
         <sound event="miss">fluffy-miss1.ogg</sound>
         <sound event="hurt">fluffy-hurt1.ogg</sound>
     </monster>
-    
+
     <monster id="26" name="Mouboo">
-	<sprite>monster-mouboo.xml</sprite>
+        <sprite>monster-mouboo.xml</sprite>
+    </monster>
+
+    <monster id="27" name="Mauve Plant">
+        <sprite>resource-plant.xml|#e0b0ff</sprite>
+    </monster>
+
+    <monster id="28" name="Cobalt Plant">
+        <sprite>resource-plant.xml|#0047ab</sprite>
+    </monster>
+
+    <monster id="29" name="Gamboge Plant">
+        <sprite>resource-plant.xml|#ef9b0f</sprite>
+    </monster>
+
+    <monster id="30" name="Alizarin Plant">
+        <sprite>resource-plant.xml|#e32636</sprite>
     </monster>
 
 </monsters>
