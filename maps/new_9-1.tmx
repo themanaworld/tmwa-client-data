@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="0.99b" orientation="orthogonal" width="154" height="124" tilewidth="32" tileheight="32">
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="154" height="124" tilewidth="32" tileheight="32">
  <properties>
   <property name="minimap" value="graphics/images/minimap_new_9-1.png"/>
   <property name="music" value="The Mana World - The Forest.ogg"/>
@@ -52,48 +53,30 @@
  </layer>
  <layer name="Collision" width="154" height="124">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
  <objectgroup name="Object Group 1" width="0" height="0">
   <object name="graphics/particles/waterfall.particle.xml" type="PARTICLE_EFFECT" x="2112" y="930" width="32" height="32"/>
   <object name="ToCave" type="WARP" x="1856" y="2944" width="32" height="32">
    <properties>
-    <property name="DEST_MAP">
-     4
-    </property>
-    <property name="DEST_X">
-     992
-    </property>
-    <property name="DEST_Y">
-     768
-    </property>
+    <property name="DEST_MAP" value="4"/>
+    <property name="DEST_X" value="992"/>
+    <property name="DEST_Y" value="768"/>
    </properties>
   </object>
   <object name="ToSouth" type="WARP" x="1504" y="3302" width="96" height="64">
    <properties>
-    <property name="DEST_MAP">
-     14
-    </property>
-    <property name="DEST_X">
-     1600
-    </property>
-    <property name="DEST_Y">
-     800
-    </property>
+    <property name="DEST_MAP" value="14"/>
+    <property name="DEST_X" value="1600"/>
+    <property name="DEST_Y" value="800"/>
    </properties>
   </object>
   <object name="ToWoodland" type="WARP" x="3968" y="1920" width="64" height="128">
    <properties>
-    <property name="DEST_MAP">
-     18
-    </property>
-    <property name="DEST_X">
-     832
-    </property>
-    <property name="DEST_Y">
-     1968
-    </property>
+    <property name="DEST_MAP" value="18"/>
+    <property name="DEST_X" value="832"/>
+    <property name="DEST_Y" value="1968"/>
    </properties>
   </object>
  </objectgroup>
