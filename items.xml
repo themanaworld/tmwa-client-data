@@ -49,7 +49,14 @@
         <sprite gender="male">player_male_base.xml</sprite>
         <sprite gender="female">player_female_base.xml</sprite>
     </item>
-
+    <item id="-127">
+        <sprite gender="male">chest-tanktop-male-short.xml</sprite>
+        <sprite gender="female">chest-tanktop-female-short.xml</sprite>
+    </item>
+    <item id="-128">
+        <sprite gender="male">chest-tanktop-male-short.xml|#4f0a76,8010c0,d699f7</sprite>
+        <sprite gender="female">chest-tanktop-female-short.xml|#4f0a76,8010c0,d699f7</sprite>
+    </item>
     <!-- Temporarily include low-ID items for View column of eAthena, cause
          it can't go above 255. Get rid of this with tmwserv.
     -->
@@ -361,7 +368,14 @@
     <item id="84">
         <sprite>head-demonmask.xml</sprite>
     </item>
-    
+    <item id="85">
+        <sprite gender="male">chest-tanktop-male.xml</sprite>
+        <sprite gender="female">chest-tanktop-female.xml</sprite>
+    </item>
+    <item id="86">
+        <sprite gender="male">chest-tanktop-male-short.xml</sprite>
+        <sprite gender="female">chest-tanktop-female-short.xml</sprite>
+    </item>    
     <!-- Space for some non dyed view id's here -->
 
     <item id="90">
@@ -476,6 +490,47 @@
         <sprite gender="male">leg-shorts-male.xml</sprite>
         <sprite gender="female">leg-shorts-female.xml</sprite>
     </item>
+    <item id="120">
+        <sprite gender="male">chest-tanktop-male-short.xml|#441111,aa2222,dd3333</sprite>
+        <sprite gender="female">chest-tanktop-female-short.xml|#441111,aa2222,dd3333</sprite>
+    </item>
+    <item id="121">
+        <sprite gender="male">chest-tanktop-male-short.xml|#115511,22aa22,99dd99</sprite>
+        <sprite gender="female">chest-tanktop-female-short.xml|#115511,22aa22,99dd99</sprite>
+    </item>
+    <item id="122">
+        <sprite gender="male">chest-tanktop-male-short.xml|#222255,6666ff</sprite>
+        <sprite gender="female">chest-tanktop-female-short.xml|#222255,6666ff</sprite>
+    </item>
+    <item id="123">
+        <sprite gender="male">chest-tanktop-male-short.xml|#887722,ddcc66,ffffaa</sprite>
+        <sprite gender="female">chest-tanktop-female-short.xml|#887722,ddcc66,ffffaa</sprite>
+    </item>
+    <item id="124">
+        <sprite gender="male">chest-tanktop-male-short.xml|#222288,77aacc,aaffff</sprite>
+        <sprite gender="female">chest-tanktop-female-short.xml|#222288,77aacc,aaffff</sprite>
+    </item>
+    <item id="125">
+        <sprite gender="male">chest-tanktop-male-short.xml|#550044,dd55aa,ff99ff</sprite>
+        <sprite gender="female">chest-tanktop-female-short.xml|#550044,dd55aa,ff99ff</sprite>
+    </item>
+    <item id="126">
+        <sprite gender="male">chest-tanktop-male-short.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="female">chest-tanktop-female-short.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+    </item>
+    <item id="127">
+        <sprite gender="male">chest-tanktop-male-short.xml|#80280f,b04810,ef681f,ffb830</sprite>
+        <sprite gender="female">chest-tanktop-female-short.xml|#80280f,b04810,ef681f,ffb830</sprite>
+    </item>
+    <item id="128">
+        <sprite gender="male">chest-tanktop-male-short.xml|#4f0a76,8010c0,d699f7</sprite>
+        <sprite gender="female">chest-tanktop-female-short.xml|#4f0a76,8010c0,d699f7</sprite>
+    </item>
+    <item id="129">
+        <sprite gender="male">chest-tanktop-male-short.xml</sprite>
+        <sprite gender="female">chest-tanktop-female-short.xml</sprite>
+    </item>
+
 
 
     <item id="501"
@@ -2130,7 +2185,6 @@
         max-per-slot="1">
         <sprite>head-demonmask.xml</sprite>
     </item>
-    
     <item id="680"
         image="generic-herb.png|W:#e0b0ff"
         name="Mauve Herb"
@@ -2202,6 +2256,27 @@
         hp="400"
         weight="40"
         max-per-slot="10"/>
+
+    <item id="688"
+        image="armor-chest-tanktop.png"
+        name="White Tank Top"
+        description="A sleeveless shirt for hot summer days."
+        effect="Defense: +2"
+        type="equip-torso"
+        weight="15">
+        <sprite gender="male">chest-tanktop-male.xml</sprite>
+        <sprite gender="female">chest-tanktop-female.xml</sprite>
+    </item>
+    <item id="689"
+        image="armor-chest-tanktop-short.png"
+        name="White Short Tank Top"
+        description="A short, sleeveless shirt for VERY hot summer days."
+        effect="Defense: +2"
+        type="equip-torso"
+        weight="15">
+        <sprite gender="male">chest-tanktop-male-short.xml</sprite>
+        <sprite gender="female">chest-tanktop-female-short.xml</sprite>
+    </item>    
     <!--
                          HERE ARE SOME UNUSED ITEM IDs
            -->
@@ -3003,4 +3078,101 @@
         <sprite gender="female">leg-shorts-female.xml</sprite>
     </item>
     
+    <item id="2120"
+        image="armor-chest-tanktop-short.png|W:#441111,aa2222,dd3333" name="Red Short Tank Top"
+        description="A short, sleeveless shirt for VERY hot summer days."
+        effect="Defense: +2"
+        type="equip-torso"
+        weight="15">
+        <sprite gender="male">chest-tanktop-male-short.xml|#441111,aa2222,dd3333</sprite>
+        <sprite gender="female">chest-tanktop-female-short.xml|#441111,aa2222,dd3333</sprite>
+    </item>
+    <item id="2121"
+        image="armor-chest-tanktop-short.png|W:#115511,22aa22,99dd99"
+        name="Green Short Tank Top"
+        description="A short, sleeveless shirt for VERY hot summer days."
+        effect="Defense: +2"
+        type="equip-torso"
+        weight="15">
+        <sprite gender="male">chest-tanktop-male-short.xml|#115511,22aa22,99dd99</sprite>
+        <sprite gender="female">chest-tanktop-female-short.xml|#115511,22aa22,99dd99</sprite>
+    </item>
+    <item id="2122"
+        image="armor-chest-tanktop-short.png|W:#222255,6666ff"
+        name="Dark Blue Short Tank Top"
+        description="A short, sleeveless shirt for VERY hot summer days."
+        effect="Defense: +2"
+        type="equip-torso"
+        weight="15">
+        <sprite gender="male">chest-tanktop-male-short.xml|#222255,6666ff</sprite>
+        <sprite gender="female">chest-tanktop-female-short.xml|#222255,6666ff</sprite>
+    </item>
+    <item id="2123"
+        image="armor-chest-tanktop-short.png|W:#887722,ddcc66,ffffaa"
+        name="Yellow Short Tank Top"
+        description="A short, sleeveless shirt for VERY hot summer days."
+        effect="Defense: +2"
+        type="equip-torso"
+        weight="15">
+        <sprite gender="male">chest-tanktop-male-short.xml|#887722,ddcc66,ffffaa</sprite>
+        <sprite gender="female">chest-tanktop-female-short.xml|#887722,ddcc66,ffffaa</sprite>
+    </item>
+    <item id="2124" image="armor-chest-tanktop-short.png|W:#222288,77aacc,aaffff"
+        name="Light Blue Short Tank Top"
+        description="A short, sleeveless shirt for VERY hot summer days."
+        effect="Defense: +2"
+        type="equip-torso"
+        weight="15">
+        <sprite gender="male">chest-tanktop-male-short.xml|#222288,77aacc,aaffff</sprite>
+        <sprite gender="female">chest-tanktop-female-short.xml|#222288,77aacc,aaffff</sprite>
+    </item>
+    <item id="2125" image="armor-chest-tanktop-short.png|W:#550044,dd55aa,ff99ff"
+        name="Pink Short Tank Top"
+        description="A short, sleeveless shirt for VERY hot summer days."
+        effect="Defense: +2"
+        type="equip-torso"
+        weight="15">
+        <sprite gender="male">chest-tanktop-male-short.xml|#550044,dd55aa,ff99ff</sprite>
+        <sprite gender="female">chest-tanktop-female-short.xml|#550044,dd55aa,ff99ff</sprite>
+    </item>
+    <item id="2126"
+        image="armor-chest-tanktop-short.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+        name="Black Short Tank Top"
+        description="A short, sleeveless shirt for VERY hot summer days."
+        effect="Defense: +2"
+        type="equip-torso"
+        weight="15">
+        <sprite gender="male">chest-tanktop-male-short.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="female">chest-tanktop-female-short.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+    </item>
+    <item id="2127"
+        image="armor-chest-tanktop-short.png|W:#80280f,b04810,ef681f,ffb830"
+        name="Orange Short Tank Top"
+        description="A short, sleeveless shirt for VERY hot summer days."
+        effect="Defense: +2"
+        type="equip-torso"
+        weight="15">
+        <sprite gender="male">chest-tanktop-male-short.xml|#80280f,b04810,ef681f,ffb830</sprite>
+        <sprite gender="female">chest-tanktop-female-short.xml|#80280f,b04810,ef681f,ffb830</sprite>
+    </item>
+    <item id="2128" image="armor-chest-tanktop-short.png|W:#4f0a76,8010c0,d699f7"
+        name="Purple Short Tank Top"
+        description="A short, sleeveless shirt for VERY hot summer days."
+        effect="Defense: +2"
+        type="equip-torso"
+        weight="15">
+        <sprite gender="male">chest-tanktop-male-short.xml|#4f0a76,8010c0,d699f7</sprite>
+        <sprite gender="female">chest-tanktop-female-short.xml|#4f0a76,8010c0,d699f7</sprite>
+    </item>
+    <item id="2129"
+        image="armor-chest-tanktop-short.png"
+        name="2129 Short Tank Top"
+        description="*Reserved for new colorisation of short tank top*"
+        effect="Defense: +2"
+        type="equip-torso"
+        weight="15">
+        <sprite gender="male">chest-tanktop-male-short.xml</sprite>
+        <sprite gender="female">chest-tanktop-female-short.xml</sprite>
+    </item>
+
 </items>
