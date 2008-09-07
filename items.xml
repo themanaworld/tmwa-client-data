@@ -119,12 +119,12 @@
         <sprite>item018.xml</sprite>
     </item>
     <item id="19">
-        <sprite gender="male">chest-vnecksweater-male.xml|#000000,690c13,ad3141,e08f9f</sprite>
-        <sprite gender="female">chest-vnecksweater-female.xml|#000000,690c13,ad3141,e08f9f</sprite>
+        <sprite gender="male">chest-vnecksweater-male.xml|#ffffff</sprite>
+        <sprite gender="female">chest-vnecksweater-female.xml|#ffffff</sprite>
     </item>
     <item id="20">
-        <sprite gender="male">chest-tnecksweater-male.xml|#333f76,787aac,bebddf,ffffff</sprite>
-        <sprite gender="female">chest-tnecksweater-female.xml|#333f76,787aac,bebddf,ffffff</sprite>
+        <sprite gender="male">chest-tnecksweater-male.xml|#b0b0b0,ffffff</sprite>
+        <sprite gender="female">chest-tnecksweater-female.xml|#b0b0b0,ffffff</sprite>
     </item>
     <item id="21">
         <sprite>head-rangerhat.xml</sprite>
@@ -147,7 +147,7 @@
         <sprite gender="female">chest-lightplatemail-female.xml|#ddeeff</sprite>
     </item>
     <item id="27">
-        <sprite>leg-skirt.xml|#333e75,7a7cac,c3c1df,ffffff</sprite>
+        <sprite>leg-skirt.xml|#e0e0e0,ffffff</sprite>
     </item>
     <item id="28">
         <sprite gender="male">leg-chaps-male.xml</sprite>
@@ -1100,7 +1100,7 @@
         defense="2"
         max-per-slot="1"/>
     <item id="564"
-        image="armor-chest-tnecksweater.png|W:#333f76,787aac,bebddf,ffffff"
+        image="armor-chest-tnecksweater.png|W:#b0b0b0,ffffff"
         name="Turtleneck sweater"
         description="A soft and warm sweater."
         effect="Defense: +6"
@@ -1108,8 +1108,8 @@
         weight="40"
         defense="6"
         max-per-slot="1">
-        <sprite gender="male">chest-tnecksweater-male.xml|#333f76,787aac,bebddf,ffffff</sprite>
-        <sprite gender="female">chest-tnecksweater-female.xml|#333f76,787aac,bebddf,ffffff</sprite>
+        <sprite gender="male">chest-tnecksweater-male.xml|#b0b0b0,ffffff</sprite>
+        <sprite gender="female">chest-tnecksweater-female.xml|#b0b0b0,ffffff</sprite>
     </item>
     <item id="565"
         image="generic-petal.png"
@@ -1655,7 +1655,7 @@
         <sprite>weapon-scythe.xml</sprite>
     </item>
     <item id="624"
-        image="armor-chest-vnecksweater.png|W:#000000,690c13,ad3141,e08f9f"
+        image="armor-chest-vnecksweater.png|W:#ffffff"
         name="V-neck Sweater"
         description="A soft and warm sweater."
         effect="Defense: +8"
@@ -1663,8 +1663,8 @@
         weight="45"
         defense="8"
         max-per-slot="1">
-        <sprite gender="male">chest-vnecksweater-male.xml|#000000,690c13,ad3141,e08f9f</sprite>
-        <sprite gender="female">chest-vnecksweater-female.xml|#000000,690c13,ad3141,e08f9f</sprite>
+        <sprite gender="male">chest-vnecksweater-male.xml|#ffffff</sprite>
+        <sprite gender="female">chest-vnecksweater-female.xml|#ffffff</sprite>
     </item>
     <item id="625"
         image="armor-chest-chainmail.png"
@@ -1743,15 +1743,15 @@
         weight="10"
         max-per-slot="10"/>
     <item id="632"
-        image="armor-legs-skirt.png|W:#333e75,7a7cac,c3c1df,ffffff"
+        image="armor-legs-skirt.png|W:#e0e0e0,ffffff"
         name="Skirt"
-        description="A light-blue skirt made of linen cloth."
+        description="A skirt made of linen cloth."
         effect="Defense: +4"
         defense="4"
         type="equip-legs"
         weight="30"
         max-per-slot="1">
-        <sprite>leg-skirt.xml|#333e75,7a7cac,c3c1df,ffffff</sprite>
+        <sprite>leg-skirt.xml|#e0e0e0,ffffff</sprite>
     </item>
     <item id="633"
         image="armor-head-xmaself.png"
