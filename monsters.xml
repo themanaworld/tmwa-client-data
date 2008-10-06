@@ -252,6 +252,42 @@
         <drop item="502" percent="1.5"/>
         <drop item="521" percent="0.7"/>
         <drop item="522" percent="0.1"/>
+        <!-- behavior identical to maggot except for weaknesses and the attack which is magical and has a particle effect - change this when making up real monster stats -->
+        <attributes
+            hp="20"
+            size="4"
+            speed="64"
+            attack-min="10"
+            attack-delta="2"
+            attack-magic="0"
+            hit="10"
+            evade="10"
+            physical-defence="5"
+            magical-defence="0"
+            mutation="50"
+            />
+        <vulnerability element="fire" factor="0.5"/>
+        <vulnerability element="water" factor="2.0"/>
+        <exp>10</exp>
+        <behavior
+            aggressive="false"
+            cowardly="false"
+            track-range="5"
+            stroll-range="5"
+            attack-distance="32"
+            />
+        <attack id="1"
+            priority="1"
+            type="magical"
+            element="fire"
+            pre-delay="10"
+            aft-delay="5"
+            damage-factor="1"
+            range="32"
+            angle="10"
+            animation="attack"
+            particle-effect="graphics/particles/firegoblinbreath.particle.xml"
+            />
     </monster>
 
     <monster id="10" name="Spider">
