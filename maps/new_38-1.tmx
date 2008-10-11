@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="146" height="70" tilewidth="32" tileheight="32">
+ <tileset name="Woodland Indoor" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png"/>
+ </tileset>
+ <tileset name="Woodland Indoor x2" firstgid="257" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/woodland_indoor_x2.png"/>
+ </tileset>
+ <tileset name="Woodland Indoor x3" firstgid="273" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/woodland_indoor_x3.png"/>
+ </tileset>
+ <tileset name="Woodland Village" firstgid="289" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_village.png"/>
+ </tileset>
+ <tileset name="Collision" firstgid="545" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <layer name="Ground" width="146" height="70">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3bcW7TMBTHcZcbeBdAC+zvaQgOMGnsBMAJgPsfgUyNmffmZ7upHdvJN9JH7dqs8Xv+ZWnS7sEY8wAAAAAAAAAAAAAAAAAAAID/TrMPy20Ot27rcZeqU6u9Vp3u9Y13339c07p/KXZ2s9zmcOvK2v35MMpzObmtNX9anVrtfp2lx2GXHllvG6m+t85Jyu1KsnZ/PozyXGw+a8/fNXXWGMcktrH1OEp7qefTcpvDrRurfVIePzWcP61OrXa/ztLjkLTH5To9y81PqvZYFt1z9oJ1e6qTHKV9XNnfk3f/8+wu43duL3j9veYotBw5R9a7/3X27Yq5OlKOXvrtzinc/riHHMX2k1J/W/xetJw/uc88zb4vnjcchzWv+6HN7EvrfOT2d80+MnqOfsx+Ln5tNI578/58ZE85WrOPkKPL+X8Hn01+X1rnJLe/oX0ktqSeT/3Ol4x1S5KLlqPa4/C367b5aMbP0f0iNG55rJvMONfpJXndXMtR7c8jQjlyj4+co9i4rXl7rJvMONfpJStoOZLrkaPrcySPdZOpd725ttA191COtriuvsccaUuqttbjXjN/Uqv32aEchY67I33eHxs/OdouR9a8P+76P7fuX0ps/ORouxylPutu3b+U2Pj3lCO5aDmSy1Y5Gv39UWr8o9Ylcd5PjkqwZpzz/tD3J1r3jxydjXTeH/r+ROv+kSO9zp7eZ4/eb3JEjsgROerFUXIkFy1HctkiR/IcMaR1/8jRWc/n/TZD6/6RozM5L1qOas9fKEct/g+LHK3T83n/Hvp9lBz1/D57D/0+co5+z/4s/m5Up79dbZsj9vvIOWpRZy/jKG3t0nrco9bZyzgAAAAAAAAAAAAAAAAAAAAAAGX8A666alWwnwAA
+  </data>
+ </layer>
+ <layer name="Fringe" width="146" height="70">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3bTUvcQBjA8YkWLbZgqxWF2jofwa/S7yTeRfTqiiJ4KqWXYqFQelXw5MmCtehJwRf0ZKFPcAdj3LwYJpmZ5P+Dh90kk9nJbPLszG5WKQAAAAAAAAAAAAAAAAAAAAA+GLFUzytL9ZSx3+BrVbEgsei6ETWYjO7jo8SchJZ4Fz0tNyrxsv98LLWtqG/eq8fvb519eVSwPXmcTXibep1NiS0H7ajLrLT/Q8ljiM+rT/E+Q4/Xmz4yfZPnSGJays9E5cq31VLG+ue8Hy6NS7xx3QjHfqaWfzloQ/paDJHO2Rb38R+JY4mvjbTGjaVEoBpdsP2Lyj+PhiXvvqiQe5f7jwep9Ts15PFx5U/u1QPWJfNRUX+HyuZxnQyIUwv1lqUbfK0sWj2dkySZ/v7bX17OKesbnbPtUuJK4voZ9a1LrEhspNbfDIjbVJnvNY4rdX1Vlzbff5zIOM6Q85FWD9fImoX6zHm0qtyMW7No1w0oEPp4VEtcqPtr5LPjtnRdlfzvi/nEcxv5CGhrPtqV2LNYDvlMPjLfM5vxYNa4MATxZ/ahxO8SZU25i1pb1G2hfE8/yJnEucVy6KY7iX8Wy6F7ehX2aXK+Ed9bMZW4p8KMIczYwnfb0sZIYijV/pGctm8HcFwA4DPm/W606fMrpHl/1fsnfFB0H9XrQI8rKdR5P78v+CXUeX9bf18IUa/CPuQBAF31I8pfhh+Y9zeshddBSPN++C3UeX+IvrUwF8Efof/fs1dhH+b9AAAAAAAAAAAAAAAAAAAAAACgCf8B3D2so7CfAAA=
+  </data>
+ </layer>
+ <layer name="Over" width="146" height="70">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3aywnCQBAA0LRkSZZgCYKfo3YhFmERfgpyL4JIyHdjdjfvwZzCDpPAZnZCqgoAAAAAAAAAAAAAAADGuYd4hHjOXQhFuE6U9zVR3hStauJX6fv2OHJ93TOjLE375DIg3y7EPsRhfGlk6hQpzy1SHsqlR9Hm8z6q63XfPa/petuaLvlj6pp/6jqAfmKdj4D/6nImSFmudcMczgPW6O/AFMz9LMF67gIowmbuAijCtuGa8z6UxdzPEuT+PXspzP0AABCfuR/S1/df/Vzn4VTuM5U6AAAAAAAAAAAAAACI4w2qZBlhsJ8AAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="146" height="70" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3SUWrEMAwFwKVH6f0P2a/CEjZZOYkl25nAQBuyWO9Zvz+v1y8AAAAAAAAAAAAAAMPZPtHvq+e+I+te7pY+7pjh6Nvqzq7u0benpZ/3/yMdZt1f5Mnao6zzs/aopd+evxkpZ8YefZuxek8iuVoyvL/r+Txtj7LnGHGP7rir3p1dma1395+6PXo3smiXV56W83vla82QtUd7Z2bMkZXtzB5ducNeuVpm6DXLpxmeskdnnqt32Dtj1Rx7Z0S6G9l2zu3fR/1G+4/+Zu/3q+9RtLuRRbr7fzdDnqv3WdV3y26NyB7Zo8w9miXPmd3JvLu9cypmydqjGfPctUO98kbPmLnr7fyZ/dojezSL6h2K7tFKPR/1Xj3nintUMUtlt7PkOpu74lx7NK+qXHtnzt73t9lnzdWaNStjpOdP31Z3F83VulPVc/feoV45I932nmHlfp+Sc++M2bsepd8Rs2bNYI/mMkLGVbp88h5FclecW92FPVpjj1boe2/m2XPdcYcjzDBL36vmGjXnKHP0zhXNWj33rPc3yhxVubbfVs+dcYcjzDBL36vmskcAAAAAAAAAAAAAAGT4A5EK1g+wnwAA
+  </data>
+ </layer>
+</map>
