@@ -20,25 +20,3 @@
                 </emitter>
         </particle>
 </effect>
-<?xml version="1.0"?>
-
-<effect>
-	<particle
-		position-x = "20"
-		position-y = "0"
-		position-z = "400"
-		lifetime = "100"
-		>
-                <!-- <property name="follow-parent" value="0"/> -->
-                <emitter><!-- <property name="follow-parent" value="0"/> -->
-		  <property name="lifetime" min="16" max="20"/>
-		  <property name="position-x" min="-30" max="30"/>
-		  <property name="position-y" min="-30" max="30"/>
-                  <property name="vertical-angle" value="260"/>
-                  <property name="power" value="20"/>
-                  <property name="output" min="0" max="1"/>
-                  <property name="gravity" value="0.04"/>
-                  <property name="image" value="graphics/particles/raindrop.png"/>
-                </emitter>
-        </particle>
-</effect>

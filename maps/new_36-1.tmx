@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="64" height="64" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="88" height="63" tilewidth="32" tileheight="32">
  <tileset name="Woodland indoor" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/woodland_indoor.png"/>
  </tileset>
@@ -19,40 +19,40 @@
  <tileset name="Woodland village" firstgid="547" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Woodland_village.png"/>
  </tileset>
- <layer name="Ground" width="64" height="64">
+ <layer name="Ground" width="88" height="63">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3X0W2DMBCAYVAnQJ2gpR2Aqt2gYYKWCVr2H6F+gAqdbOwLhw3of/iUCCGFP47h0lVV1eFf7TxMrxZK92g1zuP0aqF0j9ZTojrxvNI9Ws+TdvHep048r3TPvf0xTeJ5pXu29L84r5G+T+cW0B+gZ0v/u/MR6f9yvgOGA/Rs6U9xtf7Y/ezq/dr1/3F+A8YD9Ozdf7X1l/Nr6zl29fl3qfUc0yjdoyXn19ZzTKN0j5bc3/J5sDbv5J5/5F6rMvSv3e9y3/8awaI/9vw/Ur/caxb/N+bfd3+CfrkXLfbb3DecoF9ei8XnxfrX5r3c898e/XPfGOjX2rNfroXV9/2283Vb8T2jSl9TTmdZJwAAAAAAAAAAAAAAAAAAYOsPRD78VABAAAA=
+   H4sIAAAAAAAAAO3Y7W2DMBSFYVAnQJ2gJRmAqt2gYYCqYYCqzf4j1FJBQlcGm4/g4+r98YjI8g/fI2L70hRF0QAAAAAAAAAAAACQVDoP/XMPqetRUzmP/XMPqetR8xSpjJyXuh41z7169NunjJyXuh41c1mNVZHzUtejZpzNyTkH8nt3LhNagXrUjLN7dd4C+X461wmdQD1qYvcH8l0ndF6R7zZL399v52fCTaAeNewP92X729ozRn+8XmXUnrElUtejxva3tWdsidT1qLH7q71PzPUTR/cXdi/6EMhva75z59nR51tlfAnkFxK6/yrla/eiHL53DP//NoN87V6Vw/eOIb8ug3ztWnK4b4fynevXju7fcsx3yO82ke9SR6w1t378RWANMXx3nNRr+k9yeQ8AAAAAAAAAAAAA/PkFsOTWNaBWAAA=
   </data>
  </layer>
- <layer name="Fringe" width="64" height="64">
+ <layer name="Fringe" width="88" height="63">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3Xu0oDQRQG4NmNdxPQRFEwUdHKR3B9ArHKE4iP4CP4CJaKla2VrdhoWkWwVry1Cl5aC//jTHAYskRhZhKT/4OfvcywnFmy4YxSZLtKlVrHcRwZQ0aQUWQYKSIlc7+Vghk7Nce8ed3sLtX1zyFDSq9b3oGspYrUlH4frVTUz5ovkMuwpQZRR4qJUvMFnT1c7ztzXpFJzCkh08iUiZhI9PgNchuzcE/qzvVKm+sl6zxDls35M/Lisa5Y3PXZ9/PGmjIT8YkMJr6q6owC6h9AGi3GDpyjyJwcBa4vhLNfznPXL+s9tMbXTHpR3ndwjrwhHxFr8e0kbf+d59nwWglRd7hOdT/cDzZNhPSy5UT3u81+uJleNYP1zpoeVpRND3Nvzalb8+z+V1Ix6XdVvIMa30NQ7ncYc799jDwiT0r3x9I3Pjj3Qvveo+I3toAsJnpPGoOsVfq8d6V7vUbOvVh2PT5ry+Oz/qPtThfwR773Gzsen0VhrTrXMf9ziIiIiIiIiIiIiIiIiIiIiIiIiIg65QtbeAuxAEAAAA==
+   H4sIAAAAAAAAAO3Yu0oDQRTG8dmNdxPQRFEwUdHKRzA+gVjlCcRH0DfwESwVK1srW7HRtIpgrXhrFby0Fp5xJrgMWTQmO8mu/x98bGZnYA8HsnBWKQAAAAAAAAAAAAC96jJUalWuo5IRyZBkWDIoyUsK9n4zObt3Yq9x5/6z29D0Z0YyoExfdY91r8qSijL9bqakvnt6LrlIttRUqknygVKzOZNdWe85Z14k43KmIJmUTNhoY4HZv5bc+Cw8JWrOeumH9ULkd1WyaH8/SZ47WFdWuP2L3o/ba6jaaB+S/qBTVWVTTvrTJ6k32dt3rlrVyWHC9aXR6S/Puf3V/TyI7K/YoHVx74kzyavk3WMtaXMc/vyejbPW0UoApMFVaOZltG/dRtOzbjEw83BjXm4EfzMl/Zy2M65WtDPCXeRMLXIuOh/rlGyQrLL0uEKfU819T2Xpe+iR5EHyqMz8rOe+e+de0r6+8cl/ZE4yL9ny8EwfdC/1nPamzKxWj7nny47HZ7Vro9sFZNxmtwtoUdq+d2x3uwD0jGVn7fOdDwAAAAAAAAAAAAC95hMTTRd6oFYAAA==
   </data>
  </layer>
- <layer name="Top" width="64" height="64">
+ <layer name="Top" width="88" height="63">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3X2w2CMBQA0H4zgM7BlBI3cASdxsdCQISgTTXEmBLoOUnT0PJxL6XNbQj8oh76Xdf2SwaykDH/KjHX5AxkAZcw5V+C1BqXyHeYlPT/p3zK/9a1R85AMqiivlfa+sd7f8v5fzvnxrmt5l//ua1NE+bVb3PfW6s4t2v0rBagZH2dcw/vtU5qLKece/IUnmfE4WXsPIwdM8ZB2bZ43wAAAAAAAAAAAAAA0lpbhJ6MAEAAAA==
+   H4sIAAAAAAAAAO3Y2wmDMBgG0Dw7QDuHU1a6QUdop+llIZUqrSGKWKso50AISXz4+QjRGAIAAAAAAACwdXnTH6p2XLOQnWrzzRJrxZKF7NAtfPLld6k9yvzkvBznw3/15fuo2mvJQnYgi/qa/Tuv+OyV73RD77F2Tb7T5DM3uoow7v419jnS4uzu0di3MNCnvkc8Q/cukZpjmkt4n9Gnr7lrM3depSLYHv87AAAAAAAAAACGlfGX++2gVgAA
   </data>
  </layer>
- <layer name="Collision" width="64" height="64" visible="0">
+ <layer name="Collision" width="88" height="63" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3TQQ6FIAxFUV2K7n+RhoEDDUKVlpea2+QM/g8JXNR9XZYdwEWZ++9z1Geb0d6b3jp1Q2S7pT/rHdTOX5vtxXuSibXfOuqekf5eV6s1a7/1DlrryrdxUrfMfP5P6zJ5078ZqHs87kN9BqU/PMOR9tr3rj5XJK9Rd6j7Fffgsd+XLut/9Me8q977ec6Mfu/9MvVHvG+Z+iP2iz53VL/6PIp+9RkAAAAAAAAAAAAAAAAAAMB8B0cav7YAQAAA
+   H4sIAAAAAAAAAO3UWwqEMAwFUGcpuv9FDn4Ig3S0PmpSOYHzoVRMbkunzzBMAAAAAAAAANDIXOvnpaJ7611N7a2LniGr2qpZGz1LRqV8SjVW7kX0PNnU5ltb0fNkcyS3rSzley3jrXXz3bGIniWbK+f33zrO5TtWiJ4nO2ewLWewbbal+za6r57dVdFzZHV3Pd17dH535Vv6Zu+dfPvK9/cfEfvZOuOj+/BEn9HZvS3fdc/R2b0t3yf/1+JcZNZjtj2RKQAAAAAAAPTlC6t2IfWgVgAA
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0">
-  <object name="graphics/particles/cookingfire.hoveringpot.particle.xml" type="PARTICLE_EFFECT" x="241" y="243" width="32" height="32"/>
-  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="688" y="113" width="2" height="2"/>
-  <object name="graphics/particles/sparkle.big.green.particle.xml" type="PARTICLE_EFFECT" x="258" y="221" width="8" height="8"/>
-  <object name="graphics/particles/sparkle.big.green.particle.xml" type="PARTICLE_EFFECT" x="552" y="61" width="64" height="16"/>
-  <object name="graphics/particles/sparkle.big.green.particle.xml" type="PARTICLE_EFFECT" x="384" y="89" width="8" height="8"/>
-  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="208" y="464" width="2" height="2"/>
-  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="178" y="357" width="3" height="3"/>
-  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="306" y="289" width="3" height="3"/>
-  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="338" y="320" width="3" height="3"/>
-  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="306" y="165" width="3" height="3"/>
-  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="371" y="289" width="3" height="3"/>
-  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="370" y="196" width="3" height="3"/>
-  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="403" y="355" width="3" height="3"/>
-  <object name="graphics/particles/fireplace.particle.xml" type="PARTICLE_EFFECT" x="1568" y="544" width="32" height="32"/>
+ <objectgroup name="Objects" width="0" height="0" x="0" y="0">
+  <object name="graphics/particles/cookingfire.hoveringpot.particle.xml" type="PARTICLE_EFFECT" x="753" y="851" width="32" height="32"/>
+  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="1200" y="721" width="2" height="2"/>
+  <object name="graphics/particles/sparkle.big.green.particle.xml" type="PARTICLE_EFFECT" x="770" y="829" width="8" height="8"/>
+  <object name="graphics/particles/sparkle.big.green.particle.xml" type="PARTICLE_EFFECT" x="1064" y="669" width="64" height="16"/>
+  <object name="graphics/particles/sparkle.big.green.particle.xml" type="PARTICLE_EFFECT" x="896" y="697" width="8" height="8"/>
+  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="720" y="1072" width="2" height="2"/>
+  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="690" y="965" width="3" height="3"/>
+  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="818" y="897" width="3" height="3"/>
+  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="850" y="928" width="3" height="3"/>
+  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="818" y="773" width="3" height="3"/>
+  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="883" y="897" width="3" height="3"/>
+  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="882" y="804" width="3" height="3"/>
+  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="915" y="963" width="3" height="3"/>
+  <object name="graphics/particles/fireplace.particle.xml" type="PARTICLE_EFFECT" x="2080" y="1152" width="32" height="32"/>
  </objectgroup>
 </map>
