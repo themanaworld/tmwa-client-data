@@ -1,5 +1,6 @@
-<?xml version="1.0"?>
-<map version="0.99b" orientation="orthogonal" width="160" height="100" tilewidth="32" tileheight="32">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="160" height="100" tilewidth="32" tileheight="32">
  <properties>
   <property name="music" value="The Mana World - Snow Village.ogg"/>
  </properties>
@@ -11,153 +12,93 @@
  </tileset>
  <layer name="Ground" width="160" height="100">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3dPXLTQBgGYBF++vBzAH4mfQhQAC1H4EBwAzgADLRpgYaWUAAlMFwBOECg4/OMNLMsiS0RaVd2nuKZtWTZ30r7WlYm49Vh0zSHAAAAAAAAAAAAAAAAnBpnwrlwtm3PZ8tD2wsF+5yvL92vZf3YhHolbIeLbXs5W76ULXft9WT5Vrgd7iTPL47T1oTHpKu9n6zbT+pfadsHWb9L96NUvRsT1Svharg2cjvlmKd9fhueheft467+Tts+zPpVuh9T1NspWK+E3YFehdetN8dsM+WY531+FB737HvpY7fu9Urnb6/HPr4LB4lV23+vMA6l83DccZO/8cfyqPzdXLL975H7+y17/2W18+fWPQ9PwtOC9eaQv/yzPfT8N4fPzKbk70V4ecT47E1Ur4T0eq6Pg2ae+etz7bDu+dvE79/8fDbUXPLXJ4+1jzWnJ3+bcn7YdJ/DlwG63C0ef608zr9G2oZ60twM+VvSeYYx/O93mfwxBvmjJvljblyzAwAAAAAAAAAAAAAAAAvdnMLpvM9bTf/5oFe9bl3nJaaM7ebf+Z3HbmvvI/M1xfzPeVt7H5mvKX5/7vfo9CV/1CR/1NRlZOg8vKuk92aovY/MV5eRk86DmnvfyB+ryR81yR81yR81yR81pfn7EX6GD+Fj+NT8nam74V64n61Pt+/eQ/7ow/mPmrqMDL0PyCrpvUFq7yPz5f8f1CR/rBNz4wMAAAAAAAAAAAAAAAAAAABQ0x83zbbQAPoAAA==
+   H4sIAAAAAAAAAO3dPZMMQRgA4HGOwEdw5yMT4Fwm4BAglUllfoKfICGWnFhRpCdEInUChCh/AT/gyPSWmarW9muY6ZmdfYKneqdndt/3ut+dnaut7dkrimIPAAAAAAAAAAAAAACApbEvWA32l+2BZLtuezBjzml/7rym5TGEeDmsBetlezzZPpZsV+3ZaPtScDm4Eu0fjdNKi2NSxd6J+nai+CfK9kaSd+48csXbaCleDqeDMw23bc55nPPr4HHwpHxcxd8s21tJXrnzaCPeZsZ4OVyo6UXwsvRqwjFtznma873g/py55x67RY+Xu/625vgb3wS7kVnHf+1gHnLXw6RxU3/Nz+W4+rs45fifDef7JXn9abHTfYteD9vBw4zx+lB/6Xu77vmvD++ZodTf0+DZmPnZaileDvH13Dx2i37W3zzXDotef0P8/E3PZ3X1pf7mqceux5rlqb+hnB+G7mPwqYaq7kaPP3c8zz8aOobuxHVT539J5xma8K+fZeqPJqg/uqT+6BvX7AAAAAAAAAAAAAAAAMBItaZwvO7zSjH/etCzntfmOshVrCrOzWjfarKv63FmvLXi7/Wdm26bzjlec/pcFOd22W6UfSPVWtVdjzPjtbH+c9q2kfPJKEYV507SF+/repwZr43fn7f9e/TtYvw6oHcz5sDy1t+4dUBHHmTMgeWtv/i1DwWHgyPBo4w50Oxc1l2Hd5b43gxt1l/s+YT+oz0YZ6bP5f+ug5p6W+Svv0lO9WCcWd76O9+DcWZ568/1X38Nrf58/7FYhlZ/a8Xv+16uR9Z6MM7Mrr9vwffgXfA++FD8WVNXg2vB9aQ/Pr56ja7qr7rvpe8/FsPQzn+u/xZLNT917wMyS3xvEPVHk3PZ9dz3IQfUX2zWfai7Hmea0ee18fucGwAAAAAAAAAAAAAAAAAAAADN+AX0QfBoAPoAAA==
   </data>
  </layer>
  <layer name="Fringe" width="160" height="100">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3cua8NURwH8FsjFGhsFQ3+Ba1nqSwRS2EXS2IXHRJrFEhshdJOy7O11h4FGhIqS5AoaPyGmWQy7lz33Wfu4n0+yTdnzsyZN7/75mTu3ObUagAAAAAAAAAAAAAAAPCnc50uoI5zJdvt1u46uuVzt9P1Qv9W5HbkTgdq6RYHS/aPbmsVve1r5HXkzV/G3Sv0H0UeR55UUVSPON3pAv4Dyfz7HPnSwrlHC/2Fkd2Drqh3XIwcqbN/ZGRUm2vpVcn8y/+/PjVxzsy0fVjn2IK0XR5ZMajKut+73PaNSH/JMcp9KORjE+csStt68y+xObIlsnXQ1TWW3PObufSXjLsUuVzB9SdFZkVmR+6n/TmRuZG3FVwv8zWXxFB73ibzr69WPv/2RPZG9lVcR3LPH+RSVk9iQYNjrUrm2OLIkrSW5PpLI8tq1c6/7H09a3t9/q2MrIrsStudue0kq9N2bdquS88ru9/HIscjJ6or+ZenkWe5PK/4ekXfIusjG9JakutvjGxKj/1r2TMve1/P2l6ff9si2weQHbX6z7+Jue1mflNDpm+AbaLR/Gv1N3Uz5lf0d+l+2XddPTPaWQhABwyLDI+MiEyNTItM72hFDCXjIuMjEwrbAAAAAAAAAAAAAAAAAABD0VBZb5j22B85EDkUOZzuG1MYMza3nawDna1vPLkwbso/r47/3cnIqciZyNkmxhfXgYbBOB+5UKtujVBoJL+u5KoG/Xm5c5L1KtcUxhT7+X1Qptm1J5M1J9/Xfq8PPZD1Kne076MAQE+6Ernawr5rJS0MxPfIjxb23S1pAQDobtl73YvIy8irwvGytZ7z4+u9LwIAAAAAAAAAAAAAAAAAAAAAAAC04idqEl4KAPoAAA==
+   H4sIAAAAAAAAAO3duY+NURzG8TdKhAKNraLBv6BRGEvFiFgKjCWWxDZEh8ROLImtmJKxtoyttfYo0JBQWcIkChrP4Zzk5HjfO++9c8+7zP1+kifnXef9zdyTO++9N/ndJAEAAAAAAAAAAAAAAAAAAAAAAAD+11d2ASn6MpaLVnQdVfm9i3Q7WL+n3FcelFBLVRzJ2D6h0CrqbVB5r3wY4rhHwfoz5bnyIkZRNXGx7AJGADP/vis/Wjj3ZLC+TNk37Irqo185nrJ9nDK+4Frqysw//+/1Lcc58+34NGVftx3XKGuHVVn1ffKW7ygDGfuQ7UuQrznOWW7HtPlnbFd2KDuHXV1j5jG/62Ug47hryvUI15+uLFAWKo/t+iJlsfIxwvWcQS9Gpz3fmvnXlWTPv/3KAeVg5DrMY/7ES1Y9RneDfa0yc2yFstLWYq6/SlmdxJ1/7n7djXWff+uUHmWvHfd4yybr7bjRjpvseVmP9xnlrHIuXsl/vVReeXkd+Xqhn8pmZYutxVx/q7LN7ms395zn7tfdWPf5t0vZ3UR6k/Tnv2necp7X1IDT1eRoNJp/rb6mzmNppJ+L6nP/69LMLbIQACjBaGWMMlaZpcxW5pRaETrJZGWKMjVYBgAAAAAAAAAAAAAAAAAAAAAAAAAA6ER16Tc8quwCkMsh5bByVDlmt00MjpnkLZs+0K6/8YzguJltrw4j3XnlgnJJuZzj+LAPdBX4vbZc/0fXk8z1h0Q1XVGuJvF6hBbB77Xl+j86rj8kqsnvK9nTYH2Jd47pV7khOCZc97cVyfV/dFx/SFRT3t6Tpufk5+Rff+hm+lX2Rqg57LE/L8I1gDzof4QqM/1aT5ddBHK5odxsYdutjLEI4XfgoL5+Kb9b2PYwYwQAtFfe9yr5jk7E4D6zGQrf0Vkv7r7ujfJWeRfsz3qvwz8+7X6x3dxnNgDQaU40efypKFUA+TD/ULT+sgsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAFH8AilG0ygD6AAA=
   </data>
  </layer>
  <layer name="Top" width="160" height="100">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3UvwnCQBiH4SzgVLqDna0bSHAArWz9t1l2UGfwihQmnBZH4Ivc88CPcAeBt7qmAQAAAAAAAAAAAAAAAPhP6+gAqrEfnVdp24iQQG10AAPL6ICMQ9oxOoJqndMu0RETeI726u8f/bkWm+iAAnN8lylzig6AjEV0AFXbRQcAAAAAAAAAAAAAAAAAAAAAAAAAwMx1H8udp/oHABi6pt0K7u5fvgAAAAAAAAAAAAAAAAAAAAAAAAAAAADAb28aUcalAPoAAA==
+   H4sIAAAAAAAAAO3dO07DQBQFUG8gq4I90KVlByiBMnwqSghkZ+whoU3LFC6M5RgxcvxizznSlT2WLd3Csly9qSoAAAAAAAAAAAAAAACAabqJLkAx7lvr65TbiCKBVtEF+OUqukCH55SX6BIU6z1lG11iAIdWvuvr+3pdimV0gQyX+F0mz2t0AeiwiC5A0e6iCwQ61gHKNsZ34Ng49mWsPgAAwN/6/tlzAwAAAAAAAAAAAAAAAAAAlMOM/fn5aqRrPdQzQ2jP2F9V5tADMF0fKZ8Z13YnjmNo74EDMGd9+xmZycW5zWU/I6Zpk/IYXQIACrP+5/0PZ2kBpz01zr1/jO2tce79u1w5s+2j5+HndAMAAAAAAAAAAAAAAAAAAABgHn4AdWj7JgD6AAA=
   </data>
  </layer>
- <layer name="Collision" width="160" height="100">
+ <layer name="Collision" width="160" height="100" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3b6wrCMAwGULf3f2j/OBjS6q5Jqkc4DKejbfqxDMR5ejxmAAAAAAAAAAAAAAAAAKC06eXf5lFl3Xesaav3a6rO8+75ZY0TNW7kvm5d55Ya3FWXKvmLHq/1mlbns/MTWddl7dH7XiF3vXl9eh817mjO7GeVflchg63aZO/tCI7WqXX/i6p7lf7bmtPZuv6bM3Xq5S9qryvlj+N7uTy79o7rZ77l2Nvf6H4nf2M7ei/5lL/IuV/xHfJcmT/3Gfa6Ml/yx17yRyb9l2p+6bccAAAAAAAAAAAAAAAAAAAYmf+jU5U8Ab/kjn6r/7KV/JGplZO95+bOUf74Rv7IpP+SSf7I9C0nvc+PXgdr8kcm/ZdM8kcm+WMk8gQAAAAAAAAAAAAAAAAAAABApid7AOlZAPoAAA==
+   H4sIAAAAAAAAAO3c266DIBAF0Or/f/R5OSamEe/MAF0kK/ZmhGEHfLHz9PnMAAAAAAAAAAAAAAAAAEDTpn+/1o9Wxl1jTGd9n9NqP2v3L+s6UdeNnNez4zxTg1p1aSV/0dfbatPq8+z8RNZ1GXv0vLeQu1K/9t5HXbc3T+azlf2uhQxu1SZ7bntwt05b619U3VvZf7f69LSuv+ZJnUr5i5rrlvI32j1YlOX+dd45ru/5lmNpfqP3u1byR9w87s3vOs81XW3ZdaZ+/qwzXPVmvuSPq+SPTPZfMtVo2WMCAAAAAAAAAAAAAAAAAIBR9PA8eul54+/XnkUeSyv/b3Dm2Xf5o6atfPlPhv7U2G8j998z+cuuMePm76hl15fz+bv72Vw4Rq1/Mtiv3vNnDezbaPtvdj0ZP38L+evfUU5K3989703y178e83enZdeZ45z0sv/K3zh6zN/VDGbXmLHyZ+0bR0TL6PP6d9k1BgAAAAAAAAAAAAAAAAAAAOA9fwlPI/gA+gAA
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
   <object name="ToOutside" type="WARP" x="800" y="1120" width="32" height="32">
    <properties>
-    <property name="DEST_MAP">
-     3
-    </property>
-    <property name="DEST_Y">
-     2336
-    </property>
-    <property name="DEST_X">
-     1040
-    </property>
+    <property name="DEST_MAP" value="3"/>
+    <property name="DEST_X" value="1040"/>
+    <property name="DEST_Y" value="2336"/>
    </properties>
   </object>
   <object name="ToArena" type="WARP" x="736" y="736" width="32" height="64">
    <properties>
-    <property name="DEST_MAP">
-     6
-    </property>
-    <property name="DEST_Y">
-     992
-    </property>
-    <property name="DEST_X">
-     2304
-    </property>
+    <property name="DEST_MAP" value="6"/>
+    <property name="DEST_X" value="2304"/>
+    <property name="DEST_Y" value="992"/>
    </properties>
   </object>
   <object name="To2ndFloor" type="WARP" x="1408" y="768" width="32" height="64">
    <properties>
-    <property name="DEST_MAP">
-     8
-    </property>
-    <property name="DEST_Y">
-     800
-    </property>
-    <property name="DEST_X">
-     2080
-    </property>
+    <property name="DEST_MAP" value="8"/>
+    <property name="DEST_X" value="2080"/>
+    <property name="DEST_Y" value="800"/>
    </properties>
   </object>
   <object name="To1stFloor" type="WARP" x="2048" y="800" width="32" height="32">
    <properties>
-    <property name="DEST_MAP">
-     8
-    </property>
-    <property name="DEST_Y">
-     832
-    </property>
-    <property name="DEST_X">
-     1280
-    </property>
+    <property name="DEST_MAP" value="8"/>
+    <property name="DEST_X" value="1280"/>
+    <property name="DEST_Y" value="832"/>
    </properties>
   </object>
   <object name="ToBedroom" type="WARP" x="2144" y="960" width="32" height="32">
    <properties>
-    <property name="DEST_MAP">
-     8
-    </property>
-    <property name="DEST_Y">
-     736
-    </property>
-    <property name="DEST_X">
-     3280
-    </property>
+    <property name="DEST_MAP" value="8"/>
+    <property name="DEST_X" value="3280"/>
+    <property name="DEST_Y" value="736"/>
    </properties>
   </object>
   <object name="ToDeposit" type="WARP" x="2432" y="960" width="32" height="32">
    <properties>
-    <property name="DEST_MAP">
-     8
-    </property>
-    <property name="DEST_Y">
-     736
-    </property>
-    <property name="DEST_X">
-     4176
-    </property>
+    <property name="DEST_MAP" value="8"/>
+    <property name="DEST_X" value="4176"/>
+    <property name="DEST_Y" value="736"/>
    </properties>
   </object>
   <object name="ToCasino" type="WARP" x="2176" y="704" width="64" height="32">
    <properties>
-    <property name="DEST_MAP">
-     8
-    </property>
-    <property name="DEST_Y">
-     2304
-    </property>
-    <property name="DEST_X">
-     1024
-    </property>
+    <property name="DEST_MAP" value="8"/>
+    <property name="DEST_X" value="1024"/>
+    <property name="DEST_Y" value="2304"/>
    </properties>
   </object>
   <object name="To2ndFloor" type="WARP" x="3264" y="704" width="64" height="32">
    <properties>
-    <property name="DEST_MAP">
-     8
-    </property>
-    <property name="DEST_Y">
-     928
-    </property>
-    <property name="DEST_X">
-     2144
-    </property>
+    <property name="DEST_MAP" value="8"/>
+    <property name="DEST_X" value="2144"/>
+    <property name="DEST_Y" value="928"/>
    </properties>
   </object>
   <object name="To2ndFloor" type="WARP" x="4160" y="704" width="64" height="32">
    <properties>
-    <property name="DEST_MAP">
-     8
-    </property>
-    <property name="DEST_Y">
-     928
-    </property>
-    <property name="DEST_X">
-     2432
-    </property>
+    <property name="DEST_MAP" value="8"/>
+    <property name="DEST_X" value="2432"/>
+    <property name="DEST_Y" value="928"/>
    </properties>
   </object>
   <object name="To2ndFloor" type="WARP" x="1024" y="2336" width="32" height="32">
    <properties>
-    <property name="DEST_MAP">
-     8
-    </property>
-    <property name="DEST_Y">
-     736
-    </property>
-    <property name="DEST_X">
-     2192
-    </property>
+    <property name="DEST_MAP" value="8"/>
+    <property name="DEST_X" value="2192"/>
+    <property name="DEST_Y" value="736"/>
    </properties>
   </object>
  </objectgroup>
