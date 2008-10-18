@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="0.99b" orientation="orthogonal" width="117" height="75" tilewidth="32" tileheight="32">
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="117" height="75" tilewidth="32" tileheight="32">
  <properties>
   <property name="minimap" value="graphics/images/minimap_new_19-1.png"/>
   <property name="music" value="Magick - Real.ogg"/>
@@ -45,7 +46,7 @@
  </layer>
  <layer name="Fringe" width="117" height="75">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
  <layer name="Top" width="117" height="75">
@@ -61,54 +62,30 @@
  <objectgroup name="Objects" width="0" height="0">
   <object name="WestGate" type="WARP" x="704" y="1120" width="64" height="96">
    <properties>
-    <property name="DEST_MAP">
-     18
-    </property>
-    <property name="DEST_X">
-     1696
-    </property>
-    <property name="DEST_Y">
-     1952
-    </property>
+    <property name="DEST_MAP" value="18"/>
+    <property name="DEST_X" value="1696"/>
+    <property name="DEST_Y" value="1952"/>
    </properties>
   </object>
   <object name="SouthGate" type="WARP" x="1504" y="1760" width="128" height="64">
    <properties>
-    <property name="DEST_MAP">
-     18
-    </property>
-    <property name="DEST_X">
-     2496
-    </property>
-    <property name="DEST_Y">
-     2624
-    </property>
+    <property name="DEST_MAP" value="18"/>
+    <property name="DEST_X" value="2496"/>
+    <property name="DEST_Y" value="2624"/>
    </properties>
   </object>
   <object name="EasthGate" type="WARP" x="3104" y="1120" width="64" height="64">
    <properties>
-    <property name="DEST_MAP">
-     18
-    </property>
-    <property name="DEST_X">
-     4128
-    </property>
-    <property name="DEST_Y">
-     1920
-    </property>
+    <property name="DEST_MAP" value="18"/>
+    <property name="DEST_X" value="4128"/>
+    <property name="DEST_Y" value="1920"/>
    </properties>
   </object>
   <object name="NorthGate" type="WARP" x="1504" y="736" width="128" height="64">
    <properties>
-    <property name="DEST_MAP">
-     18
-    </property>
-    <property name="DEST_X">
-     2496
-    </property>
-    <property name="DEST_Y">
-     1536
-    </property>
+    <property name="DEST_MAP" value="18"/>
+    <property name="DEST_X" value="2496"/>
+    <property name="DEST_Y" value="1536"/>
    </properties>
   </object>
  </objectgroup>
