@@ -1468,7 +1468,7 @@
         image="armor-shield-steelshield.png"
         name="Steel Shield"
         description="A shield made of steel."
-        effect="Defense: +14"
+        effect="Defense: +20"
         type="equip-shield"
         weight="10"
         max-per-slot="1"/>
@@ -1476,7 +1476,7 @@
         image="armor-shield-woodenshield.png"
         name="Wooden Shield"
         description="A shield made of wood."
-        effect="Defense: +9"
+        effect="Defense: +14"
         type="equip-shield"
         weight="10"
         max-per-slot="1"/>
@@ -1484,7 +1484,7 @@
         image="armor-shield-leathershield.png"
         name="Leather Shield"
         description="A shield made of leather on a wooden frame."
-        effect="Defense: +5"
+        effect="Defense: +7"
         type="equip-shield"
         weight="10"
         max-per-slot="1"/>
@@ -2462,6 +2462,78 @@
         image="generic-scorpionstinger.png|W:#a08040"
         name="Black Scorpion Stinger"
         description="A black scorpion stinger, dripping with poison."
+        effect=""
+        type="generic"
+        weight="1"/>
+
+    <item id="710"
+        image="generic-snake-tongue.png|W:#e04020"
+        name="Snake Tongue"
+        description="The forked tongue of a snake."
+        effect=""
+        type="generic"
+        weight="1"/>
+
+    <item id="711"
+        image="generic-snake-tongue.png|W:#706060"
+        name="Mountain Snake Tongue"
+        description="The forked tongue of a mountain snake."
+        effect=""
+        type="generic"
+        weight="1"/>
+
+    <item id="712"
+        image="generic-snake-tongue.png|W:#a05050,e08080"
+        name="Grass Snake Tongue"
+        description="The forked tongue of a grass snake."
+        effect=""
+        type="generic"
+        weight="1"/>
+
+    <item id="713"
+        image="generic-snake-tongue.png|W:#907070,d0a0a0"
+        name="Cave Snake Tongue"
+        description="The forked tongue of a cave snake."
+        effect=""
+        type="generic"
+        weight="1"/>
+
+    <item id="714"
+        image="use-food-snake-egg.png|W:#c0c0a0;R:#b09070;G:#b8a888"
+        name="Snake Egg"
+        description="An edible snake egg."
+        effect="+30 HP"
+        type="generic"
+        weight="2"/>
+
+    <item id="715"
+        image="use-food-snake-egg.png|W:#806020;R:#604010;G:#705018"
+        name="Mountain Snake Egg"
+        description="An edible mountain snake egg."
+        effect="+40 HP"
+        type="generic"
+        weight="2"/>
+
+    <item id="716"
+        image="use-food-snake-egg.png|W:#e0e0c0;R:#80f0a0;G:#b0e8b0"
+        name="Grass Snake Egg"
+        description="An edible grass snake egg."
+        effect="+50 HP"
+        type="generic"
+        weight="2"/>
+
+    <item id="717"
+        image="use-food-snake-egg.png|W:#c0c0c0;R:#c090c0;G:#c0a8c0"
+        name="Cave Snake Egg"
+        description="An edible cave snake egg."
+        effect="+20 HP"
+        type="generic"
+        weight="2"/>
+
+    <item id="718"
+        image="generic-cocoon-silk.png"
+        name="Silk Cocoon"
+        description="A silkworm's cocoon."
         effect=""
         type="generic"
         weight="1"/>
