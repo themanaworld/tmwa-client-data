@@ -2721,6 +2721,23 @@
         weight="20">
         <sprite>head-bunnyears.xml</sprite>
     </item>
+    <item id="1215"
+        image="weapon-sword-sabre.png"
+        name="Toy Sabre"
+        description="A toy item, doesn't do much damage."
+        effect="Damage: +1"
+        type="equip-1hand"
+        weapon-type="sword"
+        weight="1"
+        attack-min="0"
+        attack-delta="1"
+        attack-target="multi"
+        attack-shape="cone"
+        attack-range="32"
+        attack-angle="90"
+	max-per-slot="1">
+        <sprite>head-bunnyears.xml</sprite>
+    </item>
 
     <!-- The 2XXY IDs are used for recolored items on eAthena.
         XX = item
