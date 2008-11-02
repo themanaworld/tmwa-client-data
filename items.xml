@@ -2275,6 +2275,9 @@
         attack-range="32"
         attack-angle="135"
 	max-per-slot="1">
+        <sprite>weapon-dagger.xml</sprite>
+        <sound event="strike">short-sword-miss1.ogg</sound>
+        <sound event="hit">short-sword-hit1.ogg</sound>
     </item>
 
     <!-- The 2XXY IDs are used for recolored items on eAthena.
