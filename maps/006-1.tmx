@@ -1,8 +1,10 @@
-<?xml version="1.0"?>
-<map version="0.99b" orientation="orthogonal" width="150" height="150" tilewidth="32" tileheight="32">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="150" height="150" tilewidth="32" tileheight="32">
  <properties>
-  <property name="minimap" value="graphics/images/minimap_new_24-1.png"/>
+  <property name="minimap" value="graphics/minimaps/006-1.png"/>
   <property name="music" value="Faith.ogg"/>
+  <property name="name" value="Desert mountains"/>
  </properties>
  <tileset name="desert1" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/desert1.png" trans="ff00ff"/>
@@ -39,7 +41,233 @@
  </layer>
  <layer name="Collision" width="150" height="150">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO2UUY7jMAxDF3P/Q+9XgaBwElumRMolgYfFtIlNUez+/f3792eMMcYYY4wxxhhjjDHGGGOMMcYYY4wxxpif4yO2D3MO32L7Mf25E9uX6cub2P525vn+bDcX9mxdmBXbZ/UsJ+Wisoe779h+ET1A96pDNqp76JIfcgZ0Nl0yZHRKPZfVGUazXL/bzeb6d9RPF1Biz4GaDZnP3VmRzncCreu5K3d3mnFFbzPvnqdItlbvXumk0pxPQvdqdKYKldq5v+O8b/5H36POVqBKiHs7zfvk9+5Z5B0KVAh53+cM1VnfvD09j7xHgWxl3KM468797lZ89qxzWfMi7436Y/eG1a3s3lbNXnEP8h010Mru1fWODkRnuX5/6uyRnWeKnVdGrk+96gx639li57Wb6Vt3Os2Z2avKTn3fp8rOHJ3mRPdq9Rx079iZ7WY68y57BoVeVYudGaJTozk6z73TCVQvEWLnttOr02be7YN7xesVe66MPj3NxRQ7y0in3Ku5uRj6vpud6UwWJ3cKPRtC6Dmu31Xm+ZTHbl7svnTqVOU8zEx/oVOzM2Z0MzMv5v0z9+yI3RXkDrK6VJ0X2lf0nNG5CD9KRLxH83w6RzEHlGbmXT1LnYj30zLI7NjdmZ/PTs004pk1f3XGu8rs6WlUzq6Uc7QDaLH3z8qXtT+F2Ue+MsTuQAc65z3jJ0vsvSkzm1eHvFe9IMTenxqRfLpkPesFIfasSuzk0ynvkZc3b+4Vpk+rGXXMfNWf+jxKrGr0PuIcpfnZnroTFfoMBXb8Ks6jnGWm2LMju9VlPoUMK8TOICMbtveuuaHFzgKVE9urKkzt+mbnwt5dR6q0642dk9HtGMIPOyNzbrfcr96od8v9OgPFXrlf56DaLffrDJDdmulF9GzTjwyh7mJnY3R6lXEfOyPD7VbmfeyMDK9b2fd93mNnZc7rlnvVk+puRe9k52TqexXdu7t1Nsxurd7PzsrU92p37+7WmSh0a9YHOytFlHNDKtMLe4cn7Kc6S0XPzDxO6c+MOs3G3lFHRtlVCuG/omPsPXXjKcdKIbxn94u9qy5kafeu3d+D+8XtVHTfiJwjO5x9zt3i9uopn5mdIn2wdowSe58K3OVy9/e1Z+gsVXaKFnvHKr2qyG70Dur+z98RX5n9uvN7Gsy8Mu+M+GF0C+FPGbZ2PbzN0iEfdgey+nT3/d07Sp2c6UCHbqG8KtBZK3NkZpWVJbsbv9itiP+OWbG7gcxsJUOFvKPvdegVwjO7T2+zqWh3z916teuZ3S2l7twJseOK32GG2B3ZzWk1u8qsEbt1r2r79DTL7LOZQu62Y7fYfVHPJyq05y65sTuinA1CaM8dsmN3hJlPRc4Z+2Tnlu2xc6eqlOFXPTt2P1D5jPJS6J//r+pFdNZKZe3TvcrvVTSv7Iwzdsn4LTJ8snmai6mMfWbmhRK7D8iMZvP6PPf2/G7+p3Rq9b2n+9hdieY06sxK3xD7R+xy9tzsTkV9Xv99ek6ZkU+WMnfZoVMfn7PPKTPyuDojQu7U2n3s3sxm9t2z0RzRDCL5IKXep6vPlWeV+faJyObtnMpddurU7L3szkQzHH2+mzVjlx36dPUZeUedj9eVuZCzo9WhT99eV5/vTiQj5j4VPKx6vfv8zie7ExW9Uthj9u9l5f6n798+m5klOq8aq3NXdCn7t5J5950X9p4ZnWJ3CTXLjq/MfLPOV2V23t2dVe+Q7eWXO5W9r6pcVX2ZXj1CeGVn/CuMMlfez47YWf8K3fbhPunSNf+PP/fJoPD/UcYYY4wxxhhjjDHGGGOMMcYYY4wxxhhjjDHGGGOMMcaYCv4Dr2D58JBfAQA=
+   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
   </data>
  </layer>
+ <objectgroup name="Object Group 4" width="0" height="0">
+  <object name="ToSnakeDesert" type="WARP" x="896" y="672" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="005-1"/>
+    <property name="DEST_X" value="5616"/>
+    <property name="DEST_Y" value="3088"/>
+   </properties>
+  </object>
+  <object name="ToSnakeDesert" type="WARP" x="864" y="704" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="005-1"/>
+    <property name="DEST_X" value="5584"/>
+    <property name="DEST_Y" value="3120"/>
+   </properties>
+  </object>
+  <object name="ToSnakeDesert" type="WARP" x="960" y="608" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="005-1"/>
+    <property name="DEST_X" value="5680"/>
+    <property name="DEST_Y" value="3024"/>
+   </properties>
+  </object>
+  <object name="ToSnakeDesert" type="WARP" x="928" y="640" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="005-1"/>
+    <property name="DEST_X" value="5648"/>
+    <property name="DEST_Y" value="3056"/>
+   </properties>
+  </object>
+  <object name="ToSnakeDesert" type="WARP" x="832" y="736" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="005-1"/>
+    <property name="DEST_X" value="5552"/>
+    <property name="DEST_Y" value="3152"/>
+   </properties>
+  </object>
+  <object name="ToSnakeDesert" type="WARP" x="800" y="768" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="005-1"/>
+    <property name="DEST_X" value="5520"/>
+    <property name="DEST_Y" value="3184"/>
+   </properties>
+  </object>
+  <object name="ToSnakeDesert" type="WARP" x="736" y="832" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="005-1"/>
+    <property name="DEST_X" value="5456"/>
+    <property name="DEST_Y" value="3248"/>
+   </properties>
+  </object>
+  <object name="ToSnakeDesert" type="WARP" x="768" y="800" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="005-1"/>
+    <property name="DEST_X" value="5488"/>
+    <property name="DEST_Y" value="3216"/>
+   </properties>
+  </object>
+  <object name="ToSnakeDesert" type="WARP" x="704" y="864" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="005-1"/>
+    <property name="DEST_X" value="5424"/>
+    <property name="DEST_Y" value="3280"/>
+   </properties>
+  </object>
+  <object name="ToSnakeDesert" type="WARP" x="672" y="896" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="005-1"/>
+    <property name="DEST_X" value="5392"/>
+    <property name="DEST_Y" value="3312"/>
+   </properties>
+  </object>
+  <object name="ToSnakeDesert" type="WARP" x="640" y="928" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="005-1"/>
+    <property name="DEST_X" value="5360"/>
+    <property name="DEST_Y" value="3344"/>
+   </properties>
+  </object>
+  <object name="ToSnakeDesert" type="WARP" x="608" y="960" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="005-1"/>
+    <property name="DEST_X" value="5328"/>
+    <property name="DEST_Y" value="3376"/>
+   </properties>
+  </object>
+  <object name="ToSnakeDesert" type="WARP" x="576" y="992" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="005-1"/>
+    <property name="DEST_X" value="5296"/>
+    <property name="DEST_Y" value="3408"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountainCaves" type="WARP" x="1280" y="832" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-3"/>
+    <property name="DEST_X" value="1296"/>
+    <property name="DEST_Y" value="880"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountainCaves" type="WARP" x="1920" y="1856" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-3"/>
+    <property name="DEST_X" value="1936"/>
+    <property name="DEST_Y" value="2224"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountainCaves" type="WARP" x="1984" y="960" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-3"/>
+    <property name="DEST_X" value="2000"/>
+    <property name="DEST_Y" value="1008"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountainCaves" type="WARP" x="1760" y="864" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-3"/>
+    <property name="DEST_X" value="1776"/>
+    <property name="DEST_Y" value="912"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountainCaves" type="WARP" x="2464" y="1408" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-3"/>
+    <property name="DEST_X" value="2480"/>
+    <property name="DEST_Y" value="1456"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountainCaves" type="WARP" x="2752" y="768" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-3"/>
+    <property name="DEST_X" value="2768"/>
+    <property name="DEST_Y" value="816"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountainCaves" type="WARP" x="2912" y="768" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-3"/>
+    <property name="DEST_X" value="2928"/>
+    <property name="DEST_Y" value="816"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountainCaves" type="WARP" x="3328" y="1408" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-3"/>
+    <property name="DEST_X" value="3344"/>
+    <property name="DEST_Y" value="1456"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountainCaves" type="WARP" x="3904" y="768" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-3"/>
+    <property name="DEST_X" value="3920"/>
+    <property name="DEST_Y" value="816"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountainCaves" type="WARP" x="3648" y="1568" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-3"/>
+    <property name="DEST_X" value="3664"/>
+    <property name="DEST_Y" value="1616"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountainCaves" type="WARP" x="3520" y="1792" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-3"/>
+    <property name="DEST_X" value="3536"/>
+    <property name="DEST_Y" value="1840"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountainCaves" type="WARP" x="4000" y="1888" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-3"/>
+    <property name="DEST_X" value="4016"/>
+    <property name="DEST_Y" value="1936"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountainCaves" type="WARP" x="2944" y="2016" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-3"/>
+    <property name="DEST_X" value="2960"/>
+    <property name="DEST_Y" value="2064"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountainCaves" type="WARP" x="3584" y="2368" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-3"/>
+    <property name="DEST_X" value="3600"/>
+    <property name="DEST_Y" value="2416"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountainCaves" type="WARP" x="3872" y="3520" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-3"/>
+    <property name="DEST_X" value="3888"/>
+    <property name="DEST_Y" value="3568"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountainCaves" type="WARP" x="2528" y="3840" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-3"/>
+    <property name="DEST_X" value="2544"/>
+    <property name="DEST_Y" value="3888"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountainCaves" type="WARP" x="1216" y="3872" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-3"/>
+    <property name="DEST_X" value="1232"/>
+    <property name="DEST_Y" value="3920"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountainCaves" type="WARP" x="2368" y="2880" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-3"/>
+    <property name="DEST_X" value="2384"/>
+    <property name="DEST_Y" value="2928"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountainCaves" type="WARP" x="1632" y="2880" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-3"/>
+    <property name="DEST_X" value="1648"/>
+    <property name="DEST_Y" value="2928"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

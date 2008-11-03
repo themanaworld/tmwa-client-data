@@ -3,6 +3,7 @@
 <map version="1.0" orientation="orthogonal" width="160" height="100" tilewidth="32" tileheight="32">
  <properties>
   <property name="music" value="The Mana World - Snow Village.ogg"/>
+  <property name="name" value="Tulimshar indoor"/>
  </properties>
  <tileset name="INN Tilleset" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/inn.png"/>
@@ -25,7 +26,7 @@
    H4sIAAAAAAAAAO3dO27CQBQFUG8gq0r2kI42O4hIKAmkSpnvztgDpKVlCgrHMqCMjJ/tOUe6sscC6RZmRPWmqgAAAAAAAAAAAAAAAADG6T66AMV4bqzvUh4iigSaRxfgj9voAi3WKa/RJSjWR8pndIkO7Br5PT7fHtelmEUXyDDEfZk8b9EFoMVNdAGK9hhdoGf7CwHK08dvf1+7XtqD7EUAADAM5/6z5wYAAAAAAAAAAAAAAAAAACiHGfvTs6mlbd3Vd7rQnLE/r8yhB2C8vlK+M579nLj2oXkGDsCUnTvPyEwurm0q5xkxTsuUl+gSAFCYp39+fnGVFnDaqnbv/aNv77V7799w5cy2j56Hn9MNAAAAAAAAAAAAAAAAAAAAgGk4AE/rtgoA+gAA
   </data>
  </layer>
- <layer name="Collision" width="160" height="100">
+ <layer name="Collision" width="160" height="100" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAAO3c2Y6EIBAF0Nb//+h5GRPTccGFKqAPyYnpxQjFDfii8/T5zAAAAAAAAAAAAAAAAABA06Z/v9aPVsZdY0ylvs9ptZ+1+5d1najrRs5r6ThLalCrLq3kL/p6W21afZ+dn8i6LmOPnvcWcrfXr6PPUdftzZP5bGW/y8rgVi1GyUVk/u6ct7X+RdW9pf33u09P6/prntRpL3+1a99S/hbr+7HIfb93S+3mg+P6nm857s1vVO1byB8583g0v+s813S1ZdeZ+vmzznDVm/mSP66SPzLZf8lUo2WPCQAAAAAAAAAAAAAAAAAARtHD8+glzxt7Fnk8rbzfoOS5d/mjpr18eSdDX2rst5H7b0n+smvMuPk7a9n1pTx/d7+bd45R658M9qv3/FkD+zba/ptdT8bP30L++neWk73f7573JvnrX4/5u9Oy68x5TnrZf+VvHD3m72oGs2vMWPmz9o0jomX0ef2/7BoDAAAAAAAAAAAAAAAAAAAA8J4/UHc7TwD6AAA=
   </data>
@@ -33,72 +34,79 @@
  <objectgroup name="Objects" width="0" height="0">
   <object name="ToOutside" type="WARP" x="800" y="1120" width="32" height="32">
    <properties>
-    <property name="DEST_MAP" value="3"/>
+    <property name="DEST_MAP" value="001-1"/>
     <property name="DEST_X" value="1040"/>
-    <property name="DEST_Y" value="2336"/>
+    <property name="DEST_Y" value="2320"/>
    </properties>
   </object>
   <object name="ToArena" type="WARP" x="736" y="736" width="32" height="64">
    <properties>
-    <property name="DEST_MAP" value="6"/>
+    <property name="DEST_MAP" value="001-3"/>
     <property name="DEST_X" value="2304"/>
     <property name="DEST_Y" value="992"/>
    </properties>
   </object>
   <object name="To2ndFloor" type="WARP" x="1408" y="768" width="32" height="64">
    <properties>
-    <property name="DEST_MAP" value="8"/>
-    <property name="DEST_X" value="2080"/>
-    <property name="DEST_Y" value="800"/>
+    <property name="DEST_MAP" value="001-2"/>
+    <property name="DEST_X" value="2096"/>
+    <property name="DEST_Y" value="816"/>
    </properties>
   </object>
   <object name="To1stFloor" type="WARP" x="2048" y="800" width="32" height="32">
    <properties>
-    <property name="DEST_MAP" value="8"/>
-    <property name="DEST_X" value="1280"/>
-    <property name="DEST_Y" value="832"/>
+    <property name="DEST_MAP" value="001-2"/>
+    <property name="DEST_X" value="1360"/>
+    <property name="DEST_Y" value="816"/>
    </properties>
   </object>
   <object name="ToBedroom" type="WARP" x="2144" y="960" width="32" height="32">
    <properties>
-    <property name="DEST_MAP" value="8"/>
+    <property name="DEST_MAP" value="001-2"/>
     <property name="DEST_X" value="3280"/>
-    <property name="DEST_Y" value="736"/>
+    <property name="DEST_Y" value="752"/>
    </properties>
   </object>
   <object name="ToDeposit" type="WARP" x="2432" y="960" width="32" height="32">
    <properties>
-    <property name="DEST_MAP" value="8"/>
+    <property name="DEST_MAP" value="001-2"/>
     <property name="DEST_X" value="4176"/>
-    <property name="DEST_Y" value="736"/>
+    <property name="DEST_Y" value="752"/>
    </properties>
   </object>
   <object name="ToCasino" type="WARP" x="2176" y="704" width="64" height="32">
    <properties>
-    <property name="DEST_MAP" value="8"/>
-    <property name="DEST_X" value="1024"/>
-    <property name="DEST_Y" value="2304"/>
+    <property name="DEST_MAP" value="001-2"/>
+    <property name="DEST_X" value="1040"/>
+    <property name="DEST_Y" value="2320"/>
    </properties>
   </object>
   <object name="To2ndFloor" type="WARP" x="3264" y="704" width="64" height="32">
    <properties>
-    <property name="DEST_MAP" value="8"/>
-    <property name="DEST_X" value="2144"/>
-    <property name="DEST_Y" value="928"/>
+    <property name="DEST_MAP" value="001-2"/>
+    <property name="DEST_X" value="2160"/>
+    <property name="DEST_Y" value="944"/>
    </properties>
   </object>
   <object name="To2ndFloor" type="WARP" x="4160" y="704" width="64" height="32">
    <properties>
-    <property name="DEST_MAP" value="8"/>
-    <property name="DEST_X" value="2432"/>
-    <property name="DEST_Y" value="928"/>
+    <property name="DEST_MAP" value="001-2"/>
+    <property name="DEST_X" value="2448"/>
+    <property name="DEST_Y" value="944"/>
    </properties>
   </object>
   <object name="To2ndFloor" type="WARP" x="1024" y="2336" width="32" height="32">
    <properties>
-    <property name="DEST_MAP" value="8"/>
+    <property name="DEST_MAP" value="001-2"/>
     <property name="DEST_X" value="2192"/>
-    <property name="DEST_Y" value="736"/>
+    <property name="DEST_Y" value="752"/>
+   </properties>
+  </object>
+  <object name="ToOutdoor" type="WARP" x="2272" y="2336" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="001-1"/>
+    <property name="DEST_X" value="2416"/>
+    <property name="DEST_Y" value="1360"/>
    </properties>
   </object>
  </objectgroup>

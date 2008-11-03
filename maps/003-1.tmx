@@ -2,8 +2,9 @@
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="190" height="138" tilewidth="32" tileheight="32">
  <properties>
-  <property name="minimap" value="graphics/images/minimap_new_15-1.png"/>
+  <property name="minimap" value="graphics/minimaps/003-1"/>
   <property name="music" value="Faith.ogg"/>
+  <property name="name" value="Beach leading to woodlands"/>
  </properties>
  <tileset name="Desert1" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/desert1.png"/>
@@ -46,22 +47,22 @@
  </layer>
  <layer name="Collision" width="190" height="138">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
-  <object name="ToDesert" type="WARP" x="5440" y="2400" width="96" height="96">
+  <object name="ToSandstorm" type="WARP" x="5504" y="2400" width="32" height="160">
    <properties>
-    <property name="DEST_MAP" value="1"/>
-    <property name="DEST_X" value="480"/>
-    <property name="DEST_Y" value="2112"/>
+    <property name="DEST_MAP" value="002-1"/>
+    <property name="DEST_X" value="1200"/>
+    <property name="DEST_Y" value="3504"/>
    </properties>
   </object>
   <object name="ToWoodland" type="WARP" x="608" y="736" width="96" height="32">
    <properties>
-    <property name="DEST_MAP" value="16"/>
-    <property name="DEST_X" value="3840"/>
-    <property name="DEST_Y" value="3584"/>
+    <property name="DEST_MAP" value="007-1"/>
+    <property name="DEST_X" value="3856"/>
+    <property name="DEST_Y" value="3600"/>
    </properties>
   </object>
   <object name="Black Scorpion" type="SPAWN" x="3456" y="1248" width="640" height="640">

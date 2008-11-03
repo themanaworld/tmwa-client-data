@@ -1,8 +1,10 @@
-<?xml version="1.0"?>
-<map version="0.99b" orientation="orthogonal" width="128" height="128" tilewidth="32" tileheight="32">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="128" height="128" tilewidth="32" tileheight="32">
  <properties>
+  <property name="minimap" value="graphics/minimaps/002-4"/>
   <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
-  <property name="minimap" value="graphics/images/minimap_new_5-1.png"/>
+  <property name="name" value="Desert mines, level 2"/>
  </properties>
  <tileset name="cave" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png" trans="ff00ff"/>
@@ -31,74 +33,31 @@
   </data>
  </layer>
  <objectgroup name="Object Group 1" width="0" height="0">
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1280" y="1440" width="32" height="32">
-   <properties/>
-  </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1600" y="1440" width="32" height="32">
-   <properties/>
-  </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1920" y="1376" width="32" height="32">
-   <properties/>
-  </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2080" y="1376" width="32" height="32">
-   <properties/>
-  </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1920" y="1600" width="32" height="32">
-   <properties/>
-  </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2080" y="1600" width="32" height="32">
-   <properties/>
-  </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1920" y="1824" width="32" height="32">
-   <properties/>
-  </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2080" y="1824" width="32" height="32">
-   <properties/>
-  </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1920" y="2048" width="32" height="32">
-   <properties/>
-  </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2080" y="2048" width="32" height="32">
-   <properties/>
-  </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1920" y="2272" width="32" height="32">
-   <properties/>
-  </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2080" y="2272" width="32" height="32">
-   <properties/>
-  </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1920" y="2496" width="32" height="32">
-   <properties/>
-  </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2080" y="2496" width="32" height="32">
-   <properties/>
-  </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1920" y="2720" width="32" height="32">
-   <properties/>
-  </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2080" y="2720" width="32" height="32">
-   <properties/>
-  </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1440" y="2176" width="32" height="32">
-   <properties/>
-  </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1440" y="2368" width="32" height="32">
-   <properties/>
-  </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2848" y="1120" width="32" height="32">
-   <properties/>
-  </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3104" y="1120" width="32" height="32">
-   <properties/>
-  </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2848" y="1344" width="32" height="32">
-   <properties/>
-  </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3104" y="1344" width="32" height="32">
-   <properties/>
-  </object>
-  <object name="Naem the Miner" type="NPC" x="1040" y="3024" width="0" height="0">
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1280" y="1440" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1600" y="1440" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1920" y="1376" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2080" y="1376" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1920" y="1600" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2080" y="1600" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1920" y="1824" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2080" y="1824" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1920" y="2048" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2080" y="2048" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1920" y="2272" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2080" y="2272" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1920" y="2496" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2080" y="2496" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1920" y="2720" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2080" y="2720" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1440" y="2176" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1440" y="2368" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2848" y="1120" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3104" y="1120" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2848" y="1344" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3104" y="1344" width="32" height="32"/>
+  <object name="Naem the Miner" type="NPC" x="1040" y="3024">
    <properties>
+    <property name="NPC_ID" value="109"/>
     <property name="SCRIPT">
      function npc_handler(npc, ch)
        do_message(npc, ch, "Do you want me to lift you to the upper level?")
@@ -108,13 +67,11 @@
        end
      end
     </property>
-    <property name="NPC_ID">
-     109
-    </property>
    </properties>
   </object>
-  <object name="Chest" type="NPC" x="2976" y="1184" width="0" height="0">
+  <object name="Chest" type="NPC" x="2976" y="1184">
    <properties>
+    <property name="NPC_ID" value="111"/>
     <property name="SCRIPT">
      function npc_handler(npc, ch)
        local g = tonumber(get_quest_var(npc, ch, "005_chest"))
@@ -134,35 +91,20 @@
        end
      end
     </property>
-    <property name="NPC_ID">
-     111
-    </property>
    </properties>
   </object>
-  <object name="Spider" type="SPAWN" x="0" y="0" width="0" height="0">
+  <object name="Spider" type="SPAWN" x="0" y="0">
    <properties>
-    <property name="SPAWN_RATE">
-     10
-    </property>
-    <property name="MONSTER_ID">
-     10
-    </property>
-    <property name="MAX_BEINGS">
-     20
-    </property>
+    <property name="MAX_BEINGS" value="20"/>
+    <property name="MONSTER_ID" value="10"/>
+    <property name="SPAWN_RATE" value="10"/>
    </properties>
   </object>
-  <object name="Yellow Slime" type="SPAWN" x="0" y="0" width="0" height="0">
+  <object name="Yellow Slime" type="SPAWN" x="0" y="0">
    <properties>
-    <property name="SPAWN_RATE">
-     10
-    </property>
-    <property name="MONSTER_ID">
-     5
-    </property>
-    <property name="MAX_BEINGS">
-     25
-    </property>
+    <property name="MAX_BEINGS" value="25"/>
+    <property name="MONSTER_ID" value="5"/>
+    <property name="SPAWN_RATE" value="10"/>
    </properties>
   </object>
  </objectgroup>

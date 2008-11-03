@@ -2,7 +2,7 @@
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="167" height="114" tilewidth="32" tileheight="32">
  <properties>
-  <property name="minimap" value="graphics/images/minimap_new_3-1.png"/>
+  <property name="minimap" value="graphics/minimaps/001-1.png"/>
   <property name="music" value="Faith.ogg"/>
   <property name="name" value="Tulimshar"/>
  </properties>
@@ -51,18 +51,25 @@
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
-  <object name="Warp to Tulimshar" type="WARP" x="1344" y="2816" width="160" height="32">
+  <object name="ToSandstorm" type="WARP" x="1344" y="2816" width="160" height="32">
    <properties>
-    <property name="DEST_MAP" value="1"/>
+    <property name="DEST_MAP" value="002-1"/>
     <property name="DEST_X" value="1872"/>
     <property name="DEST_Y" value="560"/>
    </properties>
   </object>
-  <object name="ToINN" type="WARP" x="1024" y="2304" width="64" height="32">
+  <object name="ToInn" type="WARP" x="1024" y="2304" width="64" height="32">
    <properties>
-    <property name="DEST_MAP" value="8"/>
-    <property name="DEST_X" value="800"/>
-    <property name="DEST_Y" value="1088"/>
+    <property name="DEST_MAP" value="001-2"/>
+    <property name="DEST_X" value="816"/>
+    <property name="DEST_Y" value="1104"/>
+   </properties>
+  </object>
+  <object name="ToHouse" type="WARP" x="2368" y="1344" width="64" height="32">
+   <properties>
+    <property name="DEST_MAP" value="001-2"/>
+    <property name="DEST_X" value="2288"/>
+    <property name="DEST_Y" value="2320"/>
    </properties>
   </object>
  </objectgroup>

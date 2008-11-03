@@ -2,8 +2,9 @@
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="136" height="128" tilewidth="32" tileheight="32">
  <properties>
-  <property name="minimap" value="graphics/images/minimap_new_1-1.png"/>
+  <property name="minimap" value="graphics/minimaps/002-1"/>
   <property name="music" value="Faith.ogg"/>
+  <property name="name" value="Sandstorm, south of Tulimshar"/>
   <property name="overlay0image" value="graphics/images/ambient/sandstorm.png"/>
   <property name="overlay0parallax" value="1.0"/>
   <property name="overlay0scrollX" value="4"/>
@@ -55,13 +56,13 @@
  </layer>
  <layer name="Collision" width="136" height="128">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
   <object name="ToTulimshar" type="WARP" x="1792" y="384" width="160" height="32">
    <properties>
-    <property name="DEST_MAP" value="3"/>
+    <property name="DEST_MAP" value="001-1"/>
     <property name="DEST_X" value="1424"/>
     <property name="DEST_Y" value="2576"/>
    </properties>
@@ -136,25 +137,32 @@
     <property name="FILENAME" value="scripts/test.lua"/>
    </properties>
   </object>
-  <object name="ToEastDesert" type="WARP" x="3456" y="2496" width="64" height="96">
+  <object name="ToEasternDesert" type="WARP" x="3456" y="2496" width="32" height="96">
    <properties>
-    <property name="DEST_MAP" value="7"/>
-    <property name="DEST_X" value="704"/>
+    <property name="DEST_MAP" value="005-1"/>
+    <property name="DEST_X" value="752"/>
     <property name="DEST_Y" value="1296"/>
    </properties>
   </object>
-  <object name="ToWestDesert" type="WARP" x="352" y="2080" width="64" height="160">
+  <object name="ToWesternDesert" type="WARP" x="384" y="2079" width="32" height="160">
    <properties>
-    <property name="DEST_MAP" value="15"/>
-    <property name="DEST_X" value="5376"/>
-    <property name="DEST_Y" value="2112"/>
+    <property name="DEST_MAP" value="003-1"/>
+    <property name="DEST_X" value="5392"/>
+    <property name="DEST_Y" value="2448"/>
    </properties>
   </object>
   <object name="ToCave" type="WARP" x="640" y="3048" width="32" height="32">
    <properties>
-    <property name="DEST_MAP" value="2"/>
+    <property name="DEST_MAP" value="002-3"/>
     <property name="DEST_X" value="1200"/>
     <property name="DEST_Y" value="1024"/>
+   </properties>
+  </object>
+  <object name="ToBeach" type="WARP" x="864" y="416" width="96" height="32">
+   <properties>
+    <property name="DEST_MAP" value="004-1"/>
+    <property name="DEST_X" value="2704"/>
+    <property name="DEST_Y" value="3568"/>
    </properties>
   </object>
  </objectgroup>

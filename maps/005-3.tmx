@@ -2,8 +2,9 @@
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="120" height="116" tilewidth="32" tileheight="32">
  <properties>
-  <property name="minimap" value="graphics/images/minimap_new_22-1.png"/>
+  <property name="minimap" value="graphics/minimaps/005-3.png"/>
   <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
+  <property name="name" value="Snake pit"/>
   <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
  </properties>
  <tileset name="cave" firstgid="1" tilewidth="32" tileheight="32">
@@ -44,4 +45,20 @@
    H4sIAAAAAAAAAO2TQW7DMAwE0/+fmhf30gKBkUi7FGVK6hCYi0Mx9I78/Ho8ngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC/BavT5ljvJ/6ky4x2+vx7kjrarO4hSu35Dj99rnOPr+Bb9znEa/H6eifqvz2Y1oRWZk7FSd1y6MVmvW9Te87uW25XfGXtV57cTMytytOqcdcZxkuY1UdU47MpJj1Alu6/x+6nEdK/3V7346ihfVP37Xo+dF/TYdZ/it86v4792DUb94v8dtz+/rGed7VO9TdT470/seFbfKDMdvdB74fqOVcUfU2VDrd0ZV57YDUS+Kt1G/zh6guVVyzZjz7vnIzvjWssrqmeVX8Vyd6yoouUR67vCLYz8XpS86c4bf1g7VGe/oNzIXv+f4VT3it8Zvq1pz1Jyd5xFH+J3jd8Rjby/8zner+hj1G3UcOXMq0Yr6/fTc2THyPtU5r+i31aPMce6Rsmf0XaozXtFvr0+Z5fjN8IBfLZNo36jfURe4zfXrOHYq832q813NretXcRwp/M5z7Pq9nnH8qTMj71Od7Qq4rnrP3bsQ6VffqTrbFVjBb+8Mftfxq5SzC37P9+u6wq/uV3EW7Z3lGL/tTEcyz/QTnRH931NR8hj1O7qTMwu/vhO35669ZtytE1FyafXMdIDfe/y2MuydjZ57dx6/8xxHPEXK3e3T7+9m/VeiOc+qrN2qc12JaIazyvH7btfqPFckI3vlXMbdqc5qR9xcs13geS+/mXu0nkM7S8evWnfcNRznZViRNX7PdavsWp3hqqh5VXvt7VKd46pEs6rOtvqO7cLu2ey6NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAHz/tMY9ygNkAAA==
   </data>
  </layer>
+ <objectgroup name="Object Group 4" width="0" height="0">
+  <object name="CaveExit" type="WARP" x="1664" y="1056" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="005-1"/>
+    <property name="DEST_X" value="2864"/>
+    <property name="DEST_Y" value="784"/>
+   </properties>
+  </object>
+  <object name="CaveExit" type="WARP" x="1056" y="2624" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="005-1"/>
+    <property name="DEST_X" value="2288"/>
+    <property name="DEST_Y" value="2448"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

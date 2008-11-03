@@ -1,5 +1,10 @@
-<?xml version="1.0"?>
-<map version="0.99b" orientation="orthogonal" width="150" height="150" tilewidth="32" tileheight="32">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="150" height="150" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="graphics/minimaps/001-3.png"/>
+  <property name="name" value="Tulimshar arena"/>
+ </properties>
  <tileset name="Arena" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/arena.png"/>
  </tileset>
@@ -30,21 +35,16 @@
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
-  <object name="ToINN" type="WARP" x="2272" y="928" width="96" height="32">
+  <object name="ToInn" type="WARP" x="2272" y="928" width="96" height="32">
    <properties>
-    <property name="DEST_MAP">
-     8
-    </property>
-    <property name="DEST_Y">
-     736
-    </property>
-    <property name="DEST_X">
-     768
-    </property>
+    <property name="DEST_MAP" value="001-2"/>
+    <property name="DEST_X" value="768"/>
+    <property name="DEST_Y" value="736"/>
    </properties>
   </object>
-  <object name="Phaet the Royal Guard" type="NPC" x="2480" y="1200" width="0" height="0">
+  <object name="Phaet the Royal Guard" type="NPC" x="2480" y="1200">
    <properties>
+    <property name="NPC_ID" value="125"/>
     <property name="SCRIPT">
      function npc_handler(npc, ch)
        do_message(npc, ch, "Do you want to go back?")
@@ -56,20 +56,15 @@
        end
      end
     </property>
-    <property name="NPC_ID">
-     125
-    </property>
    </properties>
   </object>
-  <object name="Aradin the Royal Guard" type="NPC" x="2224" y="1200" width="0" height="0">
+  <object name="Aradin the Royal Guard" type="NPC" x="2224" y="1200">
    <properties>
+    <property name="NPC_ID" value="126"/>
     <property name="SCRIPT">
      function npc_handler(npc, ch)
        do_message(npc, ch, "Don't touch me!\nYou won't find it very funny.")
      end
-    </property>
-    <property name="NPC_ID">
-     126
     </property>
    </properties>
   </object>

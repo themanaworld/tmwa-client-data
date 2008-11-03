@@ -2,8 +2,9 @@
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="117" height="133" tilewidth="32" tileheight="32">
  <properties>
-  <property name="minimap" value="graphics/images/minimap_new_34-1.png"/>
+  <property name="minimap" value="graphics/minimaps/004-1.png"/>
   <property name="music" value="Faith.ogg"/>
+  <property name="name" value="Beach west of Tulimshar"/>
  </properties>
  <tileset name="Desert1" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/desert1.png"/>
@@ -49,5 +50,20 @@
    H4sIAAAAAAAAAO2UUW7jMAxEC+z979Fj7leAQLUTWSI5I+kN8IDd1BHpN2p///38/AIAAAAAAAAAAAAAAAAAAAAAAEAo71HvAvGd0uv6XEW9E8T0eBf1rjDfIb16cOU9K+p33R1VZndVe3NkpouI0KlHnxF5zafT2j4reqfTuj4zunvvYKaT9tyTWT1X76B2Sp/xUXvdudOsGd/OVXt16rSi54pZaq9Onfb6cku7k9rrap2uELVXOv2bq93u9r179lSeel0laq9qZt2p8mm22qkD1d5fn2fNVvt0INrn1b/vnvl0zuiuap8OZOTT2e3n0fuqfap7jO61x3/2HVS7VXf6yUGEu8jvndxXVKfRc+5mPo3anSuZnrKjdudKlDtV1P4cyfadHbU/R1aP2p8bTundp91d7dCNp07vnpm5H7N3S+3QjR2iduhCheeq76tdulGVzFlqh0449BERtUcndonaoxO7RO3RiVmPqrSz1R6d2CVqj07sErVHJ1bP6x3UHp1o3VT4f/qz3p/DuD/HqF068NSXe9Q+HahyXBW1TwcynCqj9umAW3p2+vSM2qearCjvitqpGqXvjLPbGSdSnYrZaqdqepxE9kKntZ1G3ose31lRO1WT4YFO9X26d9pzJp2u1enTqL069BntoSp3s9Rud++0suOMd1mJSA9VPT159iSivThG7VjVZ08fVZ1G3w21Z2WvEX4co3a8aqfOUTt27HS0s7vvZd2BT/NO4oSoHbt32vOdmd/rjHumdrxCrxWuo87/NmdHer3f+RrxPLrf7DucRHR6u6h6H7XfnbpVd6r26UDbA52uz2xHdOoHne7Fk9DpGmR2mu3X5S658TQj353Zx+0eOVOZij3ez1K7deuzfS7Ce88OV5+Pzlb7deqz9eGYp+9wAt/8jPbvdA/UjpWdRrtzidrxqr1m35fXjJFn1H5X7bR15xS135U7dY3ar7JPp46z/n7sToSr6OdH9rq6m+3/TyDCZWVm9lO7XuH3c7Wofa/eZ/a8kTPVznfqc3Z21N5q76o+q+//aEbOULt3osLLaJ9PzlF7PJmoTujUk9k+6BQAAAAAAAAAAAAAAAAAAAAATuc/7ECD2STzAAA=
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0"/>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="ToSandstorm" type="WARP" x="2656" y="3616" width="96" height="32">
+   <properties>
+    <property name="DEST_MAP" value="002-1"/>
+    <property name="DEST_X" value="944"/>
+    <property name="DEST_Y" value="496"/>
+   </properties>
+  </object>
+  <object name="ToBeach" type="WARP" x="1152" y="3552" width="96" height="32">
+   <properties>
+    <property name="DEST_MAP" value="003-1"/>
+    <property name="DEST_X" value="4528"/>
+    <property name="DEST_Y" value="688"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

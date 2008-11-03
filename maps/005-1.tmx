@@ -2,8 +2,9 @@
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="200" height="130" tilewidth="32" tileheight="32">
  <properties>
-  <property name="minimap" value="graphics/images/minimap_new_7-1.png"/>
+  <property name="minimap" value="graphics/minimaps/005-1.png"/>
   <property name="music" value="Faith.ogg"/>
+  <property name="name" value="Snake desert"/>
   <property name="overlay0image" value="tmw/data/graphics/images/ambient/sandstorm.png"/>
   <property name="overlay0parallax" value="1.0"/>
   <property name="overlay0scrollX" value="4"/>
@@ -53,11 +54,11 @@
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
-  <object name="Warp1" type="WARP" x="608" y="1248" width="64" height="128">
+  <object name="ToSandstorm" type="WARP" x="608" y="1248" width="32" height="128">
    <properties>
-    <property name="DEST_MAP" value="1"/>
-    <property name="DEST_X" value="3392"/>
-    <property name="DEST_Y" value="2496"/>
+    <property name="DEST_MAP" value="002-1"/>
+    <property name="DEST_X" value="3408"/>
+    <property name="DEST_Y" value="2512"/>
    </properties>
   </object>
   <object name="Maggot" type="SPAWN" x="0" y="0">
@@ -68,6 +69,111 @@
   <object name="Snake" type="SPAWN" x="0" y="0">
    <properties>
     <property name="MONSTER_ID" value="8"/>
+   </properties>
+  </object>
+  <object name="ToSnakeCave" type="WARP" x="2848" y="736" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="005-3"/>
+    <property name="DEST_X" value="1680"/>
+    <property name="DEST_Y" value="1104"/>
+   </properties>
+  </object>
+  <object name="ToSnakeCave" type="WARP" x="2272" y="2400" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="005-3"/>
+    <property name="DEST_X" value="1072"/>
+    <property name="DEST_Y" value="2672"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountains" type="WARP" x="5344" y="3456" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-1"/>
+    <property name="DEST_X" value="656"/>
+    <property name="DEST_Y" value="1072"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountains" type="WARP" x="5376" y="3424" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-1"/>
+    <property name="DEST_X" value="688"/>
+    <property name="DEST_Y" value="1040"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountains" type="WARP" x="5408" y="3392" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-1"/>
+    <property name="DEST_X" value="720"/>
+    <property name="DEST_Y" value="1008"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountains" type="WARP" x="5472" y="3328" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-1"/>
+    <property name="DEST_X" value="784"/>
+    <property name="DEST_Y" value="944"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountains" type="WARP" x="5440" y="3360" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-1"/>
+    <property name="DEST_X" value="752"/>
+    <property name="DEST_Y" value="976"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountains" type="WARP" x="5504" y="3296" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-1"/>
+    <property name="DEST_X" value="816"/>
+    <property name="DEST_Y" value="912"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountains" type="WARP" x="5568" y="3232" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-1"/>
+    <property name="DEST_X" value="880"/>
+    <property name="DEST_Y" value="848"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountains" type="WARP" x="5536" y="3264" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-1"/>
+    <property name="DEST_X" value="848"/>
+    <property name="DEST_Y" value="880"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountains" type="WARP" x="5600" y="3200" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-1"/>
+    <property name="DEST_X" value="912"/>
+    <property name="DEST_Y" value="816"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountains" type="WARP" x="5632" y="3168" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-1"/>
+    <property name="DEST_X" value="944"/>
+    <property name="DEST_Y" value="784"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountains" type="WARP" x="5664" y="3136" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-1"/>
+    <property name="DEST_X" value="976"/>
+    <property name="DEST_Y" value="752"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountains" type="WARP" x="5696" y="3104" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-1"/>
+    <property name="DEST_X" value="1008"/>
+    <property name="DEST_Y" value="720"/>
+   </properties>
+  </object>
+  <object name="ToDesertMountains" type="WARP" x="5728" y="3072" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-1"/>
+    <property name="DEST_X" value="1040"/>
+    <property name="DEST_Y" value="688"/>
    </properties>
   </object>
  </objectgroup>
