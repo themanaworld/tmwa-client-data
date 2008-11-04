@@ -3,6 +3,7 @@
 <map version="1.0" orientation="orthogonal" width="107" height="110" tilewidth="32" tileheight="32">
  <properties>
   <property name="music" value="Clouds Calling.ogg"/>
+  <property name="name" value="Dimond's Cove"/>
  </properties>
  <tileset name="Woodland Indoor" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/woodland_indoor.png"/>
@@ -36,7 +37,58 @@
  </layer>
  <layer name="Collision" width="107" height="110">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3aW46DMAwF0OlS2v0vcn6mEoN4JEBiB06ko75AsX3Tr/bz+vn5AAAAAAAAAAAAwKC2Vu+9zqzoObaaS+l8ZJUnL1nlMe+hdj6yis9qb4496lraqzSLO2VU0ntk/0/Naqu3kl6m19beK6v7ZrW3V2lWo9pbS9eU3NdiPrV1tqwlY1ZnVqZao+cc3X/v+VxV09rz7Ep6KJ2BcyUrWV3b/0i1RtWfpf/oPr691Lw/mqdllaXWHlnV3BvZx9Jn0bO+qseS57Ur8oxlO0uy2t83qr6I83lmyeq5WR3ZO6pWWR3bN6JWWR3bN6JWAAAAAAAAAABy8l8Rzpr+52jv8ev957vWXkf31npmvb9/peuuWZ1ZWWs9e09mR1f2Ou+a1ZF5ZDhbW1nKKr6/p2e1VvtI/T01qxH7K6kvY909strKMGImT8pq3s989kcyy3Dm1j5b6n0E86zmPWTIquWKnn/tDGSV2xX99Oq15YrOISqrVr23XNE5XD2D0qx6197y+oy2cpm+l+2sPjGrtby2XvfO6v36/xvG3n61149mlKxK9q69fiRL9c97WeuvR/81K/pc9crq+3z6WJNVq99aa/I5cv1o1rKoOduy6pvV0XnNZ9Ezq7UcImrNkBUAAAAAAAAAALTwCz5n2ubotwAA
+   H4sIAAAAAAAAAO3aXa6CMBAGUF2K7n+R9+WaIKHQAu0Mcpqc+FfCzHz1Sd/Px+MNAAAAAAAAAAAAHHZkRdfeu+/oGmVV33t0fbL67n1tFtH1yWo7q605jcykNquoWkdmlbH/u2a11ltNL9O9rdfK6nez2rpXbVZXtbWW9tRc12M+rXX2rCVjVkdWplqj5xzd/+j5nFVT6Xl2NT3UzsC5kpWszu3/SrVG1Z+l/+g+Pr20vH81d8sqS60jsmq5NrKPpc+iZ31WjzXPW1fkGct2lmS1fd+o+iLO55Elq/tmtefeUbXKat99I2qV1b77RtQKAAAAAAAAAEBO/ivCUdP/HG09frz+fVbpdXRvvWc2+vtXu341qyMra61Hr8ls78pe569mtWceGc7WWpayiu/v7lmVas/Yn6zaV3TdW32U9kTXGZHVWoYRM7lTVvN+5rPfk1mGM1f6bKn3K5hnNe8hQ1Y9V/T8W2cgq9zO6GdUrz1XdA5RWfXqveeKzuHsGdRmNbr2nvszWstl+l62s3rHrEp5rb0endXr+f0bxtb9WvdfzVWyqrl36/4rWap/3kupvxH9t6zoczUqq8/z6WNLVr1+a23JZ8/+qyll0XK2ZTU2q73zms9iZFalHCJqzZAVAAAAAAAAAAD08Ad2lAno6LcAAA==
   </data>
  </layer>
+ <objectgroup name="Object Group 4" width="0" height="0">
+  <object name="ToCellar" type="warp" x="864" y="768" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010-2"/>
+    <property name="dest_x" value="1136"/>
+    <property name="dest_y" value="2192"/>
+   </properties>
+  </object>
+  <object name="ToOutdoor" type="warp" x="1024" y="1440" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010-1"/>
+    <property name="dest_x" value="1168"/>
+    <property name="dest_y" value="3056"/>
+   </properties>
+  </object>
+  <object name="To2ndFloor" type="warp" x="1248" y="864" width="96" height="32">
+   <properties>
+    <property name="dest_map" value="010-2"/>
+    <property name="dest_x" value="2640"/>
+    <property name="dest_y" value="848"/>
+   </properties>
+  </object>
+  <object name="To1stFloor" type="warp" x="1152" y="2176" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010-2"/>
+    <property name="dest_x" value="912"/>
+    <property name="dest_y" value="784"/>
+   </properties>
+  </object>
+  <object name="To3rdFloor" type="warp" x="2112" y="864" width="96" height="32">
+   <properties>
+    <property name="dest_map" value="010-2"/>
+    <property name="dest_x" value="2160"/>
+    <property name="dest_y" value="2288"/>
+   </properties>
+  </object>
+  <object name="To1stFloor" type="warp" x="2624" y="928" width="96" height="32">
+   <properties>
+    <property name="dest_map" value="010-2"/>
+    <property name="dest_x" value="1296"/>
+    <property name="dest_y" value="880"/>
+   </properties>
+  </object>
+  <object name="To2ndFloor" type="warp" x="2112" y="2336" width="96" height="32">
+   <properties>
+    <property name="dest_map" value="010-2"/>
+    <property name="dest_x" value="2160"/>
+    <property name="dest_y" value="912"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

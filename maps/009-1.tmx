@@ -2,8 +2,9 @@
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="117" height="75" tilewidth="32" tileheight="32">
  <properties>
-  <property name="minimap" value="graphics/images/minimap_new_19-1.png"/>
+  <property name="minimap" value="graphics/minimaps/009-1.png"/>
   <property name="music" value="Magick - Real.ogg"/>
+  <property name="name" value="Hurnscald"/>
   <property name="overlay0image" value="graphics/images/ambient/clouds.png"/>
   <property name="overlay0parallax" value="1.0"/>
   <property name="overlay0scrollX" value="0.2"/>
@@ -56,36 +57,85 @@
  </layer>
  <layer name="Collision" width="117" height="75">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO2SUY7DMAgF297/0PtVKWIdgoEY3MyTRpuubIwZf96v1wcAAAAAAAAAAAAAAAAAAAAAAAAAAGAxMtX9AE5B9zlKdP9s7cxaTyUyq2hwutalZVbR4LSvU++Z1r48a56IxSNOe2C9nzVRp/KNeJxG++zOzCw8M5OutHmdnXX8Lb9He7Q11lR76ex0Zl5naypS7cXrUuvfes/ovI6/tTWrU+0ny6l2P+sctP9dvRVLTct7O647+zuqKXvdBTKXal84zU+1L5z+j/fe1Z7udJtZd+Wb0vqz9F3tp4PT79o7UjGPaj+7O73qb/Zeo2+czt/tu9aTbKfe/r1ndiEyb5z2JDJv6RGnPYjMW9bIqmd1qtXJOG9mXyciDiLJ6m/kPfO8aj+rnUa8yhoRpzPrtHNwer7/qu7V2dJzRiwucep3ulOq/VQ4jdbtnmo/dzq9cz6W+ck1kfO1b2vPnVmZDKeWtXLfTI3Z+h1ZmajT0bf1fp69u7IyUaeWWtpbeAqd4umzen5Pgtn/HjgFAAAAAAAAAAAAAAAAAAAA2Js/vyfEPByJAAA=
+   H4sIAAAAAAAAAO2S22rEMAwFt/v/H92nhSAcRbdYCpkDQ7PFlmWNv3+fzxcAAAAAAAAAAAAAAAAAAAAAAAAAAAAgiUx3P1Drc5Xsfm/tylpvJTOrbHC616VlVtngdK7T6JnWviJr3ojFI05nYL2fNVmn8o1EnGb7nI5nFpGZSVfavM7OOv6W36s92hprur1MduqZ19majnR7ibrU+rfeMzuv429tze50+6lyqt3POgftf1dvxVLT8t6O687+rmrKXp8EsaXbE07r0+0Jp+tE79zt6E6vlXV3vietP0vf3X4mOP2tvSMd8+j283SnV/1577X6xqn/br+1kVQ7jfYfPXMKmXnjdCaZeUuPOJ1BZt6yRlU9q1OtTsV5nn2TyDjIpKq/lffK87r97Haa8SprZJx61mnn4PR8/1Xdq7Ol54pYXOI07vRJ6fbT4TRbd3q6/dzp9M75WOYn12TO176tPU9mZyqcWtbKfZ4a3voT2Zms09W39X6RvU9lZ7JOLbW0t/AWJiXSZ/f83gSzBwAAAAAAAAAAAAAAAAAAAACYxT8HlxeeHIkAAA==
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
-  <object name="WestGate" type="WARP" x="704" y="1120" width="64" height="96">
+  <object name="HurnscaldSouthGate" type="WARP" x="1504" y="1760" width="128" height="32">
    <properties>
-    <property name="DEST_MAP" value="18"/>
-    <property name="DEST_X" value="1696"/>
-    <property name="DEST_Y" value="1952"/>
+    <property name="DEST_MAP" value="008-1"/>
+    <property name="DEST_X" value="2512"/>
+    <property name="DEST_Y" value="2640"/>
    </properties>
   </object>
-  <object name="SouthGate" type="WARP" x="1504" y="1760" width="128" height="64">
+  <object name="HurnscaldEastGate" type="WARP" x="3104" y="1120" width="32" height="64">
    <properties>
-    <property name="DEST_MAP" value="18"/>
-    <property name="DEST_X" value="2496"/>
-    <property name="DEST_Y" value="2624"/>
+    <property name="DEST_MAP" value="008-1"/>
+    <property name="DEST_X" value="4144"/>
+    <property name="DEST_Y" value="1936"/>
    </properties>
   </object>
-  <object name="EasthGate" type="WARP" x="3104" y="1120" width="64" height="64">
+  <object name="ToInn" type="warp" x="1120" y="960" width="32" height="32">
    <properties>
-    <property name="DEST_MAP" value="18"/>
-    <property name="DEST_X" value="4128"/>
-    <property name="DEST_Y" value="1920"/>
+    <property name="dest_map" value="009-2"/>
+    <property name="dest_x" value="1616"/>
+    <property name="dest_y" value="1776"/>
    </properties>
   </object>
-  <object name="NorthGate" type="WARP" x="1504" y="736" width="128" height="64">
+  <object name="ToGeneralStore" type="warp" x="1856" y="1472" width="32" height="32">
    <properties>
-    <property name="DEST_MAP" value="18"/>
-    <property name="DEST_X" value="2496"/>
-    <property name="DEST_Y" value="1536"/>
+    <property name="dest_map" value="009-2"/>
+    <property name="dest_x" value="880"/>
+    <property name="dest_y" value="3376"/>
+   </properties>
+  </object>
+  <object name="ToArcherShop" type="warp" x="1888" y="1056" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="009-2"/>
+    <property name="dest_x" value="3056"/>
+    <property name="dest_y" value="944"/>
+   </properties>
+  </object>
+  <object name="ToPotionShop" type="warp" x="2272" y="960" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="009-2"/>
+    <property name="dest_x" value="4176"/>
+    <property name="dest_y" value="816"/>
+   </properties>
+  </object>
+  <object name="ToHospital" type="warp" x="2560" y="992" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="009-2"/>
+    <property name="dest_x" value="4784"/>
+    <property name="dest_y" value="2128"/>
+   </properties>
+  </object>
+  <object name="ToMayor" type="warp" x="2304" y="1408" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="009-2"/>
+    <property name="dest_x" value="3632"/>
+    <property name="dest_y" value="2480"/>
+   </properties>
+  </object>
+  <object name="ToBlacksmith" type="warp" x="2912" y="1472" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="009-2"/>
+    <property name="dest_x" value="5808"/>
+    <property name="dest_y" value="2128"/>
+   </properties>
+  </object>
+  <object name="HurnscaldWestGate" type="warp" x="768" y="1120" width="32" height="96">
+   <properties>
+    <property name="dest_map" value="008-1"/>
+    <property name="dest_x" value="1712"/>
+    <property name="dest_y" value="1968"/>
+   </properties>
+  </object>
+  <object name="HurnscaldNorthGate" type="warp" x="1504" y="768" width="128" height="32">
+   <properties>
+    <property name="dest_map" value="008-1"/>
+    <property name="dest_x" value="2512"/>
+    <property name="dest_y" value="1552"/>
    </properties>
   </object>
  </objectgroup>

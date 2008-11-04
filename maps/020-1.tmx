@@ -1,23 +1,24 @@
-<?xml version="1.0"?>
-<map version="0.99b" orientation="orthogonal" width="128" height="148" tilewidth="32" tileheight="32">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="128" height="148" tilewidth="32" tileheight="32">
  <properties>
-  <property name="music" value="The Mana World - Snow Village.ogg"/>
   <property name="minimap" value="graphics/images/minimap_new_11-1.png"/>
+  <property name="music" value="The Mana World - Snow Village.ogg"/>
  </properties>
  <tileset name="snow" firstgid="1" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/snowset.png" trans="000000"/>
+  <image source="../../../trunk/graphics/tiles/snowset.png" trans="000000"/>
  </tileset>
  <tileset name="walk" firstgid="81" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png"/>
+  <image source="../../../trunk/graphics/tiles/collision.png"/>
  </tileset>
  <tileset name="building" firstgid="83" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/snow_building.png"/>
+  <image source="../../../trunk/graphics/tiles/snow_building.png"/>
  </tileset>
  <tileset name="Snow_x3" firstgid="193" tilewidth="32" tileheight="96">
-  <image source="../graphics/tiles/snow_x3.png"/>
+  <image source="../../../trunk/graphics/tiles/snow_x3.png"/>
  </tileset>
  <tileset name="Snow_x2" firstgid="209" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/snow_x2.png"/>
+  <image source="../../../trunk/graphics/tiles/snow_x2.png"/>
  </tileset>
  <layer name="Ground" width="128" height="148">
   <data encoding="base64" compression="gzip">
@@ -36,142 +37,72 @@
  </layer>
  <layer name="Collision" width="128" height="148">
   <data encoding="base64" compression="gzip">
-   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
+   H4sIAAAAAAAAAO2U0Y7rIAwF8437/x9zn6obRQlgsDkG5kij3TYktT1u/67r+gMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcOAZdT0Q63ckJ9S1G57JUINnXSfgHYXfWtQzzshJUc86I6dFPW81mWfTW4sl6h7Vc63NRRkvp5azJ9A6h13CDtjc7xb8l2ewo/N78F/vPTIRz7f02jqDHanFei56V1rj6b/2vFVpyej3QhX8+3hZ0f9XHSX/vc9dldbM9h/RQ8vnedeWndZYZmM5X3pObw8j+xZRX1Ys8fqeWT4voo/S50XVlxVrvzOT3f/b/ath6c0j1s/E/17+LbnXGOHfe4/ULqP8K9xHJuo3RO0S//VEeC89OzOWvjzPqeLt++v5K2Dtyysr9V3rIVtvUTMYmZu6V2/3paj7651DbT69s1M4UEbtNaP/k6L22uu/tS/rPbXn7fb7oPY64n/k98Fy3ns3M0XtNcr//UzrHErXarX1/NbMmJGijhm9tfbusSNRc/dMz/PUTkf22uIA///PrEhLLy29917Hf27/LcG/3qPKv9cZzyj8/86tRqmPln5r/7+9jg7++/1bv/tv51t2LDL4798B/I89T+1ypv+sme2/tPsr8ax/1fD99/G/6g4o/f/Or8hb7erU6v26x7sG6/kVeatdnV7/Lb32nh+tOytvtavj6WRm1C57vL/VHpGoujNF7dTLf8Sc8Z+PUu3ewX8+SrV7Z3f/apces8wya/zj/15DxppK11eh1kNLn6cE/9993q/tmhP8X5VrX32eHrVHT/89vT7fz5yI+tQe1TtQmsFIsu/SL2qHs/1b+989aodK/7N2LGvU/jL6vy7bs1feGbU/tf+3OYzcq/A/8plqf1n832fRe99q33+1u2z+e5O1rlrU7nbxb82z7r+P96NrWBUyFrU//Ouidod/bdTu8K+L2lvGnThl79R+su7E7H2bGfX8MxI1o9ozn9dLr3uinivY9qP0+nkN1ufptPT69x7sw9Nt6fXvPdiDZ/B/Fm9e396Dc7hHXQvgH/AP+Id53i1R1w1zfT+j7gPmeW+5X90faP2/3QN5GMno/V/PhLn+ezx67E/t2ZDL/9f9I1H3fzrX7W8tI/7VfcJc/+q+YI7/t3vVPcFc/7A+LVHXCPgHjfsrQZ2g3wN1jaDdA3VtoNmBv9tfAAAAAAAAAAAAAAAAAAAAAAAAAIAM/APpJm4UACgBAA==
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
   <object name="ToIceCave" type="WARP" x="2400" y="1216" width="96" height="32">
    <properties>
-    <property name="DEST_MAP">
-     12
-    </property>
-    <property name="DEST_Y">
-     896
-    </property>
-    <property name="DEST_X">
-     992
-    </property>
-   </properties>
-  </object>
-  <object name="ToSouthSnowField" type="WARP" x="2240" y="3360" width="96" height="64">
-   <properties>
-    <property name="DEST_MAP">
-     10
-    </property>
-    <property name="DEST_Y">
-     928
-    </property>
-    <property name="DEST_X">
-     2208
-    </property>
+    <property name="DEST_MAP" value="020-3"/>
+    <property name="DEST_X" value="992"/>
+    <property name="DEST_Y" value="896"/>
    </properties>
   </object>
   <object name="ToClothesShop" type="WARP" x="1504" y="1536" width="32" height="32">
    <properties>
-    <property name="DEST_MAP">
-     13
-    </property>
-    <property name="DEST_Y">
-     1056
-    </property>
-    <property name="DEST_X">
-     800
-    </property>
-   </properties>
-  </object>
-  <object name="ToPotionsShop" type="WARP" x="1792" y="2880" width="32" height="32">
-   <properties>
-    <property name="DEST_MAP">
-     13
-    </property>
-    <property name="DEST_Y">
-     800
-    </property>
-    <property name="DEST_X">
-     2112
-    </property>
-   </properties>
-  </object>
-  <object name="ToINN" type="WARP" x="2048" y="2656" width="32" height="32">
-   <properties>
-    <property name="DEST_MAP">
-     13
-    </property>
-    <property name="DEST_Y">
-     960
-    </property>
-    <property name="DEST_X">
-     3552
-    </property>
-   </properties>
-  </object>
-  <object name="ToWeaponsShop" type="WARP" x="2688" y="1472" width="32" height="32">
-   <properties>
-    <property name="DEST_MAP">
-     13
-    </property>
-    <property name="DEST_Y">
-     2272
-    </property>
-    <property name="DEST_X">
-     1024
-    </property>
+    <property name="DEST_MAP" value="020-2"/>
+    <property name="DEST_X" value="800"/>
+    <property name="DEST_Y" value="1056"/>
    </properties>
   </object>
   <object name="ToHouse" type="WARP" x="2112" y="1664" width="32" height="32">
    <properties>
-    <property name="DEST_MAP">
-     13
-    </property>
-    <property name="DEST_Y">
-     2176
-    </property>
-    <property name="DEST_X">
-     2304
-    </property>
+    <property name="DEST_MAP" value="020-2"/>
+    <property name="DEST_X" value="2304"/>
+    <property name="DEST_Y" value="2176"/>
    </properties>
   </object>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2000" y="4016" width="0" height="0">
-   <properties/>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2000" y="4016"/>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2032" y="4016"/>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2000" y="4048"/>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2032" y="4048"/>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2064" y="4048"/>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2096" y="4048"/>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2000" y="4080"/>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2032" y="4080"/>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2064" y="4080"/>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2096" y="4080"/>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="1968" y="4112"/>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2000" y="4112"/>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2032" y="4112"/>
+  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2064" y="4112"/>
+  <object name="toSnowField" type="warp" x="2176" y="4064" width="128" height="32">
+   <properties>
+    <property name="dest_map" value="019-1"/>
+    <property name="dest_x" value="2240"/>
+    <property name="dest_y" value="704"/>
+   </properties>
   </object>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2032" y="4016" width="0" height="0">
-   <properties/>
+  <object name="toInn" type="warp" x="2048" y="2624" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="020-2"/>
+    <property name="dest_x" value="3552"/>
+    <property name="dest_y" value="992"/>
+   </properties>
   </object>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2000" y="4048" width="0" height="0">
-   <properties/>
+  <object name="toWeaponShop" type="warp" x="2752" y="1472" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="020-2"/>
+    <property name="dest_x" value="1024"/>
+    <property name="dest_y" value="2304"/>
+   </properties>
   </object>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2032" y="4048" width="0" height="0">
-   <properties/>
-  </object>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2064" y="4048" width="0" height="0">
-   <properties/>
-  </object>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2096" y="4048" width="0" height="0">
-   <properties/>
-  </object>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2000" y="4080" width="0" height="0">
-   <properties/>
-  </object>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2032" y="4080" width="0" height="0">
-   <properties/>
-  </object>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2064" y="4080" width="0" height="0">
-   <properties/>
-  </object>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2096" y="4080" width="0" height="0">
-   <properties/>
-  </object>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="1968" y="4112" width="0" height="0">
-   <properties/>
-  </object>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2000" y="4112" width="0" height="0">
-   <properties/>
-  </object>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2032" y="4112" width="0" height="0">
-   <properties/>
-  </object>
-  <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2064" y="4112" width="0" height="0">
-   <properties/>
+  <object name="ToPotionsShop" type="WARP" x="1792" y="2880" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="020-2"/>
+    <property name="DEST_X" value="2112"/>
+    <property name="DEST_Y" value="800"/>
+   </properties>
   </object>
  </objectgroup>
 </map>

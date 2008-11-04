@@ -2,8 +2,9 @@
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="150" height="120" tilewidth="32" tileheight="32">
  <properties>
-  <property name="minimap" value="graphics/images/minimap_new_14-1.png"/>
+  <property name="minimap" value="graphics/minimaps/010-1.png"/>
   <property name="music" value="The Mana World - The Forest.ogg"/>
+  <property name="name" value="South woodland"/>
   <property name="overlay0image" value="graphics/images/ambient/clouds.png"/>
   <property name="overlay0parallax" value="1.0"/>
   <property name="overlay0scrollX" value="0.2"/>
@@ -54,18 +55,11 @@
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
-  <object name="ToField" type="WARP" x="4160" y="1696" width="64" height="128">
+  <object name="ToCentralWoodland" type="WARP" x="1536" y="736" width="64" height="32">
    <properties>
-    <property name="DEST_MAP" value="16"/>
-    <property name="DEST_X" value="768"/>
-    <property name="DEST_Y" value="1712"/>
-   </properties>
-  </object>
-  <object name="ToField" type="WARP" x="1536" y="736" width="64" height="64">
-   <properties>
-    <property name="DEST_MAP" value="9"/>
-    <property name="DEST_X" value="1536"/>
-    <property name="DEST_Y" value="3232"/>
+    <property name="DEST_MAP" value="011-1"/>
+    <property name="DEST_X" value="1488"/>
+    <property name="DEST_Y" value="3184"/>
    </properties>
   </object>
   <object name="Scorpion" type="SPAWN" x="2336" y="1728" width="640" height="640">
@@ -76,6 +70,34 @@
   <object name="Shroom" type="SPAWN" x="1088" y="1984" width="1024" height="640">
    <properties>
     <property name="MONSTER_ID" value="17"/>
+   </properties>
+  </object>
+  <object name="ToSouthWestWoodland" type="warp" x="448" y="1728" width="32" height="64">
+   <properties>
+    <property name="dest_map" value="015-1"/>
+    <property name="dest_x" value="2960"/>
+    <property name="dest_y" value="1744"/>
+   </properties>
+  </object>
+  <object name="ToDimondsCove" type="warp" x="1152" y="3008" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="010-2"/>
+    <property name="dest_x" value="1040"/>
+    <property name="dest_y" value="1424"/>
+   </properties>
+  </object>
+  <object name="ToSouthernmostWoodland" type="warp" x="1760" y="3328" width="96" height="32">
+   <properties>
+    <property name="dest_map" value="015-1"/>
+    <property name="dest_x" value="1808"/>
+    <property name="dest_y" value="688"/>
+   </properties>
+  </object>
+  <object name="ToSouthEastWoodland" type="warp" x="4192" y="1696" width="32" height="64">
+   <properties>
+    <property name="dest_map" value="007-1"/>
+    <property name="dest_x" value="816"/>
+    <property name="dest_y" value="1712"/>
    </properties>
   </object>
  </objectgroup>

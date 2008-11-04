@@ -10,31 +10,31 @@
   <property name="overlay0scrollY" value="0.1"/>
  </properties>
  <tileset name="Woodland" firstgid="1" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Woodland_ground.png"/>
+  <image source="../../../trunk/graphics/tiles/Woodland_ground.png"/>
  </tileset>
  <tileset name="Woodland x2" firstgid="257" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/Woodland_x2.png"/>
+  <image source="../../../trunk/graphics/tiles/Woodland_x2.png"/>
  </tileset>
  <tileset name="Woodland x3" firstgid="273" tilewidth="32" tileheight="96">
-  <image source="../graphics/tiles/Woodland_x3.png"/>
+  <image source="../../../trunk/graphics/tiles/Woodland_x3.png"/>
  </tileset>
  <tileset name="Woodland Village" firstgid="289" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Woodland_village.png"/>
+  <image source="../../../trunk/graphics/tiles/Woodland_village.png"/>
  </tileset>
  <tileset name="Woodland Village x2" firstgid="545" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/Woodland_village_x2.png"/>
+  <image source="../../../trunk/graphics/tiles/Woodland_village_x2.png"/>
  </tileset>
  <tileset name="Woodland Indoor" firstgid="561" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/woodland_indoor.png"/>
+  <image source="../../../trunk/graphics/tiles/woodland_indoor.png"/>
  </tileset>
  <tileset name="Woodland Indoor x2" firstgid="817" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/woodland_indoor_x2.png"/>
+  <image source="../../../trunk/graphics/tiles/woodland_indoor_x2.png"/>
  </tileset>
  <tileset name="Collision" firstgid="833" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png"/>
+  <image source="../../../trunk/graphics/tiles/collision.png"/>
  </tileset>
  <tileset name="Untitled" firstgid="835" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Woodland_water.png"/>
+  <image source="../../../trunk/graphics/tiles/Woodland_water.png"/>
  </tileset>
  <layer name="Ground" width="200" height="120">
   <data encoding="base64" compression="gzip">
@@ -56,12 +56,103 @@
    H4sIAAAAAAAAAO2UW64dKwxEI92ZZf6DyteVUAsaY2zKvVklLeWoN/hZ5O9/f/78/QCt1LUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAOPalrAqhA+xZ4H3A7K1LXCnAa3gfAmF9+H1+sGWqx+z5Ovqde7Oe39l/eB6ww8u+Ox6PirNZuycX7ACteRcX0xtjtQT13qEvrD69m8b1x2u+We16pdwC1iFZULu9d653RGfU+oBa/pl5f1l7Vu4B6ZPlzN5f37u4dgJZo7eRqz3nr9NxT7wDq8vTlriz5PHF28kf3AHcRqYi8q2dHd0/1AfdQ1VNvOWc1PH9T9wLfZvU9nPKT5314pd4B1Kb3Bqp6aVSLpeaqPUF9qnhnltPzPqxS7wBq4/FLe27XY73cz7/ffM37gApkeC7C07tSzxW+SeudLN9F+Hr2bbdGgCfRfs3K5b1vrQ3upueTSK3W4omZXRfcS+uVDHnqmdWknhn8Jj1vRfnf4mOrty35ACJZ8bXl95ne7qtnAd8j0zdvHo6Qt4as3tS7hLzdZux3lifyHZzuc6Uf9b4hxjcZu5zlmCmjz9UYljoz+4DzeHa547HR3VVftd88da/UHin1vmEN7369O3+7s5LTWucs/v/fo+bjqQvqcnrnozuzuBF1Pb9b+4iUet+w7tWTO3+78xaz/TbKP6trp4+MWUCMXzPzre7fUt/bOU9PUXXtzNibD2wz3Zn/6Voj1caOnIkl78n5qL32JVb31/teYfbRWulrNpNZnpOzUPvtS8xm6JG6J2/dlv4j8p2egXoXXydDllyWunp/Z/dlue/Np9415PjGc789v+PXWT2rffZ+98xJvUfIYdePVeXtM2JO6p3C2ffRnrXEsMTundmpcZbLem6W31rT27zgO4w8YvGNNaZV0fGeMVdyRuS25oDaZO83wkO9s6c8ao0dnRe0nPCWJefoTGQfJ2a1G1ftB4jdd/ReM7xd3XuRvULOTmaeHO0uercZ7+Otfsu97Hn3zqj9cSOrsvprNdasxlFM5axOzv10r2Dfx2hHkYry0Cxm9KyiZt3GyuwDYne2uidPPI927rb3M+aUIbVXbqSde+SORud3fJGhndmcfDtqn9zKbB8Zezql0/kypfbJraj2Fembr8kzA7VPbiVy36o3Uk0Z/al9ciNROz/xNmb3djxZ4b1a+4N6b+PEvqw+uVFqr9zGaP7W7xk7OyFvLsu9zD7UfrmJqvtCY6k9cwvVdtXG89YRLeV77eVWe+YW3nZwYkfIJ7VvbkG9p5vlnYHaM7exu1/ex1mp/XIbs7ln7uikTubMzKX2C5xjtP9q6tWb+QYstcDvs+uRX5K1J/XOoP77iPDZ7p23u89vUf2q9wUaKqitJasuS4633Oo9gZYvqVez9dtuTriPk/LmjKi1F8MaV70j0OHxVaR68Xdq24k3ywP3oVIv/+zbrI/Vb9Ya4W5WPGPRSqxT/a3Wq94J1OGURvlO9/jWt3oXUA+PzyOk7rX9NvpbVSfUYtXXkares3o3oKfnhzefWM5/yX+9XtQ1QR1W/bwrdb8rc1DXBDV484blfXjiVIJ3AU+sas9b71lzVOq1d1a9I9DhkfdeBf89axjNoXcG7mPFx+1vEarS8+h39W6gDqu+3lWbV937bAbquqAGT9+++cTio9G3L/iven2g4e3/+V/3y6hvdV0Aat6krg2gGrwLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA7+QcKPZ83AHcBAA==
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0" y="81">
-  <object name="ToWoodland" type="WARP" x="2464" y="3232" width="128" height="64">
+ <objectgroup name="Object Group 4" width="0" height="0">
+  <object name="toMine" type="warp" x="2496" y="1888" width="64" height="32">
    <properties>
-    <property name="DEST_MAP" value="16"/>
-    <property name="DEST_X" value="2176"/>
-    <property name="DEST_Y" value="736"/>
+    <property name="dest_map" value="018-3"/>
+    <property name="dest_x" value="3200"/>
+    <property name="dest_y" value="4160"/>
+   </properties>
+  </object>
+  <object name="toCave" type="warp" x="3584" y="1952" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="018-3"/>
+    <property name="dest_x" value="1408"/>
+    <property name="dest_y" value="1152"/>
+   </properties>
+  </object>
+  <object name="toCave" type="warp" x="3680" y="1280" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="013-3"/>
+    <property name="dest_x" value="704"/>
+    <property name="dest_y" value="3648"/>
+   </properties>
+  </object>
+  <object name="toCave" type="warp" x="4096" y="1792" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="018-3"/>
+    <property name="dest_x" value="1568"/>
+    <property name="dest_y" value="3104"/>
+   </properties>
+  </object>
+  <object name="toCave" type="warp" x="2880" y="1344" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="018-3"/>
+    <property name="dest_x" value="3936"/>
+    <property name="dest_y" value="5248"/>
+   </properties>
+  </object>
+  <object name="toCave" type="warp" x="2208" y="1728" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="018-3"/>
+    <property name="dest_x" value="2240"/>
+    <property name="dest_y" value="3296"/>
+   </properties>
+  </object>
+  <object name="toCave" type="warp" x="4064" y="1152" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="013-3"/>
+    <property name="dest_x" value="4448"/>
+    <property name="dest_y" value="1408"/>
+   </properties>
+  </object>
+  <object name="toCave" type="warp" x="4288" y="1440" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="013-3"/>
+    <property name="dest_x" value="1952"/>
+    <property name="dest_y" value="5696"/>
+   </properties>
+  </object>
+  <object name="toCave" type="warp" x="4704" y="1280" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="013-3"/>
+    <property name="dest_x" value="2592"/>
+    <property name="dest_y" value="3264"/>
+   </properties>
+  </object>
+  <object name="toCave" type="warp" x="4896" y="1472" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="018-3"/>
+    <property name="dest_x" value="4672"/>
+    <property name="dest_y" value="5120"/>
+   </properties>
+  </object>
+  <object name="toCave" type="warp" x="5056" y="1088" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="018-3"/>
+    <property name="dest_x" value="2048"/>
+    <property name="dest_y" value="3232"/>
+   </properties>
+  </object>
+  <object name="toCave" type="warp" x="5184" y="1408" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="018-3"/>
+    <property name="dest_x" value="928"/>
+    <property name="dest_y" value="5248"/>
+   </properties>
+  </object>
+  <object name="toCave" type="warp" x="5664" y="640" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="013-1"/>
+    <property name="dest_x" value="5664"/>
+    <property name="dest_y" value="2880"/>
+   </properties>
+  </object>
+  <object name="toIndoor" type="warp" x="2080" y="2336" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="018-2"/>
+    <property name="dest_x" value="1600"/>
+    <property name="dest_y" value="896"/>
    </properties>
   </object>
  </objectgroup>

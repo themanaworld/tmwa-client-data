@@ -2,8 +2,9 @@
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="200" height="151" tilewidth="32" tileheight="32">
  <properties>
-  <property name="minimap" value="graphics/images/minimap_new_35-1.png"/>
+  <property name="minimap" value="graphics/minimaps/009-3.png"/>
   <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
+  <property name="name" value="Cave beneath Hurnscald"/>
  </properties>
  <tileset name="Cave" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png"/>
@@ -49,7 +50,7 @@
    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
   </data>
  </layer>
- <objectgroup name="Object Group 4" width="0" height="0" visible="0">
+ <objectgroup name="Object Group 4" width="0" height="0">
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="5376" y="1344" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="5728" y="1472" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="4928" y="3808" width="32" height="32"/>
@@ -74,5 +75,19 @@
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2560" y="2336" width="32" height="32"/>
   <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="5616" y="960" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="5152" y="1888" width="32" height="32"/>
+  <object name="CaveExitToInn" type="warp" x="5536" y="640" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="009-2"/>
+    <property name="dest_x" value="4720"/>
+    <property name="dest_y" value="2832"/>
+   </properties>
+  </object>
+  <object name="ToLakeCave" type="warp" x="640" y="1792" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-4"/>
+    <property name="dest_x" value="4144"/>
+    <property name="dest_y" value="2832"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

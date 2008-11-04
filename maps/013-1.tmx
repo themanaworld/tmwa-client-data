@@ -10,19 +10,19 @@
   <property name="overlay0scrollY" value="0.1"/>
  </properties>
  <tileset name="woodland ground" firstgid="1" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Woodland_ground.png"/>
+  <image source="../../../trunk/graphics/tiles/Woodland_ground.png"/>
  </tileset>
  <tileset name="Untitled" firstgid="257" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png"/>
+  <image source="../../../trunk/graphics/tiles/collision.png"/>
  </tileset>
  <tileset name="Woodland x2" firstgid="259" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/Woodland_x2.png"/>
+  <image source="../../../trunk/graphics/tiles/Woodland_x2.png"/>
  </tileset>
  <tileset name="trees" firstgid="275" tilewidth="32" tileheight="96">
-  <image source="../graphics/tiles/Woodland_x3.png"/>
+  <image source="../../../trunk/graphics/tiles/Woodland_x3.png"/>
  </tileset>
  <tileset name="village" firstgid="291" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Woodland_village.png"/>
+  <image source="../../../trunk/graphics/tiles/Woodland_village.png"/>
  </tileset>
  <layer name="Ground" width="154" height="124">
   <data encoding="base64" compression="gzip">
@@ -48,5 +48,12 @@
   <object name="graphics/particles/waterfall-1x2.particle.xml" type="PARTICLE_EFFECT" x="3593" y="3209" width="32" height="32"/>
   <object name="graphics/particles/waterfall-1x3.particle.xml" type="PARTICLE_EFFECT" x="1259" y="3200" width="32" height="32"/>
   <object name="graphics/particles/waterfall-1x2.particle.xml" type="PARTICLE_EFFECT" x="1193" y="2793" width="32" height="32"/>
+  <object name="toCave" type="warp" x="4000" y="3296" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="013-3"/>
+    <property name="dest_x" value="1088"/>
+    <property name="dest_y" value="2048"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

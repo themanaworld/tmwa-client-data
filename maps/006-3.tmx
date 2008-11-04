@@ -1,8 +1,10 @@
-<?xml version="1.0"?>
-<map version="0.99b" orientation="orthogonal" width="150" height="150" tilewidth="32" tileheight="32">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="150" height="150" tilewidth="32" tileheight="32">
  <properties>
+  <property name="minimap" value="graphics/minimaps/006-1"/>
   <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
-  <property name="minimap" value="graphics/images/minimap_new_25-1.png"/>
+  <property name="name" value="Desert mountain caves"/>
  </properties>
  <tileset name="cave" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png"/>
@@ -34,41 +36,149 @@
   </data>
  </layer>
  <objectgroup name="Object Group 1" width="0" height="0">
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="928" y="3456" width="32" height="32">
-   <properties/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="928" y="3456" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2112" y="3360" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2592" y="3904" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3936" y="3584" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1856" y="2272" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3648" y="2432" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3520" y="2048" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2208" y="1184" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2848" y="1312" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3008" y="896" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1248" y="896" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1344" y="896" width="32" height="32"/>
+  <object name="CavesExit" type="WARP" x="1280" y="832" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-1"/>
+    <property name="DEST_X" value="1296"/>
+    <property name="DEST_Y" value="880"/>
+   </properties>
   </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2112" y="3360" width="32" height="32">
-   <properties/>
+  <object name="CavesExit" type="WARP" x="1760" y="864" width="32" height="32">
+   <properties>
+    <property name="DEST_MAP" value="006-1"/>
+    <property name="DEST_X" value="1776"/>
+    <property name="DEST_Y" value="912"/>
+   </properties>
   </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2592" y="3904" width="32" height="32">
-   <properties/>
+  <object name="CavesExit" type="warp" x="1984" y="960" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="006-1"/>
+    <property name="dest_x" value="2000"/>
+    <property name="dest_y" value="1008"/>
+   </properties>
   </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3936" y="3584" width="32" height="32">
-   <properties/>
+  <object name="CavesExit" type="warp" x="2752" y="768" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="006-1"/>
+    <property name="dest_x" value="2768"/>
+    <property name="dest_y" value="816"/>
+   </properties>
   </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1856" y="2272" width="32" height="32">
-   <properties/>
+  <object name="CavesExit" type="warp" x="2912" y="768" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="006-1"/>
+    <property name="dest_x" value="2928"/>
+    <property name="dest_y" value="816"/>
+   </properties>
   </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3648" y="2432" width="32" height="32">
-   <properties/>
+  <object name="CavesExit" type="warp" x="3904" y="768" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="006-1"/>
+    <property name="dest_x" value="3920"/>
+    <property name="dest_y" value="816"/>
+   </properties>
   </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3520" y="2048" width="32" height="32">
-   <properties/>
+  <object name="CavesExit" type="warp" x="3648" y="1568" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="006-1"/>
+    <property name="dest_x" value="3664"/>
+    <property name="dest_y" value="1616"/>
+   </properties>
   </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2208" y="1184" width="32" height="32">
-   <properties/>
+  <object name="CavesExit" type="warp" x="3328" y="1408" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="006-1"/>
+    <property name="dest_x" value="3344"/>
+    <property name="dest_y" value="1456"/>
+   </properties>
   </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2848" y="1312" width="32" height="32">
-   <properties/>
+  <object name="CavesExit" type="warp" x="2464" y="1408" width="32" height="32">
+   <properties>
+    <property name="dest_x" value="2480"/>
+    <property name="dest_y" value="1456"/>
+   </properties>
   </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3008" y="896" width="32" height="32">
-   <properties/>
+  <object name="CavesExit" type="warp" x="1920" y="2176" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="006-1"/>
+    <property name="dest_x" value="1936"/>
+    <property name="dest_y" value="1904"/>
+   </properties>
   </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1248" y="896" width="32" height="32">
-   <properties/>
+  <object name="CavesExit" type="warp" x="2944" y="2016" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="006-1"/>
+    <property name="dest_x" value="2960"/>
+    <property name="dest_y" value="2064"/>
+   </properties>
   </object>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1344" y="896" width="32" height="32">
-   <properties/>
+  <object name="CavesExit" type="warp" x="3584" y="2368" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="006-1"/>
+    <property name="dest_x" value="3600"/>
+    <property name="dest_y" value="2416"/>
+   </properties>
+  </object>
+  <object name="CavesExit" type="warp" x="3520" y="1792" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="006-1"/>
+    <property name="dest_x" value="3536"/>
+    <property name="dest_y" value="1840"/>
+   </properties>
+  </object>
+  <object name="CavesExit" type="warp" x="4000" y="1888" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="006-1"/>
+    <property name="dest_x" value="4016"/>
+    <property name="dest_y" value="1936"/>
+   </properties>
+  </object>
+  <object name="CavesExit" type="warp" x="2368" y="2880" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="006-1"/>
+    <property name="dest_x" value="2384"/>
+    <property name="dest_y" value="2928"/>
+   </properties>
+  </object>
+  <object name="CavesExit" type="warp" x="1632" y="2880" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="006-1"/>
+    <property name="dest_x" value="1648"/>
+    <property name="dest_y" value="2928"/>
+   </properties>
+  </object>
+  <object name="CavesExit" type="warp" x="1216" y="3872" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="006-1"/>
+    <property name="dest_x" value="1232"/>
+    <property name="dest_y" value="3920"/>
+   </properties>
+  </object>
+  <object name="CavesExit" type="warp" x="2528" y="3840" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="006-1"/>
+    <property name="dest_x" value="2544"/>
+    <property name="dest_y" value="3888"/>
+   </properties>
+  </object>
+  <object name="CavesExit" type="warp" x="3872" y="3520" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="006-1"/>
+    <property name="dest_x" value="3888"/>
+    <property name="dest_y" value="3568"/>
+   </properties>
   </object>
  </objectgroup>
 </map>

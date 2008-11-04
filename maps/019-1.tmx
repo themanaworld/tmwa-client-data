@@ -6,19 +6,19 @@
   <property name="music" value="The Mana World - Snow Village.ogg"/>
  </properties>
  <tileset name="snow" firstgid="1" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/snowset.png"/>
+  <image source="../../../trunk/graphics/tiles/snowset.png"/>
  </tileset>
  <tileset name="walk" firstgid="81" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png"/>
+  <image source="../../../trunk/graphics/tiles/collision.png"/>
  </tileset>
  <tileset name="snowbuilding" firstgid="83" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/snow_building.png"/>
+  <image source="../../../trunk/graphics/tiles/snow_building.png"/>
  </tileset>
  <tileset name="Snow_x3" firstgid="193" tilewidth="32" tileheight="96">
-  <image source="../graphics/tiles/snow_x3.png"/>
+  <image source="../../../trunk/graphics/tiles/snow_x3.png"/>
  </tileset>
  <tileset name="Snow_x2" firstgid="209" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/snow_x2.png"/>
+  <image source="../../../trunk/graphics/tiles/snow_x2.png"/>
  </tileset>
  <layer name="Ground" width="138" height="128">
   <data encoding="base64" compression="gzip">
@@ -37,17 +37,10 @@
  </layer>
  <layer name="Collision" width="138" height="128">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
-  <object name="ToVillage" type="WARP" x="2176" y="832" width="128" height="128">
-   <properties>
-    <property name="DEST_MAP" value="11"/>
-    <property name="DEST_X" value="2272"/>
-    <property name="DEST_Y" value="3136"/>
-   </properties>
-  </object>
   <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2000" y="592"/>
   <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2032" y="592"/>
   <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2000" y="624"/>
@@ -62,5 +55,12 @@
   <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2000" y="688"/>
   <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2032" y="688"/>
   <object name="graphics/particles/whirlpool.particle.xml" type="PARTICLE_EFFECT" x="2064" y="688"/>
+  <object name="ToVillage" type="warp" x="2176" y="672" width="128" height="32">
+   <properties>
+    <property name="dest_map" value="020-1"/>
+    <property name="dest_x" value="2240"/>
+    <property name="dest_y" value="4032"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
