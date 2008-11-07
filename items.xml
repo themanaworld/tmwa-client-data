@@ -2093,6 +2093,28 @@
         <sprite gender="female">chest-robe-female.xml|#ffffff</sprite>
     </item>
 
+    <item id="721"
+        image="armor-head-highpriest-crown.png"
+        name="High Priest Crown"
+        description="A golden crown with an enchanted ruby."
+        effect="Defense: +4, SP +20"
+        type="equip-head"
+        defense="4"
+        weight="60">
+        <sprite>head-highpriest-crown.xml</sprite>
+    </item>
+
+    <item id="722"
+        image="armor-head-monster-skull-helm.png"
+        name="Monster Skull Helmet"
+        description="The conserved skull of a mysterious ancient monster."
+        effect="Defense: +7, Magic Defense +20%"
+        type="equip-head"
+        defense="7"
+        weight="40">
+        <sprite>head-monster-skull-helm.xml</sprite>
+    </item>
+
     <!--
                          HERE ARE SOME UNUSED ITEM IDs
            -->
@@ -2281,6 +2303,16 @@
         <sprite>weapon-dagger.xml</sprite>
         <sound event="strike">short-sword-miss1.ogg</sound>
         <sound event="hit">short-sword-hit1.ogg</sound>
+    </item>
+    <item id="1216"
+        image="armor-head-mouboohead.png"
+        name="Mouboo head"
+        description="A tightly fitting mouboo head."
+        effect="Defense: +1"
+        type="equip-head"
+        defense="1"
+        weight="20">
+        <sprite>head-mouboohead.xml</sprite>
     </item>
 
     <!-- The 2XXY IDs are used for recolored items on eAthena.
