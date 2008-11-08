@@ -2306,7 +2306,17 @@
     </item>
     <item id="1216"
         image="armor-head-mouboohead.png"
-        name="Mouboo head"
+        name="Mouboo Head"
+        description="A pair of plush cat ears. Meow!"
+        effect="Defense: +1, Agility: +3"
+        type="equip-head"
+        defense="1"
+        weight="2">
+        <sprite>head-catears.xml</sprite>
+    </item>
+    <item id="1217"
+        image="armor-head-catears.png"
+        name="cat Ears"
         description="A tightly fitting mouboo head."
         effect="Defense: +1"
         type="equip-head"
