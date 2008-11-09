@@ -1466,12 +1466,12 @@
     </item>
     <item id="647"
         image="armor-head-devcap.png|R:#9999ff"
-        name="Developers Cap"
+        name="Developer's Cap"
         description="A cap which identifies you as a developer."
         effect="+5% Defense"
         type="equip-head"
         defense="5"
-        weight="20">
+        weight="10">
         <sprite>head-devcap.xml|#9999ff</sprite>
     </item>
     <item id="648"
@@ -2100,6 +2100,28 @@
         defense="2"
         weight="5">
         <sprite>item007.xml|#FFFFFF</sprite>
+    </item>
+    <item id="725"
+        image="armor-head-gmcap.png|R:#BF0E08"
+        name="GM's Cap"
+        description="A cap which identifies you as a GM."
+        effect="+5% Defense"
+        type="equip-head"
+        defense="5"
+        weight="10">
+        <sprite>head-gmcap.xml|#BF0E08</sprite>
+    </item>
+    <item id="726"
+        image="armor-chest-robe.png|W:#E40A0A"
+        name="GM Robe"
+        description="A light and shimmering silk robe made for GMs."
+        effect="+5% Defense"
+        type="equip-torso"
+        weight="10"
+        defense="5"
+        max-per-slot="1">
+        <sprite gender="male">chest-robe-male.xml|#E40A0A</sprite>
+        <sprite gender="female">chest-robe-female.xml|#E40A0A</sprite>
     </item>
 
 
