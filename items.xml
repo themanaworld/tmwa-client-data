@@ -1951,9 +1951,15 @@
         type="generic"
         weight="5"
         max-per-slot="10"/>
-
-    <!-- PLACEHOLDER FOR ITEM 705 -->
-
+    <item id="705"
+          image="use-potion-e.png|R:#f04030;G:#ee8e5e"
+          name="Magic Potion"
+          description="A dark, sirupy brew, with a smell reminiscent of manaberries."
+          effect="+10 MP"
+          type="usable"
+          mp="10"
+          weight="50"
+          max-per-slot="10"/>
     <item id="706"
         image="generic-scorpionstinger.png|W:#e0d080,fff0e0,ffffff"
         name="Golden Scorpion Stinger"
@@ -2123,6 +2129,13 @@
         <sprite gender="male">chest-robe-male.xml|#E40A0A</sprite>
         <sprite gender="female">chest-robe-female.xml|#E40A0A</sprite>
     </item>
+    <item id="727"
+        image="generic-iten.png|Wffe0f0"
+        name="Iten"
+        description="An iten."
+        effect=""
+        type="generic"
+        weight="100"/>
 
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
