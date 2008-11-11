@@ -2,8 +2,9 @@
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="200" height="120" tilewidth="32" tileheight="32">
  <properties>
-  <property name="minimap" value="graphics/images/minimap_new_18-1.png"/>
+  <property name="minimap" value="graphics/images/minimap/018-1.png"/>
   <property name="music" value="The Mana World - The Forest.ogg"/>
+  <property name="name" value="Woodland mining camp"/>
   <property name="overlay0image" value="graphics/images/ambient/clouds.png"/>
   <property name="overlay0parallax" value="1.0"/>
   <property name="overlay0scrollX" value="0.2"/>
@@ -53,10 +54,10 @@
  </layer>
  <layer name="Collision" width="200" height="120">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
- <objectgroup name="Object Group 4" width="0" height="0">
+ <objectgroup name="Objects" width="0" height="0">
   <object name="toMine" type="warp" x="2496" y="1888" width="64" height="32">
    <properties>
     <property name="dest_map" value="018-3"/>
@@ -153,6 +154,147 @@
     <property name="dest_map" value="018-2"/>
     <property name="dest_x" value="1600"/>
     <property name="dest_y" value="896"/>
+   </properties>
+  </object>
+  <object name="Sea Slime" type="spawn" x="4224" y="1888" width="320" height="1344">
+   <properties>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="31"/>
+   </properties>
+  </object>
+  <object name="Log Head" type="spawn" x="2624" y="2400" width="1728" height="832">
+   <properties>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="23"/>
+   </properties>
+  </object>
+  <object name="Sea  Slime" type="spawn" x="3616" y="1312" width="224" height="256">
+   <properties>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="31"/>
+   </properties>
+  </object>
+  <object name="Flower" type="spawn" x="3616" y="1696" width="448" height="224">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="12"/>
+   </properties>
+  </object>
+  <object name="Jack O" type="spawn" x="5344" y="608" width="576" height="640">
+   <properties>
+    <property name="eA_death" value="240000"/>
+    <property name="eA_spawn" value="300000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="20"/>
+   </properties>
+  </object>
+  <object name="Yellow Slime" type="spawn" x="2464" y="1888" width="128" height="64">
+   <properties>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="5"/>
+   </properties>
+  </object>
+  <object name="Silk Worm" type="spawn" x="1600" y="1920" width="480" height="256">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="33"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="896" y="1568" width="1024" height="928">
+   <properties>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="toHurnscald" type="warp" x="2464" y="3136" width="128" height="32">
+   <properties>
+    <property name="dest_map" value="008-1"/>
+    <property name="dest_x" value="2528"/>
+    <property name="dest_y" value="576"/>
+   </properties>
+  </object>
+  <object name="Grass Snake" type="spawn" x="4000" y="1088" width="608" height="352">
+   <properties>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="32"/>
+   </properties>
+  </object>
+  <object name="Grass Snake" type="spawn" x="3840" y="1184" width="320" height="384">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="32"/>
+   </properties>
+  </object>
+  <object name="Mountain Snake" type="spawn" x="3616" y="480" width="736" height="320">
+   <properties>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="24"/>
+   </properties>
+  </object>
+  <object name="Mountain Snake" type="spawn" x="3616" y="800" width="640" height="320">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="24"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="4608" y="1312" width="352" height="288">
+   <properties>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Pinkie" type="spawn" x="5088" y="1344" width="672" height="352">
+   <properties>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="16"/>
+   </properties>
+  </object>
+  <object name="Fluffy" type="spawn" x="4160" y="1440" width="448" height="288">
+   <properties>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="18"/>
+   </properties>
+  </object>
+  <object name="Silk Worm" type="spawn" x="3488" y="1952" width="192" height="96">
+   <properties>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="33"/>
+   </properties>
+  </object>
+  <object name="Sea Slime" type="spawn" x="3680" y="1568" width="160" height="128">
+   <properties>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="31"/>
+   </properties>
+  </object>
+  <object name="Mouboo" type="spawn" x="2784" y="1344" width="608" height="384">
+   <properties>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="26"/>
+   </properties>
+  </object>
+  <object name="Mouboo" type="spawn" x="3168" y="1568" width="512" height="224">
+   <properties>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="26"/>
+   </properties>
+  </object>
+  <object name="Fire Goblin" type="spawn" x="1920" y="1664" width="1216" height="224">
+   <properties>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="9"/>
+   </properties>
+  </object>
+  <object name="Green Slime" type="spawn" x="4480" y="640" width="352" height="320">
+   <properties>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="3"/>
+   </properties>
+  </object>
+  <object name="Scorpion" type="spawn" x="1952" y="2592" width="480" height="576">
+   <properties>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1"/>
    </properties>
   </object>
  </objectgroup>

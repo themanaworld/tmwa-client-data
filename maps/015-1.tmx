@@ -4,6 +4,7 @@
  <properties>
   <property name="minimap" value="graphics/images/minimap_new_31-1.png"/>
   <property name="music" value="The Mana World - The Forest.ogg"/>
+  <property name="name" value="Woodland"/>
   <property name="overlay0image" value="graphics/images/ambient/clouds.png"/>
   <property name="overlay0parallax" value="1.0"/>
   <property name="overlay0scrollX" value="0.2"/>
@@ -44,4 +45,13 @@
    H4sIAAAAAAAAAO2TW47rMAxDB3cps/9F3q8BAkMPUlaqNKaAg7aOLCki+/vv5+dXCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghPswa0/OIZ8DE9Kzi896IvOLdkVfm9bK02v2fr/Ujb3g1mX7iPp8wGq3naF5XZF4Un/dL5In1PMpBvdkR03s8hR1tsrPKc28+9LeY9U3VV8i9bk9P7/Akqj6o1EH8yfpZPMs/1jmqZafWaEzv7+2w4dVgPYTOhs45vcdT8DRB9K0E4xvrTuZJeed+vyD6IlqyHol6dMT0bt8IqjuiKeqLrD5bN4vpHb+Rv70ie0c0ZrVEdWbrTO/1bSB7r3gi8haqP9vf8r+41y+oHkyNSq+sN1N3esdvYt27pwHqk+w+e7bj9endvpm//aJ7j7yR6YUEMm9HHVH3C6NBRSskNzpn/RnVnt73N8LqGj3PniFnaD30uZUv3/R4BtUOuRfpEmnK3kfCuze997cR6ZppFz1Hn3n+rPpmvS/6fYLsOsvpCLSW1Xt6nyeA6rHmVn2I+GTVn60hZjyTabZTN+uzfvd+M+83vee3gfgh0zrSlvVMJdAa07v+dpidRtp0eZPxBepl+eQ+r7CB+CC66+mJ9s3ea3rHb4PRhIm//Otdpg7bc3qPJ4LoUImKNzOPWTniOb5Bdd+NtT7Tc3pvp8Fo8slAfSye6R/rWafnrDnQO0g98XnvMP7oiu6e0zt9Cl176dLoeh+ptz6/y8fTOj0Bdkfe2Y4O2Z3qrJ6P2BqC9w2q1Z3B+Ca6Z3nfyheYZyJdmNxMU+YuksvkoDsQNR953xmtd/3R7S+mjsB8Ut0vqhv6fEd7z+fWf0Dc4xdUQ7YH2vv6iYblFdHvE8ZHmRZIfna2E9O7fTusDpkP1nNG26wfE9N7fQusbju513xGTyvHqx31iep7vbLZToHR0otMn6h25AVmZnTO3ZrTej3NK8iu0N/e2a4eaG3v+fU8mlng+nV5KnvG6lWdDbnD7Ghav0nP7GgR7Zipxfq76hdmzmz+af2mPFPROtsxu2vrOdOTmRntme1qWrtpdiKqF+2bqZnlMjNe73jzsv47jXUPqIZerd26Xg5S75rTFVatac2e4BN0x1Etb9doj8h31UD/G4x3T6IjotqojzxfeHcRH3lzeDOxHo7qnkK2l2i37L7X71ZeNmMlkHdDZz6dangaoL0Y/1VmrfRcZ41+n06082xnjG7Zb+/s+iw6j+qhc7P/g1NBAqnBesg7Q2exzq3nlu+R/tO6PBVEm+hOpMeqJduj4qcs0PrTujyJbI/Icza/QyskKr7z+kzr9DTY3Vf8Ft3drZnNjbyH/NHnE08bRg9US+87Ord3txLT+kyD7ofN29EEier7WDWy2lnP06joE+2b0Wm3bqZp9h7eXS9XYPtF9ofmoLHWzTzC1MzmRt7ldNio3lu1yGp6ParvgOZO6/ENIHuztLRyGD9k81i/qx7waiDziNwv1g5RTRgt0VzLR8i7IP+J6JngfYPuutunbH80v2P2k0H27OVWvObdXTW9nmf9rHtRz+z9pzV5Oh07jvRkc9a8nfm9uuv97D8h8F139Ij0qXiIifUes4tpfZ5GtNvKnZ1AenvaIzXR/swcp+Dti9m5V9fSNLqz1t71X+SpqB/6jieyE0g9tmc2Kzp3Z960Rk/C20m0T6RmVfMOH7ORvfO0RqcS6dThE09zZJYob3pvpxFp4unL+mStheZFPpZf5v2C6NgRmS88n3iziRnfWN8Zb0UeQO+sd6M60zsTsZ+klUCRX4QQQgghhBBCCCGEEEIIIYQQQgghhBBCCHEn/wFnA3RMgAYBAA==
   </data>
  </layer>
+ <objectgroup name="Object Group 4" width="0" height="0">
+  <object name="ToWoodland" type="warp" x="2976" y="1728" width="32" height="64">
+   <properties>
+    <property name="dest_map" value="010-1"/>
+    <property name="dest_x" value="480"/>
+    <property name="dest_y" value="1760"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

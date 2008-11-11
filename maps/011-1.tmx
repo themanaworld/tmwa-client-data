@@ -2,8 +2,9 @@
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="154" height="124" tilewidth="32" tileheight="32">
  <properties>
-  <property name="minimap" value="graphics/images/minimap_new_9-1.png"/>
+  <property name="minimap" value="graphics/minimaps/011-1.png"/>
   <property name="music" value="The Mana World - The Forest.ogg"/>
+  <property name="name" value="Woodland"/>
   <property name="overlay0image" value="graphics/images/ambient/clouds.png"/>
   <property name="overlay0parallax" value="1.0"/>
   <property name="overlay0scrollX" value="0.2"/>
@@ -58,26 +59,40 @@
  </layer>
  <objectgroup name="Object Group 1" width="0" height="0">
   <object name="graphics/particles/waterfall.particle.xml" type="PARTICLE_EFFECT" x="2112" y="930" width="32" height="32"/>
-  <object name="graphics/particles/geyser.particle.xml" type="PARTICLE_EFFECT" x="2170" y="1370" width="32" height="32" />
+  <object name="graphics/particles/geyser.particle.xml" type="PARTICLE_EFFECT" x="2170" y="1370" width="32" height="32"/>
   <object name="ToCave" type="WARP" x="1856" y="2944" width="32" height="32">
    <properties>
-    <property name="DEST_MAP" value="4"/>
-    <property name="DEST_X" value="992"/>
-    <property name="DEST_Y" value="768"/>
+    <property name="DEST_MAP" value="011-3"/>
+    <property name="DEST_X" value="496"/>
+    <property name="DEST_Y" value="496"/>
    </properties>
   </object>
-  <object name="ToSouth" type="WARP" x="1504" y="3302" width="96" height="64">
+  <object name="ToWoodland" type="warp" x="960" y="1920" width="32" height="96">
    <properties>
-    <property name="DEST_MAP" value="14"/>
-    <property name="DEST_X" value="1600"/>
-    <property name="DEST_Y" value="800"/>
+    <property name="dest_map" value="014-1"/>
+    <property name="dest_x" value="5776"/>
+    <property name="dest_y" value="2896"/>
    </properties>
   </object>
-  <object name="ToWoodland" type="WARP" x="3968" y="1920" width="64" height="128">
+  <object name="ToWoodland" type="warp" x="1536" y="3328" width="64" height="32">
    <properties>
-    <property name="DEST_MAP" value="18"/>
-    <property name="DEST_X" value="832"/>
-    <property name="DEST_Y" value="1968"/>
+    <property name="dest_map" value="010-1"/>
+    <property name="dest_x" value="1616"/>
+    <property name="dest_y" value="816"/>
+   </properties>
+  </object>
+  <object name="ToWoodland" type="warp" x="4000" y="1920" width="32" height="128">
+   <properties>
+    <property name="dest_map" value="008-1"/>
+    <property name="dest_x" value="880"/>
+    <property name="dest_y" value="1968"/>
+   </properties>
+  </object>
+  <object name="ToWoodlandHills" type="warp" x="2304" y="352" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="012-1"/>
+    <property name="dest_x" value="4208"/>
+    <property name="dest_y" value="5200"/>
    </properties>
   </object>
  </objectgroup>

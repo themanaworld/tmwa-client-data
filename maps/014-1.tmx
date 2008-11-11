@@ -4,6 +4,7 @@
  <properties>
   <property name="minimap" value="graphics/images/minimap_new_29-1.png"/>
   <property name="music" value="The Mana World - The Forest.ogg"/>
+  <property name="name" value="Woodland"/>
   <property name="overlay0image" value="graphics/images/ambient/clouds.png"/>
   <property name="overlay0parallax" value="1.0"/>
   <property name="overlay0scrollX" value="0.2"/>
@@ -52,5 +53,26 @@
   <object name="graphics/particles/waterfall-2x1.particle.xml" type="PARTICLE_EFFECT" x="1662" y="108"/>
   <object name="graphics/particles/waterfall-2x1.particle.xml" type="PARTICLE_EFFECT" x="1884" y="365"/>
   <object name="graphics/particles/hillunderfall.particle.xml" type="PARTICLE_EFFECT" x="2249" y="617"/>
+  <object name="ToWoodland" type="warp" x="3488" y="2880" width="32" height="96">
+   <properties>
+    <property name="dest_map" value="011-1"/>
+    <property name="dest_x" value="992"/>
+    <property name="dest_y" value="1984"/>
+   </properties>
+  </object>
+  <object name="ToCave" type="warp" x="2976" y="1856" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="014-3"/>
+    <property name="dest_x" value="1792"/>
+    <property name="dest_y" value="5504"/>
+   </properties>
+  </object>
+  <object name="ToCave" type="warp" x="2432" y="1216" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="014-3"/>
+    <property name="dest_x" value="1120"/>
+    <property name="dest_y" value="1056"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

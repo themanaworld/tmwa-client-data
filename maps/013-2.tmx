@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="88" height="63" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="Magick - Real.ogg"/>
+  <property name="name" value="Magic house"/>
+ </properties>
  <tileset name="Woodland indoor" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/woodland_indoor.png"/>
  </tileset>
@@ -21,7 +25,7 @@
  </tileset>
  <layer name="Ground" width="88" height="63">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3Y7W2DMBSFYVAnQJ2gJRmAqt2gYYCqYYCqzf4j1FJBQlcGm4/g4+r98YjI8g/fI2L70hRF0QAAAAAAAAAAAACQVDoP/XMPqetRUzmP/XMPqetR8xSpjJyXuh41z7169NunjJyXuh41c1mNVZHzUtejZpzNyTkH8nt3LhNagXrUjLN7dd4C+X461wmdQD1qYvcH8l0ndF6R7zZL399v52fCTaAeNewP92X729ozRn+8XmXUnrElUtejxva3tWdsidT1qLH7q71PzPUTR/cXdi/6EMhva75z59nR51tlfAnkFxK6/yrla/eiHL53DP//NoN87V6Vw/eOIb8ug3ztWnK4b4fynevXju7fcsx3yO82ke9SR6w1t378RWANMXx3nNRr+k9yeQ8AAAAAAAAAAAAA/PkFsOTWNaBWAAA=
+   H4sIAAAAAAAAAO3Y0W3CMBSF4URMEDFBSRkA1G5QMgBqGQAB+4+AHxIpukpiB2h8LvofPgVZefA9MrZvdkVR7AAAAAAAAAAAAABIKoNV+3yF3PWoqYJ1+3yF3PWo+UhUJr6Xux41m1bd+z2kTHwvdz1qprLqqxLfy12Pmn42n8E2kt9PcBjRCNSjpp/dV/Adyfc3+BtxEqhHTer+QL6PiZ1X5Pucuev3ElxH3ATqUcP+8L9sf1sPjNEfP64y6oGxOXLXo8b2t/XA2By561Fj91d7n5jqJ5buL+xedBTI79l8p86zpc+3yjgL5BcTu/8q5Wv3Ig/fO7r/f+MgX7tXefje0eV3cpCvnYuH+3Ys36l+ben+zWO+XX63kXznWmKu3vpxD+dEN097x8k9pxR7gTm80zrwyss6AAAAAAAAAAAAgB93aL4nE6BWAAA=
   </data>
  </layer>
  <layer name="Fringe" width="88" height="63">
@@ -34,12 +38,12 @@
    H4sIAAAAAAAAAO3Y2wmDMBgG0Dw7QDuHU1a6QUdop+llIZUqrSGKWKso50AISXz4+QjRGAIAAAAAAACwdXnTH6p2XLOQnWrzzRJrxZKF7NAtfPLld6k9yvzkvBznw3/15fuo2mvJQnYgi/qa/Tuv+OyV73RD77F2Tb7T5DM3uoow7v419jnS4uzu0di3MNCnvkc8Q/cukZpjmkt4n9Gnr7lrM3depSLYHv87AAAAAAAAAACGlfGX++2gVgAA
   </data>
  </layer>
- <layer name="Collision" width="88" height="63" visible="0">
+ <layer name="Collision" width="88" height="63">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3UWwqEMAwFUGcpuv9FDn4Ig3S0PmpSOYHzoVRMbkunzzBMAAAAAAAAANDIXOvnpaJ7611N7a2LniGr2qpZGz1LRqV8SjVW7kX0PNnU5ltb0fNkcyS3rSzley3jrXXz3bGIniWbK+f33zrO5TtWiJ4nO2ewLWewbbal+za6r57dVdFzZHV3Pd17dH535Vv6Zu+dfPvK9/cfEfvZOuOj+/BEn9HZvS3fdc/R2b0t3yf/1+JcZNZjtj2RKQAAAAAAAPTlC6t2IfWgVgAA
+   H4sIAAAAAAAAAO3USw6DMAwFwPYocP9DVizYID4uBOygedIsqCJhv0aM389nBAAAAAAAAICbTFk+z8merXeRHJ3L3qGqaCJns3epaK2ftQzB/yJ7n2qi/UaTvU81//S216V+r3W8d276dsyyd6nmyv3dOse5foeA7H2qcwfv5Q7e2+3a9zZ7rp61SvYeVbVO9j7VnOkt+tsTs2f396Z+j+aqqmX023e/y5mzu3tbv0++r1q3+t2eO3uGN/fbC30CAAAAAADQ2g9aoftLoFYAAA==
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0" x="0" y="0">
+ <objectgroup name="Objects" width="0" height="0">
   <object name="graphics/particles/cookingfire.hoveringpot.particle.xml" type="PARTICLE_EFFECT" x="753" y="851" width="32" height="32"/>
   <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="1200" y="721" width="2" height="2"/>
   <object name="graphics/particles/sparkle.big.green.particle.xml" type="PARTICLE_EFFECT" x="770" y="829" width="8" height="8"/>
@@ -54,5 +58,26 @@
   <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="882" y="804" width="3" height="3"/>
   <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="915" y="963" width="3" height="3"/>
   <object name="graphics/particles/fireplace.particle.xml" type="PARTICLE_EFFECT" x="2080" y="1152" width="32" height="32"/>
+  <object name="toOutside" type="warp" x="2016" y="1376" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="013-1"/>
+    <property name="dest_x" value="1344"/>
+    <property name="dest_y" value="2912"/>
+   </properties>
+  </object>
+  <object name="toRoom" type="warp" x="2144" y="1152" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="013-2"/>
+    <property name="dest_x" value="672"/>
+    <property name="dest_y" value="1312"/>
+   </properties>
+  </object>
+  <object name="toRoom" type="warp" x="672" y="1344" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="013-2"/>
+    <property name="dest_x" value="2144"/>
+    <property name="dest_y" value="1184"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

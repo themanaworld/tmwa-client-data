@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="0.99b" orientation="orthogonal" width="60" height="60" tilewidth="32" tileheight="32">
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="60" height="60" tilewidth="32" tileheight="32">
  <properties>
-  <property name="minimap" value="graphics/images/minimap_new_4-1.png"/>
+  <property name="minimap" value="graphics/minimaps/011-3.png"/>
   <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
+  <property name="name" value="Hermit's cave"/>
   <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
   <property name="overlay0parallax" value="0.0"/>
  </properties>
@@ -32,30 +34,15 @@
  </layer>
  <layer name="Collision" width="60" height="60">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3SwQ6DIBBFUb6dL3drjDAq4zwYLslNm7aLd7C1lFKJiIiIiIiIiIiIEmcd9b5I6+rmcnn/5qi3//k8s5g9jtqA2cdr/V7t8PDW0+uK3rttvc/uPCt6rb1fvDOaR7xPjtr3Zv+oV21s7fd4jjNbr7ZdvCP/9UxeD7d6e7RZvdvb3PtevTfyPtRb8OLF+826oze7ObuzddS7Iq2ZvNZR74u0tryr3gNe29u7h9kbOertqudNRLRjB2l93JhAOAAA
+   H4sIAAAAAAAAAO3SwQ6DIBBF0fl2vtytMQIq4zwYLslNm7aLd7DFzAoRERERERERERFtn02w4U9b66j3RVpXN9vl/Zuj3v7n88xi9jhqA2Yfb+/3aoeHt5xeV/TebWt9dudZ0dvb+8U7o3nE++SofW/2j3rVxtp+j+c4s/Vq28U78l/P5PVwq7dHm9W7vc2t79V7I+9DvQUvXrzfrDt6s5uzO2tHvSvSmsnbO+p9kdaad9V7wNv3tu5h9kaOervqeRMR7dgB9tVplUA4AAA=
   </data>
  </layer>
  <objectgroup name="Object Group 1" width="0" height="0">
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="928" y="960" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="992" y="960" width="32" height="32"/>
-  <object name="ToOutside" type="WARP" x="960" y="704" width="96" height="32">
-   <properties>
-    <property name="DEST_MAP">
-     9
-    </property>
-    <property name="DEST_X">
-     1856
-    </property>
-    <property name="DEST_Y">
-     3008
-    </property>
-   </properties>
-  </object>
   <object name="Arkim the Hermit" type="NPC" x="976" y="976">
    <properties>
-    <property name="NPC_ID">
-     116
-    </property>
+    <property name="NPC_ID" value="116"/>
     <property name="SCRIPT">
      function npc_handler(npc, ch)
        do_message(npc, ch, "Do you want to go back outside?")
@@ -65,6 +52,13 @@
        end
      end
     </property>
+   </properties>
+  </object>
+  <object name="ToLakeCave" type="warp" x="992" y="672" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-4"/>
+    <property name="dest_x" value="2320"/>
+    <property name="dest_y" value="368"/>
    </properties>
   </object>
  </objectgroup>

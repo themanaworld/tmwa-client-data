@@ -4,6 +4,7 @@
  <properties>
   <property name="minimap" value="graphics/images/minimap_new_28-1.png"/>
   <property name="music" value="Magick - Small grass.ogg"/>
+  <property name="name" value="Woodland hills"/>
   <property name="overlay0image" value="graphics/images/ambient/clouds.png"/>
   <property name="overlay0parallax" value="1.0"/>
   <property name="overlay0scrollX" value="0.2"/>
@@ -41,7 +42,7 @@
  </layer>
  <layer name="Collision" width="154" height="124">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
  <objectgroup name="Object Group 1" width="0" height="0">
@@ -53,6 +54,27 @@
     <property name="dest_map" value="013-3"/>
     <property name="dest_x" value="1088"/>
     <property name="dest_y" value="2048"/>
+   </properties>
+  </object>
+  <object name="ToWoodlandHills" type="warp" x="640" y="2368" width="32" height="128">
+   <properties>
+    <property name="dest_map" value="012-1"/>
+    <property name="dest_x" value="4768"/>
+    <property name="dest_y" value="2520"/>
+   </properties>
+  </object>
+  <object name="ToWoodland" type="warp" x="1408" y="672" width="96" height="32">
+   <properties>
+    <property name="dest_map" value="017-1"/>
+    <property name="dest_x" value="1472"/>
+    <property name="dest_y" value="3328"/>
+   </properties>
+  </object>
+  <object name="toHouse" type="warp" x="1344" y="2880" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="013-2"/>
+    <property name="dest_x" value="2016"/>
+    <property name="dest_y" value="1312"/>
    </properties>
   </object>
  </objectgroup>

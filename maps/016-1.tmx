@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="0.99c" orientation="orthogonal" width="140" height="120" tilewidth="32" tileheight="32">
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="140" height="120" tilewidth="32" tileheight="32">
  <properties>
   <property name="minimap" value="graphics/images/minimap_new_32-1.png"/>
   <property name="music" value="The Mana World - The Forest.ogg"/>
+  <property name="name" value="Woodland"/>
   <property name="overlay0image" value="graphics/images/ambient/clouds.png"/>
   <property name="overlay0parallax" value="1.0"/>
   <property name="overlay0scrollX" value="0.2"/>
@@ -52,4 +54,13 @@
    H4sIAAAAAAAAAO2TW4rtMAwEw9n/ou/XQPDV0y85STUU5ExsqSP1/K7r+gEAAAAAAAAAAAAAAAAAAAAAAAAAAAAMcle1FzgbSdWe4FwkVXuCs5FU7QnORVK1JzgTSdWe4Dw0VfvS/FX7+TKeqv39eZSeoZ5W1X5O9fR1JFV70rxV+wFZ1Z40b9V+4JzdSP21v1XP6otczbMkbafRvWezYnmzvFbP8gvMUmbnq1Q9yy8Q3cFqZXpEPFXP9W14up+T7o3mKLPzaD3tPuzJTDv36Dspa1adbO4yGYK5WbH2bd3tuef1naXq2b6NGbOO1Gifpd/S3aykfrA3O5HzkezMlNWveo5fYtbspRrts6dIliN3YW9uKvtezTsvP9Vz+yKWdvbT3nn3q+f3VTSt6tH+TXqveVnl7y3sms/KvUi1pWcvW+QlnpVWT+gRVfSulr+vY2lXv5k1e7/ruuxa1Xs6hYiekJl2r+1zpE975rr+r/VVotrZP3Nn5LuynqL+3kivKvzcz2TP93yDdidT402MaIev7L4jdzLfINX7al5maKUfb2eZHff61b551QxOJSLvbIWvWd80Iy/VOzwtLxmt8KO9G/m+mXnprflkvHlmtDK37fls7fbuSJ0v5yUyp8xuR/tFeo3mUHrfM5fe+2/jap6l37NmFq012s/TrPl8jcgsPfXOXPtbtkdGs+ZUvbfT6JGXjdG7I96kOl6mM/9T4M9sprS8er+jZ6L9ev3C2DzvsvYZrR/JyYg3qY5Vv3ofTyAyN0+ZPpk99uzc8xg5A/2Z0X5r843Uir7L+PGyJfmUniG+V02RfWf2oNXVali9vDrWPe09xDPj7TqbtbbmzLuRTHl9q3dwOhFlarV1tX7WbrX+PX56PEF/VqxZ3t955606Wm52fOv9ffU+Tiaq0Zx5tbK5GvnG7Hvo0/2u9nz/3fap/E7rt+UfYpmR5tmTNe9O1a48P5Df+cyzUv60M7u+XfJRvZcTsZTJyIz72g4rvx3knXjK7F46q93/Ne8r5mD5hdzue2X1sjIrPe+eQ/VeTmeXevvtzNOqum9lttq62T7R8717j9SCPVnp1Ww/UoYi56E2L1Kfqsxa/ar3cDojs50lyZPXt9cXWVmXlRVqe1u/d2b1/gx6VkZ30nN/tgerRrR29T5Oxpuldt5S786lXivyFOkHsdxUS/Kzw2P1/J9Kdq7ee6vu/d2v+ZvlZXZ+qmf+RLwZWnOOzry9o0k7OysnWd9g73LGuUzfu6R8WGd781M976dzwjyj/XvU3q2e9xuonOu9X7SvJut99YzfhDbvXb3bHWvZyap6rm+metZtT0maZ+037N3ZSURU7RHO4E/W72qPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMMY/7+4aJYAGAQA=
   </data>
  </layer>
+ <objectgroup name="Object Group 4" width="0" height="0">
+  <object name="ToWoodland" type="warp" x="1760" y="640" width="96" height="32">
+   <properties>
+    <property name="dest_map" value="010-1"/>
+    <property name="dest_x" value="1792"/>
+    <property name="dest_y" value="3296"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

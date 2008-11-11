@@ -4,7 +4,7 @@
  <properties>
   <property name="minimap" value="graphics/minimaps/007-1"/>
   <property name="music" value="The Mana World - The Forest.ogg"/>
-  <property name="name" value="South east woodland"/>
+  <property name="name" value="Woodland"/>
   <property name="overlay0image" value="graphics/images/ambient/clouds.png"/>
   <property name="overlay0parallax" value="1.0"/>
   <property name="overlay0scrollX" value="0.2"/>
@@ -56,21 +56,21 @@
     <property name="DEST_Y" value="784"/>
    </properties>
   </object>
-  <object name="ToSouthWoodland" type="WARP" x="641" y="1696" width="32" height="64">
+  <object name="ToHurnscald" type="WARP" x="641" y="1696" width="32" height="64">
    <properties>
     <property name="DEST_MAP" value="010-1"/>
     <property name="DEST_X" value="4080"/>
     <property name="DEST_Y" value="1712"/>
    </properties>
   </object>
-  <object name="ToEastWoodland" type="WARP" x="2144" y="672" width="128" height="32">
+  <object name="ToHurnscald" type="WARP" x="2144" y="672" width="128" height="32">
    <properties>
     <property name="DEST_MAP" value="008-1"/>
     <property name="DEST_X" value="2512"/>
     <property name="DEST_Y" value="3216"/>
    </properties>
   </object>
-  <object name="ToEastWoodland" type="WARP" x="3872" y="640" width="96" height="32">
+  <object name="ToHurnscald" type="WARP" x="3872" y="640" width="96" height="32">
    <properties>
     <property name="DEST_MAP" value="008-1"/>
     <property name="DEST_X" value="4240"/>

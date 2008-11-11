@@ -4,7 +4,7 @@
  <properties>
   <property name="minimap" value="graphics/minimaps/008-1.png"/>
   <property name="music" value="The Mana World - The Forest.ogg"/>
-  <property name="name" value="Woodland around Hurnscald"/>
+  <property name="name" value="Hurnscald outskirts"/>
   <property name="overlay0image" value="graphics/images/ambient/clouds.png"/>
   <property name="overlay0parallax" value="1.0"/>
   <property name="overlay0scrollX" value="0.2"/>
@@ -83,7 +83,7 @@
     <property name="DEST_Y" value="784"/>
    </properties>
   </object>
-  <object name="ToCentralWoodland" type="warp" x="768" y="1920" width="32" height="128">
+  <object name="ToWoodland" type="warp" x="768" y="1920" width="32" height="128">
    <properties>
     <property name="DEST_MAP" value="011-1"/>
     <property name="DEST_X" value="3920"/>
@@ -93,18 +93,18 @@
   <object name="ToWoodlandMines" type="warp" x="2464" y="544" width="128" height="32">
    <properties>
     <property name="dest_map" value="018-1"/>
-    <property name="dest_x" value="2512"/>
-    <property name="dest_y" value="3088"/>
+    <property name="dest_x" value="2544"/>
+    <property name="dest_y" value="3120"/>
    </properties>
   </object>
-  <object name="ToSouthEastWoodland" type="warp" x="2464" y="3264" width="128" height="32">
+  <object name="ToWoodland" type="warp" x="2464" y="3264" width="128" height="32">
    <properties>
     <property name="dest_map" value="007-1"/>
     <property name="dest_x" value="2192"/>
     <property name="dest_y" value="752"/>
    </properties>
   </object>
-  <object name="ToSouthEastWoodland" type="warp" x="4192" y="3232" width="96" height="32">
+  <object name="ToWoodland" type="warp" x="4192" y="3232" width="96" height="32">
    <properties>
     <property name="dest_map" value="007-1"/>
     <property name="dest_x" value="3920"/>
