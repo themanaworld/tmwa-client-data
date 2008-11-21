@@ -1,10 +1,13 @@
 <being-effects>
   <effect id="0" audio="sfx/levelup.ogg" particle="graphics/particles/levelup.particle.xml" />
   <effect id="1" audio="sfx/levelup.ogg" particle="graphics/particles/skillup.particle.xml" />
-  <effect id="2" particle="graphics/particles/magic.default.xml"/>
-  <effect id="3" particle="graphics/particles/magic.enhance.xml"/>
-  <effect id="4" particle="graphics/particles/magic.white.xml"/>
-  <effect id="5" particle="graphics/particles/magic.black.xml"/>
+  <effect id="2" particle="graphics/particles/magic.generic.xml"/>
+  <effect id="3" particle="graphics/particles/magic.white.xml"/> <!-- life -->
+  <effect id="4" particle="graphics/particles/magic.black.xml"/> <!-- war -->
+  <effect id="5" particle="graphics/particles/magic.red.xml"/> <!-- transmute -->
+  <effect id="6" particle="graphics/particles/magic.green.xml"/> <!-- nature -->
+  <effect id="7" particle="graphics/particles/magic.blue.xml"/> <!-- astral -->
+  <effect id="10" particle="graphics/particles/magic.default.xml"/>
   <effect id="11" particle="graphics/particles/magic.shield.xml"/>
 <!--  <effect id="12" particle="graphics/particles/magic.haste.xml"/>-->
   <effect id="13" particle="graphics/particles/magic.hit.xml"/>
