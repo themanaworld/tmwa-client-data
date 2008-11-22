@@ -1,0 +1,110 @@
+<runes>
+    <effect>
+        <basic>
+
+        <rune id="0" name="Heat" element="fire" slots="1" level="0" damage="10" cost="10" />
+        <rune id="1" name="Flame" element="fire" slots="2" level="20" damage="20" cost="30" />
+        <rune id="2" name="Fire" element="fire" slots="3" level="40" damage="40" cost="100" />
+        <rune id="3" name="Hellfire" element="fire" slots="4" level="60" damage="80" cost="300" />
+
+        <rune id="4" name="Bubble" element="water" slots="1" level="0" damage="10" cost="10" />
+        <rune id="5" name="Splash" element="water" slots="2" level="20" damage="20" cost="30" />
+        <rune id="6" name="Water" element="water" slots="3" level="40" damage="40" cost="100" />
+        <rune id="7" name="Tsunami" element="water" slots="4" level="60" damage="80" cost="300" />
+
+        <rune id="8" name="Sand" element="earth" slots="1" level="0" damage="10" cost="10" />
+        <rune id="9" name="Mud" element="earth" slots="2" level="20" damage="20" cost="30" />
+        <rune id="10" name="Earth" element="earth" slots="3" level="40" damage="40" cost="100" />
+        <rune id="11" name="Stone" element="earth" slots="4" level="60" damage="80" cost="300" />
+
+        <rune id="12" name="Wind" element="air" slots="1" level="0" damage="10" cost="10" />
+        <rune id="13" name="Tornado" element="air" slots="2" level="20" damage="20" cost="30" />
+        <rune id="14" name="Air" element="air" slots="3" level="40" damage="40" cost="100" />
+        <rune id="15" name="Sonic" element="air" slots="4" level="60" damage="80" cost="300" />
+        </basic>
+        <combination>
+
+        <rune id="16" name="Spike" element="metal" rune1="0" rune2="8" />
+        <rune id="17" name="Blade" element="metal" rune1="1" rune2="9" />
+        <rune id="18" name="Metal" element="metal" rune1="2" rune2="10" />
+        <rune id="19" name="Razor" element="metal" rune1="3" rune2="11" />
+
+        <rune id="20" name="Spark" element="lighting" rune1="0" rune2="12" />
+        <rune id="21" name="Volt" element="lighting" rune1="1" rune2="13" />
+        <rune id="22" name="Lighting" element="lighting" rune1="2" rune2="14" />
+        <rune id="23" name="Thunder" element="lighting" rune1="3" rune2="15" />
+
+        <rune id="24" name="Cold" element="ice" rune1="4" rune2="12" />
+        <rune id="25" name="Frost" element="ice" rune1="5" rune2="13" />
+        <rune id="26" name="Ice" element="ice" rune1="6" rune2="14" />
+        <rune id="27" name="Blizzard" element="ice" rune1="7" rune2="15" />
+        
+        <rune id="28" name="Thorn" element="nature" rune1="8" rune2="4" />
+        <rune id="29" name="Poison" element="nature" rune1="9" rune2="5" />
+        <rune id="30" name="Nature" element="nature" rune1="10" rune2="6" />
+        <rune id="31" name="Acid" element="nature" rune1="11" rune2="7" />
+        </combination>
+        <healing>
+        <rune id="32" name="Mend" element="healing" slots="1" level="0" healing="20" cost="10" />
+        <rune id="33" name="Regeneration" element="healing" slots="2" level="20" healing="40" cost="30" />
+        <rune id="34" name="Heal" element="healing" slots="3" level="40" healing="80" cost="100" />
+        <rune id="35" name="Blessed" element="healing" slots="4" level="60" healing="160" cost="300" />
+        </healing>
+    </effect>
+    <application>
+        <rune id="0" name="" type="cast" slots="0" cost="0" function="magic.spell" />
+        <rune id="1" name="Bolt" type="target" slots="1" cost="50" function="magic.bolt" />
+        <rune id="2" name="Ray" type="cast" slots="1" cost="50" function="magic.ray" />
+        <rune id="3" name="Cone" type="cast" slots="1" cost="100" function="magic.cone" />
+        <rune id="4" name="Ball" type="target" slots="2" cost="100" function="magic.ball" />
+        <rune id="5" name="Blast" type="aoe" slots="3" cost="100" function="magic.blast" />
+        <rune id="6" name="Storm" type="aoe" slots="4" cost="200" function="magic.storm" />
+        <rune id="7" name="Nova" type="cast" slots="3" cost="100" function="magic.nova" />
+        <rune id="8" name="Inferno" type="cast" slots="4" cost="200" function="magic.inferno" />
+        <rune id="9" name="Apocalypse" type="cast" slots="5" cost="500" function="magic.apocalypse" />
+        <rune id="10" name="Soul" type="target" slots="2" cost="200" function="magic.soul">
+            <allowed element="fire" />
+            <allowed element="water" />
+            <allowed element="earth" />
+            <allowed element="air" />
+        </rune>
+        <rune id="11" name="Swiftness of Wind" 
+              type="cast" slots="3" cost="300"  
+              function="magic.swiftnessofwind" enchaments="0">
+            <allowed element="air" />
+        </rune>
+    </application>
+    <enhancement>
+        <rune id="1" slots="2" cost="50" name="Silent">
+            <allowed element="air" />
+            <disallowed type="enhancement" id="3" />
+        </rune>
+        <rune id="2" slots="4" cost="200"  name="Vampiric">
+            <allowed element="nature" />
+        </rune>
+        <rune id="3" slots="2" cost="-300" name="Illusionary">
+            <disallowed type="enhancement" id="1" />
+        </rune>
+        <rune id="4" slots="4" cost="100" name="Enforced">
+            <allowed element="fire" />
+            <allowed element="water" />
+            <allowed element="earth" />
+            <allowed element="air" />
+        </rune>
+        <rune id="5" slots="3" cost="100" name="Creeping">
+            <allowed element="fire" />
+            <allowed element="nature" />
+        </rune>
+        <rune id="6" slots="2" cost="100" name="Cursed">
+            <allowed element="metal" />
+        </rune>
+        <rune id="7" slots="3" cost="100" name="Freezing">
+            <allowed element="ice" />
+        </rune>
+        <rune id="8" slots="3" cost="100" name="Paralyzing">
+            <allowed element="lighting" />
+        </rune>
+        <rune id="9" slots="2" cost="0" name="Unstable" />
+    </enhancement>
+</runes>
+
