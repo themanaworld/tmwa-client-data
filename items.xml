@@ -53,8 +53,12 @@
         <sprite gender="female">player_female_base.xml</sprite>
     </item>
 
+    <item id="16">
+<!--        <sprite>weapon-dagger.xml</sprite>-->
+    </item>
 
     <!-- TEMPORARY LOW WEAPON ID:S (< 256) -->
+
 
     <item id="30"
         weapon_type="1">
@@ -2130,7 +2134,7 @@
         <sprite gender="female">chest-robe-female.xml|#E40A0A</sprite>
     </item>
     <item id="727"
-        image="generic-iten.png|Wffe0f0"
+        image="generic-iten.png|W:#ffe0f0"
         name="Iten"
         description="An iten."
         effect=""
@@ -2141,6 +2145,13 @@
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
         
+    <item id="727"
+        image="generic-spectral-orb.png|R:#FF6600,FF9933,FFFF33"
+        name="Jack O Soul"
+        description="The soul of a Jack O."
+        effect=""
+        type="generic"
+        weight="1"/>
     <item id="1199"
         image="weapon-arrow-arrow.png"
         name="Arrow"
