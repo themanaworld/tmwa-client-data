@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="60" height="60" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="graphics/minimaps/011-3.png"/>
+  <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
+  <property name="name" value="Hermit's cave"/>
+  <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
+  <property name="overlay0parallax" value="0.0"/>
+ </properties>
+ <tileset name="Cave" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png" trans="ff00ff"/>
+ </tileset>
+ <tileset name="Collision" firstgid="129" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" trans="ff00ff"/>
+ </tileset>
+ <tileset name="Cave x2" firstgid="131" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/cave_x2.png"/>
+ </tileset>
+ <layer name="Ground" width="60" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO2YyU7DQAxA51C4sKpQjoBKxSJWFULhCpTAPyDgA9i+APrp2GJGWEOSmTSpYhcfnqK0h86z3bFnOsaYjqIoiqIoiqIoiqIoiqIQdoDdAHsM1lmX6xaQABf2iSwCS8Cyfe8KdXa5bBPXU2AI3Nknsg5sAJv2vS/UeWDz2CWu18CMxxFwDJzY9yuhzqnNY7/ANQ+Jzmtk7WVcpTo73ypQ5zYDp0n7UudLBk4U2ltd/c3W6HzPwJGC+3Fifnsoem+XcGoF4tMzvGoa92PXU7H+sBedBxzngHlgwfoUxefM8KhpV8d0rTfmpxfdevnza3wfOAAOrU9RfLjUtJsrQrnsZcTF9wn1rVUGvm6uoLnMq8ckIi7cfWP7Dtb4MCIuRTTtmuWb9T+tSqvg95sgq+bqmjc4+sbE4T/41uUtzbeqs0TfkDN+n7fHNb3uSZG3108jK+bv7MVhvpgUOJf6sxe3M1Gd4Fzqz144g0q424gB65fes2edI3AGlXKfE3J1d++OvHME1/ucMvmkd+8Ov5YfgWfizOHsO24+Q/fR6PoKfBiZe/XAy2foXP8GvAMvJMeSfNMIR5fXJ5tb9H0ARvY7SfWcRrjSvDpcPUubs8bxlZrbMr6fwJdlRD6fVt88pPn6lHFteq2KoihN8w3bZZN1QDgAAA==
+  </data>
+ </layer>
+ <layer name="Fringe" width="60" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3OoQ0AMAwEscyRVQu7eHkG6EuRTY5eFQAAAAAAAPBTjwIAAABsdNMDASc9AAAAwwMSD89FQDgAAA==
+  </data>
+ </layer>
+ <layer name="Over" width="60" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3XQQqAIBAFULd1ger+Fy2hSCKjFqHiezCbVn5ltAkBAAAAAACgrGGrpfQiKjYF+9OyeH5zcIYQxX4YSy/ixh99WlPWHt/ZmHnea0y+9boPPeaW+fR0x9V0V32V9nlauTwtZwUAqJn/LCjnOhe9nYWPObH13s3NhW/nRICerGLHOxRAOAAA
+  </data>
+ </layer>
+ <layer name="Collision" width="60" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3SwQ6DIBBF0fl2vtytMQIq4zwYLslNm7aLd7DFzAoRERERERERERFtn02w4U9b66j3RVpXN9vl/Zuj3v7n88xi9jhqA2Yfb+/3aoeHt5xeV/TebWt9dudZ0dvb+8U7o3nE++SofW/2j3rVxtp+j+c4s/Vq28U78l/P5PVwq7dHm9W7vc2t79V7I+9DvQUvXrzfrDt6s5uzO2tHvSvSmsnbO+p9kdaad9V7wNv3tu5h9kaOervqeRMR7dgB9tVplUA4AAA=
+  </data>
+ </layer>
+ <objectgroup name="Object Group 1" width="0" height="0">
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="928" y="960" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="992" y="960" width="32" height="32"/>
+  <object name="Arkim the Hermit" type="NPC" x="976" y="976">
+   <properties>
+    <property name="NPC_ID" value="116"/>
+    <property name="SCRIPT">
+     function npc_handler(npc, ch)
+       do_message(npc, ch, "Do you want to go back outside?")
+       local v = do_choice(npc, ch, "Yes please", "Not yet")
+       if v == 1 then
+         tmw.chr_warp(ch, 9, 60 * 32 + 16, 95 * 32 + 16)
+       end
+     end
+    </property>
+   </properties>
+  </object>
+  <object name="ToLakeCave" type="warp" x="992" y="672" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-4"/>
+    <property name="dest_x" value="2320"/>
+    <property name="dest_y" value="368"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

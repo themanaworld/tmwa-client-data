@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="80" height="80" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="graphics/minimaps/020-3.png"/>
+  <property name="music" value="The Mana World - Snow Village.ogg"/>
+  <property name="name" value="Ice cave"/>
+ </properties>
+ <tileset name="Untitled" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/icecave.png"/>
+ </tileset>
+ <tileset name="Collision" firstgid="129" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <layer name="Ground" width="80" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3Zu07DMBSAYasIRmCgjIBoxWUB1HJdALVcF+D9n4YTGkspxIkbhx47/Y/0DVHC4F9NYoW+MaYPAAAAAAAAdFgbo70G+qWrjdFeQ+r9XKO9NvrFq2qOxUmJU+9ys9Feo1a/G3El7sWDeMyP73zD5aO9Rq1+r+JZfIhP8ZUfv3uXmx/ttS67365YLzE0ze5r7bXG0u/SzO7jTbElto3ffa291mX1s++NI0e/JzO7j/fEvjgwfve19lqX1c++N64d/awzcS4u8uMd+v2MfW+81PRzPRcX3d80He12rn6u516d7Ll4axbf34RMl/plz8U303x/03S60s+qew62PV3rNwzsseh0rZ/dH7blcMX62f1hW0Y1DVPotxbYNMQkb+h6r6fQT1vW0PVep58f+tGPfvX9yka7Xer9QmbD0C9kXN8Ru97PfgcsU7afHRTODQrXln1HbLKfTK2f/Q5YZmTmW2a9xoVz48K1i35HTKlfVceq9/DkV8us17Rwblrxt/T72/I/eq1Kv//Uox+/v0jQj370o19M/Xoe19AvDvQL4/q/snY7Vz+fadqizdFuF9IvhtFuRz/6aUt5tNvF0lh7fQAAAAAAAAAAIB7fFf7gvABkAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="80" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3XAQqDMBBEUc9g6RFK7RW8/8Gq2IKEGMVdk0n8D5YKtXYyBNSuAwAAAAAAANr2dJg7oz8b+rPx6O/OvdLfOWfXTX8L+rPJ0V/LPXqvl/7i6x2dr9cK73XS37Yje5D+9ll79BoFV+XK0Z9Ch0czxfZcah/m6q90h7XvP/qjvxzoz47+7NTyquXZo5bXkufoO7Hnb1vqrwS1vGp59qjlreEZa00tW23PtzX195hmmOb1m2H12UfOf/++71fHQ4a8JVn2zb+fT7d07Wnr/txSfyWo5lTNFVLNmcpleU5OOXPdGvubHV2r93mhWvtToZpTNVdINadqrpBqTtVcIdWcqrlCqjlVc83W92rVnFfksj43jpHjO/V3BdWcqffg1OT+v9b6UxgFpTugP/qrdWpBDwAAAAAAAAAAIJcvzQprJQBkAAA=
+  </data>
+ </layer>
+ <layer name="Over" width="80" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3YMQrAIBAEQNvkAyb//2isxeI4MJowA9vKueWWAgAAAAAAAAAAAAAAvO1oubrcSy/6vlGn0egeAAAAgBkim1Vmm6qBd0c581/ZVmYX/GMPAAAAAAAAAKz3AIobjiYAZAAA
+  </data>
+ </layer>
+ <layer name="Collision" width="80" height="80">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3S0QrCMBBFwXx7v1x8EEpRa9PK3dVZGAQ1sDlkGWMsAAAAAAAAQBujwA4dPZv0Tp2sm+k3328929/TO1a27fZu0rtW9KqTfse77U1650qetdn7Lr1zJWcmvXsF+umnX1+VJt2ie7/7pHt8o9+ZzjNn0006v7/7pJvo99890w2690/fQb++Zlrp5/0dvcsY+2dnJ91itt9ei9leR8+kW5x5f5/e9er/bc90U2nSLfTTr5tKk26h33/2W1af3Vxx7yvOpzt0fn+PSbeo1De9NwAAAAAAAAC/5wYRRQJYAGQAAA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="Bat" type="SPAWN" x="832" y="1088" width="960" height="160">
+   <properties>
+    <property name="MONSTER_ID" value="15"/>
+   </properties>
+  </object>
+  <object name="Violet" type="SPAWN" x="736" y="1472" width="1120" height="256">
+   <properties>
+    <property name="MONSTER_ID" value="16"/>
+   </properties>
+  </object>
+  <object name="toOutside" type="warp" x="992" y="800" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="020-1"/>
+    <property name="dest_x" value="2432"/>
+    <property name="dest_y" value="1184"/>
+   </properties>
+  </object>
+  <object name="toIceCave2" type="warp" x="800" y="704" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="020-4"/>
+    <property name="dest_x" value="1152"/>
+    <property name="dest_y" value="1088"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
