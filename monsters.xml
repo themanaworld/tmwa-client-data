@@ -20,7 +20,7 @@
             attack-delta="2"
             attack-magic="0"
             hit="10"
-            evade="10"
+            evade="5"
             physical-defence="5"
             magical-defence="0"
             mutation="50"
@@ -33,7 +33,7 @@
             aggressive="false"
             cowardly="false"
             track-range="5"
-            stroll-range="5"
+            stroll-range="2"
             attack-distance="32"
             />
         <attack id="1"
@@ -315,6 +315,28 @@
         <drop item="1199" percent="1"/>
         <drop item="526" percent="4"/>
         <drop item="565" percent="5"/>
+        <exp>10</exp>
+        <!-- Passive monster for testing stuff-->
+        <attributes
+            hp="2000"
+            size="8"
+            speed="0"
+            attack-min="0"
+            attack-delta="0"
+            attack-magic="0"
+            hit="0"
+            evade="0"
+            physical-defence="0"
+            magical-defence="0"
+            mutation="0"
+            />
+        <behavior
+            aggressive="false"
+            cowardly="false"
+            track-range="0"
+            stroll-range="0"
+            attack-distance="0"
+            />
     </monster>
 
     <monster id="13" name="Santa Slime">

@@ -11,9 +11,7 @@
 -->
 <items>
     
-    <!-- Version of this items.xml file to ensure that account-server and
-         game-server are in-sync -->
-    <version revision="1" />
+    <version revision="$Revision$" />
     
     <!-- Pseudo-item hairstyles. Using negative IDs is just a temporary
          solution. I would like to use the lower ID numbers when they aren't
@@ -55,8 +53,12 @@
         <sprite gender="female">player_female_base.xml</sprite>
     </item>
 
+    <item id="16">
+<!--        <sprite>weapon-dagger.xml</sprite>-->
+    </item>
 
     <!-- TEMPORARY LOW WEAPON ID:S (< 256) -->
+
 
     <item id="30"
         weapon_type="1">
@@ -479,7 +481,7 @@
         weight="365"
         max-per-slot="10"/>
     <item id="543"
-        image="armor-head-standardheadband.png"
+        image="armor-head-standardheadband.png|W:#291e16,99784c,d8bd86,ffffff"
         name="Standard Headband"
         description="Just a standard headband."
         effect="+3% Defense"
@@ -487,7 +489,7 @@
         weight="45"
         max-per-slot="1"
         defense="3">
-        <sprite>item007.xml</sprite>
+        <sprite>item007.xml|#563f25,99784c,d8bd86,ffffff</sprite>
     </item>
     <item id="544"
         image="armor-head-silkheadband.png"
@@ -2092,7 +2094,7 @@
     <item id="723"
         image="armor-head-deserthat.png|R:#FFFFFF"
         name="Desert Hat"
-        description="While the desert hat is perfect for sand storms, it won't do you little against a physical blow to the head."
+        description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
         effect="+3% Defense"
         type="equip-head"
         defense="3"
@@ -2132,7 +2134,7 @@
         <sprite gender="female">chest-robe-female.xml|#E40A0A</sprite>
     </item>
     <item id="727"
-        image="generic-iten.png|Wffe0f0"
+        image="generic-iten.png|W:#ffe0f0"
         name="Iten"
         description="An iten."
         effect=""
@@ -2143,6 +2145,13 @@
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
         
+    <item id="1198"
+        image="generic-spectral-orb.png|R:#FF6600,FF9933,FFFF33"
+        name="Jack O Soul"
+        description="The soul of a Jack O."
+        effect=""
+        type="generic"
+        weight="1"/>
     <item id="1199"
         image="weapon-arrow-arrow.png"
         name="Arrow"
@@ -2783,7 +2792,7 @@
     </item>
 
     <item id="2090"
-        image="armor-chest-tanktop.png|W:#441111,aa3333,dd6666" 
+        image="armor-chest-tanktop.png|W:#441111,aa3333,dd6666"
 	name="Red Tank Top"
         description="A sleeveless shirt for hot summer days."
         effect="+2% Defense"
@@ -3213,204 +3222,204 @@
     </item>
 
     <item id="2130"
-        image="armor-head-deserthat.png|R:#FF0000"
+        image="armor-head-deserthat.png|R:#441111,aa3333,dd6666"
         name="Red Desert Hat"
-        description="While the desert hat is perfect for sand storms, it won't do you little against a physical blow to the head."
+        description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
         effect="+3% Defense"
         type="equip-head"
         defense="3"
         weight="10">
-        <sprite>head-deserthat.xml|#FF0000</sprite>
+        <sprite>head-deserthat.xml|#441111,aa3333,dd6666</sprite>
     </item>
     <item id="2131"
-        image="armor-head-deserthat.png|R:#55FF55"
+        image="armor-head-deserthat.png|R:#115511,22aa22,99dd99"
         name="Green Desert Hat"
-        description="While the desert hat is perfect for sand storms, it won't do you little against a physical blow to the head."
+        description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
         effect="+3% Defense"
         type="equip-head"
         defense="3"
         weight="10">
-        <sprite>head-deserthat.xml|#55FF55</sprite>
+        <sprite>head-deserthat.xml|#115511,22aa22,99dd99</sprite>
     </item>
     <item id="2132"
-        image="armor-head-deserthat.png|R:#0000C0"
+        image="armor-head-deserthat.png|R:#222255,6666ff"
         name="Dark Blue Desert Hat"
-        description="While the desert hat is perfect for sand storms, it won't do you little against a physical blow to the head."
+        description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
         effect="+3% Defense"
         type="equip-head"
         defense="3"
         weight="10">
-        <sprite>head-deserthat.xml|#0000C0</sprite>
+        <sprite>head-deserthat.xml|#222255,6666ff</sprite>
     </item>
     <item id="2133"
-        image="armor-head-deserthat.png|R:#FFFF00"
+        image="armor-head-deserthat.png|R:#887722,ddcc66,ffffaa"
         name="Yellow Desert Hat"
-        description="While the desert hat is perfect for sand storms, it won't do you little against a physical blow to the head."
+        description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
         effect="+3% Defense"
         type="equip-head"
         defense="3"
         weight="10">
-        <sprite>head-deserthat.xml|#FFFF00</sprite>
+        <sprite>head-deserthat.xml|#887722,ddcc66,ffffaa</sprite>
     </item>
     <item id="2134"
-        image="armor-head-deserthat.png|R:#5555FF"
+        image="armor-head-deserthat.png|R:#223355,99aadd,bbccff"
         name="Light Blue Desert Hat"
-        description="While the desert hat is perfect for sand storms, it won't do you little against a physical blow to the head."
+        description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
         effect="+3% Defense"
         type="equip-head"
         defense="3"
         weight="10">
-        <sprite>head-deserthat.xml|#5555FF</sprite>
+        <sprite>head-deserthat.xml|#223355,99aadd,bbccff</sprite>
     </item>
     <item id="2135"
-        image="armor-head-deserthat.png|R:#FFC0C0"
+        image="armor-head-deserthat.png|R:#552255,ff66ff,ffffff"
         name="Pink Desert Hat"
-        description="While the desert hat is perfect for sand storms, it won't do you little against a physical blow to the head."
+        description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
         effect="+3% Defense"
         type="equip-head"
         defense="3"
         weight="10">
-        <sprite>head-deserthat.xml|#FFC0C0</sprite>
+        <sprite>head-deserthat.xml|#552255,ff66ff,ffffff</sprite>
     </item>
     <item id="2136"
-        image="armor-head-deserthat.png|R:#666666"
+        image="armor-head-deserthat.png|R:#111111,222222,333333,444444,555555,aaaaaa"
         name="Black Desert Hat"
-        description="While the desert hat is perfect for sand storms, it won't do you little against a physical blow to the head."
+        description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
         effect="+3% Defense"
         type="equip-head"
         defense="3"
         weight="10">
-        <sprite>head-deserthat.xml|#666666</sprite>
+        <sprite>head-deserthat.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
     <item id="2137"
-        image="armor-head-deserthat.png|R:#FFC000"
+        image="armor-head-deserthat.png|R:#80280f,b04810,ef681f,ffb830"
         name="Orange Desert Hat"
-        description="While the desert hat is perfect for sand storms, it won't do you little against a physical blow to the head."
+        description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
         effect="+3% Defense"
         type="equip-head"
         defense="3"
         weight="10">
-        <sprite>head-deserthat.xml|#FFC000</sprite>
+        <sprite>head-deserthat.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
     <item id="2138"
-        image="armor-head-deserthat.png|R:#C000FF"
+        image="armor-head-deserthat.png|R:#4f0a76,8010c0,d699f7"
         name="Purple Desert Hat"
-        description="While the desert hat is perfect for sand storms, it won't do you little against a physical blow to the head."
+        description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
         effect="+3% Defense"
         type="equip-head"
         defense="3"
         weight="10">
-        <sprite>head-deserthat.xml|#C000FF</sprite>
+        <sprite>head-deserthat.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2139"
-        image="armor-head-deserthat.png|R:#00C000"
+        image="armor-head-deserthat.png|R:#155515,206620,409940"
         name="Dark Green Desert Hat"
-        description="While the desert hat is perfect for sand storms, it won't do you little against a physical blow to the head."
+        description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
         effect="+3% Defense"
         type="equip-head"
         defense="3"
         weight="10">
-        <sprite>head-deserthat.xml|#00C000</sprite>
+        <sprite>head-deserthat.xml|#155515,206620,409940</sprite>
     </item>
 
     <item id="2140"
-        image="armor-head-standardheadband.png|W:#FF0000"
+        image="armor-head-standardheadband.png|W:#441111,aa3333,dd6666"
         name="Red Cotton Headband"
         description="Just a cotton headband."
         effect="+1% Defense"
         type="equip-head"
         defense="2"
         weight="5">
-        <sprite>item007.xml|#FF0000</sprite>
+        <sprite>item007.xml|#441111,aa3333,dd6666</sprite>
     </item>
     <item id="2141"
-        image="armor-head-standardheadband.png|W:#55FF55"
+        image="armor-head-standardheadband.png|W:#115511,22aa22,99dd99"
         name="Green Cotton Headband"
         description="Just a cotton headband."
         effect="+1% Defense"
         type="equip-head"
         defense="2"
         weight="5">
-        <sprite>item007.xml|#55FF55</sprite>
+        <sprite>item007.xml|#115511,22aa22,99dd99</sprite>
     </item>
     <item id="2142"
-        image="armor-head-standardheadband.png|W:#0000C0"
+        image="armor-head-standardheadband.png|W:#222255,6666ff"
         name="Dark Blue Cotton Headband"
         description="Just a cotton headband."
         effect="+1% Defense"
         type="equip-head"
         defense="2"
         weight="5">
-        <sprite>item007.xml|#0000C0</sprite>
+        <sprite>item007.xml|#222255,6666ff</sprite>
     </item>
     <item id="2143"
-        image="armor-head-standardheadband.png|W:#FFFF00"
+        image="armor-head-standardheadband.png|W:#887722,ddcc66,ffffaa"
         name="Yellow Cotton Headband"
         description="Just a cotton headband."
         effect="+1% Defense"
         type="equip-head"
         defense="2"
         weight="5">
-        <sprite>item007.xml|#FFFF00</sprite>
+        <sprite>item007.xml|#887722,ddcc66,ffffaa</sprite>
     </item>
     <item id="2144"
-        image="armor-head-standardheadband.png|W:#5555FF"
+        image="armor-head-standardheadband.png|W:#223355,99aadd,bbccff"
         name="Light Blue Cotton Headband"
         description="Just a cotton headband."
         effect="+1% Defense"
         type="equip-head"
         defense="2"
         weight="5">
-        <sprite>item007.xml|#5555FF</sprite>
+        <sprite>item007.xml|#223355,99aadd,bbccff</sprite>
     </item>
     <item id="2145"
-        image="armor-head-standardheadband.png|W:#FFC0C0"
+        image="armor-head-standardheadband.png|W:#552255,ff66ff,ffffff"
         name="Pink Cotton Headband"
         description="Just a cotton headband."
         effect="+1% Defense"
         type="equip-head"
         defense="2"
         weight="5">
-        <sprite>item007.xml|#FFC0C0</sprite>
+        <sprite>item007.xml|#552255,ff66ff,ffffff</sprite>
     </item>
     <item id="2146"
-        image="armor-head-standardheadband.png|W:#666666"
+        image="armor-head-standardheadband.png|W:#111111,222222,333333,444444,555555,aaaaaa"
         name="Black Cotton Headband"
         description="Just a cotton headband."
         effect="+1% Defense"
         type="equip-head"
         defense="2"
         weight="5">
-        <sprite>item007.xml|#666666</sprite>
+        <sprite>item007.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
     <item id="2147"
-        image="armor-head-standardheadband.png|W:#FFC000"
+        image="armor-head-standardheadband.png|W:#80280f,b04810,ef681f,ffb830"
         name="Orange Cotton Headband"
         description="Just a cotton headband."
         effect="+1% Defense"
         type="equip-head"
         defense="2"
         weight="5">
-        <sprite>item007.xml|#FFC000</sprite>
+        <sprite>item007.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
     <item id="2148"
-        image="armor-head-standardheadband.png|W:#C000FF"
+        image="armor-head-standardheadband.png|W:#4f0a76,8010c0,d699f7"
         name="Purple Cotton Headband"
         description="Just a cotton headband."
         effect="+1% Defense"
         type="equip-head"
         defense="2"
         weight="5">
-        <sprite>item007.xml|#C000FF</sprite>
+        <sprite>item007.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2149"
-        image="armor-head-standardheadband.png|W:#00C000"
+        image="armor-head-standardheadband.png|W:#155515,206620,409940"
         name="Dark Green Cotton Headband"
         description="Just a cotton headband."
         effect="+1% Defense"
         type="equip-head"
         defense="2"
         weight="5">
-        <sprite>item007.xml|#00C000</sprite>
+        <sprite>item007.xml|#155515,206620,409940</sprite>
     </item>
 </items>

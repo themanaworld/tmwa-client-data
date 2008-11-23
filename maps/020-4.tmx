@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="graphics/minimaps/020-4.png"/>
+  <property name="music" value="The Mana World - Snow Village.ogg"/>
+  <property name="name" value="Ice cave"/>
+ </properties>
+ <tileset name="Ice Cave" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/icecave.png"/>
+ </tileset>
+ <tileset name="Col" firstgid="129" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <layer name="Ground" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO2ay3LUMBBFvQA2wI6wAXbhVcAOCGyABRDYAB/A6wOA+QPIpyNVuWt6VN1Sy5bc45l7q05VEtke516r9fCcDMNwAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFeWkvf/uVbfesnbP+SxK2//kMeuvP1DHrvy9m/NedwPPEh4WGiXjuPy9m+JPHK+WH2SdBZ4MfJs5GWhXTqOy9u/JfrD2egB+fIq8DrwhvlDbZpPks4DH0bejZwO22ylduKj4fre3vbK43z0gHz5FPgc+ML8oTaLT6QrgcsJT4dtxs+FduKY85B807hkvGbUTeH8t8M24/eZz7lhuL63t2vJg8ajexXXRR5btc6DxiOtHn0P/Bj5qRxzTHnE5/cuo+Y5tuRB41FajyiH34HNyK9BzuSU3d8hzX0lpfOp3Lg6JQ9p3Ij8GbY5cKRM+Lh/SHNfSel8KjeuLpGHlAkf90tzLW+P5+ah+dU7j7+Bb4Ocx9fAhXIe1a5DqFs1flng6zltvZ67vpRJLgteuw6hbkmamkVa1zWPSnnHTP4xLgrHU+3S6pa3x3PzINXMc6W6rnk0p/9NqZXeHrfKo4VHaf2auw4sIcnb41Z5kOY8z7F+8f3Z+HPN/LnWe03ePvfMg9bGlnoW6xffn40/18yfa2uTJm+f9yWPXpTmuKm8fV4ijxa+Wp7z3L58nL9ZcvH2eYk8uKb2lal50DyutPYgefs8x/9U+5hHmgvN49a2Rp8iSx4965VlfrfWNbpF/PsL8XlL1wuWdw/W/qLlwe/Bsl5Z6xrdItpvJ9L1giWPuf2D30PNekW7N2/f5+RB++1Eul6w5CFJ6jNaHvweatcrkrx9r8mj9n2gtAfC0T5HGge0PGr3BErjkLfvNXmU6pM0dqZ7IPx8bUyVPObvXWueCWu/IHn7XpNHqT5JY2e6B8LP5/2Hzz+lPLRsW78j9va9Jo/W+x7cY95XtO9bSdm2fkfs7btnHtxjPv/s9d6jVKuGTl72yqOXRxE+PrR872Hd3/X2e0oekqx95mrgWuC60m79Pi7yyMvqy63A7cAdpd36fdxW/nN5e90yD65c3X8UeBx4kjmmFbXy9tojj55M3QcgeXuNPPz9XSIjrzwOtUYtkUf6LKM/LJMNScrIIvSHPnl4ytsj5LErb4+Qx668PTr2PLw92XeWlvf/CwAAAAAAAAAAAADq2Ai/b4S/l84D/fKw+I08kMcxUMojrV/Wegb65ZFrB+3zyD3/U8d7AAAAAAAAAAAA5PkPOnMVJUCcAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3ZQW4DIRAEQH8ilzwl/39YlCORvQZ2gMFUST7kYGC65WWlPB4AAAAAAAAAAADAal+TPp9mVm76qLM6T32UVuepj9LqPPVRypBdbban9hGxhj7qjHgGzHq2fOKzSx+5tOb2/ebv2jX18dyK30cUfcSsGeWUPkasOTonfbStqY86mfv4CdpzJ6v6aMn67t47mXH+mfnoo32PP34fz614Lx1JH7nsPse7uzfzPDVnzz7Df72zZJhRH+X3stDH2Pu+N8vT+4ia9+Q+Wp65u/VxtV5W+sgl6u6LzDA6P33oo9esPlrW1cf4s67oI/IOmiVjHyP31MfrPWfsoY/6PWfsoY/6PWfsoY91ot4VV7r7bjrb1f91d5rjlZ37qD17thmutM6Uaa5dz31ltz56zpvh3LV2m2uns0bJPKM++meMyOXE/K/cySEiP32U7tyfsz4nWZ21Pkqrs9ZHaXXWp+ffQx8AAAAAAAAAAAAA8X4BKohUwECcAAA=
+  </data>
+ </layer>
+ <layer name="Cover" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3YSwrCMBAA0C7c6AXU+1/UigTC0GotaKbJezDL0pB0Ps00AQAAAAAAAAAAAAAAAAAAAJDFeY7bHPfWC4HEMufJdXqtrY5L0xW1U/ai5TmdGr4b/mWp7sTIWC8zKv3FngFHUtcu9Qvei/kiZ8ZS5uZR/9FhzTM35AWQVX3v1VutMpvyrXgP3FtOfOLulqjnHgG0E/vtnp4zes/eas88vPSM2eB34n5v/ZbXzkk+AAAAAAAAAAAAAAAAR/cAkI58hkCcAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3RSW7DMBAEQL3dL8/VCCCYq5qkqoE6JRp6ej7XdX0AAAAAAAAAAAAAAACALV0D53zn19/v/u9tvnv430tPT796vku6j7TSzJrb+85pZvXUmnQfabN6ak26j7TRPfUm3Ufa6J5KZ/W+c4rWPPFGz5u7mt3NyKS7OuEeI2+S7mrluzx9i5a3dzaroxlJd7XDXZ6+81vcddHaW2/SfaTddZFKuo+0uy560/J+zXenKumiJe5xxj1qvz9NSQct6b1H7ZxTzOhw5Kx0P+7RN293o3Zu7a806Z6e6H/kzjWzapLuyz3G/aYdzNq9ZlZp0l093X9t3GPfe8x+b1ezMuuddF+73qh35t036W7efo90F6tJJ73/ahJJ77yyRNI7ryyR9M4ra+muNukdd9fapXsAAAAAAAAAAAAAAAAn+gOKg0erQJwAAA==
+  </data>
+ </layer>
+ <objectgroup name="Object Group 4" width="0" height="0">
+  <object name="toIceCave1" type="warp" x="1152" y="1056" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="020-3"/>
+    <property name="dest_x" value="800"/>
+    <property name="dest_y" value="736"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
