@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="128" height="128" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="graphics/minimaps/002-3.png"/>
+  <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
+  <property name="name" value="Desert mines"/>
+  <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
+ </properties>
+ <tileset name="cave" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png" trans="ff00ff"/>
+ </tileset>
+ <tileset name="collision" firstgid="129" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" trans="000000"/>
+ </tileset>
+ <layer name="Ground" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO2d31LUMBhHc4E+gIoPIKLjrbiKN8KoFbhR3/9pTGb2G7Mh/5u0KT0XZwYW2C49v6Rp8m32XCl1DgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcOSl5rIDL1Z6rR8GOKdb4b3mQnPQXB85HPmmudHcWo8dnN+5jjz2RrXLgHi/8BzH/fqNIh+5fNFcaSbN/ZHpyG/NH81f67HJ+Z37yGMfVZsMvLS8X3mO4379UZ3mws2JLx97zcSd5ofmWQe+q/kZEPfiPee1/lSnuXBzIvmws/F1ABdr8LqTe18GasYQ4r5lRiUfdjYe1D77gd7+7Qy4bc73vftYa/chPqnTscNecrCEf8mA2+Z837uPLeHe7hNMTmWMsIcMLOV/K5gcyBhhDxnAfzgHJgNPfVyI/3gGHgZwhP/1eDWAI/yHObP+l+eBx12eFzw//scl5rjV/43/9m1zTe/4X87/yOcO/2P4N+uPl4W0WFPE/xj+zfrjQcXngg/Kv747Jwf4H8O/WX+cVHwueFL+9d2aHEgdwTv8r+7/fYEHG3uuXnKQkwG7juAz/lfzL9f8iwIPqRzEMmDXDkkdwa+M529xnzE6a/iXa/5VpoecHITm6t3aoZLjPfW2v5Z/uea3rul4q077ALd2iDbfh9Dcjs9/7TU/B1PD8dU6jrjHe19CfYjrX5ykrvkhF6k5ROkDzJq91LXifhz/OU5yrrmxHEgfcJfp3iCZWfs8bpVc/zlOSsZcvhzImn3JuMa+bkA//yknpf1w7Lgl/vdQ57G2/9S4r+Zeq5X/2uNDvn9z7Y+N+/C/XXL8p679+N8uOf5jPmrPfUv/3ANsy39sPFHjn3uAbfmPjSdq/HMP0M9/qq3WHDM2nqjxzxign/9UW215TPyP5z/VVlse8yzxc/ynSe2x49ZZpPwvPfbH/zzv9n5AB/W4NtOtu8P/9vHtsRN6n75bd7e0f/NafeNJe/0A//nYtRLGb2qNzq27S43tYy7cmp0cQuPJ3PtN/D8+nzW1eFJ3lxrbx1yUzrtI2/e9VvzXUVIr4ctAztg+VLNROu+Sey+J/3x61YC2nv+Tth+qG8X/0/Yfa/tu7Qj+n5b/2HXf9xz4b+PfbVe1e2fM9V9aP4L/+f7n7KHiO5cl7xNwKa0fwf98/6nzEfIZyk3tcULzPfjv679mbqZHzlJ9fwv/e34PSOhcmbmZlnv41/hPjftC7kr879m94OvL3b275+agxn9N2y/1v9d+P+d82Xt3z81Bqf+cto//vv4lA5Oqz0FqzxXf+Zf1yJz9IfDfhtQ9XSgHvizYNSSpPVd85z93Tar0XgP/8zLg5sCtCXGdX6v0urJ7/nP7/di4Df99MyA5cGtC7M/tmI4/j+3z4Tqc2+/L3kIle0zgf14O7D6h9HM77HNv79eSsx4dum6Y/JXsK4X/NhmoQc59qXu337Db/ZT5HPhfNwPicI57ey85c+2p2U8O/8vn4Ew93pcvt83a7ysS7+bv7wueA//rZeFMnbbZ0tpD2/0c7/hfB3v/xxJ30u+X7u2G/3GQe/up0F0v9/hf1n3Nnr/2eK+2Vh3/Y7gvdefe582pVcf/tt0betSq4r8vOX12bg1Ga//UfvQn1WeXOGjtn7bfnxa1/5eqfF2Htj8Gqff/ilupIXD3n5B5ooOa93khtP3x/H9Sjz/Xy/j+prnR3Kr/80ST4r5vi8T8y14CBqkhML5/a/5o/jZ2jv+x/Puy0Ms3/sf2vzT4X47eNQSlx2Dsv+0cpPyVvjcRtpEJ/AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwJr8A+XMM+sAAAEA
+  </data>
+ </layer>
+ <layer name="Fringe" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3BAQEAAACAkP6v7ggKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAauuOl9cAAAEA
+  </data>
+ </layer>
+ <layer name="Over" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3dTW6DMBAGULbNBdrc/6JNpFZByCB+bGN73pNYJEqy+YYxMQamCQAAAAAAAAAAAAAAAAAAAAAAANr2/dp+/rbnyvvL7TkxgnfGj9nrr+mT8SP5jc/n1EB5a/tmrt/dypi2zPfNq5vcAQAoYfn/EhjbfM4iwr6f43/5CHNp5pTasTZ3X6rOjPPt2Mriv1eN0G84Tx2MSR+OS/YA8ej9APHo/UAu+glAPHo/QFtcbwmU5NgP8luuxTWOx5HqqXvXXqbuzaF2xrGVp7E4hrVrh3rMXs3262p20bM3NgPE1esYEH3szqm3GpB9frVrQIbtcX01by2PB/pGHSVr4GyGsq+rxHggw/7M5/uv1MKV7NVNG67cN072HCX7uGQfl+zjkn0cqXu+1shejd1PBnHdmb26AwCA/EqvIThzTtKxf1251xCknte05/y05zzdK3Xe+Oh+uye/ka5NHN2RtQTyAwAAAAAAAAAAAAAA7vQLrvgsPAAAAQA=
+  </data>
+ </layer>
+ <layer name="Collision" width="128" height="128" opacity="0.42">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3SS24lMQxD0Vp7Vt7DAEHblmTJ9OcSOKPk2VVk/Xzf9wMAAAAAAAAAAAAAAAAAAAAAAAAAAADgeRVRPau6y9NUZsfnVPe9m+q88oynWpGbn+905DfqLdh/j6g3YX991Luwvz7qbdi/n9a7ZL2zehv2b2fFe6u3OXn/qntWvrd6m5v2380N78D+7M/+7M/+7H/q/lXnsv+d+3vPj96r3oX9c+/x3qfe5YX9V95luU+9xam8XVaE3e/YP/t3o6i7u4G311Zm7vvf7y1Rd3cDT6+9zN7r3T5yJ+L795J9rzXq7m5g7bWVins9Ufd3OmunrbD/2aydtsL+Z7N0WtF97zxP1P2dztJpRfe98zxR93c6S6cV3ffO80Td3+ksnVb03jvTG3WHJ7P0md15K+z/7v6W76MVdYcnG/VZ0Xn0zopned2oz4rOo3dWPMvrRn1WdD46yxt1hzvx9jT6P89Z7L/n7r2+In//+z/sf872fzvr/c3zPzPPyv5rtx/Fegf761Wkan/rGbPP+5KKsP85PJ1YU7F/xXNGnuM2kT4iXUbuYf8994/8LnpP5HvzRr3BifuvvKeX2f3V/aut6mTmnlYi30v1e55oRS/R/nthf+027H+HFf1Ezh+F/eu/gayeIudGn8kadee7qezLe97Mc1ij7ntH2b1Fzpi93xp11zub6TD6O/bfS2Wqtmf//b+Bqu2zngN138HM+ey/h2iqts9+Huz1LWXvPjoXe+z+Jfw+cjb0u39JZ0TOh37/6u17d+D+7Xv3YN32Fd+PJeo+XpK1QWbUnbwis/+sqDt5SeYGWVF38pLMDbKi7uQlkQ2+b/z7mag7eYl3jxVRd/KSHaPu5DUVid6h7uJlGYneo353zH0T6ucEAAAAAAAAAAAAAAAAAAAAAABv+wcsrGMLAAABAA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="CaveExit" type="WARP" x="1152" y="960" width="128" height="32">
+   <properties>
+    <property name="DEST_MAP" value="002-1"/>
+    <property name="DEST_X" value="816"/>
+    <property name="DEST_Y" value="3056"/>
+   </properties>
+  </object>
+  <object name="Red Slime" type="SPAWN" x="1088" y="1088" width="320" height="320">
+   <properties>
+    <property name="MONSTER_ID" value="6"/>
+   </properties>
+  </object>
+  <object name="Black Scorpion" type="SPAWN" x="2496" y="2816" width="320" height="320">
+   <properties>
+    <property name="MONSTER_ID" value="7"/>
+   </properties>
+  </object>
+  <object name="Nathan the Miner" type="NPC" x="1136" y="1136">
+   <properties>
+    <property name="NPC_ID" value="109"/>
+    <property name="SCRIPT">
+     function npc_handler(npc, ch)
+       do_message(npc, ch, "It's very dangerous in here\nBe careful")
+     end
+    </property>
+   </properties>
+  </object>
+  <object name="Naem the Miner" type="NPC" x="2736" y="3120">
+   <properties>
+    <property name="NPC_ID" value="109"/>
+    <property name="SCRIPT">
+     function npc_handler(npc, ch)
+       do_message(npc, ch, "We discovered an underground palace\nDo you want me to let you in?")
+       local v = do_choice(npc, ch, "Sure", "Not yet!")
+       if v == 1 then
+         tmw.chr_warp(ch, 5, 34 * 32 + 16, 92 * 32 + 16)
+       end
+     end
+    </property>
+   </properties>
+  </object>
+  <object name="toLevel2" type="warp" x="2176" y="3136" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="002-4"/>
+    <property name="dest_x" value="1088"/>
+    <property name="dest_y" value="3136"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

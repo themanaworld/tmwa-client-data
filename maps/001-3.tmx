@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="150" height="150" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="graphics/minimaps/001-3.png"/>
+  <property name="name" value="Tulimshar arena"/>
+ </properties>
+ <tileset name="Arena" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/arena.png"/>
+ </tileset>
+ <tileset name="Collision" firstgid="257" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset name="Cave" firstgid="259" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png"/>
+ </tileset>
+ <layer name="Ground" width="150" height="150">
+  <data encoding="base64" compression="gzip">
+   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
+  </data>
+ </layer>
+ <layer name="Fringe" width="150" height="150">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3dSa7cRBgAYEucgDXcCA4Q7sVwFwjQawgoKxISAV4lEmHIGgHCv16XYir2a8/j90ml1x29F/+qLtfkquqiAAAAAAAAAAAAAAAAAAAAAACA8/q8Spe1g+Bwfq3S67WDAAAAYBYxl/BFlR5ef15WjYaj+CZ7/3iVKDga5Yo5PMvel2sEweH8mL0v1wiCQ/igSh9eX+fl6nHD70Bfef+qXCMIDke5Yg7Gg8zBeJCp3NdvvzT8DvSVt4OXNYLgcNrmGWAM5Yo5mGdgKvU+eVu50m9njHyeQTvIFDx3Zg76V8xh6+PBWCcda6QvK8fBbff127e2TibK/dNie+Wd+/1VpZ+r9LxKvxTb2zcfe/n/KbYXFwDAGB9X6ZO1g2AzHlTpo7WD4NDq++UjfVWlr6v0bZUeXd9/d/23R4U99XQT81RPe/5NOUMcHEs+/9lFOXUQLOK9Ba+Vr1vowhw3twypr5QrbhlSX5VTB8Fi0vP6ND6LsdhlhuvsqR1MY9fIk8gP6xn6i+eqr6r0pEo/XH/WP8/3J7rOntrBiDXy4u/i7ll4nid0F3n5okovrz+nnj/aU7l6dr32p1X6rLiLXbkaJtVbc61Z2dM8Q6y5insr2sHvi7t7ba1YuN+e+ldpTVjcW6kttP6qmyXnroLxIHPYUzvIfqT+229V+r1Kf1TpneJu3PXq+v7P7LW2Z5/eXTuADtKYbAv2kF9nYD0eMIV4VvFlMd9zG86pvs845gAvK8XBseTjfmWLKTTNJ5VLB8Hh5OdtxDyS+SLGimdgMUf55Pq+XC8UDiiVL3XV/zmfiKlFmXp5fR3jGfMxjFUvU7lywTg4jvvKVDAXwxD5GLmJ9cj0cauuSsqZ4ziayNe0nvuybiiLaypTaW9SXZwvoS3spz7/fra6vmmNdNqb1ORs+TNGvVxFnp5p7qbvGmnlqrume/Ys+RdrpH8q3m732mgLu2u6Z8+Wf33qrbPV6UPFPdt0v5YLXHsrz0zyeis/B67puwrOUqeP0VS25q6z6mOxoZ9RGstOdW5Jfe/QrbbxbHX6UEu3h/V+3dBy1fZdKFOo32tNcw9TX++o2trDOcpWPm+U+ix96550dml87tGOTb02I7WPr4vm/Cknvt5RtT3PqJ+FMbY/1HV+u0tdUP/cl1A/I+UIZzfkZ1FNdTZVrq3Oyg05zyj10buUqVD2+L8Zpn4GejrvPFLUH2mN0MPizVlzXZ7JtJ3/0bVshT5j7raxfH0/fbKHvfRbGcuOkfq4ffZzj+lTNs0XtvVdQ5c+WN6GpHHX1stPm9S323PfPdYMpzMx4lym58WbM9D+Ld4+F22q782rj7tT37VtfnrP+TvE0n27OSzVv+oqbyvt6WEq6X7d+z0LAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQ9x8oIRrckF8BAA==
+  </data>
+ </layer>
+ <layer name="Upper" width="150" height="150">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3d223bMBQAUPnb6QBK0AnadIFmgGafNF2gj7VDATbgKrZCm6IoUucA/DMMAr66fJiX6joAAAAAAAAAAAAAAAAAAAAAAAD2u6572JXuBS0SW9SsD7F7J343ZchZ9zPnrf7wnccmprZrrviSmzgnZc4lpgAApn0J7esMn4FTj6F9++Az30N7WqAvAAAtMG8nh5g5uXk7AEA883ZyiJmTx+zJA2yNOg9yEVv1M28nh7Wek8lRQwQArenVxjbhJbSfpTtBc36H9qd0Jw7UyJb3I7Tn0p2AK8kdsB370h2gSZ9LdwAAoFLOFt3mNbRfpTuxcjliq2/8XMnf0P6V7sTG1Lwn2frzUKu1xFQ/ERunZw7Ez3I+le5AomNsx4zv+935e9+dD+XUOF9al9Tv3BiY83eNXZNdykm5ONuXJuXdIXOcx1tiTWY8XMZcz+KazuMBHBlLyCl3fK1l74x2iCnG6/5r977H61DreabE7HXJS9zC/ng7avkt5ar61BJbAIO15Ky19IP2mVsBY8YgAOBa7pQnB++CIgfvBgagNePzg/b15rHVO0Z7Z1Czcsfo//Zy1yy2FFdq3xmcq524Jpek3AEwGNd+yF/tu1Tvk7N+x//1dUrNL1Crj+q5rTPfm5rPTLWUWtNa81Ot91Esud5NfcZi5jq1xU2spe9zgy1x7wFzMp9kzL4Ja2CsI1bM+tBYR4pL63rxBAAAAAAAAAAAAAAAAAAAAAAAAEBN3gB67eGRkF8BAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="150" height="150" opacity="0.5">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3US25cMQwEQMf3P3R2geHYM+8jqim9IlCLGMEM1Wz788/HxycAAAAAAAAAAAAAAAAAAP98nfQu7OH7pPehjzu90Ct+o1dU0CsqjJz0W9ijR3rFjF7p2bPpFSt3K/1G9utV+n3s0a/0O+hJp6iiU1TQKyroFRX0igp6RYWvPTnSJb3iCH+vqKBXVNArKugVFb725EiX9Ioj/L2igl5RYZVeddiB6/fSK0bd67fb/XTHWTd99f361d+VSez17uf00rVXR3dL58d6vTqyXzo/rt0tfcvOu/H6bkdu+NP/n72nXq3j7nTbM53nU1RPt3ek836KmZN6RzrjJ5o5evUM1f2ZeeN3u3Du9iM/u7pvd/fVqzV7VT2JnNL36+bKrc7kmJhETuk7dnPlVmdyTIxe5f2W0agcEzOrSxXfuYtRN+w0Z96rV3p1Zmb36sjnPcndWb1Xs773ia7mZ/6f9C27qcp2x3n1tvQduxmd+Yq9Gr13+qYdVOWYmFff/Wo/varr1Z1MO/Tq3ffP/H1L37SDEZPu1ZG36dVavaru7N0dZuWSvmM3lflVzE+f3SGf9B27qczsSCdGTDqf6h1WVJnZrEnnU73DimZkVj3pfKp3WM3szCpmt4x2MDuz0bNjRjvoklmHHbpntJIzk9xlhYzSt+ykU69e7dM9m/SuHXXKq9Od9GpOhk/o1YhJ37KTLnml7zRq0vfspEtuqRuNnPQtO+mSW+o+Iyd9y0665Ja6z8hJ37KbDrkl7jN60nccmUUqX72qz0SvevTq7M6jJ92N0R3QK72quH+iV6OzPPuZI3atnHRXRt++Q6+u7HP2Pck5skO6L0/t1d33rDLp3oy8/dk7V87qvbg76d7s2qtVpiqXdG9G9socn+rM070506t3/zbHp/r3Ot2b9N+rJ3VzZv7p3lx501O6cPfmyd/zdHeSf6u6Tzr/O3dJ73hm/+8/26176byf2qvdJ533iPukd+rYq+pd03nOuFN6l04dS78NvWIvOkQFfaKKXlHhXVd0iLv0BwAAAAAAAAAAAAAAAAAAAAAAAIDV/QWSltKLkF8BAA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="ToInn" type="WARP" x="2272" y="928" width="96" height="32">
+   <properties>
+    <property name="DEST_MAP" value="001-2"/>
+    <property name="DEST_X" value="768"/>
+    <property name="DEST_Y" value="736"/>
+   </properties>
+  </object>
+  <object name="Phaet the Royal Guard" type="NPC" x="2480" y="1200">
+   <properties>
+    <property name="NPC_ID" value="125"/>
+    <property name="SCRIPT">
+     function npc_handler(npc, ch)
+       do_message(npc, ch, "Do you want to go back?")
+       local v = do_choice(npc, ch, "Yes", "No")
+       if v == 1 then
+         tmw.chr_warp(ch, 8, 25 * 32 + 16, 23 * 32 + 16)
+       elseif v == 2 then
+         do_message(npc, ch, "Have fun.")
+       end
+     end
+    </property>
+   </properties>
+  </object>
+  <object name="Aradin the Royal Guard" type="NPC" x="2224" y="1200">
+   <properties>
+    <property name="NPC_ID" value="126"/>
+    <property name="SCRIPT">
+     function npc_handler(npc, ch)
+       do_message(npc, ch, "Don't touch me!\nYou won't find it very funny.")
+     end
+    </property>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
