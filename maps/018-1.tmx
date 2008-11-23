@@ -239,6 +239,8 @@
   </object>
   <object name="Bat" type="spawn" x="4608" y="1312" width="352" height="288">
    <properties>
+    <property name="eA_death" value="2500"/>
+    <property name="eA_spawn" value="5000"/>
     <property name="max_beings" value="5"/>
     <property name="monster_id" value="15"/>
    </properties>

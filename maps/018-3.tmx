@@ -338,7 +338,7 @@
   <object name="Poison skull" type="spawn" x="3200" y="2368" width="32" height="96">
    <properties>
     <property name="max_beings" value="1"/>
-    <property name="monster_id" value="1022"/>
+    <property name="monster_id" value="22"/>
    </properties>
   </object>
   <object name="Red scorpion" type="spawn" x="5248" y="2752" width="512" height="640">
@@ -381,6 +381,12 @@
    <properties>
     <property name="max_beings" value="15"/>
     <property name="monster_id" value="24"/>
+   </properties>
+  </object>
+  <object name="Snake" type="spawn" x="2112" y="3168" width="192" height="160">
+   <properties>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="8"/>
    </properties>
   </object>
  </objectgroup>
