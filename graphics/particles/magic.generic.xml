@@ -21,13 +21,8 @@
 		<property name="position-y" min="-16" max="16"/>
 		<property name="position-z" min="29" max="40"/>
 		</emitter>
-	</particle>
-	<particle
-		position-x = "0"
-		position-y = "0"
-		position-z = "0"
-		lifetime = "128"
-		>
+
+
 		<emitter>
 <!-- green -->          <animation imageset="graphics/particles/sparkle.png|W:#00a000,30ff30" width="15" height="15">
                                 <sequence start="0" end="3" delay="50" />
@@ -42,15 +37,9 @@
 		<property name="position-y" min="-16" max="16"/>
 		<property name="position-z" min="29" max="40"/>
 		</emitter>
-	</particle>
-	<particle
-		position-x = "0"
-		position-y = "0"
-		position-z = "0"
-		lifetime = "128"
-		>
+
 		<emitter>
-<!-- blue -->           <animation imageset="graphics/particles/sparkle.png|W:#0000c0,4060ff" width="15" height="15">
+<!-- blue -->           <animation imageset="graphics/particles/sparkle.png|W:#0000e0,7080ff" width="15" height="15">
                                 <sequence start="0" end="3" delay="50" />
                                 <frame index="0" delay="100" />
                         </animation>
@@ -63,13 +52,8 @@
 		<property name="position-y" min="-16" max="16"/>
 		<property name="position-z" min="29" max="40"/>
 		</emitter>
-	</particle>
-	<particle
-		position-x = "0"
-		position-y = "0"
-		position-z = "0"
-		lifetime = "128"
-		>
+
+
 		<emitter>
 <!-- yellow -->         <animation imageset="graphics/particles/sparkle.png|W:#9090000,ffff00" width="15" height="15">
                                 <sequence start="0" end="3" delay="50" />
@@ -84,13 +68,8 @@
 		<property name="position-y" min="-16" max="16"/>
 		<property name="position-z" min="29" max="40"/>
 		</emitter>
-	</particle>
-	<particle
-		position-x = "0"
-		position-y = "0"
-		position-z = "0"
-		lifetime = "128"
-		>
+
+
 		<emitter>
 <!-- cyan -->           <animation imageset="graphics/particles/sparkle.png|W:#008080,00ffff" width="15" height="15">
                                 <sequence start="0" end="3" delay="50" />
@@ -105,13 +84,8 @@
 		<property name="position-y" min="-16" max="16"/>
 		<property name="position-z" min="29" max="40"/>
 		</emitter>
-	</particle>
-	<particle
-		position-x = "0"
-		position-y = "0"
-		position-z = "0"
-		lifetime = "128"
-		>
+
+
 		<emitter>
 <!-- magenta -->        <animation imageset="graphics/particles/sparkle.png|W:#800080,ff00ff" width="15" height="15">
                                 <sequence start="0" end="3" delay="50" />
@@ -126,5 +100,5 @@
 		<property name="position-y" min="-16" max="16"/>
 		<property name="position-z" min="29" max="40"/>
 		</emitter>
-	</particle>
+        </particle>
 </effect>
