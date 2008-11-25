@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+
+<effect>
+	<particle
+		position-x = "0"
+		position-y = "0"
+		position-z = "0"
+		lifetime = "128"
+		>
+		<emitter>
+<!-- red -->            <animation imageset="graphics/particles/sparkle.png|W:#b00000,ff8020" width="15" height="15">
+                                <sequence start="0" end="3" delay="50" />
+                                <frame index="0" delay="100" />
+                        </animation>
+		<property name="vertical-angle" value="90"/>
+		<property name="power" min="1" max="1"/>
+		<property name="lifetime" min="15" max="25"/>
+		<property name="output" min="1" max="1"/>
+		<property name="output-pause" min="0" max="12"/>
+		<property name="position-x" min="-16" max="16"/>
+		<property name="position-y" min="-16" max="16"/>
+		<property name="position-z" min="29" max="40"/>
+		</emitter>
+
+
+		<emitter>
+<!-- green -->          <animation imageset="graphics/particles/sparkle.png|W:#00a000,30ff30" width="15" height="15">
+                                <sequence start="0" end="3" delay="50" />
+                                <frame index="0" delay="100" />
+                        </animation>
+		<property name="vertical-angle" value="90"/>
+		<property name="power" min="1" max="1"/>
+		<property name="lifetime" min="15" max="25"/>
+		<property name="output" min="1" max="1"/>
+		<property name="output-pause" min="0" max="12"/>
+		<property name="position-x" min="-16" max="16"/>
+		<property name="position-y" min="-16" max="16"/>
+		<property name="position-z" min="29" max="40"/>
+		</emitter>
+
+		<emitter>
+<!-- blue -->           <animation imageset="graphics/particles/sparkle.png|W:#0000e0,7080ff" width="15" height="15">
+                                <sequence start="0" end="3" delay="50" />
+                                <frame index="0" delay="100" />
+                        </animation>
+		<property name="vertical-angle" value="90"/>
+		<property name="power" min="1" max="1"/>
+		<property name="lifetime" min="15" max="25"/>
+		<property name="output" min="1" max="1"/>
+		<property name="output-pause" min="0" max="12"/>
+		<property name="position-x" min="-16" max="16"/>
+		<property name="position-y" min="-16" max="16"/>
+		<property name="position-z" min="29" max="40"/>
+		</emitter>
+
+
+		<emitter>
+<!-- yellow -->         <animation imageset="graphics/particles/sparkle.png|W:#9090000,ffff00" width="15" height="15">
+                                <sequence start="0" end="3" delay="50" />
+                                <frame index="0" delay="100" />
+                        </animation>
+		<property name="vertical-angle" value="90"/>
+		<property name="power" min="1" max="1"/>
+		<property name="lifetime" min="15" max="25"/>
+		<property name="output" min="1" max="1"/>
+		<property name="output-pause" min="0" max="12"/>
+		<property name="position-x" min="-16" max="16"/>
+		<property name="position-y" min="-16" max="16"/>
+		<property name="position-z" min="29" max="40"/>
+		</emitter>
+
+
+		<emitter>
+<!-- cyan -->           <animation imageset="graphics/particles/sparkle.png|W:#008080,00ffff" width="15" height="15">
+                                <sequence start="0" end="3" delay="50" />
+                                <frame index="0" delay="100" />
+                        </animation>
+		<property name="vertical-angle" value="90"/>
+		<property name="power" min="1" max="1"/>
+		<property name="lifetime" min="15" max="25"/>
+		<property name="output" min="1" max="1"/>
+		<property name="output-pause" min="0" max="12"/>
+		<property name="position-x" min="-16" max="16"/>
+		<property name="position-y" min="-16" max="16"/>
+		<property name="position-z" min="29" max="40"/>
+		</emitter>
+
+
+		<emitter>
+<!-- magenta -->        <animation imageset="graphics/particles/sparkle.png|W:#800080,ff00ff" width="15" height="15">
+                                <sequence start="0" end="3" delay="50" />
+                                <frame index="0" delay="100" />
+                        </animation>
+		<property name="vertical-angle" value="90"/>
+		<property name="power" min="1" max="1"/>
+		<property name="lifetime" min="15" max="25"/>
+		<property name="output" min="1" max="1"/>
+		<property name="output-pause" min="0" max="12"/>
+		<property name="position-x" min="-16" max="16"/>
+		<property name="position-y" min="-16" max="16"/>
+		<property name="position-z" min="29" max="40"/>
+		</emitter>
+        </particle>
+</effect>
