@@ -81,6 +81,10 @@
         <sound event="strike">short-sword-miss1.ogg</sound>
         <sound event="hit">short-sword-hit1.ogg</sound>
     </item>
+    <item id="34"
+        weapon_type="1"> <!-- magic fist -->
+        <sprite>weapon-fist.xml</sprite>
+    </item>
 
     <item id="501"
         image="use-potion-a.png|G:#22ff22"
@@ -2155,7 +2159,7 @@
         type="generic"
         weight="2"/>
     <item id="730"
-        image="generic-gem-a.png|#d0d030,ffffa0"
+        image="generic-gemstone-a.png|W:#a0a010,ffffa0"
         name="Lifestone"
         description="A small crystal shard, warm to the touch."
         effect=""
