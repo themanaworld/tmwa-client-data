@@ -2165,6 +2165,18 @@
         effect=""
         type="generic"
         weight="1"/>
+    <item id="731"
+        image="armor-legs-assassinpants.png|R"
+        name="Assassin Pants"
+        description="Pants for a master assassin."
+        effect="+5% Defense"
+        type="equip-torso"
+        weight="10"
+        defense="5"
+        max-per-slot="1">
+        <sprite gender="male">legs-assassin-male.xml</sprite>
+        <sprite gender="female">legs-assassin-female.xml</sprite>
+    </item>
 
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
