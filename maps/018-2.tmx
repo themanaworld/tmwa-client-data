@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="146" height="70" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="146" height="70" tilewidth="32" tileheight="32" eyeDistance="10.0" viewportWidth="640" viewportHeight="480">
  <properties>
   <property name="music" value="Magick - Real.ogg"/>
   <property name="name" value="Woodland minning camp"/>
@@ -20,27 +20,27 @@
  <tileset name="Collision" firstgid="545" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>
  </tileset>
- <layer name="Ground" width="146" height="70">
+ <layer name="Ground" width="146" height="70" viewPlaneDistance="0.0" viewPlaneInfinitelyFarAway="false" tileWidth="32" tileHeight="32">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAAO3bcW7TMBTHcZcbeBdAC+zvaQgOgAScAHaCjfsfAVeNwbzZsZvafnHyjfRRuzZd/J5/WZN0fTLGPAEAAAAAAAAAAAAAAAAAAOCvk/Nuvi3h19Ued606U7W3qtP/fhPcDx9P0e5fjnXu5tsSfl1ZezgfJvFcSW5bzV+qzlTtYZ21x2HnHtlgG7m+a+ck534lWXs4Hybx3NJ8tp6/W+psMY5JbKP3OGo71/Nhvi3h112qfUo8flKcv1SdqdrDOmuP45vz3fkRbCPXd+2clNS1hnztUhb9c/aKdbdUZ+1x/HR+Oc+JXo6Yo/cr+3sK7n90Hgpec3/F799rjs7Li/Pq/J5/PnKObHD/s/Plhrk6Uo7O/fbnFH5/3EOOwv1ELrX+toS90Jw/uc/445TwWKXHOKz5tx/awr5o56O0v2v2kdFz5I9TwmOV1uN4NG/PR/aUozX7CDm6Xvh3cE/na76/sX1kack9n3vNVLBuTXJJ5aj1OMLt+m1+NePn6HEWG7d8r5tMvev0nzrXKa+bp3LU+vOIWI784yPnaGnc1vz/XjeZca7TS1ZI5UiuR45uz5F8r5tMu+vNrcWuucdy1OO6+h5zlFpytWmPe838SVrH2bEcxd53R/q8f2n85Khfjqx5+74b/qzdv5yl8ZOjfjnKfdat3b+cpfHvKUdySeVILr1yNPrxUW78o9Ylcd5PjmqwZpzz/tj/T2j3jxxdjHTeH/v/Ce3+kaN0nVs6zh693+SIHJEjcrQVR8mRXFI5kkuPHMlzxBjt/pGjiy2f99sC2v0jRxdyXlI5aj1/sRxpfA+LHK2z5fP+PfT7KDna8nH2Hvp95Bz575H575L1ytFLZpsj9vvIOdKocyvjqG3toj3uUevcyjgAAAAAAAAAAAAAAAAAAAAAAHX8AWrkkNKwnwAA
   </data>
  </layer>
- <layer name="Fringe" width="146" height="70">
+ <layer name="Fringe" width="146" height="70" viewPlaneDistance="0.0" viewPlaneInfinitelyFarAway="false" tileWidth="32" tileHeight="32">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3bTWsUMRjA8UwttWih1rYoaDUfoV/F7yTeS7HXrihCURDxUhQK4lXBkyeFqtiTQm2pJwWfZSd0mt152SGZJLP/HzzMW2bmmexONtnZVQoAAAAAAAAAAAAAAAAAAABADBYcHeeqo+M08bHDc7VxX+JB6CQ8WM1GcUfiroSWWMvGy12WWMznr1jb6urmlrr4+vqsy8PC/Ho2iqLidfpkzruST02dPpF4auWx6jkXn25L7hsN8x/Wyb3hPnMX169YdVPlUOKGlL+ZNSvfV1sl66d5PUJalrgWOonA3lrL7wKcy74XU6Qrtg2v+6vEN4lXnWQTxlYh0I6u2f5SVb+PLkm7O9+i7d3Op5+s9a89tOPLKp62V09YV2yP6uo7VS6v68eEOHJw3KZ0h+cqo9X4mKTI1Pf3fHm7omxsdMW23xInEqdTHO+RxEOJx9b6swnxxyrzxmO/Uvs7dGOb+fR6yXWm3B5pdX6P7Do4nnkf7Si//dZp6dAJ1Ei9P6oljtXoHnkROJdZ16b9j8VmYd5FewT0tT16L/HBYTlUM+2R+Z7Z9AfL+oUpGH5mf5b40qCsKXfsNaPZlsr39JP8lPjlsBxm01+Jfw7L+XYQOgGMGbTYp8vxxnr+fH/N6kOYvkXs9iTHTGLOyn+hIve9BK4LwLlnoRPAGMb9YfTp8yulcX/b30/EoO53VEuJXldRquN+ni/EJfZx//OS9X19vpCiQYt9aAcAzKqDrHoZcWDc37Ee3gcpjfsRt1TH/Sna72FbhHik/n/PQYt9GPcDAAAAAAAAAAAAAAAAAAAAAIAu/Acs0B4hsJ8AAA==
+   H4sIAAAAAAAAAO3bTWsUMRjA8UyVKiqU2hYF3/IR+lX8TtJ7KfXqlopQLBTxIgoF8argyZNCa6knhVbRk4U+y07oNLvzskMySWb/P3iYt8zMM9mdbLKzqxQAAAAAAAAAAAAAAAAAAACAGMw7Os5NR8dp4nOH52rjicRa6CQ8WMpG8VDikYSWWM7Gy12TuJ7P37C21dXNPXX59fVZlweF+ZVsFEXF6/TJnHcxn5o6fS7xwspjyXMuPt2X3B80zH9YJ4+H+8xdXr9o1U2VA4k7Uv5u1qx8X62XrJ/m9QhpIXQCEXhvLX8IcC77XkyRrtg2vO5Die8SrzvJJoz1QqAdXbP9lap+H12Rdvdqi7Z3I59+sda/9dCOL6h42l49YV2xPaqr71S5vK7jCfHDwXGb0h2eq4xW42OSIlPfR/nyRkXZ2OiKbacSvyX+THG8LYlNiW1r/d8J8c8q885jv1L7O3Rjq/n0dsl1ptweaXVxjzxzcDzzPnqq/PZbp6VDJ1Aj9f6oljhRo3tkL3Aus65N+x+L1cK8i/YI6Gt79FHik8NyqGbaI/M9s+kPlvULUzD8zP4q8a1BWVPuxGtGsy2V7+kn+Snxy2E5zKb/EmcOy/m2HzoBjBm02KfL8cZK/nx/2epDmL5F7HYkx0xizsp/viL3nQSuC8CFl6ETwBjG/WH06fMrpXF/299PxKDud1S3Er2uolTH/TxfiEvs4/7dkvV9fb6QokGLfWgHAMyq/ax6GXFg3N+xHt4HKY37EbdUx/0petPDtgjxSP3/noMW+zDuBwAAAAAAAAAAAAAAAAAAAAAAXTgHuRCMKbCfAAA=
   </data>
  </layer>
- <layer name="Over" width="146" height="70">
+ <layer name="Over" width="146" height="70" viewPlaneDistance="0.0" viewPlaneInfinitelyFarAway="false" tileWidth="32" tileHeight="32">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3b203DMBQG4L4yDiMxAiMgcXmELRBIMEALQ3AZiLwgIYhCEts9tvN9kp9Sn/6NlNgnSnc7AAAAAAAAAAAAAIA+HaID0I3X6ADQgLdhvA/jIzoIXXgoVPezUN0anY6M33q/bm8S54+dM/7aRwdIMHWd3K+odzmMq2Fcp0fbrOfoAIluM9XRf6z3FB3gSKxRZb1EB8jg+340ttb9XPOmjv83Z079nObWL50DWCbX/qhGJ5k+A3Mds0+YsyeoWau5IcLdijk9r+9AHH0/W3AWHYBFau37zwO+k+UeV8wp9Z7MmIuJY/b70Bd9P1vQ+vPsrdD3A7Wpte+nDan/UQDIRd8P9Vv6rn6r/XAtv7OWHAAAAAAAAAAAAAAA5PEFClP/Y7CfAAA=
+   H4sIAAAAAAAAAO3byU3DQBQG4Fy50QolUQIlILEcoQtEJCiApQiWgvAFCSHL69jvefx90pwm8/Inkj3zIudwAAAAAAAAAAAAAACo02t0AKrxHh0AEjjtmf9oxmczvlbIQv0eF6r7vVDdjM5axn+1X7e3M9e3fWdr67v3ZvASHWCGruvkYUK9q2ZcN+NmfrTdeo4OMNNdoTr6j+meogOsJMMeVbO36AAF/N6P2va6v3te13zfmiH1Sxpaf+kcwDilzkcZnRR6DQy1Zp8w5EyQ2VZzQ4T7CWtq3t+BOPp+9uA8OgCjZO37LwLek/GOE9Ys9ZxMm8uOOed9qIu+nz3Y+u/Ze6HvB7LJ2vezDXP/owBQir4f8hv7rP5W++EsnzNLDgAAAAAAAAAAAAAAyvgBn5Nta7CfAAA=
   </data>
  </layer>
- <layer name="Collision" width="146" height="70">
+ <layer name="Collision" width="146" height="70" viewPlaneDistance="0.0" viewPlaneInfinitelyFarAway="false" tileWidth="32" tileHeight="32">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAAO3SUY6DMAyE4WqP0vsfsk8rIUSIDdhjhx/p03YrqtiT+f59Pl8AAAAAAAAAAAAAAAAAAAAAQDn7x/r+7B31XpZdR3t78nhihm45eno0ezz5bP+3ZJh1f5Ynq0dZ52f1yJNv5G8q7ZnRo9mM6p5Y9vLssP0u8nlbj7LnqNijJ+4qOrM7s0Vnf5Tt2XeVWbO883jOj9rPu0NWj0ZnZsyRtduVHt25w6i9PDNEzXI0w1t6dOW5e4fRO6rmGJ1hya6y/Zz7z2f5WvO3/mb0+9V7ZM2uMkt2/989uY86m6zeWPP2dKsiVY/U6JGmR132udKdzLsbnaOYJatHHfd5qkNR+1rP6Jz1fv7MfOkRPepC3SFrj1bK+Sx39Zwr9kgxizLbLntd3Vtx7myeDnnTo9o96pL3bPaue3l3zdrRkvPRu+rsrHt5O6WeO7pDUXtaso2eYeV837Ln6Izt345ZV8m34q5ZM8xmU+dGj/r0qLs39ciyt+JcdRb0aI0erZD3aObuez1xhxVm6JL3qntV3bPKHNF7WXdVz931/qrModpr/6567ow7rDBDl7xX3YseAQAAAAAAAAAAAAAAAAAAAAAy/AAWAK+/sJ8AAA==
   </data>
  </layer>
- <objectgroup name="Object Group" width="0" height="0">
+ <objectgroup name="Object Group" width="0" height="0" viewPlaneDistance="0.0" viewPlaneInfinitelyFarAway="false">
   <object name="graphics/particles/fireplace.particle.xml" type="PARTICLE_EFFECT" x="928" y="640" width="32" height="32"/>
   <object name="graphics/particles/fireplace.particle.xml" type="PARTICLE_EFFECT" x="2784" y="640" width="32" height="32"/>
   <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="1200" y="800" width="32" height="32"/>
