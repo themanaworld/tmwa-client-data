@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<sprite>
+	<imageset name="base" src="graphics/sprites/icon-potion-c.png|G:#da69e5,ffdaff" width="13" height="20" />
+	
+	<action name="default" imageset="base">
+		<animation direction="default">
+			<frame index="0" offsetY="-12" delay="100"/>
+			<frame index="1" offsetY="-12" delay="100"/>
+			<frame index="2" offsetY="-12" delay="100"/>
+			<frame index="3" offsetY="-12" delay="100"/>
+		</animation>
+	</action>
+</sprite>

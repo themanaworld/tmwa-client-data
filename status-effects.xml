@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<status-effects>
+    <status-effect name="speed" id="37" blockid="21"
+                   action="sit"
+                   icon="icon-haste-potion.xml"
+                   start-message="You feel faster."
+                   end-message="You no longer feel faster." />
+<!--                   start-particle="graphics/particles/pentagram-buildup-short.xml"
+                   end-particle=""
+                   start-audio="sfx/levelup.ogg"
+                   end-audio="sfx/levelup.ogg" -->
+    <status-effect name="strength" id="185" blockid="23"
+                   action="sit"
+                   icon="icon-iron-potion.xml"
+                   start-message="You feel stonger."
+                   end-message="You no longer feel stonger." />
+<!--                   start-particle="graphics/particles/pentagram-buildup-short.xml"
+                   end-particle=""
+                   start-audio="sfx/levelup.ogg"
+                   end-audio="sfx/levelup.ogg" -->
+</status-effects>
