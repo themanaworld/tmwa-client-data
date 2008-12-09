@@ -9,7 +9,7 @@ Orange-ish particles that fly up to the sky; based on Crush's Soul Menhir effect
 		position-z = "0"
 		>
 		<emitter>
-			<property name="position-z" value="16" />
+			<property name="position-z" min="16" max="48" />
 			<property name="vertical-angle" min="0" max="90"/>
 			<property name="horizontal-angle" min="0" max="360"/>
 			<property name="power" min="10" max="25"/>
