@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <status-effects>
-    <status-effect name="speed" id="37" blockid="21"
-                   action="sit"
+    <status-effect name="speed" id="37" block-id="21"
                    icon="icon-haste-potion.xml"
-                   start-message="You feel faster."
-                   end-message="You no longer feel faster." />
-<!--                   start-particle="graphics/particles/pentagram-buildup-short.xml"
-                   end-particle=""
-                   start-audio="sfx/levelup.ogg"
-                   end-audio="sfx/levelup.ogg" -->
-    <status-effect name="strength" id="185" blockid="23"
-                   action="sit"
+                   start-message="As your focus increases, you feel the world slowing down around you."
+                   end-message="The world is speeding up again."
+		 />
+    <status-effect name="strength" id="185" block-id="23"
                    icon="icon-iron-potion.xml"
-                   start-message="You feel stonger."
-                   end-message="You no longer feel stonger." />
-<!--                   start-particle="graphics/particles/pentagram-buildup-short.xml"
-                   end-particle=""
-                   start-audio="sfx/levelup.ogg"
-                   end-audio="sfx/levelup.ogg" -->
+		   persistent-particle-effect="true"
+		   start-particle="graphics/particles/orange-violent-glow.particle.xml"
+                   start-message="You feel stronger."
+                   end-message="You feel a little weaker."
+		 />
 </status-effects>
