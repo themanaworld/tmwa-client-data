@@ -2,14 +2,10 @@
 <status-effects>
     <status-effect name="speed" id="37" block-id="21"
                    icon="icon-haste-potion.xml"
-                   start-message="As your focus increases, you feel the world slowing down around you."
-                   end-message="The world is speeding up again."
 		 />
     <status-effect name="strength" id="185" block-id="23"
                    icon="icon-iron-potion.xml"
 		   persistent-particle-effect="true"
 		   start-particle="graphics/particles/orange-violent-glow.particle.xml"
-                   start-message="You feel stronger."
-                   end-message="You feel a little weaker."
 		 />
 </status-effects>
