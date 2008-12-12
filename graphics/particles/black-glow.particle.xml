@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!--
+Orange-ish particles that fly up to the sky; based on Crush's Soul Menhir effect.
+-->
+<effect>
+	<particle
+		position-x = "0"
+		position-y = "0"
+		position-z = "0"
+		>
+		<emitter>
+			<property name="position-z" min="16" max="48" />
+			<property name="vertical-angle" min="0" max="90"/>
+			<property name="horizontal-angle" min="0" max="360"/>
+			<property name="power" min="10" max="25"/>
+			<property name="lifetime" value="1"/>
+			<property name="output" value="1"/>
+			<emitter>
+				<property name="gravity" value="-0.2"/>
+				<property name="momentum" value="0.9"/>
+				<property name="image" value="graphics/particles/gloworb-medium.png|W:#000000"/>
+				<property name="lifetime" value="35"/>
+				<property name="fade-in" value="5"/>
+				<property name="fade-out" value="20"/>
+				<property name="output" min="0" max="1"/>
+				<property name="output-pause" min="30" max="80"/>
+				<property name="randomnes" value="200"/>
+			</emitter>
+			<emitter>
+				<property name="gravity" value="-0.2"/>
+				<property name="momentum" value="0.9"/>
+                                <animation imageset="graphics/particles/sparkle.png|W:#000000" width="15" height="15">
+                                  <sequence start="0" end="3" delay="50" />
+                                  <frame index="0" delay="100" />
+                                </animation>
+				<property name="lifetime" value="35"/>
+				<property name="fade-in" value="5"/>
+				<property name="fade-out" value="20"/>
+				<property name="output" min="0" max="1"/>
+				<property name="output-pause" min="30" max="80"/>
+				<property name="randomnes" value="200"/>
+			</emitter>
+		</emitter>
+	</particle>
+</effect>

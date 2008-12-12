@@ -8,4 +8,11 @@
 		   persistent-particle-effect="true"
 		   start-particle="graphics/particles/orange-violent-glow.particle.xml"
 		 />
+    <status-effect name="invisibility" id="4096" block-id="12"
+                   icon="icon-invisible.xml"
+                   start-message="You are now invisible."
+                   end-message="You are no longer invisible."
+		   persistent-particle-effect="true"
+		   start-particle="graphics/particles/black-glow.particle.xml"
+		 />
 </status-effects>
