@@ -2,6 +2,8 @@
 <status-effects>
     <status-effect name="speed" id="37" block-id="21"
                    icon="icon-haste-potion.xml"
+		   persistent-particle-effect="true"
+		   start-particle="graphics/particles/pink-violent-glow.particle.xml"
 		 />
     <status-effect name="strength" id="185" block-id="23"
                    icon="icon-iron-potion.xml"
