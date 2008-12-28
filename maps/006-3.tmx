@@ -226,7 +226,7 @@
   <object name="Mountain Snake" type="spawn" x="1600" y="1728" width="1024" height="1152">
    <properties>
     <property name="max_beings" value="20"/>
-    <property name="mosnter_id" value="24"/>
+    <property name="monster_id" value="24"/>
    </properties>
   </object>
   <object name="Mountain Snake" type="spawn" x="1408" y="2880" width="896" height="992">
@@ -311,6 +311,30 @@
    <properties>
     <property name="max_beings" value="5"/>
     <property name="monster_id" value="6"/>
+   </properties>
+  </object>
+  <object name="Spider" type="spawn" x="3744" y="2880" width="352" height="544">
+   <properties>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="10"/>
+   </properties>
+  </object>
+  <object name="Spider" type="spawn" x="3488" y="3136" width="256" height="448">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="10"/>
+   </properties>
+  </object>
+  <object name="Spider" type="spawn" x="3168" y="3328" width="320" height="320">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="10"/>
+   </properties>
+  </object>
+  <object name="Yellow slime" type="spawn" x="2464" y="3200" width="448" height="480">
+   <properties>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="5"/>
    </properties>
   </object>
  </objectgroup>
