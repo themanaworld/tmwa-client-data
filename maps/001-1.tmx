@@ -51,6 +51,11 @@
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
+  <object name="Bazaar NPCs" type="SCRIPT" x="1424" y="1264">
+   <properties>
+    <property name="FILENAME" value="scripts/001-1_Tulimshar/bazaar.lua"/>
+   </properties>
+  </object>
   <object name="ToSandstorm" type="WARP" x="1344" y="2816" width="160" height="32">
    <properties>
     <property name="DEST_MAP" value="002-1"/>
@@ -136,6 +141,68 @@
    <properties>
     <property name="max_beings" value="11"/>
     <property name="monster_id" value="0"/>
+   </properties>
+  </object>
+  <object name="Maggot" type="spawn" x="1984" y="736" width="128" height="96">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="0"/>
+   </properties>
+  </object>
+  <object name="Maggots" type="spawn" x="2272" y="2016" width="128" height="96">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="0"/>
+   </properties>
+  </object>
+  <object name="Maggot" type="spawn" x="3072" y="2528" width="128" height="96">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="0"/>
+   </properties>
+  </object>
+  <object name="Maggots" type="spawn" x="4256" y="1920" width="128" height="96">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="0"/>
+   </properties>
+  </object>
+  <object name="Maggot" type="spawn" x="3552" y="1472" width="128" height="96">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="0"/>
+   </properties>
+  </object>
+  <object name="Maggot" type="spawn" x="4096" y="1152" width="128" height="96">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="0"/>
+   </properties>
+  </object>
+  <object name="Maggot" type="spawn" x="2816" y="960" width="128" height="96">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="0"/>
+   </properties>
+  </object>
+  <object name="Maggot" type="spawn" x="576" y="2464" width="128" height="96">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="0"/>
+   </properties>
+  </object>
+  <object name="Giant Maggot" type="spawn" x="3648" y="1536" width="576" height="736">
+   <properties>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="4"/>
+   </properties>
+  </object>
+  <object name="Fire Goblin" type="spawn" x="4160" y="704" width="32" height="32">
+   <properties>
+    <property name="ea_death" value="60000"/>
+    <property name="ea_spawn" value="61000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="9"/>
    </properties>
   </object>
  </objectgroup>

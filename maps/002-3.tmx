@@ -44,11 +44,13 @@
   <object name="Red Slime" type="SPAWN" x="1088" y="1088" width="320" height="320">
    <properties>
     <property name="MONSTER_ID" value="6"/>
+    <property name="max_beings" value="10"/>
    </properties>
   </object>
   <object name="Black Scorpion" type="SPAWN" x="2496" y="2816" width="320" height="320">
    <properties>
     <property name="MONSTER_ID" value="7"/>
+    <property name="max_beings" value="10"/>
    </properties>
   </object>
   <object name="Nathan the Miner" type="NPC" x="1136" y="1136">
