@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<sprite>
+	<imageset name="base" src="graphics/sprites/npc-creepysurgeon.png" width="50" height="70" />
+	<action name="stand" imageset="base">
+		<animation direction="default">
+			<!-- Scissor demonstration -->
+			<sequence start="1" end="9" delay="200" />
+			<frame index="10" delay="500"/>
+			<frame index="11" delay="500"/>
+			<frame index="10" delay="500"/>
+			<frame index="11" delay="500"/>
+			<frame index="10" delay="500"/>
+			<frame index="11" delay="500"/>
+			<frame index="10" delay="500"/>
+			<frame index="12" delay="300"/>
+			<frame index="13" delay="1000"/>
+			<sequence start="14" end="16" delay="400" />
+			<frame index="0" delay="3000"/>
+			<!-- blinking -->
+			<frame index="19" delay="500"/>
+			<frame index="0" delay="3000"/>
+			<!-- checking pocket -->
+			<frame index="12" delay="1000"/>
+			<sequence start="14" end="16" delay="400" />
+			<frame index="0" delay="3000"/>
+		</animation>
+	</action>
+</sprite>
