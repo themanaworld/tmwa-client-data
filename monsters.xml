@@ -843,4 +843,21 @@
             />
     </monster>
 
+    <monster id="34" name="Zombie">
+        <sprite>monster-zombie.xml</sprite>
+        <attributes
+            hp="20"
+            size="4"
+            speed="64"
+            attack-min="10"
+            attack-delta="2"
+            attack-magic="0"
+            hit="10"
+            evade="5"
+            physical-defence="5"
+            magical-defence="0"
+            mutation="50"
+            />
+    </monster>
+
 </monsters>
