@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="64" height="64" tilewidth="32" tileheight="32">
+ <tileset name="cave" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png"/>
+ </tileset>
+ <tileset name="cave_bilevel" firstgid="129" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave_bilevel.png"/>
+ </tileset>
+ <tileset name="cave_x2" firstgid="385" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/cave_x2.png"/>
+ </tileset>
+ <tileset name="Woodland_ground" firstgid="401" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_ground.png"/>
+ </tileset>
+ <tileset name="Collision" firstgid="657" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset name="Unbenannt" firstgid="659" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png"/>
+ </tileset>
+ <tileset name="Unbenannt1" firstgid="915" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor_x2.png"/>
+ </tileset>
+ <tileset name="Unbenannt2" firstgid="947" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor_x3.png"/>
+ </tileset>
+ <layer name="Bottom" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3YSU7DMBQG4LfpDRA3KJQDFMoBCuUAPQUHoEhdMi2YFiBYMC3KIDEumCTGBZMEElfij5qnGGTSmiIRm3/xybFlRf6b+MlpVUSqREREREREREQ/0AsFyFvavNEvpIyb130ZyORiAEpQtLRFo19KGTevBzOQycUwVKBsactGv5Iybl6PZCCTi24YhXGodSi6R1cGMrnmj9Zeh1xsDXYcrMNGfB9f82/CFuzDAZw7OIQjz/Jr3e+J130MJ3AF1/Dk4AZuxa/3X+t+f5z/Du7hFd4c77UEy+LX89e6PxSvewX2LPMmYBKmYBpmAskf7Xutd5p/tUW2VnPGAszfgG1p1vldsb8jPj5/83dIy38KZ9Ks8xdw+c/yP8CjNOv8M7xIUhO0HoSW36x5NnMwL8l+CC2/Wc9sZ1w9K+h+CC1/I85jfhdoG52T9ayg+yG0/JpHM5vvQTT2DrOSnAVCyL8Ai/J5f6d9630339f8v8XH/PUO8n7938DH/Lk21Nqc51v+Vsxn+9drISIiIiIiIiIiIiIionB8AG0ECb8AQAAA
+  </data>
+ </layer>
+ <layer name="Fringe" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3VQQqAIBAFULNzdTJX0aJrt4gIJAkKEu29jQouxhG/IQAAAAAAb6VsPQ9VymhO3reWuGO419s7aTmzgLqmsXYF35CTu97+PzikwvzvlniOa7ze03sulM4NAAAAAAAAPLMB4ESu0gBAAAA=
+  </data>
+ </layer>
+ <layer name="Top" width="64" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3WoQ0AIAwEQCwsAOy/KJhKgisJuUveVXyrWgoAAAAAAACc1Z2xM18XAQAgVfyBp8R/2C9zkZbYPUPc57e9AAAAAAAAeGsBec78dgBAAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="64" height="64" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3TQQqDMBBAUen9V564K6GEomkyZcjkDTxQUMmPer6O4wQAAAAAhlzzefzt/GmyO2baZ+Z6TnZLxB7Mfj+riVi7/rr9PW2r9vf8979ck90z2r5jf+Tad+tv76nW3zOV33/beddetf9uH3bof5pq/RGT3TLa377D3fpnpt271UROdsu/9id7DQAAAAAAANTyBuQoUKoAQAAA
+  </data>
+ </layer>
+ <objectgroup name="Object Group 4" width="0" height="0">
+  <object name="to 015-1" type="warp" x="992" y="1184" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="015-1"/>
+    <property name="dest_x" value="1888"/>
+    <property name="dest_y" value="1024"/>
+   </properties>
+  </object>
+  <object name="Bats" type="spawn" x="640" y="736" width="128" height="160">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Maggots" type="spawn" x="896" y="960" width="96" height="96">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="0"/>
+   </properties>
+  </object>
+  <object name="Maggots" type="spawn" x="736" y="608" width="64" height="64">
+   <properties>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="0"/>
+   </properties>
+  </object>
+  <object name="Spider" type="spawn" x="1280" y="608" width="64" height="64">
+   <properties>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="10"/>
+   </properties>
+  </object>
+  <object name="Spider" type="spawn" x="896" y="1120" width="96" height="64">
+   <properties>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="10"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
