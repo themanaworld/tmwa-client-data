@@ -304,8 +304,8 @@
         weight="30"
         defense="4"
         max-per-slot="1">
-        <sprite gender="male">chest-leather-male.xml</sprite>
-        <sprite gender="female">chest-leather-female.xml</sprite>
+        <sprite gender="male">chest-leather-male.xml|#573a26,9e7654,d3b79e,ffffff;#b96b3d,fbf5f1</sprite>
+        <sprite gender="female">chest-leather-female.xml|#824300,fc8200,ffffff;#ffff00</sprite>
     </item>
     <item id="524"
         image="armor-head-fancyhat.png"
@@ -546,7 +546,8 @@
         weight="50"
         defense="6"
         max-per-slot="1">
-        <sprite>item002.xml</sprite>
+        <sprite gender="male">chest-leather-male.xml|#443c21,85794a,beb590,ffffff;#824035,d6a19a</sprite>
+        <sprite gender="female">chest-leather-female.xml|#a0945e,ffffff;#b6574a</sprite>
     </item>
     <item id="547"
         image="weapon-polearm-bardiche.png"
