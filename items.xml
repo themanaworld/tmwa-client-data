@@ -347,7 +347,7 @@
         weight="300"
         max-per-slot="10"/>
     <item id="528"
-        image="armor-feet-boots.png"
+        image="armor-feet-boots.png|W:#6e2512,b66d49,ffffff,ffffff"
         name="Boots"
         description="Some robust boots, ideal for travelling."
         effect="+2% Defense"
@@ -355,8 +355,8 @@
         weight="15"
         defense="2"
         max-per-slot="1">
-        <sprite gender="male">feet-boots-male.xml</sprite>
-        <sprite gender="female">feet-boots-female.xml</sprite>
+        <sprite gender="male">feet-boots-male.xml|#633034,a76f63,d6a292,ffffff</sprite>
+        <sprite gender="female">feet-boots-female.xml|#633034,a76f63,d6a292,ffffff</sprite>
     </item>
     <item id="529"
         image="weapon-arrow-iron.png"
@@ -1561,7 +1561,7 @@
         <sprite>head-cap.xml|#d94800</sprite>
     </item>
     <item id="655"
-        image="armor-feet-furboots.png"
+        image="armor-feet-fur.png"
         name="Fur Boots"
         description="A pair of warm winter boots."
         effect="+3% Defense"
@@ -2208,6 +2208,18 @@
         mp="0"
         weight="5"
         max-per-slot="10"/>
+    <item id="734"
+        image="armor-feet-boots.png|W:#c0c0c0"
+        name="Black Boots"
+        description="Steel toe capped boots, designed to keep your feet very well protected."
+        effect="+4% Defense"
+        type="equip-feet"
+        weight="35"
+        defense="4"
+        max-per-slot="1">
+        <sprite gender="male">feet-boots-male.xml|#c0c0c0</sprite>
+        <sprite gender="female">feet-boots-female.xml|#c0c0c0</sprite>
+    </item>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
