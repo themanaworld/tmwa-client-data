@@ -99,7 +99,7 @@
         image="use-potion-a.png|G:#ff2222"
         name="Cactus Potion"
         description="A fresh potion."
-        effect="+25 HP, +10 MP"
+        effect="+25 HP"
         type="usable"
         hp="25"
         weight="40"
@@ -403,7 +403,7 @@
         image="use-food-orangecupcake.png"
         name="Orange Cupcake"
         description="A very soft orange cupcake."
-        effect="+100 HP, +10 MP"
+        effect="+100 HP"
         type="usable"
         hp="150"
         weight="185"
@@ -2186,6 +2186,15 @@
         effect=""
         type="generic"
         weight="2"/>
+    <item id="733"
+        image="use-potion-e.png|R:#fff0ff;G:#d0c09f"
+        name="Purification Potion"
+        description="A transparent, odorless liquid that feels strangely lighter than water."
+        effect=""
+        type="usable"
+        mp="0"
+        weight="5"
+        max-per-slot="10"/>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 

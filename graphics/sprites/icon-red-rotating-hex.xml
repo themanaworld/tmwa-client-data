@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<sprite>
+	<imageset name="base" src="graphics/particles/hex-facet-50.png|W:#ff0000" width="9" height="11" />
+	
+	<action name="default" imageset="base">
+		<animation direction="default">
+			<frame index="0" offsetY="-10" delay="200"/>
+			<frame index="1" offsetY="-10" delay="200"/>
+			<frame index="2" offsetY="-10" delay="200"/>
+			<frame index="3" offsetY="-10" delay="200"/>
+			<frame index="4" offsetY="-10" delay="200"/>
+			<frame index="5" offsetY="-10" delay="200"/>
+			<frame index="6" offsetY="-10" delay="200"/>
+			<frame index="7" offsetY="-10" delay="200"/>
+		</animation>
+	</action>
+</sprite>

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<sprite>
+
+	<imageset name="base" src="graphics/sprites/monster-zombie.png" width="64" height="64" />
+
+	<action name="stand" imageset="base">
+		<animation direction="down">
+		  <frame index="0"/>
+		</animation>
+		<animation direction="right">
+		  <frame index="7"/>
+		</animation>
+		<animation direction="up">
+		  <frame index="21"/>
+		</animation>
+		<animation direction="left">
+		  <frame index="14"/>
+		</animation>
+	</action>
+
+	<action name="walk" imageset="base">
+		<animation direction="down">
+			<sequence start="1" end="6" delay="200"/>
+		</animation>
+		<animation direction="right">
+			<sequence start="8" end="13" delay="200"/>
+		</animation>
+		<animation direction="up">
+			<sequence start="21" end="27" delay="200"/>
+		</animation>
+		<animation direction="left">
+			<sequence start="14" end="20" delay="200"/>
+		</animation>
+	</action>
+
+	<action name="dead" imageset="base">
+		<animation direction="down">
+			<sequence start="44" end="55" delay="100"/>
+			<frame index="55" delay="0" />
+		</animation>
+	</action>
+
+	<action name="attack" imageset="base">
+		<animation direction="down">
+			<sequence start="28" end="31" delay="100"/>
+		  	<end />
+		</animation>
+		<animation direction="right">
+			<sequence start="32" end="35" delay="100"/>
+		  	<end />
+		</animation>
+		<animation direction="up">
+			<sequence start="40" end="43" delay="100"/>
+		  	<end />
+		</animation>
+		<animation direction="left">
+			<sequence start="36" end="39" delay="100"/>
+		  	<end />
+		</animation>
+	</action>
+
+</sprite>
