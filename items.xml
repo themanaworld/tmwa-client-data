@@ -12,50 +12,50 @@
 <items>
     <version revision="$Revision$" />
 
-    <item id="-1" type="hairsprite">
-        <sprite>hairstyle1.xml</sprite>
+    <item id="-1" type="hairsprite" name="Ponytail">
+        <sprite gender="male">hairstyle1-male.xml</sprite>
+        <sprite gender="female">hairstyle1-female.xml</sprite>
     </item>
-    <item id="-2" type="hairsprite">
-        <sprite gender="male">hairstyle2-male.xml</sprite>
-        <sprite gender="female">hairstyle2-female.xml</sprite>
+    <item id="-2" type="hairsprite" name="Bowl cut">
+        <sprite>hairstyle2.xml</sprite>
     </item>
-    <item id="-3" type="hairsprite">
+    <item id="-3" type="hairsprite" name="Combed back">
         <sprite>hairstyle3.xml</sprite>
     </item>
-    <item id="-4" type="hairsprite">
+    <item id="-4" type="hairsprite" name="Emo">
         <sprite>hairstyle4.xml</sprite>
     </item>
-    <item id="-5" type="hairsprite">
+    <item id="-5" type="hairsprite" name="Mohawk">
         <sprite>hairstyle5.xml</sprite>
     </item>
-    <item id="-6" type="hairsprite">
+    <item id="-6" type="hairsprite" name="Pompadour">
         <sprite>hairstyle6.xml</sprite>
     </item>
-    <item id="-7" type="hairsprite">
+    <item id="-7" type="hairsprite" name="Center parting/Short and slick">
         <sprite>hairstyle7.xml</sprite>
     </item>
-    <item id="-8" type="hairsprite">
+    <item id="-8" type="hairsprite" name="Long and slick">
         <sprite>hairstyle8.xml</sprite>
     </item>
-    <item id="-9" type="hairsprite">
+    <item id="-9" type="hairsprite" name="Short and curly">
         <sprite>hairstyle9.xml</sprite>
     </item>
-    <item id="-10" type="hairsprite">
+    <item id="-10" type="hairsprite" name="Long and curly">
         <sprite>hairstyle10.xml</sprite>
     </item>
-    <item id="-11" type="hairsprite">
+    <item id="-11" type="hairsprite" name="Pigtails">
         <sprite>hairstyle11.xml</sprite>
     </item>
-    <item id="-12" type="hairsprite">
+    <item id="-12" type="hairsprite" name="Parted">
         <sprite>hairstyle12.xml</sprite>
     </item>
-    <item id="-13" type="hairsprite">
+    <item id="-13" type="hairsprite" name="Wave">
         <sprite>hairstyle13.xml</sprite>
     </item>
-    <item id="-14" type="hairsprite">
+    <item id="-14" type="hairsprite" name="Mane">
         <sprite>hairstyle14.xml</sprite>
     </item>
-    <item id="-15" type="hairsprite">
+    <item id="-15" type="hairsprite" name="Bun">
         <sprite>hairstyle15.xml</sprite>
     </item>
 
@@ -3520,8 +3520,8 @@
         type="equip-feet"
         defense="1"
         weight="10">
-        <sprite gender="male">chest-cotton-male.xml|#441111,aa3333,dd6666</sprite>
-        <sprite gender="female">chest-cotton-female.xml|#441111,aa3333,dd6666</sprite>
+        <sprite gender="male">feet-boots-male.xml|#441111,aa3333,dd6666</sprite>
+        <sprite gender="female">feet-boots-female.xml|#441111,aa3333,dd6666</sprite>
     </item>
     <item id="2151"
         image="armor-feet-boots.png|W:#115511,22aa22,99dd99"
