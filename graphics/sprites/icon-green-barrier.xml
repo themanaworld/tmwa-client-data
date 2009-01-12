@@ -1,12 +1,10 @@
 <?xml version="1.0"?>
 <sprite>
-	<imageset name="base" src="graphics/sprites/icon-green-barrier.png" width="16" height="24" />
+	<imageset name="base" src="graphics/sprites/icon-green-barrier.png" width="13" height="20" />
 	
 	<action name="default" imageset="base">
 		<animation direction="default">
-			<frame index="0" offsetY="-10" delay="100"/>
-			<frame index="1" offsetY="-10" delay="100"/>
-			<frame index="2" offsetY="-10" delay="100"/>
+			<frame index="0" offsetY="-12" delay="0"/>
 		</animation>
 	</action>
 </sprite>
