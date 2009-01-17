@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <!--
-A sphere around the character to visualize a barrier
+A sphere large enough for a player character. Useful to visualize a barrier.
+481 particles.
 -->
 <effect>
 	<particle
@@ -11,15 +12,15 @@ A sphere around the character to visualize a barrier
 		<emitter>
 			<property name="vertical-angle" min="0" max="360"/>
 			<property name="horizontal-angle" min="0" max="360"/>
-			<property name="power" value="20"/>
+			<property name="power" value="17"/>
 			<property name="lifetime" value="1"/>
-			<property name="output" value="20"/>
+			<property name="output" value="3"/>
 			<property name="follow-parent" />
 			<emitter>
                                 <property name="image" value="graphics/particles/gloworb-small.png|W:#ffffff" />
-				<property name="lifetime" value="16"/>
-				<property name="fade-in" value="8"/>
-				<property name="fade-out" value="8"/>
+				<property name="lifetime" value="80"/>
+				<property name="fade-in" value="40"/>
+				<property name="fade-out" value="40"/>
 				<property name="output" value="1"/>
 				<property name="follow-parent" />
 			</emitter>
