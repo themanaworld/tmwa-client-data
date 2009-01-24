@@ -181,12 +181,16 @@
   </object>
   <object name="Snake" type="spawn" x="2144" y="2368" width="320" height="224">
    <properties>
-    <property name="max_beings" value="4"/>
+    <property name="eA_death" value="5000"/>
+    <property name="eA_spawn" value="4000"/>
+    <property name="max_beings" value="2"/>
     <property name="monster_id" value="8"/>
    </properties>
   </object>
   <object name="Snake" type="spawn" x="2816" y="736" width="288" height="192">
    <properties>
+    <property name="eA_death" value="5000"/>
+    <property name="eA_spawn" value="4000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="8"/>
    </properties>
