@@ -347,7 +347,7 @@
         weight="300"
         max-per-slot="10"/>
     <item id="528"
-        image="armor-feet-boots.png|W:#6c423a,f0c2b4"
+        image="armor-feet-boots.png|W:#623a34,f0c2b4"
         name="Boots"
         description="Some robust boots, ideal for travelling."
         effect="+2% Defense"
@@ -355,8 +355,8 @@
         weight="15"
         defense="2"
         max-per-slot="1">
-        <sprite gender="male">feet-boots-male.xml|#6c423a,f0c2b4</sprite>
-        <sprite gender="female">feet-boots-female.xml|#6c423a,f0c2b4</sprite>
+        <sprite gender="male">feet-boots-male.xml|#623a34,f0c2b4</sprite>
+        <sprite gender="female">feet-boots-female.xml|#623a34,f0c2b4</sprite>
     </item>
     <item id="529"
         image="weapon-arrow-iron.png"
@@ -388,8 +388,8 @@
         weight="10"
         defense="2"
         max-per-slot="1">
-        <sprite gender="male">hands-gloves-generic-male.xml|#626260,c4c4c0</sprite>
-        <sprite gender="female">hands-gloves-generic-female.xml|#626260,c4c4c0</sprite>
+        <sprite gender="male">hands-gloves-generic-male.xml|#303030,808080</sprite>
+        <sprite gender="female">hands-gloves-generic-female.xml|#303030,808080</sprite>
     </item>
     <item id="532"
         image="armor-hands-leathergloves.png"
@@ -400,8 +400,8 @@
         weight="25"
         defense="3"
         max-per-slot="1">
-        <sprite gender="male">hands-gloves-generic-male.xml|#90582b,e08045</sprite>
-        <sprite gender="female">hands-gloves-generic-female.xml|#90582b,e08045</sprite>
+        <sprite gender="male">hands-gloves-generic-male.xml|#4e2e18,d5853f</sprite>
+        <sprite gender="female">hands-gloves-generic-female.xml|#4e2e18,d5853f</sprite>
     </item>
     <item id="533"
         image="use-food-roastedmaggot.png"
@@ -684,7 +684,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="563"
-        image="armor-hands-wintergloves.png"
+        image="armor-hands-gloves.png|W:#a0a0a0,d0d0d0,ffffff,ffffff"
         name="Winter Gloves"
         description="Soft and warm gloves."
         effect="+3% Defense"
@@ -692,8 +692,8 @@
         weight="15"
         defense="2"
         max-per-slot="1">
-        <sprite gender="male">hands-gloves-generic-male.xml|#d0d0d2,f0f0f5,ffffff</sprite>
-        <sprite gender="female">hands-gloves-generic-female.xml|#d0d0d2,f0f0f5,ffffff</sprite>
+        <sprite gender="male">hands-gloves-generic-male.xml|#505050,d0d0d0,ffffff,ffffff</sprite>
+        <sprite gender="female">hands-gloves-generic-female.xml|#505050,d0d0d0,ffffff,ffffff</sprite>
     </item>
     <item id="564"
         image="armor-chest-tnecksweater.png|W:#b0b0b0,ffffff"
@@ -2211,7 +2211,7 @@
         weight="5"
         max-per-slot="10"/>
     <item id="734"
-        image="armor-feet-boots.png|W:#606060"
+        image="armor-feet-boots.png|W:#505050"
         name="Black Boots"
         description="Steel toe capped boots, designed to keep your feet very well protected."
         effect="+4% Defense"
@@ -2219,19 +2219,19 @@
         weight="35"
         defense="4"
         max-per-slot="1">
-        <sprite gender="male">feet-boots-male.xml|#606060</sprite>
-        <sprite gender="female">feet-boots-female.xml|#606060</sprite>
+        <sprite gender="male">feet-boots-male.xml|#505050</sprite>
+        <sprite gender="female">feet-boots-female.xml|#505050</sprite>
     </item>
     <item id="735"
-        image="armor-feet-boots.png"
-        name="White Cotton Boots"
+        image="armor-feet-boots.png|W:#d0d0d0,ffffff"
+        name="Cotton Boots"
         description="A pair of quality cotton boots."
         effect="+1% Defense"
         type="equip-head"
         defense="1"
         weight="10">
-        <sprite gender="male">feet-boots-male.xml</sprite>
-        <sprite gender="female">feet-boots-female.xml</sprite>
+        <sprite gender="male">feet-boots-male.xml|#505050,b0b0b0,ffffff,ffffff</sprite>
+        <sprite gender="female">feet-boots-female.xml|#505050,b0b0b0,ffffff,ffffff</sprite>
     </item>
     <item id="736"
         image="use-cake-a.png|R:#EDE5B2,FFF7BF;G:#CCCCCC,FFFFFF"
@@ -2275,6 +2275,17 @@
         description="A root from a plant."
         type="generic"
         weight="5">
+    </item>
+    <item id="741"
+        image="armor-hands-gloves.png|W:#a0a0a0,d0d0d0,ffffff,ffffff"
+        name="White Cotton Gloves"
+        description="A pair of comfy cotton gloves."
+        effect="+1% Defense"
+        type="equip-arms"
+        defense="1"
+        weight="10">
+        <sprite gender="male">hands-gloves-generic-male.xml|#505050,d0d0d0,ffffff,ffffff</sprite>
+        <sprite gender="female">hands-gloves-generic-female.xml|#505050,d0d0d0,ffffff,ffffff</sprite>
     </item>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
@@ -3667,5 +3678,116 @@
         weight="10">
         <sprite gender="male">feet-boots-male.xml|#155515,206620,409940</sprite>
         <sprite gender="female">feet-boots-female.xml|#155515,206620,409940</sprite>
+    </item>
+
+    <item id="2160"
+        image="armor-hands-gloves.png|W:#441111,aa3333,dd6666"
+        name="Red Cotton gloves"
+        description="A pair of comfy cotton gloves."
+        effect="+1% Defense"
+        type="equip-arms"
+        defense="1"
+        weight="10">
+        <sprite gender="male">hands-gloves-generic-male.xml|#441111,aa3333,dd6666</sprite>
+        <sprite gender="female">hands-gloves-generic-female.xml|#441111,aa3333,dd6666</sprite>
+    </item>
+    <item id="2161"
+        image="armor-hands-gloves.png|W:#115511,22aa22,99dd99"
+        name="Green Cotton Boots"
+        description="A pair of comfy cotton gloves."
+        effect="+1% Defense"
+        type="equip-arms"
+        defense="1"
+        weight="10">
+        <sprite gender="male">hands-gloves-generic-male.xml|#115511,22aa22,99dd99</sprite>
+        <sprite gender="female">hands-gloves-generic-female.xml|#115511,22aa22,99dd99</sprite>
+    </item>
+    <item id="2162"
+        image="armor-hands-gloves.png|W:#222255,6666ff"
+        name="Dark Blue Cotton Boots"
+        description="A pair of comfy cotton gloves."
+        effect="+1% Defense"
+        type="equip-arms"
+        defense="1"
+        weight="10">
+        <sprite gender="male">hands-gloves-generic-male.xml|#222255,6666ff</sprite>
+        <sprite gender="female">hands-gloves-generic-female.xml|#222255,6666ff</sprite>
+    </item>
+    <item id="2163"
+        image="armor-hands-gloves.png|W:#887722,ddcc66,ffffaa"
+        name="Yellow Cotton Boots"
+        description="A pair of comfy cotton gloves."
+        effect="+1% Defense"
+        type="equip-arms"
+        defense="1"
+        weight="10">
+        <sprite gender="male">hands-gloves-generic-male.xml|#887722,ddcc66,ffffaa</sprite>
+        <sprite gender="female">hands-gloves-generic-female.xml|#887722,ddcc66,ffffaa</sprite>
+    </item>
+    <item id="2164"
+        image="armor-hands-gloves.png|W:#223355,99aadd,bbccff"
+        name="Light Blue Cotton Boots"
+        description="A pair of comfy cotton gloves."
+        effect="+1% Defense"
+        type="equip-arms"
+        defense="1"
+        weight="10">
+        <sprite gender="male">hands-gloves-generic-male.xml|#223355,99aadd,bbccff</sprite>
+        <sprite gender="female">hands-gloves-generic-female.xml|#223355,99aadd,bbccff</sprite>
+    </item>
+    <item id="2165"
+        image="armor-hands-gloves.png|W:#552255,ff66ff,ffffff"
+        name="Pink Cotton Headband"
+        description="A pair of comfy cotton gloves."
+        effect="+1% Defense"
+        type="equip-arms"
+        defense="1"
+        weight="10">
+        <sprite gender="male">hands-gloves-generic-male.xml|#552255,ff66ff,ffffff</sprite>
+        <sprite gender="female">hands-gloves-generic-female.xml|#552255,ff66ff,ffffff</sprite>
+    </item>
+    <item id="2166"
+        image="armor-hands-gloves.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+        name="Black Cotton Boots"
+        description="A pair of comfy cotton gloves."
+        effect="+1% Defense"
+        type="equip-arms"
+        defense="1"
+        weight="10">
+        <sprite gender="male">hands-gloves-generic-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="female">hands-gloves-generic-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+    </item>
+    <item id="2167"
+        image="armor-hands-gloves.png|W:#80280f,b04810,ef681f,ffb830"
+        name="Orange Cotton Boots"
+        description="A pair of comfy cotton gloves."
+        effect="+1% Defense"
+        type="equip-arms"
+        defense="1"
+        weight="10">
+        <sprite gender="male">hands-gloves-generic-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
+        <sprite gender="female">hands-gloves-generic-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
+    </item>
+    <item id="2168"
+        image="armor-hands-gloves.png|W:#4f0a76,8010c0,d699f7"
+        name="Purple Cotton Boots"
+        description="A pair of comfy cotton gloves."
+        effect="+1% Defense"
+        type="equip-arms"
+        defense="1"
+        weight="10">
+        <sprite gender="male">hands-gloves-generic-male.xml|#4f0a76,8010c0,d699f7</sprite>
+        <sprite gender="female">hands-gloves-generic-female.xml|#4f0a76,8010c0,d699f7</sprite>
+    </item>
+    <item id="2169"
+        image="armor-hands-gloves.png|W:#155515,206620,409940"
+        name="Dark Green Cotton Boots"
+        description="A pair of comfy cotton gloves."
+        effect="+1% Defense"
+        type="equip-arms"
+        defense="1"
+        weight="10">
+        <sprite gender="male">hands-gloves-generic-male.xml|#155515,206620,409940</sprite>
+        <sprite gender="female">hands-gloves-generic-female.xml|#155515,206620,409940</sprite>
     </item>
 </items>
