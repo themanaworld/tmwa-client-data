@@ -12,9 +12,8 @@
 <items>
     <version revision="$Revision$" />
 
-    <item id="-1" type="hairsprite" name="Ponytail">
-        <sprite gender="male">hairstyle1-male.xml</sprite>
-        <sprite gender="female">hairstyle1-female.xml</sprite>
+    <item id="-1" type="hairsprite" name="Flat ponytail">
+        <sprite>hairstyle1.xml</sprite>
     </item>
     <item id="-2" type="hairsprite" name="Bowl cut">
         <sprite>hairstyle2.xml</sprite>
@@ -49,14 +48,17 @@
     <item id="-12" type="hairsprite" name="Parted">
         <sprite>hairstyle12.xml</sprite>
     </item>
-    <item id="-13" type="hairsprite" name="Wave">
+    <item id="-13" type="hairsprite" name="Perky ponytail">
         <sprite>hairstyle13.xml</sprite>
     </item>
-    <item id="-14" type="hairsprite" name="Mane">
+    <item id="-14" type="hairsprite" name="Wave">
         <sprite>hairstyle14.xml</sprite>
     </item>
-    <item id="-15" type="hairsprite" name="Bun">
+    <item id="-15" type="hairsprite" name="Mane">
         <sprite>hairstyle15.xml</sprite>
+    </item>
+    <item id="-16" type="hairsprite" name="Bun">
+        <sprite>hairstyle16.xml</sprite>
     </item>
 
     <!-- Treating the base sprite as equipment too will be useful when we
