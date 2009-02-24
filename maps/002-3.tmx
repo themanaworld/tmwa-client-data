@@ -30,29 +30,10 @@
  </layer>
  <layer name="Collision" width="128" height="128" opacity="0.42">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3SS24lMQxD0Vp7Vt7DAEHblmTJ9OcSOKPk2VVk/Xzf9wMAAAAAAAAAAAAAAAAAAAAAAAAAAADgeRVRPau6y9NUZsfnVPe9m+q88oynWpGbn+905DfqLdh/j6g3YX991Luwvz7qbdi/n9a7ZL2zehv2b2fFe6u3OXn/qntWvrd6m5v2380N78D+7M/+7M/+7H/q/lXnsv+d+3vPj96r3oX9c+/x3qfe5YX9V95luU+9xam8XVaE3e/YP/t3o6i7u4G311Zm7vvf7y1Rd3cDT6+9zN7r3T5yJ+L795J9rzXq7m5g7bWVins9Ufd3OmunrbD/2aydtsL+Z7N0WtF97zxP1P2dztJpRfe98zxR93c6S6cV3ffO80Td3+ksnVb03jvTG3WHJ7P0md15K+z/7v6W76MVdYcnG/VZ0Xn0zopned2oz4rOo3dWPMvrRn1WdD46yxt1hzvx9jT6P89Z7L/n7r2+In//+z/sf872fzvr/c3zPzPPyv5rtx/Fegf761Wkan/rGbPP+5KKsP85PJ1YU7F/xXNGnuM2kT4iXUbuYf8994/8LnpP5HvzRr3BifuvvKeX2f3V/aut6mTmnlYi30v1e55oRS/R/nthf+027H+HFf1Ezh+F/eu/gayeIudGn8kadee7qezLe97Mc1ij7ntH2b1Fzpi93xp11zub6TD6O/bfS2Wqtmf//b+Bqu2zngN138HM+ey/h2iqts9+Huz1LWXvPjoXe+z+Jfw+cjb0u39JZ0TOh37/6u17d+D+7Xv3YN32Fd+PJeo+XpK1QWbUnbwis/+sqDt5SeYGWVF38pLMDbKi7uQlkQ2+b/z7mag7eYl3jxVRd/KSHaPu5DUVid6h7uJlGYneo353zH0T6ucEAAAAAAAAAAAAAAAAAAAAAABv+wcsrGMLAAABAA==
+   H4sIAAAAAAAAAO2Sy44kIQwE69vny/c40mgB29gkj0gpTt1lQwY/3/f9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0+DY4A6zxnB3VWdVdnkZldjynuu/dqM4rZzyVFbn5fKdDfqN2gf89onaCf33UXvCvj9oN/vtp3SXrzmo3+G9nxb3Vbk72X7Vn5b3Vbm7yvxs33AH/+Mc//vGP/1P9V83F/53+vfOje9Ve8J+7x7tP7eUF/yt3WfapXZyKt8uK4P0O/9nfjaLu7ga8vbYys+9/31ui7u4GPL32MrvX6z6yE+L+e8nea426uxuw9tpKxV5P1P2djrXTVvB/NtZOW8H/2Vg6rei+N88TdX+nY+m0ovvePE/U/Z2OpdOK7nvzPFH3dzqWTit67830Rt3hyVj6zO68Ffy/69/yPlpRd3gyoz4rOo/urDjL64z6rOg8urPiLK8z6rOi89Esb9Qd7oS3p9H/PLPwv6f3Xl+R3//+B//nuP/bWe83z39mzor/te5Hse7Av56KVPm3zpg970tUBP/n4OnEmgr/FeeMnOM2In1Euozswf+e/iPfRfdE3ps3agcn+l+5p5dZ/+r+1azqZGZPK5H3Un3PE1nRS7T/XvCvdYP/O1jRT2T+KPivfwNZPUXmRs9kjbrz3ajsyztv5hzWqPvekezeIjNm91uj7npnZjqMfof/vahMlXv87/8GqtxnnQPq3sHMfPzvQTRV7rPPA3u9pWzvo7mwh/cv4fvIbNB7/5JmROaD3n+1+94OuN99bw+sc1/xfixR9/ESWQ4yo+7kFTL7z4q6k5fIdJAVdScvkekgK+pOXiLi4PvG389E3clLeH2siLqTl9gx6k5eoyLRHeouXiYj0T3qu8Pcm1CfEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3uYfJ5MjTQAAAQA=
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
-  <object name="CaveExit" type="WARP" x="1152" y="960" width="128" height="32">
-   <properties>
-    <property name="DEST_MAP" value="002-1"/>
-    <property name="DEST_X" value="816"/>
-    <property name="DEST_Y" value="3056"/>
-   </properties>
-  </object>
-  <object name="Red Slime" type="SPAWN" x="1088" y="1088" width="320" height="320">
-   <properties>
-    <property name="MONSTER_ID" value="6"/>
-    <property name="max_beings" value="10"/>
-   </properties>
-  </object>
-  <object name="Black Scorpion" type="SPAWN" x="2496" y="2816" width="320" height="320">
-   <properties>
-    <property name="MONSTER_ID" value="7"/>
-    <property name="max_beings" value="10"/>
-   </properties>
-  </object>
   <object name="Nathan the Miner" type="NPC" x="1136" y="1136">
    <properties>
     <property name="NPC_ID" value="109"/>
@@ -82,6 +63,97 @@
     <property name="dest_map" value="002-4"/>
     <property name="dest_x" value="1088"/>
     <property name="dest_y" value="3136"/>
+   </properties>
+  </object>
+  <object name="Exit" type="warp" x="1184" y="928" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="002-1"/>
+    <property name="dest_x" value="816"/>
+    <property name="dest_y" value="3056"/>
+   </properties>
+  </object>
+  <object name="Yellow Slime" type="spawn" x="960" y="928" width="992" height="640">
+   <properties>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="5"/>
+   </properties>
+  </object>
+  <object name="Snake" type="spawn" x="2656" y="992" width="576" height="672">
+   <properties>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="8"/>
+   </properties>
+  </object>
+  <object name="Red Slime" type="spawn" x="1888" y="864" width="832" height="576">
+   <properties>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="6"/>
+   </properties>
+  </object>
+  <object name="Spider" type="spawn" x="2080" y="3136" width="288" height="192">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="10"/>
+   </properties>
+  </object>
+  <object name="Black Scorpion" type="spawn" x="1760" y="1440" width="864" height="800">
+   <properties>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="7"/>
+   </properties>
+  </object>
+  <object name="Red Slime" type="spawn" x="1280" y="1504" width="384" height="928">
+   <properties>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="6"/>
+   </properties>
+  </object>
+  <object name="Black Scorpion" type="spawn" x="992" y="2080" width="512" height="736">
+   <properties>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="7"/>
+   </properties>
+  </object>
+  <object name="Red Slime" type="spawn" x="1760" y="2240" width="224" height="576">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="6"/>
+   </properties>
+  </object>
+  <object name="Black Scorpion" type="spawn" x="2688" y="1664" width="384" height="1056">
+   <properties>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="7"/>
+   </properties>
+  </object>
+  <object name="Red Slime" type="spawn" x="2368" y="2720" width="640" height="576">
+   <properties>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="6"/>
+   </properties>
+  </object>
+  <object name="Red Slime" type="spawn" x="1984" y="2240" width="704" height="480">
+   <properties>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="6"/>
+   </properties>
+  </object>
+  <object name="Black Scorpion" type="spawn" x="1984" y="2720" width="384" height="416">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="7"/>
+   </properties>
+  </object>
+  <object name="Snake" type="spawn" x="1760" y="2848" width="224" height="448">
+   <properties>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="8"/>
+   </properties>
+  </object>
+  <object name="Black Scorpion" type="spawn" x="1984" y="3136" width="96" height="192">
+   <properties>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="7"/>
    </properties>
   </object>
  </objectgroup>
