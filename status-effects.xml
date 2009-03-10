@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <status-effects>
+    <status-effect name="item-healing" id="70"
+		   persistent-particle-effect="true"
+		   start-particle="graphics/particles/circle.particle.xml"
+		 />
+
     <status-effect name="speed" id="37" block-id="21"
                    icon="icon-haste-potion.xml"
 		   persistent-particle-effect="true"
