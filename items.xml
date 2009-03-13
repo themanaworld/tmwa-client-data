@@ -2289,10 +2289,18 @@
         <sprite gender="male">hands-gloves-generic-male.xml|#202020,c0c0c0,ffffff,ffffff</sprite>
         <sprite gender="female">hands-gloves-generic-female.xml|#202020,c0c0c0,ffffff,ffffff</sprite>
     </item>
+    <item id="742"
+        image="generic-4leafclover.png"
+        name="4 Leaf Clover"
+        description="A lucky four leaf clover."
+        effect="+1 Luck"
+        type="equip-charm"
+        luck="1"
+        weight="1">
+    </item>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
-        
     <item id="1198"
         image="generic-spectral-orb.png|R:#FF6600,FF9933,FFFF33"
         name="Jack O Soul"

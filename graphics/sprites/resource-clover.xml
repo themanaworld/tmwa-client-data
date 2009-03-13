@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<sprite>
+    <imageset name="base" src="graphics/sprites/resource-clover.png" width="30" height="30" />
+
+    <action name="stand" imageset="base">
+        <animation>
+            <frame index="0"/>
+        </animation>
+    </action>
+
+    <action name="dead" imageset="base">
+        <animation>
+            <frame index="1"/>
+        </animation>
+    </action>
+</sprite>
