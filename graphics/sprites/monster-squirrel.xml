@@ -1,0 +1,83 @@
+﻿<?xml version="1.0"?>
+<sprite>
+  <imageset name="base" src="graphics/sprites/monster-squirrel.png" width="32" height="32" />
+  <action name="stand" imageset="base">
+    <animation direction="down">
+      <sequence start="16" end="19" delay="75" />
+      <sequence start="16" end="19" delay="75" />
+      <sequence start="16" end="19" delay="75" />
+      <sequence start="16" end="19" delay="75" />
+      <sequence start="16" end="19" delay="75" />
+      <sequence start="20" end="25" delay="75" />
+      <sequence start="16" end="19" delay="120" />
+    </animation>
+    <animation direction="right">
+      <sequence start="0" end="3" delay="75" />
+      <sequence start="0" end="3" delay="75" />
+      <sequence start="0" end="3" delay="75" />
+      <sequence start="0" end="3" delay="75" />
+      <sequence start="0" end="3" delay="75" />/>
+      <sequence start="4" end="7" delay="75" />
+      <sequence start="0" end="3" delay="75" />
+    </animation>
+    <animation direction="up">
+      <sequence start="24" end="27" delay="75" />
+      <sequence start="24" end="27" delay="75" />
+      <sequence start="24" end="27" delay="75" />
+      <sequence start="24" end="27" delay="75" />
+      <sequence start="24" end="27" delay="75" />
+      <sequence start="28" end="31" delay="75" />
+      <sequence start="24" end="27" delay="75" />
+    </animation>
+    <animation direction="left">
+      <sequence start="8" end="11" delay="75" />
+      <sequence start="8" end="11" delay="75" />
+      <sequence start="8" end="11" delay="75" />
+      <sequence start="8" end="11" delay="75" />
+      <sequence start="8" end="11" delay="75" />
+      <sequence start="12" end="15" delay="75" />
+      <sequence start="8" end="11" delay="75" />
+    </animation>
+  </action>
+  <action name="walk" imageset="base">
+    <animation direction="down">
+      <sequence start="48" end="50" delay="110" />
+    </animation>
+    <animation direction="right">
+      <sequence start="32" end="34" delay="110" />
+    </animation>
+    <animation direction="up">
+      <sequence start="56" end="58" delay="110" />
+    </animation>
+    <animation direction="left">
+      <sequence start="40" end="42" delay="110" />
+    </animation>
+  </action>
+  <action name="dead" imageset="base">
+    <animation direction="down">
+      <sequence start="54" end="55" delay="200" />
+      <sequence start="54" end="55" delay="200" />
+      <sequence start="54" end="55" delay="200" />
+      <sequence start="54" end="55" delay="200" />
+      <frame index="55" delay="4000" />
+    </animation>
+  </action>
+  <action name="attack" imageset="base">
+    <animation direction="down">
+      <frame index="16" delay="250" />
+      <frame index="52" delay="250" />
+    </animation>
+    <animation direction="right">
+      <frame index="0" delay="250" />
+      <frame index="36" delay="250" />
+    </animation>
+    <animation direction="up">
+      <frame index="24" delay="250" />
+      <frame index="60" delay="250" />
+    </animation>
+    <animation direction="left">
+      <frame index="8" delay="250" />
+      <frame index="44" delay="250" />
+    </animation>
+  </action>
+</sprite>
