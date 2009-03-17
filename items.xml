@@ -390,8 +390,8 @@
         weight="10"
         defense="2"
         max-per-slot="1">
-        <sprite gender="male">hands-gloves-generic-male.xml|#303030,808080</sprite>
-        <sprite gender="female">hands-gloves-generic-female.xml|#303030,808080</sprite>
+        <sprite gender="male">hands-gloves-generic-male.xml|#202020,505050</sprite>
+        <sprite gender="female">hands-gloves-generic-female.xml|#202020,505050</sprite>
     </item>
     <item id="532"
         image="armor-hands-leathergloves.png"
@@ -402,8 +402,8 @@
         weight="25"
         defense="3"
         max-per-slot="1">
-        <sprite gender="male">hands-gloves-generic-male.xml|#4e2e18,d5853f</sprite>
-        <sprite gender="female">hands-gloves-generic-female.xml|#4e2e18,d5853f</sprite>
+        <sprite gender="male">hands-gloves-generic-male.xml|#4e2e18,c8752f</sprite>
+        <sprite gender="female">hands-gloves-generic-female.xml|#4e2e18,c8752f</sprite>
     </item>
     <item id="533"
         image="use-food-roastedmaggot.png"
@@ -698,7 +698,7 @@
         <sprite gender="female">hands-gloves-generic-female.xml|#202020,c0c0c0,ffffff,ffffff</sprite>
     </item>
     <item id="564"
-        image="armor-chest-tnecksweater.png|W:#b0b0b0,ffffff"
+        image="armor-chest-tnecksweater.png|W:#A4B2B2,FFFFFF"
         name="Turtleneck Sweater"
         description="A soft, warm sweater."
         effect="+6% Defense"
@@ -706,8 +706,8 @@
         weight="40"
         defense="6"
         max-per-slot="1">
-        <sprite gender="male">chest-tnecksweater-male.xml|#b0b0b0,ffffff</sprite>
-        <sprite gender="female">chest-tnecksweater-female.xml|#b0b0b0,ffffff</sprite>
+        <sprite gender="male">chest-tnecksweater-male.xml|#A4B2B2,FFFFFF</sprite>
+        <sprite gender="female">chest-tnecksweater-female.xml|#A4B2B2,FFFFFF</sprite>
     </item>
     <item id="565"
         image="generic-petal.png"
@@ -897,7 +897,7 @@
         weight="10"
         max-per-slot="1"/>
     <item id="586"
-        image="armor-legs-shorts.png|W:#6c858a,ffffff"
+        image="armor-legs-shorts.png|W:#A4B2B2,FFFFFF"
         name="Cotton Shorts"
         description="Shorts made of 100% cotton."
         effect="+2% Defense"
@@ -905,8 +905,8 @@
         weight="10"
         defense="2"
         max-per-slot="1">
-        <sprite gender="male">leg-shorts-male.xml|#4f696f,a7b2b7,f1f3f5,ffffff</sprite>
-        <sprite gender="female">leg-shorts-female.xml|#4f696f,a7b2b7,f1f3f5,ffffff</sprite>
+        <sprite gender="male">leg-shorts-male.xml|#A4B2B2,FFFFFF</sprite>
+        <sprite gender="female">leg-shorts-female.xml|#A4B2B2,FFFFFF</sprite>
     </item>
     <item id="587"
         image="weapon-sword-sword.png"
@@ -1110,7 +1110,7 @@
         weight="10"
         max-per-slot="1"/>
     <item id="610"
-        image="armor-legs-shorts.png|W:#0e1d24,285f78,2c7c98,76b9ca"
+        image="armor-legs-shorts.png|W:#255367,266c84,68b0c5,ffffff"
         name="Jeans Shorts"
         description="Shorts made of jeans."
         effect="+4% Defense"
@@ -1256,7 +1256,7 @@
         <sprite>weapon-scythe.xml</sprite>
     </item>
     <item id="624"
-        image="armor-chest-vnecksweater.png|W:#ffffff"
+        image="armor-chest-vnecksweater.png|W:#A4B2B2,FFFFFF"
         name="V-Neck Sweater"
         description="A soft, warm sweater."
         effect="+8% Defense"
@@ -1264,8 +1264,8 @@
         weight="45"
         defense="8"
         max-per-slot="1">
-        <sprite gender="male">chest-vnecksweater-male.xml|#ffffff</sprite>
-        <sprite gender="female">chest-vnecksweater-female.xml|#ffffff</sprite>
+        <sprite gender="male">chest-vnecksweater-male.xml|#A4B2B2,FFFFFF</sprite>
+        <sprite gender="female">chest-vnecksweater-female.xml|#A4B2B2,FFFFFF</sprite>
     </item>
     <item id="625"
         image="armor-chest-chainmail.png"
@@ -1344,7 +1344,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="632"
-        image="armor-legs-skirt.png|W:#e0e0e0,ffffff"
+        image="armor-legs-skirt.png|W:#A4B2B2,FFFFFF"
         name="Cotton Skirt"
         description="A skirt made of linen cloth."
         effect="+4% Defense"
@@ -1352,7 +1352,7 @@
         type="equip-legs"
         weight="30"
         max-per-slot="1">
-        <sprite>leg-skirt.xml|#e0e0e0,ffffff</sprite>
+        <sprite>leg-skirt.xml|#A4B2B2,FFFFFF</sprite>
     </item>
     <item id="633"
         image="armor-head-xmaself.png"
@@ -1854,27 +1854,27 @@
         weight="40"
         max-per-slot="10"/>
     <item id="688"
-        image="armor-chest-tanktop.png"
+        image="armor-chest-tanktop.png|W:#A4B2B2,FFFFFF"
         name="Tank Top"
         description="A sleeveless shirt for hot summer days."
         effect="+2% Defense"
         type="equip-torso"
         weight="15">
-        <sprite gender="male">chest-tanktop-male.xml</sprite>
-        <sprite gender="female">chest-tanktop-female.xml</sprite>
+        <sprite gender="male">chest-tanktop-male.xml|#A4B2B2,FFFFFF</sprite>
+        <sprite gender="female">chest-tanktop-female.xml|#A4B2B2,FFFFFF</sprite>
     </item>
     <item id="689"
-        image="armor-chest-tanktop-short.png"
+        image="armor-chest-tanktop-short.png|W:#A4B2B2,FFFFFF"
         name="Short Tank Top"
         description="A short, sleeveless shirt for VERY hot summer days."
         effect="+2% Defense"
         type="equip-torso"
         weight="15">
-        <sprite gender="male">chest-shorttanktop-male.xml</sprite>
-        <sprite gender="female">chest-shorttanktop-female.xml</sprite>
+        <sprite gender="male">chest-shorttanktop-male.xml|#A4B2B2,FFFFFF</sprite>
+        <sprite gender="female">chest-shorttanktop-female.xml|#A4B2B2,FFFFFF</sprite>
     </item>    
     <item id="690"
-        image="use-potion-d.png|G:#a50000,e03f27,eb5558"
+        image="use-potion-d.png|G:#580000,A40000,C02020,ff6060"
         name="Red Dye"
         description="A vial containing red dye."
         type="generic"
@@ -1937,7 +1937,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="699"
-        image="use-potion-d.png|G:#155515,206620,409940"
+        image="use-potion-d.png|G:#104010,208020,30c030"
         name="Dark Green Dye"
         description="A vial containing dark green dye."
         type="generic"
@@ -2125,14 +2125,14 @@
         <sprite>head-deserthat.xml|#FFFFFF</sprite>
     </item>
     <item id="724"
-        image="armor-head-standardheadband.png|W:#FFFFFF"
+        image="armor-head-standardheadband.png|W:#A4B2B2,FFFFFF"
         name="Cotton Headband"
         description="Just a cotton headband."
         effect="+1% Defense"
         type="equip-head"
         defense="2"
         weight="5">
-        <sprite>head-standardheadband.xml|#FFFFFF</sprite>
+        <sprite>head-standardheadband.xml|#A4B2B2,FFFFFF</sprite>
     </item>
     <item id="725"
         image="armor-head-gmcap.png|R:#BF0E08"
@@ -2225,15 +2225,15 @@
         <sprite gender="female">feet-boots-female.xml|#505050</sprite>
     </item>
     <item id="735"
-        image="armor-feet-boots.png|W:#d0d0d0,ffffff"
+        image="armor-feet-boots.png|#A4B2B2,FFFFFF"
         name="Cotton Boots"
         description="A pair of quality cotton boots."
         effect="+1% Defense"
         type="equip-head"
         defense="1"
         weight="10">
-        <sprite gender="male">feet-boots-male.xml|#202020,a0a0a0,ffffff,ffffff</sprite>
-        <sprite gender="female">feet-boots-female.xml|#202020,a0a0a0,ffffff,ffffff</sprite>
+        <sprite gender="male">feet-boots-male.xml|#A4B2B2,FFFFFF</sprite>
+        <sprite gender="female">feet-boots-female.xml|#A4B2B2,FFFFFF</sprite>
     </item>
     <item id="736"
         image="use-cake-a.png|R:#EDE5B2,FFF7BF;G:#CCCCCC,FFFFFF"
@@ -2279,15 +2279,15 @@
         weight="5">
     </item>
     <item id="741"
-        image="armor-hands-gloves.png|W:#a0a0a0,d0d0d0,ffffff,ffffff"
+        image="armor-hands-gloves.png|W:#A4B2B2,FFFFFF"
         name="Cotton Gloves"
         description="A pair of comfy cotton gloves."
         effect="+1% Defense"
         type="equip-arms"
         defense="1"
         weight="10">
-        <sprite gender="male">hands-gloves-generic-male.xml|#202020,c0c0c0,ffffff,ffffff</sprite>
-        <sprite gender="female">hands-gloves-generic-female.xml|#202020,c0c0c0,ffffff,ffffff</sprite>
+        <sprite gender="male">hands-gloves-generic-male.xml|#A4B2B2,FFFFFF</sprite>
+        <sprite gender="female">hands-gloves-generic-female.xml|#A4B2B2,FFFFFF</sprite>
     </item>
     <item id="742"
         image="generic-4leafclover.png"
@@ -2353,7 +2353,7 @@
         weapon-type="knife"
         view="521"/>
     <item id="1202"
-        image="armor-chest-cottonshirt.png"
+        image="armor-chest-cottonshirt.png|W:#A4B2B2,FFFFFF"
         name="Cotton Shirt"
         description="A shirt made of 100% cotton."
         effect="+2% Defense"
@@ -2361,8 +2361,8 @@
         weight="15"
         defense="2"
         max-per-slot="1">
-        <sprite gender="male">chest-cotton-male.xml|#2b454d,72818c,b7c0c5,ffffff</sprite>
-        <sprite gender="female">chest-cotton-female.xml|#2b454d,72818c,b7c0c5,ffffff</sprite>
+        <sprite gender="male">chest-cotton-male.xml|#A4B2B2,FFFFFF</sprite>
+        <sprite gender="female">chest-cotton-female.xml|#A4B2B2,FFFFFF</sprite>
     </item>
     <item id="1203"
         image="armor-head-rangerhat.png"
@@ -2524,14 +2524,14 @@
         an additional item property.
     -->
     <item id="2050"
-        image="armor-chest-cottonshirt.png|W:#441111,aa3333,dd6666"
+        image="armor-chest-cottonshirt.png|W:#580000,A40000,C02020,ff6060"
         name="Red Cotton Shirt"
         description="A shirt made of 100% cotton."
         effect="+2% Defense"
         type="equip-torso"
         weight="15">
-        <sprite gender="male">chest-cotton-male.xml|#441111,aa3333,dd6666</sprite>
-        <sprite gender="female">chest-cotton-female.xml|#441111,aa3333,dd6666</sprite>
+        <sprite gender="male">chest-cotton-male.xml|#580000,A40000,C02020,ff6060</sprite>
+        <sprite gender="female">chest-cotton-female.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
     <item id="2051"
         image="armor-chest-cottonshirt.png|W:#115511,22aa22,99dd99"
@@ -2574,14 +2574,14 @@
         <sprite gender="female">chest-cotton-female.xml|#223355,99aadd,bbccff</sprite>
     </item>
     <item id="2055"
-        image="armor-chest-cottonshirt.png|W:#552255,ff66ff,ffffff"
+        image="armor-chest-cottonshirt.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink Cotton Shirt"
         description="A shirt made of 100% cotton."
         effect="+2% Defense"
         type="equip-torso"
         weight="15">
-        <sprite gender="male">chest-cotton-male.xml|#552255,ff66ff,ffffff</sprite>
-        <sprite gender="female">chest-cotton-female.xml|#552255,ff66ff,ffffff</sprite>
+        <sprite gender="male">chest-cotton-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+        <sprite gender="female">chest-cotton-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2056"
         image="armor-chest-cottonshirt.png|W:#111111,222222,333333,444444,555555,aaaaaa"
@@ -2614,25 +2614,25 @@
         <sprite gender="female">chest-cotton-female.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2059"
-        image="armor-chest-cottonshirt.png|W:#155515,206620,409940"
+        image="armor-chest-cottonshirt.png|W:#104010,208020,30c030"
         name="Dark Green Cotton Shirt"
         description="A shirt made of 100% cotton."
         effect="+2% Defense"
         type="equip-torso"
         weight="15">
-        <sprite gender="male">chest-cotton-male.xml|#155515,206620,409940</sprite>
-        <sprite gender="female">chest-cotton-female.xml|#155515,206620,409940</sprite>
+        <sprite gender="male">chest-cotton-male.xml|#104010,208020,30c030</sprite>
+        <sprite gender="female">chest-cotton-female.xml|#104010,208020,30c030</sprite>
     </item>
 
     <item id="2060"
-        image="armor-chest-vnecksweater.png|W:#441111,aa3333,dd6666"
+        image="armor-chest-vnecksweater.png|W:#580000,A40000,C02020,ff6060"
         name="Red V-Neck Sweater"
         description="A soft, warm sweater."
         effect="+8% Defense"
         type="equip-torso"
         weight="45">
-        <sprite gender="male">chest-vnecksweater-male.xml|#441111,aa3333,dd6666</sprite>
-        <sprite gender="female">chest-vnecksweater-female.xml|#441111,aa3333,dd6666</sprite>
+        <sprite gender="male">chest-vnecksweater-male.xml|#580000,A40000,C02020,ff6060</sprite>
+        <sprite gender="female">chest-vnecksweater-female.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
     <item id="2061"
         image="armor-chest-vnecksweater.png|W:#115511,22aa22,99dd99"
@@ -2675,14 +2675,14 @@
         <sprite gender="female">chest-vnecksweater-female.xml|#223355,99aadd,bbccff</sprite>
     </item>
     <item id="2065"
-        image="armor-chest-vnecksweater.png|W:#552255,ff66ff,ffffff"
+        image="armor-chest-vnecksweater.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink V-Neck Sweater"
         description="A soft, warm sweater."
         effect="+8% Defense"
         type="equip-torso"
         weight="45">
-        <sprite gender="male">chest-vnecksweater-male.xml|#552255,ff66ff,ffffff</sprite>
-        <sprite gender="female">chest-vnecksweater-female.xml|#552255,ff66ff,ffffff</sprite>
+        <sprite gender="male">chest-vnecksweater-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+        <sprite gender="female">chest-vnecksweater-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2066"
         image="armor-chest-vnecksweater.png|W:#111111,222222,333333,444444,555555,aaaaaa"
@@ -2715,25 +2715,25 @@
         <sprite gender="female">chest-vnecksweater-female.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2069"
-        image="armor-chest-vnecksweater.png|W:#155515,206620,409940"
+        image="armor-chest-vnecksweater.png|W:#104010,208020,30c030"
         name="Dark Green V-Neck Sweater"
         description="A soft, warm sweater."
         effect="+8% Defense"
         type="equip-torso"
         weight="45">
-        <sprite gender="male">chest-vnecksweater-male.xml|#155515,206620,409940</sprite>
-        <sprite gender="female">chest-vnecksweater-female.xml|#155515,206620,409940</sprite>
+        <sprite gender="male">chest-vnecksweater-male.xml|#104010,208020,30c030</sprite>
+        <sprite gender="female">chest-vnecksweater-female.xml|#104010,208020,30c030</sprite>
     </item>
 
     <item id="2070"
-        image="armor-chest-tnecksweater.png|W:#441111,aa3333,dd6666"
+        image="armor-chest-tnecksweater.png|W:#580000,A40000,C02020,ff6060"
         name="Red Turtleneck Sweater"
         description="A soft, warm sweater."
         effect="+6% Defense"
         type="equip-torso"
         weight="40">
-        <sprite gender="male">chest-tnecksweater-male.xml|#441111,aa3333,dd6666</sprite>
-        <sprite gender="female">chest-tnecksweater-female.xml|#441111,aa3333,dd6666</sprite>
+        <sprite gender="male">chest-tnecksweater-male.xml|#580000,A40000,C02020,ff6060</sprite>
+        <sprite gender="female">chest-tnecksweater-female.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
     <item id="2071"
         image="armor-chest-tnecksweater.png|W:#115511,22aa22,99dd99"
@@ -2776,14 +2776,14 @@
         <sprite gender="female">chest-tnecksweater-female.xml|#223355,99aadd,bbccff</sprite>
     </item>
     <item id="2075"
-        image="armor-chest-tnecksweater.png|W:#552255,ff66ff,ffffff"
+        image="armor-chest-tnecksweater.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink Turtleneck Sweater"
         description="A soft, warm sweater."
         effect="+6% Defense"
         type="equip-torso"
         weight="40">
-        <sprite gender="male">chest-tnecksweater-male.xml|#552255,ff66ff,ffffff</sprite>
-        <sprite gender="female">chest-tnecksweater-female.xml|#552255,ff66ff,ffffff</sprite>
+        <sprite gender="male">chest-tnecksweater-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+        <sprite gender="female">chest-tnecksweater-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2076"
         image="armor-chest-tnecksweater.png|W:#111111,222222,333333,444444,555555,aaaaaa"
@@ -2816,18 +2816,18 @@
         <sprite gender="female">chest-tnecksweater-female.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2079"
-        image="armor-chest-tnecksweater.png|W:#155515,206620,409940"
+        image="armor-chest-tnecksweater.png|W:#104010,208020,30c030"
         name="Dark Green Turtleneck Sweater"
         description="A soft, warm sweater."
         effect="+6% Defense"
         type="equip-torso"
         weight="40">
-        <sprite gender="male">chest-tnecksweater-male.xml|#155515,206620,409940</sprite>
-        <sprite gender="female">chest-tnecksweater-female.xml|#155515,206620,409940</sprite>
+        <sprite gender="male">chest-tnecksweater-male.xml|#104010,208020,30c030</sprite>
+        <sprite gender="female">chest-tnecksweater-female.xml|#104010,208020,30c030</sprite>
     </item>
 
     <item id="2080"
-        image="armor-chest-robe.png|W:#441111,aa3333,dd6666"
+        image="armor-chest-robe.png|W:#580000,A40000,C02020,ff6060"
         name="Red Silk Robe"
         description="A light and shimmering silk robe."
         effect="+5% Defense"
@@ -2835,8 +2835,8 @@
         weight="10"
         defense="5"
         max-per-slot="1">
-        <sprite gender="male">chest-robe-male.xml|#441111,aa3333,dd6666</sprite>
-        <sprite gender="female">chest-robe-female.xml|#441111,aa3333,dd6666</sprite>
+        <sprite gender="male">chest-robe-male.xml|#580000,A40000,C02020,ff6060</sprite>
+        <sprite gender="female">chest-robe-female.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
     <item id="2081"
         image="armor-chest-robe.png|W:#115511,22aa22,99dd99"
@@ -2887,7 +2887,7 @@
         <sprite gender="female">chest-robe-female.xml|#223355,99aadd,bbccff</sprite>
     </item>
     <item id="2085"
-        image="armor-chest-robe.png|W:#552255,ff66ff,ffffff"
+        image="armor-chest-robe.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink Silk Robe"
         description="A light and shimmering silk robe."
         effect="+5% Defense"
@@ -2895,8 +2895,8 @@
         weight="10"
         defense="5"
         max-per-slot="1">
-        <sprite gender="male">chest-robe-male.xml|#552255,ff66ff,ffffff</sprite>
-        <sprite gender="female">chest-robe-female.xml|#552255,ff66ff,ffffff</sprite>
+        <sprite gender="male">chest-robe-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+        <sprite gender="female">chest-robe-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2086"
         image="armor-chest-robe.png|W:#111111,222222,333333,444444,555555,aaaaaa"
@@ -2935,7 +2935,7 @@
         <sprite gender="female">chest-robe-female.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2089"
-        image="armor-chest-robe.png|W:#155515,206620,409940"
+        image="armor-chest-robe.png|W:#104010,208020,30c030"
         name="Dark Green Silk Robe"
         description="A light and shimmering silk robe."
         effect="+5% Defense"
@@ -2943,19 +2943,19 @@
         weight="10"
         defense="5"
         max-per-slot="1">
-        <sprite gender="male">chest-robe-male.xml|#155515,206620,409940</sprite>
-        <sprite gender="female">chest-robe-female.xml|#155515,206620,409940</sprite>
+        <sprite gender="male">chest-robe-male.xml|#104010,208020,30c030</sprite>
+        <sprite gender="female">chest-robe-female.xml|#104010,208020,30c030</sprite>
     </item>
 
     <item id="2090"
-        image="armor-chest-tanktop.png|W:#441111,aa3333,dd6666"
+        image="armor-chest-tanktop.png|W:#580000,A40000,C02020,ff6060"
         name="Red Tank Top"
         description="A sleeveless shirt for hot summer days."
         effect="+2% Defense"
         type="equip-torso"
         weight="15">
-        <sprite gender="male">chest-tanktop-male.xml|#441111,aa3333,dd6666</sprite>
-        <sprite gender="female">chest-tanktop-female.xml|#441111,aa3333,dd6666</sprite>
+        <sprite gender="male">chest-tanktop-male.xml|#580000,A40000,C02020,ff6060</sprite>
+        <sprite gender="female">chest-tanktop-female.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
     <item id="2091"
         image="armor-chest-tanktop.png|W:#115511,22aa22,99dd99"
@@ -2996,14 +2996,14 @@
         <sprite gender="male">chest-tanktop-male.xml|#223355,99aadd,bbccff</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#223355,99aadd,bbccff</sprite>
     </item>
-    <item id="2095" image="armor-chest-tanktop.png|W:#552255,ff66ff,ffffff"
+    <item id="2095" image="armor-chest-tanktop.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink Tank Top"
         description="A sleeveless shirt for hot summer days."
         effect="+2% Defense"
         type="equip-torso"
         weight="15">
-        <sprite gender="male">chest-tanktop-male.xml|#552255,ff66ff,ffffff</sprite>
-        <sprite gender="female">chest-tanktop-female.xml|#552255,ff66ff,ffffff</sprite>
+        <sprite gender="male">chest-tanktop-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+        <sprite gender="female">chest-tanktop-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2096"
         image="armor-chest-tanktop.png|W:#111111,222222,333333,444444,555555,aaaaaa"
@@ -3035,18 +3035,18 @@
         <sprite gender="female">chest-tanktop-female.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2099"
-        image="armor-chest-tanktop.png|W:#155515,206620,409940"
+        image="armor-chest-tanktop.png|W:#104010,208020,30c030"
         name="Dark Green Tank Top"
         description="A sleeveless shirt for hot summer days."
         effect="+2% Defense"
         type="equip-torso"
         weight="15">
-        <sprite gender="male">chest-tanktop-male.xml|#155515,206620,409940</sprite>
-        <sprite gender="female">chest-tanktop-female.xml|#155515,206620,409940</sprite>
+        <sprite gender="male">chest-tanktop-male.xml|#104010,208020,30c030</sprite>
+        <sprite gender="female">chest-tanktop-female.xml|#104010,208020,30c030</sprite>
     </item>
 
     <item id="2100"
-        image="armor-legs-skirt.png|W:#a50000,e03f27,eb5558"
+        image="armor-legs-skirt.png|W:#580000,A40000,C02020,ff6060"
         name="Red Cotton Skirt"
         description="A skirt made of linen cloth."
         effect="+4% Defense"
@@ -3054,10 +3054,10 @@
         type="equip-legs"
         weight="30"
         max-per-slot="1">
-        <sprite>leg-skirt.xml|#a50000,e03f27,eb5558</sprite>
+        <sprite>leg-skirt.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
     <item id="2101"
-        image="armor-legs-skirt.png|W:#1f9c1f,89d689"
+        image="armor-legs-skirt.png|W:#115511,22aa22,99dd99"
         name="Green Cotton Skirt"
         description="A skirt made of linen cloth."
         effect="+4% Defense"
@@ -3065,10 +3065,10 @@
         type="equip-legs"
         weight="30"
         max-per-slot="1">
-      <sprite>leg-skirt.xml|#1f9c1f,89d689</sprite>
+      <sprite>leg-skirt.xml|#115511,22aa22,99dd99</sprite>
     </item>
     <item id="2102"
-        image="armor-legs-skirt.png|W:#4b4bbd,888af4"
+        image="armor-legs-skirt.png|W:#222255,6666ff"
         name="Dark Blue Cotton Skirt"
         description="A skirt made of linen cloth."
         effect="+4% Defense"
@@ -3076,10 +3076,10 @@
         type="equip-legs"
         weight="30"
         max-per-slot="1">
-        <sprite>leg-skirt.xml|#4b4bbd,888af4</sprite>
+        <sprite>leg-skirt.xml|#222255,6666ff</sprite>
     </item>
     <item id="2103"
-        image="armor-legs-skirt.png|W:#ccb534,f1ea8e,ffffaa"
+        image="armor-legs-skirt.png|W:#887722,ddcc66,ffffaa"
         name="Yellow Cotton Skirt"
         description="A skirt made of linen cloth."
         effect="+4% Defense"
@@ -3087,10 +3087,10 @@
         type="equip-legs"
         weight="30"
         max-per-slot="1">
-        <sprite>leg-skirt.xml|#ccb534,f1ea8e,ffffaa</sprite>
+        <sprite>leg-skirt.xml|#887722,ddcc66,ffffaa</sprite>
     </item>
     <item id="2104"
-        image="armor-legs-skirt.png|W:#62aaca,a3f4f8,d5fcfb"
+        image="armor-legs-skirt.png|W:#223355,99aadd,bbccff"
         name="Light Blue Cotton Skirt"
         description="A skirt made of linen cloth."
         effect="+4% Defense"
@@ -3098,10 +3098,10 @@
         type="equip-legs"
         weight="30"
         max-per-slot="1">
-        <sprite>leg-skirt.xml|#62aaca,a3f4f8,d5fcfb</sprite>
+        <sprite>leg-skirt.xml|#223355,99aadd,bbccff</sprite>
     </item>
     <item id="2105"
-        image="armor-legs-skirt.png|W:#c64abd,f9a5f2,fcd0fa"
+        image="armor-legs-skirt.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink Cotton Skirt"
         description="A skirt made of linen cloth."
         effect="+4% Defense"
@@ -3109,10 +3109,10 @@
         type="equip-legs"
         weight="30"
         max-per-slot="1">
-        <sprite>leg-skirt.xml|#c64abd,f9a5f2,fcd0fa</sprite>
+        <sprite>leg-skirt.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2106"
-        image="armor-legs-skirt.png|W:#404040,c0c0c0"
+        image="armor-legs-skirt.png|W:#111111,222222,333333,444444,555555,aaaaaa"
         name="Black Cotton Skirt"
         description="A skirt made of linen cloth."
         effect="+4% Defense"
@@ -3120,10 +3120,10 @@
         type="equip-legs"
         weight="30"
         max-per-slot="1">
-        <sprite>leg-skirt.xml|#404040,dedede</sprite>
+        <sprite>leg-skirt.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
     <item id="2107"
-        image="armor-legs-skirt.png|W:#96370f,cc5616,f68d26,fcaa2d,fdd493"
+        image="armor-legs-skirt.png|W:#80280f,b04810,ef681f,ffb830"
         name="Orange Cotton Skirt"
         description="A skirt made of linen cloth."
         effect="+4% Defense"
@@ -3131,10 +3131,10 @@
         type="equip-legs"
         weight="30"
         max-per-slot="1">
-        <sprite>leg-skirt.xml|#96370f,cc5616,f68d26,fcaa2d,fdd493</sprite>
+        <sprite>leg-skirt.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
     <item id="2108"
-        image="armor-legs-skirt.png|W:#530a7c,b362e1,ca87ef"
+        image="armor-legs-skirt.png|W:#4f0a76,8010c0,d699f7"
         name="Purple Cotton Skirt"
         description="A skirt made of linen cloth."
         effect="+4% Defense"
@@ -3142,10 +3142,10 @@
         type="equip-legs"
         weight="30"
         max-per-slot="1">
-        <sprite>leg-skirt.xml|#530a7c,b362e1,ca87ef</sprite>
+        <sprite>leg-skirt.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2109"
-        image="armor-legs-skirt.png|W:#155515,206620,409940"
+        image="armor-legs-skirt.png|W:#104010,208020,30c030"
         name="Dark Green Cotton Skirt"
         description="A skirt made of linen cloth."
         effect="+4% Defense"
@@ -3153,11 +3153,11 @@
         type="equip-legs"
         weight="30"
         max-per-slot="1">
-        <sprite>leg-skirt.xml|#155515,206620,409940</sprite>
+        <sprite>leg-skirt.xml|#104010,208020,30c030</sprite>
     </item>
     
     <item id="2110"
-        image="armor-legs-shorts.png|W:#441111,aa3333,dd6666"
+        image="armor-legs-shorts.png|W:#580000,A40000,C02020,ff6060"
         name="Red Cotton Shorts"
         description="Shorts made of 100% cotton."
         effect="+2% Defense"
@@ -3165,8 +3165,8 @@
         weight="10"
         defense="2"
         max-per-slot="1">
-        <sprite gender="male">leg-shorts-male.xml|#441111,aa3333,dd6666</sprite>
-        <sprite gender="female">leg-shorts-female.xml|#441111,aa3333,dd6666</sprite>
+        <sprite gender="male">leg-shorts-male.xml|#580000,A40000,C02020,ff6060</sprite>
+        <sprite gender="female">leg-shorts-female.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
     <item id="2111"
         image="armor-legs-shorts.png|W:#115511,22aa22,99dd99"
@@ -3217,7 +3217,7 @@
         <sprite gender="female">leg-shorts-female.xml|#223355,99aadd,bbccff</sprite>
     </item>
     <item id="2115"
-        image="armor-legs-shorts.png|W:#552255,ff66ff,ffffff"
+        image="armor-legs-shorts.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink Cotton Shorts"
         description="Shorts made of 100% cotton."
         effect="+2% Defense"
@@ -3225,8 +3225,8 @@
         weight="10"
         defense="2"
         max-per-slot="1">
-        <sprite gender="male">leg-shorts-male.xml|#552255,ff66ff,ffffff</sprite>
-        <sprite gender="female">leg-shorts-female.xml|#552255,ff66ff,ffffff</sprite>
+        <sprite gender="male">leg-shorts-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+        <sprite gender="female">leg-shorts-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2116"
         image="armor-legs-shorts.png|W:#111111,222222,333333,444444,555555,aaaaaa"
@@ -3265,7 +3265,7 @@
         <sprite gender="female">leg-shorts-female.xml|#520a7b,8c23c7,ca87ef</sprite>
     </item>
     <item id="2119"
-        image="armor-legs-shorts.png|W:#155515,206620,409940"
+        image="armor-legs-shorts.png|W:#104010,208020,30c030"
         name="Dark Green Cotton Shorts"
         description="Shorts made of 100% cotton."
         effect="+2% Defense"
@@ -3273,19 +3273,19 @@
         weight="10"
         defense="2"
         max-per-slot="1">
-        <sprite gender="male">leg-shorts-male.xml|#155515,206620,409940</sprite>
-        <sprite gender="female">leg-shorts-female.xml|#155515,206620,409940</sprite>
+        <sprite gender="male">leg-shorts-male.xml|#104010,208020,30c030</sprite>
+        <sprite gender="female">leg-shorts-female.xml|#104010,208020,30c030</sprite>
     </item>
     
     <item id="2120"
-        image="armor-chest-tanktop-short.png|W:#441111,aa3333,dd6666" 
+        image="armor-chest-tanktop-short.png|W:#580000,A40000,C02020,ff6060"
         name="Red Short Tank Top"
         description="A short, sleeveless shirt for VERY hot summer days."
         effect="+2% Defense"
         type="equip-torso"
         weight="15">
-        <sprite gender="male">chest-shorttanktop-male.xml|#441111,aa3333,dd6666</sprite>
-        <sprite gender="female">chest-shorttanktop-female.xml|#441111,aa3333,dd6666</sprite>
+        <sprite gender="male">chest-shorttanktop-male.xml|#580000,A40000,C02020,ff6060</sprite>
+        <sprite gender="female">chest-shorttanktop-female.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
     <item id="2121"
         image="armor-chest-tanktop-short.png|W:#115511,22aa22,99dd99"
@@ -3328,14 +3328,14 @@
         <sprite gender="female">chest-shorttanktop-female.xml|#223355,99aadd,bbccff</sprite>
     </item>
     <item id="2125"
-        image="armor-chest-tanktop-short.png|W:#552255,ff66ff,ffffff"
+        image="armor-chest-tanktop-short.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink Short Tank Top"
         description="A short, sleeveless shirt for VERY hot summer days."
         effect="+2% Defense"
         type="equip-torso"
         weight="15">
-        <sprite gender="male">chest-shorttanktop-male.xml|#552255,ff66ff,ffffff</sprite>
-        <sprite gender="female">chest-shorttanktop-female.xml|#552255,ff66ff,ffffff</sprite>
+        <sprite gender="male">chest-shorttanktop-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+        <sprite gender="female">chest-shorttanktop-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2126"
         image="armor-chest-tanktop-short.png|W:#111111,222222,333333,444444,555555,aaaaaa"
@@ -3367,25 +3367,25 @@
         <sprite gender="female">chest-shorttanktop-female.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2129"
-        image="armor-chest-tanktop-short.png|W:#155515,206620,409940"
+        image="armor-chest-tanktop-short.png|W:#104010,208020,30c030"
         name="Dark Green Short Tank Top"
         description="A short, sleeveless shirt for VERY hot summer days."
         effect="+2% Defense"
         type="equip-torso"
         weight="15">
-        <sprite gender="male">chest-shorttanktop-male.xml|#155515,206620,409940</sprite>
-        <sprite gender="female">chest-shorttanktop-female.xml|#155515,206620,409940</sprite>
+        <sprite gender="male">chest-shorttanktop-male.xml|#104010,208020,30c030</sprite>
+        <sprite gender="female">chest-shorttanktop-female.xml|#104010,208020,30c030</sprite>
     </item>
 
     <item id="2130"
-        image="armor-head-deserthat.png|R:#441111,aa3333,dd6666"
+        image="armor-head-deserthat.png|W:#580000,A40000,C02020,ff6060"
         name="Red Desert Hat"
         description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
         effect="+3% Defense"
         type="equip-head"
         defense="3"
         weight="10">
-        <sprite>head-deserthat.xml|#441111,aa3333,dd6666</sprite>
+        <sprite>head-deserthat.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
     <item id="2131"
         image="armor-head-deserthat.png|R:#115511,22aa22,99dd99"
@@ -3428,14 +3428,14 @@
         <sprite>head-deserthat.xml|#223355,99aadd,bbccff</sprite>
     </item>
     <item id="2135"
-        image="armor-head-deserthat.png|R:#552255,ff66ff,ffffff"
+        image="armor-head-deserthat.png|R:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink Desert Hat"
         description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
         effect="+3% Defense"
         type="equip-head"
         defense="3"
         weight="10">
-        <sprite>head-deserthat.xml|#552255,ff66ff,ffffff</sprite>
+        <sprite>head-deserthat.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2136"
         image="armor-head-deserthat.png|R:#111111,222222,333333,444444,555555,aaaaaa"
@@ -3468,25 +3468,25 @@
         <sprite>head-deserthat.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2139"
-        image="armor-head-deserthat.png|R:#155515,206620,409940"
+        image="armor-head-deserthat.png|R:#104010,208020,30c030"
         name="Dark Green Desert Hat"
         description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
         effect="+3% Defense"
         type="equip-head"
         defense="3"
         weight="10">
-        <sprite>head-deserthat.xml|#155515,206620,409940</sprite>
+        <sprite>head-deserthat.xml|#104010,208020,30c030</sprite>
     </item>
 
     <item id="2140"
-        image="armor-head-standardheadband.png|W:#441111,aa3333,dd6666"
+        image="armor-head-standardheadband.png|W:#580000,A40000,C02020,ff6060"
         name="Red Cotton Headband"
         description="Just a cotton headband."
         effect="+1% Defense"
         type="equip-head"
         defense="2"
         weight="5">
-        <sprite>head-standardheadband.xml|#441111,aa3333,dd6666</sprite>
+        <sprite>head-standardheadband.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
     <item id="2141"
         image="armor-head-standardheadband.png|W:#115511,22aa22,99dd99"
@@ -3529,14 +3529,14 @@
         <sprite>head-standardheadband.xml|#223355,99aadd,bbccff</sprite>
     </item>
     <item id="2145"
-        image="armor-head-standardheadband.png|W:#552255,ff66ff,ffffff"
+        image="armor-head-standardheadband.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink Cotton Headband"
         description="Just a cotton headband."
         effect="+1% Defense"
         type="equip-head"
         defense="2"
         weight="5">
-        <sprite>head-standardheadband.xml|#552255,ff66ff,ffffff</sprite>
+        <sprite>head-standardheadband.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2146"
         image="armor-head-standardheadband.png|W:#111111,222222,333333,444444,555555,aaaaaa"
@@ -3569,26 +3569,26 @@
         <sprite>head-standardheadband.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2149"
-        image="armor-head-standardheadband.png|W:#155515,206620,409940"
+        image="armor-head-standardheadband.png|W:#104010,208020,30c030"
         name="Dark Green Cotton Headband"
         description="Just a cotton headband."
         effect="+1% Defense"
         type="equip-head"
         defense="2"
         weight="5">
-        <sprite>head-standardheadband.xml|#155515,206620,409940</sprite>
+        <sprite>head-standardheadband.xml|#104010,208020,30c030</sprite>
     </item>
 
     <item id="2150"
-        image="armor-feet-boots.png|W:#441111,aa3333,dd6666"
+        image="armor-feet-boots.png|W:#580000,A40000,C02020,ff6060"
         name="Red Cotton Boots"
         description="A pair of quality cotton boots."
         effect="+1% Defense"
         type="equip-feet"
         defense="1"
         weight="10">
-        <sprite gender="male">feet-boots-male.xml|#441111,aa3333,dd6666</sprite>
-        <sprite gender="female">feet-boots-female.xml|#441111,aa3333,dd6666</sprite>
+        <sprite gender="male">feet-boots-male.xml|#580000,A40000,C02020,ff6060</sprite>
+        <sprite gender="female">feet-boots-female.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
     <item id="2151"
         image="armor-feet-boots.png|W:#115511,22aa22,99dd99"
@@ -3635,15 +3635,15 @@
         <sprite gender="female">feet-boots-female.xml|#223355,99aadd,bbccff</sprite>
     </item>
     <item id="2155"
-        image="armor-feet-boots.png|W:#552255,ff66ff,ffffff"
+        image="armor-feet-boots.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink Cotton Boots"
         description="A pair of quality cotton boots."
         effect="+1% Defense"
         type="equip-feet"
         defense="1"
         weight="10">
-        <sprite gender="male">feet-boots-male.xml|#552255,ff66ff,ffffff</sprite>
-        <sprite gender="female">feet-boots-female.xml|#552255,ff66ff,ffffff</sprite>
+        <sprite gender="male">feet-boots-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+        <sprite gender="female">feet-boots-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2156"
         image="armor-feet-boots.png|W:#111111,222222,333333,444444,555555,aaaaaa"
@@ -3679,27 +3679,27 @@
         <sprite gender="female">feet-boots-female.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2159"
-        image="armor-feet-boots.png|W:#155515,206620,409940"
+        image="armor-feet-boots.png|W:#104010,208020,30c030"
         name="Dark Green Cotton Boots"
         description="A pair of quality cotton boots."
         effect="+1% Defense"
         type="equip-feet"
         defense="1"
         weight="10">
-        <sprite gender="male">feet-boots-male.xml|#155515,206620,409940</sprite>
-        <sprite gender="female">feet-boots-female.xml|#155515,206620,409940</sprite>
+        <sprite gender="male">feet-boots-male.xml|#104010,208020,30c030</sprite>
+        <sprite gender="female">feet-boots-female.xml|#104010,208020,30c030</sprite>
     </item>
 
     <item id="2160"
-        image="armor-hands-gloves.png|W:#441111,aa3333,dd6666"
+        image="armor-hands-gloves.png|W:#580000,A40000,C02020,ff6060"
         name="Red Cotton Gloves"
         description="A pair of comfy cotton gloves."
         effect="+1% Defense"
         type="equip-arms"
         defense="1"
         weight="10">
-        <sprite gender="male">hands-gloves-generic-male.xml|#441111,aa3333,dd6666</sprite>
-        <sprite gender="female">hands-gloves-generic-female.xml|#441111,aa3333,dd6666</sprite>
+        <sprite gender="male">hands-gloves-generic-male.xml|#580000,A40000,C02020,ff6060</sprite>
+        <sprite gender="female">hands-gloves-generic-female.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
     <item id="2161"
         image="armor-hands-gloves.png|W:#115511,22aa22,99dd99"
@@ -3746,15 +3746,15 @@
         <sprite gender="female">hands-gloves-generic-female.xml|#223355,99aadd,bbccff</sprite>
     </item>
     <item id="2165"
-        image="armor-hands-gloves.png|W:#552255,ff66ff,ffffff"
+        image="armor-hands-gloves.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink Cotton Gloves"
         description="A pair of comfy cotton gloves."
         effect="+1% Defense"
         type="equip-arms"
         defense="1"
         weight="10">
-        <sprite gender="male">hands-gloves-generic-male.xml|#552255,ff66ff,ffffff</sprite>
-        <sprite gender="female">hands-gloves-generic-female.xml|#552255,ff66ff,ffffff</sprite>
+        <sprite gender="male">hands-gloves-generic-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+        <sprite gender="female">hands-gloves-generic-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2166"
         image="armor-hands-gloves.png|W:#111111,222222,333333,444444,555555,aaaaaa"
@@ -3790,14 +3790,14 @@
         <sprite gender="female">hands-gloves-generic-female.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2169"
-        image="armor-hands-gloves.png|W:#155515,206620,409940"
+        image="armor-hands-gloves.png|W:#104010,208020,30c030"
         name="Dark Green Cotton Gloves"
         description="A pair of comfy cotton gloves."
         effect="+1% Defense"
         type="equip-arms"
         defense="1"
         weight="10">
-        <sprite gender="male">hands-gloves-generic-male.xml|#155515,206620,409940</sprite>
-        <sprite gender="female">hands-gloves-generic-female.xml|#155515,206620,409940</sprite>
+        <sprite gender="male">hands-gloves-generic-male.xml|#104010,208020,30c030</sprite>
+        <sprite gender="female">hands-gloves-generic-female.xml|#104010,208020,30c030</sprite>
     </item>
 </items>
