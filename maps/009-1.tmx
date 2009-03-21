@@ -137,5 +137,19 @@
     <property name="dest_y" value="1552"/>
    </properties>
   </object>
+  <object name="Clover patch" type="spawn" x="2336" y="1024" width="96" height="64">
+   <properties>
+    <property name="eA_death" value="120000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="35"/>
+   </properties>
+  </object>
+  <object name="Flower" type="spawn" x="800" y="1216" width="320" height="448">
+   <properties>
+    <property name="eA_death" value="250"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="12"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
