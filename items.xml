@@ -2296,8 +2296,16 @@
         effect="+1 Luck"
         type="equip-charm"
         luck="1"
-        weight="1">
-    </item>
+        weight="1"/>
+    <item id="743"
+        image="use-food-acorn.png"
+        name="Acorn"
+        description="An acorn."
+        effect="+3 HP"
+        type="usable"
+        hp="3"
+        weight="1"
+        max-per-slot="20"/>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
