@@ -9,11 +9,11 @@ Green poison bubbles
 		position-z = "0"
 		>
 		<emitter>
-			<property name="position-z" value="64" />
-			<property name="position-y" value="-32" />
+			<property name="position-z" value="90" />
+			<property name="position-y" min="-8" max="8"/>
 			<property name="vertical-angle" min="0" max="90"/>
 			<property name="horizontal-angle" min="0" max="360"/>
-			<property name="power" min="4" max="10"/>
+			<property name="power" min="4" max="15"/>
 			<property name="lifetime" value="1"/>
 			<property name="output" value="1"/>
 			<emitter>
