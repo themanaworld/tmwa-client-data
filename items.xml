@@ -1617,8 +1617,8 @@
         weight="275"
         defense="27"
         max-per-slot="1">
-        <sprite gender="male">chest-warlordplate-male.xml|W:#573f10,9c8226,d3c04b,ffffff</sprite>
-        <sprite gender="female">chest-warlordplate-female.xml|W:#573f10,9c8226,d3c04b,ffffff</sprite>
+        <sprite gender="male">chest-warlordplate-male.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
+        <sprite gender="female">chest-warlordplate-female.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
     </item>
     <item id="660"
         image="generic-fabric.png|W:#2b454d,72818c,b7c0c5,ffffff"
@@ -2296,8 +2296,16 @@
         effect="+1 Luck"
         type="equip-charm"
         luck="1"
-        weight="1">
-    </item>
+        weight="1"/>
+    <item id="743"
+        image="use-food-acorn.png"
+        name="Acorn"
+        description="An acorn."
+        effect="+3 HP"
+        type="usable"
+        hp="3"
+        weight="1"
+        max-per-slot="20"/>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
