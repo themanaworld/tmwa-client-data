@@ -2306,6 +2306,55 @@
         hp="3"
         weight="1"
         max-per-slot="20"/>
+    <item id="744"
+        image="use-potion-c.png|G:#f0e0fa,da69e5"
+        name="Diluted Concentration Potion"
+        description="A bottle of diluted concentration potion."
+        effect="Attack speed increase (temporary)"
+        type="generic"
+        weight="295"
+        max-per-slot="10"/>
+    <item id="745"
+        image="use-potion-c.png|G:#ff4aff"
+        name="Dark Concentration Potion"
+        description="This potion smells like burnt sugar."
+        effect="Attack speed increase (temporary)"
+        type="generic"
+        weight="295"
+        max-per-slot="10"/>
+    <item id="746"
+        image="use-potion-e.png|R:#a0a0ff;G:#20409f"
+        name="Mopox Cure Potion"
+        description="A gooey brew with a vile smell, supposedly able to cure Mopox."
+        effect=""
+        type="usable"
+        mp="0"
+        weight="5"
+        max-per-slot="10"/>
+    <item id="747"
+        image="use-cake-a.png|R:#9E6E3B,E39D52;G:#E29F57;W:#FFD5A8"
+        name="Laced Chocolate Cake"
+        description="A scrumptious chocolate cake, with a dash of Mopox cure potion."
+        hp="11"
+        effect="+11 HP"
+        type="useable"
+        weight="10">
+    </item>
+    <item id="748"
+        image="use-food-orangecupcake.png"
+        name="Laced Orange Cupcake"
+        description="A very soft orange cupcake, laced with Mopox cure potion."
+        effect="+100 HP"
+        type="usable"
+        hp="150"
+        weight="185"
+        max-per-slot="10"/>
+    <item id="749"
+        image="generic-towel.png"
+        name="A towel"
+        description="You can dry yourself off with it if it still seems to be clean enough. - Douglas Adams"
+        type="generic"
+        weight="20"/>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
