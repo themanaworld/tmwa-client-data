@@ -27,6 +27,10 @@
 		   persistent-particle-effect="true"
 		   start-particle="graphics/particles/green-bubbles.particle.xml"
 		 />
+    <status-effect name="slow-poison" id="14"
+                   start-message="You feel a pleasant warmth in your stomach."
+                   end-message="The pleasant warmth in your stomach seems to have disappeared."
+		 />
     <status-effect name="hide" id="194"
                    icon="icon-hidden.xml"
 		 />
