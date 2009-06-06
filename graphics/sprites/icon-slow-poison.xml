@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<sprite>
+	<imageset name="base" src="graphics/sprites/icon-slow-poison.png" width="12" height="20" />
+	
+	<action name="default" imageset="base">
+		<animation direction="default">
+			<frame index="0" offsetY="-12" delay="190" />
+			<frame index="1" offsetY="-12" delay="275" />
+			<frame index="2" offsetY="-12" delay="300" />
+		</animation>
+	</action>
+</sprite>
