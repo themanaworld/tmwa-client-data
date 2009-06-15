@@ -2355,6 +2355,47 @@
         description="You can dry yourself off with it if it still seems to be clean enough. - Douglas Adams"
         type="generic"
         weight="20"/>
+    <item id="750"
+        image="use-potion-c.png|G:#f0f040,ffffff"
+        name="Slow poison potion"
+        description="A yellow potion with a fresh, citric scent."
+        effect="Suspends poison"
+        type="usable"
+        weight="10"/>
+    <item id="751"
+        image="armor-head-pinkiehat.png"
+        name="Pinkie Hat"
+        description="With this, you'll fit right in with those strange pinkies."
+        effect="+1% Defense"
+        type="equip-head"
+        weight="5"
+        defense="1"
+        max-per-slot="1">
+        <sprite>head-pinkiehat.xml</sprite>
+    </item>
+    <item id="752"
+        image="armor-head-fluffyhat.png"
+        name="Fluffy hat"
+        description="Now you can wear fur on your head."
+        effect="+2% Defense"
+        type="equip-head"
+        weight="10"
+        defense="2"
+        max-per-slot="1">
+        <sprite>head-fluffyhat.xml</sprite>
+    </item>
+    <item id="753"
+        image="generic-batwing.png"
+        name="Bat wing"
+        description="The wing from a bat."
+        type="generic"
+        weight="3"/>
+    <item id="754"
+        image="generic-batteeth.png"
+        name="Bat teeth"
+        description="The teeth from a bat. Rather sharp."
+        type="generic"
+        weight="2"/>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
