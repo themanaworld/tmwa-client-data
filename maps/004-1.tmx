@@ -68,33 +68,21 @@
     <property name="DEST_Y" value="688"/>
    </properties>
   </object>
-  <object name="Sea slime" type="spawn" x="1184" y="1376" width="192" height="640">
+  <object name="Sea slime" type="spawn" x="1120" y="1376" width="288" height="960">
    <properties>
     <property name="max_beings" value="5"/>
     <property name="monster_id" value="31"/>
    </properties>
   </object>
-  <object name="Sea Slime" x="960" y="2016" width="288" height="576">
+  <object name="Sea Slime" type="spawn" x="928" y="2016" width="320" height="1312">
    <properties>
-    <property name="max_beings" value="6"/>
+    <property name="max_beings" value="11"/>
     <property name="monster_id" value="31"/>
    </properties>
   </object>
-  <object name="Sea Slime" type="spawn" x="992" y="2592" width="192" height="480">
+  <object name="Sea slime" type="spawn" x="736" y="3072" width="384" height="480">
    <properties>
-    <property name="max_beings" value="5"/>
-    <property name="monster_id" value="31"/>
-   </properties>
-  </object>
-  <object name="Sea slime" type="spawn" x="736" y="3328" width="288" height="224">
-   <properties>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="31"/>
-   </properties>
-  </object>
-  <object name="Sea slime" type="spawn" x="928" y="3072" width="192" height="256">
-   <properties>
-    <property name="max_beings" value="3"/>
+    <property name="max_beings" value="7"/>
     <property name="monster_id" value="31"/>
    </properties>
   </object>
@@ -110,13 +98,13 @@
     <property name="monster_id" value="2"/>
    </properties>
   </object>
-  <object name="Giant maggot" type="Spawn" x="2048" y="640" width="352" height="224">
+  <object name="Giant maggot" type="Spawn" x="1888" y="640" width="640" height="352">
    <properties>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="4"/>
    </properties>
   </object>
-  <object name="Black scorpion" type="spawn" x="2976" y="864" width="32" height="32">
+  <object name="Black scorpion" type="spawn" x="2944" y="832" width="96" height="128">
    <properties>
     <property name="eA_death" value="60000"/>
     <property name="eA_spawn" value="120000"/>
