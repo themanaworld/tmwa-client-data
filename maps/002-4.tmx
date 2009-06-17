@@ -98,6 +98,8 @@
     <property name="MAX_BEINGS" value="20"/>
     <property name="MONSTER_ID" value="10"/>
     <property name="SPAWN_RATE" value="10"/>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
    </properties>
   </object>
   <object name="Yellow Slime" type="SPAWN" x="0" y="0">
@@ -105,6 +107,8 @@
     <property name="MAX_BEINGS" value="25"/>
     <property name="MONSTER_ID" value="5"/>
     <property name="SPAWN_RATE" value="10"/>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
    </properties>
   </object>
   <object name="toLevel1" type="warp" x="1088" y="3168" width="32" height="32">

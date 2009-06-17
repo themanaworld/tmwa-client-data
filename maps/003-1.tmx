@@ -74,30 +74,40 @@
   </object>
   <object name="Giant Maggot" type="spawn" x="4608" y="640" width="928" height="3104">
    <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="10"/>
     <property name="mosnter_id" value="4"/>
    </properties>
   </object>
   <object name="Sea Slime" type="spawn" x="352" y="768" width="3136" height="2912">
    <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="15"/>
     <property name="monster_id" value="31"/>
    </properties>
   </object>
   <object name="Sea Slime" type="spawn" x="3488" y="640" width="736" height="736">
    <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="5"/>
     <property name="monster_id" value="31"/>
    </properties>
   </object>
   <object name="Green Slime" type="spawn" x="2144" y="576" width="3392" height="3264">
    <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="35"/>
     <property name="monster_id" value="3"/>
    </properties>
   </object>
   <object name="Red Scorpion" type="spawn" x="3072" y="1088" width="2464" height="2304">
    <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="20"/>
     <property name="monster_id" value="2"/>
    </properties>

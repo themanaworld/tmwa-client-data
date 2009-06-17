@@ -65,11 +65,15 @@
   <object name="Scorpion" type="SPAWN" x="2336" y="1728" width="640" height="640">
    <properties>
     <property name="MONSTER_ID" value="1"/>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
    </properties>
   </object>
   <object name="Shroom" type="SPAWN" x="1088" y="1984" width="1024" height="640">
    <properties>
     <property name="MONSTER_ID" value="17"/>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
    </properties>
   </object>
   <object name="ToWoodland" type="warp" x="448" y="1728" width="32" height="64">

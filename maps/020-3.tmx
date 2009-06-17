@@ -35,11 +35,15 @@
  <objectgroup name="Objects" width="0" height="0">
   <object name="Bat" type="SPAWN" x="832" y="1088" width="960" height="160">
    <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
     <property name="MONSTER_ID" value="15"/>
    </properties>
   </object>
   <object name="Violet" type="SPAWN" x="736" y="1472" width="1120" height="256">
    <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
     <property name="MONSTER_ID" value="16"/>
    </properties>
   </object>

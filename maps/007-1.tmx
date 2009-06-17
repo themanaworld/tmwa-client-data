@@ -79,18 +79,24 @@
   </object>
   <object name="Flower" type="spawn" x="640" y="640" width="2176" height="1728">
    <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="15"/>
     <property name="monster_id" value="12"/>
    </properties>
   </object>
   <object name="Fluffy" type="spawn" x="2528" y="640" width="1728" height="2400">
    <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="20"/>
     <property name="monster_id" value="18"/>
    </properties>
   </object>
   <object name="Spiky Mushroom" type="spawn" x="2496" y="736" width="1792" height="1664">
    <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="10"/>
     <property name="monster_id" value="17"/>
    </properties>

@@ -39,11 +39,15 @@
   <object name="Shroom" type="SPAWN" x="1024" y="320" width="1280" height="1280">
    <properties>
     <property name="MONSTER_ID" value="17"/>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
    </properties>
   </object>
   <object name="Lamp Snake" type="SPAWN" x="2368" y="3040" width="1280" height="1280">
    <properties>
     <property name="MONSTER_ID" value="19"/>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
    </properties>
   </object>
   <object name="ToHermitsCave" type="warp" x="2304" y="256" width="64" height="32">

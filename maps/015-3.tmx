@@ -55,24 +55,32 @@
   </object>
   <object name="Bats" type="spawn" x="640" y="736" width="128" height="160">
    <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="15"/>
    </properties>
   </object>
   <object name="Maggots" type="spawn" x="896" y="960" width="96" height="96">
    <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="0"/>
    </properties>
   </object>
   <object name="Maggots" type="spawn" x="736" y="608" width="64" height="64">
    <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="0"/>
    </properties>
   </object>
   <object name="Spider" type="spawn" x="1280" y="608" width="64" height="64">
    <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="10"/>
    </properties>

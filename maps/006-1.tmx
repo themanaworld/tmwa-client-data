@@ -271,12 +271,16 @@
   </object>
   <object name="Snake" type="spawn" x="608" y="608" width="416" height="1024">
    <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="8"/>
    </properties>
   </object>
   <object name="Snake" type="spawn" x="1024" y="672" width="320" height="544">
    <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="8"/>
    </properties>
@@ -286,14 +290,14 @@
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="24"/>
     <property name="eA_spawn" value="15000"/>
-    <property name="eA_death" value="10000"/>
+    <property name="eA_death" value="100000"/>
    </properties>
   </object>
   <object name="Mountain Snake" type="spawn" x="1344" y="832" width="896" height="768">
    <properties>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="24"/>
-    <property name="eA_spawn" value="15000"/>
+    <property name="eA_spawn" value="150000"/>
     <property name="eA_death" value="10000"/>
    </properties>
   </object>
@@ -301,7 +305,7 @@
    <properties>
     <property name="max_beings" value="5"/>
     <property name="monster_id" value="24"/>
-    <property name="eA_spawn" value="15000"/>
+    <property name="eA_spawn" value="75000"/>
     <property name="eA_death" value="10000"/>
    </properties>
   </object>
@@ -309,7 +313,7 @@
    <properties>
     <property name="max_beings" value="8"/>
     <property name="monster_id" value="24"/>
-    <property name="eA_spawn" value="15000"/>
+    <property name="eA_spawn" value="75000"/>
     <property name="eA_death" value="10000"/>
    </properties>
   </object>
@@ -317,7 +321,7 @@
    <properties>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="24"/>
-    <property name="eA_spawn" value="15000"/>
+    <property name="eA_spawn" value="75000"/>
     <property name="eA_death" value="10000"/>
    </properties>
   </object>
@@ -325,7 +329,7 @@
    <properties>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="24"/>
-    <property name="eA_spawn" value="15000"/>
+    <property name="eA_spawn" value="75000"/>
     <property name="eA_death" value="10000"/>
    </properties>
   </object>
@@ -333,7 +337,7 @@
    <properties>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="24"/>
-    <property name="eA_spawn" value="15000"/>
+    <property name="eA_spawn" value="75000"/>
     <property name="eA_death" value="10000"/>
    </properties>
   </object>
@@ -341,7 +345,7 @@
    <properties>
     <property name="max_beings" value="4"/>
     <property name="monster_id" value="24"/>
-    <property name="eA_spawn" value="15000"/>
+    <property name="eA_spawn" value="75000"/>
     <property name="eA_death" value="10000"/>
    </properties>
   </object>
@@ -349,7 +353,7 @@
    <properties>
     <property name="max_beings" value="8"/>
     <property name="monster_id" value="24"/>
-    <property name="eA_spawn" value="15000"/>
+    <property name="eA_spawn" value="75000"/>
     <property name="eA_death" value="10000"/>
    </properties>
   </object>
@@ -357,7 +361,7 @@
    <properties>
     <property name="max_beings" value="8"/>
     <property name="monster_id" value="24"/>
-    <property name="eA_spawn" value="15000"/>
+    <property name="eA_spawn" value="75000"/>
     <property name="eA_death" value="10000"/>
    </properties>
   </object>
@@ -365,7 +369,7 @@
    <properties>
     <property name="max_beings" value="5"/>
     <property name="monster_id" value="24"/>
-    <property name="eA_spawn" value="15000"/>
+    <property name="eA_spawn" value="75000"/>
     <property name="eA_death" value="10000"/>
    </properties>
   </object>
@@ -373,7 +377,7 @@
    <properties>
     <property name="max_beings" value="4"/>
     <property name="monster_id" value="24"/>
-    <property name="eA_spawn" value="15000"/>
+    <property name="eA_spawn" value="75000"/>
     <property name="eA_death" value="10000"/>
    </properties>
   </object>
@@ -381,6 +385,8 @@
    <properties>
     <property name="max_beings" value="10"/>
     <property name="monster_id" value="1"/>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
    </properties>
   </object>
  </objectgroup>
