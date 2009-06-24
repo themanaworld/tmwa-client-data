@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<!--
+A horizontal flame burst with a range of about 60 pixels.
+Creates up to 400 particles but only for a very brief moment.
+used for the fire breath attack of the fire lizard. mostly a copy&paste from the fire goblin, just with 
+positions and vectors tuned.
+-->
+
+<effect>
+	<particle
+		position-x = "0"
+		position-y = "0"
+		position-z = "16"
+		lifetime = "25"
+		>
+		<emitter>
+			<property name="position-x" min="0" max="0"/>
+			<property name="position-y" min="14" max="14"/>
+			<property name="position-z" min="40" max="40"/>
+			<property name="horizontal-angle" min="90" max="100"/>
+			<property name="vertical-angle" min="-30" max="-20"/>
+			<property name="power" min="2" max="4"/>
+			<property name="momentum" value="0.97" />
+			<property name="gravity" value="-0.04"/>
+			<animation imageset="graphics/particles/aniblaze-medium.png|W:#000000,ffffff,ffff00,ff0000" width="16" height="16">
+				<frame index="0" delay="5" />
+				<frame index="1" delay="10" />
+				<frame index="2" delay="15" />
+				<frame index="3" delay="25" />
+				<frame index="4" delay="35" />
+				<frame index="5" delay="60" />
+				<frame index="6" delay="95" />
+				<frame index="7" delay="160" />
+				<frame index="8" delay="9999" />
+			</animation>
+			<property name="lifetime" min="0" max="80"/>
+			<property name="output" min="10" max="30"/>
+			<property name="fade-in" value="10"/>
+			<property name="fade-out" value="60"/>
+		</emitter>
+	</particle>
+</effect>

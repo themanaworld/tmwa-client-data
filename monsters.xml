@@ -352,7 +352,7 @@
             range="32"
             angle="10"
             animation="attack"
-            particle-effect="graphics/particles/firegoblinbreath.particle.xml"
+            particle-effect="graphics/particles/monster-goblin-firebreath.particle.xml"
             />
     </monster>
 
@@ -891,6 +891,39 @@
             physical-defence="5"
             magical-defence="0"
             mutation="50"
+            />
+    </monster>
+
+    <monster id="37" name="Fire Lizard">
+        <sprite>monster-lizard.xml|#673132,923F42,CD5961,E163A4,ffffff</sprite>
+        <sound event="hit">fire-goblin-hit1.ogg</sound>
+        <sound event="hit">fire-goblin-hit2.ogg</sound>
+        <sound event="miss">fire-goblin-miss1.ogg</sound>
+        <!-- stats identical to maggot - change this when making up real monster stats -->
+        <attributes
+            hp="20"
+            size="4"
+            speed="64"
+            attack-min="10"
+            attack-delta="2"
+            attack-magic="0"
+            hit="10"
+            evade="10"
+            physical-defence="5"
+            magical-defence="0"
+            mutation="50"
+            />
+        <attack id="1"
+            priority="1"
+            type="magical"
+            element="fire"
+            pre-delay="10"
+            aft-delay="5"
+            damage-factor="1"
+            range="32"
+            angle="10"
+            animation="attack"
+            particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"
             />
     </monster>
 
