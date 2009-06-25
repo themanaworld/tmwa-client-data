@@ -23,7 +23,7 @@ positions and vectors tuned.
 			<property name="power" min="2" max="4"/>
 			<property name="momentum" value="0.97" />
 			<property name="gravity" value="-0.04"/>
-			<animation imageset="graphics/particles/aniblaze-medium.png|W:#ffff00,ff0000" width="16" height="16">
+			<animation imageset="graphics/particles/aniblaze-medium.png|W:#ffff00,cc0000" width="16" height="16">
 				<frame index="0" delay="5" />
 				<frame index="1" delay="10" />
 				<frame index="2" delay="15" />
@@ -35,7 +35,7 @@ positions and vectors tuned.
 				<frame index="8" delay="9999" />
 			</animation>
 			<property name="lifetime" min="0" max="80"/>
-			<property name="output" min="10" max="30"/>
+			<property name="output" min="5" max="10"/>
 			<property name="fade-in" value="10"/>
 			<property name="fade-out" value="60"/>
 		</emitter>
