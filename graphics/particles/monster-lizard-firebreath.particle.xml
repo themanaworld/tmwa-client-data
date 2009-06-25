@@ -17,13 +17,13 @@ positions and vectors tuned.
 		<emitter>
 			<property name="position-x" min="0" max="0"/>
 			<property name="position-y" min="14" max="14"/>
-			<property name="position-z" min="140" max="140"/>
+			<property name="position-z" min="40" max="40"/>
 			<property name="horizontal-angle" min="90" max="100"/>
 			<property name="vertical-angle" min="-30" max="-20"/>
 			<property name="power" min="2" max="4"/>
 			<property name="momentum" value="0.97" />
 			<property name="gravity" value="-0.04"/>
-			<animation imageset="graphics/particles/aniblaze-medium.png|W:#ffff00,ff0000" width="32" height="32">
+			<animation imageset="graphics/particles/aniblaze-medium.png|W:#ffff00,ff0000" width="16" height="16">
 				<frame index="0" delay="5" />
 				<frame index="1" delay="10" />
 				<frame index="2" delay="15" />
