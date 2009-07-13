@@ -76,28 +76,28 @@
 
 
     <item id="30"
-        weapon_type="101">
+        weapon_type="1">
         <sprite>weapon-dagger.xml</sprite>
         <sound event="strike">short-sword-miss1.ogg</sound>
         <sound event="hit">short-sword-hit1.ogg</sound>
     </item>
     <item id="31"
-        weapon_type="106">
+        weapon_type="10">
         <sprite>weapon-bow.xml</sprite>
         <sound event="swing">bow_shoot_1.ogg</sound>
     </item>
     <item id="32"
-        weapon_type="103">
+        weapon_type="11">
         <sprite>weapon-scythe.xml</sprite>
     </item>
     <item id="33"
-        weapon_type="101">
+        weapon_type="1">
         <sprite>weapon-dagger.xml</sprite>
         <sound event="strike">short-sword-miss1.ogg</sound>
         <sound event="hit">short-sword-hit1.ogg</sound>
     </item>
     <item id="34"
-        weapon_type="100"> <!-- magic fist -->
+        weapon_type="1"> <!-- magic fist -->
         <sprite>weapon-fist.xml</sprite>
     </item>
 
@@ -266,9 +266,9 @@
         description="A simple dagger."
         effect="+15 Damage, 1 Range"
         type="equip-1hand"
-        weapon_type="101"
+        weapon_type="1"
         weight="60"
-        weapon-type="101"
+        weapon-type="knife"
         attack-min="5"
         attack-delta="10"
         attack-target="multi"
@@ -286,10 +286,10 @@
         description="A really sharp knife. Don't hurt yourself!"
         effect="+10 Damage, 1 Range"
         type="equip-1hand"
-        weapon_type="101"
+        weapon_type="1"
         weight="45"
         max-per-slot="1"
-        weapon-type="101"
+        weapon-type="knife"
         attack-min="8"
         attack-delta="2"
         attack-target="multi"
@@ -374,8 +374,8 @@
         description="A bow for short distances."
         effect="+50 Damage, 5 Range"
         type="equip-2hand"
-        weapon_type="106"
-        weapon-type="106"
+        weapon_type="10"
+        weapon-type="bow"
         weight="210"
         max-per-slot="1"
         damage-min="50"
@@ -439,10 +439,10 @@
         description="A small but sharp sword."
         effect="+100 Damage, 1 Range"
         type="equip-1hand"
-        weapon_type="102"
+        weapon_type="2"
         weight="1025"
         slot ="0"
-        weapon-type="102"
+        weapon-type="sword"
         attack-min="20"
         attack-delta="30"
         attack-target="multi"
@@ -529,10 +529,10 @@
         description="A bow usually used for hunting."
         effect="+70 Damage, 5 Range"
         type="equip-2hand"
-        weapon_type="106"
+        weapon_type="10"
         weight="530"
         max-per-slot="1"
-        weapon-type="106"
+        weapon-type="bow"
         attack-min="70"
         attack-delta="0"
         attack-target="single"
@@ -558,7 +558,7 @@
         description="A Bardiche."
         effect="??? Damage, ??? Range"
         type="equip-2hand"
-        weapon_type="103"
+        weapon-type="polearm"
         weight="10"
         max-per-slot="1"/>
     <item id="548"
@@ -567,7 +567,7 @@
         description="A weapon usually carried by guards."
         effect="??? Damage, ??? Range"
         type="equip-2hand"
-        weapon_type="103"
+        weapon-type="polearm"
         weight="10"
         max-per-slot="1"/>
     <item id="549"
@@ -576,7 +576,7 @@
         description="An axe."
         effect="??? Damage, ??? Range"
         type="equip-2hand"
-        weapon_type="108"
+        weapon-type="axe"
         weight="10"
         max-per-slot="1"/>
     <item id="550"
@@ -585,7 +585,7 @@
         description="An axe usually used by blacksmiths."
         effect="??? Damage, ??? Range"
         type="equip-2hand"
-        weapon-type="108"
+        weapon-type="axe"
         weight="10"
         max-per-slot="1"/>
     <item id="551"
@@ -674,7 +674,7 @@
         description="A sword with a very sharp, curved, single-edged blade."
         effect="??? Damage, ??? Range"
         type="equip-1hand"
-        weapon_type="102"
+        weapon-type="sword"
         weight="10"
         max-per-slot="1"/>
     <item id="562"
@@ -755,7 +755,8 @@
         description="A knife masterly carved out of a bone."
         effect="+115 Damage, 1 Range"
         type="equip-1hand"
-        weapon-type="101"
+        weapon_type="2"
+        weapon-type="knife"
         weight="10"
         max-per-slot="1"
         view="521"/>
@@ -765,9 +766,10 @@
         description="A sharp knife, named after a famous gambler."
         effect="+110 Damage, 1 Range"
         type="equip-1hand"
+        weapon-type="knife"
         weight="10"
         max-per-slot="1"
-        weapon-type="101"
+        weapon_type="2"
         view="521"/>
     <item id="572"
         image="weapon-sword-scimitar.png"
@@ -775,7 +777,7 @@
         description="A sword with a heavy, curved, single-edged blade."
         effect="??? Damage, ??? Range"
         type="equip-1hand"
-        weapon-type="102"
+        weapon-type="sword"
         weight="10"
         max-per-slot="1"/>
     <item id="573"
@@ -784,7 +786,7 @@
         description="A heavy one-handed, single-edged sword."
         effect="??? Damage, ??? Range"
         type="equip-1hand"
-        weapon-type="102"
+        weapon-type="sword"
         weight="10"
         max-per-slot="1"/>
     <item id="574"
@@ -793,7 +795,7 @@
         description="A well crafted glaive."
         effect="??? Damage, ??? Range"
         type="equip-2hand"
-        weapon-type="103"
+        weapon-type="polearm"
         weight="1"
         max-per-slot="1"/>
     <item id="575"
@@ -802,7 +804,7 @@
         description="A tonorian short bow."
         effect="??? Damage, ??? Range"
         type="equip-2hand"
-        weapon-type="106"
+        weapon-type="bow"
         weight="10"
         max-per-slot="1"/>
     <item id="576"
@@ -811,7 +813,7 @@
         description="An oddly designed sword especially made for beheading enemies."
         effect="??? Damage, ??? Range"
         type="equip-1hand"
-        weapon-type="102"
+        weapon-type="sword"
         weight="10"
         max-per-slot="1"/>
     <item id="577"
@@ -820,7 +822,7 @@
         description="Darts made of bones."
         effect="??? Damage, ??? Range"
         type="equip-1hand"
-        weapon-type="109"
+        weapon-type="thrown"
         weight="10"
         max-per-slot="1"/>
     <item id="578"
@@ -829,7 +831,7 @@
         description="A sand cutter."
         effect="??? Damage, ??? Range"
         type="equip-1hand"
-        weapon-type="102"
+        weapon-type="sword"
         weight="10"
         max-per-slot="1"/>
     <item id="579"
@@ -838,7 +840,7 @@
         description="A knife made of stone."
         effect="??? Damage, ??? Range"
         type="equip-1hand"
-        weapon-type="101"
+        weapon-type="knife"
         weight="10"
         max-per-slot="1"/>
     <item id="580"
@@ -847,7 +849,7 @@
         description="A staff that increases healing magic."
         effect="??? Damage, ??? Range"
         type="equip-2hand"
-        weapon-type="104"
+        weapon-type="staff"
         weight="10"
         max-per-slot="1"/>
     <item id="581"
@@ -856,7 +858,7 @@
         description="A crescent rod."
         effect="+50 Damage, ??? Range"
         type="equip-2hand"
-        weapon-type="104"
+        weapon-type="staff"
         weight="10"
         max-per-slot="1"/>
     <item id="582"
@@ -865,7 +867,7 @@
         description="A staff that increases fire magic."
         effect="??? Damage, ??? Range"
         type="equip-2hand"
-        weapon-type="104"
+        weapon-type="staff"
         weight="10"
         max-per-slot="1"/>
     <item id="583"
@@ -874,7 +876,7 @@
         description="A staff that increases ice magic."
         effect="??? Damage, ??? Range"
         type="equip-2hand"
-        weapon-type="104"
+        weapon-type="staff"
         weight="10"
         max-per-slot="1"/>
     <item id="584"
@@ -883,7 +885,7 @@
         description="A jackal."
         effect="??? Damage, ??? Range"
         type="equip-1hand"
-        weapon-type="104"
+        weapon-type="sword"
         weight="10"
         max-per-slot="1"/>
     <item id="585"
@@ -912,7 +914,7 @@
         description="A simple but reliable sword."
         effect="??? Damage, ??? Range"
         type="equip-1hand"
-        weapon-type="102"
+        weapon-type="sword"
         weight="10"
         max-per-slot="1"/>
     <item id="588"
@@ -921,7 +923,7 @@
         description="A large two handed sword."
         effect="??? Damage, ??? Range"
         type="equip-2hand"
-        weapon-type="102"
+        weapon-type="sword"
         weight="10"
         max-per-slot="1"/>
     <item id="589"
@@ -930,7 +932,7 @@
         description="A two handed sword with a very broad blade."
         effect="??? Damage, ??? Range"
         type="equip-2hand"
-        weapon-type="102"
+        weapon-type="sword"
         weight="10"
         max-per-slot="1"/>
     <item id="590"
@@ -939,7 +941,7 @@
         description="A short and powerful sword."
         effect="??? Damage, ??? Range"
         type="equip-1hand"
-        weapon-type="102"
+        weapon-type="sword"
         weight="10"
         max-per-slot="1"/>
     <item id="591"
@@ -948,7 +950,7 @@
         description="A sword with a long and agile blade."
         effect="??? Damage, ??? Range"
         type="equip-1hand"
-        weapon-type="102"
+        weapon-type="sword"
         weight="10"
         max-per-slot="1"/>
     <item id="592"
@@ -957,7 +959,7 @@
         description="A dagger with a long and thin blade."
         effect="??? Damage, ??? Range"
         type="equip-1hand"
-        weapon-type="101"
+        weapon-type="knife"
         weight="10"
         max-per-slot="1"/>
     <item id="593"
@@ -966,7 +968,7 @@
         description="A light sword made for duels."
         effect="??? Damage, ??? Range"
         type="equip-1hand"
-        weapon-type="102"
+        weapon-type="sword"
         weight="10"
         max-per-slot="1"/>
     <item id="594"
@@ -975,7 +977,7 @@
         description="A light spear with a wooden pole."
         effect="??? Damage, ??? Range"
         type="equip-2hand"
-        weapon-type="103"
+        weapon-type="polearm"
         weight="10"
         max-per-slot="1"/>
     <item id="595"
@@ -984,7 +986,7 @@
         description="A heavy spear with a wooden pole."
         effect="??? Damage, ??? Range"
         type="equip-2hand"
-        weapon-type="103"
+        weapon-type="polearm"
         weight="10"
         max-per-slot="1"/>
     <item id="596"
@@ -993,7 +995,7 @@
         description="A light spear with an iron pole."
         effect="??? Damage, ??? Range"
         type="equip-2hand"
-        weapon-type="103"
+        weapon-type="polearm"
         weight="10"
         max-per-slot="1"/>
     <item id="597"
@@ -1002,7 +1004,7 @@
         description="A heavy spear with an iron pole."
         effect="??? Damage, ??? Range"
         type="equip-2hand"
-        weapon-type="103"
+        weapon-type="polearm"
         weight="10"
         max-per-slot="1"/>
     <item id="598"
@@ -1011,7 +1013,7 @@
         description="A spear with two tops."
         effect="??? Damage, ??? Range"
         type="equip-2hand"
-        weapon-type="103"
+        weapon-type="polearm"
         weight="10"
         max-per-slot="1"/>
     <item id="599"
@@ -1020,7 +1022,7 @@
         description="A magical sword enchanted with the power of fire."
         effect="??? Damage, ??? Range"
         type="equip-1hand"
-        weapon-type="102"
+        weapon-type="sword"
         weight="10"
         max-per-slot="1"/>
     <item id="600"
@@ -1069,7 +1071,7 @@
         description="A butcher's tool that also makes a nice one handed battle axe."
         effect="??? Damage, ??? Range"
         type="equip-1hand"
-        weapon-type="109"
+        weapon-type="axe"
         weight="10"
         max-per-slot="1"/>
     <item id="606"
@@ -1078,7 +1080,7 @@
         description="A short one handed axe."
         effect="??? Damage, ??? Range"
         type="equip-1hand"
-        weapon-type="109"
+        weapon-type="axe"
         weight="10"
         max-per-slot="1"/>
     <item id="607"
@@ -1087,7 +1089,7 @@
         description="A spear with three heads."
         effect="??? Damage, ??? Range"
         type="equip-2hand"
-        weapon-type="103"
+        weapon-type="polearm"
         weight="10"
         max-per-slot="1"/>
     <item id="608"
@@ -1104,7 +1106,7 @@
         description="A primitive wooden club."
         effect="??? Damage, ??? Range"
         type="equip-1hand"
-        weapon-type="108"
+        weapon-type="mace"
         weight="10"
         max-per-slot="1"/>
     <item id="610"
@@ -1245,8 +1247,8 @@
         description="Usually used for farming but also usable as a weapon. Slow but deadly."
         effect="+75 Damage, 1 Range"
         type="equip-2hand"
-        weapon_type="103"
-        weapon-type="103"
+        weapon_type="11"
+        weapon-type="polearm"
         weight="400"
         attack-min="0"
         attack-delta="75"
@@ -2418,7 +2420,7 @@
         description="A distance weapon."
         effect="+15 Damage, 5 Range"
         type="equip-2hand"
-        weapon_type="106"
+        weapon_type="10"
         weight="125"
         attack-min="15"
         attack-delta="0"
@@ -2426,7 +2428,7 @@
         attack-shape="cone"
         attack-range="300"
         attack-angle="45"
-        weapon-type="106"
+        weapon-type="bow"
         max-per-slot="1">
         <sprite>weapon-bow.xml</sprite>
         <sound event="swing">bow_shoot_1.ogg</sound>
@@ -2437,7 +2439,7 @@
         description="A small knife; the perfect weapon for a beginner."
         effect="+5 Damage, 1 Range"
         type="equip-1hand"
-        weapon_type="101"
+        weapon_type="1"
         weight="20"
         attack-min="0"
         attack-delta="5"
@@ -2446,7 +2448,7 @@
         attack-range="32"
         attack-angle="135"
         max-per-slot="1"
-        weapon-type="101"
+        weapon-type="knife"
         view="521"/>
     <item id="1202"
         image="armor-chest-cottonshirt.png|W:#A4B2B2,FFFFFF"
@@ -2576,7 +2578,7 @@
         description="A toy item, doesn't do much damage."
         effect="+1 Damage, 1 Range"
         type="equip-1hand"
-        weapon-type="102"
+        weapon-type="sword"
         weight="1"
         attack-min="0"
         attack-delta="1"
