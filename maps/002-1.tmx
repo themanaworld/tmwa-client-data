@@ -81,6 +81,7 @@
        do_message(npc, ch, "You know what?")
        do_message(npc, ch, string.format("I have already asked this question %d times today.", nb_times))
        nb_times = nb_times + 1
+       do_npc_close(npc, ch)
      end
     </property>
    </properties>
@@ -91,6 +92,7 @@
     <property name="SCRIPT">
      function npc_handler(npc, ch)
        do_message(npc, ch, "Don't you think the guy behind me is my evil twin?")
+       do_npc_close(npc, ch)
      end
     </property>
    </properties>
@@ -106,6 +108,7 @@
        elseif v == 2 then
          tmw.npc_trade(npc, ch, true, { {525, 0, 400}, {531, 0, 1500}, {530, 0, 4000}, {1199, 0, 1} })
        end
+       do_npc_close(npc, ch)
      end
     </property>
    </properties>
@@ -116,6 +119,7 @@
     <property name="SCRIPT">
      function npc_handler(npc, ch)
        do_message(npc, ch, "This is really a nice place.\nDon't you think so?")
+       do_npc_close(npc, ch)
      end
     </property>
    </properties>
@@ -126,6 +130,7 @@
     <property name="SCRIPT">
      function npc_handler(npc, ch)
        do_message(npc, ch, "If I only had a tent...")
+       do_npc_close(npc, ch)
      end
     </property>
    </properties>
