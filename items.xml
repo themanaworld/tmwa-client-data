@@ -400,7 +400,7 @@
         effect="+4% Defense"
         type="equip-arms"
         weight="25"
-        defense="3"
+        defense="4"
         max-per-slot="1">
         <sprite gender="male">hands-gloves-generic-male.xml|#4e2e18,c8752f</sprite>
         <sprite gender="female">hands-gloves-generic-female.xml|#4e2e18,c8752f</sprite>
@@ -692,7 +692,7 @@
         effect="+3% Defense"
         type="equip-arms"
         weight="15"
-        defense="2"
+        defense="3"
         max-per-slot="1">
         <sprite gender="male">hands-gloves-generic-male.xml|#202020,c0c0c0,ffffff,ffffff</sprite>
         <sprite gender="female">hands-gloves-generic-female.xml|#202020,c0c0c0,ffffff,ffffff</sprite>
@@ -892,7 +892,7 @@
         image="armor-hands-scarabarmlet.png"
         name="Scarab Armlet"
         description="A scarab armlet."
-        effect="??? Defense"
+        effect="+0% Defense"
         type="equip-arms"
         weight="10"
         max-per-slot="1"/>
@@ -1271,7 +1271,7 @@
         image="armor-chest-chainmail.png"
         name="Chainmail Shirt"
         description="A shirt made of chains. It weighs a lot but offers excellent protection."
-        effect="+20% Defense"
+        effect="+12% Defense"
         type="equip-torso"
         weight="120"
         defense="12"
@@ -1283,7 +1283,7 @@
         image="armor-chest-lightplatemail.png|W:#ddeeff"
         name="Light Platemail"
         description="A light cuirass with shoulder pads made of iron, usually worn by foot soldiers."
-        effect="+25% Defense"
+        effect="+14% Defense"
         type="equip-torso"
         weight="240"
         defense="14"
@@ -1298,7 +1298,7 @@
         effect="+10% Defense"
         type="equip-head"
         weight="20"
-        defense="15"
+        defense="10"
         max-per-slot="1">
         <sprite>head-tophat.xml</sprite>
     </item>
@@ -1309,7 +1309,7 @@
         effect="+13% Defense"
         type="equip-head"
         weight="20"
-        defense="15"
+        defense="13"
         max-per-slot="1">
         <sprite>head-funkywinter.xml</sprite>
     </item>
@@ -1320,7 +1320,7 @@
         effect="+10% Defense"
         type="equip-head"
         weight="20"
-        defense="15"
+        defense="10"
         max-per-slot="1">
         <sprite>head-mushroom.xml</sprite>
     </item>
@@ -1331,7 +1331,7 @@
         effect="+13% Defense"
         type="equip-head"
         weight="20"
-        defense="18"
+        defense="13"
         max-per-slot="1">
         <sprite>head-shroom.xml</sprite>
     </item>
@@ -1359,7 +1359,7 @@
         name="Christmas Elf Hat"
         description="A hat worn by Christmas elves."
         effect="+13% Defense"
-        defense="18"
+        defense="13"
         type="equip-head"
         weight="20"
         max-per-slot="1">
@@ -1370,7 +1370,7 @@
         name="Face Mask"
         description="A wooden mask to conceal your face."
         effect="+10% Defense"
-        defense="15"
+        defense="10"
         type="equip-head"
         weight="20"
         max-per-slot="1">
@@ -1390,7 +1390,7 @@
         description="Worn by great warriors."
         effect="+18% Defense"
         type="equip-head"
-        defense="25"
+        defense="18"
         weight="40">
         <sprite>head-warlordhelm.xml</sprite>
     </item>
@@ -1400,7 +1400,7 @@
         description="A helmet with two small wings on it."
         effect="+15% Defense"
         type="equip-head"
-        defense="20"
+        defense="15"
         weight="35">
         <sprite>head-knighthelm.xml</sprite>
     </item>
@@ -1410,7 +1410,7 @@
         description="A helmet for soldiers and guards."
         effect="+15% Defense"
         type="equip-head"
-        defense="20"
+        defense="15"
         weight="35">
         <sprite>head-infantryhelm.xml</sprite>
     </item>
@@ -1420,7 +1420,7 @@
         description="Start your own crusade."
         effect="+18% Defense"
         type="equip-head"
-        defense="25"
+        defense="18"
         weight="40">
         <sprite>head-crusadehelm.xml</sprite>
     </item>
@@ -2128,7 +2128,7 @@
         image="armor-head-standardheadband.png|W:#A4B2B2,FFFFFF"
         name="Cotton Headband"
         description="Just a cotton headband."
-        effect="+1% Defense"
+        effect="+2% Defense"
         type="equip-head"
         defense="2"
         weight="5">
@@ -2351,13 +2351,13 @@
         max-per-slot="10"/>
     <item id="749"
         image="generic-towel.png"
-        name="A towel"
+        name="Towel"
         description="You can dry yourself off with it if it still seems to be clean enough. - Douglas Adams"
         type="generic"
         weight="20"/>
     <item id="750"
         image="use-potion-c.png|G:#f0f040,ffffff"
-        name="Slow poison potion"
+        name="Slow Poison Potion"
         description="A yellow potion with a fresh, citric scent."
         effect="Suspends poison"
         type="usable"
@@ -2375,7 +2375,7 @@
     </item>
     <item id="752"
         image="armor-head-fluffyhat.png"
-        name="Fluffy hat"
+        name="Fluffy Hat"
         description="Now you can wear fur on your head."
         effect="+2% Defense"
         type="equip-head"
@@ -2386,13 +2386,13 @@
     </item>
     <item id="753"
         image="generic-batwing.png"
-        name="Bat wing"
+        name="Bat Wing"
         description="The wing from a bat."
         type="generic"
         weight="3"/>
     <item id="754"
         image="generic-batteeth.png"
-        name="Bat teeth"
+        name="Bat Teeth"
         description="The teeth from a bat. Rather sharp."
         type="generic"
         weight="2"/>
@@ -3600,7 +3600,7 @@
         image="armor-head-standardheadband.png|W:#580000,A40000,C02020,ff6060"
         name="Red Cotton Headband"
         description="Just a cotton headband."
-        effect="+1% Defense"
+        effect="+2% Defense"
         type="equip-head"
         defense="2"
         weight="5">
@@ -3610,7 +3610,7 @@
         image="armor-head-standardheadband.png|W:#115511,22aa22,99dd99"
         name="Green Cotton Headband"
         description="Just a cotton headband."
-        effect="+1% Defense"
+        effect="+2% Defense"
         type="equip-head"
         defense="2"
         weight="5">
@@ -3620,7 +3620,7 @@
         image="armor-head-standardheadband.png|W:#222255,6666ff"
         name="Dark Blue Cotton Headband"
         description="Just a cotton headband."
-        effect="+1% Defense"
+        effect="+2% Defense"
         type="equip-head"
         defense="2"
         weight="5">
@@ -3630,7 +3630,7 @@
         image="armor-head-standardheadband.png|W:#846211,dab333,fffb93,ffffff"
         name="Yellow Cotton Headband"
         description="Just a cotton headband."
-        effect="+1% Defense"
+        effect="+2% Defense"
         type="equip-head"
         defense="2"
         weight="5">
@@ -3640,7 +3640,7 @@
         image="armor-head-standardheadband.png|W:#16486e,498ec5,e4f2fc"
         name="Light Blue Cotton Headband"
         description="Just a cotton headband."
-        effect="+1% Defense"
+        effect="+2% Defense"
         type="equip-head"
         defense="2"
         weight="5">
@@ -3650,7 +3650,7 @@
         image="armor-head-standardheadband.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink Cotton Headband"
         description="Just a cotton headband."
-        effect="+1% Defense"
+        effect="+2% Defense"
         type="equip-head"
         defense="2"
         weight="5">
@@ -3660,7 +3660,7 @@
         image="armor-head-standardheadband.png|W:#111111,222222,333333,444444,555555,aaaaaa"
         name="Black Cotton Headband"
         description="Just a cotton headband."
-        effect="+1% Defense"
+        effect="+2% Defense"
         type="equip-head"
         defense="2"
         weight="5">
@@ -3670,7 +3670,7 @@
         image="armor-head-standardheadband.png|W:#80280f,b04810,ef681f,ffb830"
         name="Orange Cotton Headband"
         description="Just a cotton headband."
-        effect="+1% Defense"
+        effect="+2% Defense"
         type="equip-head"
         defense="2"
         weight="5">
@@ -3680,7 +3680,7 @@
         image="armor-head-standardheadband.png|W:#4f0a76,8010c0,d699f7"
         name="Purple Cotton Headband"
         description="Just a cotton headband."
-        effect="+1% Defense"
+        effect="+2% Defense"
         type="equip-head"
         defense="2"
         weight="5">
@@ -3690,7 +3690,7 @@
         image="armor-head-standardheadband.png|W:#104010,208020,30c030"
         name="Dark Green Cotton Headband"
         description="Just a cotton headband."
-        effect="+1% Defense"
+        effect="+2% Defense"
         type="equip-head"
         defense="2"
         weight="5">
