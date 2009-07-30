@@ -6,6 +6,7 @@
   <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
   <property name="name" value="Desert mines"/>
   <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
+  <property name="overlay0keepratio" value="true"/>
  </properties>
  <tileset name="cave" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png" trans="ff00ff"/>
@@ -74,114 +75,114 @@
   </object>
   <object name="Yellow Slime" type="spawn" x="960" y="928" width="992" height="640">
    <properties>
-    <property name="max_beings" value="5"/>
-    <property name="monster_id" value="5"/>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="5"/>
    </properties>
   </object>
   <object name="Snake" type="spawn" x="2656" y="992" width="576" height="672">
    <properties>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="8"/>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="8"/>
    </properties>
   </object>
   <object name="Red Slime" type="spawn" x="1888" y="864" width="832" height="576">
    <properties>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="6"/>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="6"/>
    </properties>
   </object>
   <object name="Spider" type="spawn" x="2080" y="3136" width="288" height="192">
    <properties>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="10"/>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="10"/>
    </properties>
   </object>
   <object name="Black Scorpion" type="spawn" x="1760" y="1440" width="864" height="800">
    <properties>
-    <property name="max_beings" value="5"/>
-    <property name="monster_id" value="7"/>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="7"/>
    </properties>
   </object>
   <object name="Red Slime" type="spawn" x="1280" y="1504" width="384" height="928">
    <properties>
-    <property name="max_beings" value="5"/>
-    <property name="monster_id" value="6"/>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="6"/>
    </properties>
   </object>
   <object name="Black Scorpion" type="spawn" x="992" y="2080" width="512" height="736">
    <properties>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="7"/>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="7"/>
    </properties>
   </object>
   <object name="Red Slime" type="spawn" x="1760" y="2240" width="224" height="576">
    <properties>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="6"/>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="6"/>
    </properties>
   </object>
   <object name="Black Scorpion" type="spawn" x="2688" y="1664" width="384" height="1056">
    <properties>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="7"/>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="7"/>
    </properties>
   </object>
   <object name="Red Slime" type="spawn" x="2368" y="2720" width="640" height="576">
    <properties>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="6"/>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="6"/>
    </properties>
   </object>
   <object name="Red Slime" type="spawn" x="1984" y="2240" width="704" height="480">
    <properties>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="6"/>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="6"/>
    </properties>
   </object>
   <object name="Black Scorpion" type="spawn" x="1984" y="2720" width="384" height="416">
    <properties>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="7"/>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="7"/>
    </properties>
   </object>
   <object name="Snake" type="spawn" x="1760" y="2848" width="224" height="448">
    <properties>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="8"/>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="8"/>
    </properties>
   </object>
   <object name="Black Scorpion" type="spawn" x="1984" y="3136" width="96" height="192">
    <properties>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="7"/>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="7"/>
    </properties>
   </object>
  </objectgroup>
