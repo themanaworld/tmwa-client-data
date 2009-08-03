@@ -3,10 +3,10 @@
 
     <monster id="0" name="Maggot" targetCursor="small">
         <sprite>monster-maggot.xml</sprite>
-        <sound event="hit">maggot-hit1.ogg</sound>
-        <sound event="hit">maggot-hit2.ogg</sound>
-        <sound event="miss">maggot-miss1.ogg</sound>
-        <sound event="die">maggot-dying1.ogg</sound>
+        <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
+        <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
+        <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
+        <sound event="die">monsters/maggot/maggot-dying1.ogg</sound>
         <drop item="505" percent="8"/>
         <drop item="518" percent="4"/>
         <drop item="501" percent="1.5"/>
@@ -51,11 +51,11 @@
 
     <monster id="1" name="Scorpion">
         <sprite>monster-scorpion.xml|#4d422d,826242,d8c282,ffffff</sprite>
-        <sound event="hit">scorpion-hit1.ogg</sound>
-        <sound event="hit">scorpion-hit2.ogg</sound>
-        <sound event="hit">scorpion-hit3.ogg</sound>
-        <sound event="hit">scorpion-hit4.ogg</sound>
-        <sound event="miss">scorpion-miss1.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
+        <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
         <drop item="507" percent="7"/>
         <drop item="510" percent="1"/>
         <drop item="509" percent="0.5"/>
@@ -107,11 +107,11 @@
 
     <monster id="2" name="Red Scorpion">
         <sprite>monster-scorpion.xml|#791d0a,cd5d27,f28d54,ffffff</sprite>
-        <sound event="hit">scorpion-hit1.ogg</sound>
-        <sound event="hit">scorpion-hit2.ogg</sound>
-        <sound event="hit">scorpion-hit3.ogg</sound>
-        <sound event="hit">scorpion-hit4.ogg</sound>
-        <sound event="miss">scorpion-miss1.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
+        <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
         <drop item="517" percent="20"/>
         <drop item="509" percent="1"/>
         <drop item="518" percent="5"/>
@@ -155,7 +155,7 @@
 
     <monster id="3" name="Green Slime">
         <sprite>monster-slime.xml|#72982c,ffffff</sprite>
-        <sound event="hit">slime-hit1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
         <drop item="502" percent="2"/>
         <drop item="513" percent="1"/>
         <drop item="501" percent="1"/>
@@ -190,10 +190,10 @@
 
     <monster id="4" name="Giant Maggot" targetCursor="large">
         <sprite>monster-maggot-giant.xml</sprite>
-        <sound event="hit">maggot-hit1.ogg</sound>
-        <sound event="hit">maggot-hit2.ogg</sound>
-        <sound event="miss">maggot-miss1.ogg</sound>
-        <sound event="die">maggot-dying1.ogg</sound>
+        <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
+        <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
+        <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
+        <sound event="die">monsters/maggot/maggot-dying1.ogg</sound>
         <drop item="1199" percent="9"/>
         <drop item="519" percent="1"/>
         <drop item="518" percent="7.5"/>
@@ -218,7 +218,7 @@
 
     <monster id="5" name="Yellow Slime">
         <sprite>monster-slime.xml|#b47f00,ffffff</sprite>
-        <sound event="hit">slime-hit1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
         <drop item="534" percent="2"/>
         <drop item="519" percent="1"/>
         <drop item="501" percent="3.5"/>
@@ -241,7 +241,7 @@
 
     <monster id="6" name="Red Slime">
         <sprite>monster-slime.xml|#7e0000,ffffff</sprite>
-        <sound event="hit">slime-hit1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
         <drop item="1201" percent="3"/>
         <drop item="509" percent="1.1"/>
         <drop item="521" percent="2"/>
@@ -267,11 +267,11 @@
 
     <monster id="7" name="Black Scorpion">
         <sprite>monster-scorpion.xml|#0d1313,435a5a,879999,ffffff</sprite>
-        <sound event="hit">scorpion-hit1.ogg</sound>
-        <sound event="hit">scorpion-hit2.ogg</sound>
-        <sound event="hit">scorpion-hit3.ogg</sound>
-        <sound event="hit">scorpion-hit4.ogg</sound>
-        <sound event="miss">scorpion-miss1.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
+        <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
         <drop item="523" percent="1.5"/>
         <drop item="509" percent="1.0"/>
         <drop item="518" percent="8"/>
@@ -309,9 +309,9 @@
 
     <monster id="9" name="Fire Goblin">
         <sprite>monster-goblin-fire.xml</sprite>
-        <sound event="hit">fire-goblin-hit1.ogg</sound>
-        <sound event="hit">fire-goblin-hit2.ogg</sound>
-        <sound event="miss">fire-goblin-miss1.ogg</sound>
+        <sound event="hit">monsters/fire-goblin/fire-goblin-hit1.ogg</sound>
+        <sound event="hit">monsters/fire-goblin/fire-goblin-hit2.ogg</sound>
+        <sound event="miss">monsters/fire-goblin/fire-goblin-miss1.ogg</sound>
         <drop item="505" percent="8"/>
         <drop item="501" percent="1.5"/>
         <drop item="518" percent="8"/>
@@ -377,7 +377,7 @@
 
     <monster id="11" name="Evil Mushroom">
         <sprite>monster-mushroom-red.xml</sprite>
-        <sound event="hit">shroom-hit1.ogg</sound>
+        <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
         <drop item="535" percent="5"/>
         <drop item="540" percent="0.1"/>
         <drop item="534" percent="1"/>
@@ -399,9 +399,9 @@
 
     <monster id="12" name="Flower">
         <sprite>monster-flower.xml</sprite>
-        <sound event="hit">flower-hit1.ogg</sound>
-        <sound event="hit">flower-hit2.ogg</sound>
-        <sound event="miss">flower-miss1.ogg</sound>
+        <sound event="hit">monsters/flower/flower-hit1.ogg</sound>
+        <sound event="hit">monsters/flower/flower-hit2.ogg</sound>
+        <sound event="miss">monsters/flower/flower-miss1.ogg</sound>
         <drop item="535" percent="1"/>
         <drop item="540" percent="0.1"/>
         <drop item="1199" percent="1"/>
@@ -480,8 +480,8 @@
 
     <monster id="15" name="Bat">
         <sprite>monster-bat.xml</sprite>
-        <sound event="die">bat-dying1.ogg</sound>
-        <sound event="hit">bat-hit1.ogg</sound>
+        <sound event="die">monsters/bat/bat-dying1.ogg</sound>
+        <sound event="hit">monsters/bat/bat-hit1.ogg</sound>
         <drop item="505" percent="8"/>
         <drop item="501" percent="1.5"/>
         <drop item="518" percent="4"/>
@@ -505,8 +505,8 @@
 
     <monster id="16" name="Pinkie" targetCursor="small">
         <sprite>monster-pinkie.xml</sprite>
-        <sound event="hit">pinkie-hit1.ogg</sound>
-        <sound event="miss">pinkie-miss1.ogg</sound>
+        <sound event="hit">monsters/pinkie/pinkie-hit1.ogg</sound>
+        <sound event="miss">monsters/pinkie/pinkie-miss1.ogg</sound>
         <drop item="614" percent="8"/>
         <attributes
             hp="20"
@@ -525,7 +525,7 @@
 
     <monster id="17" name="Spiky Mushroom">
         <sprite>monster-mushroom-spiky.xml</sprite>
-        <sound event="hit">shroom-hit1.ogg</sound>
+        <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
         <drop item="567" percent="8"/>
         <drop item="501" percent="1.5"/>
         <drop item="518" percent="0.5"/>
@@ -547,11 +547,11 @@
 
     <monster id="18" name="Fluffy">
         <sprite>monster-fluffy.xml</sprite>
-        <sound event="hit">fluffy-hit1.ogg</sound>
-        <sound event="hit">fluffy-hit2.ogg</sound>
-        <sound event="hit">fluffy-hit3.ogg</sound>
-        <sound event="miss">fluffy-miss1.ogg</sound>
-        <sound event="hurt">fluffy-hurt1.ogg</sound>
+        <sound event="hit">monsters/fluffy/fluffy-hit1.ogg</sound>
+        <sound event="hit">monsters/fluffy/fluffy-hit2.ogg</sound>
+        <sound event="hit">monsters/fluffy/fluffy-hit3.ogg</sound>
+        <sound event="miss">monsters/fluffy/fluffy-miss1.ogg</sound>
+        <sound event="hurt">monsters/fluffy/fluffy-hurt1.ogg</sound>
         <drop item="611" percent="8"/>
         <drop item="527" percent="1.5"/>
         <drop item="535" percent="4"/>
@@ -646,11 +646,11 @@
 
     <monster id="23" name="Log Head">
         <sprite>monster-logmonster.xml</sprite>
-        <sound event="hurt">loghead-hurt1.ogg</sound>
-        <sound event="hurt">loghead-hurt2.ogg</sound>
-        <sound event="hurt">loghead-hurt3.ogg</sound>
-        <sound event="hurt">loghead-hurt4.ogg</sound>
-        <sound event="hurt">loghead-hurt5.ogg</sound>
+        <sound event="hurt">monsters/loghead/loghead-hurt1.ogg</sound>
+        <sound event="hurt">monsters/loghead/loghead-hurt2.ogg</sound>
+        <sound event="hurt">monsters/loghead/loghead-hurt3.ogg</sound>
+        <sound event="hurt">monsters/loghead/loghead-hurt4.ogg</sound>
+        <sound event="hurt">monsters/loghead/loghead-hurt5.ogg</sound>
         <drop item="569" percent="20"/>
         <attributes
             hp="20"
@@ -686,11 +686,11 @@
 
     <monster id="25" name="Easter Fluffy">
         <sprite>monster-fluffy.xml</sprite>
-        <sound event="hit">fluffy-hit1.ogg</sound>
-        <sound event="hit">fluffy-hit2.ogg</sound>
-        <sound event="hit">fluffy-hit3.ogg</sound>
-        <sound event="miss">fluffy-miss1.ogg</sound>
-        <sound event="hurt">fluffy-hurt1.ogg</sound>
+        <sound event="hit">monsters/fluffy/fluffy-hit1.ogg</sound>
+        <sound event="hit">monsters/fluffy/fluffy-hit2.ogg</sound>
+        <sound event="hit">monsters/fluffy/fluffy-hit3.ogg</sound>
+        <sound event="miss">monsters/fluffy/fluffy-miss1.ogg</sound>
+        <sound event="hurt">monsters/fluffy/fluffy-hurt1.ogg</sound>
         <attributes
             hp="20"
             size="4"
@@ -793,7 +793,7 @@
     
     <monster id="31" name="Sea Slime">
         <sprite>monster-slime.xml|#4ca1a0,ffffff</sprite>
-        <sound event="hit">slime-hit1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
         <attributes
             hp="20"
             size="4"
@@ -896,9 +896,9 @@
 
     <monster id="37" name="Fire Lizard">
         <sprite>monster-lizard.xml|#673132,923F42,CD5961,E163A4,ffffff</sprite>
-        <sound event="hit">fire-goblin-hit1.ogg</sound>
-        <sound event="hit">fire-goblin-hit2.ogg</sound>
-        <sound event="miss">fire-goblin-miss1.ogg</sound>
+        <sound event="hit">monsters/fire-goblin/fire-goblin-hit1.ogg</sound>
+        <sound event="hit">monsters/fire-goblin/fire-goblin-hit2.ogg</sound>
+        <sound event="miss">monsters/fire-goblin/fire-goblin-miss1.ogg</sound>
         <!-- stats identical to maggot - change this when making up real monster stats -->
         <attributes
             hp="20"
