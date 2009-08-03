@@ -2403,8 +2403,41 @@
     <!-- 755  ASSASSIN SHIRT -->
     <!-- 756  ASSASSIN GLOVES -->
     <!-- 757  ASSASSIN BOOTS -->
-    <!-- 758  STAFF WEAPON   -->
-    
+    <item id="758"
+        image="weapon-staff-woodstaff.png"
+        name="Wooden Staff"
+        description="A basic wooden Staff."
+        effect="+25 Damage, 1 Range"
+        type="equip-2hand"
+        weapon_type="11"
+        weapon-type="polearm"
+        weight="10"
+        attack-min="0"
+        attack-delta="75"
+        max-per-slot="1">
+        <sprite>weapon-staff.xml</sprite>
+    </item>
+        <item id="759"
+        image="armor-head-paladinhelm.png"
+        name="Paladin's Helmet"
+        description="Worn only by Paladins."
+        effect="+19% Defense"
+        type="equip-head"
+        defense="19"
+        weight="43">
+        <sprite>head-paladinhelm.xml</sprite>
+    </item>
+        <item id="760"
+        image="armor-head-overlordhelm.png"
+        name="Overlord's Helmet"
+        description="Worn by the Greatest Warriors."
+        effect="+20% Defense"
+        type="equip-head"
+        defense="20"
+        weight="45">
+        <sprite>head-overlordhelm.xml</sprite>
+    </item>
+
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
     <item id="1198"
