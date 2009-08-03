@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<sprite name="player" action="stand">
+	<imageset name="staff" src="graphics/sprites/weapon-staff.png" width="128" height="128" />
+
+	<action name="default" imageset="staff">
+	</action>
+
+	<action name="stand" imageset="staff">
+		<animation direction="down">
+		  <frame index="0" offsetX ="0" offsetY ="32" />
+		</animation>
+		<animation direction="left">
+		  <frame index="16" offsetX ="0" offsetY ="32" />
+		</animation>
+		<animation direction="up">
+		  <frame index="32" offsetX ="0" offsetY ="32" />
+		</animation>
+		<animation direction="right">
+		  <frame index="48" offsetX ="0" offsetY ="32" />
+		</animation>
+	</action>
+
+	<action name="walk" imageset="staff">
+		<animation direction="down">
+			<sequence start="1" end="6" offsetX ="0" offsetY ="32" delay="75" />
+		</animation>
+		<animation direction="left">
+			<sequence start="17" end="22" offsetX ="0" offsetY ="32" delay="75" />
+		</animation>
+		<animation direction="up">
+			<sequence start="33" end="38" offsetX ="0" offsetY ="32" delay="75" />
+		</animation>
+		<animation direction="right">
+			<sequence start="49" end="54" offsetX ="0" offsetY ="32" delay="75" />
+		</animation>
+	</action>
+
+	<action name="sit" imageset="staff">
+		<animation direction="down">
+		  <frame index="7" offsetX ="0" offsetY ="32" />
+		</animation>
+		<animation direction="left">
+		  <frame index="23" offsetX ="0" offsetY ="32" />
+		</animation>
+		<animation direction="up">
+		  <frame index="39" offsetX ="0" offsetY ="32" />
+		</animation>
+		<animation direction="right">
+		  <frame index="55" offsetX ="0" offsetY ="32" />
+		</animation>
+	</action>
+
+	<action name="dead" imageset="staff">
+		<animation direction="down">
+		  <frame index="12" offsetX ="0" offsetY ="32" />
+		</animation>
+		<animation direction="left">
+		  <frame index="12" offsetX ="0" offsetY ="32" />
+		</animation>
+		<animation direction="up">
+		  <frame index="12" offsetX ="0" offsetY ="32" />
+		</animation>
+		<animation direction="right">
+		  <frame index="12" offsetX ="0" offsetY ="32" />
+		</animation>
+	</action>
+
+	<action name="attack" imageset="staff">
+		<animation direction="down">
+			<sequence start="8" end="11" offsetX ="0" offsetY ="32" delay="75" />
+		  	<end />
+		</animation>
+		<animation direction="left">
+			<sequence start="24" end="27" offsetX ="0" offsetY ="32" delay="75" />
+		  	<end />
+		</animation>
+		<animation direction="up">
+			<sequence start="40" end="43" offsetX ="0" offsetY ="32" delay="75" />
+		  	<end />
+		</animation>
+		<animation direction="right">
+			<sequence start="56" end="59" offsetX ="0" offsetY ="32" delay="75" />
+		  	<end />
+		</animation>
+	</action>
+
+</sprite>
