@@ -845,6 +845,12 @@
 
     <monster id="34" name="Zombie">
         <sprite>monster-zombie.xml</sprite>
+        <sound event="move">monsters/zombie/zombie-move1.ogg</sound>
+        <sound event="move">monsters/zombie/zombie-move2.ogg</sound>
+        <sound event="hit">monsters/zombie/zombie-hit1.ogg</sound>
+        <sound event="hit">monsters/zombie/zombie-hit2.ogg</sound>
+        <sound event="miss">monsters/zombie/zombie-miss1.ogg</sound>
+        <sound event="die">monsters/zombie/zombie-dying1.ogg</sound>
         <attributes
             hp="20"
             size="4"
