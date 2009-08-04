@@ -2424,7 +2424,8 @@
         effect="+19% Defense"
         type="equip-head"
         defense="19"
-        weight="43">
+        weight="43"
+	max-per-slot="1">
         <sprite>head-paladinhelm.xml</sprite>
     </item>
         <item id="760"
@@ -2434,8 +2435,20 @@
         effect="+20% Defense"
         type="equip-head"
         defense="20"
-        weight="45">
+        weight="45"
+	max-per-slot="1">
         <sprite>head-overlordhelm.xml</sprite>
+    </item>
+        <item id="761"
+        image="armor-head-desert-helmet.png"
+        name="Desert Helmet"
+        description="The perfect desert warriors' helmet."
+        effect="+21% Defense"
+        type="equip-head"
+        weight="48"
+        defense="21"
+        max-per-slot="1">
+        <sprite>head-desert-helmet.xml</sprite>
     </item>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
