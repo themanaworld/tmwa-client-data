@@ -2474,6 +2474,17 @@
         max-per-slot="1">
         <sprite>head-captain_hat.xml</sprite>
     </item>
+    <item id="766"
+        image="armor-head-terranitehelm.png"
+        name="Terranite Helmet"
+        description="A magical helmet made out of semi-polished granite that
+was enchanted to be very light. Great for mages on the battlefield."
+        effect="+15% Defense"
+        type="equip-head"
+        defense="15"
+        weight="10">
+        <sprite>head-terranitehelm.xml</sprite>
+    </item>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
@@ -3995,15 +4006,5 @@
         weight="10">
         <sprite gender="male">hands-gloves-generic-male.xml|#104010,208020,30c030</sprite>
         <sprite gender="female">hands-gloves-generic-female.xml|#104010,208020,30c030</sprite>
-    </item>
-    <item id="2170"
-        image="armor-head-terranitehelm.png"
-        name="Terranite Helmet"
-        description="A magical helmet made out of semi-polished granite that was enchanted to be very light. Great for mages on the battlefield."
-        effect="+15% Defense"
-        type="equip-head"
-        defense="15"
-        weight="10">
-        <sprite>head-terranitehelm.xml</sprite>
     </item>
 </items>
