@@ -2477,13 +2477,24 @@
     <item id="766"
         image="armor-head-terranitehelm.png"
         name="Terranite Helmet"
-        description="A magical helmet made out of semi-polished granite that
-was enchanted to be very light. Great for mages on the battlefield."
+        description="A magical helmet made out of semi-polished granite that was enchanted to be very light. Great for mages on the battlefield."
         effect="+15% Defense"
         type="equip-head"
         defense="15"
         weight="10">
         <sprite>head-terranitehelm.xml</sprite>
+    </item>
+    <item id="767"
+        image="armor-chest-terranite.png"
+        name="Terranite Chest"
+        description="A nice piece of armor made out of Terranite Ore."
+        effect="+30% Defense"
+        type="equip-torso"
+        weight="120"
+        defense="30"
+        max-per-slot="1">
+        <sprite gender="male">chest-terranite-male.xml</sprite>
+        <sprite gender="female">chest-terranite-female.xml</sprite>
     </item>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
