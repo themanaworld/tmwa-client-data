@@ -2504,7 +2504,19 @@
         <sprite gender="male">chest-terranite-male.xml</sprite>
         <sprite gender="female">chest-terranite-female.xml</sprite>
     </item>
-
+    <item id="768"
+        image="armor-legs-terranite.png"
+        name="Terranite Legs Armor"
+        description="Leggings made out of Terranite."
+        effect="+8% Defense"
+        type="equip-legs"
+        weight="15"
+        defense="8"
+        max-per-slot="1">
+        <sprite gender="male">leg-terranite-male.xml</sprite>
+        <sprite gender="female">leg-terranite-female.xml</sprite>
+    </item>
+    
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
     <item id="1198"
