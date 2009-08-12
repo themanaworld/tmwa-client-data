@@ -952,7 +952,7 @@
             physical-defence="5"
             magical-defence="0"
             />
-        <!-- doesn't move much, but attacks when you are comming too close. -->
+        <!-- doesn't move much, but attacks when you are coming too close. -->
         <behavior
             aggressive="false"
             cowardly="false"
@@ -960,7 +960,7 @@
             stroll-range="1"
             attack-distance="64"
             />
-        <!-- slow, strong, long-range tail attack-->
+        <!-- slow, strong, long-range glow attack-->
         <attack id="1"
             priority="1"
             type="physical"
@@ -970,6 +970,42 @@
             range="64"
             angle="10"
             particle-effect="graphics/particles/wisp.particle.xml"
+            action="special1"
+            />
+    </monster>
+
+    <monster id="39" name="Snail">
+        <sprite>monster-snail.xml</sprite>
+        <exp>200</exp>
+        <attributes
+            hp="220"
+            size="8"
+            speed="42"
+            attack-min="40"
+            attack-delta="20"
+            attack-magic="0"
+            hit="20"
+            evade="5"
+            physical-defence="45"
+            magical-defence="5"
+            />
+        <!-- doesn't move much, but attacks when you are coming too close. -->
+        <behavior
+            aggressive="false"
+            cowardly="false"
+            track-range="2"
+            stroll-range="1"
+            attack-distance="64"
+            />
+        <!-- slow, strong, bite attack-->
+        <attack id="1"
+            priority="1"
+            type="physical"
+            pre-delay="5"
+            aft-delay="5"
+            damage-factor="3"
+            range="64"
+            angle="10"
             action="special1"
             />
     </monster>
