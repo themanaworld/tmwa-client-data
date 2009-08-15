@@ -428,9 +428,9 @@
         weight="185"
         max-per-slot="10"/>
     <item id="535"
-        image="use-food-apple.png"
-        name="Apple"
-        description="A healthy apple."
+        image="use-food-apple.png|R:#FF3600;Y:#FFC000;G:#66CC33"
+        name="Red Apple"
+        description="A healthy red apple."
         effect="+50 HP"
         script="apple.lua"
         type="usable"
@@ -2246,8 +2246,7 @@
         hp="10"
         effect="+10 HP"
         type="useable"
-        weight="10">
-    </item>
+        weight="10"/>
     <item id="737"
         image="use-cake-a.png|R:#9E6E3B,E39D52;G:#E29F57;W:#FFD5A8"
         name="Chocolate Cake"
@@ -2255,8 +2254,7 @@
         hp="11"
         effect="+11 HP"
         type="useable"
-        weight="10">
-    </item>
+        weight="10"/>
     <item id="738"
         image="use-cake-a.png|R:#FED079,FFFFFF;G:#FED079,FFFFFF,FFFFFF;W:#856200,E68E00,FFA600"
         name="Orange Cake"
@@ -2264,8 +2262,7 @@
         hp="12"
         effect="+12 HP"
         type="useable"
-        weight="10">
-    </item>
+        weight="10"/>
     <item id="739"
         image="use-cake-a.png|R:#CCC599,FFF8ED;G:#FFBABA,FFFEFE;W:#D91A1A,FF8F8F"
         name="Apple Cake"
@@ -2273,15 +2270,13 @@
         hp="12"
         effect="+12 HP"
         type="useable"
-        weight="10">
-    </item>
+        weight="10"/>
     <item id="740"
         image="generic-root.png"
         name="Root"
         description="A root from a plant."
         type="generic"
-        weight="5">
-    </item>
+        weight="5"/>
     <item id="741"
         image="armor-hands-gloves.png|W:#A4B2B2,FFFFFF"
         name="Cotton Gloves"
@@ -2342,8 +2337,7 @@
         hp="11"
         effect="+11 HP"
         type="useable"
-        weight="10">
-    </item>
+        weight="10"/>
     <item id="748"
         image="use-food-orangecupcake.png"
         name="Laced Orange Cupcake"
@@ -2406,7 +2400,7 @@
     <item id="758"
         image="weapon-staff-woodstaff.png"
         name="Wooden Staff"
-        description="A basic wooden Staff."
+        description="A basic wooden staff."
         effect="+25 Damage, 1 Range"
         type="equip-2hand"
         weapon_type="11"
@@ -2417,10 +2411,10 @@
         max-per-slot="1">
         <sprite>weapon-staff.xml</sprite>
     </item>
-        <item id="759"
+    <item id="759"
         image="armor-head-paladinhelm.png"
         name="Paladin's Helmet"
-        description="Worn only by Paladins."
+        description="Worn only by paladins."
         effect="+19% Defense"
         type="equip-head"
         defense="19"
@@ -2428,10 +2422,10 @@
 	max-per-slot="1">
         <sprite>head-paladinhelm.xml</sprite>
     </item>
-        <item id="760"
+    <item id="760"
         image="armor-head-overlordhelm.png"
         name="Overlord's Helmet"
-        description="Worn by the Greatest Warriors."
+        description="Worn by the greatest warriors."
         effect="+20% Defense"
         type="equip-head"
         defense="20"
@@ -2439,7 +2433,7 @@
 	max-per-slot="1">
         <sprite>head-overlordhelm.xml</sprite>
     </item>
-        <item id="761"
+    <item id="761"
         image="armor-head-desert-helmet.png"
         name="Desert Helmet"
         description="The perfect desert warriors' helmet."
@@ -2451,16 +2445,15 @@
         <sprite>head-desert-helmet.xml</sprite>
     </item>
     <!-- 762 TERRANITE ARROW -->
-        <item id="763"
+    <item id="763"
         image="generic-terraniteore.png"
         name="Terranite Ore"
-        description="Some Ore collected out of Terranite."
+        description="Some ore collected out of terranite."
         effect=""
         type="generic"
         weight="10"
         max-per-slot="10"/>
-    </item>
-        <item id="764"
+    <item id="764"
         image="armor-head-sailor_hat.png"
         name="Sailor Hat"
         description="A hat worn by brave sailors."
@@ -2471,7 +2464,7 @@
         max-per-slot="1">
         <sprite>head-sailor_hat.xml</sprite>
     </item>
-        <item id="765"
+    <item id="765"
         image="armor-head-captain_hat.png"
         name="Captain's Hat"
         description="A hat worn by the bravest captains."
@@ -2495,7 +2488,7 @@
     <item id="767"
         image="armor-chest-terranite.png"
         name="Terranite Chest"
-        description="A nice piece of armor made out of Terranite Ore."
+        description="A nice piece of armor made out of terranite ore."
         effect="+30% Defense"
         type="equip-torso"
         weight="120"
@@ -2507,7 +2500,7 @@
     <item id="768"
         image="armor-legs-terranite.png"
         name="Terranite Legs Armor"
-        description="Leggings made out of Terranite."
+        description="Leggings made out of terranite."
         effect="+8% Defense"
         type="equip-legs"
         weight="15"
