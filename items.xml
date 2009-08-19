@@ -275,10 +275,7 @@
         weapon-type="knife"
         attack-min="5"
         attack-delta="10"
-        attack-target="multi"
-        attack-shape="cone"
         attack-range="32"
-        attack-angle="135"
         max-per-slot="1">
         <sprite>weapon-dagger.xml</sprite>
         <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
@@ -296,10 +293,7 @@
         weapon-type="knife"
         attack-min="8"
         attack-delta="2"
-        attack-target="multi"
-        attack-shape="cone"
         attack-range="32"
-        attack-angle="135"
         view="521"/>
     <item id="523"
         image="armor-chest-leathershirt.png"
@@ -449,10 +443,7 @@
         weapon-type="sword"
         attack-min="20"
         attack-delta="30"
-        attack-target="multi"
-        attack-shape="cone"
         attack-range="32"
-        attack-angle="135"
         max-per-slot="1"
         view="521"/>
     <item id="537"
@@ -539,10 +530,7 @@
         weapon-type="bow"
         attack-min="70"
         attack-delta="0"
-        attack-target="single"
-        attack-shape="cone"
-        attack-range="300"
-        attack-angle="45"
+        attack-range="160"
         view="1200"/>
     <item id="546"
         image="armor-chest-desertshirt.png"
@@ -2548,10 +2536,7 @@
         weight="125"
         attack-min="15"
         attack-delta="0"
-        attack-target="single"
-        attack-shape="cone"
-        attack-range="300"
-        attack-angle="45"
+        attack-range="160"
         weapon-type="bow"
         max-per-slot="1">
         <sprite>weapon-bow.xml</sprite>
@@ -2567,10 +2552,7 @@
         weight="20"
         attack-min="0"
         attack-delta="5"
-        attack-target="multi"
-        attack-shape="cone"
         attack-range="32"
-        attack-angle="135"
         max-per-slot="1"
         weapon-type="knife"
         view="521"/>
@@ -2706,10 +2688,7 @@
         weight="1"
         attack-min="0"
         attack-delta="1"
-        attack-target="multi"
-        attack-shape="cone"
         attack-range="32"
-        attack-angle="135"
         max-per-slot="1">
         <sprite>weapon-dagger.xml</sprite>
         <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
