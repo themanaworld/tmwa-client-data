@@ -880,6 +880,10 @@
 
     <monster id="36" name="Squirrel">
         <sprite>monster-squirrel.xml</sprite>
+        <sound event="hurt">monsters/squirrel/squirrel-hurt1.ogg</sound>
+        <sound event="hurt">monsters/squirrel/squirrel-hurt2.ogg</sound>
+        <sound event="die">monsters/squirrel/squirrel-die1.ogg</sound>
+        <sound event="die">monsters/squirrel/squirrel-die2.ogg</sound>
         <attributes
             hp="20"
             size="4"
