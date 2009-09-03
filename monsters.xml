@@ -567,6 +567,7 @@
 
     <monster id="19" name="Cave Snake">
         <sprite>monster-snake-cave.xml</sprite>
+        <sound event="hit">monsters/cavesnake/cavesnake-hit1.ogg</sound>
         <drop item="612" percent="8"/>
         <drop item="610" percent="0.1"/>
         <attributes

@@ -926,7 +926,9 @@
         type="equip-2hand"
         weapon-type="sword"
         weight="10"
-        max-per-slot="1"/>
+        max-per-slot="1">
+        <sound event="hit">weapons/swords/broadsword-hit1.ogg</sound>
+    </item>
     <item id="590"
         image="weapon-sword-baselard.png"
         name="Baselard"
@@ -944,7 +946,11 @@
         type="equip-1hand"
         weapon-type="sword"
         weight="10"
-        max-per-slot="1"/>
+        max-per-slot="1">
+        <sound event="hit">weapons/swords/longsword-hit1.ogg</sound>
+        <sound event="hit">weapons/swords/longsword-hit2.ogg</sound>
+        <sound event="miss">weapons/swords/longsword-miss1.ogg</sound>
+    </item>
     <item id="592"
         image="weapon-dagger-stiletto.png"
         name="Stiletto"
@@ -962,7 +968,9 @@
         type="equip-1hand"
         weapon-type="sword"
         weight="10"
-        max-per-slot="1"/>
+        max-per-slot="1">
+        <sound event="hit">weapons/swords/rapier-hit1.ogg</sound>
+    </item>
     <item id="594"
         image="weapon-polearm-spear.png"
         name="Spear"
