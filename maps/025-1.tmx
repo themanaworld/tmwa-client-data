@@ -2,9 +2,17 @@
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="150" height="120" tilewidth="32" tileheight="32">
  <properties>
-  <property name="minimap" value="graphics/minimaps/025-1.png"/>
-  <property name="music" value="Clouds Calling.ogg"/>
-  <property name="name" value="Woodland Swamp"/>
+  <property name="minimap" value="graphics/minimaps/02x-1.png"/>
+  <property name="music" value="Feline Monstrosity - Graveyard.ogg"/>
+  <property name="name" value="Swamp"/>
+  <property name="overlay0image" value="graphics/images/ambient/fog.png"/>
+  <property name="overlay0parallax" value="1.0"/>
+  <property name="overlay0scrollX" value="0.307"/>
+  <property name="overlay0scrollY" value="0.211"/>
+  <property name="overlay1image" value="graphics/images/ambient/fog.png"/>
+  <property name="overlay1parallax" value="1.0"/>
+  <property name="overlay1scrollX" value="0.227"/>
+  <property name="overlay1scrollY" value="0.341"/>
  </properties>
  <tileset name="Collision" firstgid="1" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>
