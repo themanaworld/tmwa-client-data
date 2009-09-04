@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="53" height="54" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="Magick - Real.ogg"/>
+  <property name="name" value="Caretaker's House"/>
+ </properties>
+ <tileset name="Woodland indoor" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png"/>
+ </tileset>
+ <tileset name="Woodland indoor x2" firstgid="257" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/woodland_indoor_x2.png"/>
+ </tileset>
+ <tileset name="Woodland indoor x3" firstgid="273" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/woodland_indoor_x3.png"/>
+ </tileset>
+ <tileset name="Collision" firstgid="289" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <layer name="Ground" width="53" height="54">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3U7QnCMBDG8VYnqE6g6AAVHUBQJ1AnUPcfwRMSOErzYvxwNvwDP+hdvjwPhfRN0/QAAAAAAGBU68zVt9/P1E7P1plTOmepvv1+oXZ6ts6cshoR2uv7f7YWJ3EWFzf7fYh15pxOV3ETdzcfK+xU43/67GPHOnNJpzbBOnNJpy7BOnNJp9g7PpW3fNgpxTpzTqeHeIpXRZ02YpvZZyqd9uJQWadvWWdOCZ1d5M46MwAAAAAAwK/eF61KDLgsAAA=
+  </data>
+ </layer>
+ <layer name="Lower" width="53" height="54">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3UywpBURjF8e8zQIxdSuGVPJtH8Rq8AQPGlMv0KEtMnIlDZ++v+P9qta+DVbu2GQAAAAAAgFm7tO4oS2UV0OVT7mYNf8z7Gnv+ej7QeqgcNV8rm9wFE9srh+gSNSuUa3QJ/LxudIEERs+xVdpv5i7yhVmFO2P95RNl6u/vIo0q73Q3T9oiv62yUxbRRWp0Us7KJboIAAAAAAAA/soNytrPQ7gsAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="53" height="54">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3VsQkAIBAEQUULsGxLsFy/BRF5gxm4/LItBQAAAAB4adTsBwDcmrGVfeJAi/Z0/QEAAADgMxsF8kumuCwAAA==
+  </data>
+ </layer>
+ <layer name="Over" width="53" height="54">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3VsQ0AIAwDwazE/lMAC5EyVVoQupO+d+cIAAAAAIDeaAKoZrayfXsIPK77VZ8LAAAA/OoArPt3/bgsAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="53" height="54">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3SQQqAMAwAwfqV/v+R4lUMFVGa1AnMoTl1IX1rrQMAAAAs4Jjz+84uo6uJ9pryN7m9nE2VrdgUdUWNFZqfzOw/f9E1+79v9FS8vVFfxaY/3l61JgAAAICRHW+GXye4LAAA
+  </data>
+ </layer>
+ <objectgroup name="Object Group 5" width="0" height="0">
+  <object name="toGraveyard" type="warp" x="832" y="1056" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="027-1"/>
+    <property name="dest_x" value="2816"/>
+    <property name="dest_y" value="2720"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
