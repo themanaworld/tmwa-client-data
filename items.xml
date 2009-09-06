@@ -294,7 +294,9 @@
         attack-min="8"
         attack-delta="2"
         attack-range="32"
-        view="521"/>
+        view="521">
+        <sound event="strike">weapons/knives/sharpknife-miss1.ogg</sound>
+    </item>
     <item id="523"
         image="armor-chest-leathershirt.png"
         name="Leather Shirt"
@@ -1024,7 +1026,9 @@
         type="equip-1hand"
         weapon-type="sword"
         weight="10"
-        max-per-slot="1"/>
+        max-per-slot="1">
+        <sound event="strike">weapons/swords/firesword-miss1.ogg</sound>
+    </item>
     <item id="600"
         image="armor-shield-britshield.png"
         name="Brit Shield"
@@ -2711,7 +2715,7 @@
         max-per-slot="1">
         <sprite>weapon-dagger.xml</sprite>
         <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
-        <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
+        <sound event="hit">weapons/swords/sabre-hit1.ogg</sound>
     </item>
     <item id="1216"
         image="armor-head-mouboohead.png"
