@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="160" height="100" tilewidth="32" tileheight="32" eyeDistance="10.0" viewportWidth="640" viewportHeight="480">
+<map version="1.0" orientation="orthogonal" width="160" height="100" tilewidth="32" tileheight="32">
  <properties>
   <property name="music" value="The Mana World - Snow Village.ogg"/>
   <property name="name" value="Tulimshar"/>
@@ -11,27 +11,27 @@
  <tileset name="Collision" firstgid="257" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png"/>
  </tileset>
- <layer name="Ground" width="160" height="100" viewPlaneDistance="0.0" viewPlaneInfinitelyFarAway="false" tileWidth="32" tileHeight="32">
+ <layer name="Ground" width="160" height="100">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3dPZMMQRgA4DmOwEdw5yMT4Fwm4BAglUllfoKfICGWnFhRpCdEInUChCh/AT/gyPSWmarW9muY6ZmdfYKneqdndt/3ut+dnaut7dkrimIPAAAAAAAAAAAAAACApbESrAb7y/ZAsl23PZgx57Q/d17T8hhCvBzWgvWyPZ5sH0u2q/ZstH0puBxcifaPxmlfi2NSxd6J+nai+CfK9kaSd+48csXbaCleDqeDMw23bc55nPPr4HHwpHxcxd8s21tJXrnzaCPeZsZ4OVyo6UXwsvRqwjFtznma873g/py55x67RY+Xu/625vgb3wS7kVnHf+1gHnLXw6RxU3/Nz+W4+rs45fifDef7JXn9abHTfYteD9vBw4zx+lB/6Xu77vmvD++ZodTf0+DZmPnZaileDvH13Dx2i37W3zzXDotef0P8/E3PZ3X1pf7mqcem81hZma7ruV0EQ62/oZwfhu5j8KmGqu5Gjz93PM8/GjqG7sR1U+d/SecZmvCvn2XqjyaoP7qk/ugb1+wAAAAAAAAAAAAAAADASLWmcLzu875i/vWgZz2vzXWQq1hVnJvRvtVkX9fjzHhrxd/rOzfdNp1zvOb0uSjO7bLdKPtGqrWqux5nxmtj/ee0bSPnk1GMKs6dpC/e1/U4M14bvz9v+/fo28X4dUDvZsyB5a2/ceuAjjzImAPLW3/xax8KDgdHgkcZc6DZuay7Du8s8b0Z2qy/2PMJ/Ud7MM5Mn8v/XQc19bbIX3+TnOrBOLO89Xe+B+PM8taf67/+Glr9+f5jsQyt/taK3/e9XI+s9WCcmV1/34LvwbvgffCh+LOmrgbXgutJf3x89Rpd1V9130vffyyGoZ3/XP8tlmp+6t4HZJb43iDqjybnsuu570MOqL/YrPtQdz3ONKPPa+P3OTcAAAAAAAAAAAAAAAAAAAAAmvEL03wrjgD6AAA=
+   H4sIAAAAAAAAAO3dPZMMQRgA4HGOwEdw5yMT4Fwm4BAglUllfoKfICGWnFhRpCdEInUChCh/AT/gyPSWmarW9muY6Zmdfa7qqd75uH3f6353dq62tnuvKIo9AAAAAAAAAAAAAAAAlsa+YDXYX7YHku267cGMOaf7c+c1LY8hxMthLVgv2+PJ9rFku2rPRtuXgsvBlej4qJ9WWuyTKvZOtG8nin+ibG8keefOI1e8jZbi5XA6ONNw2+aYxzm/Dh4HT8rHVfzNsr2V5JU7jzbibWaMl8OFml4EL0uvJpzT5pinOd8L7s+Ze+6+W/R4uetva46/8U2wG5l1/tcOxiF3PUzqN/XX/FiOq7+LU87/2XC+X5LnnxY7Pbbo9bAdPMwYrw/1l762617/+vCaGUr9PQ2ejRmfrZbi5RDfz81jt+hn/c1z77Do9TfE99/0elZXX+pvnnpsOo9ZP12P7SIYav0N5fowdB+DTzVUdTd6/Lnjcf7R0Dl0J66bOv9Lus7QhH99L1N/NEH90SX1R9+4ZwcAAAAAAAAAAAAAAABGqjmF43mfV4r554Oe9XttzoNcxari3IyOrSbHuu5nxlsr/p7fuem26ZzjOafPRXFul+1GuW+kmqu6635mvDbmf07bNnI+GcWo4txJ9sXHuu5nxmvj++dtfx99uxg/D+jdjDmwvPU3bh7QkQcZc2B56y9+7kPB4eBI8ChjDjQ7lnXn4Z0lXpuhzfqLPZ+w/2gP+pnpY/m/86Cm3hb562+SUz3oZ5a3/s73oJ9Z3vpz/9dfQ6s/n38slqHV31rxe93L9chaD/qZ2fX3LfgevAveBx+KP2vqanAtuJ7sj8+vnqOr+qvWvfT5x2IY2vXP/d9iqcan7jogs8Rrg6g/mhzLrse+Dzmg/mKz1qHuup9pRp/nxu9zbgAAAAAAAAAAAAAAAAAAAAA04xedsY/qAPoAAA==
   </data>
  </layer>
- <layer name="Fringe" width="160" height="100" viewPlaneDistance="0.0" viewPlaneInfinitelyFarAway="false" tileWidth="32" tileHeight="32">
+ <layer name="Fringe" width="160" height="100">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAAO3duY+NURzG8TdKhAKNraLBv6BRGEvFiFgKjCWWxDZEh8ROLImtmJKxtoyttfYo0JBQWcIkChrP4Zzk5HjfO++9c8+7zP1+kifnXef9zdyTO++9N/ndJAEAAAAAAAAAAAAAAAAAAAAAAAD+11d2ASn6MpaLVnQdVfm9i3Q7WL+n3FcelFBLVRzJ2D6h0CrqbVB5r3wY4rhHwfoz5bnyIkZRNXGx7AJGADP/vis/Wjj3ZLC+TNk37Irqo185nrJ9nDK+4Frqysw//+/1Lcc58+34NGVftx3XKGuHVVn1ffKW7ygDGfuQ7UuQrznOWW7HtPlnbFd2KDuHXV1j5jG/62Ug47hryvUI15+uLFAWKo/t+iJlsfIxwvWcQS9Gpz3fmvnXlWTPv/3KAeVg5DrMY/7ES1Y9RneDfa0yc2yFstLWYq6/SlmdxJ1/7n7djXWff+uUHmWvHfd4yybr7bjRjpvseVmP9xnlrHIuXsl/vVReeXkd+Xqhn8pmZYutxVx/q7LN7ms395zn7tfdWPf5t0vZ3UR6k/Tnv2necp7X1IDT1eRoNJp/rb6mzmNppJ+L6nP/69LMLbIQACjBaGWMMlaZpcxW5pRaETrJZGWKMjVYBgAAAAAAAAAAAAAAAAAAAAAAAAAA6ER16Tc8quwCkMsh5bByVDlmt00MjpnkLZs+0K6/8YzguJltrw4j3XnlgnJJuZzj+LAPdBX4vbZc/0fXk8z1h0Q1XVGuJvF6hBbB77Xl+j86rj8kqsnvK9nTYH2Jd47pV7khOCZc97cVyfV/dFx/SFRT3t6Tpufk5+Rff+hm+lX2Rqg57LE/L8I1gDzof4QqM/1aT5ddBHK5odxsYdutjLEI4XfgoL5+Kb9b2PYwYwQAtFfe9yr5jk7E4D6zGQrf0Vkv7r7ujfJWeRfsz3qvwz8+7X6x3dxnNgDQaU40efypKFUA+TD/ULT+sgsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAFH8AilG0ygD6AAA=
   </data>
  </layer>
- <layer name="Top" width="160" height="100" viewPlaneDistance="0.0" viewPlaneInfinitelyFarAway="false" tileWidth="32" tileHeight="32">
+ <layer name="Top" width="160" height="100">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAAO3dO27CQBQFUG8gq0r2kI42O4hIKAmkSpnvztgDpKVlCgrHMqCMjJ/tOUe6sscC6RZmRPWmqgAAAAAAAAAAAAAAAADG6T66AMV4bqzvUh4iigSaRxfgj9voAi3WKa/RJSjWR8pndIkO7Br5PT7fHtelmEUXyDDEfZk8b9EFoMVNdAGK9hhdoGf7CwHK08dvf1+7XtqD7EUAADAM5/6z5wYAAAAAAAAAAAAAAAAAACiHGfvTs6mlbd3Vd7rQnLE/r8yhB2C8vlK+M579nLj2oXkGDsCUnTvPyEwurm0q5xkxTsuUl+gSAFCYp39+fnGVFnDaqnbv/aNv77V7799w5cy2j56Hn9MNAAAAAAAAAAAAAAAAAAAAgGk4AE/rtgoA+gAA
   </data>
  </layer>
- <layer name="Collision" width="160" height="100" viewPlaneDistance="0.0" viewPlaneInfinitelyFarAway="false" visible="0" tileWidth="32" tileHeight="32">
+ <layer name="Collision" width="160" height="100">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3c2Y6EIBAF0Nb//+h5GRPTccGFKqAPyYnpxQjFDfii8/T5zAAAAAAAAAAAAAAAAABA06Z/v9aPVsZdY0ylvs9ptZ+1+5d1najrRs5r6ThLalCrLq3kL/p6W21afZ+dn8i6LmOPnvcWcrfXr6PPUdftzZP5bGW/y8rgVi1GyUVk/u6ct7X+RdW9pf33u09P6/prntRpL3+1a99S/hbr+7HIfb93S+3mg+P6nm857s1vVO1byB8583g0v+s813S1ZdeZ+vmzznDVm/mSP66SPzLZf8lUo2WPCQAAAAAAAAAAAAAAAAAARtHD8+glzxt7Fnk8rbzfoOS5d/mjpr18eSdDX2rst5H7b0n+smvMuPk7a9n1pTx/d7+bd45R658M9qv3/FkD+zba/ptdT8bP30L++neWk73f7573JvnrX4/5u9Oy68x5TnrZf+VvHD3m72oGs2vMWPmz9o0jomX0ef2/7BoDAAAAAAAAAAAAAAAAAAAA8J4/UHc7TwD6AAA=
+   H4sIAAAAAAAAAO3bQY7CMAwFUOD+h2bFpqIlTWs7Cc/SEwOIiWN/seP1fDxeAAAAAAAAAAAAAAAAAMDQPvVvfYxy74g7tdb2M6P2Gd1f1TlZ52butfWeLTOImktvzZ6H7PMqc/jrnmeqOntZMzt6nnXubK7ss2rvV3qO2v232VTvdga9c9rbccbceytydvJ3fYZXc/BtD1E9j5K/zPNWtM1O6+PevLNm31PVs+aePR7tN2vXPb0xnoiqvhPzuDNf8sdZ8keliKq+E/OQPwAAAAAAAAAAAAAAAAAAGNcMvwdu+f9+i7yeUXbakvNRemVNe/nK+g7m3j1GVmTPLfepnjHr5i/7bOJ22fva5+/tY0b+ts9lcC6z56+lqmfMfbvsqcyeq+fJ+vk76r16nvTv8Mz7vZ+L6l3+5jRj/nqqes7ct8vq3Y/QA/+bv7N9V8+YtfJXfT7y13Jm1PkAAAAAAAAAAAAAAAAAAAAA1HkDwf/rowD6AAA=
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0" viewPlaneDistance="0.0" viewPlaneInfinitelyFarAway="false">
+ <objectgroup name="Objects" width="0" height="0">
   <object name="ToOutside" type="WARP" x="800" y="1120" width="32" height="32">
    <properties>
     <property name="DEST_MAP" value="001-1"/>

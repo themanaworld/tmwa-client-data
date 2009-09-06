@@ -45,7 +45,7 @@
  </layer>
  <layer name="Over" width="117" height="133">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
  <layer name="Collision" width="117" height="133">
@@ -70,10 +70,10 @@
   </object>
   <object name="Sea slime" type="spawn" x="1120" y="1376" width="288" height="960">
    <properties>
-    <property name="max_beings" value="5"/>
-    <property name="monster_id" value="31"/>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="31"/>
    </properties>
   </object>
   <object name="Sea Slime" type="spawn" x="928" y="2016" width="320" height="1312">

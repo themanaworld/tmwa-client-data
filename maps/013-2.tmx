@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="88" height="63" tilewidth="32" tileheight="32" eyeDistance="10.0" viewportWidth="640" viewportHeight="480">
+<map version="1.0" orientation="orthogonal" width="88" height="63" tilewidth="32" tileheight="32">
  <properties>
   <property name="music" value="Magick - Real.ogg"/>
   <property name="name" value="Magic house"/>
@@ -23,27 +23,27 @@
  <tileset name="Woodland village" firstgid="547" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Woodland_village.png"/>
  </tileset>
- <layer name="Ground" width="88" height="63" viewPlaneDistance="0.0" viewPlaneInfinitelyFarAway="false" tileWidth="32" tileHeight="32">
+ <layer name="Ground" width="88" height="63">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAAO3Y0W3CMBSF4URMEDFBSRkA1G5QMgBqGQAB+4+AHxIpukpiB2h8LvofPgVZefA9MrZvdkVR7AAAAAAAAAAAAABIKoNV+3yF3PWoqYJ1+3yF3PWo+UhUJr6Xux41m1bd+z2kTHwvdz1qprLqqxLfy12Pmn42n8E2kt9PcBjRCNSjpp/dV/Adyfc3+BtxEqhHTer+QL6PiZ1X5Pucuev3ElxH3ATqUcP+8L9sf1sPjNEfP64y6oGxOXLXo8b2t/XA2By561Fj91d7n5jqJ5buL+xedBTI79l8p86zpc+3yjgL5BcTu/8q5Wv3Ig/fO7r/f+MgX7tXefje0eV3cpCvnYuH+3Ys36l+ben+zWO+XX63kXznWmKu3vpxD+dEN097x8k9pxR7gTm80zrwyss6AAAAAAAAAAAAgB93aL4nE6BWAAA=
   </data>
  </layer>
- <layer name="Fringe" width="88" height="63" viewPlaneDistance="0.0" viewPlaneInfinitelyFarAway="false" tileWidth="32" tileHeight="32">
+ <layer name="Fringe" width="88" height="63">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3Yu0oDQRTG8dmNdxPQRFEwUdHKRzA+gVjlCcRH0DfwESwVK1srW7HRtIpgrXhrFby0Fp5xJrgMWTQmO8mu/x98bGZnYA8HsnBWKQAAAAAAAAAAAAC96jJUalWuo5IRyZBkWDIoyUsK9n4zObt3Yq9x5/6z29D0Z0YyoExfdY91r8qSijL9bqakvnt6LrlIttRUqknygVKzOZNdWe85Z14k43KmIJmUTNhoY4HZv5bc+Cw8JWrOeumH9ULkd1WyaH8/SZ47WFdWuP2L3o/ba6jaaB+S/qBTVWVTTvrTJ6k32dt3rlrVyWHC9aXR6S/Puf3V/TyI7K/YoHVx74kzyavk3WMtaXMc/vyejbPW0UoApMFVaOZltG/dRtOzbjEw83BjXm4EfzMl/Zy2M65WtDPCXeRMLXIuOh/rlGyQrLL0uEKfU819T2Xpe+iR5EHyqMz8rOe+e+de0r6+8cl/ZE4yL9ny8EwfdC/1nPamzKxWj7nny47HZ7Vro9sFZNxmtwtoUdq+d2x3uwD0jGVn7fOdDwAAAAAAAAAAAAC95hMTTRd6oFYAAA==
+   H4sIAAAAAAAAAO3Yy0rDQBTG8Unq3Ra0VRRsVfSJ+gTFR9A38BFc6tKtK7fiRrtVBNeKt62Cl60Lv3GmGEK7aNPmUv8/+AiZTMjhQAInxgAAAAAAAAAAAADIq5vQHeeVOWVGmVWmlbJS8evdlPy1c3/ste8/ewhdf9aUKeP6antse1VXGsb1u5ua+evplXI92lILqamUA2PWSy6HOj+K7XlXFrWnoiwrSz7WQuCu3yn3aRZeEM0+92/Fzrf98VV5S14OevhWJoOsq8i3kvozobQHvP9kqNWMh4sE9x4PrQp0c6l8KF9ZF5JjZ2HWFQAoktvQzctIruVj2Vm3Grh5uDMvd4LBrKifq37Gtap+RniM7GlG9kXnY5uaD0arrh436HOhxb9T4/Q/9FR5Vl6Mm5/t3PcUWxu13398ekc2lE1lL4VnpsH20s5pn8bNau0ea2k5SPFZSe1kXcCY2826gD4V7X/HftYFILfS/OYDAAAAAAAAAAAAQN78AGFXovygVgAA
   </data>
  </layer>
- <layer name="Top" width="88" height="63" viewPlaneDistance="0.0" viewPlaneInfinitelyFarAway="false" tileWidth="32" tileHeight="32">
+ <layer name="Top" width="88" height="63">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAAO3Y3Q2CMBAA4D4zgM7BlBI3cASdxp+FhAgRmmIIYg3k+5Km4crD5WgKRwgAAAAAAADA2pXtvKvH/p+JbFRX3yKxVuVMZIMu4V1fvpfaoyxPnfNxPvzWWH1v9XjkTGQDimhu2L/Lis9e9Z3v03usW1PfecqFB0NVmNZ/Tb2PtLh21+jatzAwpukj7mHYS6RizHMKrzP60Iud29jxLxnB+vjfAfmUvVl/jOcJAAAAAAAA6/EE8+wi86BWAAA=
   </data>
  </layer>
- <layer name="Collision" width="88" height="63" viewPlaneDistance="0.0" viewPlaneInfinitelyFarAway="false" tileWidth="32" tileHeight="32">
+ <layer name="Collision" width="88" height="63">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3USw6DMAwFwPYocP9DVizYID4uBOygedIsqCJhv0aM389nBAAAAAAAAICbTFk+z8merXeRHJ3L3qGqaCJns3epaK2ftQzB/yJ7n2qi/UaTvU81//S216V+r3W8d276dsyyd6nmyv3dOse5foeA7H2qcwfv5Q7e2+3a9zZ7rp61SvYeVbVO9j7VnOkt+tsTs2f396Z+j+aqqmX023e/y5mzu3tbv0++r1q3+t2eO3uGN/fbC30CAAAAAADQ2g9aoftLoFYAAA==
+   H4sIAAAAAAAAAO3UMQ7CMAxA0XKV3v+QiIGloiSlIbajZ+kNoEjYf2B/bNsOAAAAAAAAAH/ymuPn90TvVl3PtN5F35BV7/S8jb4lo0997kz0PdnoO69vq9u3lvrea3zlHdfa6qtvFRrpW9XZ/0H0XpWNmug7sho90fdk80u33u9m7B7db6W+rb2yGjn61u573Dm63Wp9Z/5etrb6nu8dvcPKfavQEwAAAAAAgNGe2AAM+KBWAAA=
   </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0" viewPlaneDistance="0.0" viewPlaneInfinitelyFarAway="false" visible="0">
+ <objectgroup name="Objects" width="0" height="0">
   <object name="graphics/particles/cookingfire.hoveringpot.particle.xml" type="PARTICLE_EFFECT" x="753" y="851" width="32" height="32"/>
   <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="1200" y="721" width="2" height="2"/>
   <object name="graphics/particles/sparkle.big.green.particle.xml" type="PARTICLE_EFFECT" x="770" y="829" width="8" height="8"/>
