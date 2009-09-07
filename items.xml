@@ -2394,9 +2394,42 @@
         description="The teeth from a bat. Rather sharp."
         type="generic"
         weight="2"/>
-    <!-- 755  ASSASSIN SHIRT -->
-    <!-- 756  ASSASSIN GLOVES -->
-    <!-- 757  ASSASSIN BOOTS -->
+    <item id="755"
+        image="armor-chest-assassintop.png|R"
+        name="Assassin Shirt"
+        description="Shirt for a master assassin."
+        effect="+10% Defense, +10 Agility"
+        type="equip-torso"
+        weight="15"
+        defense="10"
+        max-per-slot="1">
+        <sprite gender="male">chest-assassin-male.xml</sprite>
+        <sprite gender="female">chest-assassin-female.xml</sprite>
+    </item>
+    <item id="756"
+        image="armor-hands-assassingloves.png|R"
+        name="Assassin Gloves"
+        description="Gloves for a master assassin."
+        effect="+5% Defense, +5 Agility"
+        type="equip-arms"
+        weight="9"
+        defense="5"
+        max-per-slot="1">
+        <sprite gender="male">hands-gloves-assassin-male.xml</sprite>
+        <sprite gender="female">hands-gloves-assassin-female.xml</sprite>
+    </item>
+    <item id="757"
+        image="armor-feet-assassinboots.png"
+        name="Assassin Boots"
+        description="Boots for a master assassin."
+        effect="+5% Defense, +5 Agility"
+        type="equip-feet"
+        weight="10"
+        defense="5"
+        max-per-slot="1">
+        <sprite gender="male">feet-assassin-male.xml</sprite>
+        <sprite gender="female">feet-assassin-female.xml</sprite>
+    </item>
     <item id="758"
         image="weapon-staff-woodstaff.png"
         name="Wooden Staff"
