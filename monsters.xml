@@ -934,11 +934,8 @@
     </monster>
 
     <monster id="38" name="Wisp">
-        <sprite>monster-wisp.xml|#ffff66</sprite>
-        <drop item="507" percent="7"/>
-        <drop item="510" percent="1"/>
-        <drop item="509" percent="0.5"/>
-        <drop item="518" percent="7"/>
+        <sprite>monster-wisp.xml|#aadd44,ffff66</sprite>
+	<particlefx>graphics/particles/wisp.particle.xml</particlefx>
         <exp>20</exp>
         <attributes
             hp="20"
@@ -968,8 +965,6 @@
             aft-delay="5"
             damage-factor="3"
             range="64"
-            particle-effect="graphics/particles/wisp.particle.xml"
-            action="special1"
             />
     </monster>
 
@@ -1008,4 +1003,129 @@
             />
     </monster>
 
+    <monster id="40" name="Spectre">
+        <sprite>monster-wisp.xml|#ff77dd,dd77ff</sprite>
+	<particlefx>graphics/particles/wisp.particle.xml</particlefx>
+        <exp>20</exp>
+        <attributes
+            hp="20"
+            size="8"
+            speed="192"
+            attack-min="10"
+            attack-delta="2"
+            attack-magic="0"
+            hit="10"
+            evade="10"
+            physical-defence="5"
+            magical-defence="0"
+            />
+        <!-- doesn't move much, but attacks when you are coming too close. -->
+        <behavior
+            aggressive="false"
+            cowardly="false"
+            track-range="2"
+            stroll-range="1"
+            attack-distance="64"
+            />
+        <!-- slow, strong, long-range glow attack-->
+        <attack id="1"
+            priority="1"
+            type="physical"
+            pre-delay="5"
+            aft-delay="5"
+            damage-factor="3"
+            range="64"
+            />
+    </monster>
+
+    <monster id="41" name="Skeleton">
+        <sprite>monster-skeleton.xml|#ffe8bf</sprite>
+        <!-- stats identical to maggot - change this when making up real monster stats -->
+        <attributes
+            hp="20"
+            size="4"
+            speed="64"
+            attack-min="10"
+            attack-delta="2"
+            attack-magic="0"
+            hit="10"
+            evade="10"
+            physical-defence="5"
+            magical-defence="0"
+            mutation="50"
+            />
+        <attack id="1"
+            priority="1"
+            type="magical"
+            element="fire"
+            pre-delay="10"
+            aft-delay="5"
+            damage-factor="1"
+            range="32"
+            animation="attack"
+            particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"
+            />
+    </monster>
+
+    <monster id="42" name="Lady Skeleton">
+        <sprite>monster-skeleton.xml|#ffe8bf</sprite>
+        <sprite>hairstyle8.xml</sprite>
+        <!-- stats identical to maggot - change this when making up real monster stats -->
+        <attributes
+            hp="20"
+            size="4"
+            speed="64"
+            attack-min="10"
+            attack-delta="2"
+            attack-magic="0"
+            hit="10"
+            evade="10"
+            physical-defence="5"
+            magical-defence="0"
+            mutation="50"
+            />
+        <attack id="1"
+            priority="1"
+            type="magical"
+            element="fire"
+            pre-delay="10"
+            aft-delay="5"
+            damage-factor="1"
+            range="32"
+            animation="attack"
+            particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"
+            />
+    </monster>
+
+    <monster id="43" name="Fallen">
+        <sprite>monster-skeleton.xml|#ffe8bf</sprite>
+        <sprite>leg-chaps-male.xml</sprite>
+        <sprite>chest-warlordplate-male.xml</sprite>
+        <sprite>head-warlordhelm.xml</sprite>
+        <!-- stats identical to maggot - change this when making up real monster stats -->
+        <attributes
+            hp="20"
+            size="4"
+            speed="64"
+            attack-min="10"
+            attack-delta="2"
+            attack-magic="0"
+            hit="10"
+            evade="10"
+            physical-defence="5"
+            magical-defence="0"
+            mutation="50"
+            />
+        <attack id="1"
+            priority="1"
+            type="magical"
+            element="fire"
+            pre-delay="10"
+            aft-delay="5"
+            damage-factor="1"
+            range="32"
+            animation="attack"
+            particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"
+            />
+    </monster>
 </monsters>
