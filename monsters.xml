@@ -1128,4 +1128,40 @@
             particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"
             />
     </monster>
+
+    <monster id="44" name="Poltergeist">
+        <sprite>monster-wisp.xml|#77ffdd,77ddff</sprite>
+	<particlefx>graphics/particles/wisp.particle.xml</particlefx>
+        <exp>20</exp>
+        <attributes
+            hp="20"
+            size="8"
+            speed="192"
+            attack-min="10"
+            attack-delta="2"
+            attack-magic="0"
+            hit="10"
+            evade="10"
+            physical-defence="5"
+            magical-defence="0"
+            />
+        <!-- doesn't move much, but attacks when you are coming too close. -->
+        <behavior
+            aggressive="false"
+            cowardly="false"
+            track-range="2"
+            stroll-range="1"
+            attack-distance="64"
+            />
+        <!-- slow, strong, long-range glow attack-->
+        <attack id="1"
+            priority="1"
+            type="physical"
+            pre-delay="5"
+            aft-delay="5"
+            damage-factor="3"
+            range="64"
+            />
+    </monster>
+
 </monsters>
