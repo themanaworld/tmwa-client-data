@@ -2083,9 +2083,16 @@
         effect=""
         type="generic"
         weight="1"/>
-
-    <!-- PLACEHOLDER FOR ITEM 719 -->
-
+    <item id="719"
+        image="use-food-apple.png|R:#73E600;Y:#C1F102;G:#66CC33"
+        name="Green Apple"
+        description="A healthy green apple."
+        effect="+50 HP"
+        script="apple.lua"
+        type="usable"
+        hp="50"
+        weight="70"
+        max-per-slot="10"/>
     <item id="720"
         image="armor-chest-robe.png|W:#ffffff"
         name="Silk Robe"
