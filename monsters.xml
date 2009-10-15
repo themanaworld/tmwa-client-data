@@ -1,4 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2009 The Mana World Development Team 
+monsters.xml parameters explanation:
+This file is used to describe th monsters the players will see all around the world.
+It can be used by both client and server, but some parameters are specific.
+
+id [integer]:      It is the id of the monster. This parameter has to be unique for each monster.
+                   The system will use the monster id to refer on it in many ways.
+name [string]:     Tells the monster name. (Used to ease configuration ease on server.)
+                   but displayed to players on the client side.
+sprite [xml file]: Tells the xml file used to display the monster sprites. (Client only).
+sound <TAG>:       This tag is used by the client to know which sound to play at what event.
+  event [string]:  Tells the event at which the cotrresponding sound should be played. ('die', 'miss', 'hit', 'strike' are some examples.)
+  <INNER>[string]: The ogg file to be played
+drop <TAG>:        Tells what kind of item the monster can drop. See items.xml to get the id correspondance.
+  item [integer]:  Tells the drop item Id.
+  percent[float]:  Tells the chance (8.0 = 8%) to see the drop after monster's death.
+attributes <TAG>:  Tells all the monsters attribute. These attribute, as for items, should not be left
+                   in players hands.
+  hp [integer]:    The monster hit points.
+  size[integer]:   The monster maximal amplitude in pixels. Used to compute player's hit area.
+  speed[float]:    The monster's speed in tiles per second.
+                       (A tile is the smallest square map unit: by default, a tile is 32 pixel long.)
+  attack-min[integer]: The minimal attack strength of the monster. If your hasn't got any armor,
+                          there are the minimal hit points he will lose when hit by the monster.
+  attack-delta[integer]:  The amplitude between minimal and maximal damages the monster can do.
+  attack-magic[integer]:  The magical attacks are removing hp when hit but are computed against magical defense instead.
+  mutation[integer]:      The mutation indicates the amplitude in percent where attributes get modified with.
+                          For instance, with a mutation of 50, each attribute can be altered to become 100% to 149% of what they are.
+vulnerability<TAG>:       Tells the monster specific vulnerability to an element.
+  element[string]:        Tells to which element the weakness is. ('fire', 'earth', 'ice', 'metal' are some examples.)
+  factor[float]:          Tells the defense against an element is reduced in percent. (A value of 0.7 indcates that the defense is lowered by 30%).
+exp<TAG>:                 Tells how much experience point a monster is giving upon victory.
+-->
+
 <monsters>
 
     <monster id="0" name="Maggot" targetCursor="small">
@@ -16,7 +50,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -65,7 +99,7 @@
         <attributes
             hp="20"
             size="8"
-            speed="192"
+            speed="6.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -122,7 +156,7 @@
         <attributes
             hp="20"
             size="8"
-            speed="192"
+            speed="6.0"
             attack-min="20"
             attack-delta="10"
             attack-magic="0"
@@ -166,7 +200,7 @@
         <attributes
             hp="200"
             size="4"
-            speed="32"
+            speed="1.0"
             attack-min="2"
             attack-delta="10"
             attack-magic="0"
@@ -202,7 +236,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -225,7 +259,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -251,7 +285,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -276,7 +310,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -293,7 +327,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -320,7 +354,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -360,7 +394,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -382,7 +416,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -409,7 +443,7 @@
         <attributes
             hp="2000"
             size="8"
-            speed="0"
+            speed="0.0"
             attack-min="0"
             attack-delta="0"
             attack-magic="0"
@@ -439,7 +473,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -463,7 +497,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -488,7 +522,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -508,7 +542,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -530,7 +564,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -555,7 +589,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -575,7 +609,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -592,7 +626,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -611,7 +645,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -630,7 +664,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -653,7 +687,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -670,7 +704,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -692,7 +726,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -709,7 +743,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -726,7 +760,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -743,7 +777,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -760,7 +794,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -777,7 +811,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -795,7 +829,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -812,7 +846,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -829,7 +863,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -852,7 +886,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -869,7 +903,7 @@
         <attributes
             hp="1"
             size="4"
-            speed="0"
+            speed="0.0"
             attack-min="0"
             attack-delta="0"
             attack-magic="0"
@@ -890,7 +924,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -911,7 +945,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -941,7 +975,7 @@
         <attributes
             hp="20"
             size="8"
-            speed="192"
+            speed="6.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -975,7 +1009,7 @@
         <attributes
             hp="220"
             size="8"
-            speed="42"
+            speed="1.3"
             attack-min="40"
             attack-delta="20"
             attack-magic="0"
@@ -1011,7 +1045,7 @@
         <attributes
             hp="20"
             size="8"
-            speed="192"
+            speed="6.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -1045,7 +1079,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -1075,7 +1109,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -1107,7 +1141,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="64"
+            speed="2.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -1139,7 +1173,7 @@
         <attributes
             hp="20"
             size="8"
-            speed="192"
+            speed="6.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
@@ -1171,7 +1205,7 @@
         <attributes
             hp="20"
             size="4"
-            speed="32"
+            speed="1.0"
             attack-min="10"
             attack-delta="2"
             attack-magic="0"
