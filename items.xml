@@ -2597,6 +2597,18 @@
         max-per-slot="1">
         <sprite>equipment/head/witch-doctor-mask.xml</sprite>
     </item>
+    <item id="774"
+        image="equipment/chest/forest-armor.png"
+        name="Forest Armor"
+        description="A clean and comfortable mantle with dags made for the finest stalkers."
+        effect="+6% Defense"
+        type="equip-torso"
+        weight="30"
+        defense="6"
+        max-per-slot="1">
+        <sprite gender="male">equipment/chest/forest-armor-male.xml</sprite>
+        <sprite gender="female">equipment/chest/forest-armor-female.xml</sprite>
+    </item>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
