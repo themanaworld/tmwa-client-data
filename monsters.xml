@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright 2009 The Mana World Development Team 
 monsters.xml parameters explanation:
-This file is used to describe th monsters the players will see all around the world.
+This file is used to describe the monsters the players will see all around the world.
 It can be used by both client and server, but some parameters are specific.
 
 id [integer]:      It is the id of the monster. This parameter has to be unique for each monster.
@@ -10,9 +10,9 @@ name [string]:     Tells the monster name. (Used to ease configuration ease on s
                    but displayed to players on the client side.
 sprite [xml file]: Tells the xml file used to display the monster sprites. (Client only).
 sound <TAG>:       This tag is used by the client to know which sound to play at what event.
-  event [string]:  Tells the event at which the cotrresponding sound should be played. ('die', 'miss', 'hit', 'strike' are some examples.)
+  event [string]:  Tells the event at which the corresponding sound should be played. ('die', 'miss', 'hit', 'strike' are some examples.)
   <INNER>[string]: The ogg file to be played
-drop <TAG>:        Tells what kind of item the monster can drop. See items.xml to get the id correspondance.
+drop <TAG>:        Tells what kind of item the monster can drop. See items.xml to get the id correspondence.
   item [integer]:  Tells the drop item Id.
   percent[float]:  Tells the chance (8.0 = 8%) to see the drop after monster's death.
 attributes <TAG>:  Tells all the monsters attribute. These attribute, as for items, should not be left
@@ -29,7 +29,7 @@ attributes <TAG>:  Tells all the monsters attribute. These attribute, as for ite
                           For instance, with a mutation of 50, each attribute can be altered to become 100% to 149% of what they are.
 vulnerability<TAG>:       Tells the monster specific vulnerability to an element.
   element[string]:        Tells to which element the weakness is. ('fire', 'earth', 'ice', 'metal' are some examples.)
-  factor[float]:          Tells the defense against an element is reduced in percent. (A value of 0.7 indcates that the defense is lowered by 30%).
+  factor[float]:          Tells the defense against an element is reduced in percent. (A value of 0.7 indicates that the defense is lowered by 30%).
 exp<TAG>:                 Tells how much experience point a monster is giving upon victory.
 -->
 
@@ -1098,7 +1098,6 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
             damage-factor="1"
             range="32"
             animation="attack"
-            particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"
             />
     </monster>
 
@@ -1128,7 +1127,6 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
             damage-factor="1"
             range="32"
             animation="attack"
-            particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"
             />
     </monster>
 
@@ -1160,7 +1158,6 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
             damage-factor="1"
             range="32"
             animation="attack"
-            particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"
             />
     </monster>
 

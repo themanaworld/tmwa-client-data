@@ -349,7 +349,7 @@
         weight="300"
         max-per-slot="10"/>
     <item id="528"
-        image="equipment/feet/armor-feet-boots.png|W:#4f2d29,c89078"
+        image="equipment/feet/boots.png|W:#4f2d29,c89078"
         name="Boots"
         description="Some robust boots, ideal for travelling."
         effect="+2% Defense"
@@ -357,8 +357,8 @@
         weight="15"
         defense="2"
         max-per-slot="1">
-        <sprite gender="male">equipment/feet/feet-boots-male.xml|#623a34,f0c2b4</sprite>
-        <sprite gender="female">equipment/feet/feet-boots-female.xml|#623a34,f0c2b4</sprite>
+        <sprite gender="male">equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
+        <sprite gender="female">equipment/feet/boots-female.xml|#623a34,f0c2b4</sprite>
     </item>
     <item id="529"
         image="weapon-arrow-iron.png"
@@ -1569,7 +1569,7 @@
         <sprite>head-cap.xml|#d94800</sprite>
     </item>
     <item id="655"
-        image="equipment/feet/armor-feet-furboots.png"
+        image="equipment/feet/furboots.png"
         name="Fur Boots"
         description="A pair of warm winter boots."
         effect="+3% Defense"
@@ -1577,8 +1577,8 @@
         weight="25"
         defense="3"
         max-per-slot="1">
-        <sprite gender="male">equipment/feet/feet-furboots-male.xml</sprite>
-        <sprite gender="female">equipment/feet/feet-furboots-female.xml</sprite>
+        <sprite gender="male">equipment/feet/furboots-male.xml</sprite>
+        <sprite gender="female">equipment/feet/furboots-female.xml</sprite>
     </item>
     <item id="656"
         image="armor-head-serf.png"
@@ -2224,7 +2224,7 @@
         weight="5"
         max-per-slot="10"/>
     <item id="734"
-        image="equipment/feet/armor-feet-boots.png|W:#505050"
+        image="equipment/feet/boots.png|W:#505050"
         name="Black Boots"
         description="Steel toe capped boots, designed to keep your feet very well protected."
         effect="+4% Defense"
@@ -2232,19 +2232,19 @@
         weight="35"
         defense="4"
         max-per-slot="1">
-        <sprite gender="male">equipment/feet/feet-boots-male.xml|#505050</sprite>
-        <sprite gender="female">equipment/feet/feet-boots-female.xml|#505050</sprite>
+        <sprite gender="male">equipment/feet/boots-male.xml|#505050</sprite>
+        <sprite gender="female">equipment/feet/boots-female.xml|#505050</sprite>
     </item>
     <item id="735"
-        image="equipment/feet/armor-feet-boots.png|#A4B2B2,FFFFFF"
+        image="equipment/feet/boots.png|#A4B2B2,FFFFFF"
         name="Cotton Boots"
         description="A pair of quality cotton boots."
         effect="+1% Defense"
         type="equip-head"
         defense="1"
         weight="10">
-        <sprite gender="male">equipment/feet/feet-boots-male.xml|#A4B2B2,FFFFFF</sprite>
-        <sprite gender="female">equipment/feet/feet-boots-female.xml|#A4B2B2,FFFFFF</sprite>
+        <sprite gender="male">equipment/feet/boots-male.xml|#A4B2B2,FFFFFF</sprite>
+        <sprite gender="female">equipment/feet/boots-female.xml|#A4B2B2,FFFFFF</sprite>
     </item>
     <item id="736"
         image="use-cake-a.png|R:#EDE5B2,FFF7BF;G:#CCCCCC,FFFFFF"
@@ -2426,7 +2426,7 @@
         <sprite gender="female">hands-gloves-assassin-female.xml</sprite>
     </item>
     <item id="757"
-        image="equipment/feet/armor-feet-assassinboots.png"
+        image="equipment/feet/assassinboots.png"
         name="Assassin Boots"
         description="Boots for a master assassin."
         effect="+5% Defense, +5 Agility"
@@ -2434,8 +2434,8 @@
         weight="10"
         defense="5"
         max-per-slot="1">
-        <sprite gender="male">equipment/feet/feet-assassin-male.xml</sprite>
-        <sprite gender="female">equipment/feet/feet-assassin-female.xml</sprite>
+        <sprite gender="male">equipment/feet/assassin-boots-male.xml</sprite>
+        <sprite gender="female">equipment/feet/assassin-boots-female.xml</sprite>
     </item>
     <item id="758"
         image="weapon-staff-woodstaff.png"
@@ -2585,6 +2585,30 @@
     </item>
 
     <!-- PLACEHOLDER for Item 772: Silk Thread to be committed by Fate -->
+
+    <item id="773" 
+        image="equipment/head/witch-doctor-mask.png"
+        name="Witch Doctor's Mask"
+        description="A crazy mask from the Voodoo doctor."
+        effect="+3% Defense"
+        defense="3"
+        type="equip-head"
+        weight="20"
+        max-per-slot="1">
+        <sprite>equipment/head/witch-doctor-mask.xml</sprite>
+    </item>
+    <item id="774"
+        image="equipment/chest/forest-armor.png"
+        name="Forest Armor"
+        description="A clean and comfortable mantle with dags made for the finest stalkers."
+        effect="+6% Defense"
+        type="equip-torso"
+        weight="30"
+        defense="6"
+        max-per-slot="1">
+        <sprite gender="male">equipment/chest/forest-armor-male.xml</sprite>
+        <sprite gender="female">equipment/chest/forest-armor-female.xml</sprite>
+    </item>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
@@ -3955,114 +3979,114 @@
     </item>
 
     <item id="2150"
-        image="equipment/feet/armor-feet-boots.png|W:#580000,A40000,C02020,ff6060"
+        image="equipment/feet/boots.png|W:#580000,A40000,C02020,ff6060"
         name="Red Cotton Boots"
         description="A pair of quality cotton boots."
         effect="+1% Defense"
         type="equip-feet"
         defense="1"
         weight="10">
-        <sprite gender="male">equipment/feet/feet-boots-male.xml|#580000,A40000,C02020,ff6060</sprite>
-        <sprite gender="female">equipment/feet/feet-boots-female.xml|#580000,A40000,C02020,ff6060</sprite>
+        <sprite gender="male">equipment/feet/boots-male.xml|#580000,A40000,C02020,ff6060</sprite>
+        <sprite gender="female">equipment/feet/boots-female.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
     <item id="2151"
-        image="equipment/feet/armor-feet-boots.png|W:#115511,22aa22,99dd99"
+        image="equipment/feet/boots.png|W:#115511,22aa22,99dd99"
         name="Green Cotton Boots"
         description="A pair of quality cotton boots."
         effect="+1% Defense"
         type="equip-feet"
         defense="1"
         weight="10">
-        <sprite gender="male">equipment/feet/feet-boots-male.xml|#115511,22aa22,99dd99</sprite>
-        <sprite gender="female">equipment/feet/feet-boots-female.xml|#115511,22aa22,99dd99</sprite>
+        <sprite gender="male">equipment/feet/boots-male.xml|#115511,22aa22,99dd99</sprite>
+        <sprite gender="female">equipment/feet/boots-female.xml|#115511,22aa22,99dd99</sprite>
     </item>
     <item id="2152"
-        image="equipment/feet/armor-feet-boots.png|W:#222255,6666ff"
+        image="equipment/feet/boots.png|W:#222255,6666ff"
         name="Dark Blue Cotton Boots"
         description="A pair of quality cotton boots."
         effect="+1% Defense"
         type="equip-feet"
         defense="1"
         weight="10">
-        <sprite gender="male">equipment/feet/feet-boots-male.xml|#222255,6666ff</sprite>
-        <sprite gender="female">equipment/feet/feet-boots-female.xml|#222255,6666ff</sprite>
+        <sprite gender="male">equipment/feet/boots-male.xml|#222255,6666ff</sprite>
+        <sprite gender="female">equipment/feet/boots-female.xml|#222255,6666ff</sprite>
     </item>
     <item id="2153"
-        image="equipment/feet/armor-feet-boots.png|W:#846211,dab333,fffb93,ffffff"
+        image="equipment/feet/boots.png|W:#846211,dab333,fffb93,ffffff"
         name="Yellow Cotton Boots"
         description="A pair of quality cotton boots."
         effect="+1% Defense"
         type="equip-feet"
         defense="1"
         weight="10">
-        <sprite gender="male">equipment/feet/feet-boots-male.xml|#846211,dab333,fffb93,ffffff</sprite>
-        <sprite gender="female">equipment/feet/feet-boots-female.xml|#846211,dab333,fffb93,ffffff</sprite>
+        <sprite gender="male">equipment/feet/boots-male.xml|#846211,dab333,fffb93,ffffff</sprite>
+        <sprite gender="female">equipment/feet/boots-female.xml|#846211,dab333,fffb93,ffffff</sprite>
     </item>
     <item id="2154"
-        image="equipment/feet/armor-feet-boots.png|W:#16486e,498ec5,e4f2fc"
+        image="equipment/feet/boots.png|W:#16486e,498ec5,e4f2fc"
         name="Light Blue Cotton Boots"
         description="A pair of quality cotton boots."
         effect="+1% Defense"
         type="equip-feet"
         defense="1"
         weight="10">
-        <sprite gender="male">equipment/feet/feet-boots-male.xml|#16486e,498ec5,e4f2fc</sprite>
-        <sprite gender="female">equipment/feet/feet-boots-female.xml|#16486e,498ec5,e4f2fc</sprite>
+        <sprite gender="male">equipment/feet/boots-male.xml|#16486e,498ec5,e4f2fc</sprite>
+        <sprite gender="female">equipment/feet/boots-female.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
     <item id="2155"
-        image="equipment/feet/armor-feet-boots.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+        image="equipment/feet/boots.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink Cotton Boots"
         description="A pair of quality cotton boots."
         effect="+1% Defense"
         type="equip-feet"
         defense="1"
         weight="10">
-        <sprite gender="male">equipment/feet/feet-boots-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
-        <sprite gender="female">equipment/feet/feet-boots-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+        <sprite gender="male">equipment/feet/boots-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+        <sprite gender="female">equipment/feet/boots-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2156"
-        image="equipment/feet/armor-feet-boots.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+        image="equipment/feet/boots.png|W:#111111,222222,333333,444444,555555,aaaaaa"
         name="Black Cotton Boots"
         description="A pair of quality cotton boots."
         effect="+1% Defense"
         type="equip-feet"
         defense="1"
         weight="10">
-        <sprite gender="male">equipment/feet/feet-boots-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
-        <sprite gender="female">equipment/feet/feet-boots-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="male">equipment/feet/boots-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="female">equipment/feet/boots-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
     <item id="2157"
-        image="equipment/feet/armor-feet-boots.png|W:#80280f,b04810,ef681f,ffb830"
+        image="equipment/feet/boots.png|W:#80280f,b04810,ef681f,ffb830"
         name="Orange Cotton Boots"
         description="A pair of quality cotton boots."
         effect="+1% Defense"
         type="equip-feet"
         defense="1"
         weight="10">
-        <sprite gender="male">equipment/feet/feet-boots-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
-        <sprite gender="female">equipment/feet/feet-boots-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
+        <sprite gender="male">equipment/feet/boots-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
+        <sprite gender="female">equipment/feet/boots-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
     <item id="2158"
-        image="equipment/feet/armor-feet-boots.png|W:#4f0a76,8010c0,d699f7"
+        image="equipment/feet/boots.png|W:#4f0a76,8010c0,d699f7"
         name="Purple Cotton Boots"
         description="A pair of quality cotton boots."
         effect="+1% Defense"
         type="equip-feet"
         defense="1"
         weight="10">
-        <sprite gender="male">equipment/feet/feet-boots-male.xml|#4f0a76,8010c0,d699f7</sprite>
-        <sprite gender="female">equipment/feet/feet-boots-female.xml|#4f0a76,8010c0,d699f7</sprite>
+        <sprite gender="male">equipment/feet/boots-male.xml|#4f0a76,8010c0,d699f7</sprite>
+        <sprite gender="female">equipment/feet/boots-female.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2159"
-        image="equipment/feet/armor-feet-boots.png|W:#104010,208020,30c030"
+        image="equipment/feet/boots.png|W:#104010,208020,30c030"
         name="Dark Green Cotton Boots"
         description="A pair of quality cotton boots."
         effect="+1% Defense"
         type="equip-feet"
         defense="1"
         weight="10">
-        <sprite gender="male">equipment/feet/feet-boots-male.xml|#104010,208020,30c030</sprite>
-        <sprite gender="female">equipment/feet/feet-boots-female.xml|#104010,208020,30c030</sprite>
+        <sprite gender="male">equipment/feet/boots-male.xml|#104010,208020,30c030</sprite>
+        <sprite gender="female">equipment/feet/boots-female.xml|#104010,208020,30c030</sprite>
     </item>
 
     <item id="2160"
