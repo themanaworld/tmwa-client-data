@@ -2678,6 +2678,17 @@
         <sprite gender="male">equipment/chest/forest-armor-male.xml</sprite>
         <sprite gender="female">equipment/chest/forest-armor-female.xml</sprite>
     </item>
+    <item id="783"
+	image="equipment/chest/valentine-dress.png|R:#f00000"
+	name="Fancy Dress"
+	description="A silken dress with soft lace trim.  If you damage it, you'll never get it to look good again."
+	effect="Defense: +15"
+	type="equip-torso"
+	weight="25"
+        defense="15"
+        max-per-slot="1">
+	<sprite gender="female">equipment/chest/valentine-dress.xml|#f00000</sprite>
+    </item>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
