@@ -104,9 +104,9 @@
      function npc_handler(npc, ch)
        local v = do_choice(npc, ch, "Buy", "Sell")
        if v == 1 then
-         tmw.npc_trade(npc, ch, false, { {525, 0, 800}, {531, 0, 3000}, {530, 0, 8000}, {1199, 0, 3} })
+         mana.npc_trade(npc, ch, false, { {525, 0, 800}, {531, 0, 3000}, {530, 0, 8000}, {1199, 0, 3} })
        elseif v == 2 then
-         tmw.npc_trade(npc, ch, true, { {525, 0, 400}, {531, 0, 1500}, {530, 0, 4000}, {1199, 0, 1} })
+         mana.npc_trade(npc, ch, true, { {525, 0, 400}, {531, 0, 1500}, {530, 0, 4000}, {1199, 0, 1} })
        end
        do_npc_close(npc, ch)
      end
