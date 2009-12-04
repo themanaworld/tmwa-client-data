@@ -153,6 +153,7 @@
         description="Tasty candy cane."
         effect="+5 HP"
         type="usable"
+        hp="5"
         weight="1"
         max-per-slot="10"/>
     <item id="507"
@@ -207,6 +208,7 @@
         description="A tasty ginger bread man."
         effect="+25 HP"
         type="usable"
+        hp="25"
         weight="1"/>
     <item id="513"
         image="use-food-cake.png"
@@ -214,6 +216,7 @@
         description="A slice of cake."
         effect="+15 HP"
         type="usable"
+        hp="15"
         weight="1"/>
     <item id="514"
         image="use-food-xmascandycane.png"
@@ -221,6 +224,7 @@
         description="A special xmas candy cane."
         effect="+10 HP"
         type="usable"
+        hp="10"
         weight="1"/>
     <item id="515"
         image="generic-purplepresentbox.png"
@@ -256,6 +260,7 @@
         description="A nice cherry cake."
         effect="+35 HP"
         type="usable"
+        hp="35"
         weight="1"/>
     <item id="520"
         image="use-food-easteregg.png"
@@ -263,6 +268,7 @@
         description="A surprise."
         effect="+100 HP"
         type="usable"
+        hp="100"
         weight="1"/>
     <item id="521"
         image="weapon-dagger-dagger.png"
@@ -421,7 +427,7 @@
         description="A very soft orange cupcake."
         effect="+100 HP"
         type="usable"
-        hp="150"
+        hp="100"
         weight="5"
         max-per-slot="10"/>
     <item id="535"
@@ -682,7 +688,8 @@
         name="Chicken Leg"
         description="A well cooked chicken leg."
         effect="+500 HP"
-        type="generic"
+        type="usable"
+        hp="500"
         weight="10"
         max-per-slot="10"/>
     <item id="563"
@@ -713,16 +720,18 @@
         image="generic-petal.png"
         name="Petal"
         description="A petal from an evil flower."
-        effect=""
-        type="generic"
+        effect="+50 HP"
+        type="usable"
+        hp="50"
         weight="10"
         max-per-slot="10"/>
     <item id="566"
         image="generic-smallmushroom.png"
         name="Small Mushroom"
         description="A mushroom."
-        effect=""
-        type="generic"
+        effect="+50 HP"
+        type="usable"
+        hp="50"
         weight="10"
         max-per-slot="10"/>
     <item id="567"
@@ -1790,7 +1799,8 @@
         name="Steak"
         description="A tasty piece of steak."
         effect="+250 HP"
-        type="generic"
+        type="usable"
+        hp="250"
         weight="10"
         max-per-slot="10"/>
     <item id="677"
@@ -2083,28 +2093,32 @@
         name="Snake Egg"
         description="An edible snake egg."
         effect="+30 HP"
-        type="generic"
+        type="usable"
+        hp="30"
         weight="4"/>
     <item id="715"
         image="use-food-snake-egg.png|W:#806020;R:#604010;G:#705018"
         name="Mountain Snake Egg"
         description="An edible mountain snake egg."
         effect="+40 HP"
-        type="generic"
+        type="usable"
+        hp="40"
         weight="4"/>
     <item id="716"
         image="use-food-snake-egg.png|W:#e0e0c0;R:#80f0a0;G:#b0e8b0"
         name="Grass Snake Egg"
         description="An edible grass snake egg."
         effect="+50 HP"
-        type="generic"
+        type="usable"
+        hp="50"
         weight="4"/>
     <item id="717"
         image="use-food-snake-egg.png|W:#c0c0c0;R:#c090c0;G:#c0a8c0"
         name="Cave Snake Egg"
         description="An edible cave snake egg."
         effect="+20 HP"
-        type="generic"
+        type="usable"
+        hp="20"
         weight="4"/>
     <item id="718"
         image="generic-cocoon-silk.png"
@@ -2381,7 +2395,7 @@
         description="A very soft orange cupcake, laced with Mopox cure potion."
         effect="+100 HP"
         type="usable"
-        hp="150"
+        hp="100"
         weight="5"
         max-per-slot="10"/>
     <item id="749"
@@ -2396,6 +2410,7 @@
         description="A yellow potion with a fresh, citric scent."
         effect="Suspends poison"
         type="usable"
+        hp="5"
         weight="10"/>
     <item id="751"
         image="armor-head-pinkiehat.png"
@@ -3030,6 +3045,7 @@
         description="A caramel coated apple, complete with stick. Rots teeth, tastes good."
         type="usable"
         effect="+1000 HP"
+        hp="1000"
         weight="5"
         max-per-slot="200"/>
 
@@ -3039,6 +3055,7 @@
         description="A lollipop. Mmm."
         type="usable"
         effect="+800 HP"
+        hp="800"
         weight="1"
         max-per-slot="200"/>
 
@@ -3048,6 +3065,7 @@
         description="A lollipop. Tasty."
         type="usable"
         effect="+800 HP"
+        hp="800"
         weight="1"
         max-per-slot="200"/>
 
@@ -3057,6 +3075,7 @@
         description="A lollipop. Yum."
         type="usable"
         effect="+800 HP"
+        hp="800"
         weight="1"
         max-per-slot="200"/>
 
