@@ -1314,10 +1314,10 @@
         image="armor-chest-chainmail.png"
         name="Chainmail Shirt"
         description="A shirt made of chains. It weighs a lot but offers excellent protection."
-        effect="+12% Defense"
+        effect="+20% Defense"
         type="equip-torso"
         weight="250"
-        defense="12"
+        defense="20"
         max-per-slot="1">
         <sprite gender="male">chest-chainmail-male.xml</sprite>
         <sprite gender="female">chest-chainmail-female.xml</sprite>
@@ -1326,10 +1326,10 @@
         image="armor-chest-lightplatemail.png|W:#ddeeff"
         name="Light Platemail"
         description="A light cuirass with shoulder pads made of iron, usually worn by foot soldiers."
-        effect="+14% Defense"
+        effect="+25% Defense"
         type="equip-torso"
         weight="240"
-        defense="14"
+        defense="25"
         max-per-slot="1">
         <sprite gender="male">chest-lightplatemail-male.xml|W:#ddeeff</sprite>
         <sprite gender="female">chest-lightplatemail-female.xml|W:#ddeeff</sprite>
@@ -2402,7 +2402,7 @@
         image="generic-towel.png"
         name="Towel"
         description="You can dry yourself off with it if it still seems to be clean enough. - Douglas Adams"
-        type="generic"
+        type="equip-charm"
         weight="20"/>
     <item id="750"
         image="use-potion-c.png|G:#f0f040,ffffff"
