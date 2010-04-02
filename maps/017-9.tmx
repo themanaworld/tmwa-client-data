@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="53" height="51" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="name" value="Backstage"/>
+ </properties>
+ <tileset firstgid="1" name="Woodland Indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png"/>
+ </tileset>
+ <tileset firstgid="257" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <layer name="Base" width="53" height="51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3PsQ3AIAxFQRiBEcgG7L9cessSSooYKVecXLj5b7XWFgAAAPAbPfHkf6KR6OFG1Zt3ZmKEG1Vv3rkSM9yoevObpp3qzZo0nUqTJk0AAAAA37kB88KGxjwqAAA=
+  </data>
+ </layer>
+ <layer name="Layer 2" width="53" height="51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3PMQ2AQAwFUDQiAQkYAQfgAByAFpRwA1OnS2Cg8F7y0/R3atMAAAAAf9TevL9RF/b4Q7xn0Ic9/hDvGX3hB+BZQ8lY0WVwXHMqmSu6TJaStaLLZCvZKzoAAACA7E5VBX3yPCoAAA==
+  </data>
+ </layer>
+ <layer name="Fringe" width="53" height="51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAPBi1Fsu+TwqAAA=
+  </data>
+ </layer>
+ <layer name="Over" width="53" height="51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3SUQqAIBAFQI/RNTqQ979GBAWLJIUf4sYMPMTFj7dgKQAAAMCbeiXe4/zONrnXqNi5N++9WVltzjjPuM/pqXv7F7Pt9MUfdwJgTftAAAAAALI7AOyzl/Y8KgAA
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="53" height="51">
+  <object name="toLeftDoor" type="warp" x="704" y="672" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="017-2"/>
+    <property name="dest_x" value="720"/>
+    <property name="dest_y" value="688"/>
+   </properties>
+  </object>
+  <object name="toWoodlandHills" type="warp" x="832" y="704" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="017-1"/>
+    <property name="dest_x" value="1392"/>
+    <property name="dest_y" value="1072"/>
+   </properties>
+  </object>
+  <object name="toRightDoor" type="warp" x="960" y="672" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="017-2"/>
+    <property name="dest_x" value="976"/>
+    <property name="dest_y" value="688"/>
+   </properties>
+  </object>
+  <object name="toLeftTrapdoor" type="warp" x="672" y="896" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="017-2"/>
+    <property name="dest_x" value="784"/>
+    <property name="dest_y" value="816"/>
+   </properties>
+  </object>
+  <object name="toCentreTrapdoor" type="warp" x="832" y="896" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="017-2"/>
+    <property name="dest_x" value="848"/>
+    <property name="dest_y" value="688"/>
+   </properties>
+  </object>
+  <object name="toRightTrapdoor" type="warp" x="992" y="896" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="017-2"/>
+    <property name="dest_x" value="912"/>
+    <property name="dest_y" value="816"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Collision" width="53" height="51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3PoQ7AIBBEwSv//9GkrgIEILoks8kYzvDaU9UAAAAAiPTu5J5ktG/D7J5sZ3//WZOmVJo0JTStvgEAAADcqgNqeGo1PCoAAA==
+  </data>
+ </layer>
+</map>

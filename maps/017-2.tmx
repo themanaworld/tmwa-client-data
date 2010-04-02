@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="53" height="51" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="name" value="Theater"/>
+ </properties>
+ <tileset firstgid="1" name="Woodland Indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png"/>
+ </tileset>
+ <tileset firstgid="257" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <layer name="Base" width="53" height="51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TsRHCMBBFQVECJdgdmBowFRgqsOm/BNQA3EgEp4ENNrrk/eCWUsoCAAAA/I1Th+zmyLlDdnNk6pDdHJk7ZDfbZNOofnHTtVob3AZojmzVvcFjgObIXh0NngM0R979zOXDLbsZAAAA4Fsvp+XtTjwqAAA=
+  </data>
+ </layer>
+ <layer name="Stage" width="53" height="51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3PwQ2CQBRF0elGOqAEhVAIBYEViHX6SVjDBIwO5Jzkrv4s5qUEAAAAbLkdvJeozrhXv/jIF3TRI7pHzUrzvV3el66PhmjM6Lm8L51NNv3LVTe9oimjdzrHpmpHAAAAAMA+H/gLlxY8KgAA
+  </data>
+ </layer>
+ <layer name="Props" width="53" height="51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3PTQrCQAwG0Kz8wSN4gd6sp/MmegPddF1voGCEWRTBgji0VN+Dj5DMLJIIAAAA4F+tS91mdplN6VfzrFPdfu4FvnB4M+8+/M802pG3Y+aUaSbapZbXm9rB7Jy5xDJveu7cldoM+j5zjeXdNOaWucdv3QQAAAAA1PEArkwoTTwqAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="53" height="51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAPBi1Fsu+TwqAAA=
+  </data>
+ </layer>
+ <layer name="Over" width="53" height="51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3SwQmAMAwF0I7hCF4dqPuvIYJCKFbFgzTyHoSStId8aCkAAADAnbpX7OP8qOnjvd6KO/fmvTcjq80Z5xnzbM52b/9itkxP/DETAGNaOjVf3AEAAABktwLotlyxPCoAAA==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="53" height="51">
+  <object name="toBackStage02" type="warp" x="960" y="640" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="017-9"/>
+    <property name="dest_x" value="976"/>
+    <property name="dest_y" value="752"/>
+   </properties>
+  </object>
+  <object name="toWoodlandHills" type="warp" x="832" y="960" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="017-1"/>
+    <property name="dest_x" value="1392"/>
+    <property name="dest_y" value="1072"/>
+   </properties>
+  </object>
+  <object name="toBackStage01" type="warp" x="704" y="640" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="017-9"/>
+    <property name="dest_x" value="720"/>
+    <property name="dest_y" value="752"/>
+   </properties>
+  </object>
+  <object name="toStage01" type="warp" x="672" y="-127" width="29" height="28">
+   <properties>
+    <property name="dest_map" value="013-2"/>
+    <property name="dest_x" value="784"/>
+    <property name="dest_y" value="1872"/>
+   </properties>
+  </object>
+  <object name="toStage01" type="warp" x="832" y="-127" width="29" height="28">
+   <properties>
+    <property name="dest_map" value="013-2"/>
+    <property name="dest_x" value="848"/>
+    <property name="dest_y" value="1744"/>
+   </properties>
+  </object>
+  <object name="toStage02" type="warp" x="704" y="-433" width="29" height="28">
+   <properties>
+    <property name="dest_map" value="013-2"/>
+    <property name="dest_x" value="720"/>
+    <property name="dest_y" value="1744"/>
+   </properties>
+  </object>
+  <object name="toStage01" type="warp" x="961" y="-432" width="29" height="28">
+   <properties>
+    <property name="dest_map" value="013-2"/>
+    <property name="dest_x" value="976"/>
+    <property name="dest_y" value="1744"/>
+   </properties>
+  </object>
+  <object name="toStage01" type="warp" x="992" y="-127" width="29" height="28">
+   <properties>
+    <property name="dest_map" value="013-2"/>
+    <property name="dest_x" value="912"/>
+    <property name="dest_y" value="1872"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Collision" width="53" height="51" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3RQQoAIAgAwer/j45+YESYMcKc8uDS6K0NAAAAgA+sOXl/UWSyb9z9n2hThTZNmrKbbu1nNe1O9s2aNAEAAABUNQFe9y7rPCoAAA==
+  </data>
+ </layer>
+</map>
