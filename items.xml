@@ -1717,8 +1717,8 @@
     <item id="666"
         image="generic-rose.png|W:#111111,444444,555555,ffffff"
         name="Black Rose"
-        description="A black rose. A symbol for unrequited love which turned into hate."
-        effect=""
+        description="A black rose. When you look closely at it, you see patterns within patterns, subtly changing colors, and further arrangements that almost seem designed to draw your attention in, and away from the rest of the world. Dizzy, you quickly look away."
+        effect="This item cannot be used directly, but may have certain effects given the right circumstances."
         type="generic"
         weight="1"
         max-per-slot="1" />
@@ -3157,6 +3157,123 @@
         weight="10">
         <sprite>head-snowgoggles.xml</sprite>
     </item>
+    <!-- RESERVED -->
+    <item id="1244"
+        image="generic-iten.png"
+        name="Dark Talisman"
+        description="A small cube. It radiates unimaginable power, and is quite dizzying to look at."
+        effect="Unimaginable powers to a successful wielder."
+        type="equip-chest"
+        >
+        <sprite>equipment/override/skeleton.xml</sprite>
+        <particlefx>graphics/particles/wisp.particle.xml</particlefx>
+    </item>
+    <item id="1245"
+        image="generic/bent-needle.png"
+        name="Bent Needle"
+        description="A twisted needle. It would be difficult to find one in a haystack, for example."
+        effect="This item has no use."
+        type="generic"
+        weight="1"/>
+    <item id="1246"
+        image="generic/dark-easter-egg.png"
+        name="Dark easter egg"
+        description="A smooth chocolate easter egg."
+        effect="This item has no use."
+        type="generic"
+        weight="10"/>
+    <item id="1247"
+        image="equipment/head/heart-glasses.png"
+        name="Heart Glasses"
+        description="Heart Glasses from another universe. Decisions were different there."
+        effect="+8% Defense"
+        type="equip-head"
+        defense="8"
+        weight="10">
+        <sprite>equipment/head/heart-glasses.xml</sprite>
+    </item>
+    <item id="1248"
+        image="use-blueberries.png"
+        name="Blueberries"
+        description="Blueberries from another world. Unusually refreshing, from a world of death."
+        effect="+800 HP"
+        type="usable"
+        hp="800"
+        weight="120"/>
+    <item id="1249"
+        image="generic/strange-coin.png"
+        name="Strange coin"
+        description="A strange coin. The markings on it are unlike anything you have ever seen before."
+        effect="This item has no use."
+        type="generic"
+        weight="180"/>
+    <item id="1250"
+        image="use-food-pear.png"
+        name="Pear"
+        description="A pear. Taken from a tree of many fruits from a distant world."
+        effect="+200 HP"
+        type="usable"
+        hp="200"
+        weight="48"/>
+    <item id="1251"
+        image="use-food-yellow-plum.png"
+        name="Yellow plum"
+        description="A plum. Taken from a tree of many fruits from a distant world."
+        effect="+300 HP"
+        type="usable"
+        hp="300"
+        weight="48"/>
+    <item id="1252"
+        image="use-food-cherry.png"
+        name="Cherry"
+        description="A cherry. Taken from a tree of many fruits from a distant world."
+        effect="+250 HP"
+        type="usable"
+        hp="250"
+        weight="48"/>
+    <item id="1253"
+        image="use-food-apple.png|R:#B3AB77;Y:#FFC030;G:#66CC33"
+        name="Golden delicious apple"
+        description="A golden apple. Taken from a tree of many fruits from a distant world."
+        effect="+200 HP"
+        type="usable"
+        hp="200"
+        weight="48"/>
+    <item id="1254"
+        image="generic/dark-petal.png"
+        name="Dark Petal"
+        description="A single, dark, petal, oddly heavy. The edges of the petal are unusually hard, and have a slightly reflective shine to them. But looking into the gleam, you can only see fire..."
+        effect="A ticket between worlds. If you should find yourself transported by one, be sure not to lose it, lest you become trapped indefinitely. This item cannot be used directly."
+        type="generic"
+        weight="500"
+    />
+    <item id="1255"
+        image="equipment/head/rabbit-ears.png|W:#FFFFFF"
+        name="White rabbit ears"
+        description="A headband with rabbit ears, pure white."
+        effect="+5% Defense"
+        defense="5"
+        type="equip-head"
+        weight="5">
+        <sprite>equipment/head/rabbit-ears.xml|W:#FFFFFF</sprite>
+    </item>
+    <item id="1256"
+        image="equipment/head/eggshell-hat.png"
+        name="Eggshell hat"
+        description="A novelty hat shaped like an eggshell half."
+        effect="+12% Defence, -1 Agility"
+        defense="12"
+        type="equip-head"
+        weight="482">
+        <sprite>equipment/head/eggshell.xml</sprite>
+    </item>
+    <item id="1257"
+        image="generic/flawed-lens.png"
+        name="Flawed lens"
+        description="A failed attempt at making a lens with powerful properties. Perhaps, one day, you will be able to salvage the remains from this effort."
+        effect="This item has no use."
+        type="generic"
+        weight="112"/>
 
     <!-- The 2XXY IDs are used for recolored items on eAthena.
         XX = item
@@ -4563,5 +4680,116 @@
         max-per-slot="1">
         <sprite gender="male">leg-miniskirt-male.xml|#104010,208020,30c030</sprite>
         <sprite gender="female">leg-miniskirt-female.xml|#104010,208020,30c030</sprite>
+    </item>
+    <!-- IDs 2180 to 2189 RESERVED -->
+    <item id="2190"
+        image="equipment/head/rabbit-ears.png|W:#580000,a40000,c02020,ff6060"
+        name="Red rabbit ears"
+        description="A headband with rabbit ears, bright red."
+        effect="+5% Defense"
+        defense="5"
+        type="equip-head"
+        weight="5"
+        max-per-slot="1">
+        <sprite>equipment/head/rabbit-ears.xml|#580000,a40000,c02020,ff6060</sprite>
+    </item>
+    <item id="2191"
+        image="equipment/head/rabbit-ears.png|W:#115511,22aa22,99dd99"
+        name="Green rabbit ears"
+        description="A headband with rabbit ears, a warm green."
+        effect="+5% Defense"
+        defense="5"
+        type="equip-head"
+        weight="5"
+        max-per-slot="1">
+        <sprite>equipment/head/rabbit-ears.xml|#115511,22aa22,99dd99</sprite>
+    </item>
+    <item id="2192"
+        image="equipment/head/rabbit-ears.png|W:#222255,6666ff"
+        name="Dark blue rabbit ears"
+        description="A headband with rabbit ears, iridescent dark blue."
+        effect="+5% Defense"
+        defense="5"
+        type="equip-head"
+        weight="5"
+        max-per-slot="1">
+        <sprite>equipment/head/rabbit-ears.xml|#222255,6666ff</sprite>
+    </item>
+    <item id="2193"
+        image="equipment/head/rabbit-ears.png|W:#846211,dab333,fffb93,ffffff"
+        name="Yellow rabbit ears"
+        description="A headband with rabbit ears, a soft yellow."
+        effect="+5% Defense"
+        defense="5"
+        type="equip-head"
+        weight="5"
+        max-per-slot="1">
+        <sprite>equipment/head/rabbit-ears.xml|#846211,dab333,fffb93,ffffff</sprite>
+    </item>
+    <item id="2194"
+        image="equipment/head/rabbit-ears.png|W:#16486e,498ec5,e4f2fc"
+        name="Light blue rabbit ears"
+        description="A headband with rabbit ears, a light blue."
+        effect="+5% Defense"
+        defense="5"
+        type="equip-head"
+        weight="5"
+        max-per-slot="1">
+        <sprite>equipment/head/rabbit-ears.xml|#16486e,498ec5,e4f2fc</sprite>
+    </item>
+    <item id="2195"
+        image="equipment/head/rabbit-ears.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+        name="Pink rabbit ears"
+        description="A headband with rabbit ears, bright pink."
+        effect="+5% Defense"
+        defense="5"
+        type="equip-head"
+        weight="5"
+        max-per-slot="1">
+        <sprite>equipment/head/rabbit-ears.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+    </item>
+    <item id="2196"
+        image="equipment/head/rabbit-ears.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+        name="Black rabbit ears"
+        description="A headband with rabbit ears, a deep black."
+        effect="+5% Defense"
+        defense="5"
+        type="equip-head"
+        weight="5"
+        max-per-slot="1">
+        <sprite>equipment/head/rabbit-ears.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+    </item>
+    <item id="2197"
+        image="equipment/head/rabbit-ears.png|W:#80280f,b04810,ef681f,ffb830"
+        name="Orange rabbit ears"
+        description="A headband with rabbit ears, bright orange."
+        effect="+5% Defense"
+        defense="5"
+        type="equip-head"
+        weight="5"
+        max-per-slot="1">
+        <sprite>equipment/head/rabbit-ears.xml|#80280f,b04810,ef681f,ffb830</sprite>
+    </item>
+    <item id="2198"
+        image="equipment/head/rabbit-ears.png|W:#4f0a76,8010c0,d699f7"
+        name="Purple rabbit ears"
+        description="A headband with rabbit ears, a strong purple."
+        effect="+5% Defense"
+        defense="5"
+        type="equip-head"
+        weight="5"
+        max-per-slot="1">
+        <sprite>equipment/head/rabbit-ears.xml|#4f0a76,8010c0,d699f7</sprite>
+    </item>
+    <item id="2199"
+        image="equipment/head/rabbit-ears.png|W:#104010,208020,30c030"
+        name="Dark green rabbit ears"
+        description="A headband with rabbit ears, pure white."
+        effect="+5% Defense"
+        defense="5"
+        type="equip-head"
+        weight="5"
+        max-per-slot="1">
+        <sprite>equipment/head/rabbit-ears.xml|#104010,208020,30c030</sprite>
     </item>
 </items>

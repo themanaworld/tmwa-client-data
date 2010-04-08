@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png"/>
+ </tileset>
+ <tileset firstgid="129" name="cave_bilevel" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave_bilevel.png"/>
+ </tileset>
+ <tileset firstgid="385" name="cave_x2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave_x2.png"/>
+ </tileset>
+ <tileset firstgid="417" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset firstgid="419" name="mushrooms" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/mushrooms.png"/>
+ </tileset>
+ <layer name="Ground" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2buXLVMBRAVSR8QEj4AJZAWiABWkICfAEww9YBA4R0DDNMSMFasBQwwAxbwb4X7HvBDh/F1eDLu7nIjpQn2ZJ8i9Pk+T07OtZdLHlAKTXQEhYAE8CBgkmgP4LraiviIy7ER1yIj7gQH3EhPuJCfMSF+IgL8REX4iMuxEdciI+4EB9xIT7iQnw0y3xgCWFQfARnKbCMjTuyCBgmjIiP4KwCVrNxR1YAY4TxFvvgsULTF+A864ENbNyRUWA7sIOwv2U+MH7wWKFZGMCJztG9BXzs+fhz2uAD4wePFZrlhRPta8ijD/RQNfZt9YHxQ8eKXsbawon2tcajD5oTxMf/48M9cCfa10bxEYUPZLFyy/G0Puhj57P1sRU4QpgWH/9YqexzvHZB6wOag1x8TBquQ3z8ZZ2ameNN/Rzt62h9QHOQq4+eCMYoRh88xw9XoF2Msu9gDnL1YZoPpl4pdN8Uqw8cX1M/R/s60/f6i/NNAdsM41+VL6gD3ittAjYDW1QnPqbsZt4cnMyFfnK+KTLu6IbnCx2rTP0q75V2AbuBPaoTH/FY3/1TTk7QB5+TGL9M+cLUr5bNP81eNXP++u6fcnKCNfMQOyf1wfNFVb+qOTTLOX33T3Uyl1ziAtbMeK/qWETXOEw+XK7pYMVnKdbJoX1gzYz3qo5FdI2D+sC8MWjxu4ctjknRh6bOPKJjEV3joD4wb4x4PmdqhJ4jdGzwWS8+56U+MG+Mi49affD1P8z5NnFKfHQHr2WpD90LTqtOzvcVp1J/3hLSB977CK2t9gE7VSfn+4pT4qMcvPcR0/6RUHMxVUL6wHsf4ftHcI74OFeq+cLWB7/ffNXF+BwLn2H5cJLL3CjzUfb/+exVqJdu41Yuc8PXXKJcAW4Dly2PnSh86O9cBa45eMhpXvjycR24UYznA+Ah8AK4B9wv/m6CHos8Ah47+GjrvKjy8QR4WoznW+Ad8BV4Dbxh402hxyLvgQ8OPlz3XOSGycdH4FMxnr+A38WxP4CfbLwp9FjkPHDBwYfLnoscMfm4CFzy9Ps3gVvKPo/wPRcprgvG7OMZ8Fy555EQ+ypTILSPz8AX5Z5H0Emq64KuVK0VnQXOASeAk57O55pH2lZz2awV+Zwn4qMam7UiHz6OAseA08AZ8WFE70uzWSvy4aObedEGH7hPuipOYX9+B7jboI+cnp2U7Y/FfdJVcQr785fAqwZ95DIv+LsCFL5P2gT259+A7+R3MRfY1l36+FOqvXmD7pM1vUs4ZuFCw+tdnpNt6uFuXeQQq+g+WZtxt/VSVhvh58cNdFNP5eBCM9s+2VRIPU4hdey7Eh/iI2Xqei8nJLgmlcOz9hzmCK5J5fCsPQcfuCaVw7P2HHxQUs8lufnQuSTldfTcfOhckvrehhxqLETnktT3NoScI004T3Vvg8v7k66Y3sOpc56kuLfB9/uTlLI6p+7YmFK95fv9ybK50aSXlHyEiiE2Y1BX/ErBR515o+l5kkI/0kTeaMoJ9iMx171N5o26nWA/EnPdGyJ2d7tmGjKf6No35rrX9//uc/16tnnSY3kcJ+a8XuXDNLb087qvzVftnKoP0/F1+uiGKi8x+xAEQRAEQRAEQRAEQRAEQRAEQRAEQRCEFPkDpkmA1UCcAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3aTU7DMBAGUIcNhyg/B2XFAlizAA4Ad4A7cClSNYgKqa2IcTx23pMidVGlseezp5aSEgAAAAAAAAAA1PM6pPQ27D7fDnWfhZTexxp8THV4VI/qPtUAALpxcVb7Cdi3f/a4OlGby4C16+3slHP2KDUXf7lvT2en88y8f89F7n0O3feY3tbF1maax9yxbSrsYz2ti9+2Y5vTGyL2k9Zdn5jTHveFlvW8L/TMOaYee1gsS/wfVfP/ldt39C2gVfpJLPoJADn09Vj0dYC26KOx6KNAy/SUWPSUciJnPfKzlXIo60u9l3Dse9bhj6XeSzDnO2vcCyKLnsu15yXa+KPnpbQWxh8tMxHcVPztFjKzBtZFLGtdF3IYy1pzCMSnX8QSrV/MzYdclTE3H9FyBSzjblz79+P1YA8I4Wmsw/N4vagHAAAAAAAAADD5Aj48iuVAnAAA
+  </data>
+ </layer>
+ <layer name="Over" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cQQ6DIBAAwF7bD9j+/6PVAwkxakmjsMJMwq2JpSuwXcHHAwAAAAAAAAAAAH6b5vbO2qvt1wEaes7tE/R6y1w14vxUOyZH8vVixFgkNWOyXCv95lHuA+BeIq0jAC2lXLZmHtvimhCdcUFN67p35Ly497rXVv/8V6kjry3dra5nzQAAAADYp3YC3EHvzz/uRCwA6vI8HADgfHKsceT7f8W8LTWl2NIeYeOkvqOxIS6MrHTdME5ikm9f59+cSkzOJ7+N44xYlK4nU+HnerE+U1vSrhwXe++2HOF9WhHmnPXZ0hFyta3ztD3ss9zrVw99AwAAAAAAAIBovux2dPxAnAAA
+  </data>
+ </layer>
+ <objectgroup name="objects" width="0" height="0">
+  <object name="graphics/particles/waterfall-2x4.particle.xml" type="PARTICLE_EFFECT" x="1824" y="1472"/>
+  <object name="Silkworm" type="spawn" x="1280" y="1344" width="736" height="512">
+   <properties>
+    <property name="eA_death" value="3000"/>
+    <property name="e_spawn" value="30000"/>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="33"/>
+   </properties>
+  </object>
+  <object name="EvilMushroom" type="spawn" x="1376" y="1120" width="32" height="32">
+   <properties>
+    <property name="eA_death" value="5000"/>
+    <property name="eA_spawn" value="40000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="11"/>
+   </properties>
+  </object>
+  <object name="EvilMushroom" type="spawn" x="864" y="992" width="32" height="32">
+   <properties>
+    <property name="eA_death" value="5000"/>
+    <property name="eA_spawn" value="40000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="11"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="640" y="608" width="1984" height="1952">
+   <properties>
+    <property name="eA_death" value="10000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="To028-1" type="warp" x="1056" y="2496" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="028-1"/>
+    <property name="dest_x" value="3648"/>
+    <property name="dest_y" value="3904"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Collision" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2TQW7DMAzAuv//oi/tacAQJFksW6ZcUwBvbSKT8fvn9XqLiIiIiIiIiIiIiIiIiIiIbMJx6H125W7o3XbkroVd2B5Xfegdd+LJ0DvuRMtEnkufbzVaJ/pM+pwrMWPoM67G0V3lHrs0j3qe0SO628q0Op7hJvquEe+mGTFXz8n6Rp7sTXv9pi7EOytxPEPr/Pcf6ttYlewh9qCdZveI3hvvBXs//j7PHnyPVjcz37UKPQ5GOBoxtMPsHqO8Hf/X2uTJe2l/2T2yv+Wzd4x81k6Mnp7n0i4q0OIo4tMe/T1m97ZHnR7eD3tUZpYXu6zbY+cms5w88W+XOj1m7LAC2S56h/ZToYM97LFrh6OnM2ezu+/eI+qi1VXP0I6qtDhzEnFmi3E+yKG9VWxB9qTdVepQYWiH2T0qdzrbjXZI3ZHeTk//3/oe2h/Vo+rQ/rJ6rNqG9rfr/XiyK+0ys8dKrX6HdlnhfpDdju+mXVZpUmVoj5V7ZL7j7nm0y4o96DtI+8zqEfU4+y5G9qgM4WDG0F7JDq0OZgztl+5RYYfefSr16PVT5bvo3adKD/LsV8+M7jJipxU7jDp31tCuV7sXLbtFz0D7jp757vfEbqO+L9p3ZH96p6xzfcvZREREREREREREREREREREKvEB17WjWECcAAA=
+  </data>
+ </layer>
+</map>
