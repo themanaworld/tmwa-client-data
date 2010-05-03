@@ -429,7 +429,7 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
     </monster>
 
     <monster id="12" name="Pink Flower">
-        <sprite>monsters/monster-flower.xml</sprite>
+        <sprite>monsters/monster-flower.xml|#ee748d,ffd8ce;#f6ffbd;#23285f</sprite>
         <sound event="hit">monsters/flower/flower-hit1.ogg</sound>
         <sound event="hit">monsters/flower/flower-hit2.ogg</sound>
         <sound event="miss">monsters/flower/flower-miss1.ogg</sound>
@@ -463,7 +463,8 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
     </monster>
 
     <monster id="13" name="Santa Slime">
-        <sprite>monsters/monster-slime-santa.xml</sprite>
+        <sprite>monsters/monster-slime.xml|#545166,66A9CD,C2F7FA</sprite>
+        <sprite>monsters/accessories/slime-santa.xml</sprite>
         <drop item="512" percent="8"/>
         <drop item="513" percent="7"/>
         <drop item="514" percent="6"/>
@@ -486,7 +487,8 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
     </monster>
 
     <monster id="14" name="Rudolph Slime">
-        <sprite>monsters/monster-slime-rudolph.xml</sprite>
+        <sprite>monsters/monster-slime.xml|#9092B9,9DB4D4,F8F9FA</sprite>
+        <sprite>monsters/accessories/slime-rudolph.xml</sprite>
         <drop item="504" percent="8"/>
         <drop item="506" percent="5"/>
         <drop item="508" percent="2"/>
@@ -825,6 +827,7 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
     
     <monster id="31" name="Sea Slime">
         <sprite>monsters/monster-slime.xml|#4ca1a0,ffffff</sprite>
+        <sprite>monsters/accessories/slime-seajelly.xml|#4Ca16e,ffffff</sprite>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
         <attributes
             hp="20"
@@ -1222,7 +1225,7 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
 
     <monster id="47" name="Bee" targetCursor="small">
         <sprite>monsters/monster-bee.xml</sprite>
-	<sprite>monsters/accessories/monster-bee_shadow.xml</sprite>
+	      <sprite>monsters/accessories/bee-shadow.xml</sprite>
         <!-- Insert Bee Stats here -->
     </monster>
 

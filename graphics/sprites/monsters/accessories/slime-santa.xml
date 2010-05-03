@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<sprite>
+    <imageset name="base" src="graphics/sprites/monsters/accessories/slime-santa.png" width="18" height="14" />
+
+    <action name="stand" imageset="base">
+        <animation direction="down">
+            <frame index="0" offsetY="-16"/>
+        </animation>
+        <animation direction="left">
+            <frame index="3" offsetX="2" offsetY="-14"/>
+        </animation>
+        <animation direction="up">
+            <frame index="4" offsetY="-12"/>
+        </animation>
+        <animation direction="right">
+            <frame index="7" offsetX="-4" offsetY="-14"/>
+        </animation>
+    </action>
+
+    <action name="attack" imageset="base">
+        <animation direction="down">
+            <frame index="2" offsetX="3" offsetY="-15"/>
+        </animation>
+        <animation direction="left">
+            <frame index="2" offsetX="3" offsetY="-15"/>
+        </animation>
+        <animation direction="up">
+            <frame index="6" offsetX="-3" offsetY="-15"/>
+        </animation>
+        <animation direction="right">
+            <frame index="6" offsetX="-3" offsetY="-15"/>
+        </animation>
+    </action>
+
+    <action name="dead" imageset="base">
+        <animation direction="down">
+            <frame index="3" offsetY="-8"/>
+        </animation>
+        <animation direction="left">
+            <frame index="3" offsetY="-8"/>
+        </animation>
+        <animation direction="up">
+            <frame index="7" offsetY="-8"/>
+        </animation>
+        <animation direction="right">
+            <frame index="7" offsetY="-8"/>
+        </animation>
+    </action>
+
+</sprite>
