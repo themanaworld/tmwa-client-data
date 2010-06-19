@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="98" height="87" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="name" value="Beach House"/>
+ </properties>
+ <tileset firstgid="1" name="Inn" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png"/>
+ </tileset>
+ <tileset firstgid="257" name="Inn x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/inn_x2.png"/>
+ </tileset>
+ <tileset firstgid="273" name="Inn x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/inn_x3.png"/>
+ </tileset>
+ <tileset firstgid="289" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <layer name="Ground" width="98" height="87">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WTWrCYBAG4JSKewvt3t7An/YGHqEH0wNY6iV16WwCIZT8gOMX8Qk8q1lk5h3yfTlXVXUGAAAAAACAB/ESZj3mE+jzXvPPO2qviXkswluPxQTyylLPvwvvrVnb2WzDV/hO6GMZPnssJ5BXlnr+n8asx/DbqH00all5rAYqnVeWer7NiCwy8uh61z4cnmQPY6zv3MdfONlD8e/hmc4leyhrbQ+TMOQu+O8Ot4f8+Yf8O9lD3vxjzih7uK2u59JRK9VH6bwAAAAAAAAAAAAAAAAAAAAAAAAAAADgEVwB8cV8fDiFAAA=
+  </data>
+ </layer>
+ <layer name="Lower" width="98" height="87">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VMQqFMBAFQG0VtFPvf8V/gZ/GShErd8nOQCAkzeZlQ4YBAAAAAAAAgJ5sY3QFtewt72O8zu/2q5jaeecEZ/5FF/Chp8y/vo8s959dpf6MlKkfM9USKaL3Zf+OnPq3tLHerJ/vskoPZPqDq2QOAAAAAAAAAAAAAAAAAAAAAAAAAAAA9O0Pz3dNGDiFAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="98" height="87">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQZ/oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4D5p9VcziFAAA=
+  </data>
+ </layer>
+ <layer name="Over" width="98" height="87">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OoQ0AAAgDQfZfGMsGRRHMXfKqplUAAAAAAAAAAAAAALc6lPavHwAAAAAAAAAAAAAAAAAAAAAAAAAAAMBuANgSJR84hQAA
+  </data>
+ </layer>
+ <layer name="Collision" width="98" height="87">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3RUQrCQBDAUL2K9z+k+CFIQa3KdmP7AgFRcGY2l/PpdCFJkiRJkiRJkiRJkj954/Hzndl7bXH3kle/jXqXZzNmzF1DpceI+ZX+Mzp8Onv2Hkfo8Mluo9/j3fd77rCcs/Uea97maB1ezZ65hw5j93i2z6jutfuX987e4/G/t55buf8f9tjr/UdXh4Y6NNShoQ4NdWioQ0MdGurQUIeGOjTUoaEODXVoqENDHRrq0FCHhjo01KFhpQO+Q4cGOjTQoYEODXRooEMDHRro0ECHBjo00KGBDg10aKBDAx0a6NBAhwY6NNChgQ4NdGigQwMdGujQQIcGOjTQoYEODXRooEMDHRro0ECHBjo00KGBDg2unAzn0DiFAAA=
+  </data>
+ </layer>
+ <objectgroup name="Object Group 4" width="0" height="0">
+  <object name="toOutside" type="warp" x="864" y="928" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="003-1"/>
+    <property name="dest_x" value="1552"/>
+    <property name="dest_y" value="1200"/>
+   </properties>
+  </object>
+  <object name="toOutside" type="warp" x="1952" y="928" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="003-1"/>
+    <property name="dest_x" value="1904"/>
+    <property name="dest_y" value="976"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
