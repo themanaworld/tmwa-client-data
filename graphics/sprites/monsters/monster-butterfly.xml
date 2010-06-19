@@ -3,16 +3,16 @@
 	<imageset name="base" src="graphics/sprites/monsters/monster-butterfly.png|W" width="28" height="28" />
 	<action name="stand" imageset="base">
 		<animation direction="up">
-			<sequence start="0" end="3" delay="60" offsetY="-20" />
+			<sequence start="0" end="3" delay="100" offsetY="-20" />
 		</animation>
 		<animation direction="down">
-			<sequence start="0" end="3" delay="60" offsetY="-20" />
+			<sequence start="0" end="3" delay="100" offsetY="-20" />
 		</animation>
 		<animation direction="right">
-			<sequence start="4" end="7" delay="60" offsetY="-20" />
+			<sequence start="4" end="7" delay="100" offsetY="-20" />
 		</animation>
 		<animation direction="left">
-			<sequence start="8" end="11" delay="60" offsetY="-20" />
+			<sequence start="8" end="11" delay="100" offsetY="-20" />
 		</animation>
 	</action>
 
