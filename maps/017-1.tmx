@@ -129,6 +129,14 @@
     <property name="dest_y" value="5392"/>
    </properties>
   </object>
+  <object name="Butterfly" type="spawn" x="0" y="0">
+   <properties>
+    <property name="eA_death" value="20"/>
+    <property name="eA_spawn" value="30"/>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="53"/>
+   </properties>
+  </object>
  </objectgroup>
  <layer name="Collision" width="154" height="124" visible="0">
   <data encoding="base64" compression="gzip">
