@@ -197,7 +197,7 @@
         description="Ask Santa about this hat."
         effect="+2% Defense"
         type="equip-head"
-        weight="15"
+        weight="20"
         defense="2"
         max-per-slot="1">
         <sprite>head-santahat.xml</sprite>
@@ -277,7 +277,7 @@
         effect="+15 Damage, 1 Range"
         type="equip-1hand"
         weapon_type="1"
-        weight="20"
+        weight="200"
         weapon-type="knife"
         attack-min="5"
         attack-delta="10"
@@ -294,7 +294,7 @@
         effect="+10 Damage, 1 Range"
         type="equip-1hand"
         weapon_type="1"
-        weight="15"
+        weight="150"
         max-per-slot="1"
         weapon-type="knife"
         attack-min="8"
@@ -321,7 +321,7 @@
         description="A fancy hat."
         effect="+5% Defense"
         type="equip-head"
-        weight="25"
+        weight="20"
         defense="5"
         max-per-slot="1">
         <sprite>head-fancyhat.xml</sprite>
@@ -332,7 +332,7 @@
         description="A hat used by miners."
         effect="+4% Defense"
         type="equip-head"
-        weight="30"
+        weight="40"
         defense="4"
         max-per-slot="1">
         <sprite>head-minershat.xml</sprite>
@@ -382,7 +382,7 @@
         type="equip-2hand"
         weapon_type="10"
         weapon-type="bow"
-        weight="60"
+        weight="600"
         max-per-slot="1"
         damage-min="50"
         damage-delta="0"
@@ -395,7 +395,7 @@
         description="Gloves used by miners; very useful."
         effect="+2% Defense"
         type="equip-arms"
-        weight="20"
+        weight="30"
         defense="2"
         max-per-slot="1">
         <sprite gender="male">hands-gloves-generic-male.xml|#202020,505050</sprite>
@@ -407,7 +407,7 @@
         description="Gloves made of hardened leather."
         effect="+4% Defense"
         type="equip-arms"
-        weight="30"
+        weight="20"
         defense="4"
         max-per-slot="1">
         <sprite gender="male">hands-gloves-generic-male.xml|#4e2e18,c8752f</sprite>
@@ -448,7 +448,7 @@
         effect="+100 Damage, 1 Range"
         type="equip-1hand"
         weapon_type="2"
-        weight="100"
+        weight="2000"
         slot ="0"
         weapon-type="sword"
         attack-min="20"
@@ -462,7 +462,7 @@
         description="A rusty key."
         effect="Opens chests"
         type="generic"
-        weight="5"
+        weight="2"
         max-per-slot="10"/>
     <item id="538"
         image="generic-greenpresentbox.png"
@@ -535,7 +535,7 @@
         effect="+70 Damage, 5 Range"
         type="equip-2hand"
         weapon_type="10"
-        weight="80"
+        weight="1200"
         max-per-slot="1"
         weapon-type="bow"
         attack-min="70"
@@ -549,7 +549,7 @@
         description="A shirt suitable for desert trips."
         effect="+6% Defense"
         type="equip-torso"
-        weight="30"
+        weight="20"
         defense="6"
         max-per-slot="1">
         <sprite gender="male">chest-leather-male.xml|#443c21,85794a,beb590,ffffff;#824035,d6a19a</sprite>
@@ -572,7 +572,7 @@
         effect="??? Damage, ??? Range"
         type="equip-2hand"
         weapon-type="polearm"
-        weight="10"
+        weight="1400"
         attack-range="32"
         max-per-slot="1"/>
     <item id="549"
@@ -582,7 +582,7 @@
         effect="??? Damage, ??? Range"
         type="equip-2hand"
         weapon-type="axe"
-        weight="10"
+        weight="1200"
         attack-range="32"
         max-per-slot="1"/>
     <item id="550"
@@ -592,7 +592,7 @@
         effect="??? Damage, ??? Range"
         type="equip-2hand"
         weapon-type="axe"
-        weight="10"
+        weight="1200"
         attack-range="32"
         max-per-slot="1"/>
     <item id="551"
@@ -682,7 +682,7 @@
         effect="??? Damage, ??? Range"
         type="equip-1hand"
         weapon-type="sword"
-        weight="10"
+        weight="300"
         attack-range="32"
         max-per-slot="1"/>
     <item id="562"
@@ -712,7 +712,7 @@
         description="A soft, warm sweater."
         effect="+6% Defense"
         type="equip-torso"
-        weight="10"
+        weight="30"
         defense="6"
         max-per-slot="1">
         <sprite gender="male">chest-tnecksweater-male.xml|#A4B2B2,FFFFFF</sprite>
@@ -768,7 +768,7 @@
         type="equip-1hand"
         weapon_type="2"
         weapon-type="knife"
-        weight="120"
+        weight="450"
         max-per-slot="1"
         attack-range="32"
         view="521"/>
@@ -779,7 +779,7 @@
         effect="+110 Damage, 1 Range"
         type="equip-1hand"
         weapon-type="knife"
-        weight="80"
+        weight="900"
         max-per-slot="1"
         weapon_type="2"
         attack-range="32"
@@ -791,7 +791,7 @@
         effect="??? Damage, ??? Range"
         type="equip-1hand"
         weapon-type="sword"
-        weight="100"
+        weight="200"
         attack-range="32"
         max-per-slot="1"/>
     <item id="573"
@@ -801,7 +801,7 @@
         effect="??? Damage, ??? Range"
         type="equip-1hand"
         weapon-type="sword"
-        weight="100"
+        weight="300"
         attack-range="32"
         max-per-slot="1"/>
     <item id="574"
@@ -811,7 +811,7 @@
         effect="??? Damage, ??? Range"
         type="equip-2hand"
         weapon-type="polearm"
-        weight="100"
+        weight="600"
         attack-range="32"
         max-per-slot="1"/>
     <item id="575"
@@ -821,7 +821,7 @@
         effect="??? Damage, ??? Range"
         type="equip-2hand"
         weapon-type="bow"
-        weight="100"
+        weight="1200"
         attack-range="32"
         missile-particle="graphics/particles/arrow.particle.xml"
         max-per-slot="1"/>
@@ -832,7 +832,7 @@
         effect="??? Damage, ??? Range"
         type="equip-1hand"
         weapon-type="sword"
-        weight="100"
+        weight="2000"
         attack-range="32"
         max-per-slot="1"/>
     <item id="577"
@@ -842,7 +842,7 @@
         effect="??? Damage, ??? Range"
         type="equip-1hand"
         weapon-type="thrown"
-        weight="100"
+        weight="300"
         attack-range="32"
         max-per-slot="1"/>
     <item id="578"
@@ -852,7 +852,7 @@
         effect="??? Damage, ??? Range"
         type="equip-1hand"
         weapon-type="sword"
-        weight="100"
+        weight="1500"
         attack-range="32"
         max-per-slot="1"/>
     <item id="579"
@@ -862,7 +862,7 @@
         effect="??? Damage, ??? Range"
         type="equip-1hand"
         weapon-type="knife"
-        weight="100"
+        weight="5000"
         attack-range="32"
         max-per-slot="1"/>
     <item id="580"
@@ -872,7 +872,7 @@
         effect="??? Damage, ??? Range"
         type="equip-2hand"
         weapon-type="staff"
-        weight="100"
+        weight="1500"
         attack-range="32"
         max-per-slot="1"/>
     <item id="581"
@@ -882,7 +882,7 @@
         effect="+50 Damage, ??? Range"
         type="equip-2hand"
         weapon-type="staff"
-        weight="100"
+        weight="1500"
         attack-range="32"
         max-per-slot="1"/>
     <item id="582"
@@ -892,7 +892,7 @@
         effect="??? Damage, ??? Range"
         type="equip-2hand"
         weapon-type="staff"
-        weight="100"
+        weight="1500"
         attack-range="32"
         max-per-slot="1"/>
     <item id="583"
@@ -902,7 +902,7 @@
         effect="??? Damage, ??? Range"
         type="equip-2hand"
         weapon-type="staff"
-        weight="100"
+        weight="1500"
         attack-range="32"
         max-per-slot="1"/>
     <item id="584"
@@ -921,7 +921,7 @@
         description="A scarab armlet."
         effect="+0% Defense"
         type="equip-arms"
-        weight="100"
+        weight="200"
         max-per-slot="1"/>
     <item id="586"
         image="armor-legs-shorts.png|W:#A4B2B2,FFFFFF"
@@ -929,7 +929,7 @@
         description="Shorts made of 100% cotton."
         effect="+2% Defense"
         type="equip-legs"
-        weight="10"
+        weight="15"
         defense="2"
         max-per-slot="1">
         <sprite gender="male">leg-shorts-male.xml|#A4B2B2,FFFFFF</sprite>
@@ -1080,7 +1080,7 @@
         description="A shield made of steel."
         effect="+20% Defense"
         type="equip-shield"
-        weight="180"
+        weight="2500"
         max-per-slot="1"/>
     <item id="602"
         image="armor-shield-woodenshield.png"
@@ -1088,7 +1088,7 @@
         description="A shield made of wood."
         effect="+14% Defense"
         type="equip-shield"
-        weight="100"
+        weight="1500"
         max-per-slot="1"/>
     <item id="603"
         image="armor-shield-leathershield.png"
@@ -1096,7 +1096,7 @@
         description="A shield made of leather on a wooden frame."
         effect="+7% Defense"
         type="equip-shield"
-        weight="60"
+        weight="1300"
         max-per-slot="1"/>
     
     <!--
@@ -1160,7 +1160,7 @@
         description="Shorts made of jeans."
         effect="+4% Defense"
         type="equip-legs"
-        weight="15"
+        weight="25"
         defense="4"
         max-per-slot="1">
         <sprite gender="male">leg-shorts-male.xml|#255367,266c84,68b0c5,ffffff</sprite>
@@ -1172,7 +1172,7 @@
         description="A patch of white, fluffy fur."
         effect=""
         type="generic"
-        weight="10"
+        weight="8"
         max-per-slot="10"/>
     <item id="612"
         image="generic-cavesnakelamp.png"
@@ -1204,7 +1204,7 @@
         description="A helmet made out of a pumpkin."
         effect="+4% Defense"
         type="equip-head"
-        weight="10"
+        weight="60"
         defense="4"
         max-per-slot="1">
         <sprite>head-pumpkinhelmet.xml</sprite>
@@ -1215,7 +1215,7 @@
         description="A really cool joke."
         effect="+4% Defense"
         type="equip-head"
-        weight="10"
+        weight="50"
         defense="4"
         max-per-slot="1">
         <sprite>head-axehat.xml</sprite>
@@ -1226,7 +1226,7 @@
         description="A pirate hat."
         effect="+4% Defense"
         type="equip-head"
-        weight="10"
+        weight="40"
         defense="4"
         max-per-slot="1">
         <sprite>head-piratehat.xml</sprite>
@@ -1237,7 +1237,7 @@
         description="Goggles designed to take care of your eyes."
         effect="+2% Defense"
         type="equip-head"
-        weight="10"
+        weight="20"
         defense="2"
         max-per-slot="1">
         <sprite>head-goggles.xml|#787878,f7f7f7</sprite>
@@ -1248,7 +1248,7 @@
         description="Goggles designed for desert storms."
         effect="+3% Defense"
         type="equip-head"
-        weight="10"
+        weight="20"
         defense="3"
         max-per-slot="1">
         <sprite>head-goggles.xml|#783c00,ff973b</sprite>
@@ -1259,7 +1259,7 @@
         description="A nice piece of jewelry."
         effect="+4% Defense"
         type="equip-head"
-        weight="10"
+        weight="25"
         defense="4"
         max-per-slot="1">
         <sprite>head-circlet.xml</sprite>
@@ -1270,7 +1270,7 @@
         description="What really makes you a pirate."
         effect="+3% Defense"
         type="equip-head"
-        weight="10"
+        weight="5"
         defense="3"
         max-per-slot="1">
         <sprite>head-eyepatch.xml</sprite>
@@ -1281,7 +1281,7 @@
         description="A striped bandana."
         effect="+3% Defense"
         type="equip-head"
-        weight="10"
+        weight="20"
         defense="3"
         max-per-slot="1">
         <sprite>head-bandana.xml</sprite>
@@ -1294,7 +1294,7 @@
         type="equip-2hand"
         weapon_type="11"
         weapon-type="polearm"
-        weight="60"
+        weight="1200"
         attack-min="0"
         attack-delta="75"
         attack-range="32"
@@ -1307,7 +1307,7 @@
         description="A soft, warm sweater."
         effect="+8% Defense"
         type="equip-torso"
-        weight="10"
+        weight="35"
         defense="8"
         max-per-slot="1">
         <sprite gender="male">chest-vnecksweater-male.xml|#A4B2B2,FFFFFF</sprite>
@@ -1319,7 +1319,7 @@
         description="A shirt made of chains. It weighs a lot but offers excellent protection."
         effect="+20% Defense"
         type="equip-torso"
-        weight="250"
+        weight="800"
         defense="20"
         max-per-slot="1">
         <sprite gender="male">chest-chainmail-male.xml</sprite>
@@ -1331,7 +1331,7 @@
         description="A light cuirass with shoulder pads made of iron, usually worn by foot soldiers."
         effect="+25% Defense"
         type="equip-torso"
-        weight="240"
+        weight="1200"
         defense="25"
         max-per-slot="1">
         <sprite gender="male">chest-lightplatemail-male.xml|W:#ddeeff</sprite>
@@ -1343,7 +1343,7 @@
         description="For the gentry of The Mana World."
         effect="+10% Defense"
         type="equip-head"
-        weight="10"
+        weight="30"
         defense="10"
         max-per-slot="1">
         <sprite>head-tophat.xml</sprite>
@@ -1354,7 +1354,7 @@
         description="Yawn..."
         effect="+13% Defense"
         type="equip-head"
-        weight="10"
+        weight="20"
         defense="13"
         max-per-slot="1">
         <sprite>head-funkywinter.xml</sprite>
@@ -1365,7 +1365,7 @@
         description="Soft and fashionable."
         effect="+10% Defense"
         type="equip-head"
-        weight="10"
+        weight="30"
         defense="10"
         max-per-slot="1">
         <sprite>head-mushroom.xml</sprite>
@@ -1376,7 +1376,7 @@
         description="Evil and fashionable."
         effect="+13% Defense"
         type="equip-head"
-        weight="10"
+        weight="30"
         defense="13"
         max-per-slot="1">
         <sprite>head-shroom.xml</sprite>
@@ -1407,7 +1407,7 @@
         effect="+13% Defense"
         defense="13"
         type="equip-head"
-        weight="10"
+        weight="30"
         max-per-slot="1">
         <sprite>head-xmaself.xml</sprite>
     </item>
@@ -1418,7 +1418,7 @@
         effect="+10% Defense"
         defense="10"
         type="equip-head"
-        weight="10"
+        weight="50"
         max-per-slot="1">
         <sprite>head-mask.xml</sprite>
     </item>
@@ -1437,7 +1437,7 @@
         effect="+18% Defense"
         type="equip-head"
         defense="18"
-        weight="140">
+        weight="900">
         <sprite>head-warlordhelm.xml</sprite>
     </item>
     <item id="637"
@@ -1447,7 +1447,7 @@
         effect="+15% Defense"
         type="equip-head"
         defense="15"
-        weight="90">
+        weight="600">
         <sprite>head-knighthelm.xml</sprite>
     </item>
     <item id="638"
@@ -1457,7 +1457,7 @@
         effect="+15% Defense"
         type="equip-head"
         defense="15"
-        weight="90">
+        weight="400">
         <sprite>head-infantryhelm.xml</sprite>
     </item>
     <item id="639"
@@ -1467,7 +1467,7 @@
         effect="+18% Defense"
         type="equip-head"
         defense="18"
-        weight="140">
+        weight="1300">
         <sprite>head-crusadehelm.xml</sprite>
     </item>
     <item id="640"
@@ -1483,7 +1483,7 @@
         description="The skin of a slain snake."
         effect=""
         type="generic"
-        weight="20"/>
+        weight="15"/>
     <item id="642"
         image="armor-legs-chaps.png"
         name="Jeans Chaps"
@@ -1491,7 +1491,7 @@
         effect="+6% Defense"
         type="equip-legs"
         defense="6"
-        weight="40">
+        weight="60">
         <sprite gender="male">leg-chaps-male.xml</sprite>
         <sprite gender="female">leg-chaps-female.xml</sprite>
     </item>
@@ -1522,7 +1522,7 @@
         effect="+25% Defense"
         type="equip-torso"
         defense="25"
-        weight="240">
+        weight="4500">
         <sprite gender="male">chest-lightplatemail-male.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
         <sprite gender="female">chest-lightplatemail-female.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
     </item>
@@ -1533,7 +1533,7 @@
         effect="+4% Defense"
         type="equip-head"
         defense="4"
-        weight="50">
+        weight="240">
         <sprite>head-crown.xml</sprite>
     </item>
     <item id="647"
@@ -1543,7 +1543,7 @@
         effect="+5% Defense"
         type="equip-head"
         defense="5"
-        weight="10">
+        weight="20">
         <sprite>head-devcap.xml|#9999ff</sprite>
     </item>
     <item id="648"
@@ -1616,7 +1616,7 @@
         description="A pair of warm winter boots."
         effect="+3% Defense"
         type="equip-feet"
-        weight="120"
+        weight="50"
         defense="3"
         max-per-slot="1">
         <sprite gender="male">equipment/feet/furboots-male.xml</sprite>
@@ -1648,7 +1648,7 @@
         description="Strong and decorative armor."
         effect="+27% Defense"
         type="equip-torso"
-        weight="275"
+        weight="2600"
         defense="27"
         max-per-slot="1">
         <sprite gender="male">chest-warlordplate-male.xml</sprite>
@@ -1660,7 +1660,7 @@
         description="Strong and decorative armor made from gold."
         effect="+27% Defense"
         type="equip-torso"
-        weight="275"
+        weight="7600"
         defense="27"
         max-per-slot="1">
         <sprite gender="male">chest-warlordplate-male.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
@@ -1672,7 +1672,7 @@
         description="A piece of cotton cloth."
         effect=""
         type="generic"
-        weight="40"
+        weight="10"
         max-per-slot="10"/>
     <item id="661"
         image="generic-rose.png|W:#bb2222,ff8888"
@@ -1820,7 +1820,7 @@
         description="A traditional Japanese mask worn in Noh plays."
         effect="+3% Defense"
         type="equip-head"
-        weight="15"
+        weight="18"
         defense="3"
         max-per-slot="1">
         <sprite>head-nohmask.xml</sprite>
@@ -1831,7 +1831,7 @@
         description="A scary mask to make you look like a demon."
         effect="+3% Defense"
         type="equip-head"
-        weight="15"
+        weight="23"
         defense="3"
         max-per-slot="1">
         <sprite>head-demonmask.xml</sprite>
@@ -1889,7 +1889,7 @@
         effect="+400 HP"
         type="usable"
         hp="400"
-        weight="20"
+        weight="15"
         max-per-slot="10"/>
     <item id="687"
         image="use-potion-c.png|G:#b03678,ffffff"
@@ -1898,7 +1898,7 @@
         effect="+800 HP"
         type="usable"
         hp="800"
-        weight="40"
+        weight="25"
         max-per-slot="10"/>
     <item id="688"
         image="armor-chest-tanktop.png|W:#A4B2B2,FFFFFF"
@@ -2159,7 +2159,7 @@
         effect="+4% Defense, +20 SP"
         type="equip-head"
         defense="4"
-        weight="60">
+        weight="400">
         <sprite>head-highpriest-crown.xml</sprite>
     </item>
     <item id="722"
@@ -2169,7 +2169,7 @@
         effect="+7% Defense, +20% Magic Defense"
         type="equip-head"
         defense="7"
-        weight="40">
+        weight="250">
         <sprite>head-monster-skull-helm.xml</sprite>
     </item>
     <item id="723"
@@ -2179,7 +2179,7 @@
         effect="+3% Defense"
         type="equip-head"
         defense="3"
-        weight="10">
+        weight="20">
         <sprite>head-deserthat.xml|#FFFFFF</sprite>
     </item>
     <item id="724"
@@ -2199,7 +2199,7 @@
         effect="+5% Defense"
         type="equip-head"
         defense="5"
-        weight="10">
+        weight="20">
         <sprite>head-gmcap.xml|#BF0E08</sprite>
     </item>
     <item id="726"
@@ -2208,7 +2208,7 @@
         description="A light and shimmering silk robe made for GMs. Only GMs can wear this."
         effect="+5% Defense"
         type="equip-torso"
-        weight="5"
+        weight="40"
         defense="5"
         max-per-slot="1">
         <sprite gender="male">chest-robe-male.xml|#E40A0A</sprite>
@@ -2220,35 +2220,35 @@
         description="An iten."
         effect=""
         type="generic"
-        weight="100"/>
+        weight="8000"/>
     <item id="728"
         image="generic-wooden-mouboo.png"
         name="Mouboo Figurine"
         description="A small, wooden figurine of a mouboo."
         effect=""
         type="generic"
-        weight="1"/>
+        weight="9"/>
     <item id="729"
         image="generic-warped-log.png"
         name="Warped Log"
         description="A piece of wood, warped and twisted by some unnatural force."
         effect=""
         type="generic"
-        weight="2"/>
+        weight="8"/>
     <item id="730"
         image="generic-gemstone-a.png|W:#a0a010,ffffa0"
         name="Lifestone"
         description="A small crystal shard, warm to the touch."
         effect=""
         type="generic"
-        weight="1"/>
+        weight="5"/>
     <item id="731"
         image="armor-legs-assassinpants.png|R"
         name="Assassin Pants"
         description="Pants for a master assassin."
         effect="+5% Defense"
         type="equip-torso"
-        weight="10"
+        weight="20"
         defense="5"
         max-per-slot="1">
         <sprite gender="male">leg-assassin-male.xml</sprite>
@@ -2268,7 +2268,7 @@
         effect=""
         type="usable"
         mp="0"
-        weight="5"
+        weight="15"
         max-per-slot="10"/>
     <item id="734"
         image="equipment/feet/boots.png|W:#505050"
@@ -2406,7 +2406,7 @@
         name="Towel"
         description="You can dry yourself off with it if it still seems to be clean enough. - Douglas Adams"
         type="equip-charm"
-        weight="20"/>
+        weight="50"/>
     <item id="750"
         image="use-potion-c.png|G:#f0f040,ffffff"
         name="Slow Poison Potion"
@@ -2638,7 +2638,7 @@
         description="Powder from a wisp."
         effect=""
         type="generic"
-        weight="40"
+        weight="3"
         max-per-slot="30"/>
     <item id="773"
         image="generic-spice.png|R:#FF00FF"
@@ -2646,7 +2646,7 @@
         description="Powder from a spectre."
         effect=""
         type="generic"
-        weight="40"
+        weight="3"
         max-per-slot="30"/>
     <item id="774"
         image="generic-spice.png|R:#00FFFF"
@@ -2654,7 +2654,7 @@
         description="Powder from a poltergeist."
         effect=""
         type="generic"
-        weight="60"
+        weight="3"
         max-per-slot="30"/>
     <item id="775"
         image="generic-bone.png"
@@ -2662,7 +2662,7 @@
         description="A bone."
         effect=""
         type="generic"
-        weight="80"
+        weight="10"
         max-per-slot="5"/>
     <item id="776"
         image="generic-skull.png"
@@ -2670,7 +2670,7 @@
         description="A skull."
         effect=""
         type="generic"
-        weight="110"
+        weight="30"
         max-per-slot="2"/>
     <item id="777"
         image="generic-rags-rotten.png"
@@ -2678,7 +2678,7 @@
         description="Rotten rags from an undead creature."
         effect=""
         type="generic"
-        weight="95"
+        weight="15"
         max-per-slot="40"/>
     <item id="778"
         image="generic-heart-diseased.png"
@@ -2686,7 +2686,7 @@
         description="A diseased heart. Likely from a zombie."
         effect=""
         type="generic"
-        weight="35"
+        weight="10"
         max-per-slot="15"/>
     <item id="779"
         image="generic-ear-zombie.png"
@@ -2694,7 +2694,7 @@
         description="An ear from a zombie."
         effect=""
         type="generic"
-        weight="15"
+        weight="5"
         max-per-slot="25"/>
     <item id="780"
         image="generic-eyeball.png"
@@ -2702,7 +2702,7 @@
         description="An eye from a zombie."
         effect=""
         type="generic"
-        weight="8"
+        weight="3"
         max-per-slot="20"/>
     <item id="781"
         image="equipment/head/witch-doctor-mask.png"
@@ -2733,7 +2733,7 @@
         description="A silken dress with soft lace trim. If you damage it, you'll never get it to look good again. In special Platyna red."
         effect="Defense: +15"
         type="equip-torso"
-        weight="25"
+        weight="35"
         defense="15"
         max-per-slot="1">
         <sprite gender="female">equipment/chest/valentine-dress.xml|#BF0E08</sprite>
@@ -2780,7 +2780,7 @@
         effect="+5 Damage, 1 Range"
         type="equip-1hand"
         weapon_type="1"
-        weight="10"
+        weight="120"
         attack-min="0"
         attack-delta="5"
         attack-range="32"
@@ -2793,7 +2793,7 @@
         description="A shirt made of 100% cotton."
         effect="+2% Defense"
         type="equip-torso"
-        weight="10"
+        weight="13"
         defense="2"
         max-per-slot="1">
         <sprite gender="male">chest-cotton-male.xml|#A4B2B2,FFFFFF</sprite>
@@ -2805,7 +2805,7 @@
         description="A leather hat traditionally worn by rangers."
         effect="+2% Defense"
         type="equip-head"
-        weight="10"
+        weight="20"
         defense="2"
         max-per-slot="1">
         <sprite>head-rangerhat.xml</sprite>
@@ -2816,7 +2816,7 @@
         description="A hat with antlers sticking out of it."
         effect="+4% Defense"
         type="equip-head"
-        weight="10"
+        weight="15"
         defense="4"
         max-per-slot="1">
         <sprite>head-antlerhat.xml</sprite>
@@ -2827,7 +2827,7 @@
         description="A hat shaped like a Christmas tree."
         effect="+2% Defense"
         type="equip-head"
-        weight="10"
+        weight="20"
         defense="2"
         max-per-slot="1">
         <sprite>head-christmastree.xml</sprite>
@@ -2838,7 +2838,7 @@
         description="Now you will look just like Santa Claus!"
         effect="+5% Defense"
         type="equip-head"
-        weight="10"
+        weight="20"
         defense="5"
         max-per-slot="1">
         <sprite>head-santabeardhat.xml</sprite>
@@ -2906,7 +2906,7 @@
         effect="+10% Defense"
         type="equip-head"
         defense="10"
-        weight="10">
+        weight="20">
         <sprite>head-bunnyears.xml</sprite>
     </item>
     <item id="1215"
@@ -2932,7 +2932,7 @@
         effect="+1% Defense"
         type="equip-head"
         defense="1"
-        weight="20">
+        weight="80">
         <sprite>head-mouboohead.xml</sprite>
     </item>
     <item id="1217"
@@ -2942,7 +2942,7 @@
         effect="+1% Defense, +3 Agility"
         type="equip-head"
         defense="1"
-        weight="2">
+        weight="20">
         <sprite>head-catears.xml</sprite>
     </item>
     <item id="1218"
@@ -2952,7 +2952,7 @@
         effect="+1% Defense, -1 Agility"
         type="equip-head"
         defense="1"
-        weight="1">
+        weight="10">
         <sprite>head-paperbag.xml</sprite>
     </item>
     <item id="1219"
@@ -2962,7 +2962,7 @@
         effect="+1% Defense"
         type="equip-head"
         defense="1"
-        weight="20">
+        weight="80">
         <sprite>head-moubootaurhead.xml</sprite>
     </item>
     <item id="1220"
@@ -2982,7 +2982,7 @@
         effect="+2% Defense"
         type="equip-head"
         defense="2"
-        weight="15">
+        weight="150">
         <sprite>head-skullmask.xml</sprite>
     </item>
     <item id="1222"
@@ -3138,14 +3138,14 @@
         name="Santa Snow Globe"
         description="An snow globe featuring Santa."
         type="generic"
-        weight="10"/>
+        weight="1"/>
 
     <item id="1241"
         image="generic/snowmanglobe.png"
         name="Snowman Snow Globe"
         description="An snow globe featuring a snowman."
         type="generic"
-        weight="10"/>
+        weight="1"/>
 
    <item id="1242"
         image="armor-head-snowgoggles.png"
@@ -3174,7 +3174,7 @@
         description="A twisted needle. It would be difficult to find one in a haystack, for example."
         effect="This item has no use."
         type="generic"
-        weight="1"/>
+        weight="3"/>
     <item id="1246"
         image="generic/dark-easter-egg.png"
         name="Dark easter egg"
@@ -3189,7 +3189,7 @@
         effect="+8% Defense"
         type="equip-head"
         defense="8"
-        weight="10">
+        weight="20">
         <sprite>equipment/head/heart-glasses.xml</sprite>
     </item>
     <item id="1248"
@@ -3199,14 +3199,14 @@
         effect="+800 HP"
         type="usable"
         hp="800"
-        weight="120"/>
+        weight="6"/>
     <item id="1249"
         image="generic/strange-coin.png"
         name="Strange coin"
         description="A strange coin. The markings on it are unlike anything you have ever seen before."
         effect="This item has no use."
         type="generic"
-        weight="180"/>
+        weight="3"/>
     <item id="1250"
         image="use-food-pear.png"
         name="Pear"
@@ -3214,7 +3214,7 @@
         effect="+200 HP"
         type="usable"
         hp="200"
-        weight="48"/>
+        weight="7"/>
     <item id="1251"
         image="use-food-yellow-plum.png"
         name="Yellow plum"
@@ -3222,7 +3222,7 @@
         effect="+300 HP"
         type="usable"
         hp="300"
-        weight="48"/>
+        weight="10"/>
     <item id="1252"
         image="use-food-cherry.png"
         name="Cherry"
@@ -3230,7 +3230,7 @@
         effect="+250 HP"
         type="usable"
         hp="250"
-        weight="48"/>
+        weight="5"/>
     <item id="1253"
         image="use-food-apple.png|R:#B3AB77;Y:#FFC030;G:#66CC33"
         name="Golden delicious apple"
@@ -3238,14 +3238,14 @@
         effect="+200 HP"
         type="usable"
         hp="200"
-        weight="48"/>
+        weight="30"/>
     <item id="1254"
         image="generic/dark-petal.png"
         name="Dark Petal"
         description="A single, dark, petal, oddly heavy. The edges of the petal are unusually hard, and have a slightly reflective shine to them. But looking into the gleam, you can only see fire..."
         effect="A ticket between worlds. If you should find yourself transported by one, be sure not to lose it, lest you become trapped indefinitely. This item cannot be used directly."
         type="generic"
-        weight="500"
+        weight="250"
     />
     <item id="1255"
         image="equipment/head/rabbit-ears.png|W:#FFFFFF"
@@ -3254,7 +3254,7 @@
         effect="+5% Defense"
         defense="5"
         type="equip-head"
-        weight="5">
+        weight="20">
         <sprite>equipment/head/rabbit-ears.xml|W:#FFFFFF</sprite>
     </item>
     <item id="1256"
@@ -3264,7 +3264,7 @@
         effect="+12% Defence, -1 Agility"
         defense="12"
         type="equip-head"
-        weight="482">
+        weight="15">
         <sprite>equipment/head/eggshell.xml</sprite>
     </item>
     <item id="1257"
@@ -3273,14 +3273,14 @@
         description="A failed attempt at making a lens with powerful properties. Perhaps, one day, you will be able to salvage the remains from this effort."
         effect="This item has no use."
         type="generic"
-        weight="112"/>
+        weight="3"/>
     <item id="1258"
         image="use-food-honey.png"
         name="Honey"
         description="A sweet food made by certain insects using nectar from flowers."
         effect="+100 HP"
         type="usable"
-        weight="112"/>
+        weight="20"/>
 
 
     <!-- The 2XXY IDs are used for recolored items on eAthena.
@@ -3298,7 +3298,7 @@
         description="A shirt made of 100% cotton."
         effect="+2% Defense"
         type="equip-torso"
-        weight="10">
+        weight="20">
         <sprite gender="male">chest-cotton-male.xml|#580000,A40000,C02020,ff6060</sprite>
         <sprite gender="female">chest-cotton-female.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
@@ -3308,7 +3308,7 @@
         description="A shirt made of 100% cotton."
         effect="+2% Defense"
         type="equip-torso"
-        weight="10">
+        weight="20">
         <sprite gender="male">chest-cotton-male.xml|#115511,22aa22,99dd99</sprite>
         <sprite gender="female">chest-cotton-female.xml|#115511,22aa22,99dd99</sprite>
     </item>
@@ -3318,7 +3318,7 @@
         description="A shirt made of 100% cotton."
         effect="+2% Defense"
         type="equip-torso"
-        weight="10">
+        weight="20">
         <sprite gender="male">chest-cotton-male.xml|#222255,6666ff</sprite>
         <sprite gender="female">chest-cotton-female.xml|#222255,6666ff</sprite>
     </item>
@@ -3328,7 +3328,7 @@
         description="A shirt made of 100% cotton."
         effect="+2% Defense"
         type="equip-torso"
-        weight="10">
+        weight="20">
         <sprite gender="male">chest-cotton-male.xml|#846211,dab333,fffb93,ffffff</sprite>
         <sprite gender="female">chest-cotton-female.xml|#846211,dab333,fffb93,ffffff</sprite>
     </item>
@@ -3338,7 +3338,7 @@
         description="A shirt made of 100% cotton."
         effect="+2% Defense"
         type="equip-torso"
-        weight="10">
+        weight="20">
         <sprite gender="male">chest-cotton-male.xml|#16486e,498ec5,e4f2fc</sprite>
         <sprite gender="female">chest-cotton-female.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
@@ -3348,7 +3348,7 @@
         description="A shirt made of 100% cotton."
         effect="+2% Defense"
         type="equip-torso"
-        weight="10">
+        weight="20">
         <sprite gender="male">chest-cotton-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
         <sprite gender="female">chest-cotton-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
@@ -3358,7 +3358,7 @@
         description="A shirt made of 100% cotton."
         effect="+2% Defense"
         type="equip-torso"
-        weight="10">
+        weight="20">
         <sprite gender="male">chest-cotton-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
         <sprite gender="female">chest-cotton-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
@@ -3368,7 +3368,7 @@
         description="A shirt made of 100% cotton."
         effect="+2% Defense"
         type="equip-torso"
-        weight="10">
+        weight="20">
         <sprite gender="male">chest-cotton-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
         <sprite gender="female">chest-cotton-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
@@ -3378,7 +3378,7 @@
         description="A shirt made of 100% cotton."
         effect="+2% Defense"
         type="equip-torso"
-        weight="10">
+        weight="20">
         <sprite gender="male">chest-cotton-male.xml|#4f0a76,8010c0,d699f7</sprite>
         <sprite gender="female">chest-cotton-female.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
@@ -3388,7 +3388,7 @@
         description="A shirt made of 100% cotton."
         effect="+2% Defense"
         type="equip-torso"
-        weight="10">
+        weight="20">
         <sprite gender="male">chest-cotton-male.xml|#104010,208020,30c030</sprite>
         <sprite gender="female">chest-cotton-female.xml|#104010,208020,30c030</sprite>
     </item>
@@ -3399,7 +3399,7 @@
         description="A soft, warm sweater."
         effect="+8% Defense"
         type="equip-torso"
-        weight="10">
+        weight="35">
         <sprite gender="male">chest-vnecksweater-male.xml|#580000,A40000,C02020,ff6060</sprite>
         <sprite gender="female">chest-vnecksweater-female.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
@@ -3409,7 +3409,7 @@
         description="A soft, warm sweater."
         effect="+8% Defense"
         type="equip-torso"
-        weight="10">
+        weight="35">
         <sprite gender="male">chest-vnecksweater-male.xml|#115511,22aa22,99dd99</sprite>
         <sprite gender="female">chest-vnecksweater-female.xml|#115511,22aa22,99dd99</sprite>
     </item>
@@ -3419,7 +3419,7 @@
         description="A soft, warm sweater."
         effect="+8% Defense"
         type="equip-torso"
-        weight="10">
+        weight="35">
         <sprite gender="male">chest-vnecksweater-male.xml|#222255,6666ff</sprite>
         <sprite gender="female">chest-vnecksweater-female.xml|#222255,6666ff</sprite>
     </item>
@@ -3429,7 +3429,7 @@
         description="A soft, warm sweater."
         effect="+8% Defense"
         type="equip-torso"
-        weight="10">
+        weight="35">
         <sprite gender="male">chest-vnecksweater-male.xml|#846211,dab333,fffb93,ffffff</sprite>
         <sprite gender="female">chest-vnecksweater-female.xml|#846211,dab333,fffb93,ffffff</sprite>
     </item>
@@ -3439,7 +3439,7 @@
         description="A soft, warm sweater."
         effect="+8% Defense"
         type="equip-torso"
-        weight="10">
+        weight="35">
         <sprite gender="male">chest-vnecksweater-male.xml|#16486e,498ec5,e4f2fc</sprite>
         <sprite gender="female">chest-vnecksweater-female.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
@@ -3449,7 +3449,7 @@
         description="A soft, warm sweater."
         effect="+8% Defense"
         type="equip-torso"
-        weight="10">
+        weight="35">
         <sprite gender="male">chest-vnecksweater-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
         <sprite gender="female">chest-vnecksweater-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
@@ -3459,7 +3459,7 @@
         description="A soft, warm sweater."
         effect="+8% Defense"
         type="equip-torso"
-        weight="10">
+        weight="35">
         <sprite gender="male">chest-vnecksweater-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
         <sprite gender="female">chest-vnecksweater-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
@@ -3469,7 +3469,7 @@
         description="A soft, warm sweater."
         effect="+8% Defense"
         type="equip-torso"
-        weight="10">
+        weight="35">
         <sprite gender="male">chest-vnecksweater-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
         <sprite gender="female">chest-vnecksweater-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
@@ -3479,7 +3479,7 @@
         description="A soft, warm sweater."
         effect="+8% Defense"
         type="equip-torso"
-        weight="10">
+        weight="35">
         <sprite gender="male">chest-vnecksweater-male.xml|#4f0a76,8010c0,d699f7</sprite>
         <sprite gender="female">chest-vnecksweater-female.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
@@ -3489,7 +3489,7 @@
         description="A soft, warm sweater."
         effect="+8% Defense"
         type="equip-torso"
-        weight="10">
+        weight="35">
         <sprite gender="male">chest-vnecksweater-male.xml|#104010,208020,30c030</sprite>
         <sprite gender="female">chest-vnecksweater-female.xml|#104010,208020,30c030</sprite>
     </item>
@@ -3500,7 +3500,7 @@
         description="A soft, warm sweater."
         effect="+6% Defense"
         type="equip-torso"
-        weight="10">
+        weight="35">
         <sprite gender="male">chest-tnecksweater-male.xml|#580000,A40000,C02020,ff6060</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
@@ -3510,7 +3510,7 @@
         description="A soft, warm sweater."
         effect="+6% Defense"
         type="equip-torso"
-        weight="10">
+        weight="35">
         <sprite gender="male">chest-tnecksweater-male.xml|#115511,22aa22,99dd99</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml|#115511,22aa22,99dd99</sprite>
     </item>
@@ -3520,7 +3520,7 @@
         description="A soft, warm sweater."
         effect="+6% Defense"
         type="equip-torso"
-        weight="10">
+        weight="35">
         <sprite gender="male">chest-tnecksweater-male.xml|#222255,6666ff</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml|#222255,6666ff</sprite>
     </item>
@@ -3530,7 +3530,7 @@
         description="A soft, warm sweater."
         effect="+6% Defense"
         type="equip-torso"
-        weight="10">
+        weight="35">
         <sprite gender="male">chest-tnecksweater-male.xml|#846211,dab333,fffb93,ffffff</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml|#846211,dab333,fffb93,ffffff</sprite>
     </item>
@@ -3540,7 +3540,7 @@
         description="A soft, warm sweater."
         effect="+6% Defense"
         type="equip-torso"
-        weight="10">
+        weight="35">
         <sprite gender="male">chest-tnecksweater-male.xml|#16486e,498ec5,e4f2fc</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
@@ -3550,7 +3550,7 @@
         description="A soft, warm sweater."
         effect="+6% Defense"
         type="equip-torso"
-        weight="10">
+        weight="35">
         <sprite gender="male">chest-tnecksweater-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
@@ -3560,7 +3560,7 @@
         description="A soft, warm sweater."
         effect="+6% Defense"
         type="equip-torso"
-        weight="10">
+        weight="35">
         <sprite gender="male">chest-tnecksweater-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
@@ -3570,7 +3570,7 @@
         description="A soft, warm sweater."
         effect="+6% Defense"
         type="equip-torso"
-        weight="10">
+        weight="35">
         <sprite gender="male">chest-tnecksweater-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
@@ -3580,7 +3580,7 @@
         description="A soft, warm sweater."
         effect="+6% Defense"
         type="equip-torso"
-        weight="10">
+        weight="35">
         <sprite gender="male">chest-tnecksweater-male.xml|#4f0a76,8010c0,d699f7</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
@@ -3590,7 +3590,7 @@
         description="A soft, warm sweater."
         effect="+6% Defense"
         type="equip-torso"
-        weight="10">
+        weight="35">
         <sprite gender="male">chest-tnecksweater-male.xml|#104010,208020,30c030</sprite>
         <sprite gender="female">chest-tnecksweater-female.xml|#104010,208020,30c030</sprite>
     </item>
@@ -3601,7 +3601,7 @@
         description="A light and shimmering silk robe."
         effect="+5% Defense"
         type="equip-torso"
-        weight="5"
+        weight="30"
         defense="5"
         max-per-slot="1">
         <sprite gender="male">chest-robe-male.xml|#580000,A40000,C02020,ff6060</sprite>
@@ -3613,7 +3613,7 @@
         description="A light and shimmering silk robe."
         effect="+5% Defense"
         type="equip-torso"
-        weight="5"
+        weight="30"
         defense="5"
         max-per-slot="1">
         <sprite gender="male">chest-robe-male.xml|#115511,22aa22,99dd99</sprite>
@@ -3625,7 +3625,7 @@
         description="A light and shimmering silk robe."
         effect="+5% Defense"
         type="equip-torso"
-        weight="5"
+        weight="30"
         defense="5"
         max-per-slot="1">
         <sprite gender="male">chest-robe-male.xml|#222255,6666ff</sprite>
@@ -3637,7 +3637,7 @@
         description="A light and shimmering silk robe."
         effect="+5% Defense"
         type="equip-torso"
-        weight="5"
+        weight="30"
         defense="5"
         max-per-slot="1">
         <sprite gender="male">chest-robe-male.xml|#846211,dab333,fffb93,ffffff</sprite>
@@ -3649,7 +3649,7 @@
         description="A light and shimmering silk robe."
         effect="+5% Defense"
         type="equip-torso"
-        weight="5"
+        weight="30"
         defense="5"
         max-per-slot="1">
         <sprite gender="male">chest-robe-male.xml|#16486e,498ec5,e4f2fc</sprite>
@@ -3661,7 +3661,7 @@
         description="A light and shimmering silk robe."
         effect="+5% Defense"
         type="equip-torso"
-        weight="5"
+        weight="30"
         defense="5"
         max-per-slot="1">
         <sprite gender="male">chest-robe-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
@@ -3673,7 +3673,7 @@
         description="A light and shimmering silk robe."
         effect="+5% Defense"
         type="equip-torso"
-        weight="5"
+        weight="30"
         defense="5"
         max-per-slot="1">
         <sprite gender="male">chest-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
@@ -3685,7 +3685,7 @@
         description="A light and shimmering silk robe."
         effect="+5% Defense"
         type="equip-torso"
-        weight="5"
+        weight="30"
         defense="5"
         max-per-slot="1">
         <sprite gender="male">chest-robe-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
@@ -3697,7 +3697,7 @@
         description="A light and shimmering silk robe."
         effect="+5% Defense"
         type="equip-torso"
-        weight="5"
+        weight="30"
         defense="5"
         max-per-slot="1">
         <sprite gender="male">chest-robe-male.xml|#4f0a76,8010c0,d699f7</sprite>
@@ -3709,7 +3709,7 @@
         description="A light and shimmering silk robe."
         effect="+5% Defense"
         type="equip-torso"
-        weight="5"
+        weight="30"
         defense="5"
         max-per-slot="1">
         <sprite gender="male">chest-robe-male.xml|#104010,208020,30c030</sprite>
@@ -3722,7 +3722,7 @@
         description="A sleeveless shirt for hot summer days."
         effect="+2% Defense"
         type="equip-torso"
-        weight="10">
+        weight="12">
         <sprite gender="male">chest-tanktop-male.xml|#580000,A40000,C02020,ff6060</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
@@ -3732,7 +3732,7 @@
         description="A sleeveless shirt for hot summer days."
         effect="+2% Defense"
         type="equip-torso"
-        weight="10">
+        weight="12">
         <sprite gender="male">chest-tanktop-male.xml|#115511,22aa22,99dd99</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#115511,22aa22,99dd99</sprite>
     </item>
@@ -3742,7 +3742,7 @@
         description="A sleeveless shirt for hot summer days."
         effect="+2% Defense"
         type="equip-torso"
-        weight="10">
+        weight="12">
         <sprite gender="male">chest-tanktop-male.xml|#222255,6666ff</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#222255,6666ff</sprite>
     </item>
@@ -3752,7 +3752,7 @@
         description="A sleeveless shirt for hot summer days."
         effect="+2% Defense"
         type="equip-torso"
-        weight="10">
+        weight="12">
         <sprite gender="male">chest-tanktop-male.xml|#846211,dab333,fffb93,ffffff</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#846211,dab333,fffb93,ffffff</sprite>
     </item>
@@ -3761,7 +3761,7 @@
         description="A sleeveless shirt for hot summer days."
         effect="+2% Defense"
         type="equip-torso"
-        weight="10">
+        weight="12">
         <sprite gender="male">chest-tanktop-male.xml|#16486e,498ec5,e4f2fc</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
@@ -3770,7 +3770,7 @@
         description="A sleeveless shirt for hot summer days."
         effect="+2% Defense"
         type="equip-torso"
-        weight="10">
+        weight="12">
         <sprite gender="male">chest-tanktop-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
@@ -3780,7 +3780,7 @@
         description="A sleeveless shirt for hot summer days."
         effect="+2% Defense"
         type="equip-torso"
-        weight="10">
+        weight="12">
         <sprite gender="male">chest-tanktop-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
@@ -3790,7 +3790,7 @@
         description="A sleeveless shirt for hot summer days."
         effect="+2% Defense"
         type="equip-torso"
-        weight="10">
+        weight="12">
         <sprite gender="male">chest-tanktop-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
@@ -3799,7 +3799,7 @@
         description="A sleeveless shirt for hot summer days."
         effect="+2% Defense"
         type="equip-torso"
-        weight="10">
+        weight="12">
         <sprite gender="male">chest-tanktop-male.xml|#4f0a76,8010c0,d699f7</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
@@ -3809,7 +3809,7 @@
         description="A sleeveless shirt for hot summer days."
         effect="+2% Defense"
         type="equip-torso"
-        weight="10">
+        weight="12">
         <sprite gender="male">chest-tanktop-male.xml|#104010,208020,30c030</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#104010,208020,30c030</sprite>
     </item>
@@ -3821,7 +3821,7 @@
         effect="+4% Defense"
         defense="4"
         type="equip-legs"
-        weight="10"
+        weight="20"
         max-per-slot="1">
         <sprite>leg-skirt.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
@@ -3832,7 +3832,7 @@
         effect="+4% Defense"
         defense="4"
         type="equip-legs"
-        weight="10"
+        weight="20"
         max-per-slot="1">
       <sprite>leg-skirt.xml|#115511,22aa22,99dd99</sprite>
     </item>
@@ -3843,7 +3843,7 @@
         effect="+4% Defense"
         defense="4"
         type="equip-legs"
-        weight="10"
+        weight="20"
         max-per-slot="1">
         <sprite>leg-skirt.xml|#222255,6666ff</sprite>
     </item>
@@ -3854,7 +3854,7 @@
         effect="+4% Defense"
         defense="4"
         type="equip-legs"
-        weight="10"
+        weight="20"
         max-per-slot="1">
         <sprite>leg-skirt.xml|#846211,dab333,fffb93,ffffff</sprite>
     </item>
@@ -3865,7 +3865,7 @@
         effect="+4% Defense"
         defense="4"
         type="equip-legs"
-        weight="10"
+        weight="20"
         max-per-slot="1">
         <sprite>leg-skirt.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
@@ -3876,7 +3876,7 @@
         effect="+4% Defense"
         defense="4"
         type="equip-legs"
-        weight="10"
+        weight="20"
         max-per-slot="1">
         <sprite>leg-skirt.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
@@ -3887,7 +3887,7 @@
         effect="+4% Defense"
         defense="4"
         type="equip-legs"
-        weight="10"
+        weight="20"
         max-per-slot="1">
         <sprite>leg-skirt.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
@@ -3898,7 +3898,7 @@
         effect="+4% Defense"
         defense="4"
         type="equip-legs"
-        weight="10"
+        weight="20"
         max-per-slot="1">
         <sprite>leg-skirt.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
@@ -3909,7 +3909,7 @@
         effect="+4% Defense"
         defense="4"
         type="equip-legs"
-        weight="10"
+        weight="20"
         max-per-slot="1">
         <sprite>leg-skirt.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
@@ -3920,7 +3920,7 @@
         effect="+4% Defense"
         defense="4"
         type="equip-legs"
-        weight="10"
+        weight="20"
         max-per-slot="1">
         <sprite>leg-skirt.xml|#104010,208020,30c030</sprite>
     </item>
@@ -3931,7 +3931,7 @@
         description="Shorts made of 100% cotton."
         effect="+2% Defense"
         type="equip-legs"
-        weight="10"
+        weight="20"
         defense="2"
         max-per-slot="1">
         <sprite gender="male">leg-shorts-male.xml|#580000,A40000,C02020,ff6060</sprite>
@@ -3943,7 +3943,7 @@
         description="Shorts made of 100% cotton."
         effect="+2% Defense"
         type="equip-legs"
-        weight="10"
+        weight="20"
         defense="2"
         max-per-slot="1">
         <sprite gender="male">leg-shorts-male.xml|#115511,22aa22,99dd99</sprite>
@@ -3955,7 +3955,7 @@
         description="Shorts made of 100% cotton."
         effect="+2% Defense"
         type="equip-legs"
-        weight="10"
+        weight="20"
         defense="2"
         max-per-slot="1">
         <sprite gender="male">leg-shorts-male.xml|#222255,6666ff</sprite>
@@ -3967,7 +3967,7 @@
         description="Shorts made of 100% cotton."
         effect="+2% Defense"
         type="equip-legs"
-        weight="10"
+        weight="20"
         defense="2"
         max-per-slot="1">
         <sprite gender="male">leg-shorts-male.xml|#846211,dab333,fffb93,ffffff</sprite>
@@ -3979,7 +3979,7 @@
         description="Shorts made of 100% cotton."
         effect="+2% Defense"
         type="equip-legs"
-        weight="10"
+        weight="20"
         defense="2"
         max-per-slot="1">
         <sprite gender="male">leg-shorts-male.xml|#16486e,498ec5,e4f2fc</sprite>
@@ -3991,7 +3991,7 @@
         description="Shorts made of 100% cotton."
         effect="+2% Defense"
         type="equip-legs"
-        weight="10"
+        weight="20"
         defense="2"
         max-per-slot="1">
         <sprite gender="male">leg-shorts-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
@@ -4003,7 +4003,7 @@
         description="Shorts made of 100% cotton."
         effect="+2% Defense"
         type="equip-legs"
-        weight="10"
+        weight="20"
         defense="2"
         max-per-slot="1">
         <sprite gender="male">leg-shorts-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
@@ -4015,7 +4015,7 @@
         description="Shorts made of 100% cotton."
         effect="+2% Defense"
         type="equip-legs"
-        weight="10"
+        weight="20"
         defense="2"
         max-per-slot="1">
         <sprite gender="male">leg-shorts-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
@@ -4027,7 +4027,7 @@
         description="Shorts made of 100% cotton."
         effect="+2% Defense"
         type="equip-legs"
-        weight="10"
+        weight="20"
         defense="2"
         max-per-slot="1">
         <sprite gender="male">leg-shorts-male.xml|#520a7b,8c23c7,ca87ef</sprite>
@@ -4039,7 +4039,7 @@
         description="Shorts made of 100% cotton."
         effect="+2% Defense"
         type="equip-legs"
-        weight="10"
+        weight="20"
         defense="2"
         max-per-slot="1">
         <sprite gender="male">leg-shorts-male.xml|#104010,208020,30c030</sprite>
@@ -4153,7 +4153,7 @@
         effect="+3% Defense"
         type="equip-head"
         defense="3"
-        weight="10">
+        weight="20">
         <sprite>head-deserthat.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
     <item id="2131"
@@ -4163,7 +4163,7 @@
         effect="+3% Defense"
         type="equip-head"
         defense="3"
-        weight="10">
+        weight="20">
         <sprite>head-deserthat.xml|#115511,22aa22,99dd99</sprite>
     </item>
     <item id="2132"
@@ -4173,7 +4173,7 @@
         effect="+3% Defense"
         type="equip-head"
         defense="3"
-        weight="10">
+        weight="20">
         <sprite>head-deserthat.xml|#222255,6666ff</sprite>
     </item>
     <item id="2133"
@@ -4183,7 +4183,7 @@
         effect="+3% Defense"
         type="equip-head"
         defense="3"
-        weight="10">
+        weight="20">
         <sprite>head-deserthat.xml|#846211,dab333,fffb93,ffffff</sprite>
     </item>
     <item id="2134"
@@ -4193,7 +4193,7 @@
         effect="+3% Defense"
         type="equip-head"
         defense="3"
-        weight="10">
+        weight="20">
         <sprite>head-deserthat.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
     <item id="2135"
@@ -4203,7 +4203,7 @@
         effect="+3% Defense"
         type="equip-head"
         defense="3"
-        weight="10">
+        weight="20">
         <sprite>head-deserthat.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2136"
@@ -4213,7 +4213,7 @@
         effect="+3% Defense"
         type="equip-head"
         defense="3"
-        weight="10">
+        weight="20">
         <sprite>head-deserthat.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
     <item id="2137"
@@ -4223,7 +4223,7 @@
         effect="+3% Defense"
         type="equip-head"
         defense="3"
-        weight="10">
+        weight="20">
         <sprite>head-deserthat.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
     <item id="2138"
@@ -4233,7 +4233,7 @@
         effect="+3% Defense"
         type="equip-head"
         defense="3"
-        weight="10">
+        weight="20">
         <sprite>head-deserthat.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2139"
@@ -4243,7 +4243,7 @@
         effect="+3% Defense"
         type="equip-head"
         defense="3"
-        weight="10">
+        weight="20">
         <sprite>head-deserthat.xml|#104010,208020,30c030</sprite>
     </item>
 
@@ -4355,7 +4355,7 @@
         effect="+1% Defense"
         type="equip-feet"
         defense="1"
-        weight="10">
+        weight="30">
         <sprite gender="male">equipment/feet/boots-male.xml|#580000,A40000,C02020,ff6060</sprite>
         <sprite gender="female">equipment/feet/boots-female.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
@@ -4366,7 +4366,7 @@
         effect="+1% Defense"
         type="equip-feet"
         defense="1"
-        weight="10">
+        weight="30">
         <sprite gender="male">equipment/feet/boots-male.xml|#115511,22aa22,99dd99</sprite>
         <sprite gender="female">equipment/feet/boots-female.xml|#115511,22aa22,99dd99</sprite>
     </item>
@@ -4377,7 +4377,7 @@
         effect="+1% Defense"
         type="equip-feet"
         defense="1"
-        weight="10">
+        weight="30">
         <sprite gender="male">equipment/feet/boots-male.xml|#222255,6666ff</sprite>
         <sprite gender="female">equipment/feet/boots-female.xml|#222255,6666ff</sprite>
     </item>
@@ -4388,7 +4388,7 @@
         effect="+1% Defense"
         type="equip-feet"
         defense="1"
-        weight="10">
+        weight="30">
         <sprite gender="male">equipment/feet/boots-male.xml|#846211,dab333,fffb93,ffffff</sprite>
         <sprite gender="female">equipment/feet/boots-female.xml|#846211,dab333,fffb93,ffffff</sprite>
     </item>
@@ -4399,7 +4399,7 @@
         effect="+1% Defense"
         type="equip-feet"
         defense="1"
-        weight="10">
+        weight="30">
         <sprite gender="male">equipment/feet/boots-male.xml|#16486e,498ec5,e4f2fc</sprite>
         <sprite gender="female">equipment/feet/boots-female.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
@@ -4410,7 +4410,7 @@
         effect="+1% Defense"
         type="equip-feet"
         defense="1"
-        weight="10">
+        weight="30">
         <sprite gender="male">equipment/feet/boots-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
         <sprite gender="female">equipment/feet/boots-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
@@ -4421,7 +4421,7 @@
         effect="+1% Defense"
         type="equip-feet"
         defense="1"
-        weight="10">
+        weight="30">
         <sprite gender="male">equipment/feet/boots-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
         <sprite gender="female">equipment/feet/boots-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
@@ -4432,7 +4432,7 @@
         effect="+1% Defense"
         type="equip-feet"
         defense="1"
-        weight="10">
+        weight="30">
         <sprite gender="male">equipment/feet/boots-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
         <sprite gender="female">equipment/feet/boots-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
@@ -4443,7 +4443,7 @@
         effect="+1% Defense"
         type="equip-feet"
         defense="1"
-        weight="10">
+        weight="30">
         <sprite gender="male">equipment/feet/boots-male.xml|#4f0a76,8010c0,d699f7</sprite>
         <sprite gender="female">equipment/feet/boots-female.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
@@ -4454,7 +4454,7 @@
         effect="+1% Defense"
         type="equip-feet"
         defense="1"
-        weight="10">
+        weight="30">
         <sprite gender="male">equipment/feet/boots-male.xml|#104010,208020,30c030</sprite>
         <sprite gender="female">equipment/feet/boots-female.xml|#104010,208020,30c030</sprite>
     </item>
@@ -4466,7 +4466,7 @@
         effect="+1% Defense"
         type="equip-arms"
         defense="1"
-        weight="10">
+        weight="20">
         <sprite gender="male">hands-gloves-generic-male.xml|#580000,A40000,C02020,ff6060</sprite>
         <sprite gender="female">hands-gloves-generic-female.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
@@ -4477,7 +4477,7 @@
         effect="+1% Defense"
         type="equip-arms"
         defense="1"
-        weight="10">
+        weight="20">
         <sprite gender="male">hands-gloves-generic-male.xml|#115511,22aa22,99dd99</sprite>
         <sprite gender="female">hands-gloves-generic-female.xml|#115511,22aa22,99dd99</sprite>
     </item>
@@ -4488,7 +4488,7 @@
         effect="+1% Defense"
         type="equip-arms"
         defense="1"
-        weight="10">
+        weight="20">
         <sprite gender="male">hands-gloves-generic-male.xml|#222255,6666ff</sprite>
         <sprite gender="female">hands-gloves-generic-female.xml|#222255,6666ff</sprite>
     </item>
@@ -4499,7 +4499,7 @@
         effect="+1% Defense"
         type="equip-arms"
         defense="1"
-        weight="10">
+        weight="20">
         <sprite gender="male">hands-gloves-generic-male.xml|#846211,dab333,fffb93,ffffff</sprite>
         <sprite gender="female">hands-gloves-generic-female.xml|#846211,dab333,fffb93,ffffff</sprite>
     </item>
@@ -4510,7 +4510,7 @@
         effect="+1% Defense"
         type="equip-arms"
         defense="1"
-        weight="10">
+        weight="20">
         <sprite gender="male">hands-gloves-generic-male.xml|#16486e,498ec5,e4f2fc</sprite>
         <sprite gender="female">hands-gloves-generic-female.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
@@ -4521,7 +4521,7 @@
         effect="+1% Defense"
         type="equip-arms"
         defense="1"
-        weight="10">
+        weight="20">
         <sprite gender="male">hands-gloves-generic-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
         <sprite gender="female">hands-gloves-generic-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
@@ -4532,7 +4532,7 @@
         effect="+1% Defense"
         type="equip-arms"
         defense="1"
-        weight="10">
+        weight="20">
         <sprite gender="male">hands-gloves-generic-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
         <sprite gender="female">hands-gloves-generic-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
@@ -4543,7 +4543,7 @@
         effect="+1% Defense"
         type="equip-arms"
         defense="1"
-        weight="10">
+        weight="20">
         <sprite gender="male">hands-gloves-generic-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
         <sprite gender="female">hands-gloves-generic-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
@@ -4554,7 +4554,7 @@
         effect="+1% Defense"
         type="equip-arms"
         defense="1"
-        weight="10">
+        weight="20">
         <sprite gender="male">hands-gloves-generic-male.xml|#4f0a76,8010c0,d699f7</sprite>
         <sprite gender="female">hands-gloves-generic-female.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
@@ -4565,7 +4565,7 @@
         effect="+1% Defense"
         type="equip-arms"
         defense="1"
-        weight="10">
+        weight="20">
         <sprite gender="male">hands-gloves-generic-male.xml|#104010,208020,30c030</sprite>
         <sprite gender="female">hands-gloves-generic-female.xml|#104010,208020,30c030</sprite>
     </item>
@@ -4697,7 +4697,7 @@
         effect="+5% Defense"
         defense="5"
         type="equip-head"
-        weight="5"
+        weight="15"
         max-per-slot="1">
         <sprite>equipment/head/rabbit-ears.xml|#580000,a40000,c02020,ff6060</sprite>
     </item>
@@ -4708,7 +4708,7 @@
         effect="+5% Defense"
         defense="5"
         type="equip-head"
-        weight="5"
+        weight="15"
         max-per-slot="1">
         <sprite>equipment/head/rabbit-ears.xml|#115511,22aa22,99dd99</sprite>
     </item>
@@ -4719,7 +4719,7 @@
         effect="+5% Defense"
         defense="5"
         type="equip-head"
-        weight="5"
+        weight="15"
         max-per-slot="1">
         <sprite>equipment/head/rabbit-ears.xml|#222255,6666ff</sprite>
     </item>
@@ -4730,7 +4730,7 @@
         effect="+5% Defense"
         defense="5"
         type="equip-head"
-        weight="5"
+        weight="15"
         max-per-slot="1">
         <sprite>equipment/head/rabbit-ears.xml|#846211,dab333,fffb93,ffffff</sprite>
     </item>
@@ -4741,7 +4741,7 @@
         effect="+5% Defense"
         defense="5"
         type="equip-head"
-        weight="5"
+        weight="15"
         max-per-slot="1">
         <sprite>equipment/head/rabbit-ears.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
@@ -4752,7 +4752,7 @@
         effect="+5% Defense"
         defense="5"
         type="equip-head"
-        weight="5"
+        weight="15"
         max-per-slot="1">
         <sprite>equipment/head/rabbit-ears.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
@@ -4763,7 +4763,7 @@
         effect="+5% Defense"
         defense="5"
         type="equip-head"
-        weight="5"
+        weight="15"
         max-per-slot="1">
         <sprite>equipment/head/rabbit-ears.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
@@ -4774,7 +4774,7 @@
         effect="+5% Defense"
         defense="5"
         type="equip-head"
-        weight="5"
+        weight="15"
         max-per-slot="1">
         <sprite>equipment/head/rabbit-ears.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
@@ -4785,7 +4785,7 @@
         effect="+5% Defense"
         defense="5"
         type="equip-head"
-        weight="5"
+        weight="15"
         max-per-slot="1">
         <sprite>equipment/head/rabbit-ears.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
@@ -4796,7 +4796,7 @@
         effect="+5% Defense"
         defense="5"
         type="equip-head"
-        weight="5"
+        weight="15"
         max-per-slot="1">
         <sprite>equipment/head/rabbit-ears.xml|#104010,208020,30c030</sprite>
     </item>
