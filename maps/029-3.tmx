@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="graphics/minimaps/029-3.png"/>
+  <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
+  <property name="name" value="Fight Cave"/>
+ </properties>
+ <tileset firstgid="1" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset firstgid="3" name="Cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png"/>
+ </tileset>
+ <tileset firstgid="131" name="Arena" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/arena.png"/>
+ </tileset>
+ <layer name="Gound" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3ZOU7DUBRAUVeIEhCglICYaQAx0zKzgKyCDVBk7XxLjmxZthOJOH6RTnGquPm+es9OMs6ybAwAAAAAAAAAhZ3kfMG2A5xrFeUtjpKnFhvJZrLVcU2Tw+SkcBHgnJFV5yFvcZt8tdhL9pODjmua3CT3hecAZ46qPg95i9fkt8EkuUyukuuWa9q8JO+F7wDnjmjaojoPbS0W6Tizs+rOKi36aPDT8dldZmfVPfbYYpa3zM6q+xyoxfQ5tBvgHkSR76rTgVpM6VHKd9WDHmGMkg89Qoiwq/QoRdhVepTy96q2XdX1nUGPfoyWeM/10GPV6BHLUD3qzyY9yh6TgZro0dxj6BZ66BGVHrHoEUuEHmsB7kMUEXqYjRg9zEWz9YF6mItmQ8yI2ei2zBnRYrZlzYgW8+t7RrRYbJP//F+oRX9d5lH9zViL4ZtoAAAAAAAAAAAAAAAAAAAAAAAAEN8fGah3wUCcAAA=
+  </data>
+ </layer>
+ <layer name="Floor" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3aK48TYRgF4HcCDhxgAMmdf4EkKBwEhUKw3DyK265f7hIwgAMHbi0Oi8PisIg9m2XDZDrt0jKTzZLnSU7aTDvNpCfvdOZLqwAAAAAAAAAAYHe6u9MHAMCud6GpWqm/y9Vmp47y/zdPD91OXA8M58qCPWzkWvY9Z0YG052JezV/J+ebzTh3/bu+2VhNHidPkqfJs+R58iJ5+fs9l3v2u6iPQbRn5FXyOnmTLHfyNnmXvC+/7WNqz8iH5GNtfv8Pa7KTT8nn0seY2vOxVpMddPOl+vtwvhpGez6+1vZ9fCvzMZbu7/n32r6PHzXZxe18zh19LGTr3q3v/u9n9XfwqPX8VzlXjaHvWndPtu1tps/Gvry2v7Xf/XKuGkp7PrbuJw7k8WByqKeTw9l2JDnamI0xTFsnOZbtx5MTycnkVHI6OZOc7dnHbAxj0fVDszGOWeuIs9ax2mslZmMc1/O9Xkoe1GSm9aKLcW10spTcSG4mt5o/9xWzXgMAYH7+PwIAAAAAAAAAAAAAAAAAAAAAAADAWNYBPPzlEkCcAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3ZyQmAMBQE0NiES91ebUkL0GZMB4pmwfge/FsYws9lICEAAAAAAAAAAADQsjXOluAM9Xmn5+yuHUvtCzSk70IYujzZY8ydMmUD0Da97T67AgCA5/Tp+652NZe6CACfk+u/aI9zpI/9nTd9SJcqy74BAAAAAAAAAAAAAAAAAAAAAAAAAOo6AVlv80ZAnAAA
+  </data>
+ </layer>
+ <layer name="Over" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3ZXU7CQBQG0OFFNLoBcf+P/mwAFqD7AX3zNobYEKDDdKYWc05yHyDtpLlfbtppUwIAAAAAAAAAgOv3HPVS4RjqeI16GzhmHbU58r+cyrXo3amcGKZ387CN2jVa+zPqq9Ha/9XNIqXlos3at7HuXaO1AWrzzJtvil7l7F/4oVcAANfF3iPfFL3yzjifXtF5jHr464uADFN+L+rmYpXMRt991FPv9+H3ojH3+P6571Efhevw69z7xaGszp3rnnHa4YzkKn0ek8V8yCJP6YxcQhaXaZmJLMp0mXTPoDVzkcV4Y2dlv7ewv6hnPyslJQMAAAAAAAAAAAAAAAAAAAAAAID5+waHIGhfQJwAAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="100" height="100" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3Vy27DIBRAQcr/f3RWSAiTBNuYS9tBmkUcxw+OIDmllAEAAAAAAAAAuC1t8Az/UTt6x0ZH9Lv8ZmX8TKLN9Qa9FuWcT3PenvPufD3GW8xaD5866THWop6nJ7roMd7iqXWhyfkeo/8Ps/YrPb73WE2Pfgs99hHVQo/xHvmh+c/NtfU4tig92rmyPmJ72K/i6bGXtkVe0KC+hx5HUWtDj6Okx1b02MvKHuWedQs9+j3auVq1NvTo97BX7SGiRz2i3383Zdij9lF6lM+zG9TX1WOsR2nybh7vNLA2rjW5O9/2qbk9zjbRYk2Ts22yFkuajM65FnFdesfa7+vfR7/HX3J1RD83AAAAAAAAAAAAAAAAAAAAAAAA370Ap5DQ1ECcAAA=
+  </data>
+ </layer>
+</map>
