@@ -106,7 +106,7 @@
     <property name="eA_death" value="1200"/>
     <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="18"/>
-    <property name="monster_id" value="15"/>
+    <property name="monster_id" value="31"/>
    </properties>
   </object>
   <object name="Sea Slime" type="spawn" x="1088" y="2240" width="736" height="352">
@@ -114,10 +114,10 @@
     <property name="eA_death" value="1200"/>
     <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="18"/>
-    <property name="monster_id" value="15"/>
+    <property name="monster_id" value="31"/>
    </properties>
   </object>
-  <object name="squirrel" type="spawn" x="736" y="3232" width="32" height="32">
+  <object name="Squirrel" type="spawn" x="736" y="3232" width="32" height="32">
    <properties>
     <property name="eA_death" value="50000"/>
     <property name="eA_spawn" value="300000"/>
@@ -155,6 +155,13 @@
     <property name="eA_spawn" value="700000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="43"/>
+   </properties>
+  </object>
+  <object name="To028-3" type="warp" x="3648" y="3904" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="028-3"/>
+    <property name="dest_x" value="1056"/>
+    <property name="dest_y" value="2496"/>
    </properties>
   </object>
  </objectgroup>
