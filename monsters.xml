@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright 2009 The Mana World Development Team 
+<!-- Copyright 2009 The Mana World Development Team
 monsters.xml parameters explanation:
 This file is used to describe the monsters the players will see all around the world.
 It can be used by both client and server, but some parameters are specific.
@@ -78,7 +78,7 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
             aft-delay="5"
             damage-factor="1"
             range="32"
-            animation="attack"
+            action="attack"
             script-function="strike"
             />
             <script>testmonster.lua</script> <!-- only Proof of Concept-->
@@ -382,7 +382,7 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
             aft-delay="5"
             damage-factor="1"
             range="32"
-            animation="attack"
+            action="attack"
             particle-effect="graphics/particles/monster-goblin-firebreath.particle.xml"
             />
     </monster>
@@ -829,7 +829,7 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
             mutation="50"
             />
     </monster>
-    
+
     <monster id="31" name="Sea Slime">
         <sprite>monsters/monster-slime.xml|#4ca1a0,ffffff</sprite>
         <sprite>monsters/accessories/slime-seajelly.xml|#4Ca16e,ffffff</sprite>
@@ -971,7 +971,7 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
             aft-delay="5"
             damage-factor="1"
             range="32"
-            animation="attack"
+            action="attack"
             particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"
             />
     </monster>
@@ -1090,7 +1090,7 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
             aft-delay="5"
             damage-factor="1"
             range="32"
-            animation="attack"
+            action="attack"
             />
     </monster>
 
@@ -1119,7 +1119,7 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
             aft-delay="5"
             damage-factor="1"
             range="32"
-            animation="attack"
+            action="attack"
             />
     </monster>
 
@@ -1150,7 +1150,7 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
             aft-delay="5"
             damage-factor="1"
             range="32"
-            animation="attack"
+            action="attack"
             />
     </monster>
 
@@ -1224,7 +1224,7 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
             aft-delay="5"
             damage-factor="1"
             range="32"
-            animation="attack"
+            action="attack"
             />
     </monster>
 

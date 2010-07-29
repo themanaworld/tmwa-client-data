@@ -68,43 +68,7 @@
         <sprite gender="female">player_female_base.xml</sprite>
     </item>
 
-    <item id="16">
-<!--        <sprite>weapon-dagger.xml</sprite>-->
-    </item>
-
-    <!-- TEMPORARY LOW WEAPON ID:S (< 256) -->
-
-
-    <item id="30"
-        weapon_type="1">
-        <sprite>weapon-dagger.xml</sprite>
-        <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
-        <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
-    </item>
-    <item id="31"
-        weapon_type="10">
-        <sprite>weapon-bow.xml</sprite>
-        <sound event="swing">weapons/bows/bow_shoot_1.ogg</sound>
-    </item>
-    <item id="32"
-        weapon_type="11">
-        <sprite>weapon-scythe.xml</sprite>
-    </item>
-    <item id="33"
-        weapon_type="1">
-        <sprite>weapon-dagger.xml</sprite>
-        <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
-        <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
-    </item>
-    <item id="34"
-        weapon_type="1"> <!-- magic fist -->
-        <sprite>weapon-fist.xml</sprite>
-    </item>
-    <item id="35"
-        weapon_type="11">
-        <sprite>weapon-staff.xml</sprite>
-    </item>
-
+    <!-- Items -->
     <item id="501"
         image="use-potion-a.png|G:#22ff22"
         name="Cactus Drink"
@@ -279,6 +243,7 @@
         weapon_type="1"
         weight="200"
         weapon-type="knife"
+        attack-action="attack"
         attack-min="5"
         attack-delta="10"
         attack-range="32"
@@ -297,6 +262,7 @@
         weight="150"
         max-per-slot="1"
         weapon-type="knife"
+        attack-action="attack"
         attack-min="8"
         attack-delta="2"
         attack-range="32"
@@ -382,6 +348,7 @@
         type="equip-2hand"
         weapon_type="10"
         weapon-type="bow"
+        attack-action="attack_bow"
         weight="600"
         max-per-slot="1"
         damage-min="50"
@@ -451,6 +418,7 @@
         weight="2000"
         slot ="0"
         weapon-type="sword"
+        attack-action="attack"
         attack-min="20"
         attack-delta="30"
         attack-range="32"
@@ -538,6 +506,7 @@
         weight="1200"
         max-per-slot="1"
         weapon-type="bow"
+        attack-action="attack_bow"
         attack-min="70"
         attack-delta="0"
         attack-range="160"
@@ -562,6 +531,7 @@
         effect="??? Damage, ??? Range"
         type="equip-2hand"
         weapon-type="polearm"
+        attack-action="attack"
         weight="10"
         attack-range="32"
         max-per-slot="1"/>
@@ -582,6 +552,7 @@
         effect="??? Damage, ??? Range"
         type="equip-2hand"
         weapon-type="axe"
+        attack-action="attack"
         weight="1200"
         attack-range="32"
         max-per-slot="1"/>
@@ -592,6 +563,7 @@
         effect="??? Damage, ??? Range"
         type="equip-2hand"
         weapon-type="axe"
+        attack-action="attack"
         weight="1200"
         attack-range="32"
         max-per-slot="1"/>
@@ -682,6 +654,7 @@
         effect="??? Damage, ??? Range"
         type="equip-1hand"
         weapon-type="sword"
+        attack-action="attack"
         weight="300"
         attack-range="32"
         max-per-slot="1"/>
@@ -768,6 +741,7 @@
         type="equip-1hand"
         weapon_type="2"
         weapon-type="knife"
+        attack-action="attack"
         weight="450"
         max-per-slot="1"
         attack-range="32"
@@ -779,6 +753,7 @@
         effect="+110 Damage, 1 Range"
         type="equip-1hand"
         weapon-type="knife"
+        attack-action="attack"
         weight="900"
         max-per-slot="1"
         weapon_type="2"
@@ -791,6 +766,7 @@
         effect="??? Damage, ??? Range"
         type="equip-1hand"
         weapon-type="sword"
+        attack-action="attack"
         weight="200"
         attack-range="32"
         max-per-slot="1"/>
@@ -801,6 +777,7 @@
         effect="??? Damage, ??? Range"
         type="equip-1hand"
         weapon-type="sword"
+        attack-action="attack"
         weight="300"
         attack-range="32"
         max-per-slot="1"/>
@@ -811,6 +788,7 @@
         effect="??? Damage, ??? Range"
         type="equip-2hand"
         weapon-type="polearm"
+        attack-action="attack"
         weight="600"
         attack-range="32"
         max-per-slot="1"/>
@@ -821,6 +799,7 @@
         effect="??? Damage, ??? Range"
         type="equip-2hand"
         weapon-type="bow"
+        attack-action="attack_bow"
         weight="1200"
         attack-range="32"
         missile-particle="graphics/particles/arrow.particle.xml"
@@ -832,6 +811,7 @@
         effect="??? Damage, ??? Range"
         type="equip-1hand"
         weapon-type="sword"
+        attack-action="attack"
         weight="2000"
         attack-range="32"
         max-per-slot="1"/>
@@ -842,6 +822,7 @@
         effect="??? Damage, ??? Range"
         type="equip-1hand"
         weapon-type="thrown"
+        attack-action="attack"
         weight="300"
         attack-range="32"
         max-per-slot="1"/>
@@ -852,6 +833,7 @@
         effect="??? Damage, ??? Range"
         type="equip-1hand"
         weapon-type="sword"
+        attack-action="attack"
         weight="1500"
         attack-range="32"
         max-per-slot="1"/>
@@ -862,6 +844,7 @@
         effect="??? Damage, ??? Range"
         type="equip-1hand"
         weapon-type="knife"
+        attack-action="attack"
         weight="5000"
         attack-range="32"
         max-per-slot="1"/>
@@ -872,6 +855,7 @@
         effect="??? Damage, ??? Range"
         type="equip-2hand"
         weapon-type="staff"
+        attack-action="attack"
         weight="1500"
         attack-range="32"
         max-per-slot="1"/>
@@ -882,6 +866,7 @@
         effect="+50 Damage, ??? Range"
         type="equip-2hand"
         weapon-type="staff"
+        attack-action="attack"
         weight="1500"
         attack-range="32"
         max-per-slot="1"/>
@@ -892,6 +877,7 @@
         effect="??? Damage, ??? Range"
         type="equip-2hand"
         weapon-type="staff"
+        attack-action="attack"
         weight="1500"
         attack-range="32"
         max-per-slot="1"/>
@@ -902,6 +888,7 @@
         effect="??? Damage, ??? Range"
         type="equip-2hand"
         weapon-type="staff"
+        attack-action="attack"
         weight="1500"
         attack-range="32"
         max-per-slot="1"/>
@@ -912,6 +899,7 @@
         effect="??? Damage, ??? Range"
         type="equip-1hand"
         weapon-type="sword"
+        attack-action="attack"
         weight="100"
         attack-range="32"
         max-per-slot="1"/>
@@ -935,8 +923,8 @@
         <sprite gender="male">leg-shorts-male.xml|#A4B2B2,FFFFFF</sprite>
         <sprite gender="female">leg-shorts-female.xml|#A4B2B2,FFFFFF</sprite>
     </item>
-    
-    <!-- 
+
+    <!--
     <item id="587"
         image="weapon-sword-sword.png"
         name="Sword"
@@ -1098,7 +1086,7 @@
         type="equip-shield"
         weight="1300"
         max-per-slot="1"/>
-    
+
     <!--
     <item id="604"
         image="armor-shield-knightshield.png"
@@ -1153,7 +1141,7 @@
         weight="10"
         max-per-slot="1"/>
     -->
-    
+
     <item id="610"
         image="armor-legs-shorts.png|W:#255367,266c84,68b0c5,ffffff"
         name="Jeans Shorts"
@@ -1294,6 +1282,7 @@
         type="equip-2hand"
         weapon_type="11"
         weapon-type="polearm"
+        attack-action="attack"
         weight="1200"
         attack-min="0"
         attack-delta="75"
@@ -1919,7 +1908,7 @@
         weight="8">
         <sprite gender="male">chest-shorttanktop-male.xml|#A4B2B2,FFFFFF</sprite>
         <sprite gender="female">chest-shorttanktop-female.xml|#A4B2B2,FFFFFF</sprite>
-    </item>    
+    </item>
     <item id="690"
         image="use-potion-d.png|G:#580000,A40000,C02020,ff6060"
         name="Red Dye"
@@ -2493,6 +2482,7 @@
         type="equip-2hand"
         weapon_type="11"
         weapon-type="polearm"
+        attack-action="attack"
         weight="10"
         attack-min="0"
         attack-delta="75"
@@ -2769,6 +2759,7 @@
         attack-range="160"
         missile-particle="graphics/particles/arrow.particle.xml"
         weapon-type="bow"
+        attack-action="attack_bow"
         max-per-slot="1">
         <sprite>weapon-bow.xml</sprite>
         <sound event="swing">weapons/bows/bow_shoot_1.ogg</sound>
@@ -2786,6 +2777,7 @@
         attack-range="32"
         max-per-slot="1"
         weapon-type="knife"
+        attack-action="attack"
         view="521"/>
     <item id="1202"
         image="armor-chest-cottonshirt.png|W:#A4B2B2,FFFFFF"
@@ -2916,6 +2908,7 @@
         effect="+1 Damage, 1 Range"
         type="equip-1hand"
         weapon-type="sword"
+        attack-action="attack"
         weight="1"
         attack-min="0"
         attack-delta="1"
@@ -3924,7 +3917,7 @@
         max-per-slot="1">
         <sprite>leg-skirt.xml|#104010,208020,30c030</sprite>
     </item>
-    
+
     <item id="2110"
         image="armor-legs-shorts.png|W:#580000,A40000,C02020,ff6060"
         name="Red Cotton Shorts"
@@ -4045,7 +4038,7 @@
         <sprite gender="male">leg-shorts-male.xml|#104010,208020,30c030</sprite>
         <sprite gender="female">leg-shorts-female.xml|#104010,208020,30c030</sprite>
     </item>
-    
+
     <item id="2120"
         image="armor-chest-tanktop-short.png|W:#580000,A40000,C02020,ff6060"
         name="Red Short Tank Top"
