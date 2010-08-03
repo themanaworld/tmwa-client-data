@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!--
+Light red particles which fly up to the sky. About one tile wide, three tiles
+high and supposed to give an object which is about half as large as a player
+character some magical aura.
+-->
+<effect>
+	<particle
+		position-x = "0"
+		position-y = "0"
+		position-z = "0"
+		>
+		<emitter>
+			<property name="position-z" value="16" />
+			<property name="vertical-angle" min="0" max="90"/>
+			<property name="horizontal-angle" min="0" max="360"/>
+			<property name="power" min="20" max="24"/>
+			<property name="lifetime" value="1"/>
+			<property name="output" value="1"/>
+			<emitter>
+				<property name="gravity" value="-0.2"/>
+				<property name="momentum" value="0.5"/>
+				<property name="image" value="graphics/particles/star-small.png|W:#580000,A40000,C02020,ff6060"/>
+				<property name="lifetime" value="20"/>
+				<property name="fade-in" value="1"/>
+				<property name="fade-out" value="5"/>
+				<property name="output" min="0" max="1"/>
+				<property name="randomnes" value="100"/>
+			</emitter>
+			<emitter>
+				<property name="gravity" value="0.2"/>
+				<property name="momentum" value="0.1"/>
+				<property name="image" value="graphics/particles/orb-large.png"/>
+				<property name="lifetime" value="5"/>
+				<property name="fade-in" value="1"/>
+				<property name="fade-out" value="5"/>
+				<property name="output" min="0" max="1"/>
+				<property name="randomnes" value="100"/>
+			</emitter>
+		</emitter>
+	</particle>
+</effect>
