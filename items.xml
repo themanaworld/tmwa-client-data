@@ -2523,14 +2523,21 @@
         max-per-slot="1">
         <sprite>head-desert-helmet.xml</sprite>
     </item>
-    <!-- 762 TERRANITE ARROW -->
+    <item id="762"
+        image="weapon-arrow-arrow.png|W:#8B4513"
+        name="Terranite Arrow"
+        description="A terranite arrow."
+        effect="+35 Damage"
+        type="equip-ammo"
+        weight="1"
+        max-per-slot="100"/>
     <item id="763"
         image="generic-terraniteore.png"
         name="Terranite Ore"
         description="Some ore collected out of terranite."
         effect=""
         type="generic"
-        weight="10"
+        weight="40"
         max-per-slot="10"/>
     <item id="764"
         image="armor-head-sailor_hat.png"
@@ -2561,7 +2568,7 @@
         effect="+15% Defense"
         type="equip-head"
         defense="15"
-        weight="10">
+        weight="300">
         <sprite>head-terranitehelm.xml</sprite>
     </item>
     <item id="767"
@@ -2570,7 +2577,7 @@
         description="A nice piece of armor made out of terranite ore."
         effect="+30% Defense"
         type="equip-torso"
-        weight="120"
+        weight="800"
         defense="30"
         max-per-slot="1">
         <sprite gender="male">chest-terranite-male.xml</sprite>
@@ -2582,7 +2589,7 @@
         description="Leggings made out of terranite."
         effect="+8% Defense"
         type="equip-legs"
-        weight="15"
+        weight="30"
         defense="8"
         max-per-slot="1">
         <sprite gender="male">leg-terranite-male.xml</sprite>
@@ -4809,7 +4816,7 @@
         type="generic"
         weight="20"/>
     <item id="4002"
-        image="generic-gemstone-b.png|W:#ffffff,4c4c4c"
+        image="generic-gemstone-b.png"
         name="Diamond"
         description="A raw diamond gemstone."
         effect=""
@@ -4846,7 +4853,7 @@
         type="generic"
         weight="10"/>
     <item id="4008"
-        image="armor-ring-gem-generic.png|W:#ffffff,4c4c4c"
+        image="armor-ring-gem-generic.png"
         name="Diamond Ring"
         description="A diamond ring"
         type="equip-ring"
