@@ -13,8 +13,8 @@
  <tileset firstgid="273" name="Unbenannt2" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/woodland_indoor_x3.png"/>
  </tileset>
- <tileset firstgid="321" name="Collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png"/>
+ <tileset firstgid="321" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" trans="000000"/>
  </tileset>
  <tileset firstgid="323" name="Pots_x2" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Pots_x2.png" trans="000000"/>
@@ -44,7 +44,7 @@
    H4sIAAAAAAAAA+3bS27jMBAFwJmr5f6HmlUAj8A/KTcpFYFCYpuS2N0Pyco/f//8+QEAAAAAAAAAAAAA4Ba/K/V+xFlKZ0udNeKc3667NKcdfa7S+yP1jF4zsqL7uKL/136fXGvuzKk65UquRudXq/cbuUqdM/d69Dm7aM1Vrvbd5eb5WZNcxeXq+vmuelbv/lXX9jzjVE+rpydfs7mSLbmayV+uR3etz7NF93F1tlJ1nlRrqQa5is9Uqe6dtZ55ZvZ3rSfkaqQ/0eddVctoNmYzOfKs0/TWtnutIzPbbZ3S69ocav09KVd35vBb6wm9nqn7CVI1ler9xpKr/fTWkaqpVO83V3QveWaurs8mPle/v+d+Xn8fnffM7HtzlXoPuZKrc6XmksvQqly1zLp0be0517NG95j/51Kady2bqf25PbVcpa5vzZdcxWVodlapfXL1bqNr91z1PIt7c7Uyd6nZRl0f3eM3qvV/1ZKrd6n1f+VsZ1Z0n5Ar4tVmtyobcvUutdmlspH7PHevWi5k53l6/2bckSueZyRXIyu6TgAAAAAAAAAAAAAAAAAAeJLr93hT3+1tfT36fWDfI36Wlu+Mj+7JPat1f+2Mqfuyh9HM9O4Z3Z/K4+dPudrTigzcmavUdbnro3vJObn63CtX51iRgW/lqmUve2uZU+ssV89chs4lV8zO6CkrupfIFXLVuqJ7ST5Xvdeu2NOzr3T+6F6Snotcscporlr+H7XsaTlH7r7XPdG95N5c/d6nZU9uX8uz5Gpfo7nqnXlvrlpW7zmQq889I5+lzoFctV5fez+6v29VmudInmozb92Telbqde2+0f19q9I8I3PVskeu9pWayUlyuWKvuUSfZ/b8J9bwRLmZjM6rtD/1fsvemRXd37drmePo7GezMbOi+/p2IzPqme3oms1kdF/fbmaOtWuu9y/lM3UezrVLrlLXcp7ejMzmauTeAAAAAAAAAAAAAAAAAAAAABDpHzmr/OewMAEA
   </data>
  </layer>
- <objectgroup name="Object Group 5" width="150" height="130" visible="0">
+ <objectgroup name="Objects" width="150" height="130">
   <object name="toGraveyard" type="warp" x="828" y="1055" width="39" height="37">
    <properties>
     <property name="dest_map" value="027-1"/>
