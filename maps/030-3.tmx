@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="90" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png" trans="ff00ff"/>
+ </tileset>
+ <tileset firstgid="129" name="arena" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/arena.png"/>
+ </tileset>
+ <tileset firstgid="385" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <layer name="Ground" width="80" height="90">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WS24CMRBFUU+yAQgsgE9CpnQIMM2XrIb9z7AVWSBLERa0u6rsOzjz9pXqqSfOuQkAAAAAAAAAAACKGnvLxEjBd2mV9pp7m8SMptm9Ou8rsb7StJWW44xeH95D4v1K09iy5o6xXU6vHJdNY8vQceW9KHhvn93inXZ39MppGTruvL2Cd/fh2Z3vtVS7tOPBe1Tw9j5s3fleS7e7tHB13PHPwN2iV1fHHU8F2gWf7u+OfxU0uFXYviehfpHlHQzb9ybcL+yg1Q0M2/ct3C/soMUN1HC7cQctbqCG27W8gRpu13I/qf8W+tGPfvX0s9iOfvSTRj/7DS23ox/9NJBqWEM7+tnsV0s7qYb0o59UwxrbDdWw5nalG7bQrmTDlvr11bC1Zvc2bL1XbtPjP6S/zQr60Y9+dtGPfgAAAAAAAAAAAAAAABjGCYH6SReAcAAA
+  </data>
+ </layer>
+ <layer name="Fringe" width="80" height="90">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TywmAMBRE0ezVCtQG/PTfnikhMIsX4RyYVTaPC2kNAAAAAAAAAABaW/rWgW1VB05u7zsGdlYdODn9Mvpl9Mvol9Evo19Gv4x+Gf0yd98zsLfqQACmdYXvQB3/F/7L/4X/8n8BAAAAAAAAAAAAAJjVB5yowliAcAAA
+  </data>
+ </layer>
+ <layer name="Over" width="80" height="90" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VQQqEMAxAUbd6AZ37X1QFheJCRGfMkLwH2ZdP2nYdAAAAAAAAAAAAAABQ3bjMEH0IoJR+mU/wGbx9cF/kHXZ3iZJp9/7hH6a2N3cw091tvdEwa7vdLxtmb7fznzz3rYbrzk3bVNi91p2Gba+KzY7WhtNhzppW73VFH30AAAAAAAAAAAAAIL0ZMhD+ZIBwAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="80" height="90">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3SwQqDMBBFUfvrfnnptlBEq3kzyRk4K0PIXNxf27YDAAAAAAAA8NP3pN9T3ZVJv7lbLy2fabdSx1GT3rNrtxn7JSa9c/d+M3XUT78V2+l3z6Qb6Lduu8+kO+inX0cVJt1AP/26qjDpBiMbHp2/cl93yUnvrl8NZ/b95/uM7VL/YHrnzv3S+6YaHp07c89sRk56184N0zsmG97xfQVPTHqn7g3T+3RsmH5/BXqNa5p+Vxf66adfX/rpBwAAAAAAAADAGG+fAmuGgHAAAA==
+  </data>
+ </layer>
+</map>
