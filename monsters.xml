@@ -1350,7 +1350,7 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
 	  <particlefx>graphics/particles/monster-reaper.particle.xml</particlefx>
         <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
         <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
-        <sound event="hurt">monsters/maggot/maggot-hit2.ogg</sound>
+        <sound event="hurt">monsters/reaper/reaper-hurt.ogg</sound>
         <sound event="die">monsters/maggot/maggot-dying1.ogg</sound>
         <drop item="777" percent="10"/>		<!-- Rotten Rags -->
         <drop item="775" percent="5"/>		<!-- Bone -->
@@ -1403,10 +1403,6 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
 	<monster id="110" name="Scythe" targetCursor="large">
         <sprite>monsters/monster-spinning-scythe.xml</sprite>
 	  <sprite>monsters/accessories/scythe-shadow.xml</sprite>
-        <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
-        <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
-        <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
-        <sound event="die">monsters/maggot/maggot-dying1.ogg</sound>
         <drop item="505" percent="8"/>
         <drop item="518" percent="4"/>
         <drop item="501" percent="1.5"/>
@@ -1454,10 +1450,6 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
         <sprite>monsters/monster-ball-lightning.xml</sprite>
 	  <sprite>monsters/accessories/ball-lightning-shadow.xml</sprite>
 	  <particlefx>graphics/particles/monster-ball-lightning.particle.xml</particlefx>
-        <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
-        <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
-        <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
-        <sound event="die">monsters/maggot/maggot-dying1.ogg</sound>
         <drop item="505" percent="8"/>
         <drop item="518" percent="4"/>
         <drop item="501" percent="1.5"/>

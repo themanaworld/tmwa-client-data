@@ -12,51 +12,22 @@ Orange-ish particles that fly up to the sky; based on Crush's Soul Menhir effect
 			<property name="position-z" min="16" max="48" />
 			<property name="vertical-angle" min="0" max="90"/>
 			<property name="horizontal-angle" min="0" max="360"/>
-			<property name="power" min="10" max="20"/>
+			<property name="power" min="5" max="15"/>
 			<property name="lifetime" value="1"/>
-			<property name="output" value="1"/>
+			<property name="output" min="0" max="1"/>
 			<property name="follow-parent" />
 			<emitter>
-				<property name="gravity" value="-0.4"/>
+				<property name="gravity" value="-0.2"/>
 				<property name="momentum" value="0.5"/>
-                                <animation imageset="graphics/particles/fog-medium-a.png|W:#7c517d" width="16" height="16">
-                                  <sequence start="0" end="3" delay="50" />
-                                  <frame index="0" delay="200" />
+                                <animation imageset="graphics/particles/mist-face-a.png" width="30" height="30">
+                                  <sequence start="0" end="3" delay="250" />                                  
                                 </animation>
-				<property name="lifetime" value="75"/>
-				<property name="fade-in" value="5"/>
-				<property name="fade-out" value="20"/>
+				<property name="lifetime" value="150"/>
 				<property name="output" min="0" max="1"/>
-				<property name="output-pause" min="30" max="80"/>
+				<property name="output-pause" min="800" max="1000"/>
 				<property name="randomnes" value="200"/>
-			</emitter>
-			<emitter>
-				<property name="gravity" value="-0.4"/>
-				<property name="momentum" value="0.5"/>
-                                <animation imageset="graphics/particles/fog-medium-b.png|W:#433340" width="16" height="16">
-                                  <sequence start="0" end="3" delay="50" />
-                                  <frame index="0" delay="200" />
-                                </animation>
-				<property name="lifetime" value="75"/>
-				<property name="fade-in" value="5"/>
-				<property name="fade-out" value="20"/>
-				<property name="output" min="0" max="1"/>
-				<property name="output-pause" min="30" max="80"/>
-				<property name="randomnes" value="200"/>
-			</emitter>
-			<emitter>
-				<property name="gravity" value="-0.4"/>
-				<property name="momentum" value="0.5"/>
-                                <animation imageset="graphics/particles/fog-medium-c.png|W:#433340" width="16" height="16">
-                                  <sequence start="0" end="3" delay="50" />
-                                  <frame index="0" delay="200" />
-                                </animation>
-				<property name="lifetime" value="75"/>
-				<property name="fade-in" value="5"/>
-				<property name="fade-out" value="20"/>
-				<property name="output" min="0" max="1"/>
-				<property name="output-pause" min="30" max="80"/>
-				<property name="randomnes" value="200"/>
+				<property name="alpha" value="0.8"/>
+				<property name="follow-parent" />
 			</emitter>
 		</emitter>
 	</particle>
