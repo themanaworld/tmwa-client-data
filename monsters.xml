@@ -1291,7 +1291,15 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
     <monster id="60" name="Terranite">
 	<sprite>monsters/monster-terranite.xml</sprite>
     </monster>
-<monster id="61" name="The Lost" targetCursor="medium">
+    <monster id="61" name="Bandit">
+	<sprite>monsters/monster-bandit.xml</sprite>
+	<sprite>weapon-dagger.xml</sprite>
+    </monster>
+    <monster id="62" name="Bandit Lord">
+	<sprite>monsters/monster-bandit-lord.xml</sprite>
+	<sprite>weapon-bow.xml</sprite>
+    </monster>
+    <monster id="63" name="The Lost" targetCursor="medium">
         <sprite>monsters/monster-skeleton.xml|#aca379</sprite>
 	  <sprite>chest-robe-male.xml|#333333</sprite>
         <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
