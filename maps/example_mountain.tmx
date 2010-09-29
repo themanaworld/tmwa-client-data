@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="set" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/set_icemountain.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="9" name="Snow" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Snow.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="265" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/set_rules.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="266" name="cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="394" name="set" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/set_cave.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="398" name="icecave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/icecave.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="526" name="set_icecave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/set_icecave.png" width="64" height="64"/>
+ </tileset>
+ <layer name="Underground" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3DAQkAAAwEoesf4dOux1Bw1VRVVdXXD1fFJDAAEAAA
+  </data>
+ </layer>
+ <layer name="set" width="32" height="32" visible="0" opacity="0.88">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2WOQ6AMAwEIwX+/2V6lGN2bQuKFNsyE8cx7q21foJyifmKm+WUyVX49Fv3JK5DhKl4ZLLf3yEOKn/HHGXloPAd9tuB1GDHJs5VfLVfiUOUT99XFZ86VPLJHUTegNLzag/S8zjvzp0BlQ4KP9PB5Y9c3BlI5k+VQ/Tso/tQ/0MZ/FkdVh4Zd0/7Ut1DZq60trO55+5gZLchfJq/8VWHTK5bA+Ki9HZk1zvx8gB8BgyHABAAAA==
+  </data>
+ </layer>
+ <layer name="Ground" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2W2w2DMAxFsz4tDMCjAxQmaJiAdqmClEiWe21sGtSfflwpMkqO41foQgjdXyZVqy5GXU/g3hx7hgI+HeFq6n/EpTHRYnAW1xKD6iCX7hm+4LcHmVKcz+JbYyRxpBrY4yMunQf8TG8MNL70rWU87ocUgxJ8qV77E/j3VY3BRvNbr5oK8R+Ah2z0/E2zgy+dtWkBPGobk71O6ykxXg6+dp89H2KyT2k9B3/9o/OtPjyTfU7rl8LR7Ed9yHYeby8f5XUMn76g3PNzvPWPzo8kt5IP+fvINAVc/8ivGuxvUi5zblF/0txHphnkI9+d+9WD/bzGtFhnP6i03kN1wvfzO+c7et5pJPT+Sf2I+kyLg1WcJ9UjynuJOHCeNKsWwMlxKMnXYmB5+62i74OVL/1vafOJ8+hM2HKH5gLKgfavx+cTnx+UFwlX602PaM+j+UN5ezOhpC9e3htQXXh1ABAAAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2UQQoAIQwDxf8/eu/CYptMK4iB3jQTbXWOMearcEV1iktnonWKG+V3iGQrHi7b7V/XuyL5O4Z7Bw5b8a3ir+tv5kf8M54KfzeHWU8nQ9edVv0BFRkIH3IvdQ6HT/Wxk6/4/YnmZ0X0l84QzXkrn5othVvxxjL71Rl85dcHi29nEgAQAAA=
+  </data>
+ </layer>
+ <layer name="Over" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3W0QoAEAyFYa+PV+BduaAkRavR8n91btxskzTnAEj5mtASH9TMw3m60Iefaq4khR76zLvaGk5mnmncAWAF7x+ABfxVa5K9R6rvrmNe7Hq/KeZl/SIAEAAA
+  </data>
+ </layer>
+</map>
