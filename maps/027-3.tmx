@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="150" height="90" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Crypt-Archways" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Crypt-Archways.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="Crypt-Blockwall" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Crypt-Blockwall.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="513" name="Crypt-Fringe" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Crypt-Fringe.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="769" name="Crypt-Fringe-x3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Crypt-Fringe-x3.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1025" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <layer name="Ground" width="150" height="90">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3Y0VHFIBBA0ZcG1IrUCtQK1L7fjxVYgxbgKInL7C45H+ebAHcGwnW7XK4AAAAAAAAAAAAAMMFDsOz5UMNzsOz5UMNbsOz5UMNHsOz5UIOumEFXzKArZjh7V95SdDWDtxRdzeAtRVczfBaRvQ660lWWm23s/vm4xXd1PzDu7be7Auukq31G758vW3xXTzvGz14nXe0zev983+K7et0xfvY6/dZV9ndVFN3KLNnrpCtd6Spfdi+6WlN2L7paU3YvulpTdi+6WlN2L9FdeU+qIbuX6M50VUN2H7paU3Yfs7v6a/5HOtFV7Qb/M7au1pHZ1SjnYD+60tVqXY3upa76qdTVT3ub0ZSu1u4qU/a+dKcrXelKV134H9SVrnTVha50pauxPT/Sia50pav6OnblHKxPV7rSla660JWudKWrLnSlK13pqgtd6UpXuupCV7rS1dieH+lEV7rSVX0du3IO1qcrXelKV13oSle60lUXutKVrnTVha50dVYZXWkLAAAAAAAAgLP7AnwBqwDw0gAA
+  </data>
+ </layer>
+ <layer name="Fringe2" width="150" height="90">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3ZS4rCUBRF0RcdlP/SCaojUMdox0/P27AQ7Al1CBXXgkPgJY0Edi+tAQAAAAAAAAAAAAAAAAAAAAAAwMu2a21X23d9vwlDcqiejrWTrvhDuiJBVyToigRdkaArEnRFgq5I0BUJuiJBVxm//8e+9R+ZrkjQFQm6IkFXJOiKBF2RoCsSdEWCrkjQFQm6IkFXJOiKhCF3dR23dqutRq391Na1Te1cZ5O6Tmuz2ry2qC2f996fv9fZZdz31/wvQ+6K/uiKBF2RoCsSdEWCrkjQFQm6IkFXAAAAAAAAAAAAAAAAAMCnHlinwjDw0gAA
+  </data>
+ </layer>
+ <layer name="Fringe" width="150" height="90">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2bSY8TVxRGXd1iRmKVMG6ZQ5gTxmYKJEDTzJBA00DYAhJ7QCBglYEFwwYlbIANStgAG/4IGyTEDsgPYEgkvpJcwjj3VVXT77kGnyMdteT2c9nlI9tV1240AAAAAAAAAAAAAAAAAAAAAAAAAAAA/PNLj//b/DXAbUK1WBT5v82vA9wmVAu6ghDQFYSAriAEdAUhsLpaouO5pXKZXG4c22X9n66g21+v4vMs6yLbNFxrRmKdzs90e1fx49/pMA3XmpFYpf2WhdXVqN5GY7QcI8f2/v//43TZeDlBTjT+X6X9Ez/+ow7TcK0ZiVXab1lYXX2hVr6Uk+UUo5upumyanC5n1KCrslCl/ZbGwsjerzPVyiw5W84xupmry+bJ+fIruvJGlfZbHn7T4/ndk1crtm+Srvr1mXmHHCjws3PduvpLj+dvTz4Yxr4pw2tFch8G1dMROdTSVaef57p1VRRl6uqkejolT3ewq3jbL3o+Sld+KFNXZ/W8npPn6arylKmrhJlylpzdoKuqkrer+Jz4pCicLugqHetYJ+Txj3XbC3q13+RCuah5biJvV2nnxH3ogq7SsY51rMtCbm+tWuqT6+T6Zle3jNmcNSML3dVTbeOlfCVfy3/kswZdZWEd61iXhdpevzraIQfkTrmr2dX9nnwzsrRZiw/faBtv5Tv5Xv4r/2vQVRbWsY51WajtDaqjI3JIHpXHml096ck3Iyvq8z1d1YeiurokL8srGffFJ3TVOYrq6pq8Lm/Imyn3xSd01TnydpX2HLg6bF9zpm3NHf29K+/l2IYP6Gr4PI+yjWmdeV8dxucrH11dbFvzUH8fycc5tuEDugpDvF//kH82vS37ok/PWcbnHtYb+7svcn+f17p+njWt74ExdOWfCzmOE/NcJw2rqwHj/NIuY3/H1/tWrpAr5Sq5Wq5xXD9Zs9hY801zTet7YAxdVZM8XV1K6ep7+YPcKrfJ7bI/o6sNxpotzTWt74ExdBWeuXrc8+R8j+e74v3a+t2v+LtbQ9Gn57OuyWPG/o6vd1D+KH+Sh+RhOei4frJmt7HmgGMNXVWTMnyfwcXxBl1VlVsl/70cXVWT+3RFVwXCfBBCQFcQArqCEISa44xkGz6gq2KhKwiB9ZyHmA+2Q1f1xuoqmfUtkUvlMrk8+jjrs0hmimPlODleTojcM0W6qjeuruJZ30a5SX4nN7fM+iySmeIUOVVOk9Mj90yRruqN1VUy69sj98p9cn/KrC9ZM5yZIl3VG84zdC8/B5zJ0FX12V3CmR1dQQjoqv5sLOD1jK4gBHRVHzaV6HNWXec4UCx01Z1sCPzaVtf5IBSLa44zxpj1TcyY46T9frAduqo3rq4mG7O+GRldpf1+sB268seJz3xP29vh8+2fOx8s0+8HoVjqep6hm9lTgvMNdNUdHO9wa3QFIaArAAAAAAAAAAAAAAAAAAAAgPrwAc3iLa7w0gAA
+  </data>
+ </layer>
+ <layer name="Over2" width="150" height="90">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3Zv07CUBiH4WM7iArC5l/ATRFF7/8uXIyJk4vCXfAjMBgSnSRQeZ7kzUlOT5M2+aa2FAAAAAAAAAAAAAAAAAAAAAAAAFh6P9j2EwAAAAAATbL4pvhbf3UP+8VcAQAAAAD/mW+WQJP5j8MmmKvm6FSlnKZu6lXLvcOsrXSUjtNJalc/n4fv3upS+pmNQRqmm/SSvbOs5+kiXaardL26tn5+4bXe7nuwO74yC9P0mNmYpKf0nD6yd5v1Lo3SfRqnh9W19fOz7H2aKwAAAADwH4eNMFcAAAAAAAAAAAAAAAAAwL6aAxYeqHHw0gAA
+  </data>
+ </layer>
+ <layer name="Over" width="150" height="90">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3bOU7DUBRAUccMPWPPWCJ2QA2sAGhYIetgXAGwAmAFNDzKCMf5RHqKv3WO9CrbUoZrx/JXmgYAAAAAAAAAAAAAAIBMk7Zp2piVmNWYtZj1tnw7dNmIRjZjtmK2Y3Zidtvy7dBlLxrZjzmIOYw5ijluy7cDAAD59ha4B3ffDsDQnEyW/Qrq9xGf4Vfi3FV4/6ArMuiKDLoig67KnU26h790Ve4+5iHmMeYp5jnmZamvaLh0RQZdkUFXZBh7V33PLD9nvPdFjmHa2Lvqe3+nM7YtcgzTvgvXErrO0/O2aS5iLnvWGfr2KV3/cI0Yr67z9CpauY656emqb5/f68JrwbhGjNes7/a2YE101j5j/w1mvoxrhq7QFRl0RQZdkWGZXb15HjFay+yq5FmE5xF18jtIhlq7sj44bLV2ZX1w2GrtimHTFRl0RQZdkUFXZNAVGXRFBl2RQVdk0BUZau3K+uCw1dqV9cFhq7Urhk1XZNAVGXRFBl2RQVdk0BUZdEUGXZGh9D/H/5l3XVGBjPadHwAAAAAAAAAw3w99ELyM8NIAAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="150" height="90">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3SQWrDQBAEwGDy/zfnFDDGsqzVSj0jVUNdAo690/34/fl5AAAAAAAAAAAAAAAAMNXspN9DDXbFEeyKI3zaxtp27Iols5N+DzXYFUewK47waRtr27nCrqokfYfqd02/J/3+0aTvUP2u6fek3z+a9B2q3zX9ntH3pzeWvoNdnbOrs2+fvkNiK0ckfaO1W9mVXdmVXf0nfSO7siu7quHdjb7526wsfd/z39M3sqv+u3r329I3WruXXa3fKZ293SViVzV6mJFK77GrGj3MSKX32FWNHmbk2/eMvH/rZ+zqOhu0q+uYnT3fbVfXsdTBWkb7s6t7mB27wq7s6g67qpR0L90l+6icdC/dJfuonHQv3XXoI5F0L9116CORdC/ddegjkXQv3XXoY+t3jPyuM95xJ7NjV9iVXVXZXYffYFd5s2NX2JVd2dW5SffS3awOjuwjkXQv3b3esmIfiaR76a5DH4mke+lu660TfSSS7qW7Dn0kku6lu6WbVupj63eM/C67On5Xe2JXzNjV6/+wK2bs6ow+9m5k5DPpXrqbHbvi9Z6jO3v+nF0xuqNP6fAbU++4k7XbVugjkXQv3Y3c++w+Ekn30l2HPhJJ98Lx7AoAAAAAAAAAzvcH37ahPvDSAAA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="150" height="90">
+  <object name="toCryptLevel2" type="warp" x="4032" y="1408" width="96" height="32">
+   <properties>
+    <property name="dest_map" value="027-4"/>
+    <property name="dest_x" value="1184"/>
+    <property name="dest_y" value="672"/>
+   </properties>
+  </object>
+  <object name="toGraveyard" type="Warp" x="1248" y="2400" width="128" height="32">
+   <properties>
+    <property name="dest_map" value="027-1"/>
+    <property name="dest_x" value="896"/>
+    <property name="dest_y" value="2208"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
