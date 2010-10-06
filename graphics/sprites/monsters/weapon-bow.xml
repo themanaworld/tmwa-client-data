@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <sprite name="player" action="stand">
-	<imageset name="bow" src="graphics/sprites/monsters/weapon1.png" width="64" height="64" />
+	<imageset name="bow" src="graphics/sprites/weapon1.png" width="64" height="64" />
 
 	<action name="default" imageset="bow">
 	</action>
 
-	<action name="attack_bow" imageset="bow">
+	<action name="attack" imageset="bow">
 		<animation direction="down">
 			<sequence start="0" end="4" delay="75" />
 		  	<end />
