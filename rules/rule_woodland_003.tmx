@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="13" height="7" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Woodland" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="Woodland x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/Woodland_x2.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="289" name="Woodland x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/Woodland_x3.png" width="512" height="192"/>
+ </tileset>
+ <tileset firstgid="321" name="Woodland Village" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_village.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="577" name="Woodland Water" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_water.png" width="512" height="96"/>
+ </tileset>
+ <tileset firstgid="625" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="627" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/set_rules.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="628" name="set_woodland" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/set_woodland.png" width="192" height="192"/>
+ </tileset>
+ <layer name="RuleRegions" width="13" height="7">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIA8UM0EwsWxy9QwntwEAiQQxgGwBAAA=
+  </data>
+ </layer>
+ <layer name="RuleSet_T1" width="13" height="7" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoC6oYoJgdDayPDKNzsbGJ9cd1LCHkH9IAQA/w3KVbAEAAA==
+  </data>
+ </layer>
+ <layer name="RuleSet_T2" width="13" height="7" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoC6oZoJgdDayPDKNzsbGJ9cd1LCHkH9IAQAwRvcDbAEAAA==
+  </data>
+ </layer>
+ <layer name="RuleSet_T3" width="13" height="7" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoC6oYYJgdDayPDKNzsbGJ9cd1LCHkH9IAQCf0Y1UbAEAAA==
+  </data>
+ </layer>
+ <layer name="RuleSet_T4" width="13" height="7" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoC6oZYJgdDayPDKNzsbGJ9cd1LCHkH9IAQCQVAjCbAEAAA==
+  </data>
+ </layer>
+ <layer name="RuleSet_T5" width="13" height="7" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoC6oY4JgdDayPDKNzsbGJ9cd1LCHkH9IAQDA3feibAEAAA==
+  </data>
+ </layer>
+ <layer name="RuleSet_T6" width="13" height="7" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoC6oZ4JgdDayPDKNzsbGJ9cd1LCHkH9IAQDPWHI0bAEAAA==
+  </data>
+ </layer>
+ <layer name="RuleSet_T7" width="13" height="7" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoC5oYIJgdDayPDKNzsbGJ9cd1LCHkH9IAQAMW+o9bAEAAA==
+  </data>
+ </layer>
+ <layer name="RuleSet_T8" width="13" height="7" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoC5oZIJgdDayPDKNzsbGJ9cd1LCHkH9IAQAD3m+rbAEAAA==
+  </data>
+ </layer>
+ <layer name="RuleSet_T9" width="13" height="7">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIA80MeHnk2sepeaQaw+1/YMNAADRwtidbAEAAA==
+  </data>
+ </layer>
+ <layer name="RuleSet_" width="13" height="7" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIA+UMkEwOruECYLR2TB1yHKlWNilaHrIdRup9pDjH1IBAMakXT1sAQAA
+  </data>
+ </layer>
+ <layer name="rule_Ground" width="13" height="7">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIA8EovGDyDQHBpyhtCuF5hACyVA6FU08EY2fRAO7Aabxn2NsAQAA
+  </data>
+ </layer>
+ <layer name="rule_Over" width="13" height="7" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAX0AgB8n9a4bAEAAA==
+  </data>
+ </layer>
+ <layer name="rule_Collision" width="13" height="7" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAX0AgB8n9a4bAEAAA==
+  </data>
+ </layer>
+</map>
