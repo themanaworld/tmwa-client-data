@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<sprite>
+    <imageset name="base" src="graphics/sprites/npcs/npc-headless.png" width="40" height="60" />
+    <action name="stand" imageset="base">
+        <animation direction="default">
+            <!-- Head animation -->
+            <frame index="0" delay="300"/>
+            <frame index="1" delay="100"/>
+            <frame index="2" delay="100"/>
+            <frame index="3" delay="100"/>
+            <frame index="4" delay="100"/>
+            <frame index="5" delay="100"/>
+            <frame index="6" delay="100"/>
+            <frame index="7" delay="100"/>
+            <frame index="8" delay="100"/>
+            <frame index="9" delay="200"/>
+            <frame index="19" delay="200"/>
+            <frame index="18" delay="100"/>
+            <frame index="17" delay="100"/>
+            <frame index="16" delay="100"/>
+            <frame index="15" delay="100"/>
+            <frame index="14" delay="100"/>
+            <frame index="13" delay="100"/>
+            <frame index="12" delay="100"/>
+            <frame index="11" delay="100"/>
+            <frame index="10" delay="100"/>
+        </animation>
+    </action>
+</sprite>
