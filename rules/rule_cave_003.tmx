@@ -4,17 +4,17 @@
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
  <tileset firstgid="3" name="set" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/set_cave.png" width="64" height="64"/>
+  <image source="../graphics/tiles/set_cave.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="7" name="set_rules" tilewidth="32" tileheight="32">
+ <tileset firstgid="19" name="set_rules" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/set_rules.png" width="32" height="32"/>
  </tileset>
- <tileset firstgid="8" name="cave" tilewidth="32" tileheight="32">
+ <tileset firstgid="20" name="cave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png" width="512" height="256"/>
  </tileset>
  <layer name="ruleRegions" width="13" height="4">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA+wQzGxbHL1kAoA+X4+RNAAAAA=
+   H4sIAAAAAAAAA2NgIA8IQzGxbHL1kAoA+YlsANAAAAA=
   </data>
  </layer>
  <layer name="ruleSet" width="13" height="4">
@@ -29,7 +29,7 @@
  </layer>
  <layer name="rule_Over" width="13" height="4">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA8IoPEFkdhyUFqBTLMpAQC88ad90AAAAA==
+   H4sIAAAAAAAAA2NgIA/IoPFlkdhaUFqHTLMpAQDFYfeh0AAAAA==
   </data>
  </layer>
  <layer name="rule_collision" width="13" height="4">

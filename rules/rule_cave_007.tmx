@@ -4,17 +4,17 @@
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
  <tileset firstgid="3" name="set" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/set_cave.png" width="64" height="64"/>
+  <image source="../graphics/tiles/set_cave.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="7" name="set_rules" tilewidth="32" tileheight="32">
+ <tileset firstgid="19" name="set_rules" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/set_rules.png" width="32" height="32"/>
  </tileset>
- <tileset firstgid="8" name="cave" tilewidth="32" tileheight="32">
+ <tileset firstgid="20" name="cave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png" width="512" height="256"/>
  </tileset>
  <layer name="ruleRegions" width="13" height="7">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA+wQzGxbHL1DCe3AQBjNkMpbAEAAA==
+   H4sIAAAAAAAAA2NgIA8IQzGxbHL1DCe3AQDj6TXRbAEAAA==
   </data>
  </layer>
  <layer name="ruleSet" width="13" height="7">
@@ -22,9 +22,24 @@
    H4sIAAAAAAAAA2NgoC5gg2J0NrI8A5o4LjWUuoMa9hDyDykAANyNKXlsAQAA
   </data>
  </layer>
+ <layer name="ruleSet" width="13" height="7">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoC5ghWJ0NrI8A5o4LjWUuoMa9hDyDykAAIwE1hlsAQAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="13" height="7">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoC7ghGJ0NrI8A5o4LjWUuoMa9hDyDykAAI0nWUFsAQAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="13" height="7">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoC7ggmJ0NrI8A5o4LjWUuoMa9hDyDykAAN2upiFsAQAA
+  </data>
+ </layer>
  <layer name="rule_Ground" width="13" height="7" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC5IRuOnoPFToXQ6le1FB61Qup1Cc4rR+CUUmAUAMdZruGwBAAA=
+   H4sIAAAAAAAAA2NgoC7IR+MXoPELoXQxle1FBxOh9GQKzalH4zdQYBYAu+pCZmwBAAA=
   </data>
  </layer>
  <layer name="rule_Over" width="13" height="7" visible="0">
@@ -32,9 +47,9 @@
    H4sIAAAAAAAAA2NgGAX0AgB8n9a4bAEAAA==
   </data>
  </layer>
- <layer name="rule_collision" width="13" height="7" visible="0">
+ <layer name="rule_collision" width="13" height="7">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC5gIpKPLk5tQC17CPmHFAAAYw7+ZmwBAAA=
+   H4sIAAAAAAAAA2NgGAX0AgB8n9a4bAEAAA==
   </data>
  </layer>
 </map>
