@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="64" height="32" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="set_cave" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/set_cave.png" width="128" height="128"/>
+  <image source="../graphics/tiles/set_cave.png" width="128" height="256"/>
  </tileset>
- <tileset firstgid="17" name="set_icecave" tilewidth="32" tileheight="32">
+ <tileset firstgid="33" name="set_icecave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/set_icecave.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="21" name="collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="37" name="collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
- <tileset firstgid="23" name="cave" tilewidth="32" tileheight="32">
+ <tileset firstgid="39" name="cave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="151" name="icecave" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/icecave.png" width="512" height="256"/>
+ <tileset firstgid="167" name="cave_x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/cave_x2.png" width="512" height="64"/>
  </tileset>
- <layer name="set" width="32" height="32" opacity="0.73">
+ <layer name="set" width="64" height="32" opacity="0.73">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2VyQ6AIAxEcd///3eNCQfSlOKkBTR6mBv0PVvAxjnX/Pnj0wZ5Gr+mF3Wr4UH5pR04fueTm90Fyc2XvnMiDpyTFI3HxelJL1A+4sDx5wj/IGtHZv9owJ8ifKQnyAzWiAcSzX2VzmIJPuewA/OweK8Wps4A9ELrkLpPJWewJ/ixNzOsY/U+bgm+tNfCQeP+Nb7FPUTqWf4H7/DR5Op/bb7koGUiZzgXm9Z+Kv8tOQHu3SuTABAAAA==
+   H4sIAAAAAAAAA+2XyQ7CMAxEW3YoHOiV9f+/EiFRKbI8jbe0FcphDjQl42c7DrRN07RVVVViPYL3WxGh9TlYbyDOCxPX28Ge7nclQn6S3EXU5ML4cOpIDC+lT8+wX3/PJf5j8vakRZ3AP32fMtMeQDoBz7n5Jf6UH/WA1m/nzIF0zyh+7vz3YD0X21EZw1hcaC/Uf576c+dgqj7U9v9WUAeLD62zdPaieErxR3lF1zcVNwu9M2CdaCr+u0DDu7mzaOVfA9H+o+seDwt/qnR2DfFp+If4EDvXA9w73hxr+cdmgZa/zfDTHGj5W/DdvYP/K3RXl+BPc4DWLTnw8Jes/5l5dsjkx8oviRnV/RzAvhPWf+NgRzmIvEOssy83/3L1t3pG36EefkkO9swzS79R7yh2z90vueNo/1vPG41hDnbt3pGztlR8kfvTuUpl/a1Vsh4RftzvKun/rqiemKoPI/q/5JmYwm+p7JL4ovZPPz9HvHPvRLMvRf/MVlX17/oAYjbMzAAgAAA=
   </data>
  </layer>
 </map>
