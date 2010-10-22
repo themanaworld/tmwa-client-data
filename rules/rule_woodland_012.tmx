@@ -19,9 +19,9 @@
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
  <tileset firstgid="627" name="set_rules" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/set_rules.png" width="32" height="32"/>
+  <image source="../graphics/tiles/set_rules.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="628" name="set_woodland" tilewidth="32" tileheight="32">
+ <tileset firstgid="631" name="set_woodland" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/set_woodland.png" width="192" height="192"/>
  </tileset>
  <layer name="RuleRegions" width="11" height="4">
@@ -31,7 +31,7 @@
  </layer>
  <layer name="RuleSet" width="11" height="4">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA2UMDEwlDJB2CC6BIkNkyfGDGQ9pAAAi+jCBLAAAAA=
+   H4sIAAAAAAAAA2NgIB1UMKHS6GxSzSEFAACH8TKAsAAAAA==
   </data>
  </layer>
  <layer name="rule_Ground" width="11" height="4" visible="0">

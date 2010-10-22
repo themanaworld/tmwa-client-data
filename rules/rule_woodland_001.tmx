@@ -19,9 +19,9 @@
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
  <tileset firstgid="627" name="set_rules" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/set_rules.png" width="32" height="32"/>
+  <image source="../graphics/tiles/set_rules.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="628" name="set_woodland" tilewidth="32" tileheight="32">
+ <tileset firstgid="631" name="set_woodland" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/set_woodland.png" width="192" height="192"/>
  </tileset>
  <layer name="RuleRegions" width="13" height="8">
@@ -31,12 +31,12 @@
  </layer>
  <layer name="RuleSet" width="13" height="8">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA+UMEHoUib86ioJyBMCVVD91VC6BkrXQuk6KF1PoT0NUP2NULqJQvOoBQA6sWeDoAEAAA==
+   H4sIAAAAAAAAA2NgIA+UM0HoCib86moIyBMCtVD9dVC6Hko3QOlGKN1EoT3NUP0tULqVQvOoBQBSVsxLoAEAAA==
   </data>
  </layer>
  <layer name="rule_Ground" width="13" height="8">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA8IQukQMvUTCxRJpKltz0ADAPeDJtegAQAA
+   H4sIAAAAAAAAA2NgIA8IQukQAurCyTQfBhRJpKltz0ADANGJTwegAQAA
   </data>
  </layer>
  <layer name="rule_Over" width="13" height="8" visible="0">
@@ -44,9 +44,9 @@
    H4sIAAAAAAAAA2NgGAWDGQAAkhj1hqABAAA=
   </data>
  </layer>
- <layer name="rule_Collision" width="13" height="8" visible="0">
+ <layer name="rule_Collision" width="13" height="8">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAWDGQAAkhj1hqABAAA=
+   H4sIAAAAAAAAA2NgoC0oYqKxBcMcAACZ09jqoAEAAA==
   </data>
  </layer>
 </map>

@@ -4,47 +4,42 @@
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
  <tileset firstgid="3" name="set" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/set_cave.png" width="128" height="128"/>
+  <image source="../graphics/tiles/set_cave.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="19" name="set_rules" tilewidth="32" tileheight="32">
+ <tileset firstgid="67" name="set_rules" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/set_rules.png" width="32" height="32"/>
  </tileset>
- <tileset firstgid="20" name="cave" tilewidth="32" tileheight="32">
+ <tileset firstgid="68" name="cave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png" width="512" height="256"/>
  </tileset>
  <layer name="ruleRegions" width="6" height="6">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA2EkWhhLOL4ALp6YSzi2AAALrUFg5AAAAA=
+   H4sIAAAAAAAAA2NgwA2ckWhnLOL4ALp6Zyzi2AAAH/dlMZAAAAA=
   </data>
  </layer>
  <layer name="ruleSet" width="6" height="6">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAxYCfCppQcEAKDp/12QAAAA
+   H4sIAAAAAAAAA2NgIAxUCPCppQcEAFLwSR+QAAAA
   </data>
  </layer>
  <layer name="ruleSet" width="6" height="6">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAzYCPCppQcEAItPfPCQAAAA
+   H4sIAAAAAAAAA2NgIAyUCfCppQcEAFzYvvuQAAAA
   </data>
  </layer>
- <layer name="ruleSet" width="6" height="6">
+ <layer name="ruleNotSet" width="6" height="6" opacity="0.36">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAw4CfCppQcEAM97YoaQAAAA
+   H4sIAAAAAAAAA2NgwA1UcLBJBaSYAwCeYv2dkAAAAA==
   </data>
  </layer>
- <layer name="ruleSet" width="6" height="6">
+ <layer name="ruleNotSet" width="6" height="6" opacity="0.33">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAy4CPCppQcEAOTd4SuQAAAA
+   H4sIAAAAAAAAA2NgwA2UcbBJBaSYAwA+q0HQkAAAAA==
   </data>
  </layer>
- <layer name="rule_Ground" width="6" height="6" visible="0">
+ <layer name="rule_Ground" width="6" height="6">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAya0fhFROiZhMZvJEIPCAAAulCFxpAAAAA=
-  </data>
- </layer>
- <layer name="rule_Over" width="6" height="6" visible="0">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGFwAAJwFCnCQAAAA
+   H4sIAAAAAAAAA2NgIAwS0Pj+ROjJR+PHEaEHBABsEgLRkAAAAA==
   </data>
  </layer>
 </map>

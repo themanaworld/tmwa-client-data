@@ -4,47 +4,42 @@
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
  <tileset firstgid="3" name="set" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/set_cave.png" width="128" height="128"/>
+  <image source="../graphics/tiles/set_cave.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="19" name="set_rules" tilewidth="32" tileheight="32">
+ <tileset firstgid="67" name="set_rules" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/set_rules.png" width="32" height="32"/>
  </tileset>
- <tileset firstgid="20" name="cave" tilewidth="32" tileheight="32">
+ <tileset firstgid="68" name="cave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png" width="512" height="256"/>
  </tileset>
  <layer name="ruleRegions" width="13" height="7">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA8IQzGxbHL1DCe3AQDj6TXRbAEAAA==
+   H4sIAAAAAAAAA2NgIA84QzGxbHL1DCe3AQBhmwyGbAEAAA==
   </data>
  </layer>
  <layer name="ruleSet" width="13" height="7">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC5gg2J0NrI8A5o4LjWUuoMa9hDyDykAANyNKXlsAQAA
+   H4sIAAAAAAAAA2NgoC5QgWJ0NrI8A5o4LjWUuoMa9hDyDykAADpwCuhsAQAA
   </data>
  </layer>
  <layer name="ruleSet" width="13" height="7">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC5ghWJ0NrI8A5o4LjWUuoMa9hDyDykAAIwE1hlsAQAA
+   H4sIAAAAAAAAA2NgoC5QhmJ0NrI8A5o4LjWUuoMa9hDyDykAAJXncL9sAQAA
   </data>
  </layer>
- <layer name="ruleSet" width="13" height="7">
+ <layer name="ruleNotSet" width="13" height="7" opacity="0.24">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC7ghGJ0NrI8A5o4LjWUuoMa9hDyDykAAI0nWUFsAQAA
+   H4sIAAAAAAAAA2NgIA+oQDE6m5AeXHwVHGrIAeTYQ45/SAUA+4NElGwBAAA=
   </data>
  </layer>
- <layer name="ruleSet" width="13" height="7">
+ <layer name="ruleNotSet" width="13" height="7" opacity="0.23">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC7ggmJ0NrI8A5o4LjWUuoMa9hDyDykAAN2upiFsAQAA
+   H4sIAAAAAAAAA2NgIA8oQzE6m5AeXHxlHGrIAeTYQ45/SAUAS72rUmwBAAA=
   </data>
  </layer>
- <layer name="rule_Ground" width="13" height="7" visible="0">
+ <layer name="rule_Ground" width="13" height="7">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC7IR+MXoPELoXQxle1FBxOh9GQKzalH4zdQYBYAu+pCZmwBAAA=
-  </data>
- </layer>
- <layer name="rule_Over" width="13" height="7" visible="0">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAX0AgB8n9a4bAEAAA==
+   H4sIAAAAAAAAA2NgoC6oR+M3oPH9oHQAle1FB3lQuoBCc/rR+BMoMAsA4AFgUmwBAAA=
   </data>
  </layer>
  <layer name="rule_collision" width="13" height="7">

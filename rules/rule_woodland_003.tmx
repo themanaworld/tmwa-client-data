@@ -19,9 +19,9 @@
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
  <tileset firstgid="627" name="set_rules" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/set_rules.png" width="32" height="32"/>
+  <image source="../graphics/tiles/set_rules.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="628" name="set_woodland" tilewidth="32" tileheight="32">
+ <tileset firstgid="631" name="set_woodland" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/set_woodland.png" width="192" height="192"/>
  </tileset>
  <layer name="RuleRegions" width="13" height="7">
@@ -29,57 +29,12 @@
    H4sIAAAAAAAAA2NgIA8UM0EwsWxy9QwntwEAiQQxgGwBAAA=
   </data>
  </layer>
- <layer name="RuleSet_T1" width="13" height="7" visible="0">
+ <layer name="RuleSet_" width="13" height="7">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC6oYoJgdDayPDKNzsbGJ9cd1LCHkH9IAQA/w3KVbAEAAA==
+   H4sIAAAAAAAAA2NgIA9UMEEwOpuQHlx8ZLMoBeTYQ45/SAUACreonWwBAAA=
   </data>
  </layer>
- <layer name="RuleSet_T2" width="13" height="7" visible="0">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC6oZoJgdDayPDKNzsbGJ9cd1LCHkH9IAQAwRvcDbAEAAA==
-  </data>
- </layer>
- <layer name="RuleSet_T3" width="13" height="7" visible="0">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC6oYYJgdDayPDKNzsbGJ9cd1LCHkH9IAQCf0Y1UbAEAAA==
-  </data>
- </layer>
- <layer name="RuleSet_T4" width="13" height="7" visible="0">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC6oZYJgdDayPDKNzsbGJ9cd1LCHkH9IAQCQVAjCbAEAAA==
-  </data>
- </layer>
- <layer name="RuleSet_T5" width="13" height="7" visible="0">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC6oY4JgdDayPDKNzsbGJ9cd1LCHkH9IAQDA3feibAEAAA==
-  </data>
- </layer>
- <layer name="RuleSet_T6" width="13" height="7" visible="0">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC6oZ4JgdDayPDKNzsbGJ9cd1LCHkH9IAQDPWHI0bAEAAA==
-  </data>
- </layer>
- <layer name="RuleSet_T7" width="13" height="7" visible="0">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC5oYIJgdDayPDKNzsbGJ9cd1LCHkH9IAQAMW+o9bAEAAA==
-  </data>
- </layer>
- <layer name="RuleSet_T8" width="13" height="7" visible="0">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC5oZIJgdDayPDKNzsbGJ9cd1LCHkH9IAQAD3m+rbAEAAA==
-  </data>
- </layer>
- <layer name="RuleSet_T9" width="13" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA80MeHnk2sepeaQaw+1/YMNAADRwtidbAEAAA==
-  </data>
- </layer>
- <layer name="RuleSet_" width="13" height="7" visible="0">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA+UMkEwOruECYLR2TB1yHKlWNilaHrIdRup9pDjH1IBAMakXT1sAQAA
-  </data>
- </layer>
- <layer name="rule_Ground" width="13" height="7">
+ <layer name="rule_Ground" width="13" height="7" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgIA8EovGDyDQHBpyhtCuF5hACyVA6FU08EY2fRAO7Aabxn2NsAQAA
   </data>

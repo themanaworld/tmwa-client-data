@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="6" height="6" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="13" height="7" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
@@ -12,29 +12,29 @@
  <tileset firstgid="8" name="icecave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/icecave.png" width="512" height="256"/>
  </tileset>
- <layer name="ruleRegions" width="6" height="6">
+ <layer name="ruleRegions" width="13" height="7">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA3YkWh2LOL4ALp6dizi2AAAMuRB2ZAAAAA=
+   H4sIAAAAAAAAA2NgIB+wo9GU6MEnzk4Cm556SAUApVXbiWwBAAA=
   </data>
  </layer>
- <layer name="ruleSet" width="6" height="6">
+ <layer name="ruleSet" width="13" height="7">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAzYCPCppQcEAItPfPCQAAAA
+   H4sIAAAAAAAAA2NgIB8wo9GU6MEnzoyFTch+Uu2hBwAAZhB9h2wBAAA=
   </data>
  </layer>
- <layer name="rule_Ground" width="6" height="6" visible="0">
+ <layer name="ruleNotSet" width="13" height="7">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAzK0fhpROhpQ+OXEqEHBAAdwEJNkAAAAA==
+   H4sIAAAAAAAAA2NgGJqAGQ8flxwhPcwksMkBAHO5eppsAQAA
   </data>
  </layer>
- <layer name="rule_Over" width="6" height="6" visible="0">
+ <layer name="rule_Ground" width="13" height="7" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGFwAAJwFCnCQAAAA
+   H4sIAAAAAAAAA2NgIB9IQmkpEvRoQmktNHFtKK2LRY8llLZCE7eG0rZY9HhCaS80cW8o7YvHjbQCACaSUn5sAQAA
   </data>
  </layer>
- <layer name="rule_collision" width="6" height="6" visible="0">
+ <layer name="rule_collision" width="13" height="7" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAyYCPCppQcEAK7BCLmQAAAA
+   H4sIAAAAAAAAA2NgIB8wodGU6MFnFr300BoAAErWG9FsAQAA
   </data>
  </layer>
 </map>

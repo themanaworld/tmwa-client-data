@@ -4,35 +4,35 @@
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
  <tileset firstgid="3" name="set" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/set_cave.png" width="64" height="64"/>
+  <image source="../graphics/tiles/set_cave.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="7" name="set_rules" tilewidth="32" tileheight="32">
+ <tileset firstgid="67" name="set_rules" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/set_rules.png" width="32" height="32"/>
  </tileset>
- <tileset firstgid="8" name="cave" tilewidth="32" tileheight="32">
+ <tileset firstgid="68" name="cave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png" width="512" height="256"/>
  </tileset>
  <layer name="ruleRegions" width="13" height="7">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIB+wo9GU6MEnzk4Cm556SAUApVXbiWwBAAA=
+   H4sIAAAAAAAAA2NgIB84o9GU6MEn7kwCm556SAUAagDkCGwBAAA=
   </data>
  </layer>
  <layer name="ruleSet" width="13" height="7">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIB8wo9GU6MEnzoyFTch+Uu2hBwAAZhB9h2wBAAA=
+   H4sIAAAAAAAAA2NgGByAHY1GFmfHwsanh5B5uPTQGgAAJVBklGwBAAA=
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="13" height="7" opacity="0.6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGJqAHQ8flxwhPewksMkBAFgzOlVsAQAA
   </data>
  </layer>
  <layer name="rule_Ground" width="13" height="7" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIB9IQmkpEvRoQmktNHFtKK2LRY8llLZCE7eG0rZY9HhCaS80cW8o7YvHjbQCACaSUn5sAQAA
+   H4sIAAAAAAAAA2NgIB+EQukwEvSkQuk0NPF0KJ2JRU8plC5DEy+H0pVY9LRC6TY08XYo3YnHjbQCAPlEcUlsAQAA
   </data>
  </layer>
- <layer name="rule_Over" width="13" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAX0AgB8n9a4bAEAAA==
-  </data>
- </layer>
- <layer name="rule_collision" width="13" height="7" visible="0">
+ <layer name="rule_collision" width="13" height="7">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgIB8wodGU6MFnFr300BoAAErWG9FsAQAA
   </data>

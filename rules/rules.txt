@@ -1,65 +1,11 @@
 # lines starting with # or // are comments
 # all other lines will be parsed and treated as filenames.
 
-# basic stuff
-../rules/rule_cave_001.tmx
-# straight walls:
-../rules/rule_cave_002.tmx
-# corners at walls
-../rules/rule_cave_003.tmx
-../rules/rule_cave_004.tmx
-../rules/rule_cave_005.tmx
-# water in caves:
-../rules/rule_cave_006.tmx
-../rules/rule_cave_007.tmx
-# rules for entrances, has bad exception handling,
-# so mind where to put entrances. (So avoid putting them near corners)
-../rules/rule_cave_008.tmx
-# straight carpets
-../rules/rule_cave_009.tmx
-# corners in carpets
-../rules/rule_cave_010.tmx
+../rules/cave/rule_cave.txt
 
-# ice mountains and caves... similar to usual caves
-../rules/rule_icecave_001.tmx
-../rules/rule_icecave_002.tmx
-../rules/rule_icecave_003.tmx
-../rules/rule_icecave_004.tmx
-../rules/rule_icecave_005.tmx
-../rules/rule_icecave_006.tmx
-../rules/rule_icecave_007.tmx
+../rules/icecave/rule_icecave.txt
 
-../rules/rule_icemountain_001.tmx
-../rules/rule_icemountain_002.tmx
-../rules/rule_icemountain_003.tmx
-../rules/rule_icemountain_004.tmx
+../rules/icemountain/rule_icemountain.txt
 
+../rules/rule_woodland.txt
 
-# Rules for Woodlands.
-#
-# grass and high grass
-../rules/rule_woodland_001.tmx
-
-# straight borders of grass and high grass
-../rules/rule_woodland_002.tmx
-
-# borders at corners for grass and highgrass
-../rules/rule_woodland_003.tmx
-
-# this one is needed to grow trees and other stuff of Fringe into high grass
-# XXX       The O can be Tree in high grass. So there wont be setup borders
-# XOX   <-- If O is low grass, make borders of course
-# XXX
-../rules/rule_woodland_004.tmx
-
-# straight borders of grass and high grass
-../rules/rule_woodland_012.tmx
-
-# borders at corners for grass and highgrass
-../rules/rule_woodland_013.tmx
-
-# add trees 1-9 except 7
-../rules/rule_woodland_100.tmx
-
-# add tree 7. This is seperated due to its extra height.
-../rules/rule_woodland_101.tmx

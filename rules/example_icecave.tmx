@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
- <tileset firstgid="1" name="set_rule" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/set_rules.png" width="32" height="32"/>
- </tileset>
- <tileset firstgid="2" name="set_icecave" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="set_icecave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/set_icecave.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="6" name="collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="5" name="collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
- <tileset firstgid="8" name="icecave" tilewidth="32" tileheight="32">
+ <tileset firstgid="7" name="icecave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/icecave.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="136" name="cave" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/cave.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="264" name="set" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/set_cave.png" width="64" height="64"/>
  </tileset>
  <layer name="set" width="32" height="32" opacity="0.73">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2UOxLAIAhEHTPe/8ppLDIOP2UJFBbbKOFtAOmttX51NfUIyuZH+7CwI31k8yUPY4o6i+QPQtRdlAcrn5OnZzscK3/Hg6UXFfjrfKL43Hvw1ADxHv/kW3ZC1PxrfM0DF4vkUx60OHQNpPzfmqN25en/ofY1l6MKn8vv4VPzrcXsfHvC98hT9yz+aQ+RfMucR6sKP8tDNh+pF4uzagMAEAAA
+   H4sIAAAAAAAAA+2UOxLAIAhENeP9z5zGIuPwU5ZAYbGNEt4GkN5a61dXU4+gbH60Dws70kc2X/IwpqizSP4gRN1FebDyOXl6tsOx8nc8WHpRgb/OJ4rPvQdPDRDv8U++ZSdEzb/G1zxwsUg+5UGLQ9dAyv+tOWpXnv4fal9zOarwufwePjXfWszOtyd8jzx1z+Kf9hDJt8x5tKrwszxk85F6AVXE4B0AEAAA
   </data>
  </layer>
 </map>

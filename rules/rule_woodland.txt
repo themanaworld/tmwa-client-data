@@ -1,0 +1,38 @@
+# lines starting with # or // are comments
+# all other lines will be parsed and treated as filenames.
+
+# Rules for Woodlands.
+#
+# grass and high grass
+../rules/rule_woodland_001.tmx
+
+# straight borders of grass and high grass
+../rules/rule_woodland_002.tmx
+
+# borders at corners for grass and highgrass
+../rules/rule_woodland_003.tmx
+
+# this one is needed to grow trees and other stuff of Fringe into high grass
+# XXX       The O can be Tree in high grass. So there wont be setup borders
+# XOX   <-- If O is low grass, make borders of course
+# XXX
+../rules/rule_woodland_004.tmx
+
+# straight borders of grass and high grass
+../rules/rule_woodland_012.tmx
+
+# borders at corners for grass and highgrass
+../rules/rule_woodland_013.tmx
+
+# add trees 1-9 except 7
+# put the trees in one of the first rules, since these rules make
+# trouble with the surrounding floor tiles
+../rules/rule_woodland_100.tmx
+
+# add tree 7. This is seperated due to its extra height.
+../rules/rule_woodland_101.tmx
+
+
+# water
+../rules/rule_woodland_020.tmx
+../rules/rule_woodland_021.tmx

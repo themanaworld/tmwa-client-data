@@ -3,38 +3,33 @@
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
- <tileset firstgid="3" name="set" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/set_cave.png" width="128" height="256"/>
+ <tileset firstgid="3" name="set_icecave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/set_icecave.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="35" name="set_rules" tilewidth="32" tileheight="32">
+ <tileset firstgid="7" name="set_rules" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/set_rules.png" width="32" height="32"/>
  </tileset>
- <tileset firstgid="36" name="cave" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/cave.png" width="512" height="256"/>
+ <tileset firstgid="8" name="icecave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/icecave.png" width="512" height="256"/>
  </tileset>
  <layer name="ruleRegions" width="13" height="7">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA8oQzGxbHL1DCe3AQCixQ1VbAEAAA==
+   H4sIAAAAAAAAA2NgIA+wQzGxbHL1DCe3AQBjNkMpbAEAAA==
   </data>
  </layer>
  <layer name="ruleSet" width="13" height="7">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC4QhmJ0NrI8A5o4LjWUuoMa9hDyDykAANBtPQZsAQAA
+   H4sIAAAAAAAAA2NgoC5gg2J0NrI8A5o4LjWUuoMa9hDyDykAANyNKXlsAQAA
   </data>
  </layer>
- <layer name="ruleSet" width="13" height="7">
+ <layer name="ruleNotSet" width="13" height="7">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC4QgWJ0NrI8A5o4LjWUuoMa9hDyDykAAH/6R1FsAQAA
+   H4sIAAAAAAAAA2NgIA+wQTE6m5AeXHw2HGrIAeTYQ45/SAUAnKjAUmwBAAA=
   </data>
  </layer>
  <layer name="rule_Ground" width="13" height="7">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC6IR+MnoPH1oLQBle1FB35QOoBCc/LR+AUUmAUAm85AR2wBAAA=
-  </data>
- </layer>
- <layer name="rule_collision" width="13" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAX0AgB8n9a4bAEAAA==
+   H4sIAAAAAAAAA2NgoC5IRuOnoPFToXQ6le1FB61Qup1Cc4rR+CUUmAUAMdZruGwBAAA=
   </data>
  </layer>
 </map>
