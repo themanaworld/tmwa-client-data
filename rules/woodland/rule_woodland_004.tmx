@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="3" height="3" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Woodland" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="259" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="263" name="set_woodland" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_woodland.png" width="512" height="320"/>
+ </tileset>
+ <layer name="RuleRegions" width="3" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgQAXMjAwYAABHf/0SJAAAAA==
+  </data>
+ </layer>
+ <layer name="ruleSet" width="3" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgQAUajAwYAAA0tHM6JAAAAA==
+  </data>
+ </layer>
+ <layer name="ruleSet" width="3" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgQAUcjAwYAAA/5I8gJAAAAA==
+  </data>
+ </layer>
+ <layer name="rule_Fringe" width="3" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgQAWFDJgAAKvSE8AkAAAA
+  </data>
+ </layer>
+ <layer name="rule1_Fringe" width="3" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgQAVFDJgAAGGfum8kAAAA
+  </data>
+ </layer>
+ <layer name="rule2_Fringe" width="3" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgQAXFDJgAACek3QokAAAA
+  </data>
+ </layer>
+ <layer name="rule3_Fringe" width="3" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgQAUlDJgAALQCmeskAAAA
+  </data>
+ </layer>
+ <layer name="rule4_Fringe" width="3" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgQAXNDJgAADO/7q4kAAAA
+  </data>
+ </layer>
+</map>
