@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="160" height="160" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png"/>
+ </tileset>
+ <tileset firstgid="129" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png"/>
+ </tileset>
+ <tileset firstgid="131" name="cave_x2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave_x2.png"/>
+ </tileset>
+ <tileset firstgid="163" name="Arena" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/arena.png"/>
+ </tileset>
+ <tileset firstgid="419" name="cave_bilevel" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave_bilevel.png"/>
+ </tileset>
+ <tileset firstgid="675" name="Woodland_ground" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_ground.png"/>
+ </tileset>
+ <tileset firstgid="931" name="Woodland_x2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_x2.png"/>
+ </tileset>
+ <tileset firstgid="995" name="inn" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png"/>
+ </tileset>
+ <tileset firstgid="1251" name="indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png"/>
+ </tileset>
+ <tileset firstgid="1507" name="woodland_indoor_x2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor_x2.png"/>
+ </tileset>
+ <tileset firstgid="1539" name="woodland_indoor_x3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor_x3.png"/>
+ </tileset>
+ <layer name="Ground" width="160" height="160">
+  <data encoding="base64" compression="gzip">
+   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
+  </data>
+ </layer>
+ <layer name="Cliffs" width="160" height="160">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DsQ0AAAgDoPr/w44Orl5gICEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABYXXcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB+67oDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMBHA/Rsry8AkAEA
+  </data>
+ </layer>
+ <layer name="Fringe" width="160" height="160">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3dMU7rMAAG4CAKHAGpF+AQHIEjcAzEVLYeoeIaZWItCzMMwAorDBwBCVdKpLy+NK2KU6f190lRiowqS/1jJ7YVFwUAAAAAAAAAAAAAAAAA6ximrgBA5oYLZ4BcjMIxbikfl//D7mn63dp+61QmG5axe/rye/bxOiAffbkOgN23T+MY08PUNSBns0MZJK2Z/NGBdZ57LzuvBbla9dx7UZ71v6RU9b/3B2nrQX4W2z4ZTGufxlbanJdnzx5xmT+Pa7jkM2zbzdG/f38OiuJrkKYuqZlT79Z3mavR0fKyaSi7ayjPwTbm1GNlvO/XSr1+VR/709KuVWWzkL2HWv5OjmPXLG8xMj6M9D2xNF0Lm9bvKWTvuZa/U/ljhZjXwnvI3keZv/m94Zn80aHrTO/1+JtN7z/r4y2TkL3HcNy2ZND4DE1i9LkvIXev4XjTBpLIlewBAEBnrKUBgP7KZc00AAAAAADQDXMNAHH1/R0F7Lc+vaMAAAAAAAB2iblzIFfz94m0zXOPC+8coVtt89zmwOmCtT3p5dyvaNcA/mfvc1Ka7/8rg/EZY12fPajpwjrPvZed14JcrXruvSjP+l9Sqvrf+4O09SA/i22fDLIN5+XZswd9NlzyGbbtZmH/y89BUXwN0tSF/fZd5mrUsOdqVTYNZXf2ZOWP6uOEVR/709KuVWWzkL2HWv5OjmPXjH3TNCa96fqYp5C951r+TuWPFRaz9pd1ae8hex9l/ub3hmfyR4eu3euxgU3XP9fHWyYhe4/huG3JoPEZmsRY//wScvcajjdtIIlcyR4AAAAAAACQ0OKaDGs0AAAA2Ff2/QEAAADIg7UQAAAA5MJaCAAAAAAAAAAAAAAAAAAAAACgS791JcZSAJABAA==
+  </data>
+ </layer>
+ <layer name="Over" width="160" height="160">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3dS3abMBQAUDzwoN1Amy1mHfnO8x1nCY73V3mQE4rBAQESoHvPeRNSemT8JOsHVBUAAAAAAAAAAAAAAAAAAACwZTchbkPc5S4Im/cnxO/GsacQzyFe0heHEdq+y6U5lfFvLZZeXrZjDfWDc80246rjb75bUvhVbTfn6p/t6od/y/z8ZpGL3CMXucdQl8YJQ/+fLebe6XPp06Xz1Ze+dM2bObuWMcXps8XkUux5xDOm+1+fetm01d8E4o1ty7rO/9it8zeB9GLasrrj7vzYoeUY3b76cOooqemXACWx5k8qU87PmYdhiDn7ds1xYyljmHp9btbBw76qPkMc9+nLxXhLHQsN6a9cy72kvtrBsXmz5Nybolz63PO4D/EQ4nHAOUtfM+6bK33XT5Zat7bgNcRbiPfcBYlQH0/F1oWuHNTekUpbHss5AAAY59LcPzS1zbNNdU+R+yCIMTRvLq3rykFi/LTnfMjcaUw+mxvbvj7fc1vuxOTH2HsoKFdz7n5M29S1nmVdAAAAtsd8HACsR9s6sflkptKVX+aEmVrbfeFjnnegDSTGVPflykGgZNpAAAAgB/dvkIvcIxe5199NiNsQd7kLwua11cunEM8hXtIXZ5O0fd+aezlcl3nJvW+uBZRDfR/OO3pg3Up5lxHL4zeXFPRThjvVTddqevVcLKXti91Tay8uucU871C/hqaxbVnX+R8797jSz9hntx5358cOLccAAABgTS69A++wr6rPEMd9+nKxXUPeB3Ut95jQVOsWQ3KYsvXNlb7rJ9beaNP1vrAhudKVg9o7UmnLYzkHAAAAAAAAQOk8/4o5efYQS+F5OgAA5WnuHzfuJbX7EA8hHnMXhCK9hngL8Z67IAAAAJnYC8Gc7IVgKeyFAAAoj70Q5GYvBDnZCwEAAAAAAAAAAAAAAAAAZfoHpOnP0gCQAQA=
+  </data>
+ </layer>
+ <layer name="Over 2" width="160" height="160">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfBhhhfhKAJABAA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="160" height="160" visible="0">
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1856" y="992" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1920" y="1792" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1984" y="1792" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="736" y="2112" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="800" y="2112" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1504" y="1216" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1568" y="1216" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2176" y="704" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2144" y="1376" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1056" y="2784" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3328" y="2496" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3264" y="2496" width="32" height="32"/>
+  <object name="graphics/particles/sphere-white.particle.xml" type="PARTICLE_EFFECT" x="1706" y="5156" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3264" y="768" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3328" y="768" width="32" height="32"/>
+  <object name="graphics/particles/sphere-white.particle.xml" type="PARTICLE_EFFECT" x="3760" y="1313" width="32" height="32"/>
+  <object name="graphics/particles/waterfall.particle.xml" type="PARTICLE_EFFECT" x="3936" y="1056" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3552" y="1344" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3648" y="1472" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="4032" y="1472" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3776" y="1248" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3680" y="1248" width="32" height="32"/>
+  <object name="graphics/particles/waterfall.particle.xml" type="PARTICLE_EFFECT" x="3936" y="2784" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3680" y="2976" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3648" y="3200" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="4032" y="3200" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1120" y="3648" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1248" y="3648" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1152" y="3840" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1216" y="3840" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2240" y="4064" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2368" y="4064" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2272" y="4256" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2336" y="4256" width="32" height="32"/>
+  <object name="to 025-1" type="warp" x="1184" y="3584" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="025-1"/>
+    <property name="dest_x" value="42"/>
+    <property name="dest_y" value="81"/>
+   </properties>
+  </object>
+  <object name="to 025-1" type="warp" x="2304" y="4000" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="025-1"/>
+    <property name="dest_x" value="42"/>
+    <property name="dest_y" value="81"/>
+   </properties>
+  </object>
+  <object name="to Cavern" type="warp" x="2304" y="4352" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="025-1"/>
+    <property name="dest_x" value="42"/>
+    <property name="dest_y" value="81"/>
+   </properties>
+  </object>
+  <object name="to Cavern" type="warp" x="1184" y="3936" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="025-1"/>
+    <property name="dest_x" value="42"/>
+    <property name="dest_y" value="81"/>
+   </properties>
+  </object>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3552" y="3072" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3776" y="2976" width="32" height="32"/>
+ </objectgroup>
+ <layer name="Collision" width="160" height="160" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3S227sIBBEUb59vvw8WeIQbgZMNfQuaSmZ2Gaq2/mFEH4AAAAAAAAAAAAAAAAAAAAAAAAAAMC0YKCDxS7w985zXSz1w7r3nMZSn95rOE8p6j7p77m+uc+Y3/+O80vZ0aHUq9Sl95r63Z1uxy5L2fX9bzq9ifrd3eDrffZGPbfFjh58sd+RKOdu9VH086K08xXntr7Tyty5qN+LFyt3not6vjddrXe+UW9GzlDPdlvnG/Xmtvd4YucbfRH1TDhDnNb13qhnwjni9N7X+wzQEuftc+ruOFcuI8+q58B5Shl5Xj0LzpNm9vmRM27EHv7uopXRs1eckztLvTes0ZsV/y8j5/ySM2bOsbznk2f7ai879j16lnpvq/dx8mwrdrJ797PvTL27Vbu+YbbZnez8vtF3lka9u1X7vmW2Vfv4+vtG+qVR721m12n/G2ab3cnO73v7rtKod7Zi3yHz+fTZZvax+kyLvaxIo+5jYRerz7TYC/a03nPt2spn3vbCHeKUrvee8/aZnl7q/eBbcUrXe8/Jndk6v9VLvR98qyerzuk96zdwP84zkpXP9/RS7wjfGUnu+dxZPd/V6qbeD74Vp+ee9L5Ses8q3dtzFs4Xp/e+Wt5+56ozcaY4o/87s99bi3o/+NbIew6Dz7XOykW9H3yL9wylJ+oe8OmJugd8SjNzjnoWnCdNz/21c9Tz4Exh8r7w4gwg9kXUM+EcX0Q9E87xJP69lp6zWvcBjzRWzoIvYeE5cdRzwZ846i7wJ466C3x6ou4Bn56oe8CnJ+oe8OmJuseOOdUd8P/7iKPus2Penr9h3/t4ou6ya8501to17Hkv6h67ZszNGwr33L4Xtdt3nEvp76Vr6hludfuOV0Q9wy1yu7x9x3HSz6WoO9/K475bSe9V971Zzzu4TSvqfh7kdu5l/7Wou3nh+R14ndsK7/v3PLsF3vcfop8e57fE4/5LUfeCH6Woe8GHUtS94Ecuo2eoZ8G50uSut55Tz4BzpSldaz2rngNnepPac7lr6tlgXy2t6z1RzwfbnsS/5z6PRj0fbNod9byw5U1qz/ecqZ4V9oToZy6tZ3P31aKeF3a0Mvt87znwKZcVZ8ycB7yVRt0HAAAAAAAAACwJBjrApzjqLvAlF3Un+FCLuhvuF6KfadTdcK9a1N3gSxp1H/gUDHSAT3HUXeBPHHUX+BNH3QU+BQMdAMC7YKADfIqj7gJfclF3gg+1qLvhfiH6mUbdDfeqRd0NvqRR94FPwUAH+BRH3QX+xFF3gT9x1F3gUzDQAQAAAAAAAAAAAAAAAAAAAAAAAAAAAH78A8B4A6sAkAEA
+  </data>
+ </layer>
+</map>
