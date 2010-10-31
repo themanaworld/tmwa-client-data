@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<effect>
+	<particle
+		position-x = "0"
+		position-y = "0"
+		position-z = "10"
+		>
+		<emitter>
+			
+			
+			<property name="position-z" min="16" max="48" />
+			<animation imageset="graphics/particles/monster-ball-lightning.particle.png" width="15" height="15">
+				<sequence start="0" end="7" delay="20" />
+			</animation>
+			<property name="horizontal-angle" min="0" max="360"/>
+			
+			<property name="gravity" value="0.1"/>
+			<property name="randomnes" value="125"/>
+			<property name="lifetime" value="75"/>
+			<property name="fade-in" value="5"/>
+			<property name="fade-out" value="20"/>
+			<property name="alpha" value="0.6" />
+			<property name="output" value="1"/>
+			
+			
+			
+			
+			
+			
+		</emitter>
+	</particle>
+</effect>
