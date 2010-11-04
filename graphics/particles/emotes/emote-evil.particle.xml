@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <effect>
 	<particle
 		position-x = "0"
@@ -9,12 +10,12 @@
 			<property name="position-x" value="0"/>
 			<property name="position-y" value="0"/>
 			<property name="position-z" value="-32"/>
-			<property name="lifetime" value="360"/>
-			<property name="fade-out" value="20" />
-			<property name="acceleration" value="0.06" />
-			<property name="momentum" value="0.993" />
-			<animation imageset="graphics/sprites/emotions.png" width="30" height="32">
-				<frame index="8" delay="1000"/>
+			<property name="lifetime" value="80"/>
+			<property name="fade-out" value="50" />
+			<property name="gravity" value="-0.02" />
+
+			<animation imageset="graphics/particles/emotes/evil.png" width="30" height="32">
+				<frame index="0" />
 			</animation>
 			<property name="follow-parent" />
 		</emitter>
