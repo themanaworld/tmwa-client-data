@@ -1299,7 +1299,29 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
 	<sprite>monsters/monster-bandit-lord.xml</sprite>
 	<sprite>monsters/weapon-bow.xml</sprite>
     </monster>
-    <monster id="63" name="The Lost" targetCursor="medium">
+    <monster id="63" name="Vampire Bat">
+        <sprite>monsters/monster-vampire-bat.xml</sprite>
+        <sound event="die">monsters/bat/bat-dying1.ogg</sound>
+        <sound event="hit">monsters/bat/bat-hit1.ogg</sound>
+        <drop item="501" percent="2"/>
+        <drop item="533" percent="8"/>
+        <drop item="521" percent="1"/>
+        <drop item="522" percent="4"/>
+        <attributes
+            hp="60"
+            size="4"
+            speed="3.0"
+            attack-min="15"
+            attack-delta="2"
+            attack-magic="0"
+            hit="15"
+            evade="7"
+            physical-defence="7"
+            magical-defence="0"
+            mutation="50"
+            />
+    </monster>
+    <monster id="64" name="The Lost" targetCursor="medium">
         <sprite>monsters/monster-skeleton.xml|#aca379</sprite>
 	  <sprite>chest-robe-male.xml|#333333</sprite>
         <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
@@ -1500,5 +1522,4 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
             />
             <script>testmonster.lua</script> <!-- only Proof of Concept-->
     </monster>
-
 </monsters>
