@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<sprite>
+    <imageset name="base" src="graphics/sprites/npcs/npc-cryingchild.png" width="50" height="80" />
+    <action name="stand" imageset="base">
+        <animation direction="default">
+            <!-- Crying child animation -->
+            <frame index="0" delay="120"/>
+            <frame index="1" delay="120"/>
+            <frame index="2" delay="120"/>
+            <frame index="3" delay="120"/>
+            <frame index="4" delay="120"/>
+            <frame index="5" delay="120"/>
+        </animation>
+    </action>
+</sprite>

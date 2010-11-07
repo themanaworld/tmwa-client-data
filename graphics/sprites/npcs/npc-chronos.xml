@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<sprite>
+    <imageset name="base" src="graphics/sprites/npcs/npc-chronos.png" width="50" height="64" />
+    <action name="stand" imageset="base">
+        <animation direction="default">
+            <!-- Chronos -->
+            <frame index="0" delay="1000"/>
+            <frame index="1" delay="1000"/>
+            <frame index="2" delay="1000"/>
+            <frame index="3" delay="1000"/>
+            <frame index="4" delay="1000"/>
+            <frame index="5" delay="1000"/>
+            <frame index="6" delay="1000"/>
+            <frame index="7" delay="1000"/>
+            <frame index="8" delay="1000"/>
+        </animation>
+    </action>
+</sprite>

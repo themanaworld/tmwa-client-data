@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<sprite>
+    <imageset name="base" src="graphics/sprites/npcs/npc-receptionist.png" width="32" height="64" />
+    <action name="stand" imageset="base">
+        <animation direction="default">
+            <!-- Bloody body -->
+            <frame index="0" delay="500"/>
+            <frame index="1" delay="370"/>
+            <frame index="2" delay="330"/>
+            <frame index="3" delay="320"/>
+            <frame index="4" delay="340"/>
+            <frame index="5" delay="320"/>
+            <frame index="6" delay="330"/>
+            <frame index="7" delay="370"/>
+            <frame index="8" delay="500"/>
+        </animation>
+    </action>
+</sprite>

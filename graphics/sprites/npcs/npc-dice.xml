@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<sprite>
+    <imageset name="base" src="graphics/sprites/npcs/npc-dice.png" width="58" height="87" />
+    <action name="stand" imageset="base">
+        <animation direction="default">
+            <!-- dice hand -->
+            <frame index="0" delay="90"/>
+            <frame index="1" delay="90"/>
+            <frame index="0" delay="90"/>
+            <frame index="1" delay="90"/>
+            <frame index="0" delay="90"/>
+            <frame index="1" delay="90"/>
+            <frame index="2" delay="90"/>
+            <frame index="3" delay="90"/>
+            <frame index="4" delay="90"/>
+            <frame index="5" delay="90"/>
+            <frame index="6" delay="90"/>
+            <frame index="7" delay="90"/>
+            <frame index="8" delay="90"/>
+            <frame index="9" delay="90"/>
+            <frame index="10" delay="90"/>
+            <frame index="11" delay="90"/>
+            <frame index="12" delay="90"/>
+            <frame index="13" delay="90"/>
+            <frame index="14" delay="90"/>
+            <frame index="13" delay="90"/>
+            <frame index="12" delay="90"/>
+            <frame index="11" delay="90"/>
+            <frame index="10" delay="90"/>
+            <frame index="9" delay="90"/>
+            <frame index="8" delay="90"/>
+            <frame index="7" delay="90"/>
+            <frame index="6" delay="90"/>
+            <frame index="5" delay="400"/>
+            <frame index="4" delay="90"/>
+            <frame index="3" delay="90"/>
+            <frame index="2" delay="90"/>
+            <frame index="1" delay="90"/>
+
+        </animation>
+    </action>
+</sprite>
