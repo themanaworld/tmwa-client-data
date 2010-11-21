@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="set_icecave" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/set_icecave.png" width="64" height="64"/>
+  <image source="../graphics/tiles/set_icecave.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="5" name="collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="17" name="collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
- <tileset firstgid="7" name="icecave" tilewidth="32" tileheight="32">
+ <tileset firstgid="19" name="icecave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/icecave.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="147" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/set_rules.png" width="64" height="64"/>
  </tileset>
  <layer name="set" width="32" height="32" opacity="0.73">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2UOxLAIAhENeP9z5zGIuPwU5ZAYbGNEt4GkN5a61dXU4+gbH60Dws70kc2X/IwpqizSP4gRN1FebDyOXl6tsOx8nc8WHpRgb/OJ4rPvQdPDRDv8U++ZSdEzb/G1zxwsUg+5UGLQ9dAyv+tOWpXnv4fal9zOarwufwePjXfWszOtyd8jzx1z+Kf9hDJt8x5tKrwszxk85F6AVXE4B0AEAAA
+   H4sIAAAAAAAAA+2V4QqFIAyFrVvSjXt7/8eNwEBk0zPdMqIfB8tg35mba3DODa9eBY0Z9eZb+0g5a1j9RT6Q3K3PgWNNQee7j/Ys+RMh6puVB5TPqaVmEg7Kl3hAaiHheyEfqcWhT/S8KebP3Qck7x/jQeM+ttQA5c6ESj6WAlubXzqLtO/QWXHy/mH9JvzV5T2UZmhN7lz+sR8qfnzmkllJ8XM9ieSnNa+5GHfhc/E1+LkYaR9y+7X8lv/QE/i1NdTkI31urbvwe3nozdfUDrIV56wAEAAA
   </data>
  </layer>
 </map>
