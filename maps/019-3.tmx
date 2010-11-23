@@ -32,21 +32,25 @@
    H4sIAAAAAAAAA+3dW26jMBgG0GQdnfcqnf3vbxSNUCOEwQbj6zlS3toK8OffF2h4PAAAAAAAAAAAAAAo7ev5ePx91j4KAACAfN7rnB9rHSItefmRGxJ87WTmtcqUbPG2rjV/AnlY/5z8kEJ+uMK9AmLJyn1Gu7ajnQ/3kRXoQ2i/I/Sp1a/tDfcltI4tlaW9PT76UqrvqzFlvHb2T3Mw/+zf3RlZlOjz8jgObdmfs7XkalvfmRU5jNPLdTpaL7WaQ9Ks2+KVqY0//35r695Sc7lZ5J6znqkPuXM2YkZK1d3Ptti6hjmP40r27K+0L3dmr/w9eWlba/PK1o6nppRr0dvYm6OdZQXS6DPk0tuYszAnBT7tPUOnTsxrnYu98S52blVyDtbrGN2TM9e4xazM7O5+UqIfpu4XGd/aUrJWn71fKCvHjLnUJoMcqZUR40h+o/Z3WenDqPkbUa3ng1rJSMzxvqyNq2glI7Sr54yYz8xN+7el5VoiK+QkTxBWqn+UGHNK3d9VU8bhnjBrSx1Z1yvtntfde6g11zmpWfFs3HhCdQR61vL+USx1NN2s16yn8+6tb/Z2vBzL3V9kpI7U656r3bV3P2q1lYyw5bMGyQh7lu/EkJF59LSW4xr1nxLUlD7MXA9mPndoTa7+WGPsGaGWzDhmz3jO1BPz/6Qj1BLyCNUnGUnX2jW7MvbEPEfX2vnmMOt4fXTeoe+tDb1DKPa7TNl21Lday6nnbsNC7/Frqf3usPWeSvnYd/R+trfU/OQcp2fJbo9SnsNYt+OZjGxlYT0OtDZO8d/Wcxh79frMcxvr34l592TsHJMyvp+/HwAAAAAAAAAAAAAAAAAAAMr4B+hJZIYAFAEA
   </data>
  </layer>
+ <layer name="Collision" width="138" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2TUWokQQxDs1fI/Q8blmUhhM50uUq27J4neH/TLsvSfP75+PgEAAAAAAAAAAAAAAAAAAAAAAAAACl/5d4B+vNd7l0gL2PVnCu5/YE+X9WcFbl9w3m+FT2hL7Nw94TOzECRV7bcN4KzXKqV4d19/ykosqmW2rc7gwlkZFIt5V7uPDpScbfVWSfK6qo7HzeTbrW7o0pu/53vPuFWd3uq5fbb4b5Tb+WQ2/Ok297NneZH4f+JOO+ZcXeH3Bk+qScKdffkzpKe/FN3T+4sO/SkQwfd76v3m4T7Brs5RPeqkDvLJ/dElWOHvrizdOfTaZfTHTPlztKZTcedTvfMkjtLZx6ns6u68vNbR0/u3p1GlefT+QpVd8WdraMr3ft4OjtD7lwn9uT7OyvvZ/ip7Ik70yf25Lc9Mj1ldsad5xO6Et0jy5fqJq47de5J1R3Ub5/Oicqd5bv0ZGWfyp50vE/3rnTaJbKTwo9yn8lU3+DVvF3tzlN3d3XmVKq8380+0WnG9OSsJxU9VEqdteL9p5Dtu1JZPVmd5c7yHXuyM1fdk6gnd5ZP6kkk453Zqq4qOvoUFDdTZKPyoNpnZ5Y7S3dPOnck0hOV3ywfncnKcVWZHnZ3oyf6m71LT6q8dCXLe+Vdo/N39orInemEnjhuufNGdMeI3Jk+pSPqW+6+EdnR5a0Dar9X31fccXf/1cx35M62sisduqfI+tW7q9/syJ3t1J5Ud2Pl7dVvlG9ORO0z82YnUvhXvTkRtc+sm51KsbPyzWmoPWfcSyHF3uo3p5DhWX0vpRR7K9+cQoZf1a0yFXlPtZc766qudO6IwtPq7N2uuHPu0BP1fRQZ7HynnL0yZxIKn+r7qG4f/X71jR25c67oyu73zu7udnj1jajcGb9jT1SzTrxE5c74aT1R3zw6Z/W3EbnzrepKVU8y7h6do/jtyb4TUN8ooyfZMyPvZuw7gZM7Km7UZebqu+pdp5Al1ftZvu5+X71vd7KkeD/T16vfO3rdlWxN68n/bzLmTiZbE3uiuJc7V1dPdjvl7om6K2rfU8iWuyOunij3f3I/Irc6+Vbhl574e1KZYeYbWd67U6UJPfntrQrv3alSh45Ue87Y/eld6dSTTv+PSXS4V/WtlX4q96Yna9+uzKruydU8d6YTe1KdWabvlVnuPKd2pWtPXr3tzqMrWap4X+nbncMErm51qu49AW13fuahzi8yi7705CqDuxxP37jLnp70gwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABq+QIUB5+rABQBAA==
+  </data>
+ </layer>
  <objectgroup name="Objects" width="138" height="128">
   <object name="WarpOutside1" type="warp" x="1280" y="3168" width="32" height="32">
    <properties>
     <property name="dest_map" value="019-1"/>
+    <property name="dest_x" value="1232"/>
+    <property name="dest_y" value="2352"/>
    </properties>
   </object>
   <object name="warpOutside2" type="warp" x="3136" y="800" width="32" height="32">
    <properties>
     <property name="dest_map" value="019-1"/>
+    <property name="dest_x" value="3088"/>
+    <property name="dest_y" value="1232"/>
    </properties>
   </object>
  </objectgroup>
- <layer name="Collision" width="138" height="128">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2TW2osQQxDky1k/4sN4XIhhJ7uesiWXXME52/aZVmar8+Pjy8AAAAAAAAAAAAAAAAAAAAAAAAAkPIj9w5Qn99y7wJxGavmXMntD/T5quaMyO0b9vPN6Al96YW7J3SmB4q8ouW+Eezlki33rd4ZRTbZUvt2Z9CBiEyypdzLnUdFMu42OmtHUV115+Om061Wd1TJ7b/y3Tvc6mlPtdx+K9y3660ccnvudNunud38KPyfiPOeEXd3yJ3hST1RqLond5b05J+qe3JnWaEnFTrofl+9XyfcN1jNYXavDLmzPLknqhwr9MWdpTufSrvs7hgpd5bObCrutLtnlNxZOvPYnZ3Vlb/fOnry9G43sjzvzlcouyvubB1dqd7H3dkRcufasSe/3xl5P8JPZk/cmZ7Yk1d7RHqK7Iw7zxO6MrtHlC/VTVx3qtyTrDuo396dMyt3lu/Sk5F9MntS8T7Vu1Jpl5mdFH6U+3Qm+wZ381a1Ok/d3dGZXcny/jR7R7sZ05O9nmT0UCl11or3TyHad6aiejI6y53lO/ZkZa66J7Oe3Fme1JOZjFdmq7qq6OgpKG6myEblQbXP3awID9WJylCRh7onKr9RPioTleOoIj2s7vbqm6dv3Vk6exLZP9VtZ2ev7JTlpSpR3jPvOjt/Za8ZuTPt0BPHLVfemN1xRu5MT+mI+parb8zs6PJWAbXfq+8z7ri6/2jmK3Jnm9mVCt1TZH337ug3K3Jn27Un2d0YeXv0G+WbHVH7jLzZjhT+VW92RO0z6ma7UuysfLMbas8R91JIsbf6zS5EeFbfSynF3so3uxDhV3WrSM28p9rLnXVWVyp3ROFpdPZqV9w5V+iJ+j6KDFa+U84emdMJhU/1fVS3n/1+9I0VuXPO6Mrq987urnZ49I1ZuTN+x56oZu14mZU749N6or757JzR387InW9WV7J6EnH32TmK3+7s2wH1jSJ6Ej1z5t2IfTuwc0fFjarMHH1XvWsXoqR6P8rX0++z961OlBTvR/q6+72j11WJVree/P8mYm5notWxJ4p7uXN19WS1U+6eqLui9t2FaLk74uqJcv+T+zFzq51vFX7pib8nmRlGvhHlvTpZ6tCTV29leK9Olip0JNtzxO6nd6VSTyr9PzpR4V7Zt1b6ydybnox9OzIruydX89yZduxJdmaRvkdmufPs2pWqPbl7251HVaKU8b7StzuHDlzdalfVewLa7vzNQ53fzCz6UpOrDJ5y3H3jKXt6Ug8yAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyOUbNry5dAAUAQA=
-  </data>
- </layer>
 </map>
