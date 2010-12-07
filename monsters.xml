@@ -1522,4 +1522,20 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
             />
             <script>testmonster.lua</script> <!-- only Proof of Concept-->
     </monster>
+    <monster id="61" name="Pumpkin">
+        <sprite>resource-pumpkin.xml</sprite>
+        <attributes
+            hp="200"
+            size="4"
+            speed="0.0"
+            attack-min="0"
+            attack-delta="0"
+            attack-magic="0"
+            hit="0"
+            evade="0"
+            physical-defence="0"
+            magical-defence="5"
+            mutation="0"
+            />
+    </monster>
 </monsters>
