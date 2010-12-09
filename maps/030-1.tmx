@@ -6,22 +6,22 @@
   <property name="name" value="Snow field"/>
  </properties>
  <tileset firstgid="1" name="Snow" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Snow.png" width="512" height="512"/>
+  <image source="../graphics/tiles/Snow.png"/>
  </tileset>
  <tileset firstgid="257" name="Snow x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/Snow_x2.png" width="512" height="64"/>
+  <image source="../graphics/tiles/Snow_x2.png"/>
  </tileset>
  <tileset firstgid="273" name="Snow_ground" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Snow_ground.png" width="352" height="224"/>
+  <image source="../graphics/tiles/Snow_ground.png"/>
  </tileset>
  <tileset firstgid="350" name="Snow_village2" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Snow_village2.png" width="512" height="512"/>
+  <image source="../graphics/tiles/Snow_village2.png"/>
  </tileset>
  <tileset firstgid="606" name="Collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+  <image source="../graphics/tiles/collision.png" trans="ff00ff"/>
  </tileset>
  <tileset firstgid="608" name="Snow_tree_x3" tilewidth="64" tileheight="96">
-  <image source="../graphics/tiles/Snow_tree_x3.png" width="192" height="96"/>
+  <image source="../graphics/tiles/Snow_tree_x3.png"/>
  </tileset>
  <layer name="Ground" width="138" height="128">
   <data encoding="base64" compression="gzip">
@@ -53,11 +53,6 @@
    H4sIAAAAAAAAA+3OMQ0AAAgDsOH/xDASSHh4WgVNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADuur4HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbAZnLDwRABQBAA==
   </data>
  </layer>
- <layer name="Collision" width="138" height="128">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3WUW6sMAwF0OpttPvfxfsaCSEgIZhx4h5LR+p0psHYt7S//35+fgEAAAAAAAAAAAAAAAAAAAr61PZ1dk/M45OHfU7gY5uNo+fJKrnZVnYvVV1Vdm8j/Wf3U9nKWVmt3xX1Vnafd3rP7qsqOaE1596sZPcqJ7kzPpr3UY5mJCN5c15p3iv2vLIV87JSrxXICNXycdV3dl/VrTTvfY+r9F3FCr+frcrur7JVZt5b2X1WtcLM71Z2vxXNPvfRyp5rRTPO/Wllz7SS2eb/pB85mWcnb++gtfsZevyrovYwspv9z0RW9lyrOJvtyB5Gd3N0XlRlz7eSyNqeeXb+3T5Ge8+eaxWZdaeHkXvInm01b+w1uuQk3xs7elJH555dT07mz8j2jKvz9u+1rh2Zv+z5VhIx3zs76/lcVGXPtpLIOe9/7uiM/ftH14yq7NlWED3ju2ddfTaisudbSfSMW+f07vdpZc+1krfmHbHj1vXf6Jv7834ze3a8juh9yUdtUbvrOUM21vYkK60cPM0fc7m73yeVfa98JysygozQm5O3MpN9b8RnRUbIyEv2vbBGVrLvgzWykn0PzJ8RWamvtfP913Ly90TsWz5qi3omyEldkX8z5GR+I38jIv+n8L/JGnp3tP1MVFYi88Z3cjJaEdfNngHv52R0z5GZ4/s5uZOf3vPPrpd974zlpZWhkaxcZS/7nonJzVUuWq9b2ZCTWq5+93ufNXLCUV7Ovi8b9D5XsvtkLlfPl+zemJNsAAAAAAAAAAAAAAAAAAAAAAAAAADwtv/iqAwUABQBAA==
-  </data>
- </layer>
  <objectgroup name="Objects" width="0" height="0">
   <object name="toSnowfield" type="WARP" x="1920" y="896" width="64" height="32">
    <properties>
@@ -66,5 +61,34 @@
     <property name="dest_y" value="3216"/>
    </properties>
   </object>
+  <object name="Santa Slime" type="spawn" x="1448" y="648" width="2168" height="2288">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="13"/>
+   </properties>
+  </object>
+  <object name="Squirrel" type="spawn" x="1656" y="712" width="2168" height="2288">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="36"/>
+   </properties>
+  </object>
+  <object name="Fluffy" type="spawn" x="1656" y="712" width="2168" height="2288">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="15"/>
+    <property name="monster_id" value="18"/>
+   </properties>
+  </object>
  </objectgroup>
+ <layer name="Collision" width="138" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WUW6sMAwF0OpttPvfxfsaCSEgIZhx4h5LR+p0psHYt7S//35+fgEAAAAAAAAAAAAAAAAAAAr61PZ1dk/M45OHfU7gY5uNo+fJKrnZVnYvVV1Vdm8j/Wf3U9nKWVmt3xX1Vnafd3rP7qsqOaE1596sZPcqJ7kzPpr3UY5mJCN5c15p3iv2vLIV87JSrxXICNXycdV3dl/VrTTvfY+r9F3FCr+frcrur7JVZt5b2X1WtcLM71Z2vxXNPvfRyp5rRTPO/Wllz7SS2eb/pB85mWcnb++gtfsZevyrovYwspv9z0RW9lyrOJvtyB5Gd3N0XlRlz7eSyNqeeXb+3T5Ge8+eaxWZdaeHkXvInm01b+w1uuQk3xs7elJH555dT07mz8j2jKvz9u+1rh2Zv+z5VhIx3zs76/lcVGXPtpLIOe9/7uiM/ftH14yq7NlWED3ju2ddfTaisudbSfSMW+f07vdpZc+1krfmHbHj1vXf6Jv7834ze3a8juh9yUdtUbvrOUM21vYkK60cPM0fc7m73yeVfa98JysygozQm5O3MpN9b8RnRUbIyEv2vbBGVrLvgzWykn0PzJ8RWamvtfP913Ly90TsWz5qi3omyEldkX8z5GR+I38jIv+n8L/JGnp3tP1MVFYi88Z3cjJaEdfNngHv52R0z5GZ4/s5uZOf3vPPrpd974zlpZWhkaxcZS/7nonJzVUuWq9b2ZCTWq5+93ufNXLCUV7Ovi8b9D5XsvtkLlfPl+zemJNsAAAAAAAAAAAAAAAAAAAAAAAAAADwtv/iqAwUABQBAA==
+  </data>
+ </layer>
 </map>

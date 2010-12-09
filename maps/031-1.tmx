@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="128" height="148" tilewidth="32" tileheight="32">
  <properties>
   <property name="minimap" value="graphics/minimaps/020-1.png"/>
@@ -7,25 +6,25 @@
   <property name="name" value="NivalisPort"/>
  </properties>
  <tileset firstgid="1" name="Snow" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Snow.png" width="512" height="512"/>
+  <image source="../graphics/tiles/Snow.png"/>
  </tileset>
  <tileset firstgid="257" name="Snow x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/Snow_x2.png" width="512" height="64"/>
+  <image source="../graphics/tiles/Snow_x2.png"/>
  </tileset>
  <tileset firstgid="273" name="Snow x3" tilewidth="32" tileheight="96">
-  <image source="../graphics/tiles/Snow_x3.png" width="512" height="96"/>
+  <image source="../graphics/tiles/Snow_x3.png"/>
  </tileset>
  <tileset firstgid="289" name="Snow_village" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Snow_village.png" width="512" height="512"/>
+  <image source="../graphics/tiles/Snow_village.png"/>
  </tileset>
  <tileset firstgid="545" name="Collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+  <image source="../graphics/tiles/collision.png" trans="ff00ff"/>
  </tileset>
  <tileset firstgid="547" name="Snow_ground" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Snow_ground.png" trans="000000" width="352" height="224"/>
+  <image source="../graphics/tiles/Snow_ground.png"/>
  </tileset>
  <tileset firstgid="624" name="Snow_tree_x3" tilewidth="64" tileheight="96">
-  <image source="../graphics/tiles/Snow_tree_x3.png" width="192" height="96"/>
+  <image source="../graphics/tiles/Snow_tree_x3.png"/>
  </tileset>
  <layer name="Ground" width="128" height="148" opacity="0.98">
   <data encoding="base64" compression="gzip">
@@ -52,11 +51,6 @@
    H4sIAAAAAAAAA+3dXW7TQBQGUKc7aaXSd9RSnlGhLAAK72ygXUJhBa3aBRRWgNggtmAkYxw7SR3PeOYc6b6USLH03flJYg9VBQAAAAAAAAAAAAAAAACwHLd1fa3rW+wLYXZN9o91XR9U1UOlB0oSsm/TA2Vosr85+Pdv1we9LyUzfeOefIX9XSjjvAwhd3nnqTuuu9Vd31m2bt5Da7gxP43jVVW9qOtkNe/79o3tdt4hXznvT5P9WV2v6jrfcw/0je1utubz+YTsD//mfzRDD6zLu/1343032+R22sr+bV3v6rps9cDrmdeCQPa722bsXrSy/1jXVV2fWj3wPlL+7G6b+fuik/1VpwfkvzxHW6zhH0b+/bP8Fyfkv0kPfJFvdi5X//fAun3cjfyz096/hZpqHfd7+TLZx5VN/mWTf9l8jgMAAAAAYC5Dz/T4nTkvQ8949N3r/9Dzer2xHEPPb43d2+3e73Jt+tyPeYCGHgAA+tgjoAcA4rmP/P77WgNOR+6tj3WGRmpi59/YRw9cjOTr2ZuquqvSyL8xdQ/If1w3/9i/8UzZA/IfFs5gTmX8B1P9huQMlWFh7KeWP/NIae0P2uuP74b2K8X8u/TA/uyav0yWr7v3i73v7xOuSb9Nb5u9X4q9wfMMzf0p5m0OmNYS9n7sR6rf+4wxB0zD9z5lW/Lcbw54nqXO/Uxjk7k/xf1/mzlgN8Z+udrZy78ssi9be82Xf1mGxn7q+zyex7xfnvb5Hrlm7/PfH+vO7rnvKZZj6PytTbIeyt6an66Q+6a5bps9aet+TpN5WZ7q+r7B67bN2pwPAABADo5XVfVyTZ0U/ox/7pozns7qerOmzlfOecpZc8bL4UD+RyvnvORs7IyfhvzzNXbGT6P0c35I223sC0hUzv+/VPc+LTaTWx+wmxznBHajD2joAfQAegB7Aho+J5Sp757n1HrB937xhF6I6S7y+xPXU+wLAAAAAAAAAAAgmubesVTuY2N+zb1DP2JfBNH8rOtXNXxWvPkhXyF/luM3A9EywQAoAQA=
   </data>
  </layer>
- <layer name="Collision" width="128" height="148">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2UUY4cIQwFVznK3v+Q+Yo0GQFtg80zTVkqKT0zGPcrb37//Pz8AgAAAAAAAAAAAAAAAAAAAAAAAAAAFOez1LOAxnume/aqFpaK7q9+Z/jfjXUXeuf+fdbrMzoHev+zNdOntS9Q23vUvox6Q0332aXO4xZ6uWe4nD0Hed5XfX+eH+3V6JzldxDjfNW3x1NEv15v8HmPqlbP7LvV+Z2C15s3/9bzjt1T51oViytPvt7zUbsZec/befIXVa2e1vnYgfwdiMj26WzEbn73sdwbMcsNzOSXla23n7fUWVdj1neFHfw85+mjzrwKs5nvurv125l+vV25nZ2+Z12tule940m0sq/m3LIDM/ugzl7Nrlysvr3eonqoPVTage/Pd+ybdYbePNGldqLegZ6HlawyfHjmjLz3jVizeHr29LfuX8ZOPZXaxyl7YM0wInfL/RG7oXagZiWz1fK4jrz3u9+tROcYeTZ6xtHdN2N1EZ15y8H391n72up9My0vO0sxhzrzE9hV1l2MnEudbQWe8sis7ztm756ZVZ17BWZyyazRTva+X73rZiKyiqpW36ydU+deiYj8PGd6n+1y/33XrWRkGdWn1yvjntvx5ubJ1tqrdyZ6V1sz3kxmWe/ozdX7d9RcEJNnpIfv70bnIu+9FVVZ5sqaUZ15JXZXhZnUmVdCUZZ5np4zZ7gJby6ebGfy31Xq3N9IZP6t3z71wn9N/yOnvT4zTr2lzuutjLxbcu+djd4JdU5vZjZ3rzv818ST+8hthGfrHKDxv8O1dQ6I999y7NmZrL1QZ/RmvJlnu/bOA3v9987t2Ad1Vm9jJWurq+hSZ/YGLK4svrMcj0qd3YlE5dz6vHUmu9R5noA1w6iMd5Y62xPoZdZ6bp3Z6X2mvzrf6owyW3Xi2bPVu1bnuxVP7iv5zjq33jVzBp59R7hvnbfuQmsWz36p862O1UVEtqs12oWnM+B3MvpNxn0Zpc73BHZmurvU2Z7A7jx3ljrbE/jOKjvHnaXO9gQU+e0qdbYnoMju6U78v9t/pGP8x/tQ7h3+dd53Z4b/Wu7xfxcV8sK9NvfPZ/zfQ5W88F9jD97kHv93+1dnWp0qec16xf87/c/uRYV3OYlKmUWWOtcTqJYZ/u8G93eD+7vB/71Elfo9QOdf/Q6Af8jdDfUskO+Yv//7wP+94P5u8H8vUaV+D4h17z2rfhfQ+mcHzsBa+H8n+IfZnVjdGagN/uFpF6zfwzvg/wDAP+Af8A9Pe6CeDbS7oJ4HtLugngEAAAAAAAAAAAAAAAAAAAAAAAAAAADq8hehLWjHACgBAA==
-  </data>
- </layer>
  <objectgroup name="Objects" width="0" height="0">
   <object name="toNivalis" type="warp" x="1184" y="1760" width="32" height="32">
    <properties>
@@ -72,5 +66,34 @@
     <property name="dest_y" value="9552"/>
    </properties>
   </object>
+  <object name="Santa Slime" type="spawn" x="1024" y="544" width="2800" height="3576">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="13"/>
+   </properties>
+  </object>
+  <object name="Squirrel" type="spawn" x="1472" y="632" width="2800" height="3576">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="36"/>
+   </properties>
+  </object>
+  <object name="Fluffy" type="spawn" x="1472" y="632" width="2800" height="3576">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="15"/>
+    <property name="monster_id" value="18"/>
+   </properties>
+  </object>
  </objectgroup>
+ <layer name="Collision" width="128" height="148">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2UUY4cIQwFVznK3v+Q+Yo0GQFtg80zTVkqKT0zGPcrb37//Pz8AgAAAAAAAAAAAAAAAAAAAAAAAAAAFOez1LOAxnume/aqFpaK7q9+Z/jfjXUXeuf+fdbrMzoHev+zNdOntS9Q23vUvox6Q0332aXO4xZ6uWe4nD0Hed5XfX+eH+3V6JzldxDjfNW3x1NEv15v8HmPqlbP7LvV+Z2C15s3/9bzjt1T51oViytPvt7zUbsZec/befIXVa2e1vnYgfwdiMj26WzEbn73sdwbMcsNzOSXla23n7fUWVdj1neFHfw85+mjzrwKs5nvurv125l+vV25nZ2+Z12tule940m0sq/m3LIDM/ugzl7Nrlysvr3eonqoPVTage/Pd+ybdYbePNGldqLegZ6HlawyfHjmjLz3jVizeHr29LfuX8ZOPZXaxyl7YM0wInfL/RG7oXagZiWz1fK4jrz3u9+tROcYeTZ6xtHdN2N1EZ15y8H391n72up9My0vO0sxhzrzE9hV1l2MnEudbQWe8sis7ztm756ZVZ17BWZyyazRTva+X73rZiKyiqpW36ydU+deiYj8PGd6n+1y/33XrWRkGdWn1yvjntvx5ubJ1tqrdyZ6V1sz3kxmWe/ozdX7d9RcEJNnpIfv70bnIu+9FVVZ5sqaUZ15JXZXhZnUmVdCUZZ5np4zZ7gJby6ebGfy31Xq3N9IZP6t3z71wn9N/yOnvT4zTr2lzuutjLxbcu+djd4JdU5vZjZ3rzv818ST+8hthGfrHKDxv8O1dQ6I999y7NmZrL1QZ/RmvJlnu/bOA3v9987t2Ad1Vm9jJWurq+hSZ/YGLK4svrMcj0qd3YlE5dz6vHUmu9R5noA1w6iMd5Y62xPoZdZ6bp3Z6X2mvzrf6owyW3Xi2bPVu1bnuxVP7iv5zjq33jVzBp59R7hvnbfuQmsWz36p862O1UVEtqs12oWnM+B3MvpNxn0Zpc73BHZmurvU2Z7A7jx3ljrbE/jOKjvHnaXO9gQU+e0qdbYnoMju6U78v9t/pGP8x/tQ7h3+dd53Z4b/Wu7xfxcV8sK9NvfPZ/zfQ5W88F9jD97kHv93+1dnWp0qec16xf87/c/uRYV3OYlKmUWWOtcTqJYZ/u8G93eD+7vB/71Elfo9QOdf/Q6Af8jdDfUskO+Yv//7wP+94P5u8H8vUaV+D4h17z2rfhfQ+mcHzsBa+H8n+IfZnVjdGagN/uFpF6zfwzvg/wDAP+Af8A9Pe6CeDbS7oJ4HtLugngEAAAAAAAAAAAAAAAAAAAAAAAAAAADq8hehLWjHACgBAA==
+  </data>
+ </layer>
 </map>

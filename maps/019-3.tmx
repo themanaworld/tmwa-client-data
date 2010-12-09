@@ -6,16 +6,16 @@
   <property name="name" value="Snow field"/>
  </properties>
  <tileset firstgid="1" name="Snow" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Snow.png" width="512" height="512"/>
+  <image source="../graphics/tiles/Snow.png"/>
  </tileset>
  <tileset firstgid="257" name="Snow x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/Snow_x2.png" width="512" height="64"/>
+  <image source="../graphics/tiles/Snow_x2.png"/>
  </tileset>
  <tileset firstgid="273" name="Collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png" trans="ff00ff" width="64" height="32"/>
+  <image source="../graphics/tiles/collision.png" trans="ff00ff"/>
  </tileset>
  <tileset firstgid="275" name="icecave" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/icecave.png" width="512" height="256"/>
+  <image source="../graphics/tiles/icecave.png"/>
  </tileset>
  <layer name="Ground" width="138" height="128">
   <data encoding="base64" compression="gzip">
@@ -50,6 +50,22 @@
     <property name="dest_map" value="019-1"/>
     <property name="dest_x" value="3088"/>
     <property name="dest_y" value="1232"/>
+   </properties>
+  </object>
+  <object name="Moggun" type="spawn" x="0" y="0">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="59"/>
+   </properties>
+  </object>
+  <object name="Bats" type="spawn" x="0" y="0">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="50"/>
+    <property name="monster_id" value="15"/>
    </properties>
   </object>
  </objectgroup>
