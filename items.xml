@@ -2633,12 +2633,12 @@
     </item>
     <item id="769"
         image="armor-head-guyfawkes.png"
-        name="Guy Fawkes' Mask"
-        description="The famous Guy Fawkes' mask."
-        effect="+14% Defense"
+        name="Guy Fawkes Mask"
+        description="The famous Guy Fawkes mask."
+        effect="+5% Defense"
         type="equip-head"
-        weight="12"
-        defense="14"
+        weight="30"
+        defense="5"
         max-per-slot="1">
         <sprite>head-guyfawkes.xml</sprite>
     </item>
@@ -3317,6 +3317,63 @@
         effect="+100 HP"
         type="usable"
         weight="20"/>
+
+    <!-- Halloween 2010 -->
+
+    <item id="1276"
+        image="equipment/head/opera-mask.png"
+        name="Opera Mask"
+        description="Pale and broken. There is surely a story to be told here."
+        type="equip-head"
+        defense="3"
+        weight="50">
+        <sprite>equipment/head/operamask.xml</sprite>
+     </item>
+     <item id="1277"
+        image="armor-head-jestermask.png"
+        name="Jester Mask"
+        description="Laughter with bells on."
+        type="equip-head"
+        defense="3"
+        weight="50">
+        <sprite>head-jestermask.xml</sprite>
+     </item>
+     <item id="1278"
+        image="equipment/head/witch-hat.png"
+        name="Witch Hat"
+        description="Big, dark, and pointy. It looks a bit out of place."
+        type="equip-head"
+        defense="3"
+        weight="50">
+        <sprite>equipment/head/witch-hat.xml</sprite>
+     </item>
+     <item id="1279"
+        image="equipment/head/goblin-mask.png"
+        name="Goblin Mask"
+        description="A strange dark mask. Who knows what lurks behind it?"
+        type="equip-head"
+        defense="3"
+        weight="50">
+        <sprite>equipment/head/goblin-mask.xml</sprite>
+     </item>
+     <item id="1280"
+        image="generic/scissors.png"
+        name="Scissors"
+        description="A pair of awkward and unwieldy scissors."
+        type="usable"
+        weight="120"/>
+     <item id="1281"
+        image="use-food-shock-candy.png"
+        name="Shock Sweet"
+        description="It'll turn your hair white!"
+        type="usable"
+        weight="5"/>
+     <item id="1282"
+        image="weapon-thrown-bonedarts.png"
+        name="Bone Arrows"
+        description="Arrows made from bone. Not much different from the normal variety, but are much lighter."
+        type="equip-ammo"
+        weight="0"/>
 
 
     <!-- The 2XXY IDs are used for recolored items on eAthena.
