@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="13" height="7" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
@@ -7,9 +8,9 @@
   <image source="../../graphics/tiles/set_cave.png" width="256" height="256"/>
  </tileset>
  <tileset firstgid="67" name="set_rules" tilewidth="32" tileheight="32">
-  <image source="../../graphics/tiles/set_rules.png" width="32" height="32"/>
+  <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="68" name="cave" tilewidth="32" tileheight="32">
+ <tileset firstgid="71" name="cave" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/cave.png" width="512" height="256"/>
  </tileset>
  <layer name="ruleRegions" width="13" height="7">
@@ -27,22 +28,22 @@
    H4sIAAAAAAAAA2NgoC5QhmJ0NrI8A5o4LjWUuoMa9hDyDykAAJXncL9sAQAA
   </data>
  </layer>
- <layer name="ruleNotSet" width="13" height="7" opacity="0.24">
+ <layer name="ruleNotSet" width="13" height="7" opacity="0.33">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA+oQDE6m5AeXHwVHGrIAeTYQ45/SAUA+4NElGwBAAA=
+   H4sIAAAAAAAAA2NgIB+ooNHEqsfGJ9UsWthDTTdgAwDBPBNdbAEAAA==
   </data>
  </layer>
- <layer name="ruleNotSet" width="13" height="7" opacity="0.23">
+ <layer name="ruleNotSet" width="13" height="7" opacity="0.36">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA8oQzE6m5AeXHxlHGrIAeTYQ45/SAUAS72rUmwBAAA=
+   H4sIAAAAAAAAA2NgIB8oo9HEqsfGJ9UsWthDTTdgAwAUJIhnbAEAAA==
   </data>
  </layer>
- <layer name="rule_Ground" width="13" height="7">
+ <layer name="rule_Ground" width="13" height="7" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC6oR+M3oPH9oHQAle1FB3lQuoBCc/rR+BMoMAsA4AFgUmwBAAA=
+   H4sIAAAAAAAAA2NgoC5oQuM3o/EDoXQwle1FB4VQuphCcyah8SdTYBYAy7rYPmwBAAA=
   </data>
  </layer>
- <layer name="rule_collision" width="13" height="7">
+ <layer name="rule_collision" width="13" height="7" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgGAX0AgB8n9a4bAEAAA==
   </data>
