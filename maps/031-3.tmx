@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="320" height="320" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="set_icecave" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/set_icecave.png"/>
+  <image source="../graphics/tiles/set_icecave.png" width="128" height="128"/>
  </tileset>
  <tileset firstgid="17" name="Collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png" trans="ff00ff"/>
+  <image source="../graphics/tiles/collision.png" trans="ff00ff" width="64" height="32"/>
  </tileset>
  <tileset firstgid="19" name="icecave" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/icecave.png"/>
+  <image source="../graphics/tiles/icecave.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="147" name="set_rules" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/set_rules.png"/>
+  <image source="../graphics/tiles/set_rules.png" width="64" height="64"/>
  </tileset>
  <layer name="set" width="320" height="320">
   <data encoding="base64" compression="gzip">
@@ -230,6 +231,54 @@
     <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="5"/>
     <property name="monster_id" value="13"/>
+   </properties>
+  </object>
+  <object name="yeti" type="spawn" x="3902" y="7212" width="1334" height="332">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="70"/>
+   </properties>
+  </object>
+  <object name="yeti" type="spawn" x="940" y="9042" width="368" height="466">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="70"/>
+   </properties>
+  </object>
+  <object name="yeti" type="spawn" x="660" y="5146" width="368" height="466">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="70"/>
+   </properties>
+  </object>
+  <object name="yeti" type="spawn" x="4068" y="4954" width="368" height="466">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="70"/>
+   </properties>
+  </object>
+  <object name="yeti" type="spawn" x="7156" y="994" width="368" height="466">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="70"/>
+   </properties>
+  </object>
+  <object name="yeti" type="spawn" x="900" y="2202" width="1106" height="412">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="70"/>
    </properties>
   </object>
  </objectgroup>
