@@ -5,16 +5,16 @@
   <property name="name" value="Cave"/>
  </properties>
  <tileset firstgid="1" name="set_icecave" tilewidth="32" tileheight="32">
-  <image source="../../../../wombat_ta/tmwdata/graphics/tiles/set_icecave.png"/>
+  <image source="../graphics/tiles/set_icecave.png"/>
  </tileset>
  <tileset firstgid="17" name="collision" tilewidth="32" tileheight="32">
-  <image source="../../../../wombat_ta/tmwdata/graphics/tiles/collision.png" trans="000000"/>
+  <image source="../graphics/tiles/collision.png" trans="000000"/>
  </tileset>
  <tileset firstgid="19" name="icecave" tilewidth="32" tileheight="32">
-  <image source="../../../../wombat_ta/tmwdata/graphics/tiles/icecave.png"/>
+  <image source="../tmwdata/graphics/tiles/icecave.png"/>
  </tileset>
  <tileset firstgid="147" name="set_rules" tilewidth="32" tileheight="32">
-  <image source="../../../../wombat_ta/tmwdata/graphics/tiles/set_rules.png"/>
+  <image source="../graphics/tiles/set_rules.png"/>
  </tileset>
  <layer name="set" width="320" height="320">
   <data encoding="base64" compression="gzip">
