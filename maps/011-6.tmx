@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="300" height="300" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png" trans="000000"/>
+  <image source="../graphics/tiles/collision.png" trans="000000" width="64" height="32"/>
  </tileset>
  <tileset firstgid="3" name="Cave" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/cave.png" trans="ff00ff"/>
+  <image source="../graphics/tiles/cave.png" trans="ff00ff" width="512" height="256"/>
  </tileset>
  <tileset firstgid="131" name="cave_bilevel" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/cave_bilevel.png"/>
+  <image source="../graphics/tiles/cave_bilevel.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="387" name="cave_x2" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/cave_x2.png"/>
+  <image source="../graphics/tiles/cave_x2.png" width="512" height="64"/>
  </tileset>
  <tileset firstgid="419" name="cave_ani_wetwall" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/cave_ani_wetwall.png"/>
+  <image source="../graphics/tiles/cave_ani_wetwall.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="675" name="mushrooms" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/mushrooms.png"/>
+  <image source="../graphics/tiles/mushrooms.png" width="640" height="224"/>
  </tileset>
  <tileset firstgid="815" name="desert2" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/desert2.png"/>
+  <image source="../graphics/tiles/desert2.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="1071" name="inn" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/inn.png"/>
+  <image source="../graphics/tiles/inn.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="1327" name="woodland_indoor_x2" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/woodland_indoor_x2.png"/>
+  <image source="../graphics/tiles/woodland_indoor_x2.png" width="512" height="64"/>
  </tileset>
  <layer name="Ground" width="300" height="300">
   <data encoding="base64" compression="gzip">
@@ -180,7 +181,7 @@
     <property name="dest_y" value="2784"/>
    </properties>
   </object>
-  <object name="" x="10528" y="6096"/>
+  <object x="10528" y="6096"/>
   <object name="warp" type="warp" x="8032" y="8896" width="32" height="32">
    <properties>
     <property name="dest_map" value="011-4"/>
@@ -222,36 +223,380 @@
     <property name="dest_y" value="8064"/>
    </properties>
   </object>
-  <object name="Spiky Mushroom" type="spawn" x="0" y="0">
+  <object name="Silk Worm" type="spawn" x="352" y="288" width="9088" height="4096">
    <properties>
     <property name="eA_death" value="100000"/>
     <property name="eA_spawn" value="30000"/>
-    <property name="max_beings" value="30"/>
-    <property name="monster_id" value="17"/>
+    <property name="max_beings" value="9"/>
+    <property name="monster_id" value="33"/>
    </properties>
   </object>
-  <object name="Evil Mushroom" type="spawn" x="0" y="0">
+  <object name="Bandit" type="spawn" x="7936" y="672" width="992" height="1120">
    <properties>
-    <property name="eA_death" value="100000"/>
+    <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="30000"/>
-    <property name="max_beings" value="15"/>
-    <property name="monster_id" value="11"/>
-   </properties>
-  </object>
-  <object name="Bandit" type="spawn" x="640" y="770" width="6170" height="3552">
-   <properties>
-    <property name="eA_death" value="100000"/>
-    <property name="eA_spawn" value="30000"/>
-    <property name="max_beings" value="8"/>
+    <property name="max_beings" value="1"/>
     <property name="monster_id" value="62"/>
    </properties>
   </object>
-  <object name="Bat" type="spawn" x="0" y="0">
+  <object name="Bandit" type="spawn" x="7776" y="3040" width="1248" height="1248">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="62"/>
+   </properties>
+  </object>
+  <object name="Bandit" type="spawn" x="3968" y="3488" width="576" height="704">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="62"/>
+   </properties>
+  </object>
+  <object name="Bandit" type="spawn" x="5184" y="1792" width="576" height="704">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="62"/>
+   </properties>
+  </object>
+  <object name="Bandit" type="spawn" x="1888" y="1920" width="576" height="704">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="62"/>
+   </properties>
+  </object>
+  <object name="Bandit" type="spawn" x="6016" y="3104" width="576" height="704">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="62"/>
+   </properties>
+  </object>
+  <object name="Bandit" type="spawn" x="6016" y="608" width="576" height="704">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="62"/>
+   </properties>
+  </object>
+  <object name="Bandit" type="spawn" x="896" y="864" width="576" height="704">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="62"/>
+   </properties>
+  </object>
+  <object name="Bandit" type="spawn" x="2880" y="512" width="1472" height="1568">
+   <properties>
+    <property name="eA_death" value="60000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="62"/>
+   </properties>
+  </object>
+  <object name="Bandit" type="spawn" x="736" y="2848" width="576" height="704">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="62"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="5184" y="6976" width="3968" height="2112">
    <properties>
     <property name="eA_death" value="100000"/>
     <property name="eA_spawn" value="30000"/>
-    <property name="max_beings" value="30"/>
+    <property name="max_beings" value="5"/>
     <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="5280" y="5216" width="3808" height="832">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="8160" y="448" width="160" height="4064">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="6080" y="448" width="160" height="4064">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="9"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="3968" y="3328" width="2816" height="448">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="9"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="736" y="704" width="3360" height="3104">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="23"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="448" y="4704" width="4160" height="3136">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="9"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Spiky Mushroom" type="spawn" x="4800" y="2912" width="1184" height="1216">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="17"/>
+   </properties>
+  </object>
+  <object name="Spiky Mushroom" type="spawn" x="5792" y="1856" width="1184" height="1216">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="17"/>
+   </properties>
+  </object>
+  <object name="Spiky Mushroom" type="spawn" x="2368" y="4800" width="960" height="896">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="17"/>
+   </properties>
+  </object>
+  <object name="Spiky Mushroom" type="spawn" x="992" y="3328" width="1152" height="640">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="17"/>
+   </properties>
+  </object>
+  <object name="Evil Mushroom" type="spawn" x="5344" y="2560" width="672" height="928">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="11"/>
+   </properties>
+  </object>
+  <object name="Evil Mushroom" type="spawn" x="5888" y="1120" width="672" height="928">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="11"/>
+   </properties>
+  </object>
+  <object name="Evil Mushroom" type="spawn" x="896" y="3296" width="1536" height="800">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="11"/>
+   </properties>
+  </object>
+  <object name="Evil Mushroom" type="spawn" x="1824" y="5152" width="448" height="576">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="11"/>
+   </properties>
+  </object>
+  <object name="Spiky Mushroom" type="spawn" x="2752" y="7008" width="960" height="480">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="17"/>
+   </properties>
+  </object>
+  <object name="Spiky Mushroom" type="spawn" x="7488" y="1152" width="1728" height="544">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="17"/>
+   </properties>
+  </object>
+  <object name="Evil Mushroom" type="spawn" x="8384" y="1088" width="704" height="928">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="11"/>
+   </properties>
+  </object>
+  <object name="Yellow Slime" type="spawn" x="2560" y="2112" width="1024" height="832">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="5"/>
+   </properties>
+  </object>
+  <object name="Yellow Slime" type="spawn" x="1600" y="768" width="640" height="832">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="5"/>
+   </properties>
+  </object>
+  <object name="Yellow Slime" type="spawn" x="544" y="1824" width="640" height="832">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="5"/>
+   </properties>
+  </object>
+  <object name="Yellow Slime" type="spawn" x="1728" y="3072" width="480" height="352">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="5"/>
+   </properties>
+  </object>
+  <object name="Yellow Slime" type="spawn" x="1472" y="1760" width="320" height="416">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="5"/>
+   </properties>
+  </object>
+  <object name="Yellow Slime" type="spawn" x="3968" y="1056" width="320" height="416">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="5"/>
+   </properties>
+  </object>
+  <object name="Yellow Slime" type="spawn" x="1184" y="5504" width="320" height="416">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="5"/>
+   </properties>
+  </object>
+  <object name="Yellow Slime" type="spawn" x="2112" y="7136" width="320" height="416">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="5"/>
+   </properties>
+  </object>
+  <object name="Yellow Slime" type="spawn" x="512" y="6336" width="320" height="416">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="5"/>
+   </properties>
+  </object>
+  <object name="Yellow Slime" type="spawn" x="3520" y="5888" width="320" height="416">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="5"/>
+   </properties>
+  </object>
+  <object name="Yellow Slime" type="spawn" x="4256" y="6368" width="320" height="416">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="5"/>
+   </properties>
+  </object>
+  <object name="Cave Snake" type="spawn" x="2080" y="6816" width="960" height="480">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="19"/>
+   </properties>
+  </object>
+  <object name="Cave Snake" type="spawn" x="3232" y="6496" width="960" height="480">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="19"/>
+   </properties>
+  </object>
+  <object name="Cave Snake" type="spawn" x="832" y="5696" width="1024" height="1024">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="19"/>
+   </properties>
+  </object>
+  <object name="Cave Snake" type="spawn" x="1760" y="4096" width="1024" height="1024">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="19"/>
+   </properties>
+  </object>
+  <object name="Cave Snake" type="spawn" x="2656" y="5632" width="960" height="480">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="19"/>
+   </properties>
+  </object>
+  <object name="Cave Maggot" type="spawn" x="5376" y="7872" width="320" height="416">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="54"/>
+   </properties>
+  </object>
+  <object name="Cave Maggot" type="spawn" x="8160" y="7488" width="544" height="192">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="54"/>
    </properties>
   </object>
  </objectgroup>
