@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="The Mana World - Snow Village.ogg"/>
+  <property name="name" value="Angela's House"/>
+ </properties>
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="inn" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="259" name="woodland_indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="515" name="inn_x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/inn_x3.png" width="512" height="96"/>
+ </tileset>
+ <layer name="Ground" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TsQ6CMBSF4SZKIjoyEGWUmCgjoILv/1A4eYaSNB1smFrIP3y5zb3LOUMnY8wEAAAAAAA2JZO9HCSXo5xkZ/fzPXbOkKe85C1nuUglhZR23hLIGXKV2s67PKTx9nUCOUNaxyCjfLx9m0DOJT066e27N+vt8U/snPSgRwzuf+687O4tds4lvglkAAAAAABgDX7hnrJxECcAAA==
+  </data>
+ </layer>
+ <layer name="Subfringe" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3PwQ2CQABE0eWuVoD234taAVABWAGQMB144LBZ8l7y7zOlAAAAAFDLuyvlk75d7SXnDNk/pqnxH3P2L+nX+I81+7e0N/7jCm7pnh61h5zUp2d61R4CAAAA8McBqc4JOxAnAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OwQ2CQBRF0VEawL6kA+gAG8BYAaEVNkAFQAVKD5bg0pfAyh3ODH9zT3Lzk8ksnnMAAAAAAACI6aoy6xEB5KpQb+shnkp1Ux/rIRGl6mI9IoDKesAfOtWrQd23t/a03ofNpF2S83pHNalZ1T9/mmMneXmql1qshwAAAAAAgMN8AdM+ux8QJwAA
+  </data>
+ </layer>
+ <layer name="collision" width="50" height="50" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3RwQZAIRRF0av//+jmeZR6HJcVaxAN9tGoqgEAAAAAh2pz7+LrpJte+9cdHTadnnTn7Y71TbrzZku658//6LytWy8AAACkTGpaw4YQJwAA
+  </data>
+ </layer>
+ <layer name="Over" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAODfAC7KO00QJwAA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="50" height="50">
+  <object x="736" y="960" width="32" height="32"/>
+  <object name="door" type="Warp" x="736" y="960" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="031-1"/>
+    <property name="dest_x" value="3040"/>
+    <property name="dest_y" value="2624"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
