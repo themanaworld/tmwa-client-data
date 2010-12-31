@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="9" height="9" tilewidth="32" tileheight="32">
  <properties>
+  <property name="AutoMappingRadius" value="1"/>
   <property name="DeleteTiles" value="true"/>
  </properties>
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
@@ -30,7 +32,7 @@
    H4sIAAAAAAAAA2NgIA5oQ2lpNLqVSP0wYASlJdDEyTVHkkrmwPwjgkYTAwCSHrZpRAEAAA==
   </data>
  </layer>
- <layer name="rule_collision" width="9" height="9">
+ <layer name="rule_Collision" width="9" height="9">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgIA4wEeBTCkg1D5d6cs2hxD8ARG/fIUQBAAA=
   </data>
