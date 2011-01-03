@@ -2638,7 +2638,7 @@
         effect="+3% Defense"
         type="equip-head"
         weight="30"
-        defense="5"
+        defense="3"
         max-per-slot="1">
         <sprite>head-guyfawkes.xml</sprite>
     </item>
@@ -4885,13 +4885,123 @@
     <item id="2199"
         image="equipment/head/rabbit-ears.png|W:#104010,208020,30c030"
         name="Dark green rabbit ears"
-        description="A headband with rabbit ears, pure white."
+        description="A headband with rabbit ears, dark green."
         effect="+5% Defense"
         defense="5"
         type="equip-head"
         weight="15"
         max-per-slot="1">
         <sprite>equipment/head/rabbit-ears.xml|#104010,208020,30c030</sprite>
+    </item>
+    <item id="2200"
+        image="equipment/head/wizard-hat.png|W:#580000,a40000,c02020,ff6060"
+        name="Red wizard hat"
+        description="A wizard hat, bright red."
+        effect="+5% Defense"
+        defense="5"
+        type="equip-head"
+        weight="15"
+        max-per-slot="1">
+        <sprite>equipment/head/wizard-hat.xml|#580000,a40000,c02020,ff6060</sprite>
+    </item>
+    <item id="2201"
+        image="equipment/head/wizard-hat.png|W:#115511,22aa22,99dd99"
+        name="Green wizard hat"
+        description="A wizard hat, warm green."
+        effect="+5% Defense"
+        defense="5"
+        type="equip-head"
+        weight="15"
+        max-per-slot="1">
+        <sprite>equipment/head/wizard-hat.xml|#115511,22aa22,99dd99</sprite>
+    </item>
+    <item id="2202"
+        image="equipment/head/wizard-hat.png|W:#222255,6666ff"
+        name="Dark blue wizard hat"
+        description="A wizard hat, iridescent dark blue."
+        effect="+5% Defense"
+        defense="5"
+        type="equip-head"
+        weight="15"
+        max-per-slot="1">
+        <sprite>equipment/head/wizard-hat.xml|#222255,6666ff</sprite>
+    </item>
+    <item id="2203"
+        image="equipment/head/wizard-hat.png|W:#846211,dab333,fffb93,ffffff"
+        name="Yellow wizard hat"
+        description="A wizard hat, soft yellow."
+        effect="+5% Defense"
+        defense="5"
+        type="equip-head"
+        weight="15"
+        max-per-slot="1">
+        <sprite>equipment/head/wizard-hat.xml|#846211,dab333,fffb93,ffffff</sprite>
+    </item>
+    <item id="2204"
+        image="equipment/head/wizard-hat.png|W:#16486e,498ec5,e4f2fc"
+        name="Light blue wizard hat"
+        description="A wizard hat, light blue."
+        effect="+5% Defense"
+        defense="5"
+        type="equip-head"
+        weight="15"
+        max-per-slot="1">
+        <sprite>equipment/head/wizard-hat.xml|#16486e,498ec5,e4f2fc</sprite>
+    </item>
+    <item id="2205"
+        image="equipment/head/wizard-hat.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+        name="Pink wizard hat"
+        description="A wizard hat, bright pink."
+        effect="+5% Defense"
+        defense="5"
+        type="equip-head"
+        weight="15"
+        max-per-slot="1">
+        <sprite>equipment/head/wizard-hat.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+    </item>
+    <item id="2206"
+        image="equipment/head/wizard-hat.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+        name="Black wizard hat"
+        description="A wizard hat, deep black."
+        effect="+5% Defense"
+        defense="5"
+        type="equip-head"
+        weight="15"
+        max-per-slot="1">
+        <sprite>equipment/head/wizard-hat.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+    </item>
+    <item id="2207"
+        image="equipment/head/wizard-hat.png|W:#80280f,b04810,ef681f,ffb830"
+        name="Orange wizard hat"
+        description="A wizard hat, bright orange."
+        effect="+5% Defense"
+        defense="5"
+        type="equip-head"
+        weight="15"
+        max-per-slot="1">
+        <sprite>equipment/head/wizard-hat.xml|#80280f,b04810,ef681f,ffb830</sprite>
+    </item>
+    <item id="2208"
+        image="equipment/head/wizard-hat|W:#4f0a76,8010c0,d699f7"
+        name="Purple wizard hat"
+        description="A wizard hat, strong purple."
+        effect="+5% Defense"
+        defense="5"
+        type="equip-head"
+        weight="15"
+        max-per-slot="1">
+        <sprite>equipment/head/wizard-hat.xml|#4f0a76,8010c0,d699f7</sprite>
+    </item>
+    <item id="2209"
+        image="equipment/head/wizard-hat.png|W:#104010,208020,30c030"
+        name="Dark green wizard hat"
+        description="A wizard hat, dark green."
+        effect="+5% Defense"
+        defense="5"
+        type="equip-head"
+        weight="15"
+        max-per-slot="1">
+        <sprite>equipment/head/wizard-hat.xml|#104010,208020,30c030</sprite>
     </item>
     <item id="4000"
         image="generic-scorpionstinger.png|W:#800000,ffffff"
@@ -5067,6 +5177,60 @@
         type="generic"
         weight="10"
         max-per-slot="10"/>
+    <item id="4023"
+        image="generic-animal-bones.png"
+        name="Animal Bones"
+        description="Bones from an animal."
+        effect=""
+        type="generic"
+        weight="10"
+        max-per-slot="10"/>
+    <item id="4024"
+        image="generic-frozen-yeti-tear.png"
+        name="Frozen Yeti Tear"
+        description="A tear from a yeti, frozen."
+        effect=""
+        type="generic"
+        weight="10"
+        max-per-slot="10"/>
+    <item id="4025"
+        image="generic-yeti-claw.png"
+        name="Yeti Claw"
+        description="A claw broken off from a yeti"
+        effect=""
+        type="generic"
+        weight="10"
+        max-per-slot="10"/>
+    <item id="4026"
+        image="generic-ice-cube.png"
+        name="Ice Cube"
+        description="Very cold ice cube that never seems to completely melt."
+        effect=""
+        type="generic"
+        weight="10"
+        max-per-slot="10"/>
+    <item id="4027"
+        image="equipment/head/yeti-mask.png"
+        name="Yeti Mask"
+        description="A mask made from the yeti's head."
+        effect="+ 4% Defense"
+        type="equip-head"
+        defense="4"
+        weight="10"
+	max-per-slot="1">
+        <sprite>equipment/head/yeti-mask.xml</sprite>
+    </item>
+    <item id="4028"
+        image="equipment/head/wizard-hat.png"
+        name="Wizard hat"
+        description="A wizard hat."
+        effect="+5% Defense"
+        defense="5"
+        type="equip-head"
+        weight="15"
+        max-per-slot="1">
+        <sprite>equipment/head/wizard-hat.xml</sprite>
+     </item>
     <item id="3000"
         image="generic-jackolantern.png"
         name="Jack-o-Lantern"

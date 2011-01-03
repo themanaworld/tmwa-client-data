@@ -21,19 +21,24 @@
    H4sIAAAAAAAAA+3TsQ6CMBSF4SZKIjoyEGWUmCgjoILv/1A4eYaSNB1smFrIP3y5zb3LOUMnY8wEAAAAAAA2JZO9HCSXo5xkZ/fzPXbOkKe85C1nuUglhZR23hLIGXKV2s67PKTx9nUCOUNaxyCjfLx9m0DOJT066e27N+vt8U/snPSgRwzuf+687O4tds4lvglkAAAAAABgDX7hnrJxECcAAA==
   </data>
  </layer>
+ <layer name="Upper Ground" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OsQ1AUBhG0bf/QJgAE2AEIyh9rY48yd+ck9z+tgYAAAAA753VAz+5qgd4GNKYpuqRTnNa0lo90mlLezqqRwAAAAA+ugEzez5aECcAAA==
+  </data>
+ </layer>
  <layer name="Subfringe" width="50" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3PwQ2CQABE0eWuVoD234taAVABWAGQMB144LBZ8l7y7zOlAAAAAFDLuyvlk75d7SXnDNk/pqnxH3P2L+nX+I81+7e0N/7jCm7pnh61h5zUp2d61R4CAAAA8McBqc4JOxAnAAA=
+   H4sIAAAAAAAAA+3PwQ2CQABE0eUuVqD03wtYAXrxClagJowVmOBhs+a95N9nSgEAAACglrErZUqXrvaS/e7ZPqdrujX842PJ/jU9Gv/xzP5Xejf+4x8cUp+OtYf86JTOaag9BAAAAOCLDYFoKWkQJwAA
   </data>
  </layer>
  <layer name="Fringe" width="50" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3OwQ2CQBRF0VEawL6kA+gAG8BYAaEVNkAFQAVKD5bg0pfAyh3ODH9zT3Lzk8ksnnMAAAAAAACI6aoy6xEB5KpQb+shnkp1Ux/rIRGl6mI9IoDKesAfOtWrQd23t/a03ofNpF2S83pHNalZ1T9/mmMneXmql1qshwAAAAAAgMN8AdM+ux8QJwAA
+   H4sIAAAAAAAAA+3OwQ2CQBCG0UUbwL60A+gAG9BYgbEVa2QSOcGF6K5zeS/5M9k9faUAAAAA0NI5dsmOqGCIjdkRFUyxa3ZEY33slB1RwS074Ef35b67z32klex3PGz/nqv36y8lAAAAAN+ZAZvHhDwQJwAA
   </data>
  </layer>
  <layer name="collision" width="50" height="50" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3RwQZAIRRF0av//+jmeZR6HJcVaxAN9tGoqgEAAAAAh2pz7+LrpJte+9cdHTadnnTn7Y71TbrzZku658//6LytWy8AAACkTGpaw4YQJwAA
+   H4sIAAAAAAAAA+3RsQoAIQxEweD/f/T1qcQT1sAEprN4i6uqFgAAAABsqgcabu3ol2762993TNi0e+nO0x39TbrzZEu65+Z/TN42rRcAAABSPoDEU8sQJwAA
   </data>
  </layer>
  <layer name="Over" width="50" height="50">
@@ -50,5 +55,6 @@
     <property name="dest_y" value="2624"/>
    </properties>
   </object>
+  <object name="graphics/particles/fireplace.particle.xml" type="PARTICLE_EFFECT" x="768" y="736" width="32" height="32"/>
  </objectgroup>
 </map>
