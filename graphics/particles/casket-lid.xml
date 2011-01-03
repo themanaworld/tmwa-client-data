@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<effect>
+	<!-- The lid opening portion of the casket trap-->
+	<particle position-x="0" position-y="0" position-z="43" lifetime="110">
+		<emitter>
+		<property name="position-y" value="37" />
+		<property name="lifetime" value="110"/>
+		<property name="output" value="1"/>
+		<property name="output-pause" value="15"/>
+		<animation imageset="graphics/particles/casket-trap_96x96.png" width="96" height="96">
+            <frame index="11" delay="100"/>
+			<frame index="12" delay="900"/>
+			<frame index="11" delay="100"/>
+        </animation>
+		</emitter>
+	</particle>
+	
+</effect>

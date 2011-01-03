@@ -560,13 +560,18 @@
         image="weapon-axe-blacksmithsaxe.png"
         name="Blacksmith's Axe"
         description="An axe usually used by blacksmiths."
-        effect="??? Damage, ??? Range"
+        effect="80 Damage, 1 Range"
         type="equip-2hand"
+		weapon_type="11"
         weapon-type="axe"
-        attack-action="attack"
+        attack-action="attack_2hand"
         weight="1200"
+		attack-min="20"
+        attack-delta="80"
         attack-range="32"
-        max-per-slot="1"/>
+        max-per-slot="1">
+		<sprite>weapon-axe-blacksmith.xml</sprite>
+		</item>
     <item id="551"
         image="generic-bluehint.png"
         name="Aqua Hint"
@@ -924,17 +929,25 @@
         <sprite gender="female">leg-shorts-female.xml|#A4B2B2,FFFFFF</sprite>
     </item>
 
-    <!--
+    
     <item id="587"
         image="weapon-sword-sword.png"
         name="Sword"
         description="A simple but reliable sword."
-        effect="??? Damage, ??? Range"
+        effect="25 Damage, 1 Range"
         type="equip-1hand"
+		weapon_type="11"
         weapon-type="sword"
-        weight="10"
-        max-per-slot="1"/>
-    <item id="588"
+		attack-action="attack_1hand"
+        weight="500"
+        attack-min="10"
+        attack-delta="25"
+        attack-range="32"
+        max-per-slot="1">
+        <sprite>weapon-sword-sword.xml</sprite>
+	</item>
+    <!--
+	<item id="588"
         image="weapon-sword-bastardsword.png"
         name="Bastard Sword"
         description="A large two handed sword."
@@ -996,16 +1009,25 @@
         max-per-slot="1">
         <sound event="hit">weapons/swords/rapier-hit1.ogg</sound>
     </item>
+	-->
     <item id="594"
         image="weapon-polearm-spear.png"
         name="Spear"
         description="A light spear with a wooden pole."
         effect="??? Damage, ??? Range"
         type="equip-2hand"
+		weapon_type="11"
         weapon-type="polearm"
-        weight="10"
-        max-per-slot="1"/>
-    <item id="595"
+        attack-action="attack_polearm"
+        weight="700"
+		attack-min="10"
+        attack-delta="20"
+        attack-range="32"
+        max-per-slot="1">
+		<sprite>weapon-polearm-spear.xml</sprite>
+		</item>
+    <!--
+	<item id="595"
         image="weapon-polearm-heavyspear.png"
         name="Heavy Spear"
         description="A heavy spear with a wooden pole."

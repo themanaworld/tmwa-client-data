@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<effect>
+	<!-- The gate opening animation -->
+	<particle position-x="0" position-y="0" position-z="60">
+		<animation imageset="graphics/particles/pool_32x58.particle.png" width="32" height="58">
+            <sequence start="0" end="3" delay="400" />
+        </animation>
+	</particle>
+</effect>

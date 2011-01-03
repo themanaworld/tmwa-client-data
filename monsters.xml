@@ -1492,5 +1492,10 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
             />
             <script>testmonster.lua</script> <!-- only Proof of Concept-->
     </monster>
+	
+	<monster id="997" name="">
+        <sprite>monsters/monster-slime.xml|#000000,ffffff</sprite>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+    </monster>
 
 </monsters>

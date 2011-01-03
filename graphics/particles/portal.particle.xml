@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!--
+A red and yellow blaze. Does not really look like fire but looks awesome
+nevertheless. Maybe we could modify this effect and use it for some persistent
+AoE fire magic spell.
+
+It is about 100 pixels wide and 200 pixels high, takes about 280 particles and
+lowers my FPS by about 30%.
+-->
+<effect>
+	<particle
+		position-x = "0"
+		position-y = "0"
+		position-z = "150"
+		>
+		<emitter>
+			<property name="position-z" value="-150" />
+			<property name="position-y" value="32" />
+			<property name="acceleration" value="0.05"/>
+			<property name="momentum" value="0.95"/>
+			<property name="image" value="graphics/particles/glow-medium.png|W:#000099"/>
+			<property name="lifetime" min="60" max="140"/>
+			<property name="fade-in" value="30"/>
+			<property name="fade-out" value="30"/>
+			<property name="output" min="1" max="2"/>
+			<property name="horizontal-angle" min="0" max="360" />
+			<property name="power" min="1" max="3" />
+		</emitter>
+		<emitter>
+			<property name="position-z" value="-150" />
+			<property name="position-y" value="32" />
+			<property name="acceleration" value="0.05"/>
+			<property name="momentum" value="0.95"/>
+			<property name="image" value="graphics/particles/glow-medium.png|W:#000022"/>
+			<property name="lifetime" min="40" max="140"/>
+			<property name="fade-in" value="10"/>
+			<property name="fade-out" value="30"/>
+			<property name="output" min="0" max="1"/>
+			<property name="horizontal-angle" min="0" max="360" />
+			<property name="power" min="0" max="2" />
+		</emitter>
+	</particle>
+</effect>
