@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="320" height="320" tilewidth="32" tileheight="32">
  <properties>
   <property name="music" value="The Mana World - Snow Village.ogg"/>
@@ -133,7 +132,7 @@
     <property name="monster_id" value="15"/>
    </properties>
   </object>
-  <object name="bat" type="spawn" x="4288" y="8288" width="736" height="1376">
+  <object name="bat" type="spawn" x="4384" y="8352" width="736" height="1376">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -181,12 +180,356 @@
     <property name="monster_id" value="56"/>
    </properties>
   </object>
-  <object name="IceGoblin" type="spawn" x="4224" y="6272" width="832" height="1344">
+  <object name="IceGoblin" type="spawn" x="5888" y="3776" width="960" height="1728">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="56"/>
+   </properties>
+  </object>
+  <object name="Moggun" type="spawn" x="2432" y="8960" width="1376" height="736">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="59"/>
+   </properties>
+  </object>
+  <object name="Santa Slime" type="spawn" x="4096" y="8256" width="960" height="544">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="13"/>
+   </properties>
+  </object>
+  <object name="Santa Slime" type="spawn" x="8544" y="8672" width="1088" height="992">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="13"/>
+   </properties>
+  </object>
+  <object name="IceGoblin" type="spawn" x="8384" y="8800" width="1088" height="480">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="56"/>
+   </properties>
+  </object>
+  <object name="IceGoblin" type="spawn" x="8384" y="8800" width="1088" height="480">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="56"/>
+   </properties>
+  </object>
+  <object name="iceelement" type="spawn" x="2528" y="6144" width="1280" height="1440">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="69"/>
+   </properties>
+  </object>
+  <object name="iceelement" type="spawn" x="8992" y="5792" width="288" height="2432">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="69"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="8416" y="5920" width="1344" height="2080">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="15"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Moggun" type="spawn" x="8032" y="7264" width="2048" height="672">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="59"/>
+   </properties>
+  </object>
+  <object name="Moggun" type="spawn" x="8032" y="6016" width="2016" height="544">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="59"/>
+   </properties>
+  </object>
+  <object name="yeti" type="spawn" x="6912" y="6688" width="896" height="1120">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="70"/>
+   </properties>
+  </object>
+  <object name="IceGoblin" type="spawn" x="7168" y="6592" width="416" height="1376">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="56"/>
+   </properties>
+  </object>
+  <object name="yeti" type="spawn" x="6496" y="6112" width="416" height="576">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="70"/>
+   </properties>
+  </object>
+  <object name="yeti" type="spawn" x="5984" y="6656" width="416" height="576">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="70"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="5760" y="8352" width="2144" height="1408">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="5760" y="8352" width="2144" height="1408">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="5664" y="6176" width="1472" height="480">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="13"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="yeti" type="spawn" x="6496" y="6112" width="416" height="576">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="70"/>
+   </properties>
+  </object>
+  <object name="iceelement" type="spawn" x="4160" y="6208" width="960" height="1440">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="69"/>
+   </properties>
+  </object>
+  <object name="yeti" type="spawn" x="7200" y="4224" width="608" height="640">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="70"/>
+   </properties>
+  </object>
+  <object name="Moggun" type="spawn" x="8032" y="6016" width="2016" height="544">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="59"/>
+   </properties>
+  </object>
+  <object name="Moggun" type="spawn" x="5792" y="4832" width="2016" height="544">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="59"/>
+   </properties>
+  </object>
+  <object name="Moggun" type="spawn" x="5792" y="4832" width="2016" height="544">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="59"/>
+   </properties>
+  </object>
+  <object name="Moggun" type="spawn" x="5792" y="3904" width="2016" height="544">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="59"/>
+   </properties>
+  </object>
+  <object name="Moggun" type="spawn" x="8448" y="3808" width="1312" height="1568">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="59"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="8480" y="2208" width="1184" height="1024">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="15"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="8480" y="2208" width="1184" height="1024">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="15"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="yeti" type="spawn" x="8544" y="2080" width="512" height="1056">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="70"/>
+   </properties>
+  </object>
+  <object name="Moggun" type="spawn" x="576" y="608" width="1440" height="2208">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="59"/>
+   </properties>
+  </object>
+  <object name="yeti" type="spawn" x="2496" y="4640" width="2752" height="992">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="70"/>
+   </properties>
+  </object>
+  <object name="yeti" type="spawn" x="2528" y="3808" width="2656" height="800">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="8"/>
+    <property name="monster_id" value="70"/>
+   </properties>
+  </object>
+  <object name="IceGoblin" type="spawn" x="3040" y="3744" width="832" height="864">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="56"/>
+   </properties>
+  </object>
+  <object name="IceGoblin" type="spawn" x="4256" y="4736" width="832" height="800">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="56"/>
+   </properties>
+  </object>
+  <object name="IceGoblin" type="spawn" x="2624" y="4960" width="832" height="800">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="6"/>
+    <property name="monster_id" value="56"/>
+   </properties>
+  </object>
+  <object name="iceelement" type="spawn" x="8544" y="736" width="1024" height="928">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="69"/>
+   </properties>
+  </object>
+  <object name="iceelement" type="spawn" x="5792" y="640" width="2080" height="1056">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="69"/>
+   </properties>
+  </object>
+  <object name="iceelement" type="spawn" x="6816" y="2208" width="1024" height="928">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="69"/>
+   </properties>
+  </object>
+  <object name="iceelement" type="spawn" x="8832" y="4224" width="512" height="448">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="69"/>
+   </properties>
+  </object>
+  <object name="iceelement" type="spawn" x="5856" y="2208" width="1024" height="928">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="69"/>
+   </properties>
+  </object>
+  <object name="IceGoblin" type="spawn" x="6464" y="1984" width="832" height="864">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="56"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="5888" y="512" width="2144" height="1408">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="224" y="768" width="2080" height="1824">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="192" y="7968" width="2080" height="1824">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="15"/>
    </properties>
   </object>
  </objectgroup>
