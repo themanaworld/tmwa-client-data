@@ -42,7 +42,8 @@
   <action name="dead" imageset="base">
     <animation direction="down">
       <sequence start="24" end="29" delay="400" />
-      <frame index="29" delay="4000" />
+      <frame index="29"/>
+      <end />
     </animation>
   </action>
   <action name="attack" imageset="base">

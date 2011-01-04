@@ -1,0 +1,41 @@
+# lines starting with # or // are comments
+# all other lines will be parsed and treated as filenames.
+
+# Rules for caves
+
+# basic stuff: each rule-tile gets a default tile
+# here is a map attribute set: "DeleteTiles := true" This means to delete all
+# tiles in all touched tileslayers first.
+./rule_cave_001.tmx
+
+# straight walls:
+./rule_cave_002.tmx
+
+# corners at walls
+./rule_cave_003.tmx
+./rule_cave_004.tmx
+./rule_cave_005.tmx
+
+# water in caves:
+./rule_cave_006.tmx
+./rule_cave_007.tmx
+
+# rules for entrances, has bad exception handling,
+# so mind where to put entrances. (So avoid putting them near corners)
+./rule_cave_008.tmx
+
+# straight carpets
+./rule_cave_009.tmx
+
+# corners in carpets
+./rule_cave_010.tmx
+
+# all tiles, which are walkable, but have unwalkable neighbors,
+# should be unwalkable
+# example: a decorative stone in a sea
+
+./rule_cave_050.tmx
+
+# error handling: some situations cannot be handled properly with this ruleset:
+# so indicate these situations with the error-tile
+./rule_cave_100.tmx

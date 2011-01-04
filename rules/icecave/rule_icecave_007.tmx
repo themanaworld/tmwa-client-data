@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="13" height="7" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="set_icecave" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_icecave.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="19" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="23" name="icecave" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/icecave.png" width="512" height="256"/>
+ </tileset>
+ <layer name="ruleRegions" width="13" height="7">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIA8IQzGxbHL1DCe3AQDj6TXRbAEAAA==
+  </data>
+ </layer>
+ <layer name="ruleSet" width="13" height="7">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoC5gg2J0NrI8A5o4LjWUuoMa9hDyDykAANyNKXlsAQAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="13" height="7">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoC7ggmJ0NrI8A5o4LjWUuoMa9hDyDykAAN2upiFsAQAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="13" height="7">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoC7gg2J0NrI8A5o4LjWUuoMa9hDyDykAACKwIxZsAQAA
+  </data>
+ </layer>
+ <layer name="rule_Ground" width="13" height="7">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoC4oQuMXo/FLoHQZle1FB1Og9DQKzWlC4zdTYBYAacXSPGwBAAA=
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="13" height="7" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="set" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_cave.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="67" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_rules.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="68" name="cave" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/cave.png" width="512" height="256"/>
+ </tileset>
+ <layer name="ruleRegions" width="13" height="7">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIA84QzGxbHL1DCe3AQBhmwyGbAEAAA==
+  </data>
+ </layer>
+ <layer name="ruleSet" width="13" height="7">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoC4Qg2J0NrI8A5o4LjWUuoMa9hDyDykAACD2PadsAQAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="13" height="7">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoC7gg2J0NrI8A5o4LjWUuoMa9hDyDykAACKwIxZsAQAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="13" height="7">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoC5gg2J0NrI8A5o4LjWUuoMa9hDyDykAANyNKXlsAQAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="13" height="7">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoC7ghWJ0NrI8A5o4LjWUuoMa9hDyDykAAHI53HZsAQAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="13" height="7">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoC5ghWJ0NrI8A5o4LjWUuoMa9hDyDykAAIwE1hlsAQAA
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="13" height="7" opacity="0.11">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIA+IQTE6m5AeXHwxHGrIAeTYQ45/SAUAXzfD8GwBAAA=
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="13" height="7" opacity="0.11">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIA/wQTE6m5AeXHw+HGrIAeTYQ45/SAUAXeR57mwBAAA=
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="13" height="7" opacity="0.11">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIA+wQTE6m5AeXHw2HGrIAeTYQ45/SAUAnKjAUmwBAAA=
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="13" height="7" opacity="0.11">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIA/wQjE6m5AeXHxeHGrIAeTYQ45/SAUArf9ym2wBAAA=
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="13" height="7" opacity="0.11">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIA+wQjE6m5AeXHxWHGrIAeTYQ45/SAUAbLPLJ2wBAAA=
+  </data>
+ </layer>
+ <layer name="rule_Ground" width="13" height="7">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoC6Yj8ZfgMZfCKUXU9ledHAQSh+m0Jz1aPwNFJgFABD1MNRsAQAA
+  </data>
+ </layer>
+</map>

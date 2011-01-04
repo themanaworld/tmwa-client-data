@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="6" height="6" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="set" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_cave.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="67" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="71" name="cave" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/cave.png" width="512" height="256"/>
+ </tileset>
+ <layer name="ruleRegions" width="6" height="6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA2ckWhnLOL4ALp6Zyzi2AAAH/dlMZAAAAA=
+  </data>
+ </layer>
+ <layer name="ruleSet" width="6" height="6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIAzECPCppQcEAF5x3w6QAAAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="6" height="6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIAz4CPCppQcEAMFTlWKQAAAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="6" height="6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIAzYCPCppQcEAItPfPCQAAAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="6" height="6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIAx4CfCppQcEAOr1Fs+QAAAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="6" height="6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIAxYCfCppQcEAKDp/12QAAAA
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="6" height="6" opacity="0.06">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA3EcLBJBaSYAwCr1UHrkAAAAA==
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="6" height="6" opacity="0.06">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA34cLBJBaSYAwDclnPrkAAAAA==
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="6" height="6" opacity="0.05">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA3YcLBJBaSYAwDxV2LrkAAAAA==
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="6" height="6" opacity="0.08">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA14cbBJBaSYAwDKPH9LkAAAAA==
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="6" height="6" opacity="0.09">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA1YcbBJBaSYAwDn/W5LkAAAAA==
+  </data>
+ </layer>
+ <layer name="rule_Ground" width="6" height="6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIAy2ofGXEqHnKBp/CxF6QAAAOgJv95AAAAA=
+  </data>
+ </layer>
+</map>

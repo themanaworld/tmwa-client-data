@@ -1291,7 +1291,53 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
     <monster id="60" name="Terranite">
 	<sprite>monsters/monster-terranite.xml</sprite>
     </monster>
-<monster id="61" name="The Lost" targetCursor="medium">
+    <monster id="61" name="Pumpkin">
+        <sprite>resource-pumpkin.xml</sprite>
+        <attributes
+            hp="200"
+            size="4"
+            speed="0.0"
+            attack-min="0"
+            attack-delta="0"
+            attack-magic="0"
+            hit="0"
+            evade="0"
+            physical-defence="0"
+            magical-defence="5"
+            mutation="0"
+            />
+    </monster>
+    <monster id="62" name="Bandit">
+	<sprite>monsters/monster-bandit.xml</sprite>
+	<sprite>monsters/weapon-dagger.xml</sprite>
+    </monster>
+    <monster id="63" name="Bandit Lord">
+	<sprite>monsters/monster-bandit-lord.xml</sprite>
+	<sprite>monsters/weapon-bow.xml</sprite>
+    </monster>
+    <monster id="64" name="Vampire Bat">
+        <sprite>monsters/monster-vampire-bat.xml</sprite>
+        <sound event="die">monsters/bat/bat-dying1.ogg</sound>
+        <sound event="hit">monsters/bat/bat-hit1.ogg</sound>
+        <drop item="501" percent="2"/>
+        <drop item="533" percent="8"/>
+        <drop item="521" percent="1"/>
+        <drop item="522" percent="4"/>
+        <attributes
+            hp="60"
+            size="4"
+            speed="3.0"
+            attack-min="15"
+            attack-delta="2"
+            attack-magic="0"
+            hit="15"
+            evade="7"
+            physical-defence="7"
+            magical-defence="0"
+            mutation="50"
+            />
+    </monster>
+    <monster id="65" name="The Lost" targetCursor="medium">
         <sprite>monsters/monster-skeleton.xml|#aca379</sprite>
 	  <sprite>chest-robe-male.xml|#333333</sprite>
         <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
@@ -1344,7 +1390,7 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
             <script>testmonster.lua</script> <!-- only Proof of Concept-->
     </monster>
 	
-	<monster id="109" name="Reaper" targetCursor="medium">
+	<monster id="66" name="Reaper" targetCursor="medium">
         <sprite>monsters/monster-reaper.xml</sprite>
 	  <sprite>monsters/accessories/reaper-shadow.xml</sprite>
 	  <particlefx>graphics/particles/monster-reaper.particle.xml</particlefx>
@@ -1400,7 +1446,7 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
             <script>testmonster.lua</script> <!-- only Proof of Concept-->
     </monster>
 	
-	<monster id="110" name="Scythe" targetCursor="large">
+	<monster id="67" name="Scythe" targetCursor="large">
         <sprite>monsters/monster-spinning-scythe.xml</sprite>
 	  <sprite>monsters/accessories/scythe-shadow.xml</sprite>
         <drop item="505" percent="8"/>
@@ -1446,7 +1492,7 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
             <script>testmonster.lua</script> <!-- only Proof of Concept-->
     </monster>
 	
-	<monster id="111" name="Ball Lightning" targetCursor="small">
+	<monster id="68" name="Ball Lightning" targetCursor="small">
         <sprite>monsters/monster-ball-lightning.xml</sprite>
 	  <sprite>monsters/accessories/ball-lightning-shadow.xml</sprite>
 	  <particlefx>graphics/particles/monster-ball-lightning.particle.xml</particlefx>
@@ -1492,10 +1538,10 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
             />
             <script>testmonster.lua</script> <!-- only Proof of Concept-->
     </monster>
-	
-	<monster id="997" name="">
-        <sprite>monsters/monster-slime.xml|#000000,ffffff</sprite>
-        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+    <monster id="69" name="Ice Element">
+	<sprite>monsters/monster-element-ball.xml</sprite>
     </monster>
-
+    <monster id="70" name="Yeti">
+        <sprite>monsters/monster-yeti.xml</sprite>
+    </monster>
 </monsters>

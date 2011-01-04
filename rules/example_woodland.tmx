@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="set_woodland" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/set_woodland.png" width="512" height="320"/>
+ </tileset>
+ <tileset firstgid="161" name="Woodland" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="417" name="Woodland x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/Woodland_x3.png" width="512" height="192"/>
+ </tileset>
+ <tileset firstgid="449" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="451" name="Woodland x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/Woodland_x2.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="483" name="Woodland_x4" tilewidth="32" tileheight="128">
+  <image source="../graphics/tiles/Woodland_x4.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="499" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/set_rules.png" width="64" height="64"/>
+ </tileset>
+ <layer name="Set" width="50" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA92WYW7CMAyFQ9etsFukjLFr9gjceKoUS54V289JgIkfT3VDk/jzc2gPKaXDi+qoxI/QFpCV97O153cu2sT4xGLUh2exSo6FjfPYy1PmS/c3UKM5pAeTwVGrtRxDOXp5JMdHEeoHPcPzp1pEGXpYLA7PjyX9zbvXC4tD2wPhyEWIH54XkXODesCZiGOtcFwdDslg+TA7nB7HUcyXvmzlt1nxg/gsr6fkc2RWlx4/rL6aGcelCOkrtKdone9yHXXOef0sDq+vtN7q4Wg5G4gfVl+1sGj5y95EeklycK0D/PD6f/S7vOaNZOPjKEOUJZq35Z3GIZlGs3g5IXlb/YVwLMAe9+qp2plpYYgowvBWtMf0/+Otz3ui1Q+kt2os2nMtHC2+aN5o78SoLI7TIBbE10dL5tfiwT0Y3ouiLDLmeXu9Qe/J/A84PllM3++ZjVle5FTnkPxaPeTcPabvIq82su78ntb9MfxCOFDJ+Wtgza1DIzkyqGvQD+tZzY8eUZ5r0Ve5nissvXuNzj3iyag9EL9eQb9lr80LcBcAAA==
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="138" height="128" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="The Mana World - Snow Village.ogg"/>
+  <property name="name" value="Snow Cave"/>
+ </properties>
+ <tileset firstgid="1" name="Snow" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Snow.png"/>
+ </tileset>
+ <tileset firstgid="257" name="Snow x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/Snow_x2.png"/>
+ </tileset>
+ <tileset firstgid="273" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" trans="ff00ff"/>
+ </tileset>
+ <tileset firstgid="275" name="icecave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/icecave.png"/>
+ </tileset>
+ <layer name="Ground" width="138" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2dTZIcNRCFXXewAzbAhhmzATbYg00AG+zGwwaIwYOHDXAA/g4AAScATowU0YrJSSRVZirVVaV6iy+MTdSf9CQ9KVPqh9O9ew8BAAAAAAAAAAAAAAAAAAAAAAAAAAbnSeBp4O0VvAtYLy8Cl4EPAhcT9DIiHn3Bq8BN4LPAYbrVSwK62T4efcE7gdcCV4Hr6VYviXjvp0egn22S6wtifX6kuEfSSSLpJRHvfXmE6wd62Qa5viDW5xfG++SI9745wvVD9QLNrJdcXxDr8zvFPc4CH05lndT0w8cp7m2gn3VQ6gfOBdcmD/wo8HnmHg8K9y7pJedtuH6gl2V1wuv08bFeal4leeBngW8z9W+Be5vSGNWqlzPyfdCfXCec58d6qXmV5IG/EdS/l35ynkbqu8/INbEP/DLwVeBrcj+sF+bLreQrXh7rpeZVat71VHopaTmNiVRLj8g1sQ/8PvBD4EdyP7pGsPd+JrWrkq/gzHmVJfVS0nIaE6mWnpFreB94Re7FffUetRLbWWpXUl/xWFlWS+gm+an0nmlMpFqSjo/cV+/RQ8d2ltqVtNyeN5QV10ypb2rVVvJT6T0t8/SSZrw99BaI7UzrO18KyqrX/EGqn+Sn0ntKxlONVui99zAWScr9vrCsqE9MY9nlpNOTVVel70jv6TVPL5XB6Fpp7d/5+v5huvU68d9vpvL8Nacnriuun9qcdwkflMogaUUbC9sKXmWb1vevp/r8ga+vcj1xXXH9zMWaltaKJRa2FU5Ztnx9teSN6LyU/zkXa1pSK9pY2Jag5SqNwWjI+ZsW0hyJrqdyb7CUVuj7jcaSZWohrY3Q9VTuDSTf1KNNQCe2MuihwbQ2QtdTS97A4/laPUEnfcpAW5dpbYR6G4k3OFW/OaJOtDlFmjKgsTfJ2oJHPXLvkntub73EcXGUuXEtp6jkO7XthMbeSnlpvC5b65B7l9yaRm+dxHFxlLmxNqfI0pfS2FspL41qyEMv3Lv09C0l4rg4ytxYm1Nk0Qmti1JeGtUQ14ulLrl3KfmW3n3KKB7l9RN9s6Q+anE1r/rM5W321MooOtFoRZtvotVJTi/SuJr0/qW8zV5a2aNOUr6JNcZF6+K88O9cLzQfKDGnm1qdl/I2e+hkJI3kdFJaT0r5JtYYV0kntbqi+UAJSV6QpN575UaNqJGSVmpjQs8YV0kr11PZ79Y0U6tznhPpqZe968SzHEprYHP1M7dfUHo/nhPpqZeowRFzUE6tk6gRugZ2Md3dI6OZH+U0I1mD4TmRFq2VxuiowVFzUKRaadEIXf+la2CH6e4eGW2+cy4XXjr3rfVP1vlz1OCoOSin0Ald/6VrYNfT3T0yLfnOuZwya/+kvQfva/bsU1q+fW791yvfmfttbR1T7Z4b79FaVmtmrixav/vUuVD8fa2e9GKy7f0ZUSdPBGVh9fFpbuO1z8pbJ7WczDQvomPhL4HfDM8fgRfTvC+w+Hi6J7XFd9TKXHpeS0tMMY6FUR+/Bv4I/H7875peRtTJq+n/voC3M4uPp3tSNb7DI7fSM+4XNRL18SfjL6f33wq98h4te1KtZcy/wTPu93fgn8DP061Gfgr86/wNa0dadr1zqD3zF2rntVi+N14T9ZK0UupLaF822pqst04s3rXnfEoae8zVNx+3Ut9S6ktoXzbSmqxkrqOpR6t3XaNOuHfXnpUw0vgjmeto6tHiXT3K00sn1L8n725dR2nJ71obublOS11qvatX/LlWh6WzKrW5cNq5fcrvGsGntOT1WO/noRN+VmOtDmtnVUrel66jaL4t5XeN4FOW1IlFI/TMwcMkO1dOM/fx3nN8lXnmVvGO7Xhrj2qEnjl4PenOlSs9V/r91nW6Ufzs3PdLzqLuqTuqEe2Zg9CJD5J5seQsamm5t2pEo49cjC83B9Ho2hp33vq8RzIvlpxF3UMn1ItoNVLLS9TuU6X7yqV5kA8yz9xy3qx0XiytZz5Hva+4lsLPP/Y6M5+faSqJE9J95da489bPbvOax879popWJ5bzj6WUfoOKlgVfb2vdG7b1s9u8dCI5/6B3rLm17qTj5V7393iseczlv3rPrXP+w1qXkvmMR94TdLLMGoxXXUr0xXMFoJPldeJ5Fph2zW9uD2GLn926TizlqbneMs/xzEko+VNNP5TWBlr97B51QmNxtfZvmed4xrAl682l+THXlaTvqcWI9qSTXCyu1v695jm1Omv5Nk0+Usu8Z+saKX03rxd+liKNxdXavyZftEe8ee6efC9Br3nPKDqZ+25+lqLm97/ida2xIWuZa+/ZQyejaCT6x9jmaz4jdw60hJwHXLNOatdYdDKKRiLRPx4m399Hs5RXr3L3mB/T/5/iFJ456Fsg+sfY5lvPC2j1+r32w0v3YZTW0fhzU5zCMwd9C5ziPIG58pLkwnjqhPt0Ghem1+SemeIU0t/xvZi2m1OQ6kbSf3rkjc79PoAkF6Znf6I5b1zTrkbY96XpP1vh7TXXRmn7lKydemtFkl8T+wZNXEHj49eKpv9sZa69ruGsntyZoXwPyGGytast+5SlzzlK9PQmpe/NjaVpjKBnQPI9ILFvsLQr6KS9nHp6E8338jNDqTYiczGFko/bskbWpBNJnu4pdJKgZ0Bq1xW9fdUaaNGJ9vdmW/JEeAyyZZ/DWsbarXGqcmvxJrnfc7uYdPvPltLK6Drx3mtby8Ge8yY8Bkn9g2W/g4dOLHHDLbN0fyLxJrnfc7uedPvPat9caxMSbzoXDxqBnjpJHqY1h9WqwR7fLdmjPJpGemmFt0GLTmo++Y3Am4G3jn+3xlD2MmasVSfa8tY+/93Ae4H3j3+3xlD2MF701ErrWQ69dfJx4JPAp8e/jxBD2TKlcXeuXiW+RKuTvc0vtkYuD6PWX9fyNqTPyPVtEl1BJ+vSCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAvvwHRnpDqQAUAQA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="138" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3asREAIAgDQNzLEdx/Hns7LVS4/wlCmxABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/G+11gj3Z8gIAAAB5VOgdKtwAAAAAAAAAAAAAAJzzUwwAAAAAAKy6/QAAAAAAAAAAAAAAAAAAAAAA4JoJZDkGjwAUAQA=
+  </data>
+ </layer>
+ <layer name="Over" width="138" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3dW26jMBgG0GQdnfcqnf3vbxSNUCOEwQbj6zlS3toK8OffF2h4PAAAAAAAAAAAAAAo7ev5ePx91j4KAACAfN7rnB9rHSItefmRGxJ87WTmtcqUbPG2rjV/AnlY/5z8kEJ+uMK9AmLJyn1Gu7ajnQ/3kRXoQ2i/I/Sp1a/tDfcltI4tlaW9PT76UqrvqzFlvHb2T3Mw/+zf3RlZlOjz8jgObdmfs7XkalvfmRU5jNPLdTpaL7WaQ9Ks2+KVqY0//35r695Sc7lZ5J6znqkPuXM2YkZK1d3Ptti6hjmP40r27K+0L3dmr/w9eWlba/PK1o6nppRr0dvYm6OdZQXS6DPk0tuYszAnBT7tPUOnTsxrnYu98S52blVyDtbrGN2TM9e4xazM7O5+UqIfpu4XGd/aUrJWn71fKCvHjLnUJoMcqZUR40h+o/Z3WenDqPkbUa3ng1rJSMzxvqyNq2glI7Sr54yYz8xN+7el5VoiK+QkTxBWqn+UGHNK3d9VU8bhnjBrSx1Z1yvtntfde6g11zmpWfFs3HhCdQR61vL+USx1NN2s16yn8+6tb/Z2vBzL3V9kpI7U656r3bV3P2q1lYyw5bMGyQh7lu/EkJF59LSW4xr1nxLUlD7MXA9mPndoTa7+WGPsGaGWzDhmz3jO1BPz/6Qj1BLyCNUnGUnX2jW7MvbEPEfX2vnmMOt4fXTeoe+tDb1DKPa7TNl21Lday6nnbsNC7/Frqf3usPWeSvnYd/R+trfU/OQcp2fJbo9SnsNYt+OZjGxlYT0OtDZO8d/Wcxh79frMcxvr34l592TsHJMyvp+/HwAAAAAAAAAAAAAAAAAAAMr4B+hJZIYAFAEA
+  </data>
+ </layer>
+ <layer name="Collision" width="138" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2TUW5cMQwD0yv0/octiqJAEGzyLJsSJe8QmL99sihyf//6+PgNAAAAAAAAAAAAAAAAAAAAAAAAAFL+yr0D9Oez3LtAXsaqOa/k9gf6fFVzVuT2Def5VvSEvszC3RM6MwNFXtly3wjOcqlWhnf3/aegyKZaat/uDCaQkUm1lHu58+hIxd1WZ50oq6vufNxMutXujiq5/Xe++4RbPe2plttvh/tOvZVDbs+Tbvs0d5ofhf8bcd4z4+4OuTO8qScKdffkzpKe/FN3T+4sO/SkQwfd76v3m4T7Brs5RPeqkDvLm3uiyrFDX9xZuvPptMvpjplyZ+nMpuNOp3tmyZ2lM4/T2VVd+fqtoydP706jyvPpfIWqu+LO1tGV7n08nZ0hd64Te/L5nZX3M/xU9sSd6Y09+W6PTE+ZnXHneUNXontk+VLdxHWnzj2puoP67dM5UbmzfJeerOxT2ZOO9+nelU67RHZS+FHuM5nqG/w0b1e789TdXZ05lSrvT7NPdJoxPTnrSUUPlVJnrXj/FrJ9VyqrJ6uz3Fm+Y0925qp7EvXkzvKmnkQy3pmt6qqio7eguJkiG5UH1T47s9xZunvSuSORnqj8ZvnoTFaOq8r0sLsbPdHf7F16UuWlK1neK+8anb+zV0TuTCf0xHHLnTeiO0bkzvSWjqhvuftGZEeXtw6o/b76vuKOu/tnyp1tZVc6dE+V9an/HbmzndqT6m6svL36jfLNiah9Zt7sRAr/qjcnovaZdbNTKXZWvjkNteeMeymk2Fv95hQyPKvvpZRib+WbU8jwq7pVpiLvqfZyZ13Vlc4dUXhanb3bFXfOHXqivo8ig53vlLNX5kxC4VN9H9Xto9+vvrEjd84VXdn93tnd3Q6vvhGVO+N37Ilq1omXqNwZ39YT9c2jc1Z/G5E736quVPUk4+7ROYrfnuw7AfWNMnqSPTPybsa+Ezi5o+JGXWauvqvedQpZUr2f5evp99X7didLivczff30e0evu5KtaT35/03G3Mlka2JPFPdy5+rqyW6n3D1Rd0XtewrZcnfE1RPl/jf3I3Krk28VfumJvyeVGWa+keW9O1Wa0JPv3qrw3p0qdehIteeM3W/vSqeedPp/TKLDvapvrfRTuTc9Wft2ZVZ1T17Nc2c6sSfVmWX6XpnlznNqV7r25Ke33Xl0JUsV7yt9u3OYwKtbnap7T0Dbna95qPOLzKIvPXmVwVOOp288ZU9P+kEGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtfwBODhjNwAUAQA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="138" height="128">
+  <object name="WarpOutside1" type="warp" x="1280" y="3168" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="019-1"/>
+    <property name="dest_x" value="1232"/>
+    <property name="dest_y" value="2352"/>
+   </properties>
+  </object>
+  <object name="warpOutside2" type="warp" x="3136" y="800" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="019-1"/>
+    <property name="dest_x" value="3088"/>
+    <property name="dest_y" value="1232"/>
+   </properties>
+  </object>
+  <object name="Moggun" type="spawn" x="0" y="0">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="59"/>
+   </properties>
+  </object>
+  <object name="Bats" type="spawn" x="0" y="0">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="50"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

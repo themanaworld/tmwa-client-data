@@ -16,7 +16,10 @@
  <tileset firstgid="769" name="Crypt-Fringe-x3" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Crypt-Fringe-x3.png"/>
  </tileset>
- <tileset firstgid="1025" name="collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="1025" name="Crypt-Fringe_x3" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Crypt-Fringe_x3.png"/>
+ </tileset>
+ <tileset firstgid="1281" name="collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png" trans="000000"/>
  </tileset>
  <layer name="Ground" width="150" height="90">
@@ -46,7 +49,7 @@
  </layer>
  <layer name="Collision" width="150" height="90">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3SQYrDMBAEwCXs/9+8p0AImziWJfdMXAN1MdiWpvv2+/NzAwAAAAAAAAAAAAAAYKrZk74PNegVK+gVK7zrxlZ39IpXZk/6PtSgV6zwrhtb3dErXrl6r6pMeg/V95q+T/r+o5PeQ/W9pu8zev90x9J70Cu96uDq+3k899n36La3DpPe0dau9Gp9r7b2P/rNCpLnq7gPvdKr9K4+fTZrPvl2ekdb+9KrHr16Plt6R3rVv1f/nS29I706vqeRLsyco9klRq/q92rPGfSqrq7z6X1G7r/3Hb3SK72qZ9bcv3Xk33r1PWaNXunVJxlszWh+enUNs0evuO9zZr/0imq9qjTpXLpL5lF50rl01yGPxKRz6e6+wxk5rMojMelcunvsxNEcVuWRmHQu3XXIY+8/Rs51xj2uZPboFXqlV3o13pGRd9K5fLsK+9arft7Nq31vvaNXzB69omuvzph0Lt3NymBlHolJ59Ld8y4r5pGYdC7ddcgjMelcutu760QeiUnn0l2HPPb+o+o9ruTVTivlsfcfI+fSq/W9OjJ6xYxePX9Dr5jRqzPyONqRkXfSuXQ3e/SK532O9uzxPb1itEfvpsMZU/e4kq3dVsgjMelcuhvZ99l5JCadS3cd8khMOhfW0ysAAAAAAAAAON8flDVFdvDSAAA=
+   H4sIAAAAAAAAC+3SQYrDMBAEwCWw///yngIhbOJYltwzcQ3UxWBbmu7b78/PDQAAAAAAAAAAAAAAgKlmT/o+1KBXrKBXrPCuG1vd0StemT3p+1CDXrHCu25sdUeveOXqvaoy6T1U32v6Pun7j056D9X3mr7P6P3THUvvQa/0qoOr7+fx3Gffo9veOkx6R1u70qv1vdra/+g3K0ier+I+9Eqv0rv69Nms+eTb6R1t7UuvevTq+WzpHelV/179d7b0jvTq+J5GujBzjmaXGL2q36s9Z9CrurrOp/cZuf/ed/RKr/Sqnllz/9aRf+vV95g1eqVXn2SwNaP56dU1zB694r7Pmf3SK6r1qtKkc+kumUflSefSXYc8EpPOpbv7DmfksCqPxKRz6e6xE0dzWJVHYtK5dNchj73/GDnXGfe4ktmjV+iVXunVeEdG3knn8u0q7Fuv+nk3r/a99Y5eMXv0iq69OmPSuXQ3K4OVeSQmnUt3z7usmEdi0rl01yGPxKRz6W7vrhN5JCadS3cd8tj7j6r3uJJXO62Ux95/jJxLr9b36sjoFTN69fwNvWJGr87I42hHRt5J59Ld7NErnvc52rPH9/SK0R69mw5nTN3jSrZ2WyGPxKRz6W5k32fnkZh0Lt11yCMx6VxYT68AAAAAAAAA4Hx/JVWAsPDSAAA=
   </data>
  </layer>
  <objectgroup name="Objects" width="150" height="90">

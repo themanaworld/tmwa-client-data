@@ -1,0 +1,34 @@
+# lines starting with # or // are comments
+# all other lines will be parsed and treated as filenames.
+
+# ice caves... similar to usual caves
+
+# basic stuff: each rule-tile gets a default tile
+./rule_icecave_001.tmx
+
+# straight walls:
+./rule_icecave_002.tmx
+
+# corners at walls
+./rule_icecave_003.tmx
+./rule_icecave_004.tmx
+./rule_icecave_005.tmx
+
+# frozen water straight waterside
+./rule_icecave_006.tmx
+
+# frozen water: corners at waterside
+./rule_icecave_007.tmx
+
+# carpet straight
+./rule_icecave_009.tmx
+
+# carpet corners
+./rule_icecave_010.tmx
+
+# entrances and exits
+./rule_icecave_020.tmx
+
+# error handling: some situations cannot be handled properly with this ruleset:
+# so indicate these situations with the error-tile
+./rule_icecave_100.tmx

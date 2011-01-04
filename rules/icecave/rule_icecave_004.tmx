@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="7" height="6" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="set_icecave" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_icecave.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="19" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="23" name="cave" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/icecave.png" width="512" height="256"/>
+ </tileset>
+ <layer name="ruleRegions" width="7" height="6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA+EoRidTSs5XAAAY11lnagAAAA=
+  </data>
+ </layer>
+ <layer name="ruleSet" width="7" height="6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA+YoRidTYkcA5ocMQAANSMN1qgAAAA=
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="7" height="6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoD9gJsDHBgB9Q1zQqAAAAA==
+  </data>
+ </layer>
+ <layer name="rule_Ground" width="7" height="6" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIAzsobQtFjl/KO2LRS4eSscSYQchAAB9+9lsqAAAAA==
+  </data>
+ </layer>
+ <layer name="rule_Collision" width="7" height="6" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA+YoBidTYkcA5ocMQAAqilRnqgAAAA=
+  </data>
+ </layer>
+</map>

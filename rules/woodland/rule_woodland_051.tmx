@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="5" height="4" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Woodland" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="259" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="263" name="set_woodland" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_woodland.png" width="512" height="320"/>
+ </tileset>
+ <tileset firstgid="423" name="Woodland_x3" tilewidth="32" tileheight="96">
+  <image source="../../graphics/tiles/Woodland_x3.png" width="512" height="192"/>
+ </tileset>
+ <tileset firstgid="455" name="Woodland_x2" tilewidth="32" tileheight="64">
+  <image source="../../graphics/tiles/Woodland_x2.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="487" name="Woodland_x4" tilewidth="32" tileheight="128">
+  <image source="../../graphics/tiles/Woodland_x4.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="503" name="Woodland_x5" tilewidth="32" tileheight="160">
+  <image source="../../graphics/tiles/Woodland_x5.png" width="512" height="160"/>
+ </tileset>
+ <layer name="RuleRegions" width="5" height="4">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA6YGREYnxg6AAA0xovVUAAAAA==
+  </data>
+ </layer>
+ <layer name="ruleSet" width="5" height="4" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIA3oMeKXBwCODi0QUAAAAA==
+  </data>
+ </layer>
+ <layer name="ruleSet" width="5" height="4" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIA3wMeKXBwBc058qUAAAAA==
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="5" height="4" visible="0" opacity="0.48">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA70GBEYWQyZxgYAzsvU9lAAAAA=
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="5" height="4" visible="0" opacity="0.35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA70GBEYWQyZxgYAzsvU9lAAAAA=
+  </data>
+ </layer>
+ <layer name="rule1_Collision" width="5" height="4" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA2YGIkTQwYAq/amoVAAAAA=
+  </data>
+ </layer>
+ <layer name="rule2_Collision" width="5" height="4" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA2YGIkTQwYAq/amoVAAAAA=
+  </data>
+ </layer>
+ <layer name="rule3_Collision" width="5" height="4" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA2YGIkTQwYAq/amoVAAAAA=
+  </data>
+ </layer>
+ <layer name="rule1_Fringe" width="5" height="4">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIB58Z2Rg+AHEPxlxqwEAohTWHFAAAAA=
+  </data>
+ </layer>
+ <layer name="rule2_Fringe" width="5" height="4">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIB78YmRg+A3EfxhxqwEAWCgrD1AAAAA=
+  </data>
+ </layer>
+ <layer name="rule3_Fringe" width="5" height="4">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIB78ZWRg+AfE/xlxqwEAlhMV0VAAAAA=
+  </data>
+ </layer>
+</map>

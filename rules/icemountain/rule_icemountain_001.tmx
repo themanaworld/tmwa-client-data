@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="7" height="3" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="DeleteTiles" value="true"/>
+ </properties>
+ <tileset firstgid="1" name="set_icemountain" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_icemountain.png" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="7" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="11" name="Snow" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/Snow.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="267" name="collision" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <layer name="ruleRegions" width="7" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA/YcdD4AABTkrM4VAAAAA==
+  </data>
+ </layer>
+ <layer name="ruleSet" width="7" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA8YoTQTlGYmoB4EAEEdsC1UAAAA
+  </data>
+ </layer>
+ <layer name="rule_Ground" width="7" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA/m4KDxAQDzhRm/VAAAAA==
+  </data>
+ </layer>
+ <layer name="rule_Fringe" width="7" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoD4AAHbqzHRUAAAA
+  </data>
+ </layer>
+ <layer name="rule_Over" width="7" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoD4AAHbqzHRUAAAA
+  </data>
+ </layer>
+ <layer name="rule_Collision" width="7" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA94GAkowAIAegM1OlQAAAA=
+  </data>
+ </layer>
+</map>

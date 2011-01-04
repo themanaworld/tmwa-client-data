@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="9" height="9" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="AutoMappingRadius" value="1"/>
+  <property name="DeleteTiles" value="true"/>
+ </properties>
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="set_icecave" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_icecave.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="19" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="23" name="icecave" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/icecave.png" width="512" height="256"/>
+ </tileset>
+ <layer name="ruleRegions" width="9" height="9">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIA4IE6CJBbj0DRZzyPEXALXctVNEAQAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="9" height="9">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIA4wQ2kWKM0KpdmI1A8D7FCaA02ci0RzuKE0D5o4H4nm8ENpASgtCKWFSDADALg2bV1EAQAA
+  </data>
+ </layer>
+ <layer name="rule_Ground" width="9" height="9">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIA5oQ2lpNLqVSP0wYASlJdDEyTVHkkrmwPwjgkYTAwCSHrZpRAEAAA==
+  </data>
+ </layer>
+ <layer name="rule_Collision" width="9" height="9">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIA4wEeBTCkg1D5d6cs2hxD8ARG/fIUQBAAA=
+  </data>
+ </layer>
+ <layer name="rule_Fringe" width="9" height="9">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIA8YkKmPWubhUh9AojkBaDQ5AACqeTmWRAEAAA==
+  </data>
+ </layer>
+ <layer name="rule_Error" width="9" height="9">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWUAgAV+RUNRAEAAA==
+  </data>
+ </layer>
+ <layer name="rule_Over" width="9" height="9">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWUAgAV+RUNRAEAAA==
+  </data>
+ </layer>
+</map>

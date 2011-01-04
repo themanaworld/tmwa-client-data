@@ -1,0 +1,18 @@
+# lines starting with # or // are comments
+# all other lines will be parsed and treated as filenames.
+
+# ice mountains. In this Ruleset you have 3 colors setting
+# the height of the current tile:
+# black: usual height
+# light red: above
+# dark red: below
+# the transitions "black<->dark red" and "black<->light red" can be mapped with
+# this ruleset.
+# When you wan to have more than 3 different heights, you should use the
+# transition "light red<->dark red". So there is no wall at this transition and
+# you can start over from the red to black, having a wall to another height.
+
+./rule_icemountain_001.tmx
+./rule_icemountain_002.tmx
+./rule_icemountain_003.tmx
+./rule_icemountain_004.tmx

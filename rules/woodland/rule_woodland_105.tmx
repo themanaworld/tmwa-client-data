@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="7" height="5" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Woodland" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="259" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="263" name="set_woodland" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_woodland.png" width="512" height="320"/>
+ </tileset>
+ <layer name="RuleRegions" width="7" height="5">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA+YGQnLgWgYJkYfLgAAzgT1zYwAAAA=
+  </data>
+ </layer>
+ <layer name="ruleSet" width="7" height="5">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIB9MZ8TOJhcAAINeeM6MAAAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="7" height="5">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIB/MYMTOJhcAAH1VfQSMAAAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="7" height="5">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIB/MZMTOJhcAAEpVZ32MAAAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="7" height="5">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIB/MYsTOJhcAABNVSfaMAAAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="7" height="5">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIB/MZsTOJhcAACRVU4+MAAAA
+  </data>
+ </layer>
+ <layer name="rule1_Error" width="7" height="5">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIB+wMGJnkwsACo7WN4wAAAA=
+  </data>
+ </layer>
+</map>

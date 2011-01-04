@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="5" height="5" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="set" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_cave.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="67" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
+ </tileset>
+ <layer name="ruleRegions" width="5" height="5">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA2csfCdcYjjAwBFZMEtZAAAAA==
+  </data>
+ </layer>
+ <layer name="ruleSet" width="5" height="5">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA24cfBxieMCAL942VBkAAAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="5" height="5">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA2EcfBxieMCAMG3CItkAAAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="5" height="5">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA1EcPBxieMCAAvusS9kAAAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="5" height="5">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA1kcPBxieMCACGr/mZkAAAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="5" height="5">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA1UcPBxieMCALZ2Y0NkAAAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="5" height="5">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA1YcfBxieMCAGrN2sJkAAAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="5" height="5">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA3YcfBxieMCAACfMT1kAAAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="5" height="5">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA3EcfBxieMCAFQVr69kAAAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="5" height="5">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA3kcfBxieMCAH5Q4OZkAAAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="5" height="5">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA0kcPBxieMCALQJWUJkAAAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="5" height="5">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA0UcPBxieMCACPUxGdkAAAA
+  </data>
+ </layer>
+ <layer name="rule_Collision" width="5" height="5">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIA0wkageBADQPhFKZAAAAA==
+  </data>
+ </layer>
+</map>

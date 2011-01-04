@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="6" height="6" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="set_icecave" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_icecave.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="19" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="23" name="icecave" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/icecave.png" width="512" height="256"/>
+ </tileset>
+ <layer name="ruleRegions" width="6" height="6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA2EkWhhLOL4ALp6YSzi2AAALrUFg5AAAAA=
+  </data>
+ </layer>
+ <layer name="ruleSet" width="6" height="6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIAzYCfCppQcEAJIt/ZSQAAAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="6" height="6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIAy4CfCppQcEAP2/YE+QAAAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="6" height="6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIAz4CfCppQcEANgxFAaQAAAA
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="6" height="6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA3YcbBJBaSYAwA8zLY9kAAAAA==
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="6" height="6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA24cbBJBaSYAwCnbhfQkAAAAA==
+  </data>
+ </layer>
+ <layer name="ruleNotSet" width="6" height="6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA34cbBJBaSYAwARDac9kAAAAA==
+  </data>
+ </layer>
+ <layer name="rule_Ground" width="6" height="6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgIAyM0fhKROhxQuMbEqEHBABmYFlZkAAAAA==
+  </data>
+ </layer>
+</map>
