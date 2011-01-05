@@ -1337,211 +1337,53 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
             mutation="50"
             />
     </monster>
-    <monster id="65" name="The Lost" targetCursor="medium">
-        <sprite>monsters/monster-skeleton.xml|#aca379</sprite>
-	  <sprite>chest-robe-male.xml|#333333</sprite>
-        <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
-        <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
-        <sound event="hurt">monsters/maggot/maggot-hit2.ogg</sound>
-        <sound event="die">monsters/maggot/maggot-dying1.ogg</sound>
-        <drop item="777" percent="10"/>		<!-- Rotten Rags -->
-        <drop item="775" percent="5"/>		<!-- Bone -->
-        <drop item="776" percent="1"/>		<!-- Skull -->
-        <attributes
-            hp="5000"
-            size="4"
-            speed="2.0"
-            attack-min="111"
-            attack-delta="111"
-            attack-magic="0"
-            hit="75"
-            evade="30"
-            physical-defence="20"
-            magical-defence="70"
-            mutation="0"
-            />
-		<vulnerability element="water" factor="0.7"/>
-		<vulnerability element="air" factor="0.7"/>
-        <vulnerability element="fire" factor="1.5"/>
-        <vulnerability element="earth" factor="0.7"/>
-		<vulnerability element="lighning" factor="-0.1"/>
-		<vulnerability element="metal" factor="1"/>
-		<vulnerability element="plant" factor="1"/>
-		<vulnerability element="ice" factor="0"/>
-        <exp level="0">3000</exp>
-        <!-- average stroll- and track range-->
-        <behavior
-            aggressive="true"
-            cowardly="false"
-            track-range="5"
-            stroll-range="1"
-            attack-distance="96"
-            />
-        <attack id="0"
-            priority="1"
-            type="magical"
-            pre-delay="10"
-            aft-delay="5"
-            damage-factor="1"
-            range="32"
-			angle="0"
-            action="attack"
-            script-function="strike"            />
-            <script>testmonster.lua</script> <!-- only Proof of Concept-->
+    
+	<monster id="65" name="Reaper" targetCursor="medium">
+		<sprite>monsters/monster-reaper.xml</sprite>
+		<sprite>monsters/accessories/reaper-shadow.xml</sprite>
+		<particlefx>graphics/particles/monster-reaper.particle.xml</particlefx>
+		<sound event="hurt">monsters/reaper/reaper-hurt.ogg</sound>
     </monster>
 	
-	<monster id="66" name="Reaper" targetCursor="medium">
-        <sprite>monsters/monster-reaper.xml</sprite>
-	  <sprite>monsters/accessories/reaper-shadow.xml</sprite>
-	  <particlefx>graphics/particles/monster-reaper.particle.xml</particlefx>
-        <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
-        <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
-        <sound event="hurt">monsters/reaper/reaper-hurt.ogg</sound>
-        <sound event="die">monsters/maggot/maggot-dying1.ogg</sound>
-        <drop item="777" percent="10"/>		<!-- Rotten Rags -->
-        <drop item="775" percent="5"/>		<!-- Bone -->
-        <drop item="776" percent="1"/>		<!-- Skull -->
-        <drop item="1221" percent="0.1"/>	<!-- Skull Mask -->
-        <attributes
-            hp="35000"
-            size="4"
-            speed="2.0"
-            attack-min="222"
-            attack-delta="111"
-            attack-magic="0"
-            hit="100"
-            evade="10"
-            physical-defence="50"
-            magical-defence="70"
-            mutation="0"
-            />
-		<vulnerability element="water" factor="0.7"/>
-		<vulnerability element="air" factor="0.7"/>
-        <vulnerability element="fire" factor="1.5"/>
-        <vulnerability element="earth" factor="0.7"/>
-		<vulnerability element="lighning" factor="-0.1"/>
-		<vulnerability element="metal" factor="1"/>
-		<vulnerability element="plant" factor="1"/>
-		<vulnerability element="ice" factor="0"/>
-        <exp level="0">10000</exp>
-        <!-- average stroll- and track range-->
-        <behavior
-            aggressive="true"
-            cowardly="false"
-            track-range="5"
-            stroll-range="1"
-            attack-distance="96"
-            />
-        <attack id="0"
-            priority="1"
-            type="magical"
-            pre-delay="10"
-            aft-delay="5"
-            damage-factor="1"
-            range="128"
-			angle="0"
-            action="attack"
-            script-function="strike"
-            />
-            <script>testmonster.lua</script> <!-- only Proof of Concept-->
+	<monster id="66" name="Reaper" targetCursor="medium"> <!-- slave version -->
+		<sprite>monsters/monster-reaper.xml</sprite>
+		<sprite>monsters/accessories/reaper-shadow.xml</sprite>
+		<particlefx>graphics/particles/monster-reaper.particle.xml</particlefx>
+		<sound event="hurt">monsters/reaper/reaper-hurt.ogg</sound>
     </monster>
 	
 	<monster id="67" name="Scythe" targetCursor="large">
         <sprite>monsters/monster-spinning-scythe.xml</sprite>
-	  <sprite>monsters/accessories/scythe-shadow.xml</sprite>
-        <drop item="505" percent="8"/>
-        <drop item="518" percent="4"/>
-        <drop item="501" percent="1.5"/>
-        <drop item="533" percent="1.5"/>
-        <drop item="502" percent="0.7"/>
-        <drop item="522" percent="0.1"/>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
-        <vulnerability element="fire" factor="1.5"/>
-        <vulnerability element="earth" factor="0.7"/>
-        <exp>10</exp>
-        <!-- average stroll- and track range-->
-        <behavior
-            aggressive="false"
-            cowardly="false"
-            track-range="5"
-            stroll-range="2"
-            attack-distance="32"
-            />
-        <attack id="1"
-            priority="1"
-            type="physical"
-            pre-delay="10"
-            aft-delay="5"
-            damage-factor="1"
-            range="32"
-            action="attack"
-            script-function="strike"
-            />
-            <script>testmonster.lua</script> <!-- only Proof of Concept-->
+		<sprite>monsters/accessories/scythe-shadow.xml</sprite>
     </monster>
 	
 	<monster id="68" name="Ball Lightning" targetCursor="small">
-        <sprite>monsters/monster-ball-lightning.xml</sprite>
-	  <sprite>monsters/accessories/ball-lightning-shadow.xml</sprite>
-	  <particlefx>graphics/particles/monster-ball-lightning.particle.xml</particlefx>
-        <drop item="505" percent="8"/>
-        <drop item="518" percent="4"/>
-        <drop item="501" percent="1.5"/>
-        <drop item="533" percent="1.5"/>
-        <drop item="502" percent="0.7"/>
-        <drop item="522" percent="0.1"/>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
-        <vulnerability element="fire" factor="1.5"/>
-        <vulnerability element="earth" factor="0.7"/>
-        <exp>10</exp>
-        <!-- average stroll- and track range-->
-        <behavior
-            aggressive="false"
-            cowardly="false"
-            track-range="5"
-            stroll-range="2"
-            attack-distance="32"
-            />
-        <attack id="1"
-            priority="1"
-            type="physical"
-            pre-delay="10"
-            aft-delay="5"
-            damage-factor="1"
-            range="32"
-            action="attack"
-            script-function="strike"
-            />
-            <script>testmonster.lua</script> <!-- only Proof of Concept-->
-    </monster>
+		<sprite>monsters/monster-ball-lightning.xml</sprite>
+		<sprite>monsters/accessories/ball-lightning-shadow.xml</sprite>
+		<particlefx>graphics/particles/monster-ball-lightning.particle.xml</particlefx>
+	</monster>
+	
     <monster id="69" name="Ice Element">
-	<sprite>monsters/monster-element-ball.xml</sprite>
+		<sprite>monsters/monster-element-ball.xml</sprite>
     </monster>
+	
     <monster id="70" name="Yeti">
         <sprite>monsters/monster-yeti.xml</sprite>
     </monster>
+	
+	<monster id="71" name="The Lost" targetCursor="medium">
+        <sprite>monsters/monster-skeleton.xml|#aca379</sprite>
+		<sprite>chest-robe-male.xml|#333333</sprite>
+    </monster>
+	
+	<!-- 72 RedBone -->
+	
+	<!-- 73 Stalker -->
+	
+	<!-- 74 DreadWing -->
+	
+	<monster id="997" name="" targetCursor="small">	<!-- Dummy mob for weapon testing -->
+        <sprite>monsters/monster-slime.xml|#000000,ffffff</sprite>
+    </monster>
+	
 </monsters>

@@ -62,12 +62,84 @@
     <property name="dest_y" value="1712"/>
    </properties>
   </object>
-  <object name="Sceletons" type="SPAWN" x="2432" y="1088" width="736" height="544">
+  <object name="Sceleton" type="SPAWN" x="2752" y="1248" width="320" height="352">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="41"/>
+   </properties>
+  </object>
+  <object name="MountainSnake" type="SPAWN" x="960" y="384" width="960" height="736">
    <properties>
     <property name="eA_death" value="100000"/>
     <property name="eA_spawn" value="30000"/>
     <property name="max_beings" value="7"/>
-    <property name="monster_id" value=""/>
+    <property name="monster_id" value="24"/>
+   </properties>
+  </object>
+  <object name="MountainSnake" type="SPAWN" x="3456" y="288" width="1152" height="2432">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="13"/>
+    <property name="monster_id" value="8"/>
+   </properties>
+  </object>
+  <object name="BlackScorpion" type="SPAWN" x="2432" y="1248" width="320" height="352">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="7"/>
+   </properties>
+  </object>
+  <object name="Spider" type="SPAWN" x="2592" y="896" width="320" height="352">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="10"/>
+   </properties>
+  </object>
+  <object name="Archant" type="SPAWN" x="2080" y="448" width="1216" height="320">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="8"/>
+    <property name="monster_id" value="58"/>
+   </properties>
+  </object>
+  <object name="Archant" type="SPAWN" x="2112" y="2112" width="800" height="704">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="8"/>
+    <property name="monster_id" value="58"/>
+   </properties>
+  </object>
+  <object name="YellowSlime" type="SPAWN" x="416" y="2112" width="800" height="704">
+   <properties>
+    <property name="eA_death" value="1000000"/>
+    <property name="eA_spawn" value="300000"/>
+    <property name="max_beings" value="11"/>
+    <property name="monster_id" value="5"/>
+   </properties>
+  </object>
+  <object name="CaveMaggot" type="SPAWN" x="928" y="1344" width="1120" height="608">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="11"/>
+    <property name="monster_id" value="54"/>
+   </properties>
+  </object>
+  <object name="Bat" type="SPAWN" x="0" y="0" width="0" height="0">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="30000"/>
+    <property name="max_beings" value="25"/>
+    <property name="monster_id" value="15"/>
    </properties>
   </object>
  </objectgroup>
