@@ -1381,8 +1381,8 @@
         weight="1200"
         defense="25"
         max-per-slot="1">
-        <sprite gender="male">chest-lightplatemail-male.xml|W:#ddeeff</sprite>
-        <sprite gender="female">chest-lightplatemail-female.xml|W:#ddeeff</sprite>
+        <sprite gender="male">chest-lightplatemail-male.xml|#ddeeff</sprite>
+        <sprite gender="female">chest-lightplatemail-female.xml|#ddeeff</sprite>
     </item>
     <item id="627"
         image="armor-head-tophat.png"
@@ -2290,7 +2290,7 @@
         type="generic"
         weight="5"/>
     <item id="731"
-        image="armor-legs-assassinpants.png|R"
+        image="armor-legs-assassinpants.png"
         name="Assassin Pants"
         description="Pants for a master assassin."
         effect="+5% Defense"
@@ -2330,7 +2330,7 @@
         <sprite gender="female">equipment/feet/boots-female.xml|#505050</sprite>
     </item>
     <item id="735"
-        image="equipment/feet/boots.png|#A4B2B2,FFFFFF"
+        image="equipment/feet/boots.png|W:#A4B2B2,FFFFFF"
         name="Cotton Boots"
         description="A pair of quality cotton boots."
         effect="+1% Defense"
@@ -2497,7 +2497,7 @@
         type="generic"
         weight="2"/>
     <item id="755"
-        image="armor-chest-assassintop.png|R"
+        image="armor-chest-assassintop.png"
         name="Assassin Shirt"
         description="Shirt for a master assassin."
         effect="+10% Defense, +10 Agility"
@@ -2509,7 +2509,7 @@
         <sprite gender="female">chest-assassin-female.xml</sprite>
     </item>
     <item id="756"
-        image="armor-hands-assassingloves.png|R"
+        image="armor-hands-assassingloves.png"
         name="Assassin Gloves"
         description="Gloves for a master assassin."
         effect="+5% Defense, +5 Agility"
@@ -3001,7 +3001,7 @@
         type="equip-head"
         defense="1"
         weight="20">
-        <sprite>head-catears.xml</sprite>
+        <sprite>head-catears.xml|#774444;#777777</sprite>
     </item>
     <item id="1218"
         image="armor-head-paperbag.png"
@@ -3221,7 +3221,7 @@
         name="Dark Talisman"
         description="A small cube. It radiates unimaginable power, and is quite dizzying to look at."
         effect="Unimaginable powers to a successful wielder."
-        type="equip-chest"
+        type="equip-torso"
         >
         <sprite>equipment/override/skeleton.xml</sprite>
         <particlefx>graphics/particles/wisp.particle.xml</particlefx>
@@ -3313,7 +3313,7 @@
         defense="5"
         type="equip-head"
         weight="20">
-        <sprite>equipment/head/rabbit-ears.xml|W:#FFFFFF</sprite>
+        <sprite>equipment/head/rabbit-ears.xml|#FFFFFF</sprite>
     </item>
     <item id="1256"
         image="equipment/head/eggshell-hat.png"
