@@ -2,15 +2,18 @@
 
 <effect>
 	<!-- The monster portion of the casket trap-->
-	<particle position-x="100" position-y="0" position-z="97" lifetime="110">
+	<particle position-x="100" position-y="0" position-z="97" lifetime="80">
 		<emitter>
 		<property name="position-y" value="114" />
-		<property name="lifetime" value="110"/>
+		<property name="lifetime" value="80"/>
 		<property name="output" value="1"/>
-		<property name="output-pause" value="15"/>
+		<property name="output-pause" value="12"/>
 		<animation imageset="graphics/particles/casket-trap_96x96.png" width="96" height="96">
-            <sequence start="0" end="9" delay="100" />
-			<frame index="0" delay="100"/>
+            <frame index="0" delay="250"/>
+			<sequence start="1" end="3" delay="70" />
+			<frame index="4" delay="120"/>
+			<frame index="1" delay="70"/>
+			<frame index="0" delay="150"/>
         </animation>
 		</emitter>
 	</particle>

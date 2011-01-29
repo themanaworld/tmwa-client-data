@@ -4,7 +4,8 @@
 	<!-- The gate opening animation -->
 	<particle position-x="16" position-y="0" position-z="44">
 		<animation imageset="graphics/particles/pool_65x27.particle.png" width="65" height="27">
-            <sequence start="0" end="7" delay="235" />
+            <sequence start="3" end="7" delay="235" />
+			<sequence start="0" end="2" delay="235" />
         </animation>
 	</particle>
 </effect>
