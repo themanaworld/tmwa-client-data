@@ -5,19 +5,19 @@
   <property name="name" value="Caretaker's House"/>
  </properties>
  <tileset firstgid="1" name="Woodland indoor" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/woodland_indoor.png"/>
+  <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="257" name="woodland_indoor_x2" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/woodland_indoor_x2.png"/>
+  <image source="../graphics/tiles/woodland_indoor_x2.png" width="512" height="64"/>
  </tileset>
  <tileset firstgid="289" name="Unbenannt2" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/woodland_indoor_x3.png"/>
+  <image source="../graphics/tiles/woodland_indoor_x3.png" width="512" height="96"/>
  </tileset>
  <tileset firstgid="337" name="collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png" trans="000000"/>
+  <image source="../graphics/tiles/collision.png" trans="000000" width="64" height="32"/>
  </tileset>
  <tileset firstgid="339" name="Pots_x2" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Pots_x2.png" trans="000000"/>
+  <image source="../graphics/tiles/Pots_x2.png" trans="000000" width="512" height="64"/>
  </tileset>
  <layer name="Ground" width="150" height="130">
   <data encoding="base64" compression="gzip">
@@ -41,7 +41,7 @@
  </layer>
  <layer name="Collision" width="150" height="130" visible="0">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
  <objectgroup name="Objects" width="150" height="130">
@@ -64,6 +64,54 @@
     <property name="dest_map" value="027-2"/>
     <property name="dest_x" value="4064"/>
     <property name="dest_y" value="1184"/>
+   </properties>
+  </object>
+  <object name="DrunkenSkeleton" type="spawn" x="2432" y="1184" width="384" height="320">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="75"/>
+   </properties>
+  </object>
+  <object name="TipsySkeleton" type="spawn" x="2752" y="1088" width="384" height="320">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="76"/>
+   </properties>
+  </object>
+  <object name="TipsySkeleton" type="spawn" x="3360" y="672" width="384" height="384">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="76"/>
+   </properties>
+  </object>
+  <object name="DrunkenSkeleton" type="spawn" x="3168" y="768" width="384" height="320">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="75"/>
+   </properties>
+  </object>
+  <object name="DrunkenLadySkeleton" type="spawn" x="2688" y="960" width="384" height="320">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="77"/>
+   </properties>
+  </object>
+  <object name="DrunkenLadySkeleton" type="spawn" x="3552" y="704" width="384" height="320">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="77"/>
    </properties>
   </object>
  </objectgroup>
