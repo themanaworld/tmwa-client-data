@@ -372,7 +372,7 @@
         image="weapon-arrow-iron.png"
         name="Iron Arrow"
         description="A hard arrow made of iron."
-        effect="+60 Damage"
+        effect="+50 Damage"
         type="equip-ammo"
         weight="1"
         max-per-slot="100"/>
@@ -2585,7 +2585,7 @@
         image="weapon-arrow-arrow.png|W:#8B4513"
         name="Terranite Arrow"
         description="A terranite arrow."
-        effect="+50 Damage +1 range"
+        effect="+50 Damage +10 Critical"
         type="equip-ammo"
         weight="1"
         max-per-slot="100"/>
@@ -2856,6 +2856,18 @@
         hp="50"
         weight="5"
         max-per-slot="10"/>
+    <item id="791"
+        image="armor-chest-tanktop.png|W:#412300,c9866b,8d4900;#ffff00"
+        name="Yeti Skin Shirt"
+        description="A shirt made of hardened yeti skin."
+        effect="+12% Defense"
+        type="equip-torso"
+        weight="20"
+        defense="4"
+        max-per-slot="1">
+        <sprite gender="male">chest-leather-male.xml|#573a26,c9866b,d3b79e,ffffff;#b96b3d,fbf5f1</sprite>
+        <sprite gender="female">chest-leather-female.xml|#412300,c9866b,8d4900;#ffff00</sprite>
+    </item>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
@@ -2870,7 +2882,7 @@
         image="weapon-arrow-arrow.png"
         name="Arrow"
         description="A standard arrow."
-        effect="+20 Damage"
+        effect="+25 Damage"
         type="equip-ammo"
         weight="1"
         max-per-slot="100"/>
@@ -5501,7 +5513,7 @@
         image="equipment/head/monocle.png"
         name="Monocle"
         description="A handy perception tool, even when not at the opera."
-        effect="+1 Range, +1 Dexterity"
+        effect="+20 Critical Damage, +1 Dexterity, +1 Luck"
         type="equip-head"
         weight="20"
         defense="2"
