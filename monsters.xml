@@ -978,7 +978,7 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
 
     <monster id="38" name="Wisp">
         <sprite>monsters/monster-wisp.xml|#aadd44,ffff66</sprite>
-	<particlefx>graphics/particles/wisp.particle.xml</particlefx>
+	<particlefx>graphics/particles/wisp.particle.xml|#aadd44,ffff66</particlefx>
         <exp>20</exp>
         <attributes
             hp="20"
@@ -1033,7 +1033,7 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
 
     <monster id="40" name="Spectre">
         <sprite>monsters/monster-wisp.xml|#ff77dd,dd77ff</sprite>
-	<particlefx>graphics/particles/wisp.particle.xml</particlefx>
+	<particlefx>graphics/particles/wisp.particle.xml|#ff77dd,dd77ff</particlefx>
         <exp>20</exp>
         <attributes
             hp="20"
@@ -1158,7 +1158,7 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
 
     <monster id="45" name="Poltergeist">
         <sprite>monsters/monster-wisp.xml|#77ffdd,77ddff</sprite>
-	<particlefx>graphics/particles/wisp.particle.xml</particlefx>
+	<particlefx>graphics/particles/wisp.particle.xml|#77ffdd,77ddff</particlefx>
         <exp>20</exp>
         <attributes
             hp="20"
