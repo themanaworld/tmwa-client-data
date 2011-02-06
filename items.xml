@@ -60,7 +60,10 @@
     <item id="-16" type="hairsprite" name="Bun">
         <sprite>hairstyle16.xml</sprite>
     </item>
-
+    <item id="-17" type="hairsprite" name="Tousled layers">
+        <sprite>hairstyle17.xml</sprite>
+    </item>
+    
     <!-- Treating the base sprite as equipment too will be useful when we
          implement other playable races -->
     <item id="-100" type="racesprite" name="Human">
@@ -2802,7 +2805,7 @@
         hp="50"
         weight="5"
         max-per-slot="10"/>
-	<item id="785"
+    <item id="785"
         image="use-food-lady-fingers.png"
         name="Lady Fingers"
         description="Made with simulated lady fingers."
@@ -2811,7 +2814,7 @@
         hp="50"
         weight="5"
         max-per-slot="10"/>
-	<item id="786"
+    <item id="786"
         image="use-food-jello.png"
         name="Slime Jell-Ahh"
         description="Finally, an edible form of slime!"
@@ -2820,7 +2823,7 @@
         hp="50"
         weight="5"
         max-per-slot="10"/>
-	<item id="787"
+    <item id="787"
         image="use-food-snapple.png"
         name="Snapple"
         description="Bite it before it bites you!"
@@ -2829,7 +2832,7 @@
         hp="50"
         weight="5"
         max-per-slot="10"/>
-	<item id="788"
+    <item id="788"
         image="use-food-juice.png"
         name="Beetle Juice"
         description="Thist quencing and nutritious!"
@@ -2838,7 +2841,7 @@
         hp="50"
         weight="5"
         max-per-slot="10"/>
-	<item id="789"
+    <item id="789"
         image="use-food-skull-mug.png"
         name="Gut Buster Brew"
         description="If you can survive the first gulp, the rest goes down smooth."
@@ -2860,10 +2863,10 @@
         image="armor-chest-tanktop.png|W:#412300,c9866b,8d4900;#ffff00"
         name="Yeti Skin Shirt"
         description="A shirt made of hardened yeti skin."
-        effect="+12% Defense"
+        effect=""
         type="equip-torso"
         weight="20"
-        defense="4"
+        defense="12"
         max-per-slot="1">
         <sprite gender="male">chest-leather-male.xml|#573a26,c9866b,d3b79e,ffffff;#b96b3d,fbf5f1</sprite>
         <sprite gender="female">chest-leather-female.xml|#412300,c9866b,8d4900;#ffff00</sprite>

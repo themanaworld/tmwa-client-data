@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<!--
+A circle on the ground 60 pixels in diameter made from particles.
+-->
+
+<effect>
+	<particle
+		position-x = "0"
+		position-y = "0"
+		position-z = "48"
+		>
+		<emitter>
+			<property name="position-y" min="-16" max="16"/>
+			<property name="position-y" min="-16" max="16"/>
+			<property name="position-z" min="-16" max="16"/>
+			<property name="horizontal-angle" min="0" max="360"/>
+			<property name="vertical-angle" min="0" max="360"/>
+			<property name="power" min="0.4" max="2"/>
+			<property name="lifetime" value="160"/>
+			<property name="fade-out" value="40" />
+			<property name="fade-in" value="40" />
+			<property name="output" min="-20" max="1"/>
+			<property name="acceleration" value="0.1" />
+			<property name="alpha" value="0.5" />
+			<property name="image" value="graphics/particles/star-small.png|W:#ff77dd,dd77ff" />
+			<property name="follow-parent" />
+		</emitter>
+	</particle>
+</effect>
+
