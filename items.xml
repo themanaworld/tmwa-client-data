@@ -61,9 +61,9 @@
         <sprite>hairstyle16.xml</sprite>
     </item>
     <item id="-17" type="hairsprite" name="Tousled layers">
-        <sprite>hairstyle17.xml</sprite>
+	<sprite>hairstyle17.xml</sprite>
     </item>
-    
+
     <!-- Treating the base sprite as equipment too will be useful when we
          implement other playable races -->
     <item id="-100" type="racesprite" name="Human">
@@ -758,7 +758,7 @@
         name="Iron Potion"
         description="Increases your attack strength."
         effect="Attack strength increase (temporary)"
-        type="generic"
+        type="usable"
         weight="10"
         max-per-slot="10"/>
     <item id="568"
@@ -766,7 +766,7 @@
         name="Concentration Potion"
         description="Increases your attack speed."
         effect="Attack speed increase (temporary)"
-        type="generic"
+        type="usable"
         weight="10"
         max-per-slot="10"/>
     <item id="569"
@@ -2414,7 +2414,7 @@
         name="Diluted Concentration Potion"
         description="A bottle of diluted concentration potion."
         effect="Attack speed increase (temporary)"
-        type="generic"
+        type="usable"
         weight="10"
         max-per-slot="10"/>
     <item id="745"
@@ -2422,7 +2422,7 @@
         name="Dark Concentration Potion"
         description="This potion smells like burnt sugar."
         effect="Attack speed increase (temporary)"
-        type="generic"
+        type="usable"
         weight="10"
         max-per-slot="10"/>
     <item id="746"
@@ -2870,6 +2870,84 @@
         max-per-slot="1">
         <sprite gender="male">chest-leather-male.xml|#573a26,c9866b,d3b79e,ffffff;#b96b3d,fbf5f1</sprite>
         <sprite gender="female">chest-leather-female.xml|#412300,c9866b,8d4900;#ffff00</sprite>
+    </item>
+    <item id="792"
+        image="equipment/feet/brassboots.png"
+        name="Brass Mail Boots"
+        description="A pair of brass plate boots"
+        effect=""
+        type="equip-feet"
+        defense="1"
+        weight="30">
+        <sprite gender="male">equipment/feet/brassboots-male.xml</sprite>
+        <sprite gender="female">equipment/feet/brassboots-female.xml</sprite>
+    </item>
+        <item id="793"
+        image="equipment/chest/brassplate.png"
+        name="Brass Plate Chest"
+        description="brass plate chest armor"
+        effect=""
+        type="equip-torso"
+        weight="2000"
+        defense="25"
+        max-per-slot="1">
+        <sprite gender="male">equipment/chest/brassplate-male.xml|#FBF5E9</sprite>
+        <sprite gender="female">equipment/chest/brassplate-female.xml|#FBF5E9</sprite>
+    </item>
+    <item id="794"
+        image="equipment/hands/brassgloves.png"
+        name="Brass Plate Gloves"
+        description="A pair of brass plate gloves"
+        effect=""
+        type="equip-arms"
+        weight="40"
+        defense="4"
+        max-per-slot="1">
+        <sprite gender="male">equipment/hands/brassgloves-male.xml</sprite>
+        <sprite gender="female">equipment/hands/brassgloves-female.xml</sprite>
+    </item>
+    <item id="795"
+        image="equipment/head/brasshelmet.png"
+        name="Brass Plate Helmet"
+        description="brass plate helmet"
+        effect=""
+        type="equip-head"
+        defense="15"
+        weight="400"
+        max-per-slot="1">
+        <sprite>equipment/head/brasshelmet.xml</sprite>
+    </item>
+    <item id="796"
+        image="equipment/leg/brasspants.png"
+        name="Brass Plate Legs"
+        description="brass plate leg armor"
+        effect=""
+        type="equip-legs"
+        weight="150"
+        defense=""
+        max-per-slot="1">
+        <sprite gender="male">equipment/leg/brasspants-male.xml</sprite>
+        <sprite gender="female">equipment/leg/brasspants-female.xml</sprite>
+    </item>
+    <item id="797"
+        image="equipment/shield/brassshield.png"
+        name="Steel Shield"
+        description="A shield made of brass."
+        effect="+20% Defense"
+        type="equip-shield"
+        weight="2500"
+        max-per-slot="1"/>
+    <item id="798"
+        image="equipment/items/chest/sorcerer-robe.png"
+        name="Silk Robe"
+        description="A light and shimmering silk robe."
+        effect="+5% Defense"
+        type="equip-torso"
+        weight="5"
+        defense="5"
+        max-per-slot="1">
+        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#ffffff</sprite>
+        <sprite gender="female">equipmet/chest/sorcerer-robe-female.xml|#ffffff</sprite>
     </item>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
@@ -3472,6 +3550,7 @@
         image="weapon-thrown-bonedarts.png"
         name="Bone Arrows"
         description="Arrows made from bone. Not much different from the normal variety, but are much lighter."
+        effect="+55 Damage"
         type="equip-ammo"
         weight="0"/>
 
@@ -5212,6 +5291,126 @@
         weight="30"
         max-per-slot="1">
         <sprite>equipment/head/bowler-hat.xml|#104010,208020,30c030</sprite>
+    </item>
+    <item id="2220"
+        image="equipment/chest/sorcerer-robe.png|W:#580000,A40000,C02020,ff6060"
+        name="Red Sorcerer Robe (Red)"
+        description="A red lined red sorcerer robe."
+        effect="+5% Defense"
+        type="equip-torso"
+        weight="30"
+        defense="5"
+        max-per-slot="1">
+        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#580000,A40000,C02020,ff6060</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#580000,A40000,C02020,ff6060</sprite>
+    </item>
+    <item id="2221"
+        image="equipment/chest/sorcerer-robe.png|W:#115511,22aa22,99dd99"
+        name="Green Sorcerer Robe (Red)"
+        description="A red lined green sorcerer robe."
+        effect="+5% Defense"
+        type="equip-torso"
+        weight="30"
+        defense="5"
+        max-per-slot="1">
+        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#115511,22aa22,99dd99</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#115511,22aa22,99dd99</sprite>
+    </item>
+    <item id="2222"
+        image="equipment/chest/sorcerer-robe.png|W:#222255,6666ff"
+        name="Dark Blue Sorcerer Robe (Red)"
+        description="A red lined blue sorcerer robe."
+        effect="+5% Defense"
+        type="equip-torso"
+        weight="30"
+        defense="5"
+        max-per-slot="1">
+        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#222255,6666ff</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#222255,6666ff</sprite>
+    </item>
+    <item id="2223"
+        image="equipment/chest/sorcerer-robe.png|W:#846211,dab333,fffb93,ffffff"
+        name="Yellow Sorcerer Robe (Red)"
+        description="A red lined yelllow sorcerer robe."
+        effect="+5% Defense"
+        type="equip-torso"
+        weight="30"
+        defense="5"
+        max-per-slot="1">
+        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#846211,dab333,fffb93,ffffff</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846211,dab333,fffb93,ffffff</sprite>
+    </item>
+    <item id="2224"
+        image="equipment/chest/sorcerer-chest-robe.png|W:#16486e,498ec5,e4f2fc"
+        name="Light Blue Sorcerer Robe (Red)"
+        description="A red lined light blue sorcerer robe."
+        effect="+5% Defense"
+        type="equip-torso"
+        weight="30"
+        defense="5"
+        max-per-slot="1">
+        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#16486e,498ec5,e4f2fc</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc</sprite>
+    </item>
+    <item id="2225"
+        image="equipment/chest/sorcerer-robe.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+        name="Pink Sorcerer Robe (Red)"
+        description="A red lined pink sorcerer robe."
+        effect="+5% Defense"
+        type="equip-torso"
+        weight="30"
+        defense="5"
+        max-per-slot="1">
+        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+    </item>
+    <item id="2226"
+        image="equipment/chest/sorcerer-robe.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+        name="Black Sorcerer Robe (Red)"
+        description="A light and shimmering silk robe."
+        effect="+5% Defense"
+        type="equip-torso"
+        weight="30"
+        defense="5"
+        max-per-slot="1">
+        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+    </item>
+    <item id="2227"
+        image="equipment/chest/sorcerer-robe.png|W:#80280f,b04810,ef681f,ffb830"
+        name="Orange Sorcerer Robe (Red)"
+        description="A red lined orange sorcerer robe."
+        effect="+5% Defense"
+        type="equip-torso"
+        weight="30"
+        defense="5"
+        max-per-slot="1">
+        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
+        <sprite gender="female">cequipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
+    </item>
+    <item id="2228"
+        image="equipment/chest/sorcerer-robe.png|W:#4f0a76,8010c0,d699f7"
+        name="Purple Sorcerer Robe (Red)"
+        description="A red lined purple sorcerer robe."
+        effect="+5% Defense"
+        type="equip-torso"
+        weight="30"
+        defense="5"
+        max-per-slot="1">
+        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#4f0a76,8010c0,d699f7</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#4f0a76,8010c0,d699f7</sprite>
+    </item>
+    <item id="2229"
+        image="equipment/chest/sorcerer-robe.png|W:#104010,208020,30c030"
+        name="Dark Green Sorcerer Robe (Red)"
+        description="A red lined dark green sorcerer robe."
+        effect="+5% Defense"
+        type="equip-torso"
+        weight="30"
+        defense="5"
+        max-per-slot="1">
+        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#104010,208020,30c030</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,208020,30c030</sprite>
     </item>
     <item id="3000"
         image="generic-jackolantern.png"
