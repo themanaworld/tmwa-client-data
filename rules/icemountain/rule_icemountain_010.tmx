@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="15" height="5" tilewidth="32" tileheight="32">
- <properties>
-  <property name="AutomappingRadius" value="5"/>
-  <property name="DeleteTiles" value="true"/>
- </properties>
+<map version="1.0" orientation="orthogonal" width="30" height="10" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="set_icemountain" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/set_icemountain.png" width="224" height="128"/>
  </tileset>
@@ -20,34 +16,29 @@
  <tileset firstgid="291" name="Snow_ground" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/Snow_ground.png" width="352" height="224"/>
  </tileset>
- <layer name="ruleRegions" width="15" height="5" visible="0">
+ <layer name="ruleRegions" width="30" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYKAMyJJJUwpINZca9gIA1bABQA==
+   eJxjYBg4IAvF2NjINDXNJqSHUnsJmU+qm2hp9kD5d6Did6AAKf7FFUbkhN1A2UtLAADD5AVx
   </data>
  </layer>
- <layer name="ruleSet" width="15" height="5" visible="0">
+ <layer name="ruleSet" width="30" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYKAMMEJpJijNDKVZoDQrlGaD0uwU2gcDHFCaE0pzEVDPRwU7ASaIAEY=
+   eJzFU0EKwDAI8zD1/z/eBgqagVjXsUBRIU1UWqL/cFyHLWerKUR+3FjTFsslaFZwvw53Aqbc05v5EHfParnS2rxSsuYQyj3F2aP/BAzaO3e5G95nZ8/OxbeoUHe0nKMlK/spRPT76m90cQJZTgEJ
   </data>
  </layer>
- <layer name="rule_Ground" width="15" height="5">
+ <layer name="rule_Ground" width="30" height="10" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYKAMbMJBs0BpfUYIbQKlzRkptHAAAQBYIwK4
+   eJxjYBg4oMeIyjeA8lUYMdXSE1jRyH5jNHNNB9ifmjS23wzNfAs0vv0A+5/eQIfO/nUahuELAMleAnU=
   </data>
  </layer>
- <layer name="rule_Fringe" width="15" height="5">
+ <layer name="rule_Collision" width="30" height="10" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFxAIAASwAAQ==
+   eJxjYBgFo2AUjIKhAQAEsAAB
   </data>
  </layer>
- <layer name="rule_Over" width="15" height="5" visible="0">
+ <layer name="rule_Error" width="30" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFxAIAASwAAQ==
-  </data>
- </layer>
- <layer name="rule_Collision" width="15" height="5">
-  <data encoding="base64" compression="zlib">
-   eJxjYKAMKDESJ49OD0UAAHHQAI0=
+   eJxjYBieQA6K0dnDFYz6d3gAORLpoW4vqQAANHsC0Q==
   </data>
  </layer>
 </map>

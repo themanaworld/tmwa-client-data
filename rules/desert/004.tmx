@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="3" height="3" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="desert1" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/desert1.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="desert2" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/desert2.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="513" name="desert_x2" tilewidth="32" tileheight="64">
+  <image source="../../graphics/tiles/desert_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="529" name="desert_x3" tilewidth="32" tileheight="96">
+  <image source="../../graphics/tiles/desert_x3.png" width="512" height="96"/>
+ </tileset>
+ <tileset firstgid="545" name="desert_x5" tilewidth="32" tileheight="160">
+  <image source="../../graphics/tiles/desert_x5.png" width="192" height="160"/>
+ </tileset>
+ <tileset firstgid="551" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="555" name="set_desert" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_desert.png" width="320" height="160"/>
+ </tileset>
+ <layer name="RuleRegions" width="3" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgQAXqTAwYAAC8QrrlJAAAAA==
+  </data>
+ </layer>
+ <layer name="RuleSet" width="3" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgQAVuTAwYAADnidmvJAAAAA==
+  </data>
+ </layer>
+ <layer name="Rule_Ground" width="3" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgQAXWDJgAAIPS/qIkAAAA
+  </data>
+ </layer>
+ <layer name="Rule1_Ground" width="3" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgQAU2DJgAABB0ukMkAAAA
+  </data>
+ </layer>
+ <layer name="Rule2_Ground" width="3" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgQAW2DJgAAFZP3SYkAAAA
+  </data>
+ </layer>
+ <layer name="Rule3_Ground" width="3" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgQAV2DJgAAJwCdIkkAAAA
+  </data>
+ </layer>
+ <layer name="Rule4_Ground" width="3" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgQAX2DJgAANo5E+wkAAAA
+  </data>
+ </layer>
+</map>

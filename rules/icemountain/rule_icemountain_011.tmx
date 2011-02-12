@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="19" height="13" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="set_icemountain" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_icemountain.png" width="224" height="128"/>
+ </tileset>
+ <tileset firstgid="37" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="41" name="Snow" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/Snow.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="297" name="collision" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="299" name="Snow_ground" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/Snow_ground.png" width="352" height="224"/>
+ </tileset>
+ <layer name="ruleRegions" width="19" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAuUIViStnUNouaYNSPpLlr1I+kmUUtAADnYg3h
+  </data>
+ </layer>
+ <layer name="ruleSet" width="19" height="13">
+  <data encoding="base64" compression="zlib">
+   eJytkDkKADAMwzK0zf9/3CUBNVtBBoMXK0eEq1WeeZdnPuWZu88OWeyQlZVzsEyZe5n/MvU7P+O9sXP3eSNZnEEWZ5BlytzL/JelC+epAhE=
+  </data>
+ </layer>
+ <layer name="rule_Ground" width="19" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAu0GZE5etC+QZo4kZQvjGauCkaf7gDRzT/OkP5bmjiHlC+J5q49xAJrwioOyPR3KsH5eujiYdA+aE09l8y1PwUNHssoXwrNPF4KD9hCIQ7AIjZBpE=
+  </data>
+ </layer>
+ <layer name="rule_Collision" width="19" height="13" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAP0GLEzsclPtLBSAkvQv4aKP8NVneRAgAY1wKx
+  </data>
+ </layer>
+</map>
