@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="50" height="30" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="set_woodland" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/set_woodland.png" width="512" height="320"/>
@@ -21,9 +22,9 @@
  <tileset firstgid="499" name="set_rules" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/set_rules.png" width="64" height="64"/>
  </tileset>
- <layer name="Set" width="50" height="30">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA92WYW7CMAyFQ9etsFukjLFr9gjceKoUS54V289JgIkfT3VDk/jzc2gPKaXDi+qoxI/QFpCV97O153cu2sT4xGLUh2exSo6FjfPYy1PmS/c3UKM5pAeTwVGrtRxDOXp5JMdHEeoHPcPzp1pEGXpYLA7PjyX9zbvXC4tD2wPhyEWIH54XkXODesCZiGOtcFwdDslg+TA7nB7HUcyXvmzlt1nxg/gsr6fkc2RWlx4/rL6aGcelCOkrtKdone9yHXXOef0sDq+vtN7q4Wg5G4gfVl+1sGj5y95EeklycK0D/PD6f/S7vOaNZOPjKEOUJZq35Z3GIZlGs3g5IXlb/YVwLMAe9+qp2plpYYgowvBWtMf0/+Otz3ui1Q+kt2os2nMtHC2+aN5o78SoLI7TIBbE10dL5tfiwT0Y3ouiLDLmeXu9Qe/J/A84PllM3++ZjVle5FTnkPxaPeTcPabvIq82su78ntb9MfxCOFDJ+Wtgza1DIzkyqGvQD+tZzY8eUZ5r0Ve5nissvXuNzj3iyag9EL9eQb9lr80LcBcAAA==
+ <layer name="set" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzdlmFuwjAMhUPXrbBbpIyxa/YI3HiqFEueFdvPSYCJH091Q5P483NoDymlw4vqqMSP0BaQlfezted3LtrE+MRi1IdnsUqOhY3z2MtT5kv3N1CjOaQHk8FRq7UcQzl6eSTHRxHqBz3D86daRBl6WCwOz48l/c271wuLQ9sD4chFiB+eF5Fzg3rAmYhjrXBcHQ7JYPkwO5wex1HMl75s5bdZ8YP4LK+n5HNkVpceP6y+mhnHpQjpK7SnaJ3vch11znn9LA6vr7Te6uFoORuIH1ZftbBo+cveRHpJcnCtA/zw+n/0u7zmjWTj4yhDlCWat+WdxiGZRrN4OSF5W/2FcCzAHvfqqdqZaWGIKMLwVrTH9P/jrc97otUPpLdqLNpzLRwtvmjeaO/EqCyO0yAWxNdHS+bX4sE9GN6Loiwy5nl7vUHvyfwPOD5ZTN/vmY1ZXuRU55D8Wj3k3D2m7yKvNrLu/J7W/TH8QjhQyflrYM2tQyM5Mqhr0A/rWc2PHlGea9FXuZ4rLL17jc494smoPRC/XkG/FI3Ggw==
   </data>
  </layer>
 </map>
