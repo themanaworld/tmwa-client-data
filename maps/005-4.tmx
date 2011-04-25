@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="128" height="64" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="name" value="Electricity Boss Cave"/>
+ </properties>
+ <tileset firstgid="1" name="cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="129" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="131" name="arena" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/arena.png" width="512" height="512"/>
+ </tileset>
+ <layer name="ground" width="128" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3U0QnCMBiF0TyoExRXsE5QnUDdf6EGRJTmUaKBew7c9/58pKUAAAAAAAAAAMDTqW4eZOfOt9Ja6i6D7Nr5Vlq3uvsge3S+ldaxbj/Ips630tI/m/7Z9M+mfzb9s+mfTf9s+mfTP5v+2fTnG4fy7rf787fwe5//j6l4w2m2/cmifzb9efUHAAAAAAAAAAAAAAAASLcCFXxtygCAAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="128" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3YwQkAMAgDQPffrc6kI1Swr95BfiEDJAIAAAAAAAAAAAD43enkYu/1LgAAAAAAd/y/AAAAAAAAAAAAAAAAAAAAADMFdx2y6ACAAAA=
+  </data>
+ </layer>
+ <layer name="over" width="128" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3YUUrDUBAF0Pdb/4u6XBdkd6BrMyMUQsAmaUamZc6F81EYQpkbkkfOY4wzAAAAAAAAAACMx0v1PrqJfE4uq81sn9s7P5+r3kc3ka/J941+rtk6t3d+Ple9j24iHwmyUr2PbiJZ/WfcC9X76Cai/74inv99RTL6z7ofqvfRTeTo8/6v3/ekeh/dRLLe/WPo/9lEss59y3vhnlTvo5tI1nve8//5RK7fX9e63jo3Ftddi++/tf37/tvXafJ2wPusx9eD13p5gH2wzzLV/wf9o3/0z/+L82OcAePs5/zW00n3AAAAAAAAAAAAAAAAAL9+AAI4HXoAgAAA
+  </data>
+ </layer>
+ <layer name="Collision" width="128" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3RMQ6DUBBDwX92Tp4qdaDBjjxPmg4h8F7nnAsAAAAAAAAAAADg/O7uc0+fT//3upbSO6xqKb3DqpbSO6xqKb3DqpbSO6xqKb3DqpbSO6xqKb3DqpbSO6xqKb3Durv3udvT9/Kf3HHbt/R34P64P+4PAAAAAAAAAAAAAAAAAG/7AD3ElqsAgAAA
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="128" height="64">
+  <object name="graphics/particles/electricity.red.large.xml" type="PARTICLE_EFFECT" x="1699" y="672"/>
+  <object name="graphics/particles/electricity.red.large.xml" type="PARTICLE_EFFECT" x="1696" y="1021"/>
+  <object name="graphics/particles/electricity.red.large.xml" type="PARTICLE_EFFECT" x="1377" y="1024"/>
+  <object name="graphics/particles/electricity.red.large.xml" type="PARTICLE_EFFECT" x="1377" y="672"/>
+  <object name="graphics/particles/electricity.blue.large.xml" type="PARTICLE_EFFECT" x="672" y="1027"/>
+  <object name="graphics/particles/electricity.blue.large.xml" type="PARTICLE_EFFECT" x="992" y="672"/>
+  <object name="graphics/particles/electricity.blue.large.xml" type="PARTICLE_EFFECT" x="992" y="1023"/>
+  <object name="graphics/particles/electricity.blue.large.xml" type="PARTICLE_EFFECT" x="672" y="672"/>
+  <object name="toCave" type="WARP" x="1152" y="1152" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="005-3"/>
+    <property name="dest_x" value="2720"/>
+    <property name="dest_y" value="1600"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
