@@ -6,13 +6,13 @@
   <property name="name" value="Fight Cave"/>
  </properties>
  <tileset firstgid="1" name="Collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png"/>
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
  <tileset firstgid="3" name="Cave" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/cave.png"/>
+  <image source="../graphics/tiles/cave.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="131" name="Arena" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/arena.png"/>
+  <image source="../graphics/tiles/arena.png" width="512" height="512"/>
  </tileset>
  <layer name="Gound" width="100" height="100">
   <data encoding="base64" compression="gzip">
@@ -34,7 +34,7 @@
    H4sIAAAAAAAAA+3ZXU7CQBQG0OFFNLoBcf+P/mwAFqD7AX3zNobYEKDDdKYWc05yHyDtpLlfbtppUwIAAAAAAAAAgOv3HPVS4RjqeI16GzhmHbU58r+cyrXo3amcGKZ387CN2jVa+zPqq9Ha/9XNIqXlos3at7HuXaO1AWrzzJtvil7l7F/4oVcAANfF3iPfFL3yzjifXtF5jHr464uADFN+L+rmYpXMRt991FPv9+H3ojH3+P6571Efhevw69z7xaGszp3rnnHa4YzkKn0ek8V8yCJP6YxcQhaXaZmJLMp0mXTPoDVzkcV4Y2dlv7ewv6hnPyslJQMAAAAAAAAAAAAAAAAAAAAAAID5+waHIGhfQJwAAA==
   </data>
  </layer>
- <layer name="Collision" width="100" height="100" visible="0">
+ <layer name="Collision" width="100" height="100">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3Vy27DIBRAQcr/f3RWSAiTBNuYS9tBmkUcxw+OIDmllAEAAAAAAAAAuC1t8Az/UTt6x0ZH9Lv8ZmX8TKLN9Qa9FuWcT3PenvPufD3GW8xaD5866THWop6nJ7roMd7iqXWhyfkeo/8Ps/YrPb73WE2Pfgs99hHVQo/xHvmh+c/NtfU4tig92rmyPmJ72K/i6bGXtkVe0KC+hx5HUWtDj6Okx1b02MvKHuWedQs9+j3auVq1NvTo97BX7SGiRz2i3383Zdij9lF6lM+zG9TX1WOsR2nybh7vNLA2rjW5O9/2qbk9zjbRYk2Ts22yFkuajM65FnFdesfa7+vfR7/HX3J1RD83AAAAAAAAAAAAAAAAAAAAAAAA370Ap5DQ1ECcAAA=
   </data>

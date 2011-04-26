@@ -4,18 +4,18 @@
   <property name="name" value="Beach House"/>
  </properties>
  <tileset firstgid="1" name="Inn" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/inn.png"/>
+  <image source="../graphics/tiles/inn.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="257" name="Inn x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/inn_x2.png"/>
+  <image source="../graphics/tiles/inn_x2.png" width="512" height="64"/>
  </tileset>
  <tileset firstgid="273" name="Inn x3" tilewidth="32" tileheight="96">
-  <image source="../graphics/tiles/inn_x3.png"/>
+  <image source="../graphics/tiles/inn_x3.png" width="512" height="96"/>
  </tileset>
  <tileset firstgid="289" name="Collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png"/>
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
- <layer name="Ground" width="98" height="87" visible="0">
+ <layer name="Ground" width="98" height="87">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3WTWrCYBAG4JSKewvt3t7An/YGHqEH0wNY6iV16WwCIZT8gOMX8Qk8q1lk5h3yfTlXVXUGAAAAAACAB/ESZj3mE+jzXvPPO2qviXkswluPxQTyylLPvwvvrVnb2WzDV/hO6GMZPnssJ5BXlnr+n8asx/DbqH00all5rAYqnVeWer7NiCwy8uh61z4cnmQPY6zv3MdfONlD8e/hmc4leyhrbQ+TMOQu+O8Ot4f8+Yf8O9lD3vxjzih7uK2u59JRK9VH6bwAAAAAAAAAAAAAAAAAAAAAAAAAAADgEVwB8cV8fDiFAAA=
   </data>

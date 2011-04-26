@@ -4,10 +4,10 @@
   <property name="name" value="Theater"/>
  </properties>
  <tileset firstgid="1" name="Woodland Indoor" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/woodland_indoor.png"/>
+  <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="257" name="Collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png"/>
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
  <layer name="Base" width="53" height="51">
   <data encoding="base64" compression="gzip">
@@ -92,7 +92,7 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="Collision" width="53" height="51" visible="0">
+ <layer name="Collision" width="53" height="51">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3RQQoAIAgAwer/j45+YESYMcKc8uDS6K0NAAAAgA+sOXl/UWSyb9z9n2hThTZNmrKbbu1nNe1O9s2aNAEAAABUNQFe9y7rPCoAAA==
   </data>
