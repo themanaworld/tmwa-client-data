@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright 2009 The Mana World Development Team
+<!-- Copyright 2011 The Mana World Development Team
 monsters.xml parameters explanation:
 This file is used to describe the monsters the players will see all around the world.
 It can be used by both client and server, but some parameters are specific.
@@ -12,25 +12,10 @@ sprite [xml file]: Tells the xml file used to display the monster sprites. (Clie
 sound <TAG>:       This tag is used by the client to know which sound to play at what event.
   event [string]:  Tells the event at which the corresponding sound should be played. ('die', 'miss', 'hit', 'strike' are some examples.)
   <INNER>[string]: The ogg file to be played
-drop <TAG>:        Tells what kind of item the monster can drop. See items.xml to get the id correspondence.
-  item [integer]:  Tells the drop item Id.
-  percent[float]:  Tells the chance (8.0 = 8%) to see the drop after monster's death.
 attributes <TAG>:  Tells all the monsters attribute. These attribute, as for items, should not be left
                    in players hands.
-  hp [integer]:    The monster hit points.
   size[integer]:   The monster maximal amplitude in pixels. Used to compute player's hit area.
-  speed[float]:    The monster's speed in tiles per second.
                        (A tile is the smallest square map unit: by default, a tile is 32 pixel long.)
-  attack-min[integer]: The minimal attack strength of the monster. If your hasn't got any armor,
-                          there are the minimal hit points he will lose when hit by the monster.
-  attack-delta[integer]:  The amplitude between minimal and maximal damages the monster can do.
-  attack-magic[integer]:  The magical attacks are removing hp when hit but are computed against magical defense instead.
-  mutation[integer]:      The mutation indicates the amplitude in percent where attributes get modified with.
-                          For instance, with a mutation of 50, each attribute can be altered to become 100% to 149% of what they are.
-vulnerability<TAG>:       Tells the monster specific vulnerability to an element.
-  element[string]:        Tells to which element the weakness is. ('fire', 'earth', 'ice', 'metal' are some examples.)
-  factor[float]:          Tells the defense against an element is reduced in percent. (A value of 0.7 indicates that the defense is lowered by 30%).
-exp<TAG>:                 Tells how much experience point a monster is giving upon victory.
 -->
 
 <monsters>
@@ -41,47 +26,6 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
         <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
         <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
         <sound event="die">monsters/maggot/maggot-dying1.ogg</sound>
-        <drop item="505" percent="8"/>
-        <drop item="518" percent="4"/>
-        <drop item="501" percent="1.5"/>
-        <drop item="533" percent="1.5"/>
-        <drop item="502" percent="0.7"/>
-        <drop item="522" percent="0.1"/>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
-        <vulnerability element="fire" factor="1.5"/>
-        <vulnerability element="earth" factor="0.7"/>
-        <exp>10</exp>
-        <!-- average stroll- and track range-->
-        <behavior
-            aggressive="false"
-            cowardly="false"
-            track-range="5"
-            stroll-range="2"
-            attack-distance="32"
-            />
-        <attack id="1"
-            priority="1"
-            type="physical"
-            pre-delay="10"
-            aft-delay="5"
-            damage-factor="1"
-            range="32"
-            action="attack"
-            script-function="strike"
-            />
-            <script>testmonster.lua</script> <!-- only Proof of Concept-->
     </monster>
 
     <monster id="1" name="Scorpion">
@@ -91,51 +35,10 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
         <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
         <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
-        <drop item="507" percent="7"/>
-        <drop item="510" percent="1"/>
-        <drop item="509" percent="0.5"/>
-        <drop item="518" percent="7"/>
-        <exp>20</exp>
-        <attributes
-            hp="20"
-            size="8"
-            speed="6.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="10"
-            physical-defence="5"
-            magical-defence="0"
-            />
-        <!-- doesn't move much, but attacks when you are comming too close. -->
-        <behavior
-            aggressive="true"
-            cowardly="false"
-            track-range="2"
-            stroll-range="1"
-            attack-distance="64"
-            />
         <!-- slow, strong, long-range tail attack-->
         <attack id="1"
-            priority="1"
-            type="physical"
-            pre-delay="5"
-            aft-delay="15"
-            damage-factor="3"
-            range="64"
-            particle-effect="graphics/particles/attack.particle.xml"
-            action="special1"
-            />
-        <!-- fast, weak, short-range scissor attack -->
-        <attack id="2"
-            priority="4"
-            type="physical"
-            pre-delay="3"
-            aft-delay="3"
-            damage-factor="1"
-            range="32"
-            />
+                particle-effect="graphics/particles/attack.particle.xml"
+                />
     </monster>
 
     <monster id="2" name="Red Scorpion">
@@ -145,79 +48,11 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
         <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
         <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
-        <drop item="517" percent="20"/>
-        <drop item="509" percent="1"/>
-        <drop item="518" percent="5"/>
-        <drop item="1200" percent="0.1"/>
-        <drop item="1199" percent="7.6"/>
-        <drop item="1201" percent="5.4"/>
-        <drop item="524" percent="0.1"/>
-        <exp>50</exp>
-        <attributes
-            hp="20"
-            size="8"
-            speed="6.0"
-            attack-min="20"
-            attack-delta="10"
-            attack-magic="0"
-            hit="30"
-            evade="30"
-            physical-defence="5"
-            magical-defence="0"
-            />
-        <!-- also quite lazy when unprovoked but much more territorial
-        than the normal one-->
-        <behavior
-            aggressive="true"
-            cowardly="false"
-            track-range="6"
-            stroll-range="1"
-            attack-distance="64"
-            />
-        <attack id="1"
-            priority="1"
-            type="physical"
-            element="fire"
-            pre-delay="5"
-            aft-delay="10"
-            damage-factor="1"
-            range="64"
-            />
     </monster>
 
     <monster id="3" name="Green Slime">
         <sprite>monsters/monster-slime.xml|#72982c,ffffff</sprite>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
-        <drop item="502" percent="2"/>
-        <drop item="513" percent="1"/>
-        <drop item="501" percent="1"/>
-        <drop item="521" percent="1"/>
-        <drop item="522" percent="1.9"/>
-        <drop item="526" percent="0.1"/>
-        <drop item="503" percent="5"/>
-        <drop item="535" percent="7.5"/>
-        <exp>60</exp>
-        <attributes
-            hp="200"
-            size="4"
-            speed="1.0"
-            attack-min="2"
-            attack-delta="10"
-            attack-magic="0"
-            hit="100"
-            evade="10"
-            physical-defence="0"
-            magical-defence="0"
-            />
-        <!-- Is fulfilling some unknown purpose that requires it to move around
-        a lot and leaves no time for pursing attackers -->
-        <behavior
-            aggressive="false"
-            cowardly="false"
-            track-range="4"
-            stroll-range="24"
-            attack-distance="32"
-            />
     </monster>
 
     <monster id="4" name="Giant Maggot" targetCursor="large">
@@ -226,75 +61,16 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
         <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
         <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
         <sound event="die">monsters/maggot/maggot-dying1.ogg</sound>
-        <drop item="1199" percent="9"/>
-        <drop item="519" percent="1"/>
-        <drop item="518" percent="7.5"/>
-        <drop item="501" percent="50"/>
-        <drop item="502" percent="30"/>
-        <drop item="503" percent="0.1"/>
-        <drop item="526" percent="0.1"/>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="5" name="Yellow Slime">
         <sprite>monsters/monster-slime.xml|#b47f00,ffffff</sprite>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
-        <drop item="534" percent="2"/>
-        <drop item="519" percent="1"/>
-        <drop item="501" percent="3.5"/>
-        <drop item="502" percent="2.5"/>
-        <drop item="522" percent="0.1"/>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="6" name="Red Slime">
         <sprite>monsters/monster-slime.xml|#7e0000,ffffff</sprite>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
-        <drop item="1201" percent="3"/>
-        <drop item="509" percent="1.1"/>
-        <drop item="521" percent="2"/>
-        <drop item="523" percent="0.4"/>
-        <drop item="525" percent="0.8"/>
-        <drop item="535" percent="7.5"/>
-        <drop item="528" percent="2.5"/>
-        <drop item="531" percent="1.5"/>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="7" name="Black Scorpion">
@@ -304,39 +80,10 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
         <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
         <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
-        <drop item="523" percent="1.5"/>
-        <drop item="509" percent="1.0"/>
-        <drop item="518" percent="8"/>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="8" name="Snake">
         <sprite>monsters/monster-snake.xml|#664d28,a6673a,dbbc86,ffffff</sprite>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="9" name="Fire Goblin">
@@ -344,47 +91,9 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
         <sound event="hit">monsters/fire-goblin/fire-goblin-hit1.ogg</sound>
         <sound event="hit">monsters/fire-goblin/fire-goblin-hit2.ogg</sound>
         <sound event="miss">monsters/fire-goblin/fire-goblin-miss1.ogg</sound>
-        <drop item="505" percent="8"/>
-        <drop item="501" percent="1.5"/>
-        <drop item="518" percent="8"/>
-        <drop item="502" percent="1.5"/>
-        <drop item="521" percent="0.7"/>
-        <drop item="522" percent="0.1"/>
-        <!-- behavior identical to maggot except for weaknesses and the attack which is magical and has a particle effect - change this when making up real monster stats -->
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="10"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
-        <vulnerability element="fire" factor="0.5"/>
-        <vulnerability element="water" factor="2.0"/>
-        <exp>10</exp>
-        <behavior
-            aggressive="false"
-            cowardly="false"
-            track-range="5"
-            stroll-range="5"
-            attack-distance="32"
-            />
         <attack id="1"
-            priority="1"
-            type="magical"
-            element="fire"
-            pre-delay="10"
-            aft-delay="5"
-            damage-factor="1"
-            range="32"
-            action="attack"
-            particle-effect="graphics/particles/monster-goblin-firebreath.particle.xml"
-            />
+                particle-effect="graphics/particles/monster-goblin-firebreath.particle.xml"
+                />
     </monster>
 
     <monster id="10" name="Spider">
@@ -394,43 +103,11 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
         <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
         <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
-        <drop item="537" percent="5"/>
-        <drop item="535" percent="1"/>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="11" name="Evil Mushroom">
         <sprite>monsters/monster-mushroom-red.xml</sprite>
         <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
-        <drop item="535" percent="5"/>
-        <drop item="540" percent="0.1"/>
-        <drop item="534" percent="1"/>
-        <drop item="566" percent="5"/>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="12" name="Pink Flower">
@@ -438,149 +115,33 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
         <sound event="hit">monsters/flower/flower-hit1.ogg</sound>
         <sound event="hit">monsters/flower/flower-hit2.ogg</sound>
         <sound event="miss">monsters/flower/flower-miss1.ogg</sound>
-        <drop item="535" percent="1"/>
-        <drop item="540" percent="0.1"/>
-        <drop item="1199" percent="1"/>
-        <drop item="526" percent="4"/>
-        <drop item="565" percent="5"/>
-        <exp>10</exp>
-        <!-- Passive monster for testing stuff-->
-        <attributes
-            hp="2000"
-            size="8"
-            speed="0.0"
-            attack-min="0"
-            attack-delta="0"
-            attack-magic="0"
-            hit="0"
-            evade="0"
-            physical-defence="0"
-            magical-defence="0"
-            mutation="0"
-            />
-        <behavior
-            aggressive="false"
-            cowardly="false"
-            track-range="0"
-            stroll-range="0"
-            attack-distance="0"
-            />
     </monster>
 
     <monster id="13" name="Santa Slime">
         <sprite>monsters/monster-slime.xml|#545166,66A9CD,C2F7FA</sprite>
         <sprite>monsters/accessories/slime-santa.xml</sprite>
-        <drop item="512" percent="8"/>
-        <drop item="513" percent="7"/>
-        <drop item="514" percent="6"/>
-        <drop item="519" percent="5"/>
-        <drop item="527" percent="4"/>
-        <drop item="538" percent="5"/>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="14" name="Rudolph Slime">
         <sprite>monsters/monster-slime.xml|#9092B9,9DB4D4,F8F9FA</sprite>
         <sprite>monsters/accessories/slime-rudolph.xml</sprite>
-        <drop item="504" percent="8"/>
-        <drop item="506" percent="5"/>
-        <drop item="508" percent="2"/>
-        <drop item="509" percent="3"/>
-        <drop item="510" percent="6"/>
-        <drop item="515" percent="8"/>
-        <drop item="516" percent="5"/>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="15" name="Bat">
         <sprite>monsters/monster-bat.xml</sprite>
         <sound event="die">monsters/bat/bat-dying1.ogg</sound>
         <sound event="hit">monsters/bat/bat-hit1.ogg</sound>
-        <drop item="505" percent="8"/>
-        <drop item="501" percent="1.5"/>
-        <drop item="518" percent="4"/>
-        <drop item="533" percent="1.5"/>
-        <drop item="521" percent="0.7"/>
-        <drop item="522" percent="0.1"/>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="16" name="Pinkie" targetCursor="small">
         <sprite>monsters/monster-pinkie.xml</sprite>
         <sound event="hit">monsters/pinkie/pinkie-hit1.ogg</sound>
         <sound event="miss">monsters/pinkie/pinkie-miss1.ogg</sound>
-        <drop item="614" percent="8"/>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="17" name="Spiky Mushroom">
         <sprite>monsters/monster-mushroom-spiky.xml</sprite>
         <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
-        <drop item="567" percent="8"/>
-        <drop item="501" percent="1.5"/>
-        <drop item="518" percent="0.5"/>
-        <drop item="613" percent="1.5"/>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="18" name="Fluffy">
@@ -590,97 +151,23 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
         <sound event="hit">monsters/fluffy/fluffy-hit3.ogg</sound>
         <sound event="miss">monsters/fluffy/fluffy-miss1.ogg</sound>
         <sound event="hurt">monsters/fluffy/fluffy-hurt1.ogg</sound>
-        <drop item="611" percent="8"/>
-        <drop item="527" percent="1.5"/>
-        <drop item="535" percent="4"/>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="19" name="Cave Snake">
         <sprite>monsters/monster-snake-cave.xml</sprite>
         <sound event="hit">monsters/cavesnake/cavesnake-hit1.ogg</sound>
-        <drop item="612" percent="8"/>
-        <drop item="610" percent="0.1"/>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="20" name="Jack O">
         <sprite>monsters/monster-ghost-pumpkin.xml</sprite>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="21" name="Fire Skull">
         <sprite>monsters/monster-skull-fire.xml</sprite>
-        <drop item="621" percent="0.1"/>
-        <drop item="540" percent="1.5"/>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="22" name="Poison Skull">
         <sprite>monsters/monster-skull-poison.xml</sprite>
-        <drop item="621" percent="0.1"/>
-        <drop item="540" percent="1.5"/>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="23" name="Log Head">
@@ -690,37 +177,10 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
         <sound event="hurt">monsters/loghead/loghead-hurt3.ogg</sound>
         <sound event="hurt">monsters/loghead/loghead-hurt4.ogg</sound>
         <sound event="hurt">monsters/loghead/loghead-hurt5.ogg</sound>
-        <drop item="569" percent="20"/>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="24" name="Mountain Snake">
         <sprite>monsters/monster-snake.xml|#585b39,a67c5d,dbc9a9,ffffff</sprite>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="25" name="Easter Fluffy">
@@ -730,157 +190,40 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
         <sound event="hit">monsters/fluffy/fluffy-hit3.ogg</sound>
         <sound event="miss">monsters/fluffy/fluffy-miss1.ogg</sound>
         <sound event="hurt">monsters/fluffy/fluffy-hurt1.ogg</sound>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="26" name="Mouboo">
         <sprite>monsters/monster-mouboo.xml</sprite>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="27" name="Mauve Plant">
         <sprite>resource-plant.xml|#e0b0ff</sprite>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="28" name="Cobalt Plant">
         <sprite>resource-plant.xml|#0047ab</sprite>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="29" name="Gamboge Plant">
         <sprite>resource-plant.xml|#ef9b0f</sprite>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="30" name="Alizarin Plant">
         <sprite>resource-plant.xml|#e32636</sprite>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="31" name="Sea Slime">
         <sprite>monsters/monster-slime.xml|#4ca1a0,ffffff</sprite>
         <sprite>monsters/accessories/slime-seajelly.xml|#4Ca16e,ffffff</sprite>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="32" name="Grass Snake">
         <sprite>monsters/monster-snake.xml|#205839,60a65d,80dba9,ffffff</sprite>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="33" name="Silkworm">
         <sprite>monsters/monster-silkworm.xml|#807d20,e0dac0;#c0a830</sprite>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="34" name="Zombie">
@@ -891,36 +234,10 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
         <sound event="hit">monsters/zombie/zombie-hit2.ogg</sound>
         <sound event="miss">monsters/zombie/zombie-miss1.ogg</sound>
         <sound event="die">monsters/zombie/zombie-dying1.ogg</sound>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="35" name="Clover Patch">
         <sprite>resource-clover.xml</sprite>
-        <attributes
-            hp="1"
-            size="4"
-            speed="0.0"
-            attack-min="0"
-            attack-delta="0"
-            attack-magic="0"
-            hit="0"
-            evade="0"
-            physical-defence="0"
-            magical-defence="5"
-            mutation="0"
-            />
     </monster>
 
     <monster id="36" name="Squirrel">
@@ -929,19 +246,6 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
         <sound event="hurt">monsters/squirrel/squirrel-hurt2.ogg</sound>
         <sound event="die">monsters/squirrel/squirrel-die1.ogg</sound>
         <sound event="die">monsters/squirrel/squirrel-die2.ogg</sound>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="37" name="Fire Lizard">
@@ -949,178 +253,34 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
         <sound event="hit">monsters/fire-goblin/fire-goblin-hit1.ogg</sound>
         <sound event="hit">monsters/fire-goblin/fire-goblin-hit2.ogg</sound>
         <sound event="miss">monsters/fire-goblin/fire-goblin-miss1.ogg</sound>
-        <!-- stats identical to maggot - change this when making up real monster stats -->
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="10"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
         <attack id="1"
-            priority="1"
-            type="magical"
-            element="fire"
-            pre-delay="10"
-            aft-delay="5"
-            damage-factor="1"
-            range="32"
-            action="attack"
-            particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"
-            />
+                particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"
+                />
     </monster>
 
     <monster id="38" name="Wisp">
         <sprite>monsters/monster-wisp.xml|#aadd44,ffff66</sprite>
-	<particlefx>graphics/particles/wisp.particle.xml</particlefx>
-        <exp>20</exp>
-        <attributes
-            hp="20"
-            size="8"
-            speed="6.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="10"
-            physical-defence="5"
-            magical-defence="0"
-            />
-        <!-- doesn't move much, but attacks when you are coming too close. -->
-        <behavior
-            aggressive="false"
-            cowardly="false"
-            track-range="2"
-            stroll-range="1"
-            attack-distance="64"
-            />
-        <!-- slow, strong, long-range glow attack-->
-        <attack id="1"
-            priority="1"
-            type="physical"
-            pre-delay="5"
-            aft-delay="5"
-            damage-factor="3"
-            range="64"
-            />
+        <particlefx>graphics/particles/wisp.particle.xml</particlefx>
     </monster>
 
     <monster id="39" name="Snail">
         <sprite>monsters/monster-snail.xml</sprite>
         <particlefx>graphics/particles/monster-snail-trail.particle.xml</particlefx>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
-        <exp>20</exp>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
     <monster id="40" name="Spectre">
         <sprite>monsters/monster-wisp.xml|#ff77dd,dd77ff</sprite>
-	<particlefx>graphics/particles/spectre.particle.xml</particlefx>
-        <exp>20</exp>
-        <attributes
-            hp="20"
-            size="8"
-            speed="6.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="10"
-            physical-defence="5"
-            magical-defence="0"
-            />
-        <!-- doesn't move much, but attacks when you are coming too close. -->
-        <behavior
-            aggressive="false"
-            cowardly="false"
-            track-range="2"
-            stroll-range="1"
-            attack-distance="64"
-            />
-        <!-- slow, strong, long-range glow attack-->
-        <attack id="1"
-            priority="1"
-            type="physical"
-            pre-delay="5"
-            aft-delay="5"
-            damage-factor="3"
-            range="64"
-            />
+        <particlefx>graphics/particles/spectre.particle.xml</particlefx>
     </monster>
 
     <monster id="41" name="Skeleton">
         <sprite>monsters/monster-skeleton.xml|#ffe8bf</sprite>
-        <!-- stats identical to maggot - change this when making up real monster stats -->
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="10"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
-        <attack id="1"
-            priority="1"
-            type="magical"
-            element="fire"
-            pre-delay="10"
-            aft-delay="5"
-            damage-factor="1"
-            range="32"
-            action="attack"
-            />
     </monster>
 
     <monster id="42" name="Lady Skeleton">
         <sprite>monsters/monster-skeleton.xml|#ffe8bf</sprite>
         <sprite>hairstyle8.xml</sprite>
-        <!-- stats identical to maggot - change this when making up real monster stats -->
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="10"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
-        <attack id="1"
-            priority="1"
-            type="magical"
-            element="fire"
-            pre-delay="10"
-            aft-delay="5"
-            damage-factor="1"
-            range="32"
-            action="attack"
-            />
     </monster>
 
     <monster id="43" name="Fallen">
@@ -1128,110 +288,22 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
         <sprite>leg-chaps-male.xml</sprite>
         <sprite>chest-warlordplate-male.xml</sprite>
         <sprite>head-warlordhelm.xml</sprite>
-        <!-- stats identical to maggot - change this when making up real monster stats -->
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="10"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
-        <attack id="1"
-            priority="1"
-            type="magical"
-            element="fire"
-            pre-delay="10"
-            aft-delay="5"
-            damage-factor="1"
-            range="32"
-            action="attack"
-            />
     </monster>
 
     <!-- Snake lord 44 -->
 
     <monster id="45" name="Poltergeist">
         <sprite>monsters/monster-wisp.xml|#77ffdd,77ddff</sprite>
-	<particlefx>graphics/particles/polter.particle.xml</particlefx>
-        <exp>20</exp>
-        <attributes
-            hp="20"
-            size="8"
-            speed="6.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="10"
-            physical-defence="5"
-            magical-defence="0"
-            />
-        <!-- doesn't move much, but attacks when you are coming too close. -->
-        <behavior
-            aggressive="false"
-            cowardly="false"
-            track-range="2"
-            stroll-range="1"
-            attack-distance="64"
-            />
-        <!-- slow, strong, long-range glow attack-->
-        <attack id="1"
-            priority="1"
-            type="physical"
-            pre-delay="5"
-            aft-delay="5"
-            damage-factor="3"
-            range="64"
-            />
+        <particlefx>graphics/particles/polter.particle.xml</particlefx>
     </monster>
 
     <monster id="46" name="Duck" targetCursor="small">
         <sprite>monsters/monster-duck.xml</sprite>
-        <attributes
-            hp="20"
-            size="4"
-            speed="1.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="5"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
-        <vulnerability element="fire" factor="1.5"/>
-        <vulnerability element="earth" factor="0.7"/>
-        <exp>0</exp>
-        <!-- average stroll- and track range-->
-        <behavior
-            aggressive="false"
-            cowardly="false"
-            track-range="5"
-            stroll-range="2"
-            attack-distance="32"
-            />
-        <attack id="1"
-            priority="1"
-            type="physical"
-            pre-delay="10"
-            aft-delay="5"
-            damage-factor="1"
-            range="32"
-            action="attack"
-            />
     </monster>
 
     <monster id="47" name="Bee" targetCursor="small">
         <sprite>monsters/monster-bee.xml</sprite>
-	<sprite>monsters/accessories/generic-shadow-small-circle.xml</sprite>
-        <!-- Insert Bee Stats here -->
+        <sprite>monsters/accessories/generic-shadow-small-circle.xml</sprite>
     </monster>
 
     <!--48 Larvespa-->
@@ -1242,7 +314,7 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
 
     <monster id="53" name="Butterfly" targetCursor="small">
         <sprite>monsters/monster-butterfly.xml|#660000,FF3300,FFCC99,FFCCCC</sprite>
-	<sprite>monsters/accessories/generic-shadow-small-circle.xml</sprite>
+        <sprite>monsters/accessories/generic-shadow-small-circle.xml</sprite>
     </monster>
 
     <monster id="54" name="Cave Maggot" targetCursor="small">
@@ -1289,127 +361,74 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
         <sprite>monsters/monster-moggun.xml</sprite>
     </monster>
     <monster id="60" name="Terranite">
-	<sprite>monsters/monster-terranite.xml</sprite>
+    <sprite>monsters/monster-terranite.xml</sprite>
     </monster>
     <monster id="61" name="Pumpkin">
         <sprite>resource-pumpkin.xml</sprite>
-        <attributes
-            hp="200"
-            size="4"
-            speed="0.0"
-            attack-min="0"
-            attack-delta="0"
-            attack-magic="0"
-            hit="0"
-            evade="0"
-            physical-defence="0"
-            magical-defence="5"
-            mutation="0"
-            />
     </monster>
     <monster id="62" name="Bandit">
-	<sprite>monsters/monster-bandit.xml</sprite>
-	<sprite>monsters/weapon-dagger.xml</sprite>
+    <sprite>monsters/monster-bandit.xml</sprite>
+    <sprite>monsters/weapon-dagger.xml</sprite>
     </monster>
     <monster id="63" name="Bandit Lord">
-	<sprite>monsters/monster-bandit-lord.xml</sprite>
-	<sprite>monsters/weapon-bow.xml</sprite>
+    <sprite>monsters/monster-bandit-lord.xml</sprite>
+    <sprite>monsters/weapon-bow.xml</sprite>
     </monster>
     <monster id="64" name="Vampire Bat">
         <sprite>monsters/monster-vampire-bat.xml</sprite>
         <sound event="die">monsters/bat/bat-dying1.ogg</sound>
         <sound event="hit">monsters/bat/bat-hit1.ogg</sound>
-        <drop item="501" percent="2"/>
-        <drop item="533" percent="8"/>
-        <drop item="521" percent="1"/>
-        <drop item="522" percent="4"/>
-        <attributes
-            hp="60"
-            size="4"
-            speed="3.0"
-            attack-min="15"
-            attack-delta="2"
-            attack-magic="0"
-            hit="15"
-            evade="7"
-            physical-defence="7"
-            magical-defence="0"
-            mutation="50"
-            />
     </monster>
 
-	<monster id="65" name="Reaper" targetCursor="medium">
-		<sprite>monsters/monster-reaper.xml</sprite>
-		<sprite>monsters/accessories/reaper-shadow.xml</sprite>
-		<particlefx>graphics/particles/monster-reaper.particle.xml</particlefx>
-		<sound event="hurt">monsters/reaper/reaper-hurt.ogg</sound>
+    <monster id="65" name="Reaper" targetCursor="medium">
+        <sprite>monsters/monster-reaper.xml</sprite>
+        <sprite>monsters/accessories/reaper-shadow.xml</sprite>
+        <particlefx>graphics/particles/monster-reaper.particle.xml</particlefx>
+        <sound event="hurt">monsters/reaper/reaper-hurt.ogg</sound>
     </monster>
 
-	<monster id="66" name="Reaper" targetCursor="medium"> <!-- slave version -->
-		<sprite>monsters/monster-reaper.xml</sprite>
-		<sprite>monsters/accessories/reaper-shadow.xml</sprite>
-		<particlefx>graphics/particles/monster-reaper.particle.xml</particlefx>
-		<sound event="hurt">monsters/reaper/reaper-hurt.ogg</sound>
+    <monster id="66" name="Reaper" targetCursor="medium"> <!-- slave version -->
+        <sprite>monsters/monster-reaper.xml</sprite>
+        <sprite>monsters/accessories/reaper-shadow.xml</sprite>
+        <particlefx>graphics/particles/monster-reaper.particle.xml</particlefx>
+        <sound event="hurt">monsters/reaper/reaper-hurt.ogg</sound>
     </monster>
 
-	<monster id="67" name="Scythe" targetCursor="large">
+    <monster id="67" name="Scythe" targetCursor="large">
         <sprite>monsters/monster-spinning-scythe.xml</sprite>
-		<sprite>monsters/accessories/scythe-shadow.xml</sprite>
+        <sprite>monsters/accessories/scythe-shadow.xml</sprite>
     </monster>
 
-	<monster id="68" name="Ball Lightning" targetCursor="small">
-		<sprite>monsters/monster-ball-lightning.xml</sprite>
-		<sprite>monsters/accessories/ball-lightning-shadow.xml</sprite>
-		<particlefx>graphics/particles/monster-ball-lightning.particle.xml</particlefx>
-	</monster>
+    <monster id="68" name="Ball Lightning" targetCursor="small">
+        <sprite>monsters/monster-ball-lightning.xml</sprite>
+        <sprite>monsters/accessories/ball-lightning-shadow.xml</sprite>
+        <particlefx>graphics/particles/monster-ball-lightning.particle.xml</particlefx>
+    </monster>
 
     <monster id="69" name="Ice Element">
-		<sprite>monsters/monster-element-ball.xml</sprite>
+        <sprite>monsters/monster-element-ball.xml</sprite>
     </monster>
 
     <monster id="70" name="Yeti">
         <sprite>monsters/monster-yeti.xml</sprite>
     </monster>
 
-	<monster id="71" name="The Lost" targetCursor="medium">
+    <monster id="71" name="The Lost" targetCursor="medium">
         <sprite>monsters/monster-skeleton.xml|#aca379</sprite>
-		<sprite>chest-robe-male.xml|#333333</sprite>
+        <sprite>chest-robe-male.xml|#333333</sprite>
     </monster>
 
-	<!-- 72 RedBone -->
+    <!-- 72 RedBone -->
 
-	<!-- 73 Stalker -->
+    <!-- 73 Stalker -->
 
-	<!-- 74 DreadWing -->
-	
+    <!-- 74 DreadWing -->
+
     <monster id="75" name="Drunken Skeleton">
         <sprite>monsters/monster-skeleton.xml|#ffe8bf</sprite>
         <sprite>leg-chaps-male.xml</sprite>
         <sprite>chest-vnecksweater-male.xml|#580000,A40000,C02020,ff6060</sprite>
         <sprite>head-tophat.xml</sprite>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="10"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
-        <attack id="1"
-            priority="1"
-            type="magical"
-            element="fire"
-            pre-delay="10"
-            aft-delay="5"
-            damage-factor="1"
-            range="32"
-            action="attack"
-            />
     </monster>
 
     <monster id="76" name="Tipsy Skeleton">
@@ -1417,60 +436,14 @@ exp<TAG>:                 Tells how much experience point a monster is giving up
         <sprite>leg-chaps-male.xml</sprite>
         <sprite>chest-vnecksweater-male.xml|#0d1430,21337c,4363e5</sprite>
         <sprite>equipment/head/bowler-hat.xml</sprite>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="10"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
-        <attack id="1"
-            priority="1"
-            type="magical"
-            element="fire"
-            pre-delay="10"
-            aft-delay="5"
-            damage-factor="1"
-            range="32"
-            action="attack"
-            />
     </monster>
 
     <monster id="77" name="Drunken Lady Skeleton">
         <sprite>monsters/monster-skeleton.xml|#ffe8bf</sprite>
         <sprite>hairstyle8.xml</sprite>
         <sprite>leg-skirt.xml|#3f221d,754d23,f5cea4</sprite>
-	<sprite>chest-shorttanktop-female.xml|#3f221d,754d23,f5cea4</sprite>
-	<sprite>equipment/head/heart-glasses.xml</sprite>
-        <attributes
-            hp="20"
-            size="4"
-            speed="2.0"
-            attack-min="10"
-            attack-delta="2"
-            attack-magic="0"
-            hit="10"
-            evade="10"
-            physical-defence="5"
-            magical-defence="0"
-            mutation="50"
-            />
-        <attack id="1"
-            priority="1"
-            type="magical"
-            element="fire"
-            pre-delay="10"
-            aft-delay="5"
-            damage-factor="1"
-            range="32"
-            action="attack"
-            />
+    <sprite>chest-shorttanktop-female.xml|#3f221d,754d23,f5cea4</sprite>
+    <sprite>equipment/head/heart-glasses.xml</sprite>
     </monster>
 
 </monsters>
