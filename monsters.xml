@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright 2011 The Mana World Development Team
-monsters.xml parameters explanation:
-This file is used to describe the monsters the players will see all around the world.
-It can be used by both client and server, but some parameters are specific.
-
-id [integer]:      It is the id of the monster. This parameter has to be unique for each monster.
-                   The system will use the monster id to refer on it in many ways.
-name [string]:     Tells the monster name. (Used to ease configuration ease on server.)
-                   but displayed to players on the client side.
-sprite [xml file]: Tells the xml file used to display the monster sprites. (Client only).
-sound <TAG>:       This tag is used by the client to know which sound to play at what event.
-  event [string]:  Tells the event at which the corresponding sound should be played. ('die', 'miss', 'hit', 'strike' are some examples.)
-  <INNER>[string]: The ogg file to be played
-attributes <TAG>:  Tells all the monsters attribute. These attribute, as for items, should not be left
-                   in players hands.
-  size[integer]:   The monster maximal amplitude in pixels. Used to compute player's hit area.
-                       (A tile is the smallest square map unit: by default, a tile is 32 pixel long.)
+  See here for documentation: http://doc.manasource.org/monsters.xml
 -->
 
 <monsters>
@@ -35,7 +20,6 @@ attributes <TAG>:  Tells all the monsters attribute. These attribute, as for ite
         <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
         <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
-        <!-- slow, strong, long-range tail attack-->
         <attack id="1"
                 particle-effect="graphics/particles/attack.particle.xml"
                 />
