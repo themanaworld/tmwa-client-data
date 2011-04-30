@@ -277,7 +277,7 @@
         hp="100"
         weight="1"/>
     <item id="521"
-        image="weapon-dagger-dagger.png"
+        image="equipment/weapon/dagger-dagger.png"
         name="Dagger"
         description="A simple dagger."
         effect="+15 Damage, 1 Range"
@@ -295,7 +295,7 @@
         <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
     </item>
     <item id="522"
-        image="weapon-dagger-sharpknife.png"
+        image="equipment/weapon/dagger-sharpknife.png"
         name="Sharp Knife"
         description="A really sharp knife. Don't hurt yourself!"
         effect="+10 Damage, 1 Range"
@@ -375,7 +375,7 @@
         <sprite gender="female">equipment/feet/boots-female.xml|#623a34,f0c2b4</sprite>
     </item>
     <item id="529"
-        image="weapon-arrow-iron.png"
+        image="equipment/ammo/arrow-iron.png"
         name="Iron Arrow"
         description="A hard arrow made of iron."
         effect="+40 Damage"
@@ -383,7 +383,7 @@
         weight="1"
         max-per-slot="100"/>
     <item id="530"
-        image="weapon-bow-shortbow.png"
+        image="equipment/weapon/bow-shortbow.png"
         name="Short Bow"
         description="A bow for short distances."
         effect="+50 Damage, 5 Range"
@@ -450,7 +450,7 @@
         weight="5"
         max-per-slot="10"/>
     <item id="536"
-        image="weapon-dagger-shortsword.png"
+        image="equipment/weapon/dagger-shortsword.png"
         name="Short Sword"
         description="A small but sharp sword."
         effect="+100 Damage, 1 Range"
@@ -538,7 +538,7 @@
         <sprite>head-silkheadband.xml</sprite>
     </item>
     <item id="545"
-        image="weapon-bow-forestbow.png"
+        image="equipment/weapon/bow-forestbow.png"
         name="Forest Bow"
         description="A bow usually used for hunting."
         effect="+70 Damage, 5 Range"
@@ -566,7 +566,7 @@
         <sprite gender="female">chest-leather-female.xml|#251e06,443c21,71653b,a0945e;#b6574a</sprite>
     </item>
     <item id="547"
-        image="weapon-polearm-bardiche.png"
+        image="equipment/weapon/polearm-bardiche.png"
         name="Bardiche"
         description="A Bardiche."
         effect="??? Damage, ??? Range"
@@ -577,7 +577,7 @@
         attack-range="32"
         max-per-slot="1"/>
     <item id="548"
-        image="weapon-polearm-halberd.png"
+        image="equipment/weapon/polearm-halberd.png"
         name="Halberd"
         description="A weapon usually carried by guards."
         effect="??? Damage, ??? Range"
@@ -587,7 +587,7 @@
         attack-range="32"
         max-per-slot="1"/>
     <item id="549"
-        image="weapon-axe-axe.png"
+        image="equipment/weapon/axe-axe.png"
         name="Axe"
         description="An axe."
         effect="??? Damage, ??? Range"
@@ -598,7 +598,7 @@
         attack-range="32"
         max-per-slot="1"/>
     <item id="550"
-        image="weapon-axe-blacksmithsaxe.png"
+        image="equipment/weapon/axe-blacksmithsaxe.png"
         name="Blacksmith's Axe"
         description="An axe usually used by blacksmiths."
         effect="+80 Damage, 1 Range"
@@ -694,7 +694,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="561"
-        image="weapon-sword-sabre.png"
+        image="equipment/weapon/sword-sabre.png"
         name="Sabre"
         description="A sword with a very sharp, curved, single-edged blade."
         effect="??? Damage, ??? Range"
@@ -780,7 +780,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="570"
-        image="weapon-dagger-boneknife.png"
+        image="equipment/weapon/dagger-boneknife.png"
         name="Bone Knife"
         description="A knife masterly carved out of a bone."
         effect="+115 Damage, 1 Range"
@@ -793,7 +793,7 @@
         attack-range="32"
         view="521"/>
     <item id="571"
-        image="weapon-dagger-setzer.png"
+        image="equipment/weapon/dagger-setzer.png"
         name="Setzer"
         description="A sharp knife, named after a famous gambler."
         effect="+110 Damage, 1 Range"
@@ -806,7 +806,7 @@
         attack-range="32"
         view="521"/>
     <item id="572"
-        image="weapon-sword-scimitar.png"
+        image="equipment/weapon/sword-scimitar.png"
         name="Scimitar"
         description="A sword with a heavy, curved, single-edged blade."
         effect="??? Damage, ??? Range"
@@ -817,7 +817,7 @@
         attack-range="32"
         max-per-slot="1"/>
     <item id="573"
-        image="weapon-sword-falchion.png"
+        image="equipment/weapon/sword-falchion.png"
         name="Falchion"
         description="A heavy one-handed, single-edged sword."
         effect="??? Damage, ??? Range"
@@ -828,7 +828,7 @@
         attack-range="32"
         max-per-slot="1"/>
     <item id="574"
-        image="weapon-polearm-scorpion.png"
+        image="equipment/weapon/polearm-scorpion.png"
         name="Scorpion"
         description="A well crafted glaive."
         effect="??? Damage, ??? Range"
@@ -839,7 +839,7 @@
         attack-range="32"
         max-per-slot="1"/>
     <item id="575"
-        image="weapon-bow-desertbow.png"
+        image="equipment/weapon/bow-desertbow.png"
         name="Desert Bow"
         description="A tonorian short bow."
         effect="??? Damage, ??? Range"
@@ -851,7 +851,7 @@
         missile-particle="graphics/particles/arrow.particle.xml"
         max-per-slot="1"/>
     <item id="576"
-        image="weapon-sword-beheader.png"
+        image="equipment/weapon/sword-beheader.png"
         name="Beheader"
         description="An oddly designed sword especially made for beheading enemies."
         effect="??? Damage, ??? Range"
@@ -862,7 +862,7 @@
         attack-range="32"
         max-per-slot="1"/>
     <item id="577"
-        image="weapon-thrown-bonedarts.png"
+        image="equipment/ammo/bonedarts.png"
         name="Bone Darts"
         description="Darts made of bones."
         effect="??? Damage, ??? Range"
@@ -873,7 +873,7 @@
         attack-range="32"
         max-per-slot="1"/>
     <item id="578"
-        image="weapon-sword-sandcutter.png"
+        image="equipment/weapon/sword-sandcutter.png"
         name="Sand Cutter"
         description="A sand cutter."
         effect="??? Damage, ??? Range"
@@ -884,7 +884,7 @@
         attack-range="32"
         max-per-slot="1"/>
     <item id="579"
-        image="weapon-dagger-rockknive.png"
+        image="equipment/weapon/dagger-rockknive.png"
         name="Rock Knife"
         description="A knife made of stone."
         effect="+110 Damage, +3 Vitality"
@@ -895,7 +895,7 @@
         attack-range="32"
         max-per-slot="1"/>
     <item id="580"
-        image="weapon-staff-staffoflife.png"
+        image="equipment/weapon/staff-staffoflife.png"
         name="Staff of Life"
         description="A staff that increases healing magic."
         effect="??? Damage, ??? Range"
@@ -906,7 +906,7 @@
         attack-range="32"
         max-per-slot="1"/>
     <item id="581"
-        image="weapon-staff-crescentrod.png"
+        image="equipment/weapon/staff-crescentrod.png"
         name="Crescent Rod"
         description="A crescent rod."
         effect="+50 Damage, ??? Range"
@@ -917,7 +917,7 @@
         attack-range="32"
         max-per-slot="1"/>
     <item id="582"
-        image="weapon-staff-staffoffire.png"
+        image="equipment/weapon/staff-staffoffire.png"
         name="Staff of Fire"
         description="A staff that increases fire magic."
         effect="??? Damage, ??? Range"
@@ -928,7 +928,7 @@
         attack-range="32"
         max-per-slot="1"/>
     <item id="583"
-        image="weapon-staff-staffofice.png"
+        image="equipment/weapon/staff-staffofice.png"
         name="Staff of Ice"
         description="A staff that increases ice magic."
         effect="??? Damage, ??? Range"
@@ -939,7 +939,7 @@
         attack-range="32"
         max-per-slot="1"/>
     <item id="584"
-        image="weapon-sword-jackal.png"
+        image="equipment/weapon/sword-jackal.png"
         name="Jackal"
         description="A jackal."
         effect="??? Damage, ??? Range"
@@ -950,7 +950,7 @@
         attack-range="32"
         max-per-slot="1"/>
     <item id="585"
-        image="armor-hands-scarabarmlet.png"
+        image="equipment/shield/scarabarmlet.png"
         name="Scarab Armlet"
         description="A scarab armlet."
         effect="+0% Defense"
@@ -972,7 +972,7 @@
 
 
     <item id="587"
-        image="weapon-sword-sword.png"
+        image="equipment/weapon/sword-sword.png"
         name="Sword"
         description="A simple but reliable sword."
         effect="+25 Damage, 1 Range"
@@ -989,7 +989,7 @@
 	</item>
     <!--
 	<item id="588"
-        image="weapon-sword-bastardsword.png"
+        image="equipment/weapon/sword-bastardsword.png"
         name="Bastard Sword"
         description="A large two handed sword."
         effect="??? Damage, ??? Range"
@@ -998,7 +998,7 @@
         weight="10"
         max-per-slot="1"/>
     <item id="589"
-        image="weapon-sword-broadsword.png"
+        image="equipment/weapon/sword-broadsword.png"
         name="Broad Sword"
         description="A two handed sword with a very broad blade."
         effect="??? Damage, ??? Range"
@@ -1009,7 +1009,7 @@
         <sound event="hit">weapons/swords/broadsword-hit1.ogg</sound>
     </item>
     <item id="590"
-        image="weapon-sword-baselard.png"
+        image="equipment/weapon/sword-baselard.png"
         name="Baselard"
         description="A short and powerful sword."
         effect="??? Damage, ??? Range"
@@ -1018,7 +1018,7 @@
         weight="10"
         max-per-slot="1"/>
     <item id="591"
-        image="weapon-sword-longsword.png"
+        image="equipment/weapon/sword-longsword.png"
         name="Long Sword"
         description="A sword with a long and agile blade."
         effect="??? Damage, ??? Range"
@@ -1031,7 +1031,7 @@
         <sound event="strike">weapons/swords/longsword-miss1.ogg</sound>
     </item>
     <item id="592"
-        image="weapon-dagger-stiletto.png"
+        image="equipment/weapon/dagger-stiletto.png"
         name="Stiletto"
         description="A dagger with a long and thin blade."
         effect="??? Damage, ??? Range"
@@ -1040,7 +1040,7 @@
         weight="10"
         max-per-slot="1"/>
     <item id="593"
-        image="weapon-sword-rapier.png"
+        image="equipment/weapon/sword-rapier.png"
         name="Rapier"
         description="A light sword made for duels."
         effect="??? Damage, ??? Range"
@@ -1052,7 +1052,7 @@
     </item>
 	-->
     <item id="594"
-        image="weapon-polearm-spear.png"
+        image="equipment/weapon/polearm-spear.png"
         name="Spear"
         description="A light spear with a wooden pole."
         effect="+40 Damage, 1 Range"
@@ -1069,7 +1069,7 @@
 		</item>
     <!--
 	<item id="595"
-        image="weapon-polearm-heavyspear.png"
+        image="equipment/weapon/polearm-heavyspear.png"
         name="Heavy Spear"
         description="A heavy spear with a wooden pole."
         effect="??? Damage, ??? Range"
@@ -1078,7 +1078,7 @@
         weight="10"
         max-per-slot="1"/>
     <item id="596"
-        image="weapon-polearm-pike.png"
+        image="equipment/weapon/polearm-pike.png"
         name="Pike"
         description="A light spear with an iron pole."
         effect="??? Damage, ??? Range"
@@ -1087,7 +1087,7 @@
         weight="10"
         max-per-slot="1"/>
     <item id="597"
-        image="weapon-polearm-heavypike.png"
+        image="equipment/weapon/polearm-heavypike.png"
         name="Heavy Pike"
         description="A heavy spear with an iron pole."
         effect="??? Damage, ??? Range"
@@ -1096,7 +1096,7 @@
         weight="10"
         max-per-slot="1"/>
     <item id="598"
-        image="weapon-polearm-dualspear.png"
+        image="equipment/weapon/polearm-dualspear.png"
         name="Dual Spear"
         description="A spear with two tops."
         effect="??? Damage, ??? Range"
@@ -1105,7 +1105,7 @@
         weight="10"
         max-per-slot="1"/>
     <item id="599"
-        image="weapon-sword-firesword.png"
+        image="equipment/weapon/sword-firesword.png"
         name="Fire Sword"
         description="A magical sword enchanted with the power of fire."
         effect="??? Damage, ??? Range"
@@ -1116,7 +1116,7 @@
         <sound event="strike">weapons/swords/firesword-miss1.ogg</sound>
     </item>
     <item id="600"
-        image="armor-shield-britshield.png"
+        image="equipment/shield/brit.png"
         name="Brit Shield"
         description="A legendary shield that is said to save queens and rule waves."
         effect="-50 Cooking"
@@ -1126,7 +1126,7 @@
     -->
 
     <item id="601"
-        image="armor-shield-steelshield.png"
+        image="equipment/shield/steel.png"
         name="Steel Shield"
         description="A shield made of steel."
         effect="+20% Defense"
@@ -1134,7 +1134,7 @@
         weight="2500"
         max-per-slot="1"/>
     <item id="602"
-        image="armor-shield-woodenshield.png"
+        image="equipment/shield/wooden.png"
         name="Wooden Shield"
         description="A shield made of wood."
         effect="+14% Defense"
@@ -1142,7 +1142,7 @@
         weight="1500"
         max-per-slot="1"/>
     <item id="603"
-        image="armor-shield-leathershield.png"
+        image="equipment/shield/leather.png"
         name="Leather Shield"
         description="A shield made of leather on a wooden frame."
         effect="+7% Defense"
@@ -1152,7 +1152,7 @@
 
     <!--
     <item id="604"
-        image="armor-shield-knightshield.png"
+        image="equipment/shield/knight.png"
         name="Knight Shield"
         description="A high quality shield used by knights."
         effect="??? Defense"
@@ -1160,7 +1160,7 @@
         weight="10"
         max-per-slot="1"/>
     <item id="605"
-        image="weapon-axe-meatcleaver.png"
+        image="equipment/weapon/axe-meatcleaver.png"
         name="Meat Cleaver"
         description="A butcher's tool that also makes a nice one handed battle axe."
         effect="??? Damage, ??? Range"
@@ -1169,7 +1169,7 @@
         weight="10"
         max-per-slot="1"/>
     <item id="606"
-        image="weapon-axe-hatchet.png"
+        image="equipment/weapon/axe-hatchet.png"
         name="Hatchet"
         description="A short one handed axe."
         effect="??? Damage, ??? Range"
@@ -1178,7 +1178,7 @@
         weight="10"
         max-per-slot="1"/>
     <item id="607"
-        image="weapon-polearm-trident.png"
+        image="equipment/weapon/polearm-trident.png"
         name="Trident"
         description="A spear with three heads."
         effect="??? Damage, ??? Range"
@@ -1187,7 +1187,7 @@
         weight="10"
         max-per-slot="1"/>
     <item id="608"
-        image="armor-shield-bladeshield.png"
+        image="equipment/shield/blade.png"
         name="Blade Shield"
         description="A shield made of blades."
         effect=""
@@ -1195,7 +1195,7 @@
         weight="10"
         max-per-slot="1"/>
     <item id="609"
-        image="weapon-mace-club.png"
+        image="equipment/weapon/mace-club.png"
         name="Club"
         description="A primitive wooden club."
         effect="??? Damage, ??? Range"
@@ -1338,7 +1338,7 @@
         <sprite>head-bandana.xml</sprite>
     </item>
     <item id="623"
-        image="weapon-polearm-scythe.png"
+        image="equipment/weapon/polearm-scythe.png"
         name="Scythe"
         description="Usually used for farming but also usable as a weapon. Slow but deadly."
         effect="+75 Damage, 1 Range"
@@ -2537,7 +2537,7 @@
         <sprite gender="female">equipment/feet/assassin-boots-female.xml</sprite>
     </item>
     <item id="758"
-        image="weapon-staff-woodstaff.png"
+        image="equipment/weapon/staff-woodstaff.png"
         name="Wooden Staff"
         description="A basic wooden staff."
         effect="+50 Damage, 1 Range"
@@ -2586,7 +2586,7 @@
         <sprite>head-desert-helmet.xml</sprite>
     </item>
     <item id="762"
-        image="weapon-arrow-arrow.png|W:#8B4513"
+        image="equipment/ammo/arrow-arrow.png|W:#8B4513"
         name="Terranite Arrow"
         description="A terranite arrow."
         effect="+50 Damage +10 Critical"
@@ -2931,7 +2931,7 @@
         <sprite gender="female">equipment/leg/brasspants-female.xml</sprite>
     </item>
     <item id="797"
-        image="equipment/shield/brassshield.png"
+        image="equipment/shield/brass.png"
         name="Brass Shield"
         description="A shield made of brass."
         effect="+20% Defense"
@@ -3152,7 +3152,7 @@
         type="generic"
         weight="1"/>
     <item id="1199"
-        image="weapon-arrow-arrow.png"
+        image="equipment/ammo/arrow-arrow.png"
         name="Arrow"
         description="A standard arrow."
         effect="+20 Damage"
@@ -3160,7 +3160,7 @@
         weight="1"
         max-per-slot="100"/>
     <item id="1200"
-        image="weapon-bow-bow.png"
+        image="equipment/weapon/bow-bow.png"
         name="Bow"
         description="A distance weapon."
         effect="+15 Damage, 5 Range"
@@ -3178,7 +3178,7 @@
         <sound event="swing">weapons/bows/bow_shoot_1.ogg</sound>
     </item>
     <item id="1201"
-        image="weapon-dagger-knive.png"
+        image="equipment/weapon/dagger-knive.png"
         name="Knife"
         description="A small knife; the perfect weapon for a beginner."
         effect="+5 Damage, 1 Range"
@@ -3315,7 +3315,7 @@
         <sprite>head-bunnyears.xml</sprite>
     </item>
     <item id="1215"
-        image="weapon-sword-sabre.png"
+        image="equipment/weapon/sword-sabre.png"
         name="Toy Sabre"
         description="A toy item, doesn't do much damage."
         effect="+1 Damage, 1 Range"
@@ -3431,7 +3431,7 @@
         weight="25"
         max-per-slot="3"/>
     <item id="1227"
-        image="armor-neck-enchanter.png"
+        image="neck/enchanter.png"
         name="Enchanter's Amulet"
         description="An amulet made for true enchanters."
         effect="+5 Intelligence"
@@ -3440,7 +3440,7 @@
         max-per-slot="1"
         intelligence="5"/>
     <item id="1228"
-        image="armor-neck-silver4leaf.png"
+        image="neck/silverfourleaf.png"
         name="Silver Four-Leaf Amulet"
         description="An amulet made for people bringing luck wherever they go."
         effect="+5 Luck"
@@ -3739,7 +3739,7 @@
         type="usable"
         weight="5"/>
      <item id="1282"
-        image="weapon-thrown-bonedarts.png"
+        image="equipment/ammo/bonedarts.png"
         name="Bone Arrows"
         description="Arrows made from bone. Not much different from the normal variety, but are much lighter."
         effect="+55 Damage"
