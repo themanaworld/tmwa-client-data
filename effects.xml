@@ -3,6 +3,7 @@
     Copyright 2011 - The Mana World Development Team
     Effects definition file.
     See documentation at: http://doc.manasource.org/effects.xml
+-->
 
 <!-- Effects definition for client version : 0.0.29.1 and 0.5.x -->
 <being-effects>
@@ -66,4 +67,7 @@
     <effect id="10013" particle="graphics/particles/emotes/emote-blah.particle.xml"/>
 </being-effects>
 
-<!-- Note: Effects definition for client version superior or equal to 0.6.x will handle effects root tag instead. -->
+<!-- 
+     Note: Effects definition for client version superior or equal to 0.6.x will prefer
+     the 'effects' root tag when possible.
+-->
