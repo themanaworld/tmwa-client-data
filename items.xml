@@ -375,7 +375,7 @@
         <sprite gender="female">equipment/feet/boots-female.xml|#623a34,f0c2b4</sprite>
     </item>
     <item id="529"
-        image="equipment/ammo/arrow-iron.png"
+        image="equipment/ammo/ironarrow.png"
         name="Iron Arrow"
         description="A hard arrow made of iron."
         effect="+40 Damage"
@@ -399,7 +399,7 @@
         missile-particle="graphics/particles/arrow.particle.xml"
         view="1200"/>
     <item id="531"
-        image="armor-hands-minergloves.png"
+        image="equipment/hands/minergloves.png"
         name="Miner Gloves"
         description="Gloves used by miners; very useful."
         effect="+2% Defense"
@@ -411,7 +411,7 @@
         <sprite gender="female">hands-gloves-generic-female.xml|#202020,505050</sprite>
     </item>
     <item id="532"
-        image="armor-hands-leathergloves.png"
+        image="equipment/hands/leathergloves.png"
         name="Leather Gloves"
         description="Gloves made of hardened leather."
         effect="+4% Defense"
@@ -714,7 +714,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="563"
-        image="armor-hands-gloves.png|W:#a0a0a0,d0d0d0,ffffff,ffffff"
+        image="equipment/hands/basicgloves.png|W:#a0a0a0,d0d0d0,ffffff,ffffff"
         name="Winter Gloves"
         description="A pair of soft, warm gloves."
         effect="+3% Defense"
@@ -958,7 +958,7 @@
         weight="200"
         max-per-slot="1"/>
     <item id="586"
-        image="armor-legs-shorts.png|W:#A4B2B2,FFFFFF"
+        image="equipment/legs/shorts.png|W:#A4B2B2,FFFFFF"
         name="Cotton Shorts"
         description="Shorts made of 100% cotton."
         effect="+2% Defense"
@@ -1206,7 +1206,7 @@
     -->
 
     <item id="610"
-        image="armor-legs-shorts.png|W:#255367,266c84,68b0c5,ffffff"
+        image="equipment/legs/shorts.png|W:#255367,266c84,68b0c5,ffffff"
         name="Jeans Shorts"
         description="Shorts made of jeans."
         effect="+4% Defense"
@@ -1442,7 +1442,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="632"
-        image="armor-legs-skirt.png|W:#A4B2B2,FFFFFF"
+        image="equipment/legs/skirt.png|W:#A4B2B2,FFFFFF"
         name="Cotton Skirt"
         description="A skirt made of linen cloth."
         effect="+4% Defense"
@@ -1537,7 +1537,7 @@
         type="generic"
         weight="15"/>
     <item id="642"
-        image="armor-legs-chaps.png"
+        image="equipment/legs/chaps.png"
         name="Jeans Chaps"
         description="Jeans with snake skin chaps."
         effect="+6% Defense"
@@ -1599,7 +1599,7 @@
         <sprite>head-devcap.xml|#9999ff</sprite>
     </item>
     <item id="648"
-        image="armor-ring-strength-rough.png"
+        image="equipment/fingers/rough-strengh.png"
         name="Rough Strength Ring"
         description="A rough strength-enhancing ring that looks as if it has been made in a hurry."
         effect="+5 Strength"
@@ -1608,7 +1608,7 @@
         max-per-slot="1"
         strength="5"/>
     <item id="649"
-        image="armor-ring-agility-rough.png"
+        image="equipment/fingers/rough-agility.png"
         name="Rough Agility Ring"
         description="A rough agility-enhancing ring that looks as if it has been made in a hurry."
         effect="+5 Agility"
@@ -1617,7 +1617,7 @@
         max-per-slot="1"
         agility="5"/>
     <item id="650"
-        image="armor-ring-dexterity-rough.png"
+        image="equipment/fingers/rough-dexterity.png"
         name="Rough Dexterity Ring"
         description="A rough dexterity-enhancing ring that looks as if it has been made in a hurry."
         effect="+5 Dexterity"
@@ -1626,7 +1626,7 @@
         max-per-slot="1"
         dexterity="5"/>
     <item id="651"
-        image="armor-ring-vitality-rough.png"
+        image="equipment/fingers/rough-vitality.png"
         name="Rough Vitality Ring"
         description="A rough vitality-enhancing ring that looks as if it has been made in a hurry."
         effect="+5 Vitality"
@@ -1635,7 +1635,7 @@
         max-per-slot="1"
         vitality="5"/>
     <item id="652"
-        image="armor-ring-intelligence-rough.png"
+        image="equipment/fingers/rough-intelligence.png"
         name="Rough Intelligence Ring"
         description="A rough intelligence-enhancing ring that looks as if it has been made in a hurry."
         effect="+5 Intelligence"
@@ -1644,7 +1644,7 @@
         max-per-slot="1"
         intelligence="5"/>
     <item id="653"
-        image="armor-ring-willpower-rough.png"
+        image="equipment/fingers/rough-willpower.png"
         name="Rough Willpower Ring"
         description="A rough willpower-enhancing ring that looks as if it has been made in a hurry."
         effect="+5 Willpower"
@@ -2057,7 +2057,7 @@
         weight="5"
         max-per-slot="10"/>
     <item id="702"
-        image="armor-ring-wedding.png"
+        image="equipment/fingers/wedding.png"
         name="Wedding Ring"
         description="Your wedding ring."
         type="equip-ring"
@@ -2294,7 +2294,7 @@
         type="generic"
         weight="5"/>
     <item id="731"
-        image="armor-legs-assassinpants.png"
+        image="equipment/legs/assassinpants.png"
         name="Assassin Pants"
         description="Pants for a master assassin."
         effect="+5% Defense"
@@ -2383,7 +2383,7 @@
         type="generic"
         weight="5"/>
     <item id="741"
-        image="armor-hands-gloves.png|W:#A4B2B2,FFFFFF"
+        image="equipment/hands/basicgloves.png|W:#A4B2B2,FFFFFF"
         name="Cotton Gloves"
         description="A pair of comfy cotton gloves."
         effect="+1% Defense"
@@ -2501,7 +2501,7 @@
         type="generic"
         weight="2"/>
     <item id="755"
-        image="armor-chest-assassintop.png"
+        image="equipment/chest/assassintop.png"
         name="Assassin Shirt"
         description="Shirt for a master assassin."
         effect="+10% Defense, +10 Agility"
@@ -2513,7 +2513,7 @@
         <sprite gender="female">chest-assassin-female.xml</sprite>
     </item>
     <item id="756"
-        image="armor-hands-assassingloves.png"
+        image="equipment/hands/assassingloves.png"
         name="Assassin Gloves"
         description="Gloves for a master assassin."
         effect="+5% Defense, +5 Agility"
@@ -2586,7 +2586,7 @@
         <sprite>head-desert-helmet.xml</sprite>
     </item>
     <item id="762"
-        image="equipment/ammo/arrow-arrow.png|W:#8B4513"
+        image="equipment/ammo/arrow.png|W:#8B4513"
         name="Terranite Arrow"
         description="A terranite arrow."
         effect="+50 Damage +10 Critical"
@@ -2646,7 +2646,7 @@
         <sprite gender="female">chest-terranite-female.xml</sprite>
     </item>
     <item id="768"
-        image="armor-legs-terranite.png"
+        image="equipment/legs/terranitepants.png"
         name="Terranite Legs Armor"
         description="Leggings made out of terranite."
         effect="+1 Agility"
@@ -2680,7 +2680,7 @@
         <sprite>head-fairy_hat.xml</sprite>
     </item>
     <item id="771"
-        image="armor-legs-miniskirt.png|W:#a4b2b2,ffffff"
+        image="equipment/legs/miniskirt.png|W:#a4b2b2,ffffff"
         name="Miniskirt"
         description="A short skirt for hot summer days."
         effect="+4% Defense"
@@ -2919,7 +2919,7 @@
         <sprite>equipment/head/brasshelmet.xml</sprite>
     </item>
     <item id="796"
-        image="equipment/leg/brasspants.png"
+        image="equipment/legs/brasspants.png"
         name="Brass Plate Legs"
         description="brass plate leg armor"
         effect=""
@@ -3152,7 +3152,7 @@
         type="generic"
         weight="1"/>
     <item id="1199"
-        image="equipment/ammo/arrow-arrow.png"
+        image="equipment/ammo/arrow.png"
         name="Arrow"
         description="A standard arrow."
         effect="+20 Damage"
@@ -4279,7 +4279,7 @@
     </item>
 
     <item id="2100"
-        image="armor-legs-skirt.png|W:#580000,A40000,C02020,ff6060"
+        image="equipment/legs/skirt.png|W:#580000,A40000,C02020,ff6060"
         name="Red Cotton Skirt"
         description="A skirt made of linen cloth."
         effect="+4% Defense"
@@ -4290,7 +4290,7 @@
         <sprite>leg-skirt.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
     <item id="2101"
-        image="armor-legs-skirt.png|W:#115511,22aa22,99dd99"
+        image="equipment/legs/skirt.png|W:#115511,22aa22,99dd99"
         name="Green Cotton Skirt"
         description="A skirt made of linen cloth."
         effect="+4% Defense"
@@ -4301,7 +4301,7 @@
       <sprite>leg-skirt.xml|#115511,22aa22,99dd99</sprite>
     </item>
     <item id="2102"
-        image="armor-legs-skirt.png|W:#222255,6666ff"
+        image="equipment/legs/skirt.png|W:#222255,6666ff"
         name="Dark Blue Cotton Skirt"
         description="A skirt made of linen cloth."
         effect="+4% Defense"
@@ -4312,7 +4312,7 @@
         <sprite>leg-skirt.xml|#222255,6666ff</sprite>
     </item>
     <item id="2103"
-        image="armor-legs-skirt.png|W:#846211,dab333,fffb93,ffffff"
+        image="equipment/legs/skirt.png|W:#846211,dab333,fffb93,ffffff"
         name="Yellow Cotton Skirt"
         description="A skirt made of linen cloth."
         effect="+4% Defense"
@@ -4323,7 +4323,7 @@
         <sprite>leg-skirt.xml|#846211,dab333,fffb93,ffffff</sprite>
     </item>
     <item id="2104"
-        image="armor-legs-skirt.png|W:#16486e,498ec5,e4f2fc"
+        image="equipment/legs/skirt.png|W:#16486e,498ec5,e4f2fc"
         name="Light Blue Cotton Skirt"
         description="A skirt made of linen cloth."
         effect="+4% Defense"
@@ -4334,7 +4334,7 @@
         <sprite>leg-skirt.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
     <item id="2105"
-        image="armor-legs-skirt.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+        image="equipment/legs/skirt.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink Cotton Skirt"
         description="A skirt made of linen cloth."
         effect="+4% Defense"
@@ -4345,7 +4345,7 @@
         <sprite>leg-skirt.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2106"
-        image="armor-legs-skirt.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+        image="equipment/legs/skirt.png|W:#111111,222222,333333,444444,555555,aaaaaa"
         name="Black Cotton Skirt"
         description="A skirt made of linen cloth."
         effect="+4% Defense"
@@ -4356,7 +4356,7 @@
         <sprite>leg-skirt.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
     <item id="2107"
-        image="armor-legs-skirt.png|W:#80280f,b04810,ef681f,ffb830"
+        image="equipment/legs/skirt.png|W:#80280f,b04810,ef681f,ffb830"
         name="Orange Cotton Skirt"
         description="A skirt made of linen cloth."
         effect="+4% Defense"
@@ -4367,7 +4367,7 @@
         <sprite>leg-skirt.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
     <item id="2108"
-        image="armor-legs-skirt.png|W:#4f0a76,8010c0,d699f7"
+        image="equipment/legs/skirt.png|W:#4f0a76,8010c0,d699f7"
         name="Purple Cotton Skirt"
         description="A skirt made of linen cloth."
         effect="+4% Defense"
@@ -4378,7 +4378,7 @@
         <sprite>leg-skirt.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2109"
-        image="armor-legs-skirt.png|W:#104010,208020,30c030"
+        image="equipment/legs/skirt.png|W:#104010,208020,30c030"
         name="Dark Green Cotton Skirt"
         description="A skirt made of linen cloth."
         effect="+4% Defense"
@@ -4390,7 +4390,7 @@
     </item>
 
     <item id="2110"
-        image="armor-legs-shorts.png|W:#580000,A40000,C02020,ff6060"
+        image="equipment/legs/shorts.png|W:#580000,A40000,C02020,ff6060"
         name="Red Cotton Shorts"
         description="Shorts made of 100% cotton."
         effect="+2% Defense"
@@ -4402,7 +4402,7 @@
         <sprite gender="female">leg-shorts-female.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
     <item id="2111"
-        image="armor-legs-shorts.png|W:#115511,22aa22,99dd99"
+        image="equipment/legs/shorts.png|W:#115511,22aa22,99dd99"
         name="Green Cotton Shorts"
         description="Shorts made of 100% cotton."
         effect="+2% Defense"
@@ -4414,7 +4414,7 @@
         <sprite gender="female">leg-shorts-female.xml|#115511,22aa22,99dd99</sprite>
     </item>
     <item id="2112"
-        image="armor-legs-shorts.png|W:#222255,6666ff"
+        image="equipment/legs/shorts.png|W:#222255,6666ff"
         name="Dark Blue Cotton Shorts"
         description="Shorts made of 100% cotton."
         effect="+2% Defense"
@@ -4426,7 +4426,7 @@
         <sprite gender="female">leg-shorts-female.xml|#222255,6666ff</sprite>
     </item>
     <item id="2113"
-        image="armor-legs-shorts.png|W:#846211,dab333,fffb93,ffffff"
+        image="equipment/legs/shorts.png|W:#846211,dab333,fffb93,ffffff"
         name="Yellow Cotton Shorts"
         description="Shorts made of 100% cotton."
         effect="+2% Defense"
@@ -4438,7 +4438,7 @@
         <sprite gender="female">leg-shorts-female.xml|#846211,dab333,fffb93,ffffff</sprite>
     </item>
     <item id="2114"
-        image="armor-legs-shorts.png|W:#16486e,498ec5,e4f2fc"
+        image="equipment/legs/shorts.png|W:#16486e,498ec5,e4f2fc"
         name="Light Blue Cotton Shorts"
         description="Shorts made of 100% cotton."
         effect="+2% Defense"
@@ -4450,7 +4450,7 @@
         <sprite gender="female">leg-shorts-female.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
     <item id="2115"
-        image="armor-legs-shorts.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+        image="equipment/legs/shorts.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink Cotton Shorts"
         description="Shorts made of 100% cotton."
         effect="+2% Defense"
@@ -4462,7 +4462,7 @@
         <sprite gender="female">leg-shorts-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2116"
-        image="armor-legs-shorts.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+        image="equipment/legs/shorts.png|W:#111111,222222,333333,444444,555555,aaaaaa"
         name="Black Cotton Shorts"
         description="Shorts made of 100% cotton."
         effect="+2% Defense"
@@ -4474,7 +4474,7 @@
         <sprite gender="female">leg-shorts-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
     <item id="2117"
-        image="armor-legs-shorts.png|W:#80280f,b04810,ef681f,ffb830"
+        image="equipment/legs/shorts.png|W:#80280f,b04810,ef681f,ffb830"
         name="Orange Cotton Shorts"
         description="Shorts made of 100% cotton."
         effect="+2% Defense"
@@ -4486,7 +4486,7 @@
         <sprite gender="female">leg-shorts-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
     <item id="2118"
-        image="armor-legs-shorts.png|W:#4f0a76,8010c0,d699f7"
+        image="equipment/legs/shorts.png|W:#4f0a76,8010c0,d699f7"
         name="Purple Cotton Shorts"
         description="Shorts made of 100% cotton."
         effect="+2% Defense"
@@ -4498,7 +4498,7 @@
         <sprite gender="female">leg-shorts-female.xml|#520a7b,8c23c7,ca87ef</sprite>
     </item>
     <item id="2119"
-        image="armor-legs-shorts.png|W:#104010,208020,30c030"
+        image="equipment/legs/shorts.png|W:#104010,208020,30c030"
         name="Dark Green Cotton Shorts"
         description="Shorts made of 100% cotton."
         effect="+2% Defense"
@@ -4924,7 +4924,7 @@
     </item>
 
     <item id="2160"
-        image="armor-hands-gloves.png|W:#580000,A40000,C02020,ff6060"
+        image="equipment/hands/basicgloves.png|W:#580000,A40000,C02020,ff6060"
         name="Red Cotton Gloves"
         description="A pair of comfy cotton gloves."
         effect="+1% Defense"
@@ -4935,7 +4935,7 @@
         <sprite gender="female">hands-gloves-generic-female.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
     <item id="2161"
-        image="armor-hands-gloves.png|W:#115511,22aa22,99dd99"
+        image="equipment/hands/basicgloves.png|W:#115511,22aa22,99dd99"
         name="Green Cotton Gloves"
         description="A pair of comfy cotton gloves."
         effect="+1% Defense"
@@ -4946,7 +4946,7 @@
         <sprite gender="female">hands-gloves-generic-female.xml|#115511,22aa22,99dd99</sprite>
     </item>
     <item id="2162"
-        image="armor-hands-gloves.png|W:#222255,6666ff"
+        image="equipment/hands/basicgloves.png|W:#222255,6666ff"
         name="Dark Blue Cotton Gloves"
         description="A pair of comfy cotton gloves."
         effect="+1% Defense"
@@ -4957,7 +4957,7 @@
         <sprite gender="female">hands-gloves-generic-female.xml|#222255,6666ff</sprite>
     </item>
     <item id="2163"
-        image="armor-hands-gloves.png|W:#846211,dab333,fffb93,ffffff"
+        image="equipment/hands/basicgloves.png|W:#846211,dab333,fffb93,ffffff"
         name="Yellow Cotton Gloves"
         description="A pair of comfy cotton gloves."
         effect="+1% Defense"
@@ -4968,7 +4968,7 @@
         <sprite gender="female">hands-gloves-generic-female.xml|#846211,dab333,fffb93,ffffff</sprite>
     </item>
     <item id="2164"
-        image="armor-hands-gloves.png|W:#16486e,498ec5,e4f2fc"
+        image="equipment/hands/basicgloves.png|W:#16486e,498ec5,e4f2fc"
         name="Light Blue Cotton Gloves"
         description="A pair of comfy cotton gloves."
         effect="+1% Defense"
@@ -4979,7 +4979,7 @@
         <sprite gender="female">hands-gloves-generic-female.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
     <item id="2165"
-        image="armor-hands-gloves.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+        image="equipment/hands/basicgloves.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink Cotton Gloves"
         description="A pair of comfy cotton gloves."
         effect="+1% Defense"
@@ -4990,7 +4990,7 @@
         <sprite gender="female">hands-gloves-generic-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2166"
-        image="armor-hands-gloves.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+        image="equipment/hands/basicgloves.png|W:#111111,222222,333333,444444,555555,aaaaaa"
         name="Black Cotton Gloves"
         description="A pair of comfy cotton gloves."
         effect="+1% Defense"
@@ -5001,7 +5001,7 @@
         <sprite gender="female">hands-gloves-generic-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
     <item id="2167"
-        image="armor-hands-gloves.png|W:#80280f,b04810,ef681f,ffb830"
+        image="equipment/hands/basicgloves.png|W:#80280f,b04810,ef681f,ffb830"
         name="Orange Cotton Gloves"
         description="A pair of comfy cotton gloves."
         effect="+1% Defense"
@@ -5012,7 +5012,7 @@
         <sprite gender="female">hands-gloves-generic-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
     <item id="2168"
-        image="armor-hands-gloves.png|W:#4f0a76,8010c0,d699f7"
+        image="equipment/hands/basicgloves.png|W:#4f0a76,8010c0,d699f7"
         name="Purple Cotton Gloves"
         description="A pair of comfy cotton gloves."
         effect="+1% Defense"
@@ -5023,7 +5023,7 @@
         <sprite gender="female">hands-gloves-generic-female.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2169"
-        image="armor-hands-gloves.png|W:#104010,208020,30c030"
+        image="equipment/hands/basicgloves.png|W:#104010,208020,30c030"
         name="Dark Green Cotton Gloves"
         description="A pair of comfy cotton gloves."
         effect="+1% Defense"
@@ -5034,7 +5034,7 @@
         <sprite gender="female">hands-gloves-generic-female.xml|#104010,208020,30c030</sprite>
     </item>
     <item id="2170"
-        image="armor-legs-miniskirt.png|W:#580000,a40000,c02020,ff6060"
+        image="equipment/legs/miniskirt.png|W:#580000,a40000,c02020,ff6060"
         name="Red Miniskirt"
         description="A short skirt for hot summer days."
         effect="+4% Defense"
@@ -5046,7 +5046,7 @@
         <sprite gender="female">leg-miniskirt-female.xml|#580000,a40000,c02020,ff6060</sprite>
     </item>
     <item id="2171"
-        image="armor-legs-miniskirt.png|W:#115511,22aa22,99dd99"
+        image="equipment/legs/miniskirt.png|W:#115511,22aa22,99dd99"
         name="Green Miniskirt"
         description="A short skirt for hot summer days."
         effect="+4% Defense"
@@ -5058,7 +5058,7 @@
         <sprite gender="female">leg-miniskirt-female.xml|#115511,22aa22,99dd99</sprite>
     </item>
     <item id="2172"
-        image="armor-legs-miniskirt.png|W:#222255,6666ff"
+        image="equipment/legs/miniskirt.png|W:#222255,6666ff"
         name="Dark Blue Miniskirt"
         description="A short skirt for hot summer days."
         effect="+4% Defense"
@@ -5070,7 +5070,7 @@
         <sprite gender="female">leg-miniskirt-female.xml|#222255,6666ff</sprite>
     </item>
     <item id="2173"
-        image="armor-legs-miniskirt.png|W:#846211,dab333,fffb93,ffffff"
+        image="equipment/legs/miniskirt.png|W:#846211,dab333,fffb93,ffffff"
         name="Yellow Miniskirt"
         description="A short skirt for hot summer days."
         effect="+4% Defense"
@@ -5082,7 +5082,7 @@
         <sprite gender="female">leg-miniskirt-female.xml|#846211,dab333,fffb93,ffffff</sprite>
     </item>
     <item id="2174"
-        image="armor-legs-miniskirt.png|W:#16486e,498ec5,e4f2fc"
+        image="equipment/legs/miniskirt.png|W:#16486e,498ec5,e4f2fc"
         name="Light Blue Miniskirt"
         description="A short skirt for hot summer days."
         effect="+4% Defense"
@@ -5094,7 +5094,7 @@
         <sprite gender="female">leg-miniskirt-female.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
     <item id="2175"
-        image="armor-legs-miniskirt.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+        image="equipment/legs/miniskirt.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
        name="Pink Miniskirt"
         description="A short skirt for hot summer days."
         effect="+4% Defense"
@@ -5106,7 +5106,7 @@
         <sprite gender="female">leg-miniskirt-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2176"
-        image="armor-legs-miniskirt.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+        image="equipment/legs/miniskirt.png|W:#111111,222222,333333,444444,555555,aaaaaa"
         name="Black Miniskirt"
         description="A short skirt for hot summer days."
         effect="+4% Defense"
@@ -5118,7 +5118,7 @@
         <sprite gender="female">leg-miniskirt-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
     <item id="2177"
-        image="armor-legs-miniskirt.png|W:#80280f,b04810,ef681f,ffb830"
+        image="equipment/legs/miniskirt.png|W:#80280f,b04810,ef681f,ffb830"
         name="Orange Miniskirt"
         description="A short skirt for hot summer days."
         effect="+4% Defense"
@@ -5130,7 +5130,7 @@
         <sprite gender="female">leg-miniskirt-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
     <item id="2178"
-        image="armor-legs-miniskirt.png|W:#4f0a76,8010c0,d699f7"
+        image="equipment/legs/miniskirt.png|W:#4f0a76,8010c0,d699f7"
         name="Purple Miniskirt"
         description="A short skirt for hot summer days."
         effect="+4% Defense"
@@ -5142,7 +5142,7 @@
         <sprite gender="female">leg-miniskirt-female.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2179"
-        image="armor-legs-miniskirt.png|W:#104010,208020,30c030"
+        image="equipment/legs/miniskirt.png|W:#104010,208020,30c030"
         name="Dark Green Miniskirt"
         description="A short skirt for hot summer days."
         effect="+4% Defense"
@@ -5828,49 +5828,49 @@
         type="generic"
         weight="10"/>
     <item id="4008"
-        image="armor-ring-gem-generic.png"
+        image="equipment/fingers/gem.png"
         name="Diamond Ring"
         description="A diamond ring, +1 Vitality."
         type="equip-ring"
         weight="1"
         max-per-slot="1"/>
     <item id="4009"
-        image="armor-ring-gem-generic.png|W:#580000,A40000,C02020,ff6060"
+        image="equipment/fingers/gem.png|W:#580000,A40000,C02020,ff6060"
         name="Ruby Ring"
         description="A ruby ring, +1 Strength."
         type="equip-ring"
         weight="1"
         max-per-slot="1"/>
     <item id="4010"
-        image="armor-ring-gem-generic.png|W:#1f9c1f,89d689"
+        image="equipment/fingers/gem.png|W:#1f9c1f,89d689"
         name="Emerald Ring"
         description="An emerald ring, +1 Luck."
         type="equip-ring"
         weight="1"
         max-per-slot="1"/>
     <item id="4011"
-        image="armor-ring-gem-generic.png|W:#4b4bbd,888af4"
+        image="equipment/fingers/gem.png|W:#4b4bbd,888af4"
         name="Sapphire Ring"
         description="A sapphire ring, +1 Intelligence."
         type="equip-ring"
         weight="1"
         max-per-slot="1"/>
     <item id="4012"
-        image="armor-ring-gem-generic.png|W:#ccb534,f1ea8e,ffffaa"
+        image="equipment/fingers/gem.png|W:#ccb534,f1ea8e,ffffaa"
         name="Topaz Ring"
         description="A topaz ring, +1 Agility."
         type="equip-ring"
         weight="1"
         max-per-slot="1"/>
     <item id="4013"
-        image="armor-ring-gem-generic.png|W:#530a7c,b362e1,ca87ef"
+        image="equipment/fingers/gem.png|W:#530a7c,b362e1,ca87ef"
         name="Amethyst Ring"
         description="An amethyst ring, +1 Dexterity."
         type="equip-ring"
         weight="1"
         max-per-slot="1"/>
     <item id="4014"
-        image="armor-ring-simple.png"
+        image="equipment/fingers/simple.png"
         name="Simple Ring"
         description="A simple ring."
         type="equip-ring"
