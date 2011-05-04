@@ -112,7 +112,7 @@
 
     <!-- Items -->
     <item id="501"
-        image="use-potion-a.png|G:#22ff22"
+        image="use/potions/a.png|G:#22ff22"
         name="Cactus Drink"
         description="A fresh drink."
         effect="+15 HP"
@@ -121,7 +121,7 @@
         weight="4"
         max-per-slot="10"/>
     <item id="502"
-        image="use-potion-a.png|G:#ff2222"
+        image="use/potions/a.png|G:#ff2222"
         name="Cactus Potion"
         description="A fresh potion."
         effect="+25 HP"
@@ -756,7 +756,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="567"
-        image="use-potion-b.png|G:#c05000,f0a000,f0f09f"
+        image="use/potions/b.png|G:#c05000,f0a000,f0f09f"
         name="Iron Potion"
         description="Increases your attack strength."
         effect="Attack strength increase (temporary)"
@@ -764,7 +764,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="568"
-        image="use-potion-c.png|G:#da69e5,ffdaff"
+        image="use/potions/c.png|G:#da69e5,ffdaff"
         name="Concentration Potion"
         description="Increases your attack speed."
         effect="Attack speed increase (temporary)"
@@ -1305,7 +1305,7 @@
         <sprite>head-goggles.xml|#783c00,ff973b</sprite>
     </item>
     <item id="620"
-        image="armor-head-circlet.png"
+        image="equipment/head/circlet.png"
         name="Circlet"
         description="A nice piece of jewelry."
         effect="+4% Defense"
@@ -1579,7 +1579,7 @@
         <sprite gender="female">chest-lightplatemail-female.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
     </item>
     <item id="646"
-        image="armor-head-crown.png"
+        image="equipment/head/crown.png"
         name="Crown"
         description="A jewel embossed crown fit for any ruler."
         effect="+4% Defense"
@@ -1918,7 +1918,7 @@
         weight="1"
         max-per-slot="10"/>
     <item id="684"
-        image="use-potion-a.png|G:#b03678,ffffff"
+        image="use/potions/a.png|G:#b03678,ffffff"
         name="Tiny Healing Potion"
         description="A tiny healing potion made from brewed herbs."
         effect="+100 HP"
@@ -1927,7 +1927,7 @@
         weight="5"
         max-per-slot="10"/>
     <item id="685"
-        image="use-potion-d.png|G:#b03678,ffffff"
+        image="use/potions/d.png|G:#b03678,ffffff"
         name="Small Healing Potion"
         description="A small healing potion made from brewed herbs."
         effect="+200 HP"
@@ -1936,7 +1936,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="686"
-        image="use-potion-b.png|G:#b03678,ffffff"
+        image="use/potions/b.png|G:#b03678,ffffff"
         name="Medium Healing Potion"
         description="A medium healing potion made from brewed herbs."
         effect="+400 HP"
@@ -1945,7 +1945,7 @@
         weight="15"
         max-per-slot="10"/>
     <item id="687"
-        image="use-potion-c.png|G:#b03678,ffffff"
+        image="use/potions/c.png|G:#b03678,ffffff"
         name="Large Healing Potion"
         description="A large healing potion made from brewed herbs."
         effect="+800 HP"
@@ -1974,70 +1974,70 @@
         <sprite gender="female">chest-shorttanktop-female.xml|#A4B2B2,FFFFFF</sprite>
     </item>
     <item id="690"
-        image="use-potion-d.png|G:#580000,A40000,C02020,ff6060"
+        image="use/potions/d.png|G:#580000,A40000,C02020,ff6060"
         name="Red Dye"
         description="A vial containing red dye."
         type="generic"
         weight="10"
         max-per-slot="10"/>
     <item id="691"
-        image="use-potion-d.png|G:#1f9c1f,89d689"
+        image="use/potions/d.png|G:#1f9c1f,89d689"
         name="Green Dye"
         description="A vial containing green dye."
         type="generic"
         weight="10"
         max-per-slot="10"/>
     <item id="692"
-        image="use-potion-d.png|G:#4b4bbd,888af4"
+        image="use/potions/d.png|G:#4b4bbd,888af4"
         name="Dark Blue Dye"
         description="A vial containing dark blue dye."
         type="generic"
         weight="10"
         max-per-slot="10"/>
     <item id="693"
-        image="use-potion-d.png|G:#ccb534,f1ea8e,ffffaa"
+        image="use/potions/d.png|G:#ccb534,f1ea8e,ffffaa"
         name="Yellow Dye"
         description="A vial containing yellow dye."
         type="generic"
         weight="10"
         max-per-slot="10"/>
     <item id="694"
-        image="use-potion-d.png|G:#62aaca,a3f4f8,d5fcfb"
+        image="use/potions/d.png|G:#62aaca,a3f4f8,d5fcfb"
         name="Light Blue Dye"
         description="A vial containing light blue dye."
         type="generic"
         weight="10"
         max-per-slot="10"/>
     <item id="695"
-        image="use-potion-d.png|G:#c64abd,f9a5f2,fcd0fa"
+        image="use/potions/d.png|G:#c64abd,f9a5f2,fcd0fa"
         name="Pink Dye"
         description="A vial containing pink dye."
         type="generic"
         weight="10"
         max-per-slot="10"/>
     <item id="696"
-        image="use-potion-d.png|G:#404040,c0c0c0"
+        image="use/potions/d.png|G:#404040,c0c0c0"
         name="Black Dye"
         description="A vial containing black dye."
         type="generic"
         weight="10"
         max-per-slot="10"/>
     <item id="697"
-        image="use-potion-d.png|G:#96370f,cc5616,f68d26,fcaa2d,fdd493"
+        image="use/potions/d.png|G:#96370f,cc5616,f68d26,fcaa2d,fdd493"
         name="Orange Dye"
         description="A vial containing orange dye."
         type="generic"
         weight="10"
         max-per-slot="10"/>
     <item id="698"
-        image="use-potion-d.png|G:#530a7c,b362e1,ca87ef"
+        image="use/potions/d.png|G:#530a7c,b362e1,ca87ef"
         name="Purple Dye"
         description="A vial containing purple dye."
         type="generic"
         weight="10"
         max-per-slot="10"/>
     <item id="699"
-        image="use-potion-d.png|G:#104010,208020,30c030"
+        image="use/potions/d.png|G:#104010,208020,30c030"
         name="Dark Green Dye"
         description="A vial containing dark green dye."
         type="generic"
@@ -2079,7 +2079,7 @@
         weight="3"
         max-per-slot="10"/>
     <item id="705"
-        image="use-potion-e.png|R:#f04030;G:#ee8e5e"
+        image="use/potions/e.png|R:#f04030;G:#ee8e5e"
         name="Mana Potion"
         description="A dark, sirupy brew, with a smell reminiscent of manaberries."
         effect="+10 MP"
@@ -2095,7 +2095,7 @@
         type="generic"
         weight="2"/>
     <item id="707"
-        image="use-potion-e.png|R:#504030;G:#9e8e5e"
+        image="use/potions/e.png|R:#504030;G:#9e8e5e"
         name="Monster Oil Potion"
         description="A dark, oily liquid with a sinister stench."
         effect=""
@@ -2205,7 +2205,7 @@
         <sprite gender="female">chest-robe-female.xml|#ffffff</sprite>
     </item>
     <item id="721"
-        image="armor-head-highpriest-crown.png"
+        image="equipment/head/highpriest-crown.png"
         name="High Priest Crown"
         description="A golden crown with an enchanted ruby."
         effect="+4% Defense, +20 SP"
@@ -2314,7 +2314,7 @@
         type="generic"
         weight="2"/>
     <item id="733"
-        image="use-potion-e.png|R:#fff0ff;G:#d0c09f"
+        image="use/potions/e.png|R:#fff0ff;G:#d0c09f"
         name="Purification Potion"
         description="A transparent, odorless liquid that feels strangely lighter than water."
         effect=""
@@ -2412,7 +2412,7 @@
         weight="1"
         max-per-slot="20"/>
     <item id="744"
-        image="use-potion-c.png|G:#f0e0fa,da69e5"
+        image="use/potions/c.png|G:#f0e0fa,da69e5"
         name="Diluted Concentration Potion"
         description="A bottle of diluted concentration potion."
         effect="Attack speed increase (temporary)"
@@ -2420,7 +2420,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="745"
-        image="use-potion-c.png|G:#ff4aff"
+        image="use/potions/c.png|G:#ff4aff"
         name="Dark Concentration Potion"
         description="This potion smells like burnt sugar."
         effect="Attack speed increase (temporary)"
@@ -2428,7 +2428,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="746"
-        image="use-potion-e.png|R:#a0a0ff;G:#20409f"
+        image="use/potions/e.png|R:#a0a0ff;G:#20409f"
         name="Mopox Cure Potion"
         description="A gooey brew with a vile smell, supposedly able to cure Mopox."
         effect=""
@@ -2460,7 +2460,7 @@
         type="equip-charm"
         weight="50"/>
     <item id="750"
-        image="use-potion-c.png|G:#f0f040,ffffff"
+        image="use/potions/c.png|G:#f0f040,ffffff"
         name="Slow Poison Potion"
         description="A yellow potion with a fresh, citric scent."
         effect="Suspends poison"
@@ -3417,7 +3417,7 @@
         weight="1"
         max-per-slot="10"/>
     <item id="1225"
-        image="use-firescroll.png"
+        image="use/scrolls/firescroll.png"
         name="Fire Scroll"
         description="A scroll on which is written an ancient formula giving birth to fire."
         effect=""
@@ -3682,7 +3682,7 @@
         type="generic"
         weight="3"/>
     <item id="1258"
-        image="use/honey.png"
+        image="use/food/honey.png"
         name="Honey"
         description="A sweet food made by certain insects using nectar from flowers."
         effect="+100 HP"
@@ -5997,7 +5997,7 @@
         <sprite>equipment/head/wizard-hat.xml</sprite>
     </item>
 	<item id="4029"
-        image="use-potion-e.png|G:#BB0000;R:#FF0000;"
+        image="use/potions/e.png|G:#BB0000;R:#FF0000;"
         name="Grimace of Dementia"
         description="A feared potion. If done wrong... what did you say?"
         effect=""
