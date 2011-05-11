@@ -130,7 +130,7 @@
         weight="7"
         max-per-slot="10"/>
     <item id="503"
-        image="generic-casinocoins.png"
+        image="generic/casinocoins.png"
         name="Casino Coins"
         description="Just some casino coins."
         effect=""
@@ -146,7 +146,7 @@
         weight="1"
         max-per-slot="10"/>
     <item id="505"
-        image="generic-maggotslime.png"
+        image="generic/maggotslime.png"
         name="Maggot Slime"
         description="Slimy maggot slime."
         effect=""
@@ -163,7 +163,7 @@
         weight="1"
         max-per-slot="10"/>
     <item id="507"
-        image="generic-scorpionstinger.png|W:#a08040,e0e0e0"
+        image="generic/scorpionstinger.png|W:#a08040,e0e0e0"
         name="Scorpion Stinger"
         description="A poisoned scorpion stinger."
         effect=""
@@ -198,7 +198,7 @@
         weight="1"
         max-per-slot="10"/>
     <item id="511"
-        image="armor-head-santahat.png"
+        image="equipment/head/santahat.png"
         name="Santa Hat"
         description="Ask Santa about this hat."
         effect="+2% Defense"
@@ -233,28 +233,28 @@
         hp="10"
         weight="1"/>
     <item id="515"
-        image="generic-purplepresentbox.png"
+        image="generic/purplepresentbox.png"
         name="Purple Present Box"
         description="Something mysterious inside."
         effect=""
         type="generic"
         weight="10"/>
     <item id="516"
-        image="generic-bluepresentbox.png"
+        image="generic/bluepresentbox.png"
         name="Blue Present Box"
         description="Something mysterious inside."
         effect=""
         type="generic"
         weight="10"/>
     <item id="517"
-        image="generic-scorpionstinger.png|W:#e04040,f0f0f0"
+        image="generic/scorpionstinger.png|W:#e04040,f0f0f0"
         name="Red Scorpion Stinger"
         description="A highly poisoned red scorpion stinger."
         effect=""
         type="generic"
         weight="1"/>
     <item id="518"
-        image="generic-bugleg.png"
+        image="generic/bugleg.png"
         name="Bug Leg"
         description="A bug's leg. Mostly used for alchemy."
         effect=""
@@ -312,7 +312,7 @@
         <sound event="strike">weapons/knives/sharpknife-miss1.ogg</sound>
     </item>
     <item id="523"
-        image="armor-chest-leathershirt.png"
+        image="equipment/chest/leathershirt.png"
         name="Leather Shirt"
         description="A shirt made of hardened leather."
         effect="+4% Defense"
@@ -324,7 +324,7 @@
         <sprite gender="female">chest-leather-female.xml|#412300,603100,8d4900;#ffff00</sprite>
     </item>
     <item id="524"
-        image="armor-head-fancyhat.png"
+        image="equipment/head/fancyhat.png"
         name="Fancy Hat"
         description="A fancy hat."
         effect="+5% Defense"
@@ -335,7 +335,7 @@
         <sprite>head-fancyhat.xml</sprite>
     </item>
     <item id="525"
-        image="armor-head-minershat.png"
+        image="equipment/head/minershat.png"
         name="Miners Hat"
         description="A hat used by miners."
         effect="+4% Defense"
@@ -346,7 +346,7 @@
         <sprite>head-minershat.xml</sprite>
     </item>
     <item id="526"
-        image="generic-coinbag.png"
+        image="generic/coinbag.png"
         name="Coin Bag"
         description="A bag used to hold coins."
         effect=""
@@ -407,8 +407,8 @@
         weight="30"
         defense="2"
         max-per-slot="1">
-        <sprite gender="male">hands-gloves-generic-male.xml|#202020,505050</sprite>
-        <sprite gender="female">hands-gloves-generic-female.xml|#202020,505050</sprite>
+        <sprite gender="male">hands-gloves-generic/male.xml|#202020,505050</sprite>
+        <sprite gender="female">hands-gloves-generic/female.xml|#202020,505050</sprite>
     </item>
     <item id="532"
         image="equipment/hands/leathergloves.png"
@@ -419,8 +419,8 @@
         weight="20"
         defense="4"
         max-per-slot="1">
-        <sprite gender="male">hands-gloves-generic-male.xml|#4e2e18,c8752f</sprite>
-        <sprite gender="female">hands-gloves-generic-female.xml|#4e2e18,c8752f</sprite>
+        <sprite gender="male">hands-gloves-generic/male.xml|#4e2e18,c8752f</sprite>
+        <sprite gender="female">hands-gloves-generic/female.xml|#4e2e18,c8752f</sprite>
     </item>
     <item id="533"
         image="use/food/roastedmaggot.png"
@@ -466,7 +466,7 @@
         max-per-slot="1"
         view="521"/>
     <item id="537"
-        image="generic-treasurekey.png"
+        image="generic/treasurekey.png"
         name="Treasure Key"
         description="A rusty key."
         effect="Opens chests"
@@ -474,7 +474,7 @@
         weight="2"
         max-per-slot="10"/>
     <item id="538"
-        image="generic-greenpresentbox.png"
+        image="generic/greenpresentbox.png"
         name="Green Present Box"
         description="Something mysterious inside."
         effect=""
@@ -516,7 +516,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="543"
-        image="armor-head-standardheadband.png|W:#291e16,99784c,d8bd86,ffffff"
+        image="equipment/head/standardheadband.png|W:#291e16,99784c,d8bd86,ffffff"
         name="Standard Headband"
         description="A standard headband."
         effect="+3% Defense"
@@ -527,7 +527,7 @@
         <sprite>head-standardheadband.xml|#563f25,99784c,d8bd86,ffffff</sprite>
     </item>
     <item id="544"
-        image="armor-head-silkheadband.png"
+        image="equipment/head/silkheadband.png"
         name="Silk Headband"
         description="A cool headband made of silk."
         effect="+10% Defense"
@@ -554,7 +554,7 @@
         missile-particle="graphics/particles/arrow.particle.xml"
         view="1200"/>
     <item id="546"
-        image="armor-chest-desertshirt.png"
+        image="equipment/chest/desertshirt.png"
         name="Desert Shirt"
         description="A shirt suitable for desert trips."
         effect="+6% Defense"
@@ -722,11 +722,11 @@
         weight="20"
         defense="3"
         max-per-slot="1">
-        <sprite gender="male">hands-gloves-generic-male.xml|#202020,c0c0c0,ffffff,ffffff</sprite>
-        <sprite gender="female">hands-gloves-generic-female.xml|#202020,c0c0c0,ffffff,ffffff</sprite>
+        <sprite gender="male">hands-gloves-generic/male.xml|#202020,c0c0c0,ffffff,ffffff</sprite>
+        <sprite gender="female">hands-gloves-generic/female.xml|#202020,c0c0c0,ffffff,ffffff</sprite>
     </item>
     <item id="564"
-        image="armor-chest-tnecksweater.png|W:#A4B2B2,FFFFFF"
+        image="equipment/chest/tnecksweater.png|W:#A4B2B2,FFFFFF"
         name="Turtleneck Sweater"
         description="A soft, warm sweater."
         effect="+6% Defense"
@@ -738,7 +738,7 @@
         <sprite gender="female">chest-tnecksweater-female.xml|#A4B2B2,FFFFFF</sprite>
     </item>
     <item id="565"
-        image="generic-petal.png|W:#EE748D,FFD8CE"
+        image="generic/petal.png|W:#EE748D,FFD8CE"
         name="Pink Petal"
         description="A petal from an evil flower."
         effect="+50 HP"
@@ -747,7 +747,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="566"
-        image="generic-smallmushroom.png"
+        image="generic/smallmushroom.png"
         name="Small Mushroom"
         description="A mushroom."
         effect="+50 HP"
@@ -772,7 +772,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="569"
-        image="generic-rawlog.png"
+        image="generic/rawlog.png"
         name="Raw Log"
         description="A raw log."
         effect=""
@@ -1218,7 +1218,7 @@
         <sprite gender="female">leg-shorts-female.xml|#255367,266c84,68b0c5,ffffff</sprite>
     </item>
     <item id="611"
-        image="generic-whitefur.png"
+        image="generic/whitefur.png"
         name="White Fur"
         description="A patch of white, fluffy fur."
         effect=""
@@ -1226,7 +1226,7 @@
         weight="8"
         max-per-slot="10"/>
     <item id="612"
-        image="generic-cavesnakelamp.png"
+        image="generic/cavesnakelamp.png"
         name="Cave Snake Lamp"
         description="The feeler of a lamp snake that glows in the dark."
         effect=""
@@ -1234,7 +1234,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="613"
-        image="generic-hardspike.png"
+        image="generic/hardspike.png"
         name="Hard Spike"
         description="The hard spike of a slain monster."
         effect=""
@@ -1242,7 +1242,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="614"
-        image="generic-pinkantennae.png"
+        image="generic/pinkantennae.png"
         name="Pink Antenna"
         description="No-one knows why pinkies have these antennas on their heads."
         effect=""
@@ -1250,7 +1250,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="615"
-        image="armor-head-pumpkinhelmet.png"
+        image="equipment/head/pumpkinhelmet.png"
         name="Pumpkin Helmet"
         description="A helmet made out of a pumpkin."
         effect="+4% Defense"
@@ -1261,7 +1261,7 @@
         <sprite>head-pumpkinhelmet.xml</sprite>
     </item>
     <item id="616"
-        image="armor-head-axehat.png"
+        image="equipment/head/axehat.png"
         name="Axe Hat"
         description="A really cool joke."
         effect="+4% Defense"
@@ -1272,7 +1272,7 @@
         <sprite>head-axehat.xml</sprite>
     </item>
     <item id="617"
-        image="armor-head-piratehat.png"
+        image="equipment/head/piratehat.png"
         name="Pirate Hat"
         description="A pirate hat."
         effect="+4% Defense"
@@ -1283,7 +1283,7 @@
         <sprite>head-piratehat.xml</sprite>
     </item>
     <item id="618"
-        image="armor-head-goggles.png"
+        image="equipment/head/goggles.png"
         name="Goggles"
         description="Goggles designed to take care of your eyes."
         effect="+2% Defense"
@@ -1294,7 +1294,7 @@
         <sprite>head-goggles.xml|#787878,f7f7f7</sprite>
     </item>
     <item id="619"
-        image="armor-head-leathergoggles.png"
+        image="equipment/head/leathergoggles.png"
         name="Leather Goggles"
         description="Goggles designed for desert storms."
         effect="+3% Defense"
@@ -1316,7 +1316,7 @@
         <sprite>head-circlet.xml</sprite>
     </item>
     <item id="621"
-        image="armor-head-eyepatch.png"
+        image="equipment/head/eyepatch.png"
         name="Eyepatch"
         description="What really makes you a pirate."
         effect="+3% Defense"
@@ -1327,7 +1327,7 @@
         <sprite>head-eyepatch.xml</sprite>
     </item>
     <item id="622"
-        image="armor-head-bandana.png"
+        image="equipment/head/bandana.png"
         name="Bandana"
         description="A striped bandana."
         effect="+3% Defense"
@@ -1354,7 +1354,7 @@
         <sprite>weapon-scythe.xml</sprite>
     </item>
     <item id="624"
-        image="armor-chest-vnecksweater.png|W:#A4B2B2,FFFFFF"
+        image="equipment/chest/vnecksweater.png|W:#A4B2B2,FFFFFF"
         name="V-Neck Sweater"
         description="A soft, warm sweater."
         effect="+8% Defense"
@@ -1366,7 +1366,7 @@
         <sprite gender="female">chest-vnecksweater-female.xml|#A4B2B2,FFFFFF</sprite>
     </item>
     <item id="625"
-        image="armor-chest-chainmail.png"
+        image="equipment/chest/chainmail.png"
         name="Chainmail Shirt"
         description="A shirt made of chains. It weighs a lot but offers excellent protection."
         effect="+20% Defense"
@@ -1378,7 +1378,7 @@
         <sprite gender="female">chest-chainmail-female.xml</sprite>
     </item>
     <item id="626"
-        image="armor-chest-lightplatemail.png|W:#ddeeff"
+        image="equipment/chest/lightplatemail.png|W:#ddeeff"
         name="Light Platemail"
         description="A light cuirass with shoulder pads made of iron, usually worn by foot soldiers."
         effect="+25% Defense"
@@ -1390,7 +1390,7 @@
         <sprite gender="female">chest-lightplatemail-female.xml|#ddeeff</sprite>
     </item>
     <item id="627"
-        image="armor-head-tophat.png"
+        image="equipment/head/tophat.png"
         name="Top Hat"
         description="For the gentry of The Mana World."
         effect="+10% Defense"
@@ -1401,7 +1401,7 @@
         <sprite>head-tophat.xml</sprite>
     </item>
     <item id="628"
-        image="armor-head-funkyhat.png"
+        image="equipment/head/funkyhat.png"
         name="Funky Hat"
         description="Yawn..."
         effect="+13% Defense"
@@ -1412,7 +1412,7 @@
         <sprite>head-funkywinter.xml</sprite>
     </item>
     <item id="629"
-        image="armor-head-mushroomhat.png"
+        image="equipment/head/mushroomhat.png"
         name="Mush Hat"
         description="Soft and fashionable."
         effect="+10% Defense"
@@ -1423,7 +1423,7 @@
         <sprite>head-mushroom.xml</sprite>
     </item>
     <item id="630"
-        image="armor-head-shroomhat.png"
+        image="equipment/head/shroomhat.png"
         name="Shroom Hat"
         description="Evil and fashionable."
         effect="+13% Defense"
@@ -1434,7 +1434,7 @@
         <sprite>head-shroom.xml</sprite>
     </item>
     <item id="631"
-        image="generic-darkcrystal.png"
+        image="generic/darkcrystal.png"
         name="Dark Crystal"
         description="A dark crystal that emits a demonic aura."
         effect=""
@@ -1453,7 +1453,7 @@
         <sprite>leg-skirt.xml|#A4B2B2,FFFFFF</sprite>
     </item>
     <item id="633"
-        image="armor-head-xmaself.png"
+        image="equipment/head/xmaself.png"
         name="Christmas Elf Hat"
         description="A hat worn by Christmas elves."
         effect="+13% Defense"
@@ -1464,7 +1464,7 @@
         <sprite>head-xmaself.xml</sprite>
     </item>
     <item id="634"
-        image="armor-head-mask.png"
+        image="equipment/head/mask.png"
         name="Face Mask"
         description="A wooden mask to conceal your face."
         effect="+10% Defense"
@@ -1483,7 +1483,7 @@
         weight="1"
         max-per-slot="1"/>
     <item id="636"
-        image="armor-head-warlordhelm.png"
+        image="equipment/head/warlordhelm.png"
         name="Warlord Helmet"
         description="Worn by great warriors."
         effect="+18% Defense"
@@ -1493,7 +1493,7 @@
         <sprite>head-warlordhelm.xml</sprite>
     </item>
     <item id="637"
-        image="armor-head-knighthelm.png"
+        image="equipment/head/knighthelm.png"
         name="Knight's Helmet"
         description="A helmet with two small wings on it."
         effect="+15% Defense"
@@ -1503,7 +1503,7 @@
         <sprite>head-knighthelm.xml</sprite>
     </item>
     <item id="638"
-        image="armor-head-infantryhelm.png"
+        image="equipment/head/infantryhelm.png"
         name="Infantry Helmet"
         description="A helmet for soldiers and guards."
         effect="+15% Defense"
@@ -1513,7 +1513,7 @@
         <sprite>head-infantryhelm.xml</sprite>
     </item>
     <item id="639"
-        image="armor-head-crusadehelm.png"
+        image="equipment/head/crusadehelm.png"
         name="Crusade Helmet"
         description="Start your own crusade."
         effect="+18% Defense"
@@ -1523,14 +1523,14 @@
         <sprite>head-crusadehelm.xml</sprite>
     </item>
     <item id="640"
-        image="generic-ironore.png"
+        image="generic/ironore.png"
         name="Iron Ore"
         description="A lump of iron ore."
         effect=""
         type="generic"
         weight="40"/>
     <item id="641"
-        image="generic-snakeskin.png"
+        image="generic/snakeskin.png"
         name="Snake Skin"
         description="The skin of a slain snake."
         effect=""
@@ -1548,7 +1548,7 @@
         <sprite gender="female">leg-chaps-female.xml</sprite>
     </item>
     <item id="643"
-        image="armor-head-cowboywhite.png"
+        image="equipment/head/cowboywhite.png"
         name="White Cowboy Hat"
         description="A white cowboy hat with a band."
         effect="+6% Defense"
@@ -1558,7 +1558,7 @@
         <sprite>head-cowboywhite.xml</sprite>
     </item>
     <item id="644"
-        image="armor-head-cowboyblack.png"
+        image="equipment/head/cowboyblack.png"
         name="Black Cowboy Hat"
         description="A black cowboy hat with shiny buckles."
         effect="+6% Defense"
@@ -1568,7 +1568,7 @@
         <sprite>head-cowboyblack.xml</sprite>
     </item>
     <item id="645"
-        image="armor-chest-lightplatemail.png|W:#573f10,9c8226,d3c04b,ffffff"
+        image="equipment/chest/lightplatemail.png|W:#573f10,9c8226,d3c04b,ffffff"
         name="Golden Platemail"
         description="A plate mail made from gold, which only the richest of the richest can afford."
         effect="+25% Defense"
@@ -1589,7 +1589,7 @@
         <sprite>head-crown.xml</sprite>
     </item>
     <item id="647"
-        image="armor-head-devcap.png|R:#9999ff"
+        image="equipment/head/devcap.png|R:#9999ff"
         name="Developer's Cap"
         description="A cap which identifies you as a developer."
         effect="+5% Defense"
@@ -1653,7 +1653,7 @@
         max-per-slot="1"
         willpower="5"/>
     <item id="654"
-        image="armor-head-cap.png|R:#d94800"
+        image="equipment/head/cap.png|R:#d94800"
         name="Cap"
         description="A hat with a peak to shield your eyes from the sun."
         effect="+5% Defense"
@@ -1675,7 +1675,7 @@
         <sprite gender="female">equipment/feet/furboots-female.xml</sprite>
     </item>
     <item id="656"
-        image="armor-head-serf.png"
+        image="equipment/head/serf.png"
         name="Serf Hat"
         description="A simple hat made from cloth."
         effect="+2% Defense"
@@ -1695,7 +1695,7 @@
         weight="7"
         max-per-slot="10"/>
     <item id="658"
-        image="armor-chest-warlordplate.png"
+        image="equipment/chest/warlordplate.png"
         name="Warlord Plate"
         description="Strong and decorative armor."
         effect="+27% Defense"
@@ -1707,7 +1707,7 @@
         <sprite gender="female">chest-warlordplate-female.xml</sprite>
     </item>
         <item id="659"
-        image="armor-chest-warlordplate.png|W:#573f10,9c8226,d3c04b,ffffff"
+        image="equipment/chest/warlordplate.png|W:#573f10,9c8226,d3c04b,ffffff"
         name="Golden Warlord Plate"
         description="Strong and decorative armor made from gold."
         effect="+27% Defense"
@@ -1719,7 +1719,7 @@
         <sprite gender="female">chest-warlordplate-female.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
     </item>
     <item id="660"
-        image="generic-fabric.png|W:#2b454d,72818c,b7c0c5,ffffff"
+        image="generic/fabric.png|W:#2b454d,72818c,b7c0c5,ffffff"
         name="Cotton Cloth"
         description="A piece of cotton cloth."
         effect=""
@@ -1727,7 +1727,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="661"
-        image="generic-rose.png|W:#bb2222,ff8888"
+        image="generic/rose.png|W:#bb2222,ff8888"
         name="Red Rose"
         description="A red rose. A symbol for romantic love."
         effect=""
@@ -1735,7 +1735,7 @@
         weight="1"
         max-per-slot="1" />
     <item id="662"
-        image="generic-rose.png|W:#dddddd,ffffff"
+        image="generic/rose.png|W:#dddddd,ffffff"
         name="White Rose"
         description="A white rose. A symbol for everlasting love."
         effect=""
@@ -1743,7 +1743,7 @@
         weight="1"
         max-per-slot="1" />
     <item id="663"
-        image="generic-rose.png|W:#bb0022"
+        image="generic/rose.png|W:#bb0022"
         name="Dark Red Rose"
         description="A dark red rose. A symbol for sad love."
         effect=""
@@ -1751,7 +1751,7 @@
         weight="1"
         max-per-slot="1" />
     <item id="664"
-        image="generic-rose.png|W:#dd88aa,ffdddd"
+        image="generic/rose.png|W:#dd88aa,ffdddd"
         name="Pink Rose"
         description="A pink rose. A symbol for innocent love."
         effect=""
@@ -1759,7 +1759,7 @@
         weight="1"
         max-per-slot="1" />
     <item id="665"
-        image="generic-rose.png|W:#dddd00,ffff00"
+        image="generic/rose.png|W:#dddd00,ffff00"
         name="Yellow Rose"
         description="A yellow rose. A symbol for platonic love and friendship."
         effect=""
@@ -1767,7 +1767,7 @@
         weight="1"
         max-per-slot="1" />
     <item id="666"
-        image="generic-rose.png|W:#111111,444444,555555,ffffff"
+        image="generic/rose.png|W:#111111,444444,555555,ffffff"
         name="Black Rose"
         description="A black rose. When you look closely at it, you see patterns within patterns, subtly changing colors, and further arrangements that almost seem designed to draw your attention in, and away from the rest of the world. Dizzy, you quickly look away."
         effect="This item cannot be used directly, but may have certain effects given the right circumstances."
@@ -1775,7 +1775,7 @@
         weight="1"
         max-per-slot="1" />
     <item id="667"
-        image="generic-rose.png|W:#dd8800,ffdd00"
+        image="generic/rose.png|W:#dd8800,ffdd00"
         name="Orange Rose"
         description="An orange rose. A symbol for friendship turning into love."
         effect=""
@@ -1783,7 +1783,7 @@
         weight="1"
         max-per-slot="1" />
     <item id="668"
-        image="generic-rose.png|W:#6666aa,ccccff"
+        image="generic/rose.png|W:#6666aa,ccccff"
         name="Blue Rose"
         description="An blue rose. A symbol for mystery or attaining the impossible."
         effect=""
@@ -1791,7 +1791,7 @@
         weight="1"
         max-per-slot="1" />
     <item id="669"
-        image="generic-tulip.png|W:#ddaa22,eeee44"
+        image="generic/tulip.png|W:#ddaa22,eeee44"
         name="Yellow Tulip"
         description="A yellow tulip. A symbol for hopeless love."
         effect=""
@@ -1799,7 +1799,7 @@
         weight="1"
         max-per-slot="1" />
     <item id="670"
-        image="generic-tulip.png|W:#000088,dd88ff"
+        image="generic/tulip.png|W:#000088,dd88ff"
         name="Purple Tulip"
         description="A purple tulip. A symbol for enchantment."
         effect=""
@@ -1807,7 +1807,7 @@
         weight="1"
         max-per-slot="1" />
     <item id="671"
-        image="generic-tulip.png|W:#882288,dd4444"
+        image="generic/tulip.png|W:#882288,dd4444"
         name="Red Tulip"
         description="A red tulip. A declaration of love."
         effect=""
@@ -1815,7 +1815,7 @@
         weight="1"
         max-per-slot="1" />
     <item id="672"
-        image="generic-tulip.png|W:#8888dd,ffffff"
+        image="generic/tulip.png|W:#8888dd,ffffff"
         name="White Tulip"
         description="A white tulip. A symbol for everlasting friendship."
         effect=""
@@ -1823,7 +1823,7 @@
         weight="1"
         max-per-slot="1" />
     <item id="673"
-        image="generic-tulip.png|W:#dd44dd,fff0f0"
+        image="generic/tulip.png|W:#dd44dd,fff0f0"
         name="Pink Tulip"
         description="A pink tulip. A symbol for gratitude."
         effect=""
@@ -1831,7 +1831,7 @@
         weight="1"
         max-per-slot="1" />
     <item id="674"
-        image="generic-tulip.png|W:#aa2222,ffdd22"
+        image="generic/tulip.png|W:#aa2222,ffdd22"
         name="Orange Tulip"
         description="An orange tulip. A symbol for admiration."
         effect=""
@@ -1839,7 +1839,7 @@
         weight="1"
         max-per-slot="1" />
     <item id="675"
-        image="armor-head-gradcap.png"
+        image="equipment/head/gradcap.png"
         name="Graduation Cap"
         description="A traditional cap which a university student may wear upon graduating."
         effect="+2% Defense"
@@ -1868,7 +1868,7 @@
         max-per-slot="10"
         intelligence="5"/>
     <item id="678"
-        image="armor-head-nohmask.png"
+        image="equipment/head/nohmask.png"
         name="Noh Mask"
         description="A traditional Japanese mask worn in Noh plays."
         effect="+3% Defense"
@@ -1879,7 +1879,7 @@
         <sprite>head-nohmask.xml</sprite>
     </item>
     <item id="679"
-        image="armor-head-demonmask.png"
+        image="equipment/head/demonmask.png"
         name="Demon Mask"
         description="A scary mask to make you look like a demon."
         effect="+3% Defense"
@@ -1890,28 +1890,28 @@
         <sprite>head-demonmask.xml</sprite>
     </item>
     <item id="680"
-        image="generic-herb.png|W:#e0b0ff"
+        image="generic/herb.png|W:#e0b0ff"
         name="Mauve Herb"
         description="An ingredient for brewing healing potions."
         type="generic"
         weight="1"
         max-per-slot="10"/>
     <item id="681"
-        image="generic-herb.png|W:#0047ab"
+        image="generic/herb.png|W:#0047ab"
         name="Cobalt Herb"
         description="An ingredient for brewing healing potions."
         type="generic"
         weight="1"
         max-per-slot="10"/>
     <item id="682"
-        image="generic-herb.png|W:#ef9b0f"
+        image="generic/herb.png|W:#ef9b0f"
         name="Gamboge Herb"
         description="An ingredient for brewing healing potions."
         type="generic"
         weight="1"
         max-per-slot="10"/>
     <item id="683"
-        image="generic-herb.png|W:#e32636"
+        image="generic/herb.png|W:#e32636"
         name="Alizarin Herb"
         description="An ingredient for brewing healing potions."
         type="generic"
@@ -1954,7 +1954,7 @@
         weight="25"
         max-per-slot="10"/>
     <item id="688"
-        image="armor-chest-tanktop.png|W:#A4B2B2,FFFFFF"
+        image="equipment/chest/tanktop.png|W:#A4B2B2,FFFFFF"
         name="Tank Top"
         description="A sleeveless shirt for hot summer days."
         effect="+2% Defense"
@@ -1964,7 +1964,7 @@
         <sprite gender="female">chest-tanktop-female.xml|#A4B2B2,FFFFFF</sprite>
     </item>
     <item id="689"
-        image="armor-chest-tanktop-short.png|W:#A4B2B2,FFFFFF"
+        image="equipment/chest/tanktop-short.png|W:#A4B2B2,FFFFFF"
         name="Short Tank Top"
         description="A short, sleeveless shirt for VERY hot summer days."
         effect="+2% Defense"
@@ -2044,14 +2044,14 @@
         weight="10"
         max-per-slot="10"/>
     <item id="700"
-        image="generic-pearl.png"
+        image="generic/pearl.png"
         name="Pearl"
         description="A pearl, round and shiny."
         type="generic"
         weight="5"
         max-per-slot="10"/>
     <item id="701"
-        image="generic-powder.png"
+        image="generic/powder.png"
         name="Pile of Ash"
         description="A pile of ash similar to volcanic ash."
         type="generic"
@@ -2065,14 +2065,14 @@
         weight="1"
         max-per-slot="1"/>
     <item id="703"
-        image="generic-powder.png|W:#606030,b0b090,e0e0a0,ffffe0"
+        image="generic/powder.png|W:#606030,b0b090,e0e0a0,ffffe0"
         name="Sulphur Powder"
         description="A small pile of sulphur."
         type="generic"
         weight="2"
         max-per-slot="10"/>
     <item id="704"
-        image="generic-powder.png|W:#405060"
+        image="generic/powder.png|W:#405060"
         name="Iron Powder"
         description="A pile of powdered iron."
         type="generic"
@@ -2088,7 +2088,7 @@
         weight="50"
         max-per-slot="10"/>
     <item id="706"
-        image="generic-scorpionstinger.png|W:#e0d080,fff0e0,ffffff"
+        image="generic/scorpionstinger.png|W:#e0d080,fff0e0,ffffff"
         name="Golden Scorpion Stinger"
         description="A golden scorpion stinger, tipped with lethal poison."
         effect=""
@@ -2103,42 +2103,42 @@
         weight="50"
         max-per-slot="10"/>
     <item id="708"
-        image="generic-patch-leather.png"
+        image="generic/patch-leather.png"
         name="Leather Patch"
         description="A patch of tanned leather."
         effect=""
         type="generic"
         weight="18"/>
     <item id="709"
-        image="generic-scorpionstinger.png|W:#a08040"
+        image="generic/scorpionstinger.png|W:#a08040"
         name="Black Scorpion Stinger"
         description="A black scorpion stinger, dripping with poison."
         effect=""
         type="generic"
         weight="1"/>
     <item id="710"
-        image="generic-snake-tongue.png|W:#e04020"
+        image="generic/snake-tongue.png|W:#e04020"
         name="Snake Tongue"
         description="The forked tongue of a snake."
         effect=""
         type="generic"
         weight="1"/>
     <item id="711"
-        image="generic-snake-tongue.png|W:#706060"
+        image="generic/snake-tongue.png|W:#706060"
         name="Mountain Snake Tongue"
         description="The forked tongue of a mountain snake."
         effect=""
         type="generic"
         weight="1"/>
     <item id="712"
-        image="generic-snake-tongue.png|W:#a05050,e08080"
+        image="generic/snake-tongue.png|W:#a05050,e08080"
         name="Grass Snake Tongue"
         description="The forked tongue of a grass snake."
         effect=""
         type="generic"
         weight="1"/>
     <item id="713"
-        image="generic-snake-tongue.png|W:#907070,d0a0a0"
+        image="generic/snake-tongue.png|W:#907070,d0a0a0"
         name="Cave Snake Tongue"
         description="The forked tongue of a cave snake."
         effect=""
@@ -2193,7 +2193,7 @@
         weight="5"
         max-per-slot="10"/>
     <item id="720"
-        image="armor-chest-robe.png|W:#ffffff"
+        image="equipment/chest/silk-robe.png|W:#ffffff"
         name="Silk Robe"
         description="A light and shimmering silk robe."
         effect="+5% Defense"
@@ -2215,7 +2215,7 @@
         <sprite>head-highpriest-crown.xml</sprite>
     </item>
     <item id="722"
-        image="armor-head-monster-skull-helm.png"
+        image="equipment/head/monster-skull-helm.png"
         name="Monster Skull Helmet"
         description="The conserved skull of a mysterious ancient monster."
         effect="+7% Defense, +20% Magic Defense"
@@ -2225,7 +2225,7 @@
         <sprite>head-monster-skull-helm.xml</sprite>
     </item>
     <item id="723"
-        image="armor-head-deserthat.png|R:#FFFFFF"
+        image="equipment/head/deserthat.png|R:#FFFFFF"
         name="Desert Hat"
         description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
         effect="+3% Defense"
@@ -2235,7 +2235,7 @@
         <sprite>head-deserthat.xml|#FFFFFF</sprite>
     </item>
     <item id="724"
-        image="armor-head-standardheadband.png|W:#A4B2B2,FFFFFF"
+        image="equipment/head/standardheadband.png|W:#A4B2B2,FFFFFF"
         name="Cotton Headband"
         description="Just a cotton headband."
         effect="+2% Defense"
@@ -2245,7 +2245,7 @@
         <sprite>head-standardheadband.xml|#A4B2B2,FFFFFF</sprite>
     </item>
     <item id="725"
-        image="armor-head-gmcap.png|R:#BF0E08"
+        image="equipment/head/gmcap.png|R:#BF0E08"
         name="GM Cap"
         description="A cap which identifies you as a GM. Only GMs can wear this."
         effect="+5% Defense"
@@ -2255,7 +2255,7 @@
         <sprite>head-gmcap.xml|#BF0E08</sprite>
     </item>
     <item id="726"
-        image="armor-chest-robe.png|W:#E40A0A"
+        image="equipment/chest/silk-robe.png|W:#E40A0A"
         name="GM Robe"
         description="A light and shimmering silk robe made for GMs. Only GMs can wear this."
         effect="+5% Defense"
@@ -2267,28 +2267,28 @@
         <sprite gender="female">chest-robe-female.xml|#E40A0A</sprite>
     </item>
     <item id="727"
-        image="generic-iten.png|W:#ffe0f0"
+        image="generic/iten.png|W:#ffe0f0"
         name="Iten"
         description="An iten."
         effect=""
         type="generic"
         weight="8000"/>
     <item id="728"
-        image="generic-wooden-mouboo.png"
+        image="generic/wooden-mouboo.png"
         name="Mouboo Figurine"
         description="A small, wooden figurine of a mouboo."
         effect=""
         type="generic"
         weight="9"/>
     <item id="729"
-        image="generic-warped-log.png"
+        image="generic/warped-log.png"
         name="Warped Log"
         description="A piece of wood, warped and twisted by some unnatural force."
         effect=""
         type="generic"
         weight="8"/>
     <item id="730"
-        image="generic-gemstone-a.png|W:#a0a010,ffffa0"
+        image="generic/gemstone-a.png|W:#a0a010,ffffa0"
         name="Lifestone"
         description="A small crystal shard, warm to the touch."
         effect=""
@@ -2307,7 +2307,7 @@
         <sprite gender="female">leg-assassin-female.xml</sprite>
     </item>
     <item id="732"
-        image="generic-dry-branch.png"
+        image="generic/dry-branch.png"
         name="Druid Tree Branch"
         description="A branch cut off from the druid tree. It feels strangely leathery to the touch."
         effect=""
@@ -2378,7 +2378,7 @@
         type="usable"
         weight="10"/>
     <item id="740"
-        image="generic-root.png"
+        image="generic/root.png"
         name="Root"
         description="A root from a plant."
         type="generic"
@@ -2391,8 +2391,8 @@
         type="equip-arms"
         defense="1"
         weight="10">
-        <sprite gender="male">hands-gloves-generic-male.xml|#A4B2B2,FFFFFF</sprite>
-        <sprite gender="female">hands-gloves-generic-female.xml|#A4B2B2,FFFFFF</sprite>
+        <sprite gender="male">hands-gloves-generic/male.xml|#A4B2B2,FFFFFF</sprite>
+        <sprite gender="female">hands-gloves-generic/female.xml|#A4B2B2,FFFFFF</sprite>
     </item>
     <item id="742"
         image="equipment/charms/clover.png"
@@ -2468,7 +2468,7 @@
         hp="5"
         weight="10"/>
     <item id="751"
-        image="armor-head-pinkiehat.png"
+        image="equipment/head/pinkiehat.png"
         name="Pinkie Hat"
         description="With this, you'll fit right in with those strange pinkies."
         effect="+1% Defense"
@@ -2479,7 +2479,7 @@
         <sprite>head-pinkiehat.xml</sprite>
     </item>
     <item id="752"
-        image="armor-head-fluffyhat.png"
+        image="equipment/head/fluffyhat.png"
         name="Fluffy Hat"
         description="Now you can wear fur on your head."
         effect="+2% Defense"
@@ -2490,13 +2490,13 @@
         <sprite>head-fluffyhat.xml</sprite>
     </item>
     <item id="753"
-        image="generic-batwing.png"
+        image="generic/batwing.png"
         name="Bat Wing"
         description="The wing from a bat."
         type="generic"
         weight="3"/>
     <item id="754"
-        image="generic-batteeth.png"
+        image="generic/batteeth.png"
         name="Bat Teeth"
         description="The teeth from a bat. Rather sharp."
         type="generic"
@@ -2554,7 +2554,7 @@
         <sprite>weapon-staff.xml</sprite>
     </item>
     <item id="759"
-        image="armor-head-paladin-helm.png"
+        image="equipment/head/paladin-helm.png"
         name="Paladin's Helmet"
         description="Worn only by paladins."
         effect="+19% Defense"
@@ -2565,7 +2565,7 @@
         <sprite>head-paladinhelm.xml</sprite>
     </item>
     <item id="760"
-        image="armor-head-overlord-helm.png"
+        image="equipment/head/overlord-helm.png"
         name="Overlord's Helmet"
         description="Worn by the greatest warriors."
         effect="+20% Defense"
@@ -2576,7 +2576,7 @@
         <sprite>head-overlordhelm.xml</sprite>
     </item>
     <item id="761"
-        image="armor-head-desert-helmet.png"
+        image="equipment/head/desert-helmet.png"
         name="Desert Helmet"
         description="The perfect desert warriors' helmet."
         effect="+21% Defense"
@@ -2595,7 +2595,7 @@
         weight="1"
         max-per-slot="100"/>
     <item id="763"
-        image="generic-terraniteore.png"
+        image="generic/terraniteore.png"
         name="Terranite Ore"
         description="Some ore collected out of terranite."
         effect=""
@@ -2603,7 +2603,7 @@
         weight="40"
         max-per-slot="10"/>
     <item id="764"
-        image="armor-head-sailor_hat.png"
+        image="equipment/head/sailor_hat.png"
         name="Sailor Hat"
         description="A hat worn by brave sailors."
         effect="+5% Defense"
@@ -2614,7 +2614,7 @@
         <sprite>head-sailor_hat.xml</sprite>
     </item>
     <item id="765"
-        image="armor-head-captain_hat.png"
+        image="equipment/head/captain_hat.png"
         name="Captain's Hat"
         description="A hat worn by the bravest captains."
         effect="+15% Defense"
@@ -2625,7 +2625,7 @@
         <sprite>head-captain_hat.xml</sprite>
     </item>
     <item id="766"
-        image="armor-head-terranitehelm.png"
+        image="equipment/head/terranitehelm.png"
         name="Terranite Helmet"
         description="A magical helmet made out of semi-polished granite that was enchanted to be very light. Great for mages on the battlefield."
         effect=""
@@ -2635,7 +2635,7 @@
         <sprite>head-terranitehelm.xml</sprite>
     </item>
     <item id="767"
-        image="armor-chest-terranite.png"
+        image="equipment/chest/terranite.png"
         name="Terranite Chest Armor"
         description="A nice piece of armor made out of terranite ore."
         effect="+1 Dexterity"
@@ -2659,7 +2659,7 @@
         <sprite gender="female">leg-terranite-female.xml</sprite>
     </item>
     <item id="769"
-        image="armor-head-guyfawkes.png"
+        image="equipment/head/guyfawkes.png"
         name="Guy Fawkes Mask"
         description="The famous Guy Fawkes mask."
         effect="+3% Defense"
@@ -2670,7 +2670,7 @@
         <sprite>head-guyfawkes.xml</sprite>
     </item>
     <item id="770"
-        image="armor-head-fairy_hat.png"
+        image="equipment/head/fairy_hat.png"
         name="Fairy Hat"
         description="The famous hat worn by Robin Hood."
         effect="+5% Defense"
@@ -2693,7 +2693,7 @@
         <sprite gender="female">leg-miniskirt-female.xml|#a4b2b2,ffffff</sprite>
     </item>
     <item id="772"
-        image="generic-spice.png|R:#FFFF00"
+        image="generic/spice.png|R:#FFFF00"
         name="Wisp Powder"
         description="Powder from a wisp."
         effect=""
@@ -2701,7 +2701,7 @@
         weight="3"
         max-per-slot="30"/>
     <item id="773"
-        image="generic-spice.png|R:#FF00FF"
+        image="generic/spice.png|R:#FF00FF"
         name="Spectre Powder"
         description="Powder from a spectre."
         effect=""
@@ -2709,7 +2709,7 @@
         weight="3"
         max-per-slot="30"/>
     <item id="774"
-        image="generic-spice.png|R:#00FFFF"
+        image="generic/spice.png|R:#00FFFF"
         name="Poltergeist Powder"
         description="Powder from a poltergeist."
         effect=""
@@ -2717,7 +2717,7 @@
         weight="3"
         max-per-slot="30"/>
     <item id="775"
-        image="generic-bone.png"
+        image="generic/bone.png"
         name="Bone"
         description="A bone."
         effect=""
@@ -2725,7 +2725,7 @@
         weight="10"
         max-per-slot="5"/>
     <item id="776"
-        image="generic-skull.png"
+        image="generic/skull.png"
         name="Skull"
         description="A skull."
         effect=""
@@ -2733,7 +2733,7 @@
         weight="30"
         max-per-slot="2"/>
     <item id="777"
-        image="generic-rags-rotten.png"
+        image="generic/rags-rotten.png"
         name="Rotten Rags"
         description="Rotten rags from an undead creature."
         effect=""
@@ -2741,7 +2741,7 @@
         weight="15"
         max-per-slot="40"/>
     <item id="778"
-        image="generic-heart-diseased.png"
+        image="generic/heart-diseased.png"
         name="Diseased Heart"
         description="A diseased heart. Likely from a zombie."
         effect=""
@@ -2749,7 +2749,7 @@
         weight="10"
         max-per-slot="15"/>
     <item id="779"
-        image="generic-ear-zombie.png"
+        image="generic/ear-zombie.png"
         name="Undead Ear"
         description="An ear from a zombie."
         effect=""
@@ -2757,7 +2757,7 @@
         weight="5"
         max-per-slot="25"/>
     <item id="780"
-        image="generic-eyeball.png"
+        image="generic/eyeball.png"
         name="Undead Eye"
         description="An eye from a zombie."
         effect=""
@@ -2862,7 +2862,7 @@
         weight="5"
         max-per-slot="10"/>
     <item id="791"
-        image="armor-chest-tanktop.png|W:#412300,c9866b,8d4900;#ffff00"
+        image="equipment/chest/tanktop.png|W:#412300,c9866b,8d4900;#ffff00"
         name="Yeti Skin Shirt"
         description="A shirt made of hardened yeti skin."
         effect=""
@@ -2970,7 +2970,7 @@
         <sprite>equipment/head/bowler-hat-brown.xml</sprite>
     </item>
     <item id="801"
-        image="armor-head-pinkie-helmet.png"
+        image="equipment/head/pinkie-helmet.png"
         name="Pinkie Helmet"
         description="A helmet of Pinkie warriors."
         effect="+1 Luck"
@@ -3024,119 +3024,119 @@
         type="generic"
         weight="1"/>
     <item id="808"
-        image="generic-warp-towel.png"
+        image="use/others/warp-towel.png"
         name="Hitchhiker's Towel"
         description="An inconspicuous towel."
         effect=""
         type="generic"
         weight="20"/>
     <item id="809"
-        image="generic-warp-towel.png|W:#5E7480,F1FFFF,FFFFFF"
+        image="use/others/warp-towel.png|W:#5E7480,F1FFFF,FFFFFF"
         name="White Hitchhiker's Towel"
         description="An inconspicuous white towel."
         effect="useWhiteWarpTowel"
         type="generic"
         weight="30"/>
     <item id="810"
-        image="generic-warp-towel.png|W:#580000,A40000,C02020,ff6060"
+        image="use/others/warp-towel.png|W:#580000,A40000,C02020,ff6060"
         name="Red Hitchhiker's Towel"
         description="An inconspicuous red towel."
         effect="useRedWarpTowel"
         type="generic"
         weight="30"/>
     <item id="811"
-        image="generic-warp-towel.png|W:#1f9c1f,89d689"
+        image="use/others/warp-towel.png|W:#1f9c1f,89d689"
         name="Green Hitchhiker's Towel"
         description="An inconspicuous green towel."
         effect="useGreenWarpTowel"
         type="generic"
         weight="30"/>
     <item id="812"
-        image="generic-warp-towel.png|W:#4b4bbd,888af4"
+        image="use/others/warp-towel.png|W:#4b4bbd,888af4"
         name="Blue Hitchhiker's Towel"
         description="An inconspicuous blue towel."
         effect="useBlueWarpTowel"
         type="generic"
         weight="30"/>
     <item id="813"
-        image="generic-warp-towel.png|W:#ccb534,f1ea8e,ffffaa"
+        image="use/others/warp-towel.png|W:#ccb534,f1ea8e,ffffaa"
         name="Yellow Hitchhiker's Towel"
         description="An inconspicuous yellow towel."
         effect="useYellowWarpTowel"
         type="generic"
         weight="30"/>
     <item id="814"
-        image="generic-warp-towel.png|W:#530a7c,b362e1,ca87ef"
+        image="use/others/warp-towel.png|W:#530a7c,b362e1,ca87ef"
         name="Purple Hitchhiker's Towel"
         description="An inconspicuous purple towel."
         effect="usePurpleWarpTowel"
         type="generic"
         weight="30"/>
     <item id="815"
-        image="generic-warp-towel.png|W:#80280f,b04810,ef681f,ffb830"
+        image="use/others/warp-towel.png|W:#80280f,b04810,ef681f,ffb830"
         name="Orange Hitchhiker's Towel"
         description="An inconspicuous orange towel."
         effect="useOrangeWarpTowel"
         type="generic"
         weight="30"/>
     <item id="816"
-        image="generic-warp-towel.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+        image="use/others/warp-towel.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink Hitchhiker's Towel"
         description="An inconspicuous pink towel."
         effect="usePinkWarpTowel"
         type="generic"
         weight="30"/>
     <item id="817"
-        image="generic-warp-towel.png|W:#4EE2EC"
+        image="use/others/warp-towel.png|W:#4EE2EC"
         name="Teal Hitchhiker's Towel"
         description="An inconspicuous teal towel."
         effect="useTealWarpTowel"
         type="generic"
         weight="30"/>
     <item id="818"
-        image="generic-warp-towel.png|W:#41A317"
+        image="use/others/warp-towel.png|W:#41A317"
         name="Lime Hitchhiker's Towel"
         description="An inconspicuous lime towel."
         effect="useLimeWarpTowel"
         type="generic"
         weight="30"/>
     <item id="819"
-        image="generic-gempowder.png|W:#5E7480,F1FFFF,FFFFFF"
+        image="generic/gempowder.png|W:#5E7480,F1FFFF,FFFFFF"
         name="Diamond Powder"
         description="A white powder made out of a diamond."
         effect=""
         type="generic"
         weight="5"/>
     <item id="820"
-        image="generic-gempowder.png|W:#580000,A40000,C02020,ff6060"
+        image="generic/gempowder.png|W:#580000,A40000,C02020,ff6060"
         name="Ruby Powder"
         description="A red powder made out of a ruby."
         effect=""
         type="generic"
         weight="5"/>
     <item id="821"
-        image="generic-gempowder.png|W:#1f9c1f,89d689"
+        image="generic/gempowder.png|W:#1f9c1f,89d689"
         name="Emerald Powder"
         description="A green powder made out of an emerald."
         effect=""
         type="generic"
         weight="5"/>
     <item id="822"
-        image="generic-gempowder.png|W:#4b4bbd,888af4"
+        image="generic/gempowder.png|W:#4b4bbd,888af4"
         name="Sapphire Powder"
         description="A blue powder made out of a sapphire."
         effect=""
         type="generic"
         weight="5"/>
     <item id="823"
-        image="generic-gempowder.png|W:#ccb534,f1ea8e,ffffaa"
+        image="generic/gempowder.png|W:#ccb534,f1ea8e,ffffaa"
         name="Topaz Powder"
         description="A yellow powder made out of a topaz."
         effect=""
         type="generic"
         weight="5"/>
     <item id="824"
-        image="generic-gempowder.png|W:#530a7c,b362e1,ca87ef"
+        image="generic/gempowder.png|W:#530a7c,b362e1,ca87ef"
         name="Amethyst Powder"
         description="A purple powder made out of an amethyst."
         effect=""
@@ -3146,7 +3146,7 @@
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
     <item id="1198"
-        image="generic-spectral-orb.png|R:#FF6600,FF9933,FFFF33"
+        image="generic/spectral-orb.png|R:#FF6600,FF9933,FFFF33"
         name="Jack O Soul"
         description="The soul of a Jack O."
         effect=""
@@ -3194,7 +3194,7 @@
         attack-action="attack"
         view="521"/>
     <item id="1202"
-        image="armor-chest-cottonshirt.png|W:#A4B2B2,FFFFFF"
+        image="equipment/chest/cottonshirt.png|W:#A4B2B2,FFFFFF"
         name="Cotton Shirt"
         description="A shirt made of 100% cotton."
         effect="+2% Defense"
@@ -3206,7 +3206,7 @@
         <sprite gender="female">chest-cotton-female.xml|#A4B2B2,FFFFFF</sprite>
     </item>
     <item id="1203"
-        image="armor-head-rangerhat.png"
+        image="equipment/head/rangerhat.png"
         name="Ranger Hat"
         description="A leather hat traditionally worn by rangers."
         effect="+2% Defense"
@@ -3217,7 +3217,7 @@
         <sprite>head-rangerhat.xml</sprite>
     </item>
     <item id="1204"
-        image="armor-head-antlerhat.png"
+        image="equipment/head/antlerhat.png"
         name="Antler Hat"
         description="A hat with antlers sticking out of it."
         effect="+4% Defense"
@@ -3228,7 +3228,7 @@
         <sprite>head-antlerhat.xml</sprite>
     </item>
     <item id="1205"
-        image="armor-head-christmastree.png"
+        image="equipment/head/christmastree.png"
         name="Christmas Tree Hat"
         description="A hat shaped like a Christmas tree."
         effect="+2% Defense"
@@ -3239,7 +3239,7 @@
         <sprite>head-christmastree.xml</sprite>
     </item>
     <item id="1206"
-        image="armor-head-santabeardhat.png"
+        image="equipment/head/santabeardhat.png"
         name="Santa Beard Hat"
         description="Now you will look just like Santa Claus!"
         effect="+5% Defense"
@@ -3250,7 +3250,7 @@
         <sprite>head-santabeardhat.xml</sprite>
     </item>
     <item id="1207"
-        image="generic-redstocking.png"
+        image="generic/redstocking.png"
         name="Red Christmas Stocking"
         description="Eww, it's smelly!"
         effect=""
@@ -3258,7 +3258,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="1208"
-        image="generic-easteregg-red.png"
+        image="generic/easteregg-red.png"
         name="Red Easter Egg"
         description="A red easter egg. Find all six different easter eggs to win a prize."
         effect=""
@@ -3266,7 +3266,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="1209"
-        image="generic-easteregg-green.png"
+        image="generic/easteregg-green.png"
         name="Green Easter Egg"
         description="A green easter egg. Find all six different easter eggs to win a prize."
         effect=""
@@ -3274,7 +3274,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="1210"
-        image="generic-easteregg-blue.png"
+        image="generic/easteregg-blue.png"
         name="Blue Easter Egg"
         description="A blue easter egg. Find all six different easter eggs to win a prize."
         effect=""
@@ -3282,7 +3282,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="1211"
-        image="generic-easteregg-yellow.png"
+        image="generic/easteregg-yellow.png"
         name="Yellow Easter Egg"
         description="A yellow easter egg. Find all six different easter eggs to win a prize."
         effect=""
@@ -3290,7 +3290,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="1212"
-        image="generic-easteregg-pink.png"
+        image="generic/easteregg-pink.png"
         name="Pink Easter Egg"
         description="A pink easter egg. Find all six different easter eggs to win a prize."
         effect=""
@@ -3298,7 +3298,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="1213"
-        image="generic-easteregg-teal.png"
+        image="generic/easteregg-teal.png"
         name="Teal Easter Egg"
         description="A teal easter egg. Find all six different easter eggs to win a prize."
         effect=""
@@ -3306,7 +3306,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="1214"
-        image="armor-head-bunnyears.png"
+        image="equipment/head/bunnyears.png"
         name="Bunny Ears"
         description="A headband with plush bunny ears."
         effect="+10% Defense"
@@ -3333,7 +3333,7 @@
         <sound event="hit">weapons/swords/sabre-hit1.ogg</sound>
     </item>
     <item id="1216"
-        image="armor-head-mouboohead.png"
+        image="equipment/head/mouboohead.png"
         name="Mouboo Head"
         description="A tightly fitting mouboo head."
         effect="+1% Defense"
@@ -3343,7 +3343,7 @@
         <sprite>head-mouboohead.xml</sprite>
     </item>
     <item id="1217"
-        image="armor-head-catears.png|M:#774444;W:#777777"
+        image="equipment/head/catears.png|M:#774444;W:#777777"
         name="Cat Ears"
         description="A pair of plush cat ears. Meow!"
         effect="+1% Defense, +3 Agility"
@@ -3353,7 +3353,7 @@
         <sprite>head-catears.xml|#774444;#777777</sprite>
     </item>
     <item id="1218"
-        image="armor-head-paperbag.png"
+        image="equipment/head/paperbag.png"
         name="Paper Bag"
         description="A paper bag with eye holes."
         effect="+1% Defense, -1 Agility"
@@ -3363,7 +3363,7 @@
         <sprite>head-paperbag.xml</sprite>
     </item>
     <item id="1219"
-        image="armor-head-moubootaurhead.png"
+        image="equipment/head/moubootaurhead.png"
         name="Moubootaur Head"
         description="The Moubootaur's head."
         effect="+1% Defense"
@@ -3373,7 +3373,7 @@
         <sprite>head-moubootaurhead.xml</sprite>
     </item>
     <item id="1220"
-        image="armor-head-parsley-earplugs.png"
+        image="equipment/head/parsley-earplugs.png"
         name="Bunch of Parsley"
         description="A bunch of parsley, useful for salads and many other dishes. In a pinch, it doubles as earplugs."
         effect="+1% Defense"
@@ -3383,7 +3383,7 @@
         <sprite>head-parsley-earplugs.xml</sprite>
     </item>
     <item id="1221"
-        image="armor-head-skullmask.png"
+        image="equipment/head/skullmask.png"
         name="Skull Mask"
         description="A mask made out of bones."
         effect="+3% Defense"
@@ -3393,7 +3393,7 @@
         <sprite>head-skullmask.xml</sprite>
     </item>
     <item id="1222"
-        image="generic-claylump_small.png"
+        image="generic/claylump_small.png"
         name="Small Piece of Clay"
         description="A small piece of clay, used to make different shapes."
         effect=""
@@ -3401,7 +3401,7 @@
         weight="5"
         max-per-slot="10"/>
     <item id="1223"
-        image="generic-claylump_big.png"
+        image="generic/claylump_big.png"
         name="Big Piece of White Clay"
         description="A big piece of white clay, used to make bigger shapes."
         effect=""
@@ -3491,7 +3491,7 @@
         max-per-slot="200"/>
 
     <item id="1233"
-        image="generic-fakefangs.png"
+        image="generic/fakefangs.png"
         name="Cheap Plastic Fangs"
         description="A costumed Dracula's must. Doesn't really suck blood."
         type="generic"
@@ -3555,7 +3555,7 @@
         weight="1"/>
 
    <item id="1242"
-        image="armor-head-snowgoggles.png"
+        image="equipment/head/snowgoggles.png"
         name="Snow Goggles"
         description="Snow Goggles to keep your eyeballs from freezing."
         effect="+5% Defense"
@@ -3566,7 +3566,7 @@
     </item>
     <!-- RESERVED -->
     <item id="1244"
-        image="generic-iten.png"
+        image="generic/iten.png"
         name="Dark Talisman"
         description="A small cube. It radiates unimaginable power, and is quite dizzying to look at."
         effect="Unimaginable powers to a successful wielder."
@@ -3701,7 +3701,7 @@
         <sprite>equipment/head/operamask.xml</sprite>
      </item>
      <item id="1277"
-        image="armor-head-jestermask.png"
+        image="equipment/head/jestermask.png"
         name="Jester Mask"
         description="Laughter with bells on."
         type="equip-head"
@@ -3758,7 +3758,7 @@
         an additional item property.
     -->
     <item id="2050"
-        image="armor-chest-cottonshirt.png|W:#580000,A40000,C02020,ff6060"
+        image="equipment/chest/cottonshirt.png|W:#580000,A40000,C02020,ff6060"
         name="Red Cotton Shirt"
         description="A shirt made of 100% cotton."
         effect="+2% Defense"
@@ -3768,7 +3768,7 @@
         <sprite gender="female">chest-cotton-female.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
     <item id="2051"
-        image="armor-chest-cottonshirt.png|W:#115511,22aa22,99dd99"
+        image="equipment/chest/cottonshirt.png|W:#115511,22aa22,99dd99"
         name="Green Cotton Shirt"
         description="A shirt made of 100% cotton."
         effect="+2% Defense"
@@ -3778,7 +3778,7 @@
         <sprite gender="female">chest-cotton-female.xml|#115511,22aa22,99dd99</sprite>
     </item>
     <item id="2052"
-        image="armor-chest-cottonshirt.png|W:#222255,6666ff"
+        image="equipment/chest/cottonshirt.png|W:#222255,6666ff"
         name="Dark Blue Cotton Shirt"
         description="A shirt made of 100% cotton."
         effect="+2% Defense"
@@ -3788,7 +3788,7 @@
         <sprite gender="female">chest-cotton-female.xml|#222255,6666ff</sprite>
     </item>
     <item id="2053"
-        image="armor-chest-cottonshirt.png|W:#846211,dab333,fffb93,ffffff"
+        image="equipment/chest/cottonshirt.png|W:#846211,dab333,fffb93,ffffff"
         name="Yellow Cotton Shirt"
         description="A shirt made of 100% cotton."
         effect="+2% Defense"
@@ -3798,7 +3798,7 @@
         <sprite gender="female">chest-cotton-female.xml|#846211,dab333,fffb93,ffffff</sprite>
     </item>
     <item id="2054"
-        image="armor-chest-cottonshirt.png|W:#16486e,498ec5,e4f2fc"
+        image="equipment/chest/cottonshirt.png|W:#16486e,498ec5,e4f2fc"
         name="Light Blue Cotton Shirt"
         description="A shirt made of 100% cotton."
         effect="+2% Defense"
@@ -3808,7 +3808,7 @@
         <sprite gender="female">chest-cotton-female.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
     <item id="2055"
-        image="armor-chest-cottonshirt.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+        image="equipment/chest/cottonshirt.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink Cotton Shirt"
         description="A shirt made of 100% cotton."
         effect="+2% Defense"
@@ -3818,7 +3818,7 @@
         <sprite gender="female">chest-cotton-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2056"
-        image="armor-chest-cottonshirt.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+        image="equipment/chest/cottonshirt.png|W:#111111,222222,333333,444444,555555,aaaaaa"
         name="Black Cotton Shirt"
         description="A shirt made of 100% cotton."
         effect="+2% Defense"
@@ -3828,7 +3828,7 @@
         <sprite gender="female">chest-cotton-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
     <item id="2057"
-        image="armor-chest-cottonshirt.png|W:#80280f,b04810,ef681f,ffb830"
+        image="equipment/chest/cottonshirt.png|W:#80280f,b04810,ef681f,ffb830"
         name="Orange Cotton Shirt"
         description="A shirt made of 100% cotton."
         effect="+2% Defense"
@@ -3838,7 +3838,7 @@
         <sprite gender="female">chest-cotton-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
     <item id="2058"
-        image="armor-chest-cottonshirt.png|W:#4f0a76,8010c0,d699f7"
+        image="equipment/chest/cottonshirt.png|W:#4f0a76,8010c0,d699f7"
         name="Purple Cotton Shirt"
         description="A shirt made of 100% cotton."
         effect="+2% Defense"
@@ -3848,7 +3848,7 @@
         <sprite gender="female">chest-cotton-female.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2059"
-        image="armor-chest-cottonshirt.png|W:#104010,208020,30c030"
+        image="equipment/chest/cottonshirt.png|W:#104010,208020,30c030"
         name="Dark Green Cotton Shirt"
         description="A shirt made of 100% cotton."
         effect="+2% Defense"
@@ -3859,7 +3859,7 @@
     </item>
 
     <item id="2060"
-        image="armor-chest-vnecksweater.png|W:#580000,A40000,C02020,ff6060"
+        image="equipment/chest/vnecksweater.png|W:#580000,A40000,C02020,ff6060"
         name="Red V-Neck Sweater"
         description="A soft, warm sweater."
         effect="+8% Defense"
@@ -3869,7 +3869,7 @@
         <sprite gender="female">chest-vnecksweater-female.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
     <item id="2061"
-        image="armor-chest-vnecksweater.png|W:#115511,22aa22,99dd99"
+        image="equipment/chest/vnecksweater.png|W:#115511,22aa22,99dd99"
         name="Green V-Neck Sweater"
         description="A soft, warm sweater."
         effect="+8% Defense"
@@ -3879,7 +3879,7 @@
         <sprite gender="female">chest-vnecksweater-female.xml|#115511,22aa22,99dd99</sprite>
     </item>
     <item id="2062"
-        image="armor-chest-vnecksweater.png|W:#222255,6666ff"
+        image="equipment/chest/vnecksweater.png|W:#222255,6666ff"
         name="Dark Blue V-Neck Sweater"
         description="A soft, warm sweater."
         effect="+8% Defense"
@@ -3889,7 +3889,7 @@
         <sprite gender="female">chest-vnecksweater-female.xml|#222255,6666ff</sprite>
     </item>
     <item id="2063"
-        image="armor-chest-vnecksweater.png|W:#846211,dab333,fffb93,ffffff"
+        image="equipment/chest/vnecksweater.png|W:#846211,dab333,fffb93,ffffff"
         name="Yellow V-Neck Sweater"
         description="A soft, warm sweater."
         effect="+8% Defense"
@@ -3899,7 +3899,7 @@
         <sprite gender="female">chest-vnecksweater-female.xml|#846211,dab333,fffb93,ffffff</sprite>
     </item>
     <item id="2064"
-        image="armor-chest-vnecksweater.png|W:#16486e,498ec5,e4f2fc"
+        image="equipment/chest/vnecksweater.png|W:#16486e,498ec5,e4f2fc"
         name="Light Blue V-Neck Sweater"
         description="A soft, warm sweater."
         effect="+8% Defense"
@@ -3909,7 +3909,7 @@
         <sprite gender="female">chest-vnecksweater-female.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
     <item id="2065"
-        image="armor-chest-vnecksweater.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+        image="equipment/chest/vnecksweater.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink V-Neck Sweater"
         description="A soft, warm sweater."
         effect="+8% Defense"
@@ -3919,7 +3919,7 @@
         <sprite gender="female">chest-vnecksweater-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2066"
-        image="armor-chest-vnecksweater.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+        image="equipment/chest/vnecksweater.png|W:#111111,222222,333333,444444,555555,aaaaaa"
         name="Black V-Neck Sweater"
         description="A soft, warm sweater."
         effect="+8% Defense"
@@ -3929,7 +3929,7 @@
         <sprite gender="female">chest-vnecksweater-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
     <item id="2067"
-        image="armor-chest-vnecksweater.png|W:#80280f,b04810,ef681f,ffb830"
+        image="equipment/chest/vnecksweater.png|W:#80280f,b04810,ef681f,ffb830"
         name="Orange V-Neck Sweater"
         description="A soft, warm sweater."
         effect="+8% Defense"
@@ -3939,7 +3939,7 @@
         <sprite gender="female">chest-vnecksweater-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
     <item id="2068"
-        image="armor-chest-vnecksweater.png|W:#4f0a76,8010c0,d699f7"
+        image="equipment/chest/vnecksweater.png|W:#4f0a76,8010c0,d699f7"
         name="Purple V-Neck Sweater"
         description="A soft, warm sweater."
         effect="+8% Defense"
@@ -3949,7 +3949,7 @@
         <sprite gender="female">chest-vnecksweater-female.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2069"
-        image="armor-chest-vnecksweater.png|W:#104010,208020,30c030"
+        image="equipment/chest/vnecksweater.png|W:#104010,208020,30c030"
         name="Dark Green V-Neck Sweater"
         description="A soft, warm sweater."
         effect="+8% Defense"
@@ -3960,7 +3960,7 @@
     </item>
 
     <item id="2070"
-        image="armor-chest-tnecksweater.png|W:#580000,A40000,C02020,ff6060"
+        image="equipment/chest/tnecksweater.png|W:#580000,A40000,C02020,ff6060"
         name="Red Turtleneck Sweater"
         description="A soft, warm sweater."
         effect="+6% Defense"
@@ -3970,7 +3970,7 @@
         <sprite gender="female">chest-tnecksweater-female.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
     <item id="2071"
-        image="armor-chest-tnecksweater.png|W:#115511,22aa22,99dd99"
+        image="equipment/chest/tnecksweater.png|W:#115511,22aa22,99dd99"
         name="Green Turtleneck Sweater"
         description="A soft, warm sweater."
         effect="+6% Defense"
@@ -3980,7 +3980,7 @@
         <sprite gender="female">chest-tnecksweater-female.xml|#115511,22aa22,99dd99</sprite>
     </item>
     <item id="2072"
-        image="armor-chest-tnecksweater.png|W:#222255,6666ff"
+        image="equipment/chest/tnecksweater.png|W:#222255,6666ff"
         name="Dark Blue Turtleneck Sweater"
         description="A soft, warm sweater."
         effect="+6% Defense"
@@ -3990,7 +3990,7 @@
         <sprite gender="female">chest-tnecksweater-female.xml|#222255,6666ff</sprite>
     </item>
     <item id="2073"
-        image="armor-chest-tnecksweater.png|W:#846211,dab333,fffb93,ffffff"
+        image="equipment/chest/tnecksweater.png|W:#846211,dab333,fffb93,ffffff"
         name="Yellow Turtleneck Sweater"
         description="A soft, warm sweater."
         effect="+6% Defense"
@@ -4000,7 +4000,7 @@
         <sprite gender="female">chest-tnecksweater-female.xml|#846211,dab333,fffb93,ffffff</sprite>
     </item>
     <item id="2074"
-        image="armor-chest-tnecksweater.png|W:#16486e,498ec5,e4f2fc"
+        image="equipment/chest/tnecksweater.png|W:#16486e,498ec5,e4f2fc"
         name="Light Blue Turtleneck Sweater"
         description="A soft, warm sweater."
         effect="+6% Defense"
@@ -4010,7 +4010,7 @@
         <sprite gender="female">chest-tnecksweater-female.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
     <item id="2075"
-        image="armor-chest-tnecksweater.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+        image="equipment/chest/tnecksweater.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink Turtleneck Sweater"
         description="A soft, warm sweater."
         effect="+6% Defense"
@@ -4020,7 +4020,7 @@
         <sprite gender="female">chest-tnecksweater-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2076"
-        image="armor-chest-tnecksweater.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+        image="equipment/chest/tnecksweater.png|W:#111111,222222,333333,444444,555555,aaaaaa"
         name="Black Turtleneck Sweater"
         description="A soft, warm sweater."
         effect="+6% Defense"
@@ -4030,7 +4030,7 @@
         <sprite gender="female">chest-tnecksweater-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
     <item id="2077"
-        image="armor-chest-tnecksweater.png|W:#80280f,b04810,ef681f,ffb830"
+        image="equipment/chest/tnecksweater.png|W:#80280f,b04810,ef681f,ffb830"
         name="Orange Turtleneck Sweater"
         description="A soft, warm sweater."
         effect="+6% Defense"
@@ -4040,7 +4040,7 @@
         <sprite gender="female">chest-tnecksweater-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
     <item id="2078"
-        image="armor-chest-tnecksweater.png|W:#4f0a76,8010c0,d699f7"
+        image="equipment/chest/tnecksweater.png|W:#4f0a76,8010c0,d699f7"
         name="Purple Turtleneck Sweater"
         description="A soft, warm sweater."
         effect="+6% Defense"
@@ -4050,7 +4050,7 @@
         <sprite gender="female">chest-tnecksweater-female.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2079"
-        image="armor-chest-tnecksweater.png|W:#104010,208020,30c030"
+        image="equipment/chest/tnecksweater.png|W:#104010,208020,30c030"
         name="Dark Green Turtleneck Sweater"
         description="A soft, warm sweater."
         effect="+6% Defense"
@@ -4061,7 +4061,7 @@
     </item>
 
     <item id="2080"
-        image="armor-chest-robe.png|W:#580000,A40000,C02020,ff6060"
+        image="equipment/chest/silk-robe.png|W:#580000,A40000,C02020,ff6060"
         name="Red Silk Robe"
         description="A light and shimmering silk robe."
         effect="+5% Defense"
@@ -4073,7 +4073,7 @@
         <sprite gender="female">chest-robe-female.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
     <item id="2081"
-        image="armor-chest-robe.png|W:#115511,22aa22,99dd99"
+        image="equipment/chest/silk-robe.png|W:#115511,22aa22,99dd99"
         name="Green Silk Robe"
         description="A light and shimmering silk robe."
         effect="+5% Defense"
@@ -4085,7 +4085,7 @@
         <sprite gender="female">chest-robe-female.xml|#115511,22aa22,99dd99</sprite>
     </item>
     <item id="2082"
-        image="armor-chest-robe.png|W:#222255,6666ff"
+        image="equipment/chest/silk-robe.png|W:#222255,6666ff"
         name="Dark Blue Silk Robe"
         description="A light and shimmering silk robe."
         effect="+5% Defense"
@@ -4097,7 +4097,7 @@
         <sprite gender="female">chest-robe-female.xml|#222255,6666ff</sprite>
     </item>
     <item id="2083"
-        image="armor-chest-robe.png|W:#846211,dab333,fffb93,ffffff"
+        image="equipment/chest/silk-robe.png|W:#846211,dab333,fffb93,ffffff"
         name="Yellow Silk Robe"
         description="A light and shimmering silk robe."
         effect="+5% Defense"
@@ -4109,7 +4109,7 @@
         <sprite gender="female">chest-robe-female.xml|#846211,dab333,fffb93,ffffff</sprite>
     </item>
     <item id="2084"
-        image="armor-chest-robe.png|W:#16486e,498ec5,e4f2fc"
+        image="equipment/chest/silk-robe.png|W:#16486e,498ec5,e4f2fc"
         name="Light Blue Silk Robe"
         description="A light and shimmering silk robe."
         effect="+5% Defense"
@@ -4121,7 +4121,7 @@
         <sprite gender="female">chest-robe-female.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
     <item id="2085"
-        image="armor-chest-robe.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+        image="equipment/chest/silk-robe.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink Silk Robe"
         description="A light and shimmering silk robe."
         effect="+5% Defense"
@@ -4133,7 +4133,7 @@
         <sprite gender="female">chest-robe-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2086"
-        image="armor-chest-robe.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+        image="equipment/chest/silk-robe.png|W:#111111,222222,333333,444444,555555,aaaaaa"
         name="Black Silk Robe"
         description="A light and shimmering silk robe."
         effect="+5% Defense"
@@ -4145,7 +4145,7 @@
         <sprite gender="female">chest-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
     <item id="2087"
-        image="armor-chest-robe.png|W:#80280f,b04810,ef681f,ffb830"
+        image="equipment/chest/silk-robe.png|W:#80280f,b04810,ef681f,ffb830"
         name="Orange Silk Robe"
         description="A light and shimmering silk robe."
         effect="+5% Defense"
@@ -4157,7 +4157,7 @@
         <sprite gender="female">chest-robe-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
     <item id="2088"
-        image="armor-chest-robe.png|W:#4f0a76,8010c0,d699f7"
+        image="equipment/chest/silk-robe.png|W:#4f0a76,8010c0,d699f7"
         name="Purple Silk Robe"
         description="A light and shimmering silk robe."
         effect="+5% Defense"
@@ -4169,7 +4169,7 @@
         <sprite gender="female">chest-robe-female.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2089"
-        image="armor-chest-robe.png|W:#104010,208020,30c030"
+        image="equipment/chest/silk-robe.png|W:#104010,208020,30c030"
         name="Dark Green Silk Robe"
         description="A light and shimmering silk robe."
         effect="+5% Defense"
@@ -4182,7 +4182,7 @@
     </item>
 
     <item id="2090"
-        image="armor-chest-tanktop.png|W:#580000,A40000,C02020,ff6060"
+        image="equipment/chest/tanktop.png|W:#580000,A40000,C02020,ff6060"
         name="Red Tank Top"
         description="A sleeveless shirt for hot summer days."
         effect="+2% Defense"
@@ -4192,7 +4192,7 @@
         <sprite gender="female">chest-tanktop-female.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
     <item id="2091"
-        image="armor-chest-tanktop.png|W:#115511,22aa22,99dd99"
+        image="equipment/chest/tanktop.png|W:#115511,22aa22,99dd99"
         name="Green Tank Top"
         description="A sleeveless shirt for hot summer days."
         effect="+2% Defense"
@@ -4202,7 +4202,7 @@
         <sprite gender="female">chest-tanktop-female.xml|#115511,22aa22,99dd99</sprite>
     </item>
     <item id="2092"
-        image="armor-chest-tanktop.png|W:#222255,6666ff"
+        image="equipment/chest/tanktop.png|W:#222255,6666ff"
         name="Dark Blue Tank Top"
         description="A sleeveless shirt for hot summer days."
         effect="+2% Defense"
@@ -4212,7 +4212,7 @@
         <sprite gender="female">chest-tanktop-female.xml|#222255,6666ff</sprite>
     </item>
     <item id="2093"
-        image="armor-chest-tanktop.png|W:#846211,dab333,fffb93,ffffff"
+        image="equipment/chest/tanktop.png|W:#846211,dab333,fffb93,ffffff"
         name="Yellow Tank Top"
         description="A sleeveless shirt for hot summer days."
         effect="+2% Defense"
@@ -4221,7 +4221,7 @@
         <sprite gender="male">chest-tanktop-male.xml|#846211,dab333,fffb93,ffffff</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#846211,dab333,fffb93,ffffff</sprite>
     </item>
-    <item id="2094" image="armor-chest-tanktop.png|W:#16486e,498ec5,e4f2fc"
+    <item id="2094" image="equipment/chest/tanktop.png|W:#16486e,498ec5,e4f2fc"
         name="Light Blue Tank Top"
         description="A sleeveless shirt for hot summer days."
         effect="+2% Defense"
@@ -4230,7 +4230,7 @@
         <sprite gender="male">chest-tanktop-male.xml|#16486e,498ec5,e4f2fc</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
-    <item id="2095" image="armor-chest-tanktop.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+    <item id="2095" image="equipment/chest/tanktop.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink Tank Top"
         description="A sleeveless shirt for hot summer days."
         effect="+2% Defense"
@@ -4240,7 +4240,7 @@
         <sprite gender="female">chest-tanktop-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2096"
-        image="armor-chest-tanktop.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+        image="equipment/chest/tanktop.png|W:#111111,222222,333333,444444,555555,aaaaaa"
         name="Black Tank Top"
         description="A sleeveless shirt for hot summer days."
         effect="+2% Defense"
@@ -4250,7 +4250,7 @@
         <sprite gender="female">chest-tanktop-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
     <item id="2097"
-        image="armor-chest-tanktop.png|W:#80280f,b04810,ef681f,ffb830"
+        image="equipment/chest/tanktop.png|W:#80280f,b04810,ef681f,ffb830"
         name="Orange Tank Top"
         description="A sleeveless shirt for hot summer days."
         effect="+2% Defense"
@@ -4259,7 +4259,7 @@
         <sprite gender="male">chest-tanktop-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
         <sprite gender="female">chest-tanktop-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
-    <item id="2098" image="armor-chest-tanktop.png|W:#4f0a76,8010c0,d699f7"
+    <item id="2098" image="equipment/chest/tanktop.png|W:#4f0a76,8010c0,d699f7"
         name="Purple Tank Top"
         description="A sleeveless shirt for hot summer days."
         effect="+2% Defense"
@@ -4269,7 +4269,7 @@
         <sprite gender="female">chest-tanktop-female.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2099"
-        image="armor-chest-tanktop.png|W:#104010,208020,30c030"
+        image="equipment/chest/tanktop.png|W:#104010,208020,30c030"
         name="Dark Green Tank Top"
         description="A sleeveless shirt for hot summer days."
         effect="+2% Defense"
@@ -4512,7 +4512,7 @@
     </item>
 
     <item id="2120"
-        image="armor-chest-tanktop-short.png|W:#580000,A40000,C02020,ff6060"
+        image="equipment/chest/tanktop-short.png|W:#580000,A40000,C02020,ff6060"
         name="Red Short Tank Top"
         description="A short, sleeveless shirt for VERY hot summer days."
         effect="+2% Defense"
@@ -4522,7 +4522,7 @@
         <sprite gender="female">chest-shorttanktop-female.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
     <item id="2121"
-        image="armor-chest-tanktop-short.png|W:#115511,22aa22,99dd99"
+        image="equipment/chest/tanktop-short.png|W:#115511,22aa22,99dd99"
         name="Green Short Tank Top"
         description="A short, sleeveless shirt for VERY hot summer days."
         effect="+2% Defense"
@@ -4532,7 +4532,7 @@
         <sprite gender="female">chest-shorttanktop-female.xml|#115511,22aa22,99dd99</sprite>
     </item>
     <item id="2122"
-        image="armor-chest-tanktop-short.png|W:#222255,6666ff"
+        image="equipment/chest/tanktop-short.png|W:#222255,6666ff"
         name="Dark Blue Short Tank Top"
         description="A short, sleeveless shirt for VERY hot summer days."
         effect="+2% Defense"
@@ -4542,7 +4542,7 @@
         <sprite gender="female">chest-shorttanktop-female.xml|#222255,6666ff</sprite>
     </item>
     <item id="2123"
-        image="armor-chest-tanktop-short.png|W:#846211,dab333,fffb93,ffffff"
+        image="equipment/chest/tanktop-short.png|W:#846211,dab333,fffb93,ffffff"
         name="Yellow Short Tank Top"
         description="A short, sleeveless shirt for VERY hot summer days."
         effect="+2% Defense"
@@ -4552,7 +4552,7 @@
         <sprite gender="female">chest-shorttanktop-female.xml|#846211,dab333,fffb93,ffffff</sprite>
     </item>
     <item id="2124"
-        image="armor-chest-tanktop-short.png|W:#16486e,498ec5,e4f2fc"
+        image="equipment/chest/tanktop-short.png|W:#16486e,498ec5,e4f2fc"
         name="Light Blue Short Tank Top"
         description="A short, sleeveless shirt for VERY hot summer days."
         effect="+2% Defense"
@@ -4562,7 +4562,7 @@
         <sprite gender="female">chest-shorttanktop-female.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
     <item id="2125"
-        image="armor-chest-tanktop-short.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+        image="equipment/chest/tanktop-short.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink Short Tank Top"
         description="A short, sleeveless shirt for VERY hot summer days."
         effect="+2% Defense"
@@ -4572,7 +4572,7 @@
         <sprite gender="female">chest-shorttanktop-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2126"
-        image="armor-chest-tanktop-short.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+        image="equipment/chest/tanktop-short.png|W:#111111,222222,333333,444444,555555,aaaaaa"
         name="Black Short Tank Top"
         description="A short, sleeveless shirt for VERY hot summer days."
         effect="+2% Defense"
@@ -4582,7 +4582,7 @@
         <sprite gender="female">chest-shorttanktop-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
     <item id="2127"
-        image="armor-chest-tanktop-short.png|W:#80280f,b04810,ef681f,ffb830"
+        image="equipment/chest/tanktop-short.png|W:#80280f,b04810,ef681f,ffb830"
         name="Orange Short Tank Top"
         description="A short, sleeveless shirt for VERY hot summer days."
         effect="+2% Defense"
@@ -4591,7 +4591,7 @@
         <sprite gender="male">chest-shorttanktop-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
         <sprite gender="female">chest-shorttanktop-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
-    <item id="2128" image="armor-chest-tanktop-short.png|W:#4f0a76,8010c0,d699f7"
+    <item id="2128" image="equipment/chest/tanktop-short.png|W:#4f0a76,8010c0,d699f7"
         name="Purple Short Tank Top"
         description="A short, sleeveless shirt for VERY hot summer days."
         effect="+2% Defense"
@@ -4601,7 +4601,7 @@
         <sprite gender="female">chest-shorttanktop-female.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2129"
-        image="armor-chest-tanktop-short.png|W:#104010,208020,30c030"
+        image="equipment/chest/tanktop-short.png|W:#104010,208020,30c030"
         name="Dark Green Short Tank Top"
         description="A short, sleeveless shirt for VERY hot summer days."
         effect="+2% Defense"
@@ -4612,7 +4612,7 @@
     </item>
 
     <item id="2130"
-        image="armor-head-deserthat.png|R:#580000,A40000,C02020,ff6060"
+        image="equipment/head/deserthat.png|R:#580000,A40000,C02020,ff6060"
         name="Red Desert Hat"
         description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
         effect="+3% Defense"
@@ -4622,7 +4622,7 @@
         <sprite>head-deserthat.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
     <item id="2131"
-        image="armor-head-deserthat.png|R:#115511,22aa22,99dd99"
+        image="equipment/head/deserthat.png|R:#115511,22aa22,99dd99"
         name="Green Desert Hat"
         description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
         effect="+3% Defense"
@@ -4632,7 +4632,7 @@
         <sprite>head-deserthat.xml|#115511,22aa22,99dd99</sprite>
     </item>
     <item id="2132"
-        image="armor-head-deserthat.png|R:#222255,6666ff"
+        image="equipment/head/deserthat.png|R:#222255,6666ff"
         name="Dark Blue Desert Hat"
         description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
         effect="+3% Defense"
@@ -4642,7 +4642,7 @@
         <sprite>head-deserthat.xml|#222255,6666ff</sprite>
     </item>
     <item id="2133"
-        image="armor-head-deserthat.png|R:#846211,dab333,fffb93,ffffff"
+        image="equipment/head/deserthat.png|R:#846211,dab333,fffb93,ffffff"
         name="Yellow Desert Hat"
         description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
         effect="+3% Defense"
@@ -4652,7 +4652,7 @@
         <sprite>head-deserthat.xml|#846211,dab333,fffb93,ffffff</sprite>
     </item>
     <item id="2134"
-        image="armor-head-deserthat.png|R:#16486e,498ec5,e4f2fc"
+        image="equipment/head/deserthat.png|R:#16486e,498ec5,e4f2fc"
         name="Light Blue Desert Hat"
         description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
         effect="+3% Defense"
@@ -4662,7 +4662,7 @@
         <sprite>head-deserthat.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
     <item id="2135"
-        image="armor-head-deserthat.png|R:#56002f,930050,fe70bd,feb7de,ffffff"
+        image="equipment/head/deserthat.png|R:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink Desert Hat"
         description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
         effect="+3% Defense"
@@ -4672,7 +4672,7 @@
         <sprite>head-deserthat.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2136"
-        image="armor-head-deserthat.png|R:#111111,222222,333333,444444,555555,aaaaaa"
+        image="equipment/head/deserthat.png|R:#111111,222222,333333,444444,555555,aaaaaa"
         name="Black Desert Hat"
         description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
         effect="+3% Defense"
@@ -4682,7 +4682,7 @@
         <sprite>head-deserthat.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
     <item id="2137"
-        image="armor-head-deserthat.png|R:#80280f,b04810,ef681f,ffb830"
+        image="equipment/head/deserthat.png|R:#80280f,b04810,ef681f,ffb830"
         name="Orange Desert Hat"
         description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
         effect="+3% Defense"
@@ -4692,7 +4692,7 @@
         <sprite>head-deserthat.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
     <item id="2138"
-        image="armor-head-deserthat.png|R:#4f0a76,8010c0,d699f7"
+        image="equipment/head/deserthat.png|R:#4f0a76,8010c0,d699f7"
         name="Purple Desert Hat"
         description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
         effect="+3% Defense"
@@ -4702,7 +4702,7 @@
         <sprite>head-deserthat.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2139"
-        image="armor-head-deserthat.png|R:#104010,208020,30c030"
+        image="equipment/head/deserthat.png|R:#104010,208020,30c030"
         name="Dark Green Desert Hat"
         description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head."
         effect="+3% Defense"
@@ -4713,7 +4713,7 @@
     </item>
 
     <item id="2140"
-        image="armor-head-standardheadband.png|W:#580000,A40000,C02020,ff6060"
+        image="equipment/head/standardheadband.png|W:#580000,A40000,C02020,ff6060"
         name="Red Cotton Headband"
         description="Just a cotton headband."
         effect="+2% Defense"
@@ -4723,7 +4723,7 @@
         <sprite>head-standardheadband.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
     <item id="2141"
-        image="armor-head-standardheadband.png|W:#115511,22aa22,99dd99"
+        image="equipment/head/standardheadband.png|W:#115511,22aa22,99dd99"
         name="Green Cotton Headband"
         description="Just a cotton headband."
         effect="+2% Defense"
@@ -4733,7 +4733,7 @@
         <sprite>head-standardheadband.xml|#115511,22aa22,99dd99</sprite>
     </item>
     <item id="2142"
-        image="armor-head-standardheadband.png|W:#222255,6666ff"
+        image="equipment/head/standardheadband.png|W:#222255,6666ff"
         name="Dark Blue Cotton Headband"
         description="Just a cotton headband."
         effect="+2% Defense"
@@ -4743,7 +4743,7 @@
         <sprite>head-standardheadband.xml|#222255,6666ff</sprite>
     </item>
     <item id="2143"
-        image="armor-head-standardheadband.png|W:#846211,dab333,fffb93,ffffff"
+        image="equipment/head/standardheadband.png|W:#846211,dab333,fffb93,ffffff"
         name="Yellow Cotton Headband"
         description="Just a cotton headband."
         effect="+2% Defense"
@@ -4753,7 +4753,7 @@
         <sprite>head-standardheadband.xml|#846211,dab333,fffb93,ffffff</sprite>
     </item>
     <item id="2144"
-        image="armor-head-standardheadband.png|W:#16486e,498ec5,e4f2fc"
+        image="equipment/head/standardheadband.png|W:#16486e,498ec5,e4f2fc"
         name="Light Blue Cotton Headband"
         description="Just a cotton headband."
         effect="+2% Defense"
@@ -4763,7 +4763,7 @@
         <sprite>head-standardheadband.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
     <item id="2145"
-        image="armor-head-standardheadband.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+        image="equipment/head/standardheadband.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink Cotton Headband"
         description="Just a cotton headband."
         effect="+2% Defense"
@@ -4773,7 +4773,7 @@
         <sprite>head-standardheadband.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2146"
-        image="armor-head-standardheadband.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+        image="equipment/head/standardheadband.png|W:#111111,222222,333333,444444,555555,aaaaaa"
         name="Black Cotton Headband"
         description="Just a cotton headband."
         effect="+2% Defense"
@@ -4783,7 +4783,7 @@
         <sprite>head-standardheadband.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
     <item id="2147"
-        image="armor-head-standardheadband.png|W:#80280f,b04810,ef681f,ffb830"
+        image="equipment/head/standardheadband.png|W:#80280f,b04810,ef681f,ffb830"
         name="Orange Cotton Headband"
         description="Just a cotton headband."
         effect="+2% Defense"
@@ -4793,7 +4793,7 @@
         <sprite>head-standardheadband.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
     <item id="2148"
-        image="armor-head-standardheadband.png|W:#4f0a76,8010c0,d699f7"
+        image="equipment/head/standardheadband.png|W:#4f0a76,8010c0,d699f7"
         name="Purple Cotton Headband"
         description="Just a cotton headband."
         effect="+2% Defense"
@@ -4803,7 +4803,7 @@
         <sprite>head-standardheadband.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2149"
-        image="armor-head-standardheadband.png|W:#104010,208020,30c030"
+        image="equipment/head/standardheadband.png|W:#104010,208020,30c030"
         name="Dark Green Cotton Headband"
         description="Just a cotton headband."
         effect="+2% Defense"
@@ -4932,8 +4932,8 @@
         type="equip-arms"
         defense="1"
         weight="20">
-        <sprite gender="male">hands-gloves-generic-male.xml|#580000,A40000,C02020,ff6060</sprite>
-        <sprite gender="female">hands-gloves-generic-female.xml|#580000,A40000,C02020,ff6060</sprite>
+        <sprite gender="male">hands-gloves-generic/male.xml|#580000,A40000,C02020,ff6060</sprite>
+        <sprite gender="female">hands-gloves-generic/female.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
     <item id="2161"
         image="equipment/hands/basicgloves.png|W:#115511,22aa22,99dd99"
@@ -4943,8 +4943,8 @@
         type="equip-arms"
         defense="1"
         weight="20">
-        <sprite gender="male">hands-gloves-generic-male.xml|#115511,22aa22,99dd99</sprite>
-        <sprite gender="female">hands-gloves-generic-female.xml|#115511,22aa22,99dd99</sprite>
+        <sprite gender="male">hands-gloves-generic/male.xml|#115511,22aa22,99dd99</sprite>
+        <sprite gender="female">hands-gloves-generic/female.xml|#115511,22aa22,99dd99</sprite>
     </item>
     <item id="2162"
         image="equipment/hands/basicgloves.png|W:#222255,6666ff"
@@ -4954,8 +4954,8 @@
         type="equip-arms"
         defense="1"
         weight="20">
-        <sprite gender="male">hands-gloves-generic-male.xml|#222255,6666ff</sprite>
-        <sprite gender="female">hands-gloves-generic-female.xml|#222255,6666ff</sprite>
+        <sprite gender="male">hands-gloves-generic/male.xml|#222255,6666ff</sprite>
+        <sprite gender="female">hands-gloves-generic/female.xml|#222255,6666ff</sprite>
     </item>
     <item id="2163"
         image="equipment/hands/basicgloves.png|W:#846211,dab333,fffb93,ffffff"
@@ -4965,8 +4965,8 @@
         type="equip-arms"
         defense="1"
         weight="20">
-        <sprite gender="male">hands-gloves-generic-male.xml|#846211,dab333,fffb93,ffffff</sprite>
-        <sprite gender="female">hands-gloves-generic-female.xml|#846211,dab333,fffb93,ffffff</sprite>
+        <sprite gender="male">hands-gloves-generic/male.xml|#846211,dab333,fffb93,ffffff</sprite>
+        <sprite gender="female">hands-gloves-generic/female.xml|#846211,dab333,fffb93,ffffff</sprite>
     </item>
     <item id="2164"
         image="equipment/hands/basicgloves.png|W:#16486e,498ec5,e4f2fc"
@@ -4976,8 +4976,8 @@
         type="equip-arms"
         defense="1"
         weight="20">
-        <sprite gender="male">hands-gloves-generic-male.xml|#16486e,498ec5,e4f2fc</sprite>
-        <sprite gender="female">hands-gloves-generic-female.xml|#16486e,498ec5,e4f2fc</sprite>
+        <sprite gender="male">hands-gloves-generic/male.xml|#16486e,498ec5,e4f2fc</sprite>
+        <sprite gender="female">hands-gloves-generic/female.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
     <item id="2165"
         image="equipment/hands/basicgloves.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
@@ -4987,8 +4987,8 @@
         type="equip-arms"
         defense="1"
         weight="20">
-        <sprite gender="male">hands-gloves-generic-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
-        <sprite gender="female">hands-gloves-generic-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+        <sprite gender="male">hands-gloves-generic/male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+        <sprite gender="female">hands-gloves-generic/female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2166"
         image="equipment/hands/basicgloves.png|W:#111111,222222,333333,444444,555555,aaaaaa"
@@ -4998,8 +4998,8 @@
         type="equip-arms"
         defense="1"
         weight="20">
-        <sprite gender="male">hands-gloves-generic-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
-        <sprite gender="female">hands-gloves-generic-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="male">hands-gloves-generic/male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="female">hands-gloves-generic/female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
     <item id="2167"
         image="equipment/hands/basicgloves.png|W:#80280f,b04810,ef681f,ffb830"
@@ -5009,8 +5009,8 @@
         type="equip-arms"
         defense="1"
         weight="20">
-        <sprite gender="male">hands-gloves-generic-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
-        <sprite gender="female">hands-gloves-generic-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
+        <sprite gender="male">hands-gloves-generic/male.xml|#80280f,b04810,ef681f,ffb830</sprite>
+        <sprite gender="female">hands-gloves-generic/female.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
     <item id="2168"
         image="equipment/hands/basicgloves.png|W:#4f0a76,8010c0,d699f7"
@@ -5020,8 +5020,8 @@
         type="equip-arms"
         defense="1"
         weight="20">
-        <sprite gender="male">hands-gloves-generic-male.xml|#4f0a76,8010c0,d699f7</sprite>
-        <sprite gender="female">hands-gloves-generic-female.xml|#4f0a76,8010c0,d699f7</sprite>
+        <sprite gender="male">hands-gloves-generic/male.xml|#4f0a76,8010c0,d699f7</sprite>
+        <sprite gender="female">hands-gloves-generic/female.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2169"
         image="equipment/hands/basicgloves.png|W:#104010,208020,30c030"
@@ -5031,8 +5031,8 @@
         type="equip-arms"
         defense="1"
         weight="20">
-        <sprite gender="male">hands-gloves-generic-male.xml|#104010,208020,30c030</sprite>
-        <sprite gender="female">hands-gloves-generic-female.xml|#104010,208020,30c030</sprite>
+        <sprite gender="male">hands-gloves-generic/male.xml|#104010,208020,30c030</sprite>
+        <sprite gender="female">hands-gloves-generic/female.xml|#104010,208020,30c030</sprite>
     </item>
     <item id="2170"
         image="equipment/legs/miniskirt.png|W:#580000,a40000,c02020,ff6060"
@@ -5717,31 +5717,31 @@
     </item>
 
     <item id="3000"
-        image="generic-jackolantern.png"
+        image="generic/jackolantern.png"
         name="Jack-o-Lantern"
         description="A pumpkin that has been carved into a super-scary face for Hallowe'en."
         type="generic"
         weight="1000"/>
     <item id="3001"
-        image="generic-rubberbat.png"
+        image="generic/rubberbat.png"
         name="Rubber Bat"
         description="Squeaks when you squeeze it."
         type="generic"
         weight="30"/>
     <item id="3002"
-        image="generic-realisticbrain.png"
+        image="generic/realisticbrain.png"
         name="Realistic Brain"
         description="This brain sure is realistic."
         type="generic"
         weight="50"/>
     <item id="3003"
-        image="generic-jarofblood.png"
+        image="generic/jarofblood.png"
         name="Jar of Blood"
         description="Just the thing to scare the kids at Hallowe'en."
         type="generic"
         weight="375"/>
     <item id="3004"
-        image="generic-tongue.png"
+        image="generic/tongue.png"
         name="Tongue"
         description="A horrible, slimy tongue."
         type="generic"
@@ -5777,7 +5777,7 @@
         type="generic"
         weight="1"/>
     <item id="4000"
-        image="generic-scorpionstinger.png|W:#800000,ffffff"
+        image="generic/scorpionstinger.png|W:#800000,ffffff"
         name="Angry Scorpion Stinger"
         description="An angry scorpion stinger."
         effect=""
@@ -5785,45 +5785,45 @@
         weight="1"
         max-per-slot="10"/>
     <item id="4001"
-        image="generic-coal.png"
+        image="generic/coal.png"
         name="Coal"
         description="A lump of coal."
         effect=""
         type="generic"
         weight="20"/>
     <item id="4002"
-        image="generic-gemstone-b.png"
+        image="generic/gemstone-b.png"
         name="Diamond"
         description="A raw diamond gemstone."
         effect=""
         type="generic"
         weight="20"/>
     <item id="4003"
-        image="generic-gemstone-b.png|W:#580000,A40000,C02020,ff6060"
+        image="generic/gemstone-b.png|W:#580000,A40000,C02020,ff6060"
         name="Ruby"
         description="A raw ruby gemstone."
         type="generic"
         weight="10"/>
     <item id="4004"
-        image="generic-gemstone-b.png|W:#1f9c1f,89d689"
+        image="generic/gemstone-b.png|W:#1f9c1f,89d689"
         name="Emerald"
         description="A raw emerald gemstone."
         type="generic"
         weight="20"/>
     <item id="4005"
-        image="generic-gemstone-b.png|W:#4b4bbd,888af4"
+        image="generic/gemstone-b.png|W:#4b4bbd,888af4"
         name="Sapphire"
         description="A raw sapphire gemstone."
         type="generic"
         weight="20"/>
     <item id="4006"
-        image="generic-gemstone-b.png|W:#ccb534,f1ea8e,ffffaa"
+        image="generic/gemstone-b.png|W:#ccb534,f1ea8e,ffffaa"
         name="Topaz"
         description="A raw topaz gemstone."
         type="generic"
         weight="20"/>
     <item id="4007"
-        image="generic-gemstone-b.png|W:#530a7c,b362e1,ca87ef"
+        image="generic/gemstone-b.png|W:#530a7c,b362e1,ca87ef"
         name="Amethyst"
         description="A raw amethyst gemstone."
         type="generic"
@@ -5878,21 +5878,21 @@
         weight="1"
         max-per-slot="1"/>
     <item id="4015"
-        image="generic-ingot.png"
+        image="generic/ingot.png"
         name="Iron Ingot"
         description="An ingot of iron."
         effect=""
         type="generic"
         weight="200"/>
     <item id="4016"
-        image="generic-bandit-hood.png"
+        image="generic/bandit-hood.png"
         name="Bandit Hood"
         description="A bandit hood crawling with lice."
         effect=""
         type="generic"
         weight="50"/>
     <item id="4017"
-        image="generic-powder.png|W:#c00000"
+        image="generic/powder.png|W:#c00000"
         name="Red Powder"
         description="A pile of magical red powder."
         effect=""
@@ -5900,7 +5900,7 @@
         weight="3"
         max-per-slot="10"/>
      <item id="4018"
-        image="generic-powder.png|W:#ffcc00"
+        image="generic/powder.png|W:#ffcc00"
         name="Yellow Powder"
         description="A pile of magical yellow powder."
         effect=""
@@ -5908,7 +5908,7 @@
         weight="3"
         max-per-slot="10"/>
      <item id="4019"
-        image="generic-powder.png|W:#003399"
+        image="generic/powder.png|W:#003399"
         name="Blue Powder"
         description="A pile of magical blue powder."
         effect=""
@@ -5916,7 +5916,7 @@
         weight="3"
         max-per-slot="10"/>
     <item id="4020"
-        image="armor-head-candlehelmet.png"
+        image="equipment/head/candlehelmet.png"
         name="Candle Helmet"
         description="Worn by spelunkers."
         effect="+16% Defense, -1 Agility, +1 Intelligence"
@@ -5927,7 +5927,7 @@
         <sprite>head-candlehelmet.xml</sprite>
     </item>
     <item id="4021"
-        image="generic-yellowpresentbox.png"
+        image="generic/yellowpresentbox.png"
         name="Yellow Present Box"
         description="Something mysterious inside?"
         effect=""
@@ -5935,7 +5935,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="4022"
-        image="generic-whitepresentbox.png"
+        image="generic/whitepresentbox.png"
         name="White Present Box"
         description="Something very mysterious inside."
         effect=""
@@ -5943,7 +5943,7 @@
         weight="10"
         max-per-slot="10"/>
     <item id="4023"
-        image="generic-animal-bones.png"
+        image="generic/animal-bones.png"
         name="Animal Bones"
         description="Bones from an animal."
         effect=""
@@ -5951,7 +5951,7 @@
         weight="1"
         max-per-slot="10"/>
     <item id="4024"
-        image="generic-frozen-yeti-tear.png"
+        image="generic/frozen-yeti-tear.png"
         name="Frozen Yeti Tear"
         description="A tear from a yeti, frozen."
         effect=""
@@ -5959,7 +5959,7 @@
         weight="1"
         max-per-slot="10"/>
     <item id="4025"
-        image="generic-yeti-claw.png"
+        image="generic/yeti-claw.png"
         name="Yeti Claw"
         description="A claw broken off from a yeti"
         effect=""
@@ -5967,7 +5967,7 @@
         weight="1"
         max-per-slot="10"/>
     <item id="4026"
-        image="generic-ice-cube.png"
+        image="generic/ice-cube.png"
         name="Ice Cube"
         description="Very cold ice cube that never seems to completely melt."
         effect=""
