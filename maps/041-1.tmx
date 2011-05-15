@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="125" height="125" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="faith.ogg"/>
+ </properties>
  <tileset firstgid="1" name="Trans woodland desert" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/trans_woodland-desert.png" width="512" height="256"/>
  </tileset>
@@ -45,18 +48,99 @@
   </data>
  </layer>
  <objectgroup name="Object" width="125" height="125">
-  <object name="to042-1" type="warp" x="1024" y="160" width="96" height="32">
-   <properties>
-    <property name="dest_map" value="042-1"/>
-    <property name="dest_x" value="544"/>
-    <property name="dest_y" value="2592"/>
-   </properties>
-  </object>
   <object name="to004-1" type="warp" x="2400" y="3042" width="96" height="32">
    <properties>
     <property name="dest_map" value="004-1"/>
     <property name="dest_x" value="2176"/>
     <property name="dest_y" value="640"/>
+   </properties>
+  </object>
+  <object name="Scorpion" type="spawn" x="1504" y="1632" width="608" height="320">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1"/>
+   </properties>
+  </object>
+  <object name="Scorpion" type="spawn" x="2144" y="2016" width="608" height="320">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1"/>
+   </properties>
+  </object>
+  <object name="Scorpion" type="spawn" x="2112" y="2560" width="608" height="320">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1"/>
+   </properties>
+  </object>
+  <object name="Scorpion" type="spawn" x="960" y="768" width="448" height="672">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1"/>
+   </properties>
+  </object>
+  <object name="Sea Slime" type="spawn" x="800" y="192" width="352" height="1568">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="31"/>
+   </properties>
+  </object>
+  <object name="Scorpion" type="spawn" x="928" y="288" width="352" height="320">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1"/>
+   </properties>
+  </object>
+  <object name="Black Scorpion" type="spawn" x="1088" y="192" width="128" height="96">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="7"/>
+   </properties>
+  </object>
+  <object name="Black Scorpion" type="spawn" x="1280" y="1536" width="128" height="96">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="7"/>
+   </properties>
+  </object>
+  <object name="Black Scorpion" type="spawn" x="1920" y="2272" width="704" height="320">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="7"/>
+   </properties>
+  </object>
+  <object name="Red Scorpion" type="spawn" x="2112" y="1696" width="608" height="320">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="2"/>
+   </properties>
+  </object>
+  <object name="Red Scorpion" type="spawn" x="1568" y="1920" width="608" height="320">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="2"/>
    </properties>
   </object>
  </objectgroup>
