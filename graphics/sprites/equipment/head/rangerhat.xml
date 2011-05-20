@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <sprite>
-	<imageset name="base" src="graphics/sprites/equipment/head/christmastree.png" width="80" height="51" />
+	<imageset name="base" src="graphics/sprites/equipment/head/rangerhat.png" width="80" height="40" />
 
 	<action name="stand" imageset="base">
 		<animation direction="down">
@@ -135,7 +135,7 @@
 
 	<action name="dead" imageset="base">
 		<animation direction="default">
-		  <frame index="4" offsetX="34" offsetY="-5"/>
+		  <frame index="4" offsetX="24" offsetY="-4"/>
 		</animation>
 	</action>
 
