@@ -1601,12 +1601,64 @@
     <item id="648"
         image="equipment/legs/trousers.png"
         name="Trousers"
-        description=""
-        effect=""
+        description="Cotton pants covering each part of your legs."
+        defense="4"
         type="equip-legs"
-        defense=""
-        weight=""/>
-    <!-- IDs 649 to 653 RESERVED -->
+        weight="25">
+        <sprite>equipment/head/devcap.xml|#9999ff</sprite>
+    </item>
+    <item id="649"
+        image="equipment/chest/sorcerer-robe.png|W:#5E7480,F1FFFF,FFFFFF;R:#2554C7"
+        name="White Evoker's Robe (Blue)"
+        description="A blue lined white evoker's robe."
+        effect="+1 Agility"
+        defense="5"
+        type="equip-torso"
+        weight="5">
+        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#5E7480,F1FFFF,FFFFFF;#2554C7</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#5E7480,F1FFFF,FFFFFF;#2554C7</sprite>
+    </item>
+    <item id="650"
+        image="equipment/chest/sorcerer-robe.png|W:#000000;R:#2554C7"
+        name="Black Evoker's Robe (Blue)"
+        description="A blue lined black evoker's robe."
+        effect="+1 Agility"
+        defense="5"
+        type="equip-torso"
+        weight="5">
+        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#000000;#2554C7</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#000000;#2554C7</sprite>
+    </item>
+    <item id="651"
+        image="equipment/chest/silk-robe.png|W:#5E7480,F1FFFF,FFFFFF"
+        name="White Wizard Robe"
+        description="A white robe made for peaceful wizards."
+        defense="5"
+        type="equip-torso"
+        weight="5">
+        <sprite gender="male">equipment/chest/robe-male.xml|#5E7480,F1FFFF,FFFFFF</sprite>
+        <sprite gender="female">equipment/chest/robe-female.xml|#5E7480,F1FFFF,FFFFFF</sprite>
+    </item>
+    <item id="652"
+        image="equipment/chest/silk-robe.png|W:#000000"
+        name="Black Wizard Robe"
+        description="A black robe made for evil wizards."
+        defense="5"
+        type="equip-torso"
+        weight="5">
+        <sprite gender="male">equipment/chest/robe-male.xml|#000000</sprite>
+        <sprite gender="female">equipment/chest/robe-female.xml|#000000</sprite>
+    </item>
+    <item id="653"
+        image="equipment/chest/silk-robe.png|W:#804000"
+        name="Apprentice Robe"
+        description="A robe made for apprentices."
+        defense="5"
+        type="equip-torso"
+        weight="5">
+        <sprite gender="male">equipment/chest/robe-male.xml|#804000</sprite>
+        <sprite gender="female">equipment/chest/robe-female.xml|#804000</sprite>
+    </item>
     <item id="654"
         image="equipment/head/cap.png|R:#d94800"
         name="Cap"
@@ -2898,11 +2950,10 @@
         image="equipment/chest/sorcerer-robe.png"
         name="Sorcerer Robe (Red)"
         description="A red lined sorcerer robe."
-        effect="+5% Defense"
-        type="equip-torso"
-        weight="5"
+        effect="+1 Agility"
         defense="5"
-        max-per-slot="1">
+        type="equip-torso"
+        weight="5">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#ffffff</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#ffffff</sprite>
     </item>
@@ -4989,6 +5040,7 @@
         <sprite gender="male">equipment/hands/generic-male.xml|#104010,208020,30c030</sprite>
         <sprite gender="female">equipment/hands/generic-female.xml|#104010,208020,30c030</sprite>
     </item>
+
     <item id="2170"
         image="equipment/legs/miniskirt.png|W:#580000,a40000,c02020,ff6060"
         name="Red Miniskirt"
@@ -5109,7 +5161,9 @@
         <sprite gender="male">equipment/legs/miniskirt-male.xml|#104010,208020,30c030</sprite>
         <sprite gender="female">equipment/legs/miniskirt-female.xml|#104010,208020,30c030</sprite>
     </item>
+
     <!-- IDs 2180 to 2189 RESERVED -->
+
     <item id="2190"
         image="equipment/head/rabbit-ears.png|W:#580000,a40000,c02020,ff6060"
         name="Red rabbit ears"
@@ -5220,6 +5274,7 @@
         max-per-slot="1">
         <sprite>equipment/head/rabbit-ears.xml|#104010,208020,30c030</sprite>
     </item>
+
     <item id="2200"
         image="equipment/head/wizard-hat.png|W:#580000,a40000,c02020,ff6060"
         name="Red wizard hat"
@@ -5329,7 +5384,8 @@
         weight="15"
         max-per-slot="1">
         <sprite>equipment/head/wizard-hat.xml|#104010,208020,30c030</sprite>
-	</item>
+    </item>
+
     <item id="2210"
         image="equipment/head/bowler-hat.png|W:#580000,a40000,c02020,ff6060"
         name="Red bowler hat"
@@ -5440,15 +5496,15 @@
         max-per-slot="1">
         <sprite>equipment/head/bowler-hat.xml|#104010,208020,30c030</sprite>
     </item>
+
     <item id="2220"
         image="equipment/chest/sorcerer-robe.png|W:#580000,A40000,C02020,ff6060"
         name="Red Sorcerer Robe (Red)"
         description="A red lined red sorcerer robe."
-        effect="+5% Defense"
-        type="equip-torso"
-        weight="30"
+        effect="+1 Agility"
         defense="5"
-        max-per-slot="1">
+        type="equip-torso"
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#580000,A40000,C02020,ff6060</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#580000,A40000,C02020,ff6060</sprite>
     </item>
@@ -5456,11 +5512,10 @@
         image="equipment/chest/sorcerer-robe.png|W:#115511,22aa22,99dd99"
         name="Green Sorcerer Robe (Red)"
         description="A red lined green sorcerer robe."
-        effect="+5% Defense"
-        type="equip-torso"
-        weight="30"
+        effect="+1 Agility"
         defense="5"
-        max-per-slot="1">
+        type="equip-torso"
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#115511,22aa22,99dd99</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#115511,22aa22,99dd99</sprite>
     </item>
@@ -5468,11 +5523,10 @@
         image="equipment/chest/sorcerer-robe.png|W:#222255,6666ff"
         name="Dark Blue Sorcerer Robe (Red)"
         description="A red lined dark blue sorcerer robe."
-        effect="+5% Defense"
-        type="equip-torso"
-        weight="30"
+        effect="+1 Agility"
         defense="5"
-        max-per-slot="1">
+        type="equip-torso"
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#222255,6666ff</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#222255,6666ff</sprite>
     </item>
@@ -5480,11 +5534,10 @@
         image="equipment/chest/sorcerer-robe.png|W:#846211,dab333,fffb93,ffffff"
         name="Yellow Sorcerer Robe (Red)"
         description="A red lined yellow sorcerer robe."
-        effect="+5% Defense"
-        type="equip-torso"
-        weight="30"
+        effect="+1 Agility"
         defense="5"
-        max-per-slot="1">
+        type="equip-torso"
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#846211,dab333,fffb93,ffffff</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846211,dab333,fffb93,ffffff</sprite>
     </item>
@@ -5492,11 +5545,10 @@
         image="equipment/chest/sorcerer-robe.png|W:#16486e,498ec5,e4f2fc"
         name="Light Blue Sorcerer Robe (Red)"
         description="A red lined light blue sorcerer robe."
-        effect="+5% Defense"
-        type="equip-torso"
-        weight="30"
+        effect="+1 Agility"
         defense="5"
-        max-per-slot="1">
+        type="equip-torso"
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#16486e,498ec5,e4f2fc</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
@@ -5504,11 +5556,10 @@
         image="equipment/chest/sorcerer-robe.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink Sorcerer Robe (Red)"
         description="A red lined pink sorcerer robe."
-        effect="+5% Defense"
-        type="equip-torso"
-        weight="30"
+        effect="+1 Agility"
         defense="5"
-        max-per-slot="1">
+        type="equip-torso"
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
@@ -5516,11 +5567,10 @@
         image="equipment/chest/sorcerer-robe.png|W:#111111,222222,333333,444444,555555,aaaaaa"
         name="Black Sorcerer Robe (Red)"
         description="A red lined black sorcerer robe."
-        effect="+5% Defense"
-        type="equip-torso"
-        weight="30"
+        effect="+1 Agility"
         defense="5"
-        max-per-slot="1">
+        type="equip-torso"
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
@@ -5528,11 +5578,10 @@
         image="equipment/chest/sorcerer-robe.png|W:#80280f,b04810,ef681f,ffb830"
         name="Orange Sorcerer Robe (Red)"
         description="A red lined orange sorcerer robe."
-        effect="+5% Defense"
-        type="equip-torso"
-        weight="30"
+        effect="+1 Agility"
         defense="5"
-        max-per-slot="1">
+        type="equip-torso"
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
@@ -5540,11 +5589,10 @@
         image="equipment/chest/sorcerer-robe.png|W:#4f0a76,8010c0,d699f7"
         name="Purple Sorcerer Robe (Red)"
         description="A red lined purple sorcerer robe."
-        effect="+5% Defense"
-        type="equip-torso"
-        weight="30"
+        effect="+1 Agility"
         defense="5"
-        max-per-slot="1">
+        type="equip-torso"
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#4f0a76,8010c0,d699f7</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
@@ -5552,122 +5600,102 @@
         image="equipment/chest/sorcerer-robe.png|W:#104010,208020,30c030"
         name="Dark Green Sorcerer Robe (Red)"
         description="A red lined dark green sorcerer robe."
-        effect="+5% Defense"
-        type="equip-torso"
-        weight="30"
+        effect="+1 Agility"
         defense="5"
-        max-per-slot="1">
+        type="equip-torso"
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#104010,208020,30c030</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,208020,30c030</sprite>
     </item>
+
     <item id="2230"
         image="equipment/head/bowler-hat-brown.png|W:#580000,a40000,c02020,ff6060"
         name="Red bowler hat (brown)"
         description="A hat for those with a bit of class, with a red band."
-        effect=""
         defense="10"
         type="equip-head"
-        weight="30"
-        max-per-slot="1">
+        weight="30">
         <sprite>equipment/head/bowler-hat-brown.xml|#580000,a40000,c02020,ff6060</sprite>
     </item>
     <item id="2231"
         image="equipment/head/bowler-hat-brown.png|W:#115511,22aa22,99dd99"
         name="Green bowler hat (brown)"
         description="A hat for those with a bit of class, with a green band."
-        effect=""
         defense="10"
         type="equip-head"
-        weight="30"
-        max-per-slot="1">
+        weight="30">
         <sprite>equipment/head/bowler-hat-brown.xml|#115511,22aa22,99dd99</sprite>
     </item>
     <item id="2232"
         image="equipment/head/bowler-hat-brown.png|W:#222255,6666ff"
         name="Dark blue bowler hat (brown)"
         description="A hat for those with a bit of class, with a dark blue band."
-        effect=""
         defense="10"
         type="equip-head"
-        weight="30"
-        max-per-slot="1">
+        weight="30">
         <sprite>equipment/head/bowler-hat-brown.xml|#222255,6666ff</sprite>
     </item>
     <item id="2233"
         image="equipment/head/bowler-hat-brown.png|W:#846211,dab333,fffb93,ffffff"
         name="Yellow bowler hat (brown)"
         description="A hat for those with a bit of class, with a yellow band."
-        effect=""
         defense="10"
         type="equip-head"
-        weight="30"
-        max-per-slot="1">
+        weight="30">
         <sprite>equipment/head/bowler-hat-brown.xml|#846211,dab333,fffb93,ffffff</sprite>
     </item>
     <item id="2234"
         image="equipment/head/bowler-hat-brown.png|W:#16486e,498ec5,e4f2fc"
         name="Light blue bowler hat (brown)"
         description="A hat for those with a bit of class, with a light blue band."
-        effect=""
         defense="10"
         type="equip-head"
-        weight="30"
-        max-per-slot="1">
+        weight="30">
         <sprite>equipment/head/bowler-hat-brown.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
     <item id="2235"
         image="equipment/head/bowler-hat-brown.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
         name="Pink bowler hat (brown)"
         description="A hat for those with a bit of class, with a pink band."
-        effect=""
         defense="10"
         type="equip-head"
-        weight="30"
-        max-per-slot="1">
+        weight="30">
         <sprite>equipment/head/bowler-hat-brown.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2236"
         image="equipment/head/bowler-hat-brown.png|W:#111111,222222,333333,444444,555555,aaaaaa"
         name="Black bowler hat (brown)"
         description="A hat for those with a bit of class, with a black band."
-        effect=""
         defense="10"
         type="equip-head"
-        weight="30"
-        max-per-slot="1">
+        weight="30">
         <sprite>equipment/head/bowler-hat-brown.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
     <item id="2237"
         image="equipment/head/bowler-hat-brown.png|W:#80280f,b04810,ef681f,ffb830"
         name="Orange bowler hat (brown)"
         description="A hat for those with a bit of class, with an orange band."
-        effect=""
         defense="10"
         type="equip-head"
-        weight="30"
-        max-per-slot="1">
+        weight="30">
         <sprite>equipment/head/bowler-hat-brown.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
     <item id="2238"
         image="equipment/head/bowler-hat-brown.png|W:#4f0a76,8010c0,d699f7"
         name="Purple bowler hat (brown)"
         description="A hat for those with a bit of class, with a purple band."
-        effect=""
         defense="10"
         type="equip-head"
-        weight="30"
-        max-per-slot="1">
+        weight="30">
         <sprite>equipment/head/bowler-hat-brown.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2239"
         image="equipment/head/bowler-hat-brown.png|W:#104010,208020,30c030"
         name="Dark green bowler hat (brown)"
         description="A hat for those with a bit of class, with a dark green band."
-        effect=""
         defense="10"
         type="equip-head"
-        weight="30"
-        max-per-slot="1">
+        weight="30">
         <sprite>equipment/head/bowler-hat-brown.xml|#104010,208020,30c030</sprite>
     </item>
 
