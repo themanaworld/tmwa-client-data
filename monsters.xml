@@ -357,6 +357,10 @@
     <monster id="63" name="Bandit Lord">
     <sprite>monsters/monster-bandit-lord.xml</sprite>
     <sprite>monsters/weapon-bow.xml</sprite>
+    <attack id ="1"
+            missile-particle="graphics/particles/arrow.particle.xml"
+            action="attack"
+            />
     </monster>
     <monster id="64" name="Vampire Bat">
         <sprite>monsters/monster-vampire-bat.xml</sprite>
