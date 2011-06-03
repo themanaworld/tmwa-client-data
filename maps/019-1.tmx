@@ -48,7 +48,7 @@
    H4sIAAAAAAAAA+3db06DMBgHYPSkXkU9gX92APUE6gWlCUTSDMago4U+T9IvZB8a8tv7lm3tmgYAAAAAAAAAAADYi8fcEwAAAAAAgBt6zj0BAABIIPy+46mxvgWAtUJP1U+55KMdX7knQfG+2/Hb/K/Vzw31hj4nMEVOrre0vub+fCXuGfrE7bnHzHUpK8P3r1wBAADQc14LAAAcW+7vmHPxrAMAwN5YwwKwFT0HgK3oOUAKagmQQq21pIR9xVPn2eSe21CtGQle2vHajbfMc6Fc4Syzz24402xczbUkCGcP/XTDGURMKWGNAsC+6BdASmoKkJKaAqSkpjCXrAApqSlASmoKkJKaAgAA1G7Ovrwt9+xdMx/PdOuF+z3nf2lPG8xljYf78WvvjdykMnbvSsxIvP9umJFzeYmvx7mRneX6ul5aRtaIMzSVnXO5iXtdzdk6Yj5iU3kZ61X9PRm+tta9+UfPxxJ9Lsb6GXULuZANAAAAAAAAAAAAYA9Od7lnAACwH3+Tf/uxABQBAA==
   </data>
  </layer>
- <layer name="Collision" width="138" height="128" visible="0">
+ <layer name="Collision" width="138" height="128">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+2UQW7kMAwEs1/I/x8b5LDYgdaySYtiU1I1UEAy1tgSu8bff76+vgEAAAAAAAAAAAAAAAAAAAAAAAAAAADgWNqo9wM1wROwgCdgAU/2YlafeFIPaw9vUs0TvBvvI9qREXeiPRndz+lYZ9Ze730vypWoLr1R91GVWbH61evGsibzPJ497Er0HEfXrBR1dxU9addfff/unrs58ht1dxU98c7rlKj7U3vSXvf+f/f5bi6pO1R64p2R99pOUXeY7YnVH8+7Y6dYfhO70jtrxPw+P9/dod+ou1R74u17Nyes51F3meXJrDnu5Eyb9uzqPqt4stu7whvP+3QHMuZZMb1Z9N4Lvf979717zmp45hm9Vp2R2Vytufueuufq75KKeTObz896f0c8szKjs1Zk5BzeuVju/7RG3bHKlZU9GX1m729ciXUsIpn7sPZvvc/qvD2jMpn7uHqO59nqfhWenBTeJ+d2/yaj81L3iye5uZrbm3fyqpD/8zQbz+zU/eLJ/Dy9O6w+7QD5lycXvDNTd4sn89Obj2du6m5xJDdv3ynqfnEkJ6OzUneMHzk52ZNsZ051VN3tSo6086qYWftS97uSI+28Toq64xXcODHtnNV948gaUXeOI/Wj7hxP1oi6czxZI+rOT/Fk1X3/Rt33SZ6sHHXf+LJG1D3jR/2ou8aPNaLuHE90sc5W3Te+aHOKJ3gzFssM1Z2e4snV3qqc5+mZln2pO9/Fk6tUOc8bB96epQre2fz9W5EVPLHuR937DEeuzqXIip6MnkXpxZtZKvqw7KGqJ6NnUBM5n+xU8cSyx6fr1YmYQYU+1Il6J1eG5EfdOZ7UjbrnlV1RP7/NzL2oO17ZE3Uyz6/uGFf8UcxA3S+evItlFpGzUfeb6Upv3efnit/oyHezfjvqbrNdscyiap48n+mLulelJ09zv1szM+0zr/bTWzPDE3Wn2a5cXY+eaWQsvka64bn/Dng7uOvB8t3IWO7d2/tdz6P72ZXRzHTB85zP61drrZ9F7HFH7uZ9N4uouUbc465/z/W7s13do7eXXfH28DTTmfF43K6Ndvw0VyonYo+9s846v7rPEz2ZkZnvmfaeO0HmRN0rnsQlagZX91D3iie10pululeFI9V8rPhbUHep9iXbyYxOZkXdo8qVTB/VPURE3WG2J9lOZro6ukfvmt045ZzRMzvJEXgPjgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKzBD4iIs+0AFAEA
   </data>
@@ -94,6 +94,14 @@
     <property name="dest_map" value="019-3"/>
     <property name="dest_x" value="1296"/>
     <property name="dest_y" value="3120"/>
+   </properties>
+  </object>
+  <object name="Fluffy" type="spawn" x="0" y="0">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="100"/>
+    <property name="monster_id" value="18"/>
    </properties>
   </object>
  </objectgroup>
