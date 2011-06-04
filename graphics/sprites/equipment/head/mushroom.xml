@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <sprite>
-	<imageset name="base" src="graphics/sprites/equipment/head/mushroom.png" width="26" height="15" />
+	<imageset name="base" src="graphics/sprites/equipment/head/mushroom.png" width="26" height="15"/>
 
 	<action name="stand" imageset="base">
 		<animation direction="down">
-		  <frame index="0" offsetX="-1" offsetY ="-48" />
+		  <frame index="0" offsetX="-1" offsetY ="-48"/>
 		</animation>
 		<animation direction="left">
 		  <frame index="0" offsetX="0" offsetY ="-48"/>
@@ -20,33 +20,27 @@
 	<action name="walk" imageset="base">
 		<animation direction="down">
 		  <frame index="0" offsetX="-1" offsetY ="-47" delay="75"/>
-		  <frame index="0" offsetX="-1" offsetY ="-48" delay="75" />
-		  <frame index="0" offsetX="-1" offsetY ="-48" delay="75" />
-		  <frame index="0" offsetX="-1" offsetY ="-47" delay="75" />
-		  <frame index="0" offsetX="-1" offsetY ="-48" delay="75" />
-		  <frame index="0" offsetX="-1" offsetY ="-48" delay="75" />
+		  <frame index="0" offsetX="-1" offsetY ="-48" delay="150"/>
+		  <frame index="0" offsetX="-1" offsetY ="-47" delay="75"/>
+		  <frame index="0" offsetX="-1" offsetY ="-48" delay="150"/>
 		</animation>
 		<animation direction="left">
 		  <frame index="0" offsetX="0" offsetY ="-48" delay="75"/>
 		  <frame index="0" offsetX="0" offsetY ="-47" delay="75"/>
-		  <frame index="0" offsetX="0" offsetY ="-48" delay="75"/>
-		  <frame index="0" offsetX="0" offsetY ="-48" delay="75"/>
+		  <frame index="0" offsetX="0" offsetY ="-48" delay="150"/>
 		  <frame index="0" offsetX="0" offsetY ="-47" delay="75"/>
 		  <frame index="0" offsetX="0" offsetY ="-48" delay="75"/>
 		</animation>
 		<animation direction="up">
 		  <frame index="0" offsetX="-2" offsetY ="-48" delay="75"/>
-		  <frame index="0" offsetX="-2" offsetY ="-49" delay="75"/>
-		  <frame index="0" offsetX="-2" offsetY ="-49" delay="75"/>
+		  <frame index="0" offsetX="-2" offsetY ="-49" delay="150"/>
 		  <frame index="0" offsetX="-2" offsetY ="-48" delay="75"/>
-		  <frame index="0" offsetX="-2" offsetY ="-49" delay="75"/>
-		  <frame index="0" offsetX="-2" offsetY ="-49" delay="75"/>
+		  <frame index="0" offsetX="-2" offsetY ="-49" delay="150"/>
 		</animation>
 		<animation direction="right">
 		  <frame index="0" offsetX="-1" offsetY ="-48" delay="75"/>
 		  <frame index="0" offsetX="-1" offsetY ="-47" delay="75"/>
-		  <frame index="0" offsetX="-1" offsetY ="-48" delay="75"/>
-		  <frame index="0" offsetX="-1" offsetY ="-48" delay="75"/>
+		  <frame index="0" offsetX="-1" offsetY ="-48" delay="150"/>
 		  <frame index="0" offsetX="-1" offsetY ="-47" delay="75"/>
 		  <frame index="0" offsetX="-1" offsetY ="-48" delay="75"/>
 		</animation>
@@ -54,23 +48,21 @@
 
 	<action name="attack" imageset="base">
 		<animation direction="down">
-		  <frame index="0" offsetX="-1" offsetY ="-46" delay="75" />
-		  <frame index="0" offsetX="-1" offsetY ="-47" delay="75" />
-		  <frame index="0" offsetX="-1" offsetY ="-44" delay="75" />
-		  <frame index="0" offsetX="-1" offsetY ="-43" delay="75" />
+		  <frame index="0" offsetX="-1" offsetY ="-46" delay="75"/>
+		  <frame index="0" offsetX="-1" offsetY ="-47" delay="75"/>
+		  <frame index="0" offsetX="-1" offsetY ="-44" delay="75"/>
+		  <frame index="0" offsetX="-1" offsetY ="-43" delay="75"/>
 		  <end />
 		</animation>
 		<animation direction="left">
-		  <frame index="0" offsetX="4" offsetY ="-49" delay="75" />
-		  <frame index="0" offsetX="4" offsetY ="-50" delay="75" />
-		  <frame index="0" offsetX="0" offsetY ="-47" delay="75" />
-		  <frame index="0" offsetX="-1" offsetY ="-46" delay="75" />
+		  <frame index="0" offsetX="4" offsetY ="-49" delay="75"/>
+		  <frame index="0" offsetX="4" offsetY ="-50" delay="75"/>
+		  <frame index="0" offsetX="0" offsetY ="-47" delay="75"/>
+		  <frame index="0" offsetX="-1" offsetY ="-46" delay="75"/>
 		  <end />
 		</animation>
 		<animation direction="up">
-		  <frame index="0" offsetX="-3" offsetY ="-48" delay="75"/>
-		  <frame index="0" offsetX="-3" offsetY ="-48" delay="75"/>
-		  <frame index="0" offsetX="-3" offsetY ="-48" delay="75"/>
+		  <frame index="0" offsetX="-3" offsetY ="-48" delay="225"/>
 		  <frame index="0" offsetX="-3" offsetY ="-46" delay="75"/>
 		  <end />
 		</animation>
@@ -85,42 +77,32 @@
 
 	<action name="attack_bow" imageset="base">
 		<animation direction="down">
-		  <frame index="0" offsetX="-1" offsetY ="-47" delay="75" />
-		  <frame index="0" offsetX="-1" offsetY ="-47" delay="75" />
-		  <frame index="0" offsetX="-1" offsetY ="-47" delay="75" />
-		  <frame index="0" offsetX="-1" offsetY ="-46" delay="75" />
-		  <frame index="0" offsetX="-1" offsetY ="-47" delay="75" />
+		  <frame index="0" offsetX="-1" offsetY ="-47" delay="225"/>
+		  <frame index="0" offsetX="-1" offsetY ="-46" delay="75"/>
+		  <frame index="0" offsetX="-1" offsetY ="-47" delay="75"/>
 		  <end />
 		</animation>
 		<animation direction="left">
-		  <frame index="0" offsetX="3" offsetY ="-48" delay="75" />
-		  <frame index="0" offsetX="3" offsetY ="-48" delay="75" />
-		  <frame index="0" offsetX="3" offsetY ="-48" delay="75" />
-		  <frame index="0" offsetX="5" offsetY ="-49" delay="75" />
-		  <frame index="0" offsetX="5" offsetY ="-49" delay="75" />
+		  <frame index="0" offsetX="3" offsetY ="-48" delay="225"/>
+		  <frame index="0" offsetX="5" offsetY ="-49" delay="150"/>
 		  <end />
 		</animation>
 		<animation direction="up">
-		  <frame index="0" offsetX="-2" offsetY ="-48" delay="75"/>
-		  <frame index="0" offsetX="-2" offsetY ="-48" delay="75"/>
-		  <frame index="0" offsetX="-3" offsetY ="-48" delay="75"/>
+		  <frame index="0" offsetX="-2" offsetY ="-48" delay="225"/>
 		  <frame index="0" offsetX="-3" offsetY ="-47" delay="75"/>
 		  <frame index="0" offsetX="-3" offsetY ="-48" delay="75"/>
 		  <end />
 		</animation>
 		<animation direction="right">
-		  <frame index="0" offsetX="-4" offsetY ="-48" delay="75"/>
-		  <frame index="0" offsetX="-4" offsetY ="-48" delay="75"/>
-		  <frame index="0" offsetX="-4" offsetY ="-48" delay="75"/>
-		  <frame index="0" offsetX="-6" offsetY ="-49" delay="75"/>
-		  <frame index="0" offsetX="-6" offsetY ="-49" delay="75"/>
+		  <frame index="0" offsetX="-4" offsetY ="-48" delay="225"/>
+		  <frame index="0" offsetX="-6" offsetY ="-49" delay="150"/>
 		  <end />
 		</animation>
 	</action>
 
 	<action name="sit" imageset="base">
 		<animation direction="down">
-		  <frame index="0" offsetX="-1" offsetY ="-36" />
+		  <frame index="0" offsetX="-1" offsetY ="-36"/>
 		</animation>
 		<animation direction="left">
 		  <frame index="0" offsetX="4" offsetY ="-39"/>

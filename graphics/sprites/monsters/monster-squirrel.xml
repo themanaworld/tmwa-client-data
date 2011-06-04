@@ -3,38 +3,22 @@
   <imageset name="base" src="graphics/sprites/monsters/monster-squirrel.png" width="32" height="32" />
   <action name="stand" imageset="base">
     <animation direction="down">
-      <sequence start="16" end="19" delay="75" />
-      <sequence start="16" end="19" delay="75" />
-      <sequence start="16" end="19" delay="75" />
-      <sequence start="16" end="19" delay="75" />
-      <sequence start="16" end="19" delay="75" />
+      <sequence start="16" end="19" delay="375" />
       <sequence start="20" end="25" delay="75" />
       <sequence start="16" end="19" delay="120" />
     </animation>
     <animation direction="right">
-      <sequence start="0" end="3" delay="75" />
-      <sequence start="0" end="3" delay="75" />
-      <sequence start="0" end="3" delay="75" />
-      <sequence start="0" end="3" delay="75" />
-      <sequence start="0" end="3" delay="75" />
+      <sequence start="0" end="3" delay="375" />
       <sequence start="4" end="7" delay="75" />
       <sequence start="0" end="3" delay="75" />
     </animation>
     <animation direction="up">
-      <sequence start="24" end="27" delay="75" />
-      <sequence start="24" end="27" delay="75" />
-      <sequence start="24" end="27" delay="75" />
-      <sequence start="24" end="27" delay="75" />
-      <sequence start="24" end="27" delay="75" />
+      <sequence start="24" end="27" delay="375" />
       <sequence start="28" end="31" delay="75" />
       <sequence start="24" end="27" delay="75" />
     </animation>
     <animation direction="left">
-      <sequence start="8" end="11" delay="75" />
-      <sequence start="8" end="11" delay="75" />
-      <sequence start="8" end="11" delay="75" />
-      <sequence start="8" end="11" delay="75" />
-      <sequence start="8" end="11" delay="75" />
+      <sequence start="8" end="11" delay="375" />
       <sequence start="12" end="15" delay="75" />
       <sequence start="8" end="11" delay="75" />
     </animation>
@@ -55,10 +39,7 @@
   </action>
   <action name="dead" imageset="base">
     <animation direction="down">
-      <sequence start="54" end="55" delay="200" />
-      <sequence start="54" end="55" delay="200" />
-      <sequence start="54" end="55" delay="200" />
-      <sequence start="54" end="55" delay="200" />
+      <sequence start="54" end="55" delay="800" />
       <frame index="55" delay="4000" />
     </animation>
   </action>
