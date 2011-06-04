@@ -10,28 +10,28 @@
   <property name="overlay0scrollY" value="0.1"/>
  </properties>
  <tileset firstgid="1" name="Woodland" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Woodland_ground.png"/>
+  <image source="../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="257" name="Woodland x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/Woodland_x2.png"/>
+  <image source="../graphics/tiles/Woodland_x2.png" width="512" height="128"/>
  </tileset>
  <tileset firstgid="289" name="Woodland x3" tilewidth="32" tileheight="96">
-  <image source="../graphics/tiles/Woodland_x3.png"/>
+  <image source="../graphics/tiles/Woodland_x3.png" width="512" height="192"/>
  </tileset>
  <tileset firstgid="321" name="Woodland Village" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Woodland_village.png"/>
+  <image source="../graphics/tiles/Woodland_village.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="577" name="Woodland Village x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/Woodland_village_x2.png"/>
+  <image source="../graphics/tiles/Woodland_village_x2.png" width="512" height="64"/>
  </tileset>
  <tileset firstgid="593" name="Woodland Indoor" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/woodland_indoor.png"/>
+  <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="849" name="Woodland Indoor x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/woodland_indoor_x2.png"/>
+  <image source="../graphics/tiles/woodland_indoor_x2.png" width="512" height="64"/>
  </tileset>
- <tileset firstgid="849" name="Collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png"/>
+ <tileset firstgid="865" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
  <layer name="Ground" width="154" height="124">
   <data encoding="base64" compression="gzip">
@@ -50,7 +50,7 @@
  </layer>
  <layer name="Collision" width="154" height="124">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2UW47jMAwEB9gbzv0Ps9iPYA3DEsWHSMqpBgoZOxJFsTvz++fn5xcAAAAAAAAAAAAAAAAAtvJRdR/wbsgZZEDOIANyBhmQM8iAnEEG5AwyIGeQATmDDMgZZEDOIANyBhmQM8iAnEEG5AwyIGeQATmDDMjZ+xipQz/Vs4E4LzWS6knPo1qRWSeffdB6sbJek1NNzqTcReXTOhuIzdkOSbWtORut1d6v2qfTifJB8mdlneb77Jxp60B8zp5qabSaldE7ctYfiw/aHEmy5sxSn5zV5uzJ06e5W/we7dH4TM7OJluj7O7O2dPz6L1X1Z52xTJHyRdN3crcR6vay658ZtPFm9X1mvej76LvXe1lV7wzXX3/dN71WduX5067flPVXp6EZbbXz2h/IvfsVLVv3RnN7OnTMvuV95a8rNa2rtGo2sMTuM/e4oHXN+3voJuqPTyB+7ye/p7NV+OFxacTVO3hKXRQ594kVft3Cp9ZXT+7+HWCqv07hU6a9bXzvtUefAMZmVk9h5y9G21mvL5ZRM7Ox+u1xTOpPjl7H9d5a33QejYTOXs3K8r2jpy9j9nstRlb3aftKeOusJfrvEfSeuf1kpy9i4iMzNaOaknnkLN3McvWihcW32ZnkrN3IuVLm5v7O+mZnH0HO6XJ2N3v2XedchbZ25vx6l5D8sJzTtecRfb3NlCtqv0nZ9+hav/J2Xeo2v/qzF3fRWeT38F/VXtemTOr/551lpxZz1iRN+PVXnbG65N3rWd/RE8WaWcHujl5PLX0pNlv6UmSZm+1j93RzmplvhFerOyXzpn9/fQsKepu34h2ThbNamnPsPYRcY/V2jCf946sSXV2+n/vwbJvpWa1h90ZzS4qY1L9TvL0VO1jd6yz8vi3knGpRjdV+9gZ77w8PkhrZt9bzvXUWNlX7WVnomZ19yHifIvX2vvc1z7tjzrrm+kwr9HZUj9a/6PXznqDuVedzvf4L+UiUtUenkCH2VmzsJJH7xxWe4C4jI28tc5cqmHpL7qfe63V+pbz38jTHCMUmfFRb1LNyLlY7ve0x9vXqezQ0xlSFmY1Vs9ZqZWVsxVVe396ziJ0cs4sd3w7kfeP0lPda/37355M7siZtL/a8w45q+7H61mUv9c9172zWrMzvf2cTvd7S/KuzzrX08vpRN25UpZeMnIWmfmTibpvtVb6mb233sk7h2r/T8pYh5z9U1UvK+fe11R7f2LGLP5K+yJqd1d1BjJztiu72vmuzH+XpNl4amrOfSM77rk6Y0/uo6U5J7qH6gyciMaP6JxZc5id6euZK+eDnDFrzqT5r9TadbdoVfvWDevcpLXXT0ut7PtH5q7a047c5zx6Z83nCV7Nzu/c9yl85qKd3W5VzwXic6b1fbeqZwJ7Mraanep+4UyeMnZ/JmvgxarqvuE8yBp0gKxBNmQMMuD/GmRAviATcgYAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8PPzF3FvkvhgKgEA
+   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
   </data>
  </layer>
  <objectgroup name="Object Group 1" width="0" height="0">
@@ -109,10 +109,10 @@
     <property name="monster_id" value="17"/>
    </properties>
   </object>
-  <object name="Fluffy" type="spawn" x="0" y="0">
+  <object name="Snail" type="spawn" x="0" y="0">
    <properties>
     <property name="max_beings" value="1"/>
-    <property name="monster_id" value="18"/>
+    <property name="monster_id" value="39"/>
    </properties>
   </object>
   <object name="Mouboo" type="spawn" x="0" y="0">
@@ -174,6 +174,13 @@
     <property name="dest_map" value="011-6"/>
     <property name="dest_x" value="1568"/>
     <property name="dest_y" value="3168"/>
+   </properties>
+  </object>
+  <object name="Mouboo" type="spawn" x="0" y="0">
+   <properties>
+    <property name="eA_death" value="10"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="26"/>
    </properties>
   </object>
  </objectgroup>
