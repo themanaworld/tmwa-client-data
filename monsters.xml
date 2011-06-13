@@ -111,7 +111,7 @@
     </monster>
 
     <monster id="15" name="Bat">
-        <sprite>monsters/monster-bat.xml</sprite>
+        <sprite>monsters/bat.xml</sprite>
         <sound event="die">monsters/bat/bat-dying1.ogg</sound>
         <sound event="hit">monsters/bat/bat-hit1.ogg</sound>
     </monster>
@@ -285,7 +285,7 @@
     </monster>
 
     <monster id="47" name="Bee" targetCursor="small">
-        <sprite>monsters/monster-bee.xml</sprite>
+        <sprite>monsters/bee.xml</sprite>
         <sprite>monsters/accessories/generic-shadow-small-circle.xml</sprite>
     </monster>
 
@@ -333,34 +333,40 @@
     </monster>
 
     <monster id="58" name="Archant">
-        <sprite>monsters/monster-archant.xml</sprite>
+        <sprite>monsters/archant.xml</sprite>
         <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
         <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
     </monster>
+
     <monster id="59" name="Moggun">
         <sprite>monsters/monster-moggun.xml</sprite>
     </monster>
+
     <monster id="60" name="Terranite">
     <sprite>monsters/monster-terranite.xml</sprite>
     </monster>
+
     <monster id="61" name="Pumpkin">
         <sprite>resource-pumpkin.xml</sprite>
     </monster>
+
     <monster id="62" name="Bandit">
-    <sprite>monsters/monster-bandit.xml</sprite>
-    <sprite>monsters/weapon-dagger.xml</sprite>
+    <sprite>monsters/bandit.xml</sprite>
+    <sprite>monsters/accessories/weapon-dagger.xml</sprite>
     </monster>
+
     <monster id="63" name="Bandit Lord">
-    <sprite>monsters/monster-bandit-lord.xml</sprite>
-    <sprite>monsters/weapon-bow.xml</sprite>
+    <sprite>monsters/bandit-lord.xml</sprite>
+    <sprite>monsters/accessories/weapon-bow.xml</sprite>
     <attack id ="1"
             missile-particle="graphics/particles/arrow.particle.xml"
             action="attack"
             />
     </monster>
+
     <monster id="64" name="Vampire Bat">
         <sprite>monsters/monster-vampire-bat.xml</sprite>
         <sound event="die">monsters/bat/bat-dying1.ogg</sound>
@@ -387,7 +393,7 @@
     </monster>
 
     <monster id="68" name="Ball Lightning" targetCursor="small">
-        <sprite>monsters/monster-ball-lightning.xml</sprite>
+        <sprite>monsters/ball-lightning.xml</sprite>
         <sprite>monsters/accessories/ball-lightning-shadow.xml</sprite>
         <particlefx>graphics/particles/monster-ball-lightning.particle.xml</particlefx>
     </monster>
@@ -444,7 +450,13 @@
 		<sprite>monsters/accessories/ball-lightning-shadow.xml</sprite>
 		<particlefx>graphics/particles/monster-ball-lightning-red.particle.xml</particlefx>
     </monster>
+
     <monster id="80" name="Serqet">
 		<sprite>monsters/monster-serqet.xml</sprite>
     </monster>
+
+    <monster id="81" name="Chick" targetCursor="small">
+		<sprite>monsters/chick.xml</sprite>
+    </monster>
+
 </monsters>

@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<sprite>
+
+	<imageset name="base" src="graphics/sprites/monsters/chick.png" width="10" height="10"/>
+
+	<action name="stand" imageset="base">
+		<animation direction="down">
+		  <sequence start="20" end="24" delay="150" offsetY="-11"/>
+		</animation>
+
+		<animation direction="left">
+		  <sequence start="25" end="29" delay="150" offsetY="-11"/>
+		</animation>
+
+		<animation direction="up">
+		  <sequence start="30" end="24" delay="150" offsetY="-11"/>
+		</animation>
+
+		<animation direction="right">
+		  <sequence start="35" end="24" delay="150" offsetY="-11"/>
+		</animation>
+	</action>
+
+	<action name="walk" imageset="base">
+
+		<animation direction="down">
+		  <sequence start="0" end="3" delay="150" offsetY="-11"/>
+		</animation>
+
+		<animation direction="left">
+		  <sequence start="10" end="13" delay="150" offsetY="-11"/>
+		</animation>
+
+		<animation direction="up">
+		  <sequence start="15" end="18" delay="150" offsetY="-11"/>
+		</animation>
+
+		<animation direction="right">
+		  <sequence start="5" end="8" delay="150" offsetY="-11"/>
+		</animation>
+	</action>
+
+	<action name="dead" imageset="base">
+
+		<animation direction="right">
+		  <frame index="4" delay="0" offsetY="-11"/>
+		</animation>
+
+		<animation direction="down">
+		  <frame index="14" delay="0" offsetY="-11"/>
+		</animation>
+
+		<animation direction="left">
+		  <frame index="19" delay="0" offsetY="-11"/>
+		</animation>
+
+		<animation direction="up">
+		  <frame index="6" delay="0" offsetY="-11"/>
+		</animation>
+	</action>
+
+	<action name="attack" imageset="base">
+
+		<animation direction="down">
+		  <sequence start="0" end="2" delay="150" offsetY="-11"/>
+		</animation>
+
+		<animation direction="left">
+		  <sequence start="10" end="12" delay="150" offsetY="-11"/>
+		</animation>
+
+		<animation direction="up">
+		  <sequence start="15" end="17" delay="150" offsetY="-11"/>
+		</animation>
+
+		<animation direction="right">
+		  <sequence start="5" end="7" delay="150" offsetY="-11"/>
+		</animation>
+	</action>
+
+</sprite>
