@@ -19,9 +19,6 @@
         <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
         <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
-        <attack id="1"
-                particle-effect="graphics/particles/attack.particle.xml"
-                />
     </monster>
 
     <monster id="2" name="Red Scorpion">
@@ -340,19 +337,24 @@
         <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
         <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
     </monster>
+
     <monster id="59" name="Moggun">
         <sprite>monsters/monster-moggun.xml</sprite>
     </monster>
+
     <monster id="60" name="Terranite">
     <sprite>monsters/monster-terranite.xml</sprite>
     </monster>
+
     <monster id="61" name="Pumpkin">
         <sprite>resource-pumpkin.xml</sprite>
     </monster>
+
     <monster id="62" name="Bandit">
     <sprite>monsters/monster-bandit.xml</sprite>
     <sprite>monsters/weapon-dagger.xml</sprite>
     </monster>
+
     <monster id="63" name="Bandit Lord">
     <sprite>monsters/monster-bandit-lord.xml</sprite>
     <sprite>monsters/weapon-bow.xml</sprite>
@@ -361,6 +363,7 @@
             action="attack"
             />
     </monster>
+
     <monster id="64" name="Vampire Bat">
         <sprite>monsters/monster-vampire-bat.xml</sprite>
         <sound event="die">monsters/bat/bat-dying1.ogg</sound>
@@ -447,4 +450,23 @@
     <monster id="80" name="Serqet">
 		<sprite>monsters/monster-serqet.xml</sprite>
     </monster>
+
+    <monster id="81" name="Earth Spider">
+        <sprite>monsters/monster-spider.xml|#1a160f,93774a,d2c3aa,ffffff;#a00000</sprite>
+        <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
+        <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
+    </monster>
+
+    <monster id="82" name="Earth Scorpion">
+        <sprite>monsters/monster-scorpion.xml|#211b0e,5c3e20,a68d42,ffffff</sprite>
+        <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
+        <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
+    </monster>
+
 </monsters>
