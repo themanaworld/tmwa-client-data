@@ -19,9 +19,6 @@
         <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
         <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
-        <attack id="1"
-                particle-effect="graphics/particles/attack.particle.xml"
-                />
     </monster>
 
     <monster id="2" name="Red Scorpion">
@@ -94,7 +91,7 @@
     </monster>
 
     <monster id="12" name="Pink Flower">
-        <sprite>monsters/monster-flower.xml|#ee748d,ffd8ce;#f6ffbd;#23285f</sprite>
+        <sprite>monsters/flower.xml|#ee748d,ffd8ce;#f6ffbd;#23285f</sprite>
         <sound event="hit">monsters/flower/flower-hit1.ogg</sound>
         <sound event="hit">monsters/flower/flower-hit2.ogg</sound>
         <sound event="miss">monsters/flower/flower-miss1.ogg</sound>
@@ -128,7 +125,7 @@
     </monster>
 
     <monster id="18" name="Fluffy">
-        <sprite>monsters/monster-fluffy.xml</sprite>
+        <sprite>monsters/fluffy.xml</sprite>
         <sound event="hit">monsters/fluffy/fluffy-hit1.ogg</sound>
         <sound event="hit">monsters/fluffy/fluffy-hit2.ogg</sound>
         <sound event="hit">monsters/fluffy/fluffy-hit3.ogg</sound>
@@ -167,7 +164,7 @@
     </monster>
 
     <monster id="25" name="Easter Fluffy">
-        <sprite>monsters/monster-fluffy.xml</sprite>
+        <sprite>monsters/fluffy.xml</sprite>
         <sound event="hit">monsters/fluffy/fluffy-hit1.ogg</sound>
         <sound event="hit">monsters/fluffy/fluffy-hit2.ogg</sound>
         <sound event="hit">monsters/fluffy/fluffy-hit3.ogg</sound>
@@ -281,7 +278,7 @@
     </monster>
 
     <monster id="46" name="Duck" targetCursor="small">
-        <sprite>monsters/monster-duck.xml</sprite>
+        <sprite>monsters/duck.xml</sprite>
     </monster>
 
     <monster id="47" name="Bee" targetCursor="small">
@@ -296,12 +293,12 @@
     <!--52 Troll-->
 
     <monster id="53" name="Butterfly" targetCursor="small">
-        <sprite>monsters/monster-butterfly.xml|#660000,FF3300,FFCC99,FFCCCC</sprite>
+        <sprite>monsters/butterfly.xml|#660000,FF3300,FFCC99,FFCCCC</sprite>
         <sprite>monsters/accessories/generic-shadow-small-circle.xml</sprite>
     </monster>
 
     <monster id="54" name="Cave Maggot" targetCursor="small">
-        <sprite>monsters/monster-cave-maggot.xml|</sprite>
+        <sprite>monsters/cave-maggot.xml|</sprite>
         <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
         <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
         <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
@@ -325,7 +322,7 @@
     </monster>
 
     <monster id="57" name="Giant Cave Maggot" targetCursor="large">
-        <sprite>monsters/monster-cave-maggot-giant.xml|#565051,ffffff</sprite>
+        <sprite>monsters/cave-maggot-giant.xml|#565051,ffffff</sprite>
         <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
         <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
         <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
@@ -399,7 +396,7 @@
     </monster>
 
     <monster id="69" name="Ice Element">
-        <sprite>monsters/monster-element-ball.xml</sprite>
+        <sprite>monsters/element-ball.xml</sprite>
     </monster>
 
     <monster id="70" name="Yeti">
@@ -453,6 +450,24 @@
 
     <monster id="80" name="Serqet">
 		<sprite>monsters/monster-serqet.xml</sprite>
+    </monster>
+
+    <monster id="81" name="Earth Spider">
+        <sprite>monsters/monster-spider.xml|#1a160f,93774a,d2c3aa,ffffff;#a00000</sprite>
+        <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
+        <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
+    </monster>
+
+    <monster id="82" name="Earth Scorpion">
+        <sprite>monsters/monster-scorpion.xml|#211b0e,5c3e20,a68d42,ffffff</sprite>
+        <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
+        <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
     </monster>
 
 </monsters>
