@@ -2330,15 +2330,13 @@
         weight="15"
         max-per-slot="10"/>
     <item id="734"
-        image="equipment/feet/boots.png|W:#505050"
+        image="equipment/feet/boots.png|W:#1e1e1e"
         name="Black Boots"
         description="Steel toe capped boots, designed to keep your feet very well protected."
-        effect="+4% Defense"
         type="equip-feet"
-        weight="35"
-        defense="4"
-        max-per-slot="1">
-        <sprite gender="male">equipment/feet/boots-male.xml|#505050</sprite>
+        weight="25"
+        defense="3">
+        <sprite gender="male">equipment/feet/boots-male.xml|#1e1e1e</sprite>
         <sprite gender="female">equipment/feet/boots-female.xml|#505050</sprite>
     </item>
     <item id="735"
