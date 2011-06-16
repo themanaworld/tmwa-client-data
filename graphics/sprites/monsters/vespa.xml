@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<sprite>
+	<imageset name="base" src="graphics/sprites/monsters/vespa.png|R;G" width="65" height="75" />
+
+	<action name="stand" imageset="base">
+		<animation direction="down">
+			<sequence start="13" end="17" delay="60"/>
+		</animation>
+		<animation direction="left">
+			<sequence start="26" end="30" delay="60"/>
+		</animation>
+		<animation direction="up">
+			<sequence start="39" end="43" delay="60"/>
+		</animation>
+		<animation direction="right">
+			<sequence start="0" end="4" delay="60"/>
+		</animation>
+	</action>
+
+	<action name="walk" imageset="base">
+		<animation direction="down">
+			<sequence start="13" end="20" delay="65"/>
+		</animation>
+		<animation direction="left">
+			<sequence start="26" end="33" delay="65"/>
+		</animation>
+		<animation direction="up">
+			<sequence start="39" end="46" delay="65"/>
+		</animation>
+		<animation direction="right">
+			<sequence start="0" end="7" delay="65"/>
+		</animation>
+	</action>
+
+
+	<action name="dead" imageset="base">
+		<animation direction="right">
+			<frame index="12" delay="0"/>
+		</animation>
+		<animation direction="down">
+			<frame index="25" delay="0"/>
+		</animation>
+		<animation direction="left">
+			<frame index="38" delay="0"/>
+		</animation>
+		<animation direction="up">
+			<frame index="51" delay="0"/>
+		</animation>
+	</action>
+
+	<action name="attack" imageset="base">
+		<animation direction="down">
+			<sequence start="21" end="24" delay="65"/>
+		</animation>
+		<animation direction="left">
+			<sequence start="34" end="37" delay="65"/>
+		</animation>
+		<animation direction="up">
+			<sequence start="47" end="50" delay="65"/>
+		</animation>
+		<animation direction="right">
+			<sequence start="8" end="11" delay="65"/>
+		</animation>
+	</action>
+
+</sprite>
