@@ -5,7 +5,7 @@
 <monsters>
 
     <monster id="0" name="Maggot" targetCursor="small">
-        <sprite>monsters/monster-maggot.xml</sprite>
+        <sprite>monsters/maggot.xml</sprite>
         <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
         <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
         <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
@@ -13,7 +13,7 @@
     </monster>
 
     <monster id="1" name="Scorpion">
-        <sprite>monsters/monster-scorpion.xml|#4d422d,826242,d8c282,ffffff</sprite>
+        <sprite>monsters/scorpion.xml|#4d422d,826242,d8c282,ffffff</sprite>
         <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
@@ -22,7 +22,7 @@
     </monster>
 
     <monster id="2" name="Red Scorpion">
-        <sprite>monsters/monster-scorpion.xml|#791d0a,cd5d27,f28d54,ffffff</sprite>
+        <sprite>monsters/scorpion.xml|#791d0a,cd5d27,f28d54,ffffff</sprite>
         <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
@@ -31,12 +31,12 @@
     </monster>
 
     <monster id="3" name="Green Slime">
-        <sprite>monsters/monster-slime.xml|#72982c,ffffff</sprite>
+        <sprite>monsters/slime.xml|#72982c,ffffff</sprite>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
     </monster>
 
     <monster id="4" name="Giant Maggot" targetCursor="large">
-        <sprite>monsters/monster-maggot-giant.xml</sprite>
+        <sprite>monsters/maggot-giant.xml</sprite>
         <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
         <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
         <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
@@ -44,17 +44,17 @@
     </monster>
 
     <monster id="5" name="Yellow Slime">
-        <sprite>monsters/monster-slime.xml|#b47f00,ffffff</sprite>
+        <sprite>monsters/slime.xml|#b47f00,ffffff</sprite>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
     </monster>
 
     <monster id="6" name="Red Slime">
-        <sprite>monsters/monster-slime.xml|#7e0000,ffffff</sprite>
+        <sprite>monsters/slime.xml|#7e0000,ffffff</sprite>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
     </monster>
 
     <monster id="7" name="Black Scorpion">
-        <sprite>monsters/monster-scorpion.xml|#0d1313,435a5a,879999,ffffff</sprite>
+        <sprite>monsters/scorpion.xml|#0d1313,435a5a,879999,ffffff</sprite>
         <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
@@ -63,11 +63,11 @@
     </monster>
 
     <monster id="8" name="Snake">
-        <sprite>monsters/monster-snake.xml|#664d28,a6673a,dbbc86,ffffff</sprite>
+        <sprite>monsters/snake.xml|#664d28,a6673a,dbbc86,ffffff</sprite>
     </monster>
 
     <monster id="9" name="Fire Goblin">
-        <sprite>monsters/monster-goblin-fire.xml</sprite>
+        <sprite>monsters/goblin-fire.xml</sprite>
         <sound event="hit">monsters/fire-goblin/fire-goblin-hit1.ogg</sound>
         <sound event="hit">monsters/fire-goblin/fire-goblin-hit2.ogg</sound>
         <sound event="miss">monsters/fire-goblin/fire-goblin-miss1.ogg</sound>
@@ -77,7 +77,7 @@
     </monster>
 
     <monster id="10" name="Spider">
-        <sprite>monsters/monster-spider.xml|#1a160f,4A7A93,AAC5D2,ffffff;#FF6666</sprite>
+        <sprite>monsters/spider.xml|#1a160f,4A7A93,AAC5D2,ffffff;#FF6666</sprite>
         <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
@@ -86,7 +86,7 @@
     </monster>
 
     <monster id="11" name="Evil Mushroom">
-        <sprite>monsters/monster-mushroom-red.xml</sprite>
+        <sprite>monsters/mushroom-red.xml</sprite>
         <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
     </monster>
 
@@ -98,12 +98,12 @@
     </monster>
 
     <monster id="13" name="Santa Slime">
-        <sprite>monsters/monster-slime.xml|#545166,66A9CD,C2F7FA</sprite>
+        <sprite>monsters/slime.xml|#545166,66A9CD,C2F7FA</sprite>
         <sprite>monsters/accessories/slime-santa.xml</sprite>
     </monster>
 
     <monster id="14" name="Rudolph Slime">
-        <sprite>monsters/monster-slime.xml|#9092B9,9DB4D4,F8F9FA</sprite>
+        <sprite>monsters/slime.xml|#9092B9,9DB4D4,F8F9FA</sprite>
         <sprite>monsters/accessories/slime-rudolph.xml</sprite>
     </monster>
 
@@ -114,13 +114,13 @@
     </monster>
 
     <monster id="16" name="Pinkie" targetCursor="small">
-        <sprite>monsters/monster-pinkie.xml</sprite>
+        <sprite>monsters/pinkie.xml</sprite>
         <sound event="hit">monsters/pinkie/pinkie-hit1.ogg</sound>
         <sound event="miss">monsters/pinkie/pinkie-miss1.ogg</sound>
     </monster>
 
     <monster id="17" name="Spiky Mushroom">
-        <sprite>monsters/monster-mushroom-spiky.xml</sprite>
+        <sprite>monsters/mushroom-spiky.xml</sprite>
         <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
     </monster>
 
@@ -134,24 +134,24 @@
     </monster>
 
     <monster id="19" name="Cave Snake">
-        <sprite>monsters/monster-snake-cave.xml</sprite>
+        <sprite>monsters/snake-cave.xml</sprite>
         <sound event="hit">monsters/cavesnake/cavesnake-hit1.ogg</sound>
     </monster>
 
     <monster id="20" name="Jack O">
-        <sprite>monsters/monster-ghost-pumpkin.xml</sprite>
+        <sprite>monsters/ghost-pumpkin.xml</sprite>
     </monster>
 
     <monster id="21" name="Fire Skull">
-        <sprite>monsters/monster-skull-fire.xml</sprite>
+        <sprite>monsters/skull-fire.xml</sprite>
     </monster>
 
     <monster id="22" name="Poison Skull">
-        <sprite>monsters/monster-skull-poison.xml</sprite>
+        <sprite>monsters/skull-poison.xml</sprite>
     </monster>
 
     <monster id="23" name="Log Head">
-        <sprite>monsters/monster-logmonster.xml</sprite>
+        <sprite>monsters/logmonster.xml</sprite>
         <sound event="hurt">monsters/loghead/loghead-hurt1.ogg</sound>
         <sound event="hurt">monsters/loghead/loghead-hurt2.ogg</sound>
         <sound event="hurt">monsters/loghead/loghead-hurt3.ogg</sound>
@@ -160,7 +160,7 @@
     </monster>
 
     <monster id="24" name="Mountain Snake">
-        <sprite>monsters/monster-snake.xml|#585b39,a67c5d,dbc9a9,ffffff</sprite>
+        <sprite>monsters/snake.xml|#585b39,a67c5d,dbc9a9,ffffff</sprite>
     </monster>
 
     <monster id="25" name="Easter Fluffy">
@@ -173,7 +173,7 @@
     </monster>
 
     <monster id="26" name="Mouboo">
-        <sprite>monsters/monster-mouboo.xml</sprite>
+        <sprite>monsters/mouboo.xml</sprite>
     </monster>
 
     <monster id="27" name="Mauve Plant">
@@ -193,21 +193,21 @@
     </monster>
 
     <monster id="31" name="Sea Slime">
-        <sprite>monsters/monster-slime.xml|#4ca1a0,ffffff</sprite>
+        <sprite>monsters/slime.xml|#4ca1a0,ffffff</sprite>
         <sprite>monsters/accessories/slime-seajelly.xml|#4Ca16e,ffffff</sprite>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
     </monster>
 
     <monster id="32" name="Grass Snake">
-        <sprite>monsters/monster-snake.xml|#205839,60a65d,80dba9,ffffff</sprite>
+        <sprite>monsters/snake.xml|#205839,60a65d,80dba9,ffffff</sprite>
     </monster>
 
     <monster id="33" name="Silkworm">
-        <sprite>monsters/monster-silkworm.xml|#807d20,e0dac0;#c0a830</sprite>
+        <sprite>monsters/silkworm.xml|#807d20,e0dac0;#c0a830</sprite>
     </monster>
 
     <monster id="34" name="Zombie">
-        <sprite>monsters/monster-zombie.xml</sprite>
+        <sprite>monsters/zombie.xml</sprite>
         <sound event="move">monsters/zombie/zombie-move1.ogg</sound>
         <sound event="move">monsters/zombie/zombie-move2.ogg</sound>
         <sound event="hit">monsters/zombie/zombie-hit1.ogg</sound>
@@ -221,7 +221,7 @@
     </monster>
 
     <monster id="36" name="Squirrel">
-        <sprite>monsters/monster-squirrel.xml</sprite>
+        <sprite>monsters/squirrel.xml</sprite>
         <sound event="hurt">monsters/squirrel/squirrel-hurt1.ogg</sound>
         <sound event="hurt">monsters/squirrel/squirrel-hurt2.ogg</sound>
         <sound event="die">monsters/squirrel/squirrel-die1.ogg</sound>
@@ -229,7 +229,7 @@
     </monster>
 
     <monster id="37" name="Fire Lizard">
-        <sprite>monsters/monster-lizard.xml|#673132,923F42,CD5961,E163A4,ffffff</sprite>
+        <sprite>monsters/lizard.xml|#673132,923F42,CD5961,E163A4,ffffff</sprite>
         <sound event="hit">monsters/fire-goblin/fire-goblin-hit1.ogg</sound>
         <sound event="hit">monsters/fire-goblin/fire-goblin-hit2.ogg</sound>
         <sound event="miss">monsters/fire-goblin/fire-goblin-miss1.ogg</sound>
@@ -239,32 +239,32 @@
     </monster>
 
     <monster id="38" name="Wisp">
-        <sprite>monsters/monster-wisp.xml|#aadd44,ffff66</sprite>
+        <sprite>monsters/wisp.xml|#aadd44,ffff66</sprite>
         <particlefx>graphics/particles/wisp.particle.xml</particlefx>
     </monster>
 
     <monster id="39" name="Snail">
-        <sprite>monsters/monster-snail.xml</sprite>
+        <sprite>monsters/snail.xml</sprite>
         <particlefx>graphics/particles/monster-snail-trail.particle.xml</particlefx>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
     </monster>
 
     <monster id="40" name="Spectre">
-        <sprite>monsters/monster-wisp.xml|#ff77dd,dd77ff</sprite>
+        <sprite>monsters/wisp.xml|#ff77dd,dd77ff</sprite>
         <particlefx>graphics/particles/spectre.particle.xml</particlefx>
     </monster>
 
     <monster id="41" name="Skeleton">
-        <sprite>monsters/monster-skeleton.xml|#ffe8bf</sprite>
+        <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
     </monster>
 
     <monster id="42" name="Lady Skeleton">
-        <sprite>monsters/monster-skeleton.xml|#ffe8bf</sprite>
+        <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
         <sprite>hairstyles/hairstyle08.xml</sprite>
     </monster>
 
     <monster id="43" name="Fallen">
-        <sprite>monsters/monster-skeleton.xml|#ffe8bf</sprite>
+        <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
         <sprite>equipment/legs/chaps-male.xml</sprite>
         <sprite>equipment/chest/warlordplate-male.xml</sprite>
         <sprite>equipment/head/warlordhelm.xml</sprite>
@@ -273,7 +273,7 @@
     <!-- Snake lord 44 -->
 
     <monster id="45" name="Poltergeist">
-        <sprite>monsters/monster-wisp.xml|#77ffdd,77ddff</sprite>
+        <sprite>monsters/wisp.xml|#77ffdd,77ddff</sprite>
         <particlefx>graphics/particles/polter.particle.xml</particlefx>
     </monster>
 
@@ -306,7 +306,7 @@
     </monster>
 
     <monster id="55" name="Angry Scorpion">
-        <sprite>monsters/monster-scorpion.xml|#800000,ffffff</sprite>
+        <sprite>monsters/scorpion.xml|#800000,ffffff</sprite>
         <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
@@ -315,7 +315,7 @@
     </monster>
 
     <monster id="56" name="Ice Goblin">
-        <sprite>monsters/monster-goblin-ice.xml</sprite>
+        <sprite>monsters/goblin-ice.xml</sprite>
         <sound event="hit">monsters/fire-goblin/fire-goblin-hit1.ogg</sound>
         <sound event="hit">monsters/fire-goblin/fire-goblin-hit2.ogg</sound>
         <sound event="miss">monsters/fire-goblin/fire-goblin-miss1.ogg</sound>
@@ -339,11 +339,11 @@
     </monster>
 
     <monster id="59" name="Moggun">
-        <sprite>monsters/monster-moggun.xml</sprite>
+        <sprite>monsters/moggun.xml</sprite>
     </monster>
 
     <monster id="60" name="Terranite">
-    <sprite>monsters/monster-terranite.xml</sprite>
+    <sprite>monsters/terranite.xml</sprite>
     </monster>
 
     <monster id="61" name="Pumpkin">
@@ -365,27 +365,27 @@
     </monster>
 
     <monster id="64" name="Vampire Bat">
-        <sprite>monsters/monster-vampire-bat.xml</sprite>
+        <sprite>monsters/vampire-bat.xml</sprite>
         <sound event="die">monsters/bat/bat-dying1.ogg</sound>
         <sound event="hit">monsters/bat/bat-hit1.ogg</sound>
     </monster>
 
     <monster id="65" name="Reaper" targetCursor="medium">
-        <sprite>monsters/monster-reaper.xml</sprite>
+        <sprite>monsters/reaper.xml</sprite>
         <sprite>monsters/accessories/reaper-shadow.xml</sprite>
         <particlefx>graphics/particles/monster-reaper.particle.xml</particlefx>
         <sound event="hurt">monsters/reaper/reaper-hurt.ogg</sound>
     </monster>
 
     <monster id="66" name="Reaper" targetCursor="medium"> <!-- slave version -->
-        <sprite>monsters/monster-reaper.xml</sprite>
+        <sprite>monsters/reaper.xml</sprite>
         <sprite>monsters/accessories/reaper-shadow.xml</sprite>
         <particlefx>graphics/particles/monster-reaper.particle.xml</particlefx>
         <sound event="hurt">monsters/reaper/reaper-hurt.ogg</sound>
     </monster>
 
     <monster id="67" name="Scythe" targetCursor="large">
-        <sprite>monsters/monster-spinning-scythe.xml</sprite>
+        <sprite>monsters/spinning-scythe.xml</sprite>
         <sprite>monsters/accessories/scythe-shadow.xml</sprite>
     </monster>
 
@@ -400,11 +400,11 @@
     </monster>
 
     <monster id="70" name="Yeti">
-        <sprite>monsters/monster-yeti.xml</sprite>
+        <sprite>monsters/yeti.xml</sprite>
     </monster>
 
     <monster id="71" name="The Lost" targetCursor="medium">
-        <sprite>monsters/monster-skeleton.xml|#aca379</sprite>
+        <sprite>monsters/skeleton.xml|#aca379</sprite>
         <sprite>equipment/chest/robe-male.xml|#333333</sprite>
     </monster>
 
@@ -415,21 +415,21 @@
     <!-- 74 DreadWing -->
 
     <monster id="75" name="Drunken Skeleton">
-        <sprite>monsters/monster-skeleton.xml|#ffe8bf</sprite>
+        <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
         <sprite>equipment/legs/chaps-male.xml</sprite>
         <sprite>equipment/chest/vnecksweater-male.xml|#580000,A40000,C02020,ff6060</sprite>
         <sprite>equipment/head/tophat.xml</sprite>
     </monster>
 
     <monster id="76" name="Tipsy Skeleton">
-        <sprite>monsters/monster-skeleton.xml|#ffe8bf</sprite>
+        <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
         <sprite>equipment/legs/chaps-male.xml</sprite>
         <sprite>equipment/chest/vnecksweater-male.xml|#0d1430,21337c,4363e5</sprite>
         <sprite>equipment/head/bowler-hat.xml</sprite>
     </monster>
 
     <monster id="77" name="Drunken Lady Skeleton">
-        <sprite>monsters/monster-skeleton.xml|#ffe8bf</sprite>
+        <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
         <sprite>hairstyles/hairstyle08.xml</sprite>
         <sprite>equipment/legs/skirt.xml|#3f221d,754d23,f5cea4</sprite>
     <sprite>equipment/chest/shorttanktop-female.xml|#3f221d,754d23,f5cea4</sprite>
@@ -437,23 +437,23 @@
     </monster>
 
     <monster id="78" name="Blue Spark">
-		<sprite>monsters/monster-ball-lightning.xml</sprite>
+		<sprite>monsters/ball-lightning.xml</sprite>
 		<sprite>monsters/accessories/ball-lightning-shadow.xml</sprite>
 		<particlefx>graphics/particles/monster-ball-lightning-blue.particle.xml</particlefx>
     </monster>
 
     <monster id="79" name="Red Spark">
-		<sprite>monsters/monster-ball-lightning.xml</sprite>
+		<sprite>monsters/ball-lightning.xml</sprite>
 		<sprite>monsters/accessories/ball-lightning-shadow.xml</sprite>
 		<particlefx>graphics/particles/monster-ball-lightning-red.particle.xml</particlefx>
     </monster>
 
     <monster id="80" name="Serqet">
-		<sprite>monsters/monster-serqet.xml</sprite>
+		<sprite>monsters/serqet.xml</sprite>
     </monster>
 
     <monster id="81" name="Earth Spider">
-        <sprite>monsters/monster-spider.xml|#1a160f,93774a,d2c3aa,ffffff;#a00000</sprite>
+        <sprite>monsters/spider.xml|#1a160f,93774a,d2c3aa,ffffff;#a00000</sprite>
         <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
@@ -462,7 +462,7 @@
     </monster>
 
     <monster id="82" name="Earth Scorpion">
-        <sprite>monsters/monster-scorpion.xml|#211b0e,5c3e20,a68d42,ffffff</sprite>
+        <sprite>monsters/scorpion.xml|#211b0e,5c3e20,a68d42,ffffff</sprite>
         <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
@@ -471,7 +471,7 @@
     </monster>
 
     <monster id="83" name="Ice Skull">
-        <sprite>monsters/monster-skull-ice.xml</sprite>
+        <sprite>monsters/skull-ice.xml</sprite>
     </monster>
 
 </monsters>

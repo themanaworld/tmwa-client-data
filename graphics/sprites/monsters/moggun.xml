@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<sprite>
+
+	<imageset name="base" src="graphics/sprites/monsters/moggun.png" width="77" height="76" />
+
+	<action name="stand" imageset="base">
+		<animation direction="down">
+		  <frame index="14" />
+		</animation>
+		<animation direction="left">
+		  <frame index="7" />
+		</animation>
+		<animation direction="up">
+		  <frame index="21" />
+		</animation>
+		<animation direction="right">
+		  <frame index="0" />
+		</animation>
+	</action>
+
+	<action name="walk" imageset="base">
+		<animation direction="down">
+			<sequence start="14" end="17" delay="120" />
+		</animation>
+		<animation direction="left">
+			<sequence start="7" end="10" delay="120" />
+		</animation>
+		<animation direction="up">
+			<sequence start="21" end="24" delay="120" />
+		</animation>
+		<animation direction="right">
+			<sequence start="0" end="3" delay="120" />
+		</animation>
+	</action>
+
+
+	<action name="dead" imageset="base">
+		<animation direction="down">
+			<frame index="20" delay="900" />
+		</animation>
+		<animation direction="left">
+			<frame index="13" delay="900" />
+		</animation>
+		<animation direction="up">
+			<frame index="27" delay="900" />
+		</animation>
+		<animation direction="right">
+			<frame index="6" delay="900" />
+		</animation>
+	</action>
+
+	<action name="attack" imageset="base">
+		<animation direction="down">
+			<sequence start="18" end="19" delay="100" />
+			<end />
+		</animation>
+		<animation direction="left">
+			<sequence start="11" end="12" delay="100" />
+			<end />
+		</animation>
+		<animation direction="up">
+			<sequence start="25" end="26" delay="100" />
+			<end />
+		</animation>
+		<animation direction="right">
+			<sequence start="4" end="5" delay="100" />
+			<end />
+		</animation>
+	</action>
+
+</sprite>
