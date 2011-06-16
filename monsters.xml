@@ -404,7 +404,7 @@
     </monster>
 
     <monster id="69" name="Ice Element">
-        <sprite>monsters/element-ball.xml</sprite>
+        <sprite>monsters/element-ball.xml|#5e929d,a2d8e3,ffffff</sprite>
     </monster>
 
     <monster id="70" name="Yeti">
@@ -480,6 +480,11 @@
 
     <monster id="83" name="Ice Skull">
         <sprite>monsters/skull-ice.xml</sprite>
+    </monster>
+
+    <monster id="84" name="Fey Element">
+        <sprite>monsters/element-ball.xml|#6d4e2f,98612c,c38a53,ffffff</sprite>
+        <particlefx>graphics/particles/monster-leaf.particle.xml</particlefx>
     </monster>
 
 </monsters>
