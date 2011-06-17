@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
  <properties>
   <property name="minimap" value="graphics/minimaps/029-1.png"/>
@@ -10,16 +11,16 @@
   <property name="overlay0scrollY" value="0.1"/>
  </properties>
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png"/>
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
  <tileset firstgid="3" name="Woodland" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Woodland_ground.png"/>
+  <image source="../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="259" name="Woodland x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/Woodland_x2.png"/>
+  <image source="../graphics/tiles/Woodland_x2.png" width="512" height="128"/>
  </tileset>
  <tileset firstgid="291" name="Woodland x3" tilewidth="32" tileheight="96">
-  <image source="../graphics/tiles/Woodland_x3.png"/>
+  <image source="../graphics/tiles/Woodland_x3.png" width="512" height="192"/>
  </tileset>
  <layer name="Ground" width="100" height="100">
   <data encoding="base64" compression="gzip">
@@ -43,7 +44,7 @@
  </layer>
  <layer name="Collision" width="100" height="100">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2SW47DIBAEHd//0Pu1koV4zQzQE6daKsXBNuBq7uu6bgAAAAAAAAAAAAAAAAAAAAAAAAAAgA088xzbsYb6W7PTS+a530jpZpW3mai/PRuzic67uus38vQx8medd8Z/bezX6cXTiTdqDxmo+Yi6m3m2tqbaRQZaqXVVjlt7njkHah9qWl5qsc7rPQe/Sumg5cbqasZxK2onCv+jzDq1rHMXv+W8nnW+HUtWeLJG7UdNzUfUUyRqH1loufE4GrnuRe0hE6sceaP+/mxcjd/dXZTrw9jVri4i672VVW4iUTvIQunD6ygStYMs1Jx4Pa2K2kmGLv7zcbpZGbWXTH14/ETSmkPtJmsnd3Ed7cHyrtpNll56viJdeOZUe8nQR8tLNM+1ynVb99ResvXh6cHbuXW+N3MV15FYO5h5Vu1H1UnNg8VbzV3rfu/d2nNqP6ouZpz30pp7tk/L3G9mZUZzR9dXu1J24nVVG7sr/2vjvevanL/AKJ/J5zxrzuxB7eeU+9k+Rll5Dlr31N5O9BFJr1/rfmb2pvZ2qpOVPe0+H2pvio4sjp7vrjgbrbnLsbfiSeu9yB4s+1E7y9BBz8vz+sR+1P52d7KiI7o452Dkpvxv3Yt1X2p/pzqJdnXqbKjdKbqZ8dG6ppP9nYyePXkeout9A97vXeXGGrWvE32o17dE7evtzLinC2036n0AAAAAAAAAAAAAAAAAAAAAAAAAAKzkD+SZZphAnAAA
+   H4sIAAAAAAAAA+2S0Q6DIBAErf//0X1qYggIxx3sVWeTSa21HM5yHsdxAgAAAAAAAAAAAAAAAAAAAAAAAAAALOCa670VM9Tvmp27ZF77iZRuoryNRP3u2RiNd93orp/I1UfPn3XdEf+1e2/nLjOdzEbtIQM1H153I8/WZqpdZKCVWlflfWvPI+dA7UNNy0st1nVnz8FbKR203FhdjThuRe1E4b+XUaeWOWfxWa47M+ff8WTHPLUfNTUfXk+eqH1koeVmxlHP9V3UHjIR5Wg26vfPxtH4XN1FOR/6rlZ14Zn3VKLceKJ2kIXSx6wjT9QOslBzMuspKmonGbr45TPpJjJqL5n6mPGzImo3WTs5i+vVPZSz30rpoedoV9ReMvTR8qKI2ku2PmZ6mO3cut6TOYprTyI6uFvzLbQ8lE6s7qKi9qPqwuuwtXZEP2pPqk686a3tnat2pezE6qy2VjmjNXvkurbmG+jlM/jczMyRPaj97HI/2kcvkeeg9Zva244+PLnr17qfkb2pve3qJLKn1edD7U3RkcXR9b8RZ6O1dnnvqcyk9T/PHiz7UTvL0MGdl+v1jv2o/a3uJKIjutjnoOem/G7di3Vfan+7OvF2tetsqN0puhnx0bqmk/Wd9J7deR688/6B2feNcmON2teOPtTzLVH7ejoj7ulC2416HwAAAAAAAAAAAAAAAAAAAAAAAAAAkXwBNEnYIUCcAAA=
   </data>
  </layer>
  <objectgroup name="Object Layer 1" width="100" height="100">
