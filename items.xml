@@ -2712,13 +2712,45 @@
         mp="250"
         weight="25"/>
     <item id="829"
-        image="generic/crystal.png|W:#ba58ff,d496ff,ffffff"
-        name="Light Crystal"
-        description="A light crystal that emits an angelic aura."
-        type="generic"
+        image="equipment/charms/fourleaf-amulet.png|W:#332f27,584a31,af7817,ffffff"
+        name="Crozenite Four-Leaf Amulet"
+        description="An amulet that brings the wearer luck where ever they go."
+        effect="M. Attack +5"
+        type="equip-charm"
+        luck="1"
+        weight="10"/>
+    <item id="830"
+        image="equipment/charms/fourleaf-amulet.png|W:#3f2e26,644435,7c513c,ffffff"
+        name="Bromenal Four-Leaf Amulet"
+        description="An amulet that brings the wearer good luck where ever they go."
+        effect="M. Attack +5"
+        type="equip-charm"
+        luck="2"
+        weight="10"/>
+    <item id="831"
+        image="equipment/charms/fourleaf-amulet.png|W:#272f33,384347,6f7e85,ffffff"
+        name="Silver Four-Leaf Amulet"
+        description="An amulet that brings the wearer great luck where ever they go."
+        effect="M. Attack +5"
+        type="equip-charm"
+        luck="3"
+        weight="10"/>
+    <item id="832"
+        image="equipment/charms/fourleaf-amulet.png|W:#857a4d,bc9600,fdd017,ffffff"
+        name="Golden Four-Leaf Amulet"
+        description="An amulet that brings the wearer excellent luck where ever they go."
+        effect="M. Attack +5"
+        type="equip-charm"
+        luck="4"
+        weight="10"/>
+    <item id="833"
+        image="equipment/charms/broken-fourleaf-amulet.png"
+        name="Broken Four-Leaf Amulet"
+        description="A broken four-leaf clover amulet."
+        type="equip-charm"
         weight="10"/>
 
-    <!-- ID 230 RESERVED - "Witch Root" -->
+    <!-- ID 834 RESERVED - "Witch Root" -->
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
@@ -2965,11 +2997,11 @@
         type="equip-charm"
         weight="1"/>
     <item id="1228"
-        image="equipment/charms/silverfourleaf.png"
-        name="Silver Four-Leaf Amulet"
-        description="An amulet made for people bringing luck wherever they go."
-        type="equip-charm"
-        weight="1"/>
+        image="generic/crystal.png|W:#ba58ff,d496ff,ffffff"
+        name="Light Crystal"
+        description="A light crystal that emits an angelic aura."
+        type="generic"
+        weight="10"/>
     <item id="1229"
         image="use/food/caramelapple.png"
         name="Caramel Apple"
