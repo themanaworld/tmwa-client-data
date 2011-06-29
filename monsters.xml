@@ -286,13 +286,9 @@
         <sprite>monsters/accessories/generic-shadow-small-circle.xml</sprite>
     </monster>
 
-    <monster id="48" name="Larvespa" targetCursor="small">
-        <sprite>monsters/larvespa.xml|#211b0e,5c3e20,a68d42;#667C26</sprite>
-    </monster>
+    <!--48 Vespa-->
 
-    <monster id="49" name="Vespa" targetCursor="small">
-        <sprite>monsters/vespa.xml|#1a160f,93774a;#DEBFBF,BBA2A2</sprite>
-    </monster>
+    <!--49 Larvespa-->
 
     <!--50 Hivespa-->
 
@@ -460,7 +456,7 @@
 		<sprite>monsters/serqet.xml</sprite>
     </monster>
 
-    <monster id="81" name="Earth Spider">
+    <monster id="81" name="Huntsman Spider">
         <sprite>monsters/spider.xml|#1a160f,93774a,d2c3aa,ffffff;#a00000</sprite>
         <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
@@ -469,7 +465,7 @@
         <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
     </monster>
 
-    <monster id="82" name="Earth Scorpion">
+    <monster id="82" name="Crotcher Scorpion">
         <sprite>monsters/scorpion.xml|#211b0e,5c3e20,a68d42,ffffff</sprite>
         <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
         <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
@@ -485,6 +481,14 @@
     <monster id="84" name="Fey Element">
         <sprite>monsters/element-ball.xml|#6d4e2f,98612c,c38a53,ffffff</sprite>
         <particlefx>graphics/particles/monster-leaf.particle.xml</particlefx>
+    </monster>
+
+    <monster id="85" name="Larvern" targetCursor="small">
+        <sprite>monsters/larvespa.xml|#211b0e,5c3e20,a68d42;#667C26</sprite>
+    </monster>
+
+    <monster id="86" name="Flyvern" targetCursor="small">
+        <sprite>monsters/vespa.xml|#1a160f,93774a;#DEBFBF,BBA2A2</sprite>
     </monster>
 
 </monsters>
