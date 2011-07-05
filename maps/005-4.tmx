@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="128" height="64" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="75" height="50" tilewidth="32" tileheight="32">
  <properties>
   <property name="name" value="Electricity Boss Cave"/>
  </properties>
@@ -12,27 +12,27 @@
  <tileset firstgid="131" name="arena" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/arena.png" width="512" height="512"/>
  </tileset>
- <layer name="ground" width="128" height="64">
+ <layer name="ground" width="75" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3U0QnCMBiF0TyoExRXsE5QnUDdf6EGRJTmUaKBew7c9/58pKUAAAAAAAAAAMDTqW4eZOfOt9Ja6i6D7Nr5Vlq3uvsge3S+ldaxbj/Ips630tI/m/7Z9M+mfzb9s+mfTf9s+mfTP5v+2fTnG4fy7rf787fwe5//j6l4w2m2/cmifzb9efUHAAAAAAAAAAAAAAAASLcCFXxtygCAAAA=
+   H4sIAAAAAAAAA+3VwQ2CQBCF4T0IFRBbACsAK1BrsQBDYvHsxYhmgdVhYBb+L3kXNiTMywDOAQAAAAAAAMCn0qcykpPyrFK1T2MkZ+VZpS4+VyO5Kc8qdfTJjKRQnlWKruKt1VUbuJZSV6Hnj8njz/tS7iqU58Q576Be7iNndLXvvZrr+7SHrtir6e+JRvo7mlpXSyX0f6Wr7byDUrl7z3pY+Vms6+9l4ba/GxLfXWEYXcWjq9+8ugIAAAAAwIoOj4537Zg6AAA=
   </data>
  </layer>
- <layer name="Fringe" width="128" height="64">
+ <layer name="Fringe" width="75" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3YwQkAMAgDQPffrc6kI1Swr95BfiEDJAIAAAAAAAAAAAD43enkYu/1LgAAAAAAd/y/AAAAAAAAAAAAAAAAAAAAADMFdx2y6ACAAAA=
+   H4sIAAAAAAAAA+3XwQkAMAgDQPffrc6kE/SlUMod5BfyTwQAAAAAAPCa08nB3vYuAADAjY8DAAAAAPCPAifDDfmYOgAA
   </data>
  </layer>
- <layer name="over" width="128" height="64">
+ <layer name="over" width="75" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3YUUrDUBAF0Pdb/4u6XBdkd6BrMyMUQsAmaUamZc6F81EYQpkbkkfOY4wzAAAAAAAAAACMx0v1PrqJfE4uq81sn9s7P5+r3kc3ka/J941+rtk6t3d+Ple9j24iHwmyUr2PbiJZ/WfcC9X76Cai/74inv99RTL6z7ofqvfRTeTo8/6v3/ekeh/dRLLe/WPo/9lEss59y3vhnlTvo5tI1nve8//5RK7fX9e63jo3Ftddi++/tf37/tvXafJ2wPusx9eD13p5gH2wzzLV/wf9o3/0z/+L82OcAePs5/zW00n3AAAAAAAAAAAAAAAAAL9+AAI4HXoAgAAA
+   H4sIAAAAAAAAA+3XQQrCQAxA0Wx1X9TjeiC9gZ7NmUUhFDWpTZtQ/8BbCLE4n3akg4gMAAAAAAAAAKBUW9k9rFa35u7Yh3du7ryey+5htXo0T8eevHNz5/Vcdg+r1TVA1MrusVWriG7ZPWhVr1XEyu6xRauodtk91mg1/d67z7T63E2EVr/cX7T6fi79wzM4vmNYXbxzMrmutXjH2d87zqE5L3BRez4tvNaxQI+170u9sn9PZbSiFa1y9f+Gfr73c33vZ3NULzoBAAAAACp5AW661j2YOgAA
   </data>
  </layer>
- <layer name="Collision" width="128" height="64">
+ <layer name="Collision" width="75" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3RMQ6DUBBDwX92Tp4qdaDBjjxPmg4h8F7nnAsAAAAAAAAAAADg/O7uc0+fT//3upbSO6xqKb3DqpbSO6xqKb3DqpbSO6xqKb3DqpbSO6xqKb3DqpbSO6xqKb3Durv3udvT9/Kf3HHbt/R34P64P+4PAAAAAAAAAAAAAAAAAG/7AD3ElqsAgAAA
+   H4sIAAAAAAAAA+3SQQrAIAxFQc/uyXuBYhsQf8AJzE4UH5ljjAkAAAAAALT0NX/PVc+n/72z0alJd9BKq46tTrZMd+i2V6v30h26tVpNuoNWWnVolWyX7tB1r97eTXfY2azatnrvDW78s1ZadaKVVgAAAHCDB/H4K42YOgAA
   </data>
  </layer>
- <objectgroup name="Object Layer 1" width="128" height="64">
+ <objectgroup name="Object Layer 1" width="75" height="50">
   <object name="graphics/particles/electricity.red.large.xml" type="PARTICLE_EFFECT" x="1699" y="672"/>
   <object name="graphics/particles/electricity.red.large.xml" type="PARTICLE_EFFECT" x="1696" y="1021"/>
   <object name="graphics/particles/electricity.red.large.xml" type="PARTICLE_EFFECT" x="1377" y="1024"/>

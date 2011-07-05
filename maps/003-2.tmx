@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="98" height="87" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="75" height="50" tilewidth="32" tileheight="32">
  <properties>
   <property name="name" value="Beach House"/>
  </properties>
@@ -15,40 +15,40 @@
  <tileset firstgid="289" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
- <layer name="Ground" width="98" height="87">
+ <layer name="Ground" width="75" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3WTWrCYBAG4JSKewvt3t7An/YGHqEH0wNY6iV16WwCIZT8gOMX8Qk8q1lk5h3yfTlXVXUGAAAAAACAB/ESZj3mE+jzXvPPO2qviXkswluPxQTyylLPvwvvrVnb2WzDV/hO6GMZPnssJ5BXlnr+n8asx/DbqH00all5rAYqnVeWer7NiCwy8uh61z4cnmQPY6zv3MdfONlD8e/hmc4leyhrbQ+TMOQu+O8Ot4f8+Yf8O9lD3vxjzih7uK2u59JRK9VH6bwAAAAAAAAAAAAAAAAAAAAAAAAAAADgEVwB8cV8fDiFAAA=
+   H4sIAAAAAAAAA+3VSwrCMABF0YjSeQWd1x1YPztwCS5MF6DoJjv1iQRCkSYB00R6B2eUQS+PNu2MMR0AAAAAAAAAFGAmC4+qsMZq4GyesLmWpUedeSvbeJJVr6ffv5eDHBN0NLLxaDJvZRvPTs9N7s7Z2jlL1bwNlHMr27CL6E3RPPSsi1wL2ipGO3LHQ55/utXY71Vp3yBb+bVs9bPG95bf7n22+gj5J059q5jvcepbcV8BAAAAAAAAAIAQL0jYAgCYOgAA
   </data>
  </layer>
- <layer name="Lower" width="98" height="87">
+ <layer name="Lower" width="75" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3TMQqAMAwF0HZV0E29/xW9gNktbhIx70GgNEt+SVsDAAAAAAAA4E+2nj1BLXu899Hv51G/iinyzh/IfGYPAA/sJ1XZfcizRK2D+2r/slpeAAAAAAAAAAAAAAAAAAAAAAAAAAAAgLddRO8J7ziFAAA=
+   H4sIAAAAAAAAA+3SQQqAIBBAUd0W1K66/xW7QLPPXaBTvQeC6OajUwoAAAAAAPzPVkcX5LPHmxz1vm/dZzJF05yg6xwdQBf+mafMEF+wxFob5xnnO2MTAAAAAADA210zIHv5mDoAAA==
   </data>
  </layer>
- <layer name="Fringe" width="98" height="87">
+ <layer name="Fringe" width="75" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SsQ0AIAwDsHaF///lBViqAvaaJYoSAQAAAAAAAADAzUZGzDzPqrtAtU5/7NTlN7bfYyd8oJ7NAQAAAAAAAAAAAAAAAAAAAAAAAAAAgBcsbQcRhDiFAAA=
+   H4sIAAAAAAAAA+3RoREAIAwDwGJh/31ZAIPhSu7f1qRJFQAAAAAAAGnmqFrj/vY6C//qtGunLB0l9ZP0SzI7nekFAAAAAABIsQH91ctymDoAAA==
   </data>
  </layer>
- <layer name="Over" width="98" height="87">
+ <layer name="Over" width="75" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3OoQ0AAAgDQfZfGMsGRRHMXfKqplUAAAAAAAAAAAAAALc6lPavHwAAAAAAAAAAAAAAAAAAAAAAAAAAAMBuANgSJR84hQAA
+   H4sIAAAAAAAAA+3OoREAAAgDMfZfGCQb1CJI7l7VtAoAAAAAAAAAgI86NGG7+gEAAAAAANxbjj6xtZg6AAA=
   </data>
  </layer>
- <layer name="Collision" width="98" height="87">
+ <layer name="Collision" width="75" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3RUQrCQBDAUL2K9z+k+CFIQa3KdmP7AgFRcGY2l/PpdCFJkiRJkiRJkiRJkj954/Hzndl7bXH3kle/jXqXZzNmzF1DpceI+ZX+Mzp8Onv2Hkfo8Mluo9/j3fd77rCcs/Uea97maB1ezZ65hw5j93i2z6jutfuX987e4/G/t55buf8f9tjr/UdXh4Y6NNShoQ4NdWioQ0MdGurQUIeGOjTUoaEODXVoqENDHRrq0FCHhjo01KFhpQO+Q4cGOjTQoYEODXRooEMDHRro0ECHBjo00KGBDg10aKBDAx0a6NBAhwY6NNChgQ4NdGigQwMdGujQQIcGOjTQoYEODXRooEMDHRro0ECHBjo00KGBDg2unAzn0DiFAAA=
+   H4sIAAAAAAAAA+3SUQrEIAwFQPcqvf8hS6ELIsWtCyb5mMBAkYKPZ45PawcAAAAAAMDtmv77O9m5xjxjrtlE5dh9b0RnUftUqauV6f/PylGlq5Xcu7v6dZ7d1Zgpuqs3b1Wxq1nOXV2tZKjeVUTmp3uyOxqz/btjOzqavWOFrlYnK0f2bgEAAAAAAK2dtluYjJg6AAA=
   </data>
  </layer>
- <objectgroup name="Object Group 4" width="0" height="0">
-  <object name="toOutside" type="warp" x="864" y="928" width="32" height="32">
+ <objectgroup name="Object Group 4" width="75" height="50">
+  <object name="toOutside" type="warp" x="704" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="003-1"/>
     <property name="dest_x" value="1552"/>
     <property name="dest_y" value="1200"/>
    </properties>
   </object>
-  <object name="toOutside" type="warp" x="1952" y="928" width="32" height="32">
+  <object name="toOutside" type="warp" x="1792" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="003-1"/>
     <property name="dest_x" value="1904"/>
