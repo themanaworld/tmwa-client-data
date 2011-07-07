@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="13" height="17" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
@@ -7,12 +8,12 @@
   <image source="../../graphics/tiles/set_cave.png" width="256" height="256"/>
  </tileset>
  <tileset firstgid="67" name="set_rules" tilewidth="32" tileheight="32">
-  <image source="../../graphics/tiles/set_rules.png" width="32" height="32"/>
+  <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="68" name="cave" tilewidth="32" tileheight="32">
+ <tileset firstgid="71" name="cave" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/cave.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="196" name="cave_x2" tilewidth="32" tileheight="64">
+ <tileset firstgid="199" name="cave_x2" tilewidth="32" tileheight="64">
   <image source="../../graphics/tiles/cave_x2.png" width="512" height="64"/>
  </tileset>
  <layer name="ruleRegions" width="13" height="17">
@@ -35,14 +36,14 @@
    H4sIAAAAAAAAA2NgGAUgwI6EieHTyt5RMPwBAE+qjq10AwAA
   </data>
  </layer>
- <layer name="rule_Ground" width="13" height="17" visible="0">
+ <layer name="rule_Ground" width="13" height="17">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA9EIGFi+CCQgYSJ4YPALCCeDcRzoPxGIG4C4mYoPxCIg4A4GEnPKiBeDcRroPyJQDwJiCdD+YlAnATEyUT6FQQKgbgIiItJ0EMr4IGEaalnFNAGAABjdzU5dAMAAA==
+   H4sIAAAAAAAAA2NgIA9EI2Fi+CCQjYSJ4YPAXCCeB8TzofwWIG4F4jYoPwSIQ4E4DEnPWiBeB8TrofwpQDwViKdB+SlAnArEaUT6FQRKgLgUiMtI0EMr4I2EaalnFNAGAADyhvLUdAMAAA==
   </data>
  </layer>
- <layer name="rule_Over" width="13" height="17" visible="0">
+ <layer name="rule_Over" width="13" height="17">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAUDCaKRMLHABQkTC04A8UkgPkWCnlFAGwAAqLF2T3QDAAA=
+   H4sIAAAAAAAAA2NgGAUDCeKQMLHAHQkTC04D8RkgPkuCnlFAGwAAqtusvHQDAAA=
   </data>
  </layer>
 </map>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="9" height="6" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
@@ -32,7 +33,7 @@
    H4sIAAAAAAAAA2NgoB7gw8FmJkIvLjXE6MUGAL3v5wfYAAAA
   </data>
  </layer>
- <layer name="rule_Error" width="9" height="6" visible="0">
+ <layer name="rule_Error" width="9" height="6">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgoB4QIYJNjF5ixAkBAOvVVsfYAAAA
   </data>

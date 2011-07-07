@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="13" height="4" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
@@ -7,9 +8,9 @@
   <image source="../../graphics/tiles/set_cave.png" width="256" height="256"/>
  </tileset>
  <tileset firstgid="67" name="set_rules" tilewidth="32" tileheight="32">
-  <image source="../../graphics/tiles/set_rules.png" width="32" height="32"/>
+  <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="68" name="cave" tilewidth="32" tileheight="32">
+ <tileset firstgid="71" name="cave" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/cave.png" width="512" height="256"/>
  </tileset>
  <layer name="ruleRegions" width="13" height="4">
@@ -27,9 +28,14 @@
    H4sIAAAAAAAAA2NgIB+wo9EwNjsWNjHm4OKTAgAwnyyb0AAAAA==
   </data>
  </layer>
+ <layer name="rule_Ground" width="13" height="4">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGBzAC0r7UGgOAAPIInnQAAAA
+  </data>
+ </layer>
  <layer name="rule_Over" width="13" height="4">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA/4oPF9kdhRUDqGTLMpAQCtYkK20AAAAA==
+   H4sIAAAAAAAAA2NgIA/4o/EDkNixUDqeTLMpAQCMFVzp0AAAAA==
   </data>
  </layer>
 </map>
