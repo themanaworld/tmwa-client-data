@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<sprite>
+    <imageset name="base" src="graphics/sprites/monsters/pumpkin.png" width="50" height="50" />
+
+    <action name="stand" imageset="base">
+        <animation>
+            <frame index="1"/>
+        </animation>
+    </action>
+
+    <action name="dead" imageset="base">
+        <animation>
+            <frame index="0"/>
+        </animation>
+    </action>
+</sprite>

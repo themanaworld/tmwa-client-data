@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<sprite>
+
+<imageset name="base" src="graphics/sprites/monsters/element-ball.png|W" width="50" height="80" />
+
+<action name="stand" imageset="base">
+<animation direction="default">
+<frame index="0" delay="90"/>
+<frame index="1" delay="90"/>
+<frame index="2" delay="90"/>
+<frame index="3" delay="90"/>
+<frame index="4" delay="90"/>
+<frame index="5" delay="90"/>
+<frame index="6" delay="90"/>
+<frame index="7" delay="90"/>
+<frame index="8" delay="90"/>
+<frame index="9" delay="90"/>
+<frame index="10" delay="90"/>
+<frame index="11" delay="90"/>
+<frame index="12" delay="90"/>
+<frame index="13" delay="90"/>
+<frame index="14" delay="90"/>
+<frame index="15" delay="90"/>
+<frame index="16" delay="90"/>
+</animation>
+</action>
+
+<action name="dead" imageset="base">
+<animation direction="default">
+<frame index="0" delay="55" offsetY="1"/>
+<frame index="0" delay="55" offsetY="2"/>
+<frame index="0" delay="45" offsetY="3"/>
+<frame index="0" delay="45" offsetY="4"/>
+<frame index="0" delay="45" offsetY="5"/>
+<frame index="0" delay="45" offsetY="6"/>
+<frame index="0" delay="35" offsetY="7"/>
+<frame index="0" delay="35" offsetY="8"/>
+<frame index="0" delay="25" offsetY="9"/>
+<frame index="0" delay="25" offsetY="10"/>
+<frame index="0" delay="25" offsetY="11"/>
+<frame index="0" delay="25" offsetY="12"/>
+<frame index="0" delay="25" offsetY="13"/>
+<frame index="0" delay="15" offsetY="14"/>
+<frame index="0" delay="15" offsetY="15"/>
+<frame index="40" delay="140" offsetY="15"/>
+<frame index="41" delay="140" offsetY="15"/>
+<frame index="42" delay="140" offsetY="15"/>
+<frame index="43" delay="140" offsetY="15"/>
+<frame index="44" delay="140" offsetY="15"/>
+<frame index="45" delay="110" offsetY="15"/>
+<frame index="46" delay="110" offsetY="15"/>
+<frame index="47" delay="110" offsetY="15"/>
+<frame index="48" delay="110" offsetY="15"/>
+<frame index="49" delay="110" offsetY="15"/>
+<frame index="17"/>
+</animation>
+</action>
+
+<action name="attack" imageset="base">
+<animation direction="right">
+<frame index="20" delay="80"/>
+<frame index="21" delay="80"/>
+<frame index="22" delay="80"/>
+<frame index="23" delay="80"/>
+<frame index="24" delay="80"/>   3
+<frame index="25" delay="80"/>
+<frame index="26" delay="220"/>
+<frame index="25" delay="180"/>
+<frame index="24" delay="140"/>
+<frame index="23" delay="100"/>
+<frame index="22" delay="80"/>
+<frame index="21" delay="60"/>
+<frame index="20" delay="60"/>
+
+</animation>
+
+<animation direction="left">
+<frame index="36" delay="80"/>
+<frame index="35" delay="80"/>
+<frame index="34" delay="80"/>
+<frame index="33" delay="80"/>
+<frame index="32" delay="80"/>
+<frame index="31" delay="80"/>
+<frame index="30" delay="220"/>
+<frame index="31" delay="180"/>
+<frame index="32" delay="140"/>
+<frame index="33" delay="100"/>
+<frame index="34" delay="80"/>
+<frame index="35" delay="60"/>
+<frame index="36" delay="60"/>
+</animation>
+</action>
+
+</sprite>

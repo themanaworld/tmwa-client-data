@@ -131,6 +131,89 @@
 </npc>
 <npc id="203"><sprite>npcs/npc-woodenpump.xml</sprite></npc><!-- Woodenpump with drippy water -->
 <npc id="204"><sprite variant="27">npcs/npc.xml</sprite><particlefx>graphics/particles/golbenez.particle.xml</particlefx></npc>
+<!-- The entries 205-215 borrow concepts from npc id 201, which should not be regularly done. -->
+<npc id="205">
+   <sprite>player_female_base.xml</sprite>
+   <sprite>hairstyles/hairstyle01.xml|#347235,52D017</sprite>
+   <sprite>equipment/head/goggles.xml</sprite>
+   <sprite>equipment/legs/skirt.xml|#d3b79e,ffffff</sprite>
+   <sprite>equipment/chest/tanktop-female.xml|#d3b79e,ffffff</sprite>
+   <sprite>equipment/feet/boots-female.xml|#9e7654,ffffff</sprite>
+</npc>
+<npc id="206">
+   <sprite>player_female_base.xml</sprite>
+   <sprite>hairstyles/hairstyle10.xml|#7F462C,F9966B</sprite>
+   <sprite>equipment/chest/cotton-female.xml|#B93B8F,C38EC7,F9B7FF</sprite>
+   <sprite>equipment/legs/skirt.xml|#AF7817,E8A317</sprite>
+   <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
+</npc>
+<npc id="207">
+   <sprite>player_female_base.xml</sprite>
+   <sprite>hairstyles/hairstyle11.xml|#C8B560,FFE87C</sprite>
+   <sprite>equipment/chest/robe-female.xml|#7F5217,AF7817,E9AB17,FBB917</sprite>
+   <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
+</npc>
+<npc id="208">
+   <sprite>player_female_base.xml</sprite>
+   <sprite>hairstyles/hairstyle09.xml|#3B9C9C,AFDCEC</sprite>
+   <sprite>equipment/head/wizard-hat.xml|#4f0a76,8010c0,d699f7</sprite>
+   <sprite>equipment/chest/robe-female.xml|#4f0a76,8010c0,d699f7</sprite>
+   <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
+   <sprite>weapon-staff.xml</sprite>
+</npc>
+<npc id="209">
+   <sprite>player_female_base.xml</sprite>
+   <sprite>hairstyles/hairstyle12.xml|#573a26,ffffff</sprite>
+   <sprite>equipment/chest/cotton-female.xml|#573a26,9e7654,d3b79e,ffffff</sprite>
+   <sprite>equipment/legs/miniskirt-female.xml|#251e06,443c21,71653b,a0945e</sprite>
+   <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
+</npc>
+<npc id="210">
+   <sprite>player_female_base.xml</sprite>
+   <sprite>hairstyles/hairstyle04.xml|#810541,F535AA</sprite>
+   <sprite>equipment/legs/chaps-female.xml</sprite>
+   <sprite>equipment/chest/tanktop-female.xml|#846211,dab333,fffb93,ffffff</sprite>
+   <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
+</npc>
+<npc id="211">
+   <sprite>player_male_base.xml</sprite>
+   <sprite>hairstyles/hairstyle07.xml|#bb2222,ffee33</sprite>
+   <sprite>equipment/legs/shorts-male.xml|#255367,266c84,68b0c5,ffffff</sprite>
+   <sprite>equipment/chest/tanktop-male.xml|#a4b2b2,ffffff</sprite>
+   <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
+</npc>
+<npc id="212">
+   <sprite>player_male_base.xml</sprite>
+   <sprite>hairstyles/hairstyle08.xml|#EE9A4D,ffee33</sprite>
+   <sprite>equipment/head/captain-hat.xml</sprite>
+   <sprite>equipment/legs/shorts-male.xml|#a4b2b2,ffffff</sprite>
+   <sprite>equipment/chest/vnecksweater-male.xml|#a4b2b2,ffffff</sprite>
+   <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
+</npc>
+<npc id="213">
+   <sprite>player_male_base.xml</sprite>
+   <sprite>hairstyles/hairstyle02.xml|#254117,ffee33</sprite>
+   <sprite>equipment/head/sailor-hat.xml</sprite>
+   <sprite>equipment/legs/shorts-male.xml|#a4b2b2,ffffff</sprite>
+   <sprite>equipment/chest/tanktop-male.xml|#a4b2b2,ffffff</sprite>
+   <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
+</npc>
+<npc id="214">
+   <sprite>player_male_base.xml</sprite>
+   <sprite>hairstyles/hairstyle18.xml|#817339,FFE87C</sprite>
+   <sprite>equipment/head/silkheadband.xml</sprite>
+   <sprite>equipment/legs/shorts-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+   <sprite>equipment/chest/tanktop-male.xml|#16486e,498ec5,e4f2fc</sprite>
+   <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
+</npc>
+<npc id="215">
+   <sprite>player_male_base.xml</sprite>
+   <sprite>hairstyles/hairstyle02.xml|#F88017,FBB117</sprite>
+   <sprite>equipment/legs/chaps-male.xml</sprite>
+   <sprite>equipment/chest/cotton-male.xml|#222255,6666ff</sprite>
+   <sprite>equipment/head/bowler-hat-brown.xml|#16486e,498ec5,e4f2fc</sprite>
+   <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
+</npc>
 <npc id="300"><sprite variant="0">npcs/npc2.xml</sprite></npc><!-- Chef Skeleton -->
 <npc id="301"><sprite variant="1">npcs/npc2.xml</sprite></npc><!-- Barmaid -->
 <npc id="302"><sprite variant="2">npcs/npc2.xml</sprite></npc><!-- Shopkeeper -->
@@ -155,5 +238,7 @@
 <npc id="321"><sprite>npcs/npc-undeadbanker.xml</sprite></npc><!-- Undead banker -->
 <npc id="322"><sprite>npcs/npc-gate-closed.xml</sprite></npc><!-- Closed version of the crypt entrance gate -->
 <npc id="323"><sprite>npcs/npc-gate-open.xml</sprite></npc><!-- Open version of the crypt entrance gate -->
+<npc id="324"><particlefx>graphics/particles/pentagram-redlinedraw.particle.xml</particlefx></npc>
+<npc id="325"><particlefx>graphics/particles/pentagram-blacklinedraw.particle.xml</particlefx></npc>
 <!-- note: don't go above 999, because the 1000's are reserved for mob id -->
 </npcs>

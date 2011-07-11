@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<sprite>
+
+	<imageset name="base" src="graphics/sprites/monsters/snake-cave.png" width="96" height="56" />
+
+	<action name="stand" imageset="base">
+		<animation direction="down">
+		  <frame index="0" offsetX ="0" offsetY ="6" />
+		</animation>
+		<animation direction="left">
+		  <frame index="7" offsetX ="-1" offsetY ="4" />
+		</animation>
+		<animation direction="up">
+		  <frame index="14" offsetX ="0" offsetY ="-5" />
+		</animation>
+		<animation direction="right">
+		  <frame index="21" offsetX ="1" offsetY ="5" />
+		</animation>
+	</action>
+
+	<action name="walk" imageset="base">
+		<animation direction="down">
+			<sequence start="1" end="4" offsetX ="0" offsetY ="6" delay="150" />
+		</animation>
+		<animation direction="left">
+			<sequence start="8" end="11" offsetX ="-1" offsetY ="4" delay="150" />
+		</animation>
+		<animation direction="up">
+			<sequence start="15" end="18" offsetX ="0" offsetY ="-5" delay="150" />
+		</animation>
+		<animation direction="right">
+			<sequence start="22" end="25" offsetX ="1" offsetY ="5" delay="150" />
+		</animation>
+	</action>
+
+	<action name="dead" imageset="base">
+		<animation direction="down">
+			<sequence start="31" end="34" offsetX ="0" offsetY ="6" delay="150" />
+			<frame index="30" offsetX ="0" offsetY ="6" />
+		</animation>
+		<animation direction="left">
+			<sequence start="38" end="41" offsetX ="-1" offsetY ="4" delay="150" />
+			<frame index="37" offsetX ="-1" offsetY ="4" />
+		</animation>
+		<animation direction="up">
+			<sequence start="45" end="48" offsetX ="0" offsetY ="-5" delay="150" />
+			<frame index="44" offsetX ="0" offsetY ="-5" />
+		</animation>
+		<animation direction="right">
+			<sequence start="52" end="55" offsetX ="1" offsetY ="5" delay="150" />
+			<frame index="51" offsetX ="1" offsetY ="5" />
+		</animation>
+	</action>
+
+	<action name="attack" imageset="base">
+		<animation direction="down">
+			<sequence start="5" end="6" delay="150" offsetX ="0" offsetY ="6" />
+			<sequence start="28" end="29" delay="150" offsetX ="0" offsetY ="6" />
+		  	<end />
+		</animation>
+		<animation direction="left">
+			<sequence start="12" end="13" delay="150" offsetX ="-1" offsetY ="4" />
+			<sequence start="35" end="36" delay="150" offsetX ="-1" offsetY ="4" />
+		  	<end />
+		</animation>
+		<animation direction="up">
+			<sequence start="19" end="20" delay="150" offsetX ="0" offsetY ="-5" />
+			<sequence start="42" end="43" delay="150" offsetX ="0" offsetY ="-5" />
+		  	<end />
+		</animation>
+		<animation direction="right">
+			<sequence start="26" end="27" delay="150" offsetX ="1" offsetY ="5" />
+			<sequence start="49" end="50" delay="150" offsetX ="1" offsetY ="5" />
+		  	<end />
+		</animation>
+	</action>
+
+</sprite>

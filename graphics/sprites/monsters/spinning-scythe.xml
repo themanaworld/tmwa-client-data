@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<sprite>
+
+	<imageset name="base" src="graphics/sprites/monsters/spinning-scythe.png" width="100" height="100" />
+
+	<action name="stand" imageset="base">
+		<animation direction="default">
+			<sequence start="0" end="7" delay="40" />
+		</animation>
+	</action>
+
+	<action name="walk" imageset="base">
+		<animation direction="default">
+			<sequence start="0" end="7" delay="40" />
+		</animation>
+	</action>
+	
+	<action name="dead" imageset="base">
+		<animation direction="default">
+			<frame index="8" delay="80" offsetY="-10" />
+			<frame index="9" delay="90" offsetY="10" />
+			<frame index="10" delay="110" offsetY="20" />
+			<frame index="11" delay="140" offsetY="35" />
+			<frame index="12" delay="110" offsetY="35" />
+			<frame index="13" delay="80" offsetY="35" />
+			<frame index="14" delay="120" offsetY="35" />
+			<frame index="15" offsetY="35" />			
+		</animation>
+	</action>
+	
+
+	<action name="attack" imageset="base">
+		<animation direction="default">
+			<sequence start="0" end="7" delay="40" />
+		</animation>
+	</action>
+	
+</sprite>

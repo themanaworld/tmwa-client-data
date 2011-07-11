@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="60" height="60" tilewidth="32" tileheight="32">
  <properties>
   <property name="minimap" value="graphics/minimaps/011-3.png"/>
@@ -9,45 +8,45 @@
   <property name="overlay0keepratio" value="true"/>
   <property name="overlay0parallax" value="0.0"/>
  </properties>
- <tileset name="Cave" firstgid="1" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/cave.png" trans="ff00ff"/>
+ <tileset firstgid="1" name="Cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png" trans="ff00ff" width="512" height="256"/>
  </tileset>
- <tileset name="Collision" firstgid="129" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png" trans="ff00ff"/>
+ <tileset firstgid="129" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" trans="ff00ff" width="64" height="32"/>
  </tileset>
- <tileset name="Cave x2" firstgid="131" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/cave_x2.png"/>
+ <tileset firstgid="131" name="Cave x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/cave_x2.png" width="512" height="64"/>
  </tileset>
  <layer name="Ground" width="60" height="60">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO2YyU7DQAxA51C4sKpQjoBKxSJWFULhCpTAPyDgA9i+APrp2GJGWEOSmTSpYhcfnqK0h86z3bFnOsaYjqIoiqIoiqIoiqIoiqIQdoDdAHsM1lmX6xaQABf2iSwCS8Cyfe8KdXa5bBPXU2AI3Nknsg5sAJv2vS/UeWDz2CWu18CMxxFwDJzY9yuhzqnNY7/ANQ+Jzmtk7WVcpTo73ypQ5zYDp0n7UudLBk4U2ltd/c3W6HzPwJGC+3Fifnsoem+XcGoF4tMzvGoa92PXU7H+sBedBxzngHlgwfoUxefM8KhpV8d0rTfmpxfdevnza3wfOAAOrU9RfLjUtJsrQrnsZcTF9wn1rVUGvm6uoLnMq8ckIi7cfWP7Dtb4MCIuRTTtmuWb9T+tSqvg95sgq+bqmjc4+sbE4T/41uUtzbeqs0TfkDN+n7fHNb3uSZG3108jK+bv7MVhvpgUOJf6sxe3M1Gd4Fzqz144g0q424gB65fes2edI3AGlXKfE3J1d++OvHME1/ucMvmkd+8Ov5YfgWfizOHsO24+Q/fR6PoKfBiZe/XAy2foXP8GvAMvJMeSfNMIR5fXJ5tb9H0ARvY7SfWcRrjSvDpcPUubs8bxlZrbMr6fwJdlRD6fVt88pPn6lHFteq2KoihN8w3bZZN1QDgAAA==
+   H4sIAAAAAAAAA+2YS08CMRDHe0AvPoPiUQ0SH/EZFNGriuh3MOrd581wUT66M7GNk9rddlnMzpA5/EJ2OdBf/0M7bcMY01AURVEURVEUhQ1bwHaEHQbjHJfrBtABzuwnMg8sAIv2uSnU2WVZJ67HQA+4sZ/IKrAGrNvntlDnrs2xSVwvgSmPA+AQOLLPF0Kd+zbHdo5rFhKdV8jYi7hKdXa+ZaDOdQZOZX0/CjifM3Ci0L3V1d90iWwHnvMtA0cKrscd87uHovdmAb9aZH5ahldN43rs9lSsP9yLTiOOM8AsMGd98ubnxPCoaVfHdKxX5mcvuvby82t8F9gD9q1P3vxwqWnXV8SybAXmxfeJ7VvLDHxdX0GzzKrHTsK8cPdN3WexxnsJ85JH1a4h39D/tCj+vlzL+f0qCNXcOPorrr4p85DCk3DfLO9B4N0k5Fsma+m+MWf8PmuNq3rc/0XWWj+JLJm/vReH/uK/wL7U7724nYnGCfalfu+FPaiEu40UsH7pPXvoHIE9qJT7nJiru3t3ZJ0juN7nFMmT3r07/Fq+Bx6JM4ez76h55t1HD6zrC/BuZK7VXS/P2Ln+FXgDnknGknz7CY6uhh9stuh7Bwztd5LquZ/gSnN1uHqW1meN4is12yzf0JnwE/iyDMn7SfAtgjRfnyKuVY9VURRFURRFURRjvgFEZT5HQDgAAA==
   </data>
  </layer>
  <layer name="Fringe" width="60" height="60">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3OoQ0AMAwEscyRVQu7eHkG6EuRTY5eFQAAAAAAAPBTjwIAAABsdNMDASc9AAAAwwMSD89FQDgAAA==
+   H4sIAAAAAAAAA+3OsREAIAzEsMzBqpRZnJ4FniNS49ZVAAAAAABzrKsAAAAAP+r0QMBODwAAAAA86ACPC9ZsQDgAAA==
   </data>
  </layer>
  <layer name="Over" width="60" height="60">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3XQQqAIBAFULd1ger+Fy2hSCKjFqHiezCbVn5ltAkBAAAAAACgrGGrpfQiKjYF+9OyeH5zcIYQxX4YSy/ixh99WlPWHt/ZmHnea0y+9boPPeaW+fR0x9V0V32V9nlauTwtZwUAqJn/LCjnOhe9nYWPObH13s3NhW/nRICerGLHOxRAOAAA
+   H4sIAAAAAAAAA+3XQQqAIBAFULd1ger+Fy2hSKKiFqXiezCbVn5ltAkBAAAAgJZ1S025F1GwIdifmsXzG4MzhCj2Q597ESe+6NOSsrb4zsbM41p98q3VfWgxt8y7uzuupLvqrbTP07rKU3NWAICS+c+CfI5z0dNZeJsTa+/dq7nw6ZwIAAD8awaWYvpMQDgAAA==
   </data>
  </layer>
  <layer name="Collision" width="60" height="60">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3SwQ6DIBBF0fl2vtytMQIq4zwYLslNm7aLd7DFzAoRERERERERERFtn02w4U9b66j3RVpXN9vl/Zuj3v7n88xi9jhqA2Yfb+/3aoeHt5xeV/TebWt9dudZ0dvb+8U7o3nE++SofW/2j3rVxtp+j+c4s/Vq28U78l/P5PVwq7dHm9W7vc2t79V7I+9DvQUvXrzfrDt6s5uzO2tHvSvSmsnbO+p9kdaad9V7wNv3tu5h9kaOervqeRMR7dgB9tVplUA4AAA=
+   H4sIAAAAAAAAA+3SwQ6DIBBF0fl2vtwtMQIq4zwGL8lNm7aLd6TFzAoRERERERFJswU2fGnrHfW+SGt2s53ePznq7V/e5y5mj6M2YPbxjn6vdnh4S/Wa0Xu1rffZlSejd7T3jXdF84z3zlH7nuyf9aqNrf0e97iy9Wz7i3fmv167sns97lq9Pdqs3u1t7n2v3hv5PNRb8OLF+876R+/u5t2draPeFWndyTs66n2R1pY363PAO/b2nsPqzRz1dtV9ExERERGRpgPTFGg4QDgAAA==
   </data>
  </layer>
- <objectgroup name="Object Group 1" width="0" height="0">
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="928" y="960" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="992" y="960" width="32" height="32"/>
-  <object name="Arkim the Hermit" type="NPC" x="976" y="976">
+ <objectgroup name="Object Group 1" width="60" height="60">
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="928" y="736" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="992" y="736" width="32" height="32"/>
+  <object name="Arkim the Hermit" type="NPC" x="976" y="752">
    <properties>
     <property name="NPC_ID" value="116"/>
     <property name="SCRIPT">
      function npc_handler(npc, ch)
-       do_message(npc, ch, "Do you want to go back outside?")
-       local v = do_choice(npc, ch, "Yes please", "Not yet")
+       do_message(npc, ch, &quot;Do you want to go back outside?&quot;)
+       local v = do_choice(npc, ch, &quot;Yes please&quot;, &quot;Not yet&quot;)
        if v == 1 then
          tmw.chr_warp(ch, 9, 60 * 32 + 16, 95 * 32 + 16)
        end
@@ -55,7 +54,7 @@
     </property>
    </properties>
   </object>
-  <object name="ToLakeCave" type="warp" x="992" y="672" width="32" height="32">
+  <object name="ToLakeCave" type="warp" x="992" y="448" width="32" height="32">
    <properties>
     <property name="dest_map" value="011-4"/>
     <property name="dest_x" value="2320"/>

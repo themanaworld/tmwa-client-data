@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<sprite>
+	<imageset name="base" src="graphics/sprites/monsters/ghost-pumpkin.png" width="60" height="60" />
+
+	<action name="stand" imageset="base">
+		<animation direction="down">
+			<sequence start="0" end="2" delay="200" />
+		</animation>
+		<animation direction="right">
+			<sequence start="3" end="5" delay="200" />
+		</animation>
+		<animation direction="left">
+			<sequence start="6" end="8" delay="200" />
+		</animation>
+		<animation direction="up">
+			<sequence start="9" end="11" delay="200" />
+		</animation>
+	</action>
+
+	<action name="attack" imageset="base">
+		<animation direction="down">
+			<sequence start="12" end="14" delay="200" />
+		</animation>
+		<animation direction="right">
+			<sequence start="15" end="17" delay="200" />
+		</animation>
+		<animation direction="left">
+			<sequence start="18" end="20" delay="200" />
+		</animation>
+		<animation direction="up">
+			<sequence start="21" end="23" delay="200" />
+		</animation>
+	</action>
+
+	<action name="dead" imageset="base">
+		<animation direction="default">
+			<sequence start="24" end="28" delay="200" />
+			<frame index="28" delay="0" />
+		</animation>
+	</action>
+
+</sprite>
