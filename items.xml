@@ -253,6 +253,7 @@
         effect="Damage +15"
         type="equip-1hand"
         weapon-type="knife"
+        attack-action="attack"
         weight="200">
         <sprite>weapon-dagger.xml</sprite>
         <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
@@ -265,7 +266,9 @@
         effect="Damage +10"
         type="equip-1hand"
         weapon-type="knife"
+        attack-action="attack"
         weight="150">
+        <sprite>weapon-dagger.xml</sprite>
         <sound event="strike">weapons/knives/sharpknife-miss1.ogg</sound>
     </item>
     <item id="523"
@@ -336,8 +339,12 @@
         effect="Damage +50 / Range 5"
         type="equip-2hand"
         weapon-type="bow"
+        attack-action="attack_bow"
         weight="600"
-        missile-particle="graphics/particles/arrow.particle.xml"/>
+        missile-particle="graphics/particles/arrow.particle.xml">
+        <sprite>weapon-bow.xml</sprite>
+        <sound event="swing">weapons/bows/bow_shoot_1.ogg</sound>
+    </item>
     <item id="531"
         image="equipment/hands/minergloves.png"
         name="Miner Gloves"
@@ -388,7 +395,10 @@
         effect="Damage +100"
         type="equip-1hand"
         weapon-type="sword"
-        weight="2000"/>
+        attack-action="attack"
+        weight="2000">
+        <sprite>weapon-dagger.xml</sprite>
+    </item>
     <item id="537"
         image="generic/treasurekey.png"
         name="Treasure Key"
@@ -455,8 +465,12 @@
         effect="Damage +70 / Range 5"
         type="equip-2hand"
         weapon-type="bow"
+        attack-action="attack_bow"
         weight="1200"
-        missile-particle="graphics/particles/arrow.particle.xml"/>
+        missile-particle="graphics/particles/arrow.particle.xml">
+        <sprite>weapon-bow.xml</sprite>
+        <sound event="swing">weapons/bows/bow_shoot_1.ogg</sound>
+    </item>
     <item id="546"
         image="equipment/chest/desertshirt.png"
         name="Desert Shirt"
@@ -640,7 +654,10 @@
         effect="Damage +115"
         type="equip-1hand"
         weapon-type="knife"
-        weight="450"/>
+        attack-action="attack"
+        weight="450">
+        <sprite>weapon-dagger.xml</sprite>
+    </item>
     <item id="571"
         image="equipment/weapon/dagger-setzer.png"
         name="Setzer"
@@ -648,7 +665,10 @@
         effect="Damage +110"
         type="equip-1hand"
         weapon-type="knife"
-        weight="900"/>
+        attack-action="attack"
+        weight="900">
+        <sprite>weapon-dagger.xml</sprite>
+    </item>
     <item id="572"
         image="equipment/weapon/sword-scimitar.png"
         name="Scimitar"
@@ -680,6 +700,7 @@
         effect="Damage +? / Range ?"
         type="equip-2hand"
         weapon-type="bow"
+        attack-action="attack_bow"
         weight="1200"
         missile-particle="graphics/particles/arrow.particle.xml"/>
     <item id="576"
@@ -713,8 +734,11 @@
         effect="Damage +110"
         type="equip-1hand"
         weapon-type="knife"
+        attack-action="attack"
         vit="3"
-        weight="500"/>
+        weight="500">
+        <sprite>weapon-dagger.xml</sprite>
+    </item>
     <item id="580"
         image="equipment/weapon/staff-staffoflife.png"
         name="Staff of Life"
@@ -1097,6 +1121,7 @@
         effect="Damage +75"
         type="equip-2hand"
         weapon-type="polearm"
+        attack-action="attack"
         weight="1200">
         <sprite>weapon-scythe.xml</sprite>
     </item>
@@ -2163,6 +2188,7 @@
         effect="Damage +50 / M. Attack +5"
         type="equip-2hand"
         weapon-type="polearm"
+        attack-action="attack"
         weight="1000">
         <sprite>weapon-staff.xml</sprite>
     </item>
@@ -2793,7 +2819,8 @@
         type="equip-2hand"
         weight="20"
         missile-particle="graphics/particles/arrow.particle.xml"
-        weapon-type="bow">
+        weapon-type="bow"
+        attack-action="attack_bow">
         <sprite>weapon-bow.xml</sprite>
         <sound event="swing">weapons/bows/bow_shoot_1.ogg</sound>
     </item>
@@ -2804,7 +2831,10 @@
         effect="Damage +5"
         type="equip-1hand"
         weight="120"
-        weapon-type="knife"/>
+        weapon-type="knife"
+        attack-action="attack">
+        <sprite>weapon-dagger.xml</sprite>
+    </item>
     <item id="1202"
         image="equipment/chest/cottonshirt.png|W:#a4b2b2,ffffff"
         name="Cotton Shirt"
