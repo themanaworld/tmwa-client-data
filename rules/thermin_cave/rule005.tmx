@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="15" height="11" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="7" name="set_thermin_cave" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/set_thermin_cave.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="71" name="thermin-cave" tilewidth="32" tileheight="32">
+  <image source="../../graphics/tiles/thermin-cave.png" width="512" height="256"/>
+ </tileset>
+ <layer name="ruleRegions" width="15" height="11">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoBwwo9GExJHlmbGwKdGLz0xq6MUFKNE7ClABAN2nN6SUAgAA
+  </data>
+ </layer>
+ <layer name="ruleSet" width="15" height="11">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoBxwotGExGmplxNNHJ9+UtwzCugHAJkvrvOUAgAA
+  </data>
+ </layer>
+ <layer name="rule_Ground" width="15" height="11">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoBxkQekcNPEIKB2JR28VlK5BE8+A0pl49HZB6R408QooXYlHLy7QAaU7ydA7CqgDAM64rwKUAgAA
+  </data>
+ </layer>
+ <layer name="rule_Fringe" width="15" height="11">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjYHABAHevG6iUAgAA
+  </data>
+ </layer>
+ <layer name="rule_Over" width="15" height="11">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjYHABAHevG6iUAgAA
+  </data>
+ </layer>
+ <layer name="rule_Collision" width="15" height="11">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjYHABAHevG6iUAgAA
+  </data>
+ </layer>
+ <layer name="rule_Error" width="15" height="11">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjYHABAHevG6iUAgAA
+  </data>
+ </layer>
+</map>
