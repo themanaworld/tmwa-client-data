@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
+  <property name="name" value="Entry Ancient Amulets"/>
+ </properties>
+ <tileset firstgid="1" name="cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="129" name="cave_x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/cave_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="145" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <layer name="Ground" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3YMVMTQRQH8CvERukSGrVTwRE6FW3UAgk0aCd8AmD8AA4zfnhfJmQMO7O3SciRNfcrfkX2LvNu3j87ey/DpmmGAAAAAAAAAAAAAAAAkLEb9sKrFuPrbza0fm0Ow8fw/tbn8CV8nVkbX/+0ofVrMwon4duts/A9/JhZG18/3dD6tdkJv8NWwaDD+qXaXdavzbr7Uap/I4+q8rA//vkjj6rysD+A/808M/Sy+jR7r0o6Q7f5Gc7DxZz392n2XpV0hm5zGa7C9Zz392n2XpXxO9B0LuuCd6fF8+gqC3nk7Safp+fsQ+WRq99Xh0mfpudsKY8n4WmL7TnzyNXvq1HSj+k5W8rjWXje4kVyf/p/8qBQv6/Svg8y66m3Yb/FQeH7uTp9P1fSfrxsJjPb60I/7ytXRx53+/GumcxsHxbo7TLvxbk68rjbj6NmMrMdL9HjReTqyKPbvpf8kkdVeaTksf4M5LEajzM9fVTBs/VRbm/5jcsDedRGHnWRR13kUafZLNb9LMgDAAAAAAAAAAAAAAAAYF3+AneYt0lAnAAA
+  </data>
+ </layer>
+ <layer name="Ground2" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3ZMQoAIAwDwK76/wf3BUKnKvVuDmQNJAIAAAAAAAAAAAAAAAAAAOBPq5jbQ/sBAAAAAADoU/2GuvigAAB4xWkr26wAAAAAAAAAAAAAAAAAwG0J3FQP/UCcAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3UMQ4AEAxAUedwVZs4uMVkqUiEyHtLo0snPyUAAAAAAAAAAAAAAAAAAAAAAHhLDt4At0Vd0q19dcw27cvl+6zzP4CXnGqOlgEAAAAAAAAAAAAAAAAAAAAAwP86P5PWykCcAAA=
+  </data>
+ </layer>
+ <layer name="Over" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3ZQQrCMBQE0FxC1AMIvaeo17bipojSgOB8m/dgthmYbkrSGgAAAAAAAAAAAAAAAPQ7LTJiP6w5D94PAP/o0JEt91e2W2TE/mrSe6T7q0nvke6vJr1Hur+a9B7p/mrSe6T7q0nvke6vZmrPu+5p0H5Yk77vTvcDALBdPW9D73L8cN7+izMBAKAS/6y1vL7peePLeux/mXOdc2u+BwAAAAAAAAAAAAAAAMAv3QFwjqOeQJwAAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="100" height="100" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3RQQ6CUBQDQO6/9MTuCcJHkBaZl8wKSEP7mqbpBQAAAAAAAAAAAAAAAMAppofnp43cP+e3SfeRzm+T7iOd32atgyv6GLl0Rw17XNVHOr9d+v/T+W3SfaTz26T7SOe3SfeRzm+T7iOd32apj5Gbv7fnO3ucv8e3Zw973Mmnjtb6PPrcHvv22Or0yNljfYulnrb6PPp8K/+pRno6++xhj7tY6+MXtyf/iZJnj6495pfuokHTpbu4O512sUcXe3SxRxd7dLFHF3t0skMXewAAAAAAAAAAAAAAAABc7w2MRDo4QJwAAA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="100" height="100">
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1568" y="1568" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1760" y="1472" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1824" y="1568" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1824" y="1632" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1632" y="1472" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1568" y="1632" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1344" y="1728" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2048" y="1728" width="32" height="32"/>
+  <object name="graphics/particles/portal-door.particle.xml" type="PARTICLE_EFFECT" x="1184" y="1120" width="32" height="32"/>
+  <object name="graphics/particles/portal-door.particle.xml" type="PARTICLE_EFFECT" x="2208" y="1120" width="32" height="32"/>
+ </objectgroup>
+</map>
