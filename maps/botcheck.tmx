@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="40" height="40" tilewidth="32" tileheight="32">
- <tileset name="Unbenannt" firstgid="1" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/arena.png"/>
+ <properties>
+  <property name="name" value="Botcheck Area"/>
+ </properties>
+ <tileset firstgid="1" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/arena.png" width="512" height="512"/>
  </tileset>
- <tileset name="Unbenannt" firstgid="257" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/cave.png"/>
+ <tileset firstgid="257" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png" width="512" height="256"/>
  </tileset>
- <tileset name="Unbenannt" firstgid="385" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png"/>
+ <tileset firstgid="385" name="Unbenannt" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
  <layer name="Floor" width="40" height="40">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO2VSwqAMAxEI0Jv2PtfxY0Lqek4YD+pzuKhxAqPYULzZpaFEEKIn7Fbf3r5pRM0S5Vzo/y8J3qfmV9Ev5XyQ7MZfpH2l+mat6vMf2/9ai5o9nTm+q2lX5lLsnt+qHdeP7+eX/T+rbC/qEPMnYvu4JZ+TKeYHvb0Y/a2lucIv+j5MX5lvqP8ou2vEEII4XEArN+wKgAZAAA=
+   H4sIAAAAAAAAA+2VSwqAMAxEI0Jv2PtfxY0Lqek4YD+pzuKhxAqPYULzZpaFEEKIn7Fbf3r5pRM0S5Vzo/y8J3qfmV9Ev5XyQ7MZfpH2l+mat6vMf2/9ai5o9nTm+q2lX5lLsnt+qHdeP7+eX/T+rbC/qEPMnYvu4JZ+TKeYHvb0Y/a2lucIv+j5MX5lvqP8ou2vEEII4XEArN+wKgAZAAA=
   </data>
  </layer>
  <layer name="Fringe" width="40" height="40">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3BAQ0AAADCoPdPbQ8HFAAAAAAAwJcBSxPzAQAZAAA=
+   H4sIAAAAAAAAA+3BAQ0AAADCoPdPbQ8HFAAAAAAAwJcBSxPzAQAZAAA=
   </data>
  </layer>
  <layer name="Collision" width="40" height="40">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3OsQ0AAAjDMHi9l/MAMwuO5D3pqgDAMxf58+fPnz9//vz58+fv5g8ANgNph/YcABkAAA==
+   H4sIAAAAAAAAA+3OsQ0AAAjDMHi9l/MAMwuO5D3pqgDAMxf58+fPnz9//vz58+fv5g8ANgNph/YcABkAAA==
   </data>
  </layer>
 </map>

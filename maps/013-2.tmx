@@ -1,46 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="88" height="63" tilewidth="32" tileheight="32">
  <properties>
   <property name="music" value="Magick - Real.ogg"/>
-  <property name="name" value="Magic house"/>
+  <property name="name" value="Magic House"/>
  </properties>
- <tileset name="Woodland indoor" firstgid="1" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/woodland_indoor.png"/>
+ <tileset firstgid="1" name="Woodland indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
  </tileset>
- <tileset name="Woodland indoor x2" firstgid="257" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/woodland_indoor_x2.png"/>
+ <tileset firstgid="257" name="Woodland indoor x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/woodland_indoor_x2.png" width="512" height="64"/>
  </tileset>
- <tileset name="Woodland indoor x3" firstgid="273" tilewidth="32" tileheight="96">
-  <image source="../graphics/tiles/woodland_indoor_x3.png"/>
+ <tileset firstgid="273" name="Woodland indoor x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/woodland_indoor_x3.png" width="512" height="96"/>
  </tileset>
- <tileset name="Collision" firstgid="289" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png"/>
+ <tileset firstgid="289" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
- <tileset name="Inn" firstgid="291" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/inn.png"/>
+ <tileset firstgid="291" name="Inn" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png" width="512" height="512"/>
  </tileset>
- <tileset name="Woodland village" firstgid="547" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Woodland_village.png"/>
+ <tileset firstgid="547" name="Woodland village" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_village.png" width="512" height="512"/>
  </tileset>
  <layer name="Ground" width="88" height="63">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3Y0W3CMBSF4URMEDFBSRkA1G5QMgBqGQAB+4+AHxIpukpiB2h8LvofPgVZefA9MrZvdkVR7AAAAAAAAAAAAABIKoNV+3yF3PWoqYJ1+3yF3PWo+UhUJr6Xux41m1bd+z2kTHwvdz1qprLqqxLfy12Pmn42n8E2kt9PcBjRCNSjpp/dV/Adyfc3+BtxEqhHTer+QL6PiZ1X5Pucuev3ElxH3ATqUcP+8L9sf1sPjNEfP64y6oGxOXLXo8b2t/XA2By561Fj91d7n5jqJ5buL+xedBTI79l8p86zpc+3yjgL5BcTu/8q5Wv3Ig/fO7r/f+MgX7tXefje0eV3cpCvnYuH+3Ys36l+ben+zWO+XX63kXznWmKu3vpxD+dEN097x8k9pxR7gTm80zrwyss6AAAAAAAAAAAAgB93aL4nE6BWAAA=
+   H4sIAAAAAAAAA+3Y0W3CMBSF4URMEDFBSRkA1G5QMgBqGQAB+4+AHxIpukpiB2h8LvofPgVZefA9MrZvdkVR7AAAAAAAAAAAAABIKoNV+3yF3PWoqYJ1+3yF3PWo+UhUJr6Xux41m1bd+z2kTHwvdz1qprLqqxLfy12Pmn42n8E2kt9PcBjRCNSjpp/dV/Adyfc3+BtxEqhHTer+QL6PiZ1X5Pucuev3ElxH3ATqUcP+8L9sf1sPjNEfP64y6oGxOXLXo8b2t/XA2By561Fj91d7n5jqJ5buL+xedBTI79l8p86zpc+3yjgL5BcTu/8q5Wv3Ig/fO7r/f+MgX7tXefje0eV3cpCvnYuH+3Ys36l+ben+zWO+XX63kXznWmKu3vpxD+dEN097x8k9pxR7gTm80zrwyss6AAAAAAAAAAAAgB93aL4nE6BWAAA=
   </data>
  </layer>
  <layer name="Fringe" width="88" height="63">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3Yy0rDQBTG8Unq3Ra0VRRsVfSJ+gTFR9A38BFc6tKtK7fiRrtVBNeKt62Cl60Lv3GmGEK7aNPmUv8/+AiZTMjhQAInxgAAAAAAAAAAAADIq5vQHeeVOWVGmVWmlbJS8evdlPy1c3/ste8/ewhdf9aUKeP6antse1VXGsb1u5ua+evplXI92lILqamUA2PWSy6HOj+K7XlXFrWnoiwrSz7WQuCu3yn3aRZeEM0+92/Fzrf98VV5S14OevhWJoOsq8i3kvozobQHvP9kqNWMh4sE9x4PrQp0c6l8KF9ZF5JjZ2HWFQAoktvQzctIruVj2Vm3Grh5uDMvd4LBrKifq37Gtap+RniM7GlG9kXnY5uaD0arrh436HOhxb9T4/Q/9FR5Vl6Mm5/t3PcUWxu13398ekc2lE1lL4VnpsH20s5pn8bNau0ea2k5SPFZSe1kXcCY2826gD4V7X/HftYFILfS/OYDAAAAAAAAAAAAQN78AGFXovygVgAA
+   H4sIAAAAAAAAA+3Yy0rDQBTG8Unq3Ra0VRRsVfSJ+gTFR9A38BFc6tKtK7fiRrtVBNeKt62Cl60Lv3GmGEK7aNPmUv8/+AiZTMjhQAInxgAAAAAAAAAAAADIq5vQHeeVOWVGmVWmlbJS8evdlPy1c3/ste8/ewhdf9aUKeP6antse1VXGsb1u5ua+evplXI92lILqamUA2PWSy6HOj+K7XlXFrWnoiwrSz7WQuCu3yn3aRZeEM0+92/Fzrf98VV5S14OevhWJoOsq8i3kvozobQHvP9kqNWMh4sE9x4PrQp0c6l8KF9ZF5JjZ2HWFQAoktvQzctIruVj2Vm3Grh5uDMvd4LBrKifq37Gtap+RniM7GlG9kXnY5uaD0arrh436HOhxb9T4/Q/9FR5Vl6Mm5/t3PcUWxu13398ekc2lE1lL4VnpsH20s5pn8bNau0ea2k5SPFZSe1kXcCY2826gD4V7X/HftYFILfS/OYDAAAAAAAAAAAAQN78AGFXovygVgAA
   </data>
  </layer>
  <layer name="Top" width="88" height="63">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3Y3Q2CMBAA4D4zgM7BlBI3cASdxp+FhAgRmmIIYg3k+5Km4crD5WgKRwgAAAAAAADA2pXtvKvH/p+JbFRX3yKxVuVMZIMu4V1fvpfaoyxPnfNxPvzWWH1v9XjkTGQDimhu2L/Lis9e9Z3v03usW1PfecqFB0NVmNZ/Tb2PtLh21+jatzAwpukj7mHYS6RizHMKrzP60Iud29jxLxnB+vjfAfmUvVl/jOcJAAAAAAAA6/EE8+wi86BWAAA=
+   H4sIAAAAAAAAA+3Y3Q2CMBAA4D4zgM7BlBI3cASdxp+FhAgRmmIIYg3k+5Km4crD5WgKRwgAAAAAAADA2pXtvKvH/p+JbFRX3yKxVuVMZIMu4V1fvpfaoyxPnfNxPvzWWH1v9XjkTGQDimhu2L/Lis9e9Z3v03usW1PfecqFB0NVmNZ/Tb2PtLh21+jatzAwpukj7mHYS6RizHMKrzP60Iud29jxLxnB+vjfAfmUvVl/jOcJAAAAAAAA6/EE8+wi86BWAAA=
   </data>
  </layer>
  <layer name="Collision" width="88" height="63">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3UMQ7CMAxA0XKV3v+QiIGloiSlIbajZ+kNoEjYf2B/bNsOAAAAAAAAAH/ymuPn90TvVl3PtN5F35BV7/S8jb4lo0997kz0PdnoO69vq9u3lvrea3zlHdfa6qtvFRrpW9XZ/0H0XpWNmug7sho90fdk80u33u9m7B7db6W+rb2yGjn61u573Dm63Wp9Z/5etrb6nu8dvcPKfavQEwAAAAAAgNGe2AAM+KBWAAA=
+   H4sIAAAAAAAAA+3UMQ7CMAxA0XKV3v+QiIGloiSlIbajZ+kNoEjYf2B/bNsOAAAAAAAAAH/ymuPn90TvVl3PtN5F35BV7/S8jb4lo0997kz0PdnoO69vq9u3lvrea3zlHdfa6qtvFRrpW9XZ/0H0XpWNmug7sho90fdk80u33u9m7B7db6W+rb2yGjn61u573Dm63Wp9Z/5etrb6nu8dvcPKfavQEwAAAAAAgNGe2AAM+KBWAAA=
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">

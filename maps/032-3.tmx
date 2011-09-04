@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="160" height="100" tilewidth="32" tileheight="32">
  <properties>
   <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
-  <property name="name" value="Cave"/>
+  <property name="name" value="Outback Cave"/>
   <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
   <property name="overlay0keepratio" value="true"/>
  </properties>
@@ -37,17 +36,17 @@
    H4sIAAAAAAAAA+3OMQEAAAwCIHOuf5AV8PeBBCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANLcOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwNADNIl2LgD6AAA=
   </data>
  </layer>
- <layer name="Collision" width="160" height="100">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2TUY4bMQxDc/9j5WT9KAoUszuJ7ZH0KJsEHlq0iUVRzPv1er2NMcYYY4wxxhhjjDHGGGOMMcYYYzbnKtqP2ZNV0b5Nb6IV7YXOx+Ry1V0PVjXas4h3ozLImGHyuqCiih3pe+1GF6l6pe/XHStH9F27YNWKvrcaGRp5V/n3UOHj0+50Jzp3b0SdvVeJ7oZS/yLvTe/Vqcd0P1T6FyVyr6gcqvOlO7JL/+i9IrIg8qU74v7ld280j4p8r9+jO7JD/8idIjOh8qV70rl/9E7Ruax+/0nedE+6dlBhn+xcKvKkO9Kxhyo7qOTxRHQ3yBuu3kTB+1MfKqI7oYRyZtE+qkXftgPKmWbMj9b1bfqeHZkV6YnsH32nXZnVif2jb7QzK3L/zIn9ezp7VfSNduSpKF/uX1/ush3V9bNE/1bnPhV9u85kaXZ+pNfIDDJ7fzrZWpkd5bVDBqdSqdX5UV5VsqBvrkKEZt4ju68o+v7duvf+78/Vt929n6K7oN67lbwi3j9RdD+q+zd754qur7yZ8TujRHeksn+Z2VTMyN6XFN0Vqn+fPhcxK+r9U7pId0bpDrNzZuep7n3nL+rN2bmdeaLoOdfPqexP9zzakxoVGVTMUOVulyeid1Lo4ZN3R+fRmSjlvXsuo3vP5BAhOheF3E/IJDqHKNG5KGZP+6V79y2PaNEZUTe4+z/ar0rvMrRz5hH3oH3u2LkR0dmp3If2eGL3/onOkL4R7W+37s16pHOk70T7q+rfyPcrZnz7zm7suPusIudm+KTzJO5Ee8vaS2nHLj6J3Wl/2TdV2bGLz8qdaX/Z91TbsZPXivvQHjN3U9yxm9/M29A+s/dT3LGj58h7nLDn+/J3FWb8KxMheoeqfWnvO/UvUvQuFXvTvp/sQXvN6p3abpkZ0J6/+f+0F+3X3du/fx38f/PXcaeKG9Jen3ZPYZdo0XeozIT2GX3Duzd/+/cZLxW9++arE932PFkjv4lujO6tgvVX9B0qb0l4cgd/iu4L0b2KDGZnniK6I2rdu8vk7jOjb8zO7KJZr3QvFPrX9dazonejO6DYvd9yOVXROdB3V2Alp1mNfj+j20RPot45gRF9+87dO09mKoi+zQlkanUm5Xdkvunbv9nPV+9D3+JEIm7xVMR+VfPN3H0y7xw1K2pfOnsTd49Ponc0xhhjjDHGGGOMMcYYY4wxxhhjzD1/APCliQwA+gAA
-  </data>
- </layer>
  <layer name="Over" width="160" height="100">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3dQZKjIBgG0FxtltMXSM+Ze+ZOk16kyrIRBUFA3qtyk6SSKB+/RpQ8HgAAAAAAAAAAAAAAANCn52v5XC1/mn4jZvGdvY/A478fPzMZWuSUXFvZSxHL6V42nwmv5V5KZO/MZ3+uPv87x6kZDB03qNH9a5m9mJQM9roO9G0vNzl1kHG03u8e+WwZvKeR9lkyeJ0rtvVI2XuTweu8z2PU2N4jZo82Yjl8Rp67KzWwjdB53Y/Fc9qkrq1zi/Yj86nV32Lnr+UsTg1ME8raO2O/FguUtvf76+u1/H0t/675OgAAAABw2oxjxbS1PMe/HCuWQ1orMV73LPAe3NORa/xKZDB0XU7sPd1jSW2xe4DX91jKITlKXkO9zKsstudaqvPs58mRuk8+cl1y6jEqauDR+Y5yjwHW21e9/MnxeV3LjLu+nl7o9/Rg9mMgYG6pNdDcEpRmP8wI1L6yXDNIyJFzpWfPp+rLaWbZXuv13BonOPKaGuMKM5ohe6E54nOZ34SWUuc38ftv2yy1r/U6yiD0pYe6UNsM6wikURegLn2sTyO1i9+N9zJS9qAHuf9lq5/1ZeQ2sR9mFCP3s7vSJjCX2Y8ZQvMnQi3ruTxkjprkzbwjV4n93yCU7odq2zVGr5+h+wq27lc5Oq+vvNVX8n6QFnK+/9F5fenX1nyNV9XO0fsNefbafe8ezRL/1SB3fdiqQTVqUql2X+czdX5cuWsvtS3OjD/Ubve9PMpdX2qNXx+Zf/sK6zzKXVul2mPvuEw7AwAAAAAAAEC//gNvaZMzAPoAAA==
   </data>
  </layer>
- <objectgroup name="Object Layer 1" width="160" height="100">
+ <layer name="Collision" width="160" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2TUY4bMQxDc/9j5WT9KAoUszuJ7ZH0KJsEHlq0iUVRzPv1er2NMcYYY4wxxhhjjDHGGGOMMcYYYzbnKtqP2ZNV0b5Nb6IV7YXOx+Ry1V0PVjXas4h3ozLImGHyuqCiih3pe+1GF6l6pe/XHStH9F27YNWKvrcaGRp5V/n3UOHj0+50Jzp3b0SdvVeJ7oZS/yLvTe/Vqcd0P1T6FyVyr6gcqvOlO7JL/+i9IrIg8qU74v7ld280j4p8r9+jO7JD/8idIjOh8qV70rl/9E7Ruax+/0nedE+6dlBhn+xcKvKkO9Kxhyo7qOTxRHQ3yBuu3kTB+1MfKqI7oYRyZtE+qkXftgPKmWbMj9b1bfqeHZkV6YnsH32nXZnVif2jb7QzK3L/zIn9ezp7VfSNduSpKF/uX1/ush3V9bNE/1bnPhV9u85kaXZ+pNfIDDJ7fzrZWpkd5bVDBqdSqdX5UV5VsqBvrkKEZt4ju68o+v7duvf+78/Vt929n6K7oN67lbwi3j9RdD+q+zd754qur7yZ8TujRHeksn+Z2VTMyN6XFN0Vqn+fPhcxK+r9U7pId0bpDrNzZuep7n3nL+rN2bmdeaLoOdfPqexP9zzakxoVGVTMUOVulyeid1Lo4ZN3R+fRmSjlvXsuo3vP5BAhOheF3E/IJDqHKNG5KGZP+6V79y2PaNEZUTe4+z/ar0rvMrRz5hH3oH3u2LkR0dmp3If2eGL3/onOkL4R7W+37s16pHOk70T7q+rfyPcrZnz7zm7suPusIudm+KTzJO5Ee8vaS2nHLj6J3Wl/2TdV2bGLz8qdaX/Z91TbsZPXivvQHjN3U9yxm9/M29A+s/dT3LGj58h7nLDn+/J3FWb8KxMheoeqfWnvO/UvUvQuFXvTvp/sQXvN6p3abpkZ0J6/+f+0F+3X3du/fx38f/PXcaeKG9Jen3ZPYZdo0XeozIT2GX3Duzd/+/cZLxW9++arE932PFkjv4lujO6tgvVX9B0qb0l4cgd/iu4L0b2KDGZnniK6I2rdu8vk7jOjb8zO7KJZr3QvFPrX9dazonejO6DYvd9yOVXROdB3V2Alp1mNfj+j20RPot45gRF9+87dO09mKoi+zQlkanUm5Xdkvunbv9nPV+9D3+JEIm7xVMR+VfPN3H0y7xw1K2pfOnsTd49Ponc0xhhjjDHGGGOMMcYYY4wxxhhjzD1/APCliQwA+gAA
+  </data>
+ </layer>
+ <objectgroup name="Object" width="160" height="100">
   <object name="ToDesert" type="warp" x="4096" y="1056" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-1"/>
@@ -134,7 +133,7 @@
     <property name="monster_id" value="54"/>
    </properties>
   </object>
-  <object name="Bat" type="SPAWN" x="0" y="0" width="0" height="0">
+  <object name="Bat" type="SPAWN" x="0" y="0">
    <properties>
     <property name="eA_death" value="100000"/>
     <property name="eA_spawn" value="30000"/>
