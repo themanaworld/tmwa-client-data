@@ -33,7 +33,7 @@
  </layer>
  <layer name="Collision" width="150" height="150" opacity="0.5">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
@@ -68,6 +68,14 @@
        do_message(npc, ch, &quot;Don't touch me!\nYou won't find it very funny.&quot;)
      end
     </property>
+   </properties>
+  </object>
+  <object name="Maggot" type="spawn" x="0" y="0">
+   <properties>
+    <property name="eA_death" value="0"/>
+    <property name="eA_spawn" value="0"/>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="0"/>
    </properties>
   </object>
  </objectgroup>

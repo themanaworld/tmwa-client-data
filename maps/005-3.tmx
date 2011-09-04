@@ -48,7 +48,7 @@
    H4sIAAAAAAAAA+2TQW7DMAwE2//f+uKeChSBLS1XYkg5Q2AuNsXQO8rP99fXDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA/7XrE+Zo/xe9Azk+p31RO7IqKqzeApX/yHV72tfxBF+c526+UbK3aE6n9Nwy5mxY6fqvE5htUazXt/h9Sy3I78Ze1XndRKZtXO36pxOJOJkl1unqnM6kZUcXSe4rfN71xN1rPRXf/vTUbyo/vHbj5kX9b8ZcYbfOr9X76P3AL89mLm983p1JuJrdp9wv9/tLGu1Vvy68yDu160dd0SdDbV+M6o6txNwvSjeVv1G96jOshturjvmXD1f2Tky41Nw3VX6VTxX59oFJRen5x1+cRzPRelzZ2b4He1QnfGJfp25+H2OX9Ujfmv8jmo0R8058txxhN8cvyseZ3vhN9+t6mPVr+vYOfNU3HL93j2P7Oh8T3XOHf2OepQ5kXuk7Ol+S3XGHf3O+pRZEb87POBXy8TtW/W76gK3e/1GHEdq5/dU59vNbdSv4tgp/OY5jvp9PRPxp850vqc62w5EXc2eR++C069+U3W2Hejgd3YGv338KhXZBb/P9xt1hV/dr+LM7c1yjN9xpiuZ3/U4flzH7r14KkoeK36djFcc4zfuJNrzrr0y7tYTUXIZ9WQ6wO97/I4ynJ11z12dx2+eY8eTU9Hd7t5fzfpU3Jyzatdu1bl2ws0wqyJ+r3atzrMjO7JXzu24O9VZnUg0190u8Pxev3fPVB8779noOYyzVH1Favddy/ytp5JRFftV59iR7m6VXasz7IqaV7XX2S7VOXbFzao628r7dRKn53Pq3gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf/wCcdDbD4DZAAA=
   </data>
  </layer>
- <objectgroup name="Object Group 4" width="0" height="0">
+ <objectgroup name="Objects" width="0" height="0">
   <object name="CaveExit" type="WARP" x="1664" y="1056" width="32" height="32">
    <properties>
     <property name="DEST_MAP" value="005-1"/>
@@ -61,6 +61,14 @@
     <property name="DEST_MAP" value="005-1"/>
     <property name="DEST_X" value="2288"/>
     <property name="DEST_Y" value="2416"/>
+   </properties>
+  </object>
+  <object name="Snake" type="spawn" x="0" y="0">
+   <properties>
+    <property name="eA_death" value="0"/>
+    <property name="eA_spawn" value="0"/>
+    <property name="max_beings" value="175"/>
+    <property name="monster_id" value="8"/>
    </properties>
   </object>
  </objectgroup>

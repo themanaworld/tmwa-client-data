@@ -37,7 +37,7 @@
    H4sIAAAAAAAAA+3SwQ6DIBBF0fl2vtytMQIq4zwYLslNm7aLd7DFzAoRERERERFJswk2/GlrHfW+SOvqZru8f3PU2/98nlnMHkdtwOzj7f1e7fDwltPrit67ba3P7jwrent7v3hnNI94nxy1783+Ua/aWNvv8Rxntl5tu3hH/uuZvB5u9fZos3q3t7n1vXpv5H2ot+DFi/ebdUdvdnN2Z+2od0VaM3l7R70v0lrzrnoPePve1j3M3shRb1c9byIiIiIi0nQAuKQVxkA4AAA=
   </data>
  </layer>
- <objectgroup name="Object Group 1" width="60" height="60">
+ <objectgroup name="Objects" width="60" height="60">
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="928" y="736" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="992" y="736" width="32" height="32"/>
   <object name="Arkim the Hermit" type="NPC" x="976" y="752">
@@ -59,6 +59,22 @@
     <property name="dest_map" value="011-4"/>
     <property name="dest_x" value="2304"/>
     <property name="dest_y" value="288"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="0" y="0">
+   <properties>
+    <property name="eA_death" value="0"/>
+    <property name="eA_spawn" value="0"/>
+    <property name="max_beings" value="10"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Silkworm" type="spawn" x="0" y="0">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="60000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="33"/>
    </properties>
   </object>
  </objectgroup>

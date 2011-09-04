@@ -36,7 +36,7 @@
    H4sIAAAAAAAAA+3Sy47kIBBEUf//sr64V5aQG2weCZEJN6Sj6tFUQRLwu67rBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA42uVgBviXi3om+HMln7lYrG+xDnyoyej66jPCTk0s1lefM3dW9TyRvcVqvZ3Od7JShyN95tZSn+/t3ajvIJq3WKzn9Wye5ozEur/096p7GIn6Pryb0Z2y/9rzzDj3KSw7U3bfe45S1Pfi0YyuFL2PnmNGDzua0ZOid6s9V88dTSkz1l55Dqu11PfjRS7e77H2HCP7rOolmlWdzO6/FO+9RLO6l1ws133uYTmv+q7Uclm958yzWKy/shvPruRzZR+58F78m9Gth32t113dj1e5rN5vxr6W667sJ4JVfXzF43uZPWdEKzqpicf3kq6nvidPcpm5ftRzoNyzddez1l15Brz3/fbdWe+l9nu8G72ejL4Xq/V5L3u/Geu1S3v8kk/4eC+X0dql+7aYX93r7q7k8/l3Ka13Wfs+R99KyxoYezOlzkvpvc+v8Fbia70fq9Sup+4HbW+g941YvC91L+h7M28p/X50bXUfsH8zpd/3rK8+O+a+ma/fqs+B9XKp/b56dviXi3om+JSLeiYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABglsvBDPCvFPVc8OsZ9Tzw6076d/pv9XzwpSbqGeHHV37JJ+q7VM+y4qzPM79FPa8np/bUEvWsnp3cUynquTyjp/89nN5FbU/qWejBP3r638PpXdT2pJ7FSw+nd1Hbk3oWDx2c3kVLV+pZlGd/Rj2bVzP6qo23M3uYzbsZfbXEy3mVM0Vi2d1IlOdV30FUo1225Pn91edTd72TUnL/1/POWr/Pe/FvJD3r817i60nv2ryXfdTG+/2t3g/5/qPc3+r9kO/f4v5G1undb8We+N//yO8t1mmd9xl1j6cY7Vtxb7moezzFaN+qe8vtW4q6452Mdqq8n9aou47OskvF3fRE3Xk0MzucubbVe5k90w5W9jdz7a8z1Xz39/Hdk31Fta/FDD3rrDp/RG9R718zS0tGZlLfkwfeeqnNrHdSmkV9Tx5YdKp+NzWxmkXdiae7UM804/1Y76/uwEv36nl6Z1fPcorInUeeParInUeeParIneeinml3O3S9wxmi2KXrHc4QQRr1LJzDv2fU81icQz3LznJRzzR6DvUsu8tFPdPIGdSznOAtv+TTm9K80L4Zj/cQYcZTfEU9H+/Fn7d4nU09F97v5456HnU/qL8rxX2p90f/XaVRzaDuBO13dkext7oL9N/dqvvL7blyf9jd3ao7K6V1DXV/Jxq5M6s9S/n6vbq7U9Xc0Yp38/aWnr9Td3ay0r2oZkhneYu6t5N5uoNnnvN5mfNk6X14kot6JnAXaHNHPQdiuKOeAzHcUc8BAAAAAAAAAAAAAAAAAAAAAAAAAACAPn9KdWNggLUBAA==
   </data>
  </layer>
- <objectgroup name="Object Group 4" width="0" height="0">
+ <objectgroup name="Objects" width="0" height="0">
   <object name="ToOutside" type="warp" x="1120" y="1024" width="32" height="32">
    <properties>
     <property name="dest_map" value="014-1"/>
@@ -63,6 +63,14 @@
     <property name="dest_map" value="014-3"/>
     <property name="dest_x" value="2912"/>
     <property name="dest_y" value="3488"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="0" y="0">
+   <properties>
+    <property name="eA_death" value="0"/>
+    <property name="eA_spawn" value="0"/>
+    <property name="max_beings" value="50"/>
+    <property name="monster_id" value="15"/>
    </properties>
   </object>
  </objectgroup>

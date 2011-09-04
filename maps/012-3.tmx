@@ -441,5 +441,21 @@
    </properties>
   </object>
   <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="8640" y="4416" width="32" height="32"/>
+  <object name="Bat" type="spawn" x="0" y="0">
+   <properties>
+    <property name="eA_death" value="0"/>
+    <property name="eA_spawn" value="0"/>
+    <property name="max_beings" value="100"/>
+    <property name="monster_id" value="15"/>
+   </properties>
+  </object>
+  <object name="Bat" type="spawn" x="0" y="0">
+   <properties>
+    <property name="eA_death" value="0"/>
+    <property name="eA_spawn" value="0"/>
+    <property name="max_beings" value="75"/>
+    <property name="monster_id" value="19"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

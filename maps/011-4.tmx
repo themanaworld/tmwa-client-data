@@ -38,18 +38,18 @@
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
-  <object name="Shroom" type="SPAWN" x="1047" y="343" width="1280" height="1280">
+  <object name="SpkiyMushroom" type="spawn" x="1056" y="352" width="1280" height="1280">
    <properties>
-    <property name="MONSTER_ID" value="17"/>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
+    <property name="monster_id" value="17"/>
    </properties>
   </object>
-  <object name="Lamp Snake" type="SPAWN" x="2368" y="3040" width="1280" height="1280">
+  <object name="Lamp Snake" type="spawn" x="2368" y="3040" width="1280" height="1280">
    <properties>
-    <property name="MONSTER_ID" value="19"/>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
+    <property name="monster_id" value="19"/>
    </properties>
   </object>
   <object name="ToHermitsCave" type="warp" x="2304" y="256" width="64" height="32">
@@ -127,6 +127,22 @@
     <property name="dest_map" value="011-6"/>
     <property name="dest_x" value="8528"/>
     <property name="dest_y" value="5776"/>
+   </properties>
+  </object>
+  <object name="CaveSnake" type="spawn" x="0" y="0">
+   <properties>
+    <property name="eA_death" value="0"/>
+    <property name="eA_spawn" value="0"/>
+    <property name="max_beings" value="40"/>
+    <property name="monster_id" value="19"/>
+   </properties>
+  </object>
+  <object name="SpikyMushroom" type="spawn" x="0" y="0">
+   <properties>
+    <property name="eA_death" value="0"/>
+    <property name="eA_spawn" value="0"/>
+    <property name="max_beings" value="15"/>
+    <property name="monster_id" value="17"/>
    </properties>
   </object>
  </objectgroup>
