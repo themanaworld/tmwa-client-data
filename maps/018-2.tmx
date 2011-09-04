@@ -1,46 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="146" height="70" tilewidth="32" tileheight="32" eyeDistance="10.0" viewportWidth="640" viewportHeight="480">
+<map version="1.0" orientation="orthogonal" width="146" height="70" tilewidth="32" tileheight="32">
  <properties>
   <property name="music" value="Magick - Real.ogg"/>
   <property name="name" value="Woodland mining camp"/>
  </properties>
- <tileset name="Woodland Indoor" firstgid="1" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/woodland_indoor.png"/>
+ <tileset firstgid="1" name="Woodland Indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
  </tileset>
- <tileset name="Woodland Indoor x2" firstgid="257" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/woodland_indoor_x2.png"/>
+ <tileset firstgid="257" name="Woodland Indoor x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/woodland_indoor_x2.png" width="512" height="64"/>
  </tileset>
- <tileset name="Woodland Indoor x3" firstgid="273" tilewidth="32" tileheight="96">
-  <image source="../graphics/tiles/woodland_indoor_x3.png"/>
+ <tileset firstgid="273" name="Woodland Indoor x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/woodland_indoor_x3.png" width="512" height="96"/>
  </tileset>
- <tileset name="Woodland Village" firstgid="289" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Woodland_village.png"/>
+ <tileset firstgid="289" name="Woodland Village" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_village.png" width="512" height="512"/>
  </tileset>
- <tileset name="Collision" firstgid="545" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png"/>
+ <tileset firstgid="545" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
- <layer name="Ground" width="146" height="70" viewPlaneDistance="0.0" viewPlaneInfinitelyFarAway="false" tileWidth="32" tileHeight="32">
+ <layer name="Ground" width="146" height="70">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3bcW7TMBTHcZcbeBdAC+zvaQgOgAScAHaCjfsfAVeNwbzZsZvafnHyjfRRuzZd/J5/WZN0fTLGPAEAAAAAAAAAAAAAAAAAAOCvk/Nuvi3h19Ued606U7W3qtP/fhPcDx9P0e5fjnXu5tsSfl1ZezgfJvFcSW5bzV+qzlTtYZ21x2HnHtlgG7m+a+ck534lWXs4Hybx3NJ8tp6/W+psMY5JbKP3OGo71/Nhvi3h112qfUo8flKcv1SdqdrDOmuP45vz3fkRbCPXd+2clNS1hnztUhb9c/aKdbdUZ+1x/HR+Oc+JXo6Yo/cr+3sK7n90Hgpec3/F799rjs7Li/Pq/J5/PnKObHD/s/Plhrk6Uo7O/fbnFH5/3EOOwv1ELrX+toS90Jw/uc/445TwWKXHOKz5tx/awr5o56O0v2v2kdFz5I9TwmOV1uN4NG/PR/aUozX7CDm6Xvh3cE/na76/sX1kack9n3vNVLBuTXJJ5aj1OMLt+m1+NePn6HEWG7d8r5tMvev0nzrXKa+bp3LU+vOIWI784yPnaGnc1vz/XjeZca7TS1ZI5UiuR45uz5F8r5tMu+vNrcWuucdy1OO6+h5zlFpytWmPe838SVrH2bEcxd53R/q8f2n85Khfjqx5+74b/qzdv5yl8ZOjfjnKfdat3b+cpfHvKUdySeVILr1yNPrxUW78o9Ylcd5PjmqwZpzz/tj/T2j3jxxdjHTeH/v/Ce3+kaN0nVs6zh693+SIHJEjcrQVR8mRXFI5kkuPHMlzxBjt/pGjiy2f99sC2v0jRxdyXlI5aj1/sRxpfA+LHK2z5fP+PfT7KDna8nH2Hvp95Bz575H575L1ytFLZpsj9vvIOdKocyvjqG3toj3uUevcyjgAAAAAAAAAAAAAAAAAAAAAAHX8AWrkkNKwnwAA
+   H4sIAAAAAAAAA+3bYVLbMBCGYYUbqBfoYNrfDDNwg8IJgBO0vf8Rqkws2ArJlh3Ja8nvj2cSkoC1q8+x5ZAHY8wDAAAAAAAAAAAAAAAAAAAAPpycm/E2h3+t9rhL1ZmqvVad/u8bcV8+nqLdvznW+Tbe5vCvDWuX82ESz+Xkttb8pepM1S7rLD0OO/bIim3M9V07J3NuVwprl/NhEs9NzWft+bumzhrjGIJtbD2O0s713I23Ofxrp2ofEo+fFOcvVWeqdlln6XH8cp6dF7GNub5r5ySnrjXC353Kon/OLnjtnuosPY5X5815T/SyxRx9X9nfk7j/w/mZ8Tu3C/5+zzn67fxx/optHDVHVtx/dJ6umKsj5ejcb7+m8PtjDzla2+cl7y2yF5rzF+4z/jxFnqtsMQ5rPvdDm9kX7Xzk9nfNPtJ6jvx5ijxXqT2Oe/N1PdJTjtbsI+RoOfk+2NN6zfd36T6yJmeaOYptQytH4XpNox+l3Y9i4w6PdYMpd51+696E181TOar9eUQsR6mct5SjqXFb8/+xbjDtXKcP2UAqR+HryNH1OQqPdYOpd725ttg191iOtriufrQctVxXTp17OT86Px477rb0ef/U+MnRdjmy5utxV/6s3b85U+MnR9vlaO6zbu3+zZkaPznaLke9nh+1XleIdT85KsGadtb9sf+f0O4fObpoad0f+/8J7f6Ro3SdnB+RI3K0L+SIHJGjPnIUrhFjtPtHji72vO63GbT7R44uwnlJ5aj2/MVypPE9LHK0zp7X/T30+yg52vP5UQ/9PnKO/PfI5HfJtshR+P21Hvp95Bxp1LmXcVBX23XuZRwAAAAAAAAAAAAAAAAAAAAAgDL+Abqe/6CwnwAA
   </data>
  </layer>
- <layer name="Fringe" width="146" height="70" viewPlaneDistance="0.0" viewPlaneInfinitelyFarAway="false" tileWidth="32" tileHeight="32">
+ <layer name="Fringe" width="146" height="70">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3bTWsUMRjA8UyVKiqU2hYF3/IR+lX8TtJ7KfXqlopQLBTxIgoF8argyZNCa6knhVbRk4U+y07oNLvzskMySWb/P3iYt8zMM9mdbLKzqxQAAAAAAAAAAAAAAAAAAACAGMw7Os5NR8dp4nOH52rjicRa6CQ8WMpG8VDikYSWWM7Gy12TuJ7P37C21dXNPXX59fVZlweF+ZVsFEXF6/TJnHcxn5o6fS7xwspjyXMuPt2X3B80zH9YJ4+H+8xdXr9o1U2VA4k7Uv5u1qx8X62XrJ/m9QhpIXQCEXhvLX8IcC77XkyRrtg2vO5Die8SrzvJJoz1QqAdXbP9lap+H12Rdvdqi7Z3I59+sda/9dCOL6h42l49YV2xPaqr71S5vK7jCfHDwXGb0h2eq4xW42OSIlPfR/nyRkXZ2OiKbacSvyX+THG8LYlNiW1r/d8J8c8q885jv1L7O3Rjq/n0dsl1ptweaXVxjzxzcDzzPnqq/PZbp6VDJ1Aj9f6oljhRo3tkL3Aus65N+x+L1cK8i/YI6Gt79FHik8NyqGbaI/M9s+kPlvULUzD8zP4q8a1BWVPuxGtGsy2V7+kn+Snxy2E5zKb/EmcOy/m2HzoBjBm02KfL8cZK/nx/2epDmL5F7HYkx0xizsp/viL3nQSuC8CFl6ETwBjG/WH06fMrpXF/299PxKDud1S3Er2uolTH/TxfiEvs4/7dkvV9fb6QokGLfWgHAMyq/ax6GXFg3N+xHt4HKY37EbdUx/0petPDtgjxSP3/noMW+zDuBwAAAAAAAAAAAAAAAAAAAAAAXTgHuRCMKbCfAAA=
+   H4sIAAAAAAAAA+3bTWsUMRjA8UyVKiqU2hYF3/IR+lX8TtJ7KfXqlopQLBTxIgoF8argyZNCa6knhVbRk4U+y07oNLvzskMySWb/P3iYt8zMM9mdbLKzqxQAAAAAAAAAAAAAAAAAAACAGMw7Os5NR8dp4nOH52rjicRa6CQ8WMpG8VDikYSWWM7Gy12TuJ7P37C21dXNPXX59fVZlweF+ZVsFEXF6/TJnHcxn5o6fS7xwspjyXMuPt2X3B80zH9YJ4+H+8xdXr9o1U2VA4k7Uv5u1qx8X62XrJ/m9QhpIXQCEXhvLX8IcC77XkyRrtg2vO5Die8SrzvJJoz1QqAdXbP9lap+H12Rdvdqi7Z3I59+sda/9dCOL6h42l49YV2xPaqr71S5vK7jCfHDwXGb0h2eq4xW42OSIlPfR/nyRkXZ2OiKbacSvyX+THG8LYlNiW1r/d8J8c8q885jv1L7O3Rjq/n0dsl1ptweaXVxjzxzcDzzPnqq/PZbp6VDJ1Aj9f6oljhRo3tkL3Aus65N+x+L1cK8i/YI6Gt79FHik8NyqGbaI/M9s+kPlvULUzD8zP4q8a1BWVPuxGtGsy2V7+kn+Snxy2E5zKb/EmcOy/m2HzoBjBm02KfL8cZK/nx/2epDmL5F7HYkx0xizsp/viL3nQSuC8CFl6ETwBjG/WH06fMrpXF/299PxKDud1S3Er2uolTH/TxfiEvs4/7dkvV9fb6QokGLfWgHAMyq/ax6GXFg3N+xHt4HKY37EbdUx/0petPDtgjxSP3/noMW+zDuBwAAAAAAAAAAAAAAAAAAAAAAXTgHuRCMKbCfAAA=
   </data>
  </layer>
- <layer name="Over" width="146" height="70" viewPlaneDistance="0.0" viewPlaneInfinitelyFarAway="false" tileWidth="32" tileHeight="32">
+ <layer name="Over" width="146" height="70">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3byU3DQBQG4Fy50QolUQIlILEcoQtEJCiApQiWgvAFCSHL69jvefx90pwm8/Inkj3zIudwAAAAAAAAAAAAAACo02t0AKrxHh0AEjjtmf9oxmczvlbIQv0eF6r7vVDdjM5axn+1X7e3M9e3fWdr67v3ZvASHWCGruvkYUK9q2ZcN+NmfrTdeo4OMNNdoTr6j+meogOsJMMeVbO36AAF/N6P2va6v3te13zfmiH1Sxpaf+kcwDilzkcZnRR6DQy1Zp8w5EyQ2VZzQ4T7CWtq3t+BOPp+9uA8OgCjZO37LwLek/GOE9Ys9ZxMm8uOOed9qIu+nz3Y+u/Ze6HvB7LJ2vezDXP/owBQir4f8hv7rP5W++EsnzNLDgAAAAAAAAAAAAAAyvgBn5Nta7CfAAA=
+   H4sIAAAAAAAAA+3byU3EQBAF0LlyIxXIgFAIgRCQWI6QBQIJAmAJgiUgfEEaIctr21XueU/qk6fLf0ayu8vy7HYAAAAAAAAAAAAAAHV6iw5ANT6iA0ACxz3HP5vx1YzvFbJQv8eF6v4sVDejk5bxX+3X7e3M+W2/2dr67r0ZvEYHmKHrOnmYUO+qGdfNuJkf7WC9RAeY6a5QHf3HdM/RAVaSYY2q2Xt0gAL+7kdta93+mtd1vG/OkPolDa2/dI42Zyudp0an0QFYXKn9UUZHhT4DQ63ZJwzZE2S21dwQ4X7CnJrXdyBO5r4fSjmPDsAoWfv+i4BzMt7ThDlLvSfT5rLjmP0+1EXfzyHY+vPsQ6HvB7LJ2vezDXP/owBQir4f8hv7rv5W++Es3zNLDgAAAAAAAAAAAAAAyvgFy94czLCfAAA=
   </data>
  </layer>
- <layer name="Collision" width="146" height="70" viewPlaneDistance="0.0" viewPlaneInfinitelyFarAway="false" tileWidth="32" tileHeight="32">
+ <layer name="Collision" width="146" height="70">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAAO3SUY6DMAyE4WqP0vsfsk8rIUSIDdhjhx/p03YrqtiT+f59Pl8AAAAAAAAAAAAAAAAAAAAAQDn7x/r+7B31XpZdR3t78nhihm45eno0ezz5bP+3ZJh1f5Ynq0dZ52f1yJNv5G8q7ZnRo9mM6p5Y9vLssP0u8nlbj7LnqNijJ+4qOrM7s0Vnf5Tt2XeVWbO883jOj9rPu0NWj0ZnZsyRtduVHt25w6i9PDNEzXI0w1t6dOW5e4fRO6rmGJ1hya6y/Zz7z2f5WvO3/mb0+9V7ZM2uMkt2/989uY86m6zeWPP2dKsiVY/U6JGmR132udKdzLsbnaOYJatHHfd5qkNR+1rP6Jz1fv7MfOkRPepC3SFrj1bK+Sx39Zwr9kgxizLbLntd3Vtx7myeDnnTo9o96pL3bPaue3l3zdrRkvPRu+rsrHt5O6WeO7pDUXtaso2eYeV837Ln6Izt345ZV8m34q5ZM8xmU+dGj/r0qLs39ciyt+JcdRb0aI0erZD3aObuez1xhxVm6JL3qntV3bPKHNF7WXdVz931/qrModpr/6567ow7rDBDl7xX3YseAQAAAAAAAAAAAAAAAAAAAAAy/AAWAK+/sJ8AAA==
+   H4sIAAAAAAAAA+3SUY6DMAyE4WqP0vsfsk8rIUSIDdhjhx/p03YrqtiT+f59Pl8AAAAAAAAAAAAAAAAAAAAAQDn7x/r+7B31XpZdR3t78nhihm45eno0ezz5bP+3ZJh1f5Ynq0dZ52f1yJNv5G8q7ZnRo9mM6p5Y9vLssP0u8nlbj7LnqNijJ+4qOrM7s0Vnf5Tt2XeVWbO883jOj9rPu0NWj0ZnZsyRtduVHt25w6i9PDNEzXI0w1t6dOW5e4fRO6rmGJ1hya6y/Zz7z2f5WvO3/mb0+9V7ZM2uMkt2/989uY86m6zeWPP2dKsiVY/U6JGmR132udKdzLsbnaOYJatHHfd5qkNR+1rP6Jz1fv7MfOkRPepC3SFrj1bK+Sx39Zwr9kgxizLbLntd3Vtx7myeDnnTo9o96pL3bPaue3l3zdrRkvPRu+rsrHt5O6WeO7pDUXtaso2eYeV837Ln6Izt345ZV8m34q5ZM8xmU+dGj/r0qLs39ciyt+JcdRb0aI0erZD3aObuez1xhxVm6JL3qntV3bPKHNF7WXdVz931/qrModpr/6567ow7rDBDl7xX3YseAQAAAAAAAAAAAAAAAAAAAAAy/AAWAK+/sJ8AAA==
   </data>
  </layer>
- <objectgroup name="Object Group" width="0" height="0" viewPlaneDistance="0.0" viewPlaneInfinitelyFarAway="false">
+ <objectgroup name="Object Group" width="0" height="0">
   <object name="graphics/particles/fireplace.particle.xml" type="PARTICLE_EFFECT" x="928" y="640" width="32" height="32"/>
   <object name="graphics/particles/fireplace.particle.xml" type="PARTICLE_EFFECT" x="2784" y="640" width="32" height="32"/>
   <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="1200" y="800" width="32" height="32"/>
@@ -95,10 +94,10 @@
   </object>
   <object name="Yellow Slime" type="spawn" x="3584" y="640" width="160" height="128">
    <properties>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="5"/>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="5"/>
    </properties>
   </object>
  </objectgroup>
