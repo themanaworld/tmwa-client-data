@@ -5,68 +5,68 @@
   <property name="name" value="Crypt"/>
  </properties>
  <tileset firstgid="1" name="Crypt-Archways" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Crypt-Archways.png"/>
+  <image source="../graphics/tiles/Crypt-Archways.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="257" name="Crypt-Blockwall" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Crypt-Blockwall.png"/>
+  <image source="../graphics/tiles/Crypt-Blockwall.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="513" name="Crypt-Fringe" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Crypt-Fringe.png"/>
+  <image source="../graphics/tiles/Crypt-Fringe.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="769" name="Crypt-Fringe_x3" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Crypt-Fringe_x3.png"/>
+  <image source="../graphics/tiles/Crypt-Fringe_x3.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="1025" name="collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png" trans="000000"/>
+  <image source="../graphics/tiles/collision.png" trans="000000" width="64" height="32"/>
  </tileset>
  <layer name="Ground" width="150" height="90">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3YsVHEMBBA0XMDQEVABUAHFH4JFVDDkZAxg2xW7K78ghdrpP0zlnXdLpcrAAAAAAAAAAAAAEzwFCx7P9TwGix7P9TwHix7P9TwESx7P9SgK2bQFTPoihnO3pW3FF3N4C1FVzN4S9HVDJ9FZJ+DrnSV5W4bu38+b/FdPQ6se//locA56Wqf0fvn2xbf1cuO9bPPSVf7jN4/o5v61un+23nO/21WLyvexXSlK13pSlfrye5FV2vK7kVXa8ruRVdryu4luivvSTVk9xLdma5qyO5DV2vK7mN2V7/t/0gnuqrd4F/W1tU6Mrsa5TvYj650tVpXo7PUVT+VuvppthlN6WrtrjJlz6U7XelKV7rqwv+grnSlqy50pStdjc38SCe60pWu6uvYle9gfbrSla501YWudKUrXXWhK13pSldd6EpXutJVF7rSla7GZn6kE13pSlf1dezKd7A+XelKV7rqQle60pWuutCVrnSlqy50pauzyuhKWwAAAAAAAACc3Q38dDUI8NIAAA==
-  </data>
- </layer>
- <layer name="Fringe2" width="150" height="90">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3ZYUoCQRjH4Vn3UlpkniA7QXWh6gTmLRXxiy8MfQss8I+5PA+8sMwuAzP8vm1rAAAAAAAAAAAAAAAAAAAAAAAA/8d6aO15uPy+T0Pfm/Pe654+aj4ndF+vdZa3wHlehr43523qnr5qtu6LC9IVCboiQVck6IoEXZGgKxJ0RYKuSNAVCbrK+P4/NrV/ZL+lKxJ0RYKuSNAVCboiQVck6IoEXZGgKxJ0RYKuSNAVCboiYcpd7cc+D7PWljWPNaua49jfz+t5UXNXcz/ra8cfvj/U2m683jlu0ZS74np0RYKuSNAVCboiQVck6IoEXZGgKwAAAAAAAAAAAAAAAADgr06ndCEM8NIAAA==
+   H4sIAAAAAAAAA+3YsVHEMBBA0XMDQEVABUAHFH4JFVDDkZAxg2xW7K78ghdrpP0zlnXdLpcrAAAAAAAAAAAAAEzwFCx7P9TwGix7P9TwHix7P9TwESx7P9SgK2bQFTPoihnO3pW3FF3N4C1FVzN4S9HVDJ9FZJ+DrnSV5W4bu38+b/FdPQ6se//locA56Wqf0fvn2xbf1cuO9bPPSVf7jN4/o5v61un+23nO/21WLyvexXSlK13pSlfrye5FV2vK7kVXa8ruRVdryu4luivvSTVk9xLdma5qyO5DV2vK7mN2V7/t/0gnuqrd4F/W1tU6Mrsa5TvYj650tVpXo7PUVT+VuvppthlN6WrtrjJlz6U7XelKV7rqwv+grnSlqy50pStdjc38SCe60pWu6uvYle9gfbrSla501YWudKUrXXWhK13pSldd6EpXutJVF7rSla7GZn6kE13pSlf1dezKd7A+XelKV7rqQle60pWuutCVrnSlqy50pauzyuhKWwAAAAAAAACc3Q38dDUI8NIAAA==
   </data>
  </layer>
  <layer name="Fringe" width="150" height="90">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+2dSY/cRBiG7RlBVokTZL0mIQliycIaJhs7k8lGwjaZJHDhAEjcOAACBU4sOQS4RMAFuETABbjwR7ggIW5AfgCBIPFaaitO81XZM13VtqufR3o0ku1yuatfdZfrc2uyDAAAAAAAAAAAAAAAAAAAAAAAAAAAIDzvT4U/5wcRzgn94s48/Dlvj3BO6BfkCmJAriAG5ApiQK4gBlauduh+bqfcJXcb93Z1+8kVTPrnVbHOsje39eFqM4oprc9Meq6K13/YoQ9Xm1Hs07jVYeXqhuksu1Euk8un/79/hbatlKvkamN/n8aneP2nHfpwtRnFPo1bHVaublZWbpFr5FojN+u0bb3cIDcmkKuu0Kdx83FHbo/rJmVls9wibzVys1Xbtsnt8jZyFYw+jVsTPtTr+SiQ53s2NmWuZjVnPiTnWpw7p5arb/R6vg3kd4sYmy58VpTXMK88nZILlVyN+31OLVdt0aVcvaw8vSJfHWOuir5/m7omuQpDl3L1ht7XN+Vb5GqsvOSZd/j2+ehSrko2yc1yS0auxsHrnuz49vlomqtiTfymPJ4uyJUf614n5v1P03M3zZVvTTyELsiVH+tex9oWq78901n2oJyRe+W+wZrXRaM2Z9XIYufqZ/Xxu/xD/ikvy18yclWHda9jbYvV36xydEjOycPyyCBXl6aa1ch8tZYQ/qU+rsi/5T/yqvw3I1d1WPc61ralzr/r+ptXjk7JBXlanhnk6qepZjWytub35CoMS51/h6StXJ2T78r3aq4lJJOSqy7QVq4uyI/lJ/JTz7WEhFyNj6a58r0HrhwOt3ltqM2X+vuV/LpBHyEgV82ozs9+zestqNa8zy9ifhUiV+8Mtflef3+QPzboIwTkqhmLnZ8V4/qZ/HzgF3Imv37Nslh72GeM90zufp7XOr5Jm+p3YAG5Cs/bDTLS5BgfVq7mjPWlI8Z4F8fdI++V98n75QNyj+P4ss1dRpu7B22q34EF5KqfNMnVOU+uHpWPycflE/JJOVuTq/1Gm0cGbarfgQXkanTq1q62av82uT3gWkQxrtVnv4pntxby69ezLsgzxngXxz0tn5HPyufk83LecXzZ5qjR5qSjDbkanTbWrrrwPIOLsxm56isXO7AO64Nc9ZNL5Cr5XIWoDYaqLw5DfbC/hJhfxZqjkSuIAbmCGMSq44zSRwjIVbuQK4iB9Z7HqA8OQ67SxspVWevbIXfKXXJ3fq3WZ1HWFJfLFXKlXJW7a4rkKm1cuSpqfQfkQfmQfLhS67Moa4pr5Tq5Xm7I3TVFcpU2Vq7KWt8xeVw+JU94an1lm8XUFMlV2rDOMLm8ELEmQ676z9EO1uzIFcSAXKXPgQl6TotcpQ25SoeDHZpnpVrHgXYhV5PJ/sifbanWB6FdXHWcZUatb3VNHcf3+8FhyFXauHK1xqj1bazJle/3g8OQq3C8uMTvtONjXm9fan2wS78fhHZJdZ1hkjnWgfUGcjUZnB1z1sgVxIBcAQAAAAAAAKRF+T+JAGJwte0LAAAAAEiE6v8SBQjBlbYvAAA6xX9Sewk68NIAAA==
+   H4sIAAAAAAAAA+3ZYUoCQRjH4Vn3UlpkniA7QXWh6gTmLRXxiy8MfQss8I+5PA+8sMwuAzP8vm1rAAAAAAAAAAAAAAAAAAAAAAAA/8d6aO15uPy+T0Pfm/Pe654+aj4ndF+vdZa3wHlehr43523qnr5qtu6LC9IVCboiQVck6IoEXZGgKxJ0RYKuSNAVCbrK+P4/NrV/ZL+lKxJ0RYKuSNAVCboiQVck6IoEXZGgKxJ0RYKuSNAVCboiYcpd7cc+D7PWljWPNaua49jfz+t5UXNXcz/ra8cfvj/U2m683jlu0ZS74np0RYKuSNAVCboiQVck6IoEXZGgKwAAAAAAAAAAAAAAAADgr06ndCEM8NIAAA==
   </data>
  </layer>
- <layer name="Over2" width="150" height="90">
+ <layer name="Fringe2" width="150" height="90">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3ZMQ6AIAwF0MJtxPufxsuocWcSEXgv6djkD39qIwAAAAAAAAAAAAAAAAAAAAAAAOBxpN4JAAAAAICR3DfF2ry1w1r0CgAAAACYmZslMDJ/HFrQKwC+tOWIcs2eeycBAAAAgP/zx6EFvQIAAAAAAAAAAAAAAAAAVnUCVI9a//DSAAA=
+   H4sIAAAAAAAAA+2dSY/cRBiG7RlBVokTZL0mIQliycIaJhs7k8lGwjaZJHDhAEjcOAACBU4sOQS4RMAFuETABbjwR7ggIW5AfgCBIPFaaitO81XZM13VtqufR3o0ku1yuatfdZfrc2uyDAAAAAAAAAAAAAAAAAAAAAAAAAAAIDzvT4U/5wcRzgn94s48/Dlvj3BO6BfkCmJAriAG5ApiQK4gBlauduh+bqfcJXcb93Z1+8kVTPrnVbHOsje39eFqM4oprc9Meq6K13/YoQ9Xm1Hs07jVYeXqhuksu1Euk8un/79/hbatlKvkamN/n8aneP2nHfpwtRnFPo1bHVaublZWbpFr5FojN+u0bb3cIDcmkKuu0Kdx83FHbo/rJmVls9wibzVys1Xbtsnt8jZyFYw+jVsTPtTr+SiQ53s2NmWuZjVnPiTnWpw7p5arb/R6vg3kd4sYmy58VpTXMK88nZILlVyN+31OLVdt0aVcvaw8vSJfHWOuir5/m7omuQpDl3L1ht7XN+Vb5GqsvOSZd/j2+ehSrko2yc1yS0auxsHrnuz49vlomqtiTfymPJ4uyJUf614n5v1P03M3zZVvTTyELsiVH+tex9oWq78901n2oJyRe+W+wZrXRaM2Z9XIYufqZ/Xxu/xD/ikvy18yclWHda9jbYvV36xydEjOycPyyCBXl6aa1ch8tZYQ/qU+rsi/5T/yqvw3I1d1WPc61ralzr/r+ptXjk7JBXlanhnk6qepZjWytub35CoMS51/h6StXJ2T78r3aq4lJJOSqy7QVq4uyI/lJ/JTz7WEhFyNj6a58r0HrhwOt3ltqM2X+vuV/LpBHyEgV82ozs9+zestqNa8zy9ifhUiV+8Mtflef3+QPzboIwTkqhmLnZ8V4/qZ/HzgF3Imv37Nslh72GeM90zufp7XOr5Jm+p3YAG5Cs/bDTLS5BgfVq7mjPWlI8Z4F8fdI++V98n75QNyj+P4ss1dRpu7B22q34EF5KqfNMnVOU+uHpWPycflE/JJOVuTq/1Gm0cGbarfgQXkanTq1q62av82uT3gWkQxrtVnv4pntxby69ezLsgzxngXxz0tn5HPyufk83LecXzZ5qjR5qSjDbkanTbWrrrwPIOLsxm56isXO7AO64Nc9ZNL5Cr5XIWoDYaqLw5DfbC/hJhfxZqjkSuIAbmCGMSq44zSRwjIVbuQK4iB9Z7HqA8OQ67SxspVWevbIXfKXXJ3fq3WZ1HWFJfLFXKlXJW7a4rkKm1cuSpqfQfkQfmQfLhS67Moa4pr5Tq5Xm7I3TVFcpU2Vq7KWt8xeVw+JU94an1lm8XUFMlV2rDOMLm8ELEmQ676z9EO1uzIFcSAXKXPgQl6TotcpQ25SoeDHZpnpVrHgXYhV5PJ/sifbanWB6FdXHWcZUatb3VNHcf3+8FhyFXauHK1xqj1bazJle/3g8OQq3C8uMTvtONjXm9fan2wS78fhHZJdZ1hkjnWgfUGcjUZnB1z1sgVxIBcAQAAAAAAAKRF+T+JAGJwte0LAAAAAEiE6v8SBQjBlbYvAAA6xX9Sewk68NIAAA==
   </data>
  </layer>
  <layer name="Over" width="150" height="90">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3cyW7TUBQG4BsX2DEPO4Yy7Sh9g66BJwA2PCHPwbivFLqGkrIHChLHEpWosM1V4BA7+j7pVxa+jjL8vrZ8lZQCAAAAAAAAAAAAAABApllTShPZiJyInIycauq3Q5fz0ZELkYuRS5HLkStN/XboshkduRm5FbkduRO529RvBwAA8m0ucQ3uuh2AsdmarfoVTN8iPsNPiXk+wesHvSKDXpFBr8igV/V2Zt3hd3pV70XkZeRV5HXkTeTtSl/ReOkVGfSKDHpFhnXv1dA9y4Oe977MPhy37r0aen/bPduW2YfjDivXErqO0wdNKQ8jjwbWGYbG1K5/mCPWV9dx+ji68iTydKBXQ2PaeWFeEXPE+ur7bp9VrIn2jVn3czB/ljFn6BV6RQa9IoNekWGVvXrnfsTaWmWvau5FuB8xTc6DZJhqr6wPjttUe2V9cNx+/TxPN6WciZyNnKu439433nmQo17tbpRyNbpxLXI9ciMy3+jfb94x/uh59Iq2V++jCx8i96IbW5H7ke3IYqBXi47x+z+fR6+Y6vUV46ZXZNArMugVGfSKDHpFBr0iw1R7ZX1w3KbaK+uD4zbVXjFuekUGvSKDXpFBr8igV2TQKzLoFRn0igxDvzlu1zb6/tt8aE1kT68Y0M5lff9t/j/npNrf2//rOD5ytL3ajcf9yMfIInIQ2SvOdSyv7dXnePwS+Ro5jHyLfC96BQAAAAAAAH/jB+KsCq/w0gAA
+   H4sIAAAAAAAAA+3ZMQ6AIAwF0MJtxPufxsuocWcSEXgv6djkD39qIwAAAAAAAAAAAAAAAAAAAAAAAOBxpN4JAAAAAICR3DfF2ry1w1r0CgAAAACYmZslMDJ/HFrQKwC+tOWIcs2eeycBAAAAgP/zx6EFvQIAAAAAAAAAAAAAAAAAVnUCVI9a//DSAAA=
+  </data>
+ </layer>
+ <layer name="Over2" width="150" height="90">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cyW7TUBQG4BsX2DEPO4Yy7Sh9g66BJwA2PCHPwbivFLqGkrIHChLHEpWosM1V4BA7+j7pVxa+jjL8vrZ8lZQCAAAAAAAAAAAAAABApllTShPZiJyInIycauq3Q5fz0ZELkYuRS5HLkStN/XboshkduRm5FbkduRO529RvBwAA8m0ucQ3uuh2AsdmarfoVTN8iPsNPiXk+wesHvSKDXpFBr8igV/V2Zt3hd3pV70XkZeRV5HXkTeTtSl/ReOkVGfSKDHpFhnXv1dA9y4Oe977MPhy37r0aen/bPduW2YfjDivXErqO0wdNKQ8jjwbWGYbG1K5/mCPWV9dx+ji68iTydKBXQ2PaeWFeEXPE+ur7bp9VrIn2jVn3czB/ljFn6BV6RQa9IoNekWGVvXrnfsTaWmWvau5FuB8xTc6DZJhqr6wPjttUe2V9cNx+/TxPN6WciZyNnKu439433nmQo17tbpRyNbpxLXI9ciMy3+jfb94x/uh59Iq2V++jCx8i96IbW5H7ke3IYqBXi47x+z+fR6+Y6vUV46ZXZNArMugVGfSKDHpFBr0iw1R7ZX1w3KbaK+uD4zbVXjFuekUGvSKDXpFBr8igV2TQKzLoFRn0igxDvzlu1zb6/tt8aE1kT68Y0M5lff9t/j/npNrf2//rOD5ytL3ajcf9yMfIInIQ2SvOdSyv7dXnePwS+Ro5jHyLfC96BQAAAAAAAH/jB+KsCq/w0gAA
   </data>
  </layer>
  <layer name="Collision" width="150" height="90">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3Sy4rDMBAEwBD2/795T4EQ4pcsuTVxDdQlIEea7uff4/EEAAAAAAAAAAAAAACgq96Tfg9z0CtG0CtGWOvGVnf0iiW9J/0e5qBXjLDWja3u6BVL7t6rWSa9h9n3mn5P+v2tk97D7HtNv6f1/emOpfegV3pVwd33837vq99RcW+zT3o/W3vSq/G92tp/6zdnkLzfjPvQK71K7+vb/np37+i30/vRq9/o1ee90vtZ61Yqowr25Dxq1nb27be0b/fXq327OtqFnnM2u8To1fy9OnIHvZpbxdn7lpa3Hz2jV3qlV/PpNa9vnflvvfodvUav9GpPBlvTmp9e3UPv0Ste++zZL71itl7NNOlcqkvmMfOkc6muQh6JSedS3WuHPXIYlUdi0rlU996JszmMyiMx6Vyqq5DH0f9oudcV77iT3qNX6JVe6VV7R1rOpHP5dTPsW6/qWZulfW+d0St6j15RtVdXTDqX6nplMDKPxKRzqe5zlzPmkZh0LtVVyCMx6VyqO7rrRB6JSedSXYU8jv5Hy72ueMedLGWgV/Tu1ZnRK3r06vMbekWPXl2Rx9mOtJxJ51Jd79ErPvfZ2rP3c3pFa4/WpsIdU++4k63dzpBHYtK5VNey76vzSEw6l+oq5JGYdC6Mp1cAAAAAAAAAcL1/pVRfLPDSAAA=
+   H4sIAAAAAAAAA+3Sy4rDMBAEwBD2/795T4EQ4pcsuTVxDdQlIEea7uff4/EEAAAAAAAAAAAAAACgq96Tfg9z0CtG0CtGWOvGVnf0iiW9J/0e5qBXjLDWja3u6BVL7t6rWSa9h9n3mn5P+v2tk97D7HtNv6f1/emOpfegV3pVwd33837vq99RcW+zT3o/W3vSq/G92tp/6zdnkLzfjPvQK71K7+vb/np37+i30/vRq9/o1ee90vtZ61Yqowr25Dxq1nb27be0b/fXq327OtqFnnM2u8To1fy9OnIHvZpbxdn7lpa3Hz2jV3qlV/PpNa9vnflvvfodvUav9GpPBlvTmp9e3UPv0Ste++zZL71itl7NNOlcqkvmMfOkc6muQh6JSedS3WuHPXIYlUdi0rlU996JszmMyiMx6Vyqq5DH0f9oudcV77iT3qNX6JVe6VV7R1rOpHP5dTPsW6/qWZulfW+d0St6j15RtVdXTDqX6nplMDKPxKRzqe5zlzPmkZh0LtVVyCMx6VyqO7rrRB6JSedSXYU8jv5Hy72ueMedLGWgV/Tu1ZnRK3r06vMbekWPXl2Rx9mOtJxJ51Jd79ErPvfZ2rP3c3pFa4/WpsIdU++4k63dzpBHYtK5VNey76vzSEw6l+oq5JGYdC6Mp1cAAAAAAAAAcL1/pVRfLPDSAAA=
   </data>
  </layer>
  <objectgroup name="Objects" width="150" height="90">
-  <object name="toCryptLevel2" type="warp" x="4032" y="1408" width="96" height="32">
+  <object name="To Crypt Level 2" type="warp" x="4032" y="1408" width="96" height="32">
    <properties>
     <property name="dest_map" value="027-4"/>
     <property name="dest_x" value="1184"/>
-    <property name="dest_y" value="672"/>
+    <property name="dest_y" value="640"/>
    </properties>
   </object>
-  <object name="graphics/particles/portal.particle.xml" type="PARTICLE_EFFECT" x="1296" y="2528"/>
-  <object name="graphics/particles/portal.particle.xml" type="PARTICLE_EFFECT" x="1328" y="2528"/>
-  <object name="graphics/particles/portal.particle.xml" type="PARTICLE_EFFECT" x="1360" y="2528"/>
-  <object name="graphics/particles/portal.particle.xml" type="PARTICLE_EFFECT" x="1264" y="2528"/>
+  <object name="graphics/particles/portal.particle.xml" type="particle_effect" x="1296" y="2528"/>
+  <object name="graphics/particles/portal.particle.xml" type="particle_effect" x="1328" y="2528"/>
+  <object name="graphics/particles/portal.particle.xml" type="particle_effect" x="1360" y="2528"/>
+  <object name="graphics/particles/portal.particle.xml" type="particle_effect" x="1264" y="2528"/>
   <object name="Gate Placeholder" x="1216" y="1824" width="192" height="32"/>
-  <object name="graphics/particles/pool-vert-2.xml" type="PARTICLE_EFFECT" x="1680" y="1248"/>
-  <object name="graphics/particles/pool-horiz.xml" type="PARTICLE_EFFECT" x="1424" y="928"/>
-  <object name="graphics/particles/pool-horiz-2.xml" type="PARTICLE_EFFECT" x="1168" y="928"/>
-  <object name="graphics/particles/pool-vert-2.xml" type="PARTICLE_EFFECT" x="944" y="1248"/>
-  <object name="graphics/particles/pool-vert.xml" type="PARTICLE_EFFECT" x="784" y="1248"/>
-  <object name="graphics/particles/pool-vert.xml" type="PARTICLE_EFFECT" x="3120" y="1056"/>
+  <object name="graphics/particles/pool-vert-2.xml" type="particle_effect" x="1680" y="1248"/>
+  <object name="graphics/particles/pool-horiz.xml" type="particle_effect" x="1424" y="928"/>
+  <object name="graphics/particles/pool-horiz-2.xml" type="particle_effect" x="1168" y="928"/>
+  <object name="graphics/particles/pool-vert-2.xml" type="particle_effectT" x="944" y="1248"/>
+  <object name="graphics/particles/pool-vert.xml" type="particle_effect" x="784" y="1248"/>
+  <object name="graphics/particles/pool-vert.xml" type="particle_effect" x="3120" y="1056"/>
  </objectgroup>
 </map>

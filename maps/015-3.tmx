@@ -27,7 +27,7 @@
  <tileset firstgid="947" name="Unbenannt2" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/woodland_indoor_x3.png" width="512" height="96"/>
  </tileset>
- <layer name="Bottom" width="64" height="64">
+ <layer name="Ground" width="64" height="64">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3YSU7DMBgF4H9BOQHiBoVygEI5QKEcoKfgABSpS6YF0wIEC6ZFGSTGBZNEGRZMEkhciRclVgwySU0rEZu3+OTEiiK/2v7ltCoiVSIiIiIiIiKiX+iHAuQNbV67LyT069cDGchkYwhKUDS0Re2+lNCvXw9nIJONUahA2dCWtftKQr9+PZaBTDZ6YRwmodam4B09Gchkmz8Yex1ykQ3Ys7AJW9F7XM2/DTtwCEdwaeEYThzLr+p+XzTuUziDG2jCs4VbuBO31r+q+4NR/nt4gDd4t3zXCqyKW/Ov6v5INO41ODA8NwXTMAOzMOdJ/mDfq3qn8q+nZEt7ZsLD/A3YlbDO74t5jbg4//rvkJT/HC4krPNXcP3P8j/Ck4R1/gVeJa4Jqh74ll+veSYLsCjxfvAtv17PTGdcdVZQ+8G3/I0oj/5doNrgnKzOCmo/+JZf5VGZ9XUQ9H3AvMRnAR/yL8GyfN3fSd96Pz3vav5OcTF/vY283/83cDF/rgW1Fp9zLX+abgnXR1cGxvJX68PFdd3J/C5913H+mb/T+V36X4/zT0RERERERERERK75BFqDQ/EAQAAA
   </data>
@@ -37,7 +37,7 @@
    H4sIAAAAAAAAA+3VwQqDMAwA0M591z5seJIe/G0PIgNRPAwNbd67tIUekqZNSwEAAAAA/jXu1tMrJIzm7M+tJWoM13p7Jy33LCDW5x0dwTP0yVVv/x9sxpN5dnX4jfNwvKf3vnCWNznU5PXPnv83OoBg2ftf9vsPAAAAAHCnBa/NsikAQAAA
   </data>
  </layer>
- <layer name="Top" width="64" height="64">
+ <layer name="Over" width="64" height="64">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3WIQ4AIAwDQCx8APj/R5mZJCjA3CV1E3VdKQAAAAAAALBXIyMyfxcBAOCp/AN3yf+wH+4y7WF3ALgl99GuAQAAAAC3LKMm80MAQAAA
   </data>
@@ -47,15 +47,15 @@
    H4sIAAAAAAAAA+3TQQqDMBBAUen9V564K6GEomkyZcjkDTxQUMmPer6O4wQAAAAAhlzzefzt/GmyO2baZ+Z6TnZLxB7Mfj+riVi7/rr9PW2r9vf8979ck90z2r5jf+Tad+tv76nW3zOV33/beddetf9uH3bof5pq/RGT3TLa377D3fpnpt271UROdsu/9id7Dfr169evXz8AAAAAUMsb4VptiABAAAA=
   </data>
  </layer>
- <objectgroup name="Object Group 4" width="0" height="0">
-  <object name="to 015-1" type="warp" x="993" y="1376" width="32" height="32">
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="To Woodland" type="warp" x="993" y="1376" width="32" height="32">
    <properties>
     <property name="dest_map" value="015-1"/>
     <property name="dest_x" value="1888"/>
     <property name="dest_y" value="1024"/>
    </properties>
   </object>
-  <object name="Bats" type="spawn" x="640" y="736" width="128" height="160">
+  <object name="Bat" type="spawn" x="672" y="736" width="96" height="160">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -63,7 +63,7 @@
     <property name="monster_id" value="15"/>
    </properties>
   </object>
-  <object name="Maggots" type="spawn" x="896" y="960" width="96" height="96">
+  <object name="Maggot" type="spawn" x="896" y="960" width="96" height="96">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -71,7 +71,7 @@
     <property name="monster_id" value="0"/>
    </properties>
   </object>
-  <object name="Maggots" type="spawn" x="736" y="608" width="64" height="64">
+  <object name="Maggot" type="spawn" x="736" y="608" width="64" height="64">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>

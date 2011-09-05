@@ -46,8 +46,8 @@
    H4sIAAAAAAAAA+2S0Q6DIBAErf//0X1qYggIxx3sVWeTSa21HM5yHsdxAgAAAAAAAAAAAAAAAAAAAAAAAAAALOCa670VM9Tvmp27ZF77iZRuoryNRP3u2RiNd93orp/I1UfPn3XdEf+1e2/nLjOdzEbtIQM1H153I8/WZqpdZKCVWlflfWvPI+dA7UNNy0st1nVnz8FbKR203FhdjThuRe1E4b+XUaeWOWfxWa47M+ff8WTHPLUfNTUfXk+eqH1koeVmxlHP9V3UHjIR5Wg26vfPxtH4XN1FOR/6rlZ14Zn3VKLceKJ2kIXSx6wjT9QOslBzMuspKmonGbr45TPpJjJqL5n6mPGzImo3WTs5i+vVPZSz30rpoedoV9ReMvTR8qKI2ku2PmZ6mO3cut6TOYprTyI6uFvzLbQ8lE6s7qKi9qPqwuuwtXZEP2pPqk686a3tnat2pezE6qy2VjmjNXvkurbmG+jlM/jczMyRPaj97HI/2kcvkeeg9Zva244+PLnr17qfkb2pve3qJLKn1edD7U3RkcXR9b8RZ6O1dnnvqcyk9T/PHiz7UTvL0MGdl+v1jv2o/a3uJKIjutjnoOem/G7di3Vfan+7OvF2tetsqN0puhnx0bqmk/Wd9J7deR688/6B2feNcmON2teOPtTzLVH7ejoj7ulC2416HwAAAAAAAAAAAAAAAAAAAAAAAAAAkXwBNEnYIUCcAAA=
   </data>
  </layer>
- <objectgroup name="Object Layer 1" width="100" height="100">
-  <object name="Evil Mushrooms" type="SPAWN" x="2017" y="1887" width="410" height="456">
+ <objectgroup name="Objects" width="100" height="100">
+  <object name="Evil Mushroom" type="spawn" x="2016" y="1888" width="416" height="448">
    <properties>
     <property name="eA_death" value="60000"/>
     <property name="eA_spawn" value="20000"/>
@@ -55,7 +55,7 @@
     <property name="monster_id" value="11"/>
    </properties>
   </object>
-  <object name="Squirrel" type="SPAWN" x="823" y="853" width="428" height="461">
+  <object name="Squirrel" type="spawn" x="832" y="864" width="416" height="448">
    <properties>
     <property name="eA_death" value="60000"/>
     <property name="eA_spawn" value="30000"/>
@@ -63,7 +63,7 @@
     <property name="monster_id" value="36"/>
    </properties>
   </object>
-  <object name="Clover Patch" type="SPAWN" x="1416" y="1543" width="180" height="93">
+  <object name="Clover Patch" type="spawn" x="1416" y="1543" width="180" height="93">
    <properties>
     <property name="eA_death" value="120000"/>
     <property name="eA_spawn" value="10000"/>
@@ -71,7 +71,7 @@
     <property name="monster_id" value="35"/>
    </properties>
   </object>
-  <object name="Spiky Mushroom" type="SPAWN" x="820" y="1586" width="737" height="680">
+  <object name="Spiky Mushroom" type="spawn" x="832" y="1600" width="736" height="672">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="10000"/>
@@ -79,7 +79,7 @@
     <property name="monster_id" value="17"/>
    </properties>
   </object>
-  <object name="Bats" type="SPAWN" x="1469" y="868" width="580" height="601">
+  <object name="Bat" type="spawn" x="1472" y="864" width="576" height="608">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="25000"/>
@@ -87,7 +87,7 @@
     <property name="monster_id" value="15"/>
    </properties>
   </object>
-  <object name="Log heads" type="SPAWN" x="1696" y="1519" width="448" height="323">
+  <object name="Log Head" type="spawn" x="1696" y="1504" width="448" height="320">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="25000"/>

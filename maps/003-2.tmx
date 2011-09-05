@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="75" height="50" tilewidth="32" tileheight="32">
  <properties>
-  <property name="name" value="Southwest Beach Houses"/>
+  <property name="name" value="Beach House"/>
  </properties>
  <tileset firstgid="1" name="Inn" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/inn.png" width="512" height="512"/>
@@ -40,19 +40,19 @@
    H4sIAAAAAAAAA+3SUQrEIAwFQPcqvf8hS6ELIsWtCyb5mMBAkYKPZ45PawcAAAAAAMDtmv77O9m5xjxjrtlE5dh9b0RnUftUqauV6f/PylGlq5Xcu7v6dZ7d1Zgpuqs3b1Wxq1nOXV2tZKjeVUTmp3uyOxqz/btjOzqavWOFrlYnK0f2bgEAAAAAAK2dtluYjJg6AAA=
   </data>
  </layer>
- <objectgroup name="Object Group 4" width="75" height="50">
-  <object name="toOutside" type="warp" x="704" y="928" width="32" height="32">
+ <objectgroup name="Objects" width="75" height="50">
+  <object name="To Outside" type="warp" x="704" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="003-1"/>
-    <property name="dest_x" value="1552"/>
-    <property name="dest_y" value="1200"/>
+    <property name="dest_x" value="1536"/>
+    <property name="dest_y" value="1184"/>
    </properties>
   </object>
-  <object name="toOutside" type="warp" x="1792" y="928" width="32" height="32">
+  <object name="To Outside" type="warp" x="1792" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="003-1"/>
-    <property name="dest_x" value="1904"/>
-    <property name="dest_y" value="976"/>
+    <property name="dest_x" value="1888"/>
+    <property name="dest_y" value="960"/>
    </properties>
   </object>
  </objectgroup>

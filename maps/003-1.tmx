@@ -55,18 +55,18 @@
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
-  <object name="ToSandstorm" type="WARP" x="5504" y="2400" width="32" height="160">
+  <object name="To Sandstorm Desert" type="warp" x="5504" y="2400" width="32" height="160">
    <properties>
-    <property name="DEST_MAP" value="002-1"/>
-    <property name="DEST_X" value="480"/>
-    <property name="DEST_Y" value="2112"/>
+    <property name="dest_map" value="002-1"/>
+    <property name="dest_x" value="416"/>
+    <property name="dest_y" value="2112"/>
    </properties>
   </object>
-  <object name="ToBeach" type="WARP" x="4480" y="608" width="96" height="32">
+  <object name="To Beach" type="warp" x="4480" y="608" width="96" height="32">
    <properties>
-    <property name="DEST_MAP" value="004-1"/>
-    <property name="DEST_X" value="1184"/>
-    <property name="DEST_Y" value="3552"/>
+    <property name="dest_map" value="004-1"/>
+    <property name="dest_x" value="1184"/>
+    <property name="dest_y" value="3520"/>
    </properties>
   </object>
   <object name="Giant Maggot" type="spawn" x="4608" y="640" width="928" height="3104">
@@ -77,7 +77,7 @@
     <property name="mosnter_id" value="4"/>
    </properties>
   </object>
-  <object name="Sea Slime" type="spawn" x="672" y="672" width="2816" height="3008">
+  <object name="Sea Slime" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -117,14 +117,14 @@
     <property name="monster_id" value="24"/>
    </properties>
   </object>
-  <object name="toHouse" type="Warp" x="1536" y="1152" width="32" height="32">
+  <object name="To Beach House" type="warp" x="1536" y="1152" width="32" height="32">
    <properties>
     <property name="dest_map" value="003-2"/>
     <property name="dest_x" value="704"/>
     <property name="dest_y" value="896"/>
    </properties>
   </object>
-  <object name="toStorage" type="warp" x="1888" y="928" width="32" height="32">
+  <object name="To Beach Storage" type="warp" x="1888" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="003-2"/>
     <property name="dest_x" value="1792"/>

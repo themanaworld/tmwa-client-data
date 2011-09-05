@@ -22,7 +22,7 @@
    H4sIAAAAAAAAA+3XwQkAMAgDQPffrc6kE/SlUMod5BfyTwQAAAAAAPCa08nB3vYuAADAjY8DAAAAAPCPAifDDfmYOgAA
   </data>
  </layer>
- <layer name="over" width="75" height="50">
+ <layer name="Over" width="75" height="50">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3XQQrCQAxA0Wx1X9TjeiC9gZ7NmUUhFDWpTZtQ/8BbCLE4n3akg4gMAAAAAAAAAKBUW9k9rFa35u7Yh3du7ryey+5htXo0T8eevHNz5/Vcdg+r1TVA1MrusVWriG7ZPWhVr1XEyu6xRauodtk91mg1/d67z7T63E2EVr/cX7T6fi79wzM4vmNYXbxzMrmutXjH2d87zqE5L3BRez4tvNaxQI+170u9sn9PZbSiFa1y9f+Gfr73c33vZ3NULzoBAAAAACp5AW661j2YOgAA
   </data>
@@ -32,16 +32,16 @@
    H4sIAAAAAAAAA+3SQQrAIAxFQc/uyXuBYhsQf8AJzE4UH5ljjAkAAAAAALT0NX/PVc+n/72z0alJd9BKq46tTrZMd+i2V6v30h26tVpNuoNWWnVolWyX7tB1r97eTXfY2azatnrvDW78s1ZadaKVVgAAAHCDB/H4K42YOgAA
   </data>
  </layer>
- <objectgroup name="Object Layer 1" width="75" height="50">
-  <object name="graphics/particles/electricity.red.large.xml" type="PARTICLE_EFFECT" x="1699" y="672"/>
-  <object name="graphics/particles/electricity.red.large.xml" type="PARTICLE_EFFECT" x="1696" y="1021"/>
-  <object name="graphics/particles/electricity.red.large.xml" type="PARTICLE_EFFECT" x="1377" y="1024"/>
-  <object name="graphics/particles/electricity.red.large.xml" type="PARTICLE_EFFECT" x="1377" y="672"/>
-  <object name="graphics/particles/electricity.blue.large.xml" type="PARTICLE_EFFECT" x="672" y="1027"/>
-  <object name="graphics/particles/electricity.blue.large.xml" type="PARTICLE_EFFECT" x="992" y="672"/>
-  <object name="graphics/particles/electricity.blue.large.xml" type="PARTICLE_EFFECT" x="992" y="1023"/>
-  <object name="graphics/particles/electricity.blue.large.xml" type="PARTICLE_EFFECT" x="672" y="672"/>
-  <object name="toCave" type="WARP" x="1152" y="1152" width="64" height="32">
+ <objectgroup name="Objects" width="75" height="50">
+  <object name="graphics/particles/electricity.red.large.xml" type="particle_effect" x="1699" y="672"/>
+  <object name="graphics/particles/electricity.red.large.xml" type="particle_effect" x="1696" y="1021"/>
+  <object name="graphics/particles/electricity.red.large.xml" type="particle_effect" x="1377" y="1024"/>
+  <object name="graphics/particles/electricity.red.large.xml" type="particle_effect" x="1377" y="672"/>
+  <object name="graphics/particles/electricity.blue.large.xml" type="particle_effect" x="672" y="1027"/>
+  <object name="graphics/particles/electricity.blue.large.xml" type="particle_effect" x="992" y="672"/>
+  <object name="graphics/particles/electricity.blue.large.xml" type="particle_effect" x="992" y="1023"/>
+  <object name="graphics/particles/electricity.blue.large.xml" type="particle_effect" x="672" y="672"/>
+  <object name="To Snake Pit" type="warp" x="1152" y="1152" width="64" height="32">
    <properties>
     <property name="dest_map" value="005-3"/>
     <property name="dest_x" value="2720"/>

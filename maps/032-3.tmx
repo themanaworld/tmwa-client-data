@@ -46,22 +46,22 @@
    H4sIAAAAAAAAA+2TUY4bMQxDc/9j5WT9KAoUszuJ7ZH0KJsEHlq0iUVRzPv1er2NMcYYY4wxxhhjjDHGGGOMMcYYYzbnKtqP2ZNV0b5Nb6IV7YXOx+Ry1V0PVjXas4h3ozLImGHyuqCiih3pe+1GF6l6pe/XHStH9F27YNWKvrcaGRp5V/n3UOHj0+50Jzp3b0SdvVeJ7oZS/yLvTe/Vqcd0P1T6FyVyr6gcqvOlO7JL/+i9IrIg8qU74v7ld280j4p8r9+jO7JD/8idIjOh8qV70rl/9E7Ruax+/0nedE+6dlBhn+xcKvKkO9Kxhyo7qOTxRHQ3yBuu3kTB+1MfKqI7oYRyZtE+qkXftgPKmWbMj9b1bfqeHZkV6YnsH32nXZnVif2jb7QzK3L/zIn9ezp7VfSNduSpKF/uX1/ush3V9bNE/1bnPhV9u85kaXZ+pNfIDDJ7fzrZWpkd5bVDBqdSqdX5UV5VsqBvrkKEZt4ju68o+v7duvf+78/Vt929n6K7oN67lbwi3j9RdD+q+zd754qur7yZ8TujRHeksn+Z2VTMyN6XFN0Vqn+fPhcxK+r9U7pId0bpDrNzZuep7n3nL+rN2bmdeaLoOdfPqexP9zzakxoVGVTMUOVulyeid1Lo4ZN3R+fRmSjlvXsuo3vP5BAhOheF3E/IJDqHKNG5KGZP+6V79y2PaNEZUTe4+z/ar0rvMrRz5hH3oH3u2LkR0dmp3If2eGL3/onOkL4R7W+37s16pHOk70T7q+rfyPcrZnz7zm7suPusIudm+KTzJO5Ee8vaS2nHLj6J3Wl/2TdV2bGLz8qdaX/Z91TbsZPXivvQHjN3U9yxm9/M29A+s/dT3LGj58h7nLDn+/J3FWb8KxMheoeqfWnvO/UvUvQuFXvTvp/sQXvN6p3abpkZ0J6/+f+0F+3X3du/fx38f/PXcaeKG9Jen3ZPYZdo0XeozIT2GX3Duzd/+/cZLxW9++arE932PFkjv4lujO6tgvVX9B0qb0l4cgd/iu4L0b2KDGZnniK6I2rdu8vk7jOjb8zO7KJZr3QvFPrX9dazonejO6DYvd9yOVXROdB3V2Alp1mNfj+j20RPot45gRF9+87dO09mKoi+zQlkanUm5Xdkvunbv9nPV+9D3+JEIm7xVMR+VfPN3H0y7xw1K2pfOnsTd49Ponc0xhhjjDHGGGOMMcYYY4wxxhhjzD1/APCliQwA+gAA
   </data>
  </layer>
- <objectgroup name="Object" width="160" height="100">
-  <object name="ToDesert" type="warp" x="4096" y="1056" width="32" height="32">
+ <objectgroup name="Objects" width="160" height="100">
+  <object name="To Desert Mountains" type="warp" x="4096" y="1056" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-1"/>
-    <property name="dest_x" value="976"/>
-    <property name="dest_y" value="3984"/>
+    <property name="dest_x" value="960"/>
+    <property name="dest_y" value="3968"/>
    </properties>
   </object>
-  <object name="toDesert" type="Warp" x="1792" y="1952" width="32" height="32">
+  <object name="To Outback" type="Warp" x="1792" y="1952" width="32" height="32">
    <properties>
     <property name="dest_map" value="032-1"/>
-    <property name="dest_x" value="2064"/>
-    <property name="dest_y" value="1712"/>
+    <property name="dest_x" value="2048"/>
+    <property name="dest_y" value="1696"/>
    </properties>
   </object>
-  <object name="Sceleton" type="SPAWN" x="2752" y="1248" width="320" height="352">
+  <object name="Skeleton" type="spawn" x="2752" y="1248" width="320" height="352">
    <properties>
     <property name="eA_death" value="100000"/>
     <property name="eA_spawn" value="30000"/>
@@ -69,7 +69,7 @@
     <property name="monster_id" value="41"/>
    </properties>
   </object>
-  <object name="MountainSnake" type="SPAWN" x="960" y="384" width="960" height="736">
+  <object name="Mountain Snake" type="spawn" x="960" y="384" width="960" height="736">
    <properties>
     <property name="eA_death" value="100000"/>
     <property name="eA_spawn" value="30000"/>
@@ -77,7 +77,7 @@
     <property name="monster_id" value="24"/>
    </properties>
   </object>
-  <object name="MountainSnake" type="SPAWN" x="3456" y="288" width="1152" height="2432">
+  <object name="Mountain Snake" type="spawn" x="3456" y="288" width="1152" height="2432">
    <properties>
     <property name="eA_death" value="100000"/>
     <property name="eA_spawn" value="30000"/>
@@ -85,7 +85,7 @@
     <property name="monster_id" value="8"/>
    </properties>
   </object>
-  <object name="BlackScorpion" type="SPAWN" x="2432" y="1248" width="320" height="352">
+  <object name="Black Scorpion" type="spawn" x="2432" y="1248" width="320" height="352">
    <properties>
     <property name="eA_death" value="100000"/>
     <property name="eA_spawn" value="30000"/>
@@ -93,7 +93,7 @@
     <property name="monster_id" value="7"/>
    </properties>
   </object>
-  <object name="Spider" type="SPAWN" x="2592" y="896" width="320" height="352">
+  <object name="Spider" type="spawn" x="2592" y="896" width="320" height="352">
    <properties>
     <property name="eA_death" value="100000"/>
     <property name="eA_spawn" value="30000"/>
@@ -101,7 +101,7 @@
     <property name="monster_id" value="10"/>
    </properties>
   </object>
-  <object name="Archant" type="SPAWN" x="2080" y="448" width="1216" height="320">
+  <object name="Archant" type="spawn" x="2080" y="448" width="1216" height="320">
    <properties>
     <property name="eA_death" value="100000"/>
     <property name="eA_spawn" value="30000"/>
@@ -109,7 +109,7 @@
     <property name="monster_id" value="58"/>
    </properties>
   </object>
-  <object name="Archant" type="SPAWN" x="2112" y="2112" width="800" height="704">
+  <object name="Archant" type="spawn" x="2112" y="2112" width="800" height="704">
    <properties>
     <property name="eA_death" value="100000"/>
     <property name="eA_spawn" value="30000"/>
@@ -117,7 +117,7 @@
     <property name="monster_id" value="58"/>
    </properties>
   </object>
-  <object name="YellowSlime" type="SPAWN" x="416" y="2112" width="800" height="704">
+  <object name="Yellow Slime" type="spawn" x="416" y="2112" width="800" height="704">
    <properties>
     <property name="eA_death" value="1000000"/>
     <property name="eA_spawn" value="300000"/>
@@ -125,7 +125,7 @@
     <property name="monster_id" value="5"/>
    </properties>
   </object>
-  <object name="CaveMaggot" type="SPAWN" x="928" y="1344" width="1120" height="608">
+  <object name="Cave Maggot" type="spawn" x="928" y="1344" width="1120" height="608">
    <properties>
     <property name="eA_death" value="100000"/>
     <property name="eA_spawn" value="30000"/>
@@ -133,7 +133,7 @@
     <property name="monster_id" value="54"/>
    </properties>
   </object>
-  <object name="Bat" type="SPAWN" x="0" y="0">
+  <object name="Bat" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_death" value="100000"/>
     <property name="eA_spawn" value="30000"/>

@@ -3,7 +3,7 @@
  <properties>
   <property name="minimap" value="graphics/minimaps/006-3.png"/>
   <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
-  <property name="name" value="Desert Mountain Caves"/>
+  <property name="name" value="Desert Mountain Cave"/>
  </properties>
  <tileset firstgid="1" name="cave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png" width="512" height="256"/>
@@ -21,7 +21,7 @@
  </layer>
  <layer name="Fringe" width="150" height="150">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2dTY7bOhCEvc42CBLMEXLFWebiiYEIEDiUSPZvNVUfYDwgzyKru0tNSrY1rxchhBBCCCGEEEIIIYQQQgghhBBCCCGE5PJj8kXIFbMeor/ICAsv0WPkwMob9Ni+IPUX9rW6VFirkLSQMeh+0urdEcs+4JGz3WqxWzxXePtKk7tdc/80X82+z9pXXCv2YyU2Sb0R1tJofk++r3KMIzQeWR3/CZ5aYec429g+Tv/v4+vbl/OA5KlePJF8/v/vE84fSWy99872/t68iDn21IEasyXStc1ag5TPzr+h1gv9XLLEql+hgLJfe/IeUhrbdwctWhDr9jRPSWL74ydHBXq9nuKrHeKqVqtKWiVUiemqN1ZeV6rpnSE7Hs18O+1/K2rugRLHzLxX9yx38dSbqrrPIMWgndvDV1nXISg1keChXXNvQatjh151pqJ2D82W/UZ7PH0VD6JeCx9IfCX5jDlqL4dYpytQtVrURlPn3ueHs+N6+Qu1Vi3IOj3Oecv+tzoXffWV6GuglfN9VZukxh79UkIFXyFrjFpLZsaz8oFFDMg1O0DWmOGrrLmkY6GCqtG73lGemplLMxYiqPoiekmUp9q5RtztEz20eZChb2Z/LfHVShxRfurNZzUOfbWGxlMzsWR6ir7Kw8JX3v3uzKj/zow/81skb/9bgqZvNWeZfprBcp4qvkLTptFTxVPSuaK1a0DSZqkD2VOSOTP0a0DR5qEBxVOWY1Xx1oqu1d+4e2jQjl/NU70xd/OV5/yRc3nFrB377rs4vfHpq/u5s+b13stFgOqtDE3ZubCYG6l30Ff5NWh1SI+jr+6J0oSQ/56e1fejearVhkKEJqQaWIMQE2I+I6+PsvPvRXZciDm1ykn7uSvieuHFakzWzydFzKlHra09hZaz9v7wbFyS35vMxI3oqzceuix8ldXnRvcnWyL2p3fzVvBVVM+qyqrnrEC9Fh0R3bN2ISqWan46Y601Mge9vQt6vlep6KkzPc0S/Qh50M7noVl7/bKDryyu47R50FyXI+XeIq+VfXXg4atoUPJvtedGyKkF6L4afdcQIf+z80u9VRF0X61qyJjf+v3ZMVmg0Y/oK/Q6SHpWRSr7yur6w5vzdQl9tXas5LpHSgUvXfEEX2m1W11PSubJ6I2R4zzVV5Zr0N1YnvmdfeZNBvSVXf2ze1JPywirz6nbcRByIMFjDayYh5aVOLye71s5n56+qpyLbP1IWiR4+wo9H6iaETXNEuEpxHyg60XWNkOUr2bH9/yOZob/JWNWPE/PWOhc8VV0TrI1cV+hPx7BWyi+jjhPkdHo1HhKkyMUD9/p8xqXvpofO8ObXnjrQIv3ioieYT3eUz11zIEU8xUSnV41r+orrYbesVffi0WJeUREX9HqQvWVVYyRc0aR0a9WPkdD9JXFvNIxdvZVe1xEzVF8ZTGfRncVX72xiDGi5hbzSO/le5wjmmMr+cqrZ1kSNae3fs2xVXz1pkrPWplT8/LAcv2s5iuvnhW9JqLlX6sFNa4ZrvTe7Umy+sGTPHUeAy02LzR19cg1Wt49z6Gdsazr6nHovrLSgBqfNef7mpkxo/vKgt3juyI75p3z/oTz5orsmCvnXXs9tDMZMbfPzdgp7zN+qhLfqtbzeZYdc+W8t6x4qkJ8Gp3ZMVvnPatmq55C99VI590zZLNjrpz3MzPaq8Wn0elZU+3fPq6S+9X3V4qtp3P03buseu6yVlicy8h49CqPuCX7D8T8W+3/0OJq0ejLqGdVf420tL+TuNrXosTjTZX1MKsWsxpmv8dKX8XFj+Qv73npq/gcRPsrw8v0Vd4aJF0jZ3Rm9sbsNT2SqBxLn92p9ViWh96M/jb7zqDUwEsjgv4XwPzRSGJFyE8FLx2g6KgKag/LBE0PuQfZSwdoesg1x31sZD+9QdSUxdUzm7z+DoMG5Jo92VOIXqkOau9EwvMZ7LuAvr/zZqY3sX+NqXD9GcXPf69vr+fFraHSvbFo3n769frqKcuXFdJeqVmrkeKvQISfKtShun4UZvx0kO0vz3qh6alMbw8VkadsP9I7Nhw9qX1leEoCfYPHqCdVzin9FM/KPpyQHr11jveeyIje3qjiPokQQgghhBBCCCGEEEIIIYQQQgghhJA7/gLAlbxGkF8BAA==
+   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
   </data>
  </layer>
  <layer name="Over" width="150" height="150">
@@ -34,150 +34,150 @@
    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
   </data>
  </layer>
- <objectgroup name="Object Group 1" width="0" height="0">
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="928" y="3456" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2112" y="3360" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2592" y="3904" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3936" y="3584" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1856" y="2272" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3648" y="2432" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3520" y="2048" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2208" y="1184" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2848" y="1312" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3008" y="896" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1248" y="896" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1344" y="896" width="32" height="32"/>
-  <object name="ToOutside" type="WARP" x="1280" y="832" width="32" height="32">
-   <properties>
-    <property name="DEST_MAP" value="006-1"/>
-    <property name="DEST_X" value="1296"/>
-    <property name="DEST_Y" value="880"/>
-   </properties>
-  </object>
-  <object name="ToOutside" type="WARP" x="1760" y="864" width="32" height="32">
-   <properties>
-    <property name="DEST_MAP" value="006-1"/>
-    <property name="DEST_X" value="1776"/>
-    <property name="DEST_Y" value="912"/>
-   </properties>
-  </object>
-  <object name="ToOutside" type="warp" x="1984" y="960" width="32" height="32">
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="928" y="3456" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2112" y="3360" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2592" y="3904" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="3936" y="3584" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1856" y="2272" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="3648" y="2432" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="3520" y="2048" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2208" y="1184" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2848" y="1312" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="3008" y="896" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1248" y="896" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1344" y="896" width="32" height="32"/>
+  <object name="To Desert Mountains" type="warp" x="1280" y="832" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-1"/>
-    <property name="dest_x" value="2000"/>
-    <property name="dest_y" value="1008"/>
+    <property name="dest_x" value="1248"/>
+    <property name="dest_y" value="864"/>
    </properties>
   </object>
-  <object name="ToOutside" type="warp" x="2752" y="768" width="32" height="32">
+  <object name="To Desert Mountains" type="warp" x="1760" y="864" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-1"/>
-    <property name="dest_x" value="2768"/>
-    <property name="dest_y" value="816"/>
+    <property name="dest_x" value="1792"/>
+    <property name="dest_y" value="896"/>
    </properties>
   </object>
-  <object name="ToOutside" type="warp" x="2912" y="768" width="32" height="32">
+  <object name="To Desert Mountains" type="warp" x="1984" y="960" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-1"/>
-    <property name="dest_x" value="2928"/>
-    <property name="dest_y" value="816"/>
+    <property name="dest_x" value="1952"/>
+    <property name="dest_y" value="992"/>
    </properties>
   </object>
-  <object name="ToOutside" type="warp" x="3904" y="768" width="32" height="32">
+  <object name="To Desert Mountains" type="warp" x="2752" y="768" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-1"/>
-    <property name="dest_x" value="3920"/>
-    <property name="dest_y" value="816"/>
+    <property name="dest_x" value="2720"/>
+    <property name="dest_y" value="800"/>
    </properties>
   </object>
-  <object name="ToOutside" type="warp" x="3648" y="1568" width="32" height="32">
+  <object name="To Desert Mountains" type="warp" x="2912" y="768" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-1"/>
-    <property name="dest_x" value="3664"/>
-    <property name="dest_y" value="1616"/>
+    <property name="dest_x" value="2944"/>
+    <property name="dest_y" value="800"/>
    </properties>
   </object>
-  <object name="ToOutside" type="warp" x="3328" y="1408" width="32" height="32">
+  <object name="To Desert Mountains" type="warp" x="3904" y="768" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-1"/>
-    <property name="dest_x" value="3344"/>
-    <property name="dest_y" value="1456"/>
+    <property name="dest_x" value="3936"/>
+    <property name="dest_y" value="800"/>
    </properties>
   </object>
-  <object name="ToOutside" type="warp" x="2464" y="1408" width="32" height="32">
+  <object name="To Desert Mountains" type="warp" x="3648" y="1568" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-1"/>
-    <property name="dest_x" value="2480"/>
-    <property name="dest_y" value="1456"/>
+    <property name="dest_x" value="3680"/>
+    <property name="dest_y" value="1600"/>
    </properties>
   </object>
-  <object name="ToOutside" type="warp" x="1920" y="2176" width="32" height="32">
+  <object name="To Desert Mountains" type="warp" x="3328" y="1408" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-1"/>
-    <property name="dest_x" value="1936"/>
-    <property name="dest_y" value="1904"/>
+    <property name="dest_x" value="3360"/>
+    <property name="dest_y" value="1440"/>
    </properties>
   </object>
-  <object name="ToOutside" type="warp" x="2944" y="2016" width="32" height="32">
+  <object name="To Desert Mountains" type="warp" x="2464" y="1408" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-1"/>
-    <property name="dest_x" value="2960"/>
-    <property name="dest_y" value="2064"/>
+    <property name="dest_x" value="2496"/>
+    <property name="dest_y" value="1440"/>
    </properties>
   </object>
-  <object name="ToOutside" type="warp" x="3584" y="2368" width="32" height="32">
+  <object name="To Desert Mountains" type="warp" x="1920" y="2176" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-1"/>
-    <property name="dest_x" value="3600"/>
-    <property name="dest_y" value="2416"/>
+    <property name="dest_x" value="1952"/>
+    <property name="dest_y" value="1888"/>
    </properties>
   </object>
-  <object name="ToOutside" type="warp" x="3520" y="1792" width="32" height="32">
+  <object name="To Desert Mountains" type="warp" x="2944" y="2016" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-1"/>
-    <property name="dest_x" value="3536"/>
-    <property name="dest_y" value="1840"/>
+    <property name="dest_x" value="2976"/>
+    <property name="dest_y" value="2048"/>
    </properties>
   </object>
-  <object name="ToOutside" type="warp" x="4000" y="1888" width="32" height="32">
+  <object name="To Desert Mountains" type="warp" x="3584" y="2368" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-1"/>
-    <property name="dest_x" value="4016"/>
-    <property name="dest_y" value="1936"/>
+    <property name="dest_x" value="3552"/>
+    <property name="dest_y" value="2400"/>
    </properties>
   </object>
-  <object name="ToOutside" type="warp" x="2368" y="2880" width="32" height="32">
+  <object name="To Desert Mountains" type="warp" x="3520" y="1792" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-1"/>
-    <property name="dest_x" value="2384"/>
-    <property name="dest_y" value="2928"/>
+    <property name="dest_x" value="3552"/>
+    <property name="dest_y" value="1824"/>
    </properties>
   </object>
-  <object name="ToOutside" type="warp" x="1632" y="2880" width="32" height="32">
+  <object name="To Desert Mountains" type="warp" x="4000" y="1888" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-1"/>
-    <property name="dest_x" value="1648"/>
-    <property name="dest_y" value="2928"/>
+    <property name="dest_x" value="4032"/>
+    <property name="dest_y" value="1920"/>
    </properties>
   </object>
-  <object name="ToOutside" type="warp" x="1216" y="3872" width="32" height="32">
+  <object name="To Desert Mountains" type="warp" x="2368" y="2880" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-1"/>
-    <property name="dest_x" value="1232"/>
-    <property name="dest_y" value="3920"/>
+    <property name="dest_x" value="2400"/>
+    <property name="dest_y" value="2912"/>
    </properties>
   </object>
-  <object name="ToOutside" type="warp" x="2528" y="3840" width="32" height="32">
+  <object name="To Desert Mountains" type="warp" x="1632" y="2880" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-1"/>
-    <property name="dest_x" value="2544"/>
-    <property name="dest_y" value="3888"/>
+    <property name="dest_x" value="1664"/>
+    <property name="dest_y" value="2912"/>
    </properties>
   </object>
-  <object name="ToOutside" type="warp" x="3872" y="3520" width="32" height="32">
+  <object name="To Desert Mountains" type="warp" x="1216" y="3872" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-1"/>
-    <property name="dest_x" value="3888"/>
-    <property name="dest_y" value="3568"/>
+    <property name="dest_x" value="1248"/>
+    <property name="dest_y" value="3904"/>
+   </properties>
+  </object>
+  <object name="To Desert Mountains" type="warp" x="2528" y="3840" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="006-1"/>
+    <property name="dest_x" value="2560"/>
+    <property name="dest_y" value="3872"/>
+   </properties>
+  </object>
+  <object name="To Desert Mountains" type="warp" x="3872" y="3520" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="006-1"/>
+    <property name="dest_x" value="3904"/>
+    <property name="dest_y" value="3552"/>
    </properties>
   </object>
   <object name="Mountain Snake" type="spawn" x="2880" y="672" width="1184" height="288">
@@ -388,5 +388,14 @@
     <property name="monster_id" value="5"/>
    </properties>
   </object>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1280" y="3936" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="3808" y="3584" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="3936" y="2912" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="3712" y="1632" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="3008" y="2080" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="3840" y="832" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2080" y="2336" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="896" y="1792" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1696" y="928" width="32" height="32"/>
  </objectgroup>
 </map>

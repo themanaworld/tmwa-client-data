@@ -24,7 +24,7 @@
  </tileset>
  <layer name="Ground" width="88" height="63">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3Y0W3CMBSF4URMEDFBSRkA1G5QMgBqGQAB+4+AHxIpukpiB2h8LvofPgVZefA9MrZvdkVR7AAAAAAAAAAAAABIKoNV+3yF3PWoqYJ1+3yF3PWo+UhUJr6Xux41m1bd+z2kTHwvdz1qprLqqxLfy12Pmn42n8E2kt9PcBjRCNSjpp/dV/Adyfc3+BtxEqhHTer+QL6PiZ1X5Pucuev3ElxH3ATqUcP+8L9sf1sPjNEfP64y6oGxOXLXo8b2t/XA2By561Fj91d7n5jqJ5buL+xedBTI79l8p86zpc+3yjgL5BcTu/8q5Wv3Ig/fO7r/f+MgX7tXefje0eV3cpCvnYuH+3Ys36l+ben+zWO+XX63kXznWmKu3vpxD+dEN097x8k9pxR7gTm80zrwyss6AAAAAAAAAAAAgB93aL4nE6BWAAA=
+   H4sIAAAAAAAAA+3Y0W3CMBSF4USdIGKCNjAAUrtBywAIGAAB+49QPyRSdOXEDgn2MfofPgVZfsg9wI1v9lVV7QEAAAAAAAAAAABIqp2P7rqG3PWoaZxNd11D7nrUfEaqI/flrkfNV6cdfPapI/flrkfNVFZDTeS+3PWoGWazdXaB/H6dvxEHgXrUDLP7dn4C+Z6c84iLQD1qYvsD+T4n9Lwi32Xm/n5vzn3EQ6AeNfSH17LzbetZYz5+XmO0nrU5ctejxs63rWdtjtz1qLH91Z4npuaJ1POF7UVHgfyW5jv1PEv9fGuMq0B+IaHzr1K+theV8L6j//8fCsjX9qoS3nf0+V0KyNfeSwnn7VC+U/Na6vmtxHz7/B4j+c6V4l5LmsfXyDRVvr4zTu783knq7xMAAAAAAAAAAADAMv9mFwOgoFYAAA==
   </data>
  </layer>
  <layer name="Fringe" width="88" height="63">
@@ -32,54 +32,51 @@
    H4sIAAAAAAAAA+3Yy0rDQBTG8Unq3Ra0VRRsVfSJ+gTFR9A38BFc6tKtK7fiRrtVBNeKt62Cl60Lv3GmGEK7aNPmUv8/+AiZTMjhQAInxgAAAAAAAAAAAADIq5vQHeeVOWVGmVWmlbJS8evdlPy1c3/ste8/ewhdf9aUKeP6antse1VXGsb1u5ua+evplXI92lILqamUA2PWSy6HOj+K7XlXFrWnoiwrSz7WQuCu3yn3aRZeEM0+92/Fzrf98VV5S14OevhWJoOsq8i3kvozobQHvP9kqNWMh4sE9x4PrQp0c6l8KF9ZF5JjZ2HWFQAoktvQzctIruVj2Vm3Grh5uDMvd4LBrKifq37Gtap+RniM7GlG9kXnY5uaD0arrh436HOhxb9T4/Q/9FR5Vl6Mm5/t3PcUWxu13398ekc2lE1lL4VnpsH20s5pn8bNau0ea2k5SPFZSe1kXcCY2826gD4V7X/HftYFILfS/OYDAAAAAAAAAAAAQN78AGFXovygVgAA
   </data>
  </layer>
- <layer name="Top" width="88" height="63">
+ <layer name="Over" width="88" height="63">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3Y3Q2CMBAA4D4zgM7BlBI3cASdxp+FhAgRmmIIYg3k+5Km4crD5WgKRwgAAAAAAADA2pXtvKvH/p+JbFRX3yKxVuVMZIMu4V1fvpfaoyxPnfNxPvzWWH1v9XjkTGQDimhu2L/Lis9e9Z3v03usW1PfecqFB0NVmNZ/Tb2PtLh21+jatzAwpukj7mHYS6RizHMKrzP60Iud29jxLxnB+vjfAfmUvVl/jOcJAAAAAAAA6/EE8+wi86BWAAA=
+   H4sIAAAAAAAAA+3Y3Q2CMBQG0D4zgM6BS0rcwBF0Gn8WEiJEIcUQxCLknKQhtDzcfGkKlxAAAAAAAACApcvr66Yc2zkLWakm3yyyVqQsZIXO4ZUv34vtUaYn53ScD7/Vl++1HPeUhaxA1rlW7N9pdc9e+Y736T3WrMl3nHziQVsRhvVfQ58jrpvdpXPvWxjoU/URt9DuJWJzjHMMzzN6/zZ3qucOs1QEy+N/B6RT9bS7oD8mvg8AAAAAAACA//UA+Vu/kqBWAAA=
   </data>
  </layer>
  <layer name="Collision" width="88" height="63">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3UMQ7CMAxA0XKV3v+QiIGloiSlIbajZ+kNoEjYf2B/bNsOAAAAAAAAAH/ymuPn90TvVl3PtN5F35BV7/S8jb4lo0997kz0PdnoO69vq9u3lvrea3zlHdfa6qtvFRrpW9XZ/0H0XpWNmug7sho90fdk80u33u9m7B7db6W+rb2yGjn61u573Dm63Wp9Z/5etrb6nu8dvcPKfavQEwAAAAAAgNGe2AAM+KBWAAA=
+   H4sIAAAAAAAAA+3UMQ7CMAxA0XKV3v+QFQNLBU1K09iunqU3gCJh/4H1tSwrAAAAAAAAANzkPfvPn4nerbqeab2LviGr3ul5G31LRt/6XJnoe7LRd17fVrejlvpea3zmHefa6qtvFRrpW9Wv/4PovSobNdF3ZDV6ou/J5p9uvd/N2D2635P6tvbKauToW7vvfufodk/rO/P3srXVtzZ9AQAAAAAAoJYNztatGKBWAAA=
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
-  <object name="graphics/particles/cookingfire.hoveringpot.particle.xml" type="PARTICLE_EFFECT" x="753" y="851" width="32" height="32"/>
-  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="1200" y="721" width="2" height="2"/>
-  <object name="graphics/particles/sparkle.big.green.particle.xml" type="PARTICLE_EFFECT" x="770" y="829" width="8" height="8"/>
-  <object name="graphics/particles/sparkle.big.green.particle.xml" type="PARTICLE_EFFECT" x="1064" y="669" width="64" height="16"/>
-  <object name="graphics/particles/sparkle.big.green.particle.xml" type="PARTICLE_EFFECT" x="896" y="697" width="8" height="8"/>
-  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="720" y="1072" width="2" height="2"/>
-  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="690" y="965" width="3" height="3"/>
-  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="818" y="897" width="3" height="3"/>
-  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="850" y="928" width="3" height="3"/>
-  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="818" y="773" width="3" height="3"/>
-  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="883" y="897" width="3" height="3"/>
-  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="882" y="804" width="3" height="3"/>
-  <object name="graphics/particles/sparkle.green.particle.xml" type="PARTICLE_EFFECT" x="915" y="963" width="3" height="3"/>
-  <object name="graphics/particles/fireplace.particle.xml" type="PARTICLE_EFFECT" x="2080" y="1152" width="32" height="32"/>
-  <object name="toOutside" type="warp" x="2016" y="1376" width="32" height="32">
+  <object name="graphics/particles/cookingfire.hoveringpot.particle.xml" type="particle_effect" x="753" y="851" width="32" height="32"/>
+  <object name="graphics/particles/sparkle.green.particle.xml" type="particle_effect" x="1200" y="721" width="2" height="2"/>
+  <object name="graphics/particles/sparkle.big.green.particle.xml" type="particle_effect" x="770" y="829" width="8" height="8"/>
+  <object name="graphics/particles/sparkle.big.green.particle.xml" type="particle_effect" x="1064" y="669" width="64" height="16"/>
+  <object name="graphics/particles/sparkle.big.green.particle.xml" type="particle_effect" x="896" y="697" width="8" height="8"/>
+  <object name="graphics/particles/sparkle.green.particle.xml" type="particle_effect" x="720" y="1072" width="2" height="2"/>
+  <object name="graphics/particles/sparkle.green.particle.xml" type="particle_effect" x="690" y="965" width="3" height="3"/>
+  <object name="graphics/particles/sparkle.green.particle.xml" type="particle_effect" x="818" y="897" width="3" height="3"/>
+  <object name="graphics/particles/sparkle.green.particle.xml" type="particle_effect" x="850" y="928" width="3" height="3"/>
+  <object name="graphics/particles/sparkle.green.particle.xml" type="particle_effect" x="818" y="773" width="3" height="3"/>
+  <object name="graphics/particles/sparkle.green.particle.xml" type="particle_effect" x="883" y="897" width="3" height="3"/>
+  <object name="graphics/particles/sparkle.green.particle.xml" type="particle_effect" x="882" y="804" width="3" height="3"/>
+  <object name="graphics/particles/sparkle.green.particle.xml" type="particle_effect" x="915" y="963" width="3" height="3"/>
+  <object name="graphics/particles/fireplace.particle.xml" type="particle_effect" x="2080" y="1152" width="32" height="32"/>
+  <object name="To Outside" type="warp" x="2016" y="1344" width="32" height="32">
    <properties>
     <property name="dest_map" value="013-1"/>
     <property name="dest_x" value="1344"/>
     <property name="dest_y" value="2912"/>
    </properties>
   </object>
-  <object name="toRoom" type="warp" x="2144" y="1152" width="32" height="32">
+  <object name="To Magic Room" type="warp" x="2144" y="1152" width="32" height="32">
    <properties>
     <property name="dest_map" value="013-2"/>
     <property name="dest_x" value="672"/>
-    <property name="dest_y" value="1312"/>
+    <property name="dest_y" value="1280"/>
    </properties>
   </object>
-  <object name="toRoom" type="warp" x="672" y="1344" width="32" height="32">
+  <object name="To Magic House Entrance" type="warp" x="672" y="1312" width="32" height="32">
    <properties>
     <property name="dest_map" value="013-2"/>
     <property name="dest_x" value="2144"/>
     <property name="dest_y" value="1184"/>
    </properties>
   </object>
-  <object name="Object" x="960" y="800" width="32" height="64"/>
-  <object name="Object" x="992" y="960" width="288" height="32"/>
-  <object name="Object" x="2048" y="1344" width="128" height="32"/>
  </objectgroup>
 </map>

@@ -9,9 +9,9 @@
  <tileset firstgid="257" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
- <layer name="Base" width="53" height="51">
+ <layer name="Ground" width="53" height="51">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3TsRHCMBBFQVECJdgdmBowFRgqsOm/BNQA3EgEp4ENNrrk/eCWUsoCAAAA/I1Th+zmyLlDdnNk6pDdHJk7ZDfbZNOofnHTtVob3AZojmzVvcFjgObIXh0NngM0R979zOXDLbsZAAAA4Fsvp+XtTjwqAAA=
+   H4sIAAAAAAAAA+3TQRXCQBBEwUUCEsBBPAAKAAVJ/EtgFTBv9zLzkjrU/fehl9baAgAAAJzGZUJ2c+Q6Ibs5cpuQ3Ry5T8hutsmmqo646dE9B7wKNEfe3WfAt0BzZO22AXuB5sgR//Rva3YDAAAAUMMPUVlegTwqAAA=
   </data>
  </layer>
  <layer name="Stage" width="53" height="51">
@@ -31,70 +31,56 @@
  </layer>
  <layer name="Over" width="53" height="51">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SwQmAMAwF0I7hCF4dqPuvIYJCKFbFgzTyHoSStId8aCkAAADAnbpX7OP8qOnjvd6KO/fmvTcjq80Z5xnzbM52b/9itkxP/DETAGNaOjVf3AEAAABktwLotlyxPCoAAA==
+   H4sIAAAAAAAAA+3SwQmAMAwF0I7hCF51n+6/hggKoVgVD9rKexBK0h5+oCkBAAAAV/JWsY/zvYaXcz0VM9fmtTcty8UZ5z3uszrKXv7F3na64487AdCmqVLjyV2v5q8DAAAAAM1YAOScQ1M8KgAA
   </data>
  </layer>
- <objectgroup name="Object Layer 1" width="53" height="51">
-  <object name="toBackStage02" type="warp" x="960" y="640" width="32" height="32">
+ <layer name="Collision" width="53" height="51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3RQQ4AEAwAQfz/0eIHBKnKNJmTHrrRaikNAAAA4ANjdt5fNDPRN67+z2xThjZNmqKbbu1HNa1O9M2aNGWT+XYAAADgrA56guELPCoAAA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="53" height="51">
+  <object name="To Right Door Backstage" type="warp" x="960" y="640" width="32" height="32">
    <properties>
     <property name="dest_map" value="017-9"/>
-    <property name="dest_x" value="976"/>
-    <property name="dest_y" value="752"/>
+    <property name="dest_x" value="928"/>
+    <property name="dest_y" value="672"/>
    </properties>
   </object>
-  <object name="toWoodlandHills" type="warp" x="832" y="960" width="32" height="32">
+  <object name="To Outside" type="warp" x="832" y="992" width="32" height="32">
    <properties>
     <property name="dest_map" value="017-1"/>
-    <property name="dest_x" value="1392"/>
-    <property name="dest_y" value="1072"/>
+    <property name="dest_x" value="1376"/>
+    <property name="dest_y" value="1056"/>
    </properties>
   </object>
-  <object name="toBackStage01" type="warp" x="704" y="640" width="32" height="32">
+  <object name="To Left Door Backstage" type="warp" x="704" y="640" width="32" height="32">
    <properties>
     <property name="dest_map" value="017-9"/>
-    <property name="dest_x" value="720"/>
-    <property name="dest_y" value="752"/>
+    <property name="dest_x" value="736"/>
+    <property name="dest_y" value="672"/>
    </properties>
   </object>
-  <object name="toStage01" type="warp" x="672" y="-127" width="29" height="28">
+  <object name="To Left Trapdoor Backstage" type="warp" x="768" y="800" width="32" height="32">
    <properties>
-    <property name="dest_map" value="013-2"/>
-    <property name="dest_x" value="784"/>
-    <property name="dest_y" value="1872"/>
+    <property name="dest_map" value="017-9"/>
+    <property name="dest_x" value="672"/>
+    <property name="dest_y" value="832"/>
    </properties>
   </object>
-  <object name="toStage01" type="warp" x="832" y="-127" width="29" height="28">
+  <object name="To Center Trapdoor Backstage" type="warp" x="832" y="672" width="32" height="32">
    <properties>
-    <property name="dest_map" value="013-2"/>
-    <property name="dest_x" value="848"/>
-    <property name="dest_y" value="1744"/>
+    <property name="dest_map" value="017-9"/>
+    <property name="dest_x" value="832"/>
+    <property name="dest_y" value="864"/>
    </properties>
   </object>
-  <object name="toStage02" type="warp" x="704" y="-433" width="29" height="28">
+  <object name="To Right Trapdoor Backstage" type="warp" x="896" y="800" width="32" height="32">
    <properties>
-    <property name="dest_map" value="013-2"/>
-    <property name="dest_x" value="720"/>
-    <property name="dest_y" value="1744"/>
-   </properties>
-  </object>
-  <object name="toStage01" type="warp" x="961" y="-432" width="29" height="28">
-   <properties>
-    <property name="dest_map" value="013-2"/>
-    <property name="dest_x" value="976"/>
-    <property name="dest_y" value="1744"/>
-   </properties>
-  </object>
-  <object name="toStage01" type="warp" x="992" y="-127" width="29" height="28">
-   <properties>
-    <property name="dest_map" value="013-2"/>
-    <property name="dest_x" value="912"/>
-    <property name="dest_y" value="1872"/>
+    <property name="dest_map" value="017-9"/>
+    <property name="dest_x" value="992"/>
+    <property name="dest_y" value="832"/>
    </properties>
   </object>
  </objectgroup>
- <layer name="Collision" width="53" height="51">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3RQQoAIAgAwer/j45+YESYMcKc8uDS6K0NAAAAgA+sOXl/UWSyb9z9n2hThTZNmrKbbu1nNe1O9s2aNAEAAABUNQFe9y7rPCoAAA==
-  </data>
- </layer>
 </map>

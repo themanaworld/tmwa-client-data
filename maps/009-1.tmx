@@ -59,84 +59,84 @@
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
-  <object name="HurnscaldSouthGate" type="WARP" x="1504" y="1760" width="128" height="32">
+  <object name="Hurnscald South Exit" type="warp" x="1504" y="1760" width="128" height="32">
    <properties>
-    <property name="DEST_MAP" value="008-1"/>
-    <property name="DEST_X" value="2496"/>
-    <property name="DEST_Y" value="2592"/>
+    <property name="dest_map" value="008-1"/>
+    <property name="dest_x" value="2496"/>
+    <property name="dest_y" value="2592"/>
    </properties>
   </object>
-  <object name="HurnscaldEastGate" type="WARP" x="3104" y="1120" width="32" height="64">
+  <object name="Hurnscald East Exit" type="warp" x="3104" y="1120" width="32" height="64">
    <properties>
-    <property name="DEST_MAP" value="008-1"/>
-    <property name="DEST_X" value="4096"/>
-    <property name="DEST_Y" value="1952"/>
+    <property name="dest_map" value="008-1"/>
+    <property name="dest_x" value="4096"/>
+    <property name="dest_y" value="1952"/>
    </properties>
   </object>
-  <object name="ToInn" type="warp" x="1120" y="960" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="009-2"/>
-    <property name="dest_x" value="1616"/>
-    <property name="dest_y" value="1776"/>
-   </properties>
-  </object>
-  <object name="ToGeneralStore" type="warp" x="1856" y="1472" width="32" height="32">
+  <object name="To Hurnscald Inn" type="warp" x="1120" y="960" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-2"/>
-    <property name="dest_x" value="880"/>
-    <property name="dest_y" value="3376"/>
+    <property name="dest_x" value="1600"/>
+    <property name="dest_y" value="1728"/>
    </properties>
   </object>
-  <object name="ToArcherShop" type="warp" x="1888" y="1056" width="32" height="32">
+  <object name="To Storage Room" type="warp" x="1856" y="1472" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-2"/>
-    <property name="dest_x" value="3056"/>
-    <property name="dest_y" value="944"/>
+    <property name="dest_x" value="864"/>
+    <property name="dest_y" value="3392"/>
    </properties>
   </object>
-  <object name="ToPotionShop" type="warp" x="2272" y="960" width="32" height="32">
+  <object name="To Archer Shop" type="warp" x="1888" y="1056" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-2"/>
-    <property name="dest_x" value="4176"/>
-    <property name="dest_y" value="816"/>
+    <property name="dest_x" value="3040"/>
+    <property name="dest_y" value="928"/>
    </properties>
   </object>
-  <object name="ToHospital" type="warp" x="2560" y="992" width="32" height="32">
+  <object name="To Hurnscald Potion Shop" type="warp" x="2272" y="960" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-2"/>
-    <property name="dest_x" value="4784"/>
-    <property name="dest_y" value="2128"/>
+    <property name="dest_x" value="4160"/>
+    <property name="dest_y" value="800"/>
    </properties>
   </object>
-  <object name="ToMayor" type="warp" x="2304" y="1408" width="32" height="32">
+  <object name="To Hurnscald Hospital" type="warp" x="2560" y="992" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-2"/>
-    <property name="dest_x" value="3664"/>
-    <property name="dest_y" value="2480"/>
+    <property name="dest_x" value="4768"/>
+    <property name="dest_y" value="2112"/>
    </properties>
   </object>
-  <object name="ToBlacksmith" type="warp" x="2880" y="1472" width="64" height="32">
+  <object name="To Hurnscald House" type="warp" x="2304" y="1408" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-2"/>
-    <property name="dest_x" value="5808"/>
-    <property name="dest_y" value="2128"/>
+    <property name="dest_x" value="3648"/>
+    <property name="dest_y" value="2464"/>
    </properties>
   </object>
-  <object name="HurnscaldWestGate" type="warp" x="768" y="1120" width="32" height="96">
+  <object name="To Hurnscald Forge" type="warp" x="2880" y="1472" width="64" height="32">
+   <properties>
+    <property name="dest_map" value="009-2"/>
+    <property name="dest_x" value="5824"/>
+    <property name="dest_y" value="2112"/>
+   </properties>
+  </object>
+  <object name="Hurnscald West Exit" type="warp" x="768" y="1120" width="32" height="96">
    <properties>
     <property name="dest_map" value="008-1"/>
     <property name="dest_x" value="1696"/>
     <property name="dest_y" value="1952"/>
    </properties>
   </object>
-  <object name="HurnscaldNorthGate" type="warp" x="1504" y="768" width="128" height="32">
+  <object name="Hurnscald North Exit" type="warp" x="1504" y="768" width="128" height="32">
    <properties>
     <property name="dest_map" value="008-1"/>
     <property name="dest_x" value="2496"/>
     <property name="dest_y" value="1536"/>
    </properties>
   </object>
-  <object name="Clover patch" type="spawn" x="2336" y="1024" width="96" height="64">
+  <object name="Clover Patch" type="spawn" x="2336" y="1024" width="96" height="64">
    <properties>
     <property name="eA_death" value="120000"/>
     <property name="eA_spawn" value="100000"/>
@@ -144,7 +144,7 @@
     <property name="monster_id" value="35"/>
    </properties>
   </object>
-  <object name="PinkFlower" type="spawn" x="800" y="1216" width="320" height="448">
+  <object name="Pink Flower" type="spawn" x="800" y="1216" width="320" height="448">
    <properties>
     <property name="eA_death" value="250"/>
     <property name="max_beings" value="2"/>

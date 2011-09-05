@@ -49,18 +49,18 @@
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
-  <object name="CaveExit" type="WARP" x="1664" y="1056" width="32" height="32">
+  <object name="To Outside" type="warp" x="1664" y="1056" width="32" height="32">
    <properties>
-    <property name="DEST_MAP" value="005-1"/>
-    <property name="DEST_X" value="2864"/>
-    <property name="DEST_Y" value="784"/>
+    <property name="dest_map" value="005-1"/>
+    <property name="dest_x" value="2848"/>
+    <property name="dest_y" value="768"/>
    </properties>
   </object>
-  <object name="CaveExit" type="WARP" x="1056" y="2624" width="32" height="32">
+  <object name="To Outside" type="warp" x="1056" y="2624" width="32" height="32">
    <properties>
-    <property name="DEST_MAP" value="005-1"/>
-    <property name="DEST_X" value="2288"/>
-    <property name="DEST_Y" value="2416"/>
+    <property name="dest_map" value="005-1"/>
+    <property name="dest_x" value="2272"/>
+    <property name="dest_y" value="2432"/>
    </properties>
   </object>
   <object name="Snake" type="spawn" x="0" y="0">

@@ -36,60 +36,60 @@
  </layer>
  <layer name="Collision" width="146" height="70">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SUY6DMAyE4WqP0vsfsk8rIUSIDdhjhx/p03YrqtiT+f59Pl8AAAAAAAAAAAAAAAAAAAAAQDn7x/r+7B31XpZdR3t78nhihm45eno0ezz5bP+3ZJh1f5Ynq0dZ52f1yJNv5G8q7ZnRo9mM6p5Y9vLssP0u8nlbj7LnqNijJ+4qOrM7s0Vnf5Tt2XeVWbO883jOj9rPu0NWj0ZnZsyRtduVHt25w6i9PDNEzXI0w1t6dOW5e4fRO6rmGJ1hya6y/Zz7z2f5WvO3/mb0+9V7ZM2uMkt2/989uY86m6zeWPP2dKsiVY/U6JGmR132udKdzLsbnaOYJatHHfd5qkNR+1rP6Jz1fv7MfOkRPepC3SFrj1bK+Sx39Zwr9kgxizLbLntd3Vtx7myeDnnTo9o96pL3bPaue3l3zdrRkvPRu+rsrHt5O6WeO7pDUXtaso2eYeV837Ln6Izt345ZV8m34q5ZM8xmU+dGj/r0qLs39ciyt+JcdRb0aI0erZD3aObuez1xhxVm6JL3qntV3bPKHNF7WXdVz931/qrModpr/6567ow7rDBDl7xX3YseAQAAAAAAAAAAAAAAAAAAAAAy/AAWAK+/sJ8AAA==
+   H4sIAAAAAAAAA+3SUWrEMAyE4aVH2fsfsvShYEycyImlkZw/8NFt2MXSeL4/n88XAAAAAAAAAAAAAAAAAAAAADbw96hnWL1P+1i/XzGjs2f0vYgZquU406OrZyaf9n9LhlH3Z3miehR1flSPZvL1/E2mPSN6dDWjuieWvWZ2aN95Pm/rUfQcGXu04q68M3sym3f2R9mevcvMmuWTZ+Z8r/1md/DsTv/56EyvOSL6dLbDnfzbd4q7y9ij/gxLdpW0Mz95nt6h946qOUZnWLLLrJ+z/3yWrzV/629Gv9+9R9bsMrNk9/9u5T7qbKJ6Y817plsZqXqkRo80Paqyz53uRN7d6BzFLFE9qrjPqg557Ws9o3LW/fyR+dIjelSFukPWHu2U81nu6jl37JFiFmW2Vfa6u7fi3Kt5KuRNj3L3qEreV7NX3Wt216gdLTkffVednXWv2U6p5/bukNeelmy9Z9g537fsOTqj/Vsx6yz5Ztw1aoar2dS50aM6ParuTT2y7K04V50FPdqjRzvkPZq5+l4r7jDDDFXy3nWvrHtmmcN7L+uu6rmr3l+WOVR79d9Vzx1xhxlmqJL3rnvRIwAAAAAAAAAAAAAAAAAAAABAhF91zNH0sJ8AAA==
   </data>
  </layer>
- <objectgroup name="Object Group" width="0" height="0">
-  <object name="graphics/particles/fireplace.particle.xml" type="PARTICLE_EFFECT" x="928" y="640" width="32" height="32"/>
-  <object name="graphics/particles/fireplace.particle.xml" type="PARTICLE_EFFECT" x="2784" y="640" width="32" height="32"/>
-  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="1200" y="800" width="32" height="32"/>
-  <object name="toOutside" type="warp" x="1600" y="928" width="32" height="32">
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="graphics/particles/fireplace.particle.xml" type="particle_effect" x="928" y="640" width="32" height="32"/>
+  <object name="graphics/particles/fireplace.particle.xml" type="particle_effect" x="2784" y="640" width="32" height="32"/>
+  <object name="graphics/particles/cookingfire.particle.xml" type="particle_effect" x="1200" y="800" width="32" height="32"/>
+  <object name="To Outside" type="warp" x="1600" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="018-1"/>
     <property name="dest_x" value="2080"/>
     <property name="dest_y" value="2368"/>
    </properties>
   </object>
-  <object name="toOutside" type="warp" x="1312" y="640" width="32" height="32">
+  <object name="To Outside" type="warp" x="1312" y="640" width="32" height="32">
    <properties>
     <property name="dest_map" value="018-1"/>
-    <property name="dest_x" value="2080"/>
-    <property name="dest_y" value="2208"/>
+    <property name="dest_x" value="2048"/>
+    <property name="dest_y" value="2176"/>
    </properties>
   </object>
-  <object name="toBasement" type="warp" x="640" y="768" width="32" height="32">
+  <object name="To Bottom Floor" type="warp" x="640" y="768" width="32" height="32">
    <properties>
     <property name="dest_map" value="018-2"/>
     <property name="dest_x" value="3584"/>
-    <property name="dest_y" value="864"/>
+    <property name="dest_y" value="832"/>
    </properties>
   </object>
-  <object name="toFirstFloor" type="warp" x="3584" y="832" width="32" height="32">
+  <object name="To First Floor" type="warp" x="3584" y="800" width="32" height="32">
    <properties>
     <property name="dest_map" value="018-2"/>
     <property name="dest_x" value="640"/>
     <property name="dest_y" value="736"/>
    </properties>
   </object>
-  <object name="toSecondFloor" type="warp" x="640" y="896" width="64" height="32">
+  <object name="To Second Floor" type="warp" x="640" y="896" width="64" height="32">
    <properties>
     <property name="dest_map" value="018-2"/>
     <property name="dest_x" value="2528"/>
     <property name="dest_y" value="800"/>
    </properties>
   </object>
-  <object name="toFirstFloor" type="warp" x="2496" y="832" width="64" height="32">
+  <object name="To First Floor" type="warp" x="2496" y="832" width="64" height="32">
    <properties>
     <property name="dest_map" value="018-2"/>
     <property name="dest_x" value="672"/>
     <property name="dest_y" value="928"/>
    </properties>
   </object>
-  <object name="toCave" type="warp" x="3648" y="640" width="32" height="32">
+  <object name="To Northern Mine" type="warp" x="3648" y="608" width="32" height="32">
    <properties>
     <property name="dest_map" value="018-3"/>
-    <property name="dest_x" value="5664"/>
-    <property name="dest_y" value="1696"/>
+    <property name="dest_x" value="3744"/>
+    <property name="dest_y" value="1760"/>
    </properties>
   </object>
   <object name="Yellow Slime" type="spawn" x="3584" y="640" width="160" height="128">

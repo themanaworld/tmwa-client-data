@@ -54,63 +54,63 @@
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
-  <object name="HurnscaldWestGate" type="WARP" x="1728" y="1920" width="32" height="96">
+  <object name="Hurnscald West Entrance" type="warp" x="1728" y="1920" width="32" height="96">
    <properties>
-    <property name="DEST_MAP" value="009-1"/>
-    <property name="DEST_X" value="800"/>
-    <property name="DEST_Y" value="1152"/>
+    <property name="dest_map" value="009-1"/>
+    <property name="dest_x" value="800"/>
+    <property name="dest_y" value="1152"/>
    </properties>
   </object>
-  <object name="HurnscaldSouthGate" type="WARP" x="2464" y="2560" width="128" height="32">
+  <object name="Hurnscald South Entrance" type="warp" x="2464" y="2560" width="128" height="32">
    <properties>
-    <property name="DEST_MAP" value="009-1"/>
-    <property name="DEST_X" value="1536"/>
-    <property name="DEST_Y" value="1728"/>
+    <property name="dest_map" value="009-1"/>
+    <property name="dest_x" value="1536"/>
+    <property name="dest_y" value="1728"/>
    </properties>
   </object>
-  <object name="HurnscaldEastGate" type="WARP" x="4064" y="1920" width="32" height="64">
+  <object name="Hurnscald East Entrance" type="warp" x="4064" y="1920" width="32" height="64">
    <properties>
-    <property name="DEST_MAP" value="009-1"/>
-    <property name="DEST_X" value="3072"/>
-    <property name="DEST_Y" value="1152"/>
+    <property name="dest_map" value="009-1"/>
+    <property name="dest_x" value="3072"/>
+    <property name="dest_y" value="1152"/>
    </properties>
   </object>
-  <object name="HurnscaldNorthGate" type="WARP" x="2464" y="1568" width="128" height="32">
+  <object name="Hurnscald North Entrance" type="warp" x="2464" y="1568" width="128" height="32">
    <properties>
-    <property name="DEST_MAP" value="009-1"/>
-    <property name="DEST_X" value="1536"/>
-    <property name="DEST_Y" value="800"/>
+    <property name="dest_map" value="009-1"/>
+    <property name="dest_x" value="1536"/>
+    <property name="dest_y" value="800"/>
    </properties>
   </object>
-  <object name="ToWoodland" type="warp" x="768" y="1920" width="32" height="128">
+  <object name="To Woodland" type="warp" x="768" y="1920" width="32" height="128">
    <properties>
-    <property name="DEST_MAP" value="011-1"/>
-    <property name="DEST_X" value="3936"/>
-    <property name="DEST_Y" value="1952"/>
+    <property name="dest_map" value="011-1"/>
+    <property name="dest_x" value="3936"/>
+    <property name="dest_y" value="1952"/>
    </properties>
   </object>
-  <object name="ToWoodlandMines" type="warp" x="2464" y="544" width="128" height="32">
+  <object name="To Woodland Mining Camp" type="warp" x="2464" y="544" width="128" height="32">
    <properties>
     <property name="dest_map" value="018-1"/>
-    <property name="dest_x" value="2544"/>
-    <property name="dest_y" value="3120"/>
+    <property name="dest_x" value="2496"/>
+    <property name="dest_y" value="3104"/>
    </properties>
   </object>
-  <object name="ToWoodland" type="warp" x="2464" y="3264" width="128" height="32">
+  <object name="To Woodland" type="warp" x="2464" y="3264" width="128" height="32">
    <properties>
     <property name="dest_map" value="007-1"/>
-    <property name="dest_x" value="2192"/>
-    <property name="dest_y" value="752"/>
+    <property name="dest_x" value="2176"/>
+    <property name="dest_y" value="704"/>
    </properties>
   </object>
-  <object name="ToWoodland" type="warp" x="4192" y="3232" width="96" height="32">
+  <object name="To Woodland" type="warp" x="4192" y="3232" width="96" height="32">
    <properties>
     <property name="dest_map" value="007-1"/>
     <property name="dest_x" value="3920"/>
     <property name="dest_y" value="752"/>
    </properties>
   </object>
-  <object name="PinkFlower" type="spawn" x="0" y="0">
+  <object name="Pink Flower" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_spawn" value="20"/>
     <property name="max_beings" value="10"/>
@@ -124,7 +124,7 @@
     <property name="monster_id" value="16"/>
    </properties>
   </object>
-  <object name="SpikyMushroom" type="spawn" x="0" y="0">
+  <object name="Spiky Mushroom" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_spawn" value="20"/>
     <property name="max_beings" value="18"/>
@@ -138,7 +138,7 @@
     <property name="monster_id" value="39"/>
    </properties>
   </object>
-  <object name="Mauve" type="spawn" x="0" y="0">
+  <object name="Mauve Herb" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_death" value="180000"/>
     <property name="eA_spawn" value="270000"/>
@@ -146,7 +146,7 @@
     <property name="monster_id" value="27"/>
    </properties>
   </object>
-  <object name="SilkWorm" type="spawn" x="0" y="0">
+  <object name="Silkworm" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="60000"/>
@@ -154,7 +154,7 @@
     <property name="monster_id" value="33"/>
    </properties>
   </object>
-  <object name="Clover" type="spawn" x="0" y="0">
+  <object name="Clover Patch" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_death" value="1000"/>
     <property name="max_beings" value="2"/>

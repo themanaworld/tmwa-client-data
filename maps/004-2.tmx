@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="98" height="87" tilewidth="32" tileheight="32">
  <properties>
-  <property name="name" value="West Beach Houses"/>
+  <property name="name" value="Beach House"/>
  </properties>
  <tileset firstgid="1" name="Inn" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/inn.png" width="512" height="512"/>
@@ -17,7 +17,7 @@
  </tileset>
  <layer name="Ground" width="98" height="87">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3cy07CQBTG8VERdVkNqBsSVLwsSdQ34BF4MN173Xt5AS+P4ZvA0tOkE6ZNwVaYzmnzn+QXMumkna8HQppwmBhjJgAAAAAAAAAAAECDrIl10Uq0xZbYFjvO8Q1nzXqyLvTey2SzGfLm2cx34l48iMfM+XzljsSe2E3E831xIA7FpbgS186aQbIu9H0uki3e70h0nLnlZnMzv4hX8SbeM+fzlbsvjhzx/EyciwvnuLuum8xD3+ei2cY5GezcZnEzf4hP8SW+zeyz0feYe7iE0PfZZ7aqc2vbj5Zs1EFHNuqgIxt10JGNOujIRh10ZKMOOrJVmftH2X5WLR5Ts/qh7T0T+j43SZkxNen3V+i9AwAAAAAAAAAAAACgRdw70voHH/0mi/bSLrGmjiKT7j0pKvK4l4FznePM9eyaTvJ64nlPVbG9J12T7kH5i49+k96C6/Vy1pzOWVNHmn6fVeR6Tf3NGHXQgTroQB10oA46aKqD7atvJ+d3++w3M6956+r8/KCpDpGZPQcMTfrZxu2pH81ZFym4n1XU4UbceqyD+58AQ5Puq3ePjeesq8N/B+Qp22fzJJ491mGZzybfDzr2Uvc6LDOoQzNRBx3iUbRvMtsDZ0foDAAAAAAAAAAAAAAArMovrhCS0jiFAAA=
+   H4sIAAAAAAAAA+3cy07CUBDG8SMi6rIaUDckqHhZkihvwCPwYLr3uvfyAl7eiq3T5DRMm4LF5rRT/C9+ISedtOfrpCFNGGbOuRkAAAAAAAAAAACwRjZES7S9jtgWO2JXHd9UNS1fV/feV8mWZMhbZzPfiXvxIB4z5wuVOxL7Ys+L1wfiUByJK3Etxqpm6Ovqvs9FssX7nYiuWid0Np35RbyKN/GeOV+o3ANxrMTrc3EhLtVxXdfz67rvc9Fs05wMyTrJojN/iE/xJb7d/NkYBMw9KqHu+xwyW9W5re3HSjb6YCMbfbCRjT7YyEYfbGSjDzay0Qcb2arMbW0/1vLxPPw/9AEAAAAAAAAAAAAAgPLi2ZH2H4SYN1m2l84KNU0UufTsSVFRwL0M1XVOMtdLarr+8zTwnqqSzJ70XHoG5Tch5k36S67Xz6k5W1DTRJZ+F1Tkeuv6WyX6YAN9sIE+2EAfbLDUh2SuvuPPr+fstzKfeXVNfn+w1IfIzd8DRi79bqNn6icL6iID97OKPtyI24B90P8JMHLpuXp9bLqgrgn/HVC2B7En8RywD2WeTb4fbOyFPtjYS9P7YAl9sIE+AAAAAAAAAAAAAAAw9wNX0CG5OIUAAA==
   </data>
  </layer>
  <layer name="Fringe" width="98" height="87">
@@ -27,65 +27,65 @@
  </layer>
  <layer name="Over" width="98" height="87">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3bMQrAMAgAQJ/Y/3+ka9dSGkpSQyTcgQji4OCoEQAAAAAAAAAAUMexegAAAKY4bzkz2NfIHtgLAAAAAAAAAAAAAP543qi+3a1+1QAAsvm/gpp6/iaj0QsAAAAAAAAAu7gALCgHOziFAAA=
+   H4sIAAAAAAAAA+3bMQqAMAwF0BzR43sTO+rgYhEkWmkp70EoZMqQbvkRAAAAAAAAAAAwjqX3AAAAnay9B/jZdlQ535bFvDJ7UOK6XwAAAAAAAAAAAADwRn2rfHe//NQD4LvZczaQJX8FY8rkJusMnD8KAAAAAAAAwGx2E7BsfDiFAAA=
   </data>
  </layer>
  <layer name="Collision" width="98" height="87">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3a0QqDMAwF0O1X/P+P3FMZSMeqtU20J3BAsGiS66Pb+/XaAAAAAAAAAGAhpfbXM95Ze9evit7T2fla56nlMHLu1h7vmMWoiv5WZvSzag61nlvnit5zRA4ze+05l8momtlruXfXDK7KofacbD1H73lWFjNmzthTlvlmzZ2tnxk5ZP3+svWzKjkAAAAAAAAAAMDzHPkHaPR/QWd6eMq/Sj0lh7Gz/9tLuSeH62dvmXH0zHI4tveIHM6cu5OeGt3Xleeyk0MOcohX2+t+x5E5ZPkmIrKInL08M1NPq+bQW9H7fAI55CAHAAAAAAAAAPj6ADGuSa44hQAA
+   H4sIAAAAAAAAA+3aSw7DIAwFwPYquf8hu0KNqiglH7ADY2lWQZHtx5Ll/XotAAAAAAAAwPBKRfcxOznksM6hVybr2vu2dy6zmqrJoeXctT0+MYtWFX1XevQzaw5bPdfOFb3niBx69nrlXCatqmev5dtTM7grh63/ZOs5es+9sugxc8aesszXa+5s/fTIIev9y9bPrOQAAAAAAAAAAADjOfIGqPW7oDM9jPJW6UrJoe3s//ZSvsnh/tlrZmw9sxyO7T0ihzPnnuRKte7rznPZySEHOcTb2uvvjiNzyHInIrKInL38M1NPs+ZwtaL3OQI55CAHAAAAAAAAAPj6AHkrzmE4hQAA
   </data>
  </layer>
- <objectgroup name="Object Group 4" width="0" height="0">
-  <object name="ToRoom" type="warp" x="1216" y="640" width="64" height="32">
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="To Room" type="warp" x="1216" y="640" width="64" height="32">
    <properties>
     <property name="dest_map" value="004-2"/>
-    <property name="dest_x" value="2400"/>
+    <property name="dest_x" value="2368"/>
     <property name="dest_y" value="928"/>
    </properties>
   </object>
-  <object name="ToRoom" type="Warp" x="2368" y="960" width="64" height="32">
+  <object name="To Entrance" type="warp" x="2368" y="960" width="64" height="32">
    <properties>
     <property name="dest_map" value="004-2"/>
     <property name="dest_x" value="1216"/>
     <property name="dest_y" value="672"/>
    </properties>
   </object>
-  <object name="ToOutside" type="Warp" x="672" y="928" width="32" height="32">
+  <object name="To Outside" type="warp" x="672" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="004-1"/>
     <property name="dest_x" value="2560"/>
     <property name="dest_y" value="1024"/>
    </properties>
   </object>
-  <object name="ToBasement" type="warp" x="1984" y="896" width="32" height="32">
+  <object name="To Basement" type="warp" x="1984" y="896" width="32" height="32">
    <properties>
     <property name="dest_map" value="004-2"/>
     <property name="dest_x" value="672"/>
-    <property name="dest_y" value="1984"/>
+    <property name="dest_y" value="1952"/>
    </properties>
   </object>
-  <object name="To1stFloor" type="warp" x="640" y="1984" width="32" height="32">
+  <object name="To First Floor" type="warp" x="640" y="1984" width="32" height="32">
    <properties>
     <property name="dest_map" value="004-2"/>
     <property name="dest_x" value="2016"/>
-    <property name="dest_y" value="896"/>
+    <property name="dest_y" value="864"/>
    </properties>
   </object>
-  <object name="To1stFloor" type="warp" x="2144" y="2112" width="64" height="32">
+  <object name="To First Floor" type="warp" x="2144" y="2112" width="64" height="32">
    <properties>
     <property name="dest_map" value="004-2"/>
     <property name="dest_x" value="1120"/>
-    <property name="dest_y" value="672"/>
+    <property name="dest_y" value="608"/>
    </properties>
   </object>
-  <object name="To2ndFloor" type="Warp" x="1120" y="640" width="64" height="32">
+  <object name="To Second Floor" type="warp" x="1120" y="576" width="64" height="32">
    <properties>
     <property name="dest_map" value="004-2"/>
-    <property name="dest_x" value="2176"/>
+    <property name="dest_x" value="2144"/>
     <property name="dest_y" value="2080"/>
    </properties>
   </object>
-  <object name="ToOutside" type="warp" x="1824" y="2112" width="32" height="32">
+  <object name="To Roof" type="warp" x="1824" y="2112" width="32" height="32">
    <properties>
     <property name="dest_map" value="004-1"/>
     <property name="dest_x" value="2752"/>

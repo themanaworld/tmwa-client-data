@@ -2,7 +2,7 @@
 <map version="1.0" orientation="orthogonal" width="320" height="320" tilewidth="32" tileheight="32">
  <properties>
   <property name="music" value="The Mana World - Snow Village.ogg"/>
-  <property name="name" value="Ice Caves"/>
+  <property name="name" value="Ice Labyrinth"/>
  </properties>
  <tileset firstgid="1" name="set_icecave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/set_icecave.png" width="128" height="128"/>
@@ -28,7 +28,7 @@
  </layer>
  <layer name="Fringe" width="320" height="320">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
  <layer name="Over" width="320" height="320">
@@ -38,337 +38,337 @@
  </layer>
  <layer name="Collision" width="320" height="320">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
  <objectgroup name="Objects" width="320" height="320">
-  <object name="toOutside" type="WARP" x="6784" y="9600" width="32" height="32">
+  <object name="To Nivalis Port" type="warp" x="6784" y="9600" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-1"/>
-    <property name="dest_x" value="2448"/>
-    <property name="dest_y" value="848"/>
+    <property name="dest_x" value="2432"/>
+    <property name="dest_y" value="800"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="6560" y="8448" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="6560" y="8448" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="4784"/>
-    <property name="dest_y" value="8368"/>
+    <property name="dest_x" value="4800"/>
+    <property name="dest_y" value="8320"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="4768" y="8288" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="4768" y="8288" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="6576"/>
-    <property name="dest_y" value="8528"/>
+    <property name="dest_x" value="6592"/>
+    <property name="dest_y" value="8480"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="7200" y="9024" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="7200" y="9024" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="8784"/>
-    <property name="dest_y" value="9584"/>
+    <property name="dest_x" value="8768"/>
+    <property name="dest_y" value="9568"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="8768" y="9600" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="8768" y="9600" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="7216"/>
-    <property name="dest_y" value="9072"/>
+    <property name="dest_x" value="7200"/>
+    <property name="dest_y" value="9056"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="9056" y="8672" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="9056" y="8672" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="8624"/>
-    <property name="dest_y" value="7824"/>
+    <property name="dest_x" value="8608"/>
+    <property name="dest_y" value="7808"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="8608" y="7840" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="8608" y="7840" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="9072"/>
-    <property name="dest_y" value="8720"/>
+    <property name="dest_x" value="9056"/>
+    <property name="dest_y" value="8704"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="4736" y="4800" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="4736" y="4800" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="4112"/>
-    <property name="dest_y" value="4304"/>
+    <property name="dest_x" value="4096"/>
+    <property name="dest_y" value="4288"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="4448" y="8256" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="4448" y="8256" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="4976"/>
-    <property name="dest_y" value="6288"/>
+    <property name="dest_x" value="4992"/>
+    <property name="dest_y" value="6272"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="4960" y="6240" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="4960" y="6240" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="4464"/>
-    <property name="dest_y" value="8304"/>
+    <property name="dest_x" value="4448"/>
+    <property name="dest_y" value="8288"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="4544" y="9632" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="4544" y="9632" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="3120"/>
-    <property name="dest_y" value="9552"/>
+    <property name="dest_x" value="3136"/>
+    <property name="dest_y" value="9600"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="3104" y="9632" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="3104" y="9632" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="4560"/>
-    <property name="dest_y" value="9552"/>
+    <property name="dest_x" value="4576"/>
+    <property name="dest_y" value="9600"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="4320" y="6272" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="4320" y="6272" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="3408"/>
-    <property name="dest_y" value="7408"/>
+    <property name="dest_x" value="3392"/>
+    <property name="dest_y" value="7392"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="3392" y="7424" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="3392" y="7424" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="4336"/>
-    <property name="dest_y" value="6320"/>
+    <property name="dest_x" value="4320"/>
+    <property name="dest_y" value="6304"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="9152" y="6080" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="9152" y="6080" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="7280"/>
-    <property name="dest_y" value="7728"/>
+    <property name="dest_x" value="7264"/>
+    <property name="dest_y" value="7712"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="7264" y="7744" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="7264" y="7744" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="9168"/>
-    <property name="dest_y" value="6128"/>
+    <property name="dest_x" value="9152"/>
+    <property name="dest_y" value="6112"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="7552" y="6752" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="7552" y="6752" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="6000"/>
-    <property name="dest_y" value="7280"/>
+    <property name="dest_x" value="5984"/>
+    <property name="dest_y" value="7264"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="5984" y="7296" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="5984" y="7296" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="7568"/>
-    <property name="dest_y" value="6800"/>
+    <property name="dest_x" value="7552"/>
+    <property name="dest_y" value="6784"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="3008" y="8128" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="3008" y="8128" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="1744"/>
-    <property name="dest_y" value="8112"/>
+    <property name="dest_x" value="1728"/>
+    <property name="dest_y" value="8032"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="1728" y="8000" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="1728" y="8000" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="3024"/>
-    <property name="dest_y" value="8240"/>
+    <property name="dest_x" value="3008"/>
+    <property name="dest_y" value="8160"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="3296" y="6368" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="3296" y="6368" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="1680"/>
-    <property name="dest_y" value="5616"/>
+    <property name="dest_x" value="1664"/>
+    <property name="dest_y" value="5632"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="1664" y="5664" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="1664" y="5664" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="3312"/>
-    <property name="dest_y" value="6448"/>
+    <property name="dest_x" value="3296"/>
+    <property name="dest_y" value="6400"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="6784" y="6176" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="6784" y="6176" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="6640"/>
-    <property name="dest_y" value="5296"/>
+    <property name="dest_x" value="6624"/>
+    <property name="dest_y" value="5344"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="6624" y="5376" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="6624" y="5376" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="6800"/>
-    <property name="dest_y" value="6256"/>
+    <property name="dest_x" value="6784"/>
+    <property name="dest_y" value="6208"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="7520" y="5344" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="7520" y="5344" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="6256"/>
-    <property name="dest_y" value="3984"/>
+    <property name="dest_x" value="6240"/>
+    <property name="dest_y" value="3936"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="6240" y="3904" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="6240" y="3904" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="7536"/>
-    <property name="dest_y" value="5296"/>
+    <property name="dest_x" value="7520"/>
+    <property name="dest_y" value="5312"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="9472" y="3104" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="9472" y="3104" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="9360"/>
-    <property name="dest_y" value="4016"/>
+    <property name="dest_x" value="9344"/>
+    <property name="dest_y" value="3968"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="9344" y="3936" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="9344" y="3936" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="9488"/>
-    <property name="dest_y" value="3056"/>
+    <property name="dest_x" value="9472"/>
+    <property name="dest_y" value="3072"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="9248" y="5248" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="9248" y="5248" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="7312"/>
-    <property name="dest_y" value="3952"/>
+    <property name="dest_x" value="7296"/>
+    <property name="dest_y" value="3904"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="7296" y="3872" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="7296" y="3872" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="9264"/>
-    <property name="dest_y" value="5200"/>
+    <property name="dest_x" value="9248"/>
+    <property name="dest_y" value="5216"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="768" y="5024" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="768" y="5024" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="1008"/>
-    <property name="dest_y" value="4560"/>
+    <property name="dest_x" value="992"/>
+    <property name="dest_y" value="4576"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="992" y="4608" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="992" y="4608" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="784"/>
-    <property name="dest_y" value="5104"/>
+    <property name="dest_x" value="768"/>
+    <property name="dest_y" value="5056"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="1152" y="7968" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="1152" y="7968" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="1136"/>
-    <property name="dest_y" value="7184"/>
+    <property name="dest_x" value="1120"/>
+    <property name="dest_y" value="7200"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="1120" y="7232" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="1120" y="7232" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="1168"/>
-    <property name="dest_y" value="8048"/>
+    <property name="dest_x" value="1152"/>
+    <property name="dest_y" value="8000"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="1088" y="800" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="1088" y="800" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="9008"/>
-    <property name="dest_y" value="816"/>
+    <property name="dest_x" value="9024"/>
+    <property name="dest_y" value="736"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="8992" y="704" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="8992" y="704" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="1104"/>
-    <property name="dest_y" value="912"/>
+    <property name="dest_x" value="1088"/>
+    <property name="dest_y" value="832"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="9056" y="1536" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="9056" y="1536" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="8816"/>
-    <property name="dest_y" value="2384"/>
+    <property name="dest_x" value="8800"/>
+    <property name="dest_y" value="2368"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="8800" y="2336" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="8800" y="2336" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="9072"/>
-    <property name="dest_y" value="1520"/>
+    <property name="dest_x" value="9056"/>
+    <property name="dest_y" value="1504"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="832" y="5696" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="832" y="5696" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="1168"/>
-    <property name="dest_y" value="6480"/>
+    <property name="dest_x" value="1152"/>
+    <property name="dest_y" value="6432"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="1152" y="6400" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="1152" y="6400" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="848"/>
-    <property name="dest_y" value="5648"/>
+    <property name="dest_x" value="832"/>
+    <property name="dest_y" value="5664"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="2912" y="4000" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="2912" y="4000" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="1168"/>
-    <property name="dest_y" value="2512"/>
+    <property name="dest_x" value="1152"/>
+    <property name="dest_y" value="2528"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="1152" y="2560" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="1152" y="2560" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="2928"/>
-    <property name="dest_y" value="4080"/>
+    <property name="dest_x" value="2912"/>
+    <property name="dest_y" value="4032"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="1664" y="2496" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="1664" y="2496" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="6160"/>
-    <property name="dest_y" value="2320"/>
+    <property name="dest_x" value="6144"/>
+    <property name="dest_y" value="2272"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="6144" y="2240" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="6144" y="2240" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="1680"/>
-    <property name="dest_y" value="2448"/>
+    <property name="dest_x" value="1664"/>
+    <property name="dest_y" value="2464"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="4096" y="4320" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="4096" y="4320" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="4752"/>
-    <property name="dest_y" value="4880"/>
+    <property name="dest_x" value="4736"/>
+    <property name="dest_y" value="4832"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="7424" y="2976" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="7424" y="2976" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="6416"/>
-    <property name="dest_y" value="1520"/>
+    <property name="dest_x" value="7488"/>
+    <property name="dest_y" value="832"/>
    </properties>
   </object>
-  <object name="toCave" type="WARP" x="6400" y="1600" width="32" height="32">
+  <object name="To Ice Labyrinth" type="warp" x="7488" y="800" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="7440"/>
-    <property name="dest_y" value="2896"/>
+    <property name="dest_x" value="7424"/>
+    <property name="dest_y" value="2944"/>
    </properties>
   </object>
   <object name="Santa Slime" type="spawn" x="576" y="8576" width="1376" height="544">
@@ -379,7 +379,7 @@
     <property name="monster_id" value="13"/>
    </properties>
   </object>
-  <object name="IceGoblin" type="spawn" x="6976" y="8512" width="832" height="864">
+  <object name="Ice Goblin" type="spawn" x="6976" y="8512" width="832" height="864">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -387,7 +387,7 @@
     <property name="monster_id" value="56"/>
    </properties>
   </object>
-  <object name="IceGoblin" type="spawn" x="5856" y="8448" width="832" height="864">
+  <object name="Ice Goblin" type="spawn" x="5856" y="8448" width="832" height="864">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -403,7 +403,7 @@
     <property name="monster_id" value="15"/>
    </properties>
   </object>
-  <object name="yeti" type="spawn" x="768" y="6464" width="896" height="768">
+  <object name="Yeti" type="spawn" x="768" y="6464" width="896" height="768">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -411,7 +411,7 @@
     <property name="monster_id" value="70"/>
    </properties>
   </object>
-  <object name="bat" type="spawn" x="704" y="6432" width="896" height="768">
+  <object name="Bat" type="spawn" x="704" y="6432" width="896" height="768">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -443,7 +443,7 @@
     <property name="monster_id" value="59"/>
    </properties>
   </object>
-  <object name="bat" type="spawn" x="128" y="4064" width="2080" height="1408">
+  <object name="Bat" type="spawn" x="128" y="4064" width="2080" height="1408">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -451,7 +451,7 @@
     <property name="monster_id" value="15"/>
    </properties>
   </object>
-  <object name="bat" type="spawn" x="2752" y="8192" width="736" height="1376">
+  <object name="Bat" type="spawn" x="2752" y="8192" width="736" height="1376">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -459,7 +459,7 @@
     <property name="monster_id" value="15"/>
    </properties>
   </object>
-  <object name="bat" type="spawn" x="4384" y="8352" width="736" height="1376">
+  <object name="Bat" type="spawn" x="4384" y="8352" width="736" height="1376">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -475,7 +475,7 @@
     <property name="monster_id" value="13"/>
    </properties>
   </object>
-  <object name="IceGoblin" type="spawn" x="4256" y="8960" width="832" height="864">
+  <object name="Ice Goblin" type="spawn" x="4256" y="8960" width="832" height="864">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -483,7 +483,7 @@
     <property name="monster_id" value="56"/>
    </properties>
   </object>
-  <object name="iceelement" type="spawn" x="4160" y="6208" width="960" height="1440">
+  <object name="Ice Element" type="spawn" x="4160" y="6208" width="960" height="1440">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -491,7 +491,7 @@
     <property name="monster_id" value="69"/>
    </properties>
   </object>
-  <object name="iceelement" type="spawn" x="2528" y="6144" width="1280" height="1440">
+  <object name="Ice Element" type="spawn" x="2528" y="6144" width="1280" height="1440">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -499,7 +499,7 @@
     <property name="monster_id" value="69"/>
    </properties>
   </object>
-  <object name="IceGoblin" type="spawn" x="2784" y="6432" width="832" height="864">
+  <object name="Ice Goblin" type="spawn" x="2784" y="6432" width="832" height="864">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -507,7 +507,7 @@
     <property name="monster_id" value="56"/>
    </properties>
   </object>
-  <object name="IceGoblin" type="spawn" x="5888" y="3776" width="960" height="1728">
+  <object name="Ice Goblin" type="spawn" x="5888" y="3776" width="960" height="1728">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -539,7 +539,7 @@
     <property name="monster_id" value="13"/>
    </properties>
   </object>
-  <object name="IceGoblin" type="spawn" x="8384" y="8800" width="1088" height="480">
+  <object name="Ice Goblin" type="spawn" x="8384" y="8800" width="1088" height="480">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -547,15 +547,7 @@
     <property name="monster_id" value="56"/>
    </properties>
   </object>
-  <object name="IceGoblin" type="spawn" x="8384" y="8800" width="1088" height="480">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="5"/>
-    <property name="monster_id" value="56"/>
-   </properties>
-  </object>
-  <object name="iceelement" type="spawn" x="2528" y="6144" width="1280" height="1440">
+  <object name="Ice Element" type="spawn" x="2528" y="6144" width="1280" height="1440">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -563,7 +555,7 @@
     <property name="monster_id" value="69"/>
    </properties>
   </object>
-  <object name="iceelement" type="spawn" x="8992" y="5792" width="288" height="2432">
+  <object name="Ice Element" type="spawn" x="8992" y="5792" width="288" height="2432">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -595,7 +587,7 @@
     <property name="monster_id" value="59"/>
    </properties>
   </object>
-  <object name="yeti" type="spawn" x="6912" y="6688" width="896" height="1120">
+  <object name="Yeti" type="spawn" x="6912" y="6688" width="896" height="1120">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -603,7 +595,7 @@
     <property name="monster_id" value="70"/>
    </properties>
   </object>
-  <object name="IceGoblin" type="spawn" x="7168" y="6592" width="416" height="1376">
+  <object name="Ice Goblin" type="spawn" x="7168" y="6592" width="416" height="1376">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -611,7 +603,7 @@
     <property name="monster_id" value="56"/>
    </properties>
   </object>
-  <object name="yeti" type="spawn" x="6496" y="6112" width="416" height="576">
+  <object name="Yeti" type="spawn" x="6496" y="6112" width="416" height="576">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -619,7 +611,7 @@
     <property name="monster_id" value="70"/>
    </properties>
   </object>
-  <object name="yeti" type="spawn" x="5984" y="6656" width="416" height="576">
+  <object name="Yeti" type="spawn" x="5984" y="6656" width="416" height="576">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -651,7 +643,7 @@
     <property name="monster_id" value="15"/>
    </properties>
   </object>
-  <object name="yeti" type="spawn" x="6496" y="6112" width="416" height="576">
+  <object name="Yeti" type="spawn" x="6496" y="6112" width="416" height="576">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -659,7 +651,7 @@
     <property name="monster_id" value="70"/>
    </properties>
   </object>
-  <object name="iceelement" type="spawn" x="4160" y="6208" width="960" height="1440">
+  <object name="Ice Element" type="spawn" x="4160" y="6208" width="960" height="1440">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -667,7 +659,7 @@
     <property name="monster_id" value="69"/>
    </properties>
   </object>
-  <object name="yeti" type="spawn" x="7200" y="4224" width="608" height="640">
+  <object name="Yeti" type="spawn" x="7200" y="4224" width="608" height="640">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -731,7 +723,7 @@
     <property name="monster_id" value="15"/>
    </properties>
   </object>
-  <object name="yeti" type="spawn" x="8544" y="2080" width="512" height="1056">
+  <object name="Yeti" type="spawn" x="8544" y="2080" width="512" height="1056">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -747,7 +739,7 @@
     <property name="monster_id" value="59"/>
    </properties>
   </object>
-  <object name="yeti" type="spawn" x="2496" y="4640" width="2752" height="992">
+  <object name="Yeti" type="spawn" x="2496" y="4640" width="2752" height="992">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -755,7 +747,7 @@
     <property name="monster_id" value="70"/>
    </properties>
   </object>
-  <object name="yeti" type="spawn" x="2528" y="3808" width="2656" height="800">
+  <object name="Yeti" type="spawn" x="2528" y="3808" width="2656" height="800">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -763,7 +755,7 @@
     <property name="monster_id" value="70"/>
    </properties>
   </object>
-  <object name="IceGoblin" type="spawn" x="3040" y="3744" width="832" height="864">
+  <object name="Ice Goblin" type="spawn" x="3040" y="3744" width="832" height="864">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -771,7 +763,7 @@
     <property name="monster_id" value="56"/>
    </properties>
   </object>
-  <object name="IceGoblin" type="spawn" x="4256" y="4736" width="832" height="800">
+  <object name="Ice Goblin" type="spawn" x="4256" y="4736" width="832" height="800">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -779,7 +771,7 @@
     <property name="monster_id" value="56"/>
    </properties>
   </object>
-  <object name="IceGoblin" type="spawn" x="2624" y="4960" width="832" height="800">
+  <object name="Ice Goblin" type="spawn" x="2624" y="4960" width="832" height="800">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -787,7 +779,7 @@
     <property name="monster_id" value="56"/>
    </properties>
   </object>
-  <object name="iceelement" type="spawn" x="8544" y="736" width="1024" height="928">
+  <object name="Ice Element" type="spawn" x="8544" y="736" width="1024" height="928">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -795,7 +787,7 @@
     <property name="monster_id" value="69"/>
    </properties>
   </object>
-  <object name="iceelement" type="spawn" x="5792" y="640" width="2080" height="1056">
+  <object name="Ice Element" type="spawn" x="5792" y="640" width="2080" height="1056">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -803,7 +795,7 @@
     <property name="monster_id" value="69"/>
    </properties>
   </object>
-  <object name="iceelement" type="spawn" x="6816" y="2208" width="1024" height="928">
+  <object name="Ice Element" type="spawn" x="6816" y="2208" width="1024" height="928">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -811,7 +803,7 @@
     <property name="monster_id" value="69"/>
    </properties>
   </object>
-  <object name="iceelement" type="spawn" x="8832" y="4224" width="512" height="448">
+  <object name="Ice Element" type="spawn" x="8832" y="4224" width="512" height="448">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -819,7 +811,7 @@
     <property name="monster_id" value="69"/>
    </properties>
   </object>
-  <object name="iceelement" type="spawn" x="5856" y="2208" width="1024" height="928">
+  <object name="Ice Element" type="spawn" x="5856" y="2208" width="1024" height="928">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -827,7 +819,7 @@
     <property name="monster_id" value="69"/>
    </properties>
   </object>
-  <object name="IceGoblin" type="spawn" x="6464" y="1984" width="832" height="864">
+  <object name="Ice Goblin" type="spawn" x="6464" y="1984" width="832" height="864">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>

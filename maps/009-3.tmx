@@ -3,7 +3,7 @@
  <properties>
   <property name="minimap" value="graphics/minimaps/009-3.png"/>
   <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
-  <property name="name" value="Hurnscald Caves"/>
+  <property name="name" value="Hurnscald Cave"/>
  </properties>
  <tileset firstgid="1" name="Cave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png" width="512" height="256"/>
@@ -39,7 +39,7 @@
  </layer>
  <layer name="Fringe" width="200" height="151">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
  <layer name="Over" width="200" height="151">
@@ -49,63 +49,63 @@
  </layer>
  <layer name="Collision" width="200" height="151">
   <data encoding="base64" compression="gzip">
-   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
+   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
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="5376" y="1344" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="5728" y="1472" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="4928" y="3808" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3776" y="3040" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3424" y="2688" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2400" y="3456" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2496" y="4096" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1600" y="3936" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="704" y="3488" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1440" y="2688" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="4416" y="2752" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="4480" y="2048" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="4928" y="2784" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="5312" y="1568" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="5024" y="1408" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="4128" y="1696" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3520" y="1856" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2720" y="1888" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="3232" y="1056" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1792" y="1184" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="1280" y="1856" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="2560" y="2336" width="32" height="32"/>
-  <object name="graphics/particles/cookingfire.particle.xml" type="PARTICLE_EFFECT" x="5616" y="960" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="5152" y="1888" width="32" height="32"/>
-  <object name="CaveExitToInn" type="warp" x="5536" y="640" width="32" height="32">
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="5376" y="1344" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="5728" y="1472" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="4928" y="3808" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="3776" y="3040" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="3424" y="2688" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2400" y="3456" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2496" y="4096" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1600" y="3936" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="704" y="3488" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1440" y="2688" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="4416" y="2752" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="4480" y="2048" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="4928" y="2784" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="5312" y="1568" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="5024" y="1408" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="4128" y="1696" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="3520" y="1856" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2720" y="1888" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="3232" y="1056" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1792" y="1184" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1280" y="1856" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2560" y="2336" width="32" height="32"/>
+  <object name="graphics/particles/cookingfire.particle.xml" type="particle_effect" x="5616" y="960" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="5152" y="1888" width="32" height="32"/>
+  <object name="To Cellar" type="warp" x="5536" y="640" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-2"/>
-    <property name="dest_x" value="4720"/>
-    <property name="dest_y" value="2832"/>
+    <property name="dest_x" value="4704"/>
+    <property name="dest_y" value="2848"/>
    </properties>
   </object>
-  <object name="ToLakeCave" type="warp" x="640" y="1792" width="32" height="32">
+  <object name="To Lake Cave" type="warp" x="640" y="1824" width="32" height="32">
    <properties>
     <property name="dest_map" value="011-4"/>
-    <property name="dest_x" value="4144"/>
-    <property name="dest_y" value="2832"/>
+    <property name="dest_x" value="4128"/>
+    <property name="dest_y" value="2784"/>
    </properties>
   </object>
-  <object name="toCave" type="warp" x="5024" y="960" width="32" height="32">
+  <object name="To Northern Mines" type="warp" x="5024" y="960" width="32" height="32">
    <properties>
     <property name="dest_map" value="018-3"/>
     <property name="dest_x" value="5728"/>
-    <property name="dest_y" value="5696"/>
+    <property name="dest_y" value="5760"/>
    </properties>
   </object>
-  <object name="toCave" type="warp" x="3744" y="608" width="32" height="32">
+  <object name="To Woodland Hills Cave" type="warp" x="3744" y="608" width="32" height="32">
    <properties>
     <property name="dest_map" value="013-3"/>
     <property name="dest_x" value="5120"/>
-    <property name="dest_y" value="3232"/>
+    <property name="dest_y" value="3264"/>
    </properties>
   </object>
-  <object name="YellowSlime" type="spawn" x="0" y="0">
+  <object name="Yellow Slime" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_death" value="0"/>
     <property name="eA_spawn" value="0"/>
@@ -113,7 +113,7 @@
     <property name="monster_id" value="5"/>
    </properties>
   </object>
-  <object name="BlackScorpion" type="spawn" x="0" y="0">
+  <object name="Black Scorpion" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_death" value="0"/>
     <property name="eA_spawn" value="0"/>
@@ -121,7 +121,7 @@
     <property name="monster_id" value="7"/>
    </properties>
   </object>
-  <object name="RedSlime" type="spawn" x="0" y="0">
+  <object name="Red Slime" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_death" value="0"/>
     <property name="eA_spawn" value="0"/>

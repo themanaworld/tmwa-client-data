@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
  <properties>
   <property name="minimap" value="graphics/minimaps/006-1.png"/>
@@ -29,7 +28,7 @@
    H4sIAAAAAAAAA+3bu27UQBQGYFuCN9lH2BJBs88BVChNoEGkAhou4hJoIBF3ioQVd0ID4V4CEpcSeALgKfhX8ojJ2bE9M77MeOcvvknWchz7nMTHe2Y2z7Isp0b2YzgAB/Pw55K6ZQyH4UhJLpirfh3HcAJOGuJdlytq3yqGS3DZEPOqXFFcuSJKEet3PFi/48L6HRfWbyLqwi0Mt+EO3M3Dn0/qHmN4Ak/hWUf54LOvvbcY3sF7+NBBvPjs6+YLhq/wDb53EDM++8aFz75E9VjTm9sjXu/zPA5rup1dsNtiP988KKzpze31+Jmlku2s6Vl2DsN5uAAXHeLgc58/BiuWx0u1jlzDcB1uwE3La3e5z3/E8Ak+wxm8PmtxvJTryH0MD+AhPLK8fpf7/A8MP+EXrOH1usXxUq4j2xhewWt4Y3n9Lvf53xj+wN+KfeXxWEf6VVZDqJqqv6fhaEvHLKshVJ8HFburcErkRe0zqsjVWsk2Uw2hnX//OpUHFbtNuCLyovYZa9tG4vj3YFp8P9W2T7P+rjF2eg5UTJ8Xsd4qvqo86PHcEHlR+0yKbVvFcUJfX8z0e8pI5ECP6aag50HaMOyjtk0iuOYYyLjL2M/+bseGHFTFnfzzIOMu7zuTQtc5SLXHoRzKdtbdSdZf7KWUexzKUjZfd0Ox6XFU9RMXReg8KDY9Dr4XjAvfCzbTdn2O4b7aBf0+7DufVIf12T4Xs/uw+r/3mU+ykfIchKtp9v//3mc+yQbnIPz4zCcRUb9MPTQp9Dn60NdjhD4XF/p8SJnQ5+hDX48R+lxcmHpoUuhz9GGzHiNGi/pej8iVqXaX7ZvKnEgbfRIZ1xXxVW6T6x3qanVKPZcmfZKqecVxzev13Fy7Tb8npZ6LbZ/EtKZHruepeiaSc47T3L52p9RzKeuTyPib1vSY1vPYmO37IoHYuipbx2aKv2lNT5Nn05fMxxw95mVr2dqIPdkpW8fG+IfRRsy7mlckP13NKy6iPnq8Xc0rLqI+erycV7Q31B4vEREREVGfhrp2aChc4zvUtUND4Rpfvq/sFuNLREREREREQ5DKZw365tOXTOmzBn3z6Uum9FmDvvn0zVL6rAERERERERFRrNhLjAd7iXFhLzEu7CUSEc37BykaYO9AnAAA
   </data>
  </layer>
- <layer name="LowerGround" width="100" height="100">
+ <layer name="Ground2" width="100" height="100">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3bWU4CQRCA4bqD8QZyA7mBnMAF3zXKuwZ5d+MdF95d8JhWh+kwY4YZSejp6ub/ksogjEklZfU2IgIAAADYcaJxHjsJVFzHTgAV1MMW6mEL9bCFethCPWyhHrZQD3vYE9pCj4S3pzHU2P/HvdQjvIvS69OWe6lHeJd/fm6aI6hHOMeyPLetMyzCfe565kyW4xn1COdG47Z4Pda40zjQmDT8zlXopHbYvcaDxqPGk8abxrfGYs39PaE/QpppvGi8yqoWdXwN+kJ/hPSh8anxJetr4YyK60DoDwvKPUE9ulee2911Urwn0jzXIwzXD88ah8V1Kqu+mMZKagf5vnA98K5xVFznsppD5nFS2zl+zev7oQ5nu93xa17fD3VGa97H9rWteR32Hraw1rWF/rCF+cOG3PeCqY3Due8FUxuHfb657gVTG4dTy3dTqY3Dudcjtb7PvR4/sRPYUO71SE1q64/cpbY+T9m45XP/PATdaPvbb3oegu1rm6ubnodg+9rmave/camtB1PGXG1LL3YCqOjHTgAVg9gJAAAatZ1LoFucWdvCmbUt9Ict9IctnBPZwnhlQ/k7R4jL1cJ954hnOnYshGc6AAAAAAAAAAAAAAAAAAAAAAAAAACE8guN/alZQJwAAA==
   </data>
@@ -44,15 +43,15 @@
    H4sIAAAAAAAAA+1UWY5DMQir5jRz/xPOx6hShFgMJIHXgmS9JRvYOL8/r9fvYDAYDAaDwWAwGAwGg8FgMBgMBoPBYDAYJPGO6jy+HW8N1ritG3r2N2DlQeJl/eaC6sqtof+k/Tz5fio4bp8QnrqQ+V3wznXNG+GCPrNaRtZ/mhacDlI9Hs4sfXf50FPbE4ByinxL/7wh7aH9t+qp5tmrA+1/q7+t8HLqneONar5RTXZxneHQsxb1bDW3WX9INUX5QNdrOSC5IuufgDVnjifK683+t3pI06qa190eQTXSOEf4r66vI7RcLR0kzXZqkOXwaXp4uES4ps/dOaFaWXl2Bc1R41f7V90Lnqjm3MsJylWVBtk9qvn2cIJ6Bq0rytfJqOYe4cijE1fXE6Kad0sT+r7mTceRsQxPt9Z0hVabpE2Ek6xmO71XzTnijzVPjQNOM0vXLHe711dzjnhjzZOrw6prV+zcSzujKyQeOF3oe0aPG7xrZ3eFxI+kh/a9g6dba7qB1qJpk+HhlA8y+1Zzr90tUl2neOwQ1fxb3li/1yf3j1ur1X07qrnNeGPN//1+mqvTUc3vTl20Gk9xlxmX1kTuig7w8najv71Bc4rmWK1FRBeED2082u+R+RHvVesg6XHDBzvOiNYjfVfr0OX+qa6J6nEqr2gNWZ1oTdq8yh7T6u7gGU/u3jiRqzdntIYuHkH7C51zoqdPBeeN9bujDlwNpz1J/ZDNl3veqLOjFjdD63drjaR/B020/yf4z/QGso+2PzfWTQ8PB7fDcz4yl/pi/V+ph9Qn0renF70crrl58kTy08bomdWaIFx56joZnt6w7rYOvjilxw0t0DOjHu6ihcVldnxnoP2u/aNj1b6Q/MHVmvXSU6JaC4vniH6e2rPzPZ61PLT+76BHhFerrsi+kj/RvSin67vVe9y5Vd5AuLXGT91Tlh40B08eku8qfXGT0xuh3W1If1V5Aq3B+ncr0Psq6pdu95OWt6ZjxF/I+dy3l+/OWtB7KhqRtTt8ZemFjHG9U60FzSVSbzSyvpS+aa+hdwJ3XrUOCA8aH1Edd90zUl7onlU+kXJBNNL6Elmj5SCdwY1Le2q6aB7Scu2gTYYvaZ517q7Q+NXG6R6VenA8Id5HxrWzPb5C5iP+t/Ku0oJ6VvKwlbs0J+pTj388Xlhzou/efG94xBPoul05IN6UfKf1mdSX1XpIvEj95+Eto4WVE7LO0gHJ8bYvJN4t3rT/nr6zAtFF0wDV/jb3SJ9oeXJ106elkVcLK7gcpDnSe7UfKEc0JyRHrjatZ7V53FxkjhSoJhU6eLyzax1Xs4fPKOeetV1xIj+OL00TiduMH9Dxav5v6EH3XznR9EL5R3VA11ZrcFtvhBerV+hc6cnxrK35Zj0oBxYvFlfaOkl37vxvBMcd5cerh8V/Zs9PhsXRibNunjno1QODwWAwGAwGg8FgMBgMBoN//AG76ZsyQJwAAA==
   </data>
  </layer>
- <objectgroup name="Object Layer 1" width="100" height="100">
-  <object name="ToCave" type="WARP" x="2048" y="1664" width="32" height="32">
+ <objectgroup name="Objects" width="100" height="100">
+  <object name="To Outback Cave" type="warp" x="2048" y="1664" width="32" height="32">
    <properties>
     <property name="dest_map" value="032-3"/>
-    <property name="dest_x" value="1808"/>
-    <property name="dest_y" value="1904"/>
+    <property name="dest_x" value="1792"/>
+    <property name="dest_y" value="1920"/>
    </properties>
   </object>
-  <object name="BlackScorpion" type="SPAWN" x="1088" y="1824" width="896" height="512">
+  <object name="Black Scorpion" type="spawn" x="1088" y="1824" width="896" height="512">
    <properties>
     <property name="eA_death" value="100000"/>
     <property name="eA_spawn" value="30000"/>
@@ -60,7 +59,7 @@
     <property name="monster_id" value="7"/>
    </properties>
   </object>
-  <object name="BlackScorpion" type="SPAWN" x="352" y="1920" width="896" height="800">
+  <object name="Black Scorpion" type="spawn" x="352" y="1920" width="896" height="800">
    <properties>
     <property name="eA_death" value="100000"/>
     <property name="eA_spawn" value="30000"/>
@@ -68,7 +67,7 @@
     <property name="monster_id" value="7"/>
    </properties>
   </object>
-  <object name="BlackScorpion" type="SPAWN" x="384" y="1216" width="832" height="704">
+  <object name="Black Scorpion" type="spawn" x="384" y="1216" width="832" height="704">
    <properties>
     <property name="eA_death" value="100000"/>
     <property name="eA_spawn" value="30000"/>
@@ -76,7 +75,7 @@
     <property name="monster_id" value="7"/>
    </properties>
   </object>
-  <object name="Snake" type="SPAWN" x="1472" y="1120" width="768" height="608">
+  <object name="Snake" type="spawn" x="1472" y="1120" width="768" height="608">
    <properties>
     <property name="eA_death" value="100000"/>
     <property name="eA_spawn" value="30000"/>
@@ -84,7 +83,7 @@
     <property name="monster_id" value="8"/>
    </properties>
   </object>
-  <object name="Snake" type="SPAWN" x="1920" y="2016" width="1120" height="896">
+  <object name="Snake" type="spawn" x="1920" y="2016" width="1120" height="896">
    <properties>
     <property name="eA_death" value="100000"/>
     <property name="eA_spawn" value="30000"/>

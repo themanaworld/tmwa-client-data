@@ -26,22 +26,22 @@
    H4sIAAAAAAAAA+3QsQ3CUBQEQVMZJVAChbsIWnCOHHwZS/dOTDDpBrs/tm0HAAAAAAAAAAAA/t7zort7q/1pXhfd3VvtT/O+6HPil9639JdVZx8mSH/xz78G6U/++TdR+ot//jVIf/LPv4nSX/zzr0H6k3/+TZT+4p9/DdKf/PNvovQX//xrkP7kn38Tpb/451+D9Cf//Jso/cU//xqkP/nn30TpL/751yD9yT//Jkp/8c+/BulP7f8AAAAAAADodQC1dlnFAH0AAA==
   </data>
  </layer>
- <layer name="Fringe2" width="80" height="100">
+ <layer name="Fringe" width="80" height="100">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3XwQnCQBBA0Q3YgFd7VyswtujW4FeTyHsw9+GzLMwY+3JdxrjNuS9bb3JM+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1j9ltnfPUDwAA+IDzaesNAAAA+BY3HwAAwH9w3/FrF28OODj/GAAAAAAAAAAA73oBr3x3qAB9AAA=
   </data>
  </layer>
- <layer name="Fringe" width="80" height="100">
+ <layer name="Fringe2" width="80" height="100">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3ZSU7DQABE0XYiZrbMbJkRygHIcABIcgBIch84JSehJC8sWWLhrk6C2/9JtbHkVvyVXYfwfwyKEH561V6Kbf+idqGfh34e+nno56Gfh34e+nno56Gfh34e+nno56Gfh34e+nno56Gfh34e+nno56Gfh34e+nno56Gfh34e+nno56Gfh34e+oXw1Yt7b6xWk1q/UVE+T+U78rdt0iDye2d6b17rNy3K56m04f8c22+p91a1fouifJ5Kzv02gX4e+nno5+lyv4N+CIfakXbcjzujy/0u1OxSu9Ku6dfYg5o9ak/ac0f7veq7h9pIG2uTyA6x2t7vTb3etak20+YJ++3orF1tT9v/49y29/vQd31qC22prRL2O9FZp9qZdp5pv3W6UbNb7U67p99a0M9DPw/9PPTz0M9DPw/9PPTz0M9DPw/9PPTz0M9DPw/9PDn1S3Ef2VRO/VLcRzaVU78U95FN5dRvG+hXiblLpl8l5i6ZfpWYu2T6eejnoZ+Hfh76eejnoZ+Hfh76edrQDwAAAAAAAAAAAOiyX46JeREAfQAA
   </data>
  </layer>
- <layer name="Over2" width="80" height="100">
+ <layer name="Over1" width="80" height="100">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3BMQEAAADCoPVP7WENoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABucSjRWwB9AAA=
   </data>
  </layer>
- <layer name="Over" width="80" height="100">
+ <layer name="Over2" width="80" height="100">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3QQQ0AIAwEwat/i1QCHvjiANLMJGtgEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAG6rkv1pXa/vAAAAAAAAMN0BRflnPAB9AAA=
   </data>
@@ -52,15 +52,15 @@
   </data>
  </layer>
  <objectgroup name="Objects" width="80" height="100">
-  <object name="toCryptLevel1" type="Warp" x="1152" y="608" width="96" height="32">
+  <object name="To Crypt Level 1" type="warp" x="1152" y="608" width="96" height="32">
    <properties>
     <property name="dest_map" value="027-3"/>
     <property name="dest_x" value="4064"/>
-    <property name="dest_y" value="1344"/>
+    <property name="dest_y" value="1376"/>
    </properties>
   </object>
-  <object name="graphics/particles/pool-horiz.xml" type="PARTICLE_EFFECT" x="1392" y="1312"/>
-  <object name="graphics/particles/pool-horiz-2.xml" type="PARTICLE_EFFECT" x="1648" y="1440"/>
-  <object name="graphics/particles/pool-horiz.xml" type="PARTICLE_EFFECT" x="1008" y="2048"/>
+  <object name="graphics/particles/pool-horiz.xml" type="particle_effect" x="1392" y="1312"/>
+  <object name="graphics/particles/pool-horiz-2.xml" type="particle_effect" x="1648" y="1440"/>
+  <object name="graphics/particles/pool-horiz.xml" type="particle_effect" x="1008" y="2048"/>
  </objectgroup>
 </map>

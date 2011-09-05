@@ -3,7 +3,7 @@
  <properties>
   <property name="minimap" value="graphics/minimaps/014-3.png"/>
   <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
-  <property name="name" value="Woodland Caves"/>
+  <property name="name" value="Woodland Cave"/>
   <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
   <property name="overlay0keepratio" value="true"/>
  </properties>
@@ -37,28 +37,28 @@
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
-  <object name="ToOutside" type="warp" x="1120" y="1024" width="32" height="32">
+  <object name="To Woodland" type="warp" x="1120" y="1024" width="32" height="32">
    <properties>
     <property name="dest_map" value="014-1"/>
     <property name="dest_x" value="2432"/>
     <property name="dest_y" value="1248"/>
    </properties>
   </object>
-  <object name="ToOutside" type="warp" x="1792" y="5536" width="64" height="32">
+  <object name="To Woodland" type="warp" x="1792" y="5536" width="64" height="32">
    <properties>
     <property name="dest_map" value="014-1"/>
     <property name="dest_x" value="2976"/>
     <property name="dest_y" value="1888"/>
    </properties>
   </object>
-  <object name="ToCave" type="warp" x="2912" y="3456" width="32" height="32">
+  <object name="To Second Cave" type="warp" x="2912" y="3456" width="32" height="32">
    <properties>
     <property name="dest_map" value="014-3"/>
     <property name="dest_x" value="3296"/>
     <property name="dest_y" value="1696"/>
    </properties>
   </object>
-  <object name="ToCave" type="warp" x="3296" y="1728" width="32" height="32">
+  <object name="To First Cave" type="warp" x="3296" y="1728" width="32" height="32">
    <properties>
     <property name="dest_map" value="014-3"/>
     <property name="dest_x" value="2912"/>

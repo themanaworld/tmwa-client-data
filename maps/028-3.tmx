@@ -33,8 +33,13 @@
    H4sIAAAAAAAAA+3cQQ6DIBAAwF7bD9j+/6PVAwkxakmjsMJMwq2JpSuwXcHHAwAAAAAAAAAAAH6b5vbO2qvt1wEaes7tE/R6y1w14vxUOyZH8vVixFgkNWOyXCv95lHuA+BeIq0jAC2lXLZmHtvimhCdcUFN67p35Ly497rXVv/8V6kjry3dra5nzQAAAADYp3YC3EHvzz/uRCwA6vI8HADgfHKsceT7f8W8LTWl2NIeYeOkvqOxIS6MrHTdME5ikm9f59+cSkzOJ7+N44xYlK4nU+HnerE+U1vSrhwXe++2HOF9WhHmnPXZ0hFyta3ztD3ss9zrVw99AwAAAAAAAIBovux2dPxAnAAA
   </data>
  </layer>
- <objectgroup name="objects" width="0" height="0">
-  <object name="graphics/particles/waterfall-2x4.particle.xml" type="PARTICLE_EFFECT" x="1824" y="1472"/>
+ <layer name="Collision" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2TQW7DMAzAuv//oi/tacAQJFksW6ZcUwBvbSKT8fvn9XqLiIiIiIiIiIiIiIiIiIiIbMJx6H125W7o3XbkroVd2B5Xfegdd+LJ0DvuRMtEnkufbzVaJ/pM+pwrMWPoM67G0V3lHrs0j3qe0SO628q0Op7hJvquEe+mGTFXz8n6Rp7sTXv9pi7EOytxPEPr/Pcf6ttYlewh9qCdZveI3hvvBXs//j7PHnyPVjcz37UKPQ5GOBoxtMPsHqO8Hf/X2uTJe2l/2T2yv+Wzd4x81k6Mnp7n0i4q0OIo4tMe/T1m97ZHnR7eD3tUZpYXu6zbY+cms5w88W+XOj1m7LAC2S56h/ZToYM97LFrh6OnM2ezu+/eI+qi1VXP0I6qtDhzEnFmi3E+yKG9VWxB9qTdVepQYWiH2T0qdzrbjXZI3ZHeTk//3/oe2h/Vo+rQ/rJ6rNqG9rfr/XiyK+0ys8dKrX6HdlnhfpDdju+mXVZpUmVoj5V7ZL7j7nm0y4o96DtI+8zqEfU4+y5G9qgM4WDG0F7JDq0OZgztl+5RYYfefSr16PVT5bvo3adKD/LsV8+M7jJipxU7jDp31tCuV7sXLbtFz0D7jp757vfEbqO+L9p3ZH96p6xzfcvZREREREREREREREREREREKvEB17WjWECcAAA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="0" height="0">
+  <object name="graphics/particles/waterfall-2x4.particle.xml" type="particle_effect" x="1824" y="1472"/>
   <object name="Silkworm" type="spawn" x="1280" y="1344" width="736" height="512">
    <properties>
     <property name="eA_death" value="3000"/>
@@ -43,7 +48,7 @@
     <property name="monster_id" value="33"/>
    </properties>
   </object>
-  <object name="EvilMushroom" type="spawn" x="1376" y="1120" width="32" height="32">
+  <object name="Evil Mushroom" type="spawn" x="1376" y="1120" width="32" height="32">
    <properties>
     <property name="eA_death" value="5000"/>
     <property name="eA_spawn" value="40000"/>
@@ -51,7 +56,7 @@
     <property name="monster_id" value="11"/>
    </properties>
   </object>
-  <object name="EvilMushroom" type="spawn" x="864" y="992" width="32" height="32">
+  <object name="Evil Mushroom" type="spawn" x="864" y="992" width="32" height="32">
    <properties>
     <property name="eA_death" value="5000"/>
     <property name="eA_spawn" value="40000"/>
@@ -67,17 +72,12 @@
     <property name="monster_id" value="15"/>
    </properties>
   </object>
-  <object name="To028-1" type="warp" x="1056" y="2496" width="32" height="32">
+  <object name="To Easter Island" type="warp" x="1056" y="2496" width="32" height="32">
    <properties>
     <property name="dest_map" value="028-1"/>
     <property name="dest_x" value="3648"/>
-    <property name="dest_y" value="3904"/>
+    <property name="dest_y" value="3936"/>
    </properties>
   </object>
  </objectgroup>
- <layer name="Collision" width="100" height="100">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2TQW7DMAzAuv//oi/tacAQJFksW6ZcUwBvbSKT8fvn9XqLiIiIiIiIiIiIiIiIiIiIbMJx6H125W7o3XbkroVd2B5Xfegdd+LJ0DvuRMtEnkufbzVaJ/pM+pwrMWPoM67G0V3lHrs0j3qe0SO628q0Op7hJvquEe+mGTFXz8n6Rp7sTXv9pi7EOytxPEPr/Pcf6ttYlewh9qCdZveI3hvvBXs//j7PHnyPVjcz37UKPQ5GOBoxtMPsHqO8Hf/X2uTJe2l/2T2yv+Wzd4x81k6Mnp7n0i4q0OIo4tMe/T1m97ZHnR7eD3tUZpYXu6zbY+cms5w88W+XOj1m7LAC2S56h/ZToYM97LFrh6OnM2ezu+/eI+qi1VXP0I6qtDhzEnFmi3E+yKG9VWxB9qTdVepQYWiH2T0qdzrbjXZI3ZHeTk//3/oe2h/Vo+rQ/rJ6rNqG9rfr/XiyK+0ys8dKrX6HdlnhfpDdju+mXVZpUmVoj5V7ZL7j7nm0y4o96DtI+8zqEfU4+y5G9qgM4WDG0F7JDq0OZgztl+5RYYfefSr16PVT5bvo3adKD/LsV8+M7jJipxU7jDp31tCuV7sXLbtFz0D7jp757vfEbqO+L9p3ZH96p6xzfcvZREREREREREREREREREREKvEB17WjWECcAAA=
-  </data>
- </layer>
 </map>

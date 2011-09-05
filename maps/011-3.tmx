@@ -38,12 +38,12 @@
   </data>
  </layer>
  <objectgroup name="Objects" width="60" height="60">
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="928" y="736" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="PARTICLE_EFFECT" x="992" y="736" width="32" height="32"/>
-  <object name="Arkim the Hermit" type="NPC" x="976" y="752">
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="928" y="736" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="992" y="736" width="32" height="32"/>
+  <object name="Arkim the Hermit" type="npc" x="976" y="752">
    <properties>
-    <property name="NPC_ID" value="116"/>
-    <property name="SCRIPT">
+    <property name="npc_id" value="116"/>
+    <property name="script">
      function npc_handler(npc, ch)
        do_message(npc, ch, &quot;Do you want to go back outside?&quot;)
        local v = do_choice(npc, ch, &quot;Yes please&quot;, &quot;Not yet&quot;)
@@ -54,10 +54,10 @@
     </property>
    </properties>
   </object>
-  <object name="ToLakeCave" type="warp" x="992" y="448" width="32" height="32">
+  <object name="To Lake Cave" type="warp" x="992" y="448" width="32" height="32">
    <properties>
     <property name="dest_map" value="011-4"/>
-    <property name="dest_x" value="2304"/>
+    <property name="dest_x" value="2336"/>
     <property name="dest_y" value="288"/>
    </properties>
   </object>
