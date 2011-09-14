@@ -82,5 +82,13 @@
     <property name="dest_y" value="960"/>
    </properties>
   </object>
+    <object name="Maggot" type="spawn" x="0" y="0">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="0"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
