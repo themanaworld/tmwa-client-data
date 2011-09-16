@@ -1351,13 +1351,15 @@
         <sprite>equipment/head/devcap.xml|#9999ff</sprite>
     </item>
     <item id="648"
-        image="equipment/legs/trousers.png"
-        name="Trousers"
-        description="Cotton pants covering each part of your legs."
-        defense="4"
+        image="equipment/legs/pants.png|W:#a4b2b2,ffffff"
+        name="Cotton Pants"
+        description="Anle-length pants made of cotton."
+        effect="M. Attack -6"
         type="equip-legs"
-        weight="25">
-        <sprite>equipment/head/devcap.xml|#9999ff</sprite>
+        weight="25"
+        defense="4">
+        <sprite gender="male">equipment/legs/pants-male.xml|#a4b2b2,ffffff</sprite>
+        <sprite gender="female">equipment/legs/pants-female.xml|#a4b2b2,ffffff</sprite>
     </item>
     <item id="649"
         image="equipment/chest/sorcerer-robe.png|W:#5e7480,f1ffff,ffffff;R:#2554c7"
@@ -4716,9 +4718,116 @@
         <sprite gender="male">equipment/legs/miniskirt-male.xml|#104010,208020,30c030</sprite>
         <sprite gender="female">equipment/legs/miniskirt-female.xml|#104010,208020,30c030</sprite>
     </item>
-
-    <!-- IDs 2180 to 2189 RESERVED -->
-
+    <item id="2180"
+        image="equipment/legs/pants.png|W:#580000,a40000,c02020,ff6060"
+        name="Red Cotton Pants"
+        description="Red, ankle-length pants made of cotton."
+        effect="M. Attack -6"
+        type="equip-legs"
+        weight="25"
+        defense="4">
+        <sprite gender="male">equipment/legs/pants-male.xml|#580000,a40000,c02020,ff6060</sprite>
+        <sprite gender="female">equipment/legs/pants-female.xml|#580000,a40000,c02020,ff6060</sprite>
+    </item>
+    <item id="2181"
+        image="equipment/legs/pants.png|W:#115511,22aa22,99dd99"
+        name="Green Cotton Pants"
+        description="Green, ankle-length pants made of cotton."
+        effect="M. Attack -6"
+        type="equip-legs"
+        weight="25"
+        defense="4">
+        <sprite gender="male">equipment/legs/pants-male.xml|#115511,22aa22,99dd99</sprite>
+        <sprite gender="female">equipment/legs/pants-female.xml|#115511,22aa22,99dd99</sprite>
+    </item>
+    <item id="2182"
+        image="equipment/legs/pants.png|W:#222255,6666ff"
+        name="Dark Blue Cotton Pants"
+        description="Dark Blue, ankle-length pants made of cotton."
+        effect="M. Attack -6"
+        type="equip-legs"
+        weight="25"
+        defense="4">
+        <sprite gender="male">equipment/legs/pants-male.xml|#222255,6666ff</sprite>
+        <sprite gender="female">equipment/legs/pants-female.xml|#222255,6666ff</sprite>
+    </item>
+    <item id="2183"
+        image="equipment/legs/pants.png|W:#846211,dab333,fffb93,ffffff"
+        name="Yellow Cotton Pants"
+        description="Yellow, ankle-length pants made of cotton."
+        effect="M. Attack -6"
+        type="equip-legs"
+        weight="25"
+        defense="4">
+        <sprite gender="male">equipment/legs/pants-male.xml|#846211,dab333,fffb93,ffffff</sprite>
+        <sprite gender="female">equipment/legs/pants-female.xml|#846211,dab333,fffb93,ffffff</sprite>
+    </item>
+    <item id="2184"
+        image="equipment/legs/pants.png|W:#16486e,498ec5,e4f2fc"
+        name="Light Blue Cotton Pants"
+        description="Light Blue, ankle-length pants made of cotton."
+        effect="M. Attack -6"
+        type="equip-legs"
+        weight="25"
+        defense="4">
+        <sprite gender="male">equipment/legs/pants-male.xml|#16486e,498ec5,e4f2fc</sprite>
+        <sprite gender="female">equipment/legs/pants-female.xml|#16486e,498ec5,e4f2fc</sprite>
+    </item>
+    <item id="2185"
+        image="equipment/legs/pants.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
+        name="Pink Cotton Pants"
+        description="Pink, ankle-length pants made of cotton."
+        effect="M. Attack -6"
+        type="equip-legs"
+        weight="25"
+        defense="4">
+        <sprite gender="male">equipment/legs/pants-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+        <sprite gender="female">equipment/legs/pants-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+    </item>
+    <item id="2186"
+        image="equipment/legs/pants.png|W:#111111,222222,333333,444444,555555,aaaaaa"
+        name="Black Cotton Pants"
+        description="Black, ankle-length pants made of cotton."
+        effect="M. Attack -6"
+        type="equip-legs"
+        weight="25"
+        defense="4">
+        <sprite gender="male">equipment/legs/pants-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <sprite gender="female">equipment/legs/pants-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+    </item>
+    <item id="2187"
+        image="equipment/legs/pants.png|W:#80280f,b04810,ef681f,ffb830"
+        name="Orange Cotton Pants"
+        description="Orange, ankle-length pants made of cotton."
+        effect="M. Attack -6"
+        type="equip-legs"
+        weight="25"
+        defense="4">
+        <sprite gender="male">equipment/legs/pants-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
+        <sprite gender="female">equipment/legs/pants-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
+    </item>
+    <item id="2188"
+        image="equipment/legs/pants.png|W:#4f0a76,8010c0,d699f7"
+        name="Purple Cotton Pants"
+        description="Purple, ankle-length pants made of cotton."
+        effect="M. Attack -6"
+        type="equip-legs"
+        weight="25"
+        defense="4">
+        <sprite gender="male">equipment/legs/pants-male.xml|#4f0a76,8010c0,d699f7</sprite>
+        <sprite gender="female">equipment/legs/pants-female.xml|#4f0a76,8010c0,d699f7</sprite>
+    </item>
+    <item id="2189"
+        image="equipment/legs/pants.png|W:#104010,208020,30c030"
+        name="Dark Green Cotton Pants"
+        description="Dark Green, ankle-length pants made of cotton."
+        effect="M. Attack -6"
+        type="equip-legs"
+        weight="25"
+        defense="4">
+        <sprite gender="male">equipment/legs/pants-male.xml|#104010,208020,30c030</sprite>
+        <sprite gender="female">equipment/legs/pants-female.xml|#104010,208020,30c030</sprite>
+    </item>
     <item id="2190"
         image="equipment/head/rabbit-ears.png|W:#580000,a40000,c02020,ff6060"
         name="Red Rabbit Ears"
