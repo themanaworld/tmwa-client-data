@@ -65,30 +65,30 @@
   </object>
   <object name="Maggot" type="spawn" x="0" y="0">
    <properties>
-    <property name="monster_id" value="0"/>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
+    <property name="monster_id" value="0"/>
    </properties>
   </object>
   <object name="Snake" type="spawn" x="0" y="0">
    <properties>
-    <property name="monster_id" value="8"/>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
+    <property name="monster_id" value="8"/>
    </properties>
   </object>
   <object name="To Snake Pit" type="warp" x="2848" y="736" width="32" height="32">
    <properties>
     <property name="dest_map" value="005-3"/>
     <property name="dest_x" value="1664"/>
-    <property name="dest_y" value="1088"/>
+    <property name="dest_y" value="1120"/>
    </properties>
   </object>
   <object name="To Snake Pit" type="warp" x="2272" y="2400" width="32" height="32">
    <properties>
     <property name="dest_map" value="005-3"/>
     <property name="dest_x" value="1056"/>
-    <property name="dest_y" value="2656"/>
+    <property name="dest_y" value="2688"/>
    </properties>
   </object>
   <object name="To Desert Mountains" type="warp" x="5344" y="3456" width="32" height="32">
