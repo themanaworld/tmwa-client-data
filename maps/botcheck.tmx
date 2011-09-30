@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="40" height="40" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="75" height="75" tilewidth="32" tileheight="32">
  <properties>
   <property name="name" value="Botcheck Area"/>
  </properties>
@@ -12,24 +12,24 @@
  <tileset firstgid="385" name="Unbenannt" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
- <layer name="Floor" width="40" height="40">
+ <layer name="Floor" width="75" height="75">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2VSwqAMAxEI0Jv2PtfxY0Lqek4YD+pzuKhxAqPYULzZpaFEEKIn7Fbf3r5pRM0S5Vzo/y8J3qfmV9Ev5XyQ7MZfpH2l+mat6vMf2/9ai5o9nTm+q2lX5lLsnt+qHdeP7+eX/T+rbC/qEPMnYvu4JZ+TKeYHvb0Y/a2lucIv+j5MX5lvqP8ou2vEEII4XEArN+wKgAZAAA=
+   H4sIAAAAAAAAA+3VOw7CMBAFQCMk3zD3vwoNBUpsZ0M+LnaKEciYwk9Pu8urlAUAAAAAAAAAIKF3ud/sNz6RVf0andXOvYxZtT5H3zNnFclHVnp1plejs+xZ2YPtrCKzqbXzIv+b/cYrs+rlMjrbu/P72+w33pXVui+1bHs1mlOteTb7jXo1Jyvz6lhW9uB/WUW6s3cnQ1aRGRSZW1myiuy/Xs+yZaVX12a17l3GrOxBAAAAAAAAAIDzPnT5/fHkVwAA
   </data>
  </layer>
- <layer name="Fringe" width="40" height="40">
+ <layer name="Fringe" width="75" height="75">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3BAQ0AAADCoPdPbQ8HFAAAAAAAwJcBSxPzAQAZAAA=
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQdvoAAAAAAAAAAAAAAAAAAAAAAAAAAAAIDHAKJ1ubrkVwAA
   </data>
  </layer>
- <layer name="Over" width="40" height="40">
+ <layer name="Over" width="75" height="75">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3BAQ0AAADCoPdPbQ8HFAAAAAAAwJcBSxPzAQAZAAA=
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQdvoAAAAAAAAAAAAAAAAAAAAAAAAAAAAIDHAKJ1ubrkVwAA
   </data>
  </layer>
- <layer name="Collision" width="40" height="40">
+ <layer name="Collision" width="75" height="75">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3OsQ0AAAjDMHi9l/MAMwuO5D3pqgDAMxf58+fPnz9//vz58+fv5g8ANgNph/YcABkAAA==
+   H4sIAAAAAAAAA+3QAREAIAwDsWF9ynEBdKR3EdDvVdUAAAAAAAAAAB86sdsftdLqZVpppZVWKbTSSiutUmillVZapdBKK620AgAAAAAAAACYZgNdHZY95FcAAA==
   </data>
  </layer>
 </map>
