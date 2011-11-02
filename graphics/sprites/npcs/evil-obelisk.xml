@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<sprite>
+	<imageset name="base" src="graphics/sprites/npcs/evil-obelisk.png" width="47" height="110"/>
+
+	<action name="stand" imageset="base">
+		<animation direction="default">
+			<!-- red color timing -->
+			<frame index="0" delay="250"/>
+			<frame index="1" delay="250"/>
+			<frame index="2" delay="250"/>
+			<frame index="3" delay="250"/>
+			<frame index="4" delay="250"/>
+			<frame index="5" delay="250"/>
+			<frame index="4" delay="250"/>
+			<frame index="3" delay="250"/>
+			<frame index="2" delay="250"/>
+			<frame index="1" delay="250"/>
+		</animation>
+	</action>
+</sprite>
