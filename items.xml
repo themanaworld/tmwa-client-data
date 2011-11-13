@@ -88,7 +88,7 @@
     <item id="31"
         weapon_type="10">
         <sprite>weapon-bow.xml</sprite>
-        <sound event="swing">weapons/bows/bow_shoot_1.ogg</sound>
+        <sound event="strike">weapons/bows/bow_shoot_1.ogg</sound>
     </item>
     <item id="32"
         weapon_type="11">
@@ -343,7 +343,7 @@
         weight="600"
         missile-particle="graphics/particles/arrow.particle.xml">
         <sprite>weapon-bow.xml</sprite>
-        <sound event="swing">weapons/bows/bow_shoot_1.ogg</sound>
+        <sound event="strike">weapons/bows/bow_shoot_1.ogg</sound>
     </item>
     <item id="531"
         image="equipment/hands/minergloves.png"
@@ -469,7 +469,7 @@
         weight="1200"
         missile-particle="graphics/particles/arrow.particle.xml">
         <sprite>weapon-bow.xml</sprite>
-        <sound event="swing">weapons/bows/bow_shoot_1.ogg</sound>
+        <sound event="strike">weapons/bows/bow_shoot_1.ogg</sound>
     </item>
     <item id="546"
         image="equipment/chest/desertshirt.png"
@@ -2926,7 +2926,7 @@
         weapon-type="bow"
         attack-action="attack_bow">
         <sprite>weapon-bow.xml</sprite>
-        <sound event="swing">weapons/bows/bow_shoot_1.ogg</sound>
+        <sound event="strike">weapons/bows/bow_shoot_1.ogg</sound>
     </item>
     <item id="1201"
         image="equipment/weapon/dagger-knive.png"
