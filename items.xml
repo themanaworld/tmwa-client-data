@@ -2897,9 +2897,42 @@
     <item id="853"
         image="generic/doll.png"
         name="Doll"
-        description="A cute red-haired doll with a blue dress. "
+        description="A cute red-haired doll with a blue dress."
         type="generic"
         weight="30"/>
+    <item id="854"
+        image="equipment/head/elf-nightcap.png"
+        name="Elf Nightcap"
+        description="A comfortable nightcap worn by Santa's helpers."
+        effect="M. Attack 5"
+        type="equip-head"
+        defense="3"
+        weight="50">
+        <sprite>equipment/head/elf-nightcap.xml</sprite>
+    </item>
+<!--
+    <item id="855"
+        image="equipment/head/sunglasses.png"
+        name="Sunglasses"
+        description="Some stealthy sunglasses hiding your eyes from skeptical eyes."
+        effect="M. Attack 6"
+        type="equip-head"
+        defense="2"
+        weight="10">
+        <sprite>equipment/head/sunglasses.xml</sprite>
+    </item>
+-->
+    <item id="856"
+        image="equipment/head/knit-cap.png"
+        name="Knit Cap"
+        description="A knitted cap keeping your head warm in the crual cold."
+        effect="M. Attack 0"
+        type="equip-head"
+        defense="3"
+        weight="50">
+        <sprite>equipment/head/knit-cap.xml</sprite>
+    </item>
+
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
     <item id="1198"
