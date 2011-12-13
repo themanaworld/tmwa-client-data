@@ -214,10 +214,30 @@
    <sprite>equipment/head/bowler-hat-brown.xml|#16486e,498ec5,e4f2fc</sprite>
    <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
 </npc>
+<!-- ***216-250 reserved for huge npcs*** -->
 <npc id="216"><sprite variant="0">npcs/hugenpcs.xml</sprite></npc><!-- Barbarian with mouboohat-->
 <npc id="217"><sprite variant="1">npcs/hugenpcs.xml</sprite></npc><!-- Barbarian with helmet and huge axe-->
 <npc id="218"><sprite variant="2">npcs/hugenpcs.xml</sprite></npc><!-- Barbarian with spear-->
-
+<!-- ***251-299 reserved for pose/outfit NPCs using sprite layering and image dyeing techniques. Because all 7 image channels are active, #ffffff (pure white) is a placeholder color for image dyeing channels not used in the outfit.  The order of image channels is: White, Yellow, Green, Cyan, Blue, Magenta and Red.*** -->
+<npc id="251">
+   <sprite variant="0">npcs/outfits.xml|#ffffff;#feffab;#25383c;#00ff00;#ff0000;#ffff00;#736f6e</sprite>
+</npc> <!-- Christmas Saboteur -->
+<npc id="252">
+   <sprite variant="6">npcs/poses.xml</sprite>
+   <sprite variant="1">npcs/outfits.xml|#636342;#ebec9a;#ffffff;#ffffff;#4b8342;#ffffff;#ea983f</sprite>
+</npc> <!-- Female therminor with orange hat, green outfit -->
+<npc id="253">
+   <sprite variant="6">npcs/poses.xml</sprite>
+   <sprite variant="2">npcs/outfits.xml|#636342;#ebec9a;#949400;#ffffff;#4b8342;#ffffff;#ea983f</sprite>
+</npc> <!-- Male therminor with orange hat, green outfit. Bald and beardless. -->
+<npc id="254">
+   <sprite variant="6">npcs/poses.xml</sprite>
+   <sprite variant="3">npcs/outfits.xml|#636342;#ebec9a;#949400;#ffffff;#4b8342;#ffffff;#ea983f</sprite>
+</npc> <!-- Male therminor with orange hat, green outfit. Balding and long beard.-->
+<npc id="255">
+   <sprite variant="6">npcs/poses.xml</sprite>
+   <sprite variant="1">npcs/outfits.xml|#636342;#ebec9a;#ffffff;#ffffff;#4b8342;#ffffff;#ea983f</sprite>
+</npc> <!-- Male therminor with orange hat, green outfit. Long hair, short beard. -->
 <npc id="300"><sprite variant="0">npcs/npc2.xml</sprite></npc><!-- Chef Skeleton -->
 <npc id="301"><sprite variant="1">npcs/npc2.xml</sprite></npc><!-- Barmaid -->
 <npc id="302"><sprite variant="2">npcs/npc2.xml</sprite></npc><!-- Shopkeeper -->
@@ -249,12 +269,14 @@
 <npc id="328"><sprite variant="0">npcs/christmas_npcs.xml</sprite></npc><!-- Elf -->
 <npc id="329"><sprite variant="1">npcs/christmas_npcs.xml</sprite></npc><!-- Cloaked Elf -->
 <npc id="330"><sprite variant="2">npcs/christmas_npcs.xml</sprite></npc><!-- Nutcracker -->
-<!-- ID 331 Gnome -->
+<!-- ID 331 Open -->
 <npc id="332"><sprite variant="4">npcs/christmas_npcs.xml</sprite></npc><!-- Bodyguard Elf1 -->
 <npc id="333"><sprite variant="5">npcs/christmas_npcs.xml</sprite></npc><!-- Bodyguard Elf2 -->
 <npc id="334"><sprite variant="6">npcs/christmas_npcs.xml</sprite></npc><!-- Bodyguard Elf3 -->
 <npc id="335"><sprite variant="7">npcs/christmas_npcs.xml</sprite></npc><!-- Bodyguard Elf4 -->
-<npc id="336"><sprite>npcs/saboteur.xml|#736f6e;#25383c;#ff0000;#00ff00;#feffab;#ffff00</sprite></npc><!-- Saboteur -->
+<npc id="336">
+   <sprite variant="0">npcs/outfits.xml|#ffffff;#feffab;#25383c;#00ff00;#ff0000;#ffff00;#736f6e</sprite>
+</npc> <!-- Christmas Saboteur placeholder.  Should be in the poses/outfits range. Done to prevent breaking Christmas Event.-->
 <npc id="337"><sprite variant="0">npcs/thermin_npcs.xml</sprite></npc><!-- Fortune Teller -->
 <npc id="338"><sprite variant="1">npcs/thermin_npcs.xml</sprite></npc><!-- Steam Punk -->
 <npc id="339"><sprite>npcs/furnace.xml</sprite></npc><!-- Furnace -->
@@ -262,5 +284,6 @@
 <npc id="341"><sprite variant="41">npcs/npc.xml</sprite></npc><!-- Furnace NPC without furniture -->
 <npc id="342"><sprite variant="97">npcs/npc.xml</sprite></npc><!-- Fortune Teller without furniture -->
 <npc id="343"><sprite>npcs/shapeshifter.xml</sprite></npc><!-- Shapeshifter -->
+<!-- Put new unique sprites above here.  For huge npcs, see range 216-250. For poses/outfits npcs, see 251-299 -->
 <!-- note: don't go above 999, because the 1000's are reserved for mob id -->
 </npcs>
