@@ -366,14 +366,6 @@
     <property name="dest_y" value="2944"/>
    </properties>
   </object>
-  <object name="Santa Slime" type="spawn" x="576" y="8576" width="1376" height="544">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="5"/>
-    <property name="monster_id" value="13"/>
-   </properties>
-  </object>
   <object name="Ice Goblin" type="spawn" x="6976" y="8512" width="832" height="864">
    <properties>
     <property name="eA_death" value="30000"/>
@@ -462,28 +454,12 @@
     <property name="monster_id" value="15"/>
    </properties>
   </object>
-  <object name="Santa Slime" type="spawn" x="4096" y="8256" width="960" height="544">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="13"/>
-   </properties>
-  </object>
   <object name="Ice Goblin" type="spawn" x="4256" y="8960" width="832" height="864">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="6"/>
     <property name="monster_id" value="56"/>
-   </properties>
-  </object>
-  <object name="Ice Element" type="spawn" x="4160" y="6208" width="960" height="1440">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="69"/>
    </properties>
   </object>
   <object name="Ice Element" type="spawn" x="2528" y="6144" width="1280" height="1440">
@@ -516,22 +492,6 @@
     <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="5"/>
     <property name="monster_id" value="59"/>
-   </properties>
-  </object>
-  <object name="Santa Slime" type="spawn" x="4096" y="8256" width="960" height="544">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="13"/>
-   </properties>
-  </object>
-  <object name="Santa Slime" type="spawn" x="8544" y="8672" width="1088" height="992">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="13"/>
    </properties>
   </object>
   <object name="Ice Goblin" type="spawn" x="8384" y="8800" width="1088" height="480">
@@ -646,14 +606,6 @@
     <property name="monster_id" value="70"/>
    </properties>
   </object>
-  <object name="Ice Element" type="spawn" x="4160" y="6208" width="960" height="1440">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="69"/>
-   </properties>
-  </object>
   <object name="Yeti" type="spawn" x="7200" y="4224" width="608" height="640">
    <properties>
     <property name="eA_death" value="30000"/>
@@ -742,7 +694,7 @@
     <property name="monster_id" value="70"/>
    </properties>
   </object>
-  <object name="Yeti" type="spawn" x="2528" y="3808" width="2656" height="800">
+  <object name="Yeti" type="spawn" x="2560" y="3808" width="2656" height="800">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -838,7 +790,7 @@
     <property name="monster_id" value="15"/>
    </properties>
   </object>
-  <object name="Bat" type="spawn" x="192" y="7968" width="2080" height="1824">
+  <object name="Bat" type="spawn" x="224" y="7872" width="2080" height="1824">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -882,6 +834,269 @@
     <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="70"/>
+   </properties>
+  </object>
+  <object name="White Slime" type="spawn" x="1088" y="9024" width="224" height="160">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="91"/>
+   </properties>
+  </object>
+  <object name="Blue Slime" type="spawn" x="672" y="8032" width="480" height="320">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="89"/>
+   </properties>
+  </object>
+  <object name="White Slime" type="spawn" x="6560" y="8736" width="480" height="320">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="91"/>
+   </properties>
+  </object>
+  <object name="White Slime" type="spawn" x="9152" y="9376" width="224" height="160">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="91"/>
+   </properties>
+  </object>
+  <object name="Blue Slime" type="spawn" x="9120" y="9088" width="480" height="320">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="89"/>
+   </properties>
+  </object>
+  <object name="White Slime" type="spawn" x="9376" y="7360" width="256" height="224">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="91"/>
+   </properties>
+  </object>
+  <object name="White Slime" type="spawn" x="8576" y="7008" width="256" height="224">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="91"/>
+   </properties>
+  </object>
+  <object name="Blue Slime" type="spawn" x="8128" y="6560" width="1792" height="704">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="89"/>
+   </properties>
+  </object>
+  <object name="White Slime" type="spawn" x="3936" y="1056" width="224" height="192">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="91"/>
+   </properties>
+  </object>
+  <object name="Blue Slime" type="spawn" x="4032" y="3616" width="1120" height="736">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="89"/>
+   </properties>
+  </object>
+  <object name="White Slime" type="spawn" x="1312" y="1952" width="480" height="320">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="91"/>
+   </properties>
+  </object>
+  <object name="Blue Slime" type="spawn" x="1120" y="3424" width="192" height="448">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="89"/>
+   </properties>
+  </object>
+  <object name="White Slime" type="spawn" x="4128" y="7136" width="480" height="320">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="91"/>
+   </properties>
+  </object>
+  <object name="Blue Slime" type="spawn" x="4672" y="6720" width="448" height="576">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="89"/>
+   </properties>
+  </object>
+  <object name="White Slime" type="spawn" x="4192" y="6496" width="320" height="224">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="91"/>
+   </properties>
+  </object>
+  <object name="White Slime" type="spawn" x="4832" y="6368" width="256" height="256">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="91"/>
+   </properties>
+  </object>
+  <object name="Blue Slime" type="spawn" x="4256" y="6848" width="224" height="160">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="89"/>
+   </properties>
+  </object>
+  <object name="White Slime" type="spawn" x="3488" y="8768" width="224" height="160">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="91"/>
+   </properties>
+  </object>
+  <object name="White Slime" type="spawn" x="4480" y="9344" width="224" height="160">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="91"/>
+   </properties>
+  </object>
+  <object name="White Slime" type="spawn" x="4672" y="8512" width="224" height="160">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="91"/>
+   </properties>
+  </object>
+  <object name="White Slime" type="spawn" x="4256" y="8384" width="224" height="160">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="91"/>
+   </properties>
+  </object>
+  <object name="White Slime" type="spawn" x="4928" y="8992" width="224" height="160">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="91"/>
+   </properties>
+  </object>
+  <object name="Blue Slime" type="spawn" x="4064" y="8160" width="832" height="640">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="89"/>
+   </properties>
+  </object>
+  <object name="White Slime" type="spawn" x="672" y="8416" width="224" height="160">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="91"/>
+   </properties>
+  </object>
+  <object name="White Slime" type="spawn" x="1568" y="8896" width="224" height="160">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="91"/>
+   </properties>
+  </object>
+  <object name="White Slime" type="spawn" x="1088" y="8064" width="224" height="160">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="91"/>
+   </properties>
+  </object>
+  <object name="White Slime" type="spawn" x="672" y="9216" width="224" height="160">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="91"/>
+   </properties>
+  </object>
+  <object name="White Slime" type="spawn" x="1440" y="9472" width="224" height="160">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="91"/>
+   </properties>
+  </object>
+  <object name="White Slime" type="spawn" x="1600" y="8256" width="224" height="160">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="91"/>
+   </properties>
+  </object>
+  <object name="Blue Slime" type="spawn" x="512" y="8672" width="480" height="320">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="89"/>
+   </properties>
+  </object>
+  <object name="Blue Slime" type="spawn" x="960" y="8576" width="480" height="320">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="89"/>
+   </properties>
+  </object>
+  <object name="Blue Slime" type="spawn" x="1440" y="8992" width="480" height="320">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="89"/>
+   </properties>
+  </object>
+  <object name="To Snow Hills" type="warp" x="3680" y="2464" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="044-1"/>
+    <property name="dest_x" value="4928"/>
+    <property name="dest_y" value="3008"/>
    </properties>
   </object>
  </objectgroup>
