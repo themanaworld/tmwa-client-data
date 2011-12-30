@@ -504,4 +504,20 @@
         <sprite>monsters/wolvern.xml|#000000,64727a,8996a0,a6afbf,dce9f3,ffffff</sprite>
     </monster>
 
+    <monster id="89" name="Blue Slime">
+        <sprite>monsters/slime.xml|#2121ae,ffffff</sprite>
+        <sprite>monsters/accessories/slime-littleslime.xml|#2121ae,ffffff</sprite>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+    </monster>
+
+    <monster id="90" name="Slime Blast">
+        <sprite>monsters/accessories/slime-slimeblast.xml|#2121ae,ffffff</sprite>
+        <sound event="die">monsters/slime/slime-hit1.ogg</sound>
+    </monster>
+
+    <monster id="91" name="White Slime">
+        <sprite>monsters/accessories/slime-slimeblast.xml|#dcdcff,ffffff</sprite>
+        <sound event="die">monsters/slime/slime-hit1.ogg</sound>
+    </monster>
+
 </monsters>
