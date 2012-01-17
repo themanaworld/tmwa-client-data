@@ -24,7 +24,7 @@
   <image source="../graphics/tiles/Snow_ground.png" trans="000000" width="352" height="224"/>
  </tileset>
  <tileset firstgid="612" name="Snow_tree_x3" tilewidth="64" tileheight="96">
-  <image source="../graphics/tiles/Snow_tree_x3.png" width="192" height="96"/>
+  <image source="../graphics/tiles/Snow_tree_x3.png" width="256" height="96"/>
  </tileset>
  <layer name="Ground" width="128" height="148" opacity="0.98">
   <data encoding="base64" compression="gzip">
@@ -132,6 +132,14 @@
     <property name="dest_map" value="020-2"/>
     <property name="dest_x" value="4064"/>
     <property name="dest_y" value="2176"/>
+   </properties>
+  </object>
+  <object name="White Bell" type="spawn" x="0" y="0">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="93"/>
    </properties>
   </object>
  </objectgroup>
