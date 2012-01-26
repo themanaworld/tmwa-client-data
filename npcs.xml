@@ -55,7 +55,7 @@
 <npc id="141"><sprite>npcs/npc-lumberjack.xml</sprite></npc><!-- Lumberjack -->
 <npc id="142"><sprite variant="42">npcs/npc.xml</sprite></npc><!-- Farmer -->
 <npc id="143"><sprite variant="43">npcs/npc.xml</sprite></npc><!-- Indian Chief-->
-<npc id="144"><sprite variant="44">npcs/npc.xml</sprite><particlefx>graphics/particles/soulmenhir.particle.xml</particlefx></npc><!-- Boulder -->
+<npc id="144"><sprite variant="44">npcs/npc.xml</sprite></npc><!-- Boulder -->
 <npc id="145"><sprite variant="45">npcs/npc.xml</sprite></npc><!-- Magic mouth -->
 <npc id="146"><sprite variant="46">npcs/npc.xml</sprite></npc><!-- Mechanic -->
 <npc id="147"><sprite variant="47">npcs/npc.xml</sprite></npc><!-- Mechanic with tool -->
@@ -282,6 +282,14 @@
 <npc id="341"><sprite variant="41">npcs/npc.xml</sprite></npc><!-- Furnace NPC without furniture -->
 <npc id="342"><sprite variant="97">npcs/npc.xml</sprite></npc><!-- Fortune Teller without furniture -->
 <npc id="343"><sprite>npcs/shapeshifter.xml</sprite></npc><!-- Shapeshifter -->
+<npc id="344"><sprite variant="0">npcs/soulmenhirs.xml</sprite><particlefx>graphics/particles/soulmenhir.particle.xml</particlefx></npc><!-- Soul Menhir - Forest -->
+<npc id="345"><sprite variant="1">npcs/soulmenhirs.xml</sprite><particlefx>graphics/particles/soulmenhir.particle.xml</particlefx></npc><!-- Soul Menhir - Desert -->
+<npc id="346"><sprite variant="2">npcs/soulmenhirs.xml</sprite><particlefx>graphics/particles/soulmenhir.particle.xml</particlefx></npc><!-- Soul Menhir - Snow -->
+<npc id="347"><sprite variant="3">npcs/soulmenhirs.xml</sprite><particlefx>graphics/particles/soulmenhir.particle.xml</particlefx></npc><!-- Soul Menhir - Cave -->
+<npc id="348"><sprite variant="4">npcs/soulmenhirs.xml</sprite><particlefx>graphics/particles/soulmenhir.particle.xml</particlefx></npc><!-- Soul Menhir - Thermin Cave -->
+<npc id="349"><sprite variant="5">npcs/soulmenhirs.xml</sprite><particlefx>graphics/particles/soulmenhir.particle.xml</particlefx></npc><!-- Soul Menhir - Savannah -->
+<npc id="350"><sprite variant="6">npcs/soulmenhirs.xml</sprite><particlefx>graphics/particles/soulmenhir.particle.xml</particlefx></npc><!-- Soul Menhir - Woodland -->
+<npc id="351"><sprite variant="7">npcs/soulmenhirs.xml</sprite><particlefx>graphics/particles/soulmenhir.particle.xml</particlefx></npc><!-- Soul Menhir - Lava Cave -->
 <!-- Put new unique sprites above here.  For huge npcs, see range 216-250. For poses/outfits npcs, see 251-299 -->
 <!-- note: don't go above 999, because the 1000's are reserved for mob id -->
 </npcs>
