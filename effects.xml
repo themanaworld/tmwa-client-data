@@ -52,6 +52,10 @@
     <effect id="301" particle="graphics/particles/casket-lid.xml"/>
     <effect id="302" particle="graphics/particles/casket-monster.xml"/>
 
+    <!-- Monster attack particle effects -->
+    <effect id="400" particle="graphics/particles/monster-goblin-firebreath.particle.xml"/>
+    <effect id="401" particle="graphics/particles/monster-lizard-firebreath.particle.xml"/>
+
     <!-- Emotion Effects -->
     <effect id="10000" particle="graphics/particles/emotes/emote-disgust.particle.xml"/>
     <effect id="10001" particle="graphics/particles/emotes/emote-surprise.particle.xml"/>
@@ -71,7 +75,7 @@
 // Add the data need for the electricity boss battle
 </being-effects>
 
-<!-- 
+<!--
      Note: Effects definition for client version superior or equal to 0.6.x will prefer
      the 'effects' root tag when possible.
 -->

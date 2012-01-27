@@ -71,7 +71,8 @@
         <sound event="hit">monsters/fire-goblin/fire-goblin-hit1.ogg</sound>
         <sound event="hit">monsters/fire-goblin/fire-goblin-hit2.ogg</sound>
         <sound event="miss">monsters/fire-goblin/fire-goblin-miss1.ogg</sound>
-        <attack id="1"
+        <!-- The particle-effect parameter is kept for 0.5.x compatibility -->
+        <attack id="1" effect-id="400"
                 particle-effect="graphics/particles/monster-goblin-firebreath.particle.xml"
                 />
     </monster>
@@ -233,7 +234,8 @@
         <sound event="hit">monsters/fire-goblin/fire-goblin-hit1.ogg</sound>
         <sound event="hit">monsters/fire-goblin/fire-goblin-hit2.ogg</sound>
         <sound event="miss">monsters/fire-goblin/fire-goblin-miss1.ogg</sound>
-        <attack id="1"
+        <!-- The particle-effect parameter is kept for 0.5.x compatibility -->
+        <attack id="1" effect-id="401"
                 particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"
                 />
     </monster>
