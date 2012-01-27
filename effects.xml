@@ -1,15 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright 2011 - The Mana World Development Team
-    Effects definition file.
-    See documentation at: http://doc.manasource.org/effects.xml
+   Effects definition file.
+   Copyright (C) 2011-2012  The Mana World Development Team
+
+   This file is part of The Mana World client data.
+
+   This file is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   any later version.
+
+   This file is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this file. If not, see <http://www.gnu.org/licenses/>.
+
+   See also documentation at: http://doc.manasource.org/effects.xml
 -->
 
-<!-- Effects definition for client version : 0.0.29.1 and 0.5.x -->
+<!--
+     Note: Effects definition for client version superior or equal to 0.6.x
+     will prefer the 'effects' root tag when possible.
+-->
 <being-effects>
-    <!-- Default tag only supported in 0.0, support was removed in 0.1 -->
+    <!-- Default tag only supported in the 0.0.29.1 client version,
+    support for this is obsolete since the 0.5.0 client version. -->
     <default particle="graphics/particles/magic.default.xml" />
 
+    <!-- Core effect - used by the TMW magic system - do not change the ids
+        without testing the corresponding magic spells. -->
     <effect id="0" audio="sfx/system/levelup.ogg" particle="graphics/particles/levelup.particle.xml" />
     <effect id="1" audio="sfx/system/levelup.ogg" particle="graphics/particles/skillup.particle.xml" />
     <effect id="2" particle="graphics/particles/magic.generic.xml"/>
@@ -72,10 +94,5 @@
     <effect id="10012" particle="graphics/particles/emotes/emote-speech.particle.xml"/>
     <effect id="10013" particle="graphics/particles/emotes/emote-blah.particle.xml"/>
 
-// Add the data need for the electricity boss battle
+   <!-- Add the data needed for the electricity boss battle. -->
 </being-effects>
-
-<!--
-     Note: Effects definition for client version superior or equal to 0.6.x will prefer
-     the 'effects' root tag when possible.
--->
