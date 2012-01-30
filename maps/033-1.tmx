@@ -67,11 +67,11 @@
    </properties>
   </object>
   <object name="graphics/particles/bonfire-shifted.particle.xml" type="particle_effect" x="2240" y="960"/>
-  <object name="Wolvern" type="spawn" x="2176" y="1536" width="192" height="160">
+  <object name="Wolvern" type="spawn" x="2176" y="1280" width="352" height="608">
    <properties>
-    <property name="eAthena_death" value="30000"/>
-    <property name="eAthena_spawn" value="100000"/>
-    <property name="max_beings" value="3"/>
+    <property name="eAthena_death" value="300000"/>
+    <property name="eAthena_spawn" value="1000000"/>
+    <property name="max_beings" value="2"/>
     <property name="monster_id" value="88"/>
    </properties>
   </object>
