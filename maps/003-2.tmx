@@ -7,12 +7,12 @@
   <image source="../graphics/tiles/inn.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="257" name="Inn x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/inn_x2.png" width="512" height="64"/>
+  <image source="../graphics/tiles/inn_x2.png" width="512" height="128"/>
  </tileset>
- <tileset firstgid="273" name="Inn x3" tilewidth="32" tileheight="96">
-  <image source="../graphics/tiles/inn_x3.png" width="512" height="96"/>
+ <tileset firstgid="289" name="Inn x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/inn_x3.png" width="512" height="192"/>
  </tileset>
- <tileset firstgid="289" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="321" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
  <layer name="Ground" width="75" height="50">
@@ -22,7 +22,7 @@
  </layer>
  <layer name="Lower" width="75" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SQQqAIBBAUd0W1K66/xW7QLPPXaBTvQeC6OajUwoAAAAAAPzPVkcX5LPHmxz1vm/dZzJF05yg6xwdQBf+mafMEF+wxFob5xnnO2MTAAAAAADA210zIHv5mDoAAA==
+   H4sIAAAAAAAAA+3SQQqAIBBAUd0W1C2q+1+tCzT73AU61XsgiG4+OqUAAAAAAMD/bHV0QT57vMlR7/vWfSZTNM0Jus7RAXThn3nKDPEFS6y1cZ5xvjM2AQAAAAAAvN0FjJP4xpg6AAA=
   </data>
  </layer>
  <layer name="Fringe" width="75" height="50">
@@ -37,7 +37,7 @@
  </layer>
  <layer name="Collision" width="75" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SUQrEIAwFQPcqvf8hS6ELIsWtCyb5mMBAkYKPZ45PawcAAAAAAMDtmv77O9m5xjxjrtlE5dh9b0RnUftUqauV6f/PylGlq5Xcu7v6dZ7d1Zgpuqs3b1Wxq1nOXV2tZKjeVUTmp3uyOxqz/btjOzqavWOFrlYnK0f2bgEAAAAAAK2dtluYjJg6AAA=
+   H4sIAAAAAAAAA+3SUQrEIAwFQPdqvf+hSqELIsWtCyb5mMBAkYKPZ45PawcAAAAAAMDtmv77O9m5xjxjrtlE5dh9b0RnUftUqauV6f/PylGlq5Xcu7v6dZ7d1Zgpuqs3b1Wxq1nOXV2tZKjeVUTmp3uyOxqz/btjOzqavWOFrlYnK0f2bgEAAAAAAK2dKGfkMpg6AAA=
   </data>
  </layer>
  <objectgroup name="Objects" width="75" height="50">
