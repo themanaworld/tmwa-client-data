@@ -40,9 +40,9 @@
     </animation>
   </action>
   <action name="dead" imageset="base">
-    <animation direction="down">
+    <animation direction="default">
       <sequence start="24" end="29" delay="400" />
-      <frame index="29"/>
+      <frame index="29" delay="2000"/>
       <end />
     </animation>
   </action>
