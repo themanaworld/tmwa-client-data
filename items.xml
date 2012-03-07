@@ -5847,4 +5847,36 @@
         weight="20">
         <sprite>equipment/head/monocle.xml</sprite>
     </item>
+    <item id="4032"
+        image="equipment/head/panhat.png"
+        name="Pan Hat"
+        description="A thick iron pan, big enough to cover the average head circumference of a human being."
+        effect="M. Attack -20"
+        defense="13"
+        type="equip-head"
+        weight="400">
+        <sprite>equipment/head/panhat.xml</sprite>
+    </item>
+    <item id="4033"
+        image="equipment/head/chefhat.png"
+        name="Chef Hat"
+        description="A tall hat designed for the person in charge of a kitchen. It smells like onions."
+        effect="M. Attack +2"
+        defense="2"
+        type="equip-head"
+        weight="30">
+        <sprite>equipment/head/chefhat.xml</sprite>
+    </item>
+    <item id="4034"
+        image="generic/blackpearl.png"
+        name="Black Pearl"
+        description="A pearl. Round, shiny and black!"
+        type="generic"
+        weight="5"/>
+	<item id="4035"
+        image="use/food/pickled_beets.png"
+        name="Pickled Beets"
+        description="The result of a radically unorthodox approach to the art of pickling vegetables."
+        type="usable"
+        weight="150"/>
 </items>
