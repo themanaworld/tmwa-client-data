@@ -3,13 +3,13 @@
  <properties>
   <property name="name" value="Botcheck Area"/>
  </properties>
- <tileset firstgid="1" name="Unbenannt" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="arena" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/arena.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="257" name="Unbenannt" tilewidth="32" tileheight="32">
+ <tileset firstgid="257" name="cave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="385" name="Unbenannt" tilewidth="32" tileheight="32">
+ <tileset firstgid="385" name="collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
  <layer name="Floor" width="75" height="75">
