@@ -2999,6 +2999,20 @@
         description="A really heavy leather suitcase."
         type="generic"
         weight="12000"/>
+    <item id="867"
+        image="equipment/weapon/sword-ice.png"
+        name="Ice Gladius"
+        description="A sword with a shimmering blue blade."
+        effect="Damage +100"
+        type="equip-1hand"
+        weapon-type="sword"
+        attack-action="attack"
+        luck="1"
+        weight="500">
+        <sprite>weapon-ice-gladius.xml</sprite>
+        <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
+        <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
+    </item>
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
     <item id="1198"
