@@ -4,13 +4,21 @@
   <property name="music" value="The Mana World - Snow Village.ogg"/>
   <property name="name" value="South Tulimshar Indoor"/>
  </properties>
- <tileset firstgid="1" name="INN Tilleset" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Inn" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/inn.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="257" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="257" name="Inn2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn2.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="513" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
- <layer name="Ground" width="160" height="100">
+ <layer name="Ground1" width="160" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3csRmCQAyAUdh/GnES3ECXoJVSpbDhSHL3itdeAvwfHWzTNG0AAAAAAAAAAAAAAAAA0LnbfL6sO1+9R/V5VfuLfg5Z9mgx7/5x/qK/lM89yx7V5+nv3H2r97DuZz5+ZiwN5/XQX6adq/f33M98ef/pL6i/iHutP/31TH/02F/GnaPvNdf0F31N1KE/IumPSPojkv4AAAAAAAAAAAAAAAAAAL61+P6y9feYGXZg3P7W+fgfUP3VVLG/f/8B1V8dFfvLsAP60199+kN/+huV/tCf/kalP/Snv1HpD/3pb1T6Q3/6G5X+AAAAAAAAAAAAAAAAAAAAAKjkDXsDq0gA+gAA
+  </data>
+ </layer>
+ <layer name="Ground2" width="160" height="100">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3dPXcMURgH8BGh8FJsvHQKRDoFQYFWp9X5CD6ChloTtcOhjRKNVhQo8SH4AGndPWbOua7Z7A4zd2Znf8Xv3OxMss+Te/+72Zw9e2e/KIp9AAAAAAAAAAAAAAAAVsahYD04XI5HkttNx6MZe06P5+7roD7GUC+HSbBRjqeT26eS29V4Mbp9Lbge3IjOT+dprcM5qWrvRsd2o/pnyvFO0nfuPnLV2+yoXg7ngwstj12uedzz++B58KL8uqq/VY73kr5y99FFva2M9XK40tCb4G3p3Yzv6XLN054fBY8X7D333C17vdz5217gd/wQ7EWGuO65+5g1b/LX/lrW5e9qxnlJ7/ug2um5Zc/DTvA0Y70h5C99bDd9/hvCY2Ys+XsZvKpZn+2O6uUQv55bxF4xzPwt8tph2fPXx1x3LX0+a2oo+Vskj/IwPGPNnzwsh6/Btwaq3E2//t7jWsveOMRr1OR/SWtNG/71b5n80Qb5o0/yR5/kDwAAAAAAAAAAAAAAAJil2lM43vd5rVh8P+h5P9flPshVrarO3ejcenKu73mm3qT4e3/ntse2e473nL4U1blfjpvlsalqr+q+55l6Xez/nI5d9Hw2qlHVeZAci8/1Pc/U6+Lzv11/HninqN8H9GHGHljd/NXtAzr1JGMPrG7+4vs+FhwPTgTPMvZAu2vZdB/eeeJrM3SZv9jrGcdPDmCeOXgt/3cf1NTHIn/+Zjk3gHlmdfN3eQDzzOrmz+u/4Rpb/rz/sVzGlr9J8fu6lxuRyQDmmfn5+xH8DD4Fn4MvxZ+ZuhncCm4nx+Pvr+6jr/xV1730/sdyGNvzn9d/y6Van6bXAZknvjaI/NHmWva99kPoAfmLzbsOdd/zzLjz5/kPAAAAAAAAAAAAAAAAAAAAYDX8AgfptVUA+gAA
   </data>
@@ -22,12 +30,12 @@
  </layer>
  <layer name="Over" width="160" height="100">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3dPU6EQBgGYC7gqfQOdrbewKxa+ldZ+nsyPYKJ2rp2jsmaIGHZQNj5FuZ5ki8wZCa8BRCqb6oKAAAAAAAAAAAAAAAAYJoOowNQjLPG+CDVcUSQQIvoAPyzHx2gxXWqm+gQhHiLDpDcp3qIDjGCj0Z9rq6/r8alOOox93vke78MXLeL32WGuY0OAC32ogNQtJPoAJl9bSigPDne/d97LKvN36C/OQAAQLyuf/ahBQAAAAAAAAAAAAAAAAAAlEOP/fl5rVXbeKw1Y2j22F9U+tADMF2PqZ4GXHtec8yhuQcOwJx17WekJxfbNpf9jJimi1SX0SEAoDCnPeefbyUFrHdVO/f8kdtd7dzzt7v69rYf0hs/V+aubAAAAAAAAAAAAAAAAAAAAADMww/sfBnmAPoAAA==
+   H4sIAAAAAAAAA+3dTU6DQBgGYDyAp9I7uHPrDUzVpX8rl/4eQy+jRzCxbtWdGGtCJhQsHWYKPE/ypQyB8C6mtLTJN0UBAAAAAAAAAAAAAAAAMEx7uQMwGcfBeLesgxxBMprlDjAij1u/tY6dOFGiuijrMncIevHUMl9f08RodFPWbe4QEcyDel/sf1uMp2J/hWO/Il/7ueN5m3hf5n/Ce9zVkuPW/eyGdWznDsCkHeYOkNhHS5Fe2/MI9KE671K893+u8Vm034P+jgGAIfBbCjmZf6TQ9J29awEAAAAAAAAAAAAAAAAAANNR7bGv39Y4vFSqbhzrnBjCHvuzor4PvR4OAAzBXVn3HfY9LHlNIVwDB2DMmtYz0pOLvo1lPSOG6bSss9whAGBijoJx239wJ70lgXrnlW3zj9SuK9vm3+Zatbd9l974qTI3ZQMAAAAAAAAAAAAAAAAAAABgHL4BG3ITDAD6AAA=
   </data>
  </layer>
  <layer name="Collision" width="160" height="100">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3bS44CMQwFQIb7H5oVmxb0JKFtJ+myVOInJo79NDuef4/HEwAAAAAAAAAAAAAAAACY2rvu1scs9464U2sdvzNrn9H9VZ2TdW7mXlvv2TKDqLmM1up5yD6vMof/3bOnqrOXNbOz11nnrmZ0n5V7H+05u4/q3a5gdE7f5p0x99GKnN3xDPnrn+GvGfi0h6ieZ8lf5nk7urKy8jfad/WsuW/+qudMfP7sml5X5kv+6CV/VIqo6juxDvkDAAAAAAAAAAAAAAAAAIB5rfB74LO/7zfJ+5plly0Zm6VX9vQtX/7/rSWjIntuuU/1jNk3fxXnE7PL0ffez4+PGfk7vpa/tayev5aqnjHX7XKkMnuunif75++s9+p5Mr7Dns9HvxfVu/ytacX8jVT1nLlul9W7n6EH7pu/3r6rZ8xe+as+H/lrOTPqfAAAAAAAAAAAAAAAAAAAAADqvACiFinTAPoAAA==
+   H4sIAAAAAAAAA+3bW24CMQwFUDr7Xw3dYNUPJDRiIAnjOMkcS0d9AXHsK9Qftu122wAAAAAAAAAAAAAAAACAoT3qan2Mcu+IO5XW/jmj9hndX9Y5vc7tudfSe5bMIGoun+r3p89+SuY083mZOfx0z5rq2VvWXvbnZJ07m9Z9Zu69tefefWTvdgatczqad4+5t1bk7PZnyF/9DL/NwKs9RPX8X/eD//Oe6/kxUX30yvuKzqxe+WvtO3vWXDd/2XMmPn92Ta0z8yV/1JI/MkVU9p2Yh/wBAAAAAAAAAAAAAAAAAMC4Zvg88LvX95nkdY2yy5KMjdIrazrKl/e/ufSoyJ5L7pM9Y9bNX8b5xOyy9XeP7/dfe+Rv/7P8zWX2/JVU9ow5b5ct1bPn7Hmyfv7e9Z49T9p3WPP31udF9S5/c5oxfy2VPWfO22X27kfogevmr7bv7BmzVv6yz0f+Ss6MOh8AAAAAAAAAAAAAAAAAAACAPH9fXWxKAPoAAA==
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0">
