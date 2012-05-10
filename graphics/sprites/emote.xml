@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
-<sprite variants="15" variant_offset="1">
-	<imageset name="base" src="graphics/sprites/emotions.png" width="30" height="32" />
+<sprite variants="42" variant_offset="1">
+	<imageset name="emotes" src="graphics/sprites/emote.png" width="30" height="32"/>
 
-	<action name="stand" imageset="base">
+	<action name="stand" imageset="emotes">
 		<animation direction="default">
-			<frame index="0" />
+			<frame index="0"/>
 		</animation>
 	</action>
+
 </sprite>
