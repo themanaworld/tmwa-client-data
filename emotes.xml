@@ -1,118 +1,340 @@
 <?xml version="1.0"?>
 <emotes>
-    <!-- Important note that the sprite tags are purely for
-         backwards compatibility -->
 
-    <emote id="0"
-           name="Disgust"
-           effectid="10000"
-           image="graphics/particles/emotes/disgust.png"
-           width="30" height="32">
+	<emote id="0"
+		name="Disgust"
+		effectid="10000"
+		image="graphics/emotes/disgust.png"
+		width="30" height="32">
         <sprite name="Disgust" variant="0">emote.xml</sprite>
-    </emote>
+	</emote>
 
-    <emote id="1"
-           name="Surprise"
-           effectid="10001"
-           image="graphics/particles/emotes/surprise.png"
-           width="30" height="32">
+	<emote id="1"
+		name="Surprise"
+		effectid="10001"
+		image="graphics/emotes/surprise.png"
+		width="30" height="32">
         <sprite name="Surprise" variant="1">emote.xml</sprite>
-    </emote>
+	</emote>
 
-    <emote id="2"
-           name="Happy"
-           effectid="10002"
-           image="graphics/particles/emotes/happy.png"
-           width="30" height="32">
+	<emote id="2"
+		name="Happy"
+		effectid="10002"
+		image="graphics/emotes/happy.png"
+		width="30" height="32">
         <sprite name="Happy" variant="2">emote.xml</sprite>
-    </emote>
+	</emote>
 
-    <emote id="3"
-           name="Sad"
-           effectid="10003"
-           image="graphics/particles/emotes/sad.png"
-           width="30" height="32">
+	<emote id="3"
+		name="Sad"
+		effectid="10003"
+		image="graphics/emotes/sad.png"
+		width="30" height="32">
         <sprite name="Sad" variant="3">emote.xml</sprite>
-    </emote>
+	</emote>
 
-    <emote id="4"
-           name="Evil"
-           effectid="10004"
-           image="graphics/particles/emotes/evil.png"
-           width="30" height="32">
+	<emote id="4"
+		name="Evil"
+		effectid="10004"
+		image="graphics/emotes/evil.png"
+		width="30" height="32">
         <sprite name="Evil" variant="4">emote.xml</sprite>
-    </emote>
+	</emote>
 
-    <emote id="5"
-           name="Wink"
-           effectid="10005"
-           image="graphics/particles/emotes/wink.png"
-           width="30" height="32">
+	<emote id="5"
+		name="Wink"
+		effectid="10005"
+		image="graphics/emotes/wink.png"
+		width="30" height="32">
         <sprite name="Wink" variant="5">emote.xml</sprite>
-    </emote>
+	</emote>
 
-    <emote id="6"
-           name="Angel"
-           effectid="10006"
-           image="graphics/particles/emotes/angel.png"
-           width="30" height="32">
+	<emote id="6"
+		name="Angel"
+		effectid="10006"
+		image="graphics/emotes/angel.png"
+		width="30" height="32">
         <sprite name="Angel" variant="6">emote.xml</sprite>
-    </emote>
+	</emote>
 
-    <emote id="7"
-           name="Blush"
-           effectid="10007"
-           image="graphics/particles/emotes/blush.png"
-           width="30" height="32">
+	<emote id="7"
+		name="Blush"
+		effectid="10007"
+		image="graphics/emotes/blush.png"
+		width="30" height="32">
         <sprite name="Blush" variant="7">emote.xml</sprite>
-    </emote>
+	</emote>
 
-    <emote id="8"
-           name="Tongue"
-           effectid="10008"
-           image="graphics/particles/emotes/tongue.png"
-           width="30" height="32">
+	<emote id="8"
+		name="Tongue"
+		effectid="10008"
+		image="graphics/emotes/tongue.png"
+		width="30" height="32">
         <sprite name="Tongue" variant="8">emote.xml</sprite>
-    </emote>
+	</emote>
 
-    <emote id="9"
-           name="Grin"
-           effectid="10009"
-           image="graphics/particles/emotes/grin.png"
-           width="30" height="32">
+	<emote id="9"
+		name="Grin"
+		effectid="10009"
+		image="graphics/emotes/grin.png"
+		width="30" height="32">
         <sprite name="Grin" variant="9">emote.xml</sprite>
-    </emote>
+	</emote>
 
-    <emote id="10"
-           name="Upset"
-           effectid="10010"
-           image="graphics/particles/emotes/upset.png"
-           width="30" height="32">
+	<emote id="10"
+		name="Upset"
+		effectid="10010"
+		image="graphics/emotes/upset.png"
+		width="30" height="32">
         <sprite name="Upset" variant="10">emote.xml</sprite>
-    </emote>
+	</emote>
 
-    <emote id="11"
-           name="Perturbed"
-           effectid="10011"
-           image="graphics/particles/emotes/perturbed.png"
-           width="30" height="32">
+	<emote id="11"
+		name="Perturbed"
+		effectid="10011"
+		image="graphics/emotes/perturbed.png"
+		width="30" height="32">
         <sprite name="Perturbed" variant="11">emote.xml</sprite>
-    </emote>
+	</emote>
 
-    <emote id="12"
-           name="Speech"
-           effectid="10012"
-           image="graphics/particles/emotes/speech.png"
-           width="30" height="32">
-        <sprite name="Speech" variant="14">emote.xml</sprite>
-    </emote>
+	<emote id="12"
+		name="Speech"
+		effectid="10012"
+		image="graphics/emotes/speech.png"
+		width="30" height="32">
+        <sprite name="Speech" variant="12">emote.xml</sprite>
+	</emote>
 
-    <emote id="13"
-           name="Blah"
-           effectid="10013"
-           image="graphics/particles/emotes/blah.png"
-           width="30" height="32">
+	<emote id="13"
+		name="Blah"
+		effectid="10013"
+		image="graphics/emotes/blah.png"
+		width="30" height="32">
         <sprite name="Blah" variant="13">emote.xml</sprite>
-    </emote>
+	</emote>
+
+	<emote id="14"
+		name="Swear"
+		effectid="10014"
+		image="graphics/emotes/swear.png"
+		width="30" height="32">
+        <sprite name="Speech" variant="14">emote.xml</sprite>
+	</emote>
+
+	<emote id="15"
+		name="Meow"
+		effectid="10015"
+		image="graphics/emotes/meow.png"
+		width="30" height="32">
+        <sprite name="Blah" variant="15">emote.xml</sprite>
+	</emote>
+
+	<emote id="16"
+		name="Laugh"
+		effectid="10016"
+		image="graphics/emotes/laugh.png"
+		width="30" height="32">
+        <sprite name="Laugh" variant="16">emote.xml</sprite>
+	</emote>
+
+	<emote id="17"
+		name="Cheerful"
+		effectid="10017"
+		image="graphics/emotes/cheerful.png"
+		width="30" height="32">
+        <sprite name="Cheerful" variant="17">emote.xml</sprite>
+	</emote>
+
+	<emote id="18"
+		name="Love"
+		effectid="10018"
+		image="graphics/emotes/love.png"
+		width="30" height="32">
+        <sprite name="Love" variant="18">emote.xml</sprite>
+	</emote>
+
+	<emote id="19"
+		name="Money"
+		effectid="10019"
+		image="graphics/emotes/money.png"
+		width="30" height="32">
+        <sprite name="Money" variant="19">emote.xml</sprite>
+	</emote>
+
+	<emote id="20"
+		name="Sleep"
+		effectid="10020"
+		image="graphics/emotes/sleep.png"
+		width="30" height="32">
+        <sprite name="Sleep" variant="20">emote.xml</sprite>
+	</emote>
+
+	<emote id="21"
+		name="Rest"
+		effectid="10021"
+		image="graphics/emotes/rest.png"
+		width="30" height="32">
+        <sprite name="Rest" variant="21">emote.xml</sprite>
+	</emote>
+
+	<emote id="22"
+		name="Bothered"
+		effectid="10022"
+		image="graphics/emotes/bothered.png"
+		width="30" height="32">
+        <sprite name="Bothered" variant="22">emote.xml</sprite>
+	</emote>
+
+	<emote id="23"
+		name="Afraid"
+		effectid="10023"
+		image="graphics/emotes/afraid.png"
+		width="30" height="32">
+        <sprite name="Afraid" variant="23">emote.xml</sprite>
+	</emote>
+
+	<emote id="24"
+		name="Dead"
+		effectid="10024"
+		image="graphics/emotes/dead.png"
+		width="30" height="32">
+        <sprite name="Dead" variant="24">emote.xml</sprite>
+	</emote>
+
+	<emote id="25"
+		name="Suspicious"
+		effectid="10025"
+		image="graphics/emotes/suspicious.png"
+		width="30" height="32">
+        <sprite name="Suspicious" variant="25">emote.xml</sprite>
+	</emote>
+
+	<emote id="26"
+		name="Melancholy"
+		effectid="10026"
+		image="graphics/emotes/melancholy.png"
+		width="30" height="32">
+        <sprite name="Melancholy" variant="26">emote.xml</sprite>
+	</emote>
+
+	<emote id="27"
+		name="Hide"
+		effectid="10027"
+		image="graphics/emotes/hide.png"
+		width="30" height="32">
+        <sprite name="Hide" variant="27">emote.xml</sprite>
+	</emote>
+
+	<emote id="28"
+		name="Angry"
+		effectid="10028"
+		image="graphics/emotes/angry.png"
+		width="30" height="32">
+        <sprite name="Angry" variant="28">emote.xml</sprite>
+	</emote>
+
+	<emote id="29"
+		name="Headache"
+		effectid="10029"
+		image="graphics/emotes/headache.png"
+		width="30" height="32">
+        <sprite name="Headache" variant="29">emote.xml</sprite>
+	</emote>
+
+	<emote id="30"
+		name="Bored"
+		effectid="10030"
+		image="graphics/emotes/bored.png"
+		width="30" height="32">
+        <sprite name="Bored" variant="30">emote.xml</sprite>
+	</emote>
+
+	<emote id="31"
+		name="Heart"
+		effectid="10031"
+		image="graphics/emotes/heart.png"
+		width="30" height="32">
+        <sprite name="Heart" variant="31">emote.xml</sprite>
+	</emote>
+
+	<emote id="32"
+		name="Empty"
+		effectid="10032"
+		image="graphics/emotes/empty.png"
+		width="30" height="32">
+        <sprite name="Empty" variant="32">emote.xml</sprite>
+	</emote>
+
+	<emote id="33"
+		name="Halloween"
+		effectid="10033"
+		image="graphics/emotes/halloween.png"
+		width="30" height="32">
+        <sprite name="Halloween" variant="33">emote.xml</sprite>
+	</emote>
+
+	<emote id="34"
+		name="Vicious"
+		effectid="10034"
+		image="graphics/emotes/vicious.png"
+		width="30" height="32">
+        <sprite name="Vicious" variant="34">emote.xml</sprite>
+	</emote>
+
+	<emote id="35"
+		name="Joyful"
+		effectid="10035"
+		image="graphics/emotes/joyful.png"
+		width="30" height="32">
+        <sprite name="Joyful" variant="35">emote.xml</sprite>
+	</emote>
+
+	<emote id="36"
+		name="Sneeky"
+		effectid="10036"
+		image="graphics/emotes/sneeky.png"
+		width="30" height="32">
+        <sprite name="Sneeky" variant="36">emote.xml</sprite>
+	</emote>
+
+	<emote id="37"
+		name="Shy"
+		effectid="10037"
+		image="graphics/emotes/shy.png"
+		width="30" height="32">
+        <sprite name="Shy" variant="37">emote.xml</sprite>
+	</emote>
+
+	<emote id="38"
+		name="Alien"
+		effectid="10038"
+		image="graphics/emotes/alien.png"
+		width="30" height="32">
+        <sprite name="Alien" variant="38">emote.xml</sprite>
+	</emote>
+
+	<emote id="39"
+		name="Troll"
+		effectid="10039"
+		image="graphics/emotes/troll.png"
+		width="30" height="32">
+        <sprite name="Troll" variant="39">emote.xml</sprite>
+	</emote>
+
+	<emote id="40"
+		name="Irritated"
+		effectid="10040"
+		image="graphics/emotes/irritated.png"
+		width="30" height="32">
+        <sprite name="Irritated" variant="40">emote.xml</sprite>
+	</emote>
+
+	<emote id="41"
+		name="Stressed"
+		effectid="10041"
+		image="graphics/emotes/stressed.png"
+		width="30" height="32">
+        <sprite name="Stressed" variant="41">emote.xml</sprite>
+	</emote>
 
 </emotes>
