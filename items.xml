@@ -61,10 +61,10 @@
         <sprite>hairstyles/hairstyle16.xml</sprite>
     </item>
     <item id="-17" type="hairsprite" name="Shoulder length flick">
-	<sprite>hairstyles/hairstyle17.xml</sprite>
+    <sprite>hairstyles/hairstyle17.xml</sprite>
     </item>
     <item id="-18" type="hairsprite" name="Fizzy">
-	<sprite>hairstyles/hairstyle18.xml</sprite>
+    <sprite>hairstyles/hairstyle18.xml</sprite>
     </item>
     <item id="-19" type="hairsprite" name="Long and Clipped">
         <sprite>hairstyles/hairstyle19.xml</sprite>
@@ -517,8 +517,8 @@
         type="equip-2hand"
         weapon-type="axe"
         weight="1200">
-	<sprite>weapon-axe-blacksmith.xml</sprite>
-	</item>
+    <sprite>weapon-axe-blacksmith.xml</sprite>
+    </item>
     <item id="551"
         image="generic/hint.png|W:#74e1f4"
         name="Aqua Hint"
@@ -811,7 +811,7 @@
         weapon-type="sword"
         weight="500">
         <sprite>weapon-sword-sword.xml</sprite>
-	</item>
+    </item>
 
     <!--
     <item id="588"
@@ -878,8 +878,8 @@
         type="equip-2hand"
         weapon-type="polearm"
         weight="700">
-	<sprite>weapon-polearm-spear.xml</sprite>
-	</item>
+    <sprite>weapon-polearm-spear.xml</sprite>
+    </item>
     <item id="595"
         image="equipment/weapon/polearm-heavyspear.png"
         name="Heavy Spear"
@@ -3024,6 +3024,12 @@
         <sprite gender="male">equipment/hands/generic-male.xml|#87876c,bbc39c,edf4e1,ffffff</sprite>
         <sprite gender="female">equipment/hands/generic-female.xml|#87876c,bbc39c,edf4e1,ffffff</sprite>
     </item>
+    <item id="869"
+        image="generic/antlers.png"
+        name="Antlers"
+        description="The antlers of a Reinboo."
+        type="generic"
+        weight="3000"/>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
@@ -5846,7 +5852,7 @@
         weight="15">
         <sprite>equipment/head/wizard-hat.xml</sprite>
     </item>
-	<item id="4029"
+    <item id="4029"
         image="use/potions/e.png|G:#bb0000;R:#ff0000"
         name="Grimace of Dementia"
         description="A feared potion. If done wrong... what did you say?"
