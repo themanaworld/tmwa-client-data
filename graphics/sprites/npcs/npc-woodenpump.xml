@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <sprite>
-    <imageset name="base" src="graphics/sprites/npcs/npc-woodenpump.png" width="27" height="71" />
-    <action name="stand" imageset="base">
-        <animation direction="default">
-            <!-- waterdroplets -->
-            <frame index="0" delay="130"/>
-            <frame index="1" delay="200"/>
-            <frame index="2" delay="100"/>
-            <frame index="3" delay="130"/>
-            <frame index="4" delay="130"/>
-            <frame index="5" delay="130"/>
-            <frame index="6" delay="130"/>
-            <frame index="7" delay="130"/>
-            <frame index="8" delay="130"/>
-            <frame index="9" delay="130"/>
-        </animation>
-    </action>
+  <imageset name="base" src="graphics/sprites/npcs/npc-woodenpump.png" width="27" height="71"/>
+  <action name="stand" imageset="base">
+    <animation direction="default">
+      <!-- waterdroplets -->
+      <frame index="0" delay="130"/>
+      <frame index="1" delay="200"/>
+      <frame index="2" delay="100"/>
+      <frame index="3" delay="130"/>
+      <frame index="4" delay="130"/>
+      <frame index="5" delay="130"/>
+      <frame index="6" delay="130"/>
+      <frame index="7" delay="130"/>
+      <frame index="8" delay="130"/>
+      <frame index="9" delay="130"/>
+    </animation>
+  </action>
 </sprite>

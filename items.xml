@@ -61,10 +61,10 @@
         <sprite>hairstyles/hairstyle16.xml</sprite>
     </item>
     <item id="-17" type="hairsprite" name="Shoulder length flick">
-    <sprite>hairstyles/hairstyle17.xml</sprite>
+        <sprite>hairstyles/hairstyle17.xml</sprite>
     </item>
     <item id="-18" type="hairsprite" name="Fizzy">
-    <sprite>hairstyles/hairstyle18.xml</sprite>
+        <sprite>hairstyles/hairstyle18.xml</sprite>
     </item>
     <item id="-19" type="hairsprite" name="Long and Clipped">
         <sprite>hairstyles/hairstyle19.xml</sprite>
@@ -80,7 +80,7 @@
     <!-- TEMPORARY LOW WEAPON ID:S (< 256) -->
     <!-- Used for tmwAthena magic system -->
     <item id="16">
-<!--        <sprite>weapon-dagger.xml</sprite>-->
+        <!--        <sprite>weapon-dagger.xml</sprite>-->
     </item>
     <item id="30"
         weapon_type="1">
@@ -517,7 +517,7 @@
         type="equip-2hand"
         weapon-type="axe"
         weight="1200">
-    <sprite>weapon-axe-blacksmith.xml</sprite>
+        <sprite>weapon-axe-blacksmith.xml</sprite>
     </item>
     <item id="551"
         image="generic/hint.png|W:#74e1f4"
@@ -1465,7 +1465,7 @@
         <sprite gender="male">equipment/chest/warlordplate-male.xml</sprite>
         <sprite gender="female">equipment/chest/warlordplate-female.xml</sprite>
     </item>
-        <item id="659"
+    <item id="659"
         image="equipment/chest/warlordplate.png|W:#573f10,9c8226,d3c04b,ffffff"
         name="Golden Warlord Plate"
         description="Strong and decorative armor made from gold."
@@ -2477,7 +2477,7 @@
         <sprite gender="male">equipment/feet/bromenalboots-male.xml</sprite>
         <sprite gender="female">equipment/feet/bromenalboots-female.xml</sprite>
     </item>
-        <item id="793"
+    <item id="793"
         image="equipment/chest/bromenalchest.png"
         name="Bromenal Chest"
         description="A bromenal chest armor."
@@ -3367,7 +3367,7 @@
         description="An snow globe featuring a snowman."
         type="generic"
         weight="1"/>
-   <item id="1242"
+    <item id="1242"
         image="equipment/head/snowgoggles.png"
         name="Snow Goggles"
         description="Snow Goggles to keep your eyeballs from freezing."
@@ -3505,8 +3505,8 @@
         defense="3"
         weight="50">
         <sprite>equipment/head/operamask.xml</sprite>
-     </item>
-     <item id="1277"
+    </item>
+    <item id="1277"
         image="equipment/head/jestermask.png"
         name="Jester Mask"
         description="Laughter with bells on."
@@ -3514,8 +3514,8 @@
         defense="3"
         weight="50">
         <sprite>equipment/head/jestermask.xml</sprite>
-     </item>
-     <item id="1278"
+    </item>
+    <item id="1278"
         image="equipment/head/witch-hat.png"
         name="Witch Hat"
         description="Big, dark, and pointy. It looks a bit out of place."
@@ -3523,8 +3523,8 @@
         defense="3"
         weight="50">
         <sprite>equipment/head/witch-hat.xml</sprite>
-     </item>
-     <item id="1279"
+    </item>
+    <item id="1279"
         image="equipment/head/goblin-mask.png"
         name="Goblin Mask"
         description="A strange dark mask. Who knows what lurks behind it?"
@@ -3532,21 +3532,21 @@
         defense="3"
         weight="50">
         <sprite>equipment/head/goblin-mask.xml</sprite>
-     </item>
-     <item id="1280"
+    </item>
+    <item id="1280"
         image="generic/scissors.png"
         name="Scissors"
         description="A pair of awkward and unwieldy scissors."
         effect="A dangerous barber."
         type="usable"
         weight="120"/>
-     <item id="1281"
+    <item id="1281"
         image="use/food/shock-candy.png"
         name="Shock Sweet"
         description="It'll turn your hair white!"
         type="usable"
         weight="5"/>
-     <item id="1282"
+    <item id="1282"
         image="equipment/ammo/bonedarts.png"
         name="Bone Arrows"
         description="Arrows made from bone. Not much different from the normal variety, but are much lighter."
@@ -4124,7 +4124,7 @@
         type="equip-legs"
         defense="4"
         weight="20">
-      <sprite>equipment/legs/skirt.xml|#115511,22aa22,99dd99</sprite>
+        <sprite>equipment/legs/skirt.xml|#115511,22aa22,99dd99</sprite>
     </item>
     <item id="2102"
         image="equipment/legs/skirt.png|W:#222255,6666ff"
@@ -5771,13 +5771,13 @@
         description="A pile of magical red powder."
         type="generic"
         weight="3"/>
-     <item id="4018"
+    <item id="4018"
         image="generic/powder.png|W:#ffcc00"
         name="Yellow Powder"
         description="A pile of magical yellow powder."
         type="generic"
         weight="3"/>
-     <item id="4019"
+    <item id="4019"
         image="generic/powder.png|W:#003399"
         name="Blue Powder"
         description="A pile of magical blue powder."

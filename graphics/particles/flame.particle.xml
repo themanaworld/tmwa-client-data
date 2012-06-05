@@ -1,30 +1,24 @@
 <?xml version="1.0"?>
-
 <!--
 Small flame with a point-like source designed for the lamps on the cave
 tileset but it should also work to visualize some kind of torch or - when
 launched by a parent emitter - a small fireball.
 -->
-
 <effect>
-	<particle
-		position-x = "17"
-		position-y = "0"
-		position-z = "32"
-		>
-		<emitter>
-			<property name="horizontal-angle" min="0" max="360"/>
-			<property name="vertical-angle" min="0" max="90"/>
-			<property name="power" min="0.1" max="0.3"/>
-			<property name="gravity" value="-0.02"/>
-			<animation imageset="graphics/particles/aniblaze.png" width="8" height="8">
-				<sequence start="0" end="14" delay="30" />
-				<frame index="14" delay="1000" />
-			</animation>
-			<property name="lifetime" min="35" max="50"/>
-			<property name="output" min="0" max="2"/>
-			<property name="fade-in" value="0"/>
-			<property name="fade-out" value="10"/>
-		</emitter>
-	</particle>
+  <particle position-x="17" position-y="0" position-z="32">
+    <emitter>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="90"/>
+      <property name="power" min="0.1" max="0.3"/>
+      <property name="gravity" value="-0.02"/>
+      <animation imageset="graphics/particles/aniblaze.png" width="8" height="8">
+        <sequence start="0" end="14" delay="30"/>
+        <frame index="14" delay="1000"/>
+      </animation>
+      <property name="lifetime" min="35" max="50"/>
+      <property name="output" min="0" max="2"/>
+      <property name="fade-in" value="0"/>
+      <property name="fade-out" value="10"/>
+    </emitter>
+  </particle>
 </effect>

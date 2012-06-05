@@ -1,16 +1,10 @@
 <?xml version="1.0"?>
-
 <!--
 A fire at the ground and some steam above it designed for use with the brass
 cauldron from the woodland_indoor tileset.
 -->
-
 <effect>
-  <particle
-    position-x = "0"
-    position-y = "-6"
-    position-z = "8"
-    >
+  <particle position-x="0" position-y="-6" position-z="8">
     <emitter>
       <property name="position-x" min="6" max="28"/>
       <property name="position-y" min="-6" max="12"/>
@@ -19,8 +13,8 @@ cauldron from the woodland_indoor tileset.
       <property name="power" min="0" max="0.25"/>
       <property name="gravity" value="-0.02"/>
       <animation imageset="graphics/particles/aniblaze.png" width="8" height="8">
-        <sequence start="0" end="14" delay="10" />
-        <frame index="14" delay="1000" />
+        <sequence start="0" end="14" delay="10"/>
+        <frame index="14" delay="1000"/>
       </animation>
       <property name="lifetime" min="20" max="40"/>
       <property name="output" min="0" max="4"/>

@@ -1,34 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <!-- Copyright 2011 The Mana World Development Team -->
-
-
 <!-- The skills.xml file is used by the 0.5.x (>= 0.5.3) and 1.x versions only.
      Older versions will use ea-skills.xml
      See documentation at: http://doc.manasource.org/skills.xml
 -->
 <skills>
-    <set name="Basic">
-        <skill id="1" name="Emote" icon="graphics/skills/basic/emote.png"/>
-        <skill id="2" name="Trade" icon="graphics/skills/basic/trade.png"/>
-        <skill id="3" name="Party" icon="graphics/skills/basic/party.png"/>
-    </set>
-    <set name="Magic">
-        <skill id="340" name="Magic" icon="graphics/skills/magic/basic.png"/>
-	<skill id="341" name="Life Magic" icon="graphics/skills/magic/life.png"/>
-        <skill id="342" name="War Magic" icon="graphics/skills/magic/war.png"/>
-        <skill id="343" name="Transmutation Magic" icon="graphics/skills/magic/transmutation.png"/>
-        <skill id="344" name="Nature Magic" icon="graphics/skills/magic/nature.png"/>
-        <skill id="345" name="Astral Magic" icon="graphics/skills/magic/astral.png"/>
-    </set>
-    <set name="Focus">
-        <skill id="339" name="Focusing" icon="graphics/skills/focus/focus.png"/>
-        <skill id="45"  name="Mallards Eye" icon="graphics/skills/focus/mallardseye.png"/>
-        <skill id="350" name="Brawling" icon="graphics/skills/focus/brawling.png"/>
-        <skill id="351" name="Lucky Counter" icon="graphics/skills/unknown.png"/>
-        <skill id="352" name="Speed" icon="graphics/skills/focus/speed.png"/>
-        <skill id="353" name="Resist Poison" icon="graphics/skills/focus/resistpoison.png"/>
-        <skill id="354" name="Astral Soul" icon="graphics/skills/focus/astralsoul.png"/>
-        <skill id="355" name="Raging" icon="graphics/skills/focus/raging.png"/>
-    </set>
+  <set name="Basic">
+    <skill id="1" name="Emote" icon="graphics/skills/basic/emote.png"/>
+    <skill id="2" name="Trade" icon="graphics/skills/basic/trade.png"/>
+    <skill id="3" name="Party" icon="graphics/skills/basic/party.png"/>
+  </set>
+  <set name="Magic">
+    <skill id="340" name="Magic" icon="graphics/skills/magic/basic.png"/>
+    <skill id="341" name="Life Magic" icon="graphics/skills/magic/life.png"/>
+    <skill id="342" name="War Magic" icon="graphics/skills/magic/war.png"/>
+    <skill id="343" name="Transmutation Magic" icon="graphics/skills/magic/transmutation.png"/>
+    <skill id="344" name="Nature Magic" icon="graphics/skills/magic/nature.png"/>
+    <skill id="345" name="Astral Magic" icon="graphics/skills/magic/astral.png"/>
+  </set>
+  <set name="Focus">
+    <skill id="339" name="Focusing" icon="graphics/skills/focus/focus.png"/>
+    <skill id="45" name="Mallards Eye" icon="graphics/skills/focus/mallardseye.png"/>
+    <skill id="350" name="Brawling" icon="graphics/skills/focus/brawling.png"/>
+    <skill id="351" name="Lucky Counter" icon="graphics/skills/unknown.png"/>
+    <skill id="352" name="Speed" icon="graphics/skills/focus/speed.png"/>
+    <skill id="353" name="Resist Poison" icon="graphics/skills/focus/resistpoison.png"/>
+    <skill id="354" name="Astral Soul" icon="graphics/skills/focus/astralsoul.png"/>
+    <skill id="355" name="Raging" icon="graphics/skills/focus/raging.png"/>
+  </set>
 </skills>
-

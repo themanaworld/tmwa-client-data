@@ -1,123 +1,117 @@
 <?xml version="1.0"?>
-
 <!--
 Special fire animation for bonfire tile. Can be used only on the open air.
 -->
-
 <effect>
-	<particle
-		position-x = "15"
-		position-y = "0"
-		position-z = "15"
-		>
-		<emitter>
-			<property name="position-x" value="-5"/>
-			<property name="position-y" min="-4" max="-4"/>
-			<property name="horizontal-angle" min="0" max="360"/>
-			<property name="vertical-angle" min="0" max="90"/>
-			<property name="power" min="0" max="0.05"/>
-			<property name="gravity" value="-0.03"/>
-			<animation imageset="graphics/particles/aniblaze.png" width="8" height="8">
-				<sequence start="0" end="14" delay="30"/>
-				<frame index="14" delay="1000"/>
-			</animation>
-			<property name="lifetime" value="15"/>
-			<property name="output" value="1"/>
-			<property name="fade-in" value="0"/>
-			<property name="fade-out" value="10"/>
-		</emitter>
-		<emitter>
-			<property name="position-x" value="5"/>
-			<property name="position-y" min="-4" max="-2"/>
-			<property name="horizontal-angle" min="0" max="360"/>
-			<property name="vertical-angle" min="0" max="90"/>
-			<property name="power" min="0" max="0.05"/>
-			<property name="gravity" value="-0.03"/>
-			<animation imageset="graphics/particles/aniblaze.png" width="8" height="8">
-				<sequence start="0" end="14" delay="30"/>
-				<frame index="14" delay="1000"/>
-			</animation>
-			<property name="lifetime" value="15"/>
-			<property name="output" value="1"/>
-			<property name="fade-in" value="0"/>
-			<property name="fade-out" value="10"/>
-		</emitter>
-		<emitter>
-			<property name="position-y" min="-4" max="0"/>
-			<property name="horizontal-angle" min="0" max="360"/>
-			<property name="vertical-angle" min="0" max="90"/>
-			<property name="power" min="0.0" max="0.05"/>
-			<property name="gravity" value="-0.03"/>
-			<animation imageset="graphics/particles/aniblaze.png" width="8" height="8">
-				<sequence start="0" end="14" delay="30"/>
-				<frame index="14" delay="1000"/>
-			</animation>
-			<property name="lifetime" value="15"/>
-			<property name="output" value="1"/>
-			<property name="fade-in" value="0"/>
-			<property name="fade-out" value="10"/>
-		</emitter>
-		<emitter>
-			<property name="position-y" min="-10" max="-20"/>
-			<property name="horizontal-angle" min="0" max="360"/>
-			<property name="vertical-angle" min="0" max="50"/>
-			<property name="power" min="0.2" max="0.4"/>
-			<property name="gravity" value="-0.02"/>
-			<animation imageset="graphics/particles/aniblaze-medium.png|W:#746767" width="16" height="16">
-				<sequence start="0" end="8" delay="90"/>
-				<frame index="14" delay="200"/>
-			</animation>
-			<property name="lifetime" value="50"/>
-			<property name="output" min="0" max="2"/>
-			<property name="fade-in" value="0"/>
-			<property name="fade-out" value="180"/>
-		</emitter>
-		<emitter>
-			<property name="position-y" value="-10"/>
-			<property name="horizontal-angle" min="0" max="360"/>
-			<property name="vertical-angle" min="0" max="180"/>
-			<property name="power" value="0.5"/>
-			<property name="gravity" value="-0.01"/>
-			<animation imageset="graphics/particles/fog-medium-c.png" width="32" height="32">
-				<frame index="0" delay="100"/>
-				<frame index="0" delay="1000"/>
-			</animation>
-			<property name="lifetime" value="80"/>
-			<property name="output" value="1"/>
-			<property name="fade-in" value="0"/>
-			<property name="fade-out" value="230"/>
-		</emitter>
-		<emitter>
-			<property name="position-x" min="2" max="3"/>
-			<property name="position-y" value="-10"/>
-			<property name="horizontal-angle" min="0" max="360"/>
-			<property name="vertical-angle" min="0" max="180"/>
-			<property name="power" value="0.2"/>
-			<property name="gravity" value="-0.01"/>
-			<animation imageset="graphics/particles/orb-small.png|W:#f4c874" width="4" height="4">
-				<frame index="0" delay="100"/>
-				<frame index="0" delay="1000"/>
-			</animation>
-			<property name="lifetime" value="60"/>
-			<property name="output" value="1"/>
-			<property name="fade-in" value="0"/>
-			<property name="fade-out" value="1"/>
-		</emitter>
-		<emitter>
-			<property name="position-x" min="-3" max="4"/>
-			<property name="position-y" value="-9"/>
-			<property name="horizontal-angle" min="0" max="360"/>
-			<property name="vertical-angle" min="0" max="180"/>
-			<property name="power" value="0.2"/>
-			<property name="gravity" value="-0.01"/>
-			<animation imageset="graphics/particles/orb-small.png|W:#e87a54" width="4" height="4">
-				<frame index="0" delay="100"/>
-				<frame index="0" delay="1000"/>
-			</animation>
-			<property name="lifetime" value="60"/>
-			<property name="output" value="1"/>
-			<property name="fade-in" value="0"/>
-			<property name="fade-out" value="150"/>
-		</emitter>
-	</particle>
+  <particle position-x="15" position-y="0" position-z="15">
+    <emitter>
+      <property name="position-x" value="-5"/>
+      <property name="position-y" min="-4" max="-4"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="90"/>
+      <property name="power" min="0" max="0.05"/>
+      <property name="gravity" value="-0.03"/>
+      <animation imageset="graphics/particles/aniblaze.png" width="8" height="8">
+        <sequence start="0" end="14" delay="30"/>
+        <frame index="14" delay="1000"/>
+      </animation>
+      <property name="lifetime" value="15"/>
+      <property name="output" value="1"/>
+      <property name="fade-in" value="0"/>
+      <property name="fade-out" value="10"/>
+    </emitter>
+    <emitter>
+      <property name="position-x" value="5"/>
+      <property name="position-y" min="-4" max="-2"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="90"/>
+      <property name="power" min="0" max="0.05"/>
+      <property name="gravity" value="-0.03"/>
+      <animation imageset="graphics/particles/aniblaze.png" width="8" height="8">
+        <sequence start="0" end="14" delay="30"/>
+        <frame index="14" delay="1000"/>
+      </animation>
+      <property name="lifetime" value="15"/>
+      <property name="output" value="1"/>
+      <property name="fade-in" value="0"/>
+      <property name="fade-out" value="10"/>
+    </emitter>
+    <emitter>
+      <property name="position-y" min="-4" max="0"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="90"/>
+      <property name="power" min="0.0" max="0.05"/>
+      <property name="gravity" value="-0.03"/>
+      <animation imageset="graphics/particles/aniblaze.png" width="8" height="8">
+        <sequence start="0" end="14" delay="30"/>
+        <frame index="14" delay="1000"/>
+      </animation>
+      <property name="lifetime" value="15"/>
+      <property name="output" value="1"/>
+      <property name="fade-in" value="0"/>
+      <property name="fade-out" value="10"/>
+    </emitter>
+    <emitter>
+      <property name="position-y" min="-10" max="-20"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="50"/>
+      <property name="power" min="0.2" max="0.4"/>
+      <property name="gravity" value="-0.02"/>
+      <animation imageset="graphics/particles/aniblaze-medium.png|W:#746767" width="16" height="16">
+        <sequence start="0" end="8" delay="90"/>
+        <frame index="14" delay="200"/>
+      </animation>
+      <property name="lifetime" value="50"/>
+      <property name="output" min="0" max="2"/>
+      <property name="fade-in" value="0"/>
+      <property name="fade-out" value="180"/>
+    </emitter>
+    <emitter>
+      <property name="position-y" value="-10"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="180"/>
+      <property name="power" value="0.5"/>
+      <property name="gravity" value="-0.01"/>
+      <animation imageset="graphics/particles/fog-medium-c.png" width="32" height="32">
+        <frame index="0" delay="100"/>
+        <frame index="0" delay="1000"/>
+      </animation>
+      <property name="lifetime" value="80"/>
+      <property name="output" value="1"/>
+      <property name="fade-in" value="0"/>
+      <property name="fade-out" value="230"/>
+    </emitter>
+    <emitter>
+      <property name="position-x" min="2" max="3"/>
+      <property name="position-y" value="-10"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="180"/>
+      <property name="power" value="0.2"/>
+      <property name="gravity" value="-0.01"/>
+      <animation imageset="graphics/particles/orb-small.png|W:#f4c874" width="4" height="4">
+        <frame index="0" delay="100"/>
+        <frame index="0" delay="1000"/>
+      </animation>
+      <property name="lifetime" value="60"/>
+      <property name="output" value="1"/>
+      <property name="fade-in" value="0"/>
+      <property name="fade-out" value="1"/>
+    </emitter>
+    <emitter>
+      <property name="position-x" min="-3" max="4"/>
+      <property name="position-y" value="-9"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="180"/>
+      <property name="power" value="0.2"/>
+      <property name="gravity" value="-0.01"/>
+      <animation imageset="graphics/particles/orb-small.png|W:#e87a54" width="4" height="4">
+        <frame index="0" delay="100"/>
+        <frame index="0" delay="1000"/>
+      </animation>
+      <property name="lifetime" value="60"/>
+      <property name="output" value="1"/>
+      <property name="fade-in" value="0"/>
+      <property name="fade-out" value="150"/>
+    </emitter>
+  </particle>
 </effect>

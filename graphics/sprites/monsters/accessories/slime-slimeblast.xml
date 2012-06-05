@@ -1,50 +1,46 @@
 <?xml version="1.0"?>
 <sprite>
-    <imageset name="base" src="graphics/sprites/monsters/accessories/slime-littleslime.png|W" width="20" height="20" />
-	<action name="stand" imageset="base">
-		<animation>
-		  <frame index="0" offsetY="0" />
-		</animation>
-	</action>
-
-	<action name="walk" imageset="base">
-		<animation direction="down">
-			<sequence start="1" end="2" delay="200" offsetY="0" />
-		</animation>
-		<animation direction="left">
-			<sequence start="3" end="4" delay="200" offsetY="0" />
-		</animation>
-		<animation direction="up">
-			<sequence start="5" end="6" delay="200" offsetY="0" />
-		</animation>
-		<animation direction="right">
-			<sequence start="7" end="8" delay="200" offsetY="0" />
-		</animation>
-	</action>
-
-	<action name="dead" imageset="base">
-		<animation>
-		  <frame index="9" offsetY="0" />
-		</animation>
-	</action>
-
-	<action name="attack" imageset="base">
-		<animation direction="down">
-			<frame index="9" delay="200" offsetY="0" />
-		  	<end />
-		</animation>
-		<animation direction="left">
-			<frame index="9" delay="200" offsetY="0" />
-		  	<end />
-		</animation>
-		<animation direction="up">
-			<frame index="9" delay="200" offsetY="0" />
-		  	<end />
-		</animation>
-		<animation direction="right">
-			<frame index="9" delay="200" offsetY="0" />
-		  	<end />
-		</animation>
-	</action>
-
+  <imageset name="base" src="graphics/sprites/monsters/accessories/slime-littleslime.png|W" width="20" height="20"/>
+  <action name="stand" imageset="base">
+    <animation>
+      <frame index="0" offsetY="0"/>
+    </animation>
+  </action>
+  <action name="walk" imageset="base">
+    <animation direction="down">
+      <sequence start="1" end="2" delay="200" offsetY="0"/>
+    </animation>
+    <animation direction="left">
+      <sequence start="3" end="4" delay="200" offsetY="0"/>
+    </animation>
+    <animation direction="up">
+      <sequence start="5" end="6" delay="200" offsetY="0"/>
+    </animation>
+    <animation direction="right">
+      <sequence start="7" end="8" delay="200" offsetY="0"/>
+    </animation>
+  </action>
+  <action name="dead" imageset="base">
+    <animation>
+      <frame index="9" offsetY="0"/>
+    </animation>
+  </action>
+  <action name="attack" imageset="base">
+    <animation direction="down">
+      <frame index="9" delay="200" offsetY="0"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <frame index="9" delay="200" offsetY="0"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <frame index="9" delay="200" offsetY="0"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <frame index="9" delay="200" offsetY="0"/>
+      <end/>
+    </animation>
+  </action>
 </sprite>

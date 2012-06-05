@@ -1,5 +1,4 @@
 <?xml version="1.0"?>
-
 <!--
 6 differently colored objects which orbit around a centerpoint in different
 circular orbits forming a sphere with 80 pixels diameter. Beautiful but I can't
@@ -12,113 +11,102 @@ Want it bigger or smaller? When you half the orbit (distance) just double the
 acceleration and vice versa. 
 -->
 <effect>
-	<particle
-		position-x = "0"
-		position-y = "0"
-		position-z = "40"
-		lifetime = "1"
-		>
-		<!-- BLUE -->
-		<emitter>
-			<property name="position-x" value = "40"/>
-			<property name="position-y" value = "0"/>
-			<property name="position-z" value = "0"/>
-			<property name="image" value="graphics/particles/orb-medium.png|W:#0000ff" />
-			<property name="horizontal-angle" value= "90"/>
-			<property name="vertical-angle" value = "0" />
-			<property name="power" value = "3" />
-			<property name="acceleration" value = "0.2" />
-			<emitter>
-                <property name="image" value="graphics/particles/star-small.png|W:#0000ff,ffffff"/>
-                <property name="lifetime" value="40" />
-                <property name="fade-out" value="40" />
-			</emitter>
-		</emitter>
-		
-		<!-- CYAN-->
-		<emitter>
-			<property name="position-x" value = "-40"/>
-			<property name="position-y" value = "0"/>
-			<property name="position-z" value = "0"/>
-			<property name="image" value="graphics/particles/orb-medium.png|W:#00ffff" />
-			<property name="horizontal-angle" value= "270"/>
-			<property name="vertical-angle" value = "0" />
-			<property name="power" value = "3" />
-			<property name="acceleration" value = "0.2" />
-			<emitter>
-                <property name="image" value="graphics/particles/star-small.png|W:#00ffff,ffffff"/>
-                <property name="lifetime" value="40" />
-                <property name="fade-out" value="40" />
-			</emitter>
-		</emitter>
-		
-		<!-- GREEN -->
-		<emitter>
-			<property name="position-x" value = "28.28"/>
-			<property name="position-y" value = "-28.28"/>
-			<property name="position-z" value = "0"/>
-			<property name="image" value="graphics/particles/orb-medium.png|W:#00ff00" />
-			<property name="horizontal-angle" value= "0"/>
-			<property name="vertical-angle" value = "90" />
-			<property name="power" value="3" />
-			<property name="acceleration" value = "0.2" />
-			<emitter>
-                <property name="image" value="graphics/particles/star-small.png|W:#00ff00,ffffff"/>
-                <property name="lifetime" value="40" />
-                <property name="fade-out" value="40" />
-			</emitter>
-		</emitter>
-		
-		<!-- YELLOW -->
-		<emitter>
-			<property name="position-x" value = "-28.28"/>
-			<property name="position-y" value = "28.28"/>
-			<property name="position-z" value = "0"/>
-			<property name="image" value="graphics/particles/orb-medium.png|W:#ffff00" />
-			<property name="horizontal-angle" value= "0"/>
-			<property name="vertical-angle" value = "270" />
-			<property name="power" value="3" />
-			<property name="acceleration" value = "0.2" />
-			<emitter>
-                <property name="image" value="graphics/particles/star-small.png|W:#ffff00,ffffff"/>
-                <property name="lifetime" value="40" />
-                <property name="fade-out" value="40" />
-			</emitter>
-		</emitter>
-
-		<!-- RED -->
-		<emitter>
-			<property name="position-x" value = "0"/>
-			<property name="position-y" value = "0"/>
-			<property name="position-z" value = "40"/>
-			<property name="image" value="graphics/particles/orb-medium.png|W:#ff0000" />
-			<property name="horizontal-angle" value= "45"/>
-			<property name="vertical-angle" value = "0" />
-			<property name="power" value = "3" />
-			<property name="acceleration" value = "0.2" />
-			<emitter>
-                <property name="image" value="graphics/particles/star-small.png|W:#ff0000,ffffff"/>
-                <property name="lifetime" value="40" />
-                <property name="fade-out" value="40" />
-			</emitter>
-		</emitter>
-
-		<!-- MAGENTA -->
-		<emitter>
-			<property name="position-x" value = "0"/>
-			<property name="position-y" value = "0"/>
-			<property name="position-z" value = "-40"/>
-			<property name="image" value="graphics/particles/orb-medium.png|W:#ff00ff" />
-			<property name="horizontal-angle" value= "225"/>
-			<property name="vertical-angle" value = "0" />
-			<property name="power" value = "3" />
-			<property name="acceleration" value = "0.2" />
-			<emitter>
-                <property name="image" value="graphics/particles/star-small.png|W:#ff00ff,ffffff"/>
-                <property name="lifetime" value="40" />
-                <property name="fade-out" value="40" />
-			</emitter>
-		</emitter>
-		
-	</particle>
+  <particle position-x="0" position-y="0" position-z="40" lifetime="1">
+    <!-- BLUE -->
+    <emitter>
+      <property name="position-x" value="40"/>
+      <property name="position-y" value="0"/>
+      <property name="position-z" value="0"/>
+      <property name="image" value="graphics/particles/orb-medium.png|W:#0000ff"/>
+      <property name="horizontal-angle" value="90"/>
+      <property name="vertical-angle" value="0"/>
+      <property name="power" value="3"/>
+      <property name="acceleration" value="0.2"/>
+      <emitter>
+        <property name="image" value="graphics/particles/star-small.png|W:#0000ff,ffffff"/>
+        <property name="lifetime" value="40"/>
+        <property name="fade-out" value="40"/>
+      </emitter>
+    </emitter>
+    <!-- CYAN-->
+    <emitter>
+      <property name="position-x" value="-40"/>
+      <property name="position-y" value="0"/>
+      <property name="position-z" value="0"/>
+      <property name="image" value="graphics/particles/orb-medium.png|W:#00ffff"/>
+      <property name="horizontal-angle" value="270"/>
+      <property name="vertical-angle" value="0"/>
+      <property name="power" value="3"/>
+      <property name="acceleration" value="0.2"/>
+      <emitter>
+        <property name="image" value="graphics/particles/star-small.png|W:#00ffff,ffffff"/>
+        <property name="lifetime" value="40"/>
+        <property name="fade-out" value="40"/>
+      </emitter>
+    </emitter>
+    <!-- GREEN -->
+    <emitter>
+      <property name="position-x" value="28.28"/>
+      <property name="position-y" value="-28.28"/>
+      <property name="position-z" value="0"/>
+      <property name="image" value="graphics/particles/orb-medium.png|W:#00ff00"/>
+      <property name="horizontal-angle" value="0"/>
+      <property name="vertical-angle" value="90"/>
+      <property name="power" value="3"/>
+      <property name="acceleration" value="0.2"/>
+      <emitter>
+        <property name="image" value="graphics/particles/star-small.png|W:#00ff00,ffffff"/>
+        <property name="lifetime" value="40"/>
+        <property name="fade-out" value="40"/>
+      </emitter>
+    </emitter>
+    <!-- YELLOW -->
+    <emitter>
+      <property name="position-x" value="-28.28"/>
+      <property name="position-y" value="28.28"/>
+      <property name="position-z" value="0"/>
+      <property name="image" value="graphics/particles/orb-medium.png|W:#ffff00"/>
+      <property name="horizontal-angle" value="0"/>
+      <property name="vertical-angle" value="270"/>
+      <property name="power" value="3"/>
+      <property name="acceleration" value="0.2"/>
+      <emitter>
+        <property name="image" value="graphics/particles/star-small.png|W:#ffff00,ffffff"/>
+        <property name="lifetime" value="40"/>
+        <property name="fade-out" value="40"/>
+      </emitter>
+    </emitter>
+    <!-- RED -->
+    <emitter>
+      <property name="position-x" value="0"/>
+      <property name="position-y" value="0"/>
+      <property name="position-z" value="40"/>
+      <property name="image" value="graphics/particles/orb-medium.png|W:#ff0000"/>
+      <property name="horizontal-angle" value="45"/>
+      <property name="vertical-angle" value="0"/>
+      <property name="power" value="3"/>
+      <property name="acceleration" value="0.2"/>
+      <emitter>
+        <property name="image" value="graphics/particles/star-small.png|W:#ff0000,ffffff"/>
+        <property name="lifetime" value="40"/>
+        <property name="fade-out" value="40"/>
+      </emitter>
+    </emitter>
+    <!-- MAGENTA -->
+    <emitter>
+      <property name="position-x" value="0"/>
+      <property name="position-y" value="0"/>
+      <property name="position-z" value="-40"/>
+      <property name="image" value="graphics/particles/orb-medium.png|W:#ff00ff"/>
+      <property name="horizontal-angle" value="225"/>
+      <property name="vertical-angle" value="0"/>
+      <property name="power" value="3"/>
+      <property name="acceleration" value="0.2"/>
+      <emitter>
+        <property name="image" value="graphics/particles/star-small.png|W:#ff00ff,ffffff"/>
+        <property name="lifetime" value="40"/>
+        <property name="fade-out" value="40"/>
+      </emitter>
+    </emitter>
+  </particle>
 </effect>

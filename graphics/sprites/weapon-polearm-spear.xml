@@ -1,26 +1,23 @@
 <?xml version="1.0"?>
 <sprite name="player" action="stand">
-	<imageset name="spear" src="graphics/sprites/weapon-polearm-spear.png" width="64" height="64" />
-
-	<action name="default" imageset="spear">
-	</action>
-
-	<action name="attack_polearm" imageset="spear">
-		<animation direction="down">
-			<sequence start="0" end="3" delay="150" />
-		  	<end />
-		</animation>
-		<animation direction="left">
-			<sequence start="4" end="7" delay="150" />
-		  	<end />
-		</animation>
-		<animation direction="up">
-			<sequence start="8" end="11" delay="150" />
-		  	<end />
-		</animation>
-		<animation direction="right">
-			<sequence start="12" end="15" delay="150" />
-		 	<end />
-		</animation>
-	</action>
+  <imageset name="spear" src="graphics/sprites/weapon-polearm-spear.png" width="64" height="64"/>
+  <action name="default" imageset="spear"/>
+  <action name="attack_polearm" imageset="spear">
+    <animation direction="down">
+      <sequence start="0" end="3" delay="150"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <sequence start="4" end="7" delay="150"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <sequence start="8" end="11" delay="150"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <sequence start="12" end="15" delay="150"/>
+      <end/>
+    </animation>
+  </action>
 </sprite>

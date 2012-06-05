@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <!--
    Effects definition file.
    Copyright (C) 2011-2012  The Mana World Development Team
@@ -20,107 +20,105 @@
 
    See also documentation at: http://doc.manasource.org/effects.xml
 -->
-
 <!--
      Note: Effects definition for client version superior or equal to 0.6.x
      will prefer the 'effects' root tag when possible.
 -->
 <being-effects>
-    <!-- Default tag only supported in the 0.0.29.1 client version,
+  <!-- Default tag only supported in the 0.0.29.1 client version,
     support for this is obsolete since the 0.5.0 client version. -->
-    <default particle="graphics/particles/magic.default.xml" />
-
-    <!-- Core effect - used by the TMW magic system - do not change the ids
+  <default particle="graphics/particles/magic.default.xml"/>
+  <!-- Core effect - used by the TMW magic system - do not change the ids
         without testing the corresponding magic spells. -->
-    <effect id="0" audio="sfx/system/levelup.ogg" particle="graphics/particles/levelup.particle.xml" />
-    <effect id="1" audio="sfx/system/levelup.ogg" particle="graphics/particles/skillup.particle.xml" />
-    <effect id="2" particle="graphics/particles/magic.generic.xml"/>
-    <effect id="3" particle="graphics/particles/magic.white.xml"/> <!-- life -->
-    <effect id="4" particle="graphics/particles/magic.black.xml"/> <!-- war -->
-    <effect id="5" particle="graphics/particles/magic.red.xml"/> <!-- transmute -->
-    <effect id="6" particle="graphics/particles/magic.green.xml"/> <!-- nature -->
-    <effect id="7" particle="graphics/particles/magic.blue.xml"/> <!-- astral -->
-    <effect id="10" particle="graphics/particles/magic.default.xml"/>
-    <effect id="11" particle="graphics/particles/magic.shield.xml"/>
-    <!--  <effect id="12" particle="graphics/particles/magic.haste.xml"/>-->
-    <effect id="13" particle="graphics/particles/magic.hit.xml"/>
-    <effect id="14" particle="graphics/particles/magic.hit.evil.xml"/>
-    <effect id="15" particle="graphics/particles/fire-burst.xml"/>
-    <effect id="16" particle="graphics/particles/fire-explosion.xml"/>
-    <effect id="17" particle="graphics/particles/lightning1.xml"/>
-    <effect id="18" particle="graphics/particles/lightning2.xml"/>
-    <effect id="19" particle="graphics/particles/lightning3.xml"/>
-    <effect id="20" particle="graphics/particles/magic.teleport.xml"/>
-    <!--  <effect id="20" particle="graphics/particles/magic.barrier.xml"/> -->
-    <effect id="21" particle="graphics/particles/pentagram-buildup-short.xml"/>
-    <effect id="22" particle="graphics/particles/pentagram-burst.xml"/>
-    <effect id="24" particle="graphics/particles/magic.teleport.xml"/>
-    <effect id="25" particle="graphics/particles/rain.xml"/>
-    <effect id="26" particle="graphics/particles/hit.particle.xml" />
-    <effect id="27" particle="graphics/particles/arrow-hail.xml" />
-    <effect id="28" particle="graphics/particles/crit.particle.xml" />
-    <effect id="30" particle="graphics/particles/large-explosion.xml"/>
-    <effect id="31" particle="graphics/particles/medium-explosion.xml"/>
-    <effect id="32" particle="graphics/particles/medium-smoke.xml"/>
-
-    <effect id="111" particle="graphics/particles/magic.shield-ends.xml"/>
-    <!--  <effect id="112" particle="graphics/particles/magic.haste-ends.xml"/>-->
-    <!--  <effect id="113" particle="graphics/particles/magic.barrier-ends.xml"/> -->
-    <effect id="114" particle="graphics/particles/electricity.red.xml"/>
-    <effect id="115" particle="graphics/particles/electricity.blue.xml"/>
-
-    <!-- Interactive Object Animations -->
-    <effect id="300" particle="graphics/particles/gate-opening.xml"/>
-    <effect id="301" particle="graphics/particles/casket-lid.xml"/>
-    <effect id="302" particle="graphics/particles/casket-monster.xml"/>
-
-    <!-- Monster attack particle effects -->
-    <effect id="400" particle="graphics/particles/monster-goblin-firebreath.particle.xml"/>
-    <effect id="401" particle="graphics/particles/monster-lizard-firebreath.particle.xml"/>
-
-    <!-- Emotion Effects -->
-    <effect id="10000" particle="graphics/emotes/disgust.xml"/>
-    <effect id="10001" particle="graphics/emotes/surprise.xml"/>
-    <effect id="10002" particle="graphics/emotes/happy.xml"/>
-    <effect id="10003" particle="graphics/emotes/sad.xml"/>
-    <effect id="10004" particle="graphics/emotes/evil.xml"/>
-    <effect id="10005" particle="graphics/emotes/wink.xml"/>
-    <effect id="10006" particle="graphics/emotes/angel.xml"/>
-    <effect id="10007" particle="graphics/emotes/blush.xml"/>
-    <effect id="10008" particle="graphics/emotes/tongue.xml"/>
-    <effect id="10009" particle="graphics/emotes/grin.xml"/>
-    <effect id="10010" particle="graphics/emotes/upset.xml"/>
-    <effect id="10011" particle="graphics/emotes/perturbed.xml"/>
-    <effect id="10012" particle="graphics/emotes/speech.xml"/>
-    <effect id="10013" particle="graphics/emotes/blah.xml"/>
-    <effect id="10014" particle="graphics/emotes/swear.xml"/>
-    <effect id="10015" particle="graphics/emotes/meow.xml"/>
-    <effect id="10016" particle="graphics/emotes/laugh.xml"/>
-    <effect id="10017" particle="graphics/emotes/cheerful.xml"/>
-    <effect id="10018" particle="graphics/emotes/love.xml"/>
-    <effect id="10019" particle="graphics/emotes/money.xml"/>
-    <effect id="10020" particle="graphics/emotes/sleep.xml"/>
-    <effect id="10021" particle="graphics/emotes/rest.xml"/>
-    <effect id="10022" particle="graphics/emotes/bothered.xml"/>
-    <effect id="10023" particle="graphics/emotes/afraid.xml"/>
-    <effect id="10024" particle="graphics/emotes/dead.xml"/>
-    <effect id="10025" particle="graphics/emotes/suspicious.xml"/>
-    <effect id="10026" particle="graphics/emotes/melancholy.xml"/>
-    <effect id="10027" particle="graphics/emotes/facepalm.xml"/>
-    <effect id="10028" particle="graphics/emotes/angry.xml"/>
-    <effect id="10029" particle="graphics/emotes/headache.xml"/>
-    <effect id="10030" particle="graphics/emotes/bored.xml"/>
-    <effect id="10031" particle="graphics/emotes/heart.xml"/>
-    <effect id="10032" particle="graphics/emotes/empty.xml"/>
-    <effect id="10033" particle="graphics/emotes/halloween.xml"/>
-    <effect id="10034" particle="graphics/emotes/vicious.xml"/>
-    <effect id="10035" particle="graphics/emotes/joyful.xml"/>
-    <effect id="10036" particle="graphics/emotes/clever.xml"/>
-    <effect id="10037" particle="graphics/emotes/shy.xml"/>
-    <effect id="10038" particle="graphics/emotes/alien.xml"/>
-    <effect id="10039" particle="graphics/emotes/curious.xml"/>
-    <effect id="10040" particle="graphics/emotes/pain.xml"/>
-    <effect id="10041" particle="graphics/emotes/tears.xml"/>
-
-   <!-- Add the data needed for the electricity boss battle. -->
+  <effect id="0" audio="sfx/system/levelup.ogg" particle="graphics/particles/levelup.particle.xml"/>
+  <effect id="1" audio="sfx/system/levelup.ogg" particle="graphics/particles/skillup.particle.xml"/>
+  <effect id="2" particle="graphics/particles/magic.generic.xml"/>
+  <!-- life -->
+  <effect id="3" particle="graphics/particles/magic.white.xml"/>
+  <!-- war -->
+  <effect id="4" particle="graphics/particles/magic.black.xml"/>
+  <!-- transmute -->
+  <effect id="5" particle="graphics/particles/magic.red.xml"/>
+  <!-- nature -->
+  <effect id="6" particle="graphics/particles/magic.green.xml"/>
+  <!-- astral -->
+  <effect id="7" particle="graphics/particles/magic.blue.xml"/>
+  <effect id="10" particle="graphics/particles/magic.default.xml"/>
+  <effect id="11" particle="graphics/particles/magic.shield.xml"/>
+  <!--  <effect id="12" particle="graphics/particles/magic.haste.xml"/>-->
+  <effect id="13" particle="graphics/particles/magic.hit.xml"/>
+  <effect id="14" particle="graphics/particles/magic.hit.evil.xml"/>
+  <effect id="15" particle="graphics/particles/fire-burst.xml"/>
+  <effect id="16" particle="graphics/particles/fire-explosion.xml"/>
+  <effect id="17" particle="graphics/particles/lightning1.xml"/>
+  <effect id="18" particle="graphics/particles/lightning2.xml"/>
+  <effect id="19" particle="graphics/particles/lightning3.xml"/>
+  <effect id="20" particle="graphics/particles/magic.teleport.xml"/>
+  <!--  <effect id="20" particle="graphics/particles/magic.barrier.xml"/> -->
+  <effect id="21" particle="graphics/particles/pentagram-buildup-short.xml"/>
+  <effect id="22" particle="graphics/particles/pentagram-burst.xml"/>
+  <effect id="24" particle="graphics/particles/magic.teleport.xml"/>
+  <effect id="25" particle="graphics/particles/rain.xml"/>
+  <effect id="26" particle="graphics/particles/hit.particle.xml"/>
+  <effect id="27" particle="graphics/particles/arrow-hail.xml"/>
+  <effect id="28" particle="graphics/particles/crit.particle.xml"/>
+  <effect id="30" particle="graphics/particles/large-explosion.xml"/>
+  <effect id="31" particle="graphics/particles/medium-explosion.xml"/>
+  <effect id="32" particle="graphics/particles/medium-smoke.xml"/>
+  <effect id="111" particle="graphics/particles/magic.shield-ends.xml"/>
+  <!-- <effect id="112" particle="graphics/particles/magic.haste-ends.xml"/>-->
+  <!-- <effect id="113" particle="graphics/particles/magic.barrier-ends.xml"/> -->
+  <effect id="114" particle="graphics/particles/electricity.red.xml"/>
+  <effect id="115" particle="graphics/particles/electricity.blue.xml"/>
+  <!-- Interactive Object Animations -->
+  <effect id="300" particle="graphics/particles/gate-opening.xml"/>
+  <effect id="301" particle="graphics/particles/casket-lid.xml"/>
+  <effect id="302" particle="graphics/particles/casket-monster.xml"/>
+  <!-- Monster attack particle effects -->
+  <effect id="400" particle="graphics/particles/monster-goblin-firebreath.particle.xml"/>
+  <effect id="401" particle="graphics/particles/monster-lizard-firebreath.particle.xml"/>
+  <!-- Emotion Effects -->
+  <effect id="10000" particle="graphics/emotes/disgust.xml"/>
+  <effect id="10001" particle="graphics/emotes/surprise.xml"/>
+  <effect id="10002" particle="graphics/emotes/happy.xml"/>
+  <effect id="10003" particle="graphics/emotes/sad.xml"/>
+  <effect id="10004" particle="graphics/emotes/evil.xml"/>
+  <effect id="10005" particle="graphics/emotes/wink.xml"/>
+  <effect id="10006" particle="graphics/emotes/angel.xml"/>
+  <effect id="10007" particle="graphics/emotes/blush.xml"/>
+  <effect id="10008" particle="graphics/emotes/tongue.xml"/>
+  <effect id="10009" particle="graphics/emotes/grin.xml"/>
+  <effect id="10010" particle="graphics/emotes/upset.xml"/>
+  <effect id="10011" particle="graphics/emotes/perturbed.xml"/>
+  <effect id="10012" particle="graphics/emotes/speech.xml"/>
+  <effect id="10013" particle="graphics/emotes/blah.xml"/>
+  <effect id="10014" particle="graphics/emotes/swear.xml"/>
+  <effect id="10015" particle="graphics/emotes/meow.xml"/>
+  <effect id="10016" particle="graphics/emotes/laugh.xml"/>
+  <effect id="10017" particle="graphics/emotes/cheerful.xml"/>
+  <effect id="10018" particle="graphics/emotes/love.xml"/>
+  <effect id="10019" particle="graphics/emotes/money.xml"/>
+  <effect id="10020" particle="graphics/emotes/sleep.xml"/>
+  <effect id="10021" particle="graphics/emotes/rest.xml"/>
+  <effect id="10022" particle="graphics/emotes/bothered.xml"/>
+  <effect id="10023" particle="graphics/emotes/afraid.xml"/>
+  <effect id="10024" particle="graphics/emotes/dead.xml"/>
+  <effect id="10025" particle="graphics/emotes/suspicious.xml"/>
+  <effect id="10026" particle="graphics/emotes/melancholy.xml"/>
+  <effect id="10027" particle="graphics/emotes/facepalm.xml"/>
+  <effect id="10028" particle="graphics/emotes/angry.xml"/>
+  <effect id="10029" particle="graphics/emotes/headache.xml"/>
+  <effect id="10030" particle="graphics/emotes/bored.xml"/>
+  <effect id="10031" particle="graphics/emotes/heart.xml"/>
+  <effect id="10032" particle="graphics/emotes/empty.xml"/>
+  <effect id="10033" particle="graphics/emotes/halloween.xml"/>
+  <effect id="10034" particle="graphics/emotes/vicious.xml"/>
+  <effect id="10035" particle="graphics/emotes/joyful.xml"/>
+  <effect id="10036" particle="graphics/emotes/clever.xml"/>
+  <effect id="10037" particle="graphics/emotes/shy.xml"/>
+  <effect id="10038" particle="graphics/emotes/alien.xml"/>
+  <effect id="10039" particle="graphics/emotes/curious.xml"/>
+  <effect id="10040" particle="graphics/emotes/pain.xml"/>
+  <effect id="10041" particle="graphics/emotes/tears.xml"/>
+  <!-- Add the data needed for the electricity boss battle. -->
 </being-effects>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <!--
     This file maps the NPC appearance IDs the server is sending to the spritesheet(s).
 
@@ -8,343 +8,884 @@
     IDs 100-199 should be used for unanimated NPCs (100 is added for 0.0 client compatibility)
 -->
 <npcs>
-<npc id="48"><sprite variant="61">npcs/npc.xml</sprite></npc><!-- Storage Master -->
-<npc id="49"><sprite variant="49">npcs/npc.xml</sprite></npc><!-- Storage Master (desert) -->
-
-<npc id="100"><sprite variant="0">npcs/npc.xml</sprite></npc><!-- Desert Barber -->
-<npc id="101"><sprite variant="1">npcs/npc.xml</sprite></npc><!-- Oriental trader -->
-<npc id="102"><sprite variant="2">npcs/npc.xml</sprite></npc><!-- The Trainer -->
-<npc id="103"><sprite variant="3">npcs/npc.xml</sprite></npc><!-- Guy in black cloak -->
-<npc id="104"><sprite variant="4">npcs/npc.xml</sprite></npc><!-- Soldier with sword -->
-<npc id="105"><sprite variant="5">npcs/npc.xml</sprite></npc><!-- Santa Clause -->
-<npc id="106"><sprite variant="6">npcs/npc.xml</sprite></npc><!-- Girl with pink hair and blue top -->
-<npc id="107"><sprite variant="7">npcs/npc.xml</sprite></npc><!-- Scholar guy with glasses -->
-<npc id="108"><sprite variant="8">npcs/npc.xml</sprite></npc><!-- Woman with green hair and pink dress -->
-<npc id="109"><sprite variant="9">npcs/npc.xml</sprite></npc><!-- Miner -->
-<npc id="110"><sprite variant="10">npcs/npc.xml</sprite></npc><!-- Soldier with spear -->
-<npc id="111"><sprite variant="11">npcs/npc.xml</sprite></npc><!-- Treasure chest -->
-<npc id="112"><sprite variant="12">npcs/npc.xml</sprite></npc><!-- Barkeeper -->
-<npc id="113"><sprite variant="13">npcs/npc.xml</sprite></npc><!-- Gnome with hat -->
-<npc id="114"><sprite variant="14">npcs/npc.xml</sprite></npc><!-- Little blue-haired girl -->
-<npc id="115"><sprite variant="15">npcs/npc.xml</sprite></npc><!-- Guy with red hair and green cloak -->
-<npc id="116"><sprite variant="16">npcs/npc.xml</sprite></npc><!-- Old geezer -->
-<npc id="117"><sprite variant="17">npcs/npc.xml</sprite></npc><!-- Boy with brown hair -->
-<npc id="118"><sprite variant="18">npcs/npc.xml</sprite></npc><!-- Nurse without hat -->
-<npc id="119"><sprite variant="19">npcs/npc.xml</sprite></npc><!-- Nurse with hat -->
-<npc id="120"><sprite variant="20">npcs/npc.xml</sprite></npc><!-- Guy with brown hair in plain clothes -->
-<npc id="121"><sprite variant="21">npcs/npc.xml</sprite></npc><!-- Soldier -->
-<npc id="122"><sprite variant="22">npcs/npc.xml</sprite></npc><!-- Soldier with sword and shield -->
-<npc id="123"><sprite variant="23">npcs/npc.xml</sprite></npc><!-- Soldier with sword, shield, and helmet -->
-<npc id="124"><sprite variant="24">npcs/npc.xml</sprite></npc><!-- Guy with black hair in plain clothes -->
-<npc id="125"><sprite variant="25">npcs/npc.xml</sprite></npc><!-- Guy with black clothes -->
-<npc id="126"><sprite variant="26">npcs/npc.xml</sprite></npc><!-- Guy with black clothes and axe -->
-<npc id="127"><sprite variant="27">npcs/npc.xml</sprite></npc><!-- empty (Invisible NPC) -->
-<npc id="128"><sprite variant="28">npcs/npc.xml</sprite></npc><!-- Nomad, standing -->
-<npc id="129"><sprite variant="29">npcs/npc.xml</sprite></npc><!-- Snowman -->
-<npc id="130"><sprite variant="30">npcs/npc.xml</sprite></npc><!-- Paperboy (wtf? how does this one fit in a fantasy game?) -->
-<npc id="131"><sprite variant="31">npcs/npc.xml</sprite></npc><!-- Nomad, sitting -->
-<npc id="132"><sprite variant="32">npcs/npc.xml</sprite><particlefx>graphics/particles/nomadpipe.particle.xml</particlefx></npc><!-- Nomad, sitting with pipe -->
-<npc id="133"><sprite variant="33">npcs/npc.xml</sprite></npc><!-- Captain Kirk -->
-<npc id="134"><sprite variant="34">npcs/npc.xml</sprite></npc><!-- Mr. Spock -->
-<npc id="135"><sprite variant="35">npcs/npc.xml</sprite></npc><!-- Guy with sword over shoulder -->
-<npc id="136"><sprite>npcs/npc-creepysurgeon.xml</sprite></npc><!-- Creepy surgeon guy -->
-<npc id="137"><sprite variant="37">npcs/npc.xml</sprite></npc><!-- Metrosexual guy with pink jacket on stool -->
-<npc id="138"><sprite variant="38">npcs/npc.xml</sprite></npc><!-- Zombie pirate captain-->
-<npc id="139"><sprite variant="39">npcs/npc.xml</sprite></npc><!-- Girl in playboy bunny costume -->
-<npc id="140"><sprite variant="40">npcs/npc.xml</sprite></npc><!-- Woman with green dress and apron -->
-<npc id="141"><sprite>npcs/npc-lumberjack.xml</sprite></npc><!-- Lumberjack -->
-<npc id="142"><sprite variant="42">npcs/npc.xml</sprite></npc><!-- Farmer -->
-<npc id="143"><sprite variant="43">npcs/npc.xml</sprite></npc><!-- Indian Chief-->
-<npc id="144"><sprite variant="44">npcs/npc.xml</sprite></npc><!-- Boulder -->
-<npc id="145"><sprite variant="45">npcs/npc.xml</sprite></npc><!-- Magic mouth -->
-<npc id="146"><sprite variant="46">npcs/npc.xml</sprite></npc><!-- Mechanic -->
-<npc id="147"><sprite variant="47">npcs/npc.xml</sprite></npc><!-- Mechanic with tool -->
-<npc id="148"><sprite variant="48">npcs/npc.xml</sprite></npc><!-- Chef -->
-<npc id="149"><sprite variant="49">npcs/npc.xml</sprite></npc><!-- Desert Banker -->
-<npc id="150"><sprite variant="50">npcs/npc.xml</sprite></npc><!-- Investigator -->
-<npc id="151"><sprite variant="51">npcs/npc.xml</sprite></npc><!-- Lora Tay -->
-<npc id="152"><sprite variant="52">npcs/npc.xml</sprite></npc><!-- Desert Bard -->
-<npc id="153"><sprite variant="53">npcs/npc.xml</sprite></npc><!-- Old Wizard -->
-<npc id="154"><sprite variant="54">npcs/npc.xml</sprite></npc><!-- Old Woman -->
-<npc id="155"><sprite variant="55">npcs/npc.xml</sprite></npc><!-- Construction Worker -->
-<npc id="156"><sprite variant="56">npcs/npc.xml</sprite></npc><!-- Desert Barber/Desert Man -->
-<npc id="157"><sprite variant="57">npcs/npc.xml</sprite></npc><!-- Trainer 2 -->
-<npc id="158"><sprite variant="58">npcs/npc.xml</sprite></npc><!-- Young Male Wizard -->
-<npc id="159"><sprite variant="59">npcs/npc.xml</sprite></npc><!-- Old man -->
-<npc id="160"><sprite variant="60">npcs/npc.xml</sprite></npc><!-- Generic Man -->
-<npc id="161"><sprite variant="61">npcs/npc.xml</sprite></npc><!-- Generic Banker -->
-<npc id="162"><sprite variant="62">npcs/npc.xml</sprite></npc><!-- Generic Desert Man -->
-<npc id="163"><sprite variant="63">npcs/npc.xml</sprite></npc><!-- Flower Girl -->
-<npc id="164"><sprite variant="64">npcs/npc.xml</sprite></npc><!-- Wedding Officiator -->
-<npc id="165"><sprite variant="65">npcs/npc.xml</sprite></npc><!-- Dimond/Magician -->
-<npc id="166"><sprite variant="66">npcs/npc.xml</sprite><particlefx>graphics/particles/manaseed.particle.xml</particlefx></npc><!-- Mana Seed -->
-<npc id="167"><sprite variant="67">npcs/npc.xml</sprite></npc><!-- Young Witch -->
-<npc id="168"><sprite variant="68">npcs/npc.xml</sprite></npc><!-- Middle-Aged Wizard -->
-<npc id="169"><sprite variant="69">npcs/npc.xml</sprite></npc><!-- Miner -->
-<npc id="170"><sprite variant="70">npcs/npc.xml</sprite></npc><!-- Christmas Reinboo -->
-<npc id="171"><sprite variant="71">npcs/npc.xml</sprite></npc><!-- Injured Mouboo -->
-<npc id="172"><sprite variant="72">npcs/npc.xml</sprite></npc><!-- Katze -->
-<npc id="173"><sprite variant="73">npcs/npc.xml</sprite></npc><!-- Easter Bunny -->
-<npc id="174"><sprite variant="74">npcs/npc.xml</sprite></npc><!-- Aisha, Omar's daughter -->
-<npc id="175"><sprite variant="75">npcs/npc.xml</sprite></npc><!-- Miriam the cat burglar -->
-<npc id="176"><sprite variant="76">npcs/npc.xml</sprite></npc><!-- Lou Rette the gambler -->
-<npc id="177"><sprite variant="77">npcs/npc.xml</sprite></npc><!-- Old Knight -->
-<npc id="178"><sprite variant="78">npcs/npc.xml</sprite></npc><!-- Karoua, Exiled Indian Chief -->
-<npc id="179"><sprite variant="79">npcs/npc.xml</sprite></npc><!-- Kesh, Karoua's wife -->
-<npc id="180"><sprite>npcs/npc-savannahman.xml</sprite></npc><!-- Blue Savannah Man with idle animation -->
-<npc id="181"><sprite variant="81">npcs/npc.xml</sprite></npc><!-- Green Savannah Man -->
-<npc id="182"><sprite variant="82">npcs/npc.xml</sprite></npc><!-- Young archer -->
-<npc id="183"><sprite variant="83">npcs/npc.xml</sprite></npc><!-- Skeleton man -->
-<npc id="184"><sprite variant="84">npcs/npc.xml</sprite></npc><!-- Doctor (10) -->
-<npc id="185"><sprite variant="44">npcs/npc.xml</sprite><particlefx>graphics/particles/evilobelisk.particle.xml</particlefx></npc><!-- Evil Obelisk -->
-<npc id="186"><sprite variant="85">npcs/npc.xml</sprite></npc><!-- warning sign for pvp  -->
-<npc id="187"><sprite variant="86">npcs/npc.xml</sprite></npc><!-- warning sign for pvp  -->
-<npc id="188"><sprite variant="87">npcs/npc.xml</sprite></npc><!-- Broken Skeleton (Hallowe'en 2010)-->
-<npc id="189"><sprite variant="88">npcs/npc.xml</sprite></npc><!-- Gambler -->
-<npc id="190"><sprite variant="89">npcs/npc.xml</sprite></npc><!-- Milka -->
-<npc id="191"><sprite variant="90">npcs/npc.xml</sprite></npc><!-- Braktar the Packrat -->
-<npc id="192"><sprite variant="91">npcs/npc.xml</sprite></npc><!-- ?-->
-<npc id="193"><sprite variant="92">npcs/npc.xml</sprite></npc><!-- Gambler -->
-<npc id="194"><sprite variant="93">npcs/npc.xml</sprite></npc><!-- ?-->
-<npc id="195"><sprite variant="94">npcs/npc.xml</sprite></npc><!-- Angela outside -->
-<npc id="196"><sprite variant="95">npcs/npc.xml</sprite></npc><!-- Angela inside -->
-<npc id="197"><sprite variant="96">npcs/npc.xml</sprite></npc><!-- Cindy inside -->
-<npc id="198"><sprite>npcs/npc-cindycage.xml</sprite></npc><!-- Cindy in cage -->
-
-<npc id="200">
-   <sprite>npcs/npc-test.xml</sprite>
-   <particlefx>graphics/particles/circle.particle.xml</particlefx>
-</npc>
-<npc id="201">
-   <!-- This entry demonstrates that an NPC can be constructed from multiple preexisting
+  <!-- Storage Master -->
+  <npc id="48">
+    <sprite variant="61">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Storage Master (desert) -->
+  <npc id="49">
+    <sprite variant="49">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Desert Barber -->
+  <npc id="100">
+    <sprite variant="0">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Oriental trader -->
+  <npc id="101">
+    <sprite variant="1">npcs/npc.xml</sprite>
+  </npc>
+  <!-- The Trainer -->
+  <npc id="102">
+    <sprite variant="2">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Guy in black cloak -->
+  <npc id="103">
+    <sprite variant="3">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Soldier with sword -->
+  <npc id="104">
+    <sprite variant="4">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Santa Clause -->
+  <npc id="105">
+    <sprite variant="5">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Girl with pink hair and blue top -->
+  <npc id="106">
+    <sprite variant="6">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Scholar guy with glasses -->
+  <npc id="107">
+    <sprite variant="7">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Woman with green hair and pink dress -->
+  <npc id="108">
+    <sprite variant="8">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Miner -->
+  <npc id="109">
+    <sprite variant="9">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Soldier with spear -->
+  <npc id="110">
+    <sprite variant="10">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Treasure chest -->
+  <npc id="111">
+    <sprite variant="11">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Barkeeper -->
+  <npc id="112">
+    <sprite variant="12">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Gnome with hat -->
+  <npc id="113">
+    <sprite variant="13">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Little blue-haired girl -->
+  <npc id="114">
+    <sprite variant="14">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Guy with red hair and green cloak -->
+  <npc id="115">
+    <sprite variant="15">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Old geezer -->
+  <npc id="116">
+    <sprite variant="16">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Boy with brown hair -->
+  <npc id="117">
+    <sprite variant="17">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Nurse without hat -->
+  <npc id="118">
+    <sprite variant="18">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Nurse with hat -->
+  <npc id="119">
+    <sprite variant="19">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Guy with brown hair in plain clothes -->
+  <npc id="120">
+    <sprite variant="20">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Soldier -->
+  <npc id="121">
+    <sprite variant="21">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Soldier with sword and shield -->
+  <npc id="122">
+    <sprite variant="22">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Soldier with sword, shield, and helmet -->
+  <npc id="123">
+    <sprite variant="23">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Guy with black hair in plain clothes -->
+  <npc id="124">
+    <sprite variant="24">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Guy with black clothes -->
+  <npc id="125">
+    <sprite variant="25">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Guy with black clothes and axe -->
+  <npc id="126">
+    <sprite variant="26">npcs/npc.xml</sprite>
+  </npc>
+  <!-- empty (Invisible NPC) -->
+  <npc id="127">
+    <sprite variant="27">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Nomad, standing -->
+  <npc id="128">
+    <sprite variant="28">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Snowman -->
+  <npc id="129">
+    <sprite variant="29">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Paperboy (wtf? how does this one fit in a fantasy game?) -->
+  <npc id="130">
+    <sprite variant="30">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Nomad, sitting -->
+  <npc id="131">
+    <sprite variant="31">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Nomad, sitting with pipe -->
+  <npc id="132">
+    <sprite variant="32">npcs/npc.xml</sprite>
+    <particlefx>graphics/particles/nomadpipe.particle.xml</particlefx>
+  </npc>
+  <!-- Captain Kirk -->
+  <npc id="133">
+    <sprite variant="33">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Mr. Spock -->
+  <npc id="134">
+    <sprite variant="34">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Guy with sword over shoulder -->
+  <npc id="135">
+    <sprite variant="35">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Creepy surgeon guy -->
+  <npc id="136">
+    <sprite>npcs/npc-creepysurgeon.xml</sprite>
+  </npc>
+  <!-- Metrosexual guy with pink jacket on stool -->
+  <npc id="137">
+    <sprite variant="37">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Zombie pirate captain-->
+  <npc id="138">
+    <sprite variant="38">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Girl in playboy bunny costume -->
+  <npc id="139">
+    <sprite variant="39">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Woman with green dress and apron -->
+  <npc id="140">
+    <sprite variant="40">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Lumberjack -->
+  <npc id="141">
+    <sprite>npcs/npc-lumberjack.xml</sprite>
+  </npc>
+  <!-- Farmer -->
+  <npc id="142">
+    <sprite variant="42">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Indian Chief-->
+  <npc id="143">
+    <sprite variant="43">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Boulder -->
+  <npc id="144">
+    <sprite variant="44">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Magic mouth -->
+  <npc id="145">
+    <sprite variant="45">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Mechanic -->
+  <npc id="146">
+    <sprite variant="46">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Mechanic with tool -->
+  <npc id="147">
+    <sprite variant="47">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Chef -->
+  <npc id="148">
+    <sprite variant="48">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Desert Banker -->
+  <npc id="149">
+    <sprite variant="49">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Investigator -->
+  <npc id="150">
+    <sprite variant="50">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Lora Tay -->
+  <npc id="151">
+    <sprite variant="51">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Desert Bard -->
+  <npc id="152">
+    <sprite variant="52">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Old Wizard -->
+  <npc id="153">
+    <sprite variant="53">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Old Woman -->
+  <npc id="154">
+    <sprite variant="54">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Construction Worker -->
+  <npc id="155">
+    <sprite variant="55">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Desert Barber/Desert Man -->
+  <npc id="156">
+    <sprite variant="56">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Trainer 2 -->
+  <npc id="157">
+    <sprite variant="57">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Young Male Wizard -->
+  <npc id="158">
+    <sprite variant="58">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Old man -->
+  <npc id="159">
+    <sprite variant="59">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Generic Man -->
+  <npc id="160">
+    <sprite variant="60">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Generic Banker -->
+  <npc id="161">
+    <sprite variant="61">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Generic Desert Man -->
+  <npc id="162">
+    <sprite variant="62">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Flower Girl -->
+  <npc id="163">
+    <sprite variant="63">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Wedding Officiator -->
+  <npc id="164">
+    <sprite variant="64">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Dimond/Magician -->
+  <npc id="165">
+    <sprite variant="65">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Mana Seed -->
+  <npc id="166">
+    <sprite variant="66">npcs/npc.xml</sprite>
+    <particlefx>graphics/particles/manaseed.particle.xml</particlefx>
+  </npc>
+  <!-- Young Witch -->
+  <npc id="167">
+    <sprite variant="67">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Middle-Aged Wizard -->
+  <npc id="168">
+    <sprite variant="68">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Miner -->
+  <npc id="169">
+    <sprite variant="69">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Christmas Reinboo -->
+  <npc id="170">
+    <sprite variant="70">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Injured Mouboo -->
+  <npc id="171">
+    <sprite variant="71">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Katze -->
+  <npc id="172">
+    <sprite variant="72">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Easter Bunny -->
+  <npc id="173">
+    <sprite variant="73">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Aisha, Omar's daughter -->
+  <npc id="174">
+    <sprite variant="74">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Miriam the cat burglar -->
+  <npc id="175">
+    <sprite variant="75">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Lou Rette the gambler -->
+  <npc id="176">
+    <sprite variant="76">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Old Knight -->
+  <npc id="177">
+    <sprite variant="77">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Karoua, Exiled Indian Chief -->
+  <npc id="178">
+    <sprite variant="78">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Kesh, Karoua's wife -->
+  <npc id="179">
+    <sprite variant="79">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Blue Savannah Man with idle animation -->
+  <npc id="180">
+    <sprite>npcs/npc-savannahman.xml</sprite>
+  </npc>
+  <!-- Green Savannah Man -->
+  <npc id="181">
+    <sprite variant="81">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Young archer -->
+  <npc id="182">
+    <sprite variant="82">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Skeleton man -->
+  <npc id="183">
+    <sprite variant="83">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Doctor (10) -->
+  <npc id="184">
+    <sprite variant="84">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Evil Obelisk -->
+  <npc id="185">
+    <sprite variant="44">npcs/npc.xml</sprite>
+    <particlefx>graphics/particles/evilobelisk.particle.xml</particlefx>
+  </npc>
+  <!-- warning sign for pvp  -->
+  <npc id="186">
+    <sprite variant="85">npcs/npc.xml</sprite>
+  </npc>
+  <!-- warning sign for pvp  -->
+  <npc id="187">
+    <sprite variant="86">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Broken Skeleton (Hallowe'en 2010)-->
+  <npc id="188">
+    <sprite variant="87">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Gambler -->
+  <npc id="189">
+    <sprite variant="88">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Milka -->
+  <npc id="190">
+    <sprite variant="89">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Braktar the Packrat -->
+  <npc id="191">
+    <sprite variant="90">npcs/npc.xml</sprite>
+  </npc>
+  <!-- ?-->
+  <npc id="192">
+    <sprite variant="91">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Gambler -->
+  <npc id="193">
+    <sprite variant="92">npcs/npc.xml</sprite>
+  </npc>
+  <!-- ?-->
+  <npc id="194">
+    <sprite variant="93">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Angela outside -->
+  <npc id="195">
+    <sprite variant="94">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Angela inside -->
+  <npc id="196">
+    <sprite variant="95">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Cindy inside -->
+  <npc id="197">
+    <sprite variant="96">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Cindy in cage -->
+  <npc id="198">
+    <sprite>npcs/npc-cindycage.xml</sprite>
+  </npc>
+  <npc id="200">
+    <sprite>npcs/npc-test.xml</sprite>
+    <particlefx>graphics/particles/circle.particle.xml</particlefx>
+  </npc>
+  <npc id="201">
+    <!-- This entry demonstrates that an NPC can be constructed from multiple preexisting
    spritesets. While using the default player sprite and normal player equipment can save
    time it is usually better to create a new NPC as one graphic from scratch. -->
-   <sprite>player_female_base.xml</sprite>
-   <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
-   <sprite>equipment/legs/chaps-female.xml</sprite>
-   <sprite>equipment/chest/shorttanktop-female.xml</sprite>
-   <sprite>hairstyles/hairstyle11.xml|#bb2222,ffee33</sprite>
-</npc>
-<npc id="202">
-   <!-- An NPC made only from a particle effect. -->
-   <particlefx>graphics/particles/hellblaze.particle.xml</particlefx>
-</npc>
-<npc id="203"><sprite>npcs/npc-woodenpump.xml</sprite></npc><!-- Woodenpump with drippy water -->
-<npc id="204"><sprite variant="27">npcs/npc.xml</sprite><particlefx>graphics/particles/golbenez.particle.xml</particlefx></npc>
-<!-- The entries 205-215 borrow concepts from npc id 201, which should not be regularly done. -->
-<npc id="205">
-   <sprite>player_female_base.xml</sprite>
-   <sprite>hairstyles/hairstyle01.xml|#347235,52D017</sprite>
-   <sprite>equipment/head/goggles.xml</sprite>
-   <sprite>equipment/legs/skirt.xml|#d3b79e,ffffff</sprite>
-   <sprite>equipment/chest/tanktop-female.xml|#d3b79e,ffffff</sprite>
-   <sprite>equipment/feet/boots-female.xml|#9e7654,ffffff</sprite>
-</npc>
-<npc id="206">
-   <sprite>player_female_base.xml</sprite>
-   <sprite>hairstyles/hairstyle10.xml|#7F462C,F9966B</sprite>
-   <sprite>equipment/chest/cotton-female.xml|#B93B8F,C38EC7,F9B7FF</sprite>
-   <sprite>equipment/legs/skirt.xml|#AF7817,E8A317</sprite>
-   <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
-</npc>
-<npc id="207">
-   <sprite>player_female_base.xml</sprite>
-   <sprite>hairstyles/hairstyle11.xml|#C8B560,FFE87C</sprite>
-   <sprite>equipment/chest/robe-female.xml|#7F5217,AF7817,E9AB17,FBB917</sprite>
-   <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
-</npc>
-<npc id="208">
-   <sprite>player_female_base.xml</sprite>
-   <sprite>hairstyles/hairstyle09.xml|#3B9C9C,AFDCEC</sprite>
-   <sprite>equipment/head/wizard-hat.xml|#4f0a76,8010c0,d699f7</sprite>
-   <sprite>equipment/chest/robe-female.xml|#4f0a76,8010c0,d699f7</sprite>
-   <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
-   <sprite>weapon-staff.xml</sprite>
-</npc>
-<npc id="209">
-   <sprite>player_female_base.xml</sprite>
-   <sprite>hairstyles/hairstyle12.xml|#573a26,ffffff</sprite>
-   <sprite>equipment/chest/cotton-female.xml|#573a26,9e7654,d3b79e,ffffff</sprite>
-   <sprite>equipment/legs/miniskirt-female.xml|#251e06,443c21,71653b,a0945e</sprite>
-   <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
-</npc>
-<npc id="210">
-   <sprite>player_female_base.xml</sprite>
-   <sprite>hairstyles/hairstyle04.xml|#810541,F535AA</sprite>
-   <sprite>equipment/legs/chaps-female.xml</sprite>
-   <sprite>equipment/chest/tanktop-female.xml|#846211,dab333,fffb93,ffffff</sprite>
-   <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
-</npc>
-<npc id="211">
-   <sprite>player_male_base.xml</sprite>
-   <sprite>hairstyles/hairstyle07.xml|#bb2222,ffee33</sprite>
-   <sprite>equipment/legs/shorts-male.xml|#255367,266c84,68b0c5,ffffff</sprite>
-   <sprite>equipment/chest/tanktop-male.xml|#a4b2b2,ffffff</sprite>
-   <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
-</npc>
-<npc id="212">
-   <sprite>player_male_base.xml</sprite>
-   <sprite>hairstyles/hairstyle08.xml|#EE9A4D,ffee33</sprite>
-   <sprite>equipment/head/captain-hat.xml</sprite>
-   <sprite>equipment/legs/shorts-male.xml|#a4b2b2,ffffff</sprite>
-   <sprite>equipment/chest/vnecksweater-male.xml|#a4b2b2,ffffff</sprite>
-   <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
-</npc>
-<npc id="213">
-   <sprite>player_male_base.xml</sprite>
-   <sprite>hairstyles/hairstyle02.xml|#254117,ffee33</sprite>
-   <sprite>equipment/head/sailor-hat.xml</sprite>
-   <sprite>equipment/legs/shorts-male.xml|#a4b2b2,ffffff</sprite>
-   <sprite>equipment/chest/tanktop-male.xml|#a4b2b2,ffffff</sprite>
-   <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
-</npc>
-<npc id="214">
-   <sprite>player_male_base.xml</sprite>
-   <sprite>hairstyles/hairstyle18.xml|#817339,FFE87C</sprite>
-   <sprite>equipment/head/silkheadband.xml</sprite>
-   <sprite>equipment/legs/shorts-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
-   <sprite>equipment/chest/tanktop-male.xml|#16486e,498ec5,e4f2fc</sprite>
-   <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
-</npc>
-<npc id="215">
-   <sprite>player_male_base.xml</sprite>
-   <sprite>hairstyles/hairstyle02.xml|#F88017,FBB117</sprite>
-   <sprite>equipment/legs/chaps-male.xml</sprite>
-   <sprite>equipment/chest/cotton-male.xml|#222255,6666ff</sprite>
-   <sprite>equipment/head/bowler-hat-brown.xml|#16486e,498ec5,e4f2fc</sprite>
-   <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
-</npc>
-<!-- ***216-250 reserved for huge npcs*** -->
-<npc id="216"><sprite variant="0">npcs/hugenpcs.xml</sprite></npc><!-- Barbarian with mouboohat-->
-<npc id="217"><sprite variant="1">npcs/hugenpcs.xml</sprite></npc><!-- Barbarian with helmet and huge axe-->
-<npc id="218"><sprite variant="2">npcs/hugenpcs.xml</sprite></npc><!-- Barbarian with spear-->
-<!-- ***251-299 reserved for pose/outfit NPCs using sprite layering and image dyeing techniques. Because all 7 image channels are active, #ffffff (pure white) is a placeholder color for image dyeing channels not used in the outfit.  The order of image channels is: White, Yellow, Green, Cyan, Blue, Magenta and Red.*** -->
-<npc id="251">
-   <sprite variant="0">npcs/outfits.xml|#ffffff;#feffab;#25383c;#00ff00;#ff0000;#ffff00;#736f6e</sprite>
-</npc> <!-- Christmas Saboteur -->
-<npc id="252">
-   <sprite variant="6">npcs/poses.xml</sprite>
-   <sprite variant="1">npcs/outfits.xml|#636342;#ebec9a;#ffffff;#ffffff;#4b8342;#ffffff;#ea983f</sprite>
-</npc> <!-- Female therminor with orange hat, green outfit -->
-<npc id="253">
-   <sprite variant="6">npcs/poses.xml</sprite>
-   <sprite variant="2">npcs/outfits.xml|#636342;#ebec9a;#949400;#ffffff;#4b8342;#ffffff;#ea983f</sprite>
-</npc> <!-- Male therminor with orange hat, green outfit. Bald and beardless. -->
-<npc id="254">
-   <sprite variant="6">npcs/poses.xml</sprite>
-   <sprite variant="3">npcs/outfits.xml|#636342;#ebec9a;#949400;#ffffff;#4b8342;#ffffff;#ea983f</sprite>
-</npc> <!-- Male therminor with orange hat, green outfit. Balding and long beard.-->
-<npc id="255">
-   <sprite variant="6">npcs/poses.xml</sprite>
-   <sprite variant="1">npcs/outfits.xml|#636342;#ebec9a;#ffffff;#ffffff;#4b8342;#ffffff;#ea983f</sprite>
-</npc> <!-- Male therminor with orange hat, green outfit. Long hair, short beard. -->
-<npc id="256">
-   <sprite variant="0">npcs/childposes.xml</sprite>
-   <sprite variant="0">npcs/childoutfits.xml|#ed9ecc;#641616;#ffffff;#ffffff;#ed9ecc;#ffffff;#ffffff</sprite>
-</npc> <!-- Female child with red dress with pink flowers, red shoes.  Pink hair in a bun.. -->
-<npc id="257">
-   <sprite variant="1">npcs/childposes.xml</sprite>
-   <sprite variant="1">npcs/childoutfits.xml|#d9980b;#856011;#727b10;#e1d403;#ffffff;#ffffff;#ffffff</sprite>
-</npc> <!-- Male child crying, with dull green pants, yellow shirt under dark brown dungarees.  Short light orange hair. -->
-<npc id="258">
-   <sprite variant="1">npcs/childposes.xml</sprite>
-   <sprite variant="2">npcs/childoutfits.xml|#5b4976;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#36a1bc</sprite>
-</npc> <!-- Female child crying, with light blue dress.  Purple hair up in two ponytails. -->
-<npc id="259">
-   <sprite variant="3">npcs/childposes.xml</sprite>
-   <sprite variant="3">npcs/childoutfits.xml|#962222;#665204;#c68319;#ffffff;#ffffff;#ffffff;#ffffff</sprite>
-</npc> <!-- Male child lying on stomach, with brown shirt, green pants.  Short red hair. -->
-<npc id="260">
-   <sprite variant="4">npcs/childposes.xml</sprite>
-   <sprite variant="4">npcs/childoutfits.xml|#dbd41e;#dbd41e;#ffffff;#ffffff;#ffffff;#8c5a9a;#ffffff</sprite>
-</npc> <!-- Female child standing holding lollipop, with dull purple dress, yellow leggings, dull purple shoes.  Yellow hair in two ponytails. -->
-<npc id="261">
-   <sprite variant="4">npcs/childposes.xml</sprite>
-   <sprite variant="5">npcs/childoutfits.xml|#ac9619;#ac9619;#a63e0b;#ffffff;#2f702f;#ffffff;#5e9326</sprite>
-</npc> <!-- Male child standing holding lollipop, with green tanktop, red/brown shorts, yellow leggings, green shoes.  Short dark yellow hair. -->
-<npc id="262">
-   <sprite variant="5">npcs/childposes.xml</sprite>
-   <sprite variant="6">npcs/childoutfits.xml|#326632;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff</sprite>
-</npc> <!-- Male child hiding behind a crate.  Spiky green hair. -->
-<npc id="263">
-   <sprite variant="2">npcs/childposes.xml</sprite>
-   <sprite variant="7">npcs/childoutfits.xml|#3d3d63;#ffffff;#ffffff;#ffffff;#542d63;#282858;#850707</sprite>
-</npc> <!-- Male child standing, with dark red shirt, dark blue pants, purple shoes. Spiky dark blue hair. -->
-<npc id="264">
-   <sprite variant="2">npcs/childposes.xml</sprite>
-   <sprite variant="8">npcs/childoutfits.xml|#ffffff;#4d2e10;#ffffff;#ffffff;#c36508;#ffffff;#c36508</sprite>
-</npc> <!-- Male child standing, in orange hoodie, dark brown pants, orange shoes. -->
-<npc id="265">
-   <sprite variant="2">npcs/childposes.xml</sprite>
-   <sprite variant="9">npcs/childoutfits.xml|#328abc;#ffffff;#ffffff;#ffffff;#cb1c66;#112f57;#cb1c7b</sprite>
-</npc> <!-- Female child standing, with pink shirt, navy blue pants, pink shoes.  Light blue/cyan hair.  -->
-<npc id="300"><sprite variant="0">npcs/npc2.xml</sprite></npc><!-- Chef Skeleton -->
-<npc id="301"><sprite variant="1">npcs/npc2.xml</sprite></npc><!-- Barmaid -->
-<npc id="302"><sprite variant="2">npcs/npc2.xml</sprite></npc><!-- Shopkeeper -->
-<npc id="303"><sprite variant="3">npcs/npc2.xml</sprite></npc><!-- Drunk Lover -->
-<npc id="304"><sprite variant="4">npcs/npc2.xml</sprite></npc><!-- Magic Undead Shop -->
-<npc id="305"><sprite variant="5">npcs/npc2.xml</sprite></npc><!-- Werewolf -->
-<npc id="306"><sprite variant="6">npcs/npc2.xml</sprite></npc><!-- Chef's helper -->
-<npc id="307"><sprite variant="7">npcs/npc2.xml</sprite></npc><!-- Horned mage -->
-<npc id="308"><sprite variant="8">npcs/npc2.xml</sprite></npc><!-- Drunker -->
-<npc id="309"><sprite variant="9">npcs/npc2.xml</sprite></npc><!-- Chief Barman -->
-<npc id="310"><sprite variant="10">npcs/npc2.xml</sprite></npc><!-- Barman -->
-<npc id="311"><sprite variant="11">npcs/npc2.xml</sprite></npc><!-- SwordGuy -->
-<npc id="312"><sprite>npcs/npc-beerguyghost.xml</sprite></npc><!-- Ghost from a dead drunker -->
-<npc id="313"><sprite>npcs/npc-chronos.xml</sprite></npc><!-- A rich Undead -->
-<npc id="314"><sprite>npcs/npc-cryingchild.xml</sprite></npc><!-- Crying Child -->
-<npc id="315"><sprite>npcs/npc-ghostinnkeeper.xml</sprite></npc><!-- Innkeeper's Ghost -->
-<npc id="316"><sprite>npcs/npc-guard.xml</sprite></npc><!-- Evil Guard -->
-<npc id="317"><sprite>npcs/npc-headhang.xml</sprite></npc><!-- A headhang lover -->
-<npc id="318"><sprite>npcs/npc-headless.xml</sprite></npc><!-- A headless lover -->
-<npc id="319"><sprite>npcs/npc-lightman.xml</sprite></npc><!-- Lightman -->
-<npc id="320"><sprite>npcs/npc-receptionist.xml</sprite></npc><!-- A bloody Receptionist -->
-<npc id="321"><sprite>npcs/npc-undeadbanker.xml</sprite></npc><!-- Undead banker -->
-<npc id="322"><sprite>npcs/npc-gate-closed.xml</sprite></npc><!-- Closed version of the crypt entrance gate -->
-<npc id="323"><sprite>npcs/npc-gate-open.xml</sprite></npc><!-- Open version of the crypt entrance gate -->
-<npc id="324"><particlefx>graphics/particles/pentagram-redlinedraw.particle.xml</particlefx></npc>
-<npc id="325"><particlefx>graphics/particles/pentagram-blacklinedraw.particle.xml</particlefx></npc>
-<npc id="326"><sprite>npcs/npc-dyer.xml</sprite></npc><!-- Dyer -->
-<npc id="327"><sprite>npcs/evil-obelisk.xml</sprite></npc><!-- Evil Obelisk -->
-<npc id="328"><sprite variant="0">npcs/christmas_npcs.xml</sprite></npc><!-- Elf -->
-<npc id="329"><sprite variant="1">npcs/christmas_npcs.xml</sprite></npc><!-- Cloaked Elf -->
-<npc id="330"><sprite variant="2">npcs/christmas_npcs.xml</sprite></npc><!-- Nutcracker -->
-<npc id="331"><sprite variant="3">npcs/christmas_npcs.xml</sprite></npc> <!-- Santaboo -->
-<npc id="332"><sprite variant="4">npcs/christmas_npcs.xml</sprite></npc><!-- Bodyguard Elf1 -->
-<npc id="333"><sprite variant="5">npcs/christmas_npcs.xml</sprite></npc><!-- Bodyguard Elf2 -->
-<npc id="334"><sprite variant="6">npcs/christmas_npcs.xml</sprite></npc><!-- Bodyguard Elf3 -->
-<npc id="335"><sprite variant="7">npcs/christmas_npcs.xml</sprite></npc><!-- Bodyguard Elf4 -->
-<npc id="336"><sprite variant="12">npcs/npc2.xml</sprite></npc><!-- Bunny with a Bowler Hat -->
-<npc id="337"><sprite variant="0">npcs/thermin_npcs.xml</sprite></npc><!-- Fortune Teller -->
-<npc id="338"><sprite variant="1">npcs/thermin_npcs.xml</sprite></npc><!-- Steam Punk -->
-<npc id="339"><sprite>npcs/furnace.xml</sprite></npc><!-- Furnace -->
-<npc id="340"><sprite variant="36">npcs/npc.xml</sprite></npc><!-- Female Miner -->
-<npc id="341"><sprite variant="41">npcs/npc.xml</sprite></npc><!-- Furnace NPC without furniture -->
-<npc id="342"><sprite variant="97">npcs/npc.xml</sprite></npc><!-- Fortune Teller without furniture -->
-<npc id="343"><sprite>npcs/shapeshifter.xml</sprite></npc><!-- Shapeshifter -->
-<npc id="344"><sprite variant="0">npcs/soulmenhirs.xml</sprite><particlefx>graphics/particles/soulmenhir.particle.xml</particlefx></npc><!-- Soul Menhir - Forest -->
-<npc id="345"><sprite variant="1">npcs/soulmenhirs.xml</sprite><particlefx>graphics/particles/soulmenhir.particle.xml</particlefx></npc><!-- Soul Menhir - Desert -->
-<npc id="346"><sprite variant="2">npcs/soulmenhirs.xml</sprite><particlefx>graphics/particles/soulmenhir.particle.xml</particlefx></npc><!-- Soul Menhir - Snow -->
-<npc id="347"><sprite variant="3">npcs/soulmenhirs.xml</sprite><particlefx>graphics/particles/soulmenhir.particle.xml</particlefx></npc><!-- Soul Menhir - Cave -->
-<npc id="348"><sprite variant="4">npcs/soulmenhirs.xml</sprite><particlefx>graphics/particles/soulmenhir.particle.xml</particlefx></npc><!-- Soul Menhir - Thermin Cave -->
-<npc id="349"><sprite variant="5">npcs/soulmenhirs.xml</sprite><particlefx>graphics/particles/soulmenhir.particle.xml</particlefx></npc><!-- Soul Menhir - Savannah -->
-<npc id="350"><sprite variant="6">npcs/soulmenhirs.xml</sprite><particlefx>graphics/particles/soulmenhir.particle.xml</particlefx></npc><!-- Soul Menhir - Woodland -->
-<npc id="351"><sprite variant="7">npcs/soulmenhirs.xml</sprite><particlefx>graphics/particles/soulmenhir.particle.xml</particlefx></npc><!-- Soul Menhir - Lava Cave -->
-<npc id="352"><sprite variant="2">npcs/thermin_npcs.xml</sprite></npc><!-- Woman in pink dress and white hair, wearing a circlet -->
-<npc id="353"><sprite variant="3">npcs/thermin_npcs.xml</sprite></npc><!-- Man with armor, helmet and a white beard -->
-<npc id="354"><sprite>npcs/sittingsage.xml</sprite></npc><!-- Blond man with blue robe sitting and holding a scroll which is written on by a flying quill -->
-<npc id="355"><sprite variant="0">npcs/sages.xml</sprite></npc><!-- Man wearing a grey robe with pink borders and a similiar cap, holding a staff -->
-<npc id="356"><sprite variant="1">npcs/sages.xml</sprite></npc><!-- Woman wearing orange clothing with white borders and a witch hat, holding a wand -->
-<npc id="357"><sprite variant="2">npcs/sages.xml</sprite></npc><!-- Woman wearing red clothing with white borders and a witch hat, one hand on her hip -->
-<npc id="358"><sprite variant="3">npcs/sages.xml</sprite></npc><!-- Old man with long beard, wearing green clothing with white borders, holding a staff -->
-<npc id="359"><sprite variant="4">npcs/sages.xml</sprite></npc><!-- Woman wearing purple and yellow dress wearing a mob-cap -->
-<npc id="360"><sprite variant="5">npcs/sages.xml</sprite></npc><!-- Man with green beard wearing a yellow robe with white borders and having a bird flying over his hand -->
-<npc id="361"><sprite variant="6">npcs/sages.xml</sprite></npc><!-- Man wearing a black and red robe, a monster skull helmet and holding a staff -->
-<npc id="362"><sprite variant="7">npcs/sages.xml</sprite></npc><!-- Man with brown hair, short beard, wearing blue clothes with white borders, leaning on a cane -->
-<npc id="363"><sprite variant="8">npcs/sages.xml</sprite></npc><!-- Woman wearing blue clothes with white borders (helper) -->
-<npc id="364"><sprite variant="9">npcs/sages.xml</sprite></npc><!-- Bald Man with red-brown robe and circlet, hands folded-->
-<npc id="365"><sprite variant="10">npcs/sages.xml</sprite></npc><!-- Man with short beard and white-blue clothes including cape (helper) -->
-<npc id="366"><sprite variant="11">npcs/sages.xml</sprite></npc><!-- Man with short beard and white-blue clothes (helper) -->
-<!-- Put new unique sprites above here.  For huge npcs, see range 216-250. For poses/outfits npcs, see 251-299 -->
-<!-- note: don't go above 999, because the 1000's are reserved for mob id -->
+    <sprite>player_female_base.xml</sprite>
+    <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
+    <sprite>equipment/legs/chaps-female.xml</sprite>
+    <sprite>equipment/chest/shorttanktop-female.xml</sprite>
+    <sprite>hairstyles/hairstyle11.xml|#bb2222,ffee33</sprite>
+  </npc>
+  <npc id="202">
+    <!-- An NPC made only from a particle effect. -->
+    <particlefx>graphics/particles/hellblaze.particle.xml</particlefx>
+  </npc>
+  <!-- Woodenpump with drippy water -->
+  <npc id="203">
+    <sprite>npcs/npc-woodenpump.xml</sprite>
+  </npc>
+  <npc id="204">
+    <sprite variant="27">npcs/npc.xml</sprite>
+    <particlefx>graphics/particles/golbenez.particle.xml</particlefx>
+  </npc>
+  <!-- The entries 205-215 borrow concepts from npc id 201, which should not be regularly done. -->
+  <npc id="205">
+    <sprite>player_female_base.xml</sprite>
+    <sprite>hairstyles/hairstyle01.xml|#347235,52D017</sprite>
+    <sprite>equipment/head/goggles.xml</sprite>
+    <sprite>equipment/legs/skirt.xml|#d3b79e,ffffff</sprite>
+    <sprite>equipment/chest/tanktop-female.xml|#d3b79e,ffffff</sprite>
+    <sprite>equipment/feet/boots-female.xml|#9e7654,ffffff</sprite>
+  </npc>
+  <npc id="206">
+    <sprite>player_female_base.xml</sprite>
+    <sprite>hairstyles/hairstyle10.xml|#7F462C,F9966B</sprite>
+    <sprite>equipment/chest/cotton-female.xml|#B93B8F,C38EC7,F9B7FF</sprite>
+    <sprite>equipment/legs/skirt.xml|#AF7817,E8A317</sprite>
+    <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
+  </npc>
+  <npc id="207">
+    <sprite>player_female_base.xml</sprite>
+    <sprite>hairstyles/hairstyle11.xml|#C8B560,FFE87C</sprite>
+    <sprite>equipment/chest/robe-female.xml|#7F5217,AF7817,E9AB17,FBB917</sprite>
+    <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
+  </npc>
+  <npc id="208">
+    <sprite>player_female_base.xml</sprite>
+    <sprite>hairstyles/hairstyle09.xml|#3B9C9C,AFDCEC</sprite>
+    <sprite>equipment/head/wizard-hat.xml|#4f0a76,8010c0,d699f7</sprite>
+    <sprite>equipment/chest/robe-female.xml|#4f0a76,8010c0,d699f7</sprite>
+    <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
+    <sprite>weapon-staff.xml</sprite>
+  </npc>
+  <npc id="209">
+    <sprite>player_female_base.xml</sprite>
+    <sprite>hairstyles/hairstyle12.xml|#573a26,ffffff</sprite>
+    <sprite>equipment/chest/cotton-female.xml|#573a26,9e7654,d3b79e,ffffff</sprite>
+    <sprite>equipment/legs/miniskirt-female.xml|#251e06,443c21,71653b,a0945e</sprite>
+    <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
+  </npc>
+  <npc id="210">
+    <sprite>player_female_base.xml</sprite>
+    <sprite>hairstyles/hairstyle04.xml|#810541,F535AA</sprite>
+    <sprite>equipment/legs/chaps-female.xml</sprite>
+    <sprite>equipment/chest/tanktop-female.xml|#846211,dab333,fffb93,ffffff</sprite>
+    <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
+  </npc>
+  <npc id="211">
+    <sprite>player_male_base.xml</sprite>
+    <sprite>hairstyles/hairstyle07.xml|#bb2222,ffee33</sprite>
+    <sprite>equipment/legs/shorts-male.xml|#255367,266c84,68b0c5,ffffff</sprite>
+    <sprite>equipment/chest/tanktop-male.xml|#a4b2b2,ffffff</sprite>
+    <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
+  </npc>
+  <npc id="212">
+    <sprite>player_male_base.xml</sprite>
+    <sprite>hairstyles/hairstyle08.xml|#EE9A4D,ffee33</sprite>
+    <sprite>equipment/head/captain-hat.xml</sprite>
+    <sprite>equipment/legs/shorts-male.xml|#a4b2b2,ffffff</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml|#a4b2b2,ffffff</sprite>
+    <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
+  </npc>
+  <npc id="213">
+    <sprite>player_male_base.xml</sprite>
+    <sprite>hairstyles/hairstyle02.xml|#254117,ffee33</sprite>
+    <sprite>equipment/head/sailor-hat.xml</sprite>
+    <sprite>equipment/legs/shorts-male.xml|#a4b2b2,ffffff</sprite>
+    <sprite>equipment/chest/tanktop-male.xml|#a4b2b2,ffffff</sprite>
+    <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
+  </npc>
+  <npc id="214">
+    <sprite>player_male_base.xml</sprite>
+    <sprite>hairstyles/hairstyle18.xml|#817339,FFE87C</sprite>
+    <sprite>equipment/head/silkheadband.xml</sprite>
+    <sprite>equipment/legs/shorts-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+    <sprite>equipment/chest/tanktop-male.xml|#16486e,498ec5,e4f2fc</sprite>
+    <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
+  </npc>
+  <npc id="215">
+    <sprite>player_male_base.xml</sprite>
+    <sprite>hairstyles/hairstyle02.xml|#F88017,FBB117</sprite>
+    <sprite>equipment/legs/chaps-male.xml</sprite>
+    <sprite>equipment/chest/cotton-male.xml|#222255,6666ff</sprite>
+    <sprite>equipment/head/bowler-hat-brown.xml|#16486e,498ec5,e4f2fc</sprite>
+    <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
+  </npc>
+  <!-- ***216-250 reserved for huge npcs*** -->
+  <!-- Barbarian with mouboohat-->
+  <npc id="216">
+    <sprite variant="0">npcs/hugenpcs.xml</sprite>
+  </npc>
+  <!-- Barbarian with helmet and huge axe-->
+  <npc id="217">
+    <sprite variant="1">npcs/hugenpcs.xml</sprite>
+  </npc>
+  <!-- Barbarian with spear-->
+  <npc id="218">
+    <sprite variant="2">npcs/hugenpcs.xml</sprite>
+  </npc>
+  <!-- ***251-299 reserved for pose/outfit NPCs using sprite layering and image dyeing techniques. Because all 7 image channels are active, #ffffff (pure white) is a placeholder color for image dyeing channels not used in the outfit.  The order of image channels is: White, Yellow, Green, Cyan, Blue, Magenta and Red.*** -->
+  <!-- Christmas Saboteur -->
+  <npc id="251">
+    <sprite variant="0">npcs/outfits.xml|#ffffff;#feffab;#25383c;#00ff00;#ff0000;#ffff00;#736f6e</sprite>
+  </npc>
+  <!-- Female therminor with orange hat, green outfit -->
+  <npc id="252">
+    <sprite variant="6">npcs/poses.xml</sprite>
+    <sprite variant="1">npcs/outfits.xml|#636342;#ebec9a;#ffffff;#ffffff;#4b8342;#ffffff;#ea983f</sprite>
+  </npc>
+  <!-- Male therminor with orange hat, green outfit. Bald and beardless. -->
+  <npc id="253">
+    <sprite variant="6">npcs/poses.xml</sprite>
+    <sprite variant="2">npcs/outfits.xml|#636342;#ebec9a;#949400;#ffffff;#4b8342;#ffffff;#ea983f</sprite>
+  </npc>
+  <!-- Male therminor with orange hat, green outfit. Balding and long beard.-->
+  <npc id="254">
+    <sprite variant="6">npcs/poses.xml</sprite>
+    <sprite variant="3">npcs/outfits.xml|#636342;#ebec9a;#949400;#ffffff;#4b8342;#ffffff;#ea983f</sprite>
+  </npc>
+  <!-- Male therminor with orange hat, green outfit. Long hair, short beard. -->
+  <npc id="255">
+    <sprite variant="6">npcs/poses.xml</sprite>
+    <sprite variant="1">npcs/outfits.xml|#636342;#ebec9a;#ffffff;#ffffff;#4b8342;#ffffff;#ea983f</sprite>
+  </npc>
+  <!-- Female child with red dress with pink flowers, red shoes. Pink hair in a bun. -->
+  <npc id="256">
+    <sprite variant="0">npcs/childposes.xml</sprite>
+    <sprite variant="0">npcs/childoutfits.xml|#ed9ecc;#641616;#ffffff;#ffffff;#ed9ecc;#ffffff;#ffffff</sprite>
+  </npc>
+  <!-- Male child crying, with dull green pants, yellow shirt under dark brown dungarees. Short light orange hair. -->
+  <npc id="257">
+    <sprite variant="1">npcs/childposes.xml</sprite>
+    <sprite variant="1">npcs/childoutfits.xml|#d9980b;#856011;#727b10;#e1d403;#ffffff;#ffffff;#ffffff</sprite>
+  </npc>
+  <!-- Female child crying, with light blue dress. Purple hair up in two ponytails. -->
+  <npc id="258">
+    <sprite variant="1">npcs/childposes.xml</sprite>
+    <sprite variant="2">npcs/childoutfits.xml|#5b4976;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#36a1bc</sprite>
+  </npc>
+  <!-- Male child lying on stomach, with brown shirt, green pants. Short red hair. -->
+  <npc id="259">
+    <sprite variant="3">npcs/childposes.xml</sprite>
+    <sprite variant="3">npcs/childoutfits.xml|#962222;#665204;#c68319;#ffffff;#ffffff;#ffffff;#ffffff</sprite>
+  </npc>
+  <!-- Female child standing holding lollipop, with dull purple dress, yellow leggings, dull purple shoes. Yellow hair in two ponytails. -->
+  <npc id="260">
+    <sprite variant="4">npcs/childposes.xml</sprite>
+    <sprite variant="4">npcs/childoutfits.xml|#dbd41e;#dbd41e;#ffffff;#ffffff;#ffffff;#8c5a9a;#ffffff</sprite>
+  </npc>
+  <!-- Male child standing holding lollipop, with green tanktop, red/brown shorts, yellow leggings, green shoes. Short dark yellow hair. -->
+  <npc id="261">
+    <sprite variant="4">npcs/childposes.xml</sprite>
+    <sprite variant="5">npcs/childoutfits.xml|#ac9619;#ac9619;#a63e0b;#ffffff;#2f702f;#ffffff;#5e9326</sprite>
+  </npc>
+  <!-- Male child hiding behind a crate. Spiky green hair. -->
+  <npc id="262">
+    <sprite variant="5">npcs/childposes.xml</sprite>
+    <sprite variant="6">npcs/childoutfits.xml|#326632;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff</sprite>
+  </npc>
+  <!-- Male child standing, with dark red shirt, dark blue pants, purple shoes. Spiky dark blue hair. -->
+  <npc id="263">
+    <sprite variant="2">npcs/childposes.xml</sprite>
+    <sprite variant="7">npcs/childoutfits.xml|#3d3d63;#ffffff;#ffffff;#ffffff;#542d63;#282858;#850707</sprite>
+  </npc>
+  <!-- Male child standing, in orange hoodie, dark brown pants, orange shoes. -->
+  <npc id="264">
+    <sprite variant="2">npcs/childposes.xml</sprite>
+    <sprite variant="8">npcs/childoutfits.xml|#ffffff;#4d2e10;#ffffff;#ffffff;#c36508;#ffffff;#c36508</sprite>
+  </npc>
+  <!-- Female child standing, with pink shirt, navy blue pants, pink shoes.  Light blue/cyan hair.  -->
+  <npc id="265">
+    <sprite variant="2">npcs/childposes.xml</sprite>
+    <sprite variant="9">npcs/childoutfits.xml|#328abc;#ffffff;#ffffff;#ffffff;#cb1c66;#112f57;#cb1c7b</sprite>
+  </npc>
+  <!-- Chef Skeleton -->
+  <npc id="300">
+    <sprite variant="0">npcs/npc2.xml</sprite>
+  </npc>
+  <!-- Barmaid -->
+  <npc id="301">
+    <sprite variant="1">npcs/npc2.xml</sprite>
+  </npc>
+  <!-- Shopkeeper -->
+  <npc id="302">
+    <sprite variant="2">npcs/npc2.xml</sprite>
+  </npc>
+  <!-- Drunk Lover -->
+  <npc id="303">
+    <sprite variant="3">npcs/npc2.xml</sprite>
+  </npc>
+  <!-- Magic Undead Shop -->
+  <npc id="304">
+    <sprite variant="4">npcs/npc2.xml</sprite>
+  </npc>
+  <!-- Werewolf -->
+  <npc id="305">
+    <sprite variant="5">npcs/npc2.xml</sprite>
+  </npc>
+  <!-- Chef's helper -->
+  <npc id="306">
+    <sprite variant="6">npcs/npc2.xml</sprite>
+  </npc>
+  <!-- Horned mage -->
+  <npc id="307">
+    <sprite variant="7">npcs/npc2.xml</sprite>
+  </npc>
+  <!-- Drunker -->
+  <npc id="308">
+    <sprite variant="8">npcs/npc2.xml</sprite>
+  </npc>
+  <!-- Chief Barman -->
+  <npc id="309">
+    <sprite variant="9">npcs/npc2.xml</sprite>
+  </npc>
+  <!-- Barman -->
+  <npc id="310">
+    <sprite variant="10">npcs/npc2.xml</sprite>
+  </npc>
+  <!-- SwordGuy -->
+  <npc id="311">
+    <sprite variant="11">npcs/npc2.xml</sprite>
+  </npc>
+  <!-- Ghost from a dead drunker -->
+  <npc id="312">
+    <sprite>npcs/npc-beerguyghost.xml</sprite>
+  </npc>
+  <!-- A rich Undead -->
+  <npc id="313">
+    <sprite>npcs/npc-chronos.xml</sprite>
+  </npc>
+  <!-- Crying Child -->
+  <npc id="314">
+    <sprite>npcs/npc-cryingchild.xml</sprite>
+  </npc>
+  <!-- Innkeeper's Ghost -->
+  <npc id="315">
+    <sprite>npcs/npc-ghostinnkeeper.xml</sprite>
+  </npc>
+  <!-- Evil Guard -->
+  <npc id="316">
+    <sprite>npcs/npc-guard.xml</sprite>
+  </npc>
+  <!-- A headhang lover -->
+  <npc id="317">
+    <sprite>npcs/npc-headhang.xml</sprite>
+  </npc>
+  <!-- A headless lover -->
+  <npc id="318">
+    <sprite>npcs/npc-headless.xml</sprite>
+  </npc>
+  <!-- Lightman -->
+  <npc id="319">
+    <sprite>npcs/npc-lightman.xml</sprite>
+  </npc>
+  <!-- A bloody Receptionist -->
+  <npc id="320">
+    <sprite>npcs/npc-receptionist.xml</sprite>
+  </npc>
+  <!-- Undead banker -->
+  <npc id="321">
+    <sprite>npcs/npc-undeadbanker.xml</sprite>
+  </npc>
+  <!-- Closed version of the crypt entrance gate -->
+  <npc id="322">
+    <sprite>npcs/npc-gate-closed.xml</sprite>
+  </npc>
+  <!-- Open version of the crypt entrance gate -->
+  <npc id="323">
+    <sprite>npcs/npc-gate-open.xml</sprite>
+  </npc>
+  <npc id="324">
+    <particlefx>graphics/particles/pentagram-redlinedraw.particle.xml</particlefx>
+  </npc>
+  <npc id="325">
+    <particlefx>graphics/particles/pentagram-blacklinedraw.particle.xml</particlefx>
+  </npc>
+  <!-- Dyer -->
+  <npc id="326">
+    <sprite>npcs/npc-dyer.xml</sprite>
+  </npc>
+  <!-- Evil Obelisk -->
+  <npc id="327">
+    <sprite>npcs/evil-obelisk.xml</sprite>
+  </npc>
+  <!-- Elf -->
+  <npc id="328">
+    <sprite variant="0">npcs/christmas_npcs.xml</sprite>
+  </npc>
+  <!-- Cloaked Elf -->
+  <npc id="329">
+    <sprite variant="1">npcs/christmas_npcs.xml</sprite>
+  </npc>
+  <!-- Nutcracker -->
+  <npc id="330">
+    <sprite variant="2">npcs/christmas_npcs.xml</sprite>
+  </npc>
+  <!-- Santaboo -->
+  <npc id="331">
+    <sprite variant="3">npcs/christmas_npcs.xml</sprite>
+  </npc>
+  <!-- Bodyguard Elf1 -->
+  <npc id="332">
+    <sprite variant="4">npcs/christmas_npcs.xml</sprite>
+  </npc>
+  <!-- Bodyguard Elf2 -->
+  <npc id="333">
+    <sprite variant="5">npcs/christmas_npcs.xml</sprite>
+  </npc>
+  <!-- Bodyguard Elf3 -->
+  <npc id="334">
+    <sprite variant="6">npcs/christmas_npcs.xml</sprite>
+  </npc>
+  <!-- Bodyguard Elf4 -->
+  <npc id="335">
+    <sprite variant="7">npcs/christmas_npcs.xml</sprite>
+  </npc>
+  <!-- Bunny with a Bowler Hat -->
+  <npc id="336">
+    <sprite variant="12">npcs/npc2.xml</sprite>
+  </npc>
+  <!-- Fortune Teller -->
+  <npc id="337">
+    <sprite variant="0">npcs/thermin_npcs.xml</sprite>
+  </npc>
+  <!-- Steam Punk -->
+  <npc id="338">
+    <sprite variant="1">npcs/thermin_npcs.xml</sprite>
+  </npc>
+  <!-- Furnace -->
+  <npc id="339">
+    <sprite>npcs/furnace.xml</sprite>
+  </npc>
+  <!-- Female Miner -->
+  <npc id="340">
+    <sprite variant="36">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Furnace NPC without furniture -->
+  <npc id="341">
+    <sprite variant="41">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Fortune Teller without furniture -->
+  <npc id="342">
+    <sprite variant="97">npcs/npc.xml</sprite>
+  </npc>
+  <!-- Shapeshifter -->
+  <npc id="343">
+    <sprite>npcs/shapeshifter.xml</sprite>
+  </npc>
+  <!-- Soul Menhir - Forest -->
+  <npc id="344">
+    <sprite variant="0">npcs/soulmenhirs.xml</sprite>
+    <particlefx>graphics/particles/soulmenhir.particle.xml</particlefx>
+  </npc>
+  <!-- Soul Menhir - Desert -->
+  <npc id="345">
+    <sprite variant="1">npcs/soulmenhirs.xml</sprite>
+    <particlefx>graphics/particles/soulmenhir.particle.xml</particlefx>
+  </npc>
+  <!-- Soul Menhir - Snow -->
+  <npc id="346">
+    <sprite variant="2">npcs/soulmenhirs.xml</sprite>
+    <particlefx>graphics/particles/soulmenhir.particle.xml</particlefx>
+  </npc>
+  <!-- Soul Menhir - Cave -->
+  <npc id="347">
+    <sprite variant="3">npcs/soulmenhirs.xml</sprite>
+    <particlefx>graphics/particles/soulmenhir.particle.xml</particlefx>
+  </npc>
+  <!-- Soul Menhir - Thermin Cave -->
+  <npc id="348">
+    <sprite variant="4">npcs/soulmenhirs.xml</sprite>
+    <particlefx>graphics/particles/soulmenhir.particle.xml</particlefx>
+  </npc>
+  <!-- Soul Menhir - Savannah -->
+  <npc id="349">
+    <sprite variant="5">npcs/soulmenhirs.xml</sprite>
+    <particlefx>graphics/particles/soulmenhir.particle.xml</particlefx>
+  </npc>
+  <!-- Soul Menhir - Woodland -->
+  <npc id="350">
+    <sprite variant="6">npcs/soulmenhirs.xml</sprite>
+    <particlefx>graphics/particles/soulmenhir.particle.xml</particlefx>
+  </npc>
+  <!-- Soul Menhir - Lava Cave -->
+  <npc id="351">
+    <sprite variant="7">npcs/soulmenhirs.xml</sprite>
+    <particlefx>graphics/particles/soulmenhir.particle.xml</particlefx>
+  </npc>
+  <!-- Woman in pink dress and white hair, wearing a circlet -->
+  <npc id="352">
+    <sprite variant="2">npcs/thermin_npcs.xml</sprite>
+  </npc>
+  <!-- Man with armor, helmet and a white beard -->
+  <npc id="353">
+    <sprite variant="3">npcs/thermin_npcs.xml</sprite>
+  </npc>
+  <!-- Blond man with blue robe sitting and holding a scroll which is written on by a flying quill -->
+  <npc id="354">
+    <sprite>npcs/sittingsage.xml</sprite>
+  </npc>
+  <!-- Man wearing a grey robe with pink borders and a similiar cap, holding a staff -->
+  <npc id="355">
+    <sprite variant="0">npcs/sages.xml</sprite>
+  </npc>
+  <!-- Woman wearing orange clothing with white borders and a witch hat, holding a wand -->
+  <npc id="356">
+    <sprite variant="1">npcs/sages.xml</sprite>
+  </npc>
+  <!-- Woman wearing red clothing with white borders and a witch hat, one hand on her hip -->
+  <npc id="357">
+    <sprite variant="2">npcs/sages.xml</sprite>
+  </npc>
+  <!-- Old man with long beard, wearing green clothing with white borders, holding a staff -->
+  <npc id="358">
+    <sprite variant="3">npcs/sages.xml</sprite>
+  </npc>
+  <!-- Woman wearing purple and yellow dress wearing a mob-cap -->
+  <npc id="359">
+    <sprite variant="4">npcs/sages.xml</sprite>
+  </npc>
+  <!-- Man with green beard wearing a yellow robe with white borders and having a bird flying over his hand -->
+  <npc id="360">
+    <sprite variant="5">npcs/sages.xml</sprite>
+  </npc>
+  <!-- Man wearing a black and red robe, a monster skull helmet and holding a staff -->
+  <npc id="361">
+    <sprite variant="6">npcs/sages.xml</sprite>
+  </npc>
+  <!-- Man with brown hair, short beard, wearing blue clothes with white borders, leaning on a cane -->
+  <npc id="362">
+    <sprite variant="7">npcs/sages.xml</sprite>
+  </npc>
+  <!-- Woman wearing blue clothes with white borders (helper) -->
+  <npc id="363">
+    <sprite variant="8">npcs/sages.xml</sprite>
+  </npc>
+  <!-- Bald Man with red-brown robe and circlet, hands folded-->
+  <npc id="364">
+    <sprite variant="9">npcs/sages.xml</sprite>
+  </npc>
+  <!-- Man with short beard and white-blue clothes including cape (helper) -->
+  <npc id="365">
+    <sprite variant="10">npcs/sages.xml</sprite>
+  </npc>
+  <!-- Man with short beard and white-blue clothes (helper) -->
+  <npc id="366">
+    <sprite variant="11">npcs/sages.xml</sprite>
+  </npc>
+  <!-- Put new unique sprites above here.  For huge npcs, see range 216-250. For poses/outfits npcs, see 251-299 -->
+  <!-- note: don't go above 999, because the 1000's are reserved for mob id -->
 </npcs>

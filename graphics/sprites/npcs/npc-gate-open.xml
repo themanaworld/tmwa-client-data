@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <sprite>
-    <imageset name="base" src="graphics/sprites/npcs/npc-gate_224x192.png" width="224" height="192" />
-    <action name="stand" imageset="base">
-        <animation direction="default">
-            <!-- Open gate -->
-            <frame index="5" />
-        </animation>
-    </action>
+  <imageset name="base" src="graphics/sprites/npcs/npc-gate_224x192.png" width="224" height="192"/>
+  <action name="stand" imageset="base">
+    <animation direction="default">
+      <!-- Open gate -->
+      <frame index="5"/>
+    </animation>
+  </action>
 </sprite>

@@ -1,45 +1,39 @@
 <?xml version="1.0"?>
-
 <!--
 A huge, blue blaze-like effect about 100 pixels wide and 300 pixels high.
 Takes exactly 1161 particles and reduces my framerate to one third but looks
 really awesome. Maybe we can use this effect at some "special place". Maybe
 some evil magicans laboratory or a demonic temple or something like that.
 -->
-
 <effect>
-	<particle
-		position-x = "0"
-		position-y = "0"
-		position-z = "0"
-		>
-		<emitter>
-			<property name="position-z" value="16" />
-			<property name="vertical-angle" min="0" max="90"/>
-			<property name="horizontal-angle" min="0" max="360"/>
-			<property name="power" min="30" max="34"/>
-			<property name="lifetime" value="1"/>
-			<property name="output" value="2"/>
-			<emitter>
-				<property name="gravity" value="-0.2"/>
-				<property name="momentum" value="0.9"/>
-				<property name="image" value="graphics/particles/orb-medium.png|W:#00ffff"/>
-				<property name="lifetime" value="180"/>
-				<property name="fade-in" value="10"/>
-				<property name="fade-out" value="150"/>
-				<property name="output" value="1"/>
-				<property name="randomnes" value="200"/>
-			</emitter>
-			<emitter>
-				<property name="gravity" value="-0.2"/>
-				<property name="momentum" value="0.9"/>
-				<property name="image" value="graphics/particles/glow-medium.png|W:#0000ff"/>
-				<property name="lifetime" value="200"/>
-				<property name="fade-in" value="10"/>
-				<property name="fade-out" value="150"/>
-				<property name="output" value="1"/>
-				<property name="randomnes" value="200"/>
-			</emitter>
-		</emitter>
-	</particle>
+  <particle position-x="0" position-y="0" position-z="0">
+    <emitter>
+      <property name="position-z" value="16"/>
+      <property name="vertical-angle" min="0" max="90"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="power" min="30" max="34"/>
+      <property name="lifetime" value="1"/>
+      <property name="output" value="2"/>
+      <emitter>
+        <property name="gravity" value="-0.2"/>
+        <property name="momentum" value="0.9"/>
+        <property name="image" value="graphics/particles/orb-medium.png|W:#00ffff"/>
+        <property name="lifetime" value="180"/>
+        <property name="fade-in" value="10"/>
+        <property name="fade-out" value="150"/>
+        <property name="output" value="1"/>
+        <property name="randomnes" value="200"/>
+      </emitter>
+      <emitter>
+        <property name="gravity" value="-0.2"/>
+        <property name="momentum" value="0.9"/>
+        <property name="image" value="graphics/particles/glow-medium.png|W:#0000ff"/>
+        <property name="lifetime" value="200"/>
+        <property name="fade-in" value="10"/>
+        <property name="fade-out" value="150"/>
+        <property name="output" value="1"/>
+        <property name="randomnes" value="200"/>
+      </emitter>
+    </emitter>
+  </particle>
 </effect>

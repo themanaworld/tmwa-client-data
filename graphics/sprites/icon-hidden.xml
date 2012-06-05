@@ -1,10 +1,9 @@
 <?xml version="1.0"?>
 <sprite>
-	<imageset name="base" src="graphics/sprites/icon-hidden.png" width="12" height="12" />
-
-	<action name="default" imageset="base">
-		<animation direction="default">
-			<frame index="0" offsetY="3" delay="0"/>
-		</animation>
-	</action>
+  <imageset name="base" src="graphics/sprites/icon-hidden.png" width="12" height="12"/>
+  <action name="default" imageset="base">
+    <animation direction="default">
+      <frame index="0" offsetY="3" delay="0"/>
+    </animation>
+  </action>
 </sprite>

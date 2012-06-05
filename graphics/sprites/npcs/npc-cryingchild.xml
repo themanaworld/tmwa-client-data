@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <sprite>
-    <imageset name="base" src="graphics/sprites/npcs/npc-cryingchild.png" width="30" height="50" />
-    <action name="stand" imageset="base">
-        <animation direction="default">
-            <!-- Crying child animation -->
-            <frame index="0" delay="180"/>
-            <frame index="1" delay="180"/>
-            <frame index="2" delay="180"/>
-            <frame index="3" delay="180"/>
-            <frame index="4" delay="180"/>
-            <frame index="5" delay="180"/>
-        </animation>
-    </action>
+  <imageset name="base" src="graphics/sprites/npcs/npc-cryingchild.png" width="30" height="50"/>
+  <action name="stand" imageset="base">
+    <animation direction="default">
+      <!-- Crying child animation -->
+      <frame index="0" delay="180"/>
+      <frame index="1" delay="180"/>
+      <frame index="2" delay="180"/>
+      <frame index="3" delay="180"/>
+      <frame index="4" delay="180"/>
+      <frame index="5" delay="180"/>
+    </animation>
+  </action>
 </sprite>
