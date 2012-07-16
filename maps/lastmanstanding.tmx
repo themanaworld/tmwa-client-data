@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="arena" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/arena.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="385" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <layer name="Ground" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3aOW8UMRjG8Q3Z5ANANkAZIJDQgbhCh8QR6Kg4OiqOjoqjo4SSCtICCXxLXitjYVm25zI7Pv7FT9FoM9FqHj/veDa7WJnNFgAAAAAAAAAAAAAAAAAAAADgcEnseEz93mp0U9xqPBFPxbPmeC+Q3W4C771ED8R+46V4JV43xw8D2dlZIV4ea4134r340BzPA9nprFzzju7EycO2Efhd/ZrZmdq7E7oXd1mv6vyLgTxc/dCvXRDbzfn7FnvO1cK1Nl1861WdfyOQR6gf18R1z/kqqxpnmDnPQ3zrVZ1/P5CH7oBmdumuuOc5X2VV4wwLzf7QOlfaZpXZAS3UJZPKqsYZNiaPtllldkALdamN3bUSZ9iYPNpmVWx210qbYV3mjS+PPufGYndNUTOslJ50mTe+PPqcu4zOlNCTPvPGtW9d5qxq60zu9/q+80blsb3i3remQN/rc51bfefN0H3rsuQ+t/rOm5j71v8h57k1xd5oWVz78tSlsjcij2Mp7I1WZ/2UnsfU63hLrvHJ2fHPU2JDLMSmOC3OiLPiRMc87M/1c5JKHupanxPnxbplR+yKyx3zyLEXY/KwP8szDdkbqDyuiKti7shD2RO3ycPJfv4wDdkbqDzueHIwPaogD2W95/VzfZanDdkbqDweO67/mnX8vJI8pr6HqDxeBHLQ3rTkkfN9fGxHYufxtsO8+tiSR+69SKUjKo9PgRxUXz6LLxXlMWVHtppnj6/N9bf3WN/Ed3FQWR5TdWTVeNb7IX6KX+JQHInf4k+H5/PS8piyI2OVdC/v2xG9DjcTyKHkbuScR47/6yglj1JnU655lDqbhuZhfhedPKbPI/Rd9JgzqeY51SeP0HfR6UB8sZ9B5gP+Lnn8E/s53Xf/r3H+DBWzI7486EB3MTpir3/yGG9IT3xziDzGG9IT33Umj7SQR1rIIy3kAQAAAAAAAAAAAAAAAABAGv4CDw5G2kCcAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3avQ6CMBQGUEx8GX1BY/TJdHF2cnZy9v8R7IJRgoKkBdFzkjuRJg1fewmFLAMAAAAAAAAAAAAA+Nxo0PUMAAAAAIA2jZ0J9t6rDKcV2U5KrlsPQB9U9TfeK+v/RYtQyw9rlWKyPTFPvCbXDcZsos+C3LbBmF3sSXAnj24V+588vos8Xuvi3VceccwiZSePetp692qah3OsNOyPOOrsnzprWB5xeH78pn2oQ6hjqFOoc6hLqGvFNYCUfL8AUmurz+hn8aT+jgj/4PEMZWhPwZP8HyDn5c25d79LtgAAAAAAAAAAAABAXTf/Fm2CQJwAAA==
+  </data>
+ </layer>
+ <layer name="Over" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3ZvQ6CMBAA4DJpnTXo+7+oXRhsgBhiU+p9X3IbAwn30yspAQAAAAAAAAAAAAAAAAAAAAAAwKd5SulZ4jb1fhMiWvJvLV5ykj+S5TSNmOMQgzkC+0aukTnwHJ/tfnBaa/c1UXsV0N+l9J9r1YPch/SVzYgmO8iR8/G9PPuogrb2/mtFrIUtI+/pbDN/fycf6PkL34Eo6jPnN6EugNHZtwEAAAAAAAAAAOAc3qXUfoNAnAAA
+  </data>
+ </layer>
+ <layer name="Collision" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3UQXLCMBAEQPJ1Xs4hF1xlE8CWZjfqqepbItBMlPvP7XYHAAAAAAAAAAAAAABo7ijp77WqT/awlT1Wc3YP/+fsUdU7+fb3R3zef1dxj5U3GrnHlUn31GGPmUn3ZI/vv1dnZ+6cTrq7xNs4uvdfP39Vzv7NdPJJJ9XexnPSPdpjm3SPM7folHSn9tgm3emIPTpvle7U2/hNuk97bJPuc/YeZ86bsX+6z057zEi6z6s2ebdLe9R8I9WS7jC9STJ73zfd38p77CXdX/VNZm+c7i65R8X3lO4uvUmlpDtL7lFxu3Rn9tgm3dnKe6T7scfx56/gkz4SSfez4h57Z6d76bTH1dukO6hmVLf2qLXH89npO3YzYo9XOzF2j1dnpu/W3dkd9s5J36mrK97F3nnpe+F9VGOPWuwBAAAAAAAAAAAAeQ87qrbdQJwAAA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="100" height="100">
+  <object name="NPC" type="npc" x="1987" y="1636" width="27" height="26"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2177" y="1378" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2177" y="1378" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2240" y="1760" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1664" y="2176" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1728" y="2240" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1664" y="2304" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1504" y="1824" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1056" y="2272" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="864" y="1696" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1152" y="1344" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1568" y="1376" width="32" height="32"/>
+  <object name="To Hurnscald" type="warp" x="1498" y="1955" width="104" height="33">
+   <properties>
+    <property name="dest_map" value="009-1"/>
+    <property name="dest_x" value="1600"/>
+    <property name="dest_y" value="1600"/>
+   </properties>
+  </object>
+  <object name="Graveyard" type="warp" x="1777" y="1958" width="103" height="33">
+   <properties>
+    <property name="dest_map" value="027-1"/>
+    <property name="dest_x" value="1600"/>
+    <property name="dest_y" value="1600"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
