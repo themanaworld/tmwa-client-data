@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="170" height="170" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="name" value="MegaCaveLvl2"/>
+ </properties>
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png" width="512" height="256"/>
+ </tileset>
+ <layer name="Ground" width="170" height="170">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3UsQmAQBBE0c3sQO1AxAJELEDE/vvxLhUuM9iDF7x8gs9METEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHRkLZaGLcE+qI5ibzgT7IPqLq6GJ8E+qOZiaBgT7INKp/RAp/Tg22mETsnHn9IDnQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8KcXvQ0DS5DDAQA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="170" height="170">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVP7W0HoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADeAICd/cSQwwEA
+  </data>
+ </layer>
+ <layer name="Over" width="170" height="170">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OsQ0AMAjAMPZyAf8fSh9gRq1sKXsiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPjBudVQLn4BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPCmBtS0g+KQwwEA
+  </data>
+ </layer>
+ <layer name="Collision" width="170" height="170">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OMQoAMAwDsdD/P7prFs9uQQfa78zMAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHhUqv0FW6r9BVuq/QVbqv0FW6r9BVuq/QUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwH8uRDyYjJDDAQA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="170" height="170">
+  <object name="to Level1" type="warp" x="1600" y="1600" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="049-1"/>
+    <property name="dest_x" value=""/>
+    <property name="dest_y" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
