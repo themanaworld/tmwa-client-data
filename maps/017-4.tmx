@@ -5,22 +5,22 @@
   <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
   <property name="name" value="Hideout"/>
  </properties>
- <tileset firstgid="1" name="Cave" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="cave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="129" name="Cave x2" tilewidth="32" tileheight="64">
+ <tileset firstgid="129" name="cave_x2" tilewidth="32" tileheight="64">
   <image source="../graphics/tiles/cave_x2.png" width="512" height="64"/>
  </tileset>
- <tileset firstgid="145" name="Woodland Indoor" tilewidth="32" tileheight="32">
+ <tileset firstgid="145" name="woodland_indoor" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="401" name="Woodland Indoor x2" tilewidth="32" tileheight="64">
+ <tileset firstgid="401" name="woodland_indoor_x2" tilewidth="32" tileheight="64">
   <image source="../graphics/tiles/woodland_indoor_x2.png" width="512" height="64"/>
  </tileset>
- <tileset firstgid="417" name="Woodland Indoor x3" tilewidth="32" tileheight="96">
+ <tileset firstgid="417" name="woodland_indoor_x3" tilewidth="32" tileheight="96">
   <image source="../graphics/tiles/woodland_indoor_x3.png" width="512" height="96"/>
  </tileset>
- <tileset firstgid="433" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="433" name="collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
  <layer name="Ground" width="250" height="75">
