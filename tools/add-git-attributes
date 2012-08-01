@@ -1,0 +1,2 @@
+#!/bin/sh
+git config diff.csv2tsv.textconv 'sed s/,/\\t/g'
