@@ -3041,7 +3041,17 @@
         <sprite gender="male">equipment/chest/fine-dress-male.xml|#a5a5a5,fefefe,ffffff,ffffff</sprite>
         <sprite gender="female">equipment/chest/fine-dress-female.xml|#a5a5a5,fefefe,ffffff,ffffff</sprite>
     </item>
-
+    <item id="876"
+        image="equipment/feet/warlordboots.png"
+        name="Warlord Boots"
+        description="Steel boots that will make you feel like a knight."
+        effect="M. Attack -22"
+        type="equip-feet"
+        weight="550"
+        defense="5">
+        <sprite gender="male">equipment/feet/warlordboots-male.xml</sprite>
+        <sprite gender="female">equipment/feet/warlordboots-female.xml</sprite>
+    </item>
 
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
@@ -5609,7 +5619,7 @@
         weight="30">
         <sprite>equipment/head/bowler-hat-brown.xml|#104010,208020,30c030</sprite>
     </item>
-    
+
     <item id="2240"
         image="equipment/chest/fine-dress.png|W:#660102,ee1407,ffffff,ffffff"
         name="Fine Red Dress"
