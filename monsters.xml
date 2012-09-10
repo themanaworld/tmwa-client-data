@@ -127,11 +127,13 @@
   </monster>
   <monster id="23" name="Log Head">
     <sprite>monsters/logmonster.xml</sprite>
+    <sound event="hit">monsters/loghead/loghead-hit1.ogg</sound>
     <sound event="hurt">monsters/loghead/loghead-hurt1.ogg</sound>
     <sound event="hurt">monsters/loghead/loghead-hurt2.ogg</sound>
     <sound event="hurt">monsters/loghead/loghead-hurt3.ogg</sound>
     <sound event="hurt">monsters/loghead/loghead-hurt4.ogg</sound>
     <sound event="hurt">monsters/loghead/loghead-hurt5.ogg</sound>
+    <sound event="die">monsters/loghead/loghead-die1.ogg</sound>
   </monster>
   <monster id="24" name="Mountain Snake">
     <sprite>monsters/snake.xml|#585b39,a67c5d,dbc9a9,ffffff</sprite>
@@ -409,6 +411,14 @@
   </monster>
   <monster id="88" name="Wolvern">
     <sprite>monsters/wolvern.xml|#000000,64727a,8996a0,a6afbf,dce9f3,ffffff</sprite>
+    <sound event="hit">monsters/wolvern/wolvern-hit1.ogg</sound>
+    <sound event="hit">monsters/wolvern/wolvern-hit2.ogg</sound>
+    <sound event="miss">monsters/wolvern/wolvern-miss1.ogg</sound>
+    <sound event="miss">monsters/wolvern/wolvern-miss2.ogg</sound>
+    <sound event="miss">monsters/wolvern/wolvern-miss3.ogg</sound>
+    <!-- The hurt sound doesn't go well when alternated with the hit sounds. -->
+    <!-- <sound event="hurt">monsters/wolvern/wolvern-hurt1.ogg</sound> -->
+    <sound event="die">monsters/wolvern/wolvern-dying1.ogg</sound>
   </monster>
   <monster id="89" name="Blue Slime">
     <sprite>monsters/slime.xml|#2121ae,ffffff</sprite>
