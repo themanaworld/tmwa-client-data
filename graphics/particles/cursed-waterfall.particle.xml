@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!--
+Purple particles falling as if they were going along a waterfall
+-->
+<effect>
+  <particle position-x="0" position-y="0" position-z="0">
+    <emitter>
+      <property name="position-x" value="16"/>
+      <property name="position-z" value="156"/>
+      <property name="vertical-angle" min="0" max="90"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="power" min="16" max="24"/>
+      <property name="lifetime" value="1"/>
+      <property name="output" value="1"/>
+      <emitter>
+        <property name="gravity" value="0.9"/>
+        <property name="momentum" value="0.7"/>
+        <property name="image" value="graphics/particles/gloworb-medium.png|W:#663399"/>
+        <property name="lifetime" value="200"/>
+        <property name="fade-in" value="10"/>
+        <property name="fade-out" value="90"/>
+        <property name="output" min="0" max="1"/>
+        <property name="randomnes" value="200"/>
+      </emitter>
+      <emitter>
+        <property name="gravity" value="0.9"/>
+        <property name="momentum" value="0.7"/>
+        <property name="image" value="graphics/particles/orb-small.png|W:#663399"/>
+        <property name="lifetime" value="200"/>
+        <property name="fade-in" value="10"/>
+        <property name="fade-out" value="90"/>
+        <property name="output" min="0" max="1"/>
+        <property name="randomnes" value="200"/>
+      </emitter>
+    </emitter>
+    <emitter>
+      <property name="position-x" value="-16"/>
+      <property name="position-z" value="156"/>
+      <property name="vertical-angle" min="0" max="90"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="power" min="16" max="24"/>
+      <property name="lifetime" value="1"/>
+      <property name="output" value="1"/>
+      <emitter>
+        <property name="gravity" value="0.9"/>
+        <property name="momentum" value="0.7"/>
+        <property name="image" value="graphics/particles/gloworb-medium.png|W:#663399"/>
+        <property name="lifetime" value="200"/>
+        <property name="fade-in" value="10"/>
+        <property name="fade-out" value="90"/>
+        <property name="output" min="0" max="1"/>
+        <property name="randomnes" value="200"/>
+      </emitter>
+      <emitter>
+        <property name="gravity" value="0.9"/>
+        <property name="momentum" value="0.7"/>
+        <property name="image" value="graphics/particles/orb-small.png|W:#663399"/>
+        <property name="lifetime" value="200"/>
+        <property name="fade-in" value="10"/>
+        <property name="fade-out" value="90"/>
+        <property name="output" min="0" max="1"/>
+        <property name="randomnes" value="200"/>
+      </emitter>
+    </emitter>
+  </particle>
+</effect>

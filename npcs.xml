@@ -886,7 +886,39 @@
   <npc id="366">
     <sprite variant="11">npcs/sages.xml</sprite>
   </npc>
-  <!-- Old man sitting in front of desk -->
+  <!-- A skeleton with a note -->
+  <npc id="367">
+    <sprite>npcs/bones.xml</sprite>
+  </npc>
+  <!-- Magical Power Circle area -->
+  <npc id="368">
+    <particlefx>graphics/particles/power-circle.particle.xml</particlefx>
+  </npc>
+  <!-- Enchanted door -->
+  <npc id="369">
+    <particlefx>graphics/particles/enchanted-door.particle.xml</particlefx>
+  </npc>
+  <!-- Witch sister 1 -->
+  <npc id="370">
+    <particlefx>graphics/particles/power-circle.particle.xml</particlefx>
+    <sprite>player_female_base.xml</sprite>
+    <sprite>equipment/feet/assassin-boots-female.xml</sprite>
+    <sprite>equipment/legs/shorts-female.xml|#121212,343434</sprite>
+    <sprite>equipment/chest/sorcerer-robe-female.xml|#121212,343434;#468AD6</sprite>
+    <sprite>hairstyles/hairstyle11.xml|#602486,934cc3,fdc689</sprite>
+    <sprite>equipment/head/wizard-hat.xml|#070707,121212,5B9BC2</sprite>
+  </npc>
+  <!-- Witch sister 2 -->
+  <npc id="371">
+    <particlefx>graphics/particles/monster-luvia.particle.xml</particlefx>
+    <sprite>player_female_base.xml</sprite>
+    <sprite>equipment/feet/assassin-boots-female.xml</sprite>
+    <sprite>equipment/legs/shorts-female.xml|#121212,343434</sprite>
+    <sprite>equipment/chest/sorcerer-robe-female.xml|#121212,343434;#8F47D6</sprite>
+    <sprite>hairstyles/hairstyle11.xml|#8c6625,dab425,ffffff</sprite>
+    <sprite>equipment/head/wizard-hat.xml|#070707,121212,663399</sprite>
+  </npc>
+<!-- Old man sitting in front of desk -->
   <npc id="372">
     <sprite>npcs/npc-mirak.xml</sprite>
   </npc>

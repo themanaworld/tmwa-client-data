@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!--
+    
+-->
+<effect>
+  <particle position-x="0" position-y="0" position-z="0">
+    <emitter>
+      <property name="position-y" value="-32"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="0"/>
+      <property name="power" value="40"/>
+      <property name="lifetime" value="1"/>
+      <property name="output" value="1"/>
+      <emitter>
+        <property name="gravity" value="-0.1"/>
+        <property name="momentum" value="0.2"/>
+        <property name="image" value="graphics/particles/star-small.png|W:#60DAFF,FFFFFF"/>
+        <property name="lifetime" value="30"/>
+        <property name="fade-in" value="5"/>
+        <property name="fade-out" value="10"/>
+        <property name="output" min="0" max="1"/>
+        <property name="randomnes" min="100" max="200"/>
+      </emitter>
+    </emitter>
+    <emitter>
+      <property name="position-y" value="-32"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="0"/>
+      <property name="power" value="40"/>
+      <property name="lifetime" value="1"/>
+      <property name="output" value="2"/>
+      <emitter>
+        <property name="gravity" value="-0.1"/>
+        <property name="momentum" value="0.9"/>
+        <property name="image" value="graphics/particles/vline-small.png|W:#A3EAFF"/>
+        <property name="lifetime" value="100"/>
+        <property name="fade-in" value="10"/>
+        <property name="fade-out" value="90"/>
+        <property name="output" min="0" max="1"/>
+      </emitter>
+    </emitter>
+  </particle>
+</effect>
