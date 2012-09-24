@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+A medium blinding light, that stay on the ground, like a layer of clouds.
+-->
+<effect>
+  <particle position-x="-16" position-y="0" position-z="40" lifetime="1">
+    <emitter>
+      <property name="position-x" min="-2" max="2"/>
+      <property name="position-y" min="-2" max="2"/>
+      <property name="vertical-angle" min="-60" max="60"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="power" min="0" max="3"/>
+      <property name="gravity" value="0.1"/>
+      <property name="image" value="graphics/particles/light-large.png"/>
+      <property name="lifetime" min="3000" max="4000"/>
+      <property name="output" min="10" max="800"/>
+      <property name="fade-out" value="10"/>
+      <property name="bounce" value="0.1"/>
+    </emitter>
+  </particle>
+</effect>
