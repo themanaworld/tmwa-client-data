@@ -3325,6 +3325,36 @@
         <sprite gender="male">equipment/chest/fine-dress-male.xml|#a5a5a5,fefefe,ffffff,ffffff</sprite>
         <sprite gender="female">equipment/chest/fine-dress-female.xml|#a5a5a5,fefefe,ffffff,ffffff</sprite>
     </item>
+    <item id="871"
+        image="generic/sealed-soul.png"
+        name="Sealed Soul"
+        description="A soul, sealed in a mystic vial."
+        type="generic"
+        weight="75"/>
+    <item id="872"
+        image="generic/lockpicks.png"
+        name="Lock Picks"
+        description="Probably you will find these useful when in jail."
+        type="generic"
+        weight="150"/>
+    <item id="873"
+        image="generic/lazurite-shard.png"
+        name="Lazurite Shard"
+        description="A small shard of Lazurite, with little magic catalysis properties."
+        type="generic"
+        weight="2"/>
+    <item id="874"
+        image="generic/lazurite-crystal.png"
+        name="Lazurite Crystal"
+        description="A crystal of Lazurite, with magic catalysis properties."
+        type="generic"
+        weight="5"/>
+    <item id="875"
+        image="generic/lazurite-heart.png"
+        name="Heart of Lazurite"
+        description="A large crystal of Lazurite, with powerful magic catalysis properties."
+        type="generic"
+        weight="15"/>
     <item id="876"
         image="equipment/feet/warlordboots.png"
         name="Warlord Boots"
@@ -3336,7 +3366,60 @@
         <sprite gender="male">equipment/feet/warlordboots-male.xml</sprite>
         <sprite gender="female">equipment/feet/warlordboots-female.xml</sprite>
     </item>
-
+    <item id="877"
+        image="equipment/head/bull.png"
+        name="Bull Helmet"
+        description="A black steel helmet worn by the most ferocious warriors."
+        effect="M. Attack -52 / Double Damage +20% / Critical Damage +15 / Attack Speed +10% / VIT Defense -39% / Accuracy -15 / Requires Level 90, Strength 70+, Vitality 50+ and Luck 50+ / Melee only"
+        type="equip-head"
+        weight="1300"
+        str="10"
+        defense="19">
+        <sprite>equipment/head/bull.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+            <item from="-6"/>
+            <item from="-9"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
+    </item>
+    <item id="878"
+        image="equipment/weapon/bow-bansheebow.png"
+        name="Banshee Bow"
+        description="A bow that has been enchanted by the dark powers of a witch."
+        effect="Damage +90 / Range 6 / Attack Speed +20% / Critical Damage +60 / -150 HP / Defense -40% / VIT Defense -35% / Vanishes HP by 4% of damages dealt / Requires Level 90 and Dexterity 80+"
+        type="equip-2hand"
+        weapon-type="bow"
+        attack-action="attack_bow"
+        weight="900"
+        missile-particle="graphics/particles/arrow-banshee.particle.xml">
+        <sprite>weapon-bansheebow.xml</sprite>
+    </item>
+    <item id="879"
+        image="equipment/charms/heart-of-isis.png"
+        name="Heart of Isis"
+        description="Life emanates through the natural warmth of this jewel."
+        effect="MaxHP +15% / HP Recovery Rate +65% / Requires Level 85"
+        type="equip-charm"
+        weight="40"/>
+    <item id="880"
+        image="equipment/chest/sorcerer-robe.png|W:#2470BF,C9EAFF,D9D244;R:#cc7722"
+        name="Lazurite Robe"
+        description="A robe overflowing of magical aura."
+        effect="M. Attack +60 / Move Speed -15% / VIT Defense -40% / M. Defense +60 / Requires Level 90, Intelligence 70+ and Vitality 40+"
+        type="equip-torso"
+        defense="7"
+        vit="-1"
+        int="7"
+        luck="-1"
+        dex="-1"
+        str="-1"
+        weight="30">
+        <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#2470BF,C9EAFF,D9D244;#cc7722</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#2470BF,C9EAFF,D9D244;#cc7722</sprite>
+    </item>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
