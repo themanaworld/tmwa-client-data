@@ -440,4 +440,50 @@
   <monster id="93" name="White Bell">
     <sprite>monsters/snowflower.xml</sprite>
   </monster>
+  <monster id="94" name="Soul Snake">
+    <sprite>monsters/snake.xml|#664d28,a6673a,86D6DB,ffffff</sprite>
+    <particlefx>graphics/particles/monster-soulsnake.particle.xml</particlefx>
+  </monster>
+  <monster id="95" name="Soul Eater">
+    <sprite>monsters/skeleton.xml|#D9BFFF</sprite>
+    <sprite>equipment/chest/tanktop-male.xml|#333333,555555,444444</sprite>
+    <sprite>equipment/legs/shorts-male.xml|#333333,555555,444444</sprite>
+    <sprite>hairstyles/hairstyle05.xml|#333333</sprite>
+    <particlefx>graphics/particles/monster-souleater.particle.xml</particlefx>
+  </monster>
+  <monster id="96" name="Copper Slime">
+    <sprite>monsters/slime.xml|#a1734c,ffffff</sprite>
+    <sprite>monsters/accessories/slime-seajelly.xml|#a1744c,ffffff</sprite>
+    <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+  </monster>
+  <monster id="97" name="Sleeping Bandit">
+    <sprite>monsters/sleeping-bandit.xml</sprite>
+    <sprite>monsters/accessories/weapon-dagger.xml</sprite>
+  </monster>
+  <monster id="98" name="Azul Slime">
+    <sprite>monsters/slime-littleslime.xml|#3080e4,d2f4ff</sprite>
+    <sound event="die">monsters/slime/slime-hit1.ogg</sound>
+  </monster>
+  <monster id="99" name="Demonic Spirit">
+    <sprite>monsters/spirit-demonic.xml|#444444,9933ff</sprite>
+  </monster>
+  <monster id="100" name="Luvia">
+    <sprite>player_female_base.xml</sprite>
+    <sprite>equipment/feet/assassin-boots-female.xml</sprite>
+    <sprite>equipment/legs/shorts-female.xml|#121212,343434</sprite>
+    <sprite>equipment/chest/sorcerer-robe-female.xml|#121212,343434;#8F47D6</sprite>
+    <sprite>hairstyles/hairstyle11.xml|#8c6625,dab425,ffffff</sprite>
+    <sprite>equipment/head/wizard-hat.xml|#070707,121212,663399</sprite>
+    <particlefx>graphics/particles/monster-luvia.particle.xml</particlefx>
+    <attack id="1" critical-hit-effect-id="42" missile-particle="graphics/particles/luvia-attack.particle.xml" action="attack"/>
+  </monster>
+  <monster id="101" name="Witch Guard">
+    <sprite>monsters/demon.xml|#444444,979797</sprite>
+    <sprite>equipment/feet/warlordboots-male.xml|#333333,878787</sprite>
+    <sprite>equipment/hands/generic-male.xml|#242424,626262</sprite>
+    <sprite>equipment/chest/demonwarlordplate-male.xml|#444444,979797</sprite>
+    <sprite>equipment/head/bull.xml</sprite>
+    <particlefx>graphics/particles/monster-witchguard.particle.xml</particlefx>
+    <sprite>weapon-witchguard-gladius.xml</sprite>
+  </monster>
 </monsters>

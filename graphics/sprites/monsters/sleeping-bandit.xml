@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset name="base" src="graphics/sprites/monsters/sleeping-bandit.png" width="64" height="64"/>
+  <action name="stand" imageset="base">
+    <animation>
+      <frame index="4" delay="1500"/>
+      <frame index="3" delay="1500"/>
+      <frame index="2" delay="1500"/>
+      <frame index="1" delay="1500"/>
+      <frame index="0" delay="1500"/>
+    </animation>
+  </action>
+  <action name="dead" imageset="base">
+    <animation>
+      <frame index="5"/>
+    </animation>
+  </action>
+</sprite>

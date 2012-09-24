@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset name="base" src="graphics/sprites/monsters/spirit-demonic.png|W" width="48" height="29"/>
+  <action name="stand" imageset="base">
+    <animation direction="down">
+      <sequence start="0" end="1" offsetX="0" offsetY="-3" delay="200"/>
+    </animation>
+    <animation direction="left">
+      <sequence start="13" end="14" offsetX="-1" offsetY="-11" delay="200"/>
+    </animation>
+    <animation direction="up">
+      <sequence start="26" end="27" offsetX="0" offsetY="-5" delay="200"/>
+    </animation>
+    <animation direction="right">
+      <sequence start="39" end="40" offsetX="-1" offsetY="-11" delay="200"/>
+    </animation>
+  </action>
+  <action name="walk" imageset="base">
+    <animation direction="down">
+      <sequence start="2" end="5" offsetX="0" offsetY="-3" delay="150"/>
+    </animation>
+    <animation direction="left">
+      <sequence start="15" end="18" offsetX="-1" offsetY="-11" delay="150"/>
+    </animation>
+    <animation direction="up">
+      <sequence start="28" end="31" offsetX="0" offsetY="-5" delay="150"/>
+    </animation>
+    <animation direction="right">
+      <sequence start="41" end="44" offsetX="-1" offsetY="-11" delay="150"/>
+    </animation>
+  </action>
+  <action name="dead" imageset="base">
+    <animation direction="down">
+      <sequence start="10" end="12" offsetX="0" offsetY="-3" delay="200"/>
+      <frame index="12" delay="0"/>
+    </animation>
+    <animation direction="left">
+      <sequence start="23" end="25" offsetX="-1" offsetY="-11" delay="200"/>
+      <frame index="25" delay="0"/>
+    </animation>
+    <animation direction="up">
+      <sequence start="36" end="38" offsetX="0" offsetY="-5" delay="200"/>
+      <frame index="38" delay="0"/>
+    </animation>
+    <animation direction="right">
+      <sequence start="49" end="51" offsetX="-1" offsetY="-11" delay="200"/>
+      <frame index="51" delay="0"/>
+    </animation>
+  </action>
+  <action name="attack" imageset="base">
+    <animation direction="down">
+      <sequence start="6" end="9" delay="150" offsetX="0" offsetY="-3"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <sequence start="19" end="22" delay="150" offsetX="-1" offsetY="-11"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <sequence start="32" end="35" delay="150" offsetX="0" offsetY="-5"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <sequence start="45" end="48" delay="150" offsetX="-1" offsetY="-11"/>
+      <end/>
+    </animation>
+  </action>
+</sprite>
