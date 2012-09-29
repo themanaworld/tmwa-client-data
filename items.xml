@@ -191,6 +191,15 @@
         weight="20"
         defense="2">
         <sprite>equipment/head/santahat.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="left" sprite="hair">
+            <item from="-6" to="-3"/>
+        </replace>
+        <replace direction="right" sprite="hair">
+            <item from="-6" to="-3"/>
+        </replace>
     </item>
     <item id="512"
         image="use/food/gingerbreadman.png"
@@ -295,6 +304,20 @@
         defense="5"
         weight="20">
         <sprite>equipment/head/fancyhat.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
+        <replace direction="left" sprite="hair">
+            <item from="-13" to="-2"/>
+            <item from="-15" to="-14"/>
+        </replace>
+        <replace direction="right" sprite="hair">
+            <item from="-13" to="-2"/>
+            <item from="-15" to="-14"/>
+        </replace>
     </item>
     <item id="525"
         image="equipment/head/minershat.png"
@@ -305,6 +328,12 @@
         defense="4"
         weight="40">
         <sprite>equipment/head/minershat.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="526"
         image="generic/coinbag.png"
@@ -1054,6 +1083,15 @@
         defense="4"
         weight="60">
         <sprite>equipment/head/pumpkinhelmet.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+            <item from="-6"/>
+            <item from="-13"/>
+            <item from="-14"/>
+            <item from="-15"/>
+            <item from="-16"/>
+            <item from="-18"/>
+        </replace>
     </item>
     <item id="616"
         image="equipment/head/axehat.png"
@@ -1074,6 +1112,9 @@
         weight="40"
         defense="4">
         <sprite>equipment/head/piratehat.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
     </item>
     <item id="618"
         image="equipment/head/goggles.png"
@@ -1120,6 +1161,9 @@
         weight="20"
         defense="3">
         <sprite>equipment/head/bandana.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
     </item>
     <item id="623"
         image="equipment/weapon/polearm-scythe.png"
@@ -1174,6 +1218,12 @@
         defense="10"
         weight="30">
         <sprite>equipment/head/tophat.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="628"
         image="equipment/head/funkyhat.png"
@@ -1184,6 +1234,29 @@
         defense="13"
         weight="20">
         <sprite>equipment/head/funkywinter.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="left" sprite="hair">
+            <item from="-13"/>
+            <item from="-14" to="-16"/>
+            <item from="-15" to="-8"/>
+        </replace>
+        <replace direction="right" sprite="hair">
+            <item from="-13"/>
+            <item from="-14" to="-16"/>
+            <item from="-15" to="-8"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-14" to="-13"/>
+            <item from="-15" to="-13"/>
+            <item from="-18" to="-6"/>
+        </replace>
+        <replace direction="downall" sprite="hair">
+            <item from="-14" to="-13"/>
+            <item from="-15" to="-13"/>
+            <item from="-9" to="-1"/>
+        </replace>
     </item>
     <item id="629"
         image="equipment/head/mushroomhat.png"
@@ -1193,6 +1266,12 @@
         defense="10"
         weight="30">
         <sprite>equipment/head/mushroom.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="630"
         image="equipment/head/shroomhat.png"
@@ -1202,6 +1281,12 @@
         defense="13"
         weight="30">
         <sprite>equipment/head/shroom.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="631"
         image="generic/crystal.png|W:#252e6a,923eda,ba72ec,ffffff"
@@ -1228,6 +1313,29 @@
         defense="13"
         weight="30">
         <sprite>equipment/head/xmaself.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="left" sprite="hair">
+            <item from="-13"/>
+            <item from="-14" to="-16"/>
+            <item from="-15" to="-8"/>
+        </replace>
+        <replace direction="right" sprite="hair">
+            <item from="-13"/>
+            <item from="-14" to="-16"/>
+            <item from="-15" to="-8"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-14" to="-13"/>
+            <item from="-15" to="-13"/>
+            <item from="-18" to="-6"/>
+        </replace>
+        <replace direction="downall" sprite="hair">
+            <item from="-14" to="-13"/>
+            <item from="-15" to="-13"/>
+            <item from="-9" to="-1"/>
+        </replace>
     </item>
     <item id="634"
         image="equipment/head/mask.png"
@@ -1253,6 +1361,14 @@
         defense="18"
         weight="900">
         <sprite>equipment/head/warlordhelm.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+            <item from="-6"/>
+            <item from="-9"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="637"
         image="equipment/head/knighthelm.png"
@@ -1263,6 +1379,14 @@
         defense="15"
         weight="600">
         <sprite>equipment/head/knighthelm.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+            <item from="-6"/>
+            <item from="-9"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="638"
         image="equipment/head/infantryhelm.png"
@@ -1273,6 +1397,16 @@
         defense="15"
         weight="400">
         <sprite>equipment/head/infantryhelm.xml</sprite>
+        <replace direction="downall" sprite="hair">
+            <item from="-6" to="-3"/>
+        </replace>
+        <replace sprite="hair">
+            <item from="-5"/>
+            <item from="-9"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="639"
         image="equipment/head/crusadehelm.png"
@@ -1283,6 +1417,28 @@
         defense="18"
         weight="1300">
         <sprite>equipment/head/crusadehelm.xml</sprite>
+        <replace sprite="hair">
+            <item from="-1"/>
+            <item from="-2"/>
+            <item from="-3"/>
+            <item from="-4"/>
+            <item from="-5"/>
+            <item from="-6"/>
+            <item from="-7"/>
+            <item from="-9"/>
+            <item from="-12"/>
+            <item from="-13"/>
+            <item from="-14"/>
+            <item from="-15"/>
+            <item from="-16"/>
+            <item from="-18"/>
+        </replace>
+        <replace direction="left" sprite="hair">
+            <item from="-10"/>
+        </replace>
+        <replace direction="right" sprite="hair">
+            <item from="-10"/>
+        </replace>
     </item>
     <item id="640"
         image="generic/ironore.png"
@@ -1316,6 +1472,12 @@
         defense="6"
         weight="30">
         <sprite>equipment/head/cowboywhite.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="644"
         image="equipment/head/cowboyblack.png"
@@ -1326,6 +1488,12 @@
         defense="6"
         weight="30">
         <sprite>equipment/head/cowboyblack.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="645"
         image="equipment/chest/lightplatemail.png|W:#573f10,9c8226,d3c04b,ffffff"
@@ -1346,6 +1514,12 @@
         defense="4"
         weight="240">
         <sprite>equipment/head/crown.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="647"
         image="equipment/head/devcap.png|R:#9999ff"
@@ -1356,6 +1530,12 @@
         defense="5"
         weight="20">
         <sprite>equipment/head/devcap.xml|#9999ff</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="648"
         image="equipment/legs/pants.png|W:#a4b2b2,ffffff"
@@ -1430,6 +1610,12 @@
         defense="5"
         weight="20">
         <sprite>equipment/head/cap.xml|#d94800</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="655"
         image="equipment/feet/furboots.png"
@@ -1450,6 +1636,12 @@
         weight="20"
         defense="2">
         <sprite>equipment/head/serf.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="657"
         image="use/food/orange.png"
@@ -1908,6 +2100,12 @@
         defense="7"
         weight="250">
         <sprite>equipment/head/monster-skull-helm.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="723"
         image="equipment/head/deserthat.png|R:#ffffff"
@@ -1918,6 +2116,12 @@
         defense="3"
         weight="20">
         <sprite>equipment/head/deserthat.xml|#ffffff</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="724"
         image="equipment/head/standardheadband.png|W:#a4b2b2,ffffff"
@@ -1937,6 +2141,12 @@
         defense="5"
         weight="20">
         <sprite>equipment/head/gmcap.xml|#bf0e08</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="726"
         image="equipment/chest/silk-robe.png|W:#e40a0a"
@@ -2279,6 +2489,12 @@
         defense="15"
         weight="300">
         <sprite>equipment/head/terranitehelm.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="767"
         image="equipment/chest/terranite.png"
@@ -2323,6 +2539,12 @@
         luck="3"
         weight="20">
         <sprite>equipment/head/fairy_hat.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="771"
         image="equipment/legs/miniskirt.png|W:#a4b2b2,ffffff"
@@ -2523,6 +2745,15 @@
         defense="15"
         weight="400">
         <sprite>equipment/head/bromenalhelmet.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+            <item from="-6"/>
+            <item from="-14" to="-7"/>
+            <item from="-15" to="-7"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="796"
         image="equipment/legs/bromenallegs.png"
@@ -2570,6 +2801,12 @@
         weight="30"
         defense="10">
         <sprite>equipment/head/bowler-hat-brown.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="801"
         image="equipment/head/pinkie-helmet.png"
@@ -2581,6 +2818,12 @@
         luck="1"
         weight="800">
         <sprite>equipment/head/pinkie-helmet.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="802"
         image="generic/easterbasket.png"
@@ -2931,6 +3174,9 @@
         defense="3"
         weight="50">
         <sprite>equipment/head/elf-nightcap.xml</sprite>
+        <replace sprite="hair">
+            <item to="-7"/>
+        </replace>
     </item>
     <item id="855"
         image="equipment/head/sunglasses.png"
@@ -2950,6 +3196,25 @@
         type="equip-head"
         defense="3"
         weight="50">
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="left" sprite="hair">
+            <item from="-13"/>
+            <item from="-15" to="-8"/>
+        </replace>
+        <replace direction="right" sprite="hair">
+            <item from="-13"/>
+            <item from="-15" to="-8"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+            <item from="-14" to="-17"/>
+        </replace>
+        <replace direction="downall" sprite="hair">
+            <item from="-14" to="-8"/>
+            <item from="-15" to="-17"/>
+        </replace>
         <sprite>equipment/head/knit-cap.xml</sprite>
     </item>
     <item id="857"
@@ -3234,6 +3499,9 @@
         defense="1"
         weight="80">
         <sprite>equipment/head/mouboohead.xml</sprite>
+        <replace direction="downall" sprite="hair">
+            <item from="-5"/>
+        </replace>
     </item>
     <item id="1217"
         image="equipment/head/catears.png|M:#774444;W:#777777"
@@ -3256,6 +3524,19 @@
         agi="-1"
         weight="10">
         <sprite>equipment/head/paperbag.xml</sprite>
+        <replace sprite="hair">
+            <item from="-3"/>
+            <item from="-4"/>
+            <item from="-5"/>
+            <item from="-9"/>
+            <item from="-11"/>
+            <item from="-12"/>
+            <item from="-13"/>
+            <item from="-14"/>
+            <item from="-15"/>
+            <item from="-17"/>
+            <item from="-18"/>
+        </replace>
     </item>
     <item id="1219"
         image="equipment/head/moubootaurhead.png"
@@ -3265,6 +3546,9 @@
         defense="1"
         weight="80">
         <sprite>equipment/head/moubootaurhead.xml</sprite>
+        <replace direction="upall" sprite="hair">
+            <item from="-5"/>
+        </replace>
     </item>
     <item id="1220"
         image="equipment/head/parsley-earplugs.png"
@@ -3524,6 +3808,9 @@
         agi="-1"
         weight="15">
         <sprite>equipment/head/eggshell.xml</sprite>
+        <replace direction="upall" sprite="hair">
+            <item from="-5"/>
+        </replace>
     </item>
     <item id="1257"
         image="generic/flawed-lens.png"
@@ -3565,6 +3852,9 @@
         defense="3"
         weight="50">
         <sprite>equipment/head/witch-hat.xml</sprite>
+        <replace direction="upall" sprite="hair">
+            <item from="-5"/>
+        </replace>
     </item>
     <item id="1279"
         image="equipment/head/goblin-mask.png"
@@ -4479,6 +4769,12 @@
         defense="3"
         weight="20">
         <sprite>equipment/head/deserthat.xml|#580000,a40000,c02020,ff6060</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2131"
         image="equipment/head/deserthat.png|R:#115511,22aa22,99dd99"
@@ -4489,6 +4785,12 @@
         defense="3"
         weight="20">
         <sprite>equipment/head/deserthat.xml|#115511,22aa22,99dd99</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2132"
         image="equipment/head/deserthat.png|R:#222255,6666ff"
@@ -4499,6 +4801,12 @@
         defense="3"
         weight="20">
         <sprite>equipment/head/deserthat.xml|#222255,6666ff</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2133"
         image="equipment/head/deserthat.png|R:#846211,dab333,fffb93,ffffff"
@@ -4509,6 +4817,12 @@
         defense="3"
         weight="20">
         <sprite>equipment/head/deserthat.xml|#846211,dab333,fffb93,ffffff</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2134"
         image="equipment/head/deserthat.png|R:#16486e,498ec5,e4f2fc"
@@ -4519,6 +4833,12 @@
         defense="3"
         weight="20">
         <sprite>equipment/head/deserthat.xml|#16486e,498ec5,e4f2fc</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2135"
         image="equipment/head/deserthat.png|R:#56002f,930050,fe70bd,feb7de,ffffff"
@@ -4529,6 +4849,12 @@
         defense="3"
         weight="20">
         <sprite>equipment/head/deserthat.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2136"
         image="equipment/head/deserthat.png|R:#111111,222222,333333,444444,555555,aaaaaa"
@@ -4539,6 +4865,12 @@
         defense="3"
         weight="20">
         <sprite>equipment/head/deserthat.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2137"
         image="equipment/head/deserthat.png|R:#80280f,b04810,ef681f,ffb830"
@@ -4549,6 +4881,12 @@
         defense="3"
         weight="20">
         <sprite>equipment/head/deserthat.xml|#80280f,b04810,ef681f,ffb830</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2138"
         image="equipment/head/deserthat.png|R:#4f0a76,8010c0,d699f7"
@@ -4559,6 +4897,12 @@
         defense="3"
         weight="20">
         <sprite>equipment/head/deserthat.xml|#4f0a76,8010c0,d699f7</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2139"
         image="equipment/head/deserthat.png|R:#104010,208020,30c030"
@@ -4569,6 +4913,12 @@
         defense="3"
         weight="20">
         <sprite>equipment/head/deserthat.xml|#104010,208020,30c030</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
 
     <item id="2140"
@@ -4994,6 +5344,7 @@
         <sprite gender="male">equipment/legs/miniskirt-male.xml|#104010,208020,30c030</sprite>
         <sprite gender="female">equipment/legs/miniskirt-female.xml|#104010,208020,30c030</sprite>
     </item>
+
     <item id="2180"
         image="equipment/legs/pants.png|W:#580000,a40000,c02020,ff6060"
         name="Red Cotton Trousers"
@@ -5325,6 +5676,12 @@
         defense="10"
         weight="30">
         <sprite>equipment/head/bowler-hat.xml|#580000,a40000,c02020,ff6060</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2211"
         image="equipment/head/bowler-hat.png|W:#115511,22aa22,99dd99"
@@ -5335,6 +5692,12 @@
         defense="10"
         weight="30">
         <sprite>equipment/head/bowler-hat.xml|#115511,22aa22,99dd99</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2212"
         image="equipment/head/bowler-hat.png|W:#222255,6666ff"
@@ -5345,6 +5708,12 @@
         defense="10"
         weight="30">
         <sprite>equipment/head/bowler-hat.xml|#222255,6666ff</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2213"
         image="equipment/head/bowler-hat.png|W:#846211,dab333,fffb93,ffffff"
@@ -5355,6 +5724,12 @@
         defense="10"
         weight="30">
         <sprite>equipment/head/bowler-hat.xml|#846211,dab333,fffb93,ffffff</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2214"
         image="equipment/head/bowler-hat.png|W:#16486e,498ec5,e4f2fc"
@@ -5365,6 +5740,12 @@
         defense="10"
         weight="30">
         <sprite>equipment/head/bowler-hat.xml|#16486e,498ec5,e4f2fc</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2215"
         image="equipment/head/bowler-hat.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
@@ -5375,6 +5756,12 @@
         defense="10"
         weight="30">
         <sprite>equipment/head/bowler-hat.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2216"
         image="equipment/head/bowler-hat.png|W:#111111,222222,333333,444444,555555,aaaaaa"
@@ -5385,6 +5772,12 @@
         defense="10"
         weight="30">
         <sprite>equipment/head/bowler-hat.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2217"
         image="equipment/head/bowler-hat.png|W:#80280f,b04810,ef681f,ffb830"
@@ -5395,6 +5788,12 @@
         defense="10"
         weight="30">
         <sprite>equipment/head/bowler-hat.xml|#80280f,b04810,ef681f,ffb830</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2218"
         image="equipment/head/bowler-hat.png|W:#4f0a76,8010c0,d699f7"
@@ -5405,6 +5804,12 @@
         defense="10"
         weight="30">
         <sprite>equipment/head/bowler-hat.xml|#4f0a76,8010c0,d699f7</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2219"
         image="equipment/head/bowler-hat.png|W:#104010,208020,30c030"
@@ -5415,6 +5820,12 @@
         defense="10"
         weight="30">
         <sprite>equipment/head/bowler-hat.xml|#104010,208020,30c030</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
 
     <item id="2220"
@@ -5547,6 +5958,12 @@
         defense="10"
         weight="30">
         <sprite>equipment/head/bowler-hat-brown.xml|#580000,a40000,c02020,ff6060</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2231"
         image="equipment/head/bowler-hat-brown.png|W:#115511,22aa22,99dd99"
@@ -5557,6 +5974,12 @@
         defense="10"
         weight="30">
         <sprite>equipment/head/bowler-hat-brown.xml|#115511,22aa22,99dd99</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2232"
         image="equipment/head/bowler-hat-brown.png|W:#222255,6666ff"
@@ -5567,6 +5990,12 @@
         defense="10"
         weight="30">
         <sprite>equipment/head/bowler-hat-brown.xml|#222255,6666ff</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2233"
         image="equipment/head/bowler-hat-brown.png|W:#846211,dab333,fffb93,ffffff"
@@ -5577,6 +6006,12 @@
         defense="10"
         weight="30">
         <sprite>equipment/head/bowler-hat-brown.xml|#846211,dab333,fffb93,ffffff</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2234"
         image="equipment/head/bowler-hat-brown.png|W:#16486e,498ec5,e4f2fc"
@@ -5587,6 +6022,12 @@
         defense="10"
         weight="30">
         <sprite>equipment/head/bowler-hat-brown.xml|#16486e,498ec5,e4f2fc</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2235"
         image="equipment/head/bowler-hat-brown.png|W:#56002f,930050,fe70bd,feb7de,ffffff"
@@ -5597,6 +6038,12 @@
         defense="10"
         weight="30">
         <sprite>equipment/head/bowler-hat-brown.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2236"
         image="equipment/head/bowler-hat-brown.png|W:#111111,222222,333333,444444,555555,aaaaaa"
@@ -5607,6 +6054,12 @@
         defense="10"
         weight="30">
         <sprite>equipment/head/bowler-hat-brown.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2237"
         image="equipment/head/bowler-hat-brown.png|W:#80280f,b04810,ef681f,ffb830"
@@ -5617,6 +6070,12 @@
         defense="10"
         weight="30">
         <sprite>equipment/head/bowler-hat-brown.xml|#80280f,b04810,ef681f,ffb830</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2238"
         image="equipment/head/bowler-hat-brown.png|W:#4f0a76,8010c0,d699f7"
@@ -5627,6 +6086,12 @@
         defense="10"
         weight="30">
         <sprite>equipment/head/bowler-hat-brown.xml|#4f0a76,8010c0,d699f7</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="2239"
         image="equipment/head/bowler-hat-brown.png|W:#104010,208020,30c030"
@@ -5637,8 +6102,13 @@
         defense="10"
         weight="30">
         <sprite>equipment/head/bowler-hat-brown.xml|#104010,208020,30c030</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
-
     <item id="2240"
         image="equipment/chest/fine-dress.png|W:#660102,ee1407,ffffff,ffffff"
         name="Fine Red Dress"
@@ -6021,6 +6491,12 @@
         defense="10"
         weight="30">
         <sprite>equipment/head/bowler-hat.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="4031"
         image="equipment/head/monocle.png"
