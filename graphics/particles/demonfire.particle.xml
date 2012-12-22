@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!--
+Demon fire: blue / black / purple flames and sparkles
+-->
+<effect>
+  <particle position-x="16" position-y="0" position-z="12">
+    <emitter>
+      <property name="position-y" min="-10" max="-20"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="50"/>
+      <property name="power" min="0.2" max="0.4"/>
+      <property name="gravity" value="-0.02"/>
+      <animation imageset="graphics/particles/aniblaze-medium.png|W:#746767" width="16" height="16">
+        <sequence start="0" end="8" delay="90"/>
+        <frame index="14" delay="200"/>
+      </animation>
+      <property name="lifetime" value="50"/>
+      <property name="output" min="0" max="2"/>
+      <property name="fade-in" value="0"/>
+      <property name="fade-out" value="180"/>
+    </emitter>
+    <emitter>
+      <property name="position-y" value="-10"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="180"/>
+      <property name="power" value="0.6"/>
+      <property name="gravity" value="-0.01"/>
+      <property name="image" value="graphics/particles/fog-medium-a.png|W:#5A40A1"/>
+      <property name="lifetime" value="30"/>
+      <property name="output" min="1" max="2"/>
+      <property name="fade-in" value="0"/>
+      <property name="fade-out" value="230"/>
+    </emitter>
+    <emitter>
+      <property name="position-x" min="2" max="4"/>
+      <property name="position-y" value="-8"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="180"/>
+      <property name="power" value="0.5"/>
+      <property name="gravity" value="-0.01"/>
+      <property name="image" value="graphics/particles/star-small.png|W:#73B5E8,FFFFFF"/>
+      <property name="lifetime" value="60"/>
+      <property name="output" value="1"/>
+      <property name="fade-in" value="0"/>
+      <property name="fade-out" value="150"/>
+    </emitter>
+    <emitter>
+      <property name="position-x" min="-3" max="4"/>
+      <property name="position-y" value="-9"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="180"/>
+      <property name="power" value="0.2"/>
+      <property name="gravity" value="-0.01"/>
+      <property name="image" value="graphics/particles/orb-medium.png|W:#2e2e2e"/>
+      <property name="lifetime" value="60"/>
+      <property name="output" value="1"/>
+      <property name="fade-in" value="0"/>
+      <property name="fade-out" value="150"/>
+    </emitter>
+  </particle>
+</effect>
