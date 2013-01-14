@@ -305,13 +305,13 @@
     <sound event="die">monsters/bat/bat-dying1.ogg</sound>
     <sound event="hit">monsters/bat/bat-hit1.ogg</sound>
   </monster>
-  <monster id="65" name="Reaper" targetCursor="medium">
+  <monster id="65" name="Reaper">
     <sprite>monsters/reaper.xml</sprite>
     <sprite>monsters/accessories/reaper-shadow.xml</sprite>
     <particlefx>graphics/particles/monster-reaper.particle.xml</particlefx>
     <sound event="hurt">monsters/reaper/reaper-hurt.ogg</sound>
   </monster>
-  <monster id="66" name="Reaper" targetCursor="medium">
+  <monster id="66" name="Reaper">
     <!-- slave version -->
     <sprite>monsters/reaper.xml</sprite>
     <sprite>monsters/accessories/reaper-shadow.xml</sprite>
@@ -333,7 +333,7 @@
   <monster id="70" name="Yeti">
     <sprite>monsters/yeti.xml</sprite>
   </monster>
-  <monster id="71" name="The Lost" targetCursor="medium">
+  <monster id="71" name="The Lost">
     <sprite>monsters/skeleton.xml|#aca379</sprite>
     <sprite>equipment/chest/robe-male.xml|#333333</sprite>
   </monster>
