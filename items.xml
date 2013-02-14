@@ -3431,7 +3431,84 @@
         <sprite gender="male">equipment/legs/shorts-male.xml|#95887F,E0D1C9</sprite>
         <sprite gender="female">equipment/legs/shorts-female.xml|#95887F,E0D1C9</sprite>
     </item>
-
+    <item id="882"
+        image="equipment/head/redeggshell.png"
+        name="Red Eggshell Hat"
+        description="A novelty hat shaped like an eggshell half."
+        type="equip-head"
+        effect="M. Defense +3"
+        defense="9"
+        weight="15">
+        <sprite>equipment/head/redeggshell.xml</sprite>
+        <replace direction="upall" sprite="hair">
+            <item from="-5"/>
+        </replace>
+    </item>
+    <item id="883"
+        image="equipment/head/blueeggshell.png"
+        name="Blue Eggshell Hat"
+        description="A novelty hat shaped like an eggshell half."
+        type="equip-head"
+        effect="M. Defense +3"
+        defense="9"
+        weight="15">
+        <sprite>equipment/head/blueeggshell.xml</sprite>
+        <replace direction="upall" sprite="hair">
+            <item from="-5"/>
+        </replace>
+    </item>
+    <item id="884"
+        image="equipment/head/yelloweggshell.png"
+        name="Yellow Eggshell Hat"
+        description="A novelty hat shaped like an eggshell half."
+        type="equip-head"
+        effect="M. Defense +3"
+        defense="9"
+        weight="15">
+        <sprite>equipment/head/yelloweggshell.xml</sprite>
+        <replace direction="upall" sprite="hair">
+            <item from="-5"/>
+        </replace>
+    </item>
+    <item id="885"
+        image="equipment/head/greeneggshell.png"
+        name="Green Eggshell Hat"
+        description="A novelty hat shaped like an eggshell half."
+        type="equip-head"
+        effect="M. Defense +3"
+        defense="9"
+        weight="15">
+        <sprite>equipment/head/greeneggshell.xml</sprite>
+        <replace direction="upall" sprite="hair">
+            <item from="-5"/>
+        </replace>
+    </item>
+    <item id="885"
+        image="equipment/head/orangeeggshell.png"
+        name="Orange Eggshell Hat"
+        description="A novelty hat shaped like an eggshell half."
+        type="equip-head"
+        effect="M. Defense +3"
+        defense="9"
+        weight="15">
+        <sprite>equipment/head/orangeeggshell.xml</sprite>
+        <replace direction="upall" sprite="hair">
+            <item from="-5"/>
+        </replace>
+    </item>
+    <item id="886"
+        image="equipment/head/darkeggshell.png"
+        name="Dark Eggshell Hat"
+        description="A novelty hat shaped like an eggshell half."
+        type="equip-head"
+        effect="M. Defense +3"
+        defense="9"
+        weight="15">
+        <sprite>equipment/head/darkeggshell.xml</sprite>
+        <replace direction="upall" sprite="hair">
+            <item from="-5"/>
+        </replace>
+    </item>
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
     <item id="1198"
