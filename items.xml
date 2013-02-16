@@ -3431,6 +3431,31 @@
         <sprite gender="male">equipment/legs/shorts-male.xml|#95887F,E0D1C9</sprite>
         <sprite gender="female">equipment/legs/shorts-female.xml|#95887F,E0D1C9</sprite>
     </item>
+    <item id="888"
+        image="equipment/head/magicgmtophat.png"
+        name="Magic GM Top Hat"
+        description="Probably not the best way to stay hidden."
+        effect="M. Attack +20 / HP +31000 / Flee -200 / HP Recovery Rate -400% / Critical Defense +250 / M. Defense +89"
+        type="equip-head"
+        defense="60"
+        weight="30">
+        <sprite>equipment/head/magicgmtophat.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
+    </item>
+    <item id="889"
+        image="equipment/head/thin-crown.png|W:#343434,ababab;R:#003300,00FF00;G:#29758A,9BDBEC"
+        name="Murderer Crown"
+        description="Royal blood has been shed for the ownership of this crown."
+        type="equip-head"
+        defense="4"
+        weight="240">
+        <sprite>equipment/head/thin-crown.xml|#343434,ababab;#003300,00FF00;#29758A,9BDBEC</sprite>
+    </item>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
