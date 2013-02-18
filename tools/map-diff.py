@@ -75,11 +75,13 @@ class MapDiff(object):
 
     def _rastermap(self, tmx):
         tmxf, tmxraster = tempfile.mkstemp(suffix='.png')
-        subprocess.check_call([self.platform_programs.get('tmxrasterizer'), tmx, tmxraster])
+        subprocess.check_call([
+            self.platform_programs.get('tmxrasterizer'),
+            '--scale', '1.0',
+            tmx, tmxraster
+        ])
         if os.stat(tmxraster).st_size == 0:
-            # the image couldnt be rendered. The most probable reason is
-            # that the map was too big (e.g 024-4, 500x500 tiles)
-            raise Exception('Map too large to be rendered.')
+            raise Exception('A problem was encountered when rendering a map')
         return tmxraster
 
 
@@ -107,10 +109,12 @@ class MapGitRevDiff(MapDiff):
         # We have the 2 revs to compare. Let's extract the related tmx file
         p1 = self._mktmx_from_rev(c1)
         p2 = self._mktmx_from_rev(c2)
-        difftmxpath = '%s_%s-%s.png' % (self.map_number, c1, c2)
-        self._diffmaps(p1, p2, difftmxpath)
-        os.unlink(p1)
-        os.unlink(p2)
+        try:
+            difftmxpath = '%s_%s-%s.png' % (self.map_number, c1, c2)
+            self._diffmaps(p1, p2, difftmxpath)
+        finally:
+            os.unlink(p1)
+            os.unlink(p2)
 
     def _mktmx_from_rev(self, rev):
         p = subprocess.Popen([self.platform_programs.get('git'), '--no-pager', 'show', '%s:%s' % (rev, self.tmx_path)], stdout=subprocess.PIPE)

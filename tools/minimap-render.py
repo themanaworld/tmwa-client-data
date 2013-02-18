@@ -22,9 +22,10 @@ class MinimapRenderer(object):
         },
     }
 
-    def __init__(self, map_name, scale):
+    def __init__(self, map_name, tilesize, useAntiAliasing):
         self.map_name = map_name
-        self.scale = scale
+        self.tilesize = tilesize
+        self.useAntiAliasing = useAntiAliasing
 
     def render(self):
         """
@@ -58,11 +59,16 @@ class MinimapRenderer(object):
         platform_programs = MinimapRenderer.PROGRAMS.get(sys.platform, MinimapRenderer.PROGRAMS.get('default'))
         # tmx rasterize
         mrf, map_raster = tempfile.mkstemp(suffix='.png')
-        subprocess.check_call([platform_programs.get('tmxrasterizer'), '--scale', str(self.scale), tmx_file, map_raster])
+        tmxrasterizer_cmd = [
+            platform_programs.get('tmxrasterizer'),
+            '--tilesize', str(self.tilesize),
+        ]
+        if self.useAntiAliasing:
+            tmxrasterizer_cmd.append('--anti-aliasing')
+        tmxrasterizer_cmd += [tmx_file, map_raster]
+        subprocess.check_call(tmxrasterizer_cmd)
         if os.stat(map_raster).st_size == 0:
-            # the image couldnt be rendered. The most probable reason is
-            # that the map was too big (e.g 024-4, 500x500 tiles)
-            raise Exception('Map too large to be rendered.')
+            raise Exception('A problem was encountered when rendering a map')
         # add cell-shading to the minimap to improve readability
         ebf, edges_bitmap = tempfile.mkstemp(suffix='.png')
         subprocess.check_call([
@@ -140,7 +146,8 @@ def main():
 
     status = 0
     for map_name in sys.argv[1:]:
-        map_renderer = MinimapRenderer(map_name, 0.03125) # this scale renders 1px for a tile of 32px
+        # Render tiles at 1 pixel size
+        map_renderer = MinimapRenderer(map_name, 1, True)
         status += map_renderer.render()
     return status
 
