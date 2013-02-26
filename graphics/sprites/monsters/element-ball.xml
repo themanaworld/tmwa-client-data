@@ -53,8 +53,22 @@
     </animation>
   </action>
   <action name="attack" imageset="base">
-    <animation direction="right"><frame index="20" delay="80"/><frame index="21" delay="80"/><frame index="22" delay="80"/><frame index="23" delay="80"/><frame index="24" delay="80"/>   3
-<frame index="25" delay="80"/><frame index="26" delay="220"/><frame index="25" delay="180"/><frame index="24" delay="140"/><frame index="23" delay="100"/><frame index="22" delay="80"/><frame index="21" delay="60"/><frame index="20" delay="60"/></animation>
+    <animation direction="right">
+      <frame index="20" delay="80"/>
+      <frame index="21" delay="80"/>
+      <frame index="22" delay="80"/>
+      <frame index="23" delay="80"/>
+      <frame index="24" delay="80"/>
+      <frame index="25" delay="80"/>
+      <frame index="26" delay="220"/>
+      <frame index="25" delay="180"/>
+      <frame index="24" delay="140"/>
+      <frame index="23" delay="100"/>
+      <frame index="22" delay="80"/>
+      <frame index="21" delay="60"/>
+      <frame index="20" delay="60"/>
+      <end/>
+    </animation>
     <animation direction="left">
       <frame index="36" delay="80"/>
       <frame index="35" delay="80"/>
@@ -69,6 +83,7 @@
       <frame index="34" delay="80"/>
       <frame index="35" delay="60"/>
       <frame index="36" delay="60"/>
+      <end/>
     </animation>
   </action>
 </sprite>

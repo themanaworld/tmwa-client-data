@@ -18,15 +18,19 @@
   <action name="attack" imageset="base">
     <animation direction="down">
       <sequence start="12" end="14" delay="200"/>
+      <end/>
     </animation>
     <animation direction="right">
       <sequence start="15" end="17" delay="200"/>
+      <end/>
     </animation>
     <animation direction="left">
       <sequence start="18" end="20" delay="200"/>
+      <end/>
     </animation>
     <animation direction="up">
       <sequence start="21" end="23" delay="200"/>
+      <end/>
     </animation>
   </action>
   <action name="dead" imageset="base">

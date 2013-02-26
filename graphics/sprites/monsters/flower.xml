@@ -32,15 +32,19 @@
   <action name="attack" imageset="base">
     <animation direction="down">
       <sequence start="1" end="5" delay="75" offsetY="3"/>
+      <end/>
     </animation>
     <animation direction="left">
       <sequence start="7" end="10" delay="75" offsetY="3"/>
+      <end/>
     </animation>
     <animation direction="up">
       <sequence start="13" end="16" delay="75" offsetY="3"/>
+      <end/>
     </animation>
     <animation direction="right">
       <sequence start="19" end="22" delay="75" offsetY="3"/>
+      <end/>
     </animation>
   </action>
 </sprite>
