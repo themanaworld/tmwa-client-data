@@ -12,20 +12,20 @@ Dark Purple particles flying around the target, giving a demonic aura.
       <property name="lifetime" value="1"/>
       <property name="output" value="1"/>
       <emitter>
-            <animation imageset="graphics/particles/electricity.particle.png|W:#555555" width="15" height="15">
-            <sequence start="0" end="7" delay="10"/>
-            <frame index="0" delay="10"/>
-            </animation>
-            <property name="lifetime" value="25"/>
-            <property name="fade-in" value="5"/>
-            <property name="fade-out" value="25"/>
-            <property name="output" min="0" max="1"/>
-            <property name="power" min="0" max="2"/>
-            <property name="horizontal-angle" min="-15" max="-175"/>
-            <property name="momentum" value="0.95"/>
-            <property name="randomnes" value="50"/>
-            <property name="vertical-angle" min="0" max="90"/>
-        </emitter>
+        <animation imageset="graphics/particles/electricity.particle.png|W:#555555" width="15" height="15">
+          <sequence start="0" end="7" delay="10"/>
+          <frame index="0" delay="10"/>
+        </animation>
+        <property name="lifetime" value="25"/>
+        <property name="fade-in" value="5"/>
+        <property name="fade-out" value="25"/>
+        <property name="output" min="0" max="1"/>
+        <property name="power" min="0" max="2"/>
+        <property name="horizontal-angle" min="-15" max="-175"/>
+        <property name="momentum" value="0.95"/>
+        <property name="randomnes" value="50"/>
+        <property name="vertical-angle" min="0" max="90"/>
+      </emitter>
     </emitter>
   </particle>
 </effect>
