@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset name="base" src="graphics/sprites/equipment/head/beaniecopter.png" width="30" height="30" offsetY="-44"/>
+  <action name="stand" imageset="base">
+    <animation direction="down">
+      <frame index="0" offsetX="-1" delay="56"/>
+      <frame index="1" offsetX="-1" delay="19"/>
+      <frame index="1" offsetX="-1" delay="37"/>
+      <frame index="2" offsetX="-1" delay="38"/>
+      <frame index="2" offsetX="-1" delay="18"/>
+      <frame index="3" offsetX="-1" delay="57"/>
+      <frame index="0" offsetX="-1" delay="55"/>
+      <frame index="1" offsetX="-1" delay="20"/>
+      <frame index="1" offsetX="-1" delay="36"/>
+      <frame index="2" offsetX="-1" delay="39"/>
+      <frame index="2" offsetX="-1" delay="17"/>
+      <frame index="3" offsetX="-1" delay="58"/>
+    </animation>
+    <animation direction="left">
+      <frame index="4" offsetY="-1" delay="56"/>
+      <frame index="5" offsetY="-1" delay="19"/>
+      <frame index="5" offsetY="-1" delay="37"/>
+      <frame index="6" offsetY="-1" delay="38"/>
+      <frame index="6" offsetY="-1" delay="18"/>
+      <frame index="7" offsetY="-1" delay="56"/>
+      <frame index="4" offsetY="-1" delay="56"/>
+      <frame index="5" offsetY="-1" delay="20"/>
+      <frame index="5" offsetY="-1" delay="36"/>
+      <frame index="6" offsetY="-1" delay="39"/>
+      <frame index="6" offsetY="-1" delay="17"/>
+      <frame index="7" offsetY="-1" delay="58"/>
+    </animation>
+    <animation direction="up">
+      <frame index="8" offsetX="-2" offsetY="-1" delay="56"/>
+      <frame index="9" offsetX="-2" offsetY="-1" delay="19"/>
+      <frame index="9" offsetX="-2" offsetY="-1" delay="37"/>
+      <frame index="10" offsetX="-2" offsetY="-1" delay="38"/>
+      <frame index="10" offsetX="-2" offsetY="-1" delay="18"/>
+      <frame index="11" offsetX="-2" offsetY="-1" delay="57"/>
+      <frame index="8" offsetX="-2" offsetY="-1" delay="55"/>
+      <frame index="9" offsetX="-2" offsetY="-1" delay="20"/>
+      <frame index="9" offsetX="-2" offsetY="-1" delay="36"/>
+      <frame index="10" offsetX="-2" offsetY="-1" delay="39"/>
+      <frame index="10" offsetX="-2" offsetY="-1" delay="17"/>
+      <frame index="11" offsetX="-2" offsetY="-1" delay="58"/>
+    </animation>
+    <animation direction="right">
+      <frame index="12" offsetY="-1" delay="56"/>
+      <frame index="13" offsetY="-1" delay="19"/>
+      <frame index="13" offsetY="-1" delay="37"/>
+      <frame index="14" offsetY="-1" delay="38"/>
+      <frame index="14" offsetY="-1" delay="18"/>
+      <frame index="15" offsetY="-1" delay="56"/>
+      <frame index="12" offsetY="-1" delay="56"/>
+      <frame index="13" offsetY="-1" delay="20"/>
+      <frame index="13" offsetY="-1" delay="36"/>
+      <frame index="14" offsetY="-1" delay="39"/>
+      <frame index="14" offsetY="-1" delay="17"/>
+      <frame index="15" offsetY="-1" delay="56"/>
+    </animation>
+  </action>
+  <action name="walk" imageset="base">
+    <animation direction="down">
+      <frame index="0" offsetX="-1" delay="56"/>
+      <frame index="1" offsetX="-1" delay="19"/>
+      <frame index="1" offsetX="-1" offsetY="-1" delay="37"/>
+      <frame index="2" offsetX="-1" offsetY="-1" delay="38"/>
+      <frame index="2" offsetX="-1" offsetY="-1" delay="18"/>
+      <frame index="3" offsetX="-1" offsetY="-1" delay="57"/>
+      <frame index="0" offsetX="-1" delay="55"/>
+      <frame index="1" offsetX="-1" delay="20"/>
+      <frame index="1" offsetX="-1" offsetY="-1" delay="36"/>
+      <frame index="2" offsetX="-1" offsetY="-1" delay="39"/>
+      <frame index="2" offsetX="-1" offsetY="-1" delay="17"/>
+      <frame index="3" offsetX="-1" offsetY="-1" delay="58"/>
+    </animation>
+    <animation direction="left">
+      <frame index="4" offsetX="-1" offsetY="-1" delay="56"/>
+      <frame index="5" offsetX="-1" offsetY="-1" delay="19"/>
+      <frame index="5" offsetX="-1" delay="37"/>
+      <frame index="6" offsetX="-1" delay="38"/>
+      <frame index="6" offsetX="-1" offsetY="-1" delay="18"/>
+      <frame index="7" offsetX="-1" offsetY="-1" delay="57"/>
+      <frame index="4" offsetX="-1" offsetY="-1" delay="55"/>
+      <frame index="5" offsetX="-1" offsetY="-1" delay="20"/>
+      <frame index="5" offsetX="-1" delay="36"/>
+      <frame index="6" offsetX="-1" delay="39"/>
+      <frame index="6" offsetX="-1" offsetY="-1" delay="17"/>
+      <frame index="7" offsetX="-1" offsetY="-1" delay="58"/>
+    </animation>
+    <animation direction="up">
+      <frame index="8" offsetX="-2" offsetY="-1" delay="56"/>
+      <frame index="9" offsetX="-2" offsetY="-1" delay="19"/>
+      <frame index="9" offsetX="-2" offsetY="-2" delay="37"/>
+      <frame index="10" offsetX="-2" offsetY="-2" delay="38"/>
+      <frame index="10" offsetX="-2" offsetY="-2" delay="18"/>
+      <frame index="11" offsetX="-2" offsetY="-2" delay="57"/>
+      <frame index="8" offsetX="-2" offsetY="-1" delay="55"/>
+      <frame index="9" offsetX="-2" offsetY="-1" delay="20"/>
+      <frame index="9" offsetX="-2" offsetY="-2" delay="36"/>
+      <frame index="10" offsetX="-2" offsetY="-2" delay="39"/>
+      <frame index="10" offsetX="-2" offsetY="-2" delay="17"/>
+      <frame index="11" offsetX="-2" offsetY="-2" delay="58"/>
+    </animation>
+    <animation direction="right">
+      <frame index="12" offsetY="-1" delay="56"/>
+      <frame index="13" offsetY="-1" delay="19"/>
+      <frame index="13" delay="37"/>
+      <frame index="14" delay="38"/>
+      <frame index="14" offsetY="-1" delay="18"/>
+      <frame index="15" offsetY="-1" delay="57"/>
+      <frame index="12" offsetY="-1" delay="55"/>
+      <frame index="13" offsetY="-1" delay="20"/>
+      <frame index="13" delay="36"/>
+      <frame index="14" delay="39"/>
+      <frame index="14" offsetY="-1" delay="17"/>
+      <frame index="15" offsetY="-1" delay="56"/>
+    </animation>
+  </action>
+  <action name="attack" imageset="base">
+    <animation direction="down">
+      <frame index="0" offsetX="-1" offsetY="3" delay="75"/>
+      <frame index="1" offsetX="-1" offsetY="2" delay="75"/>
+      <frame index="2" offsetX="-1" offsetY="5" delay="75"/>
+      <frame index="3" offsetX="-1" offsetY="6" delay="75"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <frame index="4" offsetX="3" offsetY="-3" delay="75"/>
+      <frame index="5" offsetX="3" offsetY="-4" delay="75"/>
+      <frame index="6" offsetX="-1" offsetY="-1" delay="75"/>
+      <frame index="7" offsetX="-2" delay="75"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <frame index="8" offsetX="-3" delay="75"/>
+      <frame index="9" offsetX="-3" delay="75"/>
+      <frame index="10" offsetX="-3" delay="75"/>
+      <frame index="11" offsetX="-3" offsetY="2" delay="75"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <frame index="12" offsetX="-2" offsetY="-2" delay="75"/>
+      <frame index="13" offsetX="-2" offsetY="-3" delay="75"/>
+      <frame index="14" offsetX="1" offsetY="1" delay="75"/>
+      <frame index="15" offsetX="2" offsetY="2" delay="75"/>
+      <end/>
+    </animation>
+  </action>
+  <action name="attack_bow" imageset="base">
+    <animation direction="down">
+      <frame index="0" offsetX="-1" offsetY="1" delay="75"/>
+      <frame index="0" offsetX="-1" offsetY="1" delay="19"/>
+      <frame index="1" offsetX="-1" offsetY="1" delay="75"/>
+      <frame index="1" offsetX="-1" offsetY="1" delay="19"/>
+      <frame index="2" offsetX="-1" offsetY="1" delay="37"/>
+      <frame index="2" offsetX="-1" offsetY="2" delay="57"/>
+      <frame index="3" offsetX="-1" offsetY="2" delay="18"/>
+      <frame index="3" offsetX="-1" offsetY="1" delay="75"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <frame index="4" offsetX="2" offsetY="-1" delay="75"/>
+      <frame index="4" offsetX="2" offsetY="-1" delay="19"/>
+      <frame index="5" offsetX="2" offsetY="-1" delay="75"/>
+      <frame index="5" offsetX="2" offsetY="-1" delay="19"/>
+      <frame index="6" offsetX="2" offsetY="-1" delay="37"/>
+      <frame index="6" offsetX="4" offsetY="-2" delay="57"/>
+      <frame index="7" offsetX="4" offsetY="-2" delay="18"/>
+      <frame index="7" offsetX="4" offsetY="-2" delay="75"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <frame index="8" offsetX="-2" offsetY="-1" delay="75"/>
+      <frame index="8" offsetX="-2" offsetY="-1" delay="19"/>
+      <frame index="9" offsetX="-2" offsetY="-1" delay="75"/>
+      <frame index="9" offsetX="-2" offsetY="-1" delay="19"/>
+      <frame index="10" offsetX="-2" offsetY="-1" delay="37"/>
+      <frame index="10" offsetX="-3" delay="57"/>
+      <frame index="11" offsetX="-3" delay="18"/>
+      <frame index="11" offsetX="-3" offsetY="-1" delay="75"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <frame index="12" offsetX="-5" offsetY="-1" delay="75"/>
+      <frame index="12" offsetX="-5" offsetY="-1" delay="19"/>
+      <frame index="13" offsetX="-5" offsetY="-1" delay="75"/>
+      <frame index="13" offsetX="-5" offsetY="-1" delay="19"/>
+      <frame index="14" offsetX="-5" offsetY="-1" delay="37"/>
+      <frame index="14" offsetX="-7" offsetY="-2" delay="57"/>
+      <frame index="15" offsetX="-7" offsetY="-2" delay="18"/>
+      <frame index="15" offsetX="-7" offsetY="-2" delay="75"/>
+      <end/>
+    </animation>
+  </action>
+  <action name="sit" imageset="base">
+    <animation direction="down">
+      <frame index="0" offsetX="-1" offsetY="12" delay="56"/>
+      <frame index="1" offsetX="-1" offsetY="12" delay="19"/>
+      <frame index="1" offsetX="-1" offsetY="12" delay="37"/>
+      <frame index="2" offsetX="-1" offsetY="12" delay="38"/>
+      <frame index="2" offsetX="-1" offsetY="12" delay="18"/>
+      <frame index="3" offsetX="-1" offsetY="12" delay="57"/>
+      <frame index="0" offsetX="-1" offsetY="12" delay="55"/>
+      <frame index="1" offsetX="-1" offsetY="12" delay="20"/>
+      <frame index="1" offsetX="-1" offsetY="12" delay="36"/>
+      <frame index="2" offsetX="-1" offsetY="12" delay="39"/>
+      <frame index="2" offsetX="-1" offsetY="12" delay="17"/>
+      <frame index="3" offsetX="-1" offsetY="12" delay="58"/>
+    </animation>
+    <animation direction="left">
+      <frame index="4" offsetX="4" offsetY="8" delay="56"/>
+      <frame index="5" offsetX="4" offsetY="8" delay="19"/>
+      <frame index="5" offsetX="4" offsetY="8" delay="37"/>
+      <frame index="6" offsetX="4" offsetY="8" delay="38"/>
+      <frame index="6" offsetX="4" offsetY="8" delay="18"/>
+      <frame index="7" offsetX="4" offsetY="8" delay="56"/>
+      <frame index="4" offsetX="4" offsetY="8" delay="56"/>
+      <frame index="5" offsetX="4" offsetY="8" delay="20"/>
+      <frame index="5" offsetX="4" offsetY="8" delay="36"/>
+      <frame index="6" offsetX="4" offsetY="8" delay="39"/>
+      <frame index="6" offsetX="4" offsetY="8" delay="17"/>
+      <frame index="7" offsetX="4" offsetY="8" delay="58"/>
+    </animation>
+    <animation direction="up">
+      <frame index="8" offsetX="-1" offsetY="8" delay="56"/>
+      <frame index="9" offsetX="-1" offsetY="8" delay="19"/>
+      <frame index="9" offsetX="-1" offsetY="8" delay="37"/>
+      <frame index="10" offsetX="-1" offsetY="8" delay="38"/>
+      <frame index="10" offsetX="-1" offsetY="8" delay="18"/>
+      <frame index="11" offsetX="-1" offsetY="8" delay="57"/>
+      <frame index="8" offsetX="-1" offsetY="8" delay="55"/>
+      <frame index="9" offsetX="-1" offsetY="8" delay="20"/>
+      <frame index="9" offsetX="-1" offsetY="8" delay="36"/>
+      <frame index="10" offsetX="-1" offsetY="8" delay="39"/>
+      <frame index="10" offsetX="-1" offsetY="8" delay="17"/>
+      <frame index="11" offsetX="-1" offsetY="8" delay="58"/>
+    </animation>
+    <animation direction="right">
+      <frame index="12" offsetX="-6" offsetY="8" delay="56"/>
+      <frame index="13" offsetX="-6" offsetY="8" delay="19"/>
+      <frame index="13" offsetX="-6" offsetY="8" delay="37"/>
+      <frame index="14" offsetX="-6" offsetY="8" delay="38"/>
+      <frame index="14" offsetX="-6" offsetY="8" delay="18"/>
+      <frame index="15" offsetX="-6" offsetY="8" delay="56"/>
+      <frame index="12" offsetX="-6" offsetY="8" delay="56"/>
+      <frame index="13" offsetX="-6" offsetY="8" delay="20"/>
+      <frame index="13" offsetX="-6" offsetY="8" delay="36"/>
+      <frame index="14" offsetX="-6" offsetY="8" delay="39"/>
+      <frame index="14" offsetX="-6" offsetY="8" delay="17"/>
+      <frame index="15" offsetX="-6" offsetY="8" delay="56"/>
+    </animation>
+  </action>
+  <action name="dead" imageset="base">
+    <animation direction="default">
+      <frame index="16" offsetX="32" offsetY="30"/>
+    </animation>
+  </action>
+</sprite>

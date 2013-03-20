@@ -16,29 +16,29 @@
       <property name="vertical-angle" min="0" max="90"/>
     </emitter>
     <emitter>
-        <property name="image" value="graphics/particles/orb-large.png|W:#130F16"/>
-        <property name="lifetime" value="60"/>
-        <property name="fade-out" value="90"/>
-        <property name="output" min="0" max="1"/>
-        <property name="power" min="0" max="1"/>
-        <property name="horizontal-angle" min="-10" max="-10"/>
-        <property name="momentum" value="0.95"/>
-        <property name="randomnes" value="200"/>
-        <property name="vertical-angle" min="0" max="90"/>
+      <property name="image" value="graphics/particles/orb-large.png|W:#130F16"/>
+      <property name="lifetime" value="60"/>
+      <property name="fade-out" value="90"/>
+      <property name="output" min="0" max="1"/>
+      <property name="power" min="0" max="1"/>
+      <property name="horizontal-angle" min="-10" max="-10"/>
+      <property name="momentum" value="0.95"/>
+      <property name="randomnes" value="200"/>
+      <property name="vertical-angle" min="0" max="90"/>
     </emitter>
     <emitter>
-        <animation imageset="graphics/particles/electricity.particle.png|W:#333333" width="15" height="15">
+      <animation imageset="graphics/particles/electricity.particle.png|W:#333333" width="15" height="15">
         <sequence start="0" end="7" delay="10"/>
         <frame index="0" delay="10"/>
-        </animation>
-        <property name="lifetime" value="50"/>
-        <property name="fade-out" value="90"/>
-        <property name="output" min="2" max="3"/>
-        <property name="power" min="1" max="4"/>
-        <property name="horizontal-angle" min="-15" max="-175"/>
-        <property name="momentum" value="0.95"/>
-        <property name="randomnes" value="200"/>
-        <property name="vertical-angle" min="0" max="90"/>
+      </animation>
+      <property name="lifetime" value="50"/>
+      <property name="fade-out" value="90"/>
+      <property name="output" min="2" max="3"/>
+      <property name="power" min="1" max="4"/>
+      <property name="horizontal-angle" min="-15" max="-175"/>
+      <property name="momentum" value="0.95"/>
+      <property name="randomnes" value="200"/>
+      <property name="vertical-angle" min="0" max="90"/>
     </emitter>
   </particle>
 </effect>
