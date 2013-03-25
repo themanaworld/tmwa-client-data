@@ -124,8 +124,11 @@
   <npc id="126">
     <sprite variant="26">npcs/npc.xml</sprite>
   </npc>
-  <!-- empty (Invisible NPC) -->
-  <npc id="127">
+  <!-- empty (Invisible NPC used for magic effects) -->
+  <!-- for npc scripts with an invisible but selectable sprite you usually want 400,
+       for warps/doors use 45,
+       for 'hidden' npcs the client shouldn't know about use 32767 -->
+  <npc id="127" targetSelection="false">
     <sprite variant="27">npcs/npc.xml</sprite>
   </npc>
   <!-- Nomad, standing -->
@@ -928,6 +931,13 @@
   </npc>
   <npc id="375">
     <sprite variant="0">npcs/npc-annualeaster.xml</sprite>
+  </npc>
+  <!-- empty (Invisible NPC used in scripts) -->
+  <!-- for npcs that shouldn't be selectable (e.g. in magic effects) use 127,
+       for warps/doors use 45,
+       for 'hidden' npcs the client shouldn't know about use 32767 -->
+  <npc id="400">
+    <sprite variant="27">npcs/npc.xml</sprite>
   </npc>
 
   <!-- Put new unique sprites above here.  For huge npcs, see range 216-250. For poses/outfits npcs, see 251-299 -->
