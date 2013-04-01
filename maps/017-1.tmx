@@ -61,14 +61,8 @@
   </object>
   <object name="Clover Patch" type="spawn" x="3136" y="960" width="96" height="64">
    <properties>
-    <property name="eA_death" value="15000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="35"/>
-   </properties>
-  </object>
-  <object name="Clover Patch" type="spawn" x="3104" y="960" width="128" height="32">
-   <properties>
-    <property name="eA_death" value="15000"/>
+    <property name="eA_death" value="50000"/>
+    <property name="eA_spawn" value="150000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="35"/>
    </properties>
