@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <maps>
     <map name="001-1.tmx">
-        <atlas name="001-1"/>
+        <atlas name="desert"/>
     </map>
     <map name="001-2.tmx">
-        <atlas name="001-2"/>
+        <atlas name="inn"/>
     </map>
 
     <map name="007-1.tmx">
@@ -66,7 +66,7 @@
         <atlas name="woodland1"/>
     </map>
 
-    <atlas name="001-1">
+    <atlas name="desert">
         <file name="graphics/tiles/desert1.png"/>
         <file name="graphics/tiles/desert2.png"/>
         <file name="graphics/tiles/desert_x2.png"/>
@@ -75,7 +75,7 @@
         <file name="graphics/tiles/tulimshar1.png"/>
         <file name="graphics/tiles/trans_woodland-desert.png"/>
     </atlas>
-    <atlas name="001-2">
+    <atlas name="inn">
         <file name="graphics/tiles/inn.png"/>
         <file name="graphics/tiles/inn2.png"/>
     </atlas>
