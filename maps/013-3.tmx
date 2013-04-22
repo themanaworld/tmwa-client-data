@@ -43,8 +43,8 @@
  </layer>
  <objectgroup name="Objects" width="0" height="0" visible="0">
   <properties>
-   <property name="Fire Skull" value=""/>
-   <property name="Poison Skull" value=""/>
+   <property name="FireSkull" value=""/>
+   <property name="PoisonSkull" value=""/>
   </properties>
   <object name="To Woodland Hills" type="warp" x="896" y="640" width="32" height="32">
    <properties>
@@ -235,7 +235,7 @@
     <property name="dest_y" value="640"/>
    </properties>
   </object>
-  <object name="Cave Snake" type="spawn" x="640" y="2016" width="544" height="1696">
+  <object name="CaveSnake" type="spawn" x="640" y="2016" width="544" height="1696">
    <properties>
     <property name="eA_death" value="60000"/>
     <property name="eA_spawn" value="120000"/>
@@ -243,7 +243,7 @@
     <property name="monster_id" value="19"/>
    </properties>
   </object>
-  <object name="Fire Skull" type="spawn" x="1920" y="672" width="96" height="96">
+  <object name="FireSkull" type="spawn" x="1920" y="672" width="96" height="96">
    <properties>
     <property name="eA_death" value="60000"/>
     <property name="eA_spawn" value="120000"/>
@@ -251,7 +251,7 @@
     <property name="monster_id" value="21"/>
    </properties>
   </object>
-  <object name="Poison Skull" type="spawn" x="2560" y="672" width="96" height="96">
+  <object name="PoisonSkull" type="spawn" x="2560" y="672" width="96" height="96">
    <properties>
     <property name="eA_death" value="60000"/>
     <property name="eA_spawn" value="120000"/>
@@ -259,7 +259,7 @@
     <property name="monster_id" value="22"/>
    </properties>
   </object>
-  <object name="Black Scorpion" type="spawn" x="3392" y="640" width="224" height="736">
+  <object name="BlackScorpion" type="spawn" x="3392" y="640" width="224" height="736">
    <properties>
     <property name="eA_death" value="25000"/>
     <property name="eA_spawn" value="50000"/>
@@ -283,7 +283,7 @@
     <property name="monster_id" value="10"/>
    </properties>
   </object>
-  <object name="Fire Skull" type="spawn" x="2592" y="2368" width="96" height="96">
+  <object name="FireSkull" type="spawn" x="2592" y="2368" width="96" height="96">
    <properties>
     <property name="eA_death" value="60000"/>
     <property name="eA_spawn" value="180000"/>
@@ -291,7 +291,7 @@
     <property name="monster_id" value="21"/>
    </properties>
   </object>
-  <object name="Poison Skull" type="spawn" x="4512" y="1152" width="96" height="96">
+  <object name="PoisonSkull" type="spawn" x="4512" y="1152" width="96" height="96">
    <properties>
     <property name="eA_death" value="60000"/>
     <property name="eA_spawn" value="180000"/>
@@ -299,7 +299,7 @@
     <property name="monster_id" value="22"/>
    </properties>
   </object>
-  <object name="Black Scorpion" type="spawn" x="2208" y="4032" width="704" height="544">
+  <object name="BlackScorpion" type="spawn" x="2208" y="4032" width="704" height="544">
    <properties>
     <property name="eA_death" value="40000"/>
     <property name="eA_spawn" value="80000"/>
@@ -307,7 +307,7 @@
     <property name="monster_id" value="7"/>
    </properties>
   </object>
-  <object name="Black Scorpion" type="spawn" x="1664" y="5152" width="1248" height="576">
+  <object name="BlackScorpion" type="spawn" x="1664" y="5152" width="1248" height="576">
    <properties>
     <property name="eA_death" value="40000"/>
     <property name="eA_spawn" value="80000"/>
@@ -315,7 +315,7 @@
     <property name="monster_id" value="7"/>
    </properties>
   </object>
-  <object name="Black Scorpion" type="spawn" x="1920" y="2400" width="320" height="704">
+  <object name="BlackScorpion" type="spawn" x="1920" y="2400" width="320" height="704">
    <properties>
     <property name="eA_death" value="40000"/>
     <property name="eA_spawn" value="80000"/>
@@ -323,7 +323,7 @@
     <property name="monster_id" value="7"/>
    </properties>
   </object>
-  <object name="Black Scorpion" type="spawn" x="2560" y="2624" width="128" height="672">
+  <object name="BlackScorpion" type="spawn" x="2560" y="2624" width="128" height="672">
    <properties>
     <property name="eA_death" value="40000"/>
     <property name="eA_spawn" value="80000"/>
@@ -347,7 +347,7 @@
     <property name="monster_id" value="10"/>
    </properties>
   </object>
-  <object name="Black Scorpion" type="spawn" x="5216" y="2080" width="608" height="832">
+  <object name="BlackScorpion" type="spawn" x="5216" y="2080" width="608" height="832">
    <properties>
     <property name="eA_death" value="50000"/>
     <property name="eA_spawn" value="120000"/>
@@ -355,7 +355,7 @@
     <property name="monster_id" value="7"/>
    </properties>
   </object>
-  <object name="Red Slime" type="spawn" x="4320" y="928" width="672" height="512">
+  <object name="RedSlime" type="spawn" x="4320" y="928" width="672" height="512">
    <properties>
     <property name="eA_death" value="40000"/>
     <property name="eA_spawn" value="80000"/>
@@ -371,7 +371,7 @@
     <property name="monster_id" value="8"/>
    </properties>
   </object>
-  <object name="Black Scorpion" type="spawn" x="5024" y="640" width="544" height="384">
+  <object name="BlackScorpion" type="spawn" x="5024" y="640" width="544" height="384">
    <properties>
     <property name="eA_death" value="40000"/>
     <property name="eA_spawn" value="120000"/>
@@ -387,7 +387,7 @@
     <property name="monster_id" value="8"/>
    </properties>
   </object>
-  <object name="Yellow Slime" type="spawn" x="5056" y="3200" width="128" height="192">
+  <object name="YellowSlime" type="spawn" x="5056" y="3200" width="128" height="192">
    <properties>
     <property name="eA_death" value="40000"/>
     <property name="eA_spawn" value="80000"/>
@@ -411,7 +411,7 @@
     <property name="monster_id" value="0"/>
    </properties>
   </object>
-  <object name="Black Scorpion" type="spawn" x="2336" y="1184" width="256" height="160">
+  <object name="BlackScorpion" type="spawn" x="2336" y="1184" width="256" height="160">
    <properties>
     <property name="eA_death" value="20000"/>
     <property name="eA_spawn" value="40000"/>
@@ -419,7 +419,7 @@
     <property name="monster_id" value="7"/>
    </properties>
   </object>
-  <object name="Red Slime" type="spawn" x="1984" y="1184" width="256" height="160">
+  <object name="RedSlime" type="spawn" x="1984" y="1184" width="256" height="160">
    <properties>
     <property name="eA_death" value="20000"/>
     <property name="eA_spawn" value="40000"/>
@@ -446,7 +446,7 @@
   <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2112" y="896" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2144" y="1536" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2400" y="1536" width="32" height="32"/>
-  <object name="Poison Skull" type="spawn" x="1952" y="1056" width="96" height="64">
+  <object name="PoisonSkull" type="spawn" x="1952" y="1056" width="96" height="64">
    <properties>
     <property name="eA_death" value="60000"/>
     <property name="eA_spawn" value="120000"/>
@@ -454,7 +454,7 @@
     <property name="monster_id" value="22"/>
    </properties>
   </object>
-  <object name="Fire Skull" type="spawn" x="2528" y="1056" width="96" height="64">
+  <object name="FireSkull" type="spawn" x="2528" y="1056" width="96" height="64">
    <properties>
     <property name="eA_death" value="60000"/>
     <property name="eA_spawn" value="120000"/>
@@ -462,7 +462,7 @@
     <property name="monster_id" value="21"/>
    </properties>
   </object>
-  <object name="Poison Skull" type="spawn" x="2368" y="1472" width="96" height="32">
+  <object name="PoisonSkull" type="spawn" x="2368" y="1472" width="96" height="32">
    <properties>
     <property name="eA_death" value="60000"/>
     <property name="eA_spawn" value="120000"/>
@@ -470,7 +470,7 @@
     <property name="monster_id" value="22"/>
    </properties>
   </object>
-  <object name="Fire Skull" type="spawn" x="2112" y="1472" width="96" height="32">
+  <object name="FireSkull" type="spawn" x="2112" y="1472" width="96" height="32">
    <properties>
     <property name="eA_death" value="60000"/>
     <property name="eA_spawn" value="120000"/>
