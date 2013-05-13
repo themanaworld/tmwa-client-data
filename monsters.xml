@@ -486,4 +486,18 @@
     <particlefx>graphics/particles/monster-witchguard.particle.xml</particlefx>
     <sprite>weapon-witchguard-gladius.xml</sprite>
   </monster>
+  <monster id="102" name="Demonic Mouboo">
+    <sprite>monsters/mouboo.xml</sprite>
+  </monster>
+  <monster id="103" name="Vicious Squirrel">
+    <sprite>monsters/squirrel.xml</sprite>
+    <sound event="hurt">monsters/squirrel/squirrel-hurt1.ogg</sound>
+    <sound event="hurt">monsters/squirrel/squirrel-hurt2.ogg</sound>
+    <sound event="die">monsters/squirrel/squirrel-die1.ogg</sound>
+    <sound event="die">monsters/squirrel/squirrel-die2.ogg</sound>
+  </monster>
+  <monster id="104" name="Wicked Mushroom">
+    <sprite>monsters/mushroom-red.xml</sprite>
+    <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
+  </monster>
 </monsters>
