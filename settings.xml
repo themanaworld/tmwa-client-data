@@ -3,6 +3,7 @@
     It defines all the settings, and can include additional XML files for this.
 -->
 <settings>
+	<include file="paths.xml" />
 	<include file="maps.xml" />
 	<include file="skills.xml" />
 	<include file="items.xml" />
