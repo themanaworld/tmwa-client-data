@@ -606,7 +606,7 @@
         weight="10"/>
     <item id="560"
         image="generic/hint.png"
-        name="Grey Hint"
+        name="Gray Hint"
         description="A hint."
         type="generic"
         weight="10"/>
@@ -842,7 +842,7 @@
         effect="Damage +?"
         type="equip-1hand"
         weapon-type="sword"
-        weight="500">
+        weight="200">
         <sprite>weapon-sword-sword.xml</sprite>
     </item>
 
@@ -1072,7 +1072,6 @@
         name="Pink Antenna"
         description="No-one knows why pinkies have these antennas on their heads."
         type="generic"
-        luk="1"
         weight="10"/>
     <item id="615"
         image="equipment/head/pumpkinhelmet.png"
@@ -2422,6 +2421,8 @@
         weight="1000">
         <sprite>weapon-staff.xml</sprite>
     </item>
+
+	<!--
     <item id="759"
         image="equipment/head/paladin-helm.png"
         name="Paladin's Helmet"
@@ -2449,6 +2450,8 @@
         defense="21">
         <sprite>equipment/head/desert-helmet.xml</sprite>
     </item>
+	-->
+
     <item id="762"
         image="equipment/ammo/arrow.png|W:#8B4513"
         name="Terranite Arrow"
@@ -2462,6 +2465,8 @@
         description="Some ore collected out of terranite."
         type="generic"
         weight="40"/>
+
+	<!--
     <item id="764"
         image="equipment/head/sailor_hat.png"
         name="Sailor Hat"
@@ -2480,6 +2485,8 @@
         weight="8">
         <sprite>equipment/head/captain-hat.xml</sprite>
     </item>
+	-->
+
     <item id="766"
         image="equipment/head/terranitehelm.png"
         name="Terranite Helmet"
@@ -2525,7 +2532,7 @@
         name="Guy Fawkes Mask"
         description="The famous Guy Fawkes mask."
         type="equip-head"
-        weight="30"
+        weight="50"
         defense="3">
         <sprite>equipment/head/guyfawkes.xml</sprite>
     </item>
@@ -2611,6 +2618,8 @@
         description="An eye from a zombie."
         type="generic"
         weight="3"/>
+
+	<!--
     <item id="781"
         image="equipment/head/witch-doctor-mask.png"
         name="Witch Doctor's Mask"
@@ -2620,6 +2629,8 @@
         weight="20">
         <sprite>equipment/head/witch-doctor-mask.xml</sprite>
     </item>
+	-->
+
     <item id="782"
         image="equipment/chest/forest-armor.png"
         name="Forest Armor"
@@ -2628,7 +2639,7 @@
         type="equip-torso"
         defense="10"
         dex="3"
-        weight="30">
+        weight="40">
         <sprite gender="male">equipment/chest/forest-armor-male.xml</sprite>
         <sprite gender="female">equipment/chest/forest-armor-female.xml</sprite>
     </item>
@@ -2762,7 +2773,7 @@
         effect="M. Attack -12"
         type="equip-legs"
         weight="150"
-        defense="">
+        defense="6">
         <sprite gender="male">equipment/legs/bromenallegs-male.xml</sprite>
         <sprite gender="female">equipment/legs/bromenallegs-female.xml</sprite>
     </item>
@@ -3564,7 +3575,7 @@
         image="equipment/weapon/bow-bow.png"
         name="Bow"
         description="A distance weapon."
-        effect="Damage +15 / Range 5"
+        effect="Damage +20 / Range 5"
         type="equip-2hand"
         weight="20"
         missile-particle="graphics/particles/arrow.particle.xml"
@@ -3776,6 +3787,8 @@
         weight="150">
         <sprite>equipment/head/skullmask.xml</sprite>
     </item>
+
+	<!--
     <item id="1222"
         image="generic/claylump_small.png"
         name="Small Piece of Clay"
@@ -3812,6 +3825,8 @@
         description="An amulet made for true enchanters."
         type="equip-charm"
         weight="1"/>
+	-->
+
     <item id="1228"
         image="generic/crystal.png|W:#ba58ff,d496ff,ffffff"
         name="Light Crystal"
@@ -3919,7 +3934,7 @@
         description="A small cube. It radiates unimaginable power, and is quite dizzying to look at."
         effect="Unimaginable powers to a successful wielder. M. Attack +100"
         type="equip-torso"
-        >
+        defense="30">
         <sprite>equipment/override/skeleton.xml</sprite>
         <particlefx>graphics/particles/wisp.particle.xml</particlefx>
     </item>
@@ -4031,7 +4046,7 @@
         name="Honey"
         description="A sweet food made by certain insects using nectar from flowers."
         type="usable"
-        hp="100"
+        hp="45"
         weight="20"/>
     <item id="1276"
         image="equipment/head/opera-mask.png"
@@ -5771,7 +5786,7 @@
         type="equip-head"
         defense="5"
         int="3"
-        weight="15">
+        weight="20">
         <sprite>equipment/head/wizard-hat.xml|#580000,a40000,c02020,ff6060</sprite>
     </item>
     <item id="2201"
@@ -5782,7 +5797,7 @@
         defense="5"
         type="equip-head"
         int="3"
-        weight="15">
+        weight="20">
         <sprite>equipment/head/wizard-hat.xml|#115511,22aa22,99dd99</sprite>
     </item>
     <item id="2202"
@@ -5793,7 +5808,7 @@
         defense="5"
         type="equip-head"
         int="3"
-        weight="15">
+        weight="20">
         <sprite>equipment/head/wizard-hat.xml|#222255,6666ff</sprite>
     </item>
     <item id="2203"
@@ -5804,7 +5819,7 @@
         defense="5"
         type="equip-head"
         int="3"
-        weight="15">
+        weight="20">
         <sprite>equipment/head/wizard-hat.xml|#846211,dab333,fffb93,ffffff</sprite>
     </item>
     <item id="2204"
@@ -5815,7 +5830,7 @@
         defense="5"
         type="equip-head"
         int="3"
-        weight="15">
+        weight="20">
         <sprite>equipment/head/wizard-hat.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
     <item id="2205"
@@ -5826,7 +5841,7 @@
         defense="5"
         type="equip-head"
         int="3"
-        weight="15">
+        weight="20">
         <sprite>equipment/head/wizard-hat.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
     <item id="2206"
@@ -5837,7 +5852,7 @@
         defense="5"
         type="equip-head"
         int="3"
-        weight="15">
+        weight="20">
         <sprite>equipment/head/wizard-hat.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
     <item id="2207"
@@ -5848,7 +5863,7 @@
         defense="5"
         type="equip-head"
         int="3"
-        weight="15">
+        weight="20">
         <sprite>equipment/head/wizard-hat.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
     <item id="2208"
@@ -5859,7 +5874,7 @@
         defense="5"
         type="equip-head"
         int="3"
-        weight="15">
+        weight="20">
         <sprite>equipment/head/wizard-hat.xml|#4f0a76,8010c0,d699f7</sprite>
     </item>
     <item id="2209"
@@ -5870,7 +5885,7 @@
         defense="5"
         type="equip-head"
         int="3"
-        weight="15">
+        weight="20">
         <sprite>equipment/head/wizard-hat.xml|#104010,208020,30c030</sprite>
     </item>
 
@@ -6594,7 +6609,7 @@
         name="Amethyst"
         description="A raw amethyst gemstone."
         type="generic"
-        weight="10"/>
+        weight="20"/>
     <item id="4008"
         image="equipment/rings/gem.png"
         name="Diamond Ring"
@@ -6660,19 +6675,19 @@
         name="Red Powder"
         description="A pile of magical red powder."
         type="generic"
-        weight="3"/>
+        weight="10"/>
     <item id="4018"
         image="generic/powder.png|W:#ffcc00"
         name="Yellow Powder"
         description="A pile of magical yellow powder."
         type="generic"
-        weight="3"/>
+        weight="10"/>
     <item id="4019"
         image="generic/powder.png|W:#003399"
         name="Blue Powder"
         description="A pile of magical blue powder."
         type="generic"
-        weight="3"/>
+        weight="10"/>
     <item id="4020"
         image="equipment/head/candlehelmet.png"
         name="Candle Helmet"
@@ -6739,7 +6754,7 @@
         defense="5"
         type="equip-head"
         int="3"
-        weight="15">
+        weight="20">
         <sprite>equipment/head/wizard-hat.xml</sprite>
     </item>
     <item id="4029"
@@ -6747,7 +6762,7 @@
         name="Grimace of Dementia"
         description="A feared potion. If done wrong... what did you say?"
         type="generic"
-        weight="50"
+        weight="10"
         tag="Potions"/>
     <item id="4030"
         image="equipment/head/bowler-hat.png"
@@ -6866,7 +6881,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#580000,a40000,c02020,ff6060;#09BC09</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#580000,a40000,c02020,ff6060;#09BC09</sprite>
     </item>
@@ -6878,7 +6893,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#115511,22aa22,99dd99;#09BC09</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#115511,22aa22,99dd99;#09BC09</sprite>
     </item>
@@ -6890,7 +6905,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#222255,6666ff;#09BC09</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#222255,6666ff;#09BC09</sprite>
     </item>
@@ -6902,7 +6917,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#846211,dab333,fffb93,ffffff;#09BC09</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846211,dab333,fffb93,ffffff;#09BC09</sprite>
     </item>
@@ -6914,7 +6929,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#16486e,498ec5,e4f2fc;#09BC09</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#09BC09</sprite>
     </item>
@@ -6926,7 +6941,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#56002f,930050,fe70bd,feb7de,ffffff;#09BC09</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#56002f,930050,fe70bd,feb7de,ffffff;#09BC09</sprite>
     </item>
@@ -6938,7 +6953,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#09BC09</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#09BC09</sprite>
     </item>
@@ -6950,7 +6965,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#80280f,b04810,ef681f,ffb830;#09BC09</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#09BC09</sprite>
     </item>
@@ -6962,7 +6977,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#4f0a76,8010c0,d699f7;#09BC09</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#4f0a76,8010c0,d699f7;#09BC09</sprite>
     </item>
@@ -6974,7 +6989,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#104010,208020,30c030;#09BC09</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,208020,30c030;#09BC09</sprite>
     </item>
@@ -6986,7 +7001,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#ffffff;#09BC09</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#ffffff;#09BC09</sprite>
     </item>
@@ -6998,7 +7013,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#580000,a40000,c02020,ff6060;#2050BE</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#580000,a40000,c02020,ff6060;#2050BE</sprite>
     </item>
@@ -7010,7 +7025,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#115511,22aa22,99dd99;#2050BE</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#115511,22aa22,99dd99;#2050BE</sprite>
     </item>
@@ -7022,7 +7037,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#222255,6666ff;#2050BE</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#222255,6666ff;#2050BE</sprite>
     </item>
@@ -7034,7 +7049,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#846211,dab333,fffb93,ffffff;#2050BE</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846211,dab333,fffb93,ffffff;#2050BE</sprite>
     </item>
@@ -7046,7 +7061,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#16486e,498ec5,e4f2fc;#2050BE</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#2050BE</sprite>
     </item>
@@ -7058,7 +7073,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#56002f,930050,fe70bd,feb7de,ffffff;#2050BE</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#56002f,930050,fe70bd,feb7de,ffffff;#2050BE</sprite>
     </item>
@@ -7070,7 +7085,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#2050BE</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#2050BE</sprite>
     </item>
@@ -7082,7 +7097,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#80280f,b04810,ef681f,ffb830;#2050BE</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#2050BE</sprite>
     </item>
@@ -7094,7 +7109,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#4f0a76,8010c0,d699f7;#2050BE</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#4f0a76,8010c0,d699f7;#2050BE</sprite>
     </item>
@@ -7106,7 +7121,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#104010,208020,30c030;#2050BE</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,208020,30c030;#2050BE</sprite>
     </item>
@@ -7118,7 +7133,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#ffffff;#2050BE</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#ffffff;#2050BE</sprite>
     </item>
@@ -7130,7 +7145,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#580000,a40000,c02020,ff6060;#FFF528</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#580000,a40000,c02020,ff6060;#FFF528</sprite>
     </item>
@@ -7142,7 +7157,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#115511,22aa22,99dd99;#FFF528</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#115511,22aa22,99dd99;#FFF528</sprite>
     </item>
@@ -7154,7 +7169,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#222255,6666ff;#FFF528</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#222255,6666ff;#FFF528</sprite>
     </item>
@@ -7166,7 +7181,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#846211,dab333,fffb93,ffffff;#FFF528</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846211,dab333,fffb93,ffffff;#FFF528</sprite>
     </item>
@@ -7178,7 +7193,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#16486e,498ec5,e4f2fc;#FFF528</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#FFF528</sprite>
     </item>
@@ -7190,7 +7205,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#56002f,930050,fe70bd,feb7de,ffffff;#FFF528</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#56002f,930050,fe70bd,feb7de,ffffff;#FFF528</sprite>
     </item>
@@ -7202,7 +7217,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#FFF528</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#FFF528</sprite>
     </item>
@@ -7214,7 +7229,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#80280f,b04810,ef681f,ffb830;#FFF528</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#FFF528</sprite>
     </item>
@@ -7226,7 +7241,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#4f0a76,8010c0,d699f7;#FFF528</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#4f0a76,8010c0,d699f7;#FFF528</sprite>
     </item>
@@ -7238,7 +7253,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#104010,208020,30c030;#FFF528</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,208020,30c030;#FFF528</sprite>
     </item>
@@ -7250,7 +7265,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#ffffff;#FFF528</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#ffffff;#FFF528</sprite>
     </item>
@@ -7262,7 +7277,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#580000,a40000,c02020,ff6060;#41B3FF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#580000,a40000,c02020,ff6060;#41B3FF</sprite>
     </item>
@@ -7274,7 +7289,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#115511,22aa22,99dd99;#41B3FF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#115511,22aa22,99dd99;#41B3FF</sprite>
     </item>
@@ -7286,7 +7301,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#222255,6666ff;#41B3FF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#222255,6666ff;#41B3FF</sprite>
     </item>
@@ -7298,7 +7313,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#846211,dab333,fffb93,ffffff;#41B3FF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846211,dab333,fffb93,ffffff;#41B3FF</sprite>
     </item>
@@ -7310,7 +7325,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#16486e,498ec5,e4f2fc;#41B3FF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#41B3FF</sprite>
     </item>
@@ -7322,7 +7337,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#56002f,930050,fe70bd,feb7de,ffffff;#41B3FF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#56002f,930050,fe70bd,feb7de,ffffff;#41B3FF</sprite>
     </item>
@@ -7334,7 +7349,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#41B3FF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#41B3FF</sprite>
     </item>
@@ -7346,7 +7361,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#80280f,b04810,ef681f,ffb830;#41B3FF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#41B3FF</sprite>
     </item>
@@ -7358,7 +7373,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#4f0a76,8010c0,d699f7;#41B3FF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#4f0a76,8010c0,d699f7;#41B3FF</sprite>
     </item>
@@ -7370,7 +7385,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#104010,208020,30c030;#41B3FF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,208020,30c030;#41B3FF</sprite>
     </item>
@@ -7382,7 +7397,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#ffffff;#41B3FF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#ffffff;#41B3FF</sprite>
     </item>
@@ -7394,7 +7409,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#580000,a40000,c02020,ff6060;#E975FD</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#580000,a40000,c02020,ff6060;#E975FD</sprite>
     </item>
@@ -7406,7 +7421,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#115511,22aa22,99dd99;#E975FD</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#115511,22aa22,99dd99;#E975FD</sprite>
     </item>
@@ -7418,7 +7433,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#222255,6666ff;#E975FD</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#222255,6666ff;#E975FD</sprite>
     </item>
@@ -7430,7 +7445,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#846211,dab333,fffb93,ffffff;#E975FD</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846211,dab333,fffb93,ffffff;#E975FD</sprite>
     </item>
@@ -7442,7 +7457,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#16486e,498ec5,e4f2fc;#E975FD</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#E975FD</sprite>
     </item>
@@ -7454,7 +7469,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#56002f,930050,fe70bd,feb7de,ffffff;#E975FD</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#56002f,930050,fe70bd,feb7de,ffffff;#E975FD</sprite>
     </item>
@@ -7466,7 +7481,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#E975FD</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#E975FD</sprite>
     </item>
@@ -7478,7 +7493,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#80280f,b04810,ef681f,ffb830;#E975FD</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#E975FD</sprite>
     </item>
@@ -7490,7 +7505,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#4f0a76,8010c0,d699f7;#E975FD</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#4f0a76,8010c0,d699f7;#E975FD</sprite>
     </item>
@@ -7502,7 +7517,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#104010,208020,30c030;#E975FD</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,208020,30c030;#E975FD</sprite>
     </item>
@@ -7514,7 +7529,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#ffffff;#E975FD</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#ffffff;#E975FD</sprite>
     </item>
@@ -7526,7 +7541,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#580000,a40000,c02020,ff6060;#262626</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#580000,a40000,c02020,ff6060;#262626</sprite>
     </item>
@@ -7538,7 +7553,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#115511,22aa22,99dd99;#262626</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#115511,22aa22,99dd99;#262626</sprite>
     </item>
@@ -7550,7 +7565,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#222255,6666ff;#262626</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#222255,6666ff;#262626</sprite>
     </item>
@@ -7562,7 +7577,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#846211,dab333,fffb93,ffffff;#262626</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846211,dab333,fffb93,ffffff;#262626</sprite>
     </item>
@@ -7574,7 +7589,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#16486e,498ec5,e4f2fc;#262626</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#262626</sprite>
     </item>
@@ -7586,7 +7601,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#56002f,930050,fe70bd,feb7de,ffffff;#262626</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#56002f,930050,fe70bd,feb7de,ffffff;#262626</sprite>
     </item>
@@ -7598,7 +7613,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#262626</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#262626</sprite>
     </item>
@@ -7610,7 +7625,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#80280f,b04810,ef681f,ffb830;#262626</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#262626</sprite>
     </item>
@@ -7622,7 +7637,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#4f0a76,8010c0,d699f7;#262626</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#4f0a76,8010c0,d699f7;#262626</sprite>
     </item>
@@ -7634,7 +7649,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#104010,208020,30c030;#262626</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,208020,30c030;#262626</sprite>
     </item>
@@ -7646,7 +7661,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#ffffff;#262626</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#ffffff;#262626</sprite>
     </item>
@@ -7658,7 +7673,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#580000,a40000,c02020,ff6060;#ED8200</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#580000,a40000,c02020,ff6060;#ED8200</sprite>
     </item>
@@ -7670,7 +7685,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#115511,22aa22,99dd99;#ED8200</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#115511,22aa22,99dd99;#ED8200</sprite>
     </item>
@@ -7682,7 +7697,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#222255,6666ff;#ED8200</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#222255,6666ff;#ED8200</sprite>
     </item>
@@ -7694,7 +7709,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#846211,dab333,fffb93,ffffff;#ED8200</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846211,dab333,fffb93,ffffff;#ED8200</sprite>
     </item>
@@ -7706,7 +7721,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#16486e,498ec5,e4f2fc;#ED8200</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#ED8200</sprite>
     </item>
@@ -7718,7 +7733,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#56002f,930050,fe70bd,feb7de,ffffff;#ED8200</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#56002f,930050,fe70bd,feb7de,ffffff;#ED8200</sprite>
     </item>
@@ -7730,7 +7745,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#ED8200</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#ED8200</sprite>
     </item>
@@ -7742,7 +7757,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#80280f,b04810,ef681f,ffb830;#ED8200</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#ED8200</sprite>
     </item>
@@ -7754,7 +7769,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#4f0a76,8010c0,d699f7;#ED8200</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#4f0a76,8010c0,d699f7;#ED8200</sprite>
     </item>
@@ -7766,7 +7781,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#104010,208020,30c030;#ED8200</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,208020,30c030;#ED8200</sprite>
     </item>
@@ -7778,7 +7793,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#ffffff;#ED8200</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#ffffff;#ED8200</sprite>
     </item>
@@ -7790,7 +7805,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#580000,a40000,c02020,ff6060;#8000FF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#580000,a40000,c02020,ff6060;#8000FF</sprite>
     </item>
@@ -7802,7 +7817,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#115511,22aa22,99dd99;#8000FF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#115511,22aa22,99dd99;#8000FF</sprite>
     </item>
@@ -7814,7 +7829,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#222255,6666ff;#8000FF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#222255,6666ff;#8000FF</sprite>
     </item>
@@ -7826,7 +7841,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#846211,dab333,fffb93,ffffff;#8000FF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846211,dab333,fffb93,ffffff;#8000FF</sprite>
     </item>
@@ -7838,7 +7853,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#16486e,498ec5,e4f2fc;#8000FF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#8000FF</sprite>
     </item>
@@ -7850,7 +7865,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#56002f,930050,fe70bd,feb7de,ffffff;#8000FF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#56002f,930050,fe70bd,feb7de,ffffff;#8000FF</sprite>
     </item>
@@ -7862,7 +7877,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#8000FF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#8000FF</sprite>
     </item>
@@ -7874,7 +7889,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#80280f,b04810,ef681f,ffb830;#8000FF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#8000FF</sprite>
     </item>
@@ -7886,7 +7901,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#4f0a76,8010c0,d699f7;#8000FF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#4f0a76,8010c0,d699f7;#8000FF</sprite>
     </item>
@@ -7898,7 +7913,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#104010,208020,30c030;#8000FF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,208020,30c030;#8000FF</sprite>
     </item>
@@ -7910,7 +7925,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#ffffff;#8000FF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#ffffff;#8000FF</sprite>
     </item>
@@ -7922,7 +7937,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#580000,a40000,c02020,ff6060;#2B9D27</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#580000,a40000,c02020,ff6060;#2B9D27</sprite>
     </item>
@@ -7934,7 +7949,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#115511,22aa22,99dd99;#2B9D27</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#115511,22aa22,99dd99;#2B9D27</sprite>
     </item>
@@ -7946,7 +7961,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#222255,6666ff;#2B9D27</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#222255,6666ff;#2B9D27</sprite>
     </item>
@@ -7958,7 +7973,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#846211,dab333,fffb93,ffffff;#2B9D27</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846211,dab333,fffb93,ffffff;#2B9D27</sprite>
     </item>
@@ -7970,7 +7985,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#16486e,498ec5,e4f2fc;#2B9D27</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#2B9D27</sprite>
     </item>
@@ -7982,7 +7997,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#56002f,930050,fe70bd,feb7de,ffffff;#2B9D27</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#56002f,930050,fe70bd,feb7de,ffffff;#2B9D27</sprite>
     </item>
@@ -7994,7 +8009,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#2B9D27</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#2B9D27</sprite>
     </item>
@@ -8006,7 +8021,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#80280f,b04810,ef681f,ffb830;#2B9D27</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#2B9D27</sprite>
     </item>
@@ -8018,7 +8033,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#4f0a76,8010c0,d699f7;#2B9D27</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#4f0a76,8010c0,d699f7;#2B9D27</sprite>
     </item>
@@ -8030,7 +8045,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#104010,208020,30c030;#2B9D27</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,208020,30c030;#2B9D27</sprite>
     </item>
@@ -8042,7 +8057,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#ffffff;#2B9D27</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#ffffff;#2B9D27</sprite>
     </item>
@@ -8054,7 +8069,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#580000,a40000,c02020,ff6060;#EFEFEF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#580000,a40000,c02020,ff6060;#EFEFEF</sprite>
     </item>
@@ -8066,7 +8081,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#115511,22aa22,99dd99;#EFEFEF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#115511,22aa22,99dd99;#EFEFEF</sprite>
     </item>
@@ -8078,7 +8093,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#222255,6666ff;#EFEFEF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#222255,6666ff;#EFEFEF</sprite>
     </item>
@@ -8090,7 +8105,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#846211,dab333,fffb93,ffffff;#EFEFEF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846211,dab333,fffb93,ffffff;#EFEFEF</sprite>
     </item>
@@ -8102,7 +8117,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#16486e,498ec5,e4f2fc;#EFEFEF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#EFEFEF</sprite>
     </item>
@@ -8114,7 +8129,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#56002f,930050,fe70bd,feb7de,ffffff;#EFEFEF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#56002f,930050,fe70bd,feb7de,ffffff;#EFEFEF</sprite>
     </item>
@@ -8126,7 +8141,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#EFEFEF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#EFEFEF</sprite>
     </item>
@@ -8138,7 +8153,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#80280f,b04810,ef681f,ffb830;#EFEFEF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#EFEFEF</sprite>
     </item>
@@ -8150,7 +8165,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#4f0a76,8010c0,d699f7;#EFEFEF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#4f0a76,8010c0,d699f7;#EFEFEF</sprite>
     </item>
@@ -8162,7 +8177,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#104010,208020,30c030;#EFEFEF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,208020,30c030;#EFEFEF</sprite>
     </item>
@@ -8174,7 +8189,7 @@
         type="equip-torso"
         defense="5"
         agi="1"
-        weight="5">
+        weight="30">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#ffffff;#EFEFEF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#ffffff;#EFEFEF</sprite>
     </item>
