@@ -500,4 +500,9 @@
     <sprite>monsters/mushroom-red.xml</sprite>
     <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
   </monster>
+  <monster id="105" name="Bluepar" targetCursor="small">
+    <sprite>monsters/bluepar.xml</sprite>
+    <sound event="hit">monsters/pinkie/pinkie-hit1.ogg</sound>
+    <sound event="miss">monsters/pinkie/pinkie-miss1.ogg</sound>
+  </monster>
 </monsters>
