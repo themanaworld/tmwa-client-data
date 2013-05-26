@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="50" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="Authors" value="The Mana World, bh28, Tux9th."/>
+  <property name="music" value="The Mana World - Snow Village.ogg"/>
+  <property name="name" value="Trappers Huts"/>
+ </properties>
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="inn" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/inn.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="259" name="woodland_indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="515" name="woodland_indoor_x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/woodland_indoor_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="531" name="woodland_indoor_x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/woodland_indoor_x3.png" width="512" height="96"/>
+ </tileset>
+ <layer name="Ground" width="100" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3ZTQ6CMBBAYerPCdSVS7yB9z8YO+OiSRkoTJVmhvIWXwJGkylPrZGh67oBAAAAAAAAAAAAAAD85R22Zb2e6BzGrplj6zk1PdK55douYbrWyFOPWxh7ZI6t59T0SOeWa7uH6VojTz36oGM9p6ZHOq88X+KpxyvoWM+p6ZHOK8+X0KN+j54ernqUoEedHnKfpoddi6/naYwetk3Yz/32KFmbpx6yjfUM9DiGPb3XAABAu+TvwLl7afIxb/fbWqK99p7vf7ZEXt/ctZaNrOduVa7H3DmfEV895GusZ29Ret2tZzmyX75/1p5P0+26bNGQ77FtevzTgh71esh9fK2DZu9HeY8arNe1V2v/j9DDp5J9Jh5/ADdrwrggTgAA
+  </data>
+ </layer>
+ <layer name="Ground2" width="100" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3YS0oDQRDG8R7dqFtXulKvkHiSeASP4MJ7+NxHjccQxK1CDqDgypWCDzAbtZrpgrYz3UyI0j3wL/gxj8yiar7OTMjEGDMBAAAAAAAAAAAAAABz6VV/J/cs/kx+7dj+fp8yK+6a3L22yWM/oLXs9q+CebVyzxLLY9floZmM5fhW3BW0hlJ5aK/jyH1fKjwPa2PBmE2xJfZcv2uyvy4e5fhePHQkD+3V9r1Y1TOE5c/7KtcMCputl2DrWfp9KaznWB7a65N8virbA9keTkcyVblnmSWPL5nruyN5aK+fpn5/DGV75mbpi223r1uVexafX2EeQ5npvCqv51ge4fs8tdZKzeNY+j7x7rvvQs5ddiiPpoplcFTVSpvN3vORd9+7sIZSeYS/d5uewboGT8VNYc/ia/vea/Hdzt1nmzwGDd+RcA47q78GS8uji8/YWB5vcv5dfDRk0g/m8d/puWdJZZO7h3loHrNWSf+ZAAAAAAAAAAAAAMB/+wH4STMBIE4AAA==
+  </data>
+ </layer>
+ <layer name="Ground3" width="100" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3RQQkAQAgAQe0fS67XFfDjS4SZBAsbAQAAAAAAAAAAcFvldgFTzzMAAAAAAAAAAABoff+n0zsgTgAA
+  </data>
+ </layer>
+ <layer name="Fringe" width="100" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TwQkAIAwEwSBoE/bfZ/wG8W9gBq6CYyMAAAAAAAAAAAAAgM72qAPe5mlk6eQb/gAAAAAAAAC4JWOPiJEgTgAA
+  </data>
+ </layer>
+ <layer name="Over" width="100" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WQQqDQAwFUD1TvUnvZHsbe6d6CbuqgguVgorokOl7EHAZkjDfogAAAAAAAAAA2KcpU3cAQFR1nyHPQDlyK+cV0TDzR7C55+wf/6Pc4DXuk/muvVcvuzjdu692/I6aH8v8W2biUF3aFjfLYR9Tn9QNHPTrltZuLYe9RVSZOwAAAAAAACTzBXtIUa4gTgAA
+  </data>
+ </layer>
+ <layer name="Collision" width="100" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3SMQqAMBBFwZD7H9rKRjDKquwmjjCdxfuuvbXWAQAAAAAAAACAsP3J7vhi0yzbrp7svuimO9sqbpyx+emWytvudFZrXvkeoz2z3SN6n+zOSH9225s3OL6f3bzSP3S2Z7TNPWpvzO4bdWc3uMc/+O4AAAAAAACQZwMg0bUIIE4AAA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="100" height="50">
+  <object name="To Outside" type="warp" x="896" y="1024" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="034-1"/>
+    <property name="dest_x" value="992"/>
+    <property name="dest_y" value="2208"/>
+   </properties>
+  </object>
+  <object name="graphics/particles/fireplace.particle.xml" type="particle_effect" x="992" y="736" width="32" height="32"/>
+  <object name="To Outside" type="warp" x="2336" y="960" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="034-1"/>
+    <property name="dest_x" value="2048"/>
+    <property name="dest_y" value="3200"/>
+   </properties>
+  </object>
+  <object name="graphics/particles/fireplace.particle.xml" type="particle_effect" x="2272" y="704" width="32" height="32"/>
+ </objectgroup>
+</map>
