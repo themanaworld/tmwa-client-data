@@ -31,14 +31,14 @@
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0" visible="0">
-  <object name="Spiky Mushroom" type="spawn" x="1056" y="352" width="1280" height="1280">
+  <object name="SpikyMushroom" type="spawn" x="1056" y="352" width="1280" height="1280">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
     <property name="monster_id" value="17"/>
    </properties>
   </object>
-  <object name="Cave Snake" type="spawn" x="2368" y="3040" width="1280" height="1280">
+  <object name="CaveSnake" type="spawn" x="2368" y="3040" width="1280" height="1280">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -122,7 +122,7 @@
     <property name="dest_y" value="5792"/>
    </properties>
   </object>
-  <object name="Cave Snake" type="spawn" x="0" y="0">
+  <object name="CaveSnake" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_death" value="0"/>
     <property name="eA_spawn" value="0"/>
@@ -130,7 +130,7 @@
     <property name="monster_id" value="19"/>
    </properties>
   </object>
-  <object name="Spiky Mushroom" type="spawn" x="0" y="0">
+  <object name="SpikyMushroom" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_death" value="0"/>
     <property name="eA_spawn" value="0"/>

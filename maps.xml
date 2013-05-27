@@ -1,0 +1,124 @@
+<!-- This file is used by the manaplus client, not by the mana client -->
+<?xml version="1.0" encoding="utf-8"?>
+<maps>
+    <map name="001-1.tmx">
+        <atlas name="desert"/>
+    </map>
+    <map name="001-2.tmx">
+        <atlas name="inn"/>
+    </map>
+
+    <map name="007-1.tmx">
+        <atlas name="woodland1"/>
+    </map>
+
+    <map name="008-1.tmx">
+        <atlas name="woodland1"/>
+    </map>
+    <map name="009-1.tmx">
+        <atlas name="woodland1"/>
+    </map>
+    <map name="009-2.tmx">
+        <atlas name="woodland_indoor1"/>
+    </map>
+
+    <map name="011-1.tmx">
+        <atlas name="woodland1"/>
+    </map>
+
+    <map name="012-1.tmx">
+        <atlas name="woodland1"/>
+    </map>
+
+    <map name="013-1.tmx">
+        <atlas name="woodland1"/>
+    </map>
+    <map name="013-3.tmx">
+        <atlas name="cave_indoor1"/>
+    </map>
+
+    <map name="014-1.tmx">
+        <atlas name="woodland1"/>
+    </map>
+
+    <map name="017-1.tmx">
+        <atlas name="woodland1"/>
+    </map>
+
+    <map name="018-1.tmx">
+        <atlas name="woodland1"/>
+    </map>
+    <map name="018-2.tmx">
+        <atlas name="woodland_indoor1"/>
+    </map>
+    <map name="018-3.tmx">
+        <atlas name="cave_indoor1"/>
+    </map>
+
+    <map name="055-1.tmx">
+        <atlas name="woodland1"/>
+    </map>
+
+    <map name="056-1.tmx">
+        <atlas name="woodland2"/>
+    </map>
+
+    <map name="057-1.tmx">
+        <atlas name="woodland1"/>
+    </map>
+
+    <atlas name="desert">
+        <file name="graphics/tiles/desert1.png"/>
+        <file name="graphics/tiles/desert2.png"/>
+        <file name="graphics/tiles/desert_x2.png"/>
+        <file name="graphics/tiles/desert_x3.png"/>
+        <file name="graphics/tiles/desert_x5.png"/>
+        <file name="graphics/tiles/tulimshar1.png"/>
+        <file name="graphics/tiles/trans_woodland-desert.png"/>
+    </atlas>
+    <atlas name="inn">
+        <file name="graphics/tiles/inn.png"/>
+        <file name="graphics/tiles/inn2.png"/>
+    </atlas>
+
+    <atlas name="woodland1">
+        <file name="graphics/images/ambient/clouds.png"/>
+        <file name="graphics/tiles/Woodland_ground.png"/>
+        <file name="graphics/tiles/Woodland_x2.png"/>
+        <file name="graphics/tiles/Woodland_x3.png"/>
+        <file name="graphics/tiles/Woodland_village.png"/>
+        <file name="graphics/tiles/Woodland_village_x2.png"/>
+        <file name="graphics/tiles/woodland_indoor.png"/>
+        <file name="graphics/tiles/Woodland_water.png"/>
+        <file name="graphics/tiles/mushrooms.png"/>
+    </atlas>
+    <atlas name="woodland2">
+        <file name="graphics/images/ambient/clouds.png"/>
+        <file name="graphics/tiles/Woodland_ground.png"/>
+        <file name="graphics/tiles/Woodland_x2.png"/>
+        <file name="graphics/tiles/Woodland_x3.png"/>
+        <file name="graphics/tiles/Woodland_x5.png"/>
+        <file name="graphics/tiles/Woodland_x8.png"/>
+        <file name="graphics/tiles/Woodland_village.png"/>
+    </atlas>
+    <atlas name="woodland_indoor1">
+        <file name="graphics/tiles/woodland_indoor.png"/>
+        <file name="graphics/tiles/woodland_indoor_x2.png"/>
+        <file name="graphics/tiles/woodland_indoor_x3.png"/>
+        <file name="graphics/tiles/Pots_x2.png"/>
+        <file name="graphics/tiles/Woodland_village.png"/>
+    </atlas>
+    <atlas name="cave_indoor1">
+        <file name="graphics/tiles/cave.png"/>
+        <file name="graphics/tiles/cave_x2.png"/>
+        <file name="graphics/tiles/cave_bilevel.png"/>
+        <file name="graphics/tiles/Woodland_ground.png"/>
+        <file name="graphics/tiles/woodland_indoor.png"/>
+        <file name="graphics/tiles/woodland_indoor_x2.png"/>
+        <file name="graphics/tiles/woodland_indoor_x3.png"/>
+        <file name="graphics/tiles/Woodland_x2.png"/>
+        <file name="graphics/tiles/Woodland_x3.png"/>
+        <file name="graphics/tiles/Woodland_village.png"/>
+        <file name="graphics/tiles/Woodland_village_x2.png"/>
+    </atlas>
+</maps>
