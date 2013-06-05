@@ -1,56 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="100" height="50" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="100" height="53" tilewidth="32" tileheight="32">
  <properties>
-  <property name="Authors" value="The Mana World, bh28, Tux9th."/>
+  <property name="Authors" value="The Mana World, bh28."/>
   <property name="music" value="The Mana World - Snow Village.ogg"/>
   <property name="name" value="Trappers Huts"/>
  </properties>
- <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
- </tileset>
- <tileset firstgid="3" name="inn" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/inn.png" width="512" height="512"/>
- </tileset>
- <tileset firstgid="259" name="woodland_indoor" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/woodland_indoor.png" width="512" height="512"/>
- </tileset>
- <tileset firstgid="515" name="woodland_indoor_x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/woodland_indoor_x2.png" width="512" height="64"/>
- </tileset>
- <tileset firstgid="531" name="woodland_indoor_x3" tilewidth="32" tileheight="96">
-  <image source="../graphics/tiles/woodland_indoor_x3.png" width="512" height="96"/>
- </tileset>
- <layer name="Ground" width="100" height="50">
+ <tileset firstgid="1" source="../tilesets/collision.tsx"/>
+ <tileset firstgid="3" source="../tilesets/inn.tsx"/>
+ <tileset firstgid="259" source="../tilesets/woodland_indoor.tsx"/>
+ <tileset firstgid="515" source="../tilesets/woodland_indoor_x2.tsx"/>
+ <tileset firstgid="531" source="../tilesets/woodland_indoor_x3.tsx"/>
+ <layer name="Ground" width="100" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3ZTQ6CMBBAYerPCdSVS7yB9z8YO+OiSRkoTJVmhvIWXwJGkylPrZGh67oBAAAAAAAAAAAAAAD85R22Zb2e6BzGrplj6zk1PdK55douYbrWyFOPWxh7ZI6t59T0SOeWa7uH6VojTz36oGM9p6ZHOq88X+KpxyvoWM+p6ZHOK8+X0KN+j54ernqUoEedHnKfpoddi6/naYwetk3Yz/32KFmbpx6yjfUM9DiGPb3XAABAu+TvwLl7afIxb/fbWqK99p7vf7ZEXt/ctZaNrOduVa7H3DmfEV895GusZ29Ret2tZzmyX75/1p5P0+26bNGQ77FtevzTgh71esh9fK2DZu9HeY8arNe1V2v/j9DDp5J9Jh5/ADdrwrggTgAA
+   H4sIAAAAAAAAA+3VOw6CQBSGUUZ0BWplCTtw/wujMxYkwxCSIT7uGE9xEsr/8pEwdV03AQAAAAAAAAAvuaf3ir5n1qel08Zz9M6aHvnu8rZjWt86a6nHOS1dN56jd9b0yHeXt13S+tZZSz2GVCd6Z02PfG9fedfQWI8x1YneWdMj33uuvGvU4ys9Bj2a6rGHHp/pUf6n9Yhr8XQ7LOkR26R8x3q002PPbS31KNtEb9DjP/zStwYAAAAAAAAAxHgAxxPratBSAAA=
   </data>
  </layer>
- <layer name="Ground2" width="100" height="50">
+ <layer name="Ground2" width="100" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3YS0oDQRDG8R7dqFtXulKvkHiSeASP4MJ7+NxHjccQxK1CDqDgypWCDzAbtZrpgrYz3UyI0j3wL/gxj8yiar7OTMjEGDMBAAAAAAAAAAAAAABz6VV/J/cs/kx+7dj+fp8yK+6a3L22yWM/oLXs9q+CebVyzxLLY9floZmM5fhW3BW0hlJ5aK/jyH1fKjwPa2PBmE2xJfZcv2uyvy4e5fhePHQkD+3V9r1Y1TOE5c/7KtcMCputl2DrWfp9KaznWB7a65N8virbA9keTkcyVblnmSWPL5nruyN5aK+fpn5/DGV75mbpi223r1uVexafX2EeQ5npvCqv51ge4fs8tdZKzeNY+j7x7rvvQs5ddiiPpoplcFTVSpvN3vORd9+7sIZSeYS/d5uewboGT8VNYc/ia/vea/Hdzt1nmzwGDd+RcA47q78GS8uji8/YWB5vcv5dfDRk0g/m8d/puWdJZZO7h3loHrNWSf+ZAAAAAAAAAAAAAMB/+wH4STMBIE4AAA==
+   H4sIAAAAAAAAA+3WS0oDQRSF4WpH6g50pG4huhJdgkvIwH3E1zy+lhGQTBPIAhQycqTgAxypp+i6UBbdHQlIquD/4NIPMrinb6WrnQMAAAAAAAAAAAAAAFjsqHKul9zbrFbSylJOqt9lNsL5qKAs3nGYh81kpuuJalpIDut11tLvegE5dtac21Xtqfqh3y2db6vmun5QPRaQw7Ne56FfnyEV533V7w4zy9brKO9Z/b5k1nMb6/UpXA9Up6tsaAmL5vGlfN+FzMN6/XT1/jHU8crVWfZVB+HcjnHOHKXzGCrTdcMen6t0P+9aa7nO41x9X0TPPa4b3bsraB5N2mZwVtWVWzb/zG+j517CGuqSfu825bA1eKkaZ/Yuvlc/gz/8t0vQ9K2U5vBZ4zWY2zxKfMe2eVO9qz6S+7afx3niPR3/w+YBAAAAAAAAAAAAAACA8v0AZ9BU1tBSAAA=
   </data>
  </layer>
- <layer name="Ground3" width="100" height="50">
+ <layer name="Ground3" width="100" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3RQQkAQAgAQe0fS67XFfDjS4SZBAsbAQAAAAAAAAAAcFvldgFTzzMAAAAAAAAAAABoff+n0zsgTgAA
+   H4sIAAAAAAAAA+3UwQkAMAgEQdN/MRYR0lfePn2JMFPBwsFFAAAAAAAAAAD05JkuAKiuX1rn2QwAAAAAAAAAAAAAVvtjudnY0FIAAA==
   </data>
  </layer>
- <layer name="Fringe" width="100" height="50">
+ <layer name="Fringe" width="100" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3TwQkAIAwEwSBoE/bfZ/wG8W9gBq6CYyMAAAAAAAAAAAAAgM72qAPe5mlk6eQb/gAAAAAAAAC4JWOPiJEgTgAA
+   H4sIAAAAAAAAA+3TwQkAIAwEwRDQJuy/z/jNw7+BGbgKjo0AAAAAAAAAAAAAACY72Qe8rdvI1sk3/AEAAAAAAAAAMFcB1/phe9BSAAA=
   </data>
  </layer>
- <layer name="Over" width="100" height="50">
+ <layer name="Over" width="100" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3WQQqDQAwFUD1TvUnvZHsbe6d6CbuqgguVgorokOl7EHAZkjDfogAAAAAAAAAA2KcpU3cAQFR1nyHPQDlyK+cV0TDzR7C55+wf/6Pc4DXuk/muvVcvuzjdu692/I6aH8v8W2biUF3aFjfLYR9Tn9QNHPTrltZuLYe9RVSZOwAAAAAAACTzBXtIUa4gTgAA
+   H4sIAAAAAAAAA+3VQQqDMBAF0ORM9Sbeqe1t7J30Eu3KCi5UChGkhsT3YCDL4c+QCQEAAAAAAAAAAADOcY8hPGPuLva7xXWVaMr8UVjuNesuOAc7eI52kW/qv3qZxd/13xrmd6n3Y3v/tjdxqnfeFnerYR5Ln9wNHPRrl1K7VsPcStTIHQAAAAAAAABIGAGThqIp0FIAAA==
   </data>
  </layer>
- <layer name="Collision" width="100" height="50">
+ <layer name="Collision" width="100" height="53">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SMQqAMBBFwZD7H9rKRjDKquwmjjCdxfuuvbXWAQAAAAAAAACAsP3J7vhi0yzbrp7svuimO9sqbpyx+emWytvudFZrXvkeoz2z3SN6n+zOSH9225s3OL6f3bzSP3S2Z7TNPWpvzO4bdWc3uMc/+O4AAAAAAACQZwMg0bUIIE4AAA==
+   H4sIAAAAAAAAA+3SMQ6AIBBFQcL9D21lYyIQ1OyCYzKdxfuutZRSAQAAAAAAAACAaecT3fHFplW29Z7ovtlNI9syblyx+emWzNtGOrM173yP1p7V7jF7n+jOmf7otjdvcH0/unmnf+huT2ube+TeGN3X6o5ucI9/8N0BAAAAAAAAgJ4DsIWEc9BSAAA=
   </data>
  </layer>
- <objectgroup name="Objects" width="100" height="50">
+ <objectgroup name="Objects" width="100" height="53" visible="0">
   <object name="To Outside" type="warp" x="896" y="1024" width="32" height="32">
    <properties>
     <property name="dest_map" value="034-1"/>
