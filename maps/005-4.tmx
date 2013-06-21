@@ -4,8 +4,8 @@
   <property name="name" value="Electricity Boss Cave"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
- <tileset firstgid="3" source="../tilesets/cave.tsx"/>
- <tileset firstgid="131" source="../tilesets/arena.tsx"/>
+ <tileset firstgid="3" source="../tilesets/cave2.tsx"/>
+ <tileset firstgid="259" source="../tilesets/arena.tsx"/>
  <layer name="Ground" width="75" height="50">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3VwREBMRSA4T2hAqsFVIAK2FoUYMyoXdxyWIsR5mX3O3z35J+Xl7ZpmhYAAAAAILNONkFsA/QYskv2QRwC9BhyTE5BdAF6DFkl8yCWAXpoVXera+Wt+s7/jkuhfjW16nMr1GEKrUo7a2Wunii1n6bQyly93ie/kM9oba3+pe9/1Wo8b/Bbi+yuswDniSyfy7HPhVZaRaTVZx773V4HAAAgkjsdcnzsmDoAAA==
@@ -13,15 +13,15 @@
  </layer>
  <layer name="Fringe" width="75" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3XwQ3AIAwDQPbfpWxANygzkQn4kAipupP8s/x3awAAAAAAnHgiPbFXvXvTiLyJverdm77ITOxV7wIAAOz4OAAAAAAA/7EAB5G3j5g6AAA=
+   H4sIAAAAAAAAA+3XwQmAMBAEwEtB2kHswPRfjqkgHOgRkJn3sux3IwAAAAAAeONoEWf7Llfdu1OfO6/E1myuunene+4cia3ZXHUvAADAio8DAAAAAPAfD85cS0mYOgAA
   </data>
  </layer>
  <layer name="Over" width="75" height="50">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3VMQqAMBAEwPT6AfX/pf5A32YOG7sgSYjFDGx3LOSKS0oAAAAAAAAAAPDYc46Gc717RzpzroZzvXtHmXLWimyvrqWya+72SgC+iL8h7nvcdbe5LPZlTwAAAPzJDZuuMWWYOgAA
+   H4sIAAAAAAAAA+3VMQ6AIAwFUJj1AuoZ9AZ6/2MJcXETgwSH95JuzU/pUEIAAAAAAAAAAIDLGkPY4nd9rXN72tOcR8GspX2tc3sZUs0VtdyypsqssdkrAXgj/w35vue77jY/y/uyJwAAAP7kBBhH7R+YOgAA
   </data>
  </layer>
- <layer name="Collision" width="75" height="50" visible="0">
+ <layer name="Collision" width="75" height="50">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3SQQrAIAxFQfH+h+4Fim1A/AEnMDtRfGSOMSYAAAAAANDS1/w9Vz2f/vfORqcm3UErrTq2Otky3aHbXq3eS3fo1mo16Q5aadWhVbJdukPXvXp7N91hZ7Nq2+q9N7jxz1pp1YlWWgEAAMANHikLjpyYOgAA
   </data>

@@ -5,8 +5,8 @@
   <property name="name" value="Entry Ancient Amulets"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
- <tileset firstgid="3" source="../tilesets/cave.tsx"/>
- <tileset firstgid="131" source="../tilesets/cave_x2.tsx"/>
+ <tileset firstgid="3" source="../tilesets/cave2.tsx"/>
+ <tileset firstgid="259" source="../tilesets/cave2_x2.tsx"/>
  <layer name="Ground" width="100" height="100">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3YMVMTQRQH8KvERukSGrVTwRE6FW3UAgk0aCd8AmD8AA4zfnZfJmQMO7O3SciRNfcrfkX2LvNu3j87ey/DpmmGAAAAAAAAAAAAAAAAkLEb9sKrFuPrbza0fm0Ow8fw/tbn8CV8nVkbX/+0ofVrMwon4duts/A9/JhZG18/3dD6tdkJv8NWwaDD+qXaXdavzbr7Uap/I4+q8rA//vkjj6rysD+A/808M/Sy+jR7r0o6Q7f5Gc7DxZz392n2XpV0hm5zGa7C9Zz392n2XpXxO9B0LuuCd6fF8+gqC3nk7Safp+fsQ+WRq99Xh0mfpudsKY8n4WmL7TnzyNXvq1HSj+k5W8rjWXje4kVyf/p/8qBQv6/Svg8y66m3Yb/FQeH7uTp9P1fSfrxsJjPb60I/7ytXRx53+/GumcxsHxbo7TLvxbk68rjbj6NmMrMdL9HjReTqyKPbvpf8kkdVeaTksf4M5LEajzM9fVTBs/VRbm/5jcsDedRGHnWRR13kUafZLNb9LMgDAAAAAAAAAAAAAAAAYF3+AtylDBNAnAAA
@@ -19,15 +19,15 @@
  </layer>
  <layer name="Fringe" width="100" height="100">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3UMQ4AEAxAUQdxVZs4t8VkqUiEyHtLo0snPyUAAAAAAAAAAAAAAAAAAAAAAHhLDt4At0Vd0q19dcw27cvl+6zzP4CXnGqOlgEAAAAAAAAAAAAAAAAAAAAAwP86h8OqYECcAAA=
+   H4sIAAAAAAAAA+3UQQoAEBBAUUpO4arubmFlRUqk9zaT2czKDwEAAAAAAAAAAAAAAAAAAAAAAN5SJm+A22Zd0q19KfaZ47ivl++zzv8AXnKqOVoGAAAAAAAAAAAAAAAAAAAAAAD/axehpwtAnAAA
   </data>
  </layer>
  <layer name="Over" width="100" height="100">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3ZQQrCMBQE0NxC1AMIvaeot7bipojSgOB8m/dgthmYbkrSGgAAAAAAAAAAAAAAAPQ7LTJiP6w5D94PAP/o0JEt91e2W2TE/mrSe6T7q0nvke6vJr1Hur+a9B7p/mrSe6T7q0nvke6vZmrPu+5p0H5Yk77vTvcDALBdPW9D73L8cN7+izMBAKAS/6y1vL7peePLeux/mXOdc2u+BwAAAAAAAAAAAAAAAMAv3QG+mbUxQJwAAA==
+   H4sIAAAAAAAAA+3ZQQrCMBAF0HQh6glEPYDQ+x9QpZsiSguCf2zeg9nmw88mZFoDAAAAAAAAAAAAAACA9W6z6TEfluyGvvMB4B9dVsyW8ys7zabH/GrSfaTzq0n3kc6vJt1HOr+adB/p/GrSfaTzq0n3kc6vZmzTX/fYaT4sSf93p/MBANiuNbuhd3P9cN75izMBAKASb9ZaXnd6dnxZz/73Q2uHxxwH9wEAAAAAAAAAAAAAAADwS3f5ZvFWQJwAAA==
   </data>
  </layer>
- <layer name="Collision" width="100" height="100" visible="0">
+ <layer name="Collision" width="100" height="100">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3R0Q5DYBgDUNn7P/TuxfiNac35knOFNNrXNE0vAAAAAAAAAAAAAAAAAE4xPTw/beT+Ob9Nuo90fpt0H+n8NmsdXNHHyKU7atjjqj7S+e3S/5/Ob5PuI53fJt1HOr9Nuo90fpt0H+n8Nkt9jNz8vT3f2eP8Pb49e9jjTj51tNbn0ef22LfHVqdHzh7rWyz1tNXn0edb+U810tPZZw973MVaH7+4PflPlDx7dO0xv3QXDZou3cXd6bSLPbrYo4s9utijiz262KOTHbrYAwAAAAAAAAAAAAAAAOB6b0p6krBAnAAA
   </data>
