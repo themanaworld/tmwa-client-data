@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="minimap" value="graphics/minimaps/002-2.png"/>
+  <property name="music" value="Faith.ogg"/>
+  <property name="name" value="Sandstorm Desert Indoors"/>
+ </properties>
+ <tileset firstgid="1" source="../tilesets/collision.tsx"/>
+ <tileset firstgid="3" source="../tilesets/inn.tsx"/>
+ <tileset firstgid="259" source="../tilesets/inn2.tsx"/>
+ <tileset firstgid="515" source="../tilesets/inn_x2.tsx"/>
+ <layer name="Ground" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3RsQ0AIAwEsWf/cZguHRsgOoJw4f6kqyQFAAAAAAAAAAAA8JA59m73/caPXvzoxY9e/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE4tWqBy0UCcAAA=
+  </data>
+ </layer>
+ <layer name="Ground2" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3RsRGDQAxFQZE4g4jURE6hGUMF2BVg+kcFXGyOYXfm5xq9CAAAAAAAAAAAAGrUNhGPKK9rzrzsnp758z7KG/T4uzF//oryJj1O8c6/z7nF/6uwZodP7qtHFbbs8MvtegAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFzGAc22e41AnAAA
+  </data>
+ </layer>
+ <layer name="Ground3" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OvQ1AABSFUTagEKXKMBI2YAP2b73ETyMS3Suck3y57S0KAAAAAAAAAAAA4Iv+3ObcNusIr8Zoyj7BbY6W7BM/NURdeexljbakPzxVUZ19AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgFc78c1j/UCcAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVP7WULoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgBt5RKnmQJwAAA==
+  </data>
+ </layer>
+ <layer name="Over" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OoREAIAwEwVAB/ZcaFAoTEROB2Z058e4jAAAAAAAAAAAAAGBur98PAHpZOmUDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8Fz1n4GFAnAAA
+  </data>
+ </layer>
+ <layer name="Collision" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3RsQ2AMAADwYhJGZXR6JGokuIhZ+kX8B1jjGNtp6bi0YpHKx6teLTi0YpHKx6teLTiMde1OB48/hSPVjxa8WjFoxWPVjxa8WjFo1XdY7d4tOLRikcrHq14tOLR6lMebwv8uLXH0ybw49YezwV+5PFPl095bBCPVjxa8WjFoxWPVjxa8WjFoxWPVjxa8WjFoxWPVjxa8WjFoxWPVjxa8WjFoxWPVjxa8WjFoxWPVjxa8WjFoxWPVjxa8WjFoxWPVjxa8WjFoxWPVjxa8WjFoxWPVjxa8WjFoxWPVjxa8WjFo1XZ49R0PFrxaMWjFY9WPFrxaMWjFY9WPFrxaMWjFY9WPFrxaMWjFY9WPFrxaMUj1A1LqKqsQJwAAA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="100" height="100" visible="0">
+  <object name="To Sand Storm" type="warp" x="896" y="960" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="002-1"/>
+    <property name="dest_x" value="3328"/>
+    <property name="dest_y" value="2976"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

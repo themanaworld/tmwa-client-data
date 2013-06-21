@@ -3,233 +3,180 @@
  <properties>
   <property name="minimap" value="graphics/minimaps/002-4.png"/>
   <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
-  <property name="name" value="Deep Desert Mines"/>
+  <property name="name" value="Desert Mines"/>
+  <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
+  <property name="overlay0keepratio" value="true"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
- <tileset firstgid="3" source="../tilesets/cave.tsx"/>
- <tileset firstgid="131" source="../tilesets/cave_x2.tsx"/>
+ <tileset firstgid="3" source="../tilesets/cave2.tsx"/>
+ <tileset firstgid="259" source="../tilesets/cave2_x2.tsx"/>
+ <tileset firstgid="291" source="../tilesets/cave2_sewer_mine.tsx"/>
+ <tileset firstgid="547" source="../tilesets/cave2_transistions.tsx"/>
+ <tileset firstgid="803" source="../tilesets/cave2_bilevel.tsx"/>
+ <tileset firstgid="1059" source="../tilesets/cave2_sewer_mine_x2.tsx"/>
  <layer name="Ground" width="128" height="128">
   <data encoding="base64" compression="gzip">
-   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
+   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
+  </data>
+ </layer>
+ <layer name="Ground2" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cUVLTYBAA4KbRN9546C08g3gABRnegRMp76JyAvQgCNwAbuAN3ChxUtvilCZNyH7fzM50+kLKTrfb/ruZTAAAAAAAAAAAAAAAAADg/8qIFxEv+74QgAcfisnkY8RZMf+YHL5Err9GXBTzj8nhMnL9LeJ7Mf94E4dlO9dG964i1z/+iWvv/zSOp4vPnS55ju3Z8f8HAOCZK6OnnY28r30d35v3It74/jynzv3Y878feT+IeC//f90kOlc4jtd3EnE68te5jrtE5wpXfj9dcNfiucLQNet/X591Q6u1P+M63hZ/eoB3A7mmrjTrf1/9TrPWVn+/HFDPtdP3BXSsWf9nPfW8zVo7pNxnsGqW5naLdU8P0p9VszT3W8xFfZ676RmuGQ7Ira4BR2oBQOdWzX6ZCQMA2qa/AGBTY5/zy2TdvqCvc2/6tzs1A51ZNW9iBjqvKv9moHMqH2YN1f+c6h0f9b9bj/XjT/kNr83Zjpn6n1qmXa8xaHuuK9OuF4sy7Xo9d13MdNa7Xq+K8e96sVy1f3AydQ85ABgSuzyQk/c+QC7qPgDr8LkBADBM+jQA2uSeMAAsY98rN/teudn3yq3a9/oUcR7xWf7T+b3vb98rJfd4AwAAAAAAAAAAAAAAAOApfgEEaH/6AAABAA==
+  </data>
+ </layer>
+ <layer name="Ground3" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3cQWrCUBAG4Emyqbh04Smkh/CAnkB7ktCTFWwoWShRQawTne+Dt8lqyE/CY94kEQAAAAAAAAAAAAAAAAAA8Ho2TUTXnl77bHJq4fk2E1kP+a/bv8V7u5Y/76+fyP/b+x/SrLILAAAAbupafbMp+ybi8Lu+ivQV5F/bSv5AgvE8xxlunuHe/yTdf/nn2zV5e1751zae5zrDfb5ldgEAALycS7NfZsIAgEezvwAA7lVt1pNTw/zBRxuxMANZ0jh/su1y6yCH/GuTf23y/1/X+nRz6OH18ifkX538oS7Pf23yBwAAAAAAAAAAgBxz+J4EgHnr/O8BAAAAAAAAAAAAAAAAAAAAOHME7TQaRwAAAQA=
+  </data>
+ </layer>
+ <layer name="Ground4" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TUQkAMAxDwVbRpM5yPeynsNwpCDxSBQAAAAAAAAAAAAAAAAAAAAAAAAD87PT2Ajbpn03/bFf/aP4PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMCrASn/hZYAAAEA
   </data>
  </layer>
  <layer name="Fringe" width="128" height="128">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3ZwQkAIAgF0AZphPafrwU8GEFkvXe0m6CQvzUAAAAAAAAAAAAAAAAAAAAAgHeNzXcAAABq8P+7R9Rr/Yc7ZWfTDAMAEOnJGgAAALXJ/wAAAP4g/wOAmtxrAVgl/wOoy74GAFbI/wAAAP4g/wMAAAAAAAAAAAAAAAAAAAAAAAAAAOCECfWjJrwAAAEA
+   H4sIAAAAAAAAA+3dsRHAIAgFUAtnyS6aTaL717KAl6Si8L07eir4DUcpAAAAAAAAAAAAAAAAAAAAAAD/XTW7AwAA4M0TuX1ETfkdADicXAQAAAAAAAAAAAAAAACQz60XAAAAAAAAAAAAQB5/SAHYabEjetRtVwAcxfwHAAAAAAAAAAAAAAAAAOCLBeUMyKUAAAEA
   </data>
  </layer>
  <layer name="Over" width="128" height="128">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3d0Q6CIBQAUN/rB6oPrv46fXBaU0MzQDhn480ttgvsgpdsGgAAAAAAAAAAAAAAAAAAABhc2nYLfO4a+CwAAABQpv58INYZQezfI9ypGWIjPnkLPf8DAChNlwedU3cCiGZ8hlDD3P/cl29pJewV+7jXEPMarB3X4g4AAADHoP4HAAAAAADKolYf9jd+p+a9Wl2m1tS+rvrbOLAel60bB3NjQOzrMHfHIofYb7nXlEO/Wc9685ultRwAAAAAAAAAIHdqR6BO5j61U/vHHt+AUEMNx3dv26Ntz9QdoRj/zDG2/uer3D+u0Hujoaa+1zTOY5buJspT0pnKNdfO25D45Xw3kXdr9h/iBwAAAAAAAAAAAAAApPQCOqN/gQAAAQA=
+   H4sIAAAAAAAAA+3dXU7cMBQG0Bkqnjov7RvliW6h6gq6I5bIerqEqipRQaRDkubPdux7jhQJEIwivus4sZ3kdAIAAAAAAAAAAAAAAAAAgGm359J7QA1+qpPQfsk/tMtN6T0AACCCu+fty8t2P/Lz6+3+RAu6jC+97z+e3jK+DP7F2++pgb++f0j32WNtc6/Pncp4L98S/n+OIGX+ff22uXXLkfsr+ccm/9jkH5v8Y5N/XHeldyAD+ccm/3/1xyxyXmeWtPV6vIWxtJxjSq35NLL24/PKNSFjY/ep6ux6HJllHp5zvnnZzr2vv67IfyqL1zHEFo43LRlb+5VqTdj/6sBa1Lz2yn+347C1iNVZk/3Yecej9h/Cnucd1Gesf9H+67K235c/Q+Qf25P8q5Fi7E37j03+cXXHky7/uWPEv3u18sNcaGjyT2NsnK6zdo6QejwMjNGdE4zVmcc9pql5IM+NaJ/8Y3O/JZCScz+2cv3/3vVaXP14HEPH1LlrcIeezaF22jGVp744hrFnetSYvZqt19bsomevbwaIq9Y+IHrfvafaakD2+8tdAzI8HvfZ0zlyf+C4kUfKGliboezzStEfyLA+/fH+LbWwJXt1cwxbnucue5aam71nP7VnSbv3HtK2LD3mu5+gHfr7OIae+ZojezVWngziKp29ugOAY7lNPJbT+ru9mCb/PFKvIVgzJ1n6uiOavdcQDL2vac78tPc8lTU0b7y03c7Jr6V7E1u3ZC2B/AAAAAAAAAAAAAAAgJL+AMVl1pwAAAEA
   </data>
  </layer>
- <layer name="Collision" width="128" height="128" visible="0" opacity="0.4">
+ <layer name="Over2" width="128" height="128">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3S0YrDMAxE0dD//+ilb2WJElmWPFZyBw4L3Th2NP4cx/EBAAAAAAAAAAAAAAAAAAAAAAAAAAAA8HqeeJ/7fX7VWdXz68zKaN/WO1bd08idXnn2XVnfPTIf73OV/VdE3c0T+v//LP3vxfrmkdlkprL/u3f8/7+6G/qv22f2LE+xW3Y6q7ob+qd/+qd/+qf/bv1H94meteK71N08qX/vvpX9e97hPctTnM0g417M7F3V/2jU3Ty5/8i6kf0you5mp/69M/38/KX//V1980zov4eqdO9f3Qv90z/9r+1f3UVX0VmOrrnKTP/q+XUXmamVrP5B/6B/0D/oH8/p/2z9yF0ZPSvy+/d0ONPpSNTz6y4yUyvV/UfuHfbvf+auqOfXXWSmVrL6H7kL6vl1F5np73PedVeZ6d9zXtT0P7LuKjPrPOfFM/v3nhe5/Z+ti96Zu7WeqGfYWWSeVui/n8g8rdC/Xkbov5/RRHuk//1kh/77qMiu/VvvUXfwtv7P9q24M97vU3fwtv4j60bWWM9Fz/tkIzPxZsf+Z877ZJF5HEd8Lf3vJTqPmTlaGX3eWjMadQcd+8/e82rfq6jn151iplaynsdcHzvteRX13J5i9WytZPXvjXruu1g9H+9+d/G+33qXeu67uEv3/ld9V1er5+V5/8x5fv+/4nu6iqa6/9lzrPqO7jJC/31lZnbvyHnov7b/qllmZfa96vmrZYb++8mMat+ZqOevlhn67ycz9N9PZrp1/416/mqZof9+MuZ29luH7r9Rz18tY25nv9F9DxmzO/tt9+6/Uc9+B5kZ3aPyXtztr577LjKzYo/oWe7+/2ZZ8bx/xX3wfKN65ruqmM3q3H2X9QxqZrMq1vmPf7+fPYPaO7Uy1p2+egb97kB0D/Us3iwj0X3U3465O6E+JwAAAAAAAAAAAAAAAAAAAAAAeLc/Z/crwwAAAQA=
+   H4sIAAAAAAAAA+3cwQnCMACG0VjPiiMUHEGcQJzAEVzfITwFcmgK4iGQ/71TyaWFD9IQmpYCAAAAAAAAAAAAAAAAAAAA/zktpZyX0U8BAAAAAAAAAAD86n7cHr91xplL2//SfAOmf4a2/6p/HPN/tlH9e/clQ2/d4Vv0DL11BxnM/9n0Z4v3P0Cmz2H0EwDVc2ed/rCGn17t3+7R1Wv951f7t3t0q/4x9ub/l/7R3voDAAAAAAAAAAAAQCxnvwEA6Lk6exbN/2mz6Z9NfwAAAAAAAAAAAAAAAAAAoOcLI8Yi4wAAAQA=
+  </data>
+ </layer>
+ <layer name="Over3" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3dIREAIBQFwTefHKDonxGFZzAgdhNcg0sAAAAAAAAAAAAAAAAAAADgXq9k1OsKAAAAAAAAAAAAAAAAAADgR7O9LgAAAAAAAAAAAAAAAAAANh9SAAAAAAAAAAAAAAAAAAAAAAAA4NQCRLCUoAAAAQA=
+  </data>
+ </layer>
+ <layer name="Collision" width="128" height="128">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2SW44DIQwER3P/Q+9vhBbGGJvmUS2VFCUBTBfv8zwvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECDZ4EZYI7n6MycV93fzmQmY86W/9kznUB2omcc9Z81467MyMnz7U5EZnnKjtrFrv5Pi9rJCv5vfxtqL2r/RO8G/+3U7hJ1Z7Ub3kE92fdV+9jdf9b+M+6rdjHbe4Sfcg/1vbz+3+Lz6ZR3jor6Xh7/5ffqGfE/1/9ud4j0H/0G1Pfy+lfPpfQf+QayZsj2n3HWyvx3z4h4Z8jY3+Nf7WWm///u3ptyjce/J9HevfvuSlayz36LzxHnqV3sSm+XGcH7Gf6j131F3d0J9PZay8h5/623RN3dCfT02sroub3uPWeC338rUef2Rt3dCVh7rSXyXE/U/e2OtdNaos/tjbq/3bF2WkvkuZ6o+9sdS6cZ3UdF3d/uWDrN6D4q6v52x9JpRvdRUfe3O5ZOM3qPirq/3bF0Gt17Lb3vQt3dCVh6/f0+ovuvMy1R93YKX93WMvvM8vvf/6o73Jla16v5r/1/dJbbaXU7y79lptZ86g5Xwtob/s+iJ7v7/10zOssJeGL1b/3PyKxe/6OznIC1o55Yz1D6H53jFDKS5d+6x+i8NxGRcp8d/Kt7X4WefqzJ8J8xp2eO0/D04enScw7+1/TvWec9x/PeeqN2sKP/mee0Mupf3b+aWZ2MnFOL571k33NHZvTi7b8V/Gvd4P8MZvTzu6d1/6/gP/8NRPXk2dc7kzXqzlcjs6/e/UbmsEbd94pE9+bZY/R8a9Rdr8xIh951+F+LzGS5x//6byDLfdQckPcORvbH/xp4k+U+eh5Y6y1Fe//aF9bw/gSt790bNO7L30bdf0Xdw61Yku2+dQbovD/O9Z63oe7jJiIcREbdx01EORiNuocbiXQxkrf4DHf5Hz0b8A9z/D/P9/reqHu4FUt6/+/JW3yGdfxnp5xF3clt/PYeFe87U3dxMxHxnqO+O4y9CfWcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwN38Jrkh6AAABAA==
   </data>
  </layer>
  <objectgroup name="Objects" width="0" height="0" visible="0">
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1280" y="1440" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1600" y="1440" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1920" y="1376" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2080" y="1376" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1920" y="1600" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2080" y="1600" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1920" y="1824" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2080" y="1824" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1920" y="2048" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2080" y="2048" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1920" y="2272" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2080" y="2272" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1920" y="2496" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2080" y="2496" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1920" y="2720" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2080" y="2720" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1440" y="2176" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1440" y="2368" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2848" y="1120" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="3104" y="1120" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2848" y="1344" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="3104" y="1344" width="32" height="32"/>
-  <object name="Naem the Miner" type="npc" x="1040" y="3024">
-   <properties>
-    <property name="npc_id" value="109"/>
-    <property name="script">
-     function npc_handler(npc, ch)
-       do_message(npc, ch, &quot;Do you want me to lift you to the upper level?&quot;)
-       local v = do_choice(npc, ch, &quot;Sure&quot;, &quot;Not yet!&quot;)
-       if v == 1 then
-         tmw.chr_warp(ch, 2, 87 * 32 + 16, 99 * 32 + 16)
-       end
-     end
-    </property>
-   </properties>
-  </object>
-  <object name="Chest" type="npc" x="2976" y="1184">
-   <properties>
-    <property name="npc_id" value="111"/>
-    <property name="script">
-     function npc_handler(npc, ch)
-       local g = tonumber(get_quest_var(npc, ch, &quot;005_chest&quot;))
-       if not g then
-         do_message(npc, ch, &quot;Would you try to open it?&quot;)
-         local v = do_choice(npc, ch, &quot;Yup&quot;, &quot;Nope&quot;)
-         if v == 1 then
-           if tmw.chr_inv_change(ch, 537, -3, 536, 1) then
-             do_message(npc, ch, &quot;You opened it and found a short sword!&quot;)
-             tmw.chr_set_quest(ch, &quot;005_chest&quot;, 1)
-           else
-             do_message(npc, ch, &quot;It seems that this is not the right key...&quot;)   
-           end
-         end
-       else
-         do_message(npc, ch, &quot;You already opened this chest.&quot;)
-       end
-     end
-    </property>
-   </properties>
-  </object>
-  <object name="To First Level" type="warp" x="1088" y="3168" width="32" height="32">
+  <object name="To Mining camp" type="warp" x="1184" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="002-3"/>
-    <property name="dest_x" value="2176"/>
-    <property name="dest_y" value="3168"/>
+    <property name="dest_x" value="2624"/>
+    <property name="dest_y" value="960"/>
    </properties>
   </object>
-  <object name="IceGoblin" type="spawn" x="992" y="2752" width="416" height="256">
+  <object name="CaveMaggot" type="spawn" x="1024" y="1024" width="512" height="384">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="56"/>
-   </properties>
-  </object>
-  <object name="CaveMaggot" type="spawn" x="1024" y="2272" width="128" height="384">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="3"/>
+    <property name="max_beings" value="5"/>
     <property name="monster_id" value="54"/>
    </properties>
   </object>
-  <object name="AngryScorpion" type="spawn" x="1184" y="2112" width="256" height="192">
+  <object name="AngryFireGoblin" type="spawn" x="2656" y="992" width="576" height="672">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="106"/>
+   </properties>
+  </object>
+  <object name="CaveMaggot" type="spawn" x="1888" y="864" width="832" height="576">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="54"/>
+   </properties>
+  </object>
+  <object name="AngryFireGoblin" type="spawn" x="2080" y="3136" width="288" height="192">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="106"/>
+   </properties>
+  </object>
+  <object name="AngryScorpion" type="spawn" x="1760" y="1440" width="864" height="800">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="55"/>
+   </properties>
+  </object>
+  <object name="AngryScorpion" type="spawn" x="1504" y="1632" width="160" height="512">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="55"/>
+   </properties>
+  </object>
+  <object name="AngryScorpion" type="spawn" x="992" y="2080" width="512" height="736">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="55"/>
+   </properties>
+  </object>
+  <object name="CaveMaggot" type="spawn" x="1760" y="2240" width="224" height="576">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="54"/>
+   </properties>
+  </object>
+  <object name="AngryScorpion" type="spawn" x="2688" y="1664" width="384" height="1056">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="55"/>
+   </properties>
+  </object>
+  <object name="CaveMaggot" type="spawn" x="2400" y="2720" width="640" height="576">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="54"/>
+   </properties>
+  </object>
+  <object name="AngryFireGoblin" type="spawn" x="1984" y="2240" width="704" height="480">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="106"/>
+   </properties>
+  </object>
+  <object name="AngryScorpion" type="spawn" x="1984" y="2720" width="384" height="416">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="55"/>
+   </properties>
+  </object>
+  <object name="CaveMaggot" type="spawn" x="1760" y="2848" width="224" height="448">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="54"/>
+   </properties>
+  </object>
+  <object name="AngryScorpion" type="spawn" x="1984" y="3136" width="96" height="192">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="55"/>
-   </properties>
-  </object>
-  <object name="Archant" type="spawn" x="992" y="1152" width="608" height="192">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="58"/>
-   </properties>
-  </object>
-  <object name="IceGoblin" type="spawn" x="1952" y="2176" width="128" height="256">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="56"/>
-   </properties>
-  </object>
-  <object name="Archant" type="spawn" x="1760" y="3040" width="96" height="192">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="58"/>
-   </properties>
-  </object>
-  <object name="YellowSlime" type="spawn" x="1984" y="3168" width="416" height="96">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="5"/>
-   </properties>
-  </object>
-  <object name="Archant" type="spawn" x="2944" y="2496" width="64" height="192">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="58"/>
-   </properties>
-  </object>
-  <object name="Archant" type="spawn" x="2848" y="2944" width="64" height="192">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="58"/>
-   </properties>
-  </object>
-  <object name="Archant" type="spawn" x="2368" y="2432" width="64" height="192">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="58"/>
-   </properties>
-  </object>
-  <object name="Archant" type="spawn" x="2976" y="2176" width="96" height="224">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="58"/>
-   </properties>
-  </object>
-  <object name="YellowSlime" type="spawn" x="2784" y="2016" width="288" height="96">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="5"/>
-   </properties>
-  </object>
-  <object name="Archant" type="spawn" x="2368" y="1056" width="64" height="192">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="58"/>
-   </properties>
-  </object>
-  <object name="Archant" type="spawn" x="2688" y="992" width="64" height="192">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="58"/>
-   </properties>
-  </object>
-  <object name="Archant" type="spawn" x="2688" y="1408" width="64" height="192">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="58"/>
-   </properties>
-  </object>
-  <object name="Archant" type="spawn" x="3168" y="1152" width="64" height="192">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="58"/>
-   </properties>
-  </object>
-  <object name="YellowSlime" type="spawn" x="2848" y="1216" width="288" height="96">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="5"/>
    </properties>
   </object>
  </objectgroup>
