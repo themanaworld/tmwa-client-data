@@ -486,4 +486,24 @@
     <particlefx>graphics/particles/monster-witchguard.particle.xml</particlefx>
     <sprite>weapon-witchguard-gladius.xml</sprite>
   </monster>
+  <monster id="106" name="Angry Fire Goblin">
+    <sprite>monsters/goblin-fire.xml</sprite>
+    <sound event="hit">monsters/fire-goblin/fire-goblin-hit1.ogg</sound>
+    <sound event="hit">monsters/fire-goblin/fire-goblin-hit2.ogg</sound>
+    <sound event="miss">monsters/fire-goblin/fire-goblin-miss1.ogg</sound>
+    <particlefx>graphics/particles/monster-angry-fire-goblin.particle.xml</particlefx>
+    <!-- The particle-effect parameter is kept for 0.5.x compatibility -->
+    <attack id="1" effect-id="400" particle-effect="graphics/particles/monster-goblin-firebreath.particle.xml"/>
+  </monster>
+  <monster id="107" name="Angry Sea Slime">
+    <sprite>monsters/slime.xml|#4ca1a0,ffffff</sprite>
+    <sprite>monsters/accessories/slime-seajelly.xml|#4Ca16e,ffffff</sprite>
+    <particlefx>graphics/particles/monster-angry-sea-slime.particle.xml</particlefx>
+    <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+  </monster>
+  <monster id="108" name="Angry Green Slime">
+    <sprite>monsters/slime.xml|#72982c,ffffff</sprite>
+    <particlefx>graphics/particles/monster-angry-green-slime.particle.xml</particlefx>
+    <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+  </monster>
 </monsters>
