@@ -876,7 +876,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="178" height="168" visible="0">
+ <layer name="Collision" width="178" height="168">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -1052,15 +1052,15 @@
   <object name="To South Tulimshar" type="warp" x="1696" y="4672" width="160" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
-    <property name="dest_x" value="1408"/>
-    <property name="dest_y" value="672"/>
+    <property name="dest_tile_x" value="44"/>
+    <property name="dest_tile_y" value="21"/>
    </properties>
   </object>
   <object name="To South Tulimshar" type="warp" x="4320" y="4704" width="64" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
-    <property name="dest_x" value="4000"/>
-    <property name="dest_y" value="704"/>
+    <property name="dest_tile_x" value="125"/>
+    <property name="dest_tile_y" value="22"/>
    </properties>
   </object>
   <object name="Maggot" type="spawn" x="4000" y="2720" width="128" height="96">
@@ -1106,106 +1106,106 @@
   <object name="To Government Building" type="warp" x="1696" y="4288" width="32" height="32">
    <properties>
     <property name="dest_map" value="021-2"/>
-    <property name="dest_x" value="864"/>
-    <property name="dest_y" value="928"/>
+    <property name="dest_tile_x" value="27"/>
+    <property name="dest_tile_y" value="29"/>
    </properties>
   </object>
   <object name="To Government Building" type="warp" x="1760" y="4288" width="32" height="32">
    <properties>
     <property name="dest_map" value="021-2"/>
-    <property name="dest_x" value="1056"/>
-    <property name="dest_y" value="928"/>
+    <property name="dest_tile_x" value="33"/>
+    <property name="dest_tile_y" value="29"/>
    </properties>
   </object>
   <object name="To Government Building" type="warp" x="1824" y="4288" width="32" height="32">
    <properties>
     <property name="dest_map" value="021-2"/>
-    <property name="dest_x" value="1248"/>
-    <property name="dest_y" value="928"/>
+    <property name="dest_tile_x" value="39"/>
+    <property name="dest_tile_y" value="29"/>
    </properties>
   </object>
   <object name="To Tulimshar Bakery" type="warp" x="3296" y="3200" width="32" height="32">
    <properties>
     <property name="dest_map" value="021-2"/>
-    <property name="dest_x" value="2912"/>
-    <property name="dest_y" value="864"/>
+    <property name="dest_tile_x" value="91"/>
+    <property name="dest_tile_y" value="27"/>
    </properties>
   </object>
   <object name="To Bakery" type="warp" x="3296" y="3072" width="32" height="32">
    <properties>
     <property name="dest_map" value="021-2"/>
-    <property name="dest_x" value="3904"/>
-    <property name="dest_y" value="764"/>
+    <property name="dest_tile_x" value="122"/>
+    <property name="dest_tile_y" value="23"/>
    </properties>
   </object>
   <object name="To Tulimshar Canyon" type="warp" x="1504" y="2048" width="160" height="32">
    <properties>
     <property name="dest_map" value="024-1"/>
-    <property name="dest_x" value="2752"/>
-    <property name="dest_y" value="2336"/>
+    <property name="dest_tile_x" value="86"/>
+    <property name="dest_tile_y" value="73"/>
    </properties>
   </object>
   <object name="To Wizard's Rest" type="warp" x="1696" y="3168" width="32" height="32">
    <properties>
     <property name="dest_map" value="021-2"/>
-    <property name="dest_x" value="800"/>
-    <property name="dest_y" value="2112"/>
+    <property name="dest_tile_x" value="25"/>
+    <property name="dest_tile_y" value="66"/>
    </properties>
   </object>
   <object name="To Wizard's Rest" type="warp" x="1664" y="3040" width="32" height="32">
    <properties>
     <property name="dest_map" value="021-2"/>
-    <property name="dest_x" value="736"/>
-    <property name="dest_y" value="3136"/>
+    <property name="dest_tile_x" value="23"/>
+    <property name="dest_tile_y" value="98"/>
    </properties>
   </object>
   <object name="To Tulimshar Port" type="warp" x="2272" y="704" width="160" height="32">
    <properties>
     <property name="dest_map" value="022-1"/>
-    <property name="dest_x" value="2336"/>
-    <property name="dest_y" value="3488"/>
+    <property name="dest_tile_x" value="73"/>
+    <property name="dest_tile_y" value="109"/>
    </properties>
   </object>
   <object name="To Tulimshar Port" type="warp" x="3552" y="704" width="160" height="32">
    <properties>
     <property name="dest_map" value="022-1"/>
-    <property name="dest_x" value="3616"/>
-    <property name="dest_y" value="3488"/>
+    <property name="dest_tile_x" value="113"/>
+    <property name="dest_tile_y" value="109"/>
    </properties>
   </object>
   <object name="To Store" type="warp" x="1376" y="3520" width="32" height="32">
    <properties>
     <property name="dest_map" value="021-2"/>
-    <property name="dest_x" value="896"/>
-    <property name="dest_y" value="4128"/>
+    <property name="dest_tile_x" value="28"/>
+    <property name="dest_tile_y" value="129"/>
    </properties>
   </object>
   <object name="To Tulimshar Forge" type="warp" x="4224" y="992" width="32" height="32">
    <properties>
     <property name="dest_map" value="021-2"/>
-    <property name="dest_x" value="2528"/>
-    <property name="dest_y" value="4416"/>
+    <property name="dest_tile_x" value="79"/>
+    <property name="dest_tile_y" value="138"/>
    </properties>
   </object>
   <object name="To Tulimshar Forge" type="warp" x="4256" y="768" width="32" height="32">
    <properties>
     <property name="dest_map" value="021-2"/>
-    <property name="dest_x" value="2400"/>
-    <property name="dest_y" value="2944"/>
+    <property name="dest_tile_x" value="75"/>
+    <property name="dest_tile_y" value="92"/>
    </properties>
   </object>
   <object name="To Tulimshar Forge" type="warp" x="4000" y="864" width="32" height="32">
    <properties>
     <property name="dest_map" value="021-2"/>
-    <property name="dest_x" value="3968"/>
-    <property name="dest_y" value="2176"/>
+    <property name="dest_tile_x" value="124"/>
+    <property name="dest_tile_y" value="68"/>
    </properties>
   </object>
   <object name="To Tulimshar Forge" type="warp" x="4000" y="992" width="32" height="32">
    <properties>
     <property name="dest_map" value="021-2"/>
-    <property name="dest_x" value="2304"/>
-    <property name="dest_y" value="4416"/>
+    <property name="dest_tile_x" value="72"/>
+    <property name="dest_tile_y" value="138"/>
    </properties>
   </object>
  </objectgroup>

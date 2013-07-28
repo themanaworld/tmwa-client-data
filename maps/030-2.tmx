@@ -948,7 +948,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="220" height="130" visible="0">
+ <layer name="Collision" width="220" height="130">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -1086,99 +1086,99 @@
   <object name="To Outside" type="warp" x="2816" y="1632" width="32" height="32">
    <properties>
     <property name="dest_map" value="030-1"/>
-    <property name="dest_x" value="3168"/>
-    <property name="dest_y" value="1728"/>
+    <property name="dest_tile_x" value="99"/>
+    <property name="dest_tile_y" value="54"/>
    </properties>
   </object>
   <object name="To Basement" type="warp" x="2304" y="992" width="32" height="32">
    <properties>
     <property name="dest_map" value="030-2"/>
-    <property name="dest_x" value="1632"/>
-    <property name="dest_y" value="992"/>
+    <property name="dest_tile_x" value="51"/>
+    <property name="dest_tile_y" value="31"/>
    </properties>
   </object>
   <object name="To Fourth Floor" type="warp" x="6208" y="2176" width="32" height="32">
    <properties>
     <property name="dest_map" value="030-2"/>
-    <property name="dest_x" value="2496"/>
-    <property name="dest_y" value="2816"/>
+    <property name="dest_tile_x" value="78"/>
+    <property name="dest_tile_y" value="88"/>
    </properties>
   </object>
   <object name="To First Floor" type="warp" x="1664" y="992" width="32" height="32">
    <properties>
     <property name="dest_map" value="030-2"/>
-    <property name="dest_x" value="2336"/>
-    <property name="dest_y" value="992"/>
+    <property name="dest_tile_x" value="73"/>
+    <property name="dest_tile_y" value="31"/>
    </properties>
   </object>
   <object name="To Second Floor" type="warp" x="2368" y="608" width="64" height="32">
    <properties>
     <property name="dest_map" value="030-2"/>
-    <property name="dest_x" value="4064"/>
-    <property name="dest_y" value="1600"/>
+    <property name="dest_tile_x" value="127"/>
+    <property name="dest_tile_y" value="50"/>
    </properties>
   </object>
   <object name="To Second Floor" type="warp" x="3232" y="608" width="64" height="32">
    <properties>
     <property name="dest_map" value="030-2"/>
-    <property name="dest_x" value="4896"/>
-    <property name="dest_y" value="1600"/>
+    <property name="dest_tile_x" value="153"/>
+    <property name="dest_tile_y" value="50"/>
    </properties>
   </object>
   <object name="To First Floor" type="warp" x="4032" y="1632" width="64" height="32">
    <properties>
     <property name="dest_map" value="030-2"/>
-    <property name="dest_x" value="2400"/>
-    <property name="dest_y" value="640"/>
+    <property name="dest_tile_x" value="75"/>
+    <property name="dest_tile_y" value="20"/>
    </properties>
   </object>
   <object name="To First Floor" type="warp" x="4896" y="1632" width="64" height="32">
    <properties>
     <property name="dest_map" value="030-2"/>
-    <property name="dest_x" value="3232"/>
-    <property name="dest_y" value="640"/>
+    <property name="dest_tile_x" value="101"/>
+    <property name="dest_tile_y" value="20"/>
    </properties>
   </object>
   <object name="To Third Floor" type="warp" x="4992" y="736" width="32" height="64">
    <properties>
     <property name="dest_map" value="030-2"/>
-    <property name="dest_x" value="672"/>
-    <property name="dest_y" value="2496"/>
+    <property name="dest_tile_x" value="21"/>
+    <property name="dest_tile_y" value="78"/>
    </properties>
   </object>
   <object name="To Second Floor" type="warp" x="640" y="2464" width="32" height="64">
    <properties>
     <property name="dest_map" value="030-2"/>
-    <property name="dest_x" value="4960"/>
-    <property name="dest_y" value="768"/>
+    <property name="dest_tile_x" value="155"/>
+    <property name="dest_tile_y" value="24"/>
    </properties>
   </object>
   <object name="To Fourth Floor" type="warp" x="1312" y="3360" width="64" height="32">
    <properties>
     <property name="dest_map" value="030-2"/>
-    <property name="dest_x" value="2976"/>
-    <property name="dest_y" value="2368"/>
+    <property name="dest_tile_x" value="93"/>
+    <property name="dest_tile_y" value="74"/>
    </properties>
   </object>
   <object name="To Third Floor" type="warp" x="2976" y="2336" width="64" height="32">
    <properties>
     <property name="dest_map" value="030-2"/>
-    <property name="dest_x" value="1312"/>
-    <property name="dest_y" value="3328"/>
+    <property name="dest_tile_x" value="41"/>
+    <property name="dest_tile_y" value="104"/>
    </properties>
   </object>
   <object name="To Fifth Floor" type="warp" x="3232" y="2336" width="64" height="32">
    <properties>
     <property name="dest_map" value="030-2"/>
-    <property name="dest_x" value="4064"/>
-    <property name="dest_y" value="3328"/>
+    <property name="dest_tile_x" value="127"/>
+    <property name="dest_tile_y" value="104"/>
    </properties>
   </object>
   <object name="To Fourth Floor" type="warp" x="4032" y="3360" width="64" height="32">
    <properties>
     <property name="dest_map" value="030-2"/>
-    <property name="dest_x" value="3264"/>
-    <property name="dest_y" value="2368"/>
+    <property name="dest_tile_x" value="102"/>
+    <property name="dest_tile_y" value="74"/>
    </properties>
   </object>
   <object name="graphics/particles/fireplace.particle.xml" type="particle_effect" x="2816" y="704" width="32" height="32"/>

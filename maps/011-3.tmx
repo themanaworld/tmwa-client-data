@@ -203,7 +203,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="60" height="60" visible="0">
+ <layer name="Collision" width="60" height="60">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -273,22 +273,14 @@
   <object name="Arkim the Hermit" type="npc" x="976" y="752">
    <properties>
     <property name="npc_id" value="116"/>
-    <property name="script">
-     function npc_handler(npc, ch)
-       do_message(npc, ch, &quot;Do you want to go back outside?&quot;)
-       local v = do_choice(npc, ch, &quot;Yes please&quot;, &quot;Not yet&quot;)
-       if v == 1 then
-         tmw.chr_warp(ch, 9, 60 * 32 + 16, 95 * 32 + 16)
-       end
-     end
-    </property>
+    <property name="script" value=""/>
    </properties>
   </object>
   <object name="To Lake Cave" type="warp" x="992" y="448" width="32" height="32">
    <properties>
     <property name="dest_map" value="011-4"/>
-    <property name="dest_x" value="2352"/>
-    <property name="dest_y" value="336"/>
+    <property name="dest_tile_x" value="73"/>
+    <property name="dest_tile_y" value="10"/>
    </properties>
   </object>
   <object name="Bat" type="spawn" x="0" y="0">

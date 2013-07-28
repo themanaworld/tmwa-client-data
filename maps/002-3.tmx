@@ -816,7 +816,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="110" height="110" visible="0">
+ <layer name="Collision" width="110" height="110">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -934,22 +934,22 @@
   <object name="To Beach" type="warp" x="704" y="2784" width="32" height="32">
    <properties>
     <property name="dest_map" value="043-1"/>
-    <property name="dest_x" value="2720"/>
-    <property name="dest_y" value="1760"/>
+    <property name="dest_tile_x" value="85"/>
+    <property name="dest_tile_y" value="55"/>
    </properties>
   </object>
   <object name="To Sand Storm Upper" type="warp" x="2720" y="1632" width="32" height="32">
    <properties>
     <property name="dest_map" value="002-1"/>
-    <property name="dest_x" value="2528"/>
-    <property name="dest_y" value="3232"/>
+    <property name="dest_tile_x" value="79"/>
+    <property name="dest_tile_y" value="101"/>
    </properties>
   </object>
   <object name="To Sand Storm" type="warp" x="1632" y="1152" width="32" height="32">
    <properties>
     <property name="dest_map" value="002-1"/>
-    <property name="dest_x" value="640"/>
-    <property name="dest_y" value="3072"/>
+    <property name="dest_tile_x" value="20"/>
+    <property name="dest_tile_y" value="96"/>
    </properties>
   </object>
   <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2368" y="2080" width="32" height="32"/>

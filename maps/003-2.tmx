@@ -279,7 +279,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="75" height="50" visible="0">
+ <layer name="Collision" width="75" height="50">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -337,15 +337,15 @@
   <object name="To Outside" type="warp" x="704" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="003-1"/>
-    <property name="dest_x" value="1536"/>
-    <property name="dest_y" value="1184"/>
+    <property name="dest_tile_x" value="48"/>
+    <property name="dest_tile_y" value="37"/>
    </properties>
   </object>
   <object name="To Outside" type="warp" x="1792" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="003-1"/>
-    <property name="dest_x" value="1888"/>
-    <property name="dest_y" value="960"/>
+    <property name="dest_tile_x" value="59"/>
+    <property name="dest_tile_y" value="30"/>
    </properties>
   </object>
  </objectgroup>

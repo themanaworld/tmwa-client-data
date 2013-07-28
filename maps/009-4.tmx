@@ -832,7 +832,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="160" height="160" visible="0">
+ <layer name="Collision" width="160" height="160">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -1034,22 +1034,22 @@
   <object name="To Hurnscald Cave" type="warp" x="1184" y="3584" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-3"/>
-    <property name="dest_x" value="5216"/>
-    <property name="dest_y" value="3648"/>
+    <property name="dest_tile_x" value="163"/>
+    <property name="dest_tile_y" value="114"/>
    </properties>
   </object>
   <object name="To Torches Cave" type="warp" x="2304" y="4352" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-4"/>
-    <property name="dest_x" value="1152"/>
-    <property name="dest_y" value="864"/>
+    <property name="dest_tile_x" value="36"/>
+    <property name="dest_tile_y" value="27"/>
    </properties>
   </object>
   <object name="To Torches Cave" type="warp" x="1184" y="3936" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-4"/>
-    <property name="dest_x" value="1152"/>
-    <property name="dest_y" value="864"/>
+    <property name="dest_tile_x" value="36"/>
+    <property name="dest_tile_y" value="27"/>
    </properties>
   </object>
   <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="3552" y="3072" width="32" height="32"/>
@@ -1057,22 +1057,22 @@
   <object name="To Hurnscald Cave" type="warp" x="2304" y="4000" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-3"/>
-    <property name="dest_x" value="5216"/>
-    <property name="dest_y" value="3648"/>
+    <property name="dest_tile_x" value="163"/>
+    <property name="dest_tile_y" value="114"/>
    </properties>
   </object>
   <object name="To Torches Cave" type="warp" x="3296" y="704" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-4"/>
-    <property name="dest_x" value="1632"/>
-    <property name="dest_y" value="1472"/>
+    <property name="dest_tile_x" value="51"/>
+    <property name="dest_tile_y" value="46"/>
    </properties>
   </object>
   <object name="To Torches Cave" type="warp" x="3296" y="2432" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-4"/>
-    <property name="dest_x" value="1632"/>
-    <property name="dest_y" value="1472"/>
+    <property name="dest_tile_x" value="51"/>
+    <property name="dest_tile_y" value="46"/>
    </properties>
   </object>
   <object name="Silkworm" type="spawn" x="3360" y="2880" width="800" height="512">

@@ -772,7 +772,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,179,181,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="128" height="148" visible="0">
+ <layer name="Collision" width="128" height="148">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -928,22 +928,22 @@
   <object name="To Ice Cave" type="warp" x="2400" y="1216" width="96" height="32">
    <properties>
     <property name="dest_map" value="020-3"/>
-    <property name="dest_x" value="992"/>
-    <property name="dest_y" value="832"/>
+    <property name="dest_tile_x" value="31"/>
+    <property name="dest_tile_y" value="26"/>
    </properties>
   </object>
   <object name="To Nivalis Indoor" type="warp" x="1504" y="1536" width="32" height="32">
    <properties>
     <property name="dest_map" value="020-2"/>
-    <property name="dest_x" value="800"/>
-    <property name="dest_y" value="1120"/>
+    <property name="dest_tile_x" value="25"/>
+    <property name="dest_tile_y" value="35"/>
    </properties>
   </object>
   <object name="To Nivalis House" type="warp" x="2112" y="1664" width="32" height="32">
    <properties>
     <property name="dest_map" value="020-2"/>
-    <property name="dest_x" value="2304"/>
-    <property name="dest_y" value="2240"/>
+    <property name="dest_tile_x" value="72"/>
+    <property name="dest_tile_y" value="70"/>
    </properties>
   </object>
   <object name="graphics/particles/whirlpool.particle.xml" type="particle_effect" x="2000" y="4016"/>
@@ -963,43 +963,43 @@
   <object name="To Nivalis Inn" type="warp" x="2048" y="2624" width="32" height="32">
    <properties>
     <property name="dest_map" value="020-2"/>
-    <property name="dest_x" value="3552"/>
-    <property name="dest_y" value="1024"/>
+    <property name="dest_tile_x" value="111"/>
+    <property name="dest_tile_y" value="32"/>
    </properties>
   </object>
   <object name="To Armory" type="warp" x="2752" y="1472" width="32" height="32">
    <properties>
     <property name="dest_map" value="020-2"/>
-    <property name="dest_x" value="1024"/>
-    <property name="dest_y" value="2336"/>
+    <property name="dest_tile_x" value="32"/>
+    <property name="dest_tile_y" value="73"/>
    </properties>
   </object>
   <object name="To Nivalis Shop" type="warp" x="1824" y="2912" width="32" height="32">
    <properties>
     <property name="dest_map" value="020-2"/>
-    <property name="dest_x" value="2080"/>
-    <property name="dest_y" value="736"/>
+    <property name="dest_tile_x" value="65"/>
+    <property name="dest_tile_y" value="23"/>
    </properties>
   </object>
   <object name="To Snow Field" type="warp" x="2176" y="4096" width="128" height="32">
    <properties>
     <property name="dest_map" value="019-1"/>
-    <property name="dest_x" value="2240"/>
-    <property name="dest_y" value="704"/>
+    <property name="dest_tile_x" value="70"/>
+    <property name="dest_tile_y" value="22"/>
    </properties>
   </object>
   <object name="To Nivalis Port" type="warp" x="3424" y="1760" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-1"/>
-    <property name="dest_x" value="1216"/>
-    <property name="dest_y" value="1760"/>
+    <property name="dest_tile_x" value="38"/>
+    <property name="dest_tile_y" value="55"/>
    </properties>
   </object>
   <object name="To Nivalis Storage" type="warp" x="1888" y="1440" width="32" height="32">
    <properties>
     <property name="dest_map" value="020-2"/>
-    <property name="dest_x" value="4064"/>
-    <property name="dest_y" value="2176"/>
+    <property name="dest_tile_x" value="127"/>
+    <property name="dest_tile_y" value="68"/>
    </properties>
   </object>
   <object name="WhiteBell" type="spawn" x="0" y="0">

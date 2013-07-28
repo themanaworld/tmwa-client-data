@@ -473,7 +473,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,88,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="150" height="150" visible="0">
+ <layer name="Collision" width="150" height="150">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -631,141 +631,141 @@
   <object name="To Snake Desert" type="warp" x="576" y="992" width="32" height="32">
    <properties>
     <property name="dest_map" value="005-1"/>
-    <property name="dest_x" value="5504"/>
-    <property name="dest_y" value="3232"/>
+    <property name="dest_tile_x" value="172"/>
+    <property name="dest_tile_y" value="101"/>
    </properties>
   </object>
   <object name="To Desert Mountains Cave" type="warp" x="1280" y="832" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
-    <property name="dest_x" value="1280"/>
-    <property name="dest_y" value="896"/>
+    <property name="dest_tile_x" value="40"/>
+    <property name="dest_tile_y" value="28"/>
    </properties>
   </object>
   <object name="To Desert Mountains Cave" type="warp" x="1920" y="1856" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
-    <property name="dest_x" value="1920"/>
-    <property name="dest_y" value="2240"/>
+    <property name="dest_tile_x" value="60"/>
+    <property name="dest_tile_y" value="70"/>
    </properties>
   </object>
   <object name="To Desert Mountains Cave" type="warp" x="1984" y="960" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
-    <property name="dest_x" value="1984"/>
-    <property name="dest_y" value="1024"/>
+    <property name="dest_tile_x" value="62"/>
+    <property name="dest_tile_y" value="32"/>
    </properties>
   </object>
   <object name="To Desert Mountains Cave" type="warp" x="1760" y="864" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
-    <property name="dest_x" value="1760"/>
-    <property name="dest_y" value="928"/>
+    <property name="dest_tile_x" value="55"/>
+    <property name="dest_tile_y" value="29"/>
    </properties>
   </object>
   <object name="To Desert Mountains Cave" type="warp" x="2464" y="1408" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
-    <property name="dest_x" value="2464"/>
-    <property name="dest_y" value="1472"/>
+    <property name="dest_tile_x" value="77"/>
+    <property name="dest_tile_y" value="46"/>
    </properties>
   </object>
   <object name="To Desert Mountains Cave" type="warp" x="2752" y="768" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
-    <property name="dest_x" value="2752"/>
-    <property name="dest_y" value="832"/>
+    <property name="dest_tile_x" value="86"/>
+    <property name="dest_tile_y" value="26"/>
    </properties>
   </object>
   <object name="To Desert Mountains Cave" type="warp" x="2912" y="768" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
-    <property name="dest_x" value="2912"/>
-    <property name="dest_y" value="832"/>
+    <property name="dest_tile_x" value="91"/>
+    <property name="dest_tile_y" value="26"/>
    </properties>
   </object>
   <object name="To Desert Mountains Cave" type="warp" x="3328" y="1408" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
-    <property name="dest_x" value="3328"/>
-    <property name="dest_y" value="1478"/>
+    <property name="dest_tile_x" value="104"/>
+    <property name="dest_tile_y" value="46"/>
    </properties>
   </object>
   <object name="To Desert Mountains Cave" type="warp" x="3904" y="768" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
-    <property name="dest_x" value="3904"/>
-    <property name="dest_y" value="832"/>
+    <property name="dest_tile_x" value="122"/>
+    <property name="dest_tile_y" value="26"/>
    </properties>
   </object>
   <object name="To Desert Mountains Cave" type="warp" x="3648" y="1568" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
-    <property name="dest_x" value="3648"/>
-    <property name="dest_y" value="1632"/>
+    <property name="dest_tile_x" value="114"/>
+    <property name="dest_tile_y" value="51"/>
    </properties>
   </object>
   <object name="To Desert Mountains Cave" type="warp" x="3520" y="1792" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
-    <property name="dest_x" value="3520"/>
-    <property name="dest_y" value="1856"/>
+    <property name="dest_tile_x" value="110"/>
+    <property name="dest_tile_y" value="58"/>
    </properties>
   </object>
   <object name="To Desert Mountains Cave" type="warp" x="4000" y="1888" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
-    <property name="dest_x" value="4000"/>
-    <property name="dest_y" value="1952"/>
+    <property name="dest_tile_x" value="125"/>
+    <property name="dest_tile_y" value="61"/>
    </properties>
   </object>
   <object name="To Desert Mountains Cave" type="warp" x="2944" y="2016" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
-    <property name="dest_x" value="2944"/>
-    <property name="dest_y" value="2080"/>
+    <property name="dest_tile_x" value="92"/>
+    <property name="dest_tile_y" value="65"/>
    </properties>
   </object>
   <object name="To Desert Mountains Cave" type="warp" x="3584" y="2368" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
-    <property name="dest_x" value="3584"/>
-    <property name="dest_y" value="2432"/>
+    <property name="dest_tile_x" value="112"/>
+    <property name="dest_tile_y" value="76"/>
    </properties>
   </object>
   <object name="To Desert Mountains Cave" type="warp" x="3872" y="3520" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
-    <property name="dest_x" value="3872"/>
-    <property name="dest_y" value="3584"/>
+    <property name="dest_tile_x" value="121"/>
+    <property name="dest_tile_y" value="112"/>
    </properties>
   </object>
   <object name="To Desert Mountains Cave" type="warp" x="2528" y="3840" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
-    <property name="dest_x" value="2528"/>
-    <property name="dest_y" value="3904"/>
+    <property name="dest_tile_x" value="79"/>
+    <property name="dest_tile_y" value="122"/>
    </properties>
   </object>
   <object name="To Desert Mountains Cave" type="warp" x="1216" y="3872" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
-    <property name="dest_x" value="1216"/>
-    <property name="dest_y" value="3936"/>
+    <property name="dest_tile_x" value="38"/>
+    <property name="dest_tile_y" value="123"/>
    </properties>
   </object>
   <object name="To Desert Mountains Cave" type="warp" x="2368" y="2880" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
-    <property name="dest_x" value="2368"/>
-    <property name="dest_y" value="2944"/>
+    <property name="dest_tile_x" value="74"/>
+    <property name="dest_tile_y" value="92"/>
    </properties>
   </object>
   <object name="To Desert Mountains Cave" type="warp" x="1632" y="2880" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
-    <property name="dest_x" value="1632"/>
-    <property name="dest_y" value="2948"/>
+    <property name="dest_tile_x" value="51"/>
+    <property name="dest_tile_y" value="92"/>
    </properties>
   </object>
   <object name="Snake" type="spawn" x="608" y="608" width="416" height="1024">
@@ -891,92 +891,92 @@
   <object name="To Outback Cave" type="warp" x="960" y="3936" width="32" height="32">
    <properties>
     <property name="dest_map" value="032-3"/>
-    <property name="dest_x" value="4096"/>
-    <property name="dest_y" value="1056"/>
+    <property name="dest_tile_x" value="128"/>
+    <property name="dest_tile_y" value="33"/>
    </properties>
   </object>
   <object name="To Snake Desert" type="warp" x="608" y="960" width="32" height="32">
    <properties>
     <property name="dest_map" value="005-1"/>
-    <property name="dest_x" value="5504"/>
-    <property name="dest_y" value="3232"/>
+    <property name="dest_tile_x" value="172"/>
+    <property name="dest_tile_y" value="101"/>
    </properties>
   </object>
   <object name="To Snake Desert" type="warp" x="640" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="005-1"/>
-    <property name="dest_x" value="5504"/>
-    <property name="dest_y" value="3232"/>
+    <property name="dest_tile_x" value="172"/>
+    <property name="dest_tile_y" value="101"/>
    </properties>
   </object>
   <object name="To Snake Desert" type="warp" x="672" y="896" width="32" height="32">
    <properties>
     <property name="dest_map" value="005-1"/>
-    <property name="dest_x" value="5504"/>
-    <property name="dest_y" value="3232"/>
+    <property name="dest_tile_x" value="172"/>
+    <property name="dest_tile_y" value="101"/>
    </properties>
   </object>
   <object name="To Snake Desert" type="warp" x="704" y="864" width="32" height="32">
    <properties>
     <property name="dest_map" value="005-1"/>
-    <property name="dest_x" value="5504"/>
-    <property name="dest_y" value="3232"/>
+    <property name="dest_tile_x" value="172"/>
+    <property name="dest_tile_y" value="101"/>
    </properties>
   </object>
   <object name="To Snake Desert" type="warp" x="736" y="832" width="32" height="32">
    <properties>
     <property name="dest_map" value="005-1"/>
-    <property name="dest_x" value="5504"/>
-    <property name="dest_y" value="3232"/>
+    <property name="dest_tile_x" value="172"/>
+    <property name="dest_tile_y" value="101"/>
    </properties>
   </object>
   <object name="To Snake Desert" type="warp" x="768" y="800" width="32" height="32">
    <properties>
     <property name="dest_map" value="005-1"/>
-    <property name="dest_x" value="5504"/>
-    <property name="dest_y" value="3232"/>
+    <property name="dest_tile_x" value="172"/>
+    <property name="dest_tile_y" value="101"/>
    </properties>
   </object>
   <object name="To Snake Desert" type="warp" x="800" y="768" width="32" height="32">
    <properties>
     <property name="dest_map" value="005-1"/>
-    <property name="dest_x" value="5504"/>
-    <property name="dest_y" value="3232"/>
+    <property name="dest_tile_x" value="172"/>
+    <property name="dest_tile_y" value="101"/>
    </properties>
   </object>
   <object name="To Snake Desert" type="warp" x="832" y="736" width="32" height="32">
    <properties>
     <property name="dest_map" value="005-1"/>
-    <property name="dest_x" value="5504"/>
-    <property name="dest_y" value="3232"/>
+    <property name="dest_tile_x" value="172"/>
+    <property name="dest_tile_y" value="101"/>
    </properties>
   </object>
   <object name="To Snake Desert" type="warp" x="864" y="704" width="32" height="32">
    <properties>
     <property name="dest_map" value="005-1"/>
-    <property name="dest_x" value="5504"/>
-    <property name="dest_y" value="3232"/>
+    <property name="dest_tile_x" value="172"/>
+    <property name="dest_tile_y" value="101"/>
    </properties>
   </object>
   <object name="To Snake Desert" type="warp" x="896" y="672" width="32" height="32">
    <properties>
     <property name="dest_map" value="005-1"/>
-    <property name="dest_x" value="5504"/>
-    <property name="dest_y" value="3232"/>
+    <property name="dest_tile_x" value="172"/>
+    <property name="dest_tile_y" value="101"/>
    </properties>
   </object>
   <object name="To Snake Desert" type="warp" x="928" y="640" width="32" height="32">
    <properties>
     <property name="dest_map" value="005-1"/>
-    <property name="dest_x" value="5504"/>
-    <property name="dest_y" value="3232"/>
+    <property name="dest_tile_x" value="172"/>
+    <property name="dest_tile_y" value="101"/>
    </properties>
   </object>
   <object name="To Snake Desert" type="warp" x="960" y="608" width="32" height="32">
    <properties>
     <property name="dest_map" value="005-1"/>
-    <property name="dest_x" value="5504"/>
-    <property name="dest_y" value="3232"/>
+    <property name="dest_tile_x" value="172"/>
+    <property name="dest_tile_y" value="101"/>
    </properties>
   </object>
  </objectgroup>

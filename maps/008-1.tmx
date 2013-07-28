@@ -512,7 +512,7 @@
 230,169,165,232,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="162" height="120" visible="0">
+ <layer name="Collision" width="162" height="120">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -640,57 +640,57 @@
   <object name="Hurnscald West Entrance" type="warp" x="1728" y="1920" width="32" height="96">
    <properties>
     <property name="dest_map" value="009-1"/>
-    <property name="dest_x" value="800"/>
-    <property name="dest_y" value="1152"/>
+    <property name="dest_tile_x" value="25"/>
+    <property name="dest_tile_y" value="36"/>
    </properties>
   </object>
   <object name="Hurnscald South Entrance" type="warp" x="2464" y="2560" width="128" height="32">
    <properties>
     <property name="dest_map" value="009-1"/>
-    <property name="dest_x" value="1536"/>
-    <property name="dest_y" value="1728"/>
+    <property name="dest_tile_x" value="48"/>
+    <property name="dest_tile_y" value="54"/>
    </properties>
   </object>
   <object name="Hurnscald East Entrance" type="warp" x="4064" y="1920" width="32" height="64">
    <properties>
     <property name="dest_map" value="009-1"/>
-    <property name="dest_x" value="3072"/>
-    <property name="dest_y" value="1152"/>
+    <property name="dest_tile_x" value="96"/>
+    <property name="dest_tile_y" value="36"/>
    </properties>
   </object>
   <object name="Hurnscald North Entrance" type="warp" x="2464" y="1568" width="128" height="32">
    <properties>
     <property name="dest_map" value="009-1"/>
-    <property name="dest_x" value="1536"/>
-    <property name="dest_y" value="800"/>
+    <property name="dest_tile_x" value="48"/>
+    <property name="dest_tile_y" value="25"/>
    </properties>
   </object>
   <object name="To Woodland" type="warp" x="768" y="1920" width="32" height="128">
    <properties>
     <property name="dest_map" value="011-1"/>
-    <property name="dest_x" value="3936"/>
-    <property name="dest_y" value="1952"/>
+    <property name="dest_tile_x" value="123"/>
+    <property name="dest_tile_y" value="61"/>
    </properties>
   </object>
   <object name="To Woodland Mining Camp" type="warp" x="2464" y="544" width="128" height="32">
    <properties>
     <property name="dest_map" value="018-1"/>
-    <property name="dest_x" value="2496"/>
-    <property name="dest_y" value="3104"/>
+    <property name="dest_tile_x" value="78"/>
+    <property name="dest_tile_y" value="97"/>
    </properties>
   </object>
   <object name="To Woodland" type="warp" x="2464" y="3264" width="128" height="32">
    <properties>
     <property name="dest_map" value="007-1"/>
-    <property name="dest_x" value="2176"/>
-    <property name="dest_y" value="704"/>
+    <property name="dest_tile_x" value="68"/>
+    <property name="dest_tile_y" value="22"/>
    </properties>
   </object>
   <object name="To Woodland" type="warp" x="4192" y="3232" width="96" height="32">
    <properties>
     <property name="dest_map" value="007-1"/>
-    <property name="dest_x" value="3920"/>
-    <property name="dest_y" value="752"/>
+    <property name="dest_tile_x" value="122"/>
+    <property name="dest_tile_y" value="23"/>
    </properties>
   </object>
   <object name="PinkFlower" type="spawn" x="0" y="0">

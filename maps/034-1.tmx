@@ -681,7 +681,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="178" height="128" visible="0">
+ <layer name="Collision" width="178" height="128">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -817,22 +817,22 @@
   <object name="To Snow Field" type="warp" x="5120" y="608" width="32" height="64">
    <properties>
     <property name="dest_map" value="033-1"/>
-    <property name="dest_x" value="736"/>
-    <property name="dest_y" value="608"/>
+    <property name="dest_tile_x" value="23"/>
+    <property name="dest_tile_y" value="19"/>
    </properties>
   </object>
   <object name="To Deep Snow Forest" type="warp" x="512" y="3264" width="32" height="96">
    <properties>
     <property name="dest_map" value="045-1"/>
-    <property name="dest_x" value="5632"/>
-    <property name="dest_y" value="4256"/>
+    <property name="dest_tile_x" value="176"/>
+    <property name="dest_tile_y" value="133"/>
    </properties>
   </object>
   <object name="To Deep Snow Forest" type="warp" x="480" y="960" width="32" height="64">
    <properties>
     <property name="dest_map" value="045-1"/>
-    <property name="dest_x" value="5568"/>
-    <property name="dest_y" value="1888"/>
+    <property name="dest_tile_x" value="174"/>
+    <property name="dest_tile_y" value="59"/>
    </properties>
   </object>
   <object name="Reinboo" type="spawn" x="0" y="0">
@@ -870,22 +870,22 @@
   <object name="ToHighlands1" type="WARP" x="3008" y="576" width="64" height="32">
    <properties>
     <property name="dest_map" value="046-1"/>
-    <property name="dest_x" value="3040"/>
-    <property name="dest_y" value="3712"/>
+    <property name="dest_tile_x" value="95"/>
+    <property name="dest_tile_y" value="116"/>
    </properties>
   </object>
   <object name="To Trapper" type="warp" x="992" y="2176" width="32" height="32">
    <properties>
     <property name="dest_map" value="034-2"/>
-    <property name="dest_x" value="896"/>
-    <property name="dest_y" value="992"/>
+    <property name="dest_tile_x" value="28"/>
+    <property name="dest_tile_y" value="31"/>
    </properties>
   </object>
   <object name="To Cabin" type="warp" x="2048" y="3168" width="32" height="32">
    <properties>
     <property name="dest_map" value="034-2"/>
-    <property name="dest_x" value="2336"/>
-    <property name="dest_y" value="928"/>
+    <property name="dest_tile_x" value="73"/>
+    <property name="dest_tile_y" value="29"/>
    </properties>
   </object>
  </objectgroup>

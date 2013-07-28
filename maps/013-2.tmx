@@ -210,7 +210,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="88" height="63" visible="0">
+ <layer name="Collision" width="88" height="63">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -295,22 +295,22 @@
   <object name="To Outside" type="warp" x="2016" y="1344" width="32" height="32">
    <properties>
     <property name="dest_map" value="013-1"/>
-    <property name="dest_x" value="1344"/>
-    <property name="dest_y" value="2912"/>
+    <property name="dest_tile_x" value="42"/>
+    <property name="dest_tile_y" value="91"/>
    </properties>
   </object>
   <object name="To Magic Room" type="warp" x="2144" y="1152" width="32" height="32">
    <properties>
     <property name="dest_map" value="013-2"/>
-    <property name="dest_x" value="672"/>
-    <property name="dest_y" value="1280"/>
+    <property name="dest_tile_x" value="21"/>
+    <property name="dest_tile_y" value="40"/>
    </properties>
   </object>
   <object name="To Magic House Entrance" type="warp" x="672" y="1312" width="32" height="32">
    <properties>
     <property name="dest_map" value="013-2"/>
-    <property name="dest_x" value="2144"/>
-    <property name="dest_y" value="1184"/>
+    <property name="dest_tile_x" value="67"/>
+    <property name="dest_tile_y" value="37"/>
    </properties>
   </object>
  </objectgroup>

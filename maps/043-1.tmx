@@ -626,7 +626,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="120" height="150" visible="0">
+ <layer name="Collision" width="120" height="150">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -784,8 +784,8 @@
   <object name="To Beach" type="warp" x="1376" y="608" width="96" height="32">
    <properties>
     <property name="dest_map" value="003-1"/>
-    <property name="dest_x" value="3648"/>
-    <property name="dest_y" value="3712"/>
+    <property name="dest_tile_x" value="114"/>
+    <property name="dest_tile_y" value="116"/>
    </properties>
   </object>
   <object name="SeaSlime" type="spawn" x="0" y="0">
@@ -815,15 +815,15 @@
   <object name="To Mining Camp" type="warp" x="2720" y="1728" width="32" height="32">
    <properties>
     <property name="dest_map" value="002-3"/>
-    <property name="dest_x" value="704"/>
-    <property name="dest_y" value="2720"/>
+    <property name="dest_tile_x" value="22"/>
+    <property name="dest_tile_y" value="85"/>
    </properties>
   </object>
   <object name="To Slime Hive" type="warp" x="1664" y="1216" width="32" height="32">
    <properties>
     <property name="dest_map" value="043-3"/>
-    <property name="dest_x" value="992"/>
-    <property name="dest_y" value="1088"/>
+    <property name="dest_tile_x" value="31"/>
+    <property name="dest_tile_y" value="34"/>
    </properties>
   </object>
  </objectgroup>

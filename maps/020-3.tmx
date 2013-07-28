@@ -499,7 +499,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="160" height="160" visible="0">
+ <layer name="Collision" width="160" height="160">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -681,50 +681,50 @@
   <object name="To Nivalis" type="warp" x="992" y="800" width="32" height="32">
    <properties>
     <property name="dest_map" value="020-1"/>
-    <property name="dest_x" value="2432"/>
-    <property name="dest_y" value="1184"/>
+    <property name="dest_tile_x" value="76"/>
+    <property name="dest_tile_y" value="37"/>
    </properties>
   </object>
   <object name="To Ice Cave" type="warp" x="800" y="704" width="32" height="32">
    <properties>
     <property name="dest_map" value="020-3"/>
-    <property name="dest_x" value="3104"/>
-    <property name="dest_y" value="3232"/>
+    <property name="dest_tile_x" value="97"/>
+    <property name="dest_tile_y" value="101"/>
    </properties>
   </object>
   <object name="To Ice Entrance" type="warp" x="3104" y="3168" width="32" height="32">
    <properties>
     <property name="dest_map" value="020-3"/>
-    <property name="dest_x" value="800"/>
-    <property name="dest_y" value="768"/>
+    <property name="dest_tile_x" value="25"/>
+    <property name="dest_tile_y" value="24"/>
    </properties>
   </object>
   <object name="To Ice Cave" type="warp" x="896" y="1824" width="32" height="32">
    <properties>
     <property name="dest_map" value="020-3"/>
-    <property name="dest_x" value="1056"/>
-    <property name="dest_y" value="3168"/>
+    <property name="dest_tile_x" value="33"/>
+    <property name="dest_tile_y" value="99"/>
    </properties>
   </object>
   <object name="To Ice Cave" type="warp" x="1568" y="1056" width="32" height="32">
    <properties>
     <property name="dest_map" value="020-3"/>
-    <property name="dest_x" value="3520"/>
-    <property name="dest_y" value="1792"/>
+    <property name="dest_tile_x" value="110"/>
+    <property name="dest_tile_y" value="56"/>
    </properties>
   </object>
   <object name="To Ice Entrance" type="warp" x="1056" y="3136" width="32" height="32">
    <properties>
     <property name="dest_map" value="020-3"/>
-    <property name="dest_x" value="896"/>
-    <property name="dest_y" value="1792"/>
+    <property name="dest_tile_x" value="28"/>
+    <property name="dest_tile_y" value="56"/>
    </properties>
   </object>
   <object name="To Ice Entrance" type="warp" x="3520" y="1824" width="32" height="32">
    <properties>
     <property name="dest_map" value="020-3"/>
-    <property name="dest_x" value="1568"/>
-    <property name="dest_y" value="1088"/>
+    <property name="dest_tile_x" value="49"/>
+    <property name="dest_tile_y" value="34"/>
    </properties>
   </object>
   <object name="Bat" type="spawn" x="0" y="0">

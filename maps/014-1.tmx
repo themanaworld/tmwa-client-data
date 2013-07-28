@@ -387,7 +387,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,230,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="140" height="120" visible="0">
+ <layer name="Collision" width="140" height="120">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -519,22 +519,22 @@
   <object name="To Woodland" type="warp" x="3488" y="2880" width="32" height="96">
    <properties>
     <property name="dest_map" value="011-1"/>
-    <property name="dest_x" value="992"/>
-    <property name="dest_y" value="1952"/>
+    <property name="dest_tile_x" value="31"/>
+    <property name="dest_tile_y" value="61"/>
    </properties>
   </object>
   <object name="To Woodland Cave" type="warp" x="2976" y="1856" width="32" height="32">
    <properties>
     <property name="dest_map" value="014-3"/>
-    <property name="dest_x" value="1824"/>
-    <property name="dest_y" value="5504"/>
+    <property name="dest_tile_x" value="57"/>
+    <property name="dest_tile_y" value="172"/>
    </properties>
   </object>
   <object name="To Woodland Cave" type="warp" x="2432" y="1216" width="32" height="32">
    <properties>
     <property name="dest_map" value="014-3"/>
-    <property name="dest_x" value="1120"/>
-    <property name="dest_y" value="1056"/>
+    <property name="dest_tile_x" value="35"/>
+    <property name="dest_tile_y" value="33"/>
    </properties>
   </object>
   <object name="EvilMushroom" type="spawn" x="0" y="0">
