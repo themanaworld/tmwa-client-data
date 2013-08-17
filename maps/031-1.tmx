@@ -924,7 +924,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,179,181,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="128" height="148" visible="0">
+ <layer name="Collision" width="128" height="148">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -1080,15 +1080,15 @@
   <object name="To Nivalis" type="warp" x="1184" y="1760" width="32" height="32">
    <properties>
     <property name="dest_map" value="020-1"/>
-    <property name="dest_x" value="3392"/>
-    <property name="dest_y" value="1760"/>
+    <property name="dest_tile_x" value="106"/>
+    <property name="dest_tile_y" value="55"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="2432" y="768" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="6784"/>
-    <property name="dest_y" value="9568"/>
+    <property name="dest_tile_x" value="212"/>
+    <property name="dest_tile_y" value="299"/>
    </properties>
   </object>
   <object name="Squirrel" type="spawn" x="0" y="0">
@@ -1110,8 +1110,8 @@
   <object name="To Nivalis Storage" type="warp" x="2880" y="3680" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-2"/>
-    <property name="dest_x" value="2336"/>
-    <property name="dest_y" value="928"/>
+    <property name="dest_tile_x" value="73"/>
+    <property name="dest_tile_y" value="29"/>
    </properties>
   </object>
   <object name="WhiteSlime" type="spawn" x="2272" y="768" width="352" height="192">

@@ -279,7 +279,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="100" height="50" visible="0">
+ <layer name="Collision" width="100" height="50">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -337,16 +337,16 @@
   <object name="To Outside" type="warp" x="736" y="960" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-1"/>
-    <property name="dest_x" value="3040"/>
-    <property name="dest_y" value="2592"/>
+    <property name="dest_tile_x" value="95"/>
+    <property name="dest_tile_y" value="81"/>
    </properties>
   </object>
   <object name="graphics/particles/fireplace.particle.xml" type="particle_effect" x="768" y="736" width="32" height="32"/>
   <object name="To Outside" type="warp" x="2336" y="960" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-1"/>
-    <property name="dest_x" value="2880"/>
-    <property name="dest_y" value="3712"/>
+    <property name="dest_tile_x" value="90"/>
+    <property name="dest_tile_y" value="116"/>
    </properties>
   </object>
  </objectgroup>

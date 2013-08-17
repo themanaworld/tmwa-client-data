@@ -622,7 +622,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="140" height="200" visible="0">
+ <layer name="Collision" width="140" height="200">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -830,29 +830,29 @@
   <object name="To Woodland" type="warp" x="1120" y="1024" width="32" height="32">
    <properties>
     <property name="dest_map" value="014-1"/>
-    <property name="dest_x" value="2432"/>
-    <property name="dest_y" value="1248"/>
+    <property name="dest_tile_x" value="76"/>
+    <property name="dest_tile_y" value="39"/>
    </properties>
   </object>
   <object name="To Woodland" type="warp" x="1792" y="5536" width="64" height="32">
    <properties>
     <property name="dest_map" value="014-1"/>
-    <property name="dest_x" value="2976"/>
-    <property name="dest_y" value="1888"/>
+    <property name="dest_tile_x" value="93"/>
+    <property name="dest_tile_y" value="59"/>
    </properties>
   </object>
   <object name="To Second Cave" type="warp" x="2912" y="3456" width="32" height="32">
    <properties>
     <property name="dest_map" value="014-3"/>
-    <property name="dest_x" value="3296"/>
-    <property name="dest_y" value="1696"/>
+    <property name="dest_tile_x" value="103"/>
+    <property name="dest_tile_y" value="53"/>
    </properties>
   </object>
   <object name="To First Cave" type="warp" x="3296" y="1728" width="32" height="32">
    <properties>
     <property name="dest_map" value="014-3"/>
-    <property name="dest_x" value="2912"/>
-    <property name="dest_y" value="3488"/>
+    <property name="dest_tile_x" value="91"/>
+    <property name="dest_tile_y" value="109"/>
    </properties>
   </object>
   <object name="Bat" type="spawn" x="0" y="0">

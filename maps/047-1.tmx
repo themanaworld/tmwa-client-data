@@ -722,7 +722,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="183" height="134" visible="0">
+ <layer name="Collision" width="183" height="134">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -912,29 +912,29 @@
   <object name="ToRockPlateau" type="warp" x="1088" y="3616" width="32" height="32">
    <properties>
     <property name="dest_map" value="046-1"/>
-    <property name="dest_x" value="944"/>
-    <property name="dest_y" value="464"/>
+    <property name="dest_tile_x" value="29"/>
+    <property name="dest_tile_y" value="14"/>
    </properties>
   </object>
   <object name="ToRockPlateau" type="warp" x="1152" y="3616" width="32" height="32">
    <properties>
     <property name="dest_map" value="046-1"/>
-    <property name="dest_x" value="1008"/>
-    <property name="dest_y" value="464"/>
+    <property name="dest_tile_x" value="31"/>
+    <property name="dest_tile_y" value="14"/>
    </properties>
   </object>
   <object name="ToSage" type="warp" x="800" y="2400" width="32" height="64">
    <properties>
     <property name="dest_map" value="048-1"/>
-    <property name="dest_x" value="4976"/>
-    <property name="dest_y" value="2416"/>
+    <property name="dest_tile_x" value="155"/>
+    <property name="dest_tile_y" value="75"/>
    </properties>
   </object>
   <object name="ToSage" type="warp" x="768" y="1984" width="32" height="64">
    <properties>
     <property name="dest_map" value="048-1"/>
-    <property name="dest_x" value="4944"/>
-    <property name="dest_y" value="2000"/>
+    <property name="dest_tile_x" value="154"/>
+    <property name="dest_tile_y" value="62"/>
    </properties>
   </object>
   <object name="Wolvern" type="spawn" x="768" y="2112" width="736" height="896">

@@ -402,7 +402,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="138" height="128" visible="0">
+ <layer name="Collision" width="138" height="128">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -538,15 +538,15 @@
   <object name="To Snow Field" type="warp" x="1280" y="3136" width="32" height="32">
    <properties>
     <property name="dest_map" value="019-1"/>
-    <property name="dest_x" value="1184"/>
-    <property name="dest_y" value="2368"/>
+    <property name="dest_tile_x" value="37"/>
+    <property name="dest_tile_y" value="74"/>
    </properties>
   </object>
   <object name="To Snow Field" type="warp" x="3136" y="800" width="32" height="32">
    <properties>
     <property name="dest_map" value="019-1"/>
-    <property name="dest_x" value="3072"/>
-    <property name="dest_y" value="1248"/>
+    <property name="dest_tile_x" value="96"/>
+    <property name="dest_tile_y" value="39"/>
    </properties>
   </object>
   <object name="Moggun" type="spawn" x="0" y="0">
@@ -568,8 +568,8 @@
   <object name="To Deeper Snow Cave" type="warp" x="1792" y="1440" width="64" height="32">
    <properties>
     <property name="dest_map" value="019-4"/>
-    <property name="dest_x" value="2240"/>
-    <property name="dest_y" value="800"/>
+    <property name="dest_tile_x" value="70"/>
+    <property name="dest_tile_y" value="25"/>
    </properties>
   </object>
  </objectgroup>

@@ -528,7 +528,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="80" height="100" visible="0">
+ <layer name="Collision" width="80" height="100">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -636,8 +636,8 @@
   <object name="To Crypt Level 1" type="warp" x="1152" y="608" width="96" height="32">
    <properties>
     <property name="dest_map" value="027-3"/>
-    <property name="dest_x" value="4064"/>
-    <property name="dest_y" value="1376"/>
+    <property name="dest_tile_x" value="127"/>
+    <property name="dest_tile_y" value="43"/>
    </properties>
   </object>
   <object name="graphics/particles/pool-horiz.xml" type="particle_effect" x="1392" y="1312"/>

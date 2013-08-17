@@ -591,7 +591,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,293,294,0,0,0,0,0,0,0,293,294,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="168" height="188" visible="0">
+ <layer name="Collision" width="168" height="188">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -802,78 +802,78 @@
   <object name="To Moggun Cave" type="warp" x="1632" y="1248" width="32" height="32">
    <properties>
     <property name="dest_map" value="012-3"/>
-    <property name="dest_x" value="11840"/>
-    <property name="dest_y" value="1376"/>
+    <property name="dest_tile_x" value="370"/>
+    <property name="dest_tile_y" value="43"/>
    </properties>
   </object>
   <object name="To Moggun Cave" type="warp" x="4704" y="2144" width="32" height="32">
    <properties>
     <property name="dest_map" value="012-3"/>
-    <property name="dest_x" value="15168"/>
-    <property name="dest_y" value="3392"/>
+    <property name="dest_tile_x" value="474"/>
+    <property name="dest_tile_y" value="106"/>
    </properties>
   </object>
   <object name="To Moggun Cave" type="warp" x="1312" y="1536" width="32" height="32">
    <properties>
     <property name="dest_map" value="012-3"/>
-    <property name="dest_x" value="11296"/>
-    <property name="dest_y" value="2496"/>
+    <property name="dest_tile_x" value="353"/>
+    <property name="dest_tile_y" value="78"/>
    </properties>
   </object>
   <object name="To Moggun Cave" type="warp" x="1408" y="2816" width="32" height="32">
    <properties>
     <property name="dest_map" value="012-3"/>
-    <property name="dest_x" value="11360"/>
-    <property name="dest_y" value="5984"/>
+    <property name="dest_tile_x" value="355"/>
+    <property name="dest_tile_y" value="187"/>
    </properties>
   </object>
   <object name="To Moggun Cave" type="warp" x="2944" y="3328" width="32" height="32">
    <properties>
     <property name="dest_map" value="012-3"/>
-    <property name="dest_x" value="8640"/>
-    <property name="dest_y" value="3552"/>
+    <property name="dest_tile_x" value="270"/>
+    <property name="dest_tile_y" value="111"/>
    </properties>
   </object>
   <object name="To Small Cave" type="warp" x="3136" y="3168" width="32" height="32">
    <properties>
     <property name="dest_map" value="012-3"/>
-    <property name="dest_x" value="1184"/>
-    <property name="dest_y" value="2592"/>
+    <property name="dest_tile_x" value="37"/>
+    <property name="dest_tile_y" value="81"/>
    </properties>
   </object>
   <object name="To Small Cave" type="warp" x="3488" y="2944" width="32" height="32">
    <properties>
     <property name="dest_map" value="012-3"/>
-    <property name="dest_x" value="2560"/>
-    <property name="dest_y" value="2336"/>
+    <property name="dest_tile_x" value="80"/>
+    <property name="dest_tile_y" value="73"/>
    </properties>
   </object>
   <object name="To Mana Seed Cave" type="warp" x="3936" y="2880" width="32" height="32">
    <properties>
     <property name="dest_map" value="012-3"/>
-    <property name="dest_x" value="1216"/>
-    <property name="dest_y" value="4992"/>
+    <property name="dest_tile_x" value="38"/>
+    <property name="dest_tile_y" value="156"/>
    </properties>
   </object>
   <object name="To Woodland Hills" type="warp" x="4800" y="1888" width="32" height="128">
    <properties>
     <property name="dest_map" value="013-1"/>
-    <property name="dest_x" value="682"/>
-    <property name="dest_y" value="2400"/>
+    <property name="dest_tile_x" value="21"/>
+    <property name="dest_tile_y" value="75"/>
    </properties>
   </object>
   <object name="To Woodland" type="warp" x="4192" y="5632" width="64" height="32">
    <properties>
     <property name="dest_map" value="011-1"/>
-    <property name="dest_x" value="2336"/>
-    <property name="dest_y" value="320"/>
+    <property name="dest_tile_x" value="73"/>
+    <property name="dest_tile_y" value="10"/>
    </properties>
   </object>
   <object name="To Moggun Cave" type="warp" x="2080" y="4032" width="32" height="32">
    <properties>
     <property name="dest_map" value="012-3"/>
-    <property name="dest_x" value="5632"/>
-    <property name="dest_y" value="4480"/>
+    <property name="dest_tile_x" value="176"/>
+    <property name="dest_tile_y" value="140"/>
    </properties>
   </object>
   <object name="PinkFlower" type="spawn" x="0" y="0">

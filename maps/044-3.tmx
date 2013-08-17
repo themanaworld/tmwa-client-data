@@ -618,7 +618,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="160" height="200" visible="0">
+ <layer name="Collision" width="160" height="200">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -826,64 +826,64 @@
   <object name="To Snow Hills" type="warp" x="1472" y="2368" width="32" height="32">
    <properties>
     <property name="dest_map" value="044-1"/>
-    <property name="dest_x" value="1440"/>
-    <property name="dest_y" value="2400"/>
+    <property name="dest_tile_x" value="45"/>
+    <property name="dest_tile_y" value="75"/>
    </properties>
   </object>
   <object name="To Snow Hills" type="warp" x="1056" y="5632" width="32" height="32">
    <properties>
     <property name="dest_map" value="044-1"/>
-    <property name="dest_x" value="1184"/>
-    <property name="dest_y" value="5568"/>
+    <property name="dest_tile_x" value="37"/>
+    <property name="dest_tile_y" value="174"/>
    </properties>
   </object>
   <object name="To Snow Hills" type="warp" x="4032" y="5792" width="32" height="32">
    <properties>
     <property name="dest_map" value="044-1"/>
-    <property name="dest_x" value="3232"/>
-    <property name="dest_y" value="4608"/>
+    <property name="dest_tile_x" value="101"/>
+    <property name="dest_tile_y" value="144"/>
    </properties>
   </object>
   <object name="To Snow Hills" type="warp" x="1120" y="1344" width="32" height="32">
    <properties>
     <property name="dest_map" value="044-1"/>
-    <property name="dest_x" value="2496"/>
-    <property name="dest_y" value="3520"/>
+    <property name="dest_tile_x" value="78"/>
+    <property name="dest_tile_y" value="110"/>
    </properties>
   </object>
   <object name="To Snow Hills" type="warp" x="3456" y="5216" width="32" height="32">
    <properties>
     <property name="dest_map" value="044-1"/>
-    <property name="dest_x" value="2656"/>
-    <property name="dest_y" value="4000"/>
+    <property name="dest_tile_x" value="83"/>
+    <property name="dest_tile_y" value="125"/>
    </properties>
   </object>
   <object name="To Snow Hills" type="warp" x="3520" y="3296" width="32" height="32">
    <properties>
     <property name="dest_map" value="044-1"/>
-    <property name="dest_x" value="3456"/>
-    <property name="dest_y" value="5312"/>
+    <property name="dest_tile_x" value="108"/>
+    <property name="dest_tile_y" value="166"/>
    </properties>
   </object>
   <object name="To Snow Hills" type="warp" x="3808" y="3040" width="32" height="32">
    <properties>
     <property name="dest_map" value="044-1"/>
-    <property name="dest_x" value="3456"/>
-    <property name="dest_y" value="5024"/>
+    <property name="dest_tile_x" value="108"/>
+    <property name="dest_tile_y" value="157"/>
    </properties>
   </object>
   <object name="To Snow Hills" type="warp" x="3808" y="1888" width="32" height="32">
    <properties>
     <property name="dest_map" value="044-1"/>
-    <property name="dest_x" value="3264"/>
-    <property name="dest_y" value="3584"/>
+    <property name="dest_tile_x" value="102"/>
+    <property name="dest_tile_y" value="112"/>
    </properties>
   </object>
   <object name="To Snow Hills" type="warp" x="4096" y="1472" width="32" height="32">
    <properties>
     <property name="dest_map" value="044-1"/>
-    <property name="dest_x" value="3264"/>
-    <property name="dest_y" value="3456"/>
+    <property name="dest_tile_x" value="102"/>
+    <property name="dest_tile_y" value="108"/>
    </properties>
   </object>
   <object name="WhiteSlime" type="spawn" x="1664" y="4192" width="320" height="288">

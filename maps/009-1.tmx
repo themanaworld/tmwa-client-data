@@ -331,7 +331,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="117" height="75" visible="0">
+ <layer name="Collision" width="117" height="75">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -414,78 +414,78 @@
   <object name="Hurnscald South Exit" type="warp" x="1504" y="1760" width="128" height="32">
    <properties>
     <property name="dest_map" value="008-1"/>
-    <property name="dest_x" value="2496"/>
-    <property name="dest_y" value="2592"/>
+    <property name="dest_tile_x" value="78"/>
+    <property name="dest_tile_y" value="81"/>
    </properties>
   </object>
   <object name="Hurnscald East Exit" type="warp" x="3104" y="1120" width="32" height="64">
    <properties>
     <property name="dest_map" value="008-1"/>
-    <property name="dest_x" value="4096"/>
-    <property name="dest_y" value="1952"/>
+    <property name="dest_tile_x" value="128"/>
+    <property name="dest_tile_y" value="61"/>
    </properties>
   </object>
   <object name="To Hurnscald Inn" type="warp" x="1120" y="960" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-2"/>
-    <property name="dest_x" value="1600"/>
-    <property name="dest_y" value="1728"/>
+    <property name="dest_tile_x" value="50"/>
+    <property name="dest_tile_y" value="54"/>
    </properties>
   </object>
   <object name="To Storage Room" type="warp" x="1856" y="1472" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-2"/>
-    <property name="dest_x" value="864"/>
-    <property name="dest_y" value="3392"/>
+    <property name="dest_tile_x" value="27"/>
+    <property name="dest_tile_y" value="106"/>
    </properties>
   </object>
   <object name="To Archer Shop" type="warp" x="1888" y="1056" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-2"/>
-    <property name="dest_x" value="3040"/>
-    <property name="dest_y" value="928"/>
+    <property name="dest_tile_x" value="95"/>
+    <property name="dest_tile_y" value="29"/>
    </properties>
   </object>
   <object name="To Hurnscald Potion Shop" type="warp" x="2272" y="960" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-2"/>
-    <property name="dest_x" value="4160"/>
-    <property name="dest_y" value="800"/>
+    <property name="dest_tile_x" value="130"/>
+    <property name="dest_tile_y" value="25"/>
    </properties>
   </object>
   <object name="To Hurnscald Hospital" type="warp" x="2560" y="992" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-2"/>
-    <property name="dest_x" value="4768"/>
-    <property name="dest_y" value="2112"/>
+    <property name="dest_tile_x" value="149"/>
+    <property name="dest_tile_y" value="66"/>
    </properties>
   </object>
   <object name="To Hurnscald House" type="warp" x="2304" y="1408" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-2"/>
-    <property name="dest_x" value="3648"/>
-    <property name="dest_y" value="2464"/>
+    <property name="dest_tile_x" value="114"/>
+    <property name="dest_tile_y" value="77"/>
    </properties>
   </object>
   <object name="To Hurnscald Forge" type="warp" x="2880" y="1472" width="64" height="32">
    <properties>
     <property name="dest_map" value="009-2"/>
-    <property name="dest_x" value="5824"/>
-    <property name="dest_y" value="2112"/>
+    <property name="dest_tile_x" value="182"/>
+    <property name="dest_tile_y" value="66"/>
    </properties>
   </object>
   <object name="Hurnscald West Exit" type="warp" x="768" y="1120" width="32" height="96">
    <properties>
     <property name="dest_map" value="008-1"/>
-    <property name="dest_x" value="1696"/>
-    <property name="dest_y" value="1952"/>
+    <property name="dest_tile_x" value="53"/>
+    <property name="dest_tile_y" value="61"/>
    </properties>
   </object>
   <object name="Hurnscald North Exit" type="warp" x="1504" y="768" width="128" height="32">
    <properties>
     <property name="dest_map" value="008-1"/>
-    <property name="dest_x" value="2496"/>
-    <property name="dest_y" value="1536"/>
+    <property name="dest_tile_x" value="78"/>
+    <property name="dest_tile_y" value="48"/>
    </properties>
   </object>
   <object name="CloverPatch" type="spawn" x="2336" y="1024" width="96" height="64">

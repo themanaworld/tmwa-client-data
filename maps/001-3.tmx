@@ -470,7 +470,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="150" height="150" visible="0">
+ <layer name="Collision" width="150" height="150">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -628,34 +628,20 @@
   <object name="To Tulimshar Indoor" type="warp" x="2336" y="896" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2"/>
-    <property name="dest_x" value="736"/>
-    <property name="dest_y" value="768"/>
+    <property name="dest_tile_x" value="23"/>
+    <property name="dest_tile_y" value="24"/>
    </properties>
   </object>
   <object name="Phaet the Royal Guard" type="npc" x="2480" y="1200">
    <properties>
     <property name="npc_id" value="125"/>
-    <property name="script">
-     function npc_handler(npc, ch)
-       do_message(npc, ch, &quot;Do you want to go back?&quot;)
-       local v = do_choice(npc, ch, &quot;Yes&quot;, &quot;No&quot;)
-       if v == 1 then
-         tmw.chr_warp(ch, 8, 25 * 32 + 16, 23 * 32 + 16)
-       elseif v == 2 then
-         do_message(npc, ch, &quot;Have fun.&quot;)
-       end
-     end
-    </property>
+    <property name="script" value=""/>
    </properties>
   </object>
   <object name="Aradin the Royal Guard" type="npc" x="2224" y="1200">
    <properties>
     <property name="npc_id" value="126"/>
-    <property name="script">
-     function npc_handler(npc, ch)
-       do_message(npc, ch, &quot;Don't touch me!\nYou won't find it very funny.&quot;)
-     end
-    </property>
+    <property name="script" value=""/>
    </properties>
   </object>
   <object name="Maggot" type="spawn" x="0" y="0">

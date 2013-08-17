@@ -496,7 +496,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="120" height="116" visible="0">
+ <layer name="Collision" width="120" height="116">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -620,15 +620,15 @@
   <object name="To Outside" type="warp" x="1664" y="1056" width="32" height="32">
    <properties>
     <property name="dest_map" value="005-1"/>
-    <property name="dest_x" value="2848"/>
-    <property name="dest_y" value="800"/>
+    <property name="dest_tile_x" value="89"/>
+    <property name="dest_tile_y" value="25"/>
    </properties>
   </object>
   <object name="To Outside" type="warp" x="1056" y="2624" width="32" height="32">
    <properties>
     <property name="dest_map" value="005-1"/>
-    <property name="dest_x" value="2272"/>
-    <property name="dest_y" value="2464"/>
+    <property name="dest_tile_x" value="71"/>
+    <property name="dest_tile_y" value="77"/>
    </properties>
   </object>
   <object name="Snake" type="spawn" x="0" y="0">

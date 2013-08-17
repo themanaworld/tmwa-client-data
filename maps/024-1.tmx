@@ -645,7 +645,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="119" height="122" visible="0">
+ <layer name="Collision" width="119" height="122">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -775,8 +775,8 @@
   <object name="To North Tulimshar" type="warp" x="2688" y="2368" width="160" height="32">
    <properties>
     <property name="dest_map" value="021-1"/>
-    <property name="dest_x" value="1568"/>
-    <property name="dest_y" value="2080"/>
+    <property name="dest_tile_x" value="49"/>
+    <property name="dest_tile_y" value="65"/>
    </properties>
   </object>
   <object name="Maggot" type="spawn" x="2816" y="1632" width="128" height="96">
@@ -838,15 +838,15 @@
   <object name="To Tulimshar Magic School" type="warp" x="2528" y="1536" width="64" height="32">
    <properties>
     <property name="dest_map" value="024-2"/>
-    <property name="dest_x" value="832"/>
-    <property name="dest_y" value="832"/>
+    <property name="dest_tile_x" value="26"/>
+    <property name="dest_tile_y" value="26"/>
    </properties>
   </object>
   <object name="To Tulimshar Magic School" type="warp" x="2752" y="1536" width="32" height="32">
    <properties>
     <property name="dest_map" value="024-2"/>
-    <property name="dest_x" value="1344"/>
-    <property name="dest_y" value="864"/>
+    <property name="dest_tile_x" value="42"/>
+    <property name="dest_tile_y" value="27"/>
    </properties>
   </object>
  </objectgroup>

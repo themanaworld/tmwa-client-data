@@ -425,7 +425,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="110" height="100" visible="0">
+ <layer name="Collision" width="110" height="100">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -537,64 +537,64 @@
   <object name="To Woodland Hills" type="warp" x="1632" y="1472" width="32" height="32">
    <properties>
     <property name="dest_map" value="017-1"/>
-    <property name="dest_x" value="2432"/>
-    <property name="dest_y" value="1056"/>
+    <property name="dest_tile_x" value="76"/>
+    <property name="dest_tile_y" value="33"/>
    </properties>
   </object>
   <object name="To Theater Hill" type="warp" x="2656" y="992" width="32" height="32">
    <properties>
     <property name="dest_map" value="017-1"/>
-    <property name="dest_x" value="3136"/>
-    <property name="dest_y" value="704"/>
+    <property name="dest_tile_x" value="98"/>
+    <property name="dest_tile_y" value="22"/>
    </properties>
   </object>
   <object name="To Woodland Hills Labyrinth" type="warp" x="2304" y="2208" width="32" height="32">
    <properties>
     <property name="dest_map" value="017-1"/>
-    <property name="dest_x" value="3136"/>
-    <property name="dest_y" value="960"/>
+    <property name="dest_tile_x" value="98"/>
+    <property name="dest_tile_y" value="30"/>
    </properties>
   </object>
   <object name="To Deeper Labyrinth" type="warp" x="2016" y="832" width="32" height="32">
    <properties>
     <property name="dest_map" value="017-4"/>
-    <property name="dest_x" value="1664"/>
-    <property name="dest_y" value="768"/>
+    <property name="dest_tile_x" value="52"/>
+    <property name="dest_tile_y" value="24"/>
    </properties>
   </object>
   <object name="To Deeper Labyrinth" type="warp" x="928" y="1536" width="32" height="32">
    <properties>
     <property name="dest_map" value="017-4"/>
-    <property name="dest_x" value="960"/>
-    <property name="dest_y" value="1536"/>
+    <property name="dest_tile_x" value="30"/>
+    <property name="dest_tile_y" value="48"/>
    </properties>
   </object>
   <object name="To Deeper Labyrinth" type="warp" x="2208" y="1664" width="32" height="32">
    <properties>
     <property name="dest_map" value="017-4"/>
-    <property name="dest_x" value="2912"/>
-    <property name="dest_y" value="864"/>
+    <property name="dest_tile_x" value="91"/>
+    <property name="dest_tile_y" value="27"/>
    </properties>
   </object>
   <object name="To Deeper Labyrinth" type="warp" x="1856" y="1920" width="32" height="32">
    <properties>
     <property name="dest_map" value="017-4"/>
-    <property name="dest_x" value="2656"/>
-    <property name="dest_y" value="1280"/>
+    <property name="dest_tile_x" value="83"/>
+    <property name="dest_tile_y" value="40"/>
    </properties>
   </object>
   <object name="To Deeper Labyrinth" type="warp" x="992" y="2240" width="64" height="32">
    <properties>
     <property name="dest_map" value="017-4"/>
-    <property name="dest_x" value="3936"/>
-    <property name="dest_y" value="864"/>
+    <property name="dest_tile_x" value="123"/>
+    <property name="dest_tile_y" value="27"/>
    </properties>
   </object>
   <object name="To Deeper Cave" type="warp" x="2592" y="2464" width="96" height="32">
    <properties>
     <property name="dest_map" value="017-4"/>
-    <property name="dest_x" value="5312"/>
-    <property name="dest_y" value="864"/>
+    <property name="dest_tile_x" value="166"/>
+    <property name="dest_tile_y" value="27"/>
    </properties>
   </object>
  </objectgroup>

@@ -581,7 +581,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="190" height="138" visible="0">
+ <layer name="Collision" width="190" height="138">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -727,15 +727,15 @@
   <object name="To Sandstorm Desert" type="warp" x="5504" y="2400" width="32" height="160">
    <properties>
     <property name="dest_map" value="002-1"/>
-    <property name="dest_x" value="416"/>
-    <property name="dest_y" value="2112"/>
+    <property name="dest_tile_x" value="13"/>
+    <property name="dest_tile_y" value="66"/>
    </properties>
   </object>
   <object name="To Beach" type="warp" x="4480" y="608" width="96" height="32">
    <properties>
     <property name="dest_map" value="004-1"/>
-    <property name="dest_x" value="1184"/>
-    <property name="dest_y" value="3520"/>
+    <property name="dest_tile_x" value="37"/>
+    <property name="dest_tile_y" value="110"/>
    </properties>
   </object>
   <object name="GiantMaggot" type="spawn" x="4608" y="640" width="928" height="3104">
@@ -789,22 +789,22 @@
   <object name="To Beach House" type="warp" x="1536" y="1152" width="32" height="32">
    <properties>
     <property name="dest_map" value="003-2"/>
-    <property name="dest_x" value="704"/>
-    <property name="dest_y" value="896"/>
+    <property name="dest_tile_x" value="22"/>
+    <property name="dest_tile_y" value="28"/>
    </properties>
   </object>
   <object name="To Beach Storage" type="warp" x="1888" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="003-2"/>
-    <property name="dest_x" value="1792"/>
-    <property name="dest_y" value="896"/>
+    <property name="dest_tile_x" value="56"/>
+    <property name="dest_tile_y" value="28"/>
    </properties>
   </object>
   <object name="To Beach" type="warp" x="3616" y="3744" width="96" height="32">
    <properties>
     <property name="dest_map" value="043-1"/>
-    <property name="dest_x" value="1408"/>
-    <property name="dest_y" value="640"/>
+    <property name="dest_tile_x" value="44"/>
+    <property name="dest_tile_y" value="20"/>
    </properties>
   </object>
  </objectgroup>
