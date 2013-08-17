@@ -814,7 +814,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="136" height="128" visible="0">
+ <layer name="Collision" width="136" height="128">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -950,8 +950,8 @@
   <object name="To South Tulimshar" type="warp" x="1792" y="416" width="160" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
-    <property name="dest_x" value="1408"/>
-    <property name="dest_y" value="2752"/>
+    <property name="dest_tile_x" value="44"/>
+    <property name="dest_tile_y" value="86"/>
    </properties>
   </object>
   <object name="Maggot" type="spawn" x="0" y="0">
@@ -966,15 +966,15 @@
   <object name="To Beach" type="warp" x="384" y="2080" width="32" height="160">
    <properties>
     <property name="dest_map" value="003-1"/>
-    <property name="dest_x" value="5472"/>
-    <property name="dest_y" value="2432"/>
+    <property name="dest_tile_x" value="171"/>
+    <property name="dest_tile_y" value="76"/>
    </properties>
   </object>
   <object name="To Beach" type="warp" x="864" y="416" width="96" height="32">
    <properties>
     <property name="dest_map" value="004-1"/>
-    <property name="dest_x" value="2688"/>
-    <property name="dest_y" value="3648"/>
+    <property name="dest_tile_x" value="84"/>
+    <property name="dest_tile_y" value="114"/>
    </properties>
   </object>
   <object name="Maggot" type="spawn" x="2784" y="2976" width="544" height="320">
@@ -1084,29 +1084,29 @@
   <object name="To Desert Mine Camp" type="warp" x="2528" y="3168" width="32" height="32">
    <properties>
     <property name="dest_map" value="002-3"/>
-    <property name="dest_x" value="2720"/>
-    <property name="dest_y" value="1568"/>
+    <property name="dest_tile_x" value="85"/>
+    <property name="dest_tile_y" value="49"/>
    </properties>
   </object>
   <object name="To Desert Mine Camp" type="warp" x="640" y="3008" width="32" height="32">
    <properties>
     <property name="dest_map" value="002-3"/>
-    <property name="dest_x" value="1632"/>
-    <property name="dest_y" value="1056"/>
+    <property name="dest_tile_x" value="51"/>
+    <property name="dest_tile_y" value="33"/>
    </properties>
   </object>
   <object name="To Mystics House" type="warp" x="3328" y="2944" width="32" height="32">
    <properties>
     <property name="dest_map" value="002-2"/>
-    <property name="dest_x" value="896"/>
-    <property name="dest_y" value="928"/>
+    <property name="dest_tile_x" value="28"/>
+    <property name="dest_tile_y" value="29"/>
    </properties>
   </object>
   <object name="To Snake Desert" type="warp" x="3456" y="2496" width="32" height="96">
    <properties>
     <property name="dest_map" value="005-1"/>
-    <property name="dest_x" value="640"/>
-    <property name="dest_y" value="1280"/>
+    <property name="dest_tile_x" value="20"/>
+    <property name="dest_tile_y" value="40"/>
    </properties>
   </object>
  </objectgroup>

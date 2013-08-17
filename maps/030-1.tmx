@@ -679,7 +679,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="138" height="128" visible="0">
+ <layer name="Collision" width="138" height="128">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -815,8 +815,8 @@
   <object name="To Snow Field" type="warp" x="1888" y="864" width="128" height="32">
    <properties>
     <property name="dest_map" value="019-1"/>
-    <property name="dest_x" value="1952"/>
-    <property name="dest_y" value="3232"/>
+    <property name="dest_tile_x" value="61"/>
+    <property name="dest_tile_y" value="101"/>
    </properties>
   </object>
   <object name="Squirrel" type="spawn" x="0" y="0">
@@ -838,8 +838,8 @@
   <object name="To Snow Field" type="warp" x="3488" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="019-1"/>
-    <property name="dest_x" value="3488"/>
-    <property name="dest_y" value="3296"/>
+    <property name="dest_tile_x" value="109"/>
+    <property name="dest_tile_y" value="103"/>
    </properties>
   </object>
   <object name="WhiteBell" type="spawn" x="0" y="0">

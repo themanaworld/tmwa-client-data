@@ -693,7 +693,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="178" height="128" visible="0">
+ <layer name="Collision" width="178" height="128">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -885,64 +885,64 @@
   <object name="ToSnowForest" type="warp" x="3008" y="3744" width="64" height="32">
    <properties>
     <property name="dest_map" value="034-1"/>
-    <property name="dest_x" value="3024"/>
-    <property name="dest_y" value="624"/>
+    <property name="dest_tile_x" value="94"/>
+    <property name="dest_tile_y" value="19"/>
    </properties>
   </object>
   <object name="ToHighlands1" type="warp" x="928" y="416" width="32" height="32">
    <properties>
     <property name="dest_map" value="047-1"/>
-    <property name="dest_x" value="1104"/>
-    <property name="dest_y" value="3600"/>
+    <property name="dest_tile_x" value="34"/>
+    <property name="dest_tile_y" value="112"/>
    </properties>
   </object>
   <object name="ToHighlands1" type="warp" x="992" y="416" width="32" height="32">
    <properties>
     <property name="dest_map" value="047-1"/>
-    <property name="dest_x" value="1168"/>
-    <property name="dest_y" value="3600"/>
+    <property name="dest_tile_x" value="36"/>
+    <property name="dest_tile_y" value="112"/>
    </properties>
   </object>
   <object name="ToFrostyUnderground" type="warp" x="2496" y="960" width="32" height="32">
    <properties>
     <property name="dest_map" value="046-3"/>
-    <property name="dest_x" value="2512"/>
-    <property name="dest_y" value="944"/>
+    <property name="dest_tile_x" value="78"/>
+    <property name="dest_tile_y" value="29"/>
    </properties>
   </object>
   <object name="ToFrostyUnderground" type="warp" x="4192" y="1536" width="32" height="32">
    <properties>
     <property name="dest_map" value="046-3"/>
-    <property name="dest_x" value="4208"/>
-    <property name="dest_y" value="1520"/>
+    <property name="dest_tile_x" value="131"/>
+    <property name="dest_tile_y" value="47"/>
    </properties>
   </object>
   <object name="ToFrostyUnderground" type="warp" x="4192" y="1760" width="32" height="32">
    <properties>
     <property name="dest_map" value="046-3"/>
-    <property name="dest_x" value="4208"/>
-    <property name="dest_y" value="1744"/>
+    <property name="dest_tile_x" value="131"/>
+    <property name="dest_tile_y" value="54"/>
    </properties>
   </object>
   <object name="ToFrostyUnderground" type="warp" x="4448" y="608" width="32" height="32">
    <properties>
     <property name="dest_map" value="046-3"/>
-    <property name="dest_x" value="4464"/>
-    <property name="dest_y" value="592"/>
+    <property name="dest_tile_x" value="139"/>
+    <property name="dest_tile_y" value="18"/>
    </properties>
   </object>
   <object name="ToFrostyUnderground" type="warp" x="2656" y="1376" width="32" height="32">
    <properties>
     <property name="dest_map" value="046-3"/>
-    <property name="dest_x" value="2672"/>
-    <property name="dest_y" value="1360"/>
+    <property name="dest_tile_x" value="83"/>
+    <property name="dest_tile_y" value="42"/>
    </properties>
   </object>
   <object name="ToFrostyUnderground" type="warp" x="3968" y="3488" width="32" height="32">
    <properties>
     <property name="dest_map" value="046-3"/>
-    <property name="dest_x" value="3984"/>
-    <property name="dest_y" value="3472"/>
+    <property name="dest_tile_x" value="124"/>
+    <property name="dest_tile_y" value="108"/>
    </properties>
   </object>
   <object name="Wolvern" type="spawn" x="2080" y="1472" width="512" height="416">

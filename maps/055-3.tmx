@@ -625,7 +625,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="150" height="150" visible="0">
+ <layer name="Collision" width="150" height="150">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -783,43 +783,43 @@
   <object name="To Woodland Hills" type="warp" x="2432" y="1280" width="64" height="32">
    <properties>
     <property name="dest_map" value="055-1"/>
-    <property name="dest_x" value="4384"/>
-    <property name="dest_y" value="3104"/>
+    <property name="dest_tile_x" value="137"/>
+    <property name="dest_tile_y" value="97"/>
    </properties>
   </object>
   <object name="To Woodland Hills" type="warp" x="960" y="832" width="32" height="32">
    <properties>
     <property name="dest_map" value="055-1"/>
-    <property name="dest_x" value="3200"/>
-    <property name="dest_y" value="2624"/>
+    <property name="dest_tile_x" value="100"/>
+    <property name="dest_tile_y" value="82"/>
    </properties>
   </object>
   <object name="To Outside" type="warp" x="1600" y="1376" width="32" height="32">
    <properties>
     <property name="dest_map" value="055-1"/>
-    <property name="dest_x" value="3200"/>
-    <property name="dest_y" value="2880"/>
+    <property name="dest_tile_x" value="100"/>
+    <property name="dest_tile_y" value="90"/>
    </properties>
   </object>
   <object name="To Woodland Hills" type="warp" x="3040" y="2272" width="64" height="32">
    <properties>
     <property name="dest_map" value="055-1"/>
-    <property name="dest_x" value="1920"/>
-    <property name="dest_y" value="3008"/>
+    <property name="dest_tile_x" value="60"/>
+    <property name="dest_tile_y" value="94"/>
    </properties>
   </object>
   <object name="To Cave" type="warp" x="1824" y="3072" width="64" height="32">
    <properties>
     <property name="dest_map" value="055-3"/>
-    <property name="dest_x" value="3136"/>
-    <property name="dest_y" value="3680"/>
+    <property name="dest_tile_x" value="98"/>
+    <property name="dest_tile_y" value="115"/>
    </properties>
   </object>
   <object name="To Cave" type="warp" x="3136" y="3648" width="32" height="32">
    <properties>
     <property name="dest_map" value="055-3"/>
-    <property name="dest_x" value="1824"/>
-    <property name="dest_y" value="3040"/>
+    <property name="dest_tile_x" value="57"/>
+    <property name="dest_tile_y" value="95"/>
    </properties>
   </object>
   <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="928" y="928" width="32" height="32"/>

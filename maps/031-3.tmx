@@ -978,7 +978,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="320" height="320" visible="0">
+ <layer name="Collision" width="320" height="320">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -1306,330 +1306,330 @@
   <object name="To Nivalis Port" type="warp" x="6784" y="9600" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-1"/>
-    <property name="dest_x" value="2432"/>
-    <property name="dest_y" value="800"/>
+    <property name="dest_tile_x" value="76"/>
+    <property name="dest_tile_y" value="25"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="6560" y="8448" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="4800"/>
-    <property name="dest_y" value="8320"/>
+    <property name="dest_tile_x" value="150"/>
+    <property name="dest_tile_y" value="260"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="4768" y="8288" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="6592"/>
-    <property name="dest_y" value="8480"/>
+    <property name="dest_tile_x" value="206"/>
+    <property name="dest_tile_y" value="265"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="7200" y="9024" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="8768"/>
-    <property name="dest_y" value="9568"/>
+    <property name="dest_tile_x" value="274"/>
+    <property name="dest_tile_y" value="299"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="8768" y="9600" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="7200"/>
-    <property name="dest_y" value="9056"/>
+    <property name="dest_tile_x" value="225"/>
+    <property name="dest_tile_y" value="283"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="9056" y="8672" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="8608"/>
-    <property name="dest_y" value="7808"/>
+    <property name="dest_tile_x" value="269"/>
+    <property name="dest_tile_y" value="244"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="8608" y="7840" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="9056"/>
-    <property name="dest_y" value="8704"/>
+    <property name="dest_tile_x" value="283"/>
+    <property name="dest_tile_y" value="272"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="4736" y="4800" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="4096"/>
-    <property name="dest_y" value="4288"/>
+    <property name="dest_tile_x" value="128"/>
+    <property name="dest_tile_y" value="134"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="4448" y="8256" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="4992"/>
-    <property name="dest_y" value="6272"/>
+    <property name="dest_tile_x" value="156"/>
+    <property name="dest_tile_y" value="196"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="4960" y="6240" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="4448"/>
-    <property name="dest_y" value="8288"/>
+    <property name="dest_tile_x" value="139"/>
+    <property name="dest_tile_y" value="259"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="4544" y="9632" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="3136"/>
-    <property name="dest_y" value="9600"/>
+    <property name="dest_tile_x" value="98"/>
+    <property name="dest_tile_y" value="300"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="3104" y="9632" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="4576"/>
-    <property name="dest_y" value="9600"/>
+    <property name="dest_tile_x" value="143"/>
+    <property name="dest_tile_y" value="300"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="4320" y="6272" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="3392"/>
-    <property name="dest_y" value="7392"/>
+    <property name="dest_tile_x" value="106"/>
+    <property name="dest_tile_y" value="231"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="3392" y="7424" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="4320"/>
-    <property name="dest_y" value="6304"/>
+    <property name="dest_tile_x" value="135"/>
+    <property name="dest_tile_y" value="197"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="9152" y="6080" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="7264"/>
-    <property name="dest_y" value="7712"/>
+    <property name="dest_tile_x" value="227"/>
+    <property name="dest_tile_y" value="241"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="7264" y="7744" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="9152"/>
-    <property name="dest_y" value="6112"/>
+    <property name="dest_tile_x" value="286"/>
+    <property name="dest_tile_y" value="191"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="7552" y="6752" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="5984"/>
-    <property name="dest_y" value="7264"/>
+    <property name="dest_tile_x" value="187"/>
+    <property name="dest_tile_y" value="227"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="5984" y="7296" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="7552"/>
-    <property name="dest_y" value="6784"/>
+    <property name="dest_tile_x" value="236"/>
+    <property name="dest_tile_y" value="212"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="3008" y="8128" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="1728"/>
-    <property name="dest_y" value="8032"/>
+    <property name="dest_tile_x" value="54"/>
+    <property name="dest_tile_y" value="251"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="1728" y="8000" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="3008"/>
-    <property name="dest_y" value="8160"/>
+    <property name="dest_tile_x" value="94"/>
+    <property name="dest_tile_y" value="255"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="3296" y="6368" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="1664"/>
-    <property name="dest_y" value="5632"/>
+    <property name="dest_tile_x" value="52"/>
+    <property name="dest_tile_y" value="176"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="1664" y="5664" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="3296"/>
-    <property name="dest_y" value="6400"/>
+    <property name="dest_tile_x" value="103"/>
+    <property name="dest_tile_y" value="200"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="6784" y="6176" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="6624"/>
-    <property name="dest_y" value="5344"/>
+    <property name="dest_tile_x" value="207"/>
+    <property name="dest_tile_y" value="167"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="6624" y="5376" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="6784"/>
-    <property name="dest_y" value="6208"/>
+    <property name="dest_tile_x" value="212"/>
+    <property name="dest_tile_y" value="194"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="7520" y="5344" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="6240"/>
-    <property name="dest_y" value="3936"/>
+    <property name="dest_tile_x" value="195"/>
+    <property name="dest_tile_y" value="123"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="6240" y="3904" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="7520"/>
-    <property name="dest_y" value="5312"/>
+    <property name="dest_tile_x" value="235"/>
+    <property name="dest_tile_y" value="166"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="9472" y="3104" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="9344"/>
-    <property name="dest_y" value="3968"/>
+    <property name="dest_tile_x" value="292"/>
+    <property name="dest_tile_y" value="124"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="9344" y="3936" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="9472"/>
-    <property name="dest_y" value="3072"/>
+    <property name="dest_tile_x" value="296"/>
+    <property name="dest_tile_y" value="96"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="9248" y="5248" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="7296"/>
-    <property name="dest_y" value="3904"/>
+    <property name="dest_tile_x" value="228"/>
+    <property name="dest_tile_y" value="122"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="7296" y="3872" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="9248"/>
-    <property name="dest_y" value="5216"/>
+    <property name="dest_tile_x" value="289"/>
+    <property name="dest_tile_y" value="163"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="768" y="5024" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="992"/>
-    <property name="dest_y" value="4576"/>
+    <property name="dest_tile_x" value="31"/>
+    <property name="dest_tile_y" value="143"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="992" y="4608" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="768"/>
-    <property name="dest_y" value="5056"/>
+    <property name="dest_tile_x" value="24"/>
+    <property name="dest_tile_y" value="158"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="1152" y="7968" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="1120"/>
-    <property name="dest_y" value="7200"/>
+    <property name="dest_tile_x" value="35"/>
+    <property name="dest_tile_y" value="225"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="1120" y="7232" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="1152"/>
-    <property name="dest_y" value="8000"/>
+    <property name="dest_tile_x" value="36"/>
+    <property name="dest_tile_y" value="250"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="1088" y="800" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="8992"/>
-    <property name="dest_y" value="768"/>
+    <property name="dest_tile_x" value="281"/>
+    <property name="dest_tile_y" value="24"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="8992" y="704" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="1088"/>
-    <property name="dest_y" value="864"/>
+    <property name="dest_tile_x" value="34"/>
+    <property name="dest_tile_y" value="27"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="9056" y="1536" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="8800"/>
-    <property name="dest_y" value="2368"/>
+    <property name="dest_tile_x" value="275"/>
+    <property name="dest_tile_y" value="74"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="8800" y="2336" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="9056"/>
-    <property name="dest_y" value="1504"/>
+    <property name="dest_tile_x" value="283"/>
+    <property name="dest_tile_y" value="47"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="832" y="5696" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="1152"/>
-    <property name="dest_y" value="6432"/>
+    <property name="dest_tile_x" value="36"/>
+    <property name="dest_tile_y" value="201"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="1152" y="6400" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="832"/>
-    <property name="dest_y" value="5664"/>
+    <property name="dest_tile_x" value="26"/>
+    <property name="dest_tile_y" value="177"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="2912" y="4000" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="1152"/>
-    <property name="dest_y" value="2528"/>
+    <property name="dest_tile_x" value="36"/>
+    <property name="dest_tile_y" value="79"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="1152" y="2560" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="2912"/>
-    <property name="dest_y" value="4032"/>
+    <property name="dest_tile_x" value="91"/>
+    <property name="dest_tile_y" value="126"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="1664" y="2496" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="6144"/>
-    <property name="dest_y" value="2272"/>
+    <property name="dest_tile_x" value="192"/>
+    <property name="dest_tile_y" value="71"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="6144" y="2240" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="1664"/>
-    <property name="dest_y" value="2464"/>
+    <property name="dest_tile_x" value="52"/>
+    <property name="dest_tile_y" value="77"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="4096" y="4320" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="4736"/>
-    <property name="dest_y" value="4832"/>
+    <property name="dest_tile_x" value="148"/>
+    <property name="dest_tile_y" value="151"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="7424" y="2976" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="7488"/>
-    <property name="dest_y" value="832"/>
+    <property name="dest_tile_x" value="234"/>
+    <property name="dest_tile_y" value="26"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="7488" y="800" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="7424"/>
-    <property name="dest_y" value="2944"/>
+    <property name="dest_tile_x" value="232"/>
+    <property name="dest_tile_y" value="92"/>
    </properties>
   </object>
   <object name="IceGoblin" type="spawn" x="6976" y="8512" width="832" height="864">
@@ -2067,15 +2067,15 @@
   <object name="To Ice Labyrinth" type="warp" x="6400" y="1600" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="4352"/>
-    <property name="dest_y" value="960"/>
+    <property name="dest_tile_x" value="136"/>
+    <property name="dest_tile_y" value="30"/>
    </properties>
   </object>
   <object name="To Ice Labyrinth" type="warp" x="4352" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_x" value="6400"/>
-    <property name="dest_y" value="1568"/>
+    <property name="dest_tile_x" value="200"/>
+    <property name="dest_tile_y" value="49"/>
    </properties>
   </object>
   <object name="Bat" type="spawn" x="3200" y="608" width="1280" height="2080">

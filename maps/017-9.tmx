@@ -170,7 +170,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="53" height="51" visible="0">
+ <layer name="Collision" width="53" height="51">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -229,43 +229,43 @@
   <object name="To Left Door Onstage" type="warp" x="704" y="640" width="32" height="32">
    <properties>
     <property name="dest_map" value="017-2"/>
-    <property name="dest_x" value="736"/>
-    <property name="dest_y" value="672"/>
+    <property name="dest_tile_x" value="23"/>
+    <property name="dest_tile_y" value="21"/>
    </properties>
   </object>
   <object name="To Outside" type="warp" x="832" y="672" width="32" height="32">
    <properties>
     <property name="dest_map" value="017-1"/>
-    <property name="dest_x" value="1376"/>
-    <property name="dest_y" value="1088"/>
+    <property name="dest_tile_x" value="43"/>
+    <property name="dest_tile_y" value="34"/>
    </properties>
   </object>
   <object name="To Right Door Onstage" type="warp" x="960" y="640" width="32" height="32">
    <properties>
     <property name="dest_map" value="017-2"/>
-    <property name="dest_x" value="928"/>
-    <property name="dest_y" value="672"/>
+    <property name="dest_tile_x" value="29"/>
+    <property name="dest_tile_y" value="21"/>
    </properties>
   </object>
   <object name="To Left Trapdoor Onstage" type="warp" x="672" y="896" width="32" height="32">
    <properties>
     <property name="dest_map" value="017-2"/>
-    <property name="dest_x" value="800"/>
-    <property name="dest_y" value="800"/>
+    <property name="dest_tile_x" value="25"/>
+    <property name="dest_tile_y" value="25"/>
    </properties>
   </object>
   <object name="To Centre Trapdoor Onstage" type="warp" x="832" y="896" width="32" height="32">
    <properties>
     <property name="dest_map" value="017-2"/>
-    <property name="dest_x" value="832"/>
-    <property name="dest_y" value="736"/>
+    <property name="dest_tile_x" value="26"/>
+    <property name="dest_tile_y" value="23"/>
    </properties>
   </object>
   <object name="To Right Trapdoor Onstage" type="warp" x="992" y="896" width="32" height="32">
    <properties>
     <property name="dest_map" value="017-2"/>
-    <property name="dest_x" value="864"/>
-    <property name="dest_y" value="800"/>
+    <property name="dest_tile_x" value="27"/>
+    <property name="dest_tile_y" value="25"/>
    </properties>
   </object>
  </objectgroup>

@@ -479,7 +479,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="200" height="151" visible="0">
+ <layer name="Collision" width="200" height="151">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -662,29 +662,29 @@
   <object name="To Cellar" type="warp" x="5536" y="640" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-2"/>
-    <property name="dest_x" value="4704"/>
-    <property name="dest_y" value="2848"/>
+    <property name="dest_tile_x" value="147"/>
+    <property name="dest_tile_y" value="89"/>
    </properties>
   </object>
   <object name="To Lake Cave" type="warp" x="640" y="1824" width="32" height="32">
    <properties>
     <property name="dest_map" value="011-4"/>
-    <property name="dest_x" value="4128"/>
-    <property name="dest_y" value="2784"/>
+    <property name="dest_tile_x" value="129"/>
+    <property name="dest_tile_y" value="87"/>
    </properties>
   </object>
   <object name="To Northern Mines" type="warp" x="5024" y="960" width="32" height="32">
    <properties>
     <property name="dest_map" value="018-3"/>
-    <property name="dest_x" value="5728"/>
-    <property name="dest_y" value="5760"/>
+    <property name="dest_tile_x" value="179"/>
+    <property name="dest_tile_y" value="180"/>
    </properties>
   </object>
   <object name="To Woodland Hills Cave" type="warp" x="3744" y="608" width="32" height="32">
    <properties>
     <property name="dest_map" value="013-3"/>
-    <property name="dest_x" value="5120"/>
-    <property name="dest_y" value="3264"/>
+    <property name="dest_tile_x" value="160"/>
+    <property name="dest_tile_y" value="102"/>
    </properties>
   </object>
   <object name="YellowSlime" type="spawn" x="0" y="0">

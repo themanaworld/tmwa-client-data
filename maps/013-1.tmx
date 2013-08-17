@@ -654,7 +654,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="154" height="124" visible="0">
+ <layer name="Collision" width="154" height="124">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -789,29 +789,29 @@
   <object name="To Woodland Hills Cave" type="warp" x="4000" y="3328" width="32" height="32">
    <properties>
     <property name="dest_map" value="013-3"/>
-    <property name="dest_x" value="1088"/>
-    <property name="dest_y" value="2048"/>
+    <property name="dest_tile_x" value="34"/>
+    <property name="dest_tile_y" value="64"/>
    </properties>
   </object>
   <object name="To Woodland Hills" type="warp" x="640" y="2368" width="32" height="128">
    <properties>
     <property name="dest_map" value="012-1"/>
-    <property name="dest_x" value="4768"/>
-    <property name="dest_y" value="1920"/>
+    <property name="dest_tile_x" value="149"/>
+    <property name="dest_tile_y" value="60"/>
    </properties>
   </object>
   <object name="To Woodland Hills" type="warp" x="1408" y="640" width="128" height="32">
    <properties>
     <property name="dest_map" value="017-1"/>
-    <property name="dest_x" value="1472"/>
-    <property name="dest_y" value="3328"/>
+    <property name="dest_tile_x" value="46"/>
+    <property name="dest_tile_y" value="104"/>
    </properties>
   </object>
   <object name="To Magic House" type="warp" x="1344" y="2880" width="32" height="32">
    <properties>
     <property name="dest_map" value="013-2"/>
-    <property name="dest_x" value="2016"/>
-    <property name="dest_y" value="1312"/>
+    <property name="dest_tile_x" value="63"/>
+    <property name="dest_tile_y" value="41"/>
    </properties>
   </object>
   <object name="PinkFlower" type="spawn" x="0" y="0">
@@ -933,8 +933,8 @@
   <object name="To Woodland Hills" type="warp" x="4352" y="1600" width="32" height="128">
    <properties>
     <property name="dest_map" value="055-1"/>
-    <property name="dest_x" value="800"/>
-    <property name="dest_y" value="1664"/>
+    <property name="dest_tile_x" value="25"/>
+    <property name="dest_tile_y" value="52"/>
    </properties>
   </object>
  </objectgroup>

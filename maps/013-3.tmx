@@ -832,7 +832,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="200" height="200" visible="0">
+ <layer name="Collision" width="200" height="200">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -1044,190 +1044,190 @@
   <object name="To Woodland Hills" type="warp" x="896" y="640" width="32" height="32">
    <properties>
     <property name="dest_map" value="013-1"/>
-    <property name="dest_x" value="0"/>
-    <property name="dest_y" value="0"/>
+    <property name="dest_tile_x" value="0"/>
+    <property name="dest_tile_y" value="0"/>
    </properties>
   </object>
   <object name="To Woodland Hills" type="warp" x="1088" y="2016" width="32" height="32">
    <properties>
     <property name="dest_map" value="013-1"/>
-    <property name="dest_x" value="4000"/>
-    <property name="dest_y" value="3296"/>
+    <property name="dest_tile_x" value="125"/>
+    <property name="dest_tile_y" value="103"/>
    </properties>
   </object>
   <object name="To Woodland Hills Cave" type="warp" x="1152" y="3072" width="32" height="32">
    <properties>
     <property name="dest_map" value="013-3"/>
-    <property name="dest_x" value="2528"/>
-    <property name="dest_y" value="4032"/>
+    <property name="dest_tile_x" value="79"/>
+    <property name="dest_tile_y" value="126"/>
    </properties>
   </object>
   <object name="To Woodland Hills Cave" type="warp" x="2528" y="4000" width="32" height="32">
    <properties>
     <property name="dest_map" value="013-3"/>
-    <property name="dest_x" value="1120"/>
-    <property name="dest_y" value="3072"/>
+    <property name="dest_tile_x" value="35"/>
+    <property name="dest_tile_y" value="96"/>
    </properties>
   </object>
   <object name="To Woodland Mining Camp" type="warp" x="704" y="3680" width="32" height="32">
    <properties>
     <property name="dest_map" value="018-1"/>
-    <property name="dest_x" value="3680"/>
-    <property name="dest_y" value="1312"/>
+    <property name="dest_tile_x" value="115"/>
+    <property name="dest_tile_y" value="41"/>
    </properties>
   </object>
   <object name="To Woodland Mining Camp" type="warp" x="4448" y="1440" width="32" height="32">
    <properties>
     <property name="dest_map" value="018-1"/>
-    <property name="dest_x" value="4064"/>
-    <property name="dest_y" value="1184"/>
+    <property name="dest_tile_x" value="127"/>
+    <property name="dest_tile_y" value="37"/>
    </properties>
   </object>
   <object name="To Woodland Mining Camp" type="warp" x="1952" y="5728" width="32" height="32">
    <properties>
     <property name="dest_map" value="018-1"/>
-    <property name="dest_x" value="4288"/>
-    <property name="dest_y" value="1472"/>
+    <property name="dest_tile_x" value="134"/>
+    <property name="dest_tile_y" value="46"/>
    </properties>
   </object>
   <object name="To Northern Mine" type="warp" x="2208" y="4576" width="32" height="32">
    <properties>
     <property name="dest_map" value="018-3"/>
-    <property name="dest_x" value="1600"/>
-    <property name="dest_y" value="2848"/>
+    <property name="dest_tile_x" value="50"/>
+    <property name="dest_tile_y" value="89"/>
    </properties>
   </object>
   <object name="To Woodland Mining Camp" type="warp" x="2592" y="3296" width="32" height="32">
    <properties>
     <property name="dest_map" value="018-1"/>
-    <property name="dest_x" value="4704"/>
-    <property name="dest_y" value="1312"/>
+    <property name="dest_tile_x" value="147"/>
+    <property name="dest_tile_y" value="41"/>
    </properties>
   </object>
   <object name="To Jack O Land" type="warp" x="5664" y="2912" width="32" height="32">
    <properties>
     <property name="dest_map" value="018-1"/>
-    <property name="dest_x" value="5664"/>
-    <property name="dest_y" value="672"/>
+    <property name="dest_tile_x" value="177"/>
+    <property name="dest_tile_y" value="21"/>
    </properties>
   </object>
   <object name="To Northern Mine" type="warp" x="5696" y="1408" width="32" height="32">
    <properties>
     <property name="dest_map" value="018-3"/>
-    <property name="dest_x" value="3104"/>
-    <property name="dest_y" value="2240"/>
+    <property name="dest_tile_x" value="97"/>
+    <property name="dest_tile_y" value="70"/>
    </properties>
   </object>
   <object name="To Northern Mine" type="warp" x="5408" y="1440" width="32" height="32">
    <properties>
     <property name="dest_map" value="018-3"/>
-    <property name="dest_x" value="864"/>
-    <property name="dest_y" value="1760"/>
+    <property name="dest_tile_x" value="27"/>
+    <property name="dest_tile_y" value="55"/>
    </properties>
   </object>
   <object name="To Northern Mine" type="warp" x="4864" y="896" width="32" height="32">
    <properties>
     <property name="dest_map" value="018-3"/>
-    <property name="dest_x" value="4288"/>
-    <property name="dest_y" value="1984"/>
+    <property name="dest_tile_x" value="134"/>
+    <property name="dest_tile_y" value="62"/>
    </properties>
   </object>
   <object name="To Northern Mine" type="warp" x="3936" y="3328" width="32" height="32">
    <properties>
     <property name="dest_map" value="018-3"/>
-    <property name="dest_x" value="5504"/>
-    <property name="dest_y" value="704"/>
+    <property name="dest_tile_x" value="172"/>
+    <property name="dest_tile_y" value="22"/>
    </properties>
   </object>
   <object name="To Northern Mine" type="warp" x="4704" y="3328" width="32" height="32">
    <properties>
     <property name="dest_map" value="018-3"/>
-    <property name="dest_x" value="5664"/>
-    <property name="dest_y" value="704"/>
+    <property name="dest_tile_x" value="177"/>
+    <property name="dest_tile_y" value="22"/>
    </properties>
   </object>
   <object name="To Northern Mine" type="warp" x="5056" y="2112" width="32" height="32">
    <properties>
     <property name="dest_map" value="018-3"/>
-    <property name="dest_x" value="864"/>
-    <property name="dest_y" value="2880"/>
+    <property name="dest_tile_x" value="27"/>
+    <property name="dest_tile_y" value="90"/>
    </properties>
   </object>
   <object name="To Woodland Hills Cave" type="warp" x="2400" y="1632" width="32" height="32">
    <properties>
     <property name="dest_map" value="013-3"/>
-    <property name="dest_x" value="3488"/>
-    <property name="dest_y" value="2080"/>
+    <property name="dest_tile_x" value="109"/>
+    <property name="dest_tile_y" value="65"/>
    </properties>
   </object>
   <object name="To Woodland Hills Cave" type="warp" x="3488" y="2048" width="32" height="32">
    <properties>
     <property name="dest_map" value="013-3"/>
-    <property name="dest_x" value="2400"/>
-    <property name="dest_y" value="1600"/>
+    <property name="dest_tile_x" value="75"/>
+    <property name="dest_tile_y" value="50"/>
    </properties>
   </object>
   <object name="To Northern Mine" type="warp" x="2144" y="1632" width="32" height="32">
    <properties>
     <property name="dest_map" value="018-3"/>
-    <property name="dest_x" value="2880"/>
-    <property name="dest_y" value="1632"/>
+    <property name="dest_tile_x" value="90"/>
+    <property name="dest_tile_y" value="51"/>
    </properties>
   </object>
   <object name="To Demon Mask Chest Cave" type="warp" x="2272" y="640" width="32" height="32">
    <properties>
     <property name="dest_map" value="013-3"/>
-    <property name="dest_x" value="896"/>
-    <property name="dest_y" value="1248"/>
+    <property name="dest_tile_x" value="28"/>
+    <property name="dest_tile_y" value="39"/>
    </properties>
   </object>
   <object name="To Fight Cave" type="warp" x="896" y="1312" width="32" height="32">
    <properties>
     <property name="dest_map" value="013-3"/>
-    <property name="dest_x" value="2272"/>
-    <property name="dest_y" value="672"/>
+    <property name="dest_tile_x" value="71"/>
+    <property name="dest_tile_y" value="21"/>
    </properties>
   </object>
   <object name="To Black Scorpion Cave" type="warp" x="2272" y="1344" width="32" height="32">
    <properties>
     <property name="dest_map" value="013-3"/>
-    <property name="dest_x" value="3488"/>
-    <property name="dest_y" value="672"/>
+    <property name="dest_tile_x" value="109"/>
+    <property name="dest_tile_y" value="21"/>
    </properties>
   </object>
   <object name="To Woodland Hills Cave" type="warp" x="3488" y="640" width="32" height="32">
    <properties>
     <property name="dest_map" value="013-3"/>
-    <property name="dest_x" value="2272"/>
-    <property name="dest_y" value="1312"/>
+    <property name="dest_tile_x" value="71"/>
+    <property name="dest_tile_y" value="41"/>
    </properties>
   </object>
   <object name="To Magic Bookshelf Cave" type="warp" x="3552" y="1344" width="32" height="32">
    <properties>
     <property name="dest_map" value="018-3"/>
-    <property name="dest_x" value="2272"/>
-    <property name="dest_y" value="3936"/>
+    <property name="dest_tile_x" value="71"/>
+    <property name="dest_tile_y" value="123"/>
    </properties>
   </object>
   <object name="To Northern Mine" type="warp" x="1984" y="3200" width="32" height="32">
    <properties>
     <property name="dest_map" value="018-3"/>
-    <property name="dest_x" value="5568"/>
-    <property name="dest_y" value="2752"/>
+    <property name="dest_tile_x" value="174"/>
+    <property name="dest_tile_y" value="86"/>
    </properties>
   </object>
   <object name="To Northern Mine" type="warp" x="2176" y="3104" width="32" height="32">
    <properties>
     <property name="dest_map" value="018-3"/>
-    <property name="dest_x" value="3264"/>
-    <property name="dest_y" value="2240"/>
+    <property name="dest_tile_x" value="102"/>
+    <property name="dest_tile_y" value="70"/>
    </properties>
   </object>
   <object name="To Hurnscald Cave" type="warp" x="5120" y="3296" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-3"/>
-    <property name="dest_x" value="3744"/>
-    <property name="dest_y" value="640"/>
+    <property name="dest_tile_x" value="117"/>
+    <property name="dest_tile_y" value="20"/>
    </properties>
   </object>
   <object name="CaveSnake" type="spawn" x="640" y="2016" width="544" height="1696">

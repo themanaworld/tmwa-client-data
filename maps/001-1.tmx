@@ -486,7 +486,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="167" height="114" visible="0">
+ <layer name="Collision" width="167" height="114">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -613,36 +613,36 @@
   <object name="To Sandstorm Desert" type="warp" x="1344" y="2784" width="160" height="32">
    <properties>
     <property name="dest_map" value="002-1"/>
-    <property name="dest_x" value="1856"/>
-    <property name="dest_y" value="448"/>
+    <property name="dest_tile_x" value="58"/>
+    <property name="dest_tile_y" value="14"/>
    </properties>
   </object>
   <object name="To North Tulimshar" type="warp" x="1344" y="640" width="160" height="32">
    <properties>
     <property name="dest_map" value="021-1"/>
-    <property name="dest_x" value="1760"/>
-    <property name="dest_y" value="4640"/>
+    <property name="dest_tile_x" value="55"/>
+    <property name="dest_tile_y" value="145"/>
    </properties>
   </object>
   <object name="To North Tulimshar" type="warp" x="3968" y="672" width="64" height="32">
    <properties>
     <property name="dest_map" value="021-1"/>
-    <property name="dest_x" value="4352"/>
-    <property name="dest_y" value="4672"/>
+    <property name="dest_tile_x" value="136"/>
+    <property name="dest_tile_y" value="146"/>
    </properties>
   </object>
   <object name="To Tulimshar Indoor" type="warp" x="1024" y="2272" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2"/>
-    <property name="dest_x" value="800"/>
-    <property name="dest_y" value="1088"/>
+    <property name="dest_tile_x" value="25"/>
+    <property name="dest_tile_y" value="34"/>
    </properties>
   </object>
   <object name="To Tulimshar Indoor" type="warp" x="2400" y="1312" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2"/>
-    <property name="dest_x" value="2272"/>
-    <property name="dest_y" value="2304"/>
+    <property name="dest_tile_x" value="71"/>
+    <property name="dest_tile_y" value="72"/>
    </properties>
   </object>
   <object name="Scorpion" type="spawn" x="1408" y="2752" width="96" height="64">
