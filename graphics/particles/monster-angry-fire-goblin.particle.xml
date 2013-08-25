@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--
+A fire effect intended for use with the fire goblin mob 
+-->
+<effect>
+  <particle position-x="0" position-y="0" position-z="0">
+    <emitter>
+      <property name="position-x" min="-11" max="13"/>
+      <property name="position-y" min="-22" max="-26"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="90"/>
+      <property name="power" min="0.1" max="0.3"/>
+      <property name="gravity" value="-0.03"/>
+      <animation imageset="graphics/particles/aniblaze.png" width="8" height="8">
+        <sequence start="0" end="14" delay="20"/>
+        <frame index="14" delay="1000"/>
+      </animation>
+      <property name="lifetime" min="25" max="35"/>
+      <property name="output" min="0" max="7"/>
+      <property name="fade-in" value="0"/>
+      <property name="fade-out" value="5"/>
+    </emitter>
+  </particle>
+</effect>
