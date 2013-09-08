@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <sprite>
-  <imageset name="base" src="graphics/sprites/monsters/squirrel.png" width="32" height="32"/>
+  <imageset name="base" src="graphics/sprites/monsters/squirrel.png|R" width="32" height="32"/>
   <action name="stand" imageset="base">
     <animation direction="down">
       <sequence start="16" end="19" delay="375"/>

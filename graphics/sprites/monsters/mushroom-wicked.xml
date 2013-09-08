@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset name="base" src="graphics/sprites/monsters/mushroom-wicked.png" width="42" height="40"/>
+  <action name="stand" imageset="base">
+    <animation direction="down">
+      <frame index="0" offsetY="-8"/>
+    </animation>
+    <animation direction="left">
+      <frame index="10" offsetY="-8"/>
+    </animation>
+    <animation direction="up">
+      <frame index="20" offsetY="-8"/>
+    </animation>
+    <animation direction="right">
+      <frame index="30" offsetX="1" offsetY="-8"/>
+    </animation>
+  </action>
+  <action name="walk" imageset="base">
+    <animation direction="down">
+      <sequence start="1" end="4" delay="75" offsetY="-8"/>
+    </animation>
+    <animation direction="left">
+      <sequence start="11" end="14" delay="75" offsetY="-8"/>
+    </animation>
+    <animation direction="up">
+      <sequence start="21" end="24" delay="75" offsetY="-8"/>
+    </animation>
+    <animation direction="right">
+      <sequence start="31" end="34" delay="75" offsetX="1" offsetY="-8"/>
+    </animation>
+  </action>
+  <action name="dead" imageset="base">
+    <animation direction="down">
+      <frame index="9" offsetY="-8"/>
+    </animation>
+    <animation direction="left">
+      <frame index="19" offsetY="-8"/>
+    </animation>
+    <animation direction="up">
+      <frame index="29" offsetY="-8"/>
+    </animation>
+    <animation direction="right">
+      <frame index="39" offsetX="1" offsetY="-8"/>
+    </animation>
+  </action>
+  <action name="attack" imageset="base">
+    <animation direction="down">
+      <sequence start="5" end="8" delay="75" offsetY="-8"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <sequence start="15" end="18" delay="75" offsetY="-8"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <sequence start="25" end="28" delay="75" offsetY="-8"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <sequence start="35" end="38" delay="75" offsetX="1" offsetY="-8"/>
+      <end/>
+    </animation>
+  </action>
+</sprite>

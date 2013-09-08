@@ -185,7 +185,7 @@
     <sprite>monsters/clover.xml</sprite>
   </monster>
   <monster id="36" name="Squirrel">
-    <sprite>monsters/squirrel.xml</sprite>
+    <sprite>monsters/squirrel.xml|#dfae76</sprite>
     <sound event="hurt">monsters/squirrel/squirrel-hurt1.ogg</sound>
     <sound event="hurt">monsters/squirrel/squirrel-hurt2.ogg</sound>
     <sound event="die">monsters/squirrel/squirrel-die1.ogg</sound>
@@ -485,6 +485,27 @@
     <sprite>equipment/head/bull.xml</sprite>
     <particlefx>graphics/particles/monster-witchguard.particle.xml</particlefx>
     <sprite>weapon-witchguard-gladius.xml</sprite>
+  </monster>
+  <monster id="102" name="Demonic Mouboo">
+    <sprite>monsters/mouboo-demonic.xml</sprite>
+    <sprite>monsters/accessories/mouboo-demonic-antlers.xml</sprite>
+    <particlefx>graphics/particles/monster-mouboo-demonic.particle.xml</particlefx>
+  </monster>
+  <monster id="103" name="Vicious Squirrel">
+    <sprite>monsters/squirrel.xml|#736443</sprite>
+    <sound event="hurt">monsters/squirrel/squirrel-hurt1.ogg</sound>
+    <sound event="hurt">monsters/squirrel/squirrel-hurt2.ogg</sound>
+    <sound event="die">monsters/squirrel/squirrel-die1.ogg</sound>
+    <sound event="die">monsters/squirrel/squirrel-die2.ogg</sound>
+  </monster>
+  <monster id="104" name="Wicked Mushroom">
+    <sprite>monsters/mushroom-wicked.xml</sprite>
+    <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
+  </monster>
+  <monster id="105" name="Bluepar" targetCursor="small">
+    <sprite>monsters/bluepar.xml</sprite>
+    <sound event="hit">monsters/pinkie/pinkie-hit1.ogg</sound>
+    <sound event="miss">monsters/pinkie/pinkie-miss1.ogg</sound>
   </monster>
   <monster id="106" name="Angry Fire Goblin">
     <sprite>monsters/goblin-fire.xml</sprite>

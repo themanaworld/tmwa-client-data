@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset name="accessory" src="graphics/sprites/monsters/accessories/mouboo-demonic-antlers.png" width="37.5" height="30"/>
+  <action name="stand" imageset="accessory">
+    <animation direction="down">
+      <frame index="0" offsetY="-49"/>
+    </animation>
+    <animation direction="left">
+      <frame index="1" offsetX="-16" offsetY="-55"/>
+    </animation>
+    <animation direction="up">
+      <frame index="0" offsetY="-56"/>
+    </animation>
+    <animation direction="right">
+      <frame index="2" offsetX="19" offsetY="-55"/>
+    </animation>
+  </action>
+  <action name="walk" imageset="accessory">
+    <animation direction="down">
+      <frame index="0" delay="75" offsetY="-52"/>
+      <frame index="0" delay="150" offsetY="-54"/>
+      <frame index="0" delay="75" offsetY="-51"/>
+      <frame index="0" delay="75" offsetY="-48"/>
+      <frame index="0" delay="75" offsetY="-49"/>
+    </animation>
+    <animation direction="left">
+      <frame index="1" delay="75" offsetX="-16" offsetY="-59"/>
+      <frame index="1" delay="75" offsetX="-14" offsetY="-59"/>
+      <frame index="1" delay="75" offsetX="-15" offsetY="-61"/>
+      <frame index="1" delay="75" offsetX="-20" offsetY="-60"/>
+      <frame index="1" delay="75" offsetX="-20" offsetY="-56"/>
+      <frame index="1" delay="75" offsetX="-21" offsetY="-51"/>
+    </animation>
+    <animation direction="up">
+      <frame index="0" delay="75" offsetY="-59"/>
+      <frame index="0" delay="75" offsetY="-60"/>
+      <frame index="0" delay="75" offsetY="-63"/>
+      <frame index="0" delay="75" offsetY="-61"/>
+      <frame index="0" delay="75" offsetY="-60"/>
+      <frame index="0" delay="75" offsetY="-58"/>
+    </animation>
+    <animation direction="right">
+      <frame index="2" delay="75" offsetX="16" offsetY="-59"/>
+      <frame index="2" delay="75" offsetX="14" offsetY="-59"/>
+      <frame index="2" delay="75" offsetX="15" offsetY="-61"/>
+      <frame index="2" delay="75" offsetX="20" offsetY="-60"/>
+      <frame index="2" delay="75" offsetX="20" offsetY="-56"/>
+      <frame index="2" delay="75" offsetX="21" offsetY="-51"/>
+    </animation>
+  </action>
+  <action name="attack" imageset="accessory">
+    <animation direction="down">
+      <frame index="0" delay="75" offsetY="-50"/>
+      <frame index="0" delay="75" offsetY="-52"/>
+      <frame index="0" delay="75" offsetY="-39"/>
+      <frame index="0" delay="75" offsetY="-31"/>
+      <frame index="0" delay="75" offsetY="-30"/>
+      <frame index="0" delay="75" offsetY="-31"/>
+      <frame index="0" delay="75" offsetY="-38"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <frame index="1" delay="75" offsetX="-14" offsetY="-56"/>
+      <frame index="1" delay="75" offsetX="-7" offsetY="-56"/>
+      <frame index="1" delay="75" offsetX="-21" offsetY="-40"/>
+      <frame index="1" delay="75" offsetX="-23" offsetY="-40"/>
+      <frame index="1" delay="75" offsetX="-27" offsetY="-40"/>
+      <frame index="1" delay="75" offsetX="-24" offsetY="-49"/>
+      <frame index="1" delay="75" offsetX="-16" offsetY="-55"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <frame index="0" delay="75" offsetY="-55"/>
+      <frame index="0" delay="75" offsetY="-53"/>
+      <frame index="0" delay="75" offsetY="-59"/>
+      <frame index="0" delay="75" offsetY="-53"/>
+      <frame index="0" delay="75" offsetY="-51"/>
+      <frame index="0" delay="75" offsetY="-54"/>
+      <frame index="0" delay="75" offsetY="-56"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <frame index="2" delay="75" offsetX="14" offsetY="-56"/>
+      <frame index="2" delay="75" offsetX="7" offsetY="-56"/>
+      <frame index="2" delay="75" offsetX="21" offsetY="-40"/>
+      <frame index="2" delay="75" offsetX="23" offsetY="-40"/>
+      <frame index="2" delay="75" offsetX="27" offsetY="-40"/>
+      <frame index="2" delay="75" offsetX="24" offsetY="-49"/>
+      <frame index="2" delay="75" offsetX="16" offsetY="-55"/>
+      <end/>
+    </animation>
+  </action>
+  <action name="dead" imageset="accessory">
+    <animation>
+      <frame index="3" delay="1600" offsetX="20" offsetY="-8"/>
+    </animation>
+  </action>
+</sprite>
