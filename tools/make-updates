@@ -37,6 +37,7 @@ function add_resource()
     pushd $output >/dev/null
     adler32 $1 | tee -a resources2.txt | {
         read name hash
+        chmod a+r $name
         sed '/<\/updates>/i    <update type="data" file="'$name'" hash="'$hash'" />' -i resources.xml
     }
     popd >/dev/null
@@ -47,6 +48,7 @@ function add_music()
 {
     adler32 $1 | {
         read name hash
+        chmod a+r $name
         sed '/<\/updates>/i    <update type="music" required="no" file="'$name'" hash="'$hash'" />' -i resources.xml
     }
 }
