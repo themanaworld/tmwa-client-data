@@ -3818,6 +3818,21 @@
             <item from="-5" to="-5"/>
         </replace>
     </item>
+    <item id="909"
+        image="equipment/head/music-cap.png|R:#c377ef"
+        name="Artists Cap"
+        description="A cap which identifies you as an artist."
+        effect="Defense: +1"
+        type="equip-head"
+        weight="20">
+        <sprite>equipment/head/music-cap.xml|#c377ef</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
+    </item>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
