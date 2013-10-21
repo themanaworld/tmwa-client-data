@@ -1,8 +1,0 @@
-#!/bin/sh
-
-# config
-SRC=$(dirname $(readlink -f "$0"))
-
-. ${SRC}/client-updates.conf
-
-rsync -av --delete "$UPDATES_DIR/release/" "$UPDATES_PUBLISH_DIR"

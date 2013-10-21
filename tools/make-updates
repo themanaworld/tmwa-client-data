@@ -1,0 +1,125 @@
+#!/bin/bash -e
+# This is a tool to automatically generate and ship client updates.
+# It is entirely self-contained, storing its own state in the git repo.
+# It is called by running 'make updates' in server-data.
+# It also supports manually calls for maintenance work.
+# TODO: make auto-mode work with music too.
+
+# local branch to keep update info on
+# will be created on first run; updated thereafter
+branch=update-zips
+# must already exist
+# must NOT be a relative path
+output=~/www/updates
+
+function apply_function()
+{
+    $1  misc-xml    charcreation.xml ea-skills.xml effects.xml emotes.xml hair.xml paths.xml settings.xml skills.xml status-effects.xml units.xml
+    $1  emotes      graphics/emotes/
+    $1  images      graphics/images/
+    $1  items       graphics/items/
+    $1  minimaps    graphics/minimaps/
+    $1  particles   graphics/particles/
+    $1  skills      graphics/skills/
+    $1  sprites     graphics/sprites/
+    $1  tiles       graphics/tiles/
+    $1  item-xml    items.xml
+    $1  map-xml     maps.xml
+    $1  maps        maps/
+    $1  mob-xml     monsters.xml
+    $1  npc-xml     npcs.xml
+    $1  sfx         sfx/
+    $1  tsx         tilesets/
+}
+
+function add_resource()
+{
+    pushd $output >/dev/null
+    adler32 $1 | tee -a resources2.txt | {
+        read name hash
+        chmod a+r $name
+        sed '/<\/updates>/i    <update type="data" file="'$name'" hash="'$hash'" />' -i resources.xml
+    }
+    popd >/dev/null
+}
+
+# TODO actually use this
+function add_music()
+{
+    adler32 $1 | {
+        read name hash
+        chmod a+r $name
+        sed '/<\/updates>/i    <update type="music" required="no" file="'$name'" hash="'$hash'" />' -i resources.xml
+    }
+}
+
+function do_initial_zip()
+{
+    zip=$1-$this_update.zip; shift
+    git ls-files --with-tree=HEAD -- "$@" \
+        | zip -q $output/$zip -@
+    add_resource $zip
+}
+
+function git_diff_tree()
+{
+    git diff-tree -r --diff-filter=AM "$@"
+}
+
+function do_delta_zip()
+{
+    zip=$1-$last_update..$this_update.zip; shift
+    if git_diff_tree  --quiet $last_update $this_update -- "$@"
+    then
+        return
+    fi
+    git_diff_tree --name-only $last_update $this_update -- "$@" \
+        | zip -q $output/$zip -@
+    add_resource $zip
+}
+
+function do_initial_zips()
+{
+    apply_function do_initial_zip
+}
+
+function do_delta_zips()
+{
+    apply_function do_delta_zip
+}
+
+function main()
+{
+    if ! test -d $output
+    then
+        echo 'Fatal error: output directory does not exist'
+        echo "$output"
+        return 1
+    fi
+
+    this_update=$(git rev-parse --short HEAD)
+    if ! last_update=$(git rev-parse --short $branch 2>/dev/null)
+    then
+        echo 'Doing initial updates'
+        do_initial_zips
+    elif test "$this_update" = "$last_update"
+    then
+        echo 'No commits since last update generation ...'
+    else
+        echo 'Doing incremental updates'
+        do_delta_zips
+    fi
+    git branch -f $branch
+}
+
+if test "$0" = "$BASH_SOURCE"
+then
+    echo 'Generating updates automatically'
+    main
+elif test "$0" = 'bash'
+then
+    echo 'sourcing detected - you can do manual updates'
+else
+    echo 'How did you get here?'
+    exit 3
+fi
