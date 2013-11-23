@@ -1544,9 +1544,8 @@
         image="equipment/head/devcap.png|R:#9999ff"
         name="Developer's Cap"
         description="A cap which identifies you as a developer."
-        effect="M. Attack +5"
         type="equip-head"
-        defense="5"
+        defense="1"
         weight="20"
         sellProtected="true">
         <sprite>equipment/head/devcap.xml|#9999ff</sprite>
@@ -1627,7 +1626,7 @@
         name="Cap"
         description="A hat with a peak to shield your eyes from the sun."
         type="equip-head"
-        defense="5"
+        defense="1"
         weight="20"
         sellProtected="true">
         <sprite>equipment/head/cap.xml|#d94800</sprite>
@@ -2164,9 +2163,8 @@
         image="equipment/head/gmcap.png|R:#bf0e08"
         name="GM Cap"
         description="A cap which identifies you as a GM. Only GMs can wear this."
-        effect="M. Attack +5"
         type="equip-head"
-        defense="5"
+        defense="1"
         weight="20"
         sellProtected="true">
         <sprite>equipment/head/gmcap.xml|#bf0e08</sprite>
@@ -3742,6 +3740,98 @@
         defense="1"
         weight="1">
         <sprite>equipment/head/rosehat.xml|#6666aa,ccccff</sprite>
+    </item>
+    <!-- 903 used Radiating Iron Lump -->
+    <item id="904"
+        image="equipment/head/btcap.png|R:#25bdcb"
+        name="Beta Tester Cap"
+        description="A cap for beta testers."
+        type="equip-head"
+        defense="1"
+        weight="20">
+        <sprite>equipment/head/btcap.xml|#25bdcb</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
+    </item>
+    <item id="905"
+        image="equipment/head/afkcap.png|R:#727272"
+        name="AFK Cap"
+        description="(Away from Keyboard)"
+        type="equip-head"
+        defense="1"
+        weight="20"
+        max-per-slot="1">
+        <sprite>equipment/head/afkcap.xml|#727272</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
+    </item>
+    <item id="906"
+        image="equipment/head/admincap.png|W:#edd595;R:#cd4a4a"
+        name="Administrator Cap"
+        description="Only for Admins."
+        type="equip-head"
+        defense="1"
+        weight="20">
+        <sprite>equipment/head/admincap.xml|#edd595;#cd4a4a</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
+    </item>
+    <item id="907"
+        image="equipment/head/mapcap.png|R:#4D6A4D;"
+        name="Mappers Cap"
+        description="A cap which identifies you as a mapper."
+        effect="Defense: +1"
+        type="equip-head"
+        weight="20">
+        <sprite>equipment/head/mapcap.xml|#4D6A4D</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
+    </item>
+    <item id="908"
+        image="equipment/head/artcap.png|R:#e68858"
+        name="Artists Cap"
+        description="A cap which identifies you as an artist."
+        effect="Defense: +1"
+        type="equip-head"
+        weight="20">
+        <sprite>equipment/head/artcap.xml|#e68858</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
+    </item>
+    <item id="909"
+        image="equipment/head/music-cap.png|R:#c377ef"
+        name="Artists Cap"
+        description="A cap which identifies you as an artist."
+        effect="Defense: +1"
+        type="equip-head"
+        weight="20">
+        <sprite>equipment/head/music-cap.xml|#c377ef</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
