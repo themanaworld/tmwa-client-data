@@ -3743,6 +3743,25 @@
         weight="1">
         <sprite>equipment/head/rosehat.xml|#6666aa,ccccff</sprite>
     </item>
+    <item id="903"
+        image="equipment/weapon/slingshot-icon.png"
+        name="Sling Shot"
+        description="In the right hands, everything is a weapon."
+        effect="Damage +5 / Range 2"
+        type="equip-2hand"
+        weapon-type="bow"
+        attack-action="attack_bow"
+        weight="10"
+        missile-particle="graphics/particles/stoneprojectile.particle.xml">
+        <sprite>weapon-slingshot.xml</sprite>
+    </item>
+    <item id="904"
+        image="equipment/ammo/stoneprojectile-icon.png"
+        name="Sling Bullet"
+        description="A smooth stone finished to fit neatly into a sling."
+        effect="Damage +5"
+        type="equip-ammo"
+        weight="1"/>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
 
@@ -8613,5 +8632,4 @@
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#ffffff;#EFEFEF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#ffffff;#EFEFEF</sprite>
     </item>
-
 </items>
