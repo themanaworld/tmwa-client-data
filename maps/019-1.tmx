@@ -936,7 +936,7 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0" visible="0">
+ <objectgroup name="Objects" width="0" height="0">
   <object name="graphics/particles/whirlpool.particle.xml" type="particle_effect" x="2000" y="592"/>
   <object name="graphics/particles/whirlpool.particle.xml" type="particle_effect" x="2032" y="592"/>
   <object name="graphics/particles/whirlpool.particle.xml" type="particle_effect" x="2000" y="624"/>
@@ -969,14 +969,14 @@
    <properties>
     <property name="dest_map" value="019-3"/>
     <property name="dest_tile_x" value="98"/>
-    <property name="dest_tile_y" value="26"/>
+    <property name="dest_tile_y" value="30"/>
    </properties>
   </object>
   <object name="To Snow Cave" type="warp" x="1216" y="2400" width="32" height="32">
    <properties>
     <property name="dest_map" value="019-3"/>
     <property name="dest_tile_x" value="39"/>
-    <property name="dest_tile_y" value="97"/>
+    <property name="dest_tile_y" value="101"/>
    </properties>
   </object>
   <object name="Fluffy" type="spawn" x="0" y="0">
