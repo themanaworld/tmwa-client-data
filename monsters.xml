@@ -241,7 +241,10 @@
   <!--49 Larvespa-->
   <!--50 Hivespa-->
   <!--51 Froad-->
-  <!--52 Troll-->
+  <monster id="52" name="Troll">
+    <sprite>monsters/troll.xml|#FFDEC2;#FF4D4D;#FF99FF;#FFC88A</sprite>
+    <attack id="1" missile-particle="graphics/particles/monster-troll-foefire.particle.xml" action="attack"/>
+  </monster>
   <monster id="53" name="Butterfly" targetCursor="small">
     <sprite>monsters/butterfly.xml|#660000,FF3300,FFCC99,FFCCCC</sprite>
     <sprite>monsters/accessories/generic-shadow-small-circle.xml</sprite>
