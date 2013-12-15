@@ -1,0 +1,95 @@
+<sprite>
+  <imageset name="base" src="graphics/sprites/monsters/troll.png|W;R;Y;G" width="40" height="40"/>
+  <action name="stand" imageset="base">
+    <animation direction="down">
+      <sequence start="0" end="5" delay="300"/>
+    </animation>
+    <animation direction="downright">
+      <sequence start="6" end="11" delay="300"/>
+    </animation>
+    <animation direction="right">
+      <sequence start="12" end="17" delay="300"/>
+    </animation>
+    <animation direction="upright">
+      <sequence start="18" end="23" delay="300"/>
+    </animation>
+    <animation direction="up">
+      <sequence start="24" end="29" delay="300"/>
+    </animation>
+    <animation direction="upleft">
+      <sequence start="30" end="35" delay="300"/>
+    </animation>
+    <animation direction="left">
+      <sequence start="36" end="41" delay="300"/>
+    </animation>
+    <animation direction="downleft">
+      <sequence start="42" end="47" delay="300"/>
+    </animation>
+  </action>
+  <action name="walk" imageset="base">
+    <animation direction="down">
+      <sequence start="48" end="53" delay="100"/>
+    </animation>
+    <animation direction="downright">
+      <sequence start="54" end="59" delay="100"/>
+    </animation>
+    <animation direction="right">
+      <sequence start="60" end="65" delay="100"/>
+    </animation>
+    <animation direction="upright">
+      <sequence start="66" end="71" delay="100"/>
+    </animation>
+    <animation direction="up">
+      <sequence start="72" end="77" delay="100"/>
+    </animation>
+    <animation direction="upleft">
+      <sequence start="78" end="83" delay="100"/>
+    </animation>
+    <animation direction="left">
+      <sequence start="84" end="89" delay="100"/>
+    </animation>
+    <animation direction="downleft">
+      <sequence start="90" end="95" delay="100"/>
+    </animation>
+  </action>
+  <action name="attack" imageset="base">
+    <animation direction="down">
+      <sequence start="96" end="101" delay="100"/>
+    </animation>
+    <animation direction="downright">
+      <sequence start="102" end="107" delay="100"/>
+    </animation>
+    <animation direction="right">
+      <sequence start="108" end="113" delay="100"/>
+    </animation>
+    <animation direction="upright">
+      <sequence start="114" end="119" delay="100"/>
+    </animation>
+    <animation direction="up">
+      <sequence start="120" end="125" delay="100"/>
+    </animation>
+    <animation direction="upleft">
+      <sequence start="126" end="131" delay="100"/>
+    </animation>
+    <animation direction="left">
+      <sequence start="132" end="137" delay="100"/>
+    </animation>
+    <animation direction="downleft">
+      <sequence start="138" end="143" delay="100"/>
+    </animation>
+  </action>
+  <action name="dead" imageset="base">
+    <animation direction="down">
+      <sequence start="144" end="149" delay="250"/>
+    </animation>
+    <animation direction="right">
+      <sequence start="150" end="155" delay="250"/>
+    </animation>
+    <animation direction="up">
+      <sequence start="156" end="161" delay="250"/>
+    </animation>
+    <animation direction="left">
+      <sequence start="162" end="167" delay="250"/>
+    </animation>
+  </action>
+</sprite>
