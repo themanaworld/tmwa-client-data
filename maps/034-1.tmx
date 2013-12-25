@@ -839,7 +839,7 @@
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="40"/>
+    <property name="max_beings" value="4"/>
     <property name="monster_id" value="92"/>
    </properties>
   </object>
@@ -886,6 +886,14 @@
     <property name="dest_map" value="034-2"/>
     <property name="dest_tile_x" value="73"/>
     <property name="dest_tile_y" value="29"/>
+   </properties>
+  </object>
+  <object name="Santaboo" type="spawn" x="0" y="0">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="1112"/>
    </properties>
   </object>
  </objectgroup>
