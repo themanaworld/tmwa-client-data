@@ -3275,8 +3275,7 @@
     <item id="856"
         image="equipment/head/knit-cap.png"
         name="Knit Cap"
-        description="A knitted cap keeping your head warm in the crual cold."
-        effect="M. Attack 0"
+        description="A knitted cap keeping your head warm in the cruel cold."
         type="equip-head"
         defense="3"
         weight="50"
@@ -3764,7 +3763,122 @@
         weight="1"/>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
-
+    <item id="1183"
+        image="equipment/chest/ugly-sweater.png|W:#ffffff;Y:#b0242f,e1c130;G:#35bc40;C:#8c7223,e1c130,ffdb63"
+        name="Amber Christmas Sweater"
+        description="An itchy woolen amber sweater with a pinetree motive."
+        effect="M. Attack -12"
+        type="equip-torso"
+        defense="6"
+        weight="35">
+            <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#ffffff;#b0242f,e1c130;#35bc40;#8c7223,e1c130,ffdb63</sprite>
+            <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#ffffff;#b0242f,e1c130;#35bc40;#8c7223,e1c130,ffdb63</sprite>
+    </item>
+    <item id="1184"
+        image="equipment/chest/ugly-sweater.png|W:#3f3f3f,ffffff;Y:#af5a2f,af5a2f,;G:#8ece91,ffffff;C:#578760,6daa78,92e5a2,9be8a9"
+        name="Funky Christmas Sweater"
+        description="An itchy woolen tan green sweater with holiday motive."
+        effect="M. Attack -12"
+        type="equip-torso"
+        defense="6"
+        weight="35">
+        <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,ffffff;#578760,6daa78,92e5a2,9be8a9</sprite>
+        <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,ffffff;#578760,6daa78,92e5a2,9be8a9</sprite>
+    </item>
+    <item id="1185"
+        image="equipment/chest/ugly-sweater.png|W:#000000,333333;Y:#c44dff;G:#ff4df0;C:#a3a3a3,ffffff"
+        name="Pink Christmas Sweater"
+        description="A light and only slightly itchy pink christmas sweater."
+        type="equip-torso"
+        defense="5"
+        weight="30"
+        sellProtected="true">
+        <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#000000,333333;#c44dff;#ff4df0;#a3a3a3,ffffff</sprite>
+        <sprite gender="female">equipment/chest/ugly-sweater-male.xml|#000000,333333;#c44dff;#ff4df0;#a3a3a3,ffffff</sprite>
+    </item>
+    <item id="1186"
+        image="equipment/chest/ugly-sweater.png|W:#3f3f3f,ffffff;Y:#af5a2f,af5a2f;G:#8ece91,364c17;C:#49661f"
+        name="Dark Christmas Sweater"
+        description="A thick, warming, yet itchy christmas themed sweater"
+        effect="M. Attack -12"
+        type="equip-torso"
+        defense="6"
+        weight="35">
+        <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,364c17;#49661f</sprite>
+        <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,364c17;#49661f</sprite>
+    </item>
+    <item id="1187"
+        image="equipment/chest/ugly-sweater.png|W:#ffffff;Y:#2958b5G:#ff4df0;G:#a7a7a7,d6d6d6,fffffe;C:#2958b5,789eea,c5d8ff"
+        name="Blue Christmas Sweater"
+        description="A light and warming sweater with holiday motive."
+        type="equip-torso"
+        defense="5"
+        weight="30"
+        sellProtected="true">
+        <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#ffffff;#2958b5G:#ff4df0;#a7a7a7,d6d6d6,fffffe;#2958b5,789eea,c5d8ff</sprite>
+        <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#ffffff;#2958b5G:#ff4df0;#a7a7a7,d6d6d6,fffffe;#2958b5,789eea,c5d8ff</sprite>
+    </item>
+    <item id="1188"
+        image="equipment/feet/assassinboots.png|W:#b80f0f,580000,a40000,b80f0f,c02020,ff6060"
+        name="Red Stockings"
+        description="Someone thought of you at christmas eve."
+        effect="M. Attack +2"
+        type="equip-feet"
+        defense="1"
+        weight="10"
+        sellProtected="true">
+        <sprite gender="male">equipment/feet/assassin-boots-male.xml|#b80f0f,580000,a40000,b80f0f,c02020,ff6060</sprite>
+        <sprite gender="female">equipment/feet/assassin-boots-female.xml|#b80f0f,580000,a40000,b80f0f,c02020,ff6060</sprite>
+    </item>
+    <item id="1189"
+        image="use/food/snake-egg.png|W:#ffffff;R:#ffffff;G:#ffffff"
+        name="Pollett Egg"
+        description="Mmm.. A nice treat."
+        type="usable"
+        hp="75"
+        mp="10"
+        weight="1"/>
+    <item id="1190"
+        image="equipment/head/nutcrackerhat.png"
+        name="Nutcracker Hat"
+        description="Now you will look just like a Nutcracker!"
+        effect="M. Attack +2"
+        type="equip-head"
+        defense="5"
+        weight="20"
+        sellProtected="true">
+        <sprite>equipment/head/nutcrackerhat.xml</sprite>
+    </item>
+    <item id="1191"
+        image="generic/wrapping-paper.png|W:#ffffff"
+        name="White Wrap"
+        description="A role of white wrapping paper."
+        type="generic"
+        weight="5"/>
+    <item id="1192"
+        image="generic/wrapping-paper.png|W:#effe6c"
+        name="Yellow Wrap"
+        description="A role of yellow wrapping paper."
+        type="generic"
+        weight="5"/>
+    <item id="1193"
+        image="generic/wrapping-paper.png|W:#6bc6ff"
+        name="Blue Wrap"
+        description="A role of blue wrapping paper."
+        type="generic"
+        weight="5"/>
+    <item id="1194"
+        image="generic/wrapping-paper.png|W:#ff8eff"
+        name="Purple Wrap"
+        description="A role of purple wrapping paper."
+        type="generic"
+        weight="5"/>
+    <item id="1195"
+        image="generic/wrapping-paper.png|W:#00b97a"
+        name="Green Wrap"
+        description="A role of green wrapping paper."
+        type="generic"
+        weight="5"/>
     <item id="1197"
         image="equipment/charms/skeletoncharm.png"
         name="Jack's Skeleton Charm"
