@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<sprite variants="1" variant_offset="1">
+  <imageset name="base" src="graphics/sprites/npcs/xmastree-nosnow.png" width="128" height="192"/>
+  <action name="stand" imageset="base">
+    <animation direction="default">
+      <frame offsetY="18" index="0"/>
+    </animation>
+  </action>
+</sprite>
