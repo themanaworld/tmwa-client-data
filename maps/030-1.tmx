@@ -819,20 +819,12 @@
     <property name="dest_tile_y" value="101"/>
    </properties>
   </object>
-  <object name="Squirrel" type="spawn" x="0" y="0">
+  <object name="Pollett" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="10"/>
-    <property name="monster_id" value="36"/>
-   </properties>
-  </object>
-  <object name="Fluffy" type="spawn" x="0" y="0">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="15"/>
-    <property name="monster_id" value="18"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="111"/>
    </properties>
   </object>
   <object name="To Snow Field" type="warp" x="3488" y="928" width="32" height="32">
@@ -848,6 +840,29 @@
     <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="4"/>
     <property name="monster_id" value="93"/>
+   </properties>
+  </object>
+  <object name="Santaboo" type="spawn" x="2272" y="2144">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="1112"/>
+   </properties>
+  </object>
+  <object name="Reinboo" type="spawn" x="2272" y="2144">
+   <properties>
+    <property name="eA_death" value="30000"/>
+    <property name="eA_spawn" value="100000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="92"/>
+   </properties>
+  </object>
+  <object name="To Christmas Inn" type="warp" x="3168" y="1696" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="030-2"/>
+    <property name="dest_tile_x" value="88"/>
+    <property name="dest_tile_y" value="50"/>
    </properties>
   </object>
  </objectgroup>

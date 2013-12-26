@@ -438,6 +438,9 @@
   </monster>
   <monster id="92" name="Reinboo">
     <sprite>monsters/mouboo.xml</sprite>
+    <sprite>monsters/accessories/mouboo-red-nose.xml</sprite>
+    <sprite>monsters/accessories/mouboo-red-saddle.xml</sprite>
+    <sprite>monsters/accessories/mouboo-red-shoes.xml</sprite>
     <sprite>monsters/accessories/mouboo-antlers.xml</sprite>
   </monster>
   <monster id="93" name="White Bell">
@@ -529,5 +532,26 @@
     <sprite>monsters/slime.xml|#72982c,ffffff</sprite>
     <particlefx>graphics/particles/monster-angry-green-slime.particle.xml</particlefx>
     <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+  </monster>
+  <monster id="109" name="Candied Slime">
+    <sprite>monsters/slime.xml|#fd2273,ffbeff,ffffff</sprite>
+    <sprite>monsters/accessories/slime-bubble.xml|#feaaa7,fdfffb</sprite>
+    <attack id="1" missile-particle="graphics/particles/peppermint.particle.xml" action="attack"/>
+    <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+  </monster>
+  <monster id="110" name="Santaboo">
+    <sprite>monsters/christmas-mouboo.xml</sprite>
+    <sprite>monsters/accessories/mouboo-red-nose.xml</sprite>
+    <sprite>monsters/accessories/mouboo-red-saddle.xml</sprite>
+    <sprite>monsters/accessories/mouboo-red-shoes.xml</sprite>
+    <sprite>monsters/accessories/mouboo-santa-hat.xml</sprite>
+  </monster>
+  <monster id="111" name="Pollett">
+    <sprite>monsters/penguin.xml</sprite>
+  </monster>
+  <monster id="112" name="Nut Cracker">
+    <sprite>monsters/nutcracker.xml</sprite>
+    <sprite>monsters/accessories/nutcrackerhair.xml|#333333</sprite>
+    <sprite>monsters/accessories/nutcrackerhat.xml</sprite>
   </monster>
 </monsters>

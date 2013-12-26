@@ -1302,7 +1302,7 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup name="Objects" width="320" height="320" visible="0">
+ <objectgroup name="Objects" width="320" height="320">
   <object name="To Nivalis Port" type="warp" x="6784" y="9600" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-1"/>
@@ -1848,12 +1848,12 @@
     <property name="monster_id" value="15"/>
    </properties>
   </object>
-  <object name="Bat" type="spawn" x="5760" y="8352" width="2144" height="1408">
+  <object name="Pollett" type="spawn" x="5760" y="8352" width="2144" height="1408">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="5"/>
-    <property name="monster_id" value="15"/>
+    <property name="monster_id" value="111"/>
    </properties>
   </object>
   <object name="Bat" type="spawn" x="5664" y="6176" width="1472" height="480">
