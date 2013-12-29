@@ -735,11 +735,17 @@
   </npc>
   <!-- Nutcracker -->
   <npc id="330">
-    <sprite variant="2">npcs/christmas_npcs.xml</sprite>
+    <sprite variant="0">monsters/nutcracker.xml</sprite>
+    <sprite>monsters/accessories/nutcrackerhair.xml|#333333</sprite>
+    <sprite>monsters/accessories/nutcrackerhat.xml</sprite>
   </npc>
   <!-- Santaboo -->
   <npc id="331">
-    <sprite variant="3">npcs/christmas_npcs.xml</sprite>
+    <sprite>monsters/christmas-mouboo.xml</sprite>
+    <sprite>monsters/accessories/mouboo-red-nose.xml</sprite>
+    <sprite>monsters/accessories/mouboo-red-saddle.xml</sprite>
+    <sprite>monsters/accessories/mouboo-red-shoes.xml</sprite>
+    <sprite>monsters/accessories/mouboo-santa-hat.xml</sprite>
   </npc>
   <!-- Bodyguard Elf1 -->
   <npc id="332">
@@ -948,6 +954,38 @@
   <!-- Supply Chest for South Tulimshar Mine Quest -->
   <npc id="378">
     <sprite>npcs/npc-supply-crate.xml</sprite>
+  </npc>
+  <npc id="379"
+    targetSelection="false">
+    <sprite>npcs/christmastree.xml</sprite>
+  </npc>
+  <npc id="380"
+    targetSelection="false">
+    <sprite variant="1">npcs/snowtree.xml</sprite>
+  </npc>
+  <npc id="381"
+    targetSelection="false">
+    <sprite variant="1">npcs/xmastree-nosnow.xml</sprite>
+  </npc>
+  <npc id="382"
+    targetSelection="false">
+    <sprite variant="3">npcs/tree.xml</sprite>
+  </npc>
+  <npc id="383"
+    targetSelection="false">
+    <sprite variant="3">npcs/xmas-palm.xml</sprite>
+  </npc>
+  <npc id="384"
+    targetSelection="false">
+    <sprite variant="1">npcs/palm-tree.xml</sprite>
+  </npc>
+  <!-- Young Male Wizard In Bubble -->
+  <npc id="385">
+    <sprite variant="58">npcs/npc.xml</sprite>
+    <particlefx>graphics/particles/sphere-white.particle.xml</particlefx>
+  </npc>
+  <npc id="386">
+    <sprite>npcs/present.xml|R:#ec2843;W:#1e8c1e</sprite>
   </npc>
   <!-- empty (Invisible NPC used in scripts) -->
   <!-- for npcs that shouldn't be selectable (e.g. in magic effects) use 127,

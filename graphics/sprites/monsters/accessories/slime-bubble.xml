@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<sprite>
+    <imageset name="base" src="graphics/sprites/monsters/accessories/slime-bubble.png|W" width="32" height="25" />
+    <action name="stand" imageset="base">
+        <animation>
+            <sequence start="0" end="2" offsetY="-7" delay="200"/>
+        </animation>
+    </action>
+    <action name="walk" imageset="base">
+        <animation>
+            <sequence start="0" end="2" offsetY="-7" delay="200"/>
+        </animation>
+    </action>
+    <action name="attack" imageset="base">
+        <animation>
+            <sequence start="0" end="2" offsetY="-7" delay="200"/>
+        </animation>
+    </action>
+    <action name="dead" imageset="base">
+        <animation>
+            <frame index="3" />
+        </animation>
+    </action>
+</sprite>
