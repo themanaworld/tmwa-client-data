@@ -1,84 +1,90 @@
 <?xml version="1.0"?>
 <sprite>
-    <imageset name="base" src="graphics/sprites/monsters/penguin.png" width="29" height="29" />
-    <action name="stand" imageset="base">
-        <animation direction="down">
-            <frame index="0" delay="1500" />
-            <frame index="2" delay="200" />
-        </animation>
-        <animation direction="left">
-            <frame index="44" delay="1500" />
-            <frame index="46" delay="200" />
-        </animation>
-        <animation direction="up">
-            <frame index="32" delay="1500" />
-            <frame index="34" delay="200" />
-        </animation>
-        <animation direction="right">
-            <frame index="20" delay="1500" />
-            <frame index="22" delay="200" />
-        </animation>
-        <animation direction="downleft">
-            <frame index="56" delay="1500" />
-            <frame index="58" delay="200" />
-        </animation>
-        <animation direction="downright">
-            <frame index="8" delay="1500" />
-            <frame index="10" delay="200" />
-        </animation>
-        <animation direction="upleft">
-            <frame index="40" delay="1500" />
-            <frame index="42" delay="200" />
-        </animation>
-        <animation direction="upright">
-            <frame index="24" delay="1500" />
-            <frame index="26" delay="200" />
-        </animation>
-    </action>
-    <action name="walk" imageset="base">
-        <animation direction="down">
-            <sequence start="0" end="3" delay="200" />
-        </animation>
-        <animation direction="left">
-            <sequence start="44" end="47" delay="200" />
-        </animation>
-        <animation direction="up">
-            <sequence start="32" end="35" delay="200" />
-        </animation>
-        <animation direction="right">
-            <sequence start="20" end="23" delay="200" />
-        </animation>
-        <animation direction="downleft">
-            <sequence start="56" end="59" delay="200" />
-        </animation>
-        <animation direction="downright">
-            <sequence start="8" end="11" delay="200" />
-        </animation>
-        <animation direction="upleft">
-            <sequence start="40" end="43" delay="200" />
-        </animation>
-        <animation direction="upright">
-            <sequence start="24" end="27" delay="200" />
-        </animation>
-    </action>
-    <action name="attack" imageset="base">
-        <animation direction="down">
-            <sequence start="1" end="2" delay="10" offsetY="-5" />
-        </animation>
-        <animation direction="left">
-            <sequence start="45" end="46" delay="10" offsetY="-5" />
-        </animation>
-        <animation direction="up">
-            <sequence start="33" end="34" delay="10" offsetY="-5" />
-        </animation>
-        <animation direction="right">
-            <sequence start="20" end="21" delay="10" offsetY="-5" />
-        </animation>
-    </action>
-    <action name="dead" imageset="base">
-        <animation>
-            <sequence start="0" end="63" delay="10" />
-            <frame index="0" delay="10" />
-        </animation>
-    </action>
+  <imageset name="base" src="graphics/sprites/monsters/penguin.png" width="29" height="29"/>
+  <action name="stand" imageset="base">
+    <animation direction="down">
+      <frame index="0" delay="1500"/>
+      <frame index="2" delay="200"/>
+    </animation>
+    <animation direction="left">
+      <frame index="44" delay="1500"/>
+      <frame index="46" delay="200"/>
+    </animation>
+    <animation direction="up">
+      <frame index="32" delay="1500"/>
+      <frame index="34" delay="200"/>
+    </animation>
+    <animation direction="right">
+      <frame index="20" delay="1500"/>
+      <frame index="22" delay="200"/>
+    </animation>
+    <animation direction="downleft">
+      <frame index="56" delay="1500"/>
+      <frame index="58" delay="200"/>
+    </animation>
+    <animation direction="downright">
+      <frame index="8" delay="1500"/>
+      <frame index="10" delay="200"/>
+    </animation>
+    <animation direction="upleft">
+      <frame index="40" delay="1500"/>
+      <frame index="42" delay="200"/>
+    </animation>
+    <animation direction="upright">
+      <frame index="24" delay="1500"/>
+      <frame index="26" delay="200"/>
+    </animation>
+  </action>
+  <action name="walk" imageset="base">
+    <animation direction="down">
+      <sequence start="0" end="3" delay="200"/>
+    </animation>
+    <animation direction="left">
+      <sequence start="44" end="47" delay="200"/>
+    </animation>
+    <animation direction="up">
+      <sequence start="32" end="35" delay="200"/>
+    </animation>
+    <animation direction="right">
+      <sequence start="20" end="23" delay="200"/>
+    </animation>
+    <animation direction="downleft">
+      <sequence start="56" end="59" delay="200"/>
+    </animation>
+    <animation direction="downright">
+      <sequence start="8" end="11" delay="200"/>
+    </animation>
+    <animation direction="upleft">
+      <sequence start="40" end="43" delay="200"/>
+    </animation>
+    <animation direction="upright">
+      <sequence start="24" end="27" delay="200"/>
+    </animation>
+  </action>
+  <action name="dead" imageset="base">
+    <animation direction="default">
+      <frame index="0" delay="100"/>
+      <frame index="8" delay="100"/>
+      <frame index="16" delay="100"/>
+      <frame index="24" delay="100"/>
+      <frame index="32" delay="100"/>
+      <frame index="40" delay="100"/>
+      <frame index="48" delay="100"/>
+      <frame index="56" delay="100"/>
+    </animation>
+  </action>
+  <action name="attack" imageset="base">
+    <animation direction="down">
+      <sequence start="1" end="2" delay="10" offsetY="-5"/>
+    </animation>
+    <animation direction="left">
+      <sequence start="45" end="46" delay="10" offsetY="-5"/>
+    </animation>
+    <animation direction="up">
+      <sequence start="33" end="34" delay="10" offsetY="-5"/>
+    </animation>
+    <animation direction="right">
+      <sequence start="20" end="21" delay="10" offsetY="-5"/>
+    </animation>
+  </action>
 </sprite>
