@@ -955,26 +955,32 @@
   <npc id="378">
     <sprite>npcs/npc-supply-crate.xml</sprite>
   </npc>
+  <!-- Christmas Decorated Snowy Pine Tree (HUGE) -->
   <npc id="379"
     targetSelection="false">
     <sprite>npcs/christmastree.xml</sprite>
   </npc>
+  <!-- Pine Tree 3 Tiles High -->
   <npc id="380"
     targetSelection="false">
     <sprite variant="1">npcs/snowtree.xml</sprite>
   </npc>
+  <!-- Christmas Decorated Pine Tree (LARGE)-->
   <npc id="381"
     targetSelection="false">
     <sprite variant="1">npcs/xmastree-nosnow.xml</sprite>
   </npc>
+  <!-- Green Leafs Tree 3 Tiles high -->
   <npc id="382"
     targetSelection="false">
     <sprite variant="3">npcs/tree.xml</sprite>
   </npc>
+  <!-- Christmas Decorated Palm Tree -->
   <npc id="383"
     targetSelection="false">
     <sprite variant="3">npcs/xmas-palm.xml</sprite>
   </npc>
+  <!-- Palm Tree -->
   <npc id="384"
     targetSelection="false">
     <sprite variant="1">npcs/palm-tree.xml</sprite>
@@ -986,6 +992,12 @@
   </npc>
   <npc id="386">
     <sprite>npcs/present.xml|R:#ec2843;W:#1e8c1e</sprite>
+  </npc>
+  <!-- IDs 387 - 393 reserved for Vday -->
+  <!-- Large Green Tree -->
+  <npc id="394"
+       targetSelection="false">
+    <sprite variant="1">npcs/tree-large.xml</sprite>
   </npc>
   <!-- empty (Invisible NPC used in scripts) -->
   <!-- for npcs that shouldn't be selectable (e.g. in magic effects) use 127,
