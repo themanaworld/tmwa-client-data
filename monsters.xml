@@ -554,4 +554,16 @@
     <sprite>monsters/accessories/nutcrackerhair.xml|#333333</sprite>
     <sprite>monsters/accessories/nutcrackerhat.xml</sprite>
   </monster>
+  <monster id="114" name="Undead Witch">
+    <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
+    <sprite>hairstyles/hairstyle08.xml</sprite>
+    <sprite>equipment/head/witch-hat.xml</sprite>
+    <sprite>equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#EFEFEF</sprite>
+    <sprite>weapon-staff.xml</sprite>
+    <attack id="1" missile-particle="graphics/particles/undead-witch-attack.particle.xml" action="attack"/>
+  </monster>
+  <monster id="115" name="Undead Troll">
+    <sprite>monsters/troll.xml|#BFBFBF;#F1F1F1;#FF99FF;#F1F1F1</sprite>
+    <attack id="1" missile-particle="graphics/particles/monster-undeadtroll-foefire.particle.xml" action="attack"/>
+  </monster>
 </monsters>
