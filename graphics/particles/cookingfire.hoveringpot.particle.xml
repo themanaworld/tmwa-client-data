@@ -12,7 +12,7 @@ cauldron from the woodland_indoor tileset.
       <property name="vertical-angle" min="0" max="90"/>
       <property name="power" min="0" max="0.25"/>
       <property name="gravity" value="-0.02"/>
-      <animation imageset="graphics/particles/aniblaze.png" width="8" height="8">
+      <animation imageset="graphics/particles/aniblaze.png|W:#BF0019,FF6715,FFE659" width="8" height="8">
         <sequence start="0" end="14" delay="10"/>
         <frame index="14" delay="1000"/>
       </animation>
