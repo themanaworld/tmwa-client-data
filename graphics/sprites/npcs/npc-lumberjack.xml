@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset name="base" src="graphics/sprites/npcs/npc-lumberjack.png" width="42" height="63"/>
+  <action name="stand" imageset="base">
+    <animation direction="default">
+      <!-- eyes movements -->
+      <frame index="0" delay="3000"/>
+      <frame index="1" delay="80"/>
+      <frame index="0" delay="1500"/>
+      <frame index="1" delay="80"/>
+      <frame index="0" delay="3000"/>
+      <frame index="1" delay="300"/>
+    </animation>
+  </action>
+</sprite>
