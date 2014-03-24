@@ -210,16 +210,30 @@
         weight="20"
         defense="2"
         sellProtected="true">
-        <sprite gender="male">equipment/head/santahat-male.xml</sprite>
-        <sprite gender="female">equipment/head/santahat-female.xml</sprite>
+        <sprite gender="male">equipment/head/santahat-male.xml|#580000,a40000,c02020;#87876c,bbc39c,edf4e1,ffffff</sprite>
+        <sprite gender="female">equipment/head/santahat-female.xml|#580000,a40000,c02020;#87876c,bbc39c,edf4e1,ffffff</sprite>
         <replace sprite="hair">
             <item from="-5"/>
         </replace>
         <replace direction="left" sprite="hair">
-            <item from="-6" to="-3"/>
+            <item from="-13"/>
+            <item from="-14" to="-16"/>
+            <item from="-15" to="-8"/>
         </replace>
         <replace direction="right" sprite="hair">
-            <item from="-6" to="-3"/>
+            <item from="-13"/>
+            <item from="-14" to="-16"/>
+            <item from="-15" to="-8"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-14" to="-13"/>
+            <item from="-15" to="-13"/>
+            <item from="-18" to="-6"/>
+        </replace>
+        <replace direction="downall" sprite="hair">
+            <item from="-14" to="-13"/>
+            <item from="-15" to="-13"/>
+            <item from="-9" to="-1"/>
         </replace>
     </item>
     <item id="512"
