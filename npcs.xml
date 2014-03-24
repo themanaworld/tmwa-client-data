@@ -55,7 +55,7 @@
   <npc id="105">
     <sprite>races/talponian-male.xml</sprite>
     <sprite>hairstyles/hairstyle18-male.xml|#f4f0f0,787c78</sprite>
-    <sprite>equipment/head/santahat-male.xml|</sprite>
+    <sprite>equipment/head/santahat-male.xml|#580000,a40000,c02020;#87876c,bbc39c,edf4e1,ffffff</sprite>
     <sprite>equipment/chest/tnecksweater-male.xml|#202020,c00000,d62300,e23500,e26e4b</sprite>
     <sprite>equipment/legs/pants-male.xml|#202020,c00000,d62300,e23500,e26e4b</sprite>
     <sprite variant="4">equipment/override/adult-outfits.xml</sprite>
@@ -291,7 +291,7 @@
   <!-- pirate captain-->
   <npc id="138">
     <sprite variant="24">model/unique.xml</sprite>
-    <!-- Pegleg --> 
+    <!-- Pegleg -->
   </npc>
   <!-- Girl in playboy bunny costume (Shop) -->
   <npc id="139">
@@ -368,10 +368,10 @@
   <!-- Investigator -->
   <npc id="150">
     <sprite>races/talponian-male.xml</sprite>
-    <sprite>equipment/head/bowler-hat-male.xml|#001720,001b25,003e55,035776</sprite>
+    <sprite>equipment/head/inspector-hat-male.xml|#001720,003e55,035776</sprite>
     <sprite>equipment/chest/chainmail-male.xml|#eef1c5,ffffff</sprite>
-    <sprite>equipment/chest/vnecksweater-male.xml|#001720,001b25,003e55,035776</sprite>
     <sprite>equipment/legs/pants-male.xml|#001720,001b25,003e55,035776</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml|#001720,001b25,003e55,035776</sprite>
     <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
   </npc>
   <!-- Lora Tay -->
@@ -648,7 +648,7 @@
     <sprite>races/talponian-female.xml</sprite>
     <sprite>equipment/feet/furboots-female.xml</sprite>
     <sprite>hairstyles/hairstyle08-female.xml|#994312,c55818,e46c28</sprite>
-    <sprite>equipment/head/knit-cap-female.xml</sprite>
+    <sprite>equipment/head/knit-cap-female.xml|#ff625a,ffffff;#c1352e,ff625a;#942300,d13435;</sprite>
     <sprite>equipment/legs/skirt-female.xml|#571207,6f1c0f,942300,9c2920,c1352e,d13435,ff625a</sprite>
     <sprite>equipment/chest/ugly-sweater-female.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,364c17;#49661f</sprite>
     <sprite>equipment/hands/generic-female.xml|#87876c,bbc39c,edf4e1,ffffff</sprite>
@@ -948,7 +948,7 @@
   <npc id="328">
     <sprite variant="6">races/talponian-child.xml</sprite>
     <sprite variant="9">equipment/override/child-outfits.xml</sprite>
-    <sprite variant="5">equipment/override/child-head.xml|#ed1c24,ff4e55</sprite>
+    <sprite variant="5">equipment/override/child-head.xml|#870a0f,931714,d22b27,ff422c</sprite>
   </npc>
   <!-- Cloaked Elf -->
   <npc id="329">
@@ -1048,6 +1048,7 @@
   <npc id="356">
     <sprite variant="7">races/talponian-female.xml</sprite>
     <sprite>equipment/feet/boots-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
+    <sprite>equipment/legs/pants-female.xml|#09BC09</sprite>
     <sprite>equipment/chest/sorcerer-robe-female.xml|#580000,a40000,c02020,ff6060;#09BC09</sprite>
     <sprite>equipment/head/wizard-hat-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
     <sprite>equipment/weapons/polearm-blunt-female.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
@@ -1055,6 +1056,7 @@
   <npc id="362">
     <sprite variant="7">races/talponian-male.xml</sprite>
     <sprite>equipment/feet/boots-male.xml|#212121</sprite>
+    <sprite>equipment/legs/pants-male.xml|#222255</sprite>
     <sprite>equipment/chest/sorcerer-robe-male.xml|#222255,6666ff;#2050BE</sprite>
     <sprite>hairstyles/hairstyle02-male.xml|#5b280a,994312,c55818,e46c28</sprite>
     <sprite>equipment/head/beard.xml|#5b280a,994312,c55818,e46c28</sprite>
@@ -1066,8 +1068,9 @@
     <sprite variant="7">races/talponian-female.xml</sprite>
     <sprite>equipment/feet/boots-female.xml|#212121</sprite>
     <sprite>hairstyles/hairstyle08-female.xml|#994312,c55818,e46c28</sprite>
+    <sprite>equipment/legs/pants-female.xml|#16486e,498ec5,e4f2fc</sprite>
     <sprite>equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#8000FF</sprite>
-    <sprite>equipment/head/santahat-female.xml|#16486e,498ec5,222255,6666ff;#7eafee,222255,6666ff,ffffff</sprite>
+    <sprite>equipment/head/funkywinter-female.xml</sprite>
   </npc>
   <!-- Man with short beard and white-blue clothes including cape (helper) -->
   <npc id="365">
@@ -1075,6 +1078,7 @@
     <sprite>equipment/feet/boots-male.xml|#212121</sprite>
     <sprite>hairstyles/hairstyle02-male.xml|#994312,c55818,e46c28</sprite>
     <sprite>equipment/head/beard.xml|#994312,c55818,e46c28</sprite>
+    <sprite>equipment/legs/pants-male.xml|#498ec5</sprite>
     <sprite>equipment/chest/sorcerer-robe-male.xml|#16486e,498ec5,e4f2fc;#41B3FF</sprite>
     <sprite>equipment/head/santahat-male.xml|#16486e,498ec5,e4f2fc;#7eafee,bbc39c,edf4e1,ffffff</sprite>
   </npc>
@@ -1084,6 +1088,7 @@
     <sprite>equipment/feet/boots-male.xml|#212121</sprite>
     <sprite>hairstyles/hairstyle02-male.xml|#5b280a,994312,c55818</sprite>
     <sprite>equipment/head/beard.xml|#5b280a,994312,c55818</sprite>
+    <sprite>equipment/legs/pants-male.xml|#498ec5</sprite>
     <sprite>equipment/chest/sorcerer-robe-male.xml|#222255,6666ff;#EFEFEF</sprite>
     <sprite>equipment/head/santahat-male.xml|#16486e,498ec5,e4f2fc;#7eafee,bbc39c,edf4e1,ffffff</sprite>
   </npc>
