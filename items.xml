@@ -1294,6 +1294,7 @@
         attack-action="attack_2hand"
         weight="1200"
         sellProtected="true">
+        <drawBefore name="hat" direction="left"/>
         <sprite gender="male">equipment/weapons/polearm-stab-male.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
         <sprite gender="female">equipment/weapons/polearm-stab-female.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
     </item>
@@ -1304,7 +1305,9 @@
         effect="M. Attack -24"
         type="equip-torso"
         weight="35"
-        defense="8">
+        defense="8"
+        drawBefore="pants"
+        >
         <sprite gender="male">equipment/chest/vnecksweater-male.xml|#a4b2b2,ffffff</sprite>
         <sprite gender="female">equipment/chest/vnecksweater-female.xml|#a4b2b2,ffffff</sprite>
     </item>
@@ -1707,7 +1710,10 @@
         agi="1"
         weight="5">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#5e7480,f1ffff,ffffff;#2554c7</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#5e7480,f1ffff,ffffff;#2554c7</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#5e7480,f1ffff,ffffff;#2554c7</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="650"
         image="equipment/chest/sorcerer-robe.png|W:#000000;R:#2554c7"
@@ -1719,7 +1725,10 @@
         agi="1"
         weight="5">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#000000;#2554c7</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#000000;#2554c7</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#000000;#2554c7</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="651"
         image="equipment/chest/silk-robe.png|W:#5e7480,f1ffff,ffffff"
@@ -1960,7 +1969,7 @@
         weight="23"
         sellProtected="true">
         <sprite gender="male">equipment/head/demonmask-male.xml|#d62626;#87876c,bbc39c,edf4e1,ffffff</sprite>
-        <sprite gender="female">equipment/head/demonmask-female.xml|#ffffff;#580000,c02020,dd6060</sprite>
+        <sprite gender="female">equipment/head/demonmask-female.xml|#d62626;#87876c,bbc39c,edf4e1,ffffff</sprite>
     </item>
     <item id="680"
         image="generic/herb-mauve.png|W:#e0b0ff"
@@ -2025,7 +2034,9 @@
         effect="M. Attack -4"
         type="equip-torso"
         defense="2"
-        weight="10">
+        weight="10"
+        drawBefore="pants"
+        >
         <sprite gender="male">equipment/chest/tanktop-male.xml|#a4b2b2,ffffff</sprite>
         <sprite gender="female">equipment/chest/tanktop-female.xml|#a4b2b2,ffffff</sprite>
     </item>
@@ -2036,7 +2047,9 @@
         effect="M. Attack -4"
         type="equip-torso"
         defense="2"
-        weight="8">
+        weight="8"
+        drawBefore="pants"
+        >
         <sprite gender="male">equipment/chest/shorttanktop-male.xml|#a4b2b2,ffffff</sprite>
         <sprite gender="female">equipment/chest/shorttanktop-female.xml|#a4b2b2,ffffff</sprite>
     </item>
@@ -2896,7 +2909,8 @@
         effect="M. Attack -12"
         type="equip-torso"
         weight="20"
-        defense="12">
+        defense="12"
+        drawBefore="pants">
         <sprite gender="male">equipment/chest/leather-male.xml|#573a26,c9866b,d3b79e,ffffff;#b96b3d,fbf5f1</sprite>
         <sprite gender="female">equipment/chest/leather-female.xml|#412300,c9866b,8d4900;#ffff00</sprite>
     </item>
@@ -2989,7 +3003,10 @@
         weight="5"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#87876c,bbc39c,edf4e1,ffffff;#ec0000</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#87876c,bbc39c,edf4e1,ffffff;#ec3e3e</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#87876c,bbc39c,edf4e1,ffffff;#ec3e3e</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="799"
         image="generic/mylarin-dust.png"
@@ -3419,7 +3436,7 @@
         <sprite gender="female">equipment/head/sunglasses-female.xml</sprite>
     </item>
     <item id="856"
-        image="equipment/head/knit-cap.png;"
+        image="equipment/head/knit-cap.png"
         name="Knit Cap"
         description="A knitted cap keeping your head warm in the cruel cold."
         type="equip-head"
@@ -3635,7 +3652,7 @@
         weight="900"
         missile-particle="graphics/particles/arrow-banshee.particle.xml"
         sellProtected="true">
-        <sprite>equipment/weapons/bow-banshee.xml</sprite>
+        <sprite>equipment/weapons/bow-banshee.xml|#27113e,7442a7,b498d1</sprite>
     </item>
     <item id="879"
         image="equipment/charms/heart-of-isis.png"
@@ -3926,6 +3943,16 @@
         weight="1"/>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
+    <item id="1172"
+        image="equipment/legs/silkpants.png|W:#87876c,bbc39c,edf4e1,ffffff"
+        name="Silk Pants"
+        description="A very light fancy pair of silk trousers."
+        weight="10"
+        defense="2"
+        type="equip-legs">
+        <sprite gender="male">equipment/legs/silkpants-male.xml|#87876c,bbc39c,edf4e1,ffffff</sprite>
+        <sprite gender="female">equipment/legs/silkpants-female.xml|#87876c,bbc39c,edf4e1,ffffff</sprite>
+    </item>
     <item id="1173"
         image="equipment/head/tamoshanter.png|R:#797ea8;B:#4747ac"
         name="Tam O' Shanter"
@@ -4017,7 +4044,7 @@
         weight="20"
         sellProtected="true">
         <sprite gender="male">equipment/chest/contributor-male.xml|#371444,582570,6c3a8e,78469b;#edf4e1</sprite>
-        <sprite gender="female">equipment/chest/contributor-female.xml|#371444,582570,6c3a8e,78469b;#edf4e1</sprite>
+        <sprite gender="female">equipment/chest/contributor-female.xml|#371444,582570,6c3a8e,78469b;#edffe1,ffffff</sprite>
     </item>
     <item id="1181"
         image="equipment/chest/contributor.png|W:#95752a,a08440,aa974a,b2a261;R:#95752a"
@@ -4041,7 +4068,7 @@
         weight="20"
         sellProtected="true">
         <sprite gender="male">equipment/chest/contributor-male.xml|#59191e,69261f,7b332c,904f3c;#edf4e1</sprite>
-        <sprite gender="female">equipment/chest/contributor-female.xml|#59191e,69261f,7b332c,904f3c;#edf4e1</sprite>
+        <sprite gender="female">equipment/chest/contributor-female.xml|#59191e,69261f,7b332c,904f3c;#edf4e1,fefefe</sprite>
     </item>
     <item id="1183"
         image="equipment/chest/ugly-sweater.png|W:#ffffff;Y:#b0242f,e1c130;G:#35bc40;C:#8c7223,e1c130,ffdb63"
@@ -4050,9 +4077,11 @@
         effect="M. Attack -12"
         type="equip-torso"
         defense="6"
-        weight="35">
-            <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#ffffff;#b0242f,e1c130;#35bc40;#8c7223,e1c130,ffdb63</sprite>
-            <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#ffffff;#b0242f,e1c130;#35bc40;#8c7223,e1c130,ffdb63</sprite>
+        weight="35"
+        drawBefore="pants"
+        >
+        <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#ffffff;#b0242f,e1c130;#35bc40;#8c7223,e1c130,ffdb63</sprite>
+        <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#ffffff;#b0242f,e1c130;#35bc40;#8c7223,e1c130,ffdb63</sprite>
     </item>
     <item id="1184"
         image="equipment/chest/ugly-sweater.png|W:#3f3f3f,ffffff;Y:#af5a2f,af5a2f,;G:#8ece91,ffffff;C:#578760,6daa78,92e5a2,9be8a9"
@@ -4061,7 +4090,9 @@
         effect="M. Attack -12"
         type="equip-torso"
         defense="6"
-        weight="35">
+        weight="35"
+        drawBefore="pants"
+        >
         <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,ffffff;#578760,6daa78,92e5a2,9be8a9</sprite>
         <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,ffffff;#578760,6daa78,92e5a2,9be8a9</sprite>
     </item>
@@ -4072,7 +4103,9 @@
         type="equip-torso"
         defense="5"
         weight="30"
-        sellProtected="true">
+        sellProtected="true"
+        drawBefore="pants"
+        >
         <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#000000,333333;#c44dff;#ff4df0;#a3a3a3,ffffff</sprite>
         <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#000000,333333;#c44dff;#ff4df0;#a3a3a3,ffffff</sprite>
     </item>
@@ -4083,7 +4116,9 @@
         effect="M. Attack -12"
         type="equip-torso"
         defense="6"
-        weight="35">
+        weight="35"
+        drawBefore="pants"
+        >
         <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,364c17;#49661f</sprite>
         <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,364c17;#49661f</sprite>
     </item>
@@ -4094,7 +4129,9 @@
         type="equip-torso"
         defense="5"
         weight="30"
-        sellProtected="true">
+        sellProtected="true"
+        drawBefore="pants"
+        >
         <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#ffffff;#2958b5G:#ff4df0;#a7a7a7,d6d6d6,fffffe;#2958b5,789eea,c5d8ff</sprite>
         <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#ffffff;#2958b5G:#ff4df0;#a7a7a7,d6d6d6,fffffe;#2958b5,789eea,c5d8ff</sprite>
     </item>
@@ -4923,7 +4960,9 @@
         effect="M. Attack -16"
         type="equip-torso"
         defense="8"
-        weight="35">
+        weight="35"
+        drawBefore="pants"
+        >
         <sprite gender="male">equipment/chest/vnecksweater-male.xml|#581a1a,a41111,c03a3a,ff6060</sprite>
         <sprite gender="female">equipment/chest/vnecksweater-female.xml|#581a1a,a41111,c03a3a,ff6060</sprite>
     </item>
@@ -4934,7 +4973,9 @@
         effect="M. Attack -16"
         type="equip-torso"
         defense="8"
-        weight="35">
+        weight="35"
+        drawBefore="pants"
+        >
         <sprite gender="male">equipment/chest/vnecksweater-male.xml|#255511,7ec044,92d46a,bfe3a5</sprite>
         <sprite gender="female">equipment/chest/vnecksweater-female.xml|#255511,7ec044,92d46a,bfe3a5</sprite>
     </item>
@@ -4945,7 +4986,9 @@
         effect="M. Attack -16"
         type="equip-torso"
         defense="8"
-        weight="35">
+        weight="35"
+        drawBefore="pants"
+        >
         <sprite gender="male">equipment/chest/vnecksweater-male.xml|#1a1a41,392b6e,4c529f,5d5dc2</sprite>
         <sprite gender="female">equipment/chest/vnecksweater-female.xml|#1a1a41,392b6e,4c529f,5d5dc2</sprite>
     </item>
@@ -4956,7 +4999,9 @@
         effect="M. Attack -16"
         type="equip-torso"
         defense="8"
-        weight="35">
+        weight="35"
+        drawBefore="pants"
+        >
         <sprite gender="male">equipment/chest/vnecksweater-male.xml|#846928,dab641,ffef93,fff7c9</sprite>
         <sprite gender="female">equipment/chest/vnecksweater-female.xml|#846928,dab641,ffef93,fff7c9</sprite>
     </item>
@@ -4967,7 +5012,9 @@
         effect="M. Attack -16"
         type="equip-torso"
         defense="8"
-        weight="35">
+        weight="35"
+        drawBefore="pants"
+        >
         <sprite gender="male">equipment/chest/vnecksweater-male.xml|#16486e,498ec5,e4f2fc</sprite>
         <sprite gender="female">equipment/chest/vnecksweater-female.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
@@ -4978,7 +5025,9 @@
         effect="M. Attack -16"
         type="equip-torso"
         defense="8"
-        weight="35">
+        weight="35"
+        drawBefore="pants"
+        >
         <sprite gender="male">equipment/chest/vnecksweater-male.xml|#561a3b,fe70bd,ffb8ad,ffd9d4</sprite>
         <sprite gender="female">equipment/chest/vnecksweater-female.xml|#561a3b,fe70bd,ffb8ad,ffd9d4</sprite>
     </item>
@@ -4989,7 +5038,9 @@
         effect="M. Attack -16"
         type="equip-torso"
         defense="8"
-        weight="35">
+        weight="35"
+        drawBefore="pants"
+        >
         <sprite gender="male">equipment/chest/vnecksweater-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
         <sprite gender="female">equipment/chest/vnecksweater-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
@@ -5000,7 +5051,9 @@
         effect="M. Attack -16"
         type="equip-torso"
         defense="8"
-        weight="35">
+        weight="35"
+        drawBefore="pants"
+        >
         <sprite gender="male">equipment/chest/vnecksweater-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
         <sprite gender="female">equipment/chest/vnecksweater-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
@@ -5011,7 +5064,9 @@
         effect="M. Attack -16"
         type="equip-torso"
         defense="8"
-        weight="35">
+        weight="35"
+        drawBefore="pants"
+        >
         <sprite gender="male">equipment/chest/vnecksweater-male.xml|#371444,582570,6c3a8e,78469b</sprite>
         <sprite gender="female">equipment/chest/vnecksweater-female.xml|#371444,582570,6c3a8e,78469b</sprite>
     </item>
@@ -5022,7 +5077,9 @@
         effect="M. Attack -16"
         type="equip-torso"
         defense="8"
-        weight="35">
+        weight="35"
+        drawBefore="pants"
+        >
         <sprite gender="male">equipment/chest/vnecksweater-male.xml|#104010,268026,56a743,3e9c3e</sprite>
         <sprite gender="female">equipment/chest/vnecksweater-female.xml|#104010,268026,56a743,3e9c3e</sprite>
     </item>
@@ -5254,7 +5311,8 @@
         effect="M. Attack -4"
         type="equip-torso"
         defense="2"
-        weight="12">
+        weight="12"
+        drawBefore="pants">
         <sprite gender="male">equipment/chest/tanktop-male.xml|#581a1a,a41111,c03a3a,ff6060</sprite>
         <sprite gender="female">equipment/chest/tanktop-female.xml|#581a1a,a41111,c03a3a,ff6060</sprite>
     </item>
@@ -5265,7 +5323,8 @@
         effect="M. Attack -4"
         type="equip-torso"
         defense="2"
-        weight="12">
+        weight="12"
+        drawBefore="pants">
         <sprite gender="male">equipment/chest/tanktop-male.xml|#255511,7ec044,92d46a,bfe3a5</sprite>
         <sprite gender="female">equipment/chest/tanktop-female.xml|#255511,7ec044,92d46a,bfe3a5</sprite>
     </item>
@@ -5276,7 +5335,8 @@
         effect="M. Attack -4"
         type="equip-torso"
         defense="2"
-        weight="12">
+        weight="12"
+        drawBefore="pants">
         <sprite gender="male">equipment/chest/tanktop-male.xml|#1a1a41,392b6e,4c529f,5d5dc2</sprite>
         <sprite gender="female">equipment/chest/tanktop-female.xml|#1a1a41,392b6e,4c529f,5d5dc2</sprite>
     </item>
@@ -5287,7 +5347,8 @@
         effect="M. Attack -4"
         type="equip-torso"
         defense="2"
-        weight="12">
+        weight="12"
+        drawBefore="pants">
         <sprite gender="male">equipment/chest/tanktop-male.xml|#846928,dab641,ffef93,fff7c9</sprite>
         <sprite gender="female">equipment/chest/tanktop-female.xml|#846928,dab641,ffef93,fff7c9</sprite>
     </item>
@@ -5297,7 +5358,8 @@
         effect="M. Attack -4"
         type="equip-torso"
         defense="2"
-        weight="12">
+        weight="12"
+        drawBefore="pants">
         <sprite gender="male">equipment/chest/tanktop-male.xml|#16486e,498ec5,e4f2fc</sprite>
         <sprite gender="female">equipment/chest/tanktop-female.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
@@ -5307,7 +5369,8 @@
         effect="M. Attack -4"
         type="equip-torso"
         defense="2"
-        weight="12">
+        weight="12"
+        drawBefore="pants">
         <sprite gender="male">equipment/chest/tanktop-male.xml|#561a3b,fe70bd,ffb8ad,ffd9d4</sprite>
         <sprite gender="female">equipment/chest/tanktop-female.xml|#561a3b,fe70bd,ffb8ad,ffd9d4</sprite>
     </item>
@@ -5318,7 +5381,8 @@
         effect="M. Attack -4"
         type="equip-torso"
         defense="2"
-        weight="12">
+        weight="12"
+        drawBefore="pants">
         <sprite gender="male">equipment/chest/tanktop-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
         <sprite gender="female">equipment/chest/tanktop-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
@@ -5329,7 +5393,8 @@
         effect="M. Attack -4"
         type="equip-torso"
         defense="2"
-        weight="12">
+        weight="12"
+        drawBefore="pants">
         <sprite gender="male">equipment/chest/tanktop-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
         <sprite gender="female">equipment/chest/tanktop-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
@@ -5339,7 +5404,8 @@
         effect="M. Attack -4"
         type="equip-torso"
         defense="2"
-        weight="12">
+        weight="12"
+        drawBefore="pants">
         <sprite gender="male">equipment/chest/tanktop-male.xml|#371444,582570,6c3a8e,78469b</sprite>
         <sprite gender="female">equipment/chest/tanktop-female.xml|#371444,582570,6c3a8e,78469b</sprite>
     </item>
@@ -5350,7 +5416,8 @@
         effect="M. Attack -4"
         type="equip-torso"
         defense="2"
-        weight="12">
+        weight="12"
+        drawBefore="pants">
         <sprite gender="male">equipment/chest/tanktop-male.xml|#104010,268026,56a743,3e9c3e</sprite>
         <sprite gender="female">equipment/chest/tanktop-female.xml|#104010,268026,56a743,3e9c3e</sprite>
     </item>
@@ -5583,7 +5650,8 @@
         effect="M. Attack -4"
         type="equip-torso"
         defense="2"
-        weight="8">
+        weight="8"
+        drawBefore="pants">
         <sprite gender="male">equipment/chest/shorttanktop-male.xml|#581a1a,a41111,c03a3a,ff6060</sprite>
         <sprite gender="female">equipment/chest/shorttanktop-female.xml|#581a1a,a41111,c03a3a,ff6060</sprite>
     </item>
@@ -5594,7 +5662,8 @@
         effect="M. Attack -4"
         type="equip-torso"
         defense="2"
-        weight="8">
+        weight="8"
+        drawBefore="pants">
         <sprite gender="male">equipment/chest/shorttanktop-male.xml|#255511,7ec044,92d46a,bfe3a5</sprite>
         <sprite gender="female">equipment/chest/shorttanktop-female.xml|#255511,7ec044,92d46a,bfe3a5</sprite>
     </item>
@@ -5605,7 +5674,8 @@
         effect="M. Attack -4"
         type="equip-torso"
         defense="2"
-        weight="8">
+        weight="8"
+        drawBefore="pants">
         <sprite gender="male">equipment/chest/shorttanktop-male.xml|#1a1a41,392b6e,4c529f,5d5dc2</sprite>
         <sprite gender="female">equipment/chest/shorttanktop-female.xml|#1a1a41,392b6e,4c529f,5d5dc2</sprite>
     </item>
@@ -5616,7 +5686,8 @@
         effect="M. Attack -4"
         type="equip-torso"
         defense="2"
-        weight="8">
+        weight="8"
+        drawBefore="pants">
         <sprite gender="male">equipment/chest/shorttanktop-male.xml|#846928,dab641,ffef93,fff7c9</sprite>
         <sprite gender="female">equipment/chest/shorttanktop-female.xml|#846928,dab641,ffef93,fff7c9</sprite>
     </item>
@@ -5627,7 +5698,8 @@
         effect="M. Attack -4"
         type="equip-torso"
         defense="2"
-        weight="8">
+        weight="8"
+        drawBefore="pants">
         <sprite gender="male">equipment/chest/shorttanktop-male.xml|#16486e,498ec5,e4f2fc</sprite>
         <sprite gender="female">equipment/chest/shorttanktop-female.xml|#16486e,498ec5,e4f2fc</sprite>
     </item>
@@ -5638,7 +5710,8 @@
         effect="M. Attack -4"
         type="equip-torso"
         defense="2"
-        weight="8">
+        weight="8"
+        drawBefore="pants">
         <sprite gender="male">equipment/chest/shorttanktop-male.xml|#561a3b,fe70bd,ffb8ad,ffd9d4</sprite>
         <sprite gender="female">equipment/chest/shorttanktop-female.xml|#561a3b,fe70bd,ffb8ad,ffd9d4</sprite>
     </item>
@@ -5649,7 +5722,8 @@
         effect="M. Attack -4"
         type="equip-torso"
         defense="2"
-        weight="8">
+        weight="8"
+        drawBefore="pants">
         <sprite gender="male">equipment/chest/shorttanktop-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
         <sprite gender="female">equipment/chest/shorttanktop-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     </item>
@@ -5660,7 +5734,8 @@
         effect="M. Attack -4"
         type="equip-torso"
         defense="2"
-        weight="8">
+        weight="8"
+        drawBefore="pants">
         <sprite gender="male">equipment/chest/shorttanktop-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
         <sprite gender="female">equipment/chest/shorttanktop-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
     </item>
@@ -5670,7 +5745,8 @@
         effect="M. Attack -4"
         type="equip-torso"
         defense="2"
-        weight="8">
+        weight="8"
+        drawBefore="pants">
         <sprite gender="male">equipment/chest/shorttanktop-male.xml|#371444,582570,6c3a8e,78469b</sprite>
         <sprite gender="female">equipment/chest/shorttanktop-female.xml|#371444,582570,6c3a8e,78469b</sprite>
     </item>
@@ -6845,7 +6921,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#581a1a,a41111,c03a3a,ff6060;#ec3e3e</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#581a1a,a41111,c03a3a,ff6060;#ec3e3e</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#581a1a,a41111,c03a3a,ff6060;#ec3e3e</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="2221"
         image="equipment/chest/sorcerer-robe.png|W:#255511,7ec044,92d46a,bfe3a5;R:#ec3e3e"
@@ -6858,7 +6937,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#255511,7ec044,92d46a,bfe3a5;#ec3e3e</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#255511,7ec044,92d46a,bfe3a5;#ec3e3e</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#255511,7ec044,92d46a,bfe3a5;#ec3e3e</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="2222"
         image="equipment/chest/sorcerer-robe.png|W:#1a1a41,392b6e,4c529f,5d5dc2;R:#ec3e3e"
@@ -6871,7 +6953,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#1a1a41,392b6e,4c529f,5d5dc2;#ec3e3e</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#1a1a41,392b6e,4c529f,5d5dc2;#ec3e3e</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#1a1a41,392b6e,4c529f,5d5dc2;#ec3e3e</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="2223"
         image="equipment/chest/sorcerer-robe.png|W:#846928,dab641,ffef93,fff7c9;R:#ec3e3e"
@@ -6884,7 +6969,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#846928,dab641,ffef93,fff7c9;#ec3e3e</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846928,dab641,ffef93,fff7c9;#ec3e3e</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846928,dab641,ffef93,fff7c9;#ec3e3e</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="2224"
         image="equipment/chest/sorcerer-robe.png|W:#16486e,498ec5,e4f2fc;R:#ec3e3e"
@@ -6897,7 +6985,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#16486e,498ec5,e4f2fc;#ec3e3e</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#ec3e3e</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#ec3e3e</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="2225"
         image="equipment/chest/sorcerer-robe.png|W:#561a3b,fe70bd,ffb8ad,ffd9d4;R:#ec3e3e"
@@ -6910,7 +7001,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#ec3e3e</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#ec3e3e</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#ec3e3e</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="2226"
         image="equipment/chest/sorcerer-robe.png|W:#111111,222222,333333,444444,555555,aaaaaa;R:#ec3e3e"
@@ -6923,7 +7017,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#ec3e3e</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#ec3e3e</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#ec3e3e</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="2227"
         image="equipment/chest/sorcerer-robe.png|W:#80280f,b04810,ef681f,ffb830;R:#ec3e3e"
@@ -6936,7 +7033,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#80280f,b04810,ef681f,ffb830;#ec3e3e</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#ec3e3e</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#ec3e3e</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="2228"
         image="equipment/chest/sorcerer-robe.png|W:#371444,582570,6c3a8e,78469b;R:#ec3e3e"
@@ -6949,7 +7049,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#371444,582570,6c3a8e,78469b;#ec3e3e</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#371444,582570,6c3a8e,78469b;#ec3e3e</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#371444,582570,6c3a8e,78469b;#ec3e3e</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="2229"
         image="equipment/chest/sorcerer-robe.png|W:#104010,268026,56a743,3e9c3e;R:#ec3e3e"
@@ -6962,7 +7065,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#104010,268026,56a743,3e9c3e</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,268026,56a743,3e9c3e</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,268026,56a743,3e9c3e</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
 
     <item id="2230"
@@ -7849,7 +7955,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#581a1a,a41111,c03a3a,ff6060;#09BC09</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#581a1a,a41111,c03a3a,ff6060;#09BC09</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#581a1a,a41111,c03a3a,ff6060;#09BC09</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5001"
         image="equipment/chest/sorcerer-robe.png|W:#255511,7ec044,92d46a,bfe3a5;R:#09BC09"
@@ -7862,7 +7971,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#255511,7ec044,92d46a,bfe3a5;#09BC09</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#255511,7ec044,92d46a,bfe3a5;#09BC09</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#255511,7ec044,92d46a,bfe3a5;#09BC09</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5002"
         image="equipment/chest/sorcerer-robe.png|W:#1a1a41,392b6e,4c529f,5d5dc2;R:#09BC09"
@@ -7875,7 +7987,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#1a1a41,392b6e,4c529f,5d5dc2;#09BC09</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#1a1a41,392b6e,4c529f,5d5dc2;#09BC09</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#1a1a41,392b6e,4c529f,5d5dc2;#09BC09</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5003"
         image="equipment/chest/sorcerer-robe.png|W:#846928,dab641,ffef93,fff7c9;R:#09BC09"
@@ -7888,7 +8003,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#846928,dab641,ffef93,fff7c9;#09BC09</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846928,dab641,ffef93,fff7c9;#09BC09</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846928,dab641,ffef93,fff7c9;#09BC09</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5004"
         image="equipment/chest/sorcerer-robe.png|W:#16486e,498ec5,e4f2fc;R:#09BC09"
@@ -7901,7 +8019,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#16486e,498ec5,e4f2fc;#09BC09</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#09BC09</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#09BC09</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5005"
         image="equipment/chest/sorcerer-robe.png|W:#561a3b,fe70bd,ffb8ad,ffd9d4;R:#09BC09"
@@ -7914,7 +8035,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#09BC09</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#09BC09</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#09BC09</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5006"
         image="equipment/chest/sorcerer-robe.png|W:#111111,222222,333333,444444,555555,aaaaaa;R:#09BC09"
@@ -7927,7 +8051,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#09BC09</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#09BC09</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#09BC09</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5007"
         image="equipment/chest/sorcerer-robe.png|W:#80280f,b04810,ef681f,ffb830;R:#09BC09"
@@ -7940,7 +8067,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#80280f,b04810,ef681f,ffb830;#09BC09</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#09BC09</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#09BC09</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5008"
         image="equipment/chest/sorcerer-robe.png|W:#371444,582570,6c3a8e,78469b;R:#09BC09"
@@ -7953,7 +8083,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#371444,582570,6c3a8e,78469b;#09BC09</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#371444,582570,6c3a8e,78469b;#09BC09</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#371444,582570,6c3a8e,78469b;#09BC09</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5009"
         image="equipment/chest/sorcerer-robe.png|W:#104010,268026,56a743,3e9c3e;R:#09BC09"
@@ -7966,7 +8099,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#104010,268026,56a743,3e9c3e;#09BC09</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,268026,56a743,3e9c3e;#09BC09</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,268026,56a743,3e9c3e;#09BC09</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5010"
         image="equipment/chest/sorcerer-robe.png|W:#87876c,bbc39c,edf4e1,ffffff;R:#09BC09"
@@ -7979,7 +8115,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#87876c,bbc39c,edf4e1,ffffff;#09BC09</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#87876c,bbc39c,edf4e1,ffffff;#09BC09</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#87876c,bbc39c,edf4e1,ffffff;#09BC09</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5011"
         image="equipment/chest/sorcerer-robe.png|W:#581a1a,a41111,c03a3a,ff6060;R:#2050BE"
@@ -7992,7 +8131,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#581a1a,a41111,c03a3a,ff6060;#2050BE</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#581a1a,a41111,c03a3a,ff6060;#2050BE</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#581a1a,a41111,c03a3a,ff6060;#2050BE</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5012"
         image="equipment/chest/sorcerer-robe.png|W:#255511,7ec044,92d46a,bfe3a5;R:#2050BE"
@@ -8005,7 +8147,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#255511,7ec044,92d46a,bfe3a5;#2050BE</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#255511,7ec044,92d46a,bfe3a5;#2050BE</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#255511,7ec044,92d46a,bfe3a5;#2050BE</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5013"
         image="equipment/chest/sorcerer-robe.png|W:#1a1a41,392b6e,4c529f,5d5dc2;R:#2050BE"
@@ -8018,7 +8163,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#1a1a41,392b6e,4c529f,5d5dc2;#2050BE</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#1a1a41,392b6e,4c529f,5d5dc2;#2050BE</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#1a1a41,392b6e,4c529f,5d5dc2;#2050BE</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5014"
         image="equipment/chest/sorcerer-robe.png|W:#846928,dab641,ffef93,fff7c9;R:#2050BE"
@@ -8031,7 +8179,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#846928,dab641,ffef93,fff7c9;#2050BE</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846928,dab641,ffef93,fff7c9;#2050BE</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846928,dab641,ffef93,fff7c9;#2050BE</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5015"
         image="equipment/chest/sorcerer-robe.png|W:#16486e,498ec5,e4f2fc;R:#2050BE"
@@ -8044,7 +8195,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#16486e,498ec5,e4f2fc;#2050BE</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#2050BE</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#2050BE</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5016"
         image="equipment/chest/sorcerer-robe.png|W:#561a3b,fe70bd,ffb8ad,ffd9d4;R:#2050BE"
@@ -8057,7 +8211,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#2050BE</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#2050BE</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#2050BE</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5017"
         image="equipment/chest/sorcerer-robe.png|W:#111111,222222,333333,444444,555555,aaaaaa;R:#2050BE"
@@ -8070,7 +8227,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#2050BE</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#2050BE</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#2050BE</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5018"
         image="equipment/chest/sorcerer-robe.png|W:#80280f,b04810,ef681f,ffb830;R:#2050BE"
@@ -8083,7 +8243,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#80280f,b04810,ef681f,ffb830;#2050BE</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#2050BE</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#2050BE</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5019"
         image="equipment/chest/sorcerer-robe.png|W:#371444,582570,6c3a8e,78469b;R:#2050BE"
@@ -8096,7 +8259,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#371444,582570,6c3a8e,78469b;#2050BE</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#371444,582570,6c3a8e,78469b;#2050BE</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#371444,582570,6c3a8e,78469b;#2050BE</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5020"
         image="equipment/chest/sorcerer-robe.png|W:#104010,268026,56a743,3e9c3e;R:#2050BE"
@@ -8109,7 +8275,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#104010,268026,56a743,3e9c3e;#2050BE</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,268026,56a743,3e9c3e;#2050BE</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,268026,56a743,3e9c3e;#2050BE</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5021"
         image="equipment/chest/sorcerer-robe.png|W:#87876c,bbc39c,edf4e1,ffffff;R:#2050BE"
@@ -8122,7 +8291,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#87876c,bbc39c,edf4e1,ffffff;#2050BE</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#87876c,bbc39c,edf4e1,ffffff;#2050BE</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#87876c,bbc39c,edf4e1,ffffff;#2050BE</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5022"
         image="equipment/chest/sorcerer-robe.png|W:#581a1a,a41111,c03a3a,ff6060;R:#FFF528"
@@ -8135,7 +8307,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#581a1a,a41111,c03a3a,ff6060;#FFF528</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#581a1a,a41111,c03a3a,ff6060;#FFF528</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#581a1a,a41111,c03a3a,ff6060;#FFF528</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5023"
         image="equipment/chest/sorcerer-robe.png|W:#255511,7ec044,92d46a,bfe3a5;R:#FFF528"
@@ -8148,7 +8323,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#255511,7ec044,92d46a,bfe3a5;#FFF528</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#255511,7ec044,92d46a,bfe3a5;#FFF528</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#255511,7ec044,92d46a,bfe3a5;#FFF528</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5024"
         image="equipment/chest/sorcerer-robe.png|W:#1a1a41,392b6e,4c529f,5d5dc2;R:#FFF528"
@@ -8161,7 +8339,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#1a1a41,392b6e,4c529f,5d5dc2;#FFF528</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#1a1a41,392b6e,4c529f,5d5dc2;#FFF528</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#1a1a41,392b6e,4c529f,5d5dc2;#FFF528</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5025"
         image="equipment/chest/sorcerer-robe.png|W:#846928,dab641,ffef93,fff7c9;R:#FFF528"
@@ -8174,7 +8355,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#846928,dab641,ffef93,fff7c9;#FFF528</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846928,dab641,ffef93,fff7c9;#FFF528</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846928,dab641,ffef93,fff7c9;#FFF528</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5026"
         image="equipment/chest/sorcerer-robe.png|W:#16486e,498ec5,e4f2fc;R:#FFF528"
@@ -8187,7 +8371,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#16486e,498ec5,e4f2fc;#FFF528</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#FFF528</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#FFF528</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5027"
         image="equipment/chest/sorcerer-robe.png|W:#561a3b,fe70bd,ffb8ad,ffd9d4;R:#FFF528"
@@ -8200,7 +8387,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#FFF528</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#FFF528</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#FFF528</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5028"
         image="equipment/chest/sorcerer-robe.png|W:#111111,222222,333333,444444,555555,aaaaaa;R:#FFF528"
@@ -8213,7 +8403,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#FFF528</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#FFF528</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#FFF528</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5029"
         image="equipment/chest/sorcerer-robe.png|W:#80280f,b04810,ef681f,ffb830;R:#FFF528"
@@ -8226,7 +8419,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#80280f,b04810,ef681f,ffb830;#FFF528</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#FFF528</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#FFF528</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5030"
         image="equipment/chest/sorcerer-robe.png|W:#371444,582570,6c3a8e,78469b;R:#FFF528"
@@ -8239,7 +8435,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#371444,582570,6c3a8e,78469b;#FFF528</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#371444,582570,6c3a8e,78469b;#FFF528</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#371444,582570,6c3a8e,78469b;#FFF528</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5031"
         image="equipment/chest/sorcerer-robe.png|W:#104010,268026,56a743,3e9c3e;R:#FFF528"
@@ -8252,7 +8451,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#104010,268026,56a743,3e9c3e;#FFF528</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,268026,56a743,3e9c3e;#FFF528</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,268026,56a743,3e9c3e;#FFF528</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5032"
         image="equipment/chest/sorcerer-robe.png|W:#87876c,bbc39c,edf4e1,ffffff;R:#FFF528"
@@ -8265,7 +8467,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#87876c,bbc39c,edf4e1,ffffff;#FFF528</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#87876c,bbc39c,edf4e1,ffffff;#FFF528</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#87876c,bbc39c,edf4e1,ffffff;#FFF528</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5033"
         image="equipment/chest/sorcerer-robe.png|W:#581a1a,a41111,c03a3a,ff6060;R:#41B3FF"
@@ -8278,7 +8483,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#581a1a,a41111,c03a3a,ff6060;#41B3FF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#581a1a,a41111,c03a3a,ff6060;#41B3FF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#581a1a,a41111,c03a3a,ff6060;#41B3FF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5034"
         image="equipment/chest/sorcerer-robe.png|W:#255511,7ec044,92d46a,bfe3a5;R:#41B3FF"
@@ -8291,7 +8499,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#255511,7ec044,92d46a,bfe3a5;#41B3FF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#255511,7ec044,92d46a,bfe3a5;#41B3FF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#255511,7ec044,92d46a,bfe3a5;#41B3FF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5035"
         image="equipment/chest/sorcerer-robe.png|W:#1a1a41,392b6e,4c529f,5d5dc2;R:#41B3FF"
@@ -8304,7 +8515,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#1a1a41,392b6e,4c529f,5d5dc2;#41B3FF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#1a1a41,392b6e,4c529f,5d5dc2;#41B3FF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#1a1a41,392b6e,4c529f,5d5dc2;#41B3FF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5036"
         image="equipment/chest/sorcerer-robe.png|W:#846928,dab641,ffef93,fff7c9;R:#41B3FF"
@@ -8317,7 +8531,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#846928,dab641,ffef93,fff7c9;#41B3FF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846928,dab641,ffef93,fff7c9;#41B3FF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846928,dab641,ffef93,fff7c9;#41B3FF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5037"
         image="equipment/chest/sorcerer-robe.png|W:#16486e,498ec5,e4f2fc;R:#41B3FF"
@@ -8330,7 +8547,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#16486e,498ec5,e4f2fc;#41B3FF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#41B3FF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#41B3FF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5038"
         image="equipment/chest/sorcerer-robe.png|W:#561a3b,fe70bd,ffb8ad,ffd9d4;R:#41B3FF"
@@ -8343,7 +8563,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#41B3FF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#41B3FF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#41B3FF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5039"
         image="equipment/chest/sorcerer-robe.png|W:#111111,222222,333333,444444,555555,aaaaaa;R:#41B3FF"
@@ -8356,7 +8579,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#41B3FF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#41B3FF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#41B3FF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5040"
         image="equipment/chest/sorcerer-robe.png|W:#80280f,b04810,ef681f,ffb830;R:#41B3FF"
@@ -8369,7 +8595,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#80280f,b04810,ef681f,ffb830;#41B3FF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#41B3FF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#41B3FF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5041"
         image="equipment/chest/sorcerer-robe.png|W:#371444,582570,6c3a8e,78469b;R:#41B3FF"
@@ -8382,7 +8611,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#371444,582570,6c3a8e,78469b;#41B3FF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#371444,582570,6c3a8e,78469b;#41B3FF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#371444,582570,6c3a8e,78469b;#41B3FF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5042"
         image="equipment/chest/sorcerer-robe.png|W:#104010,268026,56a743,3e9c3e;R:#41B3FF"
@@ -8395,7 +8627,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#104010,268026,56a743,3e9c3e;#41B3FF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,268026,56a743,3e9c3e;#41B3FF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,268026,56a743,3e9c3e;#41B3FF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5043"
         image="equipment/chest/sorcerer-robe.png|W:#87876c,bbc39c,edf4e1,ffffff;R:#41B3FF"
@@ -8408,7 +8643,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#87876c,bbc39c,edf4e1,ffffff;#41B3FF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#87876c,bbc39c,edf4e1,ffffff;#41B3FF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#87876c,bbc39c,edf4e1,ffffff;#41B3FF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5044"
         image="equipment/chest/sorcerer-robe.png|W:#581a1a,a41111,c03a3a,ff6060;R:#E975FD"
@@ -8421,7 +8659,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#581a1a,a41111,c03a3a,ff6060;#E975FD</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#581a1a,a41111,c03a3a,ff6060;#E975FD</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#581a1a,a41111,c03a3a,ff6060;#E975FD</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5045"
         image="equipment/chest/sorcerer-robe.png|W:#255511,7ec044,92d46a,bfe3a5;R:#E975FD"
@@ -8434,7 +8675,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#255511,7ec044,92d46a,bfe3a5;#E975FD</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#255511,7ec044,92d46a,bfe3a5;#E975FD</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#255511,7ec044,92d46a,bfe3a5;#E975FD</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5046"
         image="equipment/chest/sorcerer-robe.png|W:#1a1a41,392b6e,4c529f,5d5dc2;R:#E975FD"
@@ -8447,7 +8691,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#1a1a41,392b6e,4c529f,5d5dc2;#E975FD</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#1a1a41,392b6e,4c529f,5d5dc2;#E975FD</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#1a1a41,392b6e,4c529f,5d5dc2;#E975FD</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5047"
         image="equipment/chest/sorcerer-robe.png|W:#846928,dab641,ffef93,fff7c9;R:#E975FD"
@@ -8460,7 +8707,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#846928,dab641,ffef93,fff7c9;#E975FD</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846928,dab641,ffef93,fff7c9;#E975FD</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846928,dab641,ffef93,fff7c9;#E975FD</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5048"
         image="equipment/chest/sorcerer-robe.png|W:#16486e,498ec5,e4f2fc;R:#E975FD"
@@ -8473,7 +8723,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#16486e,498ec5,e4f2fc;#E975FD</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#E975FD</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#E975FD</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5049"
         image="equipment/chest/sorcerer-robe.png|W:#561a3b,fe70bd,ffb8ad,ffd9d4;R:#E975FD"
@@ -8486,7 +8739,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#E975FD</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#E975FD</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#E975FD</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5050"
         image="equipment/chest/sorcerer-robe.png|W:#111111,222222,333333,444444,555555,aaaaaa;R:#E975FD"
@@ -8499,7 +8755,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#E975FD</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#E975FD</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#E975FD</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5051"
         image="equipment/chest/sorcerer-robe.png|W:#80280f,b04810,ef681f,ffb830;R:#E975FD"
@@ -8512,7 +8771,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#80280f,b04810,ef681f,ffb830;#E975FD</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#E975FD</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#E975FD</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5052"
         image="equipment/chest/sorcerer-robe.png|W:#371444,582570,6c3a8e,78469b;R:#E975FD"
@@ -8525,7 +8787,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#371444,582570,6c3a8e,78469b;#E975FD</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#371444,582570,6c3a8e,78469b;#E975FD</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#371444,582570,6c3a8e,78469b;#E975FD</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5053"
         image="equipment/chest/sorcerer-robe.png|W:#104010,268026,56a743,3e9c3e;R:#E975FD"
@@ -8538,7 +8803,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#104010,268026,56a743,3e9c3e;#E975FD</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,268026,56a743,3e9c3e;#E975FD</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,268026,56a743,3e9c3e;#E975FD</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5054"
         image="equipment/chest/sorcerer-robe.png|W:#87876c,bbc39c,edf4e1,ffffff;R:#E975FD"
@@ -8551,7 +8819,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#87876c,bbc39c,edf4e1,ffffff;#E975FD</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#87876c,bbc39c,edf4e1,ffffff;#E975FD</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#87876c,bbc39c,edf4e1,ffffff;#E975FD</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5055"
         image="equipment/chest/sorcerer-robe.png|W:#581a1a,a41111,c03a3a,ff6060;R:#262626"
@@ -8564,7 +8835,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#581a1a,a41111,c03a3a,ff6060;#262626</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#581a1a,a41111,c03a3a,ff6060;#262626</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#581a1a,a41111,c03a3a,ff6060;#262626</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5056"
         image="equipment/chest/sorcerer-robe.png|W:#255511,7ec044,92d46a,bfe3a5;R:#262626"
@@ -8577,7 +8851,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#255511,7ec044,92d46a,bfe3a5;#262626</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#255511,7ec044,92d46a,bfe3a5;#262626</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#255511,7ec044,92d46a,bfe3a5;#262626</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5057"
         image="equipment/chest/sorcerer-robe.png|W:#1a1a41,392b6e,4c529f,5d5dc2;R:#262626"
@@ -8590,7 +8867,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#1a1a41,392b6e,4c529f,5d5dc2;#262626</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#1a1a41,392b6e,4c529f,5d5dc2;#262626</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#1a1a41,392b6e,4c529f,5d5dc2;#262626</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5058"
         image="equipment/chest/sorcerer-robe.png|W:#846928,dab641,ffef93,fff7c9;R:#262626"
@@ -8603,7 +8883,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#846928,dab641,ffef93,fff7c9;#262626</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846928,dab641,ffef93,fff7c9;#262626</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846928,dab641,ffef93,fff7c9;#262626</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5059"
         image="equipment/chest/sorcerer-robe.png|W:#16486e,498ec5,e4f2fc;R:#262626"
@@ -8616,7 +8899,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#16486e,498ec5,e4f2fc;#262626</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#262626</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#262626</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5060"
         image="equipment/chest/sorcerer-robe.png|W:#561a3b,fe70bd,ffb8ad,ffd9d4;R:#262626"
@@ -8629,7 +8915,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#262626</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#262626</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#262626</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5061"
         image="equipment/chest/sorcerer-robe.png|W:#111111,222222,333333,444444,555555,aaaaaa;R:#262626"
@@ -8642,7 +8931,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#262626</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#262626</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#262626</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5062"
         image="equipment/chest/sorcerer-robe.png|W:#80280f,b04810,ef681f,ffb830;R:#262626"
@@ -8655,7 +8947,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#80280f,b04810,ef681f,ffb830;#262626</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#262626</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#262626</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5063"
         image="equipment/chest/sorcerer-robe.png|W:#371444,582570,6c3a8e,78469b;R:#262626"
@@ -8668,7 +8963,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#371444,582570,6c3a8e,78469b;#262626</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#371444,582570,6c3a8e,78469b;#262626</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#371444,582570,6c3a8e,78469b;#262626</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5064"
         image="equipment/chest/sorcerer-robe.png|W:#104010,268026,56a743,3e9c3e;R:#262626"
@@ -8681,7 +8979,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#104010,268026,56a743,3e9c3e;#262626</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,268026,56a743,3e9c3e;#262626</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,268026,56a743,3e9c3e;#262626</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5065"
         image="equipment/chest/sorcerer-robe.png|W:#87876c,bbc39c,edf4e1,ffffff;R:#262626"
@@ -8694,7 +8995,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#87876c,bbc39c,edf4e1,ffffff;#262626</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#87876c,bbc39c,edf4e1,ffffff;#262626</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#87876c,bbc39c,edf4e1,ffffff;#262626</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5066"
         image="equipment/chest/sorcerer-robe.png|W:#581a1a,a41111,c03a3a,ff6060;R:#ED8200"
@@ -8707,7 +9011,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#581a1a,a41111,c03a3a,ff6060;#ED8200</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#581a1a,a41111,c03a3a,ff6060;#ED8200</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#581a1a,a41111,c03a3a,ff6060;#ED8200</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5067"
         image="equipment/chest/sorcerer-robe.png|W:#255511,7ec044,92d46a,bfe3a5;R:#ED8200"
@@ -8720,7 +9027,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#255511,7ec044,92d46a,bfe3a5;#ED8200</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#255511,7ec044,92d46a,bfe3a5;#ED8200</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#255511,7ec044,92d46a,bfe3a5;#ED8200</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5068"
         image="equipment/chest/sorcerer-robe.png|W:#1a1a41,392b6e,4c529f,5d5dc2;R:#ED8200"
@@ -8733,7 +9043,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#1a1a41,392b6e,4c529f,5d5dc2;#ED8200</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#1a1a41,392b6e,4c529f,5d5dc2;#ED8200</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#1a1a41,392b6e,4c529f,5d5dc2;#ED8200</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5069"
         image="equipment/chest/sorcerer-robe.png|W:#846928,dab641,ffef93,fff7c9;R:#ED8200"
@@ -8746,7 +9059,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#846928,dab641,ffef93,fff7c9;#ED8200</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846928,dab641,ffef93,fff7c9;#ED8200</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846928,dab641,ffef93,fff7c9;#ED8200</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5070"
         image="equipment/chest/sorcerer-robe.png|W:#16486e,498ec5,e4f2fc;R:#ED8200"
@@ -8759,7 +9075,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#16486e,498ec5,e4f2fc;#ED8200</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#ED8200</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#ED8200</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5071"
         image="equipment/chest/sorcerer-robe.png|W:#561a3b,fe70bd,ffb8ad,ffd9d4;R:#ED8200"
@@ -8772,7 +9091,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#ED8200</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#ED8200</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#ED8200</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5072"
         image="equipment/chest/sorcerer-robe.png|W:#111111,222222,333333,444444,555555,aaaaaa;R:#ED8200"
@@ -8785,7 +9107,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#ED8200</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#ED8200</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#ED8200</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5073"
         image="equipment/chest/sorcerer-robe.png|W:#80280f,b04810,ef681f,ffb830;R:#ED8200"
@@ -8798,7 +9123,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#80280f,b04810,ef681f,ffb830;#ED8200</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#ED8200</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#ED8200</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5074"
         image="equipment/chest/sorcerer-robe.png|W:#371444,582570,6c3a8e,78469b;R:#ED8200"
@@ -8811,7 +9139,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#371444,582570,6c3a8e,78469b;#ED8200</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#371444,582570,6c3a8e,78469b;#ED8200</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#371444,582570,6c3a8e,78469b;#ED8200</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5075"
         image="equipment/chest/sorcerer-robe.png|W:#104010,268026,56a743,3e9c3e;R:#ED8200"
@@ -8824,7 +9155,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#104010,268026,56a743,3e9c3e;#ED8200</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,268026,56a743,3e9c3e;#ED8200</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,268026,56a743,3e9c3e;#ED8200</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5076"
         image="equipment/chest/sorcerer-robe.png|W:#87876c,bbc39c,edf4e1,ffffff;R:#ED8200"
@@ -8837,7 +9171,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#87876c,bbc39c,edf4e1,ffffff;#ED8200</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#87876c,bbc39c,edf4e1,ffffff;#ED8200</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#87876c,bbc39c,edf4e1,ffffff;#ED8200</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5077"
         image="equipment/chest/sorcerer-robe.png|W:#581a1a,a41111,c03a3a,ff6060;R:#8000FF"
@@ -8850,7 +9187,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#581a1a,a41111,c03a3a,ff6060;#8000FF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#581a1a,a41111,c03a3a,ff6060;#8000FF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#581a1a,a41111,c03a3a,ff6060;#8000FF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5078"
         image="equipment/chest/sorcerer-robe.png|W:#255511,7ec044,92d46a,bfe3a5;R:#8000FF"
@@ -8863,7 +9203,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#255511,7ec044,92d46a,bfe3a5;#8000FF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#255511,7ec044,92d46a,bfe3a5;#8000FF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#255511,7ec044,92d46a,bfe3a5;#8000FF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5079"
         image="equipment/chest/sorcerer-robe.png|W:#1a1a41,392b6e,4c529f,5d5dc2;R:#8000FF"
@@ -8876,7 +9219,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#1a1a41,392b6e,4c529f,5d5dc2;#8000FF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#1a1a41,392b6e,4c529f,5d5dc2;#8000FF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#1a1a41,392b6e,4c529f,5d5dc2;#8000FF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5080"
         image="equipment/chest/sorcerer-robe.png|W:#846928,dab641,ffef93,fff7c9;R:#8000FF"
@@ -8889,7 +9235,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#846928,dab641,ffef93,fff7c9;#8000FF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846928,dab641,ffef93,fff7c9;#8000FF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846928,dab641,ffef93,fff7c9;#8000FF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5081"
         image="equipment/chest/sorcerer-robe.png|W:#16486e,498ec5,e4f2fc;R:#8000FF"
@@ -8902,7 +9251,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#16486e,498ec5,e4f2fc;#8000FF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#8000FF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#8000FF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5082"
         image="equipment/chest/sorcerer-robe.png|W:#561a3b,fe70bd,ffb8ad,ffd9d4;R:#8000FF"
@@ -8915,7 +9267,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#8000FF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#8000FF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#8000FF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5083"
         image="equipment/chest/sorcerer-robe.png|W:#111111,222222,333333,444444,555555,aaaaaa;R:#8000FF"
@@ -8928,7 +9283,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#8000FF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#8000FF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#8000FF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5084"
         image="equipment/chest/sorcerer-robe.png|W:#80280f,b04810,ef681f,ffb830;R:#8000FF"
@@ -8941,7 +9299,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#80280f,b04810,ef681f,ffb830;#8000FF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#8000FF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#8000FF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5085"
         image="equipment/chest/sorcerer-robe.png|W:#371444,582570,6c3a8e,78469b;R:#8000FF"
@@ -8954,7 +9315,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#371444,582570,6c3a8e,78469b;#8000FF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#371444,582570,6c3a8e,78469b;#8000FF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#371444,582570,6c3a8e,78469b;#8000FF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5086"
         image="equipment/chest/sorcerer-robe.png|W:#104010,268026,56a743,3e9c3e;R:#8000FF"
@@ -8967,7 +9331,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#104010,268026,56a743,3e9c3e;#8000FF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,268026,56a743,3e9c3e;#8000FF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,268026,56a743,3e9c3e;#8000FF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5087"
         image="equipment/chest/sorcerer-robe.png|W:#87876c,bbc39c,edf4e1,ffffff;R:#8000FF"
@@ -8980,7 +9347,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#87876c,bbc39c,edf4e1,ffffff;#8000FF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#87876c,bbc39c,edf4e1,ffffff;#8000FF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#87876c,bbc39c,edf4e1,ffffff;#8000FF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5088"
         image="equipment/chest/sorcerer-robe.png|W:#581a1a,a41111,c03a3a,ff6060;R:#2B9D27"
@@ -8993,7 +9363,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#581a1a,a41111,c03a3a,ff6060;#2B9D27</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#581a1a,a41111,c03a3a,ff6060;#2B9D27</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#581a1a,a41111,c03a3a,ff6060;#2B9D27</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5089"
         image="equipment/chest/sorcerer-robe.png|W:#255511,7ec044,92d46a,bfe3a5;R:#2B9D27"
@@ -9006,7 +9379,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#255511,7ec044,92d46a,bfe3a5;#2B9D27</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#255511,7ec044,92d46a,bfe3a5;#2B9D27</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#255511,7ec044,92d46a,bfe3a5;#2B9D27</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5090"
         image="equipment/chest/sorcerer-robe.png|W:#1a1a41,392b6e,4c529f,5d5dc2;R:#2B9D27"
@@ -9019,7 +9395,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#1a1a41,392b6e,4c529f,5d5dc2;#2B9D27</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#1a1a41,392b6e,4c529f,5d5dc2;#2B9D27</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#1a1a41,392b6e,4c529f,5d5dc2;#2B9D27</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5091"
         image="equipment/chest/sorcerer-robe.png|W:#846928,dab641,ffef93,fff7c9;R:#2B9D27"
@@ -9032,7 +9411,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#846928,dab641,ffef93,fff7c9;#2B9D27</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846928,dab641,ffef93,fff7c9;#2B9D27</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846928,dab641,ffef93,fff7c9;#2B9D27</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5092"
         image="equipment/chest/sorcerer-robe.png|W:#16486e,498ec5,e4f2fc;R:#2B9D27"
@@ -9045,7 +9427,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#16486e,498ec5,e4f2fc;#2B9D27</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#2B9D27</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#2B9D27</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5093"
         image="equipment/chest/sorcerer-robe.png|W:#561a3b,fe70bd,ffb8ad,ffd9d4;R:#2B9D27"
@@ -9058,7 +9443,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#2B9D27</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#2B9D27</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#2B9D27</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5094"
         image="equipment/chest/sorcerer-robe.png|W:#111111,222222,333333,444444,555555,aaaaaa;R:#2B9D27"
@@ -9071,7 +9459,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#2B9D27</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#2B9D27</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#2B9D27</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5095"
         image="equipment/chest/sorcerer-robe.png|W:#80280f,b04810,ef681f,ffb830;R:#2B9D27"
@@ -9084,7 +9475,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#80280f,b04810,ef681f,ffb830;#2B9D27</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#2B9D27</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#2B9D27</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5096"
         image="equipment/chest/sorcerer-robe.png|W:#371444,582570,6c3a8e,78469b;R:#2B9D27"
@@ -9097,7 +9491,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#371444,582570,6c3a8e,78469b;#2B9D27</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#371444,582570,6c3a8e,78469b;#2B9D27</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#371444,582570,6c3a8e,78469b;#2B9D27</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5097"
         image="equipment/chest/sorcerer-robe.png|W:#104010,268026,56a743,3e9c3e;R:#2B9D27"
@@ -9110,7 +9507,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#104010,268026,56a743,3e9c3e;#2B9D27</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,268026,56a743,3e9c3e;#2B9D27</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,268026,56a743,3e9c3e;#2B9D27</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5098"
         image="equipment/chest/sorcerer-robe.png|W:#87876c,bbc39c,edf4e1,ffffff;R:#2B9D27"
@@ -9123,7 +9523,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#87876c,bbc39c,edf4e1,ffffff;#2B9D27</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#87876c,bbc39c,edf4e1,ffffff;#2B9D27</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#87876c,bbc39c,edf4e1,ffffff;#2B9D27</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5099"
         image="equipment/chest/sorcerer-robe.png|W:#581a1a,a41111,c03a3a,ff6060;R:#EFEFEF"
@@ -9136,7 +9539,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#581a1a,a41111,c03a3a,ff6060;#EFEFEF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#581a1a,a41111,c03a3a,ff6060;#EFEFEF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#581a1a,a41111,c03a3a,ff6060;#EFEFEF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5100"
         image="equipment/chest/sorcerer-robe.png|W:#255511,7ec044,92d46a,bfe3a5;R:#EFEFEF"
@@ -9149,7 +9555,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#255511,7ec044,92d46a,bfe3a5;#EFEFEF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#255511,7ec044,92d46a,bfe3a5;#EFEFEF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#255511,7ec044,92d46a,bfe3a5;#EFEFEF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5101"
         image="equipment/chest/sorcerer-robe.png|W:#1a1a41,392b6e,4c529f,5d5dc2;R:#EFEFEF"
@@ -9162,7 +9571,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#1a1a41,392b6e,4c529f,5d5dc2;#EFEFEF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#1a1a41,392b6e,4c529f,5d5dc2;#EFEFEF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#1a1a41,392b6e,4c529f,5d5dc2;#EFEFEF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5102"
         image="equipment/chest/sorcerer-robe.png|W:#846928,dab641,ffef93,fff7c9;R:#EFEFEF"
@@ -9175,7 +9587,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#846928,dab641,ffef93,fff7c9;#EFEFEF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846928,dab641,ffef93,fff7c9;#EFEFEF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846928,dab641,ffef93,fff7c9;#EFEFEF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5103"
         image="equipment/chest/sorcerer-robe.png|W:#16486e,498ec5,e4f2fc;R:#EFEFEF"
@@ -9188,7 +9603,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#16486e,498ec5,e4f2fc;#EFEFEF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#EFEFEF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#EFEFEF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5104"
         image="equipment/chest/sorcerer-robe.png|W:#561a3b,fe70bd,ffb8ad,ffd9d4;R:#EFEFEF"
@@ -9201,7 +9619,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#EFEFEF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#EFEFEF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#561a3b,fe70bd,ffb8ad,ffd9d4;#EFEFEF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5105"
         image="equipment/chest/sorcerer-robe.png|W:#111111,222222,333333,444444,555555,aaaaaa;R:#EFEFEF"
@@ -9214,7 +9635,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#111111,222222,333333,444444,555555,aaaaaa;#EFEFEF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#EFEFEF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#EFEFEF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5106"
         image="equipment/chest/sorcerer-robe.png|W:#80280f,b04810,ef681f,ffb830;R:#EFEFEF"
@@ -9227,7 +9651,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#80280f,b04810,ef681f,ffb830;#EFEFEF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#EFEFEF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#EFEFEF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5107"
         image="equipment/chest/sorcerer-robe.png|W:#371444,582570,6c3a8e,78469b;R:#EFEFEF"
@@ -9240,7 +9667,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#371444,582570,6c3a8e,78469b;#EFEFEF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#371444,582570,6c3a8e,78469b;#EFEFEF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#371444,582570,6c3a8e,78469b;#EFEFEF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5108"
         image="equipment/chest/sorcerer-robe.png|W:#104010,268026,56a743,3e9c3e;R:#EFEFEF"
@@ -9253,7 +9683,10 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#104010,268026,56a743,3e9c3e;#EFEFEF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,268026,56a743,3e9c3e;#EFEFEF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#104010,268026,56a743,3e9c3e;#EFEFEF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
     <item id="5109"
         image="equipment/chest/sorcerer-robe.png|W:#87876c,bbc39c,edf4e1,ffffff;R:#EFEFEF"
@@ -9266,6 +9699,9 @@
         weight="30"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#87876c,bbc39c,edf4e1,ffffff;#EFEFEF</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#87876c,bbc39c,edf4e1,ffffff;#EFEFEF</sprite>
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#87876c,bbc39c,edf4e1,ffffff;#EFEFEF</sprite>        <replace sprite="pants">
+
+            <item from="1172" to="648"/>
+        </replace>
     </item>
 </items>
