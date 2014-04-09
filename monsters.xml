@@ -217,7 +217,7 @@
   </monster>
   <monster id="42" name="Lady Skeleton">
     <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
-    <sprite>hairstyles/hairstyle08.xml</sprite>
+    <sprite>hairstyles/hairstyle08-male.xml</sprite>
   </monster>
   <monster id="43" name="Fallen">
     <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
@@ -296,11 +296,11 @@
   </monster>
   <monster id="62" name="Bandit">
     <sprite>monsters/bandit.xml</sprite>
-    <sprite>monsters/accessories/weapon-dagger.xml</sprite>
+    <sprite>equipment/weapons/dagger.xml</sprite>
   </monster>
   <monster id="63" name="Bandit Lord">
     <sprite>monsters/bandit-lord.xml</sprite>
-    <sprite>monsters/accessories/weapon-bow.xml</sprite>
+    <sprite>equipment/weapons/bow.xml</sprite>
     <attack id="1" missile-particle="graphics/particles/arrow.particle.xml" action="attack"/>
   </monster>
   <monster id="64" name="Vampire Bat">
@@ -357,10 +357,10 @@
   </monster>
   <monster id="77" name="Drunken Lady Skeleton">
     <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
-    <sprite>hairstyles/hairstyle08.xml</sprite>
-    <sprite>equipment/legs/skirt.xml|#3f221d,754d23,f5cea4</sprite>
+    <sprite>hairstyles/hairstyle08-male.xml</sprite>
+    <sprite>equipment/legs/skirt-female.xml|#3f221d,754d23,f5cea4</sprite>
     <sprite>equipment/chest/shorttanktop-female.xml|#3f221d,754d23,f5cea4</sprite>
-    <sprite>equipment/head/heart-glasses.xml</sprite>
+    <sprite>equipment/head/heart-glasses-male.xml</sprite>
   </monster>
   <monster id="78" name="Blue Spark">
     <sprite>monsters/ball-lightning.xml</sprite>
@@ -454,7 +454,7 @@
     <sprite>monsters/skeleton.xml|#D9BFFF</sprite>
     <sprite>equipment/chest/tanktop-male.xml|#333333,555555,444444</sprite>
     <sprite>equipment/legs/shorts-male.xml|#333333,555555,444444</sprite>
-    <sprite>hairstyles/hairstyle05.xml|#333333</sprite>
+    <sprite>hairstyles/hairstyle05-male.xml|#333333</sprite>
     <particlefx>graphics/particles/monster-souleater.particle.xml</particlefx>
   </monster>
   <monster id="96" name="Copper Slime">
@@ -464,7 +464,7 @@
   </monster>
   <monster id="97" name="Sleeping Bandit">
     <sprite>monsters/sleeping-bandit.xml</sprite>
-    <sprite>monsters/accessories/weapon-dagger.xml</sprite>
+    <sprite>equipment/weapons/dagger.xml</sprite>
   </monster>
   <monster id="98" name="Azul Slime">
     <sprite>monsters/slime-littleslime.xml|#3080e4,d2f4ff</sprite>
@@ -474,11 +474,11 @@
     <sprite>monsters/spirit-demonic.xml|#444444,9933ff</sprite>
   </monster>
   <monster id="100" name="Luvia">
-    <sprite>player_female_base.xml</sprite>
+    <sprite>base/female.xml</sprite>
     <sprite>equipment/feet/assassin-boots-female.xml</sprite>
     <sprite>equipment/legs/shorts-female.xml|#121212,343434</sprite>
     <sprite>equipment/chest/sorcerer-robe-female.xml|#121212,343434;#8F47D6</sprite>
-    <sprite>hairstyles/hairstyle11.xml|#8c6625,dab425,ffffff</sprite>
+    <sprite>hairstyles/hairstyle11-female.xml|#8c6625,dab425,ffffff</sprite>
     <sprite>equipment/head/wizard-hat.xml|#070707,121212,663399</sprite>
     <particlefx>graphics/particles/monster-luvia.particle.xml</particlefx>
     <attack id="1" critical-hit-effect-id="42" missile-particle="graphics/particles/luvia-attack.particle.xml" action="attack"/>
@@ -490,7 +490,7 @@
     <sprite>equipment/chest/demonwarlordplate-male.xml|#444444,979797</sprite>
     <sprite>equipment/head/bull.xml</sprite>
     <particlefx>graphics/particles/monster-witchguard.particle.xml</particlefx>
-    <sprite>weapon-witchguard-gladius.xml</sprite>
+    <sprite>equipment/weapons/witchguard-gladius.xml</sprite>
   </monster>
   <monster id="102" name="Demonic Mouboo">
     <sprite>monsters/mouboo-demonic.xml</sprite>
@@ -556,10 +556,10 @@
   </monster>
   <monster id="114" name="Undead Witch">
     <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
-    <sprite>hairstyles/hairstyle08.xml</sprite>
+    <sprite>hairstyles/hairstyle08-male.xml</sprite>
     <sprite>equipment/head/witch-hat.xml</sprite>
     <sprite>equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#EFEFEF</sprite>
-    <sprite>weapon-staff.xml</sprite>
+    <sprite>equipment/weapons/polearm-blunt-male.xml</sprite>
     <attack id="1" missile-particle="graphics/particles/undead-witch-attack.particle.xml" action="attack"/>
   </monster>
   <monster id="115" name="Undead Troll">
