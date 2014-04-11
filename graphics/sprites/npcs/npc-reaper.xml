@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset name="base" src="graphics/sprites/monsters/reaper.png" width="100" height="100"/>
+  <action name="stand" imageset="base">
+    <animation direction="default">
+      <!-- reaper float -->
+      <frame index="25" delay="300"/>
+      <frame index="25" delay="300" offsetY="-1"/>
+      <frame index="25" delay="300" offsetY="-2"/>
+      <frame index="25" delay="300" offsetY="-1"/>
+    </animation>
+  </action>
+</sprite>

@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <status-effects>
   <status-effect name="item-healing" id="70" block-id="24" persistent-particle-effect="true" start-particle="graphics/particles/circle.particle.xml"/>
-  <status-effect name="speed" id="37" block-id="21" icon="icon-haste-potion.xml" persistent-particle-effect="true" start-particle="graphics/particles/pink-violent-glow.particle.xml"/>
-  <status-effect name="strength" id="185" block-id="23" icon="icon-iron-potion.xml" persistent-particle-effect="true" start-particle="graphics/particles/orange-violent-glow.particle.xml"/>
-  <status-effect name="invisibility" id="4096" block-id="12" icon="icon-invisible.xml" start-message="You are now invisible." end-message="You are no longer invisible." persistent-particle-effect="true" start-particle="graphics/particles/sphere-white.particle.xml"/>
-  <status-effect name="poison" id="132" block-id="16" icon="icon-poison.xml" persistent-particle-effect="true" start-particle="graphics/particles/green-bubbles.particle.xml"/>
-  <status-effect name="slow-poison" id="14" block-id="25" icon="icon-slow-poison.xml" persistent-particle-effect="true" start-particle="graphics/particles/small-green-bubbles.particle.xml"/>
-  <status-effect name="dark-aura" id="2004" block-id="26" icon="icon-poison.xml" persistent-particle-effect="true" start-particle="graphics/particles/dark-aura.particle.xml"/>
-  <status-effect name="hide" id="194" icon="icon-hidden.xml"/>
-  <status-effect name="flying-backpack" id="196" icon="icon-feather.xml"/>
-  <status-effect name="barrier" id="197" icon="icon-green-barrier.xml"/>
-  <status-effect name="phys-shield" id="199" icon="icon-red-rotating-hex.xml"/>
-  <status-effect name="spell-attack-generic" id="2000" icon="icon-spell-attack-generic.xml"/>
-  <status-effect name="spell-shearing" id="2001" icon="icon-spell-shearing.xml"/>
-  <status-effect name="spell-protection-generic" id="2002" icon="icon-spell-protection-generic.xml"/>
-  <status-effect name="spell-haste" id="2003" icon="icon-spell-haste.xml"/>
+  <status-effect name="speed" id="37" block-id="21" icon="icons/haste-potion.xml" persistent-particle-effect="true" start-particle="graphics/particles/pink-violent-glow.particle.xml"/>
+  <status-effect name="strength" id="185" block-id="23" icon="icons/iron-potion.xml" persistent-particle-effect="true" start-particle="graphics/particles/orange-violent-glow.particle.xml"/>
+  <status-effect name="invisibility" id="4096" block-id="12" icon="icons/invisible.xml" start-message="You are now invisible." end-message="You are no longer invisible." persistent-particle-effect="true" start-particle="graphics/particles/sphere-white.particle.xml"/>
+  <status-effect name="poison" id="132" block-id="16" icon="icons/poison.xml" persistent-particle-effect="true" start-particle="graphics/particles/green-bubbles.particle.xml"/>
+  <status-effect name="slow-poison" id="14" block-id="25" icon="icons/slow-poison.xml" persistent-particle-effect="true" start-particle="graphics/particles/small-green-bubbles.particle.xml"/>
+  <status-effect name="dark-aura" id="2004" block-id="26" icon="icons/poison.xml" persistent-particle-effect="true" start-particle="graphics/particles/dark-aura.particle.xml"/>
+  <status-effect name="hide" id="194" icon="icons/hidden.xml"/>
+  <status-effect name="flying-backpack" id="196" icon="icons/feather.xml"/>
+  <status-effect name="barrier" id="197" icon="icons/green-barrier.xml"/>
+  <status-effect name="phys-shield" id="199" icon="icons/red-rotating-hex.xml"/>
+  <status-effect name="spell-attack-generic" id="2000" icon="icons/spell-attack-generic.xml"/>
+  <status-effect name="spell-shearing" id="2001" icon="icons/spell-shearing.xml"/>
+  <status-effect name="spell-protection-generic" id="2002" icon="icons/spell-protection-generic.xml"/>
+  <status-effect name="spell-haste" id="2003" icon="icons/spell-haste.xml"/>
 </status-effects>
