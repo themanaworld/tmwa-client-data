@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--
+A geysir which appears at regular intervals and becomes stronger and weaker.
+An example of changing emitters.
+-->
+<effect>
+  <particle position-x="-30" position-y="80" position-z="0">
+    <emitter>
+      <property name="output" value="2" change-func="sine" change-amplitude="3" change-period="900"/>
+      <property name="power" min="1.5" max="2.5" change-func="sine" change-amplitude="3" change-period="900"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="85" max="90"/>
+      <property name="image" value="graphics/particles/orb-medium.png|W:#b30505,f70707"/>
+      <property name="gravity" value="0.1"/>
+    </emitter>
+  </particle>
+  <particle position-x="200" position-y="200" position-z="0">
+    <emitter>
+      <property name="output" value="2" change-func="sine" change-amplitude="3" change-period="1200"/>
+      <property name="power" min="1.5" max="2.5" change-func="sine" change-amplitude="3" change-period="1200"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="85" max="90"/>
+      <property name="image" value="graphics/particles/orb-medium.png|W:#b30505,f70707"/>
+      <property name="gravity" value="0.1"/>
+    </emitter>
+  </particle>
+  <particle position-x="200" position-y="50" position-z="0">
+    <emitter>
+      <property name="output" value="2" change-func="sine" change-amplitude="3" change-period="600"/>
+      <property name="power" min="1.5" max="2.5" change-func="sine" change-amplitude="3" change-period="600"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="85" max="90"/>
+      <property name="image" value="graphics/particles/orb-medium.png|W:#b30505,f70707"/>
+      <property name="gravity" value="0.1"/>
+    </emitter>
+  </particle>
+</effect>
