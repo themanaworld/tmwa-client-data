@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset height="64" name="base" src="graphics/sprites/equipment/head/jestermask.png" width="64"/>
+  <action imageset="base" name="stand">
+    <animation direction="down">
+      <frame index="0"/>
+    </animation>
+    <animation direction="left">
+      <frame index="18"/>
+    </animation>
+    <animation direction="up">
+      <frame index="36"/>
+    </animation>
+    <animation direction="right">
+      <frame index="54"/>
+    </animation>
+  </action>
+  <action imageset="base" name="walk">
+    <animation direction="down">
+      <sequence delay="75" end="6" start="1"/>
+    </animation>
+    <animation direction="left">
+      <sequence delay="75" end="24" start="19"/>
+    </animation>
+    <animation direction="up">
+      <sequence delay="75" end="42" start="37"/>
+    </animation>
+    <animation direction="right">
+      <sequence delay="75" end="60" start="55"/>
+    </animation>
+  </action>
+  <action imageset="base" name="sit">
+    <animation direction="down">
+      <frame index="7"/>
+    </animation>
+    <animation direction="left">
+      <frame index="25"/>
+    </animation>
+    <animation direction="up">
+      <frame index="43"/>
+    </animation>
+    <animation direction="right">
+      <frame index="61"/>
+    </animation>
+  </action>
+  <action imageset="base" name="dead">
+    <animation direction="down">
+      <frame index="8"/>
+    </animation>
+    <animation direction="left">
+      <frame index="26"/>
+    </animation>
+    <animation direction="up">
+      <frame index="44"/>
+    </animation>
+    <animation direction="right">
+      <frame index="62"/>
+    </animation>
+  </action>
+  <action imageset="base" name="attack">
+    <animation direction="down">
+      <sequence delay="75" end="12" start="9"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <sequence delay="75" end="30" start="27"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <sequence delay="75" end="48" start="45"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <sequence delay="75" end="66" start="63"/>
+      <end/>
+    </animation>
+  </action>
+  <action imageset="base" name="attack_bow">
+    <animation direction="down">
+      <sequence delay="75" end="17" start="13"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <sequence delay="75" end="35" start="31"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <sequence delay="75" end="53" start="49"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <sequence delay="75" end="71" start="67"/>
+      <end/>
+    </animation>
+  </action>
+  <action name="attack_2hand" imageset="base">
+    <animation direction="down">
+      <end/>
+    </animation>
+    <animation direction="left">
+      <end/>
+    </animation>
+    <animation direction="up">
+      <end/>
+    </animation>
+    <animation direction="right">
+      <end/>
+    </animation>
+  </action>
+  <action name="attack_sword_stab" imageset="base">
+    <animation direction="down">
+      <end/>
+    </animation>
+    <animation direction="left">
+      <end/>
+    </animation>
+    <animation direction="up">
+      <end/>
+    </animation>
+    <animation direction="right">
+      <end/>
+    </animation>
+  </action>
+  <action name="attack_spear" imageset="base">
+    <animation direction="down">
+      <end/>
+    </animation>
+    <animation direction="left">
+      <end/>
+    </animation>
+    <animation direction="up">
+      <end/>
+    </animation>
+    <animation direction="right">
+      <end/>
+    </animation>
+  </action>
+  <action name="attack_chop" imageset="base">
+    <animation direction="down">
+      <end/>
+    </animation>
+    <animation direction="left">
+      <end/>
+    </animation>
+    <animation direction="up">
+      <end/>
+    </animation>
+    <animation direction="right">
+      <end/>
+    </animation>
+  </action>
+</sprite>
