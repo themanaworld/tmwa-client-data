@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <sprite>
-  <imageset name="base" src="graphics/sprites/equipment/head/silkheadband.png" width="40" height="40"/>
+  <imageset name="base" src="graphics/sprites/equipment/head/silkheadband.png|W" width="40" height="40"/>
   <action name="stand" imageset="base">
     <animation direction="down">
       <frame index="0" offsetX="0" offsetY="-29"/>
@@ -43,7 +43,7 @@
       <frame index="3" offsetX="0" offsetY="-29" delay="75"/>
     </animation>
   </action>
-  <action name="attack" imageset="base">
+  <action name="attack_dagger_stab" imageset="base">
     <animation direction="down">
       <frame index="0" offsetX="0" offsetY="-27" delay="75"/>
       <frame index="0" offsetX="0" offsetY="-28" delay="75"/>

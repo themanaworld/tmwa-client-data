@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<sprite variants="6" variant_offset="1">
+  <imageset name="base" src="graphics/sprites/equipment/override/child-head.png|W;R;" width="30" height="30"/>
+  <action name="stand" imageset="base">
+    <animation direction="down">
+      <frame index="0" offsetX="0" offsetY="-37"/>
+    </animation>
+  </action>
+</sprite>

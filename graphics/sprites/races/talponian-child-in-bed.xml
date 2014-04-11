@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<sprite variants="7" variant_offset="1">
+  <imageset name="base" src="graphics/sprites/model/child.png|W:#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;B:#2f312f,727471,a4a6a3,dad5f5;R:#3a3a3a,d5d5d5;" width="30" height="65"/>
+  <action name="stand" imageset="base">
+    <animation direction="default">
+      <frame index="0" offsetX="14" offsetY="3"/>
+    </animation>
+  </action>
+</sprite>
