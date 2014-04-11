@@ -10,14 +10,14 @@
   <property name="overlay0scrollY" value="0.1"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
- <tileset firstgid="3" source="../tilesets/Woodland_ground.tsx"/>
- <tileset firstgid="259" source="../tilesets/Woodland_x2.tsx"/>
- <tileset firstgid="291" source="../tilesets/Woodland_x3.tsx"/>
- <tileset firstgid="323" source="../tilesets/Woodland_village.tsx"/>
- <tileset firstgid="579" source="../tilesets/Woodland_x5.tsx"/>
- <tileset firstgid="595" source="../tilesets/Woodland_x8.tsx"/>
- <tileset firstgid="611" source="../tilesets/Woodland_village.tsx"/>
- <layer name="Ground" width="116" height="97">
+ <tileset firstgid="3" source="../tilesets/woodland_ground.tsx"/>
+ <tileset firstgid="259" source="../tilesets/woodland_x2.tsx"/>
+ <tileset firstgid="291" source="../tilesets/woodland_x3.tsx"/>
+ <tileset firstgid="323" source="../tilesets/woodland_village.tsx"/>
+ <tileset firstgid="579" source="../tilesets/woodland_x5.tsx"/>
+ <tileset firstgid="595" source="../tilesets/woodland_x8.tsx"/>
+ <tileset firstgid="611" source="../tilesets/woodland_village.tsx"/>
+ <layer name="Ground1" width="116" height="97">
   <data encoding="csv">
 19,76,77,78,19,19,19,19,181,182,212,229,19,19,19,19,19,199,19,19,19,19,19,181,182,183,183,212,198,199,228,214,215,215,215,215,244,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,
 19,108,109,110,19,181,182,183,212,214,244,19,19,19,19,19,19,199,185,19,181,182,183,212,198,199,199,228,214,215,244,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,
@@ -421,7 +421,7 @@
 0,0,0,0,0,0,0,0,0,0,0,291,292,0,0,0,0,293,294,291,292,0,291,292,0,0,0,0,291,292,293,294,293,294,0,0,291,292,0,291,292,291,292,0,0,0,0,0,291,292,0,0,0,0,291,292,0,0,0,0,291,292,0,291,292,0,0,0,0,0,0,0,0,291,292,0,0,0,0,0,0,0,0,0,0,0,291,292,0,291,292,291,292,293,294,0,0,0,293,294,0,291,292,0,0,291,292,0,0,0,0,293,294,291,292,291
 </data>
  </layer>
- <layer name="Over" width="116" height="97">
+ <layer name="Over1" width="116" height="97">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,134,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,135,0,134,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -724,7 +724,7 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup name="Objects" width="116" height="97" visible="0">
+ <objectgroup name="Objects" visible="0">
   <object name="To Woodland Hills" type="warp" x="2368" y="2432" width="32" height="32">
    <properties>
     <property name="dest_map" value="055-1"/>
