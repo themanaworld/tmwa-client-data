@@ -2,17 +2,17 @@
 <map version="1.0" orientation="orthogonal" width="138" height="128" tilewidth="32" tileheight="32">
  <properties>
   <property name="music" value="Explorers-melody.ogg"/>
-  <property name="name" value="Snow Path"/>
+  <property name="name" value="snow Path"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
- <tileset firstgid="3" source="../tilesets/Snow.tsx"/>
- <tileset firstgid="259" source="../tilesets/Snow_x2.tsx"/>
- <tileset firstgid="275" source="../tilesets/Snow_tree_x3.tsx"/>
- <tileset firstgid="279" source="../tilesets/Snow_village2.tsx"/>
- <tileset firstgid="535" source="../tilesets/Snow_ground.tsx"/>
- <tileset firstgid="612" source="../tilesets/barbarians-outdoor.tsx"/>
- <tileset firstgid="615" source="../tilesets/barbarians-yurt_x4.tsx"/>
- <layer name="Ground" width="138" height="128">
+ <tileset firstgid="3" source="../tilesets/snow.tsx"/>
+ <tileset firstgid="259" source="../tilesets/snow_x2.tsx"/>
+ <tileset firstgid="275" source="../tilesets/snow_tree_x3.tsx"/>
+ <tileset firstgid="279" source="../tilesets/snow_village2.tsx"/>
+ <tileset firstgid="535" source="../tilesets/snow_ground.tsx"/>
+ <tileset firstgid="612" source="../tilesets/barbarians_outdoor.tsx"/>
+ <tileset firstgid="615" source="../tilesets/barbarians_yurt_x4.tsx"/>
+ <layer name="Ground1" width="138" height="128">
   <data encoding="csv">
 86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,
 86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,
@@ -408,7 +408,7 @@
 0,0,276,0,0,0,0,0,0,0,0,275,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,276,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,0
 </data>
  </layer>
- <layer name="Over" width="138" height="128">
+ <layer name="Over1" width="138" height="128">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -804,7 +804,7 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup name="Objects" width="138" height="128" visible="0">
+ <objectgroup name="Objects" visible="0">
   <object name="To Snow Forest" type="warp" x="704" y="608" width="32" height="64">
    <properties>
     <property name="dest_map" value="034-1"/>
