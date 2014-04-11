@@ -8,181 +8,303 @@
     IDs 100-199 should be used for unanimated NPCs (100 is added for 0.0 client compatibility)
 -->
 <npcs>
-  <!-- Storage Master -->
-  <npc id="48">
-    <sprite variant="61">npcs/npc.xml</sprite>
-  </npc>
-  <!-- Storage Master (desert) -->
-  <npc id="49">
-    <sprite variant="49">npcs/npc.xml</sprite>
-  </npc>
   <!-- Desert Barber -->
   <npc id="100">
-    <sprite variant="0">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#522129,ff7139</sprite>
+    <sprite>equipment/legs/silkpants-male.xml|#251e06,443c21,71653b,a0945e</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml|#573a26,9e7654,d3b79e,ffffff</sprite>
+    <sprite>hairstyles/hairstyle18-male.xml|#201820,492613,cf6513,e56a18,ffffff</sprite>
+    <sprite>equipment/head/silkheadband-male.xml|#9c2c00,ee4800,ff7139</sprite>
   </npc>
-  <!-- Oriental trader -->
+  <!-- Trader (Shop) -->
   <npc id="101">
-    <sprite variant="1">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/chest/cotton-male.xml|#573a26,9e7654,d3b79e,ffffff</sprite>
+    <sprite>equipment/legs/silkpants-male.xml|#202020,414441,b4b6bd,cdcacd,ffffff</sprite>
+    <sprite>equipment/feet/boots-male.xml|#522129,ff7139</sprite>
+    <sprite>hairstyles/hairstyle02-male.xml|#201818,313031,424242,4e4e4e</sprite>
+    <sprite>equipment/head/goatee.xml|#212121,ffffff</sprite>
   </npc>
   <!-- The Trainer -->
   <npc id="102">
-    <sprite variant="2">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/chest/tanktop-male.xml|#cdb784,dec38c,eef1c5,ffffff</sprite>
+    <sprite>equipment/legs/shorts-male.xml|#2e0890,7898e8</sprite>
+    <sprite>equipment/feet/boots-male.xml|#490000,b66d49</sprite>
+    <sprite>hairstyles/hairstyle18-male.xml|#817339,ffe87c</sprite>
   </npc>
-  <!-- Guy in black cloak -->
+  <!-- Guy in black cloak (Shop) -->
   <npc id="103">
-    <sprite variant="3">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#490000,b66d49</sprite>
+    <sprite variant="0">equipment/override/adult-outfits.xml</sprite>
   </npc>
   <!-- Soldier with sword -->
   <npc id="104">
-    <sprite variant="4">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>hairstyles/hairstyle03-male.xml|#201818,313031,424242,4e4e4e</sprite>
+    <sprite>equipment/head/infantryhelm-male.xml</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml|#a4b2b2,ffffff</sprite>
+    <sprite>equipment/chest/lightplatemail-male.xml</sprite>
+    <sprite>equipment/legs/chaps-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#212121</sprite>
+    <sprite>equipment/weapons/sword-short-male.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
   </npc>
   <!-- Santa Clause -->
   <npc id="105">
-    <sprite variant="5">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>hairstyles/hairstyle18-male.xml|#f4f0f0,787c78</sprite>
+    <sprite>equipment/head/santahat-male.xml|#580000,a40000,c02020;#87876c,bbc39c,edf4e1,ffffff</sprite>
+    <sprite>equipment/chest/tnecksweater-male.xml|#580000,a40000,c02020;</sprite>
+    <sprite>equipment/legs/silkpants-male.xml|#580000,a40000,c02020</sprite>
+    <sprite variant="4">equipment/override/adult-outfits.xml</sprite>
+    <sprite>equipment/hands/generic-male.xml|#202020,c0c0c0,ffffff,ffffff</sprite>
+    <sprite>equipment/head/long-beard.xml|#87876c,bbc39c,edf4e1</sprite>
+    <sprite>equipment/feet/furboots-male.xml</sprite>
   </npc>
   <!-- Girl with pink hair and blue top -->
   <npc id="106">
-    <sprite variant="6">npcs/npc.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>hairstyles/hairstyle01-female.xml|#69006a,880884,a404a2,c000c0,ff40ff</sprite>
+    <sprite>equipment/feet/boots-female.xml|#490000,b66d49</sprite>
+    <sprite>equipment/legs/skirt-female.xml|#251e06,443c21,71653b,a0945e</sprite>
+    <sprite>equipment/chest/tanktop-female.xml|#1a3a8c,214cb9,4470e0,7898e8</sprite>
   </npc>
   <!-- Scholar guy with glasses -->
   <npc id="107">
-    <sprite variant="7">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/head/glasses-male.xml|#a89feb,d5d1f5</sprite>
+    <sprite>hairstyles/hairstyle01-male.xml|#404040,606060,808080,a4a4a4,b1b1b1,c0c0c0,e4e4e4</sprite>
+    <sprite>equipment/legs/silkpants-male.xml|#010101,202020,404040,606060</sprite>
+    <sprite>equipment/chest/tnecksweater-male.xml|#808080,b1b1b1,cacaca</sprite>
+    <sprite>equipment/chest/tanktop-male.xml|#404040,606060,808080,9f9f9f</sprite>
+    <sprite variant="4">equipment/override/adult-outfits.xml</sprite>
   </npc>
-  <!-- Woman with green hair and pink dress -->
+  <!-- Woman with green hair and pink dress (Shop) -->
   <npc id="108">
-    <sprite variant="8">npcs/npc.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>hairstyles/hairstyle11-female.xml|#2b552b,55552b,55802b,80aa55,80aa80,aad480</sprite>
+    <sprite>equipment/chest/fine-dress-female.xml|#9e005d,bc0c73,dc168b,db78a7,dea0c5,efbfdb</sprite>
   </npc>
-  <!-- Miner -->
+  <!-- Miner (Shop) -->
   <npc id="109">
-    <sprite variant="9">npcs/npc.xml</sprite>
-  </npc>
-  <!-- Soldier with spear -->
-  <npc id="110">
-    <sprite variant="10">npcs/npc.xml</sprite>
+    <sprite>races/gispaan-male.xml</sprite>
+    <sprite>equipment/head/minershat-male.xml</sprite>
+    <sprite>equipment/hands/generic-male.xml|#202020,505050</sprite>
+    <sprite>equipment/feet/boots-male.xml|#212121</sprite>
+    <sprite>equipment/chest/tnecksweater-male.xml|#5f5d1e,6b5c37,917d4c,b1ad3b,c3be29</sprite>
+    <sprite>equipment/legs/pants-male.xml|#272520,333027,383535,463e2b,524a36,52504a,6b5c37</sprite>
+    <sprite>equipment/weapons/axe-stab-male.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
   </npc>
   <!-- Treasure chest -->
   <npc id="111">
-    <sprite variant="11">npcs/npc.xml</sprite>
+    <sprite variant="8">model/unique.xml</sprite>
   </npc>
-  <!-- Barkeeper -->
+  <!-- Barkeeper (Shop) -->
   <npc id="112">
-    <sprite variant="12">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#503200,734a00,966200,b97a00,ffaa25</sprite>
+    <sprite>equipment/legs/pants-male.xml|#966200,734a00</sprite>
+    <sprite>equipment/chest/tnecksweater-male.xml|#808080,b1b1b1,cacaca</sprite>
+    <sprite>equipment/chest/tanktop-male.xml|#3c3000,2e3f00,0d6400,007300</sprite>
+    <sprite>equipment/head/goatee.xml|#212121,ffffff</sprite>
+    <sprite variant="4">equipment/override/adult-head.xml</sprite>
   </npc>
-  <!-- Gnome with hat -->
+  <!-- boy with pointy hat -->
   <npc id="113">
-    <sprite variant="13">npcs/npc.xml</sprite>
+    <sprite variant="2">races/talponian-child.xml</sprite>
+    <sprite variant="5">equipment/override/child-head.xml|#902808,d87038,f0b050</sprite>
+    <sprite variant="1">equipment/override/child-outfits.xml|#563116,bc5326,f0682e;#594524;#;#ffffff;#623a34,f0c2b4;#ffffff;#f5c27f</sprite>
   </npc>
   <!-- Little blue-haired girl -->
   <npc id="114">
-    <sprite variant="14">npcs/npc.xml</sprite>
+    <sprite variant="2">races/talponian-child.xml</sprite>
+    <sprite variant="0">equipment/override/child-head.xml|#201820,5c47a5,8d74d9,7eafee,b9daff,ffffff</sprite>
+    <sprite variant="5">equipment/override/child-outfits.xml|#ffffff;#ffffff;#ffffff;#ffffff;#623a34,f0c2b4;#ffffff;#7b5541,ac794a,c5a16a,ac9962,deca8b</sprite>
   </npc>
-  <!-- Guy with red hair and green cloak -->
+  <!-- Guy with red hair and green cloak (Shop) -->
   <npc id="115">
-    <sprite variant="15">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml|#808080,b1b1b1,cacaca</sprite>
+    <sprite>equipment/legs/silkpants-male.xml|#22230f,38380a,48490d,595a10,706b14</sprite>
+    <sprite variant="5">equipment/override/adult-outfits.xml</sprite>
+    <sprite>hairstyles/hairstyle18-male.xml|#201820,492613,cf6513,e56a18,ffffff</sprite>
+    <sprite>equipment/head/goggles-male.xml|#787878,f7f7f7</sprite>
   </npc>
   <!-- Old geezer -->
   <npc id="116">
-    <sprite variant="16">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/chest/robe-male.xml|#201818,521800,7b5541,ac9962,c5b176</sprite>
+    <sprite variant="6">equipment/override/adult-outfits.xml</sprite>
+    <sprite variant="1">equipment/override/adult-head.xml</sprite>
+    <sprite variant="2">equipment/override/adult-head.xml</sprite>
   </npc>
   <!-- Boy with brown hair -->
   <npc id="117">
-    <sprite variant="17">npcs/npc.xml</sprite>
+    <sprite variant="2">races/talponian-child.xml</sprite>
+    <sprite variant="2">equipment/override/child-head.xml|#2f1b08,4a2a0d,643a12,844c18</sprite>
+    <sprite variant="7">equipment/override/child-outfits.xml|#ffffff;#ffffff;#ffffff;#ffffff;#490000,b66d49;#0a0a01,0c4e0e,024f2d,1f8327,178b5a,1ca269,75bd7a;#cdb784,dec38c,eef1c5,ffffff</sprite>
   </npc>
   <!-- Nurse without hat -->
   <npc id="118">
-    <sprite variant="18">npcs/npc.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>hairstyles/hairstyle17-female.xml|#05594c,217b6d,189481,1edca9</sprite>
+    <sprite>equipment/chest/tnecksweater-male.xml|#808080,cdb5b5,ddd9d9,f4f0f0</sprite>
+    <sprite>equipment/legs/skirt-female.xml|#808080,cdb5b5,ddd9d9,f4f0f0</sprite>
+    <sprite variant="3">equipment/override/adult-outfits.xml</sprite>
   </npc>
   <!-- Nurse with hat -->
   <npc id="119">
-    <sprite variant="19">npcs/npc.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>hairstyles/hairstyle17-female.xml|#05594c,217b6d,189481,1edca9</sprite>
+    <sprite>equipment/chest/tnecksweater-male.xml|#808080,cdb5b5,ddd9d9,f4f0f0</sprite>
+    <sprite>equipment/legs/skirt-female.xml|#808080,cdb5b5,ddd9d9,f4f0f0</sprite>
+    <sprite variant="3">equipment/override/adult-outfits.xml</sprite>
+    <sprite>equipment/head/bandana-female.xml|#ddd9d9;#f4f0f0</sprite>
   </npc>
-  <!-- Guy with brown hair in plain clothes -->
+  <!-- Guy with brown hair in plain clothes (Shop) -->
   <npc id="120">
-    <sprite variant="20">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>hairstyles/hairstyle18-male.xml|#2f1b08,4a2a0d,643a12,844c18,ffffff</sprite>
+    <sprite>equipment/chest/cotton-male.xml|#94835a,aca47b,cdc594</sprite>
+    <sprite>equipment/legs/pants-male.xml|#413100,524a08,6a5a18,7b7331,837b41</sprite>
   </npc>
   <!-- Soldier -->
   <npc id="121">
-    <sprite variant="21">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>hairstyles/hairstyle18-male.xml|#2f1b08,4a2a0d,643a12,844c18,ffffff</sprite>
+    <sprite>equipment/chest/cotton-male.xml|#94835a,aca47b,cdc594</sprite>
+    <sprite>equipment/legs/pants-male.xml|#413100,524a08,6a5a18,7b7331,837b41</sprite>
+    <sprite>equipment/chest/lightplatemail-male.xml|#ddeeff</sprite>
   </npc>
   <!-- Soldier with sword and shield -->
   <npc id="122">
-    <sprite variant="22">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>hairstyles/hairstyle18-male.xml|#2f1b08,4a2a0d,643a12,844c18,ffffff</sprite>
+    <sprite>equipment/chest/cotton-male.xml|#94835a,aca47b,cdc594</sprite>
+    <sprite>equipment/legs/chaps-male.xml|#413100,524a08,6a5a18,7b7331,837b41</sprite>
+    <sprite>equipment/chest/lightplatemail-male.xml|#ddeeff</sprite>
+    <sprite>equipment/weapons/sword-short-male.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
   </npc>
   <!-- Soldier with sword, shield, and helmet -->
   <npc id="123">
-    <sprite variant="23">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>hairstyles/hairstyle18-male.xml|#2f1b08,4a2a0d,643a12,844c18,ffffff</sprite>
+    <sprite>equipment/feet/warlordboots-male.xml</sprite>
+    <sprite>equipment/legs/chaps-male.xml|#413100,524a08,6a5a18,7b7331,837b41</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml|#94835a,aca47b,cdc594</sprite>
+    <sprite>equipment/chest/lightplatemail-male.xml|#ddeeff</sprite>
+    <sprite>equipment/weapons/sword-short-male.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
+    <sprite>equipment/hands/generic-male.xml|#4e2e18,c8752f</sprite>
+    <sprite>equipment/head/knighthelm-male.xml</sprite>
   </npc>
-  <!-- Guy with black hair in plain clothes -->
+  <!-- Guy with black hair in plain clothes (Shop) -->
   <npc id="124">
-    <sprite variant="24">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>hairstyles/hairstyle06-male.xml|#212121,ffffff</sprite>
+    <sprite>equipment/chest/cotton-male.xml|#94835a,aca47b,cdc594</sprite>
+    <sprite>equipment/legs/chaps-male.xml|#413100,524a08,6a5a18,7b7331,837b41</sprite>
   </npc>
   <!-- Guy with black clothes -->
   <npc id="125">
-    <sprite variant="25">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>hairstyles/hairstyle06-male.xml|#212121,ffffff</sprite>
+    <sprite>equipment/chest/cotton-male.xml|#000000,181818,202020,292929</sprite>
+    <sprite>equipment/legs/chaps-male.xml|#000000,181818,202020,292929</sprite>
+    <sprite>equipment/feet/boots-male.xml|#212121</sprite>
+    <sprite>equipment/chest/lightplatemail-male.xml|#000000,181818,202020,292929</sprite>
   </npc>
   <!-- Guy with black clothes and axe -->
   <npc id="126">
-    <sprite variant="26">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>hairstyles/hairstyle06-male.xml|#212121,ffffff</sprite>
+    <sprite>equipment/chest/cotton-male.xml|#000000,181818,202020,292929</sprite>
+    <sprite>equipment/legs/chaps-male.xml|#000000,181818,202020,292929</sprite>
+    <sprite>equipment/feet/boots-male.xml|#212121</sprite>
+    <sprite>equipment/chest/lightplatemail-male.xml|#000000,181818,202020,292929</sprite>
+    <sprite>equipment/weapons/axe-chop-male.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
   </npc>
-  <!-- empty (Invisible NPC used for magic effects) -->
+  <!-- empty (Invisible NPC used for magic effects) (Shop) -->
   <!-- for npc scripts with an invisible but selectable sprite you usually want 400,
        for warps/doors use 45,
        for 'hidden' npcs the client shouldn't know about use 32767 -->
   <npc id="127" targetSelection="false">
-    <sprite variant="27">npcs/npc.xml</sprite>
+    <sprite variant="0">model/unique.xml</sprite>
   </npc>
   <!-- Nomad, standing -->
   <npc id="128">
-    <sprite variant="28">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#522129,ff7139</sprite>
+    <sprite>equipment/legs/pants-male.xml|#251e06,443c21,71653b,a0945e</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml|#573a26,9e7654,d3b79e,ffffff</sprite>
+    <sprite>equipment/head/deserthat-male.xml|#ffffff</sprite>
+    <sprite>equipment/head/goggles-male.xml|#787878,f7f7f7</sprite>
+    <sprite variant="5">equipment/override/adult-outfits.xml</sprite>
   </npc>
   <!-- Snowman -->
   <npc id="129">
-    <sprite variant="29">npcs/npc.xml</sprite>
+    <sprite variant="4">model/unique.xml</sprite>
   </npc>
-  <!-- Paperboy (wtf? how does this one fit in a fantasy game?) -->
-  <npc id="130">
-    <sprite variant="30">npcs/npc.xml</sprite>
-  </npc>
-  <!-- Nomad, sitting -->
+  <!-- Npc Id 130 Open -->
+  <!-- Nomad, sitting (Add to TMWA) -->
   <npc id="131">
-    <sprite variant="31">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#522129,ff7139</sprite>
+    <sprite>equipment/legs/pants-male.xml|#251e06,443c21,71653b,a0945e</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml|#573a26,9e7654,d3b79e,ffffff</sprite>
+    <sprite>equipment/head/deserthat-male.xml|#ffffff</sprite>
+    <sprite>equipment/head/goggles-male.xml|#787878,f7f7f7</sprite>
+    <sprite variant="5">equipment/override/adult-outfits.xml</sprite>
   </npc>
   <!-- Nomad, sitting with pipe -->
   <npc id="132">
-    <sprite variant="32">npcs/npc.xml</sprite>
-    <particlefx>graphics/particles/nomadpipe.particle.xml</particlefx>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#522129,ff7139</sprite>
+    <sprite>equipment/legs/pants-male.xml|#251e06,443c21,71653b,a0945e</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml|#573a26,9e7654,d3b79e,ffffff</sprite>
+    <sprite>equipment/head/deserthat-male.xml|#ffffff</sprite>
+    <sprite>equipment/head/goggles-male.xml|#787878,f7f7f7</sprite>
+    <sprite>equipment/head/pipe.xml</sprite>
   </npc>
-  <!-- Captain Kirk -->
-  <npc id="133">
-    <sprite variant="33">npcs/npc.xml</sprite>
-  </npc>
-  <!-- Mr. Spock -->
-  <npc id="134">
-    <sprite variant="34">npcs/npc.xml</sprite>
-  </npc>
-  <!-- Guy with sword over shoulder -->
+  <!-- Npc Id 133 Open -->
+  <!-- Npc Id 134 Open -->
+  <!-- Guy with sword over shoulder (Shop) -->
   <npc id="135">
-    <sprite variant="35">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#4f2d29,c89078</sprite>
+    <sprite>equipment/chest/leather-male.xml|#573a26,9e7654,d3b79e,ffffff;#b96b3d,fbf5f1</sprite>
+    <sprite>equipment/legs/pants-male.xml|#2a2117,2f2112,493219,61411e,724c22,a97e4f</sprite>
+    <sprite>hairstyles/hairstyle01-male.xml|#623413,7a4218,9f5620,c46a28</sprite>
+    <sprite>equipment/hands/generic-male.xml|#4e2e18,c8752f</sprite>
   </npc>
   <!-- Creepy surgeon guy -->
   <npc id="136">
     <sprite>npcs/npc-creepysurgeon.xml</sprite>
   </npc>
-  <!-- Metrosexual guy with pink jacket on stool -->
+  <!-- guy with pink shirt sitting (Shop) -->
   <npc id="137">
-    <sprite variant="37">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>hairstyles/hairstyle06-male.xml|#291912,513a30,6d5246,8a6b5d</sprite>
+    <sprite>equipment/chest/cotton-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+    <sprite>equipment/feet/boots-male.xml|#212121,ffffff</sprite>
+    <sprite>equipment/legs/pants-male.xml|#434b47,697770,93a69d,bed6cb,d3ede1</sprite>
   </npc>
-  <!-- Zombie pirate captain-->
+  <!-- pirate captain-->
   <npc id="138">
-    <sprite variant="38">npcs/npc.xml</sprite>
+    <sprite variant="24">model/unique.xml</sprite>
+    <!-- Pegleg -->
   </npc>
-  <!-- Girl in playboy bunny costume -->
+  <!-- Girl in playboy bunny costume (Shop) -->
   <npc id="139">
-    <sprite variant="39">npcs/npc.xml</sprite>
+    <sprite variant="25">model/unique.xml</sprite>
   </npc>
   <!-- Woman with green dress and apron -->
   <npc id="140">
-    <sprite variant="40">npcs/npc.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>equipment/chest/fine-dress-female.xml|#304c16,628c3c,75ab46,7dc14c</sprite>
+    <sprite>hairstyles/hairstyle19-female.xml|#8b3535,a43e3e,b94747,cc4a4a</sprite>
+    <sprite variant="8">equipment/override/adult-outfits.xml</sprite>
   </npc>
   <!-- Lumberjack -->
   <npc id="141">
@@ -190,478 +312,586 @@
   </npc>
   <!-- Farmer -->
   <npc id="142">
-    <sprite variant="42">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite gender="male">equipment/head/rangerhat-male.xml</sprite>
+    <sprite>equipment/chest/tnecksweater-male.xml|#573a26,9e7654,d3b79e,ffffff</sprite>
+    <sprite>equipment/legs/pants-male.xml|#39230f,4e2f14,5e3817,6b4422,79502e,815d3b,926d4f</sprite>
+    <sprite>equipment/feet/boots-male.xml|#4f2d29,c89078</sprite>
+    <sprite>equipment/weapons/polearm-stab-male.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
   </npc>
   <!-- Indian Chief-->
   <npc id="143">
-    <sprite variant="43">npcs/npc.xml</sprite>
+    <sprite variant="20">model/unique.xml</sprite>
   </npc>
-  <!-- Boulder -->
-  <npc id="144">
-    <sprite variant="44">npcs/npc.xml</sprite>
-  </npc>
+  <!-- Npc Id 144 Open -->
   <!-- Magic mouth -->
   <npc id="145">
-    <sprite variant="45">npcs/npc.xml</sprite>
+    <sprite variant="11">model/unique.png</sprite>
   </npc>
-  <!-- Mechanic -->
+  <!-- Mechanic (Shop) -->
   <npc id="146">
-    <sprite variant="46">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/chest/tnecksweater-male.xml|#573a26,9e7654,d3b79e,ffffff</sprite>
+    <sprite>equipment/legs/pants-male.xml|#39230f,4e2f14,5e3817,6b4422,79502e,815d3b,926d4f</sprite>
+    <sprite>equipment/feet/boots-male.xml|#4f2d29,c89078</sprite>
+    <sprite variant="3">equipment/override/adult-head.xml</sprite>
+    <sprite variant="2">equipment/override/adult-outfits.xml</sprite>
   </npc>
   <!-- Mechanic with tool -->
   <npc id="147">
-    <sprite variant="47">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/chest/tnecksweater-male.xml|#573a26,9e7654,d3b79e,ffffff</sprite>
+    <sprite>equipment/legs/pants-male.xml|#39230f,4e2f14,5e3817,6b4422,79502e,815d3b,926d4f</sprite>
+    <sprite>equipment/feet/boots-male.xml|#4f2d29,c89078</sprite>
+    <sprite variant="3">equipment/override/adult-head.xml</sprite>
+    <sprite variant="2">equipment/override/adult-outfits.xml</sprite>
+    <sprite variant="9">equipment/override/adult-outfits.xml</sprite>
   </npc>
   <!-- Chef -->
   <npc id="148">
-    <sprite variant="48">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite variant="1">equipment/override/adult-outfits.xml</sprite>
+    <sprite>equipment/legs/pants-male.xml|#001720,001b25,003e55,035776</sprite>
+    <sprite variant="4">equipment/override/adult-head.xml</sprite>
+    <sprite>equipment/head/chefhat-male.xml</sprite>
+    <sprite>equipment/head/goatee.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
   </npc>
   <!-- Desert Banker -->
   <npc id="149">
-    <sprite variant="49">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/chest/chainmail-male.xml|#eef1c5,ffffff</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml|#151614,1b1c1a,242624,313230,373936,393b38,424441</sprite>
+    <sprite>equipment/legs/pants-male.xml|#151614,1b1c1a,242624,313230,373936,393b38,424441</sprite>
+    <sprite>equipment/feet/boots-male.xml|#151614,1b1c1a,242624,313230,373936,393b38,424441</sprite>
+    <sprite variant="5">equipment/override/adult-head.xml</sprite>
+    <sprite>equipment/head/monocle-male.xml</sprite>
   </npc>
   <!-- Investigator -->
   <npc id="150">
-    <sprite variant="50">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/head/inspector-hat-male.xml|#001720,003e55,035776</sprite>
+    <sprite>equipment/chest/chainmail-male.xml|#eef1c5,ffffff</sprite>
+    <sprite>equipment/legs/pants-male.xml|#001720,001b25,003e55,035776</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml|#001720,001b25,003e55,035776</sprite>
+    <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
   </npc>
   <!-- Lora Tay -->
   <npc id="151">
-    <sprite variant="51">npcs/npc.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite variant="0">equipment/override/adult-head.xml</sprite>
+    <sprite>hairstyles/hairstyle09-female.xml|#40413f,555754,757774,8d8f8c,9b9d9a,bdbfbb,e8eae7</sprite>
+    <sprite>equipment/chest/tnecksweater-female.xml|#200303,380505,570909,700c0c,8a1010</sprite>
+    <sprite>equipment/feet/boots-female.xml|#39230f,4e2f14,5e3817,6b4422,79502e,815d3b,926d4f</sprite>
+    <sprite>equipment/legs/skirt-female.xml|#39230f,4e2f14,5e3817,6b4422,79502e,815d3b,926d4f</sprite>
+    <sprite>equipment/head/glasses-female.xml|#a89feb,d5d1f5</sprite>
+    <sprite variant="12">equipment/override/adult-outfits.xml</sprite>
   </npc>
   <!-- Desert Bard -->
   <npc id="152">
-    <sprite variant="52">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/chest/robe-male.xml|#ffffff</sprite>
+    <sprite>equipment/head/deserthat-male.xml|#ffffff</sprite>
+    <sprite variant="11">equipment/override/adult-outfits.xml</sprite>
   </npc>
   <!-- Old Wizard -->
   <npc id="153">
-    <sprite variant="53">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite variant="1">equipment/override/adult-head.xml</sprite>
+    <sprite>hairstyles/hairstyle06-male.xml</sprite>
+    <sprite>equipment/feet/assassin-boots-male.xml|#b80f0f,580000,a40000,b80f0f,c02020,ff6060</sprite>
+    <sprite>equipment/chest/robe-male.xml|#212121,ffffff</sprite>
+    <sprite>equipment/head/long-beard.xml|#ffffff</sprite>
   </npc>
   <!-- Old Woman -->
   <npc id="154">
-    <sprite variant="54">npcs/npc.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite variant="0">equipment/override/adult-head.xml</sprite>
+    <sprite>hairstyles/hairstyle13-female.xml|#878787,a8a8a8,cacaca,fdfdfd</sprite>
+    <sprite>equipment/chest/cotton-female.xml|#291b07,4a310c,6c4818,7a5525,89693b,9c7b52,af946e</sprite>
+    <sprite>equipment/legs/skirt-female.xml|#39230f,4e2f14,5e3817,6b4422,79502e,815d3b,926d4f</sprite>
+    <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
   </npc>
   <!-- Construction Worker -->
   <npc id="155">
-    <sprite variant="55">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/head/minershat-male.xml</sprite>
+    <sprite>equipment/chest/cotton-male.xml|#573a26,9e7654,d3b79e,ffffff</sprite>
+    <sprite>equipment/legs/pants-male.xml|#2e0890,7898e8</sprite>
+    <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
+    <sprite>equipment/weapons/axe-stab-male.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
   </npc>
   <!-- Desert Barber/Desert Man -->
   <npc id="156">
-    <sprite variant="56">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>hairstyles/hairstyle02-male.xml|#201818,313031,424242,4e4e4e</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml|#39230f,4e2f14,5e3817,6b4422,79502e,815d3b,926d4</sprite>
+    <sprite>equipment/legs/silkpants-male.xml|#87876c,bbc39c,edf4e1,ffffff</sprite>
+    <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
   </npc>
   <!-- Trainer 2 -->
   <npc id="157">
-    <sprite variant="57">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/chest/tanktop-male.xml|#cdb784,dec38c,eef1c5,ffffff</sprite>
+    <sprite>equipment/legs/shorts-male.xml|#2e0890,7898e8</sprite>
+    <sprite>equipment/feet/boots-male.xml|#490000,b66d49</sprite>
+    <sprite>hairstyles/hairstyle18-male.xml|#817339,ffe87c</sprite>
   </npc>
   <!-- Young Male Wizard -->
   <npc id="158">
-    <sprite variant="58">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#490000,b66d49</sprite>
+    <sprite variant="13">equipment/override/adult-outfits.xml</sprite>
   </npc>
   <!-- Old man -->
   <npc id="159">
-    <sprite variant="59">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/chest/cotton-male.xml|#291b07,4a310c,6c4818,7a5525,89693b,9c7b52,af946e</sprite>
+    <sprite>equipment/legs/skirt-male.xml|#39230f,4e2f14,5e3817,6b4422,79502e,815d3b,926d4f</sprite>
+    <sprite>equipment/head/long-beard.xml</sprite>
+    <sprite variant="5">equipment/override/adult-head.xml</sprite>
   </npc>
   <!-- Generic Man -->
   <npc id="160">
-    <sprite variant="60">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/chest/tanktop-male.xml|#cdb784,dec38c,eef1c5,ffffff</sprite>
+    <sprite>equipment/legs/pants-male.xml|#0a1b08,0e330c,11330f,174613,20641b,288521,0a1b08</sprite>
+    <sprite>hairstyles/hairstyle07-male.xml|#573a26,ffffff</sprite>
   </npc>
   <!-- Generic Banker -->
   <npc id="161">
-    <sprite variant="61">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>hairstyles/hairstyle06-male.xml|#573a26,ffffff</sprite>
+    <sprite>equipment/chest/chainmail-male.xml|#eef1c5,ffffff</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml|#151614,1b1c1a,242624,313230,373936,393b38,424441</sprite>
+    <sprite>equipment/legs/pants-male.xml|#151614,1b1c1a,242624,313230,373936,393b38,424441</sprite>
+    <sprite>equipment/feet/boots-male.xml|#151614,1b1c1a,242624,313230,373936,393b38,424441</sprite>
+    <sprite>equipment/head/monocle-male.xml</sprite>
   </npc>
   <!-- Generic Desert Man -->
   <npc id="162">
-    <sprite variant="62">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/head/deserthat-male.xml|#ffffff</sprite>
+    <sprite>equipment/legs/pants-male.xml|#202020,414441,b4b6bd,cdcacd,ffffff</sprite>
+    <sprite>equipment/chest/tnecksweater-male.xml|#808080,b1b1b1,cacaca</sprite>
+    <sprite>equipment/chest/cotton-male.xml|#573a26,9e7654,d3b79e,ffffff</sprite>
+    <sprite>equipment/feet/boots-male.xml|#522129,ff7139</sprite>
   </npc>
-  <!-- Flower Girl -->
+  <!-- Flower Girl (Shop) -->
   <npc id="163">
-    <sprite variant="63">npcs/npc.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>hairstyles/hairstyle13-female.xml|#878787,a8a8a8,cacaca,fdfdfd</sprite>
+    <sprite>equipment/chest/cotton-female.xml|#ffffff</sprite>
+    <sprite>equipment/chest/tanktop-female.xml|#730417,9c061f,c40727,d9082b,ee092f</sprite>
+    <sprite>equipment/legs/skirt-female.xml|#783f48,a15461,c96979,f37f92,f7a8b5</sprite>
+    <sprite>equipment/feet/boots-male.xml|#522129,ff7139</sprite>
+    <!-- Basket -->
   </npc>
   <!-- Wedding Officiator -->
   <npc id="164">
-    <sprite variant="64">npcs/npc.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>hairstyles/hairstyle19-female.xml|#dbd41e</sprite>
+    <sprite>equipment/head/silkheadband-female.xml|#77a85c,86b36e,9cc27e</sprite>
+    <sprite>equipment/chest/robe-female.xml|#558b39,6b9a4a,77a85c,86b36e,9cc27e</sprite>
+    <!-- Flower -->
   </npc>
   <!-- Dimond/Magician -->
   <npc id="165">
-    <sprite variant="65">npcs/npc.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>hairstyles/hairstyle19-female.xml|#223b2e,154242,1d5553,226461,418481,639b9a,8eb9ba</sprite>
+    <sprite>equipment/head/tophat-female.xml</sprite>
+    <sprite>equipment/chest/tanktop-female.xml|#0e1b27,163a51,1d425c,2f5673,466680,5b7b95,7691a7</sprite>
+    <sprite>equipment/legs/skirt-female.xml|#060c0f,081118,0c1924,102432,0e2c3e,15374d,234c69</sprite>
+    <sprite>equipment/feet/boots-female.xml|#0e1b27,163a51,1d425c,2f5673,466680,5b7b95,7691a7</sprite>
   </npc>
   <!-- Mana Seed -->
   <npc id="166">
-    <sprite variant="66">npcs/npc.xml</sprite>
+    <sprite variant="2">model/unique.png</sprite>
     <particlefx>graphics/particles/manaseed.particle.xml</particlefx>
   </npc>
   <!-- Young Witch -->
   <npc id="167">
-    <sprite variant="67">npcs/npc.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>hairstyles/hairstyle11-female.xml|#2c3a0a,317300,3b8700,4ead00</sprite>
+    <sprite>equipment/head/wizard-hat-female.xml|#4f0a76,8010c0,d699f7</sprite>
+    <sprite>equipment/chest/sorcerer-robe-female.xml|#4f0a76,8010c0,d699f7;#EC0000</sprite>
   </npc>
   <!-- Middle-Aged Wizard -->
   <npc id="168">
-    <sprite variant="68">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/chest/sorcerer-robe-male.xml|#222255,6666ff;#EFEFEF</sprite>
+    <sprite>hairstyles/hairstyle07-male.xml|#878787,a8a8a8,cacaca</sprite>
+    <sprite>equipment/head/goatee.xml|#212121,ffffff</sprite>
   </npc>
   <!-- Miner -->
   <npc id="169">
-    <sprite variant="69">npcs/npc.xml</sprite>
-  </npc>
-  <!-- Christmas Reinboo -->
-  <npc id="170">
-    <sprite variant="70">npcs/npc.xml</sprite>
+    <sprite>races/gispaan-male.xml</sprite>
+    <sprite>equipment/head/minershat-male.xml</sprite>
+    <sprite>equipment/chest/cotton-male.xml|#573a26,9e7654,d3b79e,ffffff</sprite>
+    <sprite>equipment/legs/pants-male.xml|#2e0890,7898e8</sprite>
+    <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
+    <sprite>equipment/weapons/axe-stab-male.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
   </npc>
   <!-- Injured Mouboo -->
   <npc id="171">
-    <sprite variant="71">npcs/npc.xml</sprite>
+    <sprite variant="59">monsters/mouboo.xml</sprite>
   </npc>
   <!-- Katze -->
   <npc id="172">
-    <sprite variant="72">npcs/npc.xml</sprite>
+    <sprite variant="1">model/unique.xml</sprite>
   </npc>
   <!-- Easter Bunny -->
   <npc id="173">
-    <sprite variant="73">npcs/npc.xml</sprite>
+    <sprite variant="10">model/unique.xml</sprite>
   </npc>
   <!-- Kadiya (Omar's sick daughter) -->
   <npc id="174" nameOffsetX="16" targetOffsetX="16">
-    <sprite variant="74">npcs/npc.xml</sprite>
+    <sprite variant="5">races/talponian-child-in-bed.xml</sprite>
+    <sprite variant="2">equipment/override/child-head-in-bed.xml|#1e0b26,461959,5a2073</sprite>
+    <sprite variant="10">equipment/override/child-outfits-in-bed.xml|#5b4976;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#36a1bc</sprite>
   </npc>
   <!-- Miriam the cat burglar -->
   <npc id="175">
-    <sprite variant="75">npcs/npc.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>hairstyles/hairstyle12-female.xml|#1e0b26,461959,5a2073</sprite>
+    <sprite>equipment/feet/assassin-boots-female.xml</sprite>
+    <sprite>equipment/legs/assassin-female.xml</sprite>
+    <sprite>equipment/chest/assassin-female.xml</sprite>
+    <sprite>equipment/hands/assassin-female.xml</sprite>
+    <!-- Assassin's Gear -->
   </npc>
   <!-- Lou Rette the gambler -->
   <npc id="176">
-    <sprite variant="76">npcs/npc.xml</sprite>
+    <sprite>npcs/npc-dice.xml</sprite>
   </npc>
-  <!-- Old Knight -->
-  <npc id="177">
-    <sprite variant="77">npcs/npc.xml</sprite>
-  </npc>
-  <!-- Karoua, Exiled Indian Chief -->
+  <!-- Npc Id 177 Open -->
+  <!-- Npc Id 178 Open -->
   <npc id="178">
-    <sprite variant="78">npcs/npc.xml</sprite>
+    <sprite variant="21">model/unique.xml</sprite>
   </npc>
-  <!-- Kesh, Karoua's wife -->
+  <!-- Exotic Trader (Shop) -->
   <npc id="179">
-    <sprite variant="79">npcs/npc.xml</sprite>
+    <sprite variant="22">model/unique.xml</sprite>
   </npc>
-  <!-- Blue Savannah Man with idle animation -->
-  <npc id="180">
-    <sprite>npcs/npc-savannahman.xml</sprite>
-  </npc>
-  <!-- Green Savannah Man -->
-  <npc id="181">
-    <sprite variant="81">npcs/npc.xml</sprite>
-  </npc>
+  <!-- Npc Id 180 Open -->
+  <!-- Npc Id 181 Open -->
   <!-- Young archer -->
   <npc id="182">
-    <sprite variant="82">npcs/npc.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>hairstyles/hairstyle11-female.xml|#66500b,80630e,997711,b38b14,cc9f16,e5b319,ffc71c</sprite>
+    <sprite>equipment/feet/boots-male.xml|#443c21,71653b</sprite>
+    <sprite>equipment/legs/pants-female.xml|#115511,22aa22,99dd99</sprite>
+    <sprite>equipment/chest/forest-armor-female.xml</sprite>
+    <sprite>equipment/head/fairy_hat-female.xml</sprite>
+    <sprite>equipment/weapons/bow-female.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
   </npc>
   <!-- Skeleton man -->
   <npc id="183">
-    <sprite variant="83">npcs/npc.xml</sprite>
+    <sprite variant="0">monsters/skeleton.xml</sprite>
   </npc>
-  <!-- Doctor (10) -->
-  <npc id="184">
-    <sprite variant="84">npcs/npc.xml</sprite>
+  <!-- Npc Id 184 Open -->
+  <!-- Npc Name Shift (Corrects Large Object) -->
+  <npc id="185" nameOffsetX="16" targetOffsetX="16" targetCursor="large">
   </npc>
-  <!-- Evil Obelisk -->
-  <npc id="185">
-    <sprite variant="44">npcs/npc.xml</sprite>
-    <particlefx>graphics/particles/evilobelisk.particle.xml</particlefx>
-  </npc>
-  <!-- warning sign for pvp  -->
+  <!-- Danger Sign -->
   <npc id="186">
-    <sprite variant="85">npcs/npc.xml</sprite>
+    <sprite variant="0">npcs/signs.xml</sprite>
+    <sprite variant="17">npcs/signs.xml</sprite>
   </npc>
-  <!-- warning sign for pvp  -->
+  <!-- Pvp Sign -->
   <npc id="187">
-    <sprite variant="86">npcs/npc.xml</sprite>
+    <sprite variant="0">npcs/signs.xml</sprite>
+    <sprite variant="8">npcs/signs.xml</sprite>
   </npc>
-  <!-- Broken Skeleton (Hallowe'en 2010)-->
-  <npc id="188">
-    <sprite variant="87">npcs/npc.xml</sprite>
-  </npc>
+  <!-- Npc Id 188 Open -->
   <!-- Gambler -->
   <npc id="189">
-    <sprite variant="88">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>hairstyles/hairstyle06-male.xml|#35351c,6f6f3c,bcbd84</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml|#251e06,443c21,71653b,a0945e</sprite>
+    <sprite>equipment/legs/pants-male.xml|#251e06,443c21,71653b</sprite>
+    <sprite>equipment/feet/boots-male.xml|#443c21,71653b</sprite>
   </npc>
-  <!-- Milka -->
+  <!-- Olana -->
   <npc id="190">
-    <sprite variant="89">npcs/npc.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite variant="0">equipment/override/adult-head.xml</sprite>
+    <sprite>hairstyles/hairstyle13-female.xml|#878787,a8a8a8,cacaca,fdfdfd</sprite>
+    <sprite>equipment/chest/cotton-female.xml|#dbd41e</sprite>
+    <sprite>equipment/legs/skirt-female.xml|#5b4976</sprite>
+    <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
   </npc>
-  <!-- Braktar the Packrat -->
   <npc id="191">
-    <sprite variant="90">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>hairstyles/hairstyle06-male.xml|#35351c,6f6f3c,bcbd84</sprite>
+    <sprite>equipment/chest/cotton-male.xml|#443c21</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml|#251e06,443c21,71653b,a0945e</sprite>
+    <sprite>equipment/legs/pants-male.xml|#251e06,443c21,71653b</sprite>
+    <sprite>equipment/feet/boots-male.xml|#443c21</sprite>
   </npc>
-  <!-- ?-->
   <npc id="192">
-    <sprite variant="91">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>hairstyles/hairstyle06-male.xml|#35351c,6f6f3c,bcbd84</sprite>
+    <sprite>equipment/chest/cotton-male.xml|#443c21</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml|#251e06,443c21,71653b,a0945e</sprite>
+    <sprite>equipment/legs/pants-male.xml|#251e06,443c21,71653b</sprite>
+    <sprite>equipment/feet/boots-male.xml|#443c21</sprite>
   </npc>
   <!-- Gambler -->
   <npc id="193">
-    <sprite variant="92">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/chest/chainmail-male.xml|#eef1c5,ffffff</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml|#151614,1b1c1a,242624,313230,373936,393b38,424441</sprite>
+    <sprite>equipment/legs/pants-male.xml|#151614,1b1c1a,242624,313230,373936,393b38,424441</sprite>
+    <sprite>equipment/feet/boots-male.xml|#151614,1b1c1a,242624,313230,373936,393b38,424441</sprite>
+    <sprite variant="5">equipment/override/adult-head.xml</sprite>
+    <sprite>equipment/head/tophat-male.xml</sprite>
   </npc>
-  <!-- ?-->
-  <npc id="194">
-    <sprite variant="93">npcs/npc.xml</sprite>
-  </npc>
+  <!-- Npc Id 194 Open -->
   <!-- Angela outside -->
   <npc id="195">
-    <sprite variant="94">npcs/npc.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>equipment/feet/furboots-female.xml</sprite>
+    <sprite>hairstyles/hairstyle08-female.xml|#994312,c55818,e46c28</sprite>
+    <sprite>equipment/head/knit-cap-female.xml|#ff625a,ffffff;#c1352e,ff625a;#942300,d13435;</sprite>
+    <sprite>equipment/legs/skirt-female.xml|#571207,6f1c0f,942300,9c2920,c1352e,d13435,ff625a</sprite>
+    <sprite>equipment/chest/ugly-sweater-female.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,364c17;#49661f</sprite>
+    <sprite>equipment/hands/generic-female.xml|#87876c,bbc39c,edf4e1,ffffff</sprite>
+    <sprite variant="10">equipment/override/adult-outfits.xml</sprite>
   </npc>
   <!-- Angela inside -->
   <npc id="196">
-    <sprite variant="95">npcs/npc.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>hairstyles/hairstyle08-female.xml|#994312,c55818,e46c28</sprite>
+    <sprite>equipment/feet/assassin-boots-female.xml|#b80f0f,580000,a40000,b80f0f,c02020,ff6060</sprite>
+    <sprite>equipment/chest/fine-dress-female.xml|#571207,6f1c0f,942300,9c2920,c1352e,d13435,ff625a</sprite>
   </npc>
   <!-- Cindy inside -->
   <npc id="197">
-    <sprite variant="96">npcs/npc.xml</sprite>
+    <sprite variant="26">model/unique.xml</sprite>
   </npc>
   <!-- Cindy in cage -->
-  <npc id="198">
-    <sprite>npcs/npc-cindycage.xml</sprite>
+  <npc id="198" targetCursor="large">
+    <sprite variant="8">model/oversized.xml</sprite>
   </npc>
-  <npc id="200">
-    <sprite>npcs/npc-test.xml</sprite>
-    <particlefx>graphics/particles/circle.particle.xml</particlefx>
-  </npc>
+  <!-- Npc Id 200 Open -->
   <npc id="201">
-    <!-- This entry demonstrates that an NPC can be constructed from multiple preexisting
-   spritesets. While using the default player sprite and normal player equipment can save
-   time it is usually better to create a new NPC as one graphic from scratch. -->
-    <sprite>player_female_base.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
     <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
     <sprite>equipment/legs/chaps-female.xml</sprite>
     <sprite>equipment/chest/shorttanktop-female.xml</sprite>
-    <sprite>hairstyles/hairstyle11.xml|#bb2222,ffee33</sprite>
+    <sprite>hairstyles/hairstyle11-female.xml|#bb2222,ffee33</sprite>
   </npc>
-  <npc id="202">
-    <!-- An NPC made only from a particle effect. -->
-    <particlefx>graphics/particles/hellblaze.particle.xml</particlefx>
-  </npc>
-  <!-- Woodenpump with drippy water -->
-  <npc id="203">
-    <sprite>npcs/npc-woodenpump.xml</sprite>
-  </npc>
+  <!-- Npc Id 203 Open -->
   <npc id="204">
-    <sprite variant="27">npcs/npc.xml</sprite>
+    <sprite variant="0">model/unique.xml</sprite>
     <particlefx>graphics/particles/golbenez.particle.xml</particlefx>
   </npc>
   <!-- The entries 205-215 borrow concepts from npc id 201, which should not be regularly done. -->
   <npc id="205">
-    <sprite>player_female_base.xml</sprite>
-    <sprite>hairstyles/hairstyle01.xml|#347235,52D017</sprite>
-    <sprite>equipment/head/goggles.xml</sprite>
-    <sprite>equipment/legs/skirt.xml|#d3b79e,ffffff</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>hairstyles/hairstyle01-female.xml|#347235,52D017</sprite>
+    <sprite>equipment/head/goggles-female.xml</sprite>
+    <sprite>equipment/legs/skirt-female.xml|#d3b79e,ffffff</sprite>
     <sprite>equipment/chest/tanktop-female.xml|#d3b79e,ffffff</sprite>
     <sprite>equipment/feet/boots-female.xml|#9e7654,ffffff</sprite>
   </npc>
   <npc id="206">
-    <sprite>player_female_base.xml</sprite>
-    <sprite>hairstyles/hairstyle10.xml|#7F462C,F9966B</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>hairstyles/hairstyle10-female.xml|#7F462C,F9966B</sprite>
     <sprite>equipment/chest/cotton-female.xml|#B93B8F,C38EC7,F9B7FF</sprite>
-    <sprite>equipment/legs/skirt.xml|#AF7817,E8A317</sprite>
+    <sprite>equipment/legs/skirt-female.xml|#AF7817,E8A317</sprite>
     <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
   </npc>
   <npc id="207">
-    <sprite>player_female_base.xml</sprite>
-    <sprite>hairstyles/hairstyle11.xml|#C8B560,FFE87C</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>hairstyles/hairstyle11-female.xml|#C8B560,FFE87C</sprite>
     <sprite>equipment/chest/robe-female.xml|#7F5217,AF7817,E9AB17,FBB917</sprite>
     <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
   </npc>
   <npc id="208">
-    <sprite>player_female_base.xml</sprite>
-    <sprite>hairstyles/hairstyle09.xml|#3B9C9C,AFDCEC</sprite>
-    <sprite>equipment/head/wizard-hat.xml|#4f0a76,8010c0,d699f7</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>hairstyles/hairstyle09-female.xml|#3B9C9C,AFDCEC</sprite>
+    <sprite>equipment/head/wizard-hat-female.xml|#4f0a76,8010c0,d699f7</sprite>
     <sprite>equipment/chest/robe-female.xml|#4f0a76,8010c0,d699f7</sprite>
     <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
-    <sprite>weapon-staff.xml</sprite>
+    <sprite>equipment/weapons/polearm-blunt-female.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
   </npc>
   <npc id="209">
-    <sprite>player_female_base.xml</sprite>
-    <sprite>hairstyles/hairstyle12.xml|#573a26,ffffff</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>hairstyles/hairstyle12-female.xml|#573a26,ffffff</sprite>
     <sprite>equipment/chest/cotton-female.xml|#573a26,9e7654,d3b79e,ffffff</sprite>
     <sprite>equipment/legs/miniskirt-female.xml|#251e06,443c21,71653b,a0945e</sprite>
     <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
   </npc>
   <npc id="210">
-    <sprite>player_female_base.xml</sprite>
-    <sprite>hairstyles/hairstyle04.xml|#810541,F535AA</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>hairstyles/hairstyle04-female.xml|#810541,F535AA</sprite>
     <sprite>equipment/legs/chaps-female.xml</sprite>
     <sprite>equipment/chest/tanktop-female.xml|#846211,dab333,fffb93,ffffff</sprite>
     <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
   </npc>
   <npc id="211">
-    <sprite>player_male_base.xml</sprite>
-    <sprite>hairstyles/hairstyle07.xml|#bb2222,ffee33</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>hairstyles/hairstyle07-male.xml|#bb2222,ffee33</sprite>
     <sprite>equipment/legs/shorts-male.xml|#255367,266c84,68b0c5,ffffff</sprite>
     <sprite>equipment/chest/tanktop-male.xml|#a4b2b2,ffffff</sprite>
     <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
   </npc>
   <npc id="212">
-    <sprite>player_male_base.xml</sprite>
-    <sprite>hairstyles/hairstyle08.xml|#EE9A4D,ffee33</sprite>
-    <sprite>equipment/head/captain-hat.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>hairstyles/hairstyle08-male.xml|#EE9A4D,ffee33</sprite>
+    <sprite>equipment/head/captain-hat-male.xml</sprite>
     <sprite>equipment/legs/shorts-male.xml|#a4b2b2,ffffff</sprite>
     <sprite>equipment/chest/vnecksweater-male.xml|#a4b2b2,ffffff</sprite>
     <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
   </npc>
   <npc id="213">
-    <sprite>player_male_base.xml</sprite>
-    <sprite>hairstyles/hairstyle02.xml|#254117,ffee33</sprite>
-    <sprite>equipment/head/sailor-hat.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>hairstyles/hairstyle02-male.xml|#254117,ffee33</sprite>
+    <sprite>equipment/head/sailor-hat-male.xml</sprite>
     <sprite>equipment/legs/shorts-male.xml|#a4b2b2,ffffff</sprite>
     <sprite>equipment/chest/tanktop-male.xml|#a4b2b2,ffffff</sprite>
     <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
   </npc>
   <npc id="214">
-    <sprite>player_male_base.xml</sprite>
-    <sprite>hairstyles/hairstyle18.xml|#817339,FFE87C</sprite>
-    <sprite>equipment/head/silkheadband.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>hairstyles/hairstyle18-male.xml|#817339,FFE87C</sprite>
+    <sprite>equipment/head/silkheadband-male.xml</sprite>
     <sprite>equipment/legs/shorts-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     <sprite>equipment/chest/tanktop-male.xml|#16486e,498ec5,e4f2fc</sprite>
     <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
   </npc>
   <npc id="215">
-    <sprite>player_male_base.xml</sprite>
-    <sprite>hairstyles/hairstyle02.xml|#F88017,FBB117</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>hairstyles/hairstyle02-male.xml|#F88017,FBB117</sprite>
     <sprite>equipment/legs/chaps-male.xml</sprite>
     <sprite>equipment/chest/cotton-male.xml|#222255,6666ff</sprite>
-    <sprite>equipment/head/bowler-hat-brown.xml|#16486e,498ec5,e4f2fc</sprite>
+    <sprite>equipment/head/bowler-hat-brown-male.xml|#16486e,498ec5,e4f2fc</sprite>
     <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
   </npc>
-  <!-- ***216-250 reserved for huge npcs*** -->
   <!-- Barbarian with mouboohat-->
-  <npc id="216">
-    <sprite variant="0">npcs/hugenpcs.xml</sprite>
+  <npc id="216" targetCursor="large">
+    <sprite variant="0">model/oversized.xml</sprite>
   </npc>
   <!-- Barbarian with helmet and huge axe-->
-  <npc id="217">
-    <sprite variant="1">npcs/hugenpcs.xml</sprite>
+  <npc id="217" targetCursor="large">
+    <sprite variant="1">model/oversized.xml</sprite>
   </npc>
   <!-- Barbarian with spear-->
-  <npc id="218">
-    <sprite variant="2">npcs/hugenpcs.xml</sprite>
+  <npc id="218" targetCursor="large">
+    <sprite variant="2">model/oversized.xml</sprite>
   </npc>
-  <!-- ***251-299 reserved for pose/outfit NPCs using sprite layering and image dyeing techniques. Because all 7 image channels are active, #ffffff (pure white) is a placeholder color for image dyeing channels not used in the outfit.  The order of image channels is: White, Yellow, Green, Cyan, Blue, Magenta and Red.*** -->
-  <!-- Christmas Saboteur -->
-  <npc id="251">
-    <sprite variant="0">npcs/outfits.xml|#ffffff;#feffab;#25383c;#00ff00;#ff0000;#ffff00;#736f6e</sprite>
-  </npc>
-  <!-- Female therminor with orange hat, green outfit -->
-  <npc id="252">
-    <sprite variant="6">npcs/poses.xml</sprite>
-    <sprite variant="1">npcs/outfits.xml|#636342;#ebec9a;#ffffff;#ffffff;#4b8342;#ffffff;#ea983f</sprite>
-  </npc>
-  <!-- Male therminor with orange hat, green outfit. Bald and beardless. -->
-  <npc id="253">
-    <sprite variant="6">npcs/poses.xml</sprite>
-    <sprite variant="2">npcs/outfits.xml|#636342;#ebec9a;#949400;#ffffff;#4b8342;#ffffff;#ea983f</sprite>
-  </npc>
-  <!-- Male therminor with orange hat, green outfit. Balding and long beard.-->
-  <npc id="254">
-    <sprite variant="6">npcs/poses.xml</sprite>
-    <sprite variant="3">npcs/outfits.xml|#636342;#ebec9a;#949400;#ffffff;#4b8342;#ffffff;#ea983f</sprite>
-  </npc>
-  <!-- Male therminor with orange hat, green outfit. Long hair, short beard. -->
-  <npc id="255">
-    <sprite variant="6">npcs/poses.xml</sprite>
-    <sprite variant="1">npcs/outfits.xml|#636342;#ebec9a;#ffffff;#ffffff;#4b8342;#ffffff;#ea983f</sprite>
-  </npc>
-  <!-- Female child with red dress with pink flowers, red shoes. Pink hair in a bun. -->
-  <npc id="256">
-    <sprite variant="0">npcs/childposes.xml</sprite>
-    <sprite variant="0">npcs/childoutfits.xml|#ed9ecc;#641616;#ffffff;#ffffff;#ed9ecc;#ffffff;#ffffff</sprite>
-  </npc>
-  <!-- Male child crying, with dull green pants, yellow shirt under dark brown dungarees. Short light orange hair. -->
-  <npc id="257">
-    <sprite variant="1">npcs/childposes.xml</sprite>
-    <sprite variant="1">npcs/childoutfits.xml|#d9980b;#856011;#727b10;#e1d403;#ffffff;#ffffff;#ffffff</sprite>
-  </npc>
+  <!-- Npc Ids 219-257 Open -->
   <!-- Female child crying, with light blue dress. Purple hair up in two ponytails. -->
   <npc id="258">
-    <sprite variant="1">npcs/childposes.xml</sprite>
-    <sprite variant="2">npcs/childoutfits.xml|#5b4976;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#36a1bc</sprite>
+    <sprite variant="1">races/talponian-child.xml</sprite>
+    <sprite variant="0">equipment/override/child-head.xml|#ed9ecc</sprite>
+    <sprite variant="2">equipment/override/child-outfits.xml|#5b4976;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#36a1bc</sprite>
   </npc>
   <!-- Male child lying on stomach, with brown shirt, green pants. Short red hair. -->
   <npc id="259">
-    <sprite variant="3">npcs/childposes.xml</sprite>
-    <sprite variant="3">npcs/childoutfits.xml|#962222;#665204;#c68319;#ffffff;#ffffff;#ffffff;#ffffff</sprite>
+    <sprite variant="3">races/talponian-child.xml</sprite>
+    <sprite variant="3">equipment/override/child-head.xml|#d9980b</sprite>
+    <sprite variant="3">equipment/override/child-outfits.xml|#962222;#665204;#c68319;#ffffff;#ffffff;#ffffff;#ffffff</sprite>
   </npc>
   <!-- Female child standing holding lollipop, with dull purple dress, yellow leggings, dull purple shoes. Yellow hair in two ponytails. -->
   <npc id="260">
-    <sprite variant="4">npcs/childposes.xml</sprite>
-    <sprite variant="4">npcs/childoutfits.xml|#dbd41e;#dbd41e;#ffffff;#ffffff;#ffffff;#8c5a9a;#ffffff</sprite>
+    <sprite variant="4">races/talponian-child.xml</sprite>
+    <sprite variant="4">equipment/override/child-head.xml|#dbd41e</sprite>
+    <sprite variant="4">equipment/override/child-outfits.xml|#dbd41e;#dbd41e;#ffffff;#ffffff;#ffffff;#8c5a9a;#ffffff</sprite>
   </npc>
-  <!-- Male child standing holding lollipop, with green tanktop, red/brown shorts, yellow leggings, green shoes. Short dark yellow hair. -->
-  <npc id="261">
-    <sprite variant="4">npcs/childposes.xml</sprite>
-    <sprite variant="5">npcs/childoutfits.xml|#ac9619;#ac9619;#a63e0b;#ffffff;#2f702f;#ffffff;#5e9326</sprite>
-  </npc>
+  <!-- Npc Id 261 Open -->
   <!-- Male child hiding behind a crate. Spiky green hair. -->
   <npc id="262">
-    <sprite variant="5">npcs/childposes.xml</sprite>
-    <sprite variant="6">npcs/childoutfits.xml|#326632;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff</sprite>
+    <sprite variant="5">races/talponian-child.xml</sprite>
+    <sprite variant="2">equipment/override/child-head.xml|#326632</sprite>
+    <sprite variant="6">equipment/override/child-outfits.xml|#326632;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff;#ffffff</sprite>
   </npc>
   <!-- Male child standing, with dark red shirt, dark blue pants, purple shoes. Spiky dark blue hair. -->
   <npc id="263">
-    <sprite variant="2">npcs/childposes.xml</sprite>
-    <sprite variant="7">npcs/childoutfits.xml|#3d3d63;#ffffff;#ffffff;#ffffff;#542d63;#282858;#850707</sprite>
+    <sprite variant="2">races/talponian-child.xml</sprite>
+    <sprite variant="2">equipment/override/child-head.xml|#3d3d63</sprite>
+    <sprite variant="7">equipment/override/child-outfits.xml|#3d3d63;#ffffff;#ffffff;#ffffff;#542d63;#282858;#850707</sprite>
   </npc>
-  <!-- Male child standing, in orange hoodie, dark brown pants, orange shoes. -->
-  <npc id="264">
-    <sprite variant="2">npcs/childposes.xml</sprite>
-    <sprite variant="8">npcs/childoutfits.xml|#ffffff;#4d2e10;#ffffff;#ffffff;#c36508;#ffffff;#c36508</sprite>
-  </npc>
+  <!-- Npc id 264 Open -->
   <!-- Female child standing, with pink shirt, navy blue pants, pink shoes.  Light blue/cyan hair.  -->
   <npc id="265">
-    <sprite variant="2">npcs/childposes.xml</sprite>
-    <sprite variant="9">npcs/childoutfits.xml|#328abc;#ffffff;#ffffff;#ffffff;#cb1c66;#112f57;#cb1c7b</sprite>
+    <sprite variant="2">races/talponian-child.xml</sprite>
+    <sprite variant="1">equipment/override/child-head.xml|#328abc</sprite>
+    <sprite variant="7">equipment/override/child-outfits.xml|#328abc;#ffffff;#ffffff;#ffffff;#cb1c66;#112f57;#cb1c7b</sprite>
   </npc>
-  <!-- Chef Skeleton -->
+  <!-- Chef Skeleton (Shop) -->
   <npc id="300">
-    <sprite variant="0">npcs/npc2.xml</sprite>
+    <sprite variant="0">monsters/skeleton.xml</sprite>
+    <sprite variant="1">equipment/override/adult-outfits.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#416068,647a82,899299,97a1a8,b1babf,d8dee0,f3f4f6</sprite>
+    <sprite>equipment/legs/pants-male.xml|#2f1b08,4a2a0d,643a12,844c18,ffffff</sprite>
+    <sprite>equipment/head/chefhat-male.xml</sprite>
   </npc>
-  <!-- Barmaid -->
+  <!-- Barmaid (Shop) -->
   <npc id="301">
-    <sprite variant="1">npcs/npc2.xml</sprite>
+    <sprite variant="1">races/talponian-female.xml</sprite>
+    <sprite>equipment/chest/fine-dress-female.xml|#212121,ffffff</sprite>
+    <sprite>hairstyles/hairstyle19-female.xml|#8b3535,a43e3e,b94747,cc4a4a</sprite>
+    <sprite variant="8">equipment/override/adult-outfits.xml</sprite>
   </npc>
-  <!-- Shopkeeper -->
+  <!-- Shopkeeper (Shop) -->
   <npc id="302">
-    <sprite variant="2">npcs/npc2.xml</sprite>
+    <sprite variant="23">model/unique.xml</sprite>
   </npc>
   <!-- Drunk Lover -->
   <npc id="303">
-    <sprite variant="3">npcs/npc2.xml</sprite>
+    <sprite variant="6">model/unique.xml</sprite>
   </npc>
-  <!-- Magic Undead Shop -->
+  <!-- Magic Undead Shop (Shop) -->
   <npc id="304">
-    <sprite variant="4">npcs/npc2.xml</sprite>
+    <sprite variant="0">monsters/zombie.xml</sprite>
+    <sprite variant="13">equipment/override/adult-outfits.xml</sprite>
   </npc>
   <!-- Werewolf -->
   <npc id="305">
-    <sprite variant="5">npcs/npc2.xml</sprite>
+    <sprite variant="5">model/unique.xml</sprite>
   </npc>
   <!-- Chef's helper -->
-  <npc id="306">
-    <sprite variant="6">npcs/npc2.xml</sprite>
+  <npc id="306" targetCursor="large">
+    <sprite variant="7">model/oversized.xml</sprite>
   </npc>
-  <!-- Horned mage -->
+  <!-- Horned mage (Golbenez) -->
   <npc id="307">
-    <sprite variant="7">npcs/npc2.xml</sprite>
+    <sprite variant="7">equipment/override/adult-head.xml</sprite>
+    <sprite variant="14">equipment/override/adult-outfits.xml</sprite>
+    <sprite variant="6">equipment/override/adult-head.xml</sprite>
   </npc>
   <!-- Drunker -->
   <npc id="308">
-    <sprite variant="8">npcs/npc2.xml</sprite>
+    <sprite variant="7">model/unique.xml</sprite>
   </npc>
   <!-- Chief Barman -->
   <npc id="309">
-    <sprite variant="9">npcs/npc2.xml</sprite>
+    <sprite variant="0">monsters/skeleton.xml</sprite>
+    <sprite>equipment/legs/chaps-male.xml</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml|#580000,A40000,C02020,ff6060</sprite>
+    <sprite>equipment/head/tophat-male.xml</sprite>
+    <sprite>equipment/head/mustache.xml|#212121,ffffff</sprite>
   </npc>
   <!-- Barman -->
   <npc id="310">
-    <sprite variant="10">npcs/npc2.xml</sprite>
+    <sprite variant="0">monsters/skeleton.xml</sprite>
+    <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
+    <sprite>equipment/legs/chaps-male.xml</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml|#0d1430,21337c,4363e5</sprite>
+    <sprite>equipment/head/bowler-hat-male.xml</sprite>
+    <sprite>equipment/head/mustache.xml|#212121,ffffff</sprite>
   </npc>
   <!-- SwordGuy -->
   <npc id="311">
-    <sprite variant="11">npcs/npc2.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>hairstyles/hairstyle02-male.xml|#201818,313031,424242,4e4e4e</sprite>
+    <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
+    <sprite>equipment/legs/chaps-male.xml</sprite>
+    <sprite>equipment/chest/chainmail-male.xml|#eef1c5,ffffff</sprite>
+    <sprite>equipment/chest/warlordplate-male.xml</sprite>
   </npc>
   <!-- Ghost from a dead drunker -->
   <npc id="312">
@@ -703,14 +933,7 @@
   <npc id="321">
     <sprite>npcs/npc-undeadbanker.xml</sprite>
   </npc>
-  <!-- Closed version of the crypt entrance gate -->
-  <npc id="322">
-    <sprite>npcs/npc-gate-closed.xml</sprite>
-  </npc>
-  <!-- Open version of the crypt entrance gate -->
-  <npc id="323">
-    <sprite>npcs/npc-gate-open.xml</sprite>
-  </npc>
+  <!-- NPC Id 322-323 Open -->
   <npc id="324">
     <particlefx>graphics/particles/pentagram-redlinedraw.particle.xml</particlefx>
   </npc>
@@ -719,19 +942,24 @@
   </npc>
   <!-- Dyer -->
   <npc id="326">
-    <sprite>npcs/npc-dyer.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml|#800000,9d1f1f,b52424,df2c2c,f13030</sprite>
+    <sprite>equipment/legs/pants-male.xml|#592f36,6e3741,803e4b,9a4859,bd5666</sprite>
+    <sprite>equipment/feet/boots-male.xml|#800000,9d1f1f,b52424,df2c2c,f13030</sprite>
+    <sprite>hairstyles/hairstyle05-male.xml|#5b280a,994312,c55818,e46c28</sprite>
   </npc>
-  <!-- Evil Obelisk -->
-  <npc id="327">
-    <sprite>npcs/evil-obelisk.xml</sprite>
-  </npc>
+  <!-- Npc Id 327 Open -->
   <!-- Elf -->
   <npc id="328">
-    <sprite variant="0">npcs/christmas_npcs.xml</sprite>
+    <sprite variant="6">races/talponian-child.xml</sprite>
+    <sprite variant="9">equipment/override/child-outfits.xml</sprite>
+    <sprite variant="5">equipment/override/child-head.xml|#870a0f,931714,d22b27,ff422c</sprite>
   </npc>
   <!-- Cloaked Elf -->
   <npc id="329">
-    <sprite variant="1">npcs/christmas_npcs.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite variant="7">equipment/override/adult-outfits.xml</sprite>
+    <sprite>equipment/head/santahat-male.xml|#870a0f,931714,d22b27,ff422c;#7eafee,bbc39c,edf4e1,ffffff</sprite>
   </npc>
   <!-- Nutcracker -->
   <npc id="330">
@@ -748,156 +976,193 @@
     <sprite>monsters/accessories/mouboo-santa-hat.xml</sprite>
   </npc>
   <!-- Bodyguard Elf1 -->
-  <npc id="332">
-    <sprite variant="4">npcs/christmas_npcs.xml</sprite>
+  <npc id="332" targetCursor="large">
+    <sprite variant="3">model/oversized.xml</sprite>
   </npc>
   <!-- Bodyguard Elf2 -->
-  <npc id="333">
-    <sprite variant="5">npcs/christmas_npcs.xml</sprite>
+  <npc id="333" targetCursor="large">
+    <sprite variant="4">model/oversized.xml</sprite>
   </npc>
   <!-- Bodyguard Elf3 -->
-  <npc id="334">
-    <sprite variant="6">npcs/christmas_npcs.xml</sprite>
+  <npc id="334" targetCursor="large">
+    <sprite variant="5">model/oversized.xml</sprite>
   </npc>
   <!-- Bodyguard Elf4 -->
-  <npc id="335">
-    <sprite variant="7">npcs/christmas_npcs.xml</sprite>
+  <npc id="335" targetCursor="large">
+    <sprite variant="6">model/oversized.xml</sprite>
   </npc>
-  <!-- Bunny with a Bowler Hat -->
-  <npc id="336">
-    <sprite variant="12">npcs/npc2.xml</sprite>
-  </npc>
-  <!-- Fortune Teller -->
-  <npc id="337">
-    <sprite variant="0">npcs/thermin_npcs.xml</sprite>
-  </npc>
-  <!-- Steam Punk -->
-  <npc id="338">
-    <sprite variant="1">npcs/thermin_npcs.xml</sprite>
-  </npc>
-  <!-- Furnace -->
-  <npc id="339">
-    <sprite>npcs/furnace.xml</sprite>
-  </npc>
+  <!-- Npc Ids 336-339 Open -->
   <!-- Female Miner -->
   <npc id="340">
-    <sprite variant="36">npcs/npc.xml</sprite>
+    <sprite>races/gispaan-female.xml</sprite>
+    <sprite>equipment/head/minershat-male.xml</sprite>
+    <sprite>equipment/chest/cotton-male.xml|#573a26,9e7654,d3b79e,ffffff</sprite>
+    <sprite>equipment/legs/pants-male.xml|#2e0890,7898e8</sprite>
+    <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
+    <sprite>equipment/weapons/axe-stab-female.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
   </npc>
-  <!-- Furnace NPC without furniture -->
-  <npc id="341">
-    <sprite variant="41">npcs/npc.xml</sprite>
-  </npc>
-  <!-- Fortune Teller without furniture -->
-  <npc id="342">
-    <sprite variant="97">npcs/npc.xml</sprite>
-  </npc>
-  <!-- Shapeshifter -->
-  <npc id="343">
-    <sprite>npcs/shapeshifter.xml</sprite>
-  </npc>
+  <!-- Npc Ids Open 341-343 -->
   <!-- Soul Menhir - Forest -->
   <npc id="344">
-    <sprite variant="0">npcs/soulmenhirs.xml</sprite>
+    <sprite variant="12">model/unique.xml</sprite>
     <particlefx>graphics/particles/soulmenhir.particle.xml</particlefx>
   </npc>
   <!-- Soul Menhir - Desert -->
   <npc id="345">
-    <sprite variant="1">npcs/soulmenhirs.xml</sprite>
+    <sprite variant="13">model/unique.xml</sprite>
     <particlefx>graphics/particles/soulmenhir.particle.xml</particlefx>
   </npc>
   <!-- Soul Menhir - Snow -->
   <npc id="346">
-    <sprite variant="2">npcs/soulmenhirs.xml</sprite>
+    <sprite variant="14">model/unique.xml</sprite>
     <particlefx>graphics/particles/soulmenhir.particle.xml</particlefx>
   </npc>
   <!-- Soul Menhir - Cave -->
   <npc id="347">
-    <sprite variant="3">npcs/soulmenhirs.xml</sprite>
+    <sprite variant="15">model/unique.xml</sprite>
     <particlefx>graphics/particles/soulmenhir.particle.xml</particlefx>
   </npc>
   <!-- Soul Menhir - Thermin Cave -->
   <npc id="348">
-    <sprite variant="4">npcs/soulmenhirs.xml</sprite>
+    <sprite variant="16">model/unique.xml</sprite>
     <particlefx>graphics/particles/soulmenhir.particle.xml</particlefx>
   </npc>
   <!-- Soul Menhir - Savannah -->
   <npc id="349">
-    <sprite variant="5">npcs/soulmenhirs.xml</sprite>
+    <sprite variant="17">model/unique.xml</sprite>
     <particlefx>graphics/particles/soulmenhir.particle.xml</particlefx>
   </npc>
   <!-- Soul Menhir - Woodland -->
   <npc id="350">
-    <sprite variant="6">npcs/soulmenhirs.xml</sprite>
+    <sprite variant="18">model/unique.xml</sprite>
     <particlefx>graphics/particles/soulmenhir.particle.xml</particlefx>
   </npc>
   <!-- Soul Menhir - Lava Cave -->
   <npc id="351">
-    <sprite variant="7">npcs/soulmenhirs.xml</sprite>
+    <sprite variant="19">model/unique.xml</sprite>
     <particlefx>graphics/particles/soulmenhir.particle.xml</particlefx>
   </npc>
-  <!-- Woman in pink dress and white hair, wearing a circlet -->
-  <npc id="352">
-    <sprite variant="2">npcs/thermin_npcs.xml</sprite>
-  </npc>
-  <!-- Man with armor, helmet and a white beard -->
-  <npc id="353">
-    <sprite variant="3">npcs/thermin_npcs.xml</sprite>
-  </npc>
+  <!-- Sages -->
+  <!-- Npc Open Ids 352-353-->
   <!-- Blond man with blue robe sitting and holding a scroll which is written on by a flying quill -->
   <npc id="354">
     <sprite>npcs/sittingsage.xml</sprite>
   </npc>
-  <!-- Man wearing a grey robe with pink borders and a similiar cap, holding a staff -->
+  <!-- Yellow Sage -->
   <npc id="355">
-    <sprite variant="0">npcs/sages.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>equipment/feet/boots-female.xml|#846211,dab333,fffb93,ffffff;#ec3e3e</sprite>
+    <sprite>equipment/legs/pants-female.xml|#846211</sprite>
+    <sprite>hairstyles/hairstyle11-female.xml|#bb2222,ffee33</sprite>
+    <sprite>equipment/chest/sorcerer-robe-female.xml|#846211,dab333,fffb93,ffffff;#ec3e3e</sprite>
+    <sprite>equipment/head/wizard-hat-female.xml|#846211,dab333,fffb93,ffffff</sprite>
+    <sprite>equipment/weapons/polearm-blunt-female.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
   </npc>
-  <!-- Woman wearing orange clothing with white borders and a witch hat, holding a wand -->
+  <!-- Red Sage -->
   <npc id="356">
-    <sprite variant="1">npcs/sages.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite >hairstyles/hairstyle19-female.xml|b04810</sprite>
+    <sprite>equipment/feet/boots-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
+    <sprite>equipment/legs/pants-female.xml|#104010,268026,56a743,3e9c3e</sprite>
+    <sprite>equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#09BC09</sprite>
+    <sprite>equipment/head/witchhat2-female.xml|#80280f,b04810,ef681f,ffb830;#f06ce3</sprite>
+    <sprite>equipment/weapons/polearm-blunt-female.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
   </npc>
-  <!-- Woman wearing red clothing with white borders and a witch hat, one hand on her hip -->
+  <!-- Green Sage -->
   <npc id="357">
-    <sprite variant="2">npcs/sages.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#104010,208020,30c030</sprite>
+    <sprite>equipment/legs/pants-male.xml|#115511</sprite>
+    <sprite>hairstyles/hairstyle02-male.xml|#994312,c55818,e46c28</sprite>
+    <sprite>equipment/head/beard.xml|#5b280a,994312,c55818,e46c28</sprite>
+    <sprite>equipment/chest/sorcerer-robe-male.xml|#115511,22aa22,99dd99;#ec3e3e</sprite>
+    <sprite>equipment/head/wizard-hat-male.xml|#104010,208020,30c030</sprite>
+    <sprite>equipment/weapons/polearm-blunt-male.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
   </npc>
-  <!-- Old man with long beard, wearing green clothing with white borders, holding a staff -->
+  <!-- Purple Sage -->
   <npc id="358">
-    <sprite variant="3">npcs/sages.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#4f0a76,8010c0,d699f7;#ec3e3e</sprite>
+    <sprite>equipment/legs/pants-male.xml|#4f0a76</sprite>
+    <sprite>hairstyles/hairstyle18-male.xml|#817339,FFE87C</sprite>
+    <sprite>equipment/chest/sorcerer-robe-male.xml|#4f0a76,8010c0,d699f7;#ec3e3e</sprite>
+    <sprite>equipment/head/wizard-hat-male.xml|#4f0a76,8010c0,d699f7</sprite>
   </npc>
-  <!-- Woman wearing purple and yellow dress wearing a mob-cap -->
+  <!-- Pink Sage -->
   <npc id="359">
-    <sprite variant="4">npcs/sages.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#56002f,930050,fe70bd,feb7de,ffffff;#ec3e3e</sprite>
+    <sprite>equipment/legs/pants-male.xml|#56002f</sprite>
+    <sprite>hairstyles/hairstyle02-male.xml|#201818,313031,424242,4e4e4e</sprite>
+    <sprite>equipment/chest/sorcerer-robe-male.xml|#56002f,930050,fe70bd,feb7de,ffffff;#ec3e3e</sprite>
+    <sprite>equipment/head/wizard-hat-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+    <sprite>equipment/weapons/polearm-blunt-male.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
   </npc>
-  <!-- Man with green beard wearing a yellow robe with white borders and having a bird flying over his hand -->
+  <!-- Black Sage -->
   <npc id="360">
-    <sprite variant="5">npcs/sages.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>equipment/feet/boots-female.xml|#070707,202020,303030,404040</sprite>
+    <sprite>equipment/legs/pants-female.xml|#070707</sprite>
+    <sprite>hairstyles/hairstyle01-female.xml|#69006a,880884,a404a2,c000c0,ff40ff</sprite>
+    <sprite>equipment/chest/robe-female.xml|#000000</sprite>
+    <sprite>equipment/head/wizard-hat-female.xml|#070707,202020,303030,404040</sprite>
+    <sprite>equipment/weapons/polearm-stab-female.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
   </npc>
-  <!-- Man wearing a black and red robe, a monster skull helmet and holding a staff -->
+  <!-- White Sage -->
   <npc id="361">
-    <sprite variant="6">npcs/sages.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>equipment/feet/boots-female.xml|#070707,202020,303030,404040</sprite>
+    <sprite>equipment/legs/pants-female.xml|#070707</sprite>
+    <sprite>hairstyles/hairstyle11-female.xml|#dbd41e,867f1a,a49c2e,b2aa4f,c6c170,d9d394,e0dcb3</sprite>
+    <sprite>equipment/chest/robe-female.xml|#5e7480,f1ffff,ffffff</sprite>
+    <sprite>equipment/head/circlet-female.xml</sprite>
+    <sprite>equipment/weapons/polearm-stab-female.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
   </npc>
-  <!-- Man with brown hair, short beard, wearing blue clothes with white borders, leaning on a cane -->
+  <!-- Blue Sage -->
   <npc id="362">
-    <sprite variant="7">npcs/sages.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#212121</sprite>
+    <sprite>equipment/legs/pants-male.xml|#222255</sprite>
+    <sprite>equipment/chest/sorcerer-robe-male.xml|#222255,6666ff;#2050BE</sprite>
+    <sprite>hairstyles/hairstyle02-male.xml|#5b280a,994312,c55818,e46c28</sprite>
+    <sprite>equipment/head/beard.xml|#5b280a,994312,c55818,e46c28</sprite>
+    <sprite>equipment/head/woolen-male.xml|#222255,EFEFEF</sprite>
+    <sprite variant="6">equipment/override/adult-outfits.xml</sprite>
   </npc>
   <!-- Woman wearing blue clothes with white borders (helper) -->
   <npc id="363">
-    <sprite variant="8">npcs/sages.xml</sprite>
-  </npc>
-  <!-- Bald Man with red-brown robe and circlet, hands folded-->
-  <npc id="364">
-    <sprite variant="9">npcs/sages.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>equipment/feet/boots-female.xml|#212121</sprite>
+    <sprite>hairstyles/hairstyle08-female.xml|#994312,c55818,e46c28</sprite>
+    <sprite>equipment/legs/pants-female.xml|#16486e,498ec5,e4f2fc</sprite>
+    <sprite>equipment/chest/sorcerer-robe-female.xml|#16486e,498ec5,e4f2fc;#8000FF</sprite>
+    <sprite>equipment/head/funkywinter-female.xml</sprite>
   </npc>
   <!-- Man with short beard and white-blue clothes including cape (helper) -->
   <npc id="365">
-    <sprite variant="10">npcs/sages.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#212121</sprite>
+    <sprite>hairstyles/hairstyle02-male.xml|#994312,c55818,e46c28</sprite>
+    <sprite>equipment/head/beard.xml|#994312,c55818,e46c28</sprite>
+    <sprite>equipment/legs/pants-male.xml|#498ec5</sprite>
+    <sprite>equipment/chest/sorcerer-robe-male.xml|#16486e,498ec5,e4f2fc;#41B3FF</sprite>
+    <sprite>equipment/head/santahat-male.xml|#16486e,498ec5,e4f2fc;#7eafee,bbc39c,edf4e1,ffffff</sprite>
   </npc>
   <!-- Man with short beard and white-blue clothes (helper) -->
   <npc id="366">
-    <sprite variant="11">npcs/sages.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#212121</sprite>
+    <sprite>hairstyles/hairstyle02-male.xml|#5b280a,994312,c55818</sprite>
+    <sprite>equipment/head/beard.xml|#5b280a,994312,c55818</sprite>
+    <sprite>equipment/legs/pants-male.xml|#498ec5</sprite>
+    <sprite>equipment/chest/sorcerer-robe-male.xml|#222255,6666ff;#EFEFEF</sprite>
+    <sprite>equipment/head/santahat-male.xml|#16486e,498ec5,e4f2fc;#7eafee,bbc39c,edf4e1,ffffff</sprite>
   </npc>
+  <!-- Sages End -->
   <!-- A skeleton with a note -->
   <npc id="367">
-    <sprite>npcs/bones.xml</sprite>
+    <sprite variant="8">monsters/skeleton.xml</sprite>
+    <!-- Needs to use Death Frame -->
   </npc>
   <!-- Magical Power Circle area -->
   <npc id="368">
@@ -910,22 +1175,22 @@
   <!-- Witch sister 1 -->
   <npc id="370">
     <particlefx>graphics/particles/power-circle.particle.xml</particlefx>
-    <sprite>player_female_base.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
     <sprite>equipment/feet/assassin-boots-female.xml</sprite>
     <sprite>equipment/legs/shorts-female.xml|#121212,343434</sprite>
     <sprite>equipment/chest/sorcerer-robe-female.xml|#121212,343434;#468AD6</sprite>
-    <sprite>hairstyles/hairstyle11.xml|#602486,934cc3,fdc689</sprite>
-    <sprite>equipment/head/wizard-hat.xml|#070707,121212,5B9BC2</sprite>
+    <sprite>hairstyles/hairstyle11-female.xml|#602486,934cc3,fdc689</sprite>
+    <sprite>equipment/head/wizard-hat-female.xml|#070707,121212,5B9BC2</sprite>
   </npc>
   <!-- Witch sister 2 -->
   <npc id="371">
     <particlefx>graphics/particles/monster-luvia.particle.xml</particlefx>
-    <sprite>player_female_base.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
     <sprite>equipment/feet/assassin-boots-female.xml</sprite>
     <sprite>equipment/legs/shorts-female.xml|#121212,343434</sprite>
     <sprite>equipment/chest/sorcerer-robe-female.xml|#121212,343434;#8F47D6</sprite>
-    <sprite>hairstyles/hairstyle11.xml|#8c6625,dab425,ffffff</sprite>
-    <sprite>equipment/head/wizard-hat.xml|#070707,121212,663399</sprite>
+    <sprite>hairstyles/hairstyle11-female.xml|#8c6625,dab425,ffffff</sprite>
+    <sprite>equipment/head/wizard-hat-female.xml|#070707,121212,663399</sprite>
   </npc>
   <!-- Old man sitting in front of desk -->
   <npc id="372">
@@ -935,25 +1200,29 @@
   <npc id="374">
     <particlefx>graphics/particles/demonfire.particle.xml</particlefx>
   </npc>
+  <!-- Easter Eggs (Annual Easter) -->
   <npc id="375">
-    <sprite variant="0">npcs/npc-annualeaster.xml</sprite>
+    <sprite variant="3">model/unique.xml</sprite>
   </npc>
   <!-- Blonde girl with spinning wheel by Chef Chelios-->
   <npc id="376">
-    <sprite>npcs/npc-weaver.xml</sprite>
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>hairstyles/hairstyle11-female.xml|#dbd41e,867f1a,a49c2e,b2aa4f,c6c170,d9d394,e0dcb3</sprite>
+    <sprite>equipment/chest/sorcerer-robe-female.xml|#115511,22aa22,99dd99;#FFF528</sprite>
+    <sprite variant="6">npcs/weaver-wheel.xml</sprite>
   </npc>
   <!-- Trapper -->
   <npc id="377">
-    <sprite>player_male_base.xml</sprite>
-    <sprite>hairstyles/hairstyle05.xml|#8c6625,dab425,ffffff</sprite>
-    <sprite>equipment/head/silkheadband.xml|W:#412300,c9866b,8d4900</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>hairstyles/hairstyle05-female.xml|#8c6625,dab425,ffffff</sprite>
+    <sprite>equipment/head/silkheadband-male.xml|W:#412300,c9866b,8d4900</sprite>
     <sprite>equipment/chest/leather-male.xml|#573a26,c9866b,d3b79e,ffffff;#b96b3d,fbf5f1</sprite>
     <sprite>equipment/legs/pants-male.xml|#2a2117,2f2112,493219,61411e,724c22,a97e4f</sprite>
     <sprite>equipment/feet/furboots-male.xml</sprite>
   </npc>
   <!-- Supply Chest for South Tulimshar Mine Quest -->
   <npc id="378">
-    <sprite>npcs/npc-supply-crate.xml</sprite>
+    <sprite variant="9">model/unique.xml</sprite>
   </npc>
   <!-- Christmas Decorated Snowy Pine Tree (HUGE) -->
   <npc id="379"
@@ -985,9 +1254,11 @@
     targetSelection="false">
     <sprite variant="1">npcs/palm-tree.xml</sprite>
   </npc>
-  <!-- Young Male Wizard In Bubble -->
+  <!-- Male Wizard In Bubble -->
   <npc id="385">
-    <sprite variant="58">npcs/npc.xml</sprite>
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#490000,b66d49</sprite>
+    <sprite variant="0">equipment/override/adult-outfits.xml</sprite>
     <particlefx>graphics/particles/sphere-white.particle.xml</particlefx>
   </npc>
   <npc id="386">
@@ -999,14 +1270,89 @@
        targetSelection="false">
     <sprite variant="1">npcs/tree-large.xml</sprite>
   </npc>
+  <!-- Ship -->
+  <npc id="395"
+       targetSelection="false">
+    <sprite variant="1">npcs/koga.xml</sprite>
+  </npc>
+  <!-- Dock Sign (Light) -->
+  <npc id="396">
+    <sprite variant="0">npcs/signs.xml</sprite>
+    <sprite variant="9">npcs/signs.xml</sprite>
+  </npc>
+  <!-- Dock Sign (Dark) -->
+  <npc id="397">
+    <sprite variant="1">npcs/signs.xml</sprite>
+    <sprite variant="9">npcs/signs.xml</sprite>
+  </npc>
+  <!-- Dock Sign (Dark w/snow) -->
+  <npc id="398">
+    <sprite variant="1">npcs/signs.xml</sprite>
+    <sprite variant="9">npcs/signs.xml</sprite>
+    <sprite variant="6">npcs/signs.xml</sprite>
+  </npc>
   <!-- empty (Invisible NPC used in scripts) -->
   <!-- for npcs that shouldn't be selectable (e.g. in magic effects) use 127,
        for warps/doors use 45,
        for 'hidden' npcs the client shouldn't know about use 32767 -->
   <npc id="400">
-    <sprite variant="27">npcs/npc.xml</sprite>
   </npc>
-
-  <!-- Put new unique sprites above here.  For huge npcs, see range 216-250. For poses/outfits npcs, see 251-299 -->
+  <!-- Manakins -->
+  <npc id="401">
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>equipment/legs/terranite-female.xml</sprite>
+    <sprite>equipment/chest/terranite-female.xml</sprite>
+    <sprite>equipment/head/terranitehelm-female.xml</sprite>
+  </npc>
+  <npc id="402">
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/legs/terranite-male.xml</sprite>
+    <sprite>equipment/chest/terranite-male.xml</sprite>
+    <sprite>equipment/head/terranitehelm-male.xml</sprite>
+  </npc>
+  <npc id="403">
+    <sprite>monsters/terranite.xml</sprite>
+  </npc>
+  <npc id="404">
+    <sprite>races/talponian-female.xml</sprite>
+    <sprite>equipment/feet/boots-female.xml</sprite>
+    <sprite>hairstyles/hairstyle11-female.xml|#bb2222,ffee33</sprite>
+    <sprite>equipment/chest/robe-female.xml|#ffffff</sprite>
+    <sprite>equipment/head/deserthat-female.xml|#ffffff</sprite>
+    <sprite>equipment/feet/boots-female.xml|#a4b2b2,ffffff</sprite>
+  </npc>
+  <npc id="405">
+    <sprite>races/talponian-male.xml</sprite>
+    <sprite>equipment/legs/chaps-male.xml</sprite>
+    <sprite>equipment/chest/tanktop-male.xml</sprite>
+    <sprite>hairstyles/hairstyle18-male.xml|#817339,FFE87C</sprite>
+    <sprite>equipment/chest/robe-male.xml|#ffffff</sprite>
+    <sprite>equipment/head/deserthat-male.xml|#ffffff</sprite>
+    <sprite>equipment/feet/boots-male.xml|#a4b2b2,ffffff</sprite>
+  </npc>
+  <npc id="406">
+    <sprite>races/gispaan-female.xml</sprite>
+    <sprite>equipment/feet/boots-female.xml</sprite>
+    <sprite>equipment/chest/leather-female.xml|#412300,603100,8d4900;#ffff00</sprite>
+    <sprite>equipment/legs/skirt-female.xml|#2a2117,2f2112,493219,61411e,724c22,a97e4f</sprite>
+    <sprite>hairstyles/hairstyle11-male.xml|#bb2222,ffee33</sprite>
+    <sprite>equipment/hands/generic-female.xml|#4e2e18,c8752f</sprite>
+    <sprite>equipment/head/minershat-female.xml</sprite>
+  </npc>
+  <npc id="407">
+    <sprite>races/gispaan-male.xml</sprite>
+    <sprite>equipment/legs/pants-male.xml|#2a2117,2f2112,493219,61411e,724c22,a97e4f</sprite>
+    <sprite>equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
+    <sprite>hairstyles/hairstyle14-male.xml|#817339,FFE87C</sprite>
+    <sprite>equipment/head/minershat-male.xml</sprite>
+    <sprite>equipment/ands/generic-male.xml|#4e2e18,c8752f</sprite>
+    <sprite>equipment/chest/leather-male.xml|#573a26,9e7654,d3b79e,ffffff;#b96b3d,fbf5f1</sprite>
+  </npc>
+  <npc id="408">
+    <sprite>npcs/npc-reaper.xml</sprite>
+  </npc>
+  <npc id="409">
+    <sprite>npcs/npc-skeletons.xml</sprite>
+  </npc>
   <!-- note: don't go above 999, because the 1000's are reserved for mob id -->
 </npcs>
