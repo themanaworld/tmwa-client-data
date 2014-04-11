@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+Wight blaze:  inspired by Demon fire
+-->
+<effect>
+  <particle position-x="10" position-y="5" position-z="38">
+    <emitter>
+      <property name="position-y" value="-10"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="300" max="60"/>
+      <property name="power" min="0.5" max="1.0"/>
+      <property name="gravity" value=".02"/>
+      <property name="image" value="graphics/particles/fog-medium-a.png|W:#124ea3"/>
+      <property name="lifetime" value="100"/>
+      <property name="output" min="1" max="4"/>
+      <property name="fade-in" value="0"/>
+      <property name="fade-out" value="450"/>
+    </emitter>
+  </particle>
+</effect>
