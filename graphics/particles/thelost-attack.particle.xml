@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--
+    The Lost's missile attack
+-->
+<effect>
+  <particle position-x="0" position-y="0" position-z="32" lifetime="102">
+    <emitter>
+      <property name="image" value="graphics/particles/star-small.png|W:#b00000,c70000"/>
+      <property name="lifetime" value="200"/>
+      <property name="fade-out" value="100"/>
+      <property name="output" min="0" max="2"/>
+      <property name="power" min="1" max="3"/>
+      <property name="horizontal-angle" min="-15" max="-175"/>
+      <property name="momentum" value="0.95"/>
+      <property name="randomnes" value="200"/>
+      <property name="vertical-angle" min="0" max="90"/>
+    </emitter>
+    <emitter>
+      <property name="image" value="graphics/particles/orb-large.png|W:#b00000,c70000,ee7e00"/>
+      <property name="lifetime" value="225"/>
+      <property name="fade-out" value="100"/>
+      <property name="output" value="1"/>
+      <property name="power" value="1"/>
+      <property name="horizontal-angle" min="-10" max="-10"/>
+      <property name="momentum" value="0.95"/>
+      <property name="randomnes" value="75"/>
+      <property name="vertical-angle" min="0" max="90"/>
+    </emitter>
+  </particle>
+</effect>

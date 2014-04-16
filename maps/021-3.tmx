@@ -19,7 +19,7 @@
  <tileset firstgid="1567" source="../tilesets/cave2_sewer_mine.tsx"/>
  <tileset firstgid="1823" source="../tilesets/cave2.tsx"/>
  <tileset firstgid="2079" source="../tilesets/cave2_transistions.tsx"/>
- <layer name="Ground" width="178" height="168">
+ <layer name="Ground1" width="178" height="168" opacity="0.98">
   <data encoding="csv">
 27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,52,53,53,54,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,
 27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,52,53,53,54,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,
@@ -707,7 +707,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Over" width="178" height="168">
+ <layer name="Over1" width="178" height="168">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1223,7 +1223,7 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup name="Objects" width="0" height="0" visible="0">
+ <objectgroup name="Objects" visible="0">
   <object name="To Central Tulimshar" type="warp" x="4576" y="4064" width="32" height="32">
    <properties>
     <property name="dest_map" value="021-1"/>
@@ -1260,30 +1260,6 @@
   <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="4480" y="2336" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="4672" y="1376" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="3936" y="1376" width="32" height="32"/>
-  <object name="AngrySeaSlime" type="spawn" x="3520" y="3840" width="672" height="704">
-   <properties>
-    <property name="eA_death" value="100000"/>
-    <property name="eA_spawn" value="150000"/>
-    <property name="max_beings" value="6"/>
-    <property name="monster_id" value="107"/>
-   </properties>
-  </object>
-  <object name="AngrySeaSlime" type="spawn" x="1376" y="3840" width="672" height="704">
-   <properties>
-    <property name="eA_death" value="100000"/>
-    <property name="eA_spawn" value="150000"/>
-    <property name="max_beings" value="6"/>
-    <property name="monster_id" value="107"/>
-   </properties>
-  </object>
-  <object name="AngrySeaSlime" type="spawn" x="3680" y="2112" width="896" height="256">
-   <properties>
-    <property name="eA_death" value="100000"/>
-    <property name="eA_spawn" value="150000"/>
-    <property name="max_beings" value="6"/>
-    <property name="monster_id" value="107"/>
-   </properties>
-  </object>
   <object name="CaveMaggot" type="spawn" x="3680" y="1088" width="384" height="288">
    <properties>
     <property name="eA_death" value="30000"/>
@@ -1346,22 +1322,6 @@
     <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="6"/>
     <property name="monster_id" value="31"/>
-   </properties>
-  </object>
-  <object name="Troll" type="spawn" x="4759" y="3923" width="119" height="541">
-   <properties>
-    <property name="eA_death" value="100000"/>
-    <property name="eA_spawn" value="600000"/>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="52"/>
-   </properties>
-  </object>
-  <object name="Troll" type="spawn" x="890" y="1361" width="148" height="702">
-   <properties>
-    <property name="eA_death" value="100000"/>
-    <property name="eA_spawn" value="600000"/>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="52"/>
    </properties>
   </object>
  </objectgroup>

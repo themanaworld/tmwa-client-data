@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<sprite variants="8" variant_offset="1">
+  <imageset name="base" src="graphics/sprites/equipment/override/adult-head.png|W;Y;G;C;B;M;R" width="32" height="64"/>
+  <action name="stand" imageset="base">
+    <animation direction="down">
+      <frame index="0" offsetX="0" offsetY="0"/>
+    </animation>
+  </action>
+</sprite>

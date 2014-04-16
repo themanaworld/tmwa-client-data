@@ -217,13 +217,13 @@
   </monster>
   <monster id="42" name="Lady Skeleton">
     <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
-    <sprite>hairstyles/hairstyle08.xml</sprite>
+    <sprite>hairstyles/hairstyle08-male.xml</sprite>
   </monster>
   <monster id="43" name="Fallen">
     <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
     <sprite>equipment/legs/chaps-male.xml</sprite>
     <sprite>equipment/chest/warlordplate-male.xml</sprite>
-    <sprite>equipment/head/warlordhelm.xml</sprite>
+    <sprite>equipment/head/warlordhelm-male.xml</sprite>
   </monster>
   <!-- Snake lord 44 -->
   <monster id="45" name="Poltergeist">
@@ -296,11 +296,11 @@
   </monster>
   <monster id="62" name="Bandit">
     <sprite>monsters/bandit.xml</sprite>
-    <sprite>monsters/accessories/weapon-dagger.xml</sprite>
+    <sprite>equipment/weapons/dagger-male.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;</sprite>
   </monster>
   <monster id="63" name="Bandit Lord">
     <sprite>monsters/bandit-lord.xml</sprite>
-    <sprite>monsters/accessories/weapon-bow.xml</sprite>
+    <sprite>equipment/weapons/bow-male.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
     <attack id="1" missile-particle="graphics/particles/arrow.particle.xml" action="attack"/>
   </monster>
   <monster id="64" name="Vampire Bat">
@@ -347,20 +347,20 @@
     <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
     <sprite>equipment/legs/chaps-male.xml</sprite>
     <sprite>equipment/chest/vnecksweater-male.xml|#580000,A40000,C02020,ff6060</sprite>
-    <sprite>equipment/head/tophat.xml</sprite>
+    <sprite>equipment/head/tophat-male.xml</sprite>
   </monster>
   <monster id="76" name="Tipsy Skeleton">
     <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
     <sprite>equipment/legs/chaps-male.xml</sprite>
     <sprite>equipment/chest/vnecksweater-male.xml|#0d1430,21337c,4363e5</sprite>
-    <sprite>equipment/head/bowler-hat.xml</sprite>
+    <sprite>equipment/head/bowler-hat-male.xml</sprite>
   </monster>
   <monster id="77" name="Drunken Lady Skeleton">
     <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
-    <sprite>hairstyles/hairstyle08.xml</sprite>
-    <sprite>equipment/legs/skirt.xml|#3f221d,754d23,f5cea4</sprite>
+    <sprite>hairstyles/hairstyle08-male.xml</sprite>
+    <sprite>equipment/legs/skirt-male.xml|#3f221d,754d23,f5cea4</sprite>
     <sprite>equipment/chest/shorttanktop-female.xml|#3f221d,754d23,f5cea4</sprite>
-    <sprite>equipment/head/heart-glasses.xml</sprite>
+    <sprite>equipment/head/heart-glasses-male.xml</sprite>
   </monster>
   <monster id="78" name="Blue Spark">
     <sprite>monsters/ball-lightning.xml</sprite>
@@ -464,7 +464,7 @@
   </monster>
   <monster id="97" name="Sleeping Bandit">
     <sprite>monsters/sleeping-bandit.xml</sprite>
-    <sprite>monsters/accessories/weapon-dagger.xml</sprite>
+    <sprite>equipment/weapons/dagger-male.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;</sprite>
   </monster>
   <monster id="98" name="Azul Slime">
     <sprite>monsters/slime-littleslime.xml|#3080e4,d2f4ff</sprite>
@@ -478,8 +478,8 @@
     <sprite>equipment/feet/assassin-boots-female.xml</sprite>
     <sprite>equipment/legs/shorts-female.xml|#121212,343434</sprite>
     <sprite>equipment/chest/sorcerer-robe-female.xml|#121212,343434;#8F47D6</sprite>
-    <sprite>hairstyles/hairstyle11.xml|#8c6625,dab425,ffffff</sprite>
-    <sprite>equipment/head/wizard-hat.xml|#070707,121212,663399</sprite>
+    <sprite>hairstyles/hairstyle11-female.xml|#8c6625,dab425,ffffff</sprite>
+    <sprite>equipment/head/wizard-hat-female.xml|#070707,121212,663399</sprite>
     <particlefx>graphics/particles/monster-luvia.particle.xml</particlefx>
     <attack id="1" critical-hit-effect-id="42" missile-particle="graphics/particles/luvia-attack.particle.xml" action="attack"/>
   </monster>
@@ -488,9 +488,9 @@
     <sprite>equipment/feet/warlordboots-male.xml|#333333,878787</sprite>
     <sprite>equipment/hands/generic-male.xml|#242424,626262</sprite>
     <sprite>equipment/chest/demonwarlordplate-male.xml|#444444,979797</sprite>
-    <sprite>equipment/head/bull.xml</sprite>
+    <sprite>equipment/head/bull-male.xml</sprite>
     <particlefx>graphics/particles/monster-witchguard.particle.xml</particlefx>
-    <sprite>weapon-witchguard-gladius.xml</sprite>
+    <sprite>equipment/weapons/dagger-male.xml|#1c1b00,1b1a31,5b5660,827e85,9596e0;</sprite>
   </monster>
   <monster id="102" name="Demonic Mouboo">
     <sprite>monsters/mouboo-demonic.xml</sprite>
@@ -554,16 +554,108 @@
     <sprite>monsters/accessories/nutcrackerhair.xml|#333333</sprite>
     <sprite>monsters/accessories/nutcrackerhat.xml</sprite>
   </monster>
+  <monster id="113" name="Sea Slime Mother">
+    <sprite>monsters/slime-mother.xml|#4ca1a0,ffffff</sprite>
+    <sprite>equipment/weapons/bow-slimecovered-female.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;|#4Ca16e,ffffff</sprite>
+    <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+    <attack id="1" missile-particle="graphics/particles/arrowh-sea-slime.particle.xml" action="attack"/>
+  </monster>
   <monster id="114" name="Undead Witch">
     <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
-    <sprite>hairstyles/hairstyle08.xml</sprite>
-    <sprite>equipment/head/witch-hat.xml</sprite>
+    <sprite>hairstyles/hairstyle08-male.xml</sprite>
+    <sprite>equipment/head/witch-hat-male.xml</sprite>
     <sprite>equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#EFEFEF</sprite>
-    <sprite>weapon-staff.xml</sprite>
+    <sprite>equipment/weapons/polearm-blunt-male.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
     <attack id="1" missile-particle="graphics/particles/undead-witch-attack.particle.xml" action="attack"/>
   </monster>
   <monster id="115" name="Undead Troll">
     <sprite>monsters/troll.xml|#BFBFBF;#F1F1F1;#FF99FF;#F1F1F1</sprite>
     <attack id="1" missile-particle="graphics/particles/monster-undeadtroll-foefire.particle.xml" action="attack"/>
+  </monster>
+  <monster id="116" name="Green Slime Mother">
+    <sprite>monsters/slime-mother.xml|#72982c,ffffff</sprite>
+    <sprite>equipment/weapons/bow-slimecovered-female.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;|#72982c,ffffff</sprite>
+    <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+    <attack id="1" missile-particle="graphics/particles/arrowh-green-slime.particle.xml" action="attack"/>
+  </monster>
+  <monster id="117" name="Thug">
+    <sprite>races/talponian-pirate.xml</sprite>
+    <sprite>equipment/head/sailor-hat-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml</sprite>
+    <sprite>equipment/chest/tanktop-male.xml</sprite>
+    <sprite>equipment/legs/pants-male.xml</sprite>
+    <attack id="1" type="direct"/>
+  </monster>
+  <monster id="118" name="Swashbuckler">
+    <sprite>races/talponian-pirate.xml</sprite>
+    <sprite>equipment/chest/vnecksweater-male.xml</sprite>
+    <sprite>equipment/legs/pants-male.xml|#212121,555555</sprite>
+    <sprite>equipment/head/bandana-male.xml|#212121,555555</sprite>
+    <sprite>equipment/feet/boots-male.xml|#212121,555555</sprite>
+    <sprite>equipment/weapons/dagger-male.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;</sprite>
+    <attack id="1" type="direct"/>
+  </monster>
+  <monster id="119" name="Grenadier">
+    <sprite>races/talponian-pirate.xml</sprite>
+    <sprite>equipment/chest/sorcerer-robe-male.xml|#5178a0,1a294c;#d5b02c</sprite>
+    <sprite>equipment/legs/pants-male.xml|#5178a0,1a294c</sprite>
+    <sprite>equipment/head/piratehat-male.xml</sprite>
+    <sprite>equipment/hands/generic-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#212121,444444</sprite>
+    <sprite>equipment/weapons/bow-male.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+    <attack id="1" critical-hit-effect-id="31" hit-effect-id="402" missile-particle="graphics/particles/lobbed-object.xml" action="attack"/>
+  </monster>
+  <monster id="120" name="The Dread Pirate Marley">
+    <sprite>races/talponian-pirate.xml</sprite>
+    <sprite>equipment/chest/assassin-male.xml</sprite>
+    <sprite>equipment/legs/assassin-male.xml</sprite>
+    <sprite>equipment/head/eyepatch.xml</sprite>
+    <sprite>equipment/feet/assassin-boots-male.xml</sprite>
+    <sprite>equipment/weapons/bow-male.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+    <attack id="1" missile-particle="graphics/particles/arrow.particle.xml" action="attack"/>
+  </monster>
+  <monster id="121" name="The Dread Pirate Marley">
+    <sprite>races/talponian-pirate.xml</sprite>
+    <sprite>equipment/chest/assassin-male.xml</sprite>
+    <sprite>equipment/legs/assassin-male.xml</sprite>
+    <sprite>equipment/head/eyepatch.xml</sprite>
+    <sprite>equipment/feet/assassin-boots-male.xml</sprite>
+    <sprite>equipment/weapons/bow-male.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+    <attack id="1" missile-particle="graphics/particles/arrow.particle.xml" action="attack"/>
+  </monster>
+  <monster id="122" name="Wight">
+    <sprite>monsters/skeleton_inv.xml|#497ac3,2053a0,164995,154387</sprite>
+    <sprite>monsters/wight.xml|#164489,1f529f,619aea</sprite>
+    <particlefx>graphics/particles/chillfog.particle.xml</particlefx>
+  </monster>
+  <monster id="123" name="Mana Ghost">
+    <sprite>monsters/mana-ghost.xml</sprite>
+  </monster>
+  <monster id="124" name="Psi-Brain">
+    <sprite>monsters/psi-brain.xml</sprite>
+    <sprite>monsters/psi-bubble.xml</sprite>
+  </monster>
+  <monster id="125" name="General Krukun">
+    <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
+    <sprite>equipment/legs/chaps-male.xml</sprite>
+    <sprite>equipment/chest/warlordplate-male.xml</sprite>
+    <sprite>equipment/head/bull-male.xml</sprite>
+  </monster>
+  <monster id="126" name="General Razha">
+    <sprite>monsters/demon.xml|#444444,979797</sprite>
+    <sprite>equipment/feet/warlordboots-male.xml|#333333,878787</sprite>
+    <sprite>equipment/hands/generic-male.xml|#242424,626262</sprite>
+    <sprite>equipment/chest/demonwarlordplate-male.xml|#ea0000979797</sprite>
+    <sprite>equipment/head/bull-male.xml</sprite>
+    <particlefx>graphics/particles/monster-witchguard.particle.xml</particlefx>
+    <sprite>equipment/weapons/dagger-male.xml|#181619,1c1b00,1b1a31,54438a,5b5660,827e85,9596e0</sprite>
+  </monster>
+  <monster id="127" name="General Terogan">
+    <sprite>monsters/skeleton.xml|#aca379</sprite>
+    <sprite>equipment/chest/robe-male.xml|#ea0000,333333</sprite>
+    <sprite>equipment/head/phylactery.xml</sprite>
+    <sprite>equipment/head/evileyes.xml</sprite>
+    <sprite>equipment/hands/magefire.xml</sprite>
+    <attack id="1" critical-hit-effect-id="42" missile-particle="graphics/particles/thelost-attack.particle.xml" action="attack"/>
   </monster>
 </monsters>
