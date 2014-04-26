@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset name="base" src="graphics/sprites/monsters/mana-bug.png|W" width="16" height="16"/>
+  <action name="stand" imageset="base">
+    <animation direction="up">
+      <sequence start="0" end="1" delay="6" offsetY="-20"/>
+    </animation>
+    <animation direction="down">
+      <sequence start="12" end="13" delay="6" offsetY="-20"/>
+    </animation>
+    <animation direction="right">
+      <sequence start="4" end="5" delay="6" offsetY="-20"/>
+    </animation>
+    <animation direction="left">
+      <sequence start="8" end="9" delay="6" offsetY="-20"/>
+    </animation>
+  </action>
+  <action name="walk" imageset="base">
+    <animation direction="up">
+      <sequence start="0" end="1" delay="7" offsetY="-20"/>
+    </animation>
+    <animation direction="down">
+      <sequence start="12" end="13" delay="7" offsetY="-20"/>
+    </animation>
+    <animation direction="right">
+      <sequence start="4" end="5" delay="7" offsetY="-20"/>
+    </animation>
+    <animation direction="left">
+      <sequence start="8" end="9" delay="7" offsetY="-20"/>
+    </animation>
+  </action>
+  <action name="attack" imageset="base">
+    <animation direction="up">
+      <frame index="0" delay="50" offsetY="-24"/>
+      <frame index="1" delay="50" offsetY="-36"/>
+      <frame index="2" delay="50" offsetY="-84"/>
+      <frame index="3" delay="60" offsetY="-52"/>
+      <frame index="2" delay="60" offsetY="-36"/>
+      <frame index="1" delay="60" offsetY="-28"/>
+      <frame index="0" delay="60" offsetY="-24"/>
+      <end/>
+    </animation>
+    <animation direction="down">
+      <frame index="0" delay="50" offsetY="-16"/>
+      <frame index="1" delay="50" offsetY="-4"/>
+      <frame index="2" delay="50" offsetY="44"/>
+      <frame index="3" delay="60" offsetY="12"/>
+      <frame index="2" delay="60" offsetY="-4"/>
+      <frame index="1" delay="60" offsetY="-12"/>
+      <frame index="0" delay="60" offsetY="-16"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <frame index="4" delay="50" offsetY="-20" offsetX="4"/>
+      <frame index="5" delay="50" offsetY="-20" offsetX="16"/>
+      <frame index="6" delay="50" offsetY="-20" offsetX="64"/>
+      <frame index="7" delay="60" offsetY="-20" offsetX="32"/>
+      <frame index="6" delay="60" offsetY="-20" offsetX="16"/>
+      <frame index="5" delay="60" offsetY="-20" offsetX="8"/>
+      <frame index="4" delay="60" offsetY="-20" offsetX="4"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <frame index="8" delay="50" offsetY="-20" offsetX="-4"/>
+      <frame index="9" delay="50" offsetY="-20" offsetX="-16"/>
+      <frame index="10" delay="50" offsetY="-20" offsetX="-64"/>
+      <frame index="11" delay="60" offsetY="-20" offsetX="-32"/>
+      <frame index="10" delay="60" offsetY="-20" offsetX="-16"/>
+      <frame index="9" delay="60" offsetY="-20" offsetX="-8"/>
+      <frame index="8" delay="60" offsetY="-20" offsetX="-4"/>
+      <end/>
+    </animation>
+  </action>
+  <action name="dead" imageset="base">
+    <animation direction="default">
+      <frame index="12" delay="70" offsetY="-19" offsetX="2"/>
+      <frame index="13" delay="70" offsetY="-18" offsetX="4"/>
+      <frame index="14" delay="70" offsetY="-17" offsetX="8"/>
+      <frame index="13" delay="70" offsetY="-16" offsetX="10"/>
+      <frame index="12" delay="75" offsetY="-15" offsetX="8"/>
+      <frame index="13" delay="75" offsetY="-14" offsetX="4"/>
+      <frame index="14" delay="75" offsetY="-13" offsetX="2"/>
+      <frame index="13" delay="75" offsetY="-12" offsetX="0"/>
+      <frame index="12" delay="80" offsetY="-11" offsetX="-2"/>
+      <frame index="13" delay="80" offsetY="-10" offsetX="-4"/>
+      <frame index="14" delay="80" offsetY="-9" offsetX="-6"/>
+      <frame index="13" delay="80" offsetY="-8" offsetX="-8"/>
+      <frame index="12" delay="85" offsetY="-7" offsetX="-10"/>
+      <frame index="13" delay="85" offsetY="-6" offsetX="-8"/>
+      <frame index="14" delay="85" offsetY="-5" offsetX="-6"/>
+      <frame index="13" delay="85" offsetY="-4" offsetX="-4"/>
+      <frame index="12" delay="90" offsetY="-3" offsetX="-2"/>
+      <frame index="13" delay="90" offsetY="-2" offsetX="0"/>
+      <frame index="14" delay="90" offsetY="-1" offsetX="2"/>
+      <frame index="15" delay="3000" offsetY="0" offsetX="0"/>
+    </animation>
+  </action>
+</sprite>
