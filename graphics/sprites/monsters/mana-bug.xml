@@ -14,6 +14,18 @@
     <animation direction="left">
       <sequence start="8" end="9" delay="6" offsetY="-20"/>
     </animation>
+    <animation direction="upright">
+      <sequence start="2" end="3" delay="6" offsetY="-20"/>
+    </animation>
+    <animation direction="upleft">
+      <sequence start="6" end="7" delay="6" offsetY="-20"/>
+    </animation>
+    <animation direction="downright">
+      <sequence start="10" end="11" delay="6" offsetY="-20"/>
+    </animation>
+    <animation direction="downleft">
+      <sequence start="14" end="15" delay="6" offsetY="-20"/>
+    </animation>
   </action>
   <action name="walk" imageset="base">
     <animation direction="up">
@@ -27,6 +39,18 @@
     </animation>
     <animation direction="left">
       <sequence start="8" end="9" delay="7" offsetY="-20"/>
+    </animation>
+    <animation direction="upright">
+      <sequence start="2" end="3" delay="7" offsetY="-20"/>
+    </animation>
+    <animation direction="upleft">
+      <sequence start="6" end="7" delay="7" offsetY="-20"/>
+    </animation>
+    <animation direction="downright">
+      <sequence start="10" end="11" delay="7" offsetY="-20"/>
+    </animation>
+    <animation direction="downleft">
+      <sequence start="14" end="15" delay="7" offsetY="-20"/>
     </animation>
   </action>
   <action name="attack" imageset="base">
