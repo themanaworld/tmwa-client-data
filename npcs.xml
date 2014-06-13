@@ -1351,12 +1351,60 @@
     <sprite>npcs/npc-reaper.xml</sprite>
   </npc>
   <npc id="409">
-    <sprite>monsters/skeleton.xml</sprite>
-    <sprite>hairstyles/hairstyle13-female.xml|#878787,a8a8a8,cacaca,fdfdfd</sprite>
-    <sprite>equipment/chest/cotton-female.xml|#291b07,4a310c,6c4818,7a5525,89693b,9c7b52,af946e</sprite>
-    <sprite>equipment/legs/skirt-female.xml|#39230f,4e2f14,5e3817,6b4422,79502e,815d3b,926d4f</sprite>
-    <sprite>equipment/feet/boots-female.xml|#4f2d29,c89078</sprite>
+    <sprite>npcs/npc-skeletons.xml</sprite>
   </npc>
+  <!-- Professions -->
+  <!-- Mining reserved ids 501-600 -->
+  <!-- Coal Vein -->
+  <npc id="501">
+    <sprite>npcs/node-mine-vein.xml|#393c35,393c35,848a79,b9b9b9</sprite>
+  </npc>
+  <!-- Iron Vein -->
+  <npc id="502">
+    <sprite>npcs/node-mine-vein.xml|#684d4d,342828,8a6667,b49393</sprite>
+  </npc>
+  <!-- Terranite Vein -->
+  <npc id="503">
+    <sprite>npcs/node-mine-vein.xml|#352d20,534632,806b4c,b89c75</sprite>
+  </npc>
+  <!-- Alchemy reserved ids 601-700 -->
+  <!-- Mauve Plant -->
+  <npc id="601">
+    <sprite>npcs/node-plant.xml|#e0b0ff</sprite>
+  </npc>
+  <!-- Cobalt Plant -->
+  <npc id="602">
+    <sprite>npcs/node-plant.xml|#0047ab</sprite>
+  </npc>
+  <!-- Gambroge Plant -->
+  <npc id="603">
+    <sprite>npcs/node-plant.xml|#ef9b0f</sprite>
+  </npc>
+  <!-- Alizarin Plant -->
+  <npc id="604">
+    <sprite>npcs/node-plant.xml|#e32636</sprite>
+  </npc>
+  <!-- Clover Patch -->
+  <npc id="605">
+    <sprite>npcs/node-clover.xml</sprite>
+  </npc>
+  <!-- Small Mushroom Patch -->
+  <npc id="606">
+    <sprite>npcs/node-mushroom.xml</sprite>
+  </npc>
+  <!-- Flowering Cactus -->
+  <npc id="607">
+    <sprite>npcs/node-desert-plant.xml</sprite>
+  </npc>
+  <!-- Clam Shell -->
+  <npc id="608">
+    <sprite>npcs/node-clam-shell.xml</sprite>
+  </npc>
+  <!-- Ice -->
+  <npc id="609">
+    <sprite>npcs/node-ice.xml</sprite>
+  </npc>
+  <!-- note: don't go above 999, because the 1000's are reserved for mob id -->
   <!-- Cacus the fire god -->
   <npc id="410">
     <sprite>races/talponian-male.xml</sprite>
