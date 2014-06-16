@@ -663,4 +663,8 @@
     <sprite>equipment/hands/magefire.xml</sprite>
     <attack id="1" critical-hit-effect-id="42" missile-particle="graphics/particles/thelost-attack.particle.xml" action="attack"/>
   </monster>
+  <monster id="128" name="ManaBug" targetCursor="small">
+    <sprite>monsters/mana-bug.xml|#660000,FF3300,FFCC99,FFCCCC</sprite>
+    <sprite>monsters/accessories/generic-shadow-small-circle.xml</sprite>
+  </monster>
 </monsters>
