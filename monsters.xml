@@ -73,7 +73,10 @@
     <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
   </monster>
   <monster id="1013" name="Evil Mushroom">
-    <sprite>monsters/mushroom-red.xml</sprite>
+    <sprite>monsters/accessories/mushroom-base1.xml|#B38336,FFF5CC</sprite>
+    <sprite>monsters/accessories/mushroom-base1-arms1.xml|#B38336,FFF5CC</sprite>
+    <sprite>monsters/accessories/mushroom-base1-face2.xml|#732222,BF3939,FF9E9E,FFD9D9,FFFFFF;#B38336,FFF5CC</sprite>
+    <sprite>monsters/accessories/mushroom-base1-cap1.xml|#732222,BF3939,FF9E9E,FFD9D9,FFFFFF;#B38336,FFF5CC</sprite>
     <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
   </monster>
   <monster id="1014" name="Pink Flower">
@@ -101,7 +104,10 @@
     <sound event="miss">monsters/pinkie/pinkie-miss1.ogg</sound>
   </monster>
   <monster id="1019" name="Spiky Mushroom">
-    <sprite>monsters/mushroom-spiky.xml</sprite>
+    <sprite>monsters/accessories/mushroom-base1.xml|#B37410,FFF5CC</sprite>
+    <sprite>monsters/accessories/mushroom-base1-face1.xml|#730A73,BF31C0,FF9EFF,FFD9FF,FFFFFF;#7B4E07,FFF5CC</sprite>
+    <sprite>monsters/accessories/mushroom-base1-cap1.xml|#730A73,BF31C0,FF9EFF,FFD9FF,FFFFFF;#B36E00,FFF5CC</sprite>
+    <sprite>monsters/accessories/mushroom-base1-cap1-spikes.xml|#CC9C3D,FFFFCC</sprite>
     <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
   </monster>
   <monster id="1020" name="Fluffy">
@@ -662,5 +668,9 @@
     <sprite>equipment/head/evileyes.xml</sprite>
     <sprite>equipment/hands/magefire.xml</sprite>
     <attack id="1" critical-hit-effect-id="42" missile-particle="graphics/particles/thelost-attack.particle.xml" action="attack"/>
+  </monster>
+  <monster id="1130" name="Moonshroom">
+    <sprite>monsters/moonshroom.xml</sprite>
+    <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
   </monster>
 </monsters>
