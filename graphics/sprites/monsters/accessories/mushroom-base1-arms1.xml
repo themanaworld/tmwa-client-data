@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset name="base" src="graphics/sprites/monsters/accessories/mushroom-base1-arms1.png|W" width="22" height="12" />
+  <action name="stand" imageset="base">
+    <animation direction="down">
+      <frame index="0" offsetY="-5" />
+    </animation>
+    <animation direction="downleft">
+      <frame index="10" offsetX="-2" offsetY="-5" />
+    </animation>
+    <animation direction="downright">
+      <frame index="30" offsetX="2" offsetY="-5" />
+    </animation>            
+    <animation direction="left">
+      <frame index="10" offsetY="-5" />
+    </animation>
+    <animation direction="up">
+      <frame index="20" offsetY="-5" />    
+    </animation>
+    <animation direction="right">
+      <frame index="30" offsetY="-5" />
+    </animation>
+  </action>
+  <action name="walk" imageset="base">
+    <animation direction="down">
+      <frame index="0" delay="150" offsetY="-5" />
+      <frame index="2" delay="75" offsetY="-10" />
+      <frame index="3" delay="75" offsetY="-5" />
+      <frame index="3" delay="75" offsetY="-5" />
+    </animation>
+    <animation direction="downleft">
+      <frame index="10" delay="150" offsetX="2" offsetY="-5" />
+      <frame index="13" delay="75" offsetX="2" offsetY="-8" />
+      <frame index="14" delay="75" offsetX="2" offsetY="-5" />
+      <frame index="14" delay="75" offsetX="2" offsetY="-6" />
+    </animation>
+    <animation direction="downright">
+      <frame index="30" delay="150" offsetX="-2" offsetY="-5" />
+      <frame index="33" delay="75" offsetX="-2" offsetY="-6" />
+      <frame index="34" delay="75" offsetX="-2" offsetY="-5" />
+      <frame index="34" delay="75" offsetX="-2" offsetY="-6" />
+    </animation>        
+    <animation direction="left">
+      <frame index="10" delay="150" offsetY="-5" />
+      <frame index="13" delay="75" offsetY="-8" />
+      <frame index="14" delay="75" offsetY="-5" />
+      <frame index="14" delay="75" offsetY="-6" />
+    </animation>
+    <animation direction="up">
+      <frame index="20" delay="150" offsetY="-5" />
+      <frame index="23" delay="75" offsetY="-10" />
+      <frame index="24" delay="75" offsetY="-5" />
+      <frame index="24" delay="75" offsetY="-6" />
+    </animation>
+    <animation direction="right">
+      <frame index="30" delay="150" offsetY="-5" />
+      <frame index="33" delay="75" offsetY="-6" />
+      <frame index="34" delay="75" offsetY="-5" />
+      <frame index="34" delay="75" offsetY="-6" />
+    </animation>
+  </action>
+  <action name="dead" imageset="base">
+    <animation direction="down">
+      <frame index="9" />
+    </animation>
+    <animation direction="left">
+      <frame index="19" />
+    </animation>
+    <animation direction="29">
+      <frame index="30" />
+    </animation>
+    <animation direction="right">
+      <frame index="39" />
+    </animation>
+  </action>
+  <action name="attack" imageset="base">
+    <animation direction="down">
+      <sequence start="5" end="8" delay="75" offsetY="-5" />
+    </animation>
+    <animation direction="downleft">
+      <sequence start="15" end="18" delay="75" offsetX="2" offsetY="-5" />
+    </animation>    
+    <animation direction="downright">
+      <sequence start="35" end="38" delay="75" offsetX="-2" offsetY="-5" />
+    </animation>    
+    <animation direction="left">
+      <sequence start="15" end="18" delay="75" offsetY="-5" />
+    </animation>
+    <animation direction="up">
+      <sequence start="25" end="28" delay="75" offsetY="-5" />
+    </animation>
+    <animation direction="right">
+      <sequence start="35" end="38" delay="75" offsetY="-5" />
+    </animation>
+  </action>
+</sprite>
