@@ -1220,7 +1220,7 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup name="Objects" visible="0">
+ <objectgroup name="Objects">
   <object name="To Tulismhar Suburbs" type="warp" x="608" y="1152" width="32" height="128">
    <properties>
     <property name="dest_map" value="042-1"/>
@@ -1249,6 +1249,12 @@
     <property name="dest_tile_y" value="23"/>
    </properties>
   </object>
-  <object name="graphics/particles/warparea.particle.xml" type="particle_effect" x="1472" y="2624" width="32" height="32"/>
+  <object name="To Tulimshar Suburbs" type="warp" x="1472" y="2624" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="042-1"/>
+    <property name="dest_tile_x" value="115"/>
+    <property name="dest_tile_y" value="85"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
