@@ -3,6 +3,11 @@
   See here for documentation: http://doc.manasource.org/monsters.xml
 -->
 <monsters offset="0">
+    <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+        <its:translateRule selector="//monster/@name" translate="yes"/>
+        <its:translateRule selector="//*" translate="no"/>
+    </its:rules>
+
   <monster id="1002" name="Maggot" targetCursor="small">
     <sprite>monsters/maggot.xml</sprite>
     <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
