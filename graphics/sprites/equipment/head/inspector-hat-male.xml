@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <sprite>
-  <imageset name="base" src="graphics/sprites/equipment/head/inspector-hat.png|W;" width="21" height="14"/>
+  <imageset name="base" src="graphics/sprites/equipment/head/inspector-hat.png|W" width="21" height="14"/>
   <action name="stand" imageset="base">
     <animation direction="down">
       <frame index="0" offsetX="-1" offsetY="-48"/>
@@ -21,6 +21,7 @@
       <frame index="0" offsetX="-1" offsetY="-48" delay="150"/>
       <frame index="0" offsetX="-1" offsetY="-47" delay="75"/>
       <frame index="0" offsetX="-1" offsetY="-48" delay="150"/>
+      <end/>
     </animation>
     <animation direction="left">
       <frame index="1" offsetX="0" offsetY="-48" delay="75"/>
@@ -28,12 +29,14 @@
       <frame index="1" offsetX="0" offsetY="-48" delay="150"/>
       <frame index="1" offsetX="0" offsetY="-47" delay="75"/>
       <frame index="1" offsetX="0" offsetY="-48" delay="75"/>
+      <end/>
     </animation>
     <animation direction="up">
       <frame index="2" offsetX="-2" offsetY="-48" delay="75"/>
       <frame index="2" offsetX="-2" offsetY="-49" delay="150"/>
       <frame index="2" offsetX="-2" offsetY="-48" delay="75"/>
       <frame index="2" offsetX="-2" offsetY="-49" delay="150"/>
+      <end/>
     </animation>
     <animation direction="right">
       <frame index="3" offsetX="-1" offsetY="-48" delay="75"/>
@@ -41,6 +44,7 @@
       <frame index="3" offsetX="-1" offsetY="-48" delay="150"/>
       <frame index="3" offsetX="-1" offsetY="-47" delay="75"/>
       <frame index="3" offsetX="-1" offsetY="-48" delay="75"/>
+      <end/>
     </animation>
   </action>
   <action name="attack" imageset="base">
@@ -130,8 +134,7 @@
       <end/>
     </animation>
     <animation direction="up">
-      <frame index="2" offsetX="-3" offsetY="-48" delay="140"/>
-      <frame index="2" offsetX="-3" offsetY="-48" delay="140"/>
+      <frame index="2" offsetX="-3" offsetY="-48" delay="280"/>
       <frame index="2" offsetX="-3" offsetY="-46" delay="140"/>
       <frame index="2" offsetX="-2" offsetY="-49" delay="140"/>
       <end/>
@@ -160,9 +163,7 @@
       <end/>
     </animation>
     <animation direction="up">
-      <frame index="2" offsetX="-3" offsetY="-48" delay="100"/>
-      <frame index="2" offsetX="-3" offsetY="-48" delay="100"/>
-      <frame index="2" offsetX="-3" offsetY="-48" delay="100"/>
+      <frame index="2" offsetX="-3" offsetY="-48" delay="300"/>
       <frame index="2" offsetX="-3" offsetY="-46" delay="100"/>
       <end/>
     </animation>
@@ -176,8 +177,7 @@
   </action>
   <action name="attack_spear" imageset="base">
     <animation direction="down">
-      <frame index="0" offsetX="-2" offsetY="-49" delay="140"/>
-      <frame index="0" offsetX="-2" offsetY="-49" delay="140"/>
+      <frame index="0" offsetX="-2" offsetY="-49" delay="280"/>
       <frame index="0" offsetX="-2" offsetY="-50" delay="140"/>
       <frame index="0" offsetX="-2" offsetY="-43" delay="140"/>
       <end/>
@@ -190,9 +190,7 @@
       <end/>
     </animation>
     <animation direction="up">
-      <frame index="2" offsetX="-3" offsetY="-48" delay="140"/>
-      <frame index="2" offsetX="-3" offsetY="-48" delay="140"/>
-      <frame index="2" offsetX="-3" offsetY="-48" delay="140"/>
+      <frame index="2" offsetX="-3" offsetY="-48" delay="420"/>
       <frame index="2" offsetX="-4" offsetY="-51" delay="140"/>
       <end/>
     </animation>
@@ -220,10 +218,8 @@
       <end/>
     </animation>
     <animation direction="up">
-      <frame index="2" offsetX="-3" offsetY="-48" delay="140"/>
-      <frame index="2" offsetX="-3" offsetY="-48" delay="140"/>
-      <frame index="2" offsetX="-3" offsetY="-46" delay="140"/>
-      <frame index="2" offsetX="-3" offsetY="-46" delay="140"/>
+      <frame index="2" offsetX="-3" offsetY="-48" delay="280"/>
+      <frame index="2" offsetX="-3" offsetY="-46" delay="280"/>
       <end/>
     </animation>
     <animation direction="right">

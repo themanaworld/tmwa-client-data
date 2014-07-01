@@ -42,10 +42,10 @@ Also, don't forget to add the '/' path separator at the end of folder values.
   <option name="minimaps" value="graphics/minimaps/"/>
   <option name="maps" value="maps/"/>
   <option name="sfx" value="sfx/"/>
-  <!-- default sounds if no sounds are defined for the hit and miss events of a weapon
-       disabled for now because the current sound is too specific and loud  -->
-  <option name="attackSfxFile" value=""/>
-  <option name="missSfxFile" value=""/>
+  <option name="newQuestSfx" value="system/levelup.ogg"/>
+  <option name="completeQuestSfx" value="system/levelup.ogg"/>
+  <option name="attackSfxFile" value="weapons/knives/knife-hit1.ogg"/>
+  <option name="missSfxFile" value="fist-swish.ogg"/>
   <option name="music" value="music/"/>
   <option name="wallpapers" value="graphics/images/"/>
   <option name="wallpaperFile" value="login_wallpaper.png"/>

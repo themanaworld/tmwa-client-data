@@ -21,6 +21,7 @@
       <frame delay="150" index="0" offsetX="-1" offsetY="-47"/>
       <frame delay="75" index="0" offsetX="-1" offsetY="-46"/>
       <frame delay="150" index="0" offsetX="-1" offsetY="-47"/>
+      <end/>
     </animation>
     <animation direction="left">
       <frame delay="75" index="1" offsetX="0" offsetY="-47"/>
@@ -28,12 +29,14 @@
       <frame delay="150" index="1" offsetX="0" offsetY="-47"/>
       <frame delay="75" index="1" offsetX="0" offsetY="-46"/>
       <frame delay="75" index="1" offsetX="0" offsetY="-47"/>
+      <end/>
     </animation>
     <animation direction="up">
       <frame delay="75" index="1" offsetX="-1" offsetY="-47"/>
       <frame delay="150" index="1" offsetX="-1" offsetY="-48"/>
       <frame delay="75" index="1" offsetX="-1" offsetY="-47"/>
       <frame delay="150" index="1" offsetX="-1" offsetY="-48"/>
+      <end/>
     </animation>
     <animation direction="right">
       <frame delay="75" index="1" offsetX="1" offsetY="-47"/>
@@ -41,6 +44,7 @@
       <frame delay="150" index="1" offsetX="1" offsetY="-47"/>
       <frame delay="75" index="1" offsetX="1" offsetY="-46"/>
       <frame delay="75" index="1" offsetX="1" offsetY="-47"/>
+      <end/>
     </animation>
   </action>
   <action imageset="base" name="attack">
@@ -130,8 +134,7 @@
       <end/>
     </animation>
     <animation direction="up">
-      <frame index="1" offsetX="-3" offsetY="-46" delay="140"/>
-      <frame index="1" offsetX="-3" offsetY="-46" delay="140"/>
+      <frame index="1" offsetX="-3" offsetY="-46" delay="280"/>
       <frame index="1" offsetX="-3" offsetY="-44" delay="140"/>
       <frame index="1" offsetX="-2" offsetY="-47" delay="140"/>
       <end/>
@@ -160,9 +163,7 @@
       <end/>
     </animation>
     <animation direction="up">
-      <frame index="1" offsetX="-2" offsetY="-47" delay="100"/>
-      <frame index="1" offsetX="-2" offsetY="-47" delay="100"/>
-      <frame index="1" offsetX="-2" offsetY="-47" delay="100"/>
+      <frame index="1" offsetX="-2" offsetY="-47" delay="300"/>
       <frame index="1" offsetX="-2" offsetY="-45" delay="100"/>
       <end/>
     </animation>
@@ -176,8 +177,7 @@
   </action>
   <action name="attack_spear" imageset="base">
     <animation direction="down">
-      <frame index="0" offsetX="-3" offsetY="-47" delay="140"/>
-      <frame index="0" offsetX="-3" offsetY="-47" delay="140"/>
+      <frame index="0" offsetX="-3" offsetY="-47" delay="280"/>
       <frame index="0" offsetX="-3" offsetY="-48" delay="140"/>
       <frame index="0" offsetX="-3" offsetY="-42" delay="140"/>
       <end/>
@@ -206,30 +206,26 @@
   </action>
   <action name="attack_chop" imageset="base">
     <animation direction="down">
-      <frame index="0" offsetX="-2" offsetY="-44" delay="140"/>
-      <frame index="0" offsetX="-2" offsetY="-44" delay="140"/>
+      <frame index="0" offsetX="-2" offsetY="-44" delay="280"/>
       <frame index="0" offsetX="-2" offsetY="-46" delay="140"/>
       <frame index="0" offsetX="-2" offsetY="-40" delay="140"/>
       <end/>
     </animation>
     <animation direction="left">
       <frame index="1" offsetX="3" offsetY="-48" delay="140"/>
-      <frame index="1" offsetX="3" offsetY="-49" delay="140"/>
-      <frame index="1" offsetX="3" offsetY="-49" delay="140"/>
+      <frame index="1" offsetX="3" offsetY="-49" delay="280"/>
       <frame index="1" offsetX="-2" offsetY="-45" delay="140"/>
       <end/>
     </animation>
     <animation direction="up">
       <frame index="1" offsetX="-3" offsetY="-46" delay="140"/>
-      <frame index="1" offsetX="-3" offsetY="-45" delay="140"/>
-      <frame index="1" offsetX="-3" offsetY="-45" delay="140"/>
+      <frame index="1" offsetX="-3" offsetY="-45" delay="280"/>
       <frame index="1" offsetX="-3" offsetY="-44" delay="140"/>
       <end/>
     </animation>
     <animation direction="right">
       <frame index="1" offsetX="-3" offsetY="-48" delay="140"/>
-      <frame index="1" offsetX="-2" offsetY="-49" delay="140"/>
-      <frame index="1" offsetX="-2" offsetY="-49" delay="140"/>
+      <frame index="1" offsetX="-2" offsetY="-49" delay="280"/>
       <frame index="1" offsetX="3" offsetY="-45" delay="140"/>
       <end/>
     </animation>

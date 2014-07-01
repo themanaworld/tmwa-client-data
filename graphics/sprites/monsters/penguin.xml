@@ -70,21 +70,25 @@
       <frame index="32" delay="100"/>
       <frame index="40" delay="100"/>
       <frame index="48" delay="100"/>
-      <frame index="56" delay="100"/>
+      <frame index="56" delay="5000"/>
     </animation>
   </action>
   <action name="attack" imageset="base">
     <animation direction="down">
       <sequence start="1" end="2" delay="10" offsetY="-5"/>
+      <end/>
     </animation>
     <animation direction="left">
       <sequence start="45" end="46" delay="10" offsetY="-5"/>
+      <end/>
     </animation>
     <animation direction="up">
       <sequence start="33" end="34" delay="10" offsetY="-5"/>
+      <end/>
     </animation>
     <animation direction="right">
       <sequence start="20" end="21" delay="10" offsetY="-5"/>
+      <end/>
     </animation>
   </action>
 </sprite>

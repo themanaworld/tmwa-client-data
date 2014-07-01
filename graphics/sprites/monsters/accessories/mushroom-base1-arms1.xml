@@ -25,8 +25,7 @@
     <animation direction="down">
       <frame index="0" delay="150" offsetY="-5" />
       <frame index="2" delay="75" offsetY="-10" />
-      <frame index="3" delay="75" offsetY="-5" />
-      <frame index="3" delay="75" offsetY="-5" />
+      <frame index="3" delay="150" offsetY="-5" />
     </animation>
     <animation direction="downleft">
       <frame index="10" delay="150" offsetX="2" offsetY="-5" />
@@ -66,7 +65,7 @@
     <animation direction="left">
       <frame index="19" />
     </animation>
-    <animation direction="29">
+    <animation direction="up">
       <frame index="30" />
     </animation>
     <animation direction="right">
@@ -76,21 +75,27 @@
   <action name="attack" imageset="base">
     <animation direction="down">
       <sequence start="5" end="8" delay="75" offsetY="-5" />
+      <end/>
     </animation>
     <animation direction="downleft">
       <sequence start="15" end="18" delay="75" offsetX="2" offsetY="-5" />
+      <end/>
     </animation>    
     <animation direction="downright">
       <sequence start="35" end="38" delay="75" offsetX="-2" offsetY="-5" />
+      <end/>
     </animation>    
     <animation direction="left">
       <sequence start="15" end="18" delay="75" offsetY="-5" />
+      <end/>
     </animation>
     <animation direction="up">
       <sequence start="25" end="28" delay="75" offsetY="-5" />
+      <end/>
     </animation>
     <animation direction="right">
       <sequence start="35" end="38" delay="75" offsetY="-5" />
+      <end/>
     </animation>
   </action>
 </sprite>

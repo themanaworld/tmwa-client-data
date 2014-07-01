@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <sprite name="player" action="stand" variants="135" variant_offset="1">
-  <imageset name="bow" src="graphics/sprites/equipment/weapons/bow.png|B;R;" width="128" height="128"/>
+  <imageset name="bow" src="graphics/sprites/equipment/weapons/bow.png|B;R" width="128" height="128"/>
   <action name="default" imageset="bow"/>
   <action name="stand" imageset="bow">
     <animation direction="down">
@@ -19,15 +19,19 @@
   <action name="walk" imageset="bow">
     <animation direction="down">
       <sequence offsetY="32" start="1" end="6" delay="75"/>
+      <end/>
     </animation>
     <animation direction="left">
       <sequence offsetY="32" start="19" end="24" delay="75"/>
+      <end/>
     </animation>
     <animation direction="up">
       <sequence offsetY="32" start="37" end="42" delay="75"/>
+      <end/>
     </animation>
     <animation direction="right">
       <sequence offsetY="32" start="55" end="60" delay="75"/>
+      <end/>
     </animation>
   </action>
   <action name="sit" imageset="bow">

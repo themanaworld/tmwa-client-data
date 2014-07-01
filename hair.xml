@@ -1,10 +1,9 @@
 <?xml version="1.0"?>
 <colors>
-    <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
-        <its:translateRule selector="//color/@name" translate="yes"/>
-        <its:translateRule selector="//*" translate="no"/>
-    </its:rules>
-
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//color/@name" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
   <color id="0" value="#8c4b41,da9041,ffffff" name="light brown"/>
   <color id="1" value="#06372b,489e25,fdedcc" name="green"/>
   <color id="2" value="#5f0b33,91191c,f9ad81" name="red"/>

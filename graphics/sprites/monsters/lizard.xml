@@ -30,11 +30,11 @@
     </animation>
   </action>
   <action name="dead" imageset="base">
-    <animation direction="down">
+    <animation>
       <frame index="11" delay="100"/>
       <frame index="23" delay="100"/>
       <frame index="35" delay="100"/>
-      <frame index="47" delay="0"/>
+      <frame index="47" delay="5000"/>
     </animation>
   </action>
   <action name="attack" imageset="base">

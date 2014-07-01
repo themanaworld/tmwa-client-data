@@ -18,15 +18,19 @@
   <action name="walk" imageset="base">
     <animation direction="down">
       <sequence start="1" end="6" delay="75"/>
+      <end/>
     </animation>
     <animation direction="left">
       <sequence start="19" end="24" delay="75"/>
+      <end/>
     </animation>
     <animation direction="up">
       <sequence start="37" end="42" delay="75"/>
+      <end/>
     </animation>
     <animation direction="right">
       <sequence start="55" end="60" delay="75"/>
+      <end/>
     </animation>
   </action>
   <action name="sit" imageset="base">

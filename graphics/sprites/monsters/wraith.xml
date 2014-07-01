@@ -32,15 +32,19 @@
   <action name="attack" imageset="base">
     <animation direction="down">
       <sequence start="0" end="4" delay="150"/>
+      <end/>
     </animation>
     <animation direction="right">
       <sequence start="24" end="28" delay="150"/>
+      <end/>
     </animation>
     <animation direction="up">
       <sequence start="16" end="20" delay="150"/>
+      <end/>
     </animation>
     <animation direction="left">
       <sequence start="8" end="12" delay="150"/>
+      <end/>
     </animation>
   </action>
   <action name="dead" imageset="base">

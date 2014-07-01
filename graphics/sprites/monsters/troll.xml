@@ -55,41 +55,49 @@
   <action name="attack" imageset="base">
     <animation direction="down">
       <sequence start="96" end="101" delay="100"/>
+      <end/>
     </animation>
     <animation direction="downright">
       <sequence start="102" end="107" delay="100"/>
+      <end/>
     </animation>
     <animation direction="right">
       <sequence start="108" end="113" delay="100"/>
+      <end/>
     </animation>
     <animation direction="upright">
       <sequence start="114" end="119" delay="100"/>
+      <end/>
     </animation>
     <animation direction="up">
       <sequence start="120" end="125" delay="100"/>
+      <end/>
     </animation>
     <animation direction="upleft">
       <sequence start="126" end="131" delay="100"/>
+      <end/>
     </animation>
     <animation direction="left">
       <sequence start="132" end="137" delay="100"/>
+      <end/>
     </animation>
     <animation direction="downleft">
       <sequence start="138" end="143" delay="100"/>
+      <end/>
     </animation>
   </action>
   <action name="dead" imageset="base">
     <animation direction="down">
-      <sequence start="144" end="149" delay="250"/>
+      <sequence start="144" end="149" delay="5250"/>
     </animation>
     <animation direction="right">
-      <sequence start="150" end="155" delay="250"/>
+      <sequence start="150" end="155" delay="5250"/>
     </animation>
     <animation direction="up">
-      <sequence start="156" end="161" delay="250"/>
+      <sequence start="156" end="161" delay="5250"/>
     </animation>
     <animation direction="left">
-      <sequence start="162" end="167" delay="250"/>
+      <sequence start="162" end="167" delay="5250"/>
     </animation>
   </action>
 </sprite>

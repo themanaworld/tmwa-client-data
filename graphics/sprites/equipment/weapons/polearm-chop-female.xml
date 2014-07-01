@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <sprite name="player" action="stand" variants="135" variant_offset="1">
-  <imageset name="polearm-chop" src="graphics/sprites/equipment/weapons/polearm-chop.png|B;R;" width="128" height="128"/>
+  <imageset name="polearm-chop" src="graphics/sprites/equipment/weapons/polearm-chop.png|B;R" width="128" height="128"/>
   <action name="default" imageset="polearm-chop"/>
   <action name="stand" imageset="polearm-chop">
     <animation direction="down">
@@ -19,15 +19,19 @@
   <action name="walk" imageset="polearm-chop">
     <animation direction="down">
       <sequence offsetY="32" start="1" end="6" delay="75"/>
+      <end/>
     </animation>
     <animation direction="left">
       <sequence offsetY="32" start="19" end="24" delay="75"/>
+      <end/>
     </animation>
     <animation direction="up">
       <sequence offsetY="32" start="37" end="42" delay="75"/>
+      <end/>
     </animation>
     <animation direction="right">
       <sequence offsetY="32" start="55" end="60" delay="75"/>
+      <end/>
     </animation>
   </action>
   <action name="sit" imageset="polearm-chop">
