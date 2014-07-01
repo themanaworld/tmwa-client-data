@@ -5,13 +5,8 @@
     their name, icon, description, weight, etc. It also defines which sprite
     to use in the case of visible equipment and which sounds to play on certain
     events related to the item.
-
-    The 'weapon_type' attribute is kept for 0.0 client compatibility. Not to be
-    confused with 'weapon-type'.
 -->
 <items>
-    <version revision="$Revision$" />
-
     <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
         <its:translateRule selector="//item/@name" translate="yes"/>
         <its:translateRule selector="//item/@description" translate="yes"/>
@@ -109,32 +104,26 @@
         attack-action="attack">
     </item -->
     <item id="30"
-        attack-action="attack"
-        weapon_type="1">
+        attack-action="attack">
         <sprite gender="male">equipment/weapons/dagger-male.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
         <sprite gender="female">equipment/weapons/dagger-female.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
     </item>
     <item id="31"
-        attack-action="attack_bow"
-        weapon_type="10">
+        attack-action="attack_bow">
     </item>
     <item id="32"
-        attack-action="cast"
-        weapon_type="10">
+        attack-action="cast">
     </item>
     <item id="33"
-        attack-action="attack"
-        weapon_type="1">
+        attack-action="attack">
         <sprite gender="male">equipment/weapons/wand-male.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
         <sprite gender="female">equipment/weapons/wand-female.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
     </item>
     <item id="34"
-        attack-action="attack"
-        weapon_type="1"> <!-- magic fist -->
+        attack-action="attack"> <!-- magic fist -->
     </item>
     <!-- item id="35"
-        attack-action="attack_2hand"
-        weapon_type="11">
+        attack-action="attack_2hand">
     </item -->
 
 
@@ -307,7 +296,6 @@
         description="A simple dagger."
         effect="Damage +15"
         type="equip-1hand"
-        weapon-type="knife"
         attack-action="attack"
         attack-range="2"
         weight="200">
@@ -322,7 +310,6 @@
         description="A really sharp knife. Don't hurt yourself!"
         effect="Damage +10"
         type="equip-1hand"
-        weapon-type="knife"
         attack-action="attack"
         attack-range="2"
         weight="150">
@@ -419,7 +406,6 @@
         description="A bow for short distances."
         effect="Damage +50 / Range 5"
         type="equip-2hand"
-        weapon-type="bow"
         attack-action="attack_bow"
         attack-range="5"
         weight="600"
@@ -477,7 +463,6 @@
         description="A small but sharp sword."
         effect="Damage +100"
         type="equip-1hand"
-        weapon-type="sword"
         attack-action="attack"
         attack-range="2"
         weight="2000">
@@ -551,7 +536,6 @@
         description="A bow usually used for hunting."
         effect="Damage +70 / Range 5"
         type="equip-2hand"
-        weapon-type="bow"
         attack-action="attack_bow"
         attack-range="5"
         weight="1200"
@@ -577,7 +561,6 @@
         description="A bardiche."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="polearm"
         attack-action="attack_2hand"
         attack-range="2"
         weight="10">
@@ -588,7 +571,6 @@
         description="A weapon usually carried by guards."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="polearm"
         attack-action="attack_2hand"
         attack-range="2"
         weight="1400">
@@ -601,7 +583,6 @@
         description="An axe."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="axe"
         attack-action="attack_chop"
         attack-range="2"
         weight="1200">
@@ -614,7 +595,6 @@
         description="An axe usually used by blacksmiths."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="axe"
         attack-action="attack_chop"
         attack-range="2"
         weight="1200">
@@ -685,7 +665,6 @@
         description="A sword with a very sharp, curved, single-edged blade."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="sword"
         attack-action="attack_chop"
         attack-range="2"
         weight="300">
@@ -761,7 +740,6 @@
         description="A knife masterly carved out of a bone."
         effect="Damage +115"
         type="equip-1hand"
-        weapon-type="knife"
         attack-action="attack"
         attack-range="2"
         weight="450">
@@ -774,7 +752,6 @@
         description="A sharp knife, named after a famous gambler."
         effect="Damage +110"
         type="equip-1hand"
-        weapon-type="knife"
         attack-action="attack"
         attack-range="2"
         weight="900"
@@ -788,7 +765,6 @@
         description="A sword with a heavy, curved, single-edged blade."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="sword"
         attack-action="attack_chop"
         attack-range="2"
         weight="200">
@@ -799,7 +775,6 @@
         description="A heavy one-handed, single-edged sword."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="sword"
         attack-action="attack_chop"
         attack-range="2"
         weight="300">
@@ -810,7 +785,6 @@
         description="A well crafted glaive."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="polearm"
         attack-action="attack_2hand"
         attack-range="2"
         weight="600">
@@ -821,7 +795,6 @@
         description="A tonorian short bow."
         effect="Damage +? / Range ?"
         type="equip-2hand"
-        weapon-type="bow"
         attack-action="attack_bow"
         attack-range="5"
         weight="1200"
@@ -833,7 +806,6 @@
         description="An oddly designed sword especially made for beheading enemies."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="sword"
         attack-action="attack_chop"
         attack-range="2"
         weight="2000">
@@ -844,7 +816,6 @@
         description="Darts made of bones."
         effect="Damage +? / Range ?"
         type="equip-1hand"
-        weapon-type="thrown"
         attack-action="attack_chop"
         attack-range="2"
         weight="300">
@@ -857,7 +828,6 @@
         description="A sand cutter."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="sword"
         attack-action="attack_chop"
         attack-range="2"
         weight="1500">
@@ -868,7 +838,6 @@
         description="A knife made of stone."
         effect="Damage +110"
         type="equip-1hand"
-        weapon-type="knife"
         attack-action="attack"
         attack-range="2"
         vit="3"
@@ -883,7 +852,6 @@
         description="A staff that increases healing magic."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="staff"
         attack-action="attack_sword_stab"
         attack-range="2"
         weight="1500">
@@ -894,7 +862,6 @@
         description="A crescent rod."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="staff"
         attack-action="attack_sword_stab"
         attack-range="2"
         weight="1500">
@@ -905,7 +872,6 @@
         description="A staff that increases fire magic."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="staff"
         attack-action="attack_sword_stab"
         attack-range="2"
         weight="1500">
@@ -916,7 +882,6 @@
         description="A staff that increases ice magic."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="staff"
         attack-action="attack_sword_stab"
         attack-range="2"
         weight="1500">
@@ -927,7 +892,6 @@
         description="A jackal."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="sword"
         attack-action="attack_chop"
         attack-range="2"
         weight="100">
@@ -958,7 +922,6 @@
         description="A simple but reliable sword."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="sword"
         attack-action="attack_chop"
         attack-range="2"
         weight="200">
@@ -971,7 +934,6 @@
         description="A large two handed sword."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="sword"
         attack-action="attack_2hand"
         attack-range="2"
         weight="10">
@@ -984,7 +946,6 @@
         description="A two handed sword with a very broad blade."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="sword"
         attack-action="attack_2hand"
         attack-range="2"
         weight="10">
@@ -996,7 +957,6 @@
         description="A short and powerful sword."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="sword"
         attack-action="attack"
         attack-range="2"
         weight="10">
@@ -1007,7 +967,6 @@
         description="A sword with a long and agile blade."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="sword"
         attack-action="attack_chop"
         attack-range="2"
         weight="10">
@@ -1023,7 +982,6 @@
         description="A dagger with a long and thin blade."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="knife"
         attack-action="attack"
         attack-range="2"
         weight="10">
@@ -1034,7 +992,6 @@
         description="A light sword made for duels."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="sword"
         attack-action="attack_sword_stab"
         attack-range="2"
         weight="10">
@@ -1046,7 +1003,6 @@
         description="A light spear with a wooden pole."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="polearm"
         attack-action="attack_spear"
         attack-range="2"
         weight="700">
@@ -1059,7 +1015,6 @@
         description="A heavy spear with a wooden pole."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="polearm"
         attack-action="attack_spear"
         attack-range="2"
         weight="1000">
@@ -1072,7 +1027,6 @@
         description="A light spear with an iron pole."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="polearm"
         attack-action="attack_spear"
         attack-range="2"
         weight="1200">
@@ -1085,7 +1039,6 @@
         description="A heavy spear with an iron pole."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="polearm"
         attack-action="attack_spear"
         attack-range="2"
         weight="1500">
@@ -1098,7 +1051,6 @@
         description="A spear with two tops."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="polearm"
         attack-action="attack_spear"
         attack-range="2"
         weight="10">
@@ -1109,7 +1061,6 @@
         description="A magical sword enchanted with the power of fire."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="sword"
         attack-action="attack_chop"
         attack-range="2"
         weight="10">
@@ -1166,7 +1117,6 @@
         description="A butcher's tool that also makes a nice one handed battle axe."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="axe"
         attack-action="attack_chop"
         attack-range="2"
         weight="10">
@@ -1177,7 +1127,6 @@
         description="A short one handed axe."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="axe"
         attack-action="attack_chop"
         attack-range="2"
         weight="10">
@@ -1188,7 +1137,6 @@
         description="A spear with three heads."
         effect="Damage +?"
         type="equip-2hand"
-        weapon-type="polearm"
         attack-action="attack_sword_stab"
         attack-range="2"
         weight="10">
@@ -1207,7 +1155,6 @@
         description="A primitive wooden club."
         effect="Damage +?"
         type="equip-1hand"
-        weapon-type="mace"
         attack-action="attack"
         attack-range="2"
         weight="10">
@@ -1355,7 +1302,6 @@
         description="Usually used for farming but also usable as a weapon. Slow but deadly."
         effect="Damage +75"
         type="equip-2hand"
-        weapon-type="polearm"
         attack-action="attack_2hand"
         attack-range="2"
         weight="1200"
@@ -2676,7 +2622,6 @@
         description="A basic wooden staff."
         effect="Damage +50 / M. Attack +10 / Lvl 2 Wand / Requires Int 60+"
         type="equip-2hand"
-        weapon-type="polearm"
         attack-action="attack_sword_stab"
         attack-range="2"
         weight="1000">
@@ -3071,8 +3016,8 @@
         weight="5"
         sellProtected="true">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#87876c,bbc39c,edf4e1,ffffff;#ec0000</sprite>
-        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#87876c,bbc39c,edf4e1,ffffff;#ec3e3e</sprite>        <replace sprite="pants">
-
+        <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#87876c,bbc39c,edf4e1,ffffff;#ec3e3e</sprite>
+        <replace sprite="pants">
             <item from="1172" to="648"/>
         </replace>
     </item>
@@ -3607,7 +3552,6 @@
         description="A sword with a shimmering blue blade."
         effect="Damage +110"
         type="equip-1hand"
-        weapon-type="sword"
         attack-action="attack"
         attack-range="2"
         luck="1"
@@ -3718,7 +3662,6 @@
         description="A bow that has been enchanted by the dark powers of a witch."
         effect="Damage +90 / Range 6 / Attack Speed +20% / Critical Damage +70 / -150 HP / Defense -40% / VIT Defense -35% / Vanishes HP by 4% of damages dealt / Requires Level 90 / Dexterity 80+ required to activate the bonuses"
         type="equip-2hand"
-        weapon-type="bow"
         attack-action="attack_bow"
         attack-range="5"
         weight="900"
@@ -4001,7 +3944,6 @@
         description="In the right hands, everything is a weapon."
         effect="Damage +5 / Range 3"
         type="equip-2hand"
-        weapon-type="bow"
         attack-action="attack_bow"
         attack-range="5"
         weight="10"
@@ -4024,7 +3966,6 @@
         description="A basic magic wand."
         effect="Damage +1 / M. Attack +5 / Lvl 1 Wand / Requires 5+ Int"
         type="equip-1hand"
-        weapon-type="knife"
         attack-action="attack"
         attack-range="3"
         weight="100">
@@ -4332,7 +4273,6 @@
         type="equip-2hand"
         weight="20"
         missile-particle="graphics/particles/arrow.particle.xml"
-        weapon-type="bow"
         attack-action="attack_bow"
         attack-range="5">
         <sprite gender="male">equipment/weapons/bow-male.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
@@ -4346,7 +4286,6 @@
         effect="Damage +5"
         type="equip-1hand"
         weight="120"
-        weapon-type="knife"
         attack-action="attack">
         attack-range="2">
         <sprite gender="male">equipment/weapons/dagger-male.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
@@ -4471,7 +4410,6 @@
         description="A toy item, doesn't do much damage."
         effect="Damage +1"
         type="equip-1hand"
-        weapon-type="sword"
         attack-action="attack"
         attack-range="2"
         weight="1"
