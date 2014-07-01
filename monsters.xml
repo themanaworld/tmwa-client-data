@@ -231,7 +231,14 @@
     <sprite>equipment/chest/warlordplate-male.xml</sprite>
     <sprite>equipment/head/warlordhelm-male.xml</sprite>
   </monster>
-  <!-- Snake lord 44 -->
+  <monster id="1046" name="Tame Scorpion">
+    <sprite>monsters/scorpion.xml|#4d422d,826242,d8c282,ffffff</sprite>
+    <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
+    <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
+    <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
+    <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
+    <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
+  </monster>
   <monster id="1047" name="Poltergeist">
     <sprite>monsters/wisp.xml|#77ffdd,77ddff</sprite>
     <particlefx>graphics/particles/polter.particle.xml</particlefx>
@@ -242,6 +249,13 @@
   <monster id="1049" name="Bee" targetCursor="small">
     <sprite>monsters/bee.xml</sprite>
     <sprite>monsters/accessories/generic-shadow-small-circle.xml</sprite>
+  </monster>
+  <monster id="1050" name="House Maggot" targetCursor="small">
+    <sprite>monsters/cave-maggot.xml|#4d422d,826242,d8c282,ffffff</sprite>
+    <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
+    <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
+    <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
+    <sound event="die">monsters/maggot/maggot-dying1.ogg</sound>
   </monster>
   <!--48 Vespa-->
   <!--49 Larvespa-->

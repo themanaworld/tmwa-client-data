@@ -111,14 +111,16 @@
         attack-action="attack_bow"
         weapon_type="10">
     </item>
-    <!-- item id="32"
+    <item id="32"
         attack-action="cast"
-        weapon_type="11">
+        weapon_type="10">
     </item>
     <item id="33"
         attack-action="attack"
         weapon_type="1">
-    </item -->
+        <sprite gender="male">equipment/weapons/wand-male.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+        <sprite gender="female">equipment/weapons/wand-female.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+    </item>
     <item id="34"
         attack-action="attack"
         weapon_type="1"> <!-- magic fist -->
@@ -2665,7 +2667,7 @@
         image="equipment/weapon/staff-woodstaff.png"
         name="Wooden Staff"
         description="A basic wooden staff."
-        effect="Damage +50 / M. Attack +5"
+        effect="Damage +50 / M. Attack +10 / Lvl 2 Wand / Requires Int 60+"
         type="equip-2hand"
         weapon-type="polearm"
         attack-action="attack_sword_stab"
@@ -4009,6 +4011,20 @@
         weight="1"/>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
+    <item id="1171"
+        image="equipment/weapon/wand.png"
+        name="Wand"
+        description="A basic magic wand."
+        effect="Damage +1 / M. Attack +5 / Lvl 1 Wand / Requires 5+ Int"
+        type="equip-1hand"
+        weapon-type="knife"
+        attack-action="attack"
+        attack-range="3"
+        weight="100">
+        <drawBefore name="hat" direction="left"/>
+        <sprite gender="male">equipment/weapons/wand-male.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+        <sprite gender="female">equipment/weapons/wand-female.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d;</sprite>
+    </item>
     <item id="1172"
         image="equipment/legs/silkpants.png|W:#87876c,bbc39c,edf4e1,ffffff"
         name="Silk Pants"
