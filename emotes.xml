@@ -1,5 +1,11 @@
 <?xml version="1.0"?>
 <emotes>
+    <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+        <its:translateRule selector="//emote/@name" translate="yes"/>
+        <its:translateRule selector="//emote/sprite/@name" translate="yes"/>
+        <its:translateRule selector="//*" translate="no"/>
+    </its:rules>
+
   <emote id="0" name="Disgust" effectid="10000" image="graphics/emotes/disgust.png" width="30" height="32">
     <sprite name="Disgust" variant="0">emote.xml</sprite>
   </emote>
