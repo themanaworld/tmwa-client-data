@@ -952,7 +952,7 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup name="Objects" visible="0">
+ <objectgroup name="Objects" width="0" height="0" visible="0">
   <object name="To Outside" type="warp" x="832" y="1088" width="32" height="32">
    <properties>
     <property name="dest_map" value="027-1"/>
@@ -1067,12 +1067,12 @@
     <property name="monster_id" value="76"/>
    </properties>
   </object>
-  <object name="DrunkenLadySkeleton" type="spawn" x="2688" y="960" width="384" height="320">
+  <object name="TipsySkeleton" type="spawn" x="2688" y="960" width="384" height="320">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="1"/>
-    <property name="monster_id" value="77"/>
+    <property name="monster_id" value="76"/>
    </properties>
   </object>
  </objectgroup>
