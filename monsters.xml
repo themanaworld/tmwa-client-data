@@ -689,7 +689,8 @@
   </monster>
   <monster id="1130" name="Moonshroom">
     <sprite>monsters/moonshroom.xml</sprite>
-    <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
+    <particlefx>graphics/particles/monster-moonshroom.particle.xml</particlefx>
+    <attack id="1" missile-particle="graphics/particles/moonshroom-attack.particle.xml" action="attack"/>
   </monster>
   <monster id="1131" name="Mana Bug" targetCursor="small">
     <sprite>monsters/mana-bug.xml|#660000,FF3300,FFCC99,FFCCCC</sprite>
