@@ -1810,6 +1810,12 @@
         <replace direction="upall" sprite="hair">
             <item from="-5" to="-5"/>
         </replace>
+        <replace direction="left" sprite="hair">
+            <item from="-15" to="-18"/>
+        </replace>
+        <replace direction="right" sprite="hair">
+            <item from="-15" to="-18"/>
+        </replace>
     </item>
     <item id="657"
         image="use/food/orange.png"
@@ -2559,6 +2565,9 @@
         sellProtected="true">
         <sprite gender="male">equipment/head/fluffyhat-male.xml</sprite>
         <sprite gender="female">equipment/head/fluffyhat-female.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
     </item>
     <item id="753"
         image="generic/batwing.png"
@@ -4302,6 +4311,12 @@
         sellProtected="true">
         <sprite gender="male">equipment/head/rangerhat-male.xml</sprite>
         <sprite gender="female">equipment/head/rangerhat-female.xml</sprite>
+        <replace sprite="hair">
+            <item from="-15"/>
+        </replace>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
     </item>
     <item id="1204"
         image="equipment/head/antlerhat.png"
@@ -4421,6 +4436,12 @@
         <replace direction="downall" sprite="hair">
             <item from="-5"/>
         </replace>
+        <replace direction="downall" sprite="hair">
+            <item from="-14"/>
+        </replace>
+        <replace direction="downall" sprite="hair">
+            <item from="-18"/>
+        </replace>
     </item>
     <item id="1217"
         image="equipment/head/catears.png|M:#774444;W:#777777"
@@ -4471,8 +4492,8 @@
         sellProtected="true">
         <sprite gender="male">equipment/head/moubootaurhead-male.xml</sprite>
         <sprite gender="female">equipment/head/moubootaurhead-female.xml</sprite>
-        <replace direction="upall" sprite="hair">
-            <item from="-5"/>
+        <replace sprite="hair">
+            <item to="-7"/>
         </replace>
     </item>
     <item id="1220"
@@ -7875,6 +7896,9 @@
         sellProtected="true">
         <sprite gender="male">equipment/head/panhat-male.xml</sprite>
         <sprite gender="female">equipment/head/panhat-female.xml</sprite>
+        <replace direction="downall" sprite="hair">
+            <item from="-5"/>
+        </replace>
     </item>
     <item id="4033"
         image="equipment/head/chefhat.png"
@@ -7887,6 +7911,9 @@
         sellProtected="true">
         <sprite gender="male">equipment/head/chefhat-male.xml</sprite>
         <sprite gender="female">equipment/head/chefhat-female.xml</sprite>
+        <replace direction="downall" sprite="hair">
+            <item from="-5"/>
+        </replace>
     </item>
     <item id="4034"
         image="generic/blackpearl.png"
