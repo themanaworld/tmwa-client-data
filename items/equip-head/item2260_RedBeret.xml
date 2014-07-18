@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="2260" image="equipment/head/beret.png|W:#581a1a,a41111,c03a3a,ff6060" name="Red Beret" description="A simple red beret. Fluffys look utterly cute with it." defense="3" weight="20" agi="2" type="equip-head" sellProtected="true">
+    <sprite gender="male">equipment/head/beret-male.xml|#581a1a,a41111,c03a3a,ff6060</sprite>
+    <sprite gender="female">equipment/head/beret-female.xml|#581a1a,a41111,c03a3a,ff6060</sprite>
+  </item>
+</items>

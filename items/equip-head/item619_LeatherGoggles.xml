@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="619" image="equipment/head/leathergoggles.png" name="Leather Goggles" description="Goggles designed for desert storms." type="equip-head" weight="20" defense="3" sellProtected="true">
+    <sprite gender="male">equipment/head/goggles-male.xml|#783c00,ff973b</sprite>
+    <sprite gender="female">equipment/head/goggles-female.xml|#783c00,ff973b</sprite>
+  </item>
+</items>

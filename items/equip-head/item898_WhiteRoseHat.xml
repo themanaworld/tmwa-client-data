@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="898" image="equipment/head/rosehat.png|R:#dddddd,ffffff" name="White Rose Hat" description="A beautiful flower that can be worn on the head." effect="M. Attack +8" type="equip-head" defense="1" weight="1">
+    <sprite gender="male">equipment/head/rosehat-male.xml|#dddddd,ffffff</sprite>
+    <sprite gender="female">equipment/head/rosehat-female.xml|#dddddd,ffffff</sprite>
+  </item>
+</items>

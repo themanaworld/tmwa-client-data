@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="2159" image="equipment/feet/boots.png|W:#0b300b,195519,3e832e,3e9c3e" name="Dark Green Cotton Boots" description="A dark green pair of quality cotton boots." effect="M. Attack +1" type="equip-feet" defense="1" weight="30">
+    <sprite gender="male">equipment/feet/boots-male.xml|#0b300b,195519,3e832e,3e9c3e</sprite>
+    <sprite gender="female">equipment/feet/boots-female.xml|#0b300b,195519,3e832e,3e9c3e</sprite>
+  </item>
+</items>

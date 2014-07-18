@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="689" image="equipment/chest/tanktop-short.png|W:#a4b2b2,ffffff" name="Short Tank Top" description="A short, sleeveless shirt for VERY hot summer days." effect="M. Attack -4" type="equip-torso" defense="2" weight="8" drawBefore="pants">
+    <sprite gender="male">equipment/chest/shorttanktop-male.xml|#a4b2b2,ffffff</sprite>
+    <sprite gender="female">equipment/chest/shorttanktop-female.xml|#a4b2b2,ffffff</sprite>
+  </item>
+</items>

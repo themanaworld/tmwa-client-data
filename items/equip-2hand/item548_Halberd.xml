@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="548" image="equipment/weapon/polearm-halberd.png" name="Halberd" description="A weapon usually carried by guards." effect="Damage +?" type="equip-2hand" attack-action="attack_2hand" attack-range="2" weight="1400">
+    <sprite gender="male">equipment/weapons/polearm-chop-male.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
+    <sprite gender="female">equipment/weapons/polearm-chop-female.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
+  </item>
+</items>

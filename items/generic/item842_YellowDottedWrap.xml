@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="842" image="generic/wrapping-paper-dotted.png|C:#9c6d31,ba7d2e,e5a551,ffc67a,ffffff;M:#2d864c,2da457,52df83,ffffff" name="Yellow Dotted Wrap" description="A role of yellow dotted wrapping paper." type="generic" weight="500"/>
+</items>

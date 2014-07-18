@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="812" image="use/others/warp-towel.png|W:#4b4bbd,888af4" name="Blue Hitchhiker's Towel" description="An inconspicuous blue towel." effect="A strange way of travelling. Cooldown: 30 minutes" type="usable" weight="30" sellProtected="true"/>
+</items>

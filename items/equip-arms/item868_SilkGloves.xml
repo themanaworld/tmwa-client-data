@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="868" image="equipment/hands/basicgloves.png|W:#87876c,bbc39c,edf4e1,ffffff" name="Silk Gloves" description="Soft and graceful silk gloves which don't restrain magic." effect="" type="equip-arms" defense="1" weight="4">
+    <sprite gender="male">equipment/hands/generic-male.xml|#87876c,bbc39c,edf4e1,ffffff</sprite>
+    <sprite gender="female">equipment/hands/generic-female.xml|#87876c,bbc39c,edf4e1,ffffff</sprite>
+  </item>
+</items>

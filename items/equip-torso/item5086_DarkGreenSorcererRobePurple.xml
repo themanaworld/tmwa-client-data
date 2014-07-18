@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="5086" image="equipment/chest/sorcerer-robe.png|W:#0b300b,195519,3e832e,3e9c3e;R:#8000FF" name="Dark Green Sorcerer Robe (Purple)" description="A Purple lined Dark Green sorcerer robe." effect="M. Attack +20" type="equip-torso" defense="5" agi="1" weight="30" sellProtected="true">
+    <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#0b300b,195519,3e832e,3e9c3e;#8000FF</sprite>
+    <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#0b300b,195519,3e832e,3e9c3e;#8000FF</sprite>
+    <replace sprite="pants">
+      <item from="1172" to="648"/>
+    </replace>
+  </item>
+</items>

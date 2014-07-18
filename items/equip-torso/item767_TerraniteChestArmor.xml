@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="767" image="equipment/chest/terranite.png" name="Terranite Chest Armor" description="A nice piece of armor made out of terranite ore." effect="M. Attack -70 / M. Defense +10" type="equip-torso" defense="20" dex="1" weight="800" sellProtected="true">
+    <sprite gender="male">equipment/chest/terranite-male.xml</sprite>
+    <sprite gender="female">equipment/chest/terranite-female.xml</sprite>
+  </item>
+</items>

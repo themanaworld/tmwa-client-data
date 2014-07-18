@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <include name="items/equip-ammo/item529_IronArrow.xml"/>
+  <include name="items/equip-ammo/item762_TerraniteArrow.xml"/>
+  <include name="items/equip-ammo/item904_SlingBullet.xml"/>
+  <include name="items/equip-ammo/item1199_Arrow.xml"/>
+  <include name="items/equip-ammo/item1282_BoneArrows.xml"/>
+</items>

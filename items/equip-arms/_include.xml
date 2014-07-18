@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <include name="items/equip-arms/item531_MinerGloves.xml"/>
+  <include name="items/equip-arms/item532_LeatherGloves.xml"/>
+  <include name="items/equip-arms/item563_WinterGloves.xml"/>
+  <include name="items/equip-arms/item585_ScarabArmlet.xml"/>
+  <include name="items/equip-arms/item741_CottonGloves.xml"/>
+  <include name="items/equip-arms/item756_AssassinGloves.xml"/>
+  <include name="items/equip-arms/item794_BromenalGloves.xml"/>
+  <include name="items/equip-arms/item868_SilkGloves.xml"/>
+  <include name="items/equip-arms/item2160_RedCottonGloves.xml"/>
+  <include name="items/equip-arms/item2161_GreenCottonGloves.xml"/>
+  <include name="items/equip-arms/item2162_DarkBlueCottonGloves.xml"/>
+  <include name="items/equip-arms/item2163_YellowCottonGloves.xml"/>
+  <include name="items/equip-arms/item2164_LightBlueCottonGloves.xml"/>
+  <include name="items/equip-arms/item2165_PinkCottonGloves.xml"/>
+  <include name="items/equip-arms/item2166_BlackCottonGloves.xml"/>
+  <include name="items/equip-arms/item2167_OrangeCottonGloves.xml"/>
+  <include name="items/equip-arms/item2168_PurpleCottonGloves.xml"/>
+  <include name="items/equip-arms/item2169_DarkGreenCottonGloves.xml"/>
+</items>

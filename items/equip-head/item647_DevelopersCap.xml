@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="647" image="equipment/head/devcap.png|R:#9999ff" name="Developer's Cap" description="A cap which identifies you as a developer." effect="M. Attack +5" type="equip-head" defense="5" weight="20" sellProtected="true">
+    <sprite gender="male">equipment/head/devcap-male.xml|#9999ff</sprite>
+    <sprite gender="female">equipment/head/devcap-female.xml|#9999ff</sprite>
+    <replace sprite="hair">
+      <item from="-5"/>
+    </replace>
+    <replace direction="upall" sprite="hair">
+      <item from="-5" to="-5"/>
+    </replace>
+  </item>
+</items>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="794" image="equipment/hands/bromenalgloves.png" name="Bromenal Gloves" description="A pair of bromenal gloves." effect="M. Attack -20" type="equip-arms" weight="40" defense="4" sellProtected="true">
+    <sprite gender="male">equipment/hands/bromenalgloves-male.xml</sprite>
+    <sprite gender="female">equipment/hands/bromenalgloves-female.xml</sprite>
+  </item>
+</items>

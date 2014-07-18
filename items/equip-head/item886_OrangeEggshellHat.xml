@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="886" image="equipment/head/eggshell-hat.png|W:#9B5D00,E17828,F7B37E" name="Orange Eggshell Hat" description="A novelty hat shaped like an eggshell half." type="equip-head" effect="M. Defense +3" defense="9" weight="15" sellProtected="true">
+    <sprite gender="male">equipment/head/eggshell-male.xml|#9B5D00,E17828,F7B37E</sprite>
+    <sprite gender="female">equipment/head/eggshell-female.xml|#9B5D00,E17828,F7B37E</sprite>
+    <replace direction="upall" sprite="hair">
+      <item from="-5"/>
+    </replace>
+  </item>
+</items>

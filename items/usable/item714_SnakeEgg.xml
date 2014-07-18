@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="714" image="use/food/snake-egg.png|W:#c0c0a0;R:#b09070;G:#b8a888" name="Snake Egg" description="An edible snake egg." type="usable" hp="30" weight="4"/>
+</items>

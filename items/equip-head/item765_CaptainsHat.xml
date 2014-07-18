@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="765" image="equipment/head/captain_hat.png" name="Captain's Hat" description="A hat worn by the bravest captains." type="equip-head" defense="15" weight="8">
+    <sprite gender="male">equipment/head/captain-hat-male.xml</sprite>
+    <sprite gender="female">equipment/head/captain-hat-female.xml</sprite>
+  </item>
+</items>

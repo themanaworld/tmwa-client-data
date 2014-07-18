@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="2216" image="equipment/head/bowler-hat.png|W:#111111,222222,333333,444444,555555,aaaaaa" name="Black Bowler Hat" description="A hat for those with a bit of class, with a black band." effect="M. Attack +2" type="equip-head" defense="10" weight="30" sellProtected="true">
+    <sprite gender="male">equipment/head/bowler-hat-male.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+    <sprite gender="female">equipment/head/bowler-hat-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+    <replace sprite="hair">
+      <item from="-5"/>
+    </replace>
+    <replace direction="upall" sprite="hair">
+      <item from="-5" to="-5"/>
+    </replace>
+  </item>
+</items>

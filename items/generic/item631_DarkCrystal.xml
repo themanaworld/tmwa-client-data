@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="631" image="generic/crystal.png|W:#252e6a,923eda,ba72ec,ffffff" name="Dark Crystal" description="A dark crystal that emits a demonic aura." type="generic" weight="10"/>
+</items>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="4020" image="equipment/head/candlehelmet.png" name="Candle Helmet" description="Worn by spelunkers." effect="M. Attack -25" type="equip-head" defense="16" int="1" agi="-1" weight="450" sellProtected="true">
+    <sprite gender="male">equipment/head/candlehelmet-male.xml</sprite>
+    <sprite gender="female">equipment/head/candlehelmet-female.xml</sprite>
+  </item>
+</items>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="2101" image="equipment/legs/skirt.png|W:#255511,579932,4aaf36,4ed65e" name="Green Cotton Skirt" description="A green skirt made of linen cloth." effect="M. Attack -8" type="equip-legs" defense="4" weight="20">
+    <sprite gender="male">equipment/legs/skirt-male.xml|#255511,579932,4aaf36,4ed65e</sprite>
+    <sprite gender="female">equipment/legs/skirt-female.xml|#255511,579932,4aaf36,4ed65e</sprite>
+  </item>
+</items>

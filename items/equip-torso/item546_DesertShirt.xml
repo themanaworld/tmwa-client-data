@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="546" image="equipment/chest/desertshirt.png" name="Desert Shirt" description="A shirt suitable for desert trips." effect="M. Attack -18" type="equip-torso" defense="6" weight="20">
+    <sprite gender="male">equipment/chest/leather-male.xml|#443c21,85794a,beb590,ffffff;#824035,d6a19a</sprite>
+    <sprite gender="female">equipment/chest/leather-female.xml|#251e06,443c21,71653b,a0945e;#b6574a</sprite>
+  </item>
+</items>

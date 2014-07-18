@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="877" image="equipment/head/bull.png" name="Bull Helmet" description="A black steel helmet worn by the most ferocious warriors." effect="M. Attack -52 / Double Damage +20% / Critical Damage +15 / Attack Speed +10% / VIT Defense -39% / Accuracy -15 / Melee only / Requires Level 90 / Strength 70+, Vitality 50+ and Luck 50+ required to activate the bonuses" type="equip-head" weight="1300" str="10" defense="19" sellProtected="true">
+    <sprite gender="male">equipment/head/bull-male.xml</sprite>
+    <sprite gender="female">equipment/head/bull-female.xml</sprite>
+    <replace sprite="hair">
+      <item from="-5"/>
+      <item from="-6"/>
+      <item from="-9"/>
+    </replace>
+    <replace direction="upall" sprite="hair">
+      <item from="-5" to="-5"/>
+    </replace>
+  </item>
+</items>

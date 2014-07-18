@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <include name="items/equip-ring/item702_WeddingRing.xml"/>
+  <include name="items/equip-ring/item4008_DiamondRing.xml"/>
+  <include name="items/equip-ring/item4009_RubyRing.xml"/>
+  <include name="items/equip-ring/item4010_EmeraldRing.xml"/>
+  <include name="items/equip-ring/item4011_SapphireRing.xml"/>
+  <include name="items/equip-ring/item4012_TopazRing.xml"/>
+  <include name="items/equip-ring/item4013_AmethystRing.xml"/>
+  <include name="items/equip-ring/item4014_SimpleRing.xml"/>
+</items>

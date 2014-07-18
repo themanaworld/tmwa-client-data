@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="758" image="equipment/weapon/staff-woodstaff.png" name="Wooden Staff" description="A basic wooden staff." effect="Damage +50 / M. Attack +10 / Lvl 2 Wand / Requires Int 60+" type="equip-2hand" attack-action="attack_sword_stab" attack-range="2" weight="1000">
+    <sprite gender="male">equipment/weapons/polearm-blunt-male.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
+    <sprite gender="female">equipment/weapons/polearm-blunt-female.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
+  </item>
+</items>

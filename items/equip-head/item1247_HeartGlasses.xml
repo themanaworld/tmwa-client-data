@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="1247" image="equipment/head/heart-glasses.png" name="Heart Glasses" description="Heart Glasses from another universe. Decisions were different there." effect="M. Attack +5" type="equip-head" defense="4" weight="20" sellProtected="true">
+    <sprite gender="male">equipment/head/heart-glasses-male.xml</sprite>
+    <sprite gender="female">equipment/head/heart-glasses-female.xml</sprite>
+  </item>
+</items>

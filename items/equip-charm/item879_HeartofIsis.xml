@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="879" image="equipment/charms/heart-of-isis.png" name="Heart of Isis" description="Life emanates through the natural warmth of this jewel." effect="MaxHP +15% / HP Recovery Rate +65% / Requires Level 85" type="equip-charm" weight="40" sellProtected="true"/>
+</items>

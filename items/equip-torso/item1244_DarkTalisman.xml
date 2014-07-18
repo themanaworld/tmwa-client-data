@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="1244" image="generic/iten.png" name="Dark Talisman" description="A small cube. It radiates unimaginable power, and is quite dizzying to look at." effect="Unimaginable powers to a successful wielder. M. Attack +100" type="equip-torso" defense="30" sellProtected="true"/>
+</items>

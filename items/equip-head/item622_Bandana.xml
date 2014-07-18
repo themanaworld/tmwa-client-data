@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="622" image="equipment/head/bandana.png|W:#ff4645,ffffff" name="Bandana" description="A striped bandana." type="equip-head" weight="20" defense="3">
+    <sprite gender="male">equipment/head/bandana-male.xml|#ffffff;#ff4645</sprite>
+    <sprite gender="female">equipment/head/bandana-female.xml|#ffffff;#ff4645</sprite>
+    <replace sprite="hair">
+      <item from="-5"/>
+    </replace>
+  </item>
+</items>

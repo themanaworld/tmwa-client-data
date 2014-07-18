@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="4033" image="equipment/head/chefhat.png" name="Chef Hat" description="A tall hat designed for the person in charge of a kitchen. It smells like onions." effect="M. Attack +2" defense="2" type="equip-head" weight="30" sellProtected="true">
+    <sprite gender="male">equipment/head/chefhat-male.xml</sprite>
+    <sprite gender="female">equipment/head/chefhat-female.xml</sprite>
+  </item>
+</items>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="783" image="equipment/chest/valentine-dress.png|R:#bf0e08" name="Platyna Red Dress" description="A silken dress with soft lace trim. If you damage it, you'll never get it to look good again. In special Platyna red." effect="M. Attack +3" type="equip-torso" defense="15" weight="35">
+    <sprite gender="male">equipment/chest/valentine-dress.xml|#bf0e08</sprite>
+    <sprite gender="female">equipment/chest/valentine-dress.xml|#bf0e08</sprite>
+  </item>
+</items>

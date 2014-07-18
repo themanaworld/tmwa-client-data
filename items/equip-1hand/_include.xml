@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <include name="items/equip-1hand/item521_Dagger.xml"/>
+  <include name="items/equip-1hand/item522_SharpKnife.xml"/>
+  <include name="items/equip-1hand/item536_ShortSword.xml"/>
+  <include name="items/equip-1hand/item549_Axe.xml"/>
+  <include name="items/equip-1hand/item570_BoneKnife.xml"/>
+  <include name="items/equip-1hand/item571_Setzer.xml"/>
+  <include name="items/equip-1hand/item579_RockKnife.xml"/>
+  <include name="items/equip-1hand/item587_Sword.xml"/>
+  <include name="items/equip-1hand/item591_LongSword.xml"/>
+  <include name="items/equip-1hand/item599_FireSword.xml"/>
+  <include name="items/equip-1hand/item867_IceGladius.xml"/>
+  <include name="items/equip-1hand/item1171_Wand.xml"/>
+  <include name="items/equip-1hand/item1201_Knife.xml"/>
+  <include name="items/equip-1hand/item1215_ToySabre.xml"/>
+</items>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="624" image="equipment/chest/vnecksweater.png|W:#a4b2b2,ffffff" name="V-Neck Sweater" description="A thin, soft and warm sweater." effect="M. Attack -24" type="equip-torso" weight="35" defense="8" drawBefore="pants">
+    <sprite gender="male">equipment/chest/vnecksweater-male.xml|#a4b2b2,ffffff</sprite>
+    <sprite gender="female">equipment/chest/vnecksweater-female.xml|#a4b2b2,ffffff</sprite>
+  </item>
+</items>

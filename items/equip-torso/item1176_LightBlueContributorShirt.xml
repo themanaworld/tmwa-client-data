@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="1176" image="equipment/chest/contributor.png|W:#247279,318087,4fbdc7,66e3c7;R:#247279" name="Light Blue Contributor Shirt" description="This shirt belongs to someone who helped making tmw as awesome as it is now!" effect="M. Attack +5" type="equip-torso" defense="5" weight="20" sellProtected="true">
+    <sprite gender="male">equipment/chest/contributor-male.xml|#247279,318087,4fbdc7,66e3c7;#247279</sprite>
+    <sprite gender="female">equipment/chest/contributor-female.xml|#247279,318087,4fbdc7,66e3c7;#247279</sprite>
+  </item>
+</items>

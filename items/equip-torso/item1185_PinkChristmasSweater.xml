@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="1185" image="equipment/chest/ugly-sweater.png|W:#000000,333333;Y:#c44dff;G:#ff4df0;C:#a3a3a3,ffffff" name="Pink Christmas Sweater" description="A light and only slightly itchy pink christmas sweater." type="equip-torso" defense="5" weight="30" sellProtected="true" drawBefore="pants">
+    <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#000000,333333;#c44dff;#ff4df0;#a3a3a3,ffffff</sprite>
+    <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#000000,333333;#c44dff;#ff4df0;#a3a3a3,ffffff</sprite>
+  </item>
+</items>

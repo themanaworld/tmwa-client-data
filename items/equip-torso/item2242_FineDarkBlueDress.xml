@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="2242" image="equipment/chest/fine-dress.png|W:#222255,4444ff,ffffff,ffffff" name="Fine Dark Blue Dress" description="A dark blue dress made from the finest materials." effect="M. Attack +3" type="equip-torso" defense="8" weight="35" sellProtected="true">
+    <sprite gender="male">equipment/chest/fine-dress-male.xml|#222255,4444ff,ffffff,ffffff</sprite>
+    <sprite gender="female">equipment/chest/fine-dress-female.xml|#222255,4444ff,ffffff,ffffff</sprite>
+  </item>
+</items>

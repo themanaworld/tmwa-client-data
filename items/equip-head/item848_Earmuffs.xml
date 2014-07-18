@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="848" image="equipment/head/earmuffs.png" name="Earmuffs" description="This earmuffs can keep your ears enjoyably warm." effect="M. Attack -1" type="equip-head" defense="2" weight="20">
+    <sprite gender="male">equipment/head/earmuffs-male.xml</sprite>
+    <sprite gender="female">equipment/head/earmuffs-female.xml</sprite>
+  </item>
+</items>

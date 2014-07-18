@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="1186" image="equipment/chest/ugly-sweater.png|W:#3f3f3f,ffffff;Y:#af5a2f,af5a2f;G:#8ece91,364c17;C:#49661f" name="Dark Christmas Sweater" description="A thick, warming, yet itchy christmas themed sweater" effect="M. Attack -12" type="equip-torso" defense="6" weight="35" drawBefore="pants">
+    <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,364c17;#49661f</sprite>
+    <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,364c17;#49661f</sprite>
+  </item>
+</items>

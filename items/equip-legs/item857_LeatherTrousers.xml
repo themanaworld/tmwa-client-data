@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="857" image="equipment/legs/pants.png|W:#2a2117,2f2112,493219,61411e,724c22,a97e4f" name="Leather Trousers" description="Trousers made out of robust leather." effect="M. Attack -4, Accuracy +2" type="equip-legs" defense="5" weight="25" sellProtected="true">
+    <sprite gender="male">equipment/legs/pants-male.xml|#2a2117,2f2112,493219,61411e,724c22,a97e4f</sprite>
+    <sprite gender="female">equipment/legs/pants-female.xml|#2a2117,2f2112,493219,61411e,724c22,a97e4f</sprite>
+  </item>
+</items>

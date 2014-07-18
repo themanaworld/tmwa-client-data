@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="2077" image="equipment/chest/tnecksweater.png|W:#80280f,b04810,ef681f,ffb830" name="Orange Turtleneck Sweater" description="A thick, soft and warm orange sweater." effect="M. Attack -12" type="equip-torso" defense="6" weight="35">
+    <sprite gender="male">equipment/chest/tnecksweater-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
+    <sprite gender="female">equipment/chest/tnecksweater-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
+  </item>
+</items>

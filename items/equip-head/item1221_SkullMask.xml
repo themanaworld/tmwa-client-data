@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="1221" image="equipment/head/skullmask.png" name="Skull Mask" description="A mask made out of bones." effect="M. Attack +5" type="equip-head" defense="3" weight="150" sellProtected="true">
+    <sprite gender="male">equipment/head/skullmask-male.xml</sprite>
+    <sprite gender="female">equipment/head/skullmask-female.xml</sprite>
+  </item>
+</items>

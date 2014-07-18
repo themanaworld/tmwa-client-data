@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="2088" image="equipment/chest/silk-robe.png|W:#1a0a33,380f4d,82158c,b359ab" name="Purple Silk Robe" description="A light and shimmering purple silk robe." type="equip-torso" defense="5" weight="30" sellProtected="true">
+    <sprite gender="male">equipment/chest/robe-male.xml|#1a0a33,380f4d,82158c,b359ab</sprite>
+    <sprite gender="female">equipment/chest/robe-female.xml|#1a0a33,380f4d,82158c,b359ab</sprite>
+  </item>
+</items>

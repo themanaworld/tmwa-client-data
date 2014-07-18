@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="2080" image="equipment/chest/silk-robe.png|W:#581a1a,a41111,c03a3a,ff6060" name="Red Silk Robe" description="A light and shimmering red silk robe." type="equip-torso" defense="5" weight="30" sellProtected="true">
+    <sprite gender="male">equipment/chest/robe-male.xml|#583a1a,a42111,c03a3a,ff8060</sprite>
+    <sprite gender="female">equipment/chest/robe-female.xml|#583a1a,a42111,c03a3a,ff8060</sprite>
+  </item>
+</items>

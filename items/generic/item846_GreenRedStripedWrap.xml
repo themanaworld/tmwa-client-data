@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="846" image="generic/wrapping-paper-striped.png|C:#62b23d,82d65a,a3f17f,ffffff;M:#cd6f49,f5895f,ffaf8f,ffffff" name="Green Red Striped Wrap" description="A role of greeb wrapping paper with red stripes." type="generic" weight="500"/>
+</items>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <include name="items/equip-charm/item677_HeartNecklace.xml"/>
+  <include name="items/equip-charm/item742_FourLeafClover.xml"/>
+  <include name="items/equip-charm/item749_Towel.xml"/>
+  <include name="items/equip-charm/item829_CrozeniteFourLeafAmulet.xml"/>
+  <include name="items/equip-charm/item830_BromenalFourLeafAmulet.xml"/>
+  <include name="items/equip-charm/item831_SilverFourLeafAmulet.xml"/>
+  <include name="items/equip-charm/item832_GoldenFourLeafAmulet.xml"/>
+  <include name="items/equip-charm/item865_Grimoire.xml"/>
+  <include name="items/equip-charm/item879_HeartofIsis.xml"/>
+  <include name="items/equip-charm/item1197_JacksSkeletonCharm.xml"/>
+  <include name="items/equip-charm/item1227_EnchantersAmulet.xml"/>
+</items>

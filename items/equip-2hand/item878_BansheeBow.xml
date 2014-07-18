@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="878" image="equipment/weapon/bow-bansheebow.png" name="Banshee Bow" description="A bow that has been enchanted by the dark powers of a witch." effect="Damage +90 / Range 6 / Attack Speed +20% / Critical Damage +70 / -150 HP / Defense -40% / VIT Defense -35% / Vanishes HP by 4% of damages dealt / Requires Level 90 / Dexterity 80+ required to activate the bonuses" type="equip-2hand" attack-action="attack_bow" attack-range="5" weight="900" missile-particle="graphics/particles/arrow-banshee.particle.xml" sellProtected="true">
+    <sprite gender="male">equipment/weapons/bow-banshee-male.xml|#27113e,7442a7,b498d1</sprite>
+    <sprite gender="female">equipment/weapons/bow-banshee-female.xml|#27113e,7442a7,b498d1</sprite>
+  </item>
+</items>

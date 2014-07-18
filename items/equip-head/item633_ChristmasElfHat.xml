@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="633" image="equipment/head/xmaself.png" name="Christmas Elf Hat" description="A hat worn by Christmas elves." effect="M. Attack +2" type="equip-head" defense="13" weight="30" sellProtected="true">
+    <sprite gender="male">equipment/head/xmaself-male.xml</sprite>
+    <sprite gender="female">equipment/head/xmaself-female.xml</sprite>
+    <replace sprite="hair">
+      <item from="-5"/>
+    </replace>
+    <replace direction="left" sprite="hair">
+      <item from="-13"/>
+      <item from="-14" to="-16"/>
+      <item from="-15" to="-8"/>
+    </replace>
+    <replace direction="right" sprite="hair">
+      <item from="-13"/>
+      <item from="-14" to="-16"/>
+      <item from="-15" to="-8"/>
+    </replace>
+    <replace direction="upall" sprite="hair">
+      <item from="-14" to="-13"/>
+      <item from="-15" to="-13"/>
+      <item from="-18" to="-6"/>
+    </replace>
+    <replace direction="downall" sprite="hair">
+      <item from="-14" to="-13"/>
+      <item from="-15" to="-13"/>
+      <item from="-9" to="-1"/>
+    </replace>
+  </item>
+</items>
