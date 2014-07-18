@@ -590,8 +590,7 @@
   </npc>
   <!-- Npc Id 184 Open -->
   <!-- Npc Name Shift (Corrects Large Object) -->
-  <npc id="185" nameOffsetX="16" targetOffsetX="16" targetCursor="large">
-  </npc>
+  <npc id="185" nameOffsetX="16" targetOffsetX="16" targetCursor="large"/>
   <!-- Danger Sign -->
   <npc id="186">
     <sprite variant="0">npcs/signs.xml</sprite>
@@ -1060,7 +1059,7 @@
   <!-- Red Sage -->
   <npc id="356">
     <sprite>model/female.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
-    <sprite >hairstyles/hairstyle19-female.xml|#b04810</sprite>
+    <sprite>hairstyles/hairstyle19-female.xml|#b04810</sprite>
     <sprite>equipment/feet/boots-female.xml|#80280f,b04810,ef681f,ffb830</sprite>
     <sprite>equipment/legs/pants-female.xml|#104010,268026,56a743,3e9c3e</sprite>
     <sprite>equipment/chest/sorcerer-robe-female.xml|#80280f,b04810,ef681f,ffb830;#09BC09</sprite>
@@ -1224,33 +1223,27 @@
     <sprite variant="9">model/unique.xml</sprite>
   </npc>
   <!-- Christmas Decorated Snowy Pine Tree (HUGE) -->
-  <npc id="379"
-    targetSelection="false">
+  <npc id="379" targetSelection="false">
     <sprite>npcs/christmastree.xml</sprite>
   </npc>
   <!-- Pine Tree 3 Tiles High -->
-  <npc id="380"
-    targetSelection="false">
+  <npc id="380" targetSelection="false">
     <sprite variant="1">npcs/snowtree.xml</sprite>
   </npc>
   <!-- Christmas Decorated Pine Tree (LARGE)-->
-  <npc id="381"
-    targetSelection="false">
+  <npc id="381" targetSelection="false">
     <sprite variant="0">npcs/xmastree-nosnow.xml</sprite>
   </npc>
   <!-- Green Leafs Tree 3 Tiles high -->
-  <npc id="382"
-    targetSelection="false">
+  <npc id="382" targetSelection="false">
     <sprite variant="3">npcs/tree.xml</sprite>
   </npc>
   <!-- Christmas Decorated Palm Tree -->
-  <npc id="383"
-    targetSelection="false">
+  <npc id="383" targetSelection="false">
     <sprite variant="0">npcs/xmas-palm.xml</sprite>
   </npc>
   <!-- Palm Tree -->
-  <npc id="384"
-    targetSelection="false">
+  <npc id="384" targetSelection="false">
     <sprite variant="1">npcs/palm-tree.xml</sprite>
   </npc>
   <!-- Male Wizard In Bubble -->
@@ -1265,13 +1258,11 @@
   </npc>
   <!-- IDs 387 - 393 reserved for Vday -->
   <!-- Large Green Tree -->
-  <npc id="394"
-       targetSelection="false">
+  <npc id="394" targetSelection="false">
     <sprite variant="0">npcs/tree-large.xml</sprite>
   </npc>
   <!-- Ship -->
-  <npc id="395"
-       targetCursor="large">
+  <npc id="395" targetCursor="large">
     <sprite variant="0">npcs/koga.xml</sprite>
   </npc>
   <!-- Dock Sign (Light) -->
@@ -1294,8 +1285,7 @@
   <!-- for npcs that shouldn't be selectable (e.g. in magic effects) use 127,
        for warps/doors use 45,
        for 'hidden' npcs the client shouldn't know about use 32767 -->
-  <npc id="400">
-  </npc>
+  <npc id="400"/>
   <!-- Manakins -->
   <npc id="401">
     <sprite>model/female.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>

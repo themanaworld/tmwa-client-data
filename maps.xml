@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <!-- This file is used by the manaplus client, not by the mana client -->
 <maps>
-<!-- Desert Outdoors-->
+  <!-- Desert Outdoors-->
   <map name="001-1.tmx">
     <atlas name="desert"/>
   </map>
@@ -50,7 +50,7 @@
   <map name="069-1.tmx">
     <atlas name="desert"/>
   </map>
-<!-- Woodland -->
+  <!-- Woodland -->
   <map name="007-1.tmx">
     <atlas name="woodland"/>
   </map>
@@ -114,7 +114,7 @@
   <map name="057-1.tmx">
     <atlas name="woodland"/>
   </map>
-<!-- Snow -->
+  <!-- Snow -->
   <map name="019-1.tmx">
     <atlas name="snow"/>
   </map>
@@ -148,11 +148,11 @@
   <map name="048-1.tmx">
     <atlas name="snow"/>
   </map>
-<!-- Desert & Woodland -->
+  <!-- Desert & Woodland -->
   <map name="051-1.tmx">
     <atlas name="desert"/>
   </map>
-<!-- Ships -->
+  <!-- Ships -->
   <map name="017-9.tmx">
     <atlas name="ship"/>
   </map>
@@ -162,7 +162,7 @@
   <map name="036-2.tmx">
     <atlas name="ship"/>
   </map>
-<!-- Desert Indoors -->
+  <!-- Desert Indoors -->
   <map name="001-2.tmx">
     <atlas name="interiordesert"/>
   </map>
@@ -211,7 +211,7 @@
   <map name="069-2.tmx">
     <atlas name="interiordesert"/>
   </map>
-<!-- Woodland Interiors -->
+  <!-- Woodland Interiors -->
   <!-- map name="007-2.tmx">
     <atlas name="interiorwoodland"/>
   </map -->
@@ -275,7 +275,7 @@
   <!-- map name="057-2.tmx">
     <atlas name="interiorwoodland"/>
   </map -->
-<!-- Snow Interiors -->
+  <!-- Snow Interiors -->
   <map name="019-2.tmx">
     <atlas name="interiorsnow"/>
   </map>
@@ -313,7 +313,7 @@
   <map name="048-2.tmx">
     <atlas name="interiorsnow"/>
   </map>
-<!-- PvP Undergrounds -->
+  <!-- PvP Undergrounds -->
   <map name="001-3.tmx">
     <atlas name="arenaunderground"/>
   </map>
@@ -341,7 +341,7 @@
   <map name="botcheck.tmx">
     <atlas name="arenaunderground"/>
   </map>
-<!-- Desert Underground -->
+  <!-- Desert Underground -->
   <map name="002-3.tmx">
     <atlas name="desertunderground"/>
   </map>
@@ -387,7 +387,7 @@
   <map name="043-4.tmx">
     <atlas name="desertunderground"/>
   </map>
-<!-- Woodland Underground -->
+  <!-- Woodland Underground -->
   <map name="009-4.tmx">
     <atlas name="woodlandunderground"/>
   </map>
@@ -433,7 +433,7 @@
   <map name="055-3.tmx">
     <atlas name="woodlandunderground"/>
   </map>
-<!-- Snow Underground -->
+  <!-- Snow Underground -->
   <map name="019-3.tmx">
     <atlas name="snowunderground"/>
   </map>
@@ -458,7 +458,7 @@
   <map name="046-3.tmx">
     <atlas name="snowunderground"/>
   </map>
-<!-- Crypt -->
+  <!-- Crypt -->
   <map name="027-3.tmx">
     <atlas name="crypt"/>
   </map>
@@ -477,7 +477,7 @@
   <map name="027-8.tmx">
     <atlas name="crypt"/>
   </map>
-<!-- Atlas All -->
+  <!-- Atlas All -->
   <atlas name="all">
     <file name="graphics/particles/aniblaze-medium.png|W:#746767"/>
     <file name="graphics/particles/aniblaze-medium.png|W:#a831cf"/>
@@ -500,7 +500,7 @@
     <file name="graphics/particles/sparkle.png|W:#99ff66"/>
     <file name="graphics/particles/casket-trap_96x96.png"/>
   </atlas>
-<!-- Desert Atlas -->
+  <!-- Desert Atlas -->
   <atlas name="desert">
     <file name="graphics/images/ambient/sandstorm.png"/>
     <file name="graphics/tiles/desert1.png"/>
@@ -525,7 +525,7 @@
     <file name="graphics/tiles/water_overflow.png"/>
     <file name="graphics/tiles/water.png"/>
   </atlas>
-<!-- Woodland Atlas -->
+  <!-- Woodland Atlas -->
   <atlas name="woodland">
     <file name="graphics/images/ambient/clouds.png"/>
     <file name="graphics/images/ambient/fog.png"/>
@@ -552,7 +552,7 @@
     <file name="graphics/tiles/woodland_x5.png"/>
     <file name="graphics/tiles/woodland_x8.png"/>
   </atlas>
-<!-- Snow Atlas -->
+  <!-- Snow Atlas -->
   <atlas name="snow">
     <file name="graphics/images/ambient/snow.png"/>
     <file name="graphics/tiles/barbarians_outdoor.png"/>
@@ -566,7 +566,7 @@
     <file name="graphics/tiles/snow_x2.png"/>
     <file name="graphics/tiles/snow_x3.png"/>
   </atlas>
-<!-- Crypt -->
+  <!-- Crypt -->
   <atlas name="crypt">
     <file name="graphics/tiles/crypt1.png"/>
     <file name="graphics/tiles/crypt2.png"/>
@@ -577,14 +577,14 @@
     <file name="graphics/tiles/crypt_x4.png"/>
     <file name="graphics/tiles/woodland_indoor.png"/>
   </atlas>
-<!-- Ship -->
+  <!-- Ship -->
   <atlas name="ship">
     <file name="graphics/tiles/woodland_indoor.png"/>
     <file name="graphics/tiles/woodland_indoor_x2.png"/>
     <file name="graphics/tiles/woodland_indoor_x3.png"/>
     <file name="graphics/tiles/inn_x3.png"/>
   </atlas>
-<!-- Interior Atlas -->
+  <!-- Interior Atlas -->
   <atlas name="interiordesert">
     <file name="graphics/tiles/barbarians_outdoor.png"/>
     <file name="graphics/tiles/cave2_bilevel.png"/>
@@ -626,7 +626,7 @@
     <file name="graphics/tiles/woodland_indoor_x2.png"/>
     <file name="graphics/tiles/woodland_indoor_x3.png"/>
   </atlas>
-<!-- Underground Atlas -->
+  <!-- Underground Atlas -->
   <atlas name="desertunderground">
     <file name="graphics/images/ambient/spotlight.png"/>
     <file name="graphics/tiles/barbarians_outdoor.png"/>
