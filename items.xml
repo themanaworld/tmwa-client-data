@@ -91,6 +91,9 @@
     </item>
     <!-- Treating the base sprite as equipment too will be useful when we
          implement other playable races -->
+    <item id="-1101">
+        <sprite>monsters/terranite.xml</sprite>
+    </item>
     <item id="-100" type="racesprite" name="Human">
         <sprite gender="male">model/male.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
         <sprite gender="female">model/female.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
@@ -110,6 +113,12 @@
     </item>
     <item id="32"
         attack-action="cast">
+    </item>
+    <item id="36"
+        attack-action="cast">
+        <replace sprite="race">
+            <item to="-1101"/>
+        </replace>
     </item>
     <item id="33"
         attack-action="attack">
