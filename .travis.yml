@@ -1,0 +1,17 @@
+notifications:
+  email:
+    on_success: changed
+    on_failure: always
+  irc:
+    channels:   "chat.freenode.net#themanaworld-dev"
+    on_success: always
+    on_failure: always
+    use_notice: true
+
+install:
+  - pushd ..
+  - git clone --depth 1 git://github.com/themanaworld/tmw-tools.git tools
+  - popd
+
+script:
+  - make check
