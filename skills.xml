@@ -2,6 +2,12 @@
 <!-- Copyright 2011 The Mana World Development Team -->
 <!-- See documentation at: http://manaplus.org/skills.xml -->
 <skills>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//set/@name" translate="yes"/>
+    <its:translateRule selector="//set/skill/@name" translate="yes"/>
+    <its:translateRule selector="//set/skill/@description" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
   <set name="Basic">
     <skill id="1" name="Emote" icon="graphics/skills/basic/emote.png"/>
     <skill id="2" name="Trade" icon="graphics/skills/basic/trade.png"/>

@@ -49,4 +49,15 @@ Also, don't forget to add the '/' path separator at the end of folder values.
   <option name="music" value="music/"/>
   <option name="wallpapers" value="graphics/images/"/>
   <option name="wallpaperFile" value="login_wallpaper.png"/>
+  <!--
+    ManaPlus tries to load skillsFile first, then skillsFile2 if it failed.
+    In old versions, ea-skills.xml before skills.xml, now it is swapped.
+    This config setting makes any version of ManaPlus DTRT.
+
+    It can be removed once ea-skills.xml is not in zips
+    or min ManaPlus version is bumped to v1.4.1.18 (which is also the
+    first version that supports <include> in all files)
+    ... or would it be better to specify all the files?
+  -->
+  <option name="skillsFile" value="skills.xml"/>
 </configuration>
