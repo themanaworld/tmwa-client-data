@@ -8,15 +8,16 @@ check:
 
 XMLS = $(shell find -type f -name '*.xml')
 check: check-xml
-check-xml: $(patsubst %.xml,%.xml.ok,${XMLS})
+check-xml: $(patsubst %.xml,out/%.xml.ok,${XMLS})
 	find -name '*.xml.ok' -delete
 	find -name '*.xml.out' -delete
-%.xml.ok: %.xml %.xml.out
-	diff $^
+out/%.xml.ok: %.xml out/%.xml.out
+	diff -u $^
 	touch $@
-%.xml.out: %.xml
+out/%.xml.out: %.xml
+	mkdir -p ${@D}
 	set -e -o pipefail; \
-	xmllint --format --schema tools/tmw.xsd $< 2>&1 > $@ | grep -v 'Skipping import of schema'
+	xmllint --format --schema tools/tmw.xsd $< 2>&1 > $@ | grep -v 'Skipping import of schema' 1>&2
 
 check: xsd
 xsd:
