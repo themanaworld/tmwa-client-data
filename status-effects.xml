@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <status-effects>
-  <status-effect name="item-healing" id="70" block-id="24" persistent-particle-effect="true" start-particle="graphics/particles/circle.particle.xml"/>
-  <status-effect name="speed" id="37" block-id="21" icon="icons/haste-potion.xml|#da69e5,ffdaff" persistent-particle-effect="true" start-particle="graphics/particles/pink-violent-glow.particle.xml"/>
-  <status-effect name="strength" id="185" block-id="23" icon="icons/iron-potion.xml|#c05000,f0a000,f0f09f" persistent-particle-effect="true" start-particle="graphics/particles/orange-violent-glow.particle.xml"/>
-  <status-effect name="invisibility" id="4096" block-id="12" icon="icons/invisible.xml" start-message="You are now invisible." end-message="You are no longer invisible." persistent-particle-effect="true" start-particle="graphics/particles/sphere-white.particle.xml"/>
-  <status-effect name="poison" id="132" block-id="16" icon="icons/poison.xml" persistent-particle-effect="true" start-particle="graphics/particles/green-bubbles.particle.xml"/>
-  <status-effect name="slow-poison" id="14" block-id="25" icon="icons/slow-poison.xml" persistent-particle-effect="true" start-particle="graphics/particles/small-green-bubbles.particle.xml"/>
-  <status-effect name="dark-aura" id="2004" block-id="26" icon="icons/poison.xml" persistent-particle-effect="true" start-particle="graphics/particles/dark-aura.particle.xml"/>
+  <status-effect name="item-healing" id="70" block-id="24" persistent-particle-effect="yes" start-particle="graphics/particles/circle.particle.xml"/>
+  <status-effect name="speed" id="37" block-id="21" icon="icons/haste-potion.xml|#da69e5,ffdaff" persistent-particle-effect="yes" start-particle="graphics/particles/pink-violent-glow.particle.xml"/>
+  <status-effect name="strength" id="185" block-id="23" icon="icons/iron-potion.xml|#c05000,f0a000,f0f09f" persistent-particle-effect="yes" start-particle="graphics/particles/orange-violent-glow.particle.xml"/>
+  <status-effect name="invisibility" id="4096" block-id="12" icon="icons/invisible.xml" start-message="You are now invisible." end-message="You are no longer invisible." persistent-particle-effect="yes" start-particle="graphics/particles/sphere-white.particle.xml"/>
+  <status-effect name="poison" id="132" block-id="16" icon="icons/poison.xml" persistent-particle-effect="yes" start-particle="graphics/particles/green-bubbles.particle.xml"/>
+  <status-effect name="slow-poison" id="14" block-id="25" icon="icons/slow-poison.xml" persistent-particle-effect="yes" start-particle="graphics/particles/small-green-bubbles.particle.xml"/>
+  <status-effect name="dark-aura" id="2004" block-id="26" icon="icons/poison.xml" persistent-particle-effect="yes" start-particle="graphics/particles/dark-aura.particle.xml"/>
   <status-effect name="hide" id="194" icon="icons/hidden.xml"/>
   <status-effect name="flying-backpack" id="196" icon="icons/feather.xml"/>
   <status-effect name="barrier" id="197" icon="icons/green-barrier.xml"/>
