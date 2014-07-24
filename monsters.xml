@@ -65,8 +65,7 @@
     <sound event="hit">monsters/fire-goblin/fire-goblin-hit1.ogg</sound>
     <sound event="hit">monsters/fire-goblin/fire-goblin-hit2.ogg</sound>
     <sound event="miss">monsters/fire-goblin/fire-goblin-miss1.ogg</sound>
-    <!-- The particle-effect parameter is kept for 0.5.x compatibility -->
-    <attack id="1" effect-id="400" particle-effect="graphics/particles/monster-goblin-firebreath.particle.xml"/>
+    <attack id="1" effect-id="400"/>
   </monster>
   <monster id="1012" name="Spider">
     <sprite>monsters/spider.xml|#1a160f,4A7A93,AAC5D2,ffffff;#FF6666</sprite>
@@ -206,8 +205,7 @@
     <sound event="hit">monsters/fire-goblin/fire-goblin-hit1.ogg</sound>
     <sound event="hit">monsters/fire-goblin/fire-goblin-hit2.ogg</sound>
     <sound event="miss">monsters/fire-goblin/fire-goblin-miss1.ogg</sound>
-    <!-- The particle-effect parameter is kept for 0.5.x compatibility -->
-    <attack id="1" effect-id="401" particle-effect="graphics/particles/monster-lizard-firebreath.particle.xml"/>
+    <attack id="1" effect-id="401"/>
   </monster>
   <monster id="1040" name="Wisp">
     <sprite>monsters/wisp.xml|#aadd44,ffff66</sprite>
@@ -549,8 +547,7 @@
     <sound event="hit">monsters/fire-goblin/fire-goblin-hit2.ogg</sound>
     <sound event="miss">monsters/fire-goblin/fire-goblin-miss1.ogg</sound>
     <particlefx>graphics/particles/monster-angry-fire-goblin.particle.xml</particlefx>
-    <!-- The particle-effect parameter is kept for 0.5.x compatibility -->
-    <attack id="1" effect-id="400" particle-effect="graphics/particles/monster-goblin-firebreath.particle.xml"/>
+    <attack id="1" effect-id="400"/>
   </monster>
   <monster id="1109" name="Angry Sea Slime">
     <sprite>monsters/slime.xml|#4ca1a0,ffffff</sprite>
@@ -614,7 +611,7 @@
     <sprite>equipment/feet/boots-male.xml</sprite>
     <sprite>equipment/chest/tanktop-male.xml</sprite>
     <sprite>equipment/legs/pants-male.xml</sprite>
-    <attack id="1" type="direct"/>
+    <attack id="1"/>
   </monster>
   <monster id="1120" name="Swashbuckler">
     <sprite>model/male.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#36e2fc,0ba8bf,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
@@ -623,7 +620,7 @@
     <sprite>equipment/head/bandana-male.xml|#212121,555555</sprite>
     <sprite>equipment/feet/boots-male.xml|#212121,555555</sprite>
     <sprite>equipment/weapons/dagger-male.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
-    <attack id="1" type="direct"/>
+    <attack id="1"/>
   </monster>
   <monster id="1121" name="Grenadier">
     <sprite>model/male.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#36e2fc,0ba8bf,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
