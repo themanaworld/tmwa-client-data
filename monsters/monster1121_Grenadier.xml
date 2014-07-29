@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<monsters offset="0">
+  <monster id="1121" name="Grenadier">
+    <sprite>model/male.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#36e2fc,0ba8bf,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+    <sprite>equipment/chest/sorcerer-robe-male.xml|#5178a0,1a294c;#d5b02c</sprite>
+    <sprite>equipment/legs/pants-male.xml|#5178a0,1a294c</sprite>
+    <sprite>equipment/head/piratehat-male.xml</sprite>
+    <sprite>equipment/hands/generic-male.xml</sprite>
+    <sprite>equipment/feet/boots-male.xml|#212121,444444</sprite>
+    <attack id="1" critical-hit-effect-id="31" hit-effect-id="402" missile-particle="graphics/particles/lobbed-object.xml" action="attack"/>
+  </monster>
+</monsters>

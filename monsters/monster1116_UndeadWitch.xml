@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<monsters offset="0">
+  <monster id="1116" name="Undead Witch">
+    <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
+    <sprite>hairstyles/hairstyle08-male.xml</sprite>
+    <sprite>equipment/head/witch-hat-male.xml</sprite>
+    <sprite>equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#EFEFEF</sprite>
+    <sprite>equipment/weapons/polearm-blunt-male.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
+    <attack id="1" missile-particle="graphics/particles/undead-witch-attack.particle.xml" action="attack"/>
+  </monster>
+</monsters>

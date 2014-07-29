@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<monsters offset="0">
+  <monster id="1039" name="Fire Lizard">
+    <sprite>monsters/lizard.xml|#673132,923F42,CD5961,E163A4,ffffff</sprite>
+    <sound event="hit">monsters/fire-goblin/fire-goblin-hit1.ogg</sound>
+    <sound event="hit">monsters/fire-goblin/fire-goblin-hit2.ogg</sound>
+    <sound event="miss">monsters/fire-goblin/fire-goblin-miss1.ogg</sound>
+    <attack id="1" effect-id="401"/>
+  </monster>
+</monsters>

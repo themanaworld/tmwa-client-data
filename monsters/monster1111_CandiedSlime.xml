@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<monsters offset="0">
+  <monster id="1111" name="Candied Slime">
+    <sprite>monsters/slime.xml|#fd2273,ffbeff,ffffff</sprite>
+    <sprite>monsters/accessories/slime-bubble.xml|#feaaa7,fdfffb</sprite>
+    <attack id="1" missile-particle="graphics/particles/peppermint.particle.xml" action="attack"/>
+    <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+  </monster>
+</monsters>
