@@ -6,10 +6,8 @@
     <its:translateRule selector="//item/@effect" translate="yes"/>
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
-  <include name="items/misc/item30_.xml"/>
-  <include name="items/misc/item31_.xml"/>
-  <include name="items/misc/item32_.xml"/>
-  <include name="items/misc/item33_.xml"/>
-  <include name="items/misc/item34_.xml"/>
-  <include name="items/misc/item35_.xml"/>
+  <item id="35" attack-action="attack">
+    <sprite gender="male">equipment/weapons/polearm-blunt-male.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
+    <sprite gender="female">equipment/weapons/polearm-blunt-female.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
+  </item>
 </items>
