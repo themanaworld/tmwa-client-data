@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<effect>
+  <particle position-x="0" position-y="32" position-z="16">
+    <emitter>
+      <property name="position-x" min="0" max="16"/>
+      <property name="position-y" min="-24" max="-5"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="90"/>
+      <property name="power" min="0.1" max="0.3"/>
+      <property name="gravity" value="-0.04"/>
+      <animation imageset="graphics/particles/aniblaze.png|W:#BF0019,FF6715,FFE659" width="8" height="8">
+        <sequence start="0" end="14" delay="20"/>
+        <frame index="14" delay="1000"/>
+      </animation>
+      <property name="lifetime" min="25" max="35"/>
+      <property name="output" min="0" max="20"/>
+      <property name="fade-in" value="0"/>
+      <property name="fade-out" value="15"/>
+    </emitter>
+  </particle>
+</effect>
