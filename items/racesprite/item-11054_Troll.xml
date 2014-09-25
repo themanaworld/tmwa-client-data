@@ -1,6 +1,4 @@
 <?xml version="1.0"?>
-<!-- Note: When adding races with mob sprites:
-     ID = -1xxxx , xxxx = mob ID -->
 <items>
   <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
     <its:translateRule selector="//item/@name" translate="yes"/>
@@ -8,6 +6,7 @@
     <its:translateRule selector="//item/@effect" translate="yes"/>
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
-  <include name="items/racesprite/item-100_Human.xml"/>
-  <include name="items/racesprite/item-11054_Troll.xml"/>
+  <item id="-11054" type="racesprite" name="Troll">
+    <sprite>monsters/troll-race.xml|#FFDEC2;#FF4D4D;#FF99FF;#FFC88A</sprite>
+  </item>
 </items>
