@@ -76,4 +76,22 @@
       <end/>
     </animation>
   </action>
+  <action name="attack" imageset="polearm-blunt">
+    <animation direction="down">
+      <sequence offsetY="32" start="9" end="12" delay="100"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <sequence offsetY="32" start="27" end="30" delay="100"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <sequence offsetY="32" start="45" end="48" delay="100"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <sequence offsetY="32" start="63" end="66" delay="100"/>
+      <end/>
+    </animation>
+  </action>
 </sprite>
