@@ -8,5 +8,17 @@
   </its:rules>
   <item id="1197" image="equipment/charms/skeletoncharm.png" name="Jack's Skeleton Charm" description="A mysterious charm said to only work at a special time of year" type="equip-charm" weight="10" sellProtected="true" drawBefore="boots">
     <sprite>monsters/skeleton.xml</sprite>
+    <replace sprite="race">
+      <item from="-100"/>
+      <item from="-101"/>
+      <item from="-102"/>
+      <item from="-103"/>
+      <item from="-104"/>
+      <item from="-105"/>
+      <item from="-106"/>
+      <item from="-107"/>
+      <item from="-108"/>
+      <item from="-109"/>
+    </replace>
   </item>
 </items>
