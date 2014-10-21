@@ -6,7 +6,7 @@
     <its:translateRule selector="//item/@effect" translate="yes"/>
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
-  <include name="items/racesprite/item-100_Human.xml"/>
-  <include name="items/racesprite/item-109_Skeleton.xml"/>
-  <include name="items/racesprite/item-110_Troll.xml"/>
+  <item id="-109" type="racesprite" name="Skeleton">
+    <sprite>monsters/skeleton.xml</sprite>
+  </item>
 </items>
