@@ -6,8 +6,8 @@
     <its:translateRule selector="//item/@effect" translate="yes"/>
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
-  <include name="items/racesprite/item-100_Deprecated.xml"/>
-  <include name="items/racesprite/item-101_Talponian.xml"/>
-  <include name="items/racesprite/item-198_Skeleton.xml"/>
-  <include name="items/racesprite/item-199_Troll.xml"/>
+  <item id="-101" type="racesprite" name="Talponian">
+    <sprite gender="male">model/male.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+    <sprite gender="female">model/female.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+  </item>
 </items>
