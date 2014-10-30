@@ -520,14 +520,6 @@
     <property name="dest_tile_y" value="104"/>
    </properties>
   </object>
-  <object name="CloverPatch" type="spawn" x="0" y="0">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="35"/>
-   </properties>
-  </object>
   <object name="To Woodland Swamp" type="warp" x="640" y="1664" width="32" height="96">
    <properties>
     <property name="dest_map" value="025-1"/>
@@ -565,38 +557,6 @@
     <property name="eA_spawn" value="0"/>
     <property name="max_beings" value="15"/>
     <property name="monster_id" value="1"/>
-   </properties>
-  </object>
-  <object name="MauvePlant" type="spawn" x="0" y="0">
-   <properties>
-    <property name="eA_death" value="0"/>
-    <property name="eA_spawn" value="0"/>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="27"/>
-   </properties>
-  </object>
-  <object name="MauvePlant" type="spawn" x="0" y="0">
-   <properties>
-    <property name="eA_death" value="180000"/>
-    <property name="eA_spawn" value="270000"/>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="27"/>
-   </properties>
-  </object>
-  <object name="CobaltPlant" type="spawn" x="0" y="0">
-   <properties>
-    <property name="eA_death" value="0"/>
-    <property name="eA_spawn" value="0"/>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="28"/>
-   </properties>
-  </object>
-  <object name="MauvePlant" type="spawn" x="0" y="0">
-   <properties>
-    <property name="eA_death" value="180000"/>
-    <property name="eA_spawn" value="270000"/>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="27"/>
    </properties>
   </object>
   <object name="Silkworm" type="spawn" x="0" y="0">
