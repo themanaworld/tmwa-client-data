@@ -667,33 +667,11 @@
     <property name="dest_tile_y" value="21"/>
    </properties>
   </object>
-  <object name="CloverPatch" type="spawn" x="0" y="0">
-   <properties>
-    <property name="eA_death" value="1000"/>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="35"/>
-   </properties>
-  </object>
-  <object name="CloverPatch" type="spawn" x="3136" y="960" width="96" height="64">
-   <properties>
-    <property name="eA_death" value="50000"/>
-    <property name="eA_spawn" value="150000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="35"/>
-   </properties>
-  </object>
   <object name="To Theater" type="warp" x="1376" y="1024" width="32" height="32">
    <properties>
     <property name="dest_map" value="017-2"/>
     <property name="dest_tile_x" value="26"/>
     <property name="dest_tile_y" value="30"/>
-   </properties>
-  </object>
-  <object name="GambogePlant" type="spawn" x="640" y="736" width="640" height="416">
-   <properties>
-    <property name="eA_death" value="25000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="1031"/>
    </properties>
   </object>
   <object name="LogHead" type="spawn" x="1696" y="672" width="2464" height="288">
@@ -792,38 +770,6 @@
     <property name="eA_spawn" value="0"/>
     <property name="max_beings" value="10"/>
     <property name="monster_id" value="11"/>
-   </properties>
-  </object>
-  <object name="AlizarinPlant" type="spawn" x="0" y="0">
-   <properties>
-    <property name="eA_death" value="0"/>
-    <property name="eA_spawn" value="0"/>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="30"/>
-   </properties>
-  </object>
-  <object name="GambogePlant" type="spawn" x="0" y="0">
-   <properties>
-    <property name="eA_death" value="0"/>
-    <property name="eA_spawn" value="0"/>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="29"/>
-   </properties>
-  </object>
-  <object name="CobaltPlant" type="spawn" x="0" y="0">
-   <properties>
-    <property name="eA_death" value="0"/>
-    <property name="eA_spawn" value="0"/>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="28"/>
-   </properties>
-  </object>
-  <object name="MauvePlant" type="spawn" x="0" y="0">
-   <properties>
-    <property name="eA_death" value="0"/>
-    <property name="eA_spawn" value="0"/>
-    <property name="max_beings" value="5"/>
-    <property name="monster_id" value="27"/>
    </properties>
   </object>
   <object name="Silkworm" type="spawn" x="0" y="0">

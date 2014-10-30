@@ -986,14 +986,6 @@
     <property name="monster_id" value="15"/>
    </properties>
   </object>
-  <object name="CloverPatch" type="spawn" x="5120" y="1440" width="448" height="320">
-   <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="35"/>
-   </properties>
-  </object>
   <object name="Silkworm" type="spawn" x="3488" y="1952" width="192" height="96">
    <properties>
     <property name="eA_death" value="30000"/>
@@ -1016,14 +1008,6 @@
     <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="6"/>
-   </properties>
-  </object>
-  <object name="CobaltPlant" type="spawn" x="3168" y="1568" width="512" height="224">
-   <properties>
-    <property name="eA_death" value="120000"/>
-    <property name="eA_spawn" value="240000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="28"/>
    </properties>
   </object>
   <object name="RedSlime" type="spawn" x="1920" y="1664" width="1216" height="224">
@@ -1059,13 +1043,6 @@
    </properties>
   </object>
   <object name="graphics/particles/waterfall-1x3.particle.xml" type="particle_effect" x="3468" y="1290"/>
-  <object name="CloverPatch" type="spawn" x="0" y="0">
-   <properties>
-    <property name="eA_death" value="1000"/>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="35"/>
-   </properties>
-  </object>
   <object name="Butterfly" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_death" value="20"/>
