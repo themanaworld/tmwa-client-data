@@ -6,10 +6,8 @@
     <its:translateRule selector="//item/@effect" translate="yes"/>
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
-  <item id="-5" type="hairsprite" name="Mohawk">
-    <sprite gender="male" race="3">hairstyles/hairstyle24-male.xml</sprite>
-    <sprite gender="female" race="3">hairstyles/hairstyle24-female.xml</sprite>
-    <sprite gender="male">hairstyles/hairstyle05-male.xml</sprite>
-    <sprite gender="female">hairstyles/hairstyle05-female.xml</sprite>
+  <item id="-102" type="racesprite" name="Tritan">
+    <sprite gender="male">model/Tritan_male.xml|#166876,32992e,23a988,70cd87,a7f1b2;#0e0036,4c264b,a04f62,d2a391,e6d7b8;#3a3a3a,d5d5d5</sprite>
+    <sprite gender="female">model/Tritan_female.xml|#166876,32992e,23a988,70cd87,a7f1b2;#0e0036,4c264b,a04f62,d2a391,e6d7b8;#3a3a3a,d5d5d5</sprite>
   </item>
 </items>
