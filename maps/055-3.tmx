@@ -779,7 +779,7 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup name="Objects" visible="0">
+ <objectgroup name="Objects" width="0" height="0" visible="0">
   <object name="To Woodland Hills" type="warp" x="2432" y="1280" width="64" height="32">
    <properties>
     <property name="dest_map" value="055-1"/>
@@ -836,7 +836,7 @@
    <properties>
     <property name="eA_death" value="60000"/>
     <property name="eA_spawn" value="10000"/>
-    <property name="max_beings" value="13"/>
+    <property name="max_beings" value="10"/>
     <property name="monster_id" value="6"/>
    </properties>
   </object>
@@ -852,7 +852,7 @@
    <properties>
     <property name="eA_death" value="60000"/>
     <property name="eA_spawn" value="10000"/>
-    <property name="max_beings" value="13"/>
+    <property name="max_beings" value="10"/>
     <property name="monster_id" value="5"/>
    </properties>
   </object>
@@ -860,7 +860,7 @@
    <properties>
     <property name="eA_death" value="35000"/>
     <property name="eA_spawn" value="10000"/>
-    <property name="max_beings" value="10"/>
+    <property name="max_beings" value="8"/>
     <property name="monster_id" value="7"/>
    </properties>
   </object>
@@ -868,7 +868,7 @@
    <properties>
     <property name="eA_death" value="35000"/>
     <property name="eA_spawn" value="10000"/>
-    <property name="max_beings" value="10"/>
+    <property name="max_beings" value="8"/>
     <property name="monster_id" value="10"/>
    </properties>
   </object>
@@ -878,6 +878,22 @@
     <property name="eA_spawn" value="10000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="8"/>
+   </properties>
+  </object>
+  <object name="Spider" type="spawn" x="1248" y="1120" width="480" height="608">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="50000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="10"/>
+   </properties>
+  </object>
+  <object name="BlackScorpion" type="spawn" x="1088" y="2144" width="1184" height="768">
+   <properties>
+    <property name="eA_death" value="100000"/>
+    <property name="eA_spawn" value="50000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="7"/>
    </properties>
   </object>
  </objectgroup>
