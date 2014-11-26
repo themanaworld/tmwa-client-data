@@ -6,7 +6,7 @@
     <its:translateRule selector="//item/@effect" translate="yes"/>
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
-  <item id="5129" image="equipment/head/underworld-mask.png" name="Underworld Mask" description="Surely, you don't think I jest." effect="M. Attack -40 / Attack Range +1 / 0 Int" type="equip-head" defense="9" weight="100">
+  <item id="5129" image="equipment/head/underworld-mask.png" name="Underworld Mask" description="Surely, you don't think I jest." effect="Agility +1 / Requires Level 80 / Agility +3, Dexterity +1 and Luck +1 in Crypt and Graveyard." type="equip-head" defense="3" weight="100" sellProtected="true">
     <sprite gender="male">equipment/head/underworld-mask-male.xml</sprite>
     <sprite gender="female">equipment/head/underworld-mask-female.xml</sprite>
     <replace sprite="hair">
