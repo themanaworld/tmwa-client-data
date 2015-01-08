@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="142" height="132" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="142" height="132" tilewidth="32" tileheight="32" nextobjectid="7">
  <properties>
   <property name="music" value="snow-village.ogg"/>
   <property name="name" value="Snow Cave"/>
@@ -687,21 +687,21 @@
 </data>
  </layer>
  <objectgroup name="Objects">
-  <object name="To Snow Field" type="warp" x="1280" y="3264" width="32" height="32">
+  <object id="1" name="To Snow Field" type="warp" x="1280" y="3264" width="32" height="32">
    <properties>
     <property name="dest_map" value="019-1"/>
     <property name="dest_tile_x" value="37"/>
     <property name="dest_tile_y" value="74"/>
    </properties>
   </object>
-  <object name="To Snow Field" type="warp" x="3136" y="928" width="32" height="32">
+  <object id="2" name="To Snow Field" type="warp" x="3136" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="019-1"/>
     <property name="dest_tile_x" value="96"/>
     <property name="dest_tile_y" value="39"/>
    </properties>
   </object>
-  <object name="Moggun" type="spawn" x="0" y="128">
+  <object id="3" name="Moggun" type="spawn" x="0" y="128">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -709,7 +709,7 @@
     <property name="monster_id" value="59"/>
    </properties>
   </object>
-  <object name="Bat" type="spawn" x="0" y="128">
+  <object id="4" name="Bat" type="spawn" x="0" y="128">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -717,14 +717,7 @@
     <property name="monster_id" value="15"/>
    </properties>
   </object>
-  <object name="To Deeper Snow Cave" type="warp" x="1792" y="1568" width="64" height="32">
-   <properties>
-    <property name="dest_map" value="019-4"/>
-    <property name="dest_tile_x" value="70"/>
-    <property name="dest_tile_y" value="25"/>
-   </properties>
-  </object>
-  <object name="To Frozen Lake" type="warp" x="2560" y="3296" width="32" height="32">
+  <object id="6" name="To Frozen Lake" type="warp" x="2560" y="3296" width="32" height="32">
    <properties>
     <property name="dest_map" value="030-3"/>
     <property name="dest_tile_x" value="54"/>
