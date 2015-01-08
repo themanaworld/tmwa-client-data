@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="178" height="128" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="178" height="128" tilewidth="32" tileheight="32" nextobjectid="22">
  <properties>
   <property name="Name" value="Frosty Underground"/>
   <property name="music" value="explorers-melody.ogg"/>
@@ -534,50 +534,50 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup name="Objects" visible="0">
-  <object name="To Outside" type="warp" x="4448" y="608" width="32" height="32">
+ <objectgroup name="Objects">
+  <object id="1" name="To Outside" type="warp" x="4448" y="608" width="32" height="32">
    <properties>
     <property name="dest_map" value="046-1"/>
     <property name="dest_tile_x" value="139"/>
-    <property name="dest_tile_y" value="20"/>
+    <property name="dest_tile_y" value="27"/>
    </properties>
   </object>
-  <object name="To Outside" type="warp" x="2496" y="960" width="32" height="32">
+  <object id="2" name="To Outside" type="warp" x="2496" y="960" width="32" height="32">
    <properties>
     <property name="dest_map" value="046-1"/>
     <property name="dest_tile_x" value="78"/>
-    <property name="dest_tile_y" value="31"/>
+    <property name="dest_tile_y" value="38"/>
    </properties>
   </object>
-  <object name="To Outside" type="warp" x="2656" y="1376" width="32" height="32">
+  <object id="3" name="To Outside" type="warp" x="2656" y="1376" width="32" height="32">
    <properties>
     <property name="dest_map" value="046-1"/>
     <property name="dest_tile_x" value="83"/>
-    <property name="dest_tile_y" value="44"/>
+    <property name="dest_tile_y" value="51"/>
    </properties>
   </object>
-  <object name="To Outside" type="warp" x="4192" y="1536" width="32" height="32">
-   <properties>
-    <property name="dest_map" value="046-1"/>
-    <property name="dest_tile_x" value="131"/>
-    <property name="dest_tile_y" value="49"/>
-   </properties>
-  </object>
-  <object name="To Outside" type="warp" x="4192" y="1760" width="32" height="32">
+  <object id="4" name="To Outside" type="warp" x="4192" y="1536" width="32" height="32">
    <properties>
     <property name="dest_map" value="046-1"/>
     <property name="dest_tile_x" value="131"/>
     <property name="dest_tile_y" value="56"/>
    </properties>
   </object>
-  <object name="To Outside" type="warp" x="3968" y="3488" width="32" height="32">
+  <object id="5" name="To Outside" type="warp" x="4192" y="1760" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="046-1"/>
+    <property name="dest_tile_x" value="131"/>
+    <property name="dest_tile_y" value="63"/>
+   </properties>
+  </object>
+  <object id="6" name="To Outside" type="warp" x="3968" y="3488" width="32" height="32">
    <properties>
     <property name="dest_map" value="046-1"/>
     <property name="dest_tile_x" value="124"/>
-    <property name="dest_tile_y" value="110"/>
+    <property name="dest_tile_y" value="117"/>
    </properties>
   </object>
-  <object name="Yeti" type="spawn" x="1984" y="3104" width="416" height="288">
+  <object id="7" name="Yeti" type="spawn" x="1984" y="3104" width="416" height="288">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -585,7 +585,7 @@
     <property name="monster_id" value="70"/>
    </properties>
   </object>
-  <object name="IceGoblin" type="spawn" x="0" y="0">
+  <object id="8" name="IceGoblin" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -593,7 +593,7 @@
     <property name="monster_id" value="56"/>
    </properties>
   </object>
-  <object name="Moggun" type="spawn" x="1376" y="1536" width="832" height="864">
+  <object id="9" name="Moggun" type="spawn" x="1376" y="1536" width="832" height="864">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -601,7 +601,7 @@
     <property name="monster_id" value="59"/>
    </properties>
   </object>
-  <object name="IceElement" type="spawn" x="3744" y="3264" width="192" height="160">
+  <object id="10" name="IceElement" type="spawn" x="3744" y="3264" width="192" height="160">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -609,7 +609,7 @@
     <property name="monster_id" value="69"/>
    </properties>
   </object>
-  <object name="WhiteSlime" type="spawn" x="4096" y="2176" width="320" height="256">
+  <object id="11" name="WhiteSlime" type="spawn" x="4096" y="2176" width="320" height="256">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -617,7 +617,7 @@
     <property name="monster_id" value="91"/>
    </properties>
   </object>
-  <object name="BlueSlime" type="spawn" x="3200" y="2592" width="480" height="320">
+  <object id="12" name="BlueSlime" type="spawn" x="3200" y="2592" width="480" height="320">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -625,7 +625,7 @@
     <property name="monster_id" value="89"/>
    </properties>
   </object>
-  <object name="WhiteSlime" type="spawn" x="3040" y="2400" width="224" height="160">
+  <object id="13" name="WhiteSlime" type="spawn" x="3040" y="2400" width="224" height="160">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -633,7 +633,7 @@
     <property name="monster_id" value="91"/>
    </properties>
   </object>
-  <object name="WhiteSlime" type="spawn" x="2144" y="2560" width="224" height="160">
+  <object id="14" name="WhiteSlime" type="spawn" x="2144" y="2560" width="224" height="160">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -641,7 +641,7 @@
     <property name="monster_id" value="91"/>
    </properties>
   </object>
-  <object name="WhiteSlime" type="spawn" x="3296" y="1024" width="224" height="160">
+  <object id="15" name="WhiteSlime" type="spawn" x="3296" y="1024" width="224" height="160">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -649,7 +649,7 @@
     <property name="monster_id" value="91"/>
    </properties>
   </object>
-  <object name="WhiteSlime" type="spawn" x="960" y="1120" width="224" height="160">
+  <object id="16" name="WhiteSlime" type="spawn" x="960" y="1120" width="224" height="160">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -657,7 +657,7 @@
     <property name="monster_id" value="91"/>
    </properties>
   </object>
-  <object name="BlueSlime" type="spawn" x="4384" y="3232" width="480" height="320">
+  <object id="17" name="BlueSlime" type="spawn" x="4384" y="3232" width="480" height="320">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -665,7 +665,7 @@
     <property name="monster_id" value="89"/>
    </properties>
   </object>
-  <object name="BlueSlime" type="spawn" x="4640" y="1632" width="480" height="320">
+  <object id="18" name="BlueSlime" type="spawn" x="4640" y="1632" width="480" height="320">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -673,7 +673,7 @@
     <property name="monster_id" value="89"/>
    </properties>
   </object>
-  <object name="BlueSlime" type="spawn" x="2464" y="1568" width="480" height="320">
+  <object id="19" name="BlueSlime" type="spawn" x="2464" y="1568" width="480" height="320">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -681,7 +681,7 @@
     <property name="monster_id" value="89"/>
    </properties>
   </object>
-  <object name="IceElement" type="spawn" x="1280" y="576" width="512" height="352">
+  <object id="20" name="IceElement" type="spawn" x="1280" y="576" width="512" height="352">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -689,7 +689,7 @@
     <property name="monster_id" value="69"/>
    </properties>
   </object>
-  <object name="Yeti" type="spawn" x="3424" y="1408" width="416" height="288">
+  <object id="21" name="Yeti" type="spawn" x="3424" y="1408" width="416" height="288">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
