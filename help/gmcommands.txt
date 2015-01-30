@@ -1,0 +1,123 @@
+ <- @@index|<<Back to Index>>@@
+
+
+##3                            <<GM commands>>
+
+
+##9<<0: normal players>>
+##2
+    <<@help all - displays the gm level required for gm commands.>>
+    <<@servertime - displays the server time.>>
+    <<@source - displays the version number, last commit and the github repo url.>>
+    <<@wgm <message> - send a message to all connected GMs.>>
+    <<@email <email> - changes the e-mail address associated with your account.>>
+
+##9<<40: developers>>
+##2
+    <<@hairstyle <style-id> - changes your hairstyle.>>
+    <<@haircolor <color-id> - changes your hair color.>>
+    <<@itemreset - deletes all of your items.>>
+    <<@broadcast <message> - sends a global announcement on all maps.>>
+    <<@localbroadcast <message> - sends a global announcement on the map you are on.>>
+    <<@die - kills your character.>>
+    <<@goto <player> - warps yourself to the specified player.>>
+    <<@charstats <player> - show a bunch of stats about a single user.>>
+    <<@heal [hp] [sp] - restore or destroy your health.>>
+    <<@return, @load - return to your respawn point.>>
+    <<@save - set your respawn point to your current location.>>
+    <<@sp-info <player> - displays level of "focus" skills.>>
+    <<@t <message>, @tee <message> - write a message to the log and public chat.>>
+    <<@l <messate>, @log <message> - write a message to the log.>>
+    <<@warp <map> [x] [y] - warp to the specified map.>>
+    <<@jump [x] [y] - warp to another location on the same map.>>
+    <<@where [player] - displays the location of the specified player or yourself.>>
+    <<@who [subsequence] - list matching players online, with location info.>>
+    <<@whogm [subsequence] - list matching GM players, with location, level, and party info.>>
+    <<@whogroup [subsequence] - list matching players online, with party info.>>
+    <<@whomap [map] - list all players on the map, with location info.>>
+    <<@whomapgroup [map] - list all players on the map, with party info.>>
+    <<@hide - makes you invisible to monsters and unable to attack.>>
+
+##9<<50: event coordinators>>
+##2
+    <<@spawn <mob> [amount] [x] [y] - spawn normal monsters at location.>>
+    <<@summon <mob> - summon a slave monster temporarily.>>
+    <<@invisible - makes you invisible to players with a GM level below your GM level.>>
+    <<@visible - makes you visible to all players.>>
+
+##9<<60: game masters>>
+##2
+    <<@charstatsall - show stats of all characters online.>>
+    <<@pvpon, @pvpoff - enable or disable pvp on the map you are on.>>
+    <<@speed <rate> - sets the speed at which you walk/attack, default is 150.>>
+    <<@killmonster [map] - kills all monsters on the map.>>
+    <<@killmonster2 [map] - kills all monsters on the map without drops.>>
+    <<@gat - dump the local walkmap.>>
+    <<@ipcheck <player> - list online players on the same IP address.>>
+    <<@storeall - stores all of your items.>>
+    <<@killable - allows other players to kill you, resets when you equip/unequip.>>
+    <<@killer - allows you to kill anyone, resets when you equip/unequip.>>
+    <<@charkillable <player> - makes another player killable.>>
+    <<@charkiller <player> - makes another player able to kill anyone.>>
+    <<@alive - resurrects yourself, at 100% hp and mp.>>
+    <<@blvl <delta> - raises or decreases your level.>>
+    <<@jlvl <delta> - raises or decreases your job level.>>
+    <<@charbaselvl <delta> <player> - raises or decreased the level of another player.>>
+    <<@charjlvl <delta> <player> - raises or decreased the job level of another player.>>
+    <<@charchangesex <player> - changes the sex of another player.>>
+    <<@charstpoint <amount> <player> - adjust the stat points or another player.>>
+    <<@charskpoint <amount> <player> - adjust the skill points or another player.>>
+    <<@charreset <player> - reset the stats of another player.>>
+    <<@charwipe <player> - resets a character back to when it was first created.>>
+    <<@charsave <map> <x> <y> <player> - saves the respawn point of another player.>>
+    <<@kill <player> - kills another player.>>
+    <<@recall <player> - warps another player to you.>>
+    <<@revive <player> - revive another player.>>
+    <<@charwarp <map> <x> <y> <player> - warps another player to another map.>>
+    <<@str <delta> - changes status of your character.>>
+    <<@agi <delta> - changes status of your character.>>
+    <<@dex <delta> - changes status of your character.>>
+    <<@vit <delta> - changes status of your character.>>
+    <<@int <delta> - changes status of your character.>>
+    <<@lux <delta> - changes status of your character.>>
+    <<@allstats [value] - adjust all stats to value (or maximum).>>
+    <<@stpoint <amount> - increase your stat points.>>
+    <<@skpoint <amount> - increase your skill points.>>
+    <<@kick <player> - kick another player from the server.>>
+    <<@block <player> - permaban another player.>>
+    <<@unblock <player> - unban another player.>>
+    <<@ban <time> <player> - ban another player for a limited time.>>
+    <<@unban <time> <player> - reduced or removed the ban.>>
+    <<@chardropall <player> - force a player to drop all of their items.>>
+    <<@charstoreall <player> - force a player to store all of their items.>>
+    <<@hugo, @linus - iterate over players forward or backward.>>
+
+##9<<80: greater dev>>
+##2
+    <<@setmagic <school> <value> <player> - set magic properties of another player.>>
+    <<@magicinfo <player> - get magic properties of another player.>>
+    <<@option <opt1> [opt2] [option] - set your 'option' status flags.>>
+    <<@ - .>>
+    <<@ - .>>
+    <<@ - .>>
+    <<@ - .>>
+    <<@ - .>>
+    <<@ - .>>
+    <<@ - .>>
+    <<@ - .>>
+    <<@ - .>>
+    <<@ - .>>
+    <<@ - .>>
+    <<@ - .>>
+    <<@ - .>>
+    <<@ - .>>
+    <<@ - .>>
+    <<@ - .>>
+    <<@ - .>>
+    <<@ - .>>
+    <<@ - .>>
+    <<@ - .>>
+    (got bored, will add the rest of the commands tomorrow)
+
+
+<- @@index|<<Back to Index>>@@
