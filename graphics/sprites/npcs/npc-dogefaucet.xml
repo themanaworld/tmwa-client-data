@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset name="base" src="graphics/sprites/npcs/npc-dogefaucet.png" width="42" height="63"/>
+  <action name="stand" imageset="base">
+    <animation direction="default">
+      <!-- eyes movements -->
+      <frame index="0" delay="1000"/>
+    </animation>
+  </action>
+</sprite>
