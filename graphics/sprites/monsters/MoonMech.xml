@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <sprite>
-  <imageset name="base" src="graphics/sprites/monsters/MoonMech.png" 
-	width="64" height="64"/>
+  <imageset name="base" src="graphics/sprites/monsters/MoonMech.png|W;R" width="64" height="64"/>
   <action name="stand" imageset="base">	
     <animation direction="up">
       <frame index="0" delay="275"/>
