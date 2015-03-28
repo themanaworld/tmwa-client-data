@@ -1116,15 +1116,15 @@
     <property name="sprite" value="114"/>
    </properties>
   </object>
-  <object id="42" name="Rosen" type="npc" x="3168" y="800" width="32" height="32">
+  <object id="42" name="Rosen" type="shop" x="3168" y="800" width="32" height="32">
    <properties>
-    <property name="shop" value="SlingShot:*1,SlingBullet:*1,ShortBow:*4,Arrow:*2,IronArrow:*1"/>
+    <property name="items" value="SlingShot,SlingBullet,ShortBow:*4,Arrow:*2,IronArrow"/>
     <property name="sprite" value="311"/>
    </properties>
   </object>
-  <object id="43" name="Toichi" type="npc" x="3584" y="768" width="32" height="32">
+  <object id="43" name="Toichi" type="shop" x="3584" y="768" width="32" height="32">
    <properties>
-    <property name="shop" value="Knife:*1,SharpKnife:*1,Dagger:*1,LeatherShirt:*1,LeatherShield:*1"/>
+    <property name="items" value="Knife,SharpKnife,Dagger,LeatherShirt,LeatherShield"/>
     <property name="sprite" value="377"/>
    </properties>
   </object>
