@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <var id="1">
+    <effect map="029-2.tmx" npc="154" value="0" effect="45"/>
+    <effect map="029-2.tmx" npc="154" value="1,2,3" effect="46"/>
+    <effect map="029-2.tmx" npc="114" value="4,5,6,7" effect="46"/>
+    <quest name="Tutorial" group="Candor Island" incomplete="1">
+      <name>Welcome</name>
+      <text>Walk to the carpet</text>
+      <text/>
+      <text>Quest giver: Sorfina.</text>
+      <text>Coordinates: Candor Island Indoor (27,27)</text>
+    </quest>
+    <quest name="Tutorial" group="Candor Island" incomplete="2">
+      <name>Welcome</name>
+      <text>Retrieve items from the Chest</text>
+      <text/>
+      <text>Quest giver: Sorfina.</text>
+      <text>Coordinates: Candor Island Indoor (27,27)</text>
+    </quest>
+    <quest name="Tutorial" group="Candor Island" incomplete="3">
+      <name>Welcome</name>
+      <text>Open inventory and equip clothes (###keyWindowEquipment;)</text>
+      <text/>
+      <text>Quest giver: Sorfina.</text>
+      <text>Coordinates: Candor Island Indoor (27,27)</text>
+    </quest>
+    <quest name="Tutorial" group="Candor Island" incomplete="4">
+      <name>Welcome</name>
+      <text>Find Tanisha</text>
+      <text/>
+      <text>Quest giver: Sorfina.</text>
+      <text>Coordinates: Candor Island Indoor (27,27)</text>
+    </quest>
+    <quest name="Tutorial" group="Candor Island" incomplete="5">
+      <name>Welcome</name>
+      <text>Help Tanisha kill maggots</text>
+      <text/>
+      <text>Quest giver: Tanisha.</text>
+      <text>Coordinates: Candor Island Indoor (100,88)</text>
+    </quest>
+    <quest name="Tutorial" group="Candor Island" incomplete="6">
+      <name>Welcome</name>
+      <text>Help Tanisha kill maggots</text>
+      <text/>
+      <text>Quest giver: Tanisha.</text>
+      <text>Coordinates: Candor Island Indoor (100,88)</text>
+    </quest>
+    <quest name="Tutorial" group="Candor Island" incomplete="7">
+      <name>Welcome</name>
+      <text>Get reward from Tanisha</text>
+      <text/>
+      <text>Quest giver: Tanisha.</text>
+      <text>Coordinates: Candor Island Indoor (100,88)</text>
+    </quest>
+    <quest name="Tutorial" group="Candor Island" complete="8">
+      <name>Welcome</name>
+      <text>Complete.</text>
+      <text/>
+      <text>Quest giver: Tanisha.</text>
+      <text>Coordinates: Candor Island Indoor (100,88)</text>
+    </quest>
+    <quest name="Bully" group="Candor Island" incomplete="9">
+      <name>Hasan</name>
+      <text>Some guy named Hasan is picking on people</text>
+    </quest>
+    <quest name="Bully" group="Candor Island" incomplete="10">
+      <name>Trick</name>
+      <text>Hasan needs to be taught a lesson</text>
+      <text>Talk to sorfina.</text>
+    </quest>
+    <quest name="Bully" group="Candor Island" incomplete="11">
+      <name>Trick known</name>
+      <text>Hasan is afraid of scorpions</text>
+    </quest>
+    <quest name="Bully" group="Candor Island" incomplete="12">
+      <name>Scorpion</name>
+      <text>Goto Hasan and have Kaan summon a scorpion</text>
+    </quest>
+    <quest name="Bully" group="Candor Island" incomplete="13">
+      <name>Saved Hasan</name>
+      <text>Killed the scorpion</text>
+    </quest>
+    <quest name="Bully" group="Candor Island" complete="14">
+      <name>Talk to Hasan</name>
+      <text>Hasan changed his ways</text>
+    </quest>
+  </var>
+  <var id="2">
+    <effect map="029-1.tmx" npc="156" value="0" effect="45"/>
+    <effect map="029-1.tmx" npc="156" value="1,2,3,4,5,6" effect="46"/>
+    <quest name="Valon" group="Candor Island" incomplete="1">
+      <name>By order of the Council</name>
+      <text>Wild life needs to be culled</text>
+    </quest>
+    <quest name="Valon" group="Candor Island" incomplete="2">
+      <name>Maggots</name>
+      <text>Kill 10 Maggots</text>
+    </quest>
+    <quest name="Valon" group="Candor Island" incomplete="3">
+      <name>House Maggots</name>
+      <text>Kill 5 House Maggots</text>
+    </quest>
+    <quest name="Valon" group="Candor Island" incomplete="4">
+      <name>Tame Scropion</name>
+      <text>Kill 3 Tame Scoprions</text>
+    </quest>
+    <quest name="Valon" group="Candor Island" incomplete="5">
+      <name>Scorpion</name>
+      <text>Kill 1 Scropion</text>
+    </quest>
+    <quest name="Valon" group="Candor Island" complete="6">
+      <name>Complete</name>
+      <text>Complete</text>
+    </quest>
+    <quest name="Valon" group="Candor Island" complete="7">
+      <name>Complete</name>
+      <text>Complete</text>
+    </quest>
+  </var>
+  <var id="3">
+    <effect map="029-2.tmx" npc="355" value="0" effect="45"/>
+    <effect map="029-2.tmx" npc="355" value="1,2,3,4,5,6" effect="46"/>
+    <quest name="Magic Wand" group="Candor Island" incomplete="1">
+      <name>MIT Admissions</name>
+      <text>Met Morgan</text>
+    </quest>
+    <quest name="Magic Wand" group="Candor Island" incomplete="2">
+      <name>Learn #confringo</name>
+      <text>Learn the spell to use the wand</text>
+    </quest>
+    <quest name="Magic Wand" group="Candor Island" incomplete="3">
+      <name>Talk to Morgan</name>
+      <text>Cast the spell and ready to talk to Morgan.</text>
+    </quest>
+    <quest name="Magic Wand" group="Candor Island" complete="4">
+      <name>Confringo Learned</name>
+      <text>You learned a new spell #confringo</text>
+    </quest>
+  </var>
+  <var id="4">
+    <effect map="029-1.tmx" npc="165" value="0" effect="45"/>
+    <effect map="029-1.tmx" npc="165" value="1,2,3" effect="46"/>
+    <quest name="Bug Bomb" group="Candor Island" incomplete="1">
+      <name>Met Zegas</name>
+      <text>Needs help.</text>
+    </quest>
+    <quest name="Bug Bomb" group="Candor Island" incomplete="2">
+      <name>Find the bomb</name>
+      <text>Find the bug bomb in one of the barrels</text>
+    </quest>
+    <quest name="Bug Bomb" group="Candor Island" incomplete="3">
+      <name>Found it</name>
+      <text>Found the bug bomb in the barrel</text>
+    </quest>
+    <quest name="Bug Bomb" group="Candor Island" complete="4">
+      <name>Complete.</name>
+      <text>Complete.</text>
+    </quest>
+  </var>
+  <var id="5">
+    <effect map="029-1.tmx" npc="113" value="0" effect="45"/>
+    <effect map="029-1.tmx" npc="113" value="1" effect="46"/>
+    <quest name="Bugman" group="Candor Island" incomplete="1">
+      <name>Bug Legs</name>
+      <text>Vincent needs bug legs</text>
+    </quest>
+    <quest name="Bugman" group="Candor Island" complete="2">
+      <name>Complete</name>
+      <text>Complete.</text>
+    </quest>
+  </var>
+  <var id="6">
+    <effect map="029-1.tmx" npc="258" value="0" effect="45"/>
+    <effect map="029-1.tmx" npc="258" value="1,11,13,15,17,19,21,23,25,27,29,3,31,33,35,37,39,41,43,45,47,49,5,51,53,55,57,59,61,7,9,63" effect="46"/>
+    <effect map="029-1.tmx" npc="262" value="1,5,9,17,33,13,21,37,25,41,49,29,45,53,57,61" effect="46"/>
+    <effect map="029-1.tmx" npc="260" value="1,3,9,17,33,11,19,35,25,41,49,27,43,51,57,59" effect="46"/>
+    <effect map="029-1.tmx" npc="259" value="1,3,5,17,33,7,21,37,19,35,49,23,39,53,51,55" effect="46"/>
+    <effect map="029-1.tmx" npc="263" value="1,3,5,9,33,7,13,37,11,35,41,15,39,45,43,47" effect="46"/>
+    <effect map="029-1.tmx" npc="265" value="1,3,5,9,17,7,13,21,11,19,25,15,23,29,27,31" effect="46"/>
+    <quest name="Hide-n-seek" group="Candor Island" incomplete="1,11,13,15,17,19,21,23,25,27,29,3,31,33,35,37,39,41,43,45,47,49,5,51,53,55,57,59,61,7,9">
+      <name>Hide n Seek</name>
+      <text>Find my Friends</text>
+    </quest>
+    <quest name="Hide-n-seek" group="Candor Island" incomplete="63">
+      <name>Hide n Seek</name>
+      <text>Found Everyone</text>
+    </quest>
+    <quest name="Hide-n-seek" group="Candor Island" complete="127">
+      <name>Hide n Seek</name>
+      <text>Complete</text>
+    </quest>
+  </var>
+</quests>
