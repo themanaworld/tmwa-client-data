@@ -42,13 +42,15 @@ Also, don't forget to add the '/' path separator at the end of folder values.
   <option name="minimaps" value="graphics/minimaps/"/>
   <option name="maps" value="maps/"/>
   <option name="sfx" value="sfx/"/>
-  <option name="newQuestSfx" value="system/levelup.ogg"/>
-  <option name="completeQuestSfx" value="system/levelup.ogg"/>
+  <!-- option name="newQuestSfx" value="system/levelup.ogg"/ -->
+  <!-- option name="completeQuestSfx" value="system/levelup.ogg"/ -->
   <option name="attackSfxFile" value="weapons/knives/knife-hit1.ogg"/>
   <option name="missSfxFile" value="fist-swish.ogg"/>
   <option name="music" value="music/"/>
   <option name="wallpapers" value="graphics/images/"/>
   <option name="wallpaperFile" value="login_wallpaper.png"/>
+  <option name="newQuestEffectId" value="47"/>
+  <option name="completeQuestEffectId" value="48"/>
   <!--
     ManaPlus tries to load skillsFile first, then skillsFile2 if it failed.
     In old versions, ea-skills.xml before skills.xml, now it is swapped.
