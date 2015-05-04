@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <var id="2">
+    <effect map="029-1.tmx" npc="156" value="0" effect="45"/>
+    <effect map="029-1.tmx" npc="156" value="1,2,3,4,5,6" effect="46"/>
+    <quest name="Valon" group="Candor Island" incomplete="1">
+      <name>By Order of the Council</name>
+      <text>The Council of Wizards has offered an incentive to those willing to help cull Candor's unruly wildlife population.</text>
+    </quest>
+    <quest name="Valon" group="Candor Island" incomplete="2">
+      <name>By Order of the Council: Maggots</name>
+      <text>The Council wants you to kill 10 Maggots.</text>
+    </quest>
+    <quest name="Valon" group="Candor Island" incomplete="3">
+      <name>By Order of the Council: House Maggots</name>
+      <text>The Council wants you to kill 5 House Maggots.</text>
+    </quest>
+    <quest name="Valon" group="Candor Island" incomplete="4">
+      <name>By Order of the Council: Tame Scorpion</name>
+      <text>The Council wants you to kill 3 Tame Scorpions.</text>
+    </quest>
+    <quest name="Valon" group="Candor Island" incomplete="5">
+      <name>By Order of the Council: Scorpion</name>
+      <text>The Council wants you to kill 1 Scorpion.</text>
+    </quest>
+    <quest name="Valon" group="Candor Island" complete="6">
+      <name>By Order of the Council</name>
+      <text>You finished killing all the monsters.</text>
+      <text>Go talk to Valon at (72,86) on Candor Island.</text>
+    </quest>
+    <quest name="Valon" group="Candor Island" complete="7">
+      <name>By Order of the Council</name>
+      <text>You filled your quota of monsters and completed the Council's request.</text>
+      <text>Other monsters that you kill will go towards your monster points, which Ishi will redeem at (47,97) on Candor Island.</text>
+    </quest>
+  </var>
+</quests>

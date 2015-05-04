@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <var id="1">
+    <!-- SORFINA -->
+    <effect map="029-2.tmx" npc="154" value="0" effect="45"/>
+    <effect map="029-2.tmx" npc="154" value="1,2,3" effect="46"/>
+    <quest name="Tutorial" group="Candor Island" incomplete="1">
+      <name>Introduction</name>
+      <text>Sorfina wants to ensure that you still possess basic motor skills. Walk over to the carpet to put her worries to rest.</text>
+      <text>The carpet is located at (33,27) in Candor Island Indoor.</text>
+    </quest>
+    <quest name="Tutorial" group="Candor Island" incomplete="2">
+      <name>Introduction</name>
+      <text>Sorfina remains skeptical and has instructed you to grab some clothes out of a nearby dresser.</text>
+      <text>The dresser is located at (29,24) in Candor Island Indoor.</text>
+    </quest>
+    <quest name="Tutorial" group="Candor Island" incomplete="3">
+      <name>Introduction</name>
+      <text>Sorfina wants to make sure that you can dress yourself. Open up your inventory and equip the clothes you took from the dresser.</text>
+      <text>You can equip items irregardless of your location, but you may prefer to change in the privacy of the corner at (26,23) in Candor Island Indoor.</text>
+    </quest>
+    <!-- TANISHA -->
+    <effect map="029-2.tmx" npc="114" value="4,5,6,7" effect="46"/>
+    <quest name="Tutorial" group="Candor Island" incomplete="4">
+      <name>Introduction</name>
+      <text>To repay your debt, Sorfina has requested that you assist her niece, Tanisha.</text>
+      <text>Tanisha is located at (110,88) in Candor Island Indoor.</text>
+    </quest>
+    <quest name="Tutorial" group="Candor Island" incomplete="5">
+      <name>Introduction</name>
+      <text>Tanisha, despite her job, is disgusted by maggots and wants you to squash them for her.</text>
+      <text>The maggots seem to be infesting near (102,88) in Candor Island Indoor.</text>
+    </quest>
+    <quest name="Tutorial" group="Candor Island" incomplete="6">
+      <name>Introduction</name>
+      <text>Tanisha has given you some useful equipment for squashing maggots. You'd better get to work!</text>
+      <text>The maggots seem to be infesting near (102,88) in Candor Island Indoor.</text>
+    </quest>
+    <quest name="Tutorial" group="Candor Island" incomplete="7">
+      <name>Introduction</name>
+      <text>You killed the maggots for Tanisha, so you should report back to her and see what she has to say.</text>
+      <text>Tanisha is located at (110,88) in Candor Island Indoor.</text>
+    </quest>
+    <quest name="Tutorial" group="Candor Island" complete="8">
+      <name>Introduction</name>
+      <text>You finished all the work that Sorfina and Tanisha had for you. They still seem happy to talk to you though.</text>
+      <text>Sorfina is located at (27,27) and Tanisha is located at (110,88) – both are in Candor Island Indoor.</text>
+    </quest>
+  </var>
+</quests>

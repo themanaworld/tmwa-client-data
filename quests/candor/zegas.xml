@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <var id="4">
+    <effect map="029-1.tmx" npc="165" value="0" effect="45"/>
+    <effect map="029-1.tmx" npc="165" value="1,2,3" effect="46"/>
+    <quest name="Bug Bomb" group="Candor Island" incomplete="1">
+      <name>Buggy</name>
+      <text>Zegas needs some help. As an aspiring adventure, you should see if you can assist her.</text>
+    </quest>
+    <quest name="Bug Bomb" group="Candor Island" incomplete="2">
+      <name>A what bomb?</name>
+      <text>Zegas has lost her bug bomb inside one of her storage barrels. Find it and set it off to kill the remaining bugs.</text>
+    </quest>
+    <quest name="Bug Bomb" group="Candor Island" incomplete="3">
+      <name>Bug Bomb Goes Boom</name>
+      <text>You found the bug bomb and killed the bugs! You should tell Zegas about it.</text>
+    </quest>
+    <quest name="Bug Bomb" group="Candor Island" complete="4">
+      <name>Buggy</name>
+      <text>You finished helping Zegas with her bug infestation.</text>
+    </quest>
+  </var>
+</quests>
