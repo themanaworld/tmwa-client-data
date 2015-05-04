@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//var/quest/@name" translate="yes"/>
+    <its:translateRule selector="//var/quest/name" translate="yes"/>
+    <its:translateRule selector="//var/quest/text" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <var id="8">
+    <effect map="031-1.tmx" npc="195" value="1,2,3" effect="46"/>
+    <effect map="031-2.tmx" npc="196" value="3" effect="45"/>
+    <effect map="031-4.tmx" npc="198" value="2" effect="45"/>
+    <effect map="031-4.tmx" npc="198" value="3" effect="46"/>
+    <quest name="Cindy" group="Kaizei" incomplete="1">
+      <name>c 1</name>
+      <text>learned about cindy</text>
+    </quest>
+    <quest name="Cindy" group="Kaizei" incomplete="2">
+      <name>c 2</name>
+      <text>rescued cindy and got boss points</text>
+    </quest>
+    <quest name="Cindy" group="Kaizei" incomplete="3">
+      <name>c 3</name>
+      <text>talked to cindy after rescuing her, got a reward</text>
+    </quest>
+    <quest name="Cindy" group="Kaizei" complete="4">
+      <name>c 4</name>
+      <text>talked to angela after talking to cindy, got a rock knife</text>
+    </quest>
+  </var>
+</quests>
