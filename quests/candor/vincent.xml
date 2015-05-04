@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//var/quest/@name" translate="yes"/>
+    <its:translateRule selector="//var/quest/name" translate="yes"/>
+    <its:translateRule selector="//var/quest/text" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <var id="5">
+    <effect map="029-1.tmx" npc="113" value="0" effect="45"/>
+    <effect map="029-1.tmx" npc="113" value="1" effect="46"/>
+    <quest name="Bugman" group="Candor Island" incomplete="1">
+      <name>The Adventures of Action Bug</name>
+      <text>Vincent needs you to bring him some bug legs so he can make an action figure.</text>
+    </quest>
+    <quest name="Bugman" group="Candor Island" complete="2">
+      <name>The Adventures of Action Bug</name>
+      <text>You got Vincent all the bug legs that he needed to make his action figure!</text>
+    </quest>
+  </var>
+</quests>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//var/quest/@name" translate="yes"/>
+    <its:translateRule selector="//var/quest/name" translate="yes"/>
+    <its:translateRule selector="//var/quest/text" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <var id="6">
+    <effect map="029-1.tmx" npc="258" value="0" effect="45"/>
+    <effect map="029-1.tmx" npc="258" value="1,11,13,15,17,19,21,23,25,27,29,3,31,33,35,37,39,41,43,45,47,49,5,51,53,55,57,59,61,7,9,63" effect="46"/>
+    <effect map="029-1.tmx" npc="262" value="1,5,9,17,33,13,21,37,25,41,49,29,45,53,57,61" effect="46"/>
+    <effect map="029-1.tmx" npc="260" value="1,3,9,17,33,11,19,35,25,41,49,27,43,51,57,59" effect="46"/>
+    <effect map="029-1.tmx" npc="259" value="1,3,5,17,33,7,21,37,19,35,49,23,39,53,51,55" effect="46"/>
+    <effect map="029-1.tmx" npc="263" value="1,3,5,9,33,7,13,37,11,35,41,15,39,45,43,47" effect="46"/>
+    <effect map="029-1.tmx" npc="265" value="1,3,5,9,17,7,13,21,11,19,25,15,23,29,27,31" effect="46"/>
+    <quest name="Hide-n-seek" group="Candor Island" incomplete="1,11,13,15,17,19,21,23,25,27,29,3,31,33,35,37,39,41,43,45,47,49,5,51,53,55,57,59,61,7,9">
+      <name>Hide and Seek</name>
+      <text>Ayasha has recruited you in a game of Hide and Seek! Find all five of her friends hidden around Candor Island.</text>
+    </quest>
+    <quest name="Hide-n-seek" group="Candor Island" incomplete="63">
+      <name>Hide and Seek</name>
+      <text>You found all of Ayasha's friends! You should go talk to Ayasha to let her know.</text>
+    </quest>
+    <quest name="Hide-n-seek" group="Candor Island" complete="127">
+      <name>Hide and Seek</name>
+      <text>You finished playing Hide and Seek with Ayasha and her friends.</text>
+    </quest>
+  </var>
+</quests>
