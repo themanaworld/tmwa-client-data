@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//var/quest/@name" translate="yes"/>
+    <its:translateRule selector="//var/quest/name" translate="yes"/>
+    <its:translateRule selector="//var/quest/text" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <var id="9">
+    <effect map="020-2.tmx" npc="191" value="0" effect="45"/>
+    <effect map="020-2.tmx" npc="191" value="1,3,5,7,9,11,15,17,19,23,31,33,35,39,47,63,65,67,71,79,95,127,129,131,135,143,159,191" effect="46"/>
+    <quest name="Baktar" group="Kaizei" incomplete="1,3,5,7,9,11,15,17,19,23,31,33,35,39,47,63,65,67,71,79,95,127,129,131,135,143,159,191">
+      <name>baktar</name>
+      <text>baktar wants you to bring him some desert items</text>
+    </quest>
+    <quest name="Baktar" group="Kaizei" complete="255">
+      <name>baktar</name>
+      <text>you got all of his items, completing the quest</text>
+    </quest>
+  </var>
+</quests>
