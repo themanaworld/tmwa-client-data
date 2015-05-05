@@ -7,13 +7,19 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <var id="8">
-    <effect map="031-1.tmx" npc="195" value="1,2,3" effect="46"/>
+    <effect map="031-1.tmx" npc="195" value="5" effect="45"/>
+    <effect map="031-1.tmx" npc="195" value="1,2,3,6" effect="46"/>
     <effect map="031-2.tmx" npc="196" value="3" effect="45"/>
     <effect map="031-4.tmx" npc="198" value="2" effect="45"/>
     <effect map="031-4.tmx" npc="198" value="3" effect="46"/>
+    <!-- state 5 does not show up in the quest log because it is only to display the icon above the npc -->
+    <quest name="Angela" group="Kaizei" incomplete="6">
+      <name>c 1</name>
+      <text>you learned about the mother, you should calm her down</text>
+    </quest>
     <quest name="Cindy" group="Kaizei" incomplete="1">
       <name>c 1</name>
-      <text>learned about cindy</text>
+      <text>you calmed the mother, got the quest to rescue cindy</text>
     </quest>
     <quest name="Cindy" group="Kaizei" incomplete="2">
       <name>c 2</name>
