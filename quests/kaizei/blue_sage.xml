@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//var/quest/@name" translate="yes"/>
+    <its:translateRule selector="//var/quest/name" translate="yes"/>
+    <its:translateRule selector="//var/quest/text" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <var id="10">
+    <quest name="Blue Sage" group="Kaizei" incomplete="1">
+      <name>b 1</name>
+      <text>need to task to oskari in favor of peetu</text>
+    </quest>
+    <quest name="Blue Sage" group="Kaizei" incomplete="2,5,8">
+      <name>b 2</name>
+      <text>talked to oskari, go see if someone saw anything unusual before the accident</text>
+    </quest>
+    <quest name="Blue Sage" group="Kaizei" incomplete="3,6,9,4,7">
+      <name>b 3</name>
+      <text>learned about the masked guy, go ask helpers about the guy</text>
+    </quest>
+    <quest name="Blue Sage" group="Kaizei" incomplete="10">
+      <name>b 4</name>
+      <text>you learned enough things, go talk to oskari</text>
+    </quest>
+    <quest name="Blue Sage" group="Kaizei" incomplete="11">
+      <name>b 5</name>
+      <text>oskari told you to go talk to peetu</text>
+    </quest>
+    <quest name="Blue Sage" group="Kaizei" complete="12">
+      <name>b 6</name>
+      <text>talked to peetu, got silk gloves</text>
+    </quest>
+  </var>
+</quests>
