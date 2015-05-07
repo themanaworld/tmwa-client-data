@@ -7,6 +7,19 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <var id="10">
+    <effect map="048-2.tmx" npc="110" value="13" effect="45"/>
+    <effect map="048-2.tmx" npc="110" value="2" effect="46"/>
+    <effect map="048-2.tmx" npc="130" value="13,14" effect="45"/>
+    <effect map="048-2.tmx" npc="130" value="2,3,4,11" effect="46"/>
+    <effect map="048-2.tmx" npc="134" value="1" effect="46"/>
+    <effect map="048-2.tmx" npc="134" value="10" effect="45"/>
+    <effect map="048-2.tmx" npc="365" value="3,4,5,6,7,8,9" effect="46"/>
+    <effect map="048-2.tmx" npc="363" value="3,4,5,6,7,8,9" effect="46"/>
+    <effect map="048-2.tmx" npc="366" value="3,4,5,6,7,8,9" effect="46"/>
+    <quest name="Blue Sage" group="Kaizei" incomplete="14">
+      <name>b 0</name>
+      <text>learned about the problem, should go investigate</text>
+    </quest>
     <quest name="Blue Sage" group="Kaizei" incomplete="1">
       <name>b 1</name>
       <text>need to task to oskari in favor of peetu</text>
