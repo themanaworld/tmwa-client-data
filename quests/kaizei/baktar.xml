@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//var/quest/@name" translate="yes"/>
+    <its:translateRule selector="//var/quest/name" translate="yes"/>
+    <its:translateRule selector="//var/quest/text" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <var id="9">
+    <effect map="020-2.tmx" npc="191" value="0" effect="45"/>
+    <effect map="020-2.tmx" npc="191" value="1,3,5,7,9,11,15,17,19,23,31,33,35,39,47,63,65,67,71,79,95,127,129,131,135,143,159,191" effect="46"/>
+    <quest name="Baktar" group="Kaizei" incomplete="1,3,5,7,9,11,15,17,19,23,31,33,35,39,47,63,65,67,71,79,95,127,129,131,135,143,159,191">
+      <name>Warm Nostalgia</name>
+      <text>Baktar wants you to bring him some items from Tulimshar to remind him of the great times he had living there.</text>
+      <text>Baktar can be located at (70,61) in Nivalis Indoor.</text>
+    </quest>
+    <quest name="Baktar" group="Kaizei" complete="255">
+      <name>Warm Nostalgia</name>
+      <text>You gave Baktar all the items he requested and helped him finish his collection.</text>
+    </quest>
+  </var>
+</quests>

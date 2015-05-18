@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//var/quest/@name" translate="yes"/>
+    <its:translateRule selector="//var/quest/name" translate="yes"/>
+    <its:translateRule selector="//var/quest/text" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <var id="8">
+    <effect map="031-1.tmx" npc="195" value="5" effect="45"/>
+    <effect map="031-1.tmx" npc="195" value="1,2,3,6" effect="46"/>
+    <effect map="031-2.tmx" npc="196" value="3" effect="45"/>
+    <effect map="031-4.tmx" npc="198" value="2" effect="45"/>
+    <effect map="031-4.tmx" npc="198" value="3" effect="46"/>
+    <!-- state 5 does not show up in the quest log because it is only to display the icon above the npc -->
+    <quest name="Angela" group="Kaizei" incomplete="6">
+      <name>A Mother's Fear</name>
+      <text>You met Angela outside an ominous cave, but she's in too much of a panic over her daughter's misfortune to tell you anything useful. Perhaps you could give her something to help her concentrate...</text>
+      <text>After you find something to calm her down, you can find Angela at (79,24) in the Nivalis Port area.</text>
+    </quest>
+    <quest name="Cindy" group="Kaizei" incomplete="1">
+      <name>The Power of Concentration</name>
+      <text>Angela has calmed down enough to tell you that Cindy has been kidnapped by Yetis! You might want to bring a few friends along to rescue her – yetis seem really tough!</text>
+      <text>Cindy can be found deep within the cavern at (42,42) in Cindy Cave.</text>
+    </quest>
+    <quest name="Cindy" group="Kaizei" incomplete="2">
+      <name>They're Finally Gone</name>
+      <text>You saved Cindy from the yetis – and managed to stay alive! You should talk to her and make sure that she's okay.</text>
+      <text>Cindy is located at (42,42) in Cindy Cave.</text>
+    </quest>
+    <quest name="Cindy" group="Kaizei" incomplete="3">
+      <name>A Welcome Gift</name>
+      <text>Cindy found something valuable in the cave and decided to give it to you! You should go talk to Angela and tell her what happened.</text>
+      <text>Cindy and Angela can be found at (27,26) in Angela's House.</text>
+    </quest>
+    <quest name="Cindy" group="Kaizei" complete="4">
+      <name>A Token of Gratitude</name>
+      <text>Angela, as a token of her gratitude, gave you a powerful rock knife.</text>
+      <text>You can help them retrieve presents from yetis or just stop by to say hello at (27,26) in Angela's House.</text>
+    </quest>
+  </var>
+</quests>
