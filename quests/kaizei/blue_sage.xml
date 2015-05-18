@@ -17,32 +17,37 @@
     <effect map="048-2.tmx" npc="363" value="3,4,5,6,7,8,9" effect="46"/>
     <effect map="048-2.tmx" npc="366" value="3,4,5,6,7,8,9" effect="46"/>
     <quest name="Blue Sage" group="Kaizei" incomplete="14">
-      <name>b 0</name>
-      <text>learned about the problem, should go investigate</text>
+      <name>Hungry For Knowledge</name>
+      <text>Elias told you about the mutant slime infestation and the destruction of the library, which he said was on the third floor. You may be able to learn more about the situation by asking around...</text>
     </quest>
     <quest name="Blue Sage" group="Kaizei" incomplete="1">
-      <name>b 1</name>
-      <text>need to task to oskari in favor of peetu</text>
+      <name>Misplaced Punishment</name>
+      <text>The distressed Peetu has asked you to talk to Chief Oskari on his behalf.</text>
+      <text>Chief Oskari can be found at (146,26) within the Blue Sages' Mansion.</text>
     </quest>
     <quest name="Blue Sage" group="Kaizei" incomplete="2,5,8">
-      <name>b 2</name>
-      <text>talked to oskari, go see if someone saw anything unusual before the accident</text>
+      <name>An Unbiased Investigation</name>
+      <text>You talked to Oskari, who has reassured you of Peetu's position and enlisted your help in discerning the actual turn of events.</text>
+      <text>In order to figure out what happened, you need to talk to more witnesses. Peetu might be a good place to start, but perhaps you should talk to someone more prominent...</text>
     </quest>
     <quest name="Blue Sage" group="Kaizei" incomplete="3,6,9,4,7">
-      <name>b 3</name>
-      <text>learned about the masked guy, go ask helpers about the guy</text>
+      <name>Masked Suspicion</name>
+      <text>After talking to Elias, you learned about a particularly suspicious character.</text>
+      <text>Maybe you should see if anyone else remembers the suspect...</text>
     </quest>
     <quest name="Blue Sage" group="Kaizei" incomplete="10">
-      <name>b 4</name>
-      <text>you learned enough things, go talk to oskari</text>
+      <name>The Masked Malefactor</name>
+      <text>You've heard a convincing testimony against the masked man; you should go tell Oskari what you found!</text>
+      <text>Chief Oskari can be found at (146,26) within the Blue Sages' Mansion.</text>
     </quest>
     <quest name="Blue Sage" group="Kaizei" incomplete="11">
-      <name>b 5</name>
-      <text>oskari told you to go talk to peetu</text>
+      <name>Charges Absolved</name>
+      <text>You should tell Peetu that Oskari knows about the true perpetrator – he'll certainly be relieved to hear it!</text>
+      <text>Peetu is located at (25,135) within the Blue Sages' Mansion.</text>
     </quest>
     <quest name="Blue Sage" group="Kaizei" complete="12">
-      <name>b 6</name>
-      <text>talked to peetu, got silk gloves</text>
+      <name>Mystery Solved</name>
+      <text>Peetu, thankful for your help, gave you a pair of Silk Gloves for clearing his name.</text>
     </quest>
   </var>
 </quests>
