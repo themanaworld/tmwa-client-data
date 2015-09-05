@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="159" height="158" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="159" height="158" tilewidth="32" tileheight="32" nextobjectid="15">
  <properties>
   <property name="music" value="mystique-forest.ogg"/>
   <property name="name" value="GM Island"/>
@@ -990,109 +990,13 @@
 </data>
  </layer>
  <objectgroup name="Objects">
-  <object name="SpikyMushroom" type="spawn" x="3456" y="2016" width="896" height="832">
-   <properties>
-    <property name="eA_death" value="15000"/>
-    <property name="eA_spawn" value="20000"/>
-    <property name="max_beings" value="18"/>
-    <property name="monster_id" value="17"/>
-   </properties>
-  </object>
-  <object name="Bat" type="Spawn" x="2464" y="2016" width="832" height="640">
-   <properties>
-    <property name="eA_death" value="10000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="18"/>
-    <property name="monster_id" value="15"/>
-   </properties>
-  </object>
-  <object name="Wisp" type="spawn" x="2400" y="640" width="1568" height="1056">
-   <properties>
-    <property name="eA_death" value="15000"/>
-    <property name="eA_spawn" value="200000"/>
-    <property name="max_beings" value="8"/>
-    <property name="monster_id" value="38"/>
-   </properties>
-  </object>
-  <object name="Spectre" type="spawn" x="2432" y="608" width="1504" height="1120">
-   <properties>
-    <property name="eA_death" value="15000"/>
-    <property name="eA_spawn" value="200000"/>
-    <property name="max_beings" value="8"/>
-    <property name="monster_id" value="40"/>
-   </properties>
-  </object>
-  <object name="Poltergeist" type="spawn" x="2464" y="576" width="1440" height="1184">
-   <properties>
-    <property name="eA_death" value="15000"/>
-    <property name="eA_spawn" value="200000"/>
-    <property name="max_beings" value="8"/>
-    <property name="monster_id" value="45"/>
-   </properties>
-  </object>
-  <object name="SeaSlime" type="spawn" x="704" y="2016" width="1248" height="320">
-   <properties>
-    <property name="eA_death" value="25000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="18"/>
-    <property name="monster_id" value="31"/>
-   </properties>
-  </object>
-  <object name="SeaSlime" type="spawn" x="1284" y="2336" width="736" height="352">
-   <properties>
-    <property name="eA_death" value="25000"/>
-    <property name="eA_spawn" value="100000"/>
-    <property name="max_beings" value="15"/>
-    <property name="monster_id" value="31"/>
-   </properties>
-  </object>
-  <object name="Squirrel" type="spawn" x="928" y="3328" width="32" height="32">
-   <properties>
-    <property name="eA_death" value="50000"/>
-    <property name="eA_spawn" value="300000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="36"/>
-   </properties>
-  </object>
-  <object name="Wisp" type="spawn" x="1248" y="2848" width="2304" height="608">
-   <properties>
-    <property name="eA_death" value="15000"/>
-    <property name="eA_spawn" value="200000"/>
-    <property name="max_beings" value="8"/>
-    <property name="monster_id" value="38"/>
-   </properties>
-  </object>
-  <object name="Spectre" type="spawn" x="1152" y="3040" width="3008" height="544">
-   <properties>
-    <property name="eA_death" value="15000"/>
-    <property name="eA_spawn" value="200000"/>
-    <property name="max_beings" value="8"/>
-    <property name="monster_id" value="40"/>
-   </properties>
-  </object>
-  <object name="Poltergeist" type="spawn" x="2560" y="3520" width="1984" height="480">
-   <properties>
-    <property name="eA_death" value="15000"/>
-    <property name="eA_spawn" value="200000"/>
-    <property name="max_beings" value="8"/>
-    <property name="monster_id" value="45"/>
-   </properties>
-  </object>
-  <object name="Fallen" type="spawn" x="1920" y="1440" width="32" height="32">
-   <properties>
-    <property name="eA_death" value="300000"/>
-    <property name="eA_spawn" value="700000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="43"/>
-   </properties>
-  </object>
-  <object name="To Easter Island Cave" type="warp" x="3840" y="4000" width="32" height="32">
+  <object id="13" name="To GM Island Cave" type="warp" x="3840" y="4000" width="32" height="32">
    <properties>
     <property name="dest_map" value="028-3"/>
     <property name="dest_tile_x" value="33"/>
     <property name="dest_tile_y" value="77"/>
    </properties>
   </object>
-  <object name="graphics/particles/warparea.particle.xml" type="particle_effect" x="3136" y="1184" width="32" height="32"/>
+  <object id="14" name="graphics/particles/warparea.particle.xml" type="particle_effect" x="3136" y="1184" width="32" height="32"/>
  </objectgroup>
 </map>

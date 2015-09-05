@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="7">
  <properties>
   <property name="music" value="night-is-calling.ogg"/>
   <property name="name" value="GM Island Cave"/>
@@ -425,41 +425,9 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup name="Objects" visible="0">
-  <object name="graphics/particles/waterfall-2x4.particle.xml" type="particle_effect" x="1824" y="1472"/>
-  <object name="Silkworm" type="spawn" x="1280" y="1344" width="736" height="512">
-   <properties>
-    <property name="eA_death" value="3000"/>
-    <property name="eA_spawn" value="30000"/>
-    <property name="max_beings" value="10"/>
-    <property name="monster_id" value="33"/>
-   </properties>
-  </object>
-  <object name="EvilMushroom" type="spawn" x="1376" y="1120" width="32" height="32">
-   <properties>
-    <property name="eA_death" value="5000"/>
-    <property name="eA_spawn" value="40000"/>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="11"/>
-   </properties>
-  </object>
-  <object name="EvilMushroom" type="spawn" x="864" y="992" width="32" height="32">
-   <properties>
-    <property name="eA_death" value="5000"/>
-    <property name="eA_spawn" value="40000"/>
-    <property name="max_beings" value="3"/>
-    <property name="monster_id" value="11"/>
-   </properties>
-  </object>
-  <object name="Bat" type="spawn" x="640" y="608" width="1984" height="1952">
-   <properties>
-    <property name="eA_death" value="10000"/>
-    <property name="eA_spawn" value="60000"/>
-    <property name="max_beings" value="10"/>
-    <property name="monster_id" value="15"/>
-   </properties>
-  </object>
-  <object name="To Easter Island" type="warp" x="1056" y="2496" width="32" height="32">
+ <objectgroup name="Objects">
+  <object id="1" name="graphics/particles/waterfall-2x4.particle.xml" type="particle_effect" x="1824" y="1472"/>
+  <object id="6" name="To GM Island" type="warp" x="1056" y="2496" width="32" height="32">
    <properties>
     <property name="dest_map" value="028-1"/>
     <property name="dest_tile_x" value="120"/>
