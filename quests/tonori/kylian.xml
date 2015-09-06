@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//var/quest/@name" translate="yes"/>
+    <its:translateRule selector="//var/quest/name" translate="yes"/>
+    <its:translateRule selector="//var/quest/text" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <var id="19">
+    <effect map="002-2.tmx" npc="193" value="0" effect="45"/>
+    <effect map="002-2.tmx" npc="193" value="2,8,9,15" effect="46"/>
+    <effect map="001-1.tmx" npc="213" value="1" effect="46"/>
+    <effect map="001-2.tmx" npc="107" value="3" effect="46"/>
+    <effect map="001-1.tmx" npc="103" value="4" effect="46"/>
+    <effect map="001-2.tmx" npc="117" value="5" effect="46"/>
+    <effect map="002-2.tmx" npc="106" value="7" effect="46"/>
+    <effect map="002-2.tmx" npc="191" value="10,11,12,14" effect="46"/>
+    <quest name="Kylian" group="Tonori" incomplete="1">
+      <name>Kylian</name>
+      <text>Get Kylian's Suitcase from the Dock</text>
+    </quest>
+    <quest name="Kylian" group="Tonori" incomplete="2">
+      <name>Kylian</name>
+      <text>Return Kylian's Suitcase from the Dock</text>
+    </quest>
+    <quest name="Kylian" group="Tonori" incomplete="3">
+      <name>Kylian</name>
+      <text>Find out who to talk to about a shop liscense</text>
+    </quest>
+    <quest name="Kylian" group="Tonori" incomplete="4">
+      <name>Kylian</name>
+      <text>Find some place for sight seeing in Tonori</text>
+    </quest>
+    <quest name="Kylian" group="Tonori" incomplete="5">
+      <name>Kylian</name>
+      <text>Find some good local eats</text>
+    </quest>
+    <quest name="Kylian" group="Tonori" incomplete="6">
+      <name>Kylian</name>
+      <text>Find some entertainment</text>
+    </quest>
+    <quest name="Kylian" group="Tonori" incomplete="7">
+      <name>Kylian</name>
+      <text>Find some place for nice clothing</text>
+    </quest>
+    <quest name="Kylian" group="Tonori" incomplete="8">
+      <name>Kylian</name>
+      <text>Return to Kylian later</text>
+    </quest>
+    <quest name="Kylian" group="Tonori" incomplete="9">
+      <name>Kylian</name>
+      <text>See if Kylian's shop is open yet</text>
+    </quest>
+    <quest name="Kylian" group="Tonori" incomplete="10">
+      <name>Kylian</name>
+      <text>Offered job working for Kylian</text>
+    </quest>
+    <quest name="Kylian" group="Tonori" incomplete="11">
+      <name>Kylian</name>
+      <text>Accepted job working for KPS</text>
+    </quest>
+    <quest name="Kylian" group="Tonori" incomplete="12">
+      <name>Kylian</name>
+      <text>Pick a delivery</text>
+    </quest>
+    <quest name="Kylian" group="Tonori" incomplete="13">
+      <name>Kylian</name>
+      <text>Deliver the package</text>
+    </quest>
+    <quest name="Kylian" group="Tonori" incomplete="14">
+      <name>Kylian</name>
+      <text>Return to KPS</text>
+    </quest>
+    <quest name="Kylian" group="Tonori" complete="15">
+      <name>Kylian</name>
+      <text>See Kylian</text>
+    </quest>
+  </var>
+</quests>

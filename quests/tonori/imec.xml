@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//var/quest/@name" translate="yes"/>
+    <its:translateRule selector="//var/quest/name" translate="yes"/>
+    <its:translateRule selector="//var/quest/text" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <var id="16">
+    <effect map="002-2.tmx" npc="162" value="0" effect="45"/>
+    <effect map="002-2.tmx" npc="162" value="1,2" effect="46"/>
+    <quest name="Imec's Stingers" group="Tonori" incomplete="1">
+      <name>Imec's Stingers</name>
+      <text>Take Imec's letter to government building</text>
+    </quest>
+    <quest name="Imec's Stingers" group="Tonori" incomplete="2">
+      <name>Imec's Stingers</name>
+      <text>Return government letter to Imec</text>
+    </quest>
+    <quest name="Imec's Stingers" group="Tonori" complete="3">
+      <name>Imec's Stingers</name>
+      <text>Complete</text>
+    </quest>
+  </var>
+</quests>

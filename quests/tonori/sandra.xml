@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//var/quest/@name" translate="yes"/>
+    <its:translateRule selector="//var/quest/name" translate="yes"/>
+    <its:translateRule selector="//var/quest/text" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <var id="13">
+    <effect map="001-2.tmx" npc="114" value="0" effect="45"/>
+    <effect map="001-2.tmx" npc="114" value="1" effect="46"/>
+    <quest name="Sandra" group="Tonori" incomplete="1">
+      <name>Sandra</name>
+      <text>Sandra needs 5 Scorpion Stingers</text>
+    </quest>
+    <quest name="Sandra" group="Tonori" complete="2">
+      <name>Sandra</name>
+      <text>Complete.</text>
+    </quest>
+  </var>
+</quests>

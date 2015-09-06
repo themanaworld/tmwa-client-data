@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//var/quest/@name" translate="yes"/>
+    <its:translateRule selector="//var/quest/name" translate="yes"/>
+    <its:translateRule selector="//var/quest/text" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <var id="18">
+    <effect map="002-1.tmx" npc="156" value="1,2,3,4,5,6,7,8,9,10,11,12,13,14" effect="46"/>
+    <effect map="001-1.tmx" npc="160" value="0" effect="45"/>
+    <effect map="001-1.tmx" npc="160" value="1,2,3,4,5,6,7,8,9,10,11" effect="46"/>
+    <effect map="001-1.tmx" npc="164" value="8,9,10,11,12,13,14" effect="46"/>
+    <quest name="Anwar" group="Tonori" incomplete="1">
+      <name>Anwar's Fields</name>
+      <text>Ask about fertilizer at MIT</text>
+    </quest>
+    <quest name="Anwar" group="Tonori" incomplete="2">
+      <name>Anwar's Fields</name>
+      <text>Get a Chocolate Cake for Tinris</text>
+    </quest>
+    <quest name="Anwar" group="Tonori" incomplete="3">
+      <name>Anwar's Fields</name>
+      <text>Bring Tinris 6 Maggot Slimes, 4 Bug Legs, 3 Scorpion Stingers and 1 Piles of Ash</text>
+    </quest>
+    <quest name="Anwar" group="Tonori" incomplete="4">
+      <name>Anwar's Fields</name>
+      <text>Take fertilizer to Anwar</text>
+    </quest>
+    <quest name="Anwar" group="Tonori" incomplete="5">
+      <name>Anwar's Fields</name>
+      <text>Fertilzer didn't help</text>
+    </quest>
+    <quest name="Anwar" group="Tonori" incomplete="6">
+      <name>Anwar's Fields</name>
+      <text>Bring Tinris 4 Maggot Slimes, 5 Bug Legs, 2 Scorpion Stingers, 2 Piles of Ash and 1 Cactus Potion</text>
+    </quest>
+    <quest name="Anwar" group="Tonori" incomplete="7">
+      <name>Anwar's Fields</name>
+      <text>Ask Eomie for help</text>
+    </quest>
+    <quest name="Anwar" group="Tonori" incomplete="8">
+      <name>Anwar's Fields</name>
+      <text>Eomie needs 5 Grass Seeds, 2 Bottles of Water and 2 Ice Cubes to cast spell on potion</text>
+    </quest>
+    <quest name="Anwar" group="Tonori" incomplete="9">
+      <name>Anwar's Fields</name>
+      <text>Take fertilizer to Anwar</text>
+    </quest>
+    <quest name="Anwar" group="Tonori" incomplete="10">
+      <name>Anwar's Fields</name>
+      <text>Anwar needs 3 pieces of Cotton Cloth and 30 Silk Cocoons for gifts</text>
+    </quest>
+    <quest name="Anwar" group="Tonori" incomplete="11">
+      <name>Anwar's Fields</name>
+      <text>Give Tinris Green V-Neck Sweater from Anwar</text>
+    </quest>
+    <quest name="Anwar" group="Tonori" incomplete="12">
+      <name>Anwar's Fields</name>
+      <text>Gave Tinris Green V-Neck Sweater from Anwar</text>
+    </quest>
+    <quest name="Anwar" group="Tonori" incomplete="13">
+      <name>Anwar's Fields</name>
+      <text>Bring Silk Headband to Eomie</text>
+    </quest>
+    <quest name="Anwar" group="Tonori" incomplete="14">
+      <name>Anwar's Fields</name>
+      <text>Brought Silk Headband to Eomie</text>
+    </quest>
+    <quest name="Anwar" group="Tonori" complete="15">
+      <name>Anwar's Fields</name>
+      <text>Complete</text>
+    </quest>
+  </var>
+</quests>
