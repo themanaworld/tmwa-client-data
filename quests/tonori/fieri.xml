@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//var/quest/@name" translate="yes"/>
+    <its:translateRule selector="//var/quest/name" translate="yes"/>
+    <its:translateRule selector="//var/quest/text" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <var id="15">
+    <effect map="001-2.tmx" npc="117" value="0" effect="45"/>
+    <effect map="001-2.tmx" npc="117" value="1,2,3" effect="46"/>
+    <quest name="Tonori Delight" group="Tonori" incomplete="1">
+      <name>Tonori Delight</name>
+      <text>Fieri needs beer</text>
+    </quest>
+    <quest name="Tonori Delight" group="Tonori" incomplete="2">
+      <name>Tonori Delight</name>
+      <text>Brought Fieri beer</text>
+    </quest>
+    <quest name="Tonori Delight" group="Tonori" incomplete="3">
+      <name>Tonori Delight</name>
+      <text>Fieri needs 3 Maggot Slimes</text>
+    </quest>
+    <quest name="Tonori Delight" group="Tonori" complete="4">
+      <name>Tonori Delight</name>
+      <text>Complete</text>
+    </quest>
+  </var>
+</quests>

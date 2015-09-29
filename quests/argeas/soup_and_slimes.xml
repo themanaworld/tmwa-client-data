@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//var/quest/@name" translate="yes"/>
+    <its:translateRule selector="//var/quest/name" translate="yes"/>
+    <its:translateRule selector="//var/quest/text" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <var id="11">
+    <effect map="009-2.tmx" npc="117" value="0,2" effect="45"/>
+    <effect map="009-2.tmx" npc="117" value="1,3" effect="46"/>
+    <quest name="Soup" group="Argeas" incomplete="1">
+      <name>Soup</name>
+      <text>Bernard needs a Roasted Maggot</text>
+    </quest>
+    <quest name="Soup" group="Argeas" complete="2">
+      <name>Soup</name>
+      <text>Brought Bernard Roasted Maggot</text>
+    </quest>
+    <quest name="Soup" group="Argeas" incomplete="3">
+      <name>Soup 2nd part</name>
+      <text>Bernard needs 3 Maggot Slimes</text>
+    </quest>
+    <quest name="Soup" group="Argeas" complete="4,5,6">
+      <name>Soup 2nd part</name>
+      <text>Brought Bernard 3 Maggot Slimes</text>
+    </quest>
+    <!-- Mikhail quest depends on Bernard quest but is not the same quest -->
+    <effect map="008-1.tmx" npc="120" value="4" effect="45"/>
+    <effect map="008-1.tmx" npc="120" value="5" effect="46"/>
+    <quest name="Slime" group="Argeas" incomplete="5">
+      <name>Sline</name>
+      <text>Bring Mikhail 5 Maggot Slimes</text>
+    </quest>
+    <quest name="Slime" group="Argeas" complete="6">
+      <name>Slime</name>
+      <text>Brought Mikhail 5 Maggot Slimes</text>
+    </quest>
+  </var>
+</quests>
