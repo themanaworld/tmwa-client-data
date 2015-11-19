@@ -7,8 +7,7 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="628" image="equipment/head/funkyhat.png" name="Funky Hat" description="Yawn..." effect="M. Attack +2" type="equip-head" defense="13" weight="20" sellProtected="true">
-    <sprite gender="male">equipment/head/funkywinter-male.xml</sprite>
-    <sprite gender="female">equipment/head/funkywinter-female.xml</sprite>
+    <sprite>equipment/head/funkywinter.xml</sprite>
     <replace sprite="hair">
       <item from="-5"/>
     </replace>
