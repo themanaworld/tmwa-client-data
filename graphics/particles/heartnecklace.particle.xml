@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+Green stars which are supposed to engulf a character
+-->
+<effect>
+  <particle position-x="0" position-y="0" position-z="0">
+    <emitter>
+      <property name="image" value="graphics/particles/single-heart.png"/>
+      <property name="vertical-angle" value="90"/>
+      <property name="gravity" min="-0.5" max="-0.6"/>
+      <property name="momentum" value="0.0001"/>
+      <property name="lifetime" value="166"/>
+      <property name="output" min="-2" max="1"/>
+      <property name="output-pause" min="15" max="24"/>
+      <property name="position-x" min="-16" max="16"/>
+      <property name="position-y" min="16" max="32"/>
+      <property name="position-z" min="16" max="32"/>
+      <property name="fade-in" min="2" max="10"/>
+      <property name="fade-out" min="5" max="30"/>
+    </emitter>
+  </particle>
+</effect>
