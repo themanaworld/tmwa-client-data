@@ -7,6 +7,8 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="890" image="equipment/head/beaniecopter.png" name="Beanie Copter" description="A funny beanie cap with a spinning propeller." effect="M. Attack +2" type="equip-head" defense="4" weight="20">
-    <sprite>equipment/head/beaniecopter.xml</sprite>
+    <sprite gender="female">equipment/head/beaniecopter-female.xml</sprite>
+    <sprite gender="male">equipment/head/beaniecopter.xml</sprite>
+    <sprite gender="other">equipment/head/beaniecopter.xml</sprite>
   </item>
 </items>

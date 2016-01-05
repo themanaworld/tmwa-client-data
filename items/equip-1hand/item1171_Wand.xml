@@ -7,6 +7,8 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="1171" image="equipment/weapon/wand.png" name="Wand" description="A basic magic wand." effect="Damage +1 / M. Attack +5 / Lvl 1 Wand / Requires 5+ Int" type="equip-1hand" attack-action="attack" attack-range="3" weight="100">
-    <sprite>equipment/weapons/wand.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
+    <sprite gender="female">equipment/weapons/wand-female.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
+    <sprite gender="male">equipment/weapons/wand.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
+    <sprite gender="other">equipment/weapons/wand.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
   </item>
 </items>

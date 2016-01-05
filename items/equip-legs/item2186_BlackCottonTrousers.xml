@@ -7,6 +7,8 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="2186" image="equipment/legs/pants.png|W:#111111,222222,333333,444444,555555,aaaaaa" name="Black Cotton Trousers" description="Black, ankle-length pants made of cotton." effect="M. Attack -6" type="equip-legs" weight="25" defense="4">
-    <sprite>equipment/legs/pants.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+    <sprite gender="female">equipment/legs/pants-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+    <sprite gender="male">equipment/legs/pants.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+    <sprite gender="other">equipment/legs/pants.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
   </item>
 </items>

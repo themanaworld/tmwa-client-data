@@ -7,6 +7,8 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="1276" image="equipment/head/opera-mask.png" name="Opera Mask" description="Pale and broken. There is surely a story to be told here." type="equip-head" defense="3" weight="50" sellProtected="true">
-    <sprite>equipment/head/operamask.xml</sprite>
+    <sprite gender="female">equipment/head/operamask-female.xml</sprite>
+    <sprite gender="male">equipment/head/operamask.xml</sprite>
+    <sprite gender="other">equipment/head/operamask.xml</sprite>
   </item>
 </items>

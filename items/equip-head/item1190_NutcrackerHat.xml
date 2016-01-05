@@ -7,6 +7,8 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="1190" image="equipment/head/nutcrackerhat.png" name="Nutcracker Hat" description="Now you will look just like a Nutcracker!" effect="M. Attack +2" type="equip-head" defense="5" weight="20" sellProtected="true">
-    <sprite>equipment/head/nutcrackerhat.xml</sprite>
+    <sprite gender="female">equipment/head/nutcrackerhat-female.xml</sprite>
+    <sprite gender="male">equipment/head/nutcrackerhat.xml</sprite>
+    <sprite gender="other">equipment/head/nutcrackerhat.xml</sprite>
   </item>
 </items>

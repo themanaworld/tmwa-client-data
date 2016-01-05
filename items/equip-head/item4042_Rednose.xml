@@ -7,6 +7,8 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="4042" image="equipment/head/rednose.png" name="Rednose" description="A funny red nose. You look like a Christmas reinboo with it!" effect="M. Attack +7" type="equip-head" weight="4" defense="2" sellProtected="true">
-    <sprite>equipment/head/rednose.xml</sprite>
+    <sprite gender="female">equipment/head/rednose-female.xml</sprite>
+    <sprite gender="male">equipment/head/rednose.xml</sprite>
+    <sprite gender="other">equipment/head/rednose.xml</sprite>
   </item>
 </items>
