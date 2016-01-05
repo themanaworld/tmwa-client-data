@@ -7,6 +7,8 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="889" image="equipment/head/thin-crown.png|W:#343434,ababab;R:#003300,00FF00;G:#29758A,9BDBEC" name="Murderer Crown" description="Royal blood has been shed for the ownership of this crown." type="equip-head" defense="4" weight="240" sellProtected="true">
-    <sprite>equipment/head/thin-crown.xml|#343434,ababab;#003300,00FF00;#29758A,9BDBEC</sprite>
+    <sprite gender="female">equipment/head/thin-crown-female.xml|#343434,ababab;#003300,00FF00;#29758A,9BDBEC</sprite>
+    <sprite gender="male">equipment/head/thin-crown.xml|#343434,ababab;#003300,00FF00;#29758A,9BDBEC</sprite>
+    <sprite gender="other">equipment/head/thin-crown.xml|#343434,ababab;#003300,00FF00;#29758A,9BDBEC</sprite>
   </item>
 </items>

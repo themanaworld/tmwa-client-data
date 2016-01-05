@@ -7,9 +7,19 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="5017" image="equipment/chest/sorcerer-robe.png|W:#111111,222222,333333,444444,555555,aaaaaa;R:#2050BE" name="Black Sorcerer Robe (Dark Blue)" description="A Dark Blue lined Black sorcerer robe." effect="M. Attack +20" type="equip-torso" defense="5" agi="1" weight="30" sellProtected="true">
-    <sprite>equipment/chest/sorcerer-robe.xml|#111111,222222,333333,444444,555555,aaaaaa;#2050BE</sprite>
+    <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#111111,222222,333333,444444,555555,aaaaaa;#2050BE</sprite>
+    <sprite gender="male">equipment/chest/sorcerer-robe.xml|#111111,222222,333333,444444,555555,aaaaaa;#2050BE</sprite>
+    <sprite gender="other">equipment/chest/sorcerer-robe.xml|#111111,222222,333333,444444,555555,aaaaaa;#2050BE</sprite>
     <replace sprite="pants">
       <item from="1172" to="648"/>
+    </replace>
+    <replace sprite="race">
+      <item from="-100" to="-99100"/>
+      <item from="-101" to="-99101"/>
+      <item from="-102" to="-99102"/>
+      <item from="-103" to="-99103"/>
+      <item from="-104" to="-99104"/>
+      <item from="-105" to="-99105"/>
     </replace>
   </item>
 </items>

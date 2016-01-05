@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <sprite variants="135" variant_offset="1">
-  <!-- FOR RETRO-COMPATIBILITY WITH OLD NPCs -->
-  <imageset name="base" src="graphics/sprites/model/Talponian.png|W;B;R" width="64" height="64"/>
-  <include file="model/Talponian.xml"/>
+  <!-- uses the male model because otherwise the neutral tank top shows on some npcs -->
+  <imageset name="base" src="graphics/sprites/model/male.png|W;B;R" width="64" height="64"/>
+  <include file="model/neutral.xml"/>
 </sprite>

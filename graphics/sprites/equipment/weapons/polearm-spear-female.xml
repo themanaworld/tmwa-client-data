@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<sprite variants="135" variant_offset="1">
+  <imageset name="polearm-spear" src="graphics/sprites/equipment/weapons/polearm-spear.png|B;R" width="128" height="128"/>
+  <action name="default" imageset="polearm-spear"/>
+  <action name="stand" imageset="polearm-spear">
+    <animation direction="down">
+      <frame offsetY="32" index="0"/>
+    </animation>
+    <animation direction="left">
+      <frame offsetY="32" index="18"/>
+    </animation>
+    <animation direction="up">
+      <frame offsetY="32" index="36"/>
+    </animation>
+    <animation direction="right">
+      <frame offsetY="32" index="54"/>
+    </animation>
+  </action>
+  <action name="walk" imageset="polearm-spear">
+    <animation direction="down">
+      <sequence offsetY="32" start="1" end="6" delay="75"/>
+    </animation>
+    <animation direction="left">
+      <sequence offsetY="32" start="19" end="24" delay="75"/>
+    </animation>
+    <animation direction="up">
+      <sequence offsetY="32" start="37" end="42" delay="75"/>
+    </animation>
+    <animation direction="right">
+      <sequence offsetY="32" start="55" end="60" delay="75"/>
+    </animation>
+  </action>
+  <action name="sit" imageset="polearm-spear">
+    <animation direction="down">
+      <frame offsetY="32" index="7"/>
+    </animation>
+    <animation direction="left">
+      <frame offsetY="32" index="25"/>
+    </animation>
+    <animation direction="up">
+      <frame offsetY="32" index="43"/>
+    </animation>
+    <animation direction="right">
+      <frame offsetY="32" index="61"/>
+    </animation>
+  </action>
+  <action name="dead" imageset="polearm-spear">
+    <animation direction="down">
+      <frame offsetY="32" index="8"/>
+    </animation>
+    <animation direction="left">
+      <frame offsetY="32" index="26"/>
+    </animation>
+    <animation direction="up">
+      <frame offsetY="32" index="44"/>
+    </animation>
+    <animation direction="right">
+      <frame offsetY="32" index="62"/>
+    </animation>
+  </action>
+  <action name="attack_spear" imageset="polearm-spear">
+    <animation direction="down">
+      <sequence offsetY="32" start="72" end="75" delay="140"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <sequence offsetY="32" start="76" end="79" delay="140"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <sequence offsetY="32" start="81" end="84" delay="140"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <sequence offsetY="32" start="85" end="88" delay="140"/>
+      <end/>
+    </animation>
+  </action>
+</sprite>

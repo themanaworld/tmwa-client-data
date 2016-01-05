@@ -7,6 +7,8 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="4031" image="equipment/head/monocle.png" name="Monocle" description="A handy perception tool, even when not at the opera." effect="Critical Damage +20" type="equip-head" defense="2" dex="1" luck="1" weight="20" sellProtected="true">
-    <sprite>equipment/head/monocle.xml</sprite>
+    <sprite gender="female">equipment/head/monocle-female.xml</sprite>
+    <sprite gender="male">equipment/head/monocle.xml</sprite>
+    <sprite gender="other">equipment/head/monocle.xml</sprite>
   </item>
 </items>

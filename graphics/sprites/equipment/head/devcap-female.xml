@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset height="19" name="base" src="graphics/sprites/equipment/head/devcap.png|R" width="28"/>
+  <action imageset="base" name="stand">
+    <animation direction="down">
+      <frame index="0" offsetX="0" offsetY="-45"/>
+    </animation>
+    <animation direction="left">
+      <frame index="1" offsetX="-2" offsetY="-45"/>
+    </animation>
+    <animation direction="up">
+      <frame index="2" offsetX="-2" offsetY="-45"/>
+    </animation>
+    <animation direction="right">
+      <frame index="3" offsetX="2" offsetY="-45"/>
+    </animation>
+  </action>
+  <action imageset="base" name="walk">
+    <animation direction="down">
+      <frame delay="75" index="0" offsetX="0" offsetY="-44"/>
+      <frame delay="150" index="0" offsetX="0" offsetY="-45"/>
+      <frame delay="75" index="0" offsetX="0" offsetY="-44"/>
+      <frame delay="150" index="0" offsetX="0" offsetY="-45"/>
+    </animation>
+    <animation direction="left">
+      <frame delay="75" index="1" offsetX="-2" offsetY="-45"/>
+      <frame delay="75" index="1" offsetX="-2" offsetY="-44"/>
+      <frame delay="150" index="1" offsetX="-2" offsetY="-45"/>
+      <frame delay="75" index="1" offsetX="-2" offsetY="-44"/>
+      <frame delay="75" index="1" offsetX="-2" offsetY="-45"/>
+    </animation>
+    <animation direction="up">
+      <frame delay="75" index="2" offsetX="-2" offsetY="-45"/>
+      <frame delay="150" index="2" offsetX="-2" offsetY="-46"/>
+      <frame delay="75" index="2" offsetX="-2" offsetY="-45"/>
+      <frame delay="150" index="2" offsetX="-2" offsetY="-46"/>
+    </animation>
+    <animation direction="right">
+      <frame delay="75" index="3" offsetX="2" offsetY="-45"/>
+      <frame delay="75" index="3" offsetX="2" offsetY="-44"/>
+      <frame delay="150" index="3" offsetX="2" offsetY="-45"/>
+      <frame delay="75" index="3" offsetX="2" offsetY="-44"/>
+      <frame delay="75" index="3" offsetX="2" offsetY="-45"/>
+    </animation>
+  </action>
+  <action imageset="base" name="attack">
+    <animation direction="down">
+      <frame delay="75" index="0" offsetX="0" offsetY="-43"/>
+      <frame delay="75" index="0" offsetX="0" offsetY="-44"/>
+      <frame delay="75" index="0" offsetX="0" offsetY="-41"/>
+      <frame delay="75" index="0" offsetX="0" offsetY="-40"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <frame delay="75" index="1" offsetX="2" offsetY="-46"/>
+      <frame delay="75" index="1" offsetX="2" offsetY="-47"/>
+      <frame delay="75" index="1" offsetX="-1" offsetY="-44"/>
+      <frame delay="75" index="1" offsetX="-3" offsetY="-43"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <frame delay="225" index="2" offsetX="-3" offsetY="-45"/>
+      <frame delay="75" index="2" offsetX="-3" offsetY="-43"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <frame delay="75" index="3" offsetX="-1" offsetY="-46"/>
+      <frame delay="75" index="3" offsetX="-1" offsetY="-47"/>
+      <frame delay="75" index="3" offsetX="2" offsetY="-44"/>
+      <frame delay="75" index="3" offsetX="3" offsetY="-43"/>
+      <end/>
+    </animation>
+  </action>
+  <action imageset="base" name="attack_bow">
+    <animation direction="down">
+      <frame delay="225" index="0" offsetX="0" offsetY="-44"/>
+      <frame delay="75" index="0" offsetX="0" offsetY="-43"/>
+      <frame delay="75" index="0" offsetX="0" offsetY="-44"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <frame delay="225" index="1" offsetX="1" offsetY="-45"/>
+      <frame delay="150" index="1" offsetX="3" offsetY="-46"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <frame delay="225" index="2" offsetX="-2" offsetY="-45"/>
+      <frame delay="75" index="2" offsetX="-3" offsetY="-44"/>
+      <frame delay="75" index="2" offsetX="-3" offsetY="-45"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <frame delay="225" index="3" offsetX="-1" offsetY="-45"/>
+      <frame delay="150" index="3" offsetX="-3" offsetY="-46"/>
+      <end/>
+    </animation>
+  </action>
+  <action imageset="base" name="sit">
+    <animation direction="down">
+      <frame index="0" offsetX="0" offsetY="-33"/>
+    </animation>
+    <animation direction="left">
+      <frame index="1" offsetX="2" offsetY="-36"/>
+    </animation>
+    <animation direction="up">
+      <frame index="2" offsetX="-1" offsetY="-37"/>
+    </animation>
+    <animation direction="right">
+      <frame index="3" offsetX="-4" offsetY="-36"/>
+    </animation>
+  </action>
+  <action imageset="base" name="dead">
+    <animation direction="default">
+      <frame index="4" offsetX="27" offsetY="-16"/>
+    </animation>
+  </action>
+  <action name="attack_2hand" imageset="base">
+    <animation direction="down">
+      <frame index="0" offsetX="-1" offsetY="-42" delay="140"/>
+      <frame index="0" offsetX="-1" offsetY="-39" delay="140"/>
+      <frame index="0" offsetX="-1" offsetY="-44" delay="140"/>
+      <frame index="0" offsetX="-1" offsetY="-38" delay="140"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <frame index="1" offsetX="-3" offsetY="-42" delay="140"/>
+      <frame index="1" offsetX="0" offsetY="-45" delay="140"/>
+      <frame index="1" offsetX="3" offsetY="-45" delay="140"/>
+      <frame index="1" offsetX="-5" offsetY="-41" delay="140"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <frame index="2" offsetX="-4" offsetY="-44" delay="280"/>
+      <frame index="2" offsetX="-4" offsetY="-42" delay="140"/>
+      <frame index="2" offsetX="-3" offsetY="-45" delay="140"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <frame index="3" offsetX="4" offsetY="-42" delay="140"/>
+      <frame index="3" offsetX="1" offsetY="-45" delay="140"/>
+      <frame index="3" offsetX="-1" offsetY="-45" delay="140"/>
+      <frame index="3" offsetX="5" offsetY="-41" delay="140"/>
+      <end/>
+    </animation>
+  </action>
+  <action name="attack_sword_stab" imageset="base">
+    <animation direction="down">
+      <frame index="0" offsetX="0" offsetY="-43" delay="100"/>
+      <frame index="0" offsetX="0" offsetY="-44" delay="100"/>
+      <frame index="0" offsetX="0" offsetY="-41" delay="100"/>
+      <frame index="0" offsetX="0" offsetY="-40" delay="100"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <frame index="1" offsetX="2" offsetY="-46" delay="100"/>
+      <frame index="1" offsetX="2" offsetY="-47" delay="100"/>
+      <frame index="1" offsetX="-1" offsetY="-44" delay="100"/>
+      <frame index="1" offsetX="-3" offsetY="-43" delay="100"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <frame index="2" offsetX="-3" offsetY="-45" delay="300"/>
+      <frame index="2" offsetX="-3" offsetY="-43" delay="100"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <frame index="3" offsetX="-1" offsetY="-46" delay="100"/>
+      <frame index="3" offsetX="-1" offsetY="-47" delay="100"/>
+      <frame index="3" offsetX="2" offsetY="-44" delay="100"/>
+      <frame index="3" offsetX="3" offsetY="-43" delay="100"/>
+      <end/>
+    </animation>
+  </action>
+  <action name="attack_spear" imageset="base">
+    <animation direction="down">
+      <frame index="0" offsetX="-2" offsetY="-45" delay="280"/>
+      <frame index="0" offsetX="-2" offsetY="-46" delay="140"/>
+      <frame index="0" offsetX="-2" offsetY="-40" delay="140"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <frame index="1" offsetX="2" offsetY="-46" delay="140"/>
+      <frame index="1" offsetX="5" offsetY="-44" delay="140"/>
+      <frame index="1" offsetX="-1" offsetY="-46" delay="140"/>
+      <frame index="1" offsetX="-2" offsetY="-43" delay="140"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <frame index="2" offsetX="-5" offsetY="-45" delay="140"/>
+      <frame index="2" offsetX="-4" offsetY="-45" delay="140"/>
+      <frame index="2" offsetX="-4" offsetY="-44" delay="140"/>
+      <frame index="2" offsetX="-5" offsetY="-49" delay="140"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <frame index="3" offsetX="-1" offsetY="-46" delay="140"/>
+      <frame index="3" offsetX="-3" offsetY="-44" delay="140"/>
+      <frame index="3" offsetX="3" offsetY="-46" delay="140"/>
+      <frame index="3" offsetX="4" offsetY="-43" delay="140"/>
+      <end/>
+    </animation>
+  </action>
+  <action name="attack_chop" imageset="base">
+    <animation direction="down">
+      <frame index="0" offsetX="-1" offsetY="-42" delay="280"/>
+      <frame index="0" offsetX="-1" offsetY="-44" delay="140"/>
+      <frame index="0" offsetX="-1" offsetY="-38" delay="140"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <frame index="1" offsetX="1" offsetY="-46" delay="140"/>
+      <frame index="1" offsetX="1" offsetY="-47" delay="140"/>
+      <frame index="1" offsetX="2" offsetY="-47" delay="140"/>
+      <frame index="1" offsetX="-4" offsetY="-43" delay="140"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <frame index="2" offsetX="-4" offsetY="-44" delay="140"/>
+      <frame index="2" offsetX="-4" offsetY="-43" delay="280"/>
+      <frame index="2" offsetX="-4" offsetY="-42" delay="140"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <frame index="3" offsetX="-1" offsetY="-46" delay="140"/>
+      <frame index="3" offsetX="0" offsetY="-47" delay="280"/>
+      <frame index="3" offsetX="5" offsetY="-43" delay="140"/>
+      <end/>
+    </animation>
+  </action>
+</sprite>

@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<sprite variants="135" variant_offset="1">
+  <imageset name="base" src="graphics/sprites/model/neutral.png|W;B;R" width="64" height="64"/>
+  <action name="default" imageset="base"/>
+  <action name="stand" imageset="base">
+    <animation direction="down">
+      <frame index="0"/>
+    </animation>
+    <animation direction="left">
+      <frame index="18"/>
+    </animation>
+    <animation direction="up">
+      <frame index="36"/>
+    </animation>
+    <animation direction="right">
+      <frame index="54"/>
+    </animation>
+  </action>
+  <action name="walk" imageset="base">
+    <animation direction="down">
+      <sequence start="1" end="6" delay="75"/>
+    </animation>
+    <animation direction="left">
+      <sequence start="19" end="24" delay="75"/>
+    </animation>
+    <animation direction="up">
+      <sequence start="37" end="42" delay="75"/>
+    </animation>
+    <animation direction="right">
+      <sequence start="55" end="60" delay="75"/>
+    </animation>
+  </action>
+  <action name="sit" imageset="base">
+    <animation direction="down">
+      <frame index="7"/>
+    </animation>
+    <animation direction="left">
+      <frame index="25"/>
+    </animation>
+    <animation direction="up">
+      <frame index="43"/>
+    </animation>
+    <animation direction="right">
+      <frame index="61"/>
+    </animation>
+  </action>
+  <action name="dead" imageset="base">
+    <animation direction="down">
+      <frame index="8"/>
+    </animation>
+    <animation direction="left">
+      <frame index="26"/>
+    </animation>
+    <animation direction="up">
+      <frame index="44"/>
+    </animation>
+    <animation direction="right">
+      <frame index="62"/>
+    </animation>
+  </action>
+  <action name="attack" imageset="base">
+    <animation direction="down">
+      <sequence start="9" end="12" delay="75"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <sequence start="27" end="30" delay="75"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <sequence start="45" end="48" delay="75"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <sequence start="63" end="66" delay="75"/>
+      <end/>
+    </animation>
+  </action>
+  <action name="attack_sword_stab" imageset="base">
+    <animation direction="down">
+      <sequence start="9" end="12" delay="100"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <sequence start="27" end="30" delay="100"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <sequence start="45" end="48" delay="100"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <sequence start="63" end="66" delay="100"/>
+      <end/>
+    </animation>
+  </action>
+  <action name="attack_bow" imageset="base">
+    <animation direction="down">
+      <sequence start="13" end="17" delay="75"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <sequence start="31" end="35" delay="75"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <sequence start="49" end="53" delay="75"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <sequence start="67" end="71" delay="75"/>
+      <end/>
+    </animation>
+  </action>
+  <action name="attack_spear" imageset="base">
+    <animation direction="down">
+      <sequence start="72" end="75" delay="140"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <sequence start="76" end="79" delay="140"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <sequence start="81" end="84" delay="140"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <sequence start="85" end="88" delay="140"/>
+      <end/>
+    </animation>
+  </action>
+  <action name="attack_chop" imageset="base">
+    <animation direction="down">
+      <sequence start="90" end="93" delay="140"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <sequence start="94" end="97" delay="140"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <sequence start="99" end="102" delay="140"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <sequence start="103" end="106" delay="140"/>
+      <end/>
+    </animation>
+  </action>
+  <action name="attack_2hand" imageset="base">
+    <animation direction="down">
+      <sequence start="108" end="111" delay="140"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <sequence start="112" end="115" delay="140"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <sequence start="117" end="120" delay="140"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <sequence start="121" end="124" delay="140"/>
+      <end/>
+    </animation>
+  </action>
+  <action name="cast" imageset="base">
+    <animation direction="down">
+      <sequence start="126" end="127" delay="250"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <sequence start="128" end="129" delay="250"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <sequence start="130" end="131" delay="250"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <sequence start="132" end="133" delay="250"/>
+      <end/>
+    </animation>
+  </action>
+</sprite>

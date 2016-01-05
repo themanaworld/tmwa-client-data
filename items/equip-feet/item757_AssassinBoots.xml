@@ -7,6 +7,8 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="757" image="equipment/feet/assassinboots.png" name="Assassin Boots" description="Boots for a master assassin." effect="M. Attack -3" type="equip-feet" defense="5" agi="5" weight="10" sellProtected="true">
-    <sprite>equipment/feet/assassin-boots.xml</sprite>
+    <sprite gender="female">equipment/feet/assassin-boots-female.xml</sprite>
+    <sprite gender="male">equipment/feet/assassin-boots.xml</sprite>
+    <sprite gender="other">equipment/feet/assassin-boots.xml</sprite>
   </item>
 </items>
