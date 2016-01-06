@@ -9,10 +9,7 @@
   <item id="646" image="equipment/head/crown.png" name="Crown" description="A jewel embossed crown fit for any ruler." type="equip-head" defense="4" weight="240" sellProtected="true">
     <sprite>equipment/head/crown.xml</sprite>
     <replace sprite="hair">
-      <item from="-5"/>
-    </replace>
-    <replace direction="upall" sprite="hair">
-      <item from="-5" to="-5"/>
+      <item from="-6" to="-1"/>
     </replace>
   </item>
 </items>

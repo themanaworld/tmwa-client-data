@@ -9,10 +9,7 @@
   <item id="525" image="equipment/head/minershat.png" name="Miner's Hat" description="A hat used by miners." effect="M. Attack -8" type="equip-head" defense="4" weight="40">
     <sprite>equipment/head/minershat.xml</sprite>
     <replace sprite="hair">
-      <item from="-5"/>
-    </replace>
-    <replace direction="upall" sprite="hair">
-      <item from="-5" to="-5"/>
+      <item from="-6" to="-1"/>
     </replace>
   </item>
 </items>

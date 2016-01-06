@@ -8,5 +8,13 @@
   </its:rules>
   <item id="2247" image="equipment/chest/fine-dress.png|W:#a12000,ff8700,ffffff,ffffff" name="Fine Orange Dress" description="A orange dress made from the finest materials." effect="M. Attack +3" type="equip-torso" defense="8" weight="35" sellProtected="true">
     <sprite>equipment/chest/fine-dress.xml|#a12000,ff8700,ffffff,ffffff</sprite>
+    <replace sprite="race">
+      <item from="-100" to="-99100"/>
+      <item from="-101" to="-99101"/>
+      <item from="-102" to="-99102"/>
+      <item from="-103" to="-99103"/>
+      <item from="-104" to="-99104"/>
+      <item from="-105" to="-99105"/>
+    </replace>
   </item>
 </items>

@@ -8,5 +8,13 @@
   </its:rules>
   <item id="2087" image="equipment/chest/silk-robe.png|W:#80280f,b04810,ef681f,ffb830" name="Orange Silk Robe" description="A light and shimmering orange silk robe." type="equip-torso" defense="5" weight="30" sellProtected="true">
     <sprite>equipment/chest/robe.xml|#80280f,b04810,ef681f,ffb830</sprite>
+    <replace sprite="race">
+      <item from="-100" to="-99100"/>
+      <item from="-101" to="-99101"/>
+      <item from="-102" to="-99102"/>
+      <item from="-103" to="-99103"/>
+      <item from="-104" to="-99104"/>
+      <item from="-105" to="-99105"/>
+    </replace>
   </item>
 </items>

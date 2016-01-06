@@ -9,10 +9,7 @@
   <item id="2137" image="equipment/head/deserthat.png|R:#80280f,b04810,ef681f,ffb830" name="Orange Desert Hat" description="While the orange desert hat is perfect for sand storms, it won't help you much against a blow to the head." effect="M. Attack -1" type="equip-head" defense="3" weight="20">
     <sprite>equipment/head/deserthat.xml|#80280f,b04810,ef681f,ffb830</sprite>
     <replace sprite="hair">
-      <item from="-5"/>
-    </replace>
-    <replace direction="upall" sprite="hair">
-      <item from="-5" to="-5"/>
+      <item from="-6" to="-1"/>
     </replace>
   </item>
 </items>

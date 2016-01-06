@@ -9,10 +9,7 @@
   <item id="654" image="equipment/head/cap.png|R:#d94800" name="Cap" description="A hat with a peak to shield your eyes from the sun." type="equip-head" defense="5" weight="20" sellProtected="true">
     <sprite>equipment/head/cap.xml|#d94800</sprite>
     <replace sprite="hair">
-      <item from="-5"/>
-    </replace>
-    <replace direction="upall" sprite="hair">
-      <item from="-5" to="-5"/>
+      <item from="-6" to="-1"/>
     </replace>
   </item>
 </items>

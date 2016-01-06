@@ -8,5 +8,13 @@
   </its:rules>
   <item id="2054" image="equipment/chest/cottonshirt.png|W:#16486e,498ec5,e4f2fc" name="Light Blue Cotton Shirt" description="A light blue shirt made of 100% cotton." effect="M. Attack -4" type="equip-torso" defense="2" weight="20">
     <sprite>equipment/chest/cotton.xml|#16486e,498ec5,e4f2fc</sprite>
+    <replace sprite="race">
+      <item from="-100" to="-99100"/>
+      <item from="-101" to="-99101"/>
+      <item from="-102" to="-99102"/>
+      <item from="-103" to="-99103"/>
+      <item from="-104" to="-99104"/>
+      <item from="-105" to="-99105"/>
+    </replace>
   </item>
 </items>

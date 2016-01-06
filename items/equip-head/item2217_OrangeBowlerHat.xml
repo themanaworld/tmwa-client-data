@@ -9,10 +9,7 @@
   <item id="2217" image="equipment/head/bowler-hat.png|W:#80280f,b04810,ef681f,ffb830" name="Orange Bowler Hat" description="A hat for those with a bit of class, with an orange band." effect="M. Attack +2" type="equip-head" defense="10" weight="30" sellProtected="true">
     <sprite>equipment/head/bowler-hat.xml|#80280f,b04810,ef681f,ffb830</sprite>
     <replace sprite="hair">
-      <item from="-5"/>
-    </replace>
-    <replace direction="upall" sprite="hair">
-      <item from="-5" to="-5"/>
+      <item from="-6" to="-1"/>
     </replace>
   </item>
 </items>

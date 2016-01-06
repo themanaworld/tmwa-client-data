@@ -8,5 +8,13 @@
   </its:rules>
   <item id="652" image="equipment/chest/silk-robe.png|W:#000000" name="Black Wizard Robe" description="A black robe made for evil wizards." defense="5" type="equip-torso" weight="5">
     <sprite>equipment/chest/robe.xml|#000000</sprite>
+    <replace sprite="race">
+      <item from="-100" to="-99100"/>
+      <item from="-101" to="-99101"/>
+      <item from="-102" to="-99102"/>
+      <item from="-103" to="-99103"/>
+      <item from="-104" to="-99104"/>
+      <item from="-105" to="-99105"/>
+    </replace>
   </item>
 </items>

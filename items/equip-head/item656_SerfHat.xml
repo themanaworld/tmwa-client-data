@@ -9,10 +9,7 @@
   <item id="656" image="equipment/head/serf.png" name="Serf Hat" description="A simple hat made from cloth." type="equip-head" weight="20" defense="2">
     <sprite>equipment/head/serf.xml</sprite>
     <replace sprite="hair">
-      <item from="-5"/>
-    </replace>
-    <replace direction="upall" sprite="hair">
-      <item from="-5" to="-5"/>
+      <item from="-6" to="-1"/>
     </replace>
   </item>
 </items>

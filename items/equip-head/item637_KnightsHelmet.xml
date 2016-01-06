@@ -9,12 +9,9 @@
   <item id="637" image="equipment/head/knighthelm.png" name="Knight's Helmet" description="A helmet with two small wings on it." effect="M. Attack -30" type="equip-head" defense="15" weight="600" sellProtected="true">
     <sprite>equipment/head/knighthelm.xml</sprite>
     <replace sprite="hair">
-      <item from="-5"/>
-      <item from="-6"/>
-      <item from="-9"/>
-    </replace>
-    <replace direction="upall" sprite="hair">
-      <item from="-5" to="-5"/>
+      <item from="-6" to="-1"/>
+      <item from="-7" to="-1"/>
+      <item from="-10" to="-1"/>
     </replace>
   </item>
 </items>

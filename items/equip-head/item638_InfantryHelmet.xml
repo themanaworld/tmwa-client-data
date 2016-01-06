@@ -9,14 +9,11 @@
   <item id="638" image="equipment/head/infantryhelm.png" name="Infantry Helmet" description="A helmet for soldiers and guards." effect="M. Attack -30" type="equip-head" defense="15" weight="400">
     <sprite>equipment/head/infantryhelm.xml</sprite>
     <replace direction="downall" sprite="hair">
-      <item from="-6" to="-3"/>
+      <item from="-7" to="-4"/>
     </replace>
     <replace sprite="hair">
-      <item from="-5"/>
-      <item from="-9"/>
-    </replace>
-    <replace direction="upall" sprite="hair">
-      <item from="-5" to="-5"/>
+      <item from="-6" to="-1"/>
+      <item from="-10" to="-1"/>
     </replace>
   </item>
 </items>

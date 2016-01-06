@@ -9,10 +9,7 @@
   <item id="630" image="equipment/head/shroomhat.png" name="Shroom Hat" description="Evil and fashionable." type="equip-head" defense="13" weight="30" sellProtected="true">
     <sprite>equipment/head/shroom.xml</sprite>
     <replace sprite="hair">
-      <item from="-5"/>
-    </replace>
-    <replace direction="upall" sprite="hair">
-      <item from="-5" to="-5"/>
+      <item from="-6" to="-1"/>
     </replace>
   </item>
 </items>

@@ -9,7 +9,7 @@
   <item id="1256" image="equipment/head/eggshell-hat.png|W:#727272,A0A9AC,DBECF2" name="Eggshell Hat" description="A novelty hat shaped like an eggshell half." type="equip-head" defense="12" agi="-1" weight="15" sellProtected="true">
     <sprite>equipment/head/eggshell.xml|#727272,A0A9AC,DBECF2</sprite>
     <replace direction="upall" sprite="hair">
-      <item from="-5"/>
+      <item from="-6" to="-1"/>
     </replace>
   </item>
 </items>

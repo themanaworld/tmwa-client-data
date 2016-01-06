@@ -9,10 +9,7 @@
   <item id="722" image="equipment/head/monster-skull-helm.png" name="Monster Skull Helmet" description="The conserved skull of a mysterious ancient monster." effect="M. Attack +10 / M. Defense +20" type="equip-head" defense="7" weight="250" sellProtected="true">
     <sprite>equipment/head/monster-skull-helm.xml</sprite>
     <replace sprite="hair">
-      <item from="-5"/>
-    </replace>
-    <replace direction="upall" sprite="hair">
-      <item from="-5" to="-5"/>
+      <item from="-6" to="-1"/>
     </replace>
   </item>
 </items>

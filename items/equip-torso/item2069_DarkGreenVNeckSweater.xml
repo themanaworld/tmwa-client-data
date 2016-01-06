@@ -8,5 +8,13 @@
   </its:rules>
   <item id="2069" image="equipment/chest/vnecksweater.png|W:#0b300b,195519,3e832e,3e9c3e" name="Dark Green V-Neck Sweater" description="A thin, soft and warm dark green sweater." effect="M. Attack -16" type="equip-torso" defense="8" weight="35" drawBefore="pants">
     <sprite>equipment/chest/vnecksweater.xml|#0b300b,195519,3e832e,3e9c3e</sprite>
+    <replace sprite="race">
+      <item from="-100" to="-99100"/>
+      <item from="-101" to="-99101"/>
+      <item from="-102" to="-99102"/>
+      <item from="-103" to="-99103"/>
+      <item from="-104" to="-99104"/>
+      <item from="-105" to="-99105"/>
+    </replace>
   </item>
 </items>

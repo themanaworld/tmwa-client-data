@@ -9,10 +9,7 @@
   <item id="725" image="equipment/head/gmcap.png|R:#bf0e08" name="GM Cap" description="A cap which identifies you as a GM. Only GMs can wear this." effect="M. Attack +5" type="equip-head" defense="5" weight="20" sellProtected="true">
     <sprite>equipment/head/gmcap.xml|#bf0e08</sprite>
     <replace sprite="hair">
-      <item from="-5"/>
-    </replace>
-    <replace direction="upall" sprite="hair">
-      <item from="-5" to="-5"/>
+      <item from="-6" to="-1"/>
     </replace>
   </item>
 </items>

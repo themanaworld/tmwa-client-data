@@ -8,5 +8,13 @@
   </its:rules>
   <item id="791" image="equipment/chest/tanktop.png|W:#412300,c9866b,8d4900" name="Yeti Skin Shirt" description="A shirt made of hardened yeti skin." effect="M. Attack -12" type="equip-torso" weight="20" defense="12" drawBefore="pants">
     <sprite>equipment/chest/leather.xml|#573a26,c9866b,d3b79e,ffffff;#b96b3d,fbf5f1</sprite>
+    <replace sprite="race">
+      <item from="-100" to="-99100"/>
+      <item from="-101" to="-99101"/>
+      <item from="-102" to="-99102"/>
+      <item from="-103" to="-99103"/>
+      <item from="-104" to="-99104"/>
+      <item from="-105" to="-99105"/>
+    </replace>
   </item>
 </items>
