@@ -7,9 +7,11 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="-101" type="racesprite" name="Talpan">
-    <sprite>model/base.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+    <sprite gender="female">model/female.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+    <sprite gender="male">model/male.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+    <sprite gender="other">model/neutral.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
   </item>
   <item id="-99101" type="racesprite" name="Talpan">
-    <sprite>model/base-chestnaked.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+    <sprite>model/male.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
   </item>
 </items>
