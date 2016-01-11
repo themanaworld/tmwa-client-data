@@ -7,6 +7,7 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="791" image="equipment/chest/tanktop.png|W:#412300,c9866b,8d4900" name="Yeti Skin Shirt" description="A shirt made of hardened yeti skin." effect="M. Attack -12" type="equip-torso" weight="20" defense="12" drawBefore="pants">
+    <sprite gender="female">equipment/chest/leather-female.xml|#573a26,c9866b,d3b79e,ffffff;#b96b3d,fbf5f1</sprite>
     <sprite>equipment/chest/leather.xml|#573a26,c9866b,d3b79e,ffffff;#b96b3d,fbf5f1</sprite>
     <replace sprite="race">
       <item from="-100" to="-99100"/>

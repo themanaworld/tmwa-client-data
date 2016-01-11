@@ -7,6 +7,7 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="882" image="equipment/head/eggshell-hat.png|W:#BC5959,E33636,FFA0A0" name="Red Eggshell Hat" description="A novelty hat shaped like an eggshell half." type="equip-head" effect="M. Defense +3" defense="9" weight="15" sellProtected="true">
+    <sprite gender="female">equipment/head/eggshell-female.xml|#BC5959,E33636,FFA0A0</sprite>
     <sprite>equipment/head/eggshell.xml|#BC5959,E33636,FFA0A0</sprite>
     <replace direction="upall" sprite="hair">
       <item from="-6" to="-1"/>

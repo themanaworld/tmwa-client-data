@@ -7,6 +7,7 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="4030" image="equipment/head/bowler-hat.png" name="Bowler Hat" description="A hat for those with a bit of class." effect="M. Attack +2" type="equip-head" defense="10" weight="30" sellProtected="true">
+    <sprite gender="female">equipment/head/bowler-hat-female.xml</sprite>
     <sprite>equipment/head/bowler-hat.xml</sprite>
     <replace sprite="hair">
       <item from="-6" to="-1"/>

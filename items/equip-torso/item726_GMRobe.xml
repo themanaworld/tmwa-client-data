@@ -7,6 +7,7 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="726" image="equipment/chest/silk-robe.png|W:#e40a0a" name="GM Robe" description="A light and shimmering silk robe made for GMs. Only GMs can wear this." type="equip-torso" weight="40" defense="5" sellProtected="true">
+    <sprite gender="female">equipment/chest/robe-female.xml|#e40a0a</sprite>
     <sprite>equipment/chest/robe.xml|#e40a0a</sprite>
     <replace sprite="race">
       <item from="-100" to="-99100"/>

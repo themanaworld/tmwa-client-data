@@ -7,6 +7,7 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="646" image="equipment/head/crown.png" name="Crown" description="A jewel embossed crown fit for any ruler." type="equip-head" defense="4" weight="240" sellProtected="true">
+    <sprite gender="female">equipment/head/crown-female.xml</sprite>
     <sprite>equipment/head/crown.xml</sprite>
     <replace sprite="hair">
       <item from="-6" to="-1"/>

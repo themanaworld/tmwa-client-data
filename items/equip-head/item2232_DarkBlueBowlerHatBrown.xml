@@ -7,6 +7,7 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="2232" image="equipment/head/bowler-hat-brown.png|W:#1a1a41,392b6e,4c529f,5d5dc2" name="Dark Blue Bowler Hat (Brown)" description="A hat for those with a bit of class, with a dark blue band." effect="M. Attack +2" type="equip-head" defense="10" weight="30" sellProtected="true">
+    <sprite gender="female">equipment/head/bowler-hat-brown-female.xml|#1a1a41,392b6e,4c529f,5d5dc2</sprite>
     <sprite>equipment/head/bowler-hat-brown.xml|#1a1a41,392b6e,4c529f,5d5dc2</sprite>
     <replace sprite="hair">
       <item from="-6" to="-1"/>

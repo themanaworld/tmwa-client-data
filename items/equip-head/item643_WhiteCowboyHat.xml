@@ -7,6 +7,7 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="643" image="equipment/head/cowboywhite.png" name="White Cowboy Hat" description="A white cowboy hat with a band." effect="M. Attack -12" type="equip-head" defense="6" weight="30" sellProtected="true">
+    <sprite gender="female">equipment/head/cowboywhite-female.xml</sprite>
     <sprite>equipment/head/cowboywhite.xml</sprite>
     <replace sprite="hair">
       <item from="-6" to="-1"/>
