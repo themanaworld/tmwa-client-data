@@ -8,7 +8,8 @@
   </its:rules>
   <item id="5025" image="equipment/chest/sorcerer-robe.png|W:#846928,dab641,ffef93,fff7c9;R:#FFF528" name="Yellow Sorcerer Robe (Yellow)" description="A Yellow lined Yellow sorcerer robe." effect="M. Attack +20" type="equip-torso" defense="5" agi="1" weight="30" sellProtected="true">
     <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#846928,dab641,ffef93,fff7c9;#FFF528</sprite>
-    <sprite>equipment/chest/sorcerer-robe.xml|#846928,dab641,ffef93,fff7c9;#FFF528</sprite>
+    <sprite gender="male">equipment/chest/sorcerer-robe.xml|#846928,dab641,ffef93,fff7c9;#FFF528</sprite>
+    <sprite gender="other">equipment/chest/sorcerer-robe.xml|#846928,dab641,ffef93,fff7c9;#FFF528</sprite>
     <replace sprite="pants">
       <item from="1172" to="648"/>
     </replace>

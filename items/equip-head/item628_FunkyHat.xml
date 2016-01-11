@@ -8,7 +8,8 @@
   </its:rules>
   <item id="628" image="equipment/head/funkyhat.png" name="Funky Hat" description="Yawn..." effect="M. Attack +2" type="equip-head" defense="13" weight="20" sellProtected="true">
     <sprite gender="female">equipment/head/funkywinter-female.xml</sprite>
-    <sprite>equipment/head/funkywinter.xml</sprite>
+    <sprite gender="male">equipment/head/funkywinter.xml</sprite>
+    <sprite gender="other">equipment/head/funkywinter.xml</sprite>
     <replace sprite="hair">
       <item from="-6" to="-1"/>
     </replace>

@@ -8,7 +8,8 @@
   </its:rules>
   <item id="639" image="equipment/head/crusadehelm.png" name="Crusade Helmet" description="Start your own crusade." effect="M. Attack -36" type="equip-head" defense="18" weight="1300">
     <sprite gender="female">equipment/head/crusadehelm-female.xml</sprite>
-    <sprite>equipment/head/crusadehelm.xml</sprite>
+    <sprite gender="male">equipment/head/crusadehelm.xml</sprite>
+    <sprite gender="other">equipment/head/crusadehelm.xml</sprite>
     <replace sprite="hair">
       <item to="-1"/>
     </replace>

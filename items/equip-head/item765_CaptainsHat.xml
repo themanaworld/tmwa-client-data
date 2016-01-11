@@ -8,6 +8,7 @@
   </its:rules>
   <item id="765" image="equipment/head/captain_hat.png" name="Captain's Hat" description="A hat worn by the bravest captains." type="equip-head" defense="15" weight="8">
     <sprite gender="female">equipment/head/captain-hat-female.xml</sprite>
-    <sprite>equipment/head/captain-hat.xml</sprite>
+    <sprite gender="male">equipment/head/captain-hat.xml</sprite>
+    <sprite gender="other">equipment/head/captain-hat.xml</sprite>
   </item>
 </items>

@@ -8,7 +8,8 @@
   </its:rules>
   <item id="2080" image="equipment/chest/silk-robe.png|W:#581a1a,a41111,c03a3a,ff6060" name="Red Silk Robe" description="A light and shimmering red silk robe." type="equip-torso" defense="5" weight="30" sellProtected="true">
     <sprite gender="female">equipment/chest/robe-female.xml|#583a1a,a42111,c03a3a,ff8060</sprite>
-    <sprite>equipment/chest/robe.xml|#583a1a,a42111,c03a3a,ff8060</sprite>
+    <sprite gender="male">equipment/chest/robe.xml|#583a1a,a42111,c03a3a,ff8060</sprite>
+    <sprite gender="other">equipment/chest/robe.xml|#583a1a,a42111,c03a3a,ff8060</sprite>
     <replace sprite="race">
       <item from="-100" to="-99100"/>
       <item from="-101" to="-99101"/>

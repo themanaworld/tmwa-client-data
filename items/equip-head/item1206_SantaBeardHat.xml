@@ -8,6 +8,7 @@
   </its:rules>
   <item id="1206" image="equipment/head/santabeardhat.png" name="Santa Beard Hat" description="Now you will look just like Santa Claus!" effect="M. Attack +2" type="equip-head" defense="5" weight="20" sellProtected="true">
     <sprite gender="female">equipment/head/santabeardhat-female.xml</sprite>
-    <sprite>equipment/head/santabeardhat.xml</sprite>
+    <sprite gender="male">equipment/head/santabeardhat.xml</sprite>
+    <sprite gender="other">equipment/head/santabeardhat.xml</sprite>
   </item>
 </items>

@@ -8,7 +8,8 @@
   </its:rules>
   <item id="656" image="equipment/head/serf.png" name="Serf Hat" description="A simple hat made from cloth." type="equip-head" weight="20" defense="2">
     <sprite gender="female">equipment/head/serf-female.xml</sprite>
-    <sprite>equipment/head/serf.xml</sprite>
+    <sprite gender="male">equipment/head/serf.xml</sprite>
+    <sprite gender="other">equipment/head/serf.xml</sprite>
     <replace sprite="hair">
       <item from="-6" to="-1"/>
     </replace>

@@ -8,6 +8,7 @@
   </its:rules>
   <item id="741" image="equipment/hands/basicgloves.png|W:#a4b2b2,ffffff" name="Cotton Gloves" description="A pair of comfy cotton gloves." effect="M. Attack -10" type="equip-arms" defense="1" weight="10">
     <sprite gender="female">equipment/hands/generic-female.xml|#a4b2b2,ffffff</sprite>
-    <sprite>equipment/hands/generic.xml|#a4b2b2,ffffff</sprite>
+    <sprite gender="male">equipment/hands/generic.xml|#a4b2b2,ffffff</sprite>
+    <sprite gender="other">equipment/hands/generic.xml|#a4b2b2,ffffff</sprite>
   </item>
 </items>

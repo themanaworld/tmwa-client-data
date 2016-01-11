@@ -8,7 +8,8 @@
   </its:rules>
   <item id="633" image="equipment/head/xmaself.png" name="Christmas Elf Hat" description="A hat worn by Christmas elves." effect="M. Attack +2" type="equip-head" defense="13" weight="30" sellProtected="true">
     <sprite gender="female">equipment/head/xmaself-female.xml</sprite>
-    <sprite>equipment/head/xmaself.xml</sprite>
+    <sprite gender="male">equipment/head/xmaself.xml</sprite>
+    <sprite gender="other">equipment/head/xmaself.xml</sprite>
     <replace sprite="hair">
       <item from="-6" to="-1"/>
     </replace>

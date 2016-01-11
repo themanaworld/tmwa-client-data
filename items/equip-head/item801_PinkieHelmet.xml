@@ -8,7 +8,8 @@
   </its:rules>
   <item id="801" image="equipment/head/pinkie-helmet.png" name="Pinkie Helmet" description="A helmet of Pinkie warriors." effect="M. Attack -20" type="equip-head" defense="10" luck="1" weight="800" sellProtected="true">
     <sprite gender="female">equipment/head/pinkie-helmet-female.xml</sprite>
-    <sprite>equipment/head/pinkie-helmet.xml</sprite>
+    <sprite gender="male">equipment/head/pinkie-helmet.xml</sprite>
+    <sprite gender="other">equipment/head/pinkie-helmet.xml</sprite>
     <replace sprite="hair">
       <item from="-6" to="-1"/>
     </replace>

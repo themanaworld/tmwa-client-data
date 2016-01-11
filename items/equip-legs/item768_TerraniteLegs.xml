@@ -8,6 +8,7 @@
   </its:rules>
   <item id="768" image="equipment/legs/terranitepants.png" name="Terranite Legs" description="Leggings made out of terranite." effect="M. Attack -8 / M. Defense +5" type="equip-legs" defense="5" agi="1" weight="30" sellProtected="true">
     <sprite gender="female">equipment/legs/terranite-female.xml</sprite>
-    <sprite>equipment/legs/terranite.xml</sprite>
+    <sprite gender="male">equipment/legs/terranite.xml</sprite>
+    <sprite gender="other">equipment/legs/terranite.xml</sprite>
   </item>
 </items>

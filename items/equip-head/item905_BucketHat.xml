@@ -8,7 +8,8 @@
   </its:rules>
   <item id="905" image="equipment/head/bucket.png" name="Bucket" description="A Bucket for your head." type="equip-head" defense="5" weight="20">
     <sprite gender="female">equipment/head/bucket-female.xml</sprite>
-    <sprite>equipment/head/bucket.xml</sprite>
+    <sprite gender="male">equipment/head/bucket.xml</sprite>
+    <sprite gender="other">equipment/head/bucket.xml</sprite>
     <replace sprite="hair"/>
   </item>
 </items>

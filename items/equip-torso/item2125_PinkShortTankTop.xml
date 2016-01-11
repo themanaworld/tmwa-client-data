@@ -8,6 +8,7 @@
   </its:rules>
   <item id="2125" image="equipment/chest/tanktop-short.png|W:#bf369b,f25cb1,ff87b7,ffcccf" name="Pink Short Tank Top" description="A short, sleeveless pink shirt for VERY hot summer days." effect="M. Attack -4" type="equip-torso" defense="2" weight="8" drawBefore="pants">
     <sprite gender="female">equipment/chest/shorttanktop-female.xml|#bf369b,f25cb1,ff87b7,ffcccf</sprite>
-    <sprite>equipment/chest/shorttanktop.xml|#bf369b,f25cb1,ff87b7,ffcccf</sprite>
+    <sprite gender="male">equipment/chest/shorttanktop.xml|#bf369b,f25cb1,ff87b7,ffcccf</sprite>
+    <sprite gender="other">equipment/chest/shorttanktop.xml|#bf369b,f25cb1,ff87b7,ffcccf</sprite>
   </item>
 </items>

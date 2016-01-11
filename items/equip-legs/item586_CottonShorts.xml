@@ -8,6 +8,7 @@
   </its:rules>
   <item id="586" image="equipment/legs/shorts.png|W:#a4b2b2,ffffff" name="Cotton Shorts" description="Shorts made of 100% cotton." effect="M. Attack -4" type="equip-legs" weight="15" defense="2">
     <sprite gender="female">equipment/legs/shorts-female.xml|#a4b2b2,ffffff</sprite>
-    <sprite>equipment/legs/shorts.xml|#a4b2b2,ffffff</sprite>
+    <sprite gender="male">equipment/legs/shorts.xml|#a4b2b2,ffffff</sprite>
+    <sprite gender="other">equipment/legs/shorts.xml|#a4b2b2,ffffff</sprite>
   </item>
 </items>

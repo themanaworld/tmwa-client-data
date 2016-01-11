@@ -8,6 +8,7 @@
   </its:rules>
   <item id="721" image="equipment/head/highpriest-crown.png" name="High Priest Crown" description="A golden crown with an enchanted ruby." effect="M. Attack +20 / +20 SP" type="equip-head" defense="4" weight="400" sellProtected="true">
     <sprite gender="female">equipment/head/highpriest-crown-female.xml</sprite>
-    <sprite>equipment/head/highpriest-crown.xml</sprite>
+    <sprite gender="male">equipment/head/highpriest-crown.xml</sprite>
+    <sprite gender="other">equipment/head/highpriest-crown.xml</sprite>
   </item>
 </items>

@@ -8,7 +8,8 @@
   </its:rules>
   <item id="2236" image="equipment/head/bowler-hat-brown.png|W:#111111,222222,333333,444444,555555,aaaaaa" name="Black Bowler Hat (Brown)" description="A hat for those with a bit of class, with a black band." effect="M. Attack +2" type="equip-head" defense="10" weight="30" sellProtected="true">
     <sprite gender="female">equipment/head/bowler-hat-brown-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
-    <sprite>equipment/head/bowler-hat-brown.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+    <sprite gender="male">equipment/head/bowler-hat-brown.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+    <sprite gender="other">equipment/head/bowler-hat-brown.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     <replace sprite="hair">
       <item from="-6" to="-1"/>
     </replace>

@@ -8,6 +8,7 @@
   </its:rules>
   <item id="1217" image="equipment/head/catears.png|M:#774444;W:#777777" name="Cat Ears" description="A pair of plush cat ears. Meow!" effect="M. Attack +1" type="equip-head" defense="1" agi="3" weight="20" sellProtected="true">
     <sprite gender="female">equipment/head/catears-female.xml|#774444;#777777</sprite>
-    <sprite>equipment/head/catears.xml|#774444;#777777</sprite>
+    <sprite gender="male">equipment/head/catears.xml|#774444;#777777</sprite>
+    <sprite gender="other">equipment/head/catears.xml|#774444;#777777</sprite>
   </item>
 </items>

@@ -8,7 +8,8 @@
   </its:rules>
   <item id="511" image="equipment/head/santahat.png" name="Santa Hat" description="Ask Santa about this hat." effect="M. Attack -2" type="equip-head" weight="20" defense="2" sellProtected="true">
     <sprite gender="female">equipment/head/santahat-female.xml|#580000,a40000,c02020;#87876c,bbc39c,edf4e1,ffffff</sprite>
-    <sprite>equipment/head/santahat.xml|#580000,a40000,c02020;#87876c,bbc39c,edf4e1,ffffff</sprite>
+    <sprite gender="male">equipment/head/santahat.xml|#580000,a40000,c02020;#87876c,bbc39c,edf4e1,ffffff</sprite>
+    <sprite gender="other">equipment/head/santahat.xml|#580000,a40000,c02020;#87876c,bbc39c,edf4e1,ffffff</sprite>
     <replace sprite="hair">
       <item from="-6" to="-1"/>
     </replace>

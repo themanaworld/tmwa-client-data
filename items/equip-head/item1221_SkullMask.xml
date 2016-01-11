@@ -8,6 +8,7 @@
   </its:rules>
   <item id="1221" image="equipment/head/skullmask.png" name="Skull Mask" description="A mask made out of bones." effect="M. Attack +5" type="equip-head" defense="3" weight="150" sellProtected="true">
     <sprite gender="female">equipment/head/skullmask-female.xml</sprite>
-    <sprite>equipment/head/skullmask.xml</sprite>
+    <sprite gender="male">equipment/head/skullmask.xml</sprite>
+    <sprite gender="other">equipment/head/skullmask.xml</sprite>
   </item>
 </items>

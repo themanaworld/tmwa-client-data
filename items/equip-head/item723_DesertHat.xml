@@ -8,7 +8,8 @@
   </its:rules>
   <item id="723" image="equipment/head/deserthat.png|R:#ffffff" name="Desert Hat" description="While the desert hat is perfect for sand storms, it won't help you much against a blow to the head." effect="M. Attack -1" type="equip-head" defense="3" weight="20">
     <sprite gender="female">equipment/head/deserthat-female.xml|#87876c,bbc39c,edf4e1,ffffff</sprite>
-    <sprite>equipment/head/deserthat.xml|#87876c,bbc39c,edf4e1,ffffff</sprite>
+    <sprite gender="male">equipment/head/deserthat.xml|#87876c,bbc39c,edf4e1,ffffff</sprite>
+    <sprite gender="other">equipment/head/deserthat.xml|#87876c,bbc39c,edf4e1,ffffff</sprite>
     <replace sprite="hair">
       <item from="-6" to="-1"/>
     </replace>

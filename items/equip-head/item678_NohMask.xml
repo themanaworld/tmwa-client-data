@@ -8,6 +8,7 @@
   </its:rules>
   <item id="678" image="equipment/head/nohmask.png" name="Noh Mask" description="A traditional Japanese mask worn in Noh plays." effect="M. Attack +1" type="equip-head" defense="3" weight="18">
     <sprite gender="female">equipment/head/nohmask-female.xml</sprite>
-    <sprite>equipment/head/nohmask.xml</sprite>
+    <sprite gender="male">equipment/head/nohmask.xml</sprite>
+    <sprite gender="other">equipment/head/nohmask.xml</sprite>
   </item>
 </items>

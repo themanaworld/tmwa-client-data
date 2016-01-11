@@ -8,6 +8,7 @@
   </its:rules>
   <item id="767" image="equipment/chest/terranite.png" name="Terranite Chest Armor" description="A nice piece of armor made out of terranite ore." effect="M. Attack -70 / M. Defense +10" type="equip-torso" defense="20" dex="1" weight="800" sellProtected="true">
     <sprite gender="female">equipment/chest/terranite-female.xml</sprite>
-    <sprite>equipment/chest/terranite.xml</sprite>
+    <sprite gender="male">equipment/chest/terranite.xml</sprite>
+    <sprite gender="other">equipment/chest/terranite.xml</sprite>
   </item>
 </items>

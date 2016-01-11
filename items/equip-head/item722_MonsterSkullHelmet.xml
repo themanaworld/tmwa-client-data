@@ -8,7 +8,8 @@
   </its:rules>
   <item id="722" image="equipment/head/monster-skull-helm.png" name="Monster Skull Helmet" description="The conserved skull of a mysterious ancient monster." effect="M. Attack +10 / M. Defense +20" type="equip-head" defense="7" weight="250" sellProtected="true">
     <sprite gender="female">equipment/head/monster-skull-helm-female.xml</sprite>
-    <sprite>equipment/head/monster-skull-helm.xml</sprite>
+    <sprite gender="male">equipment/head/monster-skull-helm.xml</sprite>
+    <sprite gender="other">equipment/head/monster-skull-helm.xml</sprite>
     <replace sprite="hair">
       <item from="-6" to="-1"/>
     </replace>

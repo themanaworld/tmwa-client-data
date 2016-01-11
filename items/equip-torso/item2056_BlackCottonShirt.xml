@@ -8,7 +8,8 @@
   </its:rules>
   <item id="2056" image="equipment/chest/cottonshirt.png|W:#111111,222222,333333,444444,555555,aaaaaa" name="Black Cotton Shirt" description="A black shirt made of 100% cotton." effect="M. Attack -4" type="equip-torso" defense="2" weight="20">
     <sprite gender="female">equipment/chest/cotton-female.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
-    <sprite>equipment/chest/cotton.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+    <sprite gender="male">equipment/chest/cotton.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
+    <sprite gender="other">equipment/chest/cotton.xml|#111111,222222,333333,444444,555555,aaaaaa</sprite>
     <replace sprite="race">
       <item from="-100" to="-99100"/>
       <item from="-101" to="-99101"/>

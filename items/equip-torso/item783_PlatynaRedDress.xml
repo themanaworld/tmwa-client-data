@@ -8,7 +8,8 @@
   </its:rules>
   <item id="783" image="equipment/chest/valentine-dress.png|R:#bf0e08" name="Platyna Red Dress" description="A silken dress with soft lace trim. If you damage it, you'll never get it to look good again. In special Platyna red." effect="M. Attack +3" type="equip-torso" defense="15" weight="35">
     <sprite gender="female">equipment/chest/valentine-dress-female.xml|#bf0e08</sprite>
-    <sprite>equipment/chest/valentine-dress.xml|#bf0e08</sprite>
+    <sprite gender="male">equipment/chest/valentine-dress.xml|#bf0e08</sprite>
+    <sprite gender="other">equipment/chest/valentine-dress.xml|#bf0e08</sprite>
     <replace sprite="race">
       <item from="-100" to="-99100"/>
       <item from="-101" to="-99101"/>

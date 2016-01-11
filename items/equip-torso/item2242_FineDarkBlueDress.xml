@@ -8,7 +8,8 @@
   </its:rules>
   <item id="2242" image="equipment/chest/fine-dress.png|W:#222255,4444ff,ffffff,ffffff" name="Fine Dark Blue Dress" description="A dark blue dress made from the finest materials." effect="M. Attack +3" type="equip-torso" defense="8" weight="35" sellProtected="true">
     <sprite gender="female">equipment/chest/fine-dress-female.xml|#222255,4444ff,ffffff,ffffff</sprite>
-    <sprite>equipment/chest/fine-dress.xml|#222255,4444ff,ffffff,ffffff</sprite>
+    <sprite gender="male">equipment/chest/fine-dress.xml|#222255,4444ff,ffffff,ffffff</sprite>
+    <sprite gender="other">equipment/chest/fine-dress.xml|#222255,4444ff,ffffff,ffffff</sprite>
     <replace sprite="race">
       <item from="-100" to="-99100"/>
       <item from="-101" to="-99101"/>

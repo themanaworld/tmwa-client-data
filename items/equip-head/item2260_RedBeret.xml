@@ -8,6 +8,7 @@
   </its:rules>
   <item id="2260" image="equipment/head/beret.png|W:#581a1a,a41111,c03a3a,ff6060" name="Red Beret" description="A simple red beret. Fluffies look utterly cute with it." defense="3" weight="20" agi="2" type="equip-head" sellProtected="true">
     <sprite gender="female">equipment/head/beret-female.xml|#581a1a,a41111,c03a3a,ff6060</sprite>
-    <sprite>equipment/head/beret.xml|#581a1a,a41111,c03a3a,ff6060</sprite>
+    <sprite gender="male">equipment/head/beret.xml|#581a1a,a41111,c03a3a,ff6060</sprite>
+    <sprite gender="other">equipment/head/beret.xml|#581a1a,a41111,c03a3a,ff6060</sprite>
   </item>
 </items>

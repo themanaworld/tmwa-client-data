@@ -8,6 +8,7 @@
   </its:rules>
   <item id="4020" image="equipment/head/candlehelmet.png" name="Candle Helmet" description="Worn by spelunkers." effect="M. Attack -25" type="equip-head" defense="16" int="1" agi="-1" weight="450" sellProtected="true">
     <sprite gender="female">equipment/head/candlehelmet-female.xml</sprite>
-    <sprite>equipment/head/candlehelmet.xml</sprite>
+    <sprite gender="male">equipment/head/candlehelmet.xml</sprite>
+    <sprite gender="other">equipment/head/candlehelmet.xml</sprite>
   </item>
 </items>

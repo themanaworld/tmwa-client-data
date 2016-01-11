@@ -8,7 +8,8 @@
   </its:rules>
   <item id="546" image="equipment/chest/desertshirt.png" name="Desert Shirt" description="A shirt suitable for desert trips." effect="M. Attack -18" type="equip-torso" defense="6" weight="20">
     <sprite gender="female">equipment/chest/leather-female.xml|#443c21,85794a,beb590,ffffff;#824035,d6a19a</sprite>
-    <sprite>equipment/chest/leather.xml|#443c21,85794a,beb590,ffffff;#824035,d6a19a</sprite>
+    <sprite gender="male">equipment/chest/leather.xml|#443c21,85794a,beb590,ffffff;#824035,d6a19a</sprite>
+    <sprite gender="other">equipment/chest/leather.xml|#443c21,85794a,beb590,ffffff;#824035,d6a19a</sprite>
     <replace sprite="race">
       <item from="-100" to="-99100"/>
       <item from="-101" to="-99101"/>

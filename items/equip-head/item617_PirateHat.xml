@@ -8,7 +8,8 @@
   </its:rules>
   <item id="617" image="equipment/head/piratehat.png" name="Pirate Hat" description="A pirate hat." effect="M. Attack -8" type="equip-head" weight="40" defense="4">
     <sprite gender="female">equipment/head/piratehat-female.xml</sprite>
-    <sprite>equipment/head/piratehat.xml</sprite>
+    <sprite gender="male">equipment/head/piratehat.xml</sprite>
+    <sprite gender="other">equipment/head/piratehat.xml</sprite>
     <replace sprite="hair">
       <item from="-6" to="-1"/>
     </replace>
