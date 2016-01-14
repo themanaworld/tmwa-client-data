@@ -7,9 +7,8 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="651" image="equipment/chest/silk-robe.png|W:#5e7480,f1ffff,ffffff" name="White Wizard Robe" description="A white robe made for peaceful wizards." defense="5" type="equip-torso" weight="5">
+    <sprite gender="unisex">equipment/chest/robe.xml|#5e7480,f1ffff,ffffff</sprite>
     <sprite gender="female">equipment/chest/robe-female.xml|#5e7480,f1ffff,ffffff</sprite>
-    <sprite gender="male">equipment/chest/robe.xml|#5e7480,f1ffff,ffffff</sprite>
-    <sprite gender="other">equipment/chest/robe.xml|#5e7480,f1ffff,ffffff</sprite>
     <replace sprite="race">
       <item from="-100" to="-99100"/>
       <item from="-101" to="-99101"/>

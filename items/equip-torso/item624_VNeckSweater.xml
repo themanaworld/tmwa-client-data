@@ -7,9 +7,8 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="624" image="equipment/chest/vnecksweater.png|W:#a4b2b2,ffffff" name="V-Neck Sweater" description="A thin, soft and warm sweater." effect="M. Attack -24" type="equip-torso" weight="35" defense="8" drawBefore="pants">
+    <sprite gender="unisex">equipment/chest/vnecksweater.xml|#a4b2b2,ffffff</sprite>
     <sprite gender="female">equipment/chest/vnecksweater-female.xml|#a4b2b2,ffffff</sprite>
-    <sprite gender="male">equipment/chest/vnecksweater.xml|#a4b2b2,ffffff</sprite>
-    <sprite gender="other">equipment/chest/vnecksweater.xml|#a4b2b2,ffffff</sprite>
     <replace sprite="race">
       <item from="-100" to="-99100"/>
       <item from="-101" to="-99101"/>

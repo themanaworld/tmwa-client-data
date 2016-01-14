@@ -7,9 +7,8 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="854" image="equipment/head/elf-nightcap.png" name="Elf Nightcap" description="A comfortable nightcap worn by Santa's helpers." effect="M. Attack +5" type="equip-head" defense="3" weight="50" sellProtected="true">
+    <sprite gender="unisex">equipment/head/elf-nightcap.xml</sprite>
     <sprite gender="female">equipment/head/elf-nightcap-female.xml</sprite>
-    <sprite gender="male">equipment/head/elf-nightcap.xml</sprite>
-    <sprite gender="other">equipment/head/elf-nightcap.xml</sprite>
     <replace sprite="hair">
       <item to="-7"/>
     </replace>

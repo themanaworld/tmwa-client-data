@@ -7,9 +7,8 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="783" image="equipment/chest/fine-dress.png|W:#ff0000,bf0e08" name="Valentine Dress" description="A silken dress with soft lace trim. If you damage it, you'll never get it to look good again. In special valentine red." effect="M. Attack +3" type="equip-torso" defense="15" weight="35">
+    <sprite gender="unisex">equipment/chest/fine-dress.xml|#ff0000,bf0e08</sprite>
     <sprite gender="female">equipment/chest/fine-dress-female.xml|#ff0000,bf0e08</sprite>
-    <sprite gender="male">equipment/chest/fine-dress.xml|#ff0000,bf0e08</sprite>
-    <sprite gender="other">equipment/chest/fine-dress.xml|#ff0000,bf0e08</sprite>
     <replace sprite="race">
       <item from="-100" to="-99100"/>
       <item from="-101" to="-99101"/>
