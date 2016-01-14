@@ -7,9 +7,8 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="524" image="equipment/head/fancyhat.png" name="Fancy Hat" description="A fancy hat." type="equip-head" defense="5" weight="20">
+    <sprite gender="unisex">equipment/head/fancyhat.xml</sprite>
     <sprite gender="female">equipment/head/fancyhat-female.xml</sprite>
-    <sprite gender="male">equipment/head/fancyhat.xml</sprite>
-    <sprite gender="other">equipment/head/fancyhat.xml</sprite>
     <replace sprite="hair">
       <item from="-6" to="-1"/>
     </replace>
