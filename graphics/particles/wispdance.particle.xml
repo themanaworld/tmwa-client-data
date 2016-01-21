@@ -8,10 +8,10 @@ About 180 particles on max detail.
  Does not work with particleFastPhysics  on 2.
 -->
 <effect>
-  <particle position-x="0" position-y="0" position-z="200" lifetime="1">
+  <particle position-x="32" position-y="0" position-z="200" lifetime="1">
     <!-- PURPLE -->
     <emitter>
-      <property name="position-x" value="60"/>
+      <property name="position-x" value="106"/>
       <property name="position-y" value="0"/>
       <property name="position-z" value="20"/>
       <property name="image" value="graphics/particles/orb-large.png|W:#dd66ff,ffffff"/>
@@ -29,7 +29,7 @@ About 180 particles on max detail.
     </emitter>
     <!-- CYAN-->
     <emitter>
-      <property name="position-x" value="-60"/>
+      <property name="position-x" value="-106"/>
       <property name="position-y" value="0"/>
       <property name="position-z" value="20"/>
       <property name="image" value="graphics/particles/orb-large.png|W:#00ffff,ffffff"/>
@@ -40,6 +40,24 @@ About 180 particles on max detail.
       <emitter>
         <property name="output" min="-2" max="2"/>
         <property name="image" value="graphics/particles/star-small.png|W:#00ffff,ffffff"/>
+        <property name="lifetime" min="200" max="250"/>
+        <property name="fade-out" value="200"/>
+        <property name="gravity" value="0.005"/>
+      </emitter>
+    </emitter>
+    <!-- Blue-->
+    <emitter>
+      <property name="position-x" value="-76"/>
+      <property name="position-y" value="0"/>
+      <property name="position-z" value="20"/>
+      <property name="image" value="graphics/particles/orb-large.png|W:#0000dc,ffffff"/>
+      <property name="horizontal-angle" value="60"/>
+      <property name="vertical-angle" value="0"/>
+      <property name="power" value="3"/>
+      <property name="acceleration" value="0.1"/>
+      <emitter>
+        <property name="output" min="-2" max="2"/>
+        <property name="image" value="graphics/particles/star-small.png|W:#0000dc,ffffff"/>
         <property name="lifetime" min="200" max="250"/>
         <property name="fade-out" value="200"/>
         <property name="gravity" value="0.005"/>
