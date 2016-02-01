@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="144" height="124" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="144" height="124" tilewidth="32" tileheight="32" nextobjectid="16">
  <properties>
   <property name="minimap" value="graphics/minimaps/007-1.png"/>
   <property name="music" value="the-forest.ogg"/>
@@ -914,29 +914,29 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup name="Objects" visible="0">
-  <object name="To Woodland" type="warp" x="641" y="1696" width="32" height="64">
+ <objectgroup name="Objects">
+  <object id="1" name="To Woodland" type="warp" x="641" y="1696" width="32" height="64">
    <properties>
     <property name="dest_map" value="010-1"/>
     <property name="dest_tile_x" value="130"/>
     <property name="dest_tile_y" value="53"/>
    </properties>
   </object>
-  <object name="To Hurnscald Outskirts" type="warp" x="2144" y="672" width="128" height="32">
+  <object id="2" name="To Hurnscald Outskirts" type="warp" x="2144" y="672" width="128" height="32">
    <properties>
     <property name="dest_map" value="008-1"/>
     <property name="dest_tile_x" value="78"/>
     <property name="dest_tile_y" value="101"/>
    </properties>
   </object>
-  <object name="To Hurnscald" type="warp" x="3872" y="640" width="96" height="32">
+  <object id="3" name="To Hurnscald" type="warp" x="3872" y="640" width="96" height="32">
    <properties>
     <property name="dest_map" value="008-1"/>
     <property name="dest_tile_x" value="132"/>
     <property name="dest_tile_y" value="98"/>
    </properties>
   </object>
-  <object name="PinkFlower" type="spawn" x="0" y="0">
+  <object id="4" name="PinkFlower" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -944,7 +944,7 @@
     <property name="monster_id" value="12"/>
    </properties>
   </object>
-  <object name="SpikyMushroom" type="spawn" x="0" y="0">
+  <object id="5" name="SpikyMushroom" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -952,7 +952,7 @@
     <property name="monster_id" value="17"/>
    </properties>
   </object>
-  <object name="Snail" type="spawn" x="0" y="0">
+  <object id="6" name="Snail" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -960,7 +960,7 @@
     <property name="monster_id" value="39"/>
    </properties>
   </object>
-  <object name="MauvePlant" type="spawn" x="0" y="0">
+  <object id="7" name="MauvePlant" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_death" value="180000"/>
     <property name="eA_spawn" value="270000"/>
@@ -968,7 +968,7 @@
     <property name="monster_id" value="27"/>
    </properties>
   </object>
-  <object name="GambogePlant" type="spawn" x="0" y="0">
+  <object id="8" name="GambogePlant" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_death" value="1800000"/>
     <property name="eA_spawn" value="2700000"/>
@@ -976,7 +976,7 @@
     <property name="monster_id" value="29"/>
    </properties>
   </object>
-  <object name="Silkworm" type="spawn" x="0" y="0">
+  <object id="9" name="Silkworm" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="60000"/>
@@ -984,14 +984,14 @@
     <property name="monster_id" value="33"/>
    </properties>
   </object>
-  <object name="CloverPatch" type="spawn" x="0" y="0">
+  <object id="10" name="CloverPatch" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_death" value="1000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="35"/>
    </properties>
   </object>
-  <object name="Squirrel" type="spawn" x="0" y="0">
+  <object id="11" name="Squirrel" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_death" value="20"/>
     <property name="eA_spawn" value="30"/>
@@ -999,7 +999,7 @@
     <property name="monster_id" value="36"/>
    </properties>
   </object>
-  <object name="Butterfly" type="spawn" x="0" y="0">
+  <object id="12" name="Butterfly" type="spawn" x="0" y="0">
    <properties>
     <property name="eA_death" value="20"/>
     <property name="eA_spawn" value="30"/>
@@ -1007,7 +1007,14 @@
     <property name="monster_id" value="53"/>
    </properties>
   </object>
-  <object name="graphics/particles/waterfall-1x2.particle.xml" type="particle_effect" x="2474" y="2272" width="12" height="16"/>
-  <object name="graphics/particles/demonic-aura.particle.xml" type="particle_effect" x="2759" y="2122"/>
+  <object id="13" name="graphics/particles/waterfall-1x2.particle.xml" type="particle_effect" x="2474" y="2272" width="12" height="16"/>
+  <object id="14" name="graphics/particles/demonic-aura.particle.xml" type="particle_effect" x="2759" y="2122"/>
+  <object id="15" name="To Witch's Hut" type="warp" x="2336" y="2432" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="007-2"/>
+    <property name="dest_tile_x" value="34"/>
+    <property name="dest_tile_y" value="34"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
