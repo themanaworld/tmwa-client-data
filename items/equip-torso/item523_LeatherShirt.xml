@@ -7,7 +7,15 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="523" image="equipment/chest/leathershirt.png" name="Leather Shirt" description="A shirt made of hardened leather." effect="M. Attack -12" type="equip-torso" defense="4" weight="20">
-    <sprite gender="male">equipment/chest/leather-male.xml|#573a26,9e7654,d3b79e,ffffff;#b96b3d,fbf5f1</sprite>
-    <sprite gender="female">equipment/chest/leather-female.xml|#412300,603100,8d4900;#ffff00</sprite>
+    <sprite gender="unisex">equipment/chest/leather.xml|#573a26,9e7654,d3b79e,ffffff;#b96b3d,fbf5f1</sprite>
+    <sprite gender="female">equipment/chest/leather-female.xml|#573a26,9e7654,d3b79e,ffffff;#b96b3d,fbf5f1</sprite>
+    <replace sprite="race">
+      <item from="-100" to="-99100"/>
+      <item from="-101" to="-99101"/>
+      <item from="-102" to="-99102"/>
+      <item from="-103" to="-99103"/>
+      <item from="-104" to="-99104"/>
+      <item from="-105" to="-99105"/>
+    </replace>
   </item>
 </items>
