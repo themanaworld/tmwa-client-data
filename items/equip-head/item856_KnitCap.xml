@@ -8,25 +8,24 @@
   </its:rules>
   <item id="856" image="equipment/head/knit-cap.png" name="Knit Cap" description="A knitted cap keeping your head warm in the cruel cold." type="equip-head" defense="3" weight="50" sellProtected="true">
     <replace sprite="hair">
-      <item from="-5"/>
+      <item from="-6" to="-1"/>
     </replace>
     <replace direction="left" sprite="hair">
-      <item from="-13"/>
-      <item from="-15" to="-8"/>
+      <item from="-14" to="-1"/>
+      <item from="-16" to="-9"/>
     </replace>
     <replace direction="right" sprite="hair">
-      <item from="-13"/>
-      <item from="-15" to="-8"/>
+      <item from="-14" to="-1"/>
+      <item from="-16" to="-9"/>
     </replace>
     <replace direction="upall" sprite="hair">
-      <item from="-5" to="-5"/>
-      <item from="-14" to="-17"/>
+      <item from="-15" to="-18"/>
     </replace>
     <replace direction="downall" sprite="hair">
-      <item from="-14" to="-8"/>
-      <item from="-15" to="-17"/>
+      <item from="-15" to="-9"/>
+      <item from="-16" to="-18"/>
     </replace>
-    <sprite gender="male">equipment/head/knit-cap-male.xml|#ffffff;#2958b5,3c6cce,90b3fb,c5d8ff;#2453b3,3561bf,638bdc,7799de,b0caff</sprite>
+    <sprite gender="unisex">equipment/head/knit-cap.xml|#ffffff;#2958b5,3c6cce,90b3fb,c5d8ff;#2453b3,3561bf,638bdc,7799de,b0caff</sprite>
     <sprite gender="female">equipment/head/knit-cap-female.xml|#ffffff;#2958b5,3c6cce,90b3fb,c5d8ff;#2453b3,3561bf,638bdc,7799de,b0caff</sprite>
   </item>
 </items>
