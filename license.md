@@ -258,7 +258,7 @@ File | Artists | Licenses
 ---- |:-------:|:--------:
 `graphics/items/equipment/legs/assassinpants.png` | Black Don | GPLv2
 `graphics/items/equipment/legs/bromenallegs.png` | Skipy | GPLv2
-`graphics/items/equipment/legs/chaps.png` | :grey_question: | GPLv2
+`graphics/items/equipment/legs/chaps.png` | Black Don | GPLv2
 `graphics/items/equipment/legs/miniskirt.png` | jak1 | GPLv2
 `graphics/items/equipment/legs/pants.png` | Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/legs/shorts.png` | :grey_question: | GPLv2
@@ -847,8 +847,8 @@ File | Artists | Licenses
 `graphics/sprites/equipment/legs/assassin-male.png` | Black Don | GPLv2
 `graphics/sprites/equipment/legs/bromenallegs-female.png` | Skipy | GPLv2
 `graphics/sprites/equipment/legs/bromenallegs-male.png` | Skipy | GPLv2
-`graphics/sprites/equipment/legs/chaps-female.png` | :grey_question: | GPLv2
-`graphics/sprites/equipment/legs/chaps-male.png` | :grey_question: | GPLv2
+`graphics/sprites/equipment/legs/chaps-female.png` | Black Don | GPLv2
+`graphics/sprites/equipment/legs/chaps-male.png` | Black Don | GPLv2
 `graphics/sprites/equipment/legs/miniskirt-female.png` | jak1 | GPLv2
 `graphics/sprites/equipment/legs/miniskirt-male.png` | jak1 | GPLv2
 `graphics/sprites/equipment/legs/pants-female.png` | :grey_question:, Reid | GPLv2
