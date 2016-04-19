@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="170" height="124" tilewidth="32" tileheight="32" nextobjectid="25">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="170" height="124" tilewidth="32" tileheight="32" nextobjectid="28">
  <properties>
   <property name="minimap" value="graphics/minimaps/055-1.png"/>
   <property name="music" value="mystique-forest.ogg"/>
@@ -782,7 +782,7 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup name="Objects" visible="0">
+ <objectgroup name="Objects">
   <object id="1" name="To Cave" type="warp" x="3200" y="2656" width="32" height="32">
    <properties>
     <property name="dest_map" value="055-3"/>
@@ -968,5 +968,8 @@
     <property name="dest_tile_y" value="63"/>
    </properties>
   </object>
+  <object id="25" name="Pumpkin" type="node" x="1312" y="704" width="224" height="288"/>
+  <object id="26" name="Pumpkin" type="node" x="4256" y="864" width="224" height="224"/>
+  <object id="27" name="Pumpkin" type="node" x="4128" y="736" width="224" height="128"/>
  </objectgroup>
 </map>
