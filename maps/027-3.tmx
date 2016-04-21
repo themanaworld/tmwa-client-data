@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="150" height="125" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="150" height="125" tilewidth="32" tileheight="32" nextobjectid="12">
  <properties>
   <property name="music" value="graveyard.ogg"/>
   <property name="name" value="Crypt Basement"/>
@@ -918,21 +918,21 @@
 </data>
  </layer>
  <objectgroup name="Objects" visible="0">
-  <object name="To Crypts Entrance" type="warp" x="768" y="2144" width="128" height="32">
+  <object id="1" name="To Crypts Entrance" type="warp" x="768" y="2144" width="128" height="32">
    <properties>
     <property name="dest_map" value="027-2"/>
-    <property name="dest_tile_x" value="112"/>
+    <property name="dest_tile_x" value="36"/>
     <property name="dest_tile_y" value="77"/>
    </properties>
   </object>
-  <object name="To Crypts Sub-Basement One" type="warp" x="4000" y="3167" width="125" height="33">
+  <object id="2" name="To Crypts Sub-Basement One" type="warp" x="4000" y="3167" width="125" height="33">
    <properties>
     <property name="dest_map" value="027-4"/>
     <property name="dest_tile_x" value="125"/>
     <property name="dest_tile_y" value="18"/>
    </properties>
   </object>
-  <object name="Skeleton" type="spawn" x="670" y="940" width="965" height="2259">
+  <object id="3" name="Skeleton" type="spawn" x="670" y="940" width="965" height="2259">
    <properties>
     <property name="eA_death" value="8000"/>
     <property name="eA_spawn" value="60000"/>
@@ -940,7 +940,7 @@
     <property name="monster_id" value="41"/>
    </properties>
   </object>
-  <object name="Skeleton" type="spawn" x="2180" y="920" width="1949" height="1001">
+  <object id="4" name="Skeleton" type="spawn" x="2180" y="920" width="1949" height="1001">
    <properties>
     <property name="eA_death" value="8000"/>
     <property name="eA_spawn" value="60000"/>
@@ -948,7 +948,7 @@
     <property name="monster_id" value="41"/>
    </properties>
   </object>
-  <object name="LadySkeleton" type="spawn" x="664" y="936" width="972" height="2259">
+  <object id="5" name="LadySkeleton" type="spawn" x="664" y="936" width="972" height="2259">
    <properties>
     <property name="eA_death" value="8000"/>
     <property name="eA_spawn" value="60000"/>
@@ -956,7 +956,7 @@
     <property name="monster_id" value="42"/>
    </properties>
   </object>
-  <object name="LadySkeleton" type="spawn" x="3192" y="2096" width="928" height="888">
+  <object id="6" name="LadySkeleton" type="spawn" x="3192" y="2096" width="928" height="888">
    <properties>
     <property name="eA_death" value="8000"/>
     <property name="eA_spawn" value="60000"/>
@@ -964,7 +964,7 @@
     <property name="monster_id" value="42"/>
    </properties>
   </object>
-  <object name="Skeleton" type="spawn" x="3206" y="2090" width="909" height="897">
+  <object id="7" name="Skeleton" type="spawn" x="3206" y="2090" width="909" height="897">
    <properties>
     <property name="eA_death" value="8000"/>
     <property name="eA_spawn" value="60000"/>
@@ -972,7 +972,7 @@
     <property name="monster_id" value="41"/>
    </properties>
   </object>
-  <object name="VampireBat" type="spawn" x="2170" y="2435" width="960" height="736">
+  <object id="8" name="VampireBat" type="spawn" x="2170" y="2435" width="960" height="736">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -980,7 +980,7 @@
     <property name="monster_id" value="64"/>
    </properties>
   </object>
-  <object name="PoisonSkull" type="spawn" x="672" y="928" width="3424" height="1088">
+  <object id="9" name="PoisonSkull" type="spawn" x="672" y="928" width="3424" height="1088">
    <properties>
     <property name="eA_death" value="20000"/>
     <property name="eA_spawn" value="60000"/>
@@ -988,7 +988,7 @@
     <property name="monster_id" value="22"/>
    </properties>
   </object>
-  <object name="FireSkull" type="spawn" x="2176" y="2464" width="1952" height="480">
+  <object id="10" name="FireSkull" type="spawn" x="2176" y="2464" width="1952" height="480">
    <properties>
     <property name="eA_death" value="20000"/>
     <property name="eA_spawn" value="60000"/>
@@ -996,6 +996,6 @@
     <property name="monster_id" value="21"/>
    </properties>
   </object>
-  <object name="graphics/particles/warparea.particle.xml" type="particle_effect" x="2624" y="2816" width="64" height="32"/>
+  <object id="11" name="graphics/particles/warparea.particle.xml" type="particle_effect" x="2624" y="2816" width="64" height="32"/>
  </objectgroup>
 </map>
