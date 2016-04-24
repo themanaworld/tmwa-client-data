@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="140" height="140" tilewidth="32" tileheight="32" nextobjectid="90">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="140" height="140" tilewidth="32" tileheight="32" nextobjectid="30">
  <properties>
   <property name="minimap" value="graphics/minimaps/002-1.png"/>
   <property name="music" value="faith.ogg"/>
@@ -1317,21 +1317,21 @@
 </data>
  </layer>
  <objectgroup name="Objects">
-  <object id="3" name="North Tulimshar" type="warp" x="1952" y="640" width="160" height="32">
+  <object id="1" name="North Tulimshar" type="warp" x="1952" y="640" width="160" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
     <property name="dest_tile_x" value="63"/>
     <property name="dest_tile_y" value="118"/>
    </properties>
   </object>
-  <object id="4" name="North Tulimshar" type="warp" x="3232" y="640" width="160" height="32">
+  <object id="2" name="North Tulimshar" type="warp" x="3232" y="640" width="160" height="32">
    <properties>
     <property name="dest_map" value="001-1"/>
     <property name="dest_tile_x" value="103"/>
     <property name="dest_tile_y" value="118"/>
    </properties>
   </object>
-  <object id="6" name="Maggot" type="spawn" x="2592" y="1856" width="800" height="320">
+  <object id="3" name="Maggot" type="spawn" x="2592" y="1856" width="800" height="320">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -1339,7 +1339,7 @@
     <property name="monster_id" value="0"/>
    </properties>
   </object>
-  <object id="7" name="Maggot" type="spawn" x="3424" y="1856" width="384" height="320">
+  <object id="4" name="Maggot" type="spawn" x="3424" y="1856" width="384" height="320">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -1347,7 +1347,7 @@
     <property name="monster_id" value="0"/>
    </properties>
   </object>
-  <object id="8" name="Maggot" type="spawn" x="3296" y="2208" width="384" height="320">
+  <object id="5" name="Maggot" type="spawn" x="3296" y="2208" width="384" height="320">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -1355,7 +1355,7 @@
     <property name="monster_id" value="0"/>
    </properties>
   </object>
-  <object id="9" name="Maggot" type="spawn" x="1952" y="672" width="128" height="512">
+  <object id="6" name="Maggot" type="spawn" x="1952" y="672" width="128" height="512">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -1363,7 +1363,7 @@
     <property name="monster_id" value="0"/>
    </properties>
   </object>
-  <object id="11" name="Scorpion" type="spawn" x="1984" y="2560" width="800" height="1088">
+  <object id="7" name="Scorpion" type="spawn" x="1984" y="2560" width="800" height="1088">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -1371,7 +1371,7 @@
     <property name="monster_id" value="1"/>
    </properties>
   </object>
-  <object id="13" name="Maggot" type="spawn" x="3456" y="3552" width="352" height="256">
+  <object id="8" name="Maggot" type="spawn" x="3456" y="3552" width="352" height="256">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -1379,7 +1379,7 @@
     <property name="monster_id" value="0"/>
    </properties>
   </object>
-  <object id="24" name="Scorpion" type="spawn" x="1216" y="832" width="352" height="2272">
+  <object id="9" name="Scorpion" type="spawn" x="1216" y="832" width="352" height="2272">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -1387,7 +1387,7 @@
     <property name="monster_id" value="1"/>
    </properties>
   </object>
-  <object id="26" name="Scorpion" type="spawn" x="1472" y="2656" width="1600" height="640">
+  <object id="10" name="Scorpion" type="spawn" x="1472" y="2656" width="1600" height="640">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -1395,7 +1395,7 @@
     <property name="monster_id" value="1"/>
    </properties>
   </object>
-  <object id="30" name="RedScorpion" type="spawn" x="992" y="2656" width="640" height="672">
+  <object id="11" name="RedScorpion" type="spawn" x="992" y="2656" width="640" height="672">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -1403,7 +1403,7 @@
     <property name="monster_id" value="2"/>
    </properties>
   </object>
-  <object id="32" name="SeaSlime" type="spawn" x="1216" y="832" width="288" height="960">
+  <object id="12" name="SeaSlime" type="spawn" x="1216" y="832" width="288" height="960">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -1411,7 +1411,7 @@
     <property name="monster_id" value="31"/>
    </properties>
   </object>
-  <object id="33" name="SeaSlime" type="spawn" x="928" y="1760" width="320" height="1312">
+  <object id="13" name="SeaSlime" type="spawn" x="928" y="1760" width="320" height="1312">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -1419,7 +1419,7 @@
     <property name="monster_id" value="31"/>
    </properties>
   </object>
-  <object id="39" name="Scorpion" type="spawn" x="2592" y="1856" width="1216" height="320">
+  <object id="14" name="Scorpion" type="spawn" x="2592" y="1856" width="1216" height="320">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -1427,91 +1427,91 @@
     <property name="monster_id" value="1"/>
    </properties>
   </object>
-  <object id="42" name="To Snake Desert" type="warp" x="3808" y="3008" width="32" height="96">
+  <object id="15" name="To Snake Desert" type="warp" x="3808" y="3008" width="32" height="96">
    <properties>
     <property name="dest_map" value="006-1"/>
     <property name="dest_tile_x" value="21"/>
     <property name="dest_tile_y" value="47"/>
    </properties>
   </object>
-  <object id="44" name="To Desert Mine Camp" type="warp" x="2944" y="3648" width="32" height="32">
+  <object id="16" name="To Desert Mine Camp" type="warp" x="2944" y="3648" width="32" height="32">
    <properties>
     <property name="dest_map" value="002-3"/>
     <property name="dest_tile_x" value="85"/>
     <property name="dest_tile_y" value="49"/>
    </properties>
   </object>
-  <object id="45" name="To Desert Mine Camp" type="warp" x="1056" y="3488" width="32" height="32">
+  <object id="17" name="To Desert Mine Camp" type="warp" x="1056" y="3488" width="32" height="32">
    <properties>
     <property name="dest_map" value="002-3"/>
     <property name="dest_tile_x" value="51"/>
     <property name="dest_tile_y" value="35"/>
    </properties>
   </object>
-  <object id="47" name="To Weavers Shop" type="warp" x="3488" y="1440" width="32" height="32">
+  <object id="18" name="To Weavers Shop" type="warp" x="3488" y="1440" width="32" height="32">
    <properties>
     <property name="dest_map" value="002-2"/>
     <property name="dest_tile_x" value="75"/>
     <property name="dest_tile_y" value="100"/>
    </properties>
   </object>
-  <object id="48" name="To Weavers Shop" type="warp" x="3680" y="1440" width="32" height="32">
+  <object id="19" name="To Weavers Shop" type="warp" x="3680" y="1440" width="32" height="32">
    <properties>
     <property name="dest_map" value="002-2"/>
     <property name="dest_tile_x" value="83"/>
     <property name="dest_tile_y" value="100"/>
    </properties>
   </object>
-  <object id="49" name="To Jeweler" type="warp" x="3168" y="1376" width="32" height="32">
+  <object id="20" name="To Jeweler" type="warp" x="3168" y="1376" width="32" height="32">
    <properties>
     <property name="dest_map" value="002-2"/>
     <property name="dest_tile_x" value="120"/>
     <property name="dest_tile_y" value="66"/>
    </properties>
   </object>
-  <object id="50" name="To Trainer" type="warp" x="3648" y="1120" width="32" height="32">
+  <object id="21" name="To Trainer" type="warp" x="3648" y="1120" width="32" height="32">
    <properties>
     <property name="dest_map" value="002-2"/>
     <property name="dest_tile_x" value="78"/>
     <property name="dest_tile_y" value="131"/>
    </properties>
   </object>
-  <object id="51" name="To Trainer" type="warp" x="3520" y="928" width="32" height="32">
+  <object id="22" name="To Trainer" type="warp" x="3520" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="002-2"/>
     <property name="dest_tile_x" value="68"/>
     <property name="dest_tile_y" value="122"/>
    </properties>
   </object>
-  <object id="52" name="To Tulimshar Indoor" type="warp" x="2336" y="1120" width="32" height="32">
+  <object id="23" name="To Tulimshar Indoor" type="warp" x="2336" y="1120" width="32" height="32">
    <properties>
     <property name="dest_map" value="002-2"/>
     <property name="dest_tile_x" value="44"/>
     <property name="dest_tile_y" value="33"/>
    </properties>
   </object>
-  <object id="54" name="To KPS" type="warp" x="1824" y="1120" width="32" height="32">
+  <object id="24" name="To KPS" type="warp" x="1824" y="1120" width="32" height="32">
    <properties>
     <property name="dest_map" value="002-2"/>
     <property name="dest_tile_x" value="120"/>
     <property name="dest_tile_y" value="94"/>
    </properties>
   </object>
-  <object id="83" name="To Tulimshar Indoor" type="warp" x="2144" y="928" width="32" height="32">
+  <object id="25" name="To Tulimshar Indoor" type="warp" x="2144" y="928" width="32" height="32">
    <properties>
     <property name="dest_map" value="002-2"/>
     <property name="dest_tile_x" value="23"/>
     <property name="dest_tile_y" value="109"/>
    </properties>
   </object>
-  <object id="84" name="To Snake Cave" type="warp" x="3616" y="3424" width="32" height="32">
+  <object id="26" name="To Snake Cave" type="warp" x="3616" y="3424" width="32" height="32">
    <properties>
     <property name="dest_map" value="005-3"/>
     <property name="dest_tile_x" value="52"/>
-    <property name="dest_tile_y" value="35"/>
+    <property name="dest_tile_y" value="37"/>
    </properties>
   </object>
-  <object id="85" name="FireGoblin" type="spawn" x="2016" y="3040" width="672" height="704">
+  <object id="27" name="FireGoblin" type="spawn" x="2016" y="3040" width="672" height="704">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -1519,14 +1519,14 @@
     <property name="monster_id" value="1011"/>
    </properties>
   </object>
-  <object id="86" name="To Sea Cave" type="warp" x="1568" y="640" width="32" height="32">
+  <object id="28" name="To Sea Cave" type="warp" x="1568" y="640" width="32" height="32">
    <properties>
     <property name="dest_map" value="004-3"/>
     <property name="dest_tile_x" value="24"/>
     <property name="dest_tile_y" value="94"/>
    </properties>
   </object>
-  <object id="89" name="Omar's House" type="warp" x="1824" y="832" width="32" height="32">
+  <object id="29" name="Omar's House" type="warp" x="1824" y="832" width="32" height="32">
    <properties>
     <property name="dest_map" value="002-2"/>
     <property name="dest_tile_x" value="119"/>
