@@ -1123,6 +1123,7 @@ File | Artists | Licenses
 `graphics/tiles/witch_sisters_picture_x3.png` | :grey_question: | GPLv2
 `graphics/tiles/woodenpump.png` | Varuna | GPLv2, CC BY-SA 3.0
 `graphics/tiles/wood_lab.png` | Fate, Varuna, Enchilado, Wushin | GPLv2
+`graphics/tiles/wood_lab_small.png` | Fate, Varuna, Enchilado, Wushin | GPLv2
 `graphics/tiles/woodland_graveyard_crypt.png` | :grey_question:, Spit23 | GPLv2
 `graphics/tiles/woodland_graveyard_ground.png` | :grey_question:, Crush | GPLv2
 `graphics/tiles/woodland_graveyard_x3.png` | :grey_question:, Black Don, Crush | GPLv2
