@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//var/quest/@name" translate="yes"/>
+    <its:translateRule selector="//var/quest/name" translate="yes"/>
+    <its:translateRule selector="//var/quest/text" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <var id="24">
+    <effect map="009-4.tmx" npc="158" value="2,3,4,5,6,8,9,10,11" effect="45"/>
+    <effect map="009-4.tmx" npc="158" value="12,13,14" effect="46"/>
+	<quest name="Orum Quest" group="Argeas" incomplete="1">
+      <name>Orum Quest</name>
+      <text>Orum need your help for save his mentor.</text>
+      <text>That require few item, give it to him !</text>
+      <text/>
+      <text>Quest Giver: Orum.</text>
+      <text>Reward: Unknown.</text>
+      </quest>
+	<quest name="Orum Quest" group="Argeas" incomplete="2,3,4,5">
+      <name>Orum Quest</name>
+      <text>Is time to explore the cave.</text>
+      <text/>
+      <text>Quest Giver: Orum.</text>
+      <text>Reward: Unknown</text>    
+      </quest>
+	<quest name="Orum Quest" group="Argeas" incomplete="6">
+      <name>Orum Quest</name>
+      <text>You found a different torche, talk to this to Orum.</text>
+      <text/>
+      <text>Quest Giver: Orum.</text>
+      <text>Reward: Unknown</text>    
+      </quest>
+	<quest name="Orum Quest" group="Argeas" incomplete="7">
+      <name>Orum Quest</name>
+      <text>Orum need items for make special powders.</text>
+      <text/>
+      <text>Quest Giver: Orum.</text>
+      <text>Reward: Unknown</text>    
+      </quest>
+	<quest name="Orum Quest" group="Argeas" incomplete="8">
+      <name>Orum Quest</name>
+      <text>You need to resolve the problem of barriers.</text>
+      <text/>
+      <text>Quest Giver: Orum.</text>
+      <text>Reward: Unknown</text>    
+      </quest>
+	<quest name="Orum Quest" group="Argeas" incomplete="11">
+      <name>Orum Quest</name>
+      <text>That seem unlocked, you have to talk to Orum.</text>
+      <text/>
+      <text>Quest Giver: Orum.</text>
+      <text>Reward: Unknown</text>    
+      </quest>
+	<quest name="Orum Quest" group="Argeas" complete="12">
+      <name>Orum Quest</name>
+      <text>You finally save the mentor of Orum. Maybe you want show him...</text>
+      <text/>
+      <text>Quest Giver: Orum.</text>
+      <text>Reward: A [@@4020|Candle Helmet@@]</text> 
+      </quest>
+	<quest name="Orum Quest" group="Argeas" complete="13">
+      <name>Orum Quest</name>
+      <text>Orum found finally his mentor, great !</text>
+      <text/>
+      <text>Quest Giver: Orum.</text>
+      <text>Reward: A [@@4020|Candle Helmet@@]</text>
+      </quest>
+	<quest name="Orum Quest" group="Argeas" complete="14">
+      <name>Orum Quest</name>
+      <text>Waric and Orum are happy, the dark won...</text>
+      <text/>
+      <text>Quest Giver: Orum.</text>
+      <text>Reward: A [@@4020|Candle Helmet@@] and 10000 EXP.</text> 
+      </quest>
+    </var>
+</quests>
