@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//var/quest/@name" translate="yes"/>
+    <its:translateRule selector="//var/quest/name" translate="yes"/>
+    <its:translateRule selector="//var/quest/text" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <var id="25">
+    <effect map="020-2.tmx" npc="137" value="1" effect="45"/>
+    <effect map="020-2.tmx" npc="137" value="23" effect="46"/>
+    <quest name="Agostine The Tailor" group="Kaizei" incomplete="1">
+      <name>Fur Quest</name>
+      <text>Bring some different beverages for Agostine.</text>
+    </quest>
+    <quest name="Agostine The Tailor" group="Kaizei" complete="13">
+      <name>Fur Quest</name>
+      <text>You have your warm boot, congratz.</text>
+    </quest>
+  </var>
+</quests>
