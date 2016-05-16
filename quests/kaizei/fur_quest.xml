@@ -7,15 +7,56 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <var id="25">
-    <effect map="020-2.tmx" npc="137" value="1" effect="45"/>
-    <effect map="020-2.tmx" npc="137" value="23" effect="46"/>
+    <effect map="020-2.tmx" npc="137" value="1,3,4,5,7,8" effect="45"/>
+    <effect map="020-2.tmx" npc="137" value="2,6,9" effect="46"/>
     <quest name="Agostine The Tailor" group="Kaizei" incomplete="1">
       <name>Fur Quest</name>
       <text>Bring some different beverages for Agostine.</text>
     </quest>
-    <quest name="Agostine The Tailor" group="Kaizei" complete="13">
+    <quest name="Agostine The Tailor" group="Kaizei" incomplete="2">
       <name>Fur Quest</name>
-      <text>You have your warm boot, congratz.</text>
+      <text>Agostine looks pleased as he drinks the potion.</text>
+      <text/>
+      <text>Quest Giver: Agostine.</text>
+      <text>Reward: 500 GP.</text>
+    </quest>
+    <quest name="Agostine The Tailor" group="Kaizei" incomplete="3">
+      <name>Fur Quest</name>
+      <text>Agostine is a tailor, they can't hunt animals for fluffy fur. Maybe you can help ?</text>
+      <text/>
+      <text>They need some [@@611|@@].</text>
+    </quest>
+    <quest name="Agostine The Tailor" group="Kaizei" incomplete="4">
+      <name>Fur Quest</name>
+      <text>Bring your fur to Agostine! They want the best of fur.</text>
+    </quest>
+     <quest name="Agostine The Tailor" group="Kaizei" incomplete="5">
+      <name>Fur Quest</name>
+      <text>You finally found the good furs. But now Agostine want 15,000 GP for the work.</text>
+    </quest>
+    <quest name="Agostine The Tailor" group="Kaizei" incomplete="6">
+      <name>Fur Quest</name>
+      <text>Agostine made you a pair of warm winter gloves, congratz!</text>
+      <text/>
+      <text>Quest Giver: Agostine.</text>
+      <text>Reward: [@@563|@@]</text>
+    </quest>
+    <quest name="Agostine The Tailor" group="Kaizei" incomplete="7">
+      <name>Fur Quest</name>
+      <text>How you know, Agostine is a tailor, they can't hunt animals for fluffy fur. Maybe you can help ?</text>
+      <text/>
+      <text>They need some [@@611|@@] and one pair of [@@528|@@]</text>
+    </quest>
+     <quest name="Agostine The Tailor" group="Kaizei" incomplete="8">
+      <name>Fur Quest</name>
+      <text>You finally found the good furs. But now Agostine want again 15,000 GP for the work.</text>
+    </quest>
+   <quest name="Agostine The Tailor" group="Kaizei" complete="9,10">
+      <name>Fur Quest</name>
+      <text>You have your own pair of warm fur boots, congratz.</text>
+      <text/>
+      <text>Quest Giver: Agostine.</text>
+      <text>Reward: [@@655|@@]</text>
     </quest>
   </var>
 </quests>
