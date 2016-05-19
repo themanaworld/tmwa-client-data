@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//var/quest/@name" translate="yes"/>
+    <its:translateRule selector="//var/quest/name" translate="yes"/>
+    <its:translateRule selector="//var/quest/text" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <var id="29">
+    <effect map="009-2.tmx" npc="150" value="1" effect="45"/>
+    <effect map="009-2.tmx" npc="150" value="15" effect="46"/>
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="1">
+      <name>Inspector</name>
+      <text>Inspector need your help for solve the robberie problem, talk to villagers.</text>
+    </quest>
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="2">
+      <name>Inspector</name>
+      <text>The old Woman seem wanted to talk only with inspector.</text>
+      <text>Talk to this to inspector, or maybe if you wear the same outfit of inspector...</text>
+    </quest>
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="3">
+      <name>Inspector</name>
+      <text>You have an information ! Talk to this to inspector !</text>
+    </quest>
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="4">
+      <name>Inspector</name>
+      <text>The troup leader is suspect, try to talk with him he moved to Tulimshar recently.</text>
+    </quest>
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="5">
+      <name>Inspector</name>
+      <text>The troup leader seeing an old man near to the troup in Hurnscald.</text>
+      <text>Inspector need this information.</text>
+    </quest>
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="6">
+      <name>Inspector</name>
+      <text>You have to interrogate the old man, find him.</text>
+    </quest>
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="7">
+      <name>Inspector</name>
+      <text>That seem are not the old man.</text>
+      <text>Talk to this to inspector, or verify the alibi this with his wife.</text>
+    </quest>
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="8">
+      <name>Inspector</name>
+      <text>Defenetly, his wife say they are stay in home all night.</text>
+    </quest>
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="9">
+      <name>Inspector</name>
+      <text>We return to the first point, ask villagers again...</text>
+    </quest>
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="10">
+      <name>Inspector</name>
+      <text>Seem the old woman see someone with a large satchel, talk to this to inspector.</text>
+    </quest>
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="11">
+      <name>Inspector</name>
+      <text>Search in basement, something here has informations.</text>
+    </quest>
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="12">
+      <name>Inspector</name>
+      <text>You find a mask and a note, grind it to inspector.</text>
+    </quest>
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="13">
+      <name>Inspector</name>
+      <text>Inspector want you for return the mask to the troup.</text>
+    </quest>
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="14">
+      <name>Inspector</name>
+      <text>The troup leader are happy by your job, he give you a [@@678|@@] !</text>
+      <text>You receive 1500 EXP too.</text>
+    </quest>
+    <quest name="Robberies In Hurnscald" group="Argeas" complete="15">
+      <name>Inspector</name>
+      <text>The roberrie of Hurnscald are solved, but we don't know who make this...</text>
+      <text>You receive 2500 EXP.</text>
+    </quest>
+  </var>
+</quests>
