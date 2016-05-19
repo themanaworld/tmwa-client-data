@@ -7,8 +7,8 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <var id="24">
-    <effect map="009-4.tmx" npc="158" value="2,3,4,5,6,8,9,10,11" effect="45"/>
-    <effect map="009-4.tmx" npc="158" value="12,13,14" effect="46"/>
+    <effect map="009-4.tmx" npc="158" value="2,3,4,5,6,8,9,10,11,12,13" effect="45"/>
+    <effect map="009-4.tmx" npc="158" value="14,36,41" effect="46"/>
     <quest name="Orum Quest" group="Argeas" incomplete="1">
       <name>Orum Quest</name>
       <text>Orum needs your help to save his friend, Waric.</text>
@@ -38,7 +38,7 @@
       <text>Quest Giver: Orum.</text>
       <text>Reward: Unknown</text>
     </quest>
-    <quest name="Orum Quest" group="Argeas" incomplete="8">
+    <quest name="Orum Quest" group="Argeas" incomplete="8,9,10">
       <name>Orum Quest</name>
       <text>Return to the cave below Orum, and open all the barriers.</text>
       <text/>
@@ -52,14 +52,14 @@
       <text>Quest Giver: Orum.</text>
       <text>Reward: Unknown</text>
     </quest>
-    <quest name="Orum Quest" group="Argeas" complete="12">
+    <quest name="Orum Quest" group="Argeas" incomplete="12">
       <name>Orum Quest</name>
       <text>As a reward, you get the Candle Helmet.  Congratz!</text>
       <text/>
       <text>Quest Giver: Orum.</text>
       <text>Reward: A [@@4020|Candle Helmet@@]</text>
     </quest>
-    <quest name="Orum Quest" group="Argeas" complete="13">
+    <quest name="Orum Quest" group="Argeas" incomplete="13">
       <name>Orum Quest</name>
       <text>Disobey Orum and go back into the cave and through the last barrier you opened.</text>
       <text/>
@@ -72,6 +72,141 @@
       <text/>
       <text>Quest Giver: Orum.</text>
       <text>Reward: A [@@4020|Candle Helmet@@] and 10000 EXP.</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="15">
+      <name>Orum</name>
+      <text>You pass the door, what is this cave ?</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="16">
+      <name>Orum</name>
+      <text>Prove you are serious, and bring to Orum this items :</text>
+      <text/>
+      <text>%%E 5 [@@566|@@]</text> 
+      <text>%%E 5 [@@701|@@]</text> 
+      <text>%%E 1 [@@674|@@]</text> 
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="17">
+      <name>Orum</name>
+      <text>Orum gave you the first magic flower, place it in the right place.</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="18">
+      <name>Orum</name>
+      <text>The first flower is placed, go back to Orum.</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="19">
+      <name>Orum</name>
+      <text>Prove you are serious, and bring to Orum this items :</text>
+      <text/>
+      <text>%%E 5 [@@565|@@]</text> 
+      <text>%%E 5 [@@507|@@]</text> 
+      <text>%%E 1 [@@673|@@]</text> 
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="20">
+      <name>Orum</name>
+      <text>Orum gave you the second magic flower, place it in the right place.</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="21">
+      <name>Orum</name>
+      <text>The second flower is placed, go back to Orum.</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="22">
+      <name>Orum</name>
+      <text>Prove you are serious, and bring to Orum this items :</text>
+      <text/>
+      <text>%%E 5 [@@611|@@]</text> 
+      <text>%%E 5 [@@517|@@]</text> 
+      <text>%%E 1 [@@672|@@]</text> 
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="23">
+      <name>Orum</name>
+      <text>Orum gave you the third magic flower, place it in the right place.</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="24">
+      <name>Orum</name>
+      <text>The second third is placed, go back to Orum.</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="25">
+      <name>Orum</name>
+      <text>Prove you are serious, and bring to Orum this items :</text>
+      <text/>
+      <text>%%E 5 [@@613|@@]</text> 
+      <text>%%E 5 [@@4000|@@]</text> 
+      <text>%%E 1 [@@665|@@]</text> 
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="26">
+      <name>Orum</name>
+      <text>Orum gave you the fourth magic flower, place it in the right place.</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="27">
+      <name>Orum</name>
+      <text>The second fourth is placed, go back to Orum.</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="28">
+      <name>Orum</name>
+      <text>Here we go for the last flower, bring to Orum this items :</text>
+      <text/>
+      <text>%%E 20 [@@743|@@]</text> 
+      <text>%%E 5 [@@709|@@]</text> 
+      <text>%%E 3 [@@700|@@]</text> 
+      <text>%%E 1 [@@661|@@]</text> 
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="29">
+      <name>Orum</name>
+      <text>Ouch... You fail the mixture. But, you won a [@@897|@@] !</text>
+      <text>Bring a [@@661|@@] to Orum.</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="30">
+      <name>Orum</name>
+      <text>Orum gave you the fourth magic flower, place it in the right place.</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="31">
+      <name>Orum</name>
+      <text>The second fourth is placed, go back to Orum.</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" complete="32">
+      <name>Orum</name>
+      <text>The pentagram is ended. Orum is happy by your job.</text>
+      <text/>
+      <text>You won 100,000 GP and 100,000 EXP.</text>
+    </quest>
+    <quest name="Dark Magic Skill" group="Argeas" incomplete="33">
+      <name>Waric</name>
+      <text>Are you really ready for learn the Dark Skill ?</text>
+    </quest>
+    <quest name="Dark Magic Skill" group="Argeas" incomplete="34">
+      <name>Waric</name>
+      <text>Don't be a coward, and say the oath ! It's your last chance.</text>
+    </quest>
+    <quest name="Dark Magic Skill" group="Argeas" complete="35">
+      <name>Waric</name>
+      <text>Seem you are not made for the dark side...</text>
+    </quest>
+    <quest name="Dark Magic Skill" group="Argeas" incomplete="36">
+      <name>Waric</name>
+      <text>You are officialy the ennemie of Sagatha, welcome in the dark side !</text>
+      <text/>
+      <text>You won 150,000 EXP.</text>
+    </quest>
+    <quest name="Dark Magic Skill" group="Argeas" incomplete="37">
+      <name>Waric</name>
+      <text>You learn #helorp ! Try to learn some speel to Waric.</text>
+    </quest>
+    <quest name="Dark Magic Skill" group="Argeas" incomplete="38">
+      <name>Waric</name>
+      <text>You learn #phlex ! Try to learn some speel to Waric.</text>
+    </quest>
+    <quest name="Dark Magic Skill" group="Argeas" incomplete="39">
+      <name>Waric</name>
+      <text>This time Waric need ingredient for learn you a spell.</text>
+      <text>Gring him a [@@740|@@] and a [@@714|@@].</text>
+    </quest>
+    <quest name="Dark Magic Skill" group="Argeas" incomplete="40">
+      <name>Waric</name>
+      <text>Ask Waric about the spell.</text>
+    </quest>
+    <quest name="Dark Magic Skill" group="Argeas" complete="41">
+      <name>Waric</name>
+      <text>You learn #halhiss, this is the last spell. For now...</text>
     </quest>
   </var>
 </quests>

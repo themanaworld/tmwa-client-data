@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//var/quest/@name" translate="yes"/>
+    <its:translateRule selector="//var/quest/name" translate="yes"/>
+    <its:translateRule selector="//var/quest/text" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <var id="26">
+    <effect map="009-2.tmx" npc="182" value="1" effect="45"/>
+    <effect map="009-2.tmx" npc="182" value="2,6" effect="46"/>
+    <quest name="Bandit Quest" group="Argeas" incomplete="1">
+      <name>Lena</name>
+      <text>You accepted to help Lena to fight bandits, fight them and come back with 10 [@@4016|@@] !</text>
+    </quest>
+    <quest name="Bandit Quest" group="Argeas" incomplete="2">
+      <name>Lena</name>
+      <text>You got a [@@770|@@] !</text>
+    </quest>
+    <quest name="Bandit Quest" group="Argeas" incomplete="3">
+      <name>Lena</name>
+      <text>Sadly the leader of bandits are still in a cave just west of Hurnscald, defeat him !</text>
+    </quest>
+    <quest name="Bandit Quest" group="Argeas" incomplete="4">
+      <name>Lena</name>
+      <text>Bryant find the Bandit Lord, he is in cave of south and east, a red carpet is in front of cave. Be strong and defeat the Bandit Lord !</text>
+    </quest>
+    <quest name="Bandit Quest" group="Argeas" incomplete="5">
+      <name>Lena</name>
+      <text>You finally defeat the Bandit Lord ! Go to see Lena.</text>
+    </quest>
+    <quest name="Bandit Quest" group="Argeas" complete="6">
+      <name>Lena</name>
+      <text>You got the incredible [@@782|@@] ! The peace coming back to Hurnscald.</text>
+    </quest>
+  </var>
+</quests>
