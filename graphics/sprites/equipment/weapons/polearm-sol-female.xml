@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<sprite variants="135" variant_offset="1">
+  <imageset name="polearm-blunt" src="graphics/sprites/equipment/weapons/polearm-staff-of-life.png|W" width="128" height="128"/>
+  <action name="default" imageset="polearm-blunt"/>
+  <action name="stand" imageset="polearm-blunt">
+    <animation direction="down">
+      <frame offsetY="32" index="0"/>
+    </animation>
+    <animation direction="left">
+      <frame offsetY="32" index="18"/>
+    </animation>
+    <animation direction="up">
+      <frame offsetY="32" index="36"/>
+    </animation>
+    <animation direction="right">
+      <frame offsetY="32" index="54"/>
+    </animation>
+  </action>
+  <action name="walk" imageset="polearm-blunt">
+    <animation direction="down">
+      <sequence offsetY="32" start="1" end="6" delay="75"/>
+    </animation>
+    <animation direction="left">
+      <sequence offsetY="32" start="19" end="24" delay="75"/>
+    </animation>
+    <animation direction="up">
+      <sequence offsetY="32" start="37" end="42" delay="75"/>
+    </animation>
+    <animation direction="right">
+      <sequence offsetY="32" start="55" end="60" delay="75"/>
+    </animation>
+  </action>
+  <action name="sit" imageset="polearm-blunt">
+    <animation direction="down">
+      <frame offsetY="32" index="7"/>
+    </animation>
+    <animation direction="left">
+      <frame offsetY="32" index="25"/>
+    </animation>
+    <animation direction="up">
+      <frame offsetY="32" index="43"/>
+    </animation>
+    <animation direction="right">
+      <frame offsetY="32" index="61"/>
+    </animation>
+  </action>
+  <action name="dead" imageset="polearm-blunt">
+    <animation direction="down">
+      <frame offsetY="32" index="8"/>
+    </animation>
+    <animation direction="left">
+      <frame offsetY="32" index="26"/>
+    </animation>
+    <animation direction="up">
+      <frame offsetY="32" index="44"/>
+    </animation>
+    <animation direction="right">
+      <frame offsetY="32" index="62"/>
+    </animation>
+  </action>
+  <action name="attack_sword_stab" imageset="polearm-blunt">
+    <animation direction="down">
+      <sequence offsetY="32" start="9" end="12" delay="100"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <sequence offsetY="32" start="27" end="30" delay="100"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <sequence offsetY="32" start="45" end="48" delay="100"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <sequence offsetY="32" start="63" end="66" delay="100"/>
+      <end/>
+    </animation>
+  </action>
+  <action name="attack" imageset="polearm-blunt">
+    <animation direction="down">
+      <sequence offsetY="32" start="9" end="12" delay="100"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <sequence offsetY="32" start="27" end="30" delay="100"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <sequence offsetY="32" start="45" end="48" delay="100"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <sequence offsetY="32" start="63" end="66" delay="100"/>
+      <end/>
+    </animation>
+  </action>
+</sprite>
