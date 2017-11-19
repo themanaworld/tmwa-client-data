@@ -2,16 +2,18 @@
 <!-- Author: 4144
 Copyright (C) 2011-2012 Evol Online -->
 <equipment>
-  <playerbox x="50" y="80" width="74" height="123"/>
-  <slot name="torso" x="94" y="48" image="0"/>
-  <slot name="gloves" x="8" y="92" image="1"/>
-  <slot name="hat" x="72" y="4" image="2"/>
-  <slot name="pants" x="50" y="226" image="3"/>
-  <slot name="boots" x="94" y="226" image="4"/>
-  <slot name="cape" x="8" y="182" image="5"/>
-  <slot name="wings" x="136" y="182" image="6"/>
-  <slot name="scarf" x="50" y="48" image="5"/>
-  <slot name="weapon" x="8" y="137" image="7"/>
-  <slot name="shield" x="136" y="137" image="8"/>
-  <slot name="ammo" x="136" y="92" image="9"/>
+  <page name="default">
+    <playerbox x="50" y="80" width="74" height="123"/>
+    <slot name="torso" x="94" y="48" image="0"/>
+    <slot name="gloves" x="8" y="92" image="1"/>
+    <slot name="hat" x="72" y="4" image="2"/>
+    <slot name="pants" x="50" y="226" image="3"/>
+    <slot name="boots" x="94" y="226" image="4"/>
+    <slot name="cape" x="8" y="182" image="5"/>
+    <slot name="wings" x="136" y="182" image="6"/>
+    <slot name="scarf" x="50" y="48" image="5"/>
+    <slot name="weapon" x="8" y="137" image="7"/>
+    <slot name="shield" x="136" y="137" image="8"/>
+    <slot name="ammo" x="136" y="92" image="9"/>
+  </page>
 </equipment>
