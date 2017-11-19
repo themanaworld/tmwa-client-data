@@ -23,8 +23,8 @@
 <being-effects>
   <!-- Core effect - used by the TMW magic system - do not change the ids
         without testing the corresponding magic spells. -->
-  <effect id="0" audio="sfx/system/levelup.ogg" particle="graphics/particles/levelup.particle.xml"/>
-  <effect id="1" audio="sfx/system/levelup.ogg" particle="graphics/particles/skillup.particle.xml"/>
+  <effect id="0" audio="system/levelup.ogg" particle="graphics/particles/levelup.particle.xml"/>
+  <effect id="1" audio="system/levelup.ogg" particle="graphics/particles/skillup.particle.xml"/>
   <effect id="2" particle="graphics/particles/magic.generic.xml"/>
   <!-- life -->
   <effect id="3" particle="graphics/particles/magic.white.xml"/>
@@ -92,6 +92,6 @@
   <effect id="400" particle="graphics/particles/monster-goblin-firebreath.particle.xml"/>
   <effect id="401" particle="graphics/particles/monster-lizard-firebreath.particle.xml"/>
   <!-- Add the data needed for the electricity boss battle. -->
-  <effect id="402" audio="sfx/system/ship-bell2.ogg"/>
-  <effect id="403" audio="sfx/monsters/bat/bat-hit1.ogg"/>
+  <effect id="402" audio="system/ship-bell2.ogg"/>
+  <effect id="403" audio="monsters/bat/bat-hit1.ogg"/>
 </being-effects>
