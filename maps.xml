@@ -61,7 +61,7 @@
     <atlas name="woodland"/>
   </map>
   <map name="029-1.tmx">
-    <atlas name="woodland"/>
+    <atlas name="tropical"/>
   </map>
   <map name="052-1.tmx">
     <atlas name="woodland"/>
@@ -99,7 +99,7 @@
   </map>
   <!-- Desert & Woodland -->
   <map name="051-1.tmx">
-    <atlas name="desert"/>
+    <atlas name="illia"/>
   </map>
   <!-- Ships -->
   <map name="017-9.tmx">
@@ -122,9 +122,9 @@
     <atlas name="interiordesert"/>
   </map>
   <!-- Woodland Interiors -->
-  <!-- map name="007-2.tmx">
+  <map name="007-2.tmx">
     <atlas name="interiorwoodland"/>
-  </map -->
+  </map>
   <!-- map name="008-2.tmx">
     <atlas name="interiorwoodland"/>
   </map -->
@@ -132,6 +132,9 @@
     <atlas name="interiorwoodland"/>
   </map>
   <map name="009-7.tmx">
+    <atlas name="interiorwoodland"/>
+  </map>
+  <map name="009-8.tmx">
     <atlas name="interiorwoodland"/>
   </map>
   <map name="010-2.tmx">
@@ -152,9 +155,9 @@
   <!-- map name="015-2.tmx">
     <atlas name="interiorwoodland"/>
   </map -->
-  <!-- map name="016-2.tmx">
+  <map name="016-2.tmx">
     <atlas name="interiorwoodland"/>
-  </map -->
+  </map>
   <map name="017-2.tmx">
     <atlas name="interiorwoodland"/>
   </map>
@@ -164,11 +167,11 @@
   <!-- map name="025-2.tmx">
     <atlas name="interiorwoodland"/>
   </map -->
-  <!-- map name="026-2.tmx">
+  <map name="026-2.tmx">
     <atlas name="interiorwoodland"/>
-  </map -->
+  </map>
   <map name="027-2.tmx">
-    <atlas name="interiorwoodland"/>
+    <atlas name="crypt"/>
   </map>
   <!-- map name="028-2.tmx">
     <atlas name="interiorwoodland"/>
@@ -204,6 +207,9 @@
   </map>
   <map name="034-2.tmx">
     <atlas name="interiorsnow"/>
+  </map>
+  <map name="047-3.tmx">
+    <atlas name="snowunderground"/>
   </map>
   <map name="048-2.tmx">
     <atlas name="interiorsnow"/>
@@ -399,11 +405,28 @@
     <file name="graphics/tiles/docks.png"/>
     <file name="graphics/tiles/docks_x2.png"/>
     <file name="graphics/tiles/docks_x4.png"/>
-    <file name="graphics/tiles/mountain.png"/>
     <file name="graphics/tiles/trans_woodland_desert.png"/>
     <file name="graphics/tiles/waterflow.png"/>
     <file name="graphics/tiles/water_overflow.png"/>
     <file name="graphics/tiles/water.png"/>
+    <file name="graphics/sprites/npcs/signs.png"/>
+  </atlas>
+  <atlas name="illia">
+    <file name="graphics/tiles/desert1.png"/>
+    <file name="graphics/tiles/desert2.png"/>
+    <file name="graphics/tiles/desert_city.png"/>
+    <file name="graphics/tiles/desert_x2.png"/>
+    <file name="graphics/tiles/desert_x3.png"/>
+    <file name="graphics/tiles/desert_x5.png"/>
+    <file name="graphics/tiles/docks.png"/>
+    <file name="graphics/tiles/trans_woodland_desert.png"/>
+    <file name="graphics/tiles/water_overflow.png"/>
+    <file name="graphics/tiles/woodland_ground.png"/>
+    <file name="graphics/tiles/woodland_x2.png"/>
+    <file name="graphics/tiles/woodland_x3.png"/>
+    <file name="graphics/tiles/woodland_village.png"/>
+    <file name="graphics/tiles/woodland_village_x2.png"/>
+    <file name="graphics/tiles/soulmenhirs_x2.png"/>
   </atlas>
   <!-- Woodland Atlas -->
   <atlas name="woodland">
@@ -431,6 +454,29 @@
     <file name="graphics/tiles/woodland_x4.png"/>
     <file name="graphics/tiles/woodland_x5.png"/>
     <file name="graphics/tiles/woodland_x8.png"/>
+    <file name="graphics/tiles/desert1.png"/>
+    <file name="graphics/tiles/trans_woodland_desert.png"/>
+    <file name="graphics/tiles/snow_village2.png"/>
+    <file name="graphics/tiles/snow.png"/>
+    <file name="graphics/tiles/snow_tree_x3.png"/>
+    <file name="graphics/tiles/docks.png"/>
+    <file name="graphics/tiles/docks_x2.png"/>
+    <file name="graphics/tiles/docks_x4.png"/>
+  </atlas>
+  <atlas name="tropical">
+    <file name="graphics/tiles/trans_woodland_desert.png"/>
+    <file name="graphics/tiles/woodland_ground.png"/>
+    <file name="graphics/tiles/woodland_x2.png"/>
+    <file name="graphics/tiles/woodland_x3.png"/>
+    <file name="graphics/tiles/waterflow.png"/>
+    <file name="graphics/tiles/water_overflow.png"/>
+    <file name="graphics/tiles/water.png"/>
+    <file name="graphics/tiles/woodland_village.png"/>
+    <file name="graphics/tiles/woodland_village_x2.png"/>
+    <file name="graphics/tiles/woodland_village_x3.png"/>
+    <file name="graphics/tiles/docks.png"/>
+    <file name="graphics/tiles/docks_x2.png"/>
+    <file name="graphics/tiles/desert_x5.png"/>
   </atlas>
   <!-- Snow Atlas -->
   <atlas name="snow">
@@ -445,6 +491,9 @@
     <file name="graphics/tiles/snow_village.png"/>
     <file name="graphics/tiles/snow_x2.png"/>
     <file name="graphics/tiles/snow_x3.png"/>
+    <file name="graphics/tiles/snow_x4.png"/>
+    <file name="graphics/tiles/snow_village_x3.png"/>
+    <file name="graphics/tiles/snow_village_x4.png"/>
   </atlas>
   <!-- Crypt -->
   <atlas name="crypt">
@@ -456,6 +505,7 @@
     <file name="graphics/tiles/crypt_fringe_x3.png"/>
     <file name="graphics/tiles/crypt_x4.png"/>
     <file name="graphics/tiles/woodland_indoor.png"/>
+    <file name="graphics/tiles/woodland_indoor_x3.png"/>
   </atlas>
   <!-- Ship -->
   <atlas name="ship">
@@ -493,8 +543,11 @@
     <file name="graphics/tiles/woodland_indoor.png"/>
     <file name="graphics/tiles/woodland_indoor_x2.png"/>
     <file name="graphics/tiles/woodland_indoor_x3.png"/>
-    <file name="graphics/tiles/potsx2.png"/>
+    <file name="graphics/tiles/pots_x2.png"/>
     <file name="graphics/tiles/woodland_village.png"/>
+    <file name="graphics/tiles/witch_sisters_picture_x3.png"/>
+    <file name="graphics/tiles/cave2_sewer_mine_x4.png"/>
+    <file name="graphics/tiles/wood_lab_small.png"/>
   </atlas>
   <atlas name="interiorsnow">
     <file name="graphics/tiles/inn2.png"/>
@@ -569,5 +622,6 @@
   </atlas>
   <atlas name="ignored">
       <file name="graphics/tiles/collision.png"/>
+      <file name="graphics/tiles/arrows.png"/>
   </atlas>
 </maps>
