@@ -59,6 +59,12 @@ File | Artists | Licenses
 `graphics/emotes/vicious.png` | Reid | GPLv2, CC BY-SA 3.0
 `graphics/emotes/wink.png` | Modanung | GPLv2, CC BY-SA 3.0
 
+### Badges
+File | Artists | Licenses
+---- |:-------:|:--------:
+`graphics/badges/guilds/crc.png` | Micksha | CC BY-SA 3.0
+`graphics/badges/guilds/phoenixcouncil.png` | JovanCormac, Narus | CC BY-SA 3.0
+
 ### Gui Icons
 File | Artists | Licenses
 ---- |:-------:|:--------:
