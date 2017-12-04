@@ -6,7 +6,7 @@
     <its:translateRule selector="//item/@effect" translate="yes"/>
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
-  <item id="2131" image="equipment/head/deserthat.png|R:#255511,579932,4aaf36,4ed65e" name="Green Desert Hat" description="While the green desert hat is perfect for sand storms, it won't help you much against a blow to the head." effect="M. Attack -1" type="equip-head" defense="3" weight="20">
+  <item id="2131" image="equipment/head/deserthat.png|R:#255511,579932,4aaf36,4ed65e" name="Green Desert Hat" description="While the green desert hat is perfect for sand storms, it won't help you much against a blow to the head." mattack="-1" type="equip-head" defense="3" weight="20">
     <sprite gender="unisex">equipment/head/deserthat.xml|#255511,579932,4aaf36,4ed65e</sprite>
     <sprite gender="female">equipment/head/deserthat-female.xml|#255511,579932,4aaf36,4ed65e</sprite>
     <replace sprite="hair">

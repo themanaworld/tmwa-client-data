@@ -4,39 +4,52 @@ Copyright (C) 2016 Evol Online -->
 <itemfields>
   <required>
     <field name="level" description="Req. level %s" signed="false"/>
+    <field name="req-int" description="Req. intelligence %s" signed="false"/>
+    <field name="req-dex" description="Req. dexterity %s" signed="false"/>
+    <field name="req-str" description="Req. strength %s" signed="false"/>
+    <field name="req-vit" description="Req. vitality %s" signed="false"/>
+    <field name="req-luk" description="Req. luck %s" signed="false"/>
   </required>
   <add>
-    <field name="attack" description="Attack %s" signed="true"/>
-    <field name="minattack" description="Min attack %s" signed="true"/>
-    <field name="maxattack" description="Max attack %s" signed="true"/>
-    <field name="criticalattack" description="Critical attack %s" signed="true"/>
+    <field name="attack" description="Damage %s" signed="true"/>
+    <!--field name="minattack" description="Min attack %s" signed="true"/-->
+    <!--field name="maxattack" description="Max attack %s" signed="true"/-->
+    <field name="criticalattack" description="Critical damage %s" signed="true"/>
     <field name="mattack" description="M. Attack %s" signed="true"/>
     <field name="defense" description="Defense %s" signed="true"/>
-    <field name="mindefense" description="Min defense %s" signed="true"/>
-    <field name="maxdefense" description="Max defense %s" signed="true"/>
+    <!--field name="mindefense" description="Min defense %s" signed="true"/-->
+    <!--field name="maxdefense" description="Max defense %s" signed="true"/-->
     <field name="criticaldefense" description="Critical defense %s" signed="true"/>
     <field name="mdefense" description="M. Defense %s" signed="true"/>
-    <field name="minmdefense" description="Min M. Defense %s" signed="true"/>
-    <field name="maxmdefense" description="Max M. Defense %s" signed="true"/>
+    <!--field name="minmdefense" description="Min M. Defense %s" signed="true"/-->
+    <!--field name="maxmdefense" description="Max M. Defense %s" signed="true"/-->
     <field name="hp" description="HP %s" signed="true"/>
     <field name="maxhp" description="Max HP %s" signed="true"/>
-    <field name="mp" description="MP %s" signed="true"/>
-    <field name="maxmp" description="Max MP %s" signed="true"/>
-    <field name="speed" description="Speed %s" signed="true"/>
-    <field name="atkspeed" description="Attack speed %s" signed="true"/>
-    <field name="range" description="Range %s" signed="true"/>
+    <field name="mp" description="Mana %s" signed="true"/>
+    <field name="maxmp" description="Max mana %s" signed="true"/>
+    <!--field name="speed" description="Speed %s" signed="true"/-->
+    <!--field name="atkspeed" description="Attack speed %s" signed="true"/-->
+    <!--field name="range" description="Range %s" signed="true"/-->
+    <field name="attack-range" description="Attack range %s" signed="true"/>
     <field name="flee" description="Flee %s" signed="true"/>
-    <field name="minflee" description="Min flee %s" signed="true"/>
-    <field name="maxflee" description="Max flee %s" signed="true"/>
-    <field name="hit" description="Perc. accuracy %s" signed="true"/>
-    <field name="cardslots" description="Card slots %s" signed="false"/>
-    <field name="exp" description="Experience %s" signed="true"/>
-    <field name="karma" description="Karma %s" signed="true"/>
-    <field name="manner" description="Manner %s" signed="true"/>
-    <field name="money" description="Money %s" signed="true"/>
-    <field name="maxweight" description="Max weight %s" signed="true"/>
-    <field name="jobexp" description="Job exp. %s" signed="true"/>
-    <field name="hprecovery" description="Hp recov. rate %s" signed="true"/>
-    <field name="sprecovery" description="Sp recov. rate %s" signed="true"/>
+    <!--field name="minflee" description="Min flee %s" signed="true"/-->
+    <!--field name="maxflee" description="Max flee %s" signed="true"/-->
+    <field name="hit" description="Accuracy %s" signed="true"/>
+    <!--field name="cardslots" description="Card slots %s" signed="false"/-->
+    <!--field name="exp" description="Experience %s" signed="true"/-->
+    <!--field name="karma" description="Karma %s" signed="true"/-->
+    <!--field name="manner" description="Manner %s" signed="true"/-->
+    <!--field name="money" description="Money %s" signed="true"/-->
+    <!--field name="maxweight" description="Max weight %s" signed="true"/-->
+    <!--field name="jobexp" description="Job exp. %s" signed="true"/-->
+    <!--field name="hprecovery" description="Hp recov. rate %s" signed="true"/-->
+    <!--field name="sprecovery" description="Sp recov. rate %s" signed="true"/-->
+    <!--field name="sellProtected" description="[Sell Protected]"/-->
+    <field name="str" description="Strength %s" signed="true"/>
+    <field name="agi" description="Agility %s" signed="true"/>
+    <field name="vit" description="Vitality %s" signed="true"/>
+    <field name="int" description="Intelligence %s" signed="true"/>
+    <field name="dex" description="Dexterity %s" signed="true"/>
+    <field name="luk" description="Luck %s" signed="true"/>
   </add>
 </itemfields>
