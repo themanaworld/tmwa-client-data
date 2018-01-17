@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+An storm
+-->
+<effect>
+  <particle position-x="0" position-y="0" position-z="0">
+    <emitter>
+      <property name="position-x" min="-1000" max="1000"/>
+      <property name="position-y" min="-1000" max="1000"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="90"/>
+      <property name="power" min="0" max="0"/>
+      <property name="gravity" value="0"/>
+      <property name="power" min="0.1" max="0.3"/>
+      <property name="gravity" value="-0.04"/>
+      <property name="image" value="graphics/particles/lightning-map.png"/>
+      <property name="lifetime" min="3" max="5"/>
+      <property name="output" min="5" max="8"/>
+      <property name="output-pause" min="800" max="1000"/>
+      <property name="fade-in" value="1"/>
+      <property name="fade-out" value="1"/>
+      <property name="randomness" value="30"/>
+    </emitter>
+  </particle>
+</effect>
