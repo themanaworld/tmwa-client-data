@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="5208" image="equipment/chest/bra-female.png|R:#3c1554,6d3195,c987d1" name="Orchid Bra" description="For hot summer days." mattack="-4" type="equip-torso" defense="2" weight="12" drawBefore="pants">
+    <sprite gender="unisex">equipment/chest/bra-female.xml|#3c1554,6d3195,c987d1</sprite>
+  </item>
+</items>
