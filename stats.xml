@@ -1,37 +1,26 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Author: 4144
 Copyright (C) 2016 Evol Online -->
 <stats>
   <basic>
-    <stat id="13" tag="str" name="Strength"/>
-    <stat id="14" tag="agi" name="Agility"/>
-    <stat id="15" tag="vit" name="Vitality"/>
-    <stat id="16" tag="int" name="Intelligence"/>
-    <stat id="17" tag="dex" name="Dexterity"/>
-    <stat id="18" tag="luk" name="Luck"/>
+    <stat id="13" tag="str" attr="PLAYER_STR" name="Strength"/>
+    <stat id="14" tag="agi" attr="PLAYER_AGI" name="Agility"/>
+    <stat id="15" tag="vit" attr="PLAYER_VIT" name="Vitality"/>
+    <stat id="16" tag="int" attr="PLAYER_INT" name="Intelligence"/>
+    <stat id="17" tag="dex" attr="PLAYER_DEX" name="Dexterity"/>
+    <stat id="18" tag="luk" attr="PLAYER_LUK" name="Luck"/>
   </basic>
   <extended>
-    <!-- ATK -->
-    <stat id="112" name="Attack"/>
-    <!-- DEF -->
-    <stat id="111" name="Defense"/>
-    <!-- MATK -->
-    <stat id="110" name="M.Attack"/>
-    <!-- MDEF -->
-    <stat id="109" name="M.Defense"/>
-    <!-- HIT -->
-    <stat id="108" name="% Accuracy"/>
-    <!-- FLEE -->
-    <stat id="107" name="% Evade"/>
-    <!-- CRIT -->
-    <stat id="106" name="% Critical"/>
-    <!-- ATTACK_DELAY -->
-    <stat id="100" name="Attack Delay"/>
-    <!-- WALK_SPEED -->
-    <stat id="102" name="Walk Delay"/>
-    <!-- ATTACK_RANGE -->
-    <stat id="101" name="Attack Range"/>
-    <!-- ATTACK_SPEED -->
-    <stat id="103" name="Damage per sec."/>
+    <stat id="112" attr="PLAYER_ATK" name="Attack"/>
+    <stat id="111" attr="PLAYER_DEF" name="Defense"/>
+    <stat id="110" attr="PLAYER_MATK" name="M.Attack"/>
+    <stat id="109" attr="PLAYER_MDEF" name="M.Defense"/>
+    <stat id="108" attr="PLAYER_HIT" name="% Accuracy"/>
+    <stat id="107" attr="PLAYER_FLEE" name="% Evade"/>
+    <stat id="106" attr="PLAYER_CRIT" name="% Critical"/>
+    <stat id="100" attr="PLAYER_ATTACK_DELAY" name="Attack Delay"/>
+    <stat id="102" attr="PLAYER_WALK_SPEED" name="Walk Delay"/>
+    <stat id="101" attr="PLAYER_ATTACK_RANGE" name="Attack Range"/>
+    <stat id="103" attr="PLAYER_ATTACK_SPEED" name="Damage per sec."/>
   </extended>
 </stats>
