@@ -363,6 +363,16 @@
   <map name="027-8.tmx">
     <atlas name="crypt"/>
   </map>
+  <!-- Wormhole -->
+  <map name="003-1.tmx">
+    <atlas name="wormhole"/>
+  </map>
+  <map name="070-1.tmx">
+    <atlas name="wormhole"/>
+  </map>
+  <map name="070-3.tmx">
+    <atlas name="wormhole"/>
+  </map>
   <!-- Atlas All -->
   <atlas name="all">
     <file name="graphics/particles/aniblaze-medium.png|W:#746767"/>
@@ -410,6 +420,32 @@
     <file name="graphics/tiles/water_overflow.png"/>
     <file name="graphics/tiles/water.png"/>
     <file name="graphics/sprites/npcs/signs.png"/>
+  </atlas>
+  <!-- Wormhole Atlas -->
+  <atlas name="wormhole">
+    <file name="graphics/images/ambient/spotlight.png"/>
+    <file name="graphics/images/ambient/rain.png"/>
+    <file name="graphics/images/ambient/fog.png"/>
+    <file name="graphics/tiles/2006__desert1.png"/>
+    <file name="graphics/tiles/2006__desert2.png"/>
+    <file name="graphics/tiles/2006__desert_x2.png"/>
+    <file name="graphics/tiles/2006__desert_x3.png"/>
+    <file name="graphics/sprites/npcs/2006__npcs.png"/>
+    <file name="graphics/tiles/crypt_x8.png"/>
+    <file name="graphics/tiles/crypt_reaper_room.png"/>
+    <file name="graphics/tiles/woodland_swamp.png"/>
+    <file name="graphics/tiles/woodland_ground.png"/>
+    <file name="graphics/tiles/woodland_graveyard_ground.png"/>
+    <file name="graphics/tiles/woodland_graveyard_x3.png"/>
+    <file name="graphics/tiles/woodland_graveyard_x4.png"/>
+    <file name="graphics/tiles/woodland_x2.png"/>
+    <file name="graphics/tiles/woodland_x3.png"/>
+    <file name="graphics/tiles/woodland_x5.png"/>
+    <file name="graphics/tiles/woodland_x8.png"/>
+    <file name="graphics/tiles/woodland_graveyard_crypt.png"/>
+    <file name="graphics/particles/soulpool.png"/>
+    <file name="graphics/particles/fountain-blood.png"/>
+    <file name="graphics/particles/lightning-map.png"/>
   </atlas>
   <atlas name="illia">
     <file name="graphics/tiles/desert1.png"/>
