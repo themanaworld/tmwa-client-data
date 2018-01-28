@@ -10,6 +10,11 @@ notifications:
 
 sudo: false
 
+addons:
+  apt:
+    packages:
+    - libxml2-utils
+
 install:
   - pushd ..
   - git clone --depth 1 git://github.com/themanaworld/tmw-tools.git tools
