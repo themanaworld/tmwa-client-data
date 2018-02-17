@@ -2,12 +2,183 @@
 <!-- Author: 4144
 Copyright (C) 2017 Evol Online -->
 <groups>
-  <group id="0"/>
-  <group id="1" name="Bot" longName="Bot"/>
-  <group id="40" name="Dev" longName="Developer"/>
-  <group id="50" name="Event" longName="Event coordinator"/>
-  <group id="60" name="GM" longName="Game master" showBadge="true"/>
-  <group id="80" name="Dev" longName="Developer high"/>
-  <group id="98" name="Admin" longName="Administrator"/>
-  <group id="99" name="Admin" longName="Administrator"/>
+  <group id="0" name="Player" longName="Player">
+    <commands>
+      <command name="help" use="self"/>
+      <command name="setleader" use="self"/>
+      <command name="servertime" use="self"/>
+      <command name="email" use="self"/>
+      <command name="pvp" use="self"/>
+      <command name="wgm" use="self"/>
+      <command name="source" use="self"/>
+    </commands>
+    <permissions>
+      <permission name="can_trade"/>
+      <permission name="can_party"/>
+      <permission name="view_equipment"/>
+    </permissions>
+  </group>
+  <group id="1" name="Bot" longName="Bot" inherit="0"/>
+  <group id="40" name="Dev" longName="Developer" inherit="1">
+    <commands>
+      <command name="broadcast" use="self"/>
+      <command name="localbroadcast" use="self"/>
+      <command name="die" use="self"/>
+      <command name="where" use="self"/>
+      <command name="goto" use="self"/>
+      <command name="npc" use="self"/>
+      <command name="kick" use="self"/>
+      <command name="who" use="self"/>
+      <command name="whogroup" use="self"/>
+      <command name="whomap" use="self"/>
+      <command name="whomapgroup" use="self"/>
+      <command name="whogm" use="self"/>
+      <command name="charstats" use="self"/>
+      <command name="heal" use="self"/>
+      <command name="hide" use="self"/>
+      <command name="jump" use="self"/>
+      <command name="save" use="self"/>
+      <command name="return" use="self"/>
+      <command name="warp" use="self"/>
+      <command name="hairstyle" use="self"/>
+      <command name="haircolor" use="self"/>
+      <command name="itemreset" use="self"/>
+      <command name="log" use="self"/>
+      <command name="l" use="self"/>
+      <command name="tee" use="self"/>
+      <command name="t" use="self"/>
+      <command name="changesex" use="self"/>
+      <command name="class" use="self"/>
+      <command name="npctalk" use="self"/>
+      <command name="music" use="self"/>
+      <command name="remotecmd" use="self"/>
+      <command name="python" use="both"/>
+    </commands>
+    <permissions>
+      <permission name="hide_session"/>
+      <permission name="who_display_aid"/>
+      <permission name="any_warp"/>
+    </permissions>
+  </group>
+  <group id="41" name="Dev" longName="Developer (hidden)" inherit="40"/>
+  <group id="50" name="Event" longName="Event coordinator" inherit="41">
+    <commands>
+      <command name="invisible" use="self"/>
+      <command name="visible" use="self"/>
+      <command name="summon" use="self"/>
+      <command name="spawn" use="self"/>
+      <command name="charclass" use="self"/>
+    </commands>
+  </group>
+  <group id="51" name="Event" longName="Event coordinator (hidden)" inherit="50"/>
+  <group id="60" name="GM" longName="Game master" showBadge="true" inherit="51">
+    <commands>
+      <command name="charpvp" use="self"/>
+      <command name="charstatsall" use="self"/>
+      <command name="pvpon" use="self"/>
+      <command name="pvpoff" use="self"/>
+      <command name="exprate" use="self"/>
+      <command name="speed" use="self"/>
+      <command name="killmonster" use="self"/>
+      <command name="killmonster2" use="self"/>
+      <command name="ipcheck" use="self"/>
+      <command name="storeall" use="self"/>
+      <command name="alive" use="self"/>
+      <command name="blvl" use="self"/>
+      <command name="jlvl" use="self"/>
+      <command name="charbaselvl" use="self"/>
+      <command name="charchangesex" use="self"/>
+      <command name="chardelitem" use="self"/>
+      <command name="charjlvl" use="self"/>
+      <command name="charstpoint" use="self"/>
+      <command name="charskpoint" use="self"/>
+      <command name="charreset" use="self"/>
+      <command name="charstreset" use="self"/>
+      <command name="charskreset" use="self"/>
+      <command name="charwipe" use="self"/>
+      <command name="charsave" use="self"/>
+      <command name="kill" use="self"/>
+      <command name="recall" use="self"/>
+      <command name="revive" use="self"/>
+      <command name="charwarp" use="self"/>
+      <command name="str" use="self"/>
+      <command name="agi" use="self"/>
+      <command name="vit" use="self"/>
+      <command name="luk" use="self"/>
+      <command name="dex" use="self"/>
+      <command name="int" use="self"/>
+      <command name="allstats" use="self"/>
+      <command name="stpoint" use="self"/>
+      <command name="skpoint" use="self"/>
+      <command name="block" use="self"/>
+      <command name="unblock" use="self"/>
+      <command name="ban" use="self"/>
+      <command name="unban" use="self"/>
+      <command name="chardropall" use="self"/>
+      <command name="hugo" use="self"/>
+      <command name="linus" use="self"/>
+      <command name="mute" use="self"/>
+      <command name="stfu" use="self"/>
+    </commands>
+    <permissions>
+      <permission name="all_equipment"/>
+      <permission name="hack_info"/>
+      <permission name="receive_requests"/>
+    </permissions>
+  </group>
+  <group id="61" name="GM" longName="Game master (hidden)" inherit="60"/>
+  <group id="80" name="Dev" longName="Core developer" inherit="61">
+    <commands>
+      <command name="setmagic" use="self"/>
+      <command name="magicinfo" use="self"/>
+      <command name="option" use="self"/>
+      <command name="zeny" use="self"/>
+      <command name="charzeny" use="self"/>
+      <command name="charoption" use="self"/>
+      <command name="addwarp" use="self"/>
+      <command name="doom" use="self"/>
+      <command name="doommap" use="self"/>
+      <command name="recallall" use="self"/>
+      <command name="raise" use="self"/>
+      <command name="raisemap" use="self"/>
+      <command name="enablenpc" use="self"/>
+      <command name="disablenpc" use="self"/>
+      <command name="npcmove" use="self"/>
+      <command name="lostskill" use="self"/>
+      <command name="idsearch" use="self"/>
+      <command name="item" use="self"/>
+      <command name="itemcheck" use="self"/>
+      <command name="debug" use="self"/>
+    </commands>
+  </group>
+  <group id="81" name="Dev" longName="Core developer (hidden)" inherit="80"/>
+  <group id="98" name="Admin" longName="Administrator (hidden)" inherit="81">
+    <commands>
+      <command name="dropall" use="self"/>
+      <command name="questskill" use="self"/>
+      <command name="effect" use="self"/>
+      <command name="charmodel" use="self"/>
+      <command name="party" use="self"/>
+      <command name="partyrecall" use="self"/>
+      <command name="partyspy" use="self"/>
+      <command name="charitemlist" use="self"/>
+      <command name="charstoragelist" use="self"/>
+      <command name="charquestskill" use="self"/>
+      <command name="charlostskill" use="self"/>
+      <command name="model" use="self"/>
+      <command name="kami" use="self"/>
+      <command name="kickall" use="self"/>
+      <command name="mapexit" use="self"/>
+      <command name="gat" use="self"/>
+      <command name="packet" use="self"/>
+      <command name="mapinfo" use="self"/>
+      <command name="storage" use="self"/>
+    </commands>
+    <permissions>
+      <permission name="join_chat"/>
+      <permission name="hchsys_admin"/>
+      <permission name="all_commands"/>
+    </permissions>
+  </group>
+  <group id="99" name="Admin" longName="Administrator" showBadge="true" inherit="98"/>
 </groups>
