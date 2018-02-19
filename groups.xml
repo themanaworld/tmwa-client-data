@@ -27,7 +27,6 @@ Copyright (C) 2017 Evol Online -->
       <command name="where" use="self"/>
       <!--command name="goto" use="self"/-->
       <!--command name="npc" use="self"/-->
-      <command name="kick" use="self"/>
       <command name="who" use="self"/>
       <!--command name="whogroup" use="self"/-->
       <command name="whomap" use="self"/>
@@ -53,6 +52,9 @@ Copyright (C) 2017 Evol Online -->
       <!--command name="music" use="self"/-->
       <!--command name="remotecmd" use="self"/-->
       <!--command name="python" use="both"/-->
+      <command name="alive" use="self"/>
+      <command name="recall" use="self"/>
+      <command name="storage" use="self"/>
     </commands>
     <permissions>
       <permission name="hide_session"/>
@@ -83,7 +85,6 @@ Copyright (C) 2017 Evol Online -->
       <command name="killmonster2" use="self"/>
       <!--command name="ipcheck" use="self"/-->
       <command name="storeall" use="self"/>
-      <command name="alive" use="self"/>
       <command name="blvl" use="self"/>
       <command name="jlvl" use="self"/>
       <!--command name="charbaselvl" use="self"/-->
@@ -98,7 +99,6 @@ Copyright (C) 2017 Evol Online -->
       <!--command name="charwipe" use="self"/-->
       <!--command name="charsave" use="self"/-->
       <command name="kill" use="self"/>
-      <command name="recall" use="self"/>
       <!--command name="revive" use="self"/-->
       <!--command name="charwarp" use="self"/-->
       <command name="str" use="self"/>
@@ -115,10 +115,14 @@ Copyright (C) 2017 Evol Online -->
       <command name="ban" use="self"/>
       <command name="unban" use="self"/>
       <!--command name="chardropall" use="self"/-->
+      <!--command name="charstoreall" use="self"/-->
       <!--command name="hugo" use="self"/-->
       <!--command name="linus" use="self"/-->
       <command name="mute" use="self"/>
       <!--command name="stfu" use="self"/-->
+      <command name="kick" use="self"/>
+      <command name="doommap" use="self"/>
+      <command name="raisemap" use="self"/>
     </commands>
     <permissions>
       <permission name="all_equipment"/>
@@ -137,10 +141,8 @@ Copyright (C) 2017 Evol Online -->
       <!--command name="charoption" use="self"/-->
       <command name="addwarp" use="self"/>
       <command name="doom" use="self"/>
-      <command name="doommap" use="self"/>
       <command name="recallall" use="self"/>
       <command name="raise" use="self"/>
-      <command name="raisemap" use="self"/>
       <!--command name="enablenpc" use="self"/-->
       <!--command name="disablenpc" use="self"/-->
       <command name="npcmove" use="self"/>
@@ -172,7 +174,6 @@ Copyright (C) 2017 Evol Online -->
       <command name="gat" use="self"/>
       <!--command name="packet" use="self"/-->
       <command name="mapinfo" use="self"/>
-      <command name="storage" use="self"/>
     </commands>
     <permissions>
       <permission name="join_chat"/>
