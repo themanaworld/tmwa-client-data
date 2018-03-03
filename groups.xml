@@ -2,7 +2,7 @@
 <!-- Author: 4144
 Copyright (C) 2017 Evol Online -->
 <groups>
-  <group id="0" name="Player" longName="Player" showBadge="false">
+  <group id="0" name="Player" longName="Player" showBadge="false" highlightName="false">
     <commands>
       <command name="help" use="self"/>
       <!--command name="setleader" use="self"/-->
@@ -18,8 +18,8 @@ Copyright (C) 2017 Evol Online -->
       <permission name="view_equipment"/>
     </permissions>
   </group>
-  <group id="1" name="Bot" longName="Bot" inherit="0" badge="groups/bot.xml" showBadge="true"/>
-  <group id="40" name="Dev" longName="Developer" inherit="1" badge="groups/dev.xml" showBadge="true">
+  <group id="1" name="Bot" longName="Bot" inherit="0" badge="groups/bot.xml" showBadge="true" highlightName="false"/>
+  <group id="40" name="Dev" longName="Developer" inherit="1" badge="groups/dev.xml" showBadge="true" highlightName="false">
     <commands>
       <command name="broadcast" use="self"/>
       <command name="localbroadcast" use="self"/>
@@ -62,8 +62,8 @@ Copyright (C) 2017 Evol Online -->
       <permission name="any_warp"/>
     </permissions>
   </group>
-  <group id="41" name="Dev" longName="Developer (hidden)" inherit="40" showBadge="false"/>
-  <group id="50" name="Event" longName="Event coordinator" inherit="41" badge="groups/event.xml" showBadge="true">
+  <group id="41" name="Dev" longName="Developer (hidden)" inherit="40" showBadge="false" highlightName="false"/>
+  <group id="50" name="Event" longName="Event coordinator" inherit="41" badge="groups/event.xml" showBadge="true" highlightName="false">
     <commands>
       <!--command name="invisible" use="self"/-->
       <!--command name="visible" use="self"/-->
@@ -72,8 +72,8 @@ Copyright (C) 2017 Evol Online -->
       <!--command name="charclass" use="self"/-->
     </commands>
   </group>
-  <group id="51" name="Event" longName="Event coordinator (hidden)" inherit="50" showBadge="false"/>
-  <group id="60" name="GM" longName="Game master" showBadge="true" inherit="51">
+  <group id="51" name="Event" longName="Event coordinator (hidden)" inherit="50" showBadge="false" highlightName="false"/>
+  <group id="60" name="GM" longName="Game master" showBadge="true" highlightName="true" inherit="51">
     <commands>
       <!--command name="charpvp" use="self"/-->
       <!--command name="charstatsall" use="self"/-->
@@ -130,8 +130,8 @@ Copyright (C) 2017 Evol Online -->
       <permission name="receive_requests"/>
     </permissions>
   </group>
-  <group id="61" name="GM" longName="Game master (hidden)" inherit="60" showBadge="false"/>
-  <group id="80" name="Dev" longName="Core developer" inherit="61" badge="groups/dev2.xml" showBadge="true">
+  <group id="61" name="GM" longName="Game master (hidden)" inherit="60" showBadge="false" highlightName="false"/>
+  <group id="80" name="Dev" longName="Core developer" inherit="61" badge="groups/dev2.xml" showBadge="true" highlightName="false">
     <commands>
       <!--command name="setmagic" use="self"/-->
       <!--command name="magicinfo" use="self"/-->
@@ -153,8 +153,8 @@ Copyright (C) 2017 Evol Online -->
       <!--command name="debug" use="self"/-->
     </commands>
   </group>
-  <group id="81" name="Dev" longName="Core developer (hidden)" inherit="80" showBadge="false"/>
-  <group id="98" name="Admin" longName="Administrator (hidden)" inherit="81" showBadge="false">
+  <group id="81" name="Dev" longName="Core developer (hidden)" inherit="80" showBadge="false" highlightName="false"/>
+  <group id="98" name="Admin" longName="Administrator (hidden)" inherit="81" showBadge="false" highlightName="false">
     <commands>
       <command name="dropall" use="self"/>
       <command name="questskill" use="self"/>
@@ -181,5 +181,5 @@ Copyright (C) 2017 Evol Online -->
       <permission name="all_commands"/>
     </permissions>
   </group>
-  <group id="99" name="Admin" longName="Administrator" showBadge="true" inherit="98" badge="groups/admin.xml"/>
+  <group id="99" name="Admin" longName="Administrator" showBadge="true" highlightName="true" inherit="98" badge="groups/admin.xml"/>
 </groups>
