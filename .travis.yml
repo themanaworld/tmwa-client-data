@@ -2,11 +2,6 @@ notifications:
   email:
     on_success: changed
     on_failure: always
-  irc:
-    channels:   "chat.freenode.net#themanaworld-dev"
-    on_success: always
-    on_failure: always
-    use_notice: true
 
 sudo: false
 
