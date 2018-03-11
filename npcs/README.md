@@ -17,7 +17,7 @@ See here for documentation: http://manaplus.org/npcs.xml
 ###Free slots
 **Please edit when you take a slot**
 ```
-        188   194   200   203   219   220
+              194   200   203   219   220
   221   222   223   224   225   226   227
   228   229   230   231   232   233   234
   235   236   237   238   239   240   241
