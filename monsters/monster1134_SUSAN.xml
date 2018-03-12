@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<monsters offset="0">
+  <monster id="1134" name="SUSAN" targetCursor="large">
+    <sprite>monsters/SUSAN.xml|R:#ff00e4</sprite>
+    <particlefx>graphics/particles/heartnecklace.particle.xml</particlefx>
+    <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
+    <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
+    <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
+    <sound event="die">monsters/maggot/maggot-dying1.ogg</sound>
+  </monster>
+</monsters>
