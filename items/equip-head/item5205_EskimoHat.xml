@@ -9,5 +9,15 @@
   <item id="5205" image="equipment/head/eskimo.png" name="Eskimo Hat" description="" mattack="-2" type="equip-head" defense="5" weight="10" sellProtected="true">
     <sprite gender="unisex">equipment/head/eskimohat.xml</sprite>
     <sprite gender="female">equipment/head/eskimohat-female.xml</sprite>
+    <replace sprite="hair">
+      <item from="-6" to="-1"/>
+      <item from="-11" to="-1"/>
+      <item from="-13" to="-1"/>
+      <item from="-14" to="-1"/>
+      <item from="-15" to="-1"/>
+      <item from="-16" to="-12"/>
+      <item from="-17" to="-1"/>
+      <item from="-19" to="-1"/>
+    </replace>
   </item>
 </items>
