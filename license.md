@@ -62,6 +62,11 @@ File | Artists | Licenses
 ### Badges
 File | Artists | Licenses
 ---- |:-------:|:--------:
+`graphics/badges/groups/admin.png` | gumi | CC0
+`graphics/badges/groups/bot.png` | gumi | CC0
+`graphics/badges/groups/dev.png` | gumi | CC0
+`graphics/badges/groups/dev2.png` | gumi | CC0
+`graphics/badges/groups/event.png` | gumi | CC0
 `graphics/badges/guilds/crc.png` | Micksha | CC BY-SA 3.0
 `graphics/badges/guilds/phoenixcouncil.png` | JovanCormac, Narus | CC BY-SA 3.0
 
@@ -83,7 +88,7 @@ File | Artists | Licenses
 `graphics/images/magic.png` | Othello | GPLv2
 `graphics/images/polearm.png` | Othello | GPLv2
 `graphics/images/shooting.png` | Othello | GPLv2
-`graphics/images/spit23loginwallpaper_800x600.png` | :grey_question:, Irukard | GPLv2
+`graphics/images/login_wallpaper.png` | Spit23, meway, Irukard | GPLv2
 `graphics/images/staff.png` | Othello | GPLv2
 `graphics/images/sword.png` | Othello | GPLv2
 `graphics/images/thrown.png` | Othello | GPLv2
@@ -97,6 +102,7 @@ File | Artists | Licenses
 `graphics/images/ambient/clouds.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/images/ambient/fog.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/images/ambient/night.png` | Crush | GPLv2, CC BY-SA 3.0
+`graphics/images/ambient/rain.png` | wushin | GPLv2, CC BY-SA 3.0
 `graphics/images/ambient/sandstorm.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/images/ambient/snow.png` | Dark_Mage | GPLv2
 `graphics/images/ambient/spotlight.png` | Crush | GPLv2, CC BY-SA 3.0
@@ -135,7 +141,7 @@ File | Artists | Licenses
 `graphics/items/equipment/chest/bromenalchest.png` | Skipy | GPLv2
 `graphics/items/equipment/chest/chainmail.png` | Modanung | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/chest/cottonshirt.png` | VxD | GPLv2, CC BY-SA 3.0
-`graphics/items/equipment/chest/contributorshirt.png` | Veryape, Saphy | GPLv2
+`graphics/items/equipment/chest/contributor.png` | Veryape, Saphy | GPLv2
 `graphics/items/equipment/chest/leathershirt.png` | EJlol | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/chest/fine-dress.png` | Frictor, V0id | GPLv2
 `graphics/items/equipment/chest/forest-armor.png` | Goku, Skipy | GPLv2
@@ -151,6 +157,7 @@ File | Artists | Licenses
 `graphics/items/equipment/chest/valentine-dress.png` | Frictor | GPLv2
 `graphics/items/equipment/chest/vnecksweater.png` | Saphy | GPLv2
 `graphics/items/equipment/chest/warlordplate.png` | :grey_question: | GPLv2
+`graphics/items/equipment/chest/desertshirt.png` | Alige | GPLv2, CC BY-SA 3.0
 
 #### Feet
 File | Artists | Licenses
@@ -179,6 +186,7 @@ File | Artists | Licenses
 `graphics/items/equipment/head/phylactery.png` | strealyn, wushin | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/nutcrackerhat.png` | Chayenne, Alige, Lizandra, Salmondine | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/dark-helm.png` | Bankai777 | GPLv2
+`graphics/sprites/equipment/head/underworld-mask.png` | wushin | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/axehat.png` | :grey_question: | GPLv2
 `graphics/items/equipment/head/bandana.png` | Modanung | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/beaniecopter.png` | Alige, Black Don, Milla, Veryape | GPLv2
@@ -266,6 +274,9 @@ File | Artists | Licenses
 `graphics/items/equipment/head/wizard-hat.png` | Crush, Hal9000 | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/xmaself.png` | :grey_question: | GPLv2
 `graphics/items/equipment/head/yeti-mask.png` | Skipy | GPLv2
+`graphics/items/equipment/head/christmastree.png` | Pauan | GPLv2
+`graphics/items/equipment/head/pipe.png` | Veryape | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/head/terranite-head.png` | gumi, Kr0n05931 | GPLv2, CC BY-SA 3.0
 
 #### Legs
 File | Artists | Licenses
@@ -352,6 +363,9 @@ File | Artists | Licenses
 `graphics/items/equipment/weapon/sword-sandcutter.png` | Adarias | GPLv2
 `graphics/items/equipment/weapon/sword-scimitar.png` | Adarias | GPLv2
 `graphics/items/equipment/weapon/sword-sword.png` | Irukard | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/weapon/slingshot-icon.png` | wushin | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/weapon/sword-dead.png` | Wombat, wushin | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/weapon/wand.png` | wushin | GPLv2, CC BY-SA 3.0
 
 #### Generic
 File | Artists | Licenses
@@ -481,6 +495,12 @@ File | Artists | Licenses
 `graphics/items/generic/wrapping-paper-striped.png` | Lizandra, Enchilado | GPLv2
 `graphics/items/generic/wrapping-paper.png` | Wushin, Lizandra, Enchilado | GPLv2
 `graphics/items/generic/yeti-claw.png` | Nami, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/astral_cube.png` | wushin | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/bloodstone.png` | wushin | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/brainstem.png` | wushin | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/cryptkey.png` | wushin | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/ectoplasm.png` | wushin | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/event-ticket.png` | Micksha | GPLv2, CC BY-SA 3.0
 
 #### Food
 File | Artists | Licenses
@@ -860,6 +880,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/wizard-hat.png` | Chayenne, Crush, Hal9000 | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/xmaself.png` | :grey_question: | GPLv2
 `graphics/sprites/equipment/head/yeti-mask.png` | Skipy | GPLv2
+`graphics/sprites/equipment/head/pipe.png` | Veryape | GPLv2, CC BY-SA 3.0
 
 #### Legs
 File | Artists | Licenses
@@ -1124,16 +1145,16 @@ File | Artists | Licenses
 `graphics/tiles/pots_x2.png` | :grey_question: | GPLv2
 `graphics/tiles/power_circle_x2.png` | :grey_question: | GPLv2
 `graphics/tiles/snow_docks.png` | Irukard, Arikel, Meway, Wombat | GPLv2
-`graphics/tiles/snow_ground.png` | bagzie, mekolat, :grey_question: | GPLv2
+`graphics/tiles/snow_ground.png` | bagzie, gumi, :grey_question: | GPLv2
 `graphics/tiles/snow_tree_x3.png` | :grey_question:, Alige, Hal9000 | GPLv2
-`graphics/tiles/snow_village.png` | bagzie, mekolat, :grey_question: | GPLv2
-`graphics/tiles/snow_village_x3.png` | bagzie, mekolat, :grey_question: | GPLv2
-`graphics/tiles/snow_village_x4.png` | bagzie, mekolat, :grey_question: | GPLv2
-`graphics/tiles/snow_village2.png` | bagzie, mekolat, :grey_question: | GPLv2
+`graphics/tiles/snow_village.png` | bagzie, gumi, :grey_question: | GPLv2
+`graphics/tiles/snow_village_x3.png` | bagzie, gumi, :grey_question: | GPLv2
+`graphics/tiles/snow_village_x4.png` | bagzie, gumi, :grey_question: | GPLv2
+`graphics/tiles/snow_village2.png` | bagzie, gumi, :grey_question: | GPLv2
 `graphics/tiles/snow_x2.png` | Nami, Salmondine, Arkhen | (CC BY 4.0)
 `graphics/tiles/snow_x3.png` | :grey_question: | GPLv2
-`graphics/tiles/snow_x4.png` | mekolat | GPLv2
-`graphics/tiles/snow.png` | bagzie, mekolat, wushin, :grey_question: | GPLv2
+`graphics/tiles/snow_x4.png` | gumi | GPLv2
+`graphics/tiles/snow.png` | bagzie, gumi, wushin, :grey_question: | GPLv2
 `graphics/tiles/soulmenhirs_x2.png` | Alige, Lien | GPLv2
 `graphics/tiles/spinning_wheel.png` | ChefChelios | GPLv2
 `graphics/tiles/stone_lab.png` | Fate, Varuna, Enchilado, Wushin | GPLv2
@@ -1155,15 +1176,15 @@ File | Artists | Licenses
 `graphics/tiles/woodland_indoor.png` | :grey_question:, Crush, Yosuhara | GPLv2
 `graphics/tiles/woodland_swamp.png` | Len | GPLv2, CC BY-SA 3.0
 `graphics/tiles/woodland_village_x2.png` | :grey_question:, Crush | GPLv2
-`graphics/tiles/woodland_village_x3.png` | wushin, meko | GPLv2
-`graphics/tiles/woodland_village.png` | :grey_question:, Crush, meko | GPLv2
+`graphics/tiles/woodland_village_x3.png` | wushin, gumi | GPLv2
+`graphics/tiles/woodland_village.png` | :grey_question:, Crush, gumi | GPLv2
 `graphics/tiles/woodland_water.png` | :grey_question: | GPLv2
 `graphics/tiles/woodland_x2.png` | :grey_question:, Crush, Len, Saphy | GPLv2
 `graphics/tiles/woodland_x3.png` | :grey_question:, Crush, Len, Saphy, wushin | GPLv2
 `graphics/tiles/woodland_x4.png` | :grey_question:, Len, Saphy | GPLv2
 `graphics/tiles/woodland_x5.png` | Saphy, :grey_question: | GPLv2
 `graphics/tiles/woodland_x8.png` | Len | GPLv2, CC BY-SA 3.0
-`graphics/tiles/arrows.png` | mekolat | CC0
+`graphics/tiles/arrows.png` | gumi | CC0
 
 ## Sounds
 File | Artists | Licenses
@@ -1172,8 +1193,9 @@ File | Artists | Licenses
 `sfx/env/env-burningfire1.ogg` | Dariuna | GPLv2
 `sfx/env/env-riverflow1.ogg` | Dariuna | GPLv2
 `sfx/env/env-waterfall1.ogg` | Dariuna | GPLv2
-`sfx/monsters/bat-dying1.ogg` | Cosmostrator | GPLv2
-`sfx/monsters/bat-hit1.ogg` | Cosmostrator | GPLv2
+`sfx/env/fart.ogg` | unknown | CC0
+`sfx/monsters/bat/bat-dying1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/bat/bat-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/cavesnake/cavesnake-hit1.ogg` | Krazyjakee | GPLv2
 `sfx/monsters/fire-goblin/fire-goblin-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/fire-goblin/fire-goblin-hit2.ogg` | Cosmostrator | GPLv2
@@ -1225,6 +1247,7 @@ File | Artists | Licenses
 `sfx/monsters/zombie/zombie-move1.ogg` | Bcs86 | GPLv2
 `sfx/monsters/zombie/zombie-move2.ogg` | Bcs86 | GPLv2
 `sfx/system/levelup.ogg` | Cosmostrator | GPLv2
+`sfx/system/ship-bell2.ogg` | unknown | (public domain)
 `sfx/weapons/bows/bow_shoot_1.ogg` | Cosmostrator | GPLv2
 `sfx/weapons/knives/knife-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/weapons/knives/knife-miss1.ogg` | Cosmostrator | GPLv2
