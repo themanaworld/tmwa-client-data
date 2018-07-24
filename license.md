@@ -1165,5 +1165,79 @@ File | Artists | Licenses
 `graphics/tiles/woodland_x8.png` | Len | GPLv2, CC BY-SA 3.0
 `graphics/tiles/arrows.png` | mekolat | CC0
 
+## Sounds
+File | Artists | Licenses
+---- |:-------:|:--------:
+`sfx/fist-swish.ogg` | Cosmostrator | GPLv2
+`sfx/env/env-burningfire1.ogg` | Dariuna | GPLv2
+`sfx/env/env-riverflow1.ogg` | Dariuna | GPLv2
+`sfx/env/env-waterfall1.ogg` | Dariuna | GPLv2
+`sfx/monsters/bat-dying1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/bat-hit1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/cavesnake/cavesnake-hit1.ogg` | Krazyjakee | GPLv2
+`sfx/monsters/fire-goblin/fire-goblin-hit1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/fire-goblin/fire-goblin-hit2.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/fire-goblin/fire-goblin-miss1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/flower/flower-hit1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/flower/flower-hit2.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/flower/flower-miss1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/fluffy/fluffy-hit1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/fluffy/fluffy-hit2.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/fluffy/fluffy-hit3.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/fluffy/fluffy-hurt1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/fluffy/fluffy-miss1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/loghead/loghead-die1.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
+`sfx/monsters/loghead/loghead-hit1.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
+`sfx/monsters/loghead/loghead-hurt1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/loghead/loghead-hurt2.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/loghead/loghead-hurt3.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/loghead/loghead-hurt4.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/loghead/loghead-hurt5.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/maggot/maggot-dying1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/maggot/maggot-hit1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/maggot/maggot-hit2.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/maggot/maggot-miss1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/pinkie/pinkie-hit1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/pinkie/pinkie-miss1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/reaper/reaper-hurt.ogg` | nmaligec | GPLv2
+`sfx/monsters/scorpion/scorpion-hit1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/scorpion/scorpion-hit2.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/scorpion/scorpion-hit3.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/scorpion/scorpion-hit4.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/scorpion/scorpion-miss1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/shroom/shroom-hit1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/slime/slime-hit1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/squirrel/squirrel-die1.ogg` | Krazyjakee | GPLv2
+`sfx/monsters/squirrel/squirrel-die2.ogg` | Krazyjakee | GPLv2
+`sfx/monsters/squirrel/squirrel-hurt1.ogg` | Krazyjakee | GPLv2
+`sfx/monsters/squirrel/squirrel-hurt2.ogg` | Krazyjakee | GPLv2
+`sfx/monsters/wolvern/wolvern-dying1.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
+`sfx/monsters/wolvern/wolvern-hit1.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
+`sfx/monsters/wolvern/wolvern-hit2.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
+`sfx/monsters/wolvern/wolvern-hurt1.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
+`sfx/monsters/wolvern/wolvern-miss1.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
+`sfx/monsters/wolvern/wolvern-miss2.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
+`sfx/monsters/wolvern/wolvern-miss3.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
+`sfx/monsters/zombie/zombie-dying1.ogg` | Bcs86 | GPLv2
+`sfx/monsters/zombie/zombie-hit1.ogg` | Bcs86 | GPLv2
+`sfx/monsters/zombie/zombie-hit2.ogg` | Bcs86 | GPLv2
+`sfx/monsters/zombie/zombie-miss1.ogg` | Bcs86 | GPLv2
+`sfx/monsters/zombie/zombie-move1.ogg` | Bcs86 | GPLv2
+`sfx/monsters/zombie/zombie-move2.ogg` | Bcs86 | GPLv2
+`sfx/system/levelup.ogg` | Cosmostrator | GPLv2
+`sfx/weapons/bows/bow_shoot_1.ogg` | Cosmostrator | GPLv2
+`sfx/weapons/knives/knife-hit1.ogg` | Cosmostrator | GPLv2
+`sfx/weapons/knives/knife-miss1.ogg` | Cosmostrator | GPLv2
+`sfx/weapons/knives/sharpknife-miss1.ogg` | Krazyjakee | GPLv2
+`sfx/weapons/swords/broadsword-hit1.ogg` | Krazyjakee | GPLv2
+`sfx/weapons/swords/firesword-miss1.ogg` | Krazyjakee | GPLv2
+`sfx/weapons/swords/longsword-hit1.ogg` | Krazyjakee | GPLv2
+`sfx/weapons/swords/longsword-hit2.ogg` | Krazyjakee | GPLv2
+`sfx/weapons/swords/longsword-miss1.ogg` | Krazyjakee | GPLv2
+`sfx/weapons/swords/rapier-hit1.ogg` | Krazyjakee | GPLv2
+`sfx/weapons/swords/sabre-hit1.ogg` | Krazyjakee | GPLv2
+`sfx/weapons/swords/short-sword-hit1.ogg` | Cosmostrator | GPLv2
+`sfx/weapons/swords/short-sword-miss1.ogg` | Cosmostrator | GPLv2
+
 ## Music
 Please see music sub-folder
