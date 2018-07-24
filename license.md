@@ -115,6 +115,7 @@ File | Artists | Licenses
 `graphics/items/equipment/ammo/bonedarts.png` | Adarias | GPLv2
 `graphics/items/equipment/ammo/ironarrow.png` | Irukard | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/ammo/arrow.png` | Irukard | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/ammo/stoneprojectile-icon.png` | wushin, tux9th | GPLv2, CC BY-SA 3.0
 
 #### Charms
 File | Artists | Licenses
@@ -173,9 +174,16 @@ File | Artists | Licenses
 File | Artists | Licenses
 ---- |:-------:|:--------:
 `graphics/items/equipment/head/antlerhat.png` | :grey_question: | GPLv2
+`graphics/items/equipment/head/tamoshanter.png` | Chay | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/head/autumn-mask.png` | Chay | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/head/phylactery.png` | strealyn, wushin | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/head/nutcrackerhat.png` | Chayenne, Alige, Lizandra, Salmondine | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/head/dark-helm.png` | Bankai777 | GPLv2
 `graphics/items/equipment/head/axehat.png` | :grey_question: | GPLv2
 `graphics/items/equipment/head/bandana.png` | Modanung | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/beaniecopter.png` | Alige, Black Don, Milla, Veryape | GPLv2
+`graphics/items/equipment/head/beret.png` | Varuna | GPLv2
+`graphics/items/equipment/head/blinkingevil.png` | mrgrey | GPLv2, CC-BY-SA 3.0
 `graphics/items/equipment/head/bowler-hat-brown.png` | ChefChelios | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/bowler-hat.png` | ChefChelios | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/bromenalhelmet.png` | Skipy | GPLv2
@@ -382,7 +390,7 @@ File | Artists | Licenses
 `graphics/items/generic/easterbasket.png` | Salmondine, Enchilado | GPLv2
 `graphics/items/generic/easteregg.png` | Crush, Enchilado, wushin | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/eyeball.png` | Yosuhara, Enchilado | GPLv2
-`graphics/items/generic/fabric.png` | Crush, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/fabric.png` | Crush, Enchilado, wushin | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/fakefangs.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/flawed-lens.png` | Skipy, Enchilado | GPLv2
 `graphics/items/generic/flighttalisman.png` | Nami, Enchilado | GPLv2, CC BY-SA 3.0
@@ -759,8 +767,15 @@ File | Artists | Licenses
 File | Artists | Licenses
 ---- |:-------:|:--------:
 `graphics/sprites/equipment/head/antlerhat.png` | :grey_question: | GPLv2
+`graphics/sprites/equipment/head/tamoshanter.png` | Chay | GPLv2, CC BY-SA 3.0
+`graphics/sprites/equipment/head/autumn-mask.png` | Chay | GPLv2, CC BY-SA 3.0
+`graphics/sprites/equipment/head/nutcrackerhat.png` | Chayenne, Alige, Lizandra, Salmondine | GPLv2, CC BY-SA 3.0
+`graphics/sprites/equipment/head/phylactery.png` | strealyn, wushin | GPLv2, CC BY-SA 3.0
+`graphics/sprites/equipment/head/dark-helm.png` | Bankai777 | GPLv2
 `graphics/sprites/equipment/head/axehat.png` | :grey_question: | GPLv2
 `graphics/sprites/equipment/head/bandana.png` | Modanung | GPLv2, CC BY-SA 3.0
+`graphics/sprites/equipment/head/beret.png` | Varuna | GPLv2
+`graphics/sprites/equipment/head/blinkingevil.png` | mrgrey | GPLv2, CC-BY-SA 3.0
 `graphics/sprites/equipment/head/beaniecopter.png` | Alige, Black Don, Milla, Veryape | GPLv2
 `graphics/sprites/equipment/head/bowler-hat-brown.png` | ChefChelios | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/bowler-hat.png` | ChefChelios | GPLv2, CC BY-SA 3.0
