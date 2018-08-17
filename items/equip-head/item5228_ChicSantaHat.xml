@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="5228" image="equipment/head/santahat.png|S:#C50000,636363,FF0000,828282,830000,404040" name="Chic Santa Hat" description="For classy Santas" mattack="-2" type="equip-head" weight="20" defense="2" sellProtected="true">
+    <sprite gender="unisex">equipment/head/santahatS.xml|#780000,3A3A3A,CA0000,656565,F00000,7A7A7A,FF0000,828282,9D0000,4D4D4D</sprite>
+    <sprite gender="female">equipment/head/santahatS-female.xml|#780000,3A3A3A,CA0000,656565,F00000,7A7A7A,FF0000,828282,9D0000,4D4D4D</sprite>
+    <replace sprite="hair">
+      <item from="-6" to="-1"/>
+    </replace>
+    <replace direction="left" sprite="hair">
+      <item from="-14" to="-1"/>
+      <item from="-15" to="-17"/>
+      <item from="-16" to="-9"/>
+    </replace>
+    <replace direction="right" sprite="hair">
+      <item from="-14" to="-1"/>
+      <item from="-15" to="-17"/>
+      <item from="-16" to="-9"/>
+    </replace>
+    <replace direction="upall" sprite="hair">
+      <item from="-15" to="-14"/>
+      <item from="-16" to="-14"/>
+      <item from="-19" to="-7"/>
+    </replace>
+    <replace direction="downall" sprite="hair">
+      <item from="-15" to="-14"/>
+      <item from="-16" to="-14"/>
+      <item from="-10" to="-2"/>
+    </replace>
+  </item>
+</items>
