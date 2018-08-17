@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="5226" image="equipment/head/funkyhat.png|S:#82BA81,009898,95D09A,00AEAE,6B9C6B,008787,4D754D,007676,C9CBB1,A3E1F0,DFE1C5,C4FFFF,C9CBB1,B4F4FF,A6A692,92D0E2,918E7C,7BB8C9" name="Groovy Hat" description="A groovier funky hat" mattack="2" type="equip-head" defense="13" weight="20" sellProtected="true">
+    <sprite gender="unisex">equipment/head/funkywinter.xml|#78A978,009898,8CC18B,00AEAE,689868,008787,588558,007676,C3C2AE,A3E1F0,E5E7CE,C4FFFF,D3D5BE,B4F4FF,B1B29D,92D0E2,9B9B87,7BB8C9</sprite>
+    <sprite gender="female">equipment/head/funkywinter-female.xml|#78A978,009898,8CC18B,00AEAE,689868,008787,588558,007676,C3C2AE,A3E1F0,E5E7CE,C4FFFF,D3D5BE,B4F4FF,B1B29D,92D0E2,9B9B87,7BB8C9</sprite>
+    <replace sprite="hair">
+      <item from="-6" to="-1"/>
+    </replace>
+    <replace direction="left" sprite="hair">
+      <item from="-14" to="-1"/>
+      <item from="-15" to="-17"/>
+      <item from="-16" to="-9"/>
+    </replace>
+    <replace direction="right" sprite="hair">
+      <item from="-14" to="-1"/>
+      <item from="-15" to="-17"/>
+      <item from="-16" to="-9"/>
+    </replace>
+    <replace direction="upall" sprite="hair">
+      <item from="-15" to="-14"/>
+      <item from="-16" to="-14"/>
+      <item from="-19" to="-7"/>
+    </replace>
+    <replace direction="downall" sprite="hair">
+      <item from="-15" to="-14"/>
+      <item from="-16" to="-14"/>
+      <item from="-10" to="-7"/>
+    </replace>
+  </item>
+</items>
