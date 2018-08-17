@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<items>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//item/@name" translate="yes"/>
+    <its:translateRule selector="//item/@description" translate="yes"/>
+    <its:translateRule selector="//item/@effect" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <item id="5227" image="equipment/head/funkyhat.png|S:#82BA81,C15B89,95D09A,C15B89,6B9C6B,C15B89,4D754D,9A3F68,C9CBB1,CDBCCD,C9CBB1,F6DEF2,DFE1C5,E3CDDF,A6A692,BEABBC,918E7C,A795A5" name="Jazzy Hat" description="A jazzier funky hat" mattack="2" type="equip-head" defense="13" weight="20" sellProtected="true">
+    <sprite gender="unisex">equipment/head/funkywinter.xml|#78A978,C15B89,8CC18B,C15B89,689868,C15B89,588558,9A3F68,C3C2AE,CDBCCD,E5E7CE,F6DEF2,D3D5BE,E3CDDF,B1B29D,BEABBC,9B9B87,A795A5</sprite>
+    <sprite gender="female">equipment/head/funkywinter-female.xml</sprite>
+    <replace sprite="hair">
+      <item from="-6" to="-1"/>
+    </replace>
+    <replace direction="left" sprite="hair">
+      <item from="-14" to="-1"/>
+      <item from="-15" to="-17"/>
+      <item from="-16" to="-9"/>
+    </replace>
+    <replace direction="right" sprite="hair">
+      <item from="-14" to="-1"/>
+      <item from="-15" to="-17"/>
+      <item from="-16" to="-9"/>
+    </replace>
+    <replace direction="upall" sprite="hair">
+      <item from="-15" to="-14"/>
+      <item from="-16" to="-14"/>
+      <item from="-19" to="-7"/>
+    </replace>
+    <replace direction="downall" sprite="hair">
+      <item from="-15" to="-14"/>
+      <item from="-16" to="-14"/>
+      <item from="-10" to="-7"/>
+    </replace>
+  </item>
+</items>
