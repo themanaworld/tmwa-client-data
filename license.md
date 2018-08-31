@@ -695,6 +695,8 @@ File | Artists | Licenses
 `graphics/sprites/equipment/feet/bromenalboots-male.png` | Skipy | GPLv2
 `graphics/sprites/equipment/feet/furboots-female.png` | Black Don | GPLv2
 `graphics/sprites/equipment/feet/furboots-male.png` | Black Don | GPLv2
+`graphics/sprites/equipment/feet/warlordboots-female.png` | Alige | GPLv2
+`graphics/sprites/equipment/feet/warlordboots.png` | Alige | GPLv2
 
 #### Hands
 File | Artists | Licenses
