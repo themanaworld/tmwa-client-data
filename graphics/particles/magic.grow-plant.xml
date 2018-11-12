@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<effect>
+  <particle position-x="0" position-y="0" position-z="0" lifetime="1">
+    <emitter>
+      <animation imageset="graphics/particles/sparkle.png|W:#b00000,ff8020" width="15" height="15">
+        <sequence start="0" end="3" delay="50"/>
+        <frame index="0" delay="100"/>
+      </animation>
+      <property name="vertical-angle" value="90"/>
+      <property name="power" min="1" max="1"/>
+      <property name="lifetime" min="30" max="60"/>
+      <property name="output" min="6" max="20"/>
+      <property name="position-x" min="-16" max="16"/>
+      <property name="position-y" min="-16" max="16"/>
+      <property name="position-z" min="29" max="40"/>
+    </emitter>
+    <emitter>
+      <property name="position-y" value="-16"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="0"/>
+      <property name="power" value="60"/>
+      <property name="lifetime" value="1"/>
+      <property name="output" value="150"/>
+      <emitter>
+        <property name="image" value="graphics/particles/orb-small.png|W:#00a000,30ff30"/>
+        <property name="lifetime" value="77"/>
+        <property name="fade-in" value="57"/>
+        <property name="fade-out" value="20"/>
+        <property name="output" value="1"/>
+      </emitter>
+    </emitter>
+    <emitter>
+      <property name="position-x" value="57"/>
+      <property name="position-y" value="-35"/>
+      <property name="lifetime" value="1"/>
+      <emitter>
+        <property name="horizontal-angle" value="180"/>
+        <property name="vertical-angle" min="0" max="0"/>
+        <property name="power" value="2"/>
+        <property name="lifetime" value="57"/>
+        <property name="image" value="graphics/particles/orb-small.png|W:#00a000,30ff30"/>
+        <emitter>
+          <property name="image" value="graphics/particles/orb-small.png|W:#00a000,30ff30"/>
+          <property name="lifetime" value="20"/>
+          <property name="fade-out" value="20"/>
+          <property name="output" value="1"/>
+        </emitter>
+      </emitter>
+    </emitter>
+    <emitter>
+      <property name="position-x" value="-57"/>
+      <property name="position-y" value="-35"/>
+      <property name="lifetime" value="1"/>
+      <emitter>
+        <property name="horizontal-angle" value="36"/>
+        <property name="vertical-angle" min="0" max="0"/>
+        <property name="power" value="2"/>
+        <property name="lifetime" value="57"/>
+        <property name="image" value="graphics/particles/orb-small.png|W:#00a000,30ff30"/>
+        <emitter>
+          <property name="image" value="graphics/particles/orb-small.png|W:#00a000,30ff30"/>
+          <property name="lifetime" value="20"/>
+          <property name="fade-out" value="20"/>
+          <property name="output" value="1"/>
+        </emitter>
+      </emitter>
+    </emitter>
+    <emitter>
+      <property name="position-x" value="35"/>
+      <property name="position-y" value="33"/>
+      <property name="lifetime" value="1"/>
+      <emitter>
+        <property name="horizontal-angle" value="252"/>
+        <property name="vertical-angle" min="0" max="0"/>
+        <property name="power" value="2"/>
+        <property name="lifetime" value="57"/>
+        <property name="image" value="graphics/particles/orb-small.png|W:#00a000,30ff30"/>
+        <emitter>
+          <property name="image" value="graphics/particles/orb-small.png|W:#00a000,30ff30"/>
+          <property name="lifetime" value="20"/>
+          <property name="fade-out" value="20"/>
+          <property name="output" value="1"/>
+        </emitter>
+      </emitter>
+    </emitter>
+    <emitter>
+      <property name="position-y" value="-76"/>
+      <property name="position-x" value="0"/>
+      <property name="lifetime" value="1"/>
+      <emitter>
+        <property name="horizontal-angle" value="108"/>
+        <property name="vertical-angle" min="0" max="0"/>
+        <property name="power" value="2"/>
+        <property name="lifetime" value="57"/>
+        <property name="image" value="graphics/particles/orb-small.png|W:#00a000,30ff30"/>
+        <emitter>
+          <property name="image" value="graphics/particles/orb-small.png|W:#00a000,30ff30"/>
+          <property name="lifetime" value="20"/>
+          <property name="fade-out" value="20"/>
+          <property name="output" value="1"/>
+        </emitter>
+      </emitter>
+    </emitter>
+    <emitter>
+      <property name="position-x" value="-35"/>
+      <property name="position-y" value="33"/>
+      <property name="lifetime" value="1"/>
+      <emitter>
+        <property name="horizontal-angle" value="324"/>
+        <property name="vertical-angle" min="0" max="0"/>
+        <property name="power" value="2"/>
+        <property name="lifetime" value="57"/>
+        <property name="image" value="graphics/particles/orb-small.png|W:#00a000,30ff30"/>
+        <emitter>
+          <property name="image" value="graphics/particles/orb-small.png|W:#00a000,30ff30"/>
+          <property name="lifetime" value="20"/>
+          <property name="fade-out" value="20"/>
+          <property name="output" value="1"/>
+        </emitter>
+      </emitter>
+    </emitter>
+  </particle>
+</effect>
