@@ -217,6 +217,7 @@ File | Artists | Licenses
 `graphics/items/equipment/head/heart-glasses.png` | Lizandra | GPLv2
 `graphics/items/equipment/head/highpriest-crown.png` | Black Don | GPLv2
 `graphics/items/equipment/head/infantryhelm.png` | Black Don | GPLv2
+`graphics/items/equipment/head/inspector-hat.png` | Micksha | GPLv2
 `graphics/items/equipment/head/jestermask.png` | Spit23 | GPLv2
 `graphics/items/equipment/head/knighthelm.png` | Black Don | GPLv2
 `graphics/items/equipment/head/knit-cap.png` | Salmondine | GPLv2
@@ -749,6 +750,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/heart-glasses.png` | Lizandra | GPLv2
 `graphics/sprites/equipment/head/highpriest-crown.png` | Black Don | GPLv2
 `graphics/sprites/equipment/head/infantryhelm.png` | Black Don | GPLv2
+`graphics/sprites/equipment/head/inspector-hat.png` | ? | GPLv2
 `graphics/sprites/equipment/head/jestermask.png` | Spit23 | GPLv2
 `graphics/sprites/equipment/head/knighthelm.png` | Black Don | GPLv2
 `graphics/sprites/equipment/head/knit-cap.png` | Salmondine | GPLv2
