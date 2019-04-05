@@ -217,6 +217,7 @@ File | Artists | Licenses
 `graphics/items/equipment/head/heart-glasses.png` | Lizandra | GPLv2
 `graphics/items/equipment/head/highpriest-crown.png` | Black Don | GPLv2
 `graphics/items/equipment/head/infantryhelm.png` | Black Don | GPLv2
+`graphics/items/equipment/head/inspector-hat.png` | Micksha | GPLv2
 `graphics/items/equipment/head/jestermask.png` | Spit23 | GPLv2
 `graphics/items/equipment/head/knighthelm.png` | Black Don | GPLv2
 `graphics/items/equipment/head/knit-cap.png` | Salmondine | GPLv2
@@ -233,6 +234,7 @@ File | Artists | Licenses
 `graphics/items/equipment/head/paperbag.png` | Black Don | GPLv2
 `graphics/items/equipment/head/pinkie-helmet.png` | Ginaria | GPLv2
 `graphics/items/equipment/head/piratehat.png` | Fettsack | GPLv2
+`graphics/items/equipment/head/presenthat.png` | TMW-BR Team | GPLv2
 `graphics/items/equipment/head/pumpkinhelmet.png` | Modanung | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/rabbit-ears.png` | Black Don, Harufym | GPLv2
 `graphics/items/equipment/head/rangerhat.png` | Pauan | GPLv2
@@ -749,6 +751,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/heart-glasses.png` | Lizandra | GPLv2
 `graphics/sprites/equipment/head/highpriest-crown.png` | Black Don | GPLv2
 `graphics/sprites/equipment/head/infantryhelm.png` | Black Don | GPLv2
+`graphics/sprites/equipment/head/inspector-hat.png` | ? | GPLv2
 `graphics/sprites/equipment/head/jestermask.png` | Spit23 | GPLv2
 `graphics/sprites/equipment/head/knighthelm.png` | Black Don | GPLv2
 `graphics/sprites/equipment/head/knit-cap.png` | Salmondine | GPLv2
@@ -766,6 +769,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/paperbag.png` | Black Don | GPLv2
 `graphics/sprites/equipment/head/pinkie-helmet.png` | Ginaria | GPLv2
 `graphics/sprites/equipment/head/piratehat.png` | Fettsack | GPLv2
+`graphics/sprites/equipment/head/presenthat.png` | TMW-BR Team | GPLv2
 `graphics/sprites/equipment/head/pumpkinhelmet.png` | Modanung | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/rabbit-ears.png` | Black Don, Harufym | GPLv2
 `graphics/sprites/equipment/head/rangerhat.png` | Pauan | GPLv2
