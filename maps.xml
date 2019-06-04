@@ -367,6 +367,9 @@
   <map name="003-1.tmx">
     <atlas name="wormhole"/>
   </map>
+  <map name="029-4.tmx">
+    <atlas name="wormhole"/>
+  </map>
   <map name="030-1.tmx">
     <atlas name="wormhole"/>
   </map>
@@ -427,6 +430,7 @@
     <file name="graphics/sprites/npcs/signs.png"/>
   </atlas>
   <!-- Wormhole Atlas -->
+  <!-- FIXME: this is getting very ugly -->
   <atlas name="wormhole">
     <file name="graphics/images/ambient/spotlight.png"/>
     <file name="graphics/images/ambient/rain.png"/>
@@ -457,6 +461,29 @@
     <file name="graphics/tiles/snow_village2.png"/>
     <file name="graphics/tiles/snow_village.png"/>
     <file name="graphics/tiles/snow_x2.png"/>
+    <file name="graphics/tiles/cave2_bilevel.png"/>
+    <file name="graphics/tiles/cave2.png"/>
+    <file name="graphics/tiles/cave2_bilevel_water_lava.png"/>
+    <file name="graphics/tiles/cave2_sewer_mine_x4.png"/>
+    <file name="graphics/tiles/cave2_x2.png"/>
+    <file name="graphics/tiles/desert_castle.png"/>
+    <file name="graphics/tiles/desert_city.png"/>
+    <file name="graphics/tiles/desert_city_x2.png"/>
+    <file name="graphics/tiles/desert_city_x4.png"/>
+    <file name="graphics/tiles/desert_x2.png"/>
+    <file name="graphics/tiles/desert_x3.png"/>
+    <file name="graphics/tiles/desert_x5.png"/>
+    <file name="graphics/tiles/desert1.png"/>
+    <file name="graphics/tiles/desert2.png"/>
+    <file name="graphics/tiles/desert3.png"/>
+    <file name="graphics/tiles/docks.png"/>
+    <file name="graphics/tiles/docks_x2.png"/>
+    <file name="graphics/tiles/inn2.png"/>
+    <file name="graphics/tiles/inn.png"/>
+    <file name="graphics/tiles/trans_woodland_desert.png"/>
+    <file name="graphics/tiles/water_overflow.png"/>
+    <file name="graphics/tiles/water.png"/>
+    <file name="graphics/tiles/waterflow.png"/>
   </atlas>
   <atlas name="illia">
     <file name="graphics/tiles/desert1.png"/>
