@@ -175,6 +175,7 @@ File | Artists | Licenses
 File | Artists | Licenses
 ---- |:-------:|:--------:
 `graphics/items/equipment/head/tamoshanter.png` | Chay | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/head/afkcap.png` | TMW-BR Team | GPLv2
 `graphics/items/equipment/head/autumn-mask.png` | Chay | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/phylactery.png` | strealyn, wushin | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/nutcrackerhat.png` | Chayenne, Alige, Lizandra, Salmondine | GPLv2, CC BY-SA 3.0
@@ -712,6 +713,7 @@ File | Artists | Licenses
 File | Artists | Licenses
 ---- |:-------:|:--------:
 `graphics/sprites/equipment/head/tamoshanter.png` | Chay | GPLv2, CC BY-SA 3.0
+`graphics/sprites/equipment/head/afkcap.png` | TMW-BR Team | GPLv2
 `graphics/sprites/equipment/head/autumn-mask.png` | Chay | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/nutcrackerhat.png` | Chayenne, Alige, Lizandra, Salmondine | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/phylactery.png` | strealyn, wushin | GPLv2, CC BY-SA 3.0
