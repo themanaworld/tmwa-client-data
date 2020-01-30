@@ -175,6 +175,7 @@ File | Artists | Licenses
 File | Artists | Licenses
 ---- |:-------:|:--------:
 `graphics/items/equipment/head/tamoshanter.png` | Chay | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/head/afkcap.png` | TMW-BR Team | GPLv2
 `graphics/items/equipment/head/autumn-mask.png` | Chay | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/phylactery.png` | strealyn, wushin | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/nutcrackerhat.png` | Chayenne, Alige, Lizandra, Salmondine | GPLv2, CC BY-SA 3.0
@@ -484,6 +485,7 @@ File | Artists | Licenses
 `graphics/items/use/food/candycane.png` | Kekskiller, Enchilado | GPLv2
 `graphics/items/use/food/candypumpkin.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/use/food/caramelapple.png` | :grey_question:, Enchilado | GPLv2
+`graphics/items/use/food/caramelcandy.png` | TMW-BR Team | GPLv2
 `graphics/items/use/food/cherry.png` | Alige, Len, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/use/food/cherrycake.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/use/food/chickenleg.png` | Modanung, Enchilado | GPLv2, CC BY-SA 3.0
@@ -507,6 +509,7 @@ File | Artists | Licenses
 `graphics/items/use/food/pickled_beets.png` | Nami, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/use/food/plum.png` | Alige, Meway, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/use/food/roastedmaggot.png` | :grey_question:, Enchilado | GPLv2
+`graphics/items/use/food/sex-candy.png` | TMW-BR Team | GPLv2
 `graphics/items/use/food/shock-candy.png` | Kekskiller, Enchilado | GPLv2
 `graphics/items/use/food/skull-mug.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/use/food/snake-egg.png` | Fate, Enchilado | GPLv2, CC BY-SA 3.0
@@ -712,6 +715,7 @@ File | Artists | Licenses
 File | Artists | Licenses
 ---- |:-------:|:--------:
 `graphics/sprites/equipment/head/tamoshanter.png` | Chay | GPLv2, CC BY-SA 3.0
+`graphics/sprites/equipment/head/afkcap.png` | TMW-BR Team | GPLv2
 `graphics/sprites/equipment/head/autumn-mask.png` | Chay | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/nutcrackerhat.png` | Chayenne, Alige, Lizandra, Salmondine | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/phylactery.png` | strealyn, wushin | GPLv2, CC BY-SA 3.0
