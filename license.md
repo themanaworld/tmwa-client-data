@@ -1139,6 +1139,8 @@ File | Artists | Licenses
 `sfx/weapons/bows/bow_shoot_1.ogg` | Cosmostrator | GPLv2
 `sfx/weapons/knives/knife-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/weapons/knives/knife-miss1.ogg` | Cosmostrator | GPLv2
+`sfx/weapons/knives/rock-knife-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/knives/rock-knife-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/knives/sharpknife-miss1.ogg` | Krazyjakee | GPLv2
 `sfx/weapons/swords/broadsword-hit1.ogg` | Krazyjakee | GPLv2
 `sfx/weapons/swords/firesword-miss1.ogg` | Krazyjakee | GPLv2
