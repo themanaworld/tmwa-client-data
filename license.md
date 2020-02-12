@@ -615,6 +615,7 @@ File | Artists | Licenses
 ---- |:-------:|:--------:
 `graphics/sprites/emote.png` | Alige, Arikel, DerLoisl, Modanung, Reid | GPLv2, CC BY-SA 3.0
 `graphics/sprites/error.png` | Wushin | GPLv2, CC BY-SA 3.0
+`graphics/sprites/equipment/angel-wings.png` | :grey_question:, Varuna, Arikel | GPLv2
 
 #### Status Icons
 File | Artists | Licenses
@@ -716,6 +717,7 @@ File | Artists | Licenses
 ---- |:-------:|:--------:
 `graphics/sprites/equipment/head/tamoshanter.png` | Chay | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/afkcap.png` | TMW-BR Team | GPLv2
+`graphics/sprites/equipment/head/aureole.png` | TMW-BR Team | GPLv2
 `graphics/sprites/equipment/head/autumn-mask.png` | Chay | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/nutcrackerhat.png` | Chayenne, Alige, Lizandra, Salmondine | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/phylactery.png` | strealyn, wushin | GPLv2, CC BY-SA 3.0
