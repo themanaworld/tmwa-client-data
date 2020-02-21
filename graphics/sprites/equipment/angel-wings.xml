@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<sprite>
+  <!-- Original from tmw.ufbteam.org - Authors: Varuna and Arikel-->
+  <imageset name="base" src="graphics/sprites/equipment/angel-wings.png|W" width="64" height="64"/>
+  <action name="stand" imageset="base">
+    <animation direction="down">
+      <sequence start="0" end="5" delay="75" offsetY="0" offsetX="0"/>
+    </animation>
+    <animation direction="left">
+      <sequence start="18" end="23" delay="75" offsetY="0" offsetX="0"/>
+    </animation>
+    <animation direction="up">
+      <sequence start="36" end="41" delay="75" offsetY="0" offsetX="0"/>
+    </animation>
+    <animation direction="right">
+      <sequence start="54" end="59" delay="75" offsetY="0" offsetX="0"/>
+    </animation>
+  </action>
+  <action name="walk" imageset="base">
+    <animation direction="down">
+      <sequence start="0" end="5" delay="75" offsetY="0" offsetX="0"/>
+    </animation>
+    <animation direction="left">
+      <sequence start="18" end="23" delay="75" offsetY="0" offsetX="0"/>
+    </animation>
+    <animation direction="up">
+      <sequence start="36" end="41" delay="75" offsetY="0" offsetX="0"/>
+    </animation>
+    <animation direction="right">
+      <sequence start="54" end="59" delay="75" offsetY="0" offsetX="0"/>
+    </animation>
+  </action>
+  <action name="sit" imageset="base">
+    <animation direction="down">
+      <sequence start="0" end="5" delay="75" offsetY="8" offsetX="0"/>
+    </animation>
+    <animation direction="left">
+      <sequence start="18" end="23" delay="75" offsetY="8" offsetX="6"/>
+    </animation>
+    <animation direction="up">
+      <sequence start="36" end="41" delay="75" offsetY="8" offsetX="0"/>
+    </animation>
+    <animation direction="right">
+      <sequence start="54" end="59" delay="75" offsetY="8" offsetX="-8"/>
+    </animation>
+  </action>
+  <action name="dead" imageset="base">
+    <animation direction="down">
+      <frame index="8"/>
+    </animation>
+    <animation direction="left">
+      <frame index="26"/>
+    </animation>
+    <animation direction="up">
+      <frame index="44"/>
+    </animation>
+    <animation direction="right">
+      <frame index="62"/>
+    </animation>
+  </action>
+  <action name="attack" imageset="base">
+    <animation direction="down">
+      <sequence start="9" end="12" delay="75" offsetY="0" offsetX="0"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <sequence start="27" end="30" delay="75" offsetY="0" offsetX="0"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <sequence start="45" end="48" delay="75" offsetY="0" offsetX="0"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <sequence start="63" end="66" delay="75" offsetY="0" offsetX="0"/>
+      <end/>
+    </animation>
+  </action>
+  <action name="attack_bow" imageset="base">
+    <animation direction="down">
+      <sequence start="13" end="17" delay="75" offsetY="0" offsetX="0"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <sequence start="31" end="35" delay="75" offsetY="0" offsetX="0"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <sequence start="49" end="53" delay="75" offsetY="0" offsetX="0"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <sequence start="67" end="71" delay="75" offsetY="0" offsetX="0"/>
+      <end/>
+    </animation>
+  </action>
+</sprite>
