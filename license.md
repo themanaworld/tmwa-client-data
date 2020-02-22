@@ -243,6 +243,7 @@ File | Artists | Licenses
 `graphics/items/equipment/head/rosehat.png` | Nami, skipy, Alige | GPLv2
 `graphics/items/equipment/head/sailor_hat.png` | Black Don | GPLv2
 `graphics/items/equipment/head/santahat.png` | Crush | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/head/shades.png` | jak1 | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/silkheadband.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/skullmask.png` | Beelzebub, FotherJ | GPLv2
 `graphics/items/equipment/head/snowgoggles.png` | VXD | GPLv2, CC BY-SA 3.0
@@ -265,8 +266,9 @@ File | Artists | Licenses
 `graphics/items/equipment/legs/assassinpants.png` | Black Don | GPLv2
 `graphics/items/equipment/legs/bromenallegs.png` | Skipy | GPLv2
 `graphics/items/equipment/legs/chaps.png` | Black Don | GPLv2
-`graphics/items/equipment/legs/miniskirt.png` | jak1 | GPLv2
+`graphics/items/equipment/legs/miniskirt.png` | jak1 | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/legs/pants.png` | Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/legs/silkpants.png` | LuH | GPLv2
 `graphics/items/equipment/legs/terranitepants.png` | Kr0n05931 | GPLv2
 
 #### Rings
@@ -274,8 +276,7 @@ File | Artists | Licenses
 ---- |:-------:|:--------:
 `graphics/items/equipment/rings/gem.png` | Salmondine | GPLv2
 `graphics/items/equipment/rings/simple.png` | Salmondine | GPLv2
-`graphics/items/equipment/rings/wedding.png` | Kess | GPLv2
-`graphics/items/equipment/legs/silkpants.png` | LuH | GPLv2
+`graphics/items/equipment/rings/wedding.png` | Kess | GPLv2 
 
 #### Shields
 File | Artists | Licenses
