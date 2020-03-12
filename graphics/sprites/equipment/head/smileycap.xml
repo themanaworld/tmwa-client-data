@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Saulc, Seeds
+Copyright (C) 2018-2020 The Mana World -->
+<sprite>
+  <imageset name="base" src="graphics/sprites/equipment/head/smileycap.png" width="32" height="64"/>
+  <action name="stand" imageset="base">
+    <animation direction="down">
+      <frame index="0" offsetX="-1" offsetY="-27"/>
+    </animation>
+    <animation direction="left">
+      <frame index="1" offsetX="-1" offsetY="-27"/>
+    </animation>
+    <animation direction="up">
+      <frame index="2" offsetX="-1" offsetY="-27"/>
+    </animation>
+    <animation direction="right">
+      <frame index="3" offsetX="1" offsetY="-27"/>
+    </animation>
+  </action>
+  <action name="walk" imageset="base">
+    <animation direction="down">
+      <frame index="0" offsetX="-1" offsetY="-26" delay="80"/>
+      <frame index="0" offsetX="-1" offsetY="-27" delay="160"/>
+      <frame index="0" offsetX="-1" offsetY="-26" delay="80"/>
+      <frame index="0" offsetX="-1" offsetY="-27" delay="160"/>
+    </animation>
+    <animation direction="left">
+      <frame index="1" offsetX="-1" offsetY="-27" delay="80"/>
+      <frame index="1" offsetX="-1" offsetY="-26" delay="80"/>
+      <frame index="1" offsetX="-1" offsetY="-27" delay="160"/>
+      <frame index="1" offsetX="-1" offsetY="-26" delay="80"/>
+      <frame index="1" offsetX="-1" offsetY="-27" delay="80"/>
+    </animation>
+    <animation direction="up">
+      <frame index="2" offsetX="-1" offsetY="-27" delay="80"/>
+      <frame index="2" offsetX="-1" offsetY="-28" delay="160"/>
+      <frame index="2" offsetX="-1" offsetY="-27" delay="80"/>
+      <frame index="2" offsetX="-1" offsetY="-28" delay="160"/>
+    </animation>
+    <animation direction="right">
+      <frame index="3" offsetX="1" offsetY="-27" delay="80"/>
+      <frame index="3" offsetX="1" offsetY="-26" delay="80"/>
+      <frame index="3" offsetX="1" offsetY="-27" delay="160"/>
+      <frame index="3" offsetX="1" offsetY="-26" delay="80"/>
+      <frame index="3" offsetX="1" offsetY="-27" delay="80"/>
+    </animation>
+  </action>
+  <action name="attack" imageset="base">
+    <animation direction="down">
+      <frame index="0" offsetX="-1" offsetY="-25" delay="80"/>
+      <frame index="0" offsetX="-1" offsetY="-26" delay="80"/>
+      <frame index="0" offsetX="-1" offsetY="-23" delay="80"/>
+      <frame index="0" offsetX="-1" offsetY="-22" delay="80"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <frame index="1" offsetX="3" offsetY="-28" delay="80"/>
+      <frame index="1" offsetX="3" offsetY="-29" delay="80"/>
+      <frame index="1" offsetX="-1" offsetY="-26" delay="80"/>
+      <frame index="1" offsetX="-1" offsetY="-25" delay="80"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <frame index="2" offsetX="-2" offsetY="-27" delay="240"/>
+      <frame index="2" offsetX="-2" offsetY="-25" delay="80"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <frame index="3" offsetX="-3" offsetY="-28" delay="80"/>
+      <frame index="3" offsetX="-3" offsetY="-30" delay="80"/>
+      <frame index="3" offsetY="-26" delay="80"/>
+      <frame index="3" offsetY="-25" delay="80"/>
+      <end/>
+    </animation>
+  </action>
+  <action name="attack_bow" imageset="base">
+    <animation direction="down">
+      <frame index="0" offsetX="-1" offsetY="-26" delay="240"/>
+      <frame index="0" offsetX="-1" offsetY="-24" delay="80"/>
+      <frame index="0" offsetX="-1" offsetY="-25" delay="80"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <frame index="1" offsetX="2" offsetY="-27" delay="240"/>
+      <frame index="1" offsetX="4" offsetY="-28" delay="160"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <frame index="2" offsetX="-1" offsetY="-27" delay="160"/>
+      <frame index="2" offsetX="-2" offsetY="-27" delay="80"/>
+      <frame index="2" offsetX="-2" offsetY="-26" delay="80"/>
+      <frame index="2" offsetX="-2" offsetY="-27" delay="80"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <frame index="3" offsetX="-3" offsetY="-27" delay="240"/>
+      <frame index="3" offsetX="-5" offsetY="-28" delay="160"/>
+      <end/>
+    </animation>
+  </action>
+  <action name="sit" imageset="base">
+    <animation direction="down">
+      <frame index="0" offsetX="-1" offsetY="-14"/>
+    </animation>
+    <animation direction="left">
+      <frame index="1" offsetX="3" offsetY="-17"/>
+    </animation>
+    <animation direction="up">
+      <frame index="2" offsetY="-18"/>
+    </animation>
+    <animation direction="right">
+      <frame index="3" offsetX="-5" offsetY="-17"/>
+    </animation>
+  </action>
+  <action name="sittop" imageset="base">
+    <animation direction="down">
+      <frame index="0" offsetX="-1" offsetY="-14"/>
+    </animation>
+    <animation direction="left">
+      <frame index="1" offsetX="3" offsetY="-17"/>
+    </animation>
+    <animation direction="up">
+      <frame index="2" offsetY="-18"/>
+    </animation>
+    <animation direction="right">
+      <frame index="3" offsetX="-5" offsetY="-17"/>
+    </animation>
+  </action>
+  <action name="standride" imageset="base">
+    <animation direction="down">
+      <frame index="0" offsetX="-1" offsetY="-14"/>
+    </animation>
+    <animation direction="left">
+      <frame index="1" offsetX="3" offsetY="-17"/>
+    </animation>
+    <animation direction="up">
+      <frame index="2" offsetY="-18"/>
+    </animation>
+    <animation direction="right">
+      <frame index="3" offsetX="-5" offsetY="-17"/>
+    </animation>
+  </action>
+  <action name="spawnride" imageset="base">
+    <animation direction="down">
+      <frame index="0" offsetX="-1" offsetY="-14"/>
+    </animation>
+    <animation direction="left">
+      <frame index="1" offsetX="3" offsetY="-17"/>
+    </animation>
+    <animation direction="up">
+      <frame index="2" offsetY="-17"/>
+    </animation>
+    <animation direction="right">
+      <frame index="3" offsetX="-7" offsetY="-17"/>
+    </animation>
+  </action>
+  <action name="ride" imageset="base">
+    <animation direction="down">
+      <frame index="0" offsetX="-1" offsetY="-14"/>
+    </animation>
+    <animation direction="left">
+      <frame index="1" offsetX="3" offsetY="-17"/>
+    </animation>
+    <animation direction="up">
+      <frame index="2" offsetY="-17"/>
+    </animation>
+    <animation direction="right">
+      <frame index="3" offsetX="-5" offsetY="-17"/>
+    </animation>
+  </action>
+  <action name="attackride" imageset="base">
+    <animation direction="down">
+      <frame index="0" offsetX="-1" offsetY="-14"/>
+    </animation>
+    <animation direction="left">
+      <frame index="1" offsetX="3" offsetY="-17"/>
+    </animation>
+    <animation direction="up">
+      <frame index="2" offsetY="-18"/>
+    </animation>
+    <animation direction="right">
+      <frame index="3" offsetX="-5" offsetY="-17"/>
+    </animation>
+  </action>
+  <!-- FIXME -->
+  <action name="dead" imageset="base">
+    <animation direction="default">
+      <frame index="4" offsetX="13" offsetY="8"/>
+    </animation>
+  </action>
+</sprite>
