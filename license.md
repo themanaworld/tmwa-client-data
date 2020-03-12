@@ -788,6 +788,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/shroom.png` | crevost2, Yuuki | GPLv2
 `graphics/sprites/equipment/head/silkheadband.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/skullmask.png` | Beelzebub, FotherJ | GPLv2
+`graphics/sprites/equipment/head/smileycap.png` | +seeds | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/snowgoggles.png` | VXD | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/sunglasses.png` | UntamedMonkey | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/terranitehelm.png` | Kr0n05931 | GPLv2
