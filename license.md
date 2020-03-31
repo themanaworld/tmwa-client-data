@@ -907,6 +907,7 @@ File | Artists | Licenses
 `graphics/sprites/monsters/troll.png` | FotherJ | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/vampire-bat.png` | Meway | GPLv2
 `graphics/sprites/monsters/vespa.png` | Arikel | GPLv2, CC BY-SA 3.0
+`graphics/sprites/monsters/virus.png` | Hocus | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/wisp.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/wolvern.png` | Pateame | GPLv2
 `graphics/sprites/monsters/yeti.png` | Bcs86, Hkurn, Skipy | GPLv2
@@ -1156,6 +1157,9 @@ File | Artists | Licenses
 `sfx/weapons/swords/longsword-miss1.ogg` | Krazyjakee | GPLv2
 `sfx/weapons/swords/rapier-hit1.ogg` | Krazyjakee | GPLv2
 `sfx/weapons/swords/sabre-hit1.ogg` | Krazyjakee | GPLv2
+`sfx/weapons/swords/sandcutter-hit7.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/swords/sandcutter-hit8.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/swords/sandcutter-hit9.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/swords/short-sword-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/weapons/swords/short-sword-miss1.ogg` | Cosmostrator | GPLv2
 
