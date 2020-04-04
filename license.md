@@ -863,6 +863,7 @@ File | Artists | Licenses
 `graphics/sprites/monsters/christmas-mouboo.png` | Cassy, Yuuki | GPLv2
 `graphics/sprites/monsters/clover.png` | 5t3v3 | GPLv2
 `graphics/sprites/monsters/demon.png` | FotherJ, V0id | GPLv2, CC BY-SA 3.0
+`graphics/sprites/monsters/dragon.png` | Lunovox, Jesusalva | GPLv2
 `graphics/sprites/monsters/duck.png` | Meway | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/element-ball.png` | Reid | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/ghost-pumpkin.png` | :grey_question:, Modanung | GPLv2
@@ -886,6 +887,7 @@ File | Artists | Licenses
 `graphics/sprites/monsters/pinkie.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/plant.png` | Crush, Seradest | GPLv2
 `graphics/sprites/monsters/reaper.png` | Alige, Len, Reid, Skipy | GPLv2
+`graphics/sprites/monsters/sasquatch.png` | Xtreem | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/serqet.png` | ChefChelios | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/silkworm.png` | Fate | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/skeleton.png` | FotherJ | GPLv2, CC BY-SA 3.0
@@ -903,6 +905,7 @@ File | Artists | Licenses
 `graphics/sprites/monsters/spirit-demonic.png` | :grey_question:, Neoriceisgood, V0id | GPLv2
 `graphics/sprites/monsters/squirrel.png` | FotherJ, Wombat | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/terranite-mask.png` | Kr0n05931 | GPLv2
+`graphics/sprites/monsters/tengu.png` | Hocus | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/terranite.png` | Kr0n05931 | GPLv2
 `graphics/sprites/monsters/troll.png` | FotherJ | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/vampire-bat.png` | Meway | GPLv2
