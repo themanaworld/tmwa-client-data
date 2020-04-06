@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors: Micksha Copyright (C) 2011-2019 Evol Online -->
+<sprite>
+  <imageset name="mob" src="graphics/sprites/monsters/tengu.png" width="128" height="128" offsetY="0"/>
+  <action name="spawn" imageset="mob">
+    <animation direction="default">
+      <sequence start="512" end="520" delay="100"/>
+    </animation>
+  </action>
+  <action name="stand" imageset="mob">
+    <animation direction="down">
+      <frame index="0"/>
+    </animation>
+    <animation direction="downleft">
+      <frame index="224"/>
+    </animation>
+    <animation direction="left">
+      <frame index="192"/>
+    </animation>
+    <animation direction="upleft">
+      <frame index="160"/>
+    </animation>
+    <animation direction="up">
+      <frame index="128"/>
+    </animation>
+    <animation direction="upright">
+      <frame index="96"/>
+    </animation>
+    <animation direction="right">
+      <frame index="64"/>
+    </animation>
+    <animation direction="downright">
+      <frame index="32"/>
+    </animation>
+  </action>
+  <action name="walk" imageset="mob">
+    <animation direction="down">
+      <sequence start="4" end="16" delay="50"/>
+    </animation>
+    <animation direction="downleft">
+      <sequence start="228" end="240" delay="50"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <sequence start="196" end="208" delay="50"/>
+      <end/>
+    </animation>
+    <animation direction="upleft">
+      <sequence start="164" end="176" delay="50"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <sequence start="132" end="144" delay="50"/>
+      <end/>
+    </animation>
+    <animation direction="upright">
+      <sequence start="100" end="112" delay="50"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <sequence start="68" end="80" delay="50"/>
+      <end/>
+    </animation>
+    <animation direction="downright">
+      <sequence start="36" end="48" delay="50"/>
+      <end/>
+    </animation>
+  </action>
+  <action name="attack" imageset="mob">
+    <animation direction="down">
+      <sequence start="17" end="31" delay="50"/>
+      <end/>
+    </animation>
+    <animation direction="downleft">
+      <sequence start="241" end="255" delay="50"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <sequence start="209" end="223" delay="50"/>
+      <end/>
+    </animation>
+    <animation direction="upleft">
+      <sequence start="177" end="191" delay="50"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <sequence start="145" end="159" delay="50"/>
+      <end/>
+    </animation>
+    <animation direction="upright">
+      <sequence start="113" end="127" delay="50"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <sequence start="81" end="95" delay="50"/>
+      <end/>
+    </animation>
+    <animation direction="downright">
+      <sequence start="49" end="63" delay="50"/>
+      <end/>
+    </animation>
+  </action>
+  <action name="dead" imageset="mob">
+    <animation direction="down">
+      <sequence start="256" end="260" delay="70"/>
+      <frame index="260" delay="500"/>
+      <sequence start="261" end="265" delay="100"/>
+      <frame index="266"/>
+      <end/>
+    </animation>
+    <animation direction="downleft">
+      <sequence start="480" end="484" delay="70"/>
+      <frame index="484" delay="500"/>
+      <sequence start="485" end="489" delay="100"/>
+      <frame index="490"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <sequence start="448" end="452" delay="70"/>
+      <frame index="452" delay="500"/>
+      <sequence start="453" end="457" delay="100"/>
+      <frame index="458"/>
+      <end/>
+    </animation>
+    <animation direction="upleft">
+      <sequence start="416" end="420" delay="70"/>
+      <frame index="420" delay="500"/>
+      <sequence start="421" end="425" delay="100"/>
+      <frame index="426"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <sequence start="384" end="388" delay="70"/>
+      <frame index="388" delay="500"/>
+      <sequence start="389" end="393" delay="100"/>
+      <frame index="394"/>
+      <end/>
+    </animation>
+    <animation direction="upright">
+      <sequence start="352" end="356" delay="70"/>
+      <frame index="356" delay="500"/>
+      <sequence start="357" end="361" delay="100"/>
+      <frame index="362"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <sequence start="320" end="324" delay="70"/>
+      <frame index="324" delay="500"/>
+      <sequence start="325" end="329" delay="100"/>
+      <frame index="330"/>
+      <end/>
+    </animation>
+    <animation direction="downright">
+      <sequence start="288" end="292" delay="70"/>
+      <frame index="292" delay="500"/>
+      <sequence start="293" end="297" delay="100"/>
+      <frame index="298"/>
+      <end/>
+    </animation>
+  </action>
+</sprite>
