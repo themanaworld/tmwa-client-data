@@ -258,6 +258,7 @@ File | Artists | Licenses
 `graphics/items/equipment/head/christmastree.png` | Pauan | GPLv2
 `graphics/items/equipment/head/pipe.png` | Veryape | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/terranite-head.png` | gumi, Kr0n05931 | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/head/shades.png` | jak1 | GPLv2, CC BY-SA 3.0
 
 #### Legs
 File | Artists | Licenses
@@ -265,8 +266,9 @@ File | Artists | Licenses
 `graphics/items/equipment/legs/assassinpants.png` | Black Don | GPLv2
 `graphics/items/equipment/legs/bromenallegs.png` | Skipy | GPLv2
 `graphics/items/equipment/legs/chaps.png` | Black Don | GPLv2
-`graphics/items/equipment/legs/miniskirt.png` | jak1 | GPLv2
+`graphics/items/equipment/legs/miniskirt.png` | jak1 | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/legs/pants.png` | Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/legs/silkpants.png` | LuH | GPLv2
 `graphics/items/equipment/legs/terranitepants.png` | Kr0n05931 | GPLv2
 
 #### Rings
@@ -275,7 +277,6 @@ File | Artists | Licenses
 `graphics/items/equipment/rings/gem.png` | Salmondine | GPLv2
 `graphics/items/equipment/rings/simple.png` | Salmondine | GPLv2
 `graphics/items/equipment/rings/wedding.png` | Kess | GPLv2
-`graphics/items/equipment/legs/silkpants.png` | LuH | GPLv2
 
 #### Shields
 File | Artists | Licenses
@@ -800,6 +801,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/wizard-hat.png` | Chayenne, Crush, Hal9000 | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/yeti-mask.png` | Skipy | GPLv2
 `graphics/sprites/equipment/head/pipe.png` | Veryape | GPLv2, CC BY-SA 3.0
+`graphics/sprites/equipment/head/shades.png` | jak1 | GPLv2, CC BY-SA 3.0
 
 #### Legs
 File | Artists | Licenses
