@@ -801,6 +801,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/wizard-hat.png` | Chayenne, Crush, Hal9000 | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/yeti-mask.png` | Skipy | GPLv2
 `graphics/sprites/equipment/head/pipe.png` | Veryape | GPLv2, CC BY-SA 3.0
+`graphics/sprites/equipment/head/shades.png` | jak1 | GPLv2, CC BY-SA 3.0
 
 #### Legs
 File | Artists | Licenses
