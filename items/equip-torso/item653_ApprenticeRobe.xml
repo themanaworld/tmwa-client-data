@@ -6,7 +6,7 @@
     <its:translateRule selector="//item/@effect" translate="yes"/>
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
-  <item id="653" image="equipment/chest/silk-robe.png|W:#804000" name="Apprentice Robe" description="A robe made for apprentices." defense="5" type="equip-torso" weight="5">
+  <item id="653" image="equipment/chest/silk-robe.png|W:#804000" name="Apprentice Robe" description="A robe made for apprentices." mattack="20" defense="5" agi="1" criticaldefense="10" type="equip-torso" weight="5">
     <sprite gender="unisex">equipment/chest/robe.xml|#804000</sprite>
     <sprite gender="female">equipment/chest/robe-female.xml|#804000</sprite>
     <replace sprite="race">
