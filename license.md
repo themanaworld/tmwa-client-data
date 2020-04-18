@@ -984,6 +984,8 @@ File | Artists | Licenses
 ### Tilesets
 File | Artists | Licenses
 ---- |:-------:|:--------:
+`graphics/tiles/artis-indoor.png` | Reid, Saweres, IvanMorve, Lien | GPLv2, CC BY-SA
+`graphics/tiles/artis-lamps-x1x3.png` | Alige, Reid | GPLv2, CC BY-SA
 `graphics/tiles/barbarians_outdoor.png` | Salmondine | GPLv2
 `graphics/tiles/barbarians_yurt_x4.png` | Alige, Meway, Nami | GPLv2, CC BY-SA 3.0
 `graphics/tiles/castle1.png` | Alige, EJlol, Irukard, Len, MerlinX420 | GPLv2
@@ -1015,6 +1017,7 @@ File | Artists | Licenses
 `graphics/tiles/crypt_x4.png` | Black Don, Crush, Irukard, Skipy, Spit23, Wushin | GPLv2
 `graphics/tiles/crypt_x5.png` | Black Don, Crush, Irukard, Skipy, Spit23, Wushin | GPLv2
 `graphics/tiles/crypt_x8.png` | Black Don, Crush, Irukard, Skipy, Spit23, Wushin | GPLv2
+`graphics/tiles/dark-tileset-accessory.png` | Micksha | GPLv2, CC BY-SA
 `graphics/tiles/desert_x2.png` | :grey_question:, Wushin | GPLv2
 `graphics/tiles/desert_x3.png` | :grey_question:, Wushin | GPLv2
 `graphics/tiles/desert_x5.png` | :grey_question:, Wushin | GPLv2
@@ -1048,6 +1051,7 @@ File | Artists | Licenses
 `graphics/tiles/inn_x4.png` | Salmondine | GPLv2
 `graphics/tiles/inn.png` | Irukard | GPLv2, CC BY-SA 3.0
 `graphics/tiles/inn2.png` | Alige, Irukard, Salmondine | GPLv2
+`graphics/tiles/light-flickering-x1x4.png` | Micksha | GPLv2, CC BY-SA 3.0
 `graphics/tiles/mushrooms.png` | Dave, Len | GPLv2
 `graphics/tiles/snow_docks.png` | Irukard, Arikel, Meway, Wombat | GPLv2
 `graphics/tiles/snow_ground.png` | bagzie, gumi, :grey_question: | GPLv2
