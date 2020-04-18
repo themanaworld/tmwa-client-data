@@ -1101,7 +1101,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="8" name="Collision" width="150" height="150" visible="0">
+ <layer id="8" name="Collision" width="150" height="150" opacity="0.5">
   <data encoding="csv">
 366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,
 366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,366,
@@ -1256,140 +1256,140 @@
 </data>
  </layer>
  <objectgroup id="9" name="Objects">
-  <object id="1" name="To Hallway" type="warp" x="816" y="752">
+  <object id="1" name="To Hallway" type="warp" x="800" y="736" width="32" height="32">
    <properties>
     <property name="dest_map" value="099-1"/>
     <property name="dest_tile_x" value="29"/>
     <property name="dest_tile_y" value="17"/>
    </properties>
   </object>
-  <object id="2" name="To Hallway" type="warp" x="1904" y="721">
+  <object id="2" name="To Hallway" type="warp" x="1888" y="704" width="32" height="32">
    <properties>
     <property name="dest_map" value="099-1"/>
     <property name="dest_tile_x" value="77"/>
     <property name="dest_tile_y" value="17"/>
    </properties>
   </object>
-  <object id="3" name="To Hallway" type="warp" x="2895" y="721">
+  <object id="3" name="To Hallway" type="warp" x="2880" y="704" width="32" height="32">
    <properties>
     <property name="dest_map" value="099-1"/>
     <property name="dest_tile_x" value="105"/>
     <property name="dest_tile_y" value="9"/>
    </properties>
   </object>
-  <object id="4" name="To Hallway" type="warp" x="3888" y="721">
+  <object id="4" name="To Hallway" type="warp" x="3872" y="704" width="32" height="32">
    <properties>
     <property name="dest_map" value="099-1"/>
     <property name="dest_tile_x" value="91"/>
     <property name="dest_tile_y" value="137"/>
    </properties>
   </object>
-  <object id="5" name="To Hallway" type="warp" x="815" y="1618">
+  <object id="5" name="To Hallway" type="warp" x="800" y="1600" width="32" height="32">
    <properties>
     <property name="dest_map" value="099-1"/>
     <property name="dest_tile_x" value="20"/>
     <property name="dest_tile_y" value="116"/>
    </properties>
   </object>
-  <object id="6" name="To Hallway" type="warp" x="1903" y="1617">
+  <object id="6" name="To Hallway" type="warp" x="1889" y="1600" width="32" height="32">
    <properties>
     <property name="dest_map" value="099-1"/>
     <property name="dest_tile_x" value="97"/>
     <property name="dest_tile_y" value="86"/>
    </properties>
   </object>
-  <object id="7" name="To Hallway" type="warp" x="2927" y="1617">
+  <object id="7" name="To Hallway" type="warp" x="2912" y="1600" width="32" height="32">
    <properties>
     <property name="dest_map" value="099-1"/>
     <property name="dest_tile_x" value="112"/>
     <property name="dest_tile_y" value="127"/>
    </properties>
   </object>
-  <object id="8" name="To Hallway" type="warp" x="3889" y="1586">
+  <object id="8" name="To Hallway" type="warp" x="3872" y="1568" width="32" height="32">
    <properties>
     <property name="dest_map" value="099-1"/>
     <property name="dest_tile_x" value="64"/>
     <property name="dest_tile_y" value="115"/>
    </properties>
   </object>
-  <object id="9" name="To Hallway" type="warp" x="815" y="2449">
+  <object id="9" name="To Hallway" type="warp" x="800" y="2432" width="32" height="32">
    <properties>
     <property name="dest_map" value="099-1"/>
     <property name="dest_tile_x" value="64"/>
     <property name="dest_tile_y" value="73"/>
    </properties>
   </object>
-  <object id="10" name="To Hallway" type="warp" x="1903" y="2451">
+  <object id="10" name="To Hallway" type="warp" x="1888" y="2432" width="32" height="32">
    <properties>
     <property name="dest_map" value="099-1"/>
     <property name="dest_tile_x" value="42"/>
     <property name="dest_tile_y" value="52"/>
    </properties>
   </object>
-  <object id="11" name="To Hallway" type="warp" x="2927" y="2448">
+  <object id="11" name="To Hallway" type="warp" x="2912" y="2432" width="32" height="32">
    <properties>
     <property name="dest_map" value="099-1"/>
     <property name="dest_tile_x" value="92"/>
     <property name="dest_tile_y" value="45"/>
    </properties>
   </object>
-  <object id="12" name="To Hallway" type="warp" x="3887" y="2448">
+  <object id="12" name="To Hallway" type="warp" x="3872" y="2432" width="32" height="32">
    <properties>
     <property name="dest_map" value="099-1"/>
     <property name="dest_tile_x" value="15"/>
     <property name="dest_tile_y" value="78"/>
    </properties>
   </object>
-  <object id="13" name="To Hallway" type="warp" x="814" y="3282">
+  <object id="13" name="To Hallway" type="warp" x="800" y="3264" width="32" height="32">
    <properties>
     <property name="dest_map" value="099-1"/>
     <property name="dest_tile_x" value="49"/>
     <property name="dest_tile_y" value="130"/>
    </properties>
   </object>
-  <object id="14" name="To Hallway" type="warp" x="1937" y="3281">
+  <object id="14" name="To Hallway" type="warp" x="1920" y="3264" width="32" height="32">
    <properties>
     <property name="dest_map" value="099-1"/>
     <property name="dest_tile_x" value="113"/>
     <property name="dest_tile_y" value="62"/>
    </properties>
   </object>
-  <object id="15" name="To Hallway" type="warp" x="2930" y="3281">
+  <object id="15" name="To Hallway" type="warp" x="2912" y="3264" width="32" height="32">
    <properties>
     <property name="dest_map" value="099-1"/>
     <property name="dest_tile_x" value="131"/>
     <property name="dest_tile_y" value="79"/>
    </properties>
   </object>
-  <object id="16" name="To Hallway" type="warp" x="3886" y="3280">
+  <object id="16" name="To Hallway" type="warp" x="3872" y="3264" width="32" height="32">
    <properties>
     <property name="dest_map" value="099-1"/>
     <property name="dest_tile_x" value="72"/>
     <property name="dest_tile_y" value="59"/>
    </properties>
   </object>
-  <object id="17" name="To Hallway" type="warp" x="850" y="4271">
+  <object id="17" name="To Hallway" type="warp" x="833" y="4256" width="32" height="32">
    <properties>
     <property name="dest_map" value="099-1"/>
     <property name="dest_tile_x" value="47"/>
     <property name="dest_tile_y" value="93"/>
    </properties>
   </object>
-  <object id="18" name="To Hallway" type="warp" x="1937" y="4273">
+  <object id="18" name="To Hallway" type="warp" x="1920" y="4256" width="32" height="32">
    <properties>
     <property name="dest_map" value="099-1"/>
     <property name="dest_tile_x" value="102"/>
     <property name="dest_tile_y" value="25"/>
    </properties>
   </object>
-  <object id="19" name="To Hallway" type="warp" x="2962" y="4272">
+  <object id="19" name="To Hallway" type="warp" x="2944" y="4256" width="32" height="32">
    <properties>
     <property name="dest_map" value="099-1"/>
     <property name="dest_tile_x" value="120"/>
     <property name="dest_tile_y" value="45"/>
    </properties>
   </object>
-  <object id="20" name="To Hallway" type="warp" x="3887" y="4273">
+  <object id="20" name="To Hallway" type="warp" x="3872" y="4256" width="32" height="32">
    <properties>
     <property name="dest_map" value="099-1"/>
     <property name="dest_tile_x" value="97"/>
