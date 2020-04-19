@@ -106,6 +106,7 @@ File | Artists | Licenses
 `graphics/images/ambient/sandstorm.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/images/ambient/snow.png` | Dark_Mage | GPLv2
 `graphics/images/ambient/spotlight.png` | Crush | GPLv2, CC BY-SA 3.0
+`graphics/images/ambient/warning.png` | Jesusalva | CC0, GPLv2, CC-BY-SA 3.0
 
 ### Help
 File | Artists | Licenses
@@ -1154,6 +1155,7 @@ File | Artists | Licenses
 `sfx/monsters/zombie/zombie-move2.ogg` | Bcs86 | GPLv2
 `sfx/system/levelup.ogg` | Cosmostrator | GPLv2
 `sfx/system/ship-bell2.ogg` | unknown | (public domain)
+`sfx/system/warning.ogg` | Jesusalva | (public domain)
 `sfx/weapons/bows/bow_shoot_1.ogg` | Cosmostrator | GPLv2
 `sfx/weapons/knives/knife-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/weapons/knives/knife-miss1.ogg` | Cosmostrator | GPLv2
