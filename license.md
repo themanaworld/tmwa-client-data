@@ -871,6 +871,7 @@ File | Artists | Licenses
 `graphics/sprites/monsters/ghost-pumpkin.png` | :grey_question:, Modanung | GPLv2
 `graphics/sprites/monsters/goblin-fire.png` | :grey_question:, Neoriceisgood | GPLv2
 `graphics/sprites/monsters/goblin-ice.png` | :grey_question:, Neoriceisgood | GPLv2
+`graphics/sprites/monsters/golemm.png` | Hocus | MIT, GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/larvespa.png` | Arikel | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/lizard.png` | Len, Pateame | GPLv2
 `graphics/sprites/monsters/logmonster.png` | FotherJ | GPLv2, CC BY-SA 3.0
