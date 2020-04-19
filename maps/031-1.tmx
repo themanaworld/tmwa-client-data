@@ -3,6 +3,11 @@
  <properties>
   <property name="music" value="snow-village.ogg"/>
   <property name="name" value="Nivalis Port"/>
+  <property name="overlay0image" value="graphics/images/ambient/warning.png"/>
+  <property name="overlay0parallax" value="1.0"/>
+  <property name="overlay0scrollX" value="1.2"/>
+  <property name="overlay0scrollY" value="0.0"/>
+  <property name="overlay0mask" value="2"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
  <tileset firstgid="3" source="../tilesets/snow.tsx"/>
