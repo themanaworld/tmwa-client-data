@@ -4,5 +4,6 @@
     <sprite>monsters/golem.xml</sprite>
     <!-- No folder for this -->
     <attack id="1" critical-hit-effect-id="16" missile-particle="graphics/particles/fire-burst.xml" action="attack"/>
+    <sound event="die">monsters/golem/die.ogg</sound>
   </monster>
 </monsters>
