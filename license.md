@@ -1097,6 +1097,7 @@ File | Artists | Licenses
 File | Artists | Licenses
 ---- |:-------:|:--------:
 `sfx/fist-swish.ogg` | Cosmostrator | GPLv2
+`sfx/punch.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/env/env-burningfire1.ogg` | Dariuna | GPLv2
 `sfx/env/env-riverflow1.ogg` | Dariuna | GPLv2
 `sfx/env/env-waterfall1.ogg` | Dariuna | GPLv2
@@ -1115,6 +1116,7 @@ File | Artists | Licenses
 `sfx/monsters/fluffy/fluffy-hit3.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/fluffy/fluffy-hurt1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/fluffy/fluffy-miss1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/golem/die.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/loghead/loghead-die1.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
 `sfx/monsters/loghead/loghead-hit1.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
 `sfx/monsters/loghead/loghead-hurt1.ogg` | Cosmostrator | GPLv2
