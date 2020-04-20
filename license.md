@@ -106,6 +106,7 @@ File | Artists | Licenses
 `graphics/images/ambient/sandstorm.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/images/ambient/snow.png` | Dark_Mage | GPLv2
 `graphics/images/ambient/spotlight.png` | Crush | GPLv2, CC BY-SA 3.0
+`graphics/images/ambient/warning.png` | Jesusalva | CC0, GPLv2, CC-BY-SA 3.0
 
 ### Help
 File | Artists | Licenses
@@ -871,6 +872,7 @@ File | Artists | Licenses
 `graphics/sprites/monsters/ghost-pumpkin.png` | :grey_question:, Modanung | GPLv2
 `graphics/sprites/monsters/goblin-fire.png` | :grey_question:, Neoriceisgood | GPLv2
 `graphics/sprites/monsters/goblin-ice.png` | :grey_question:, Neoriceisgood | GPLv2
+`graphics/sprites/monsters/golem.png` | Hocus | MIT, GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/larvespa.png` | Arikel | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/lizard.png` | Len, Pateame | GPLv2
 `graphics/sprites/monsters/logmonster.png` | FotherJ | GPLv2, CC BY-SA 3.0
@@ -984,6 +986,8 @@ File | Artists | Licenses
 ### Tilesets
 File | Artists | Licenses
 ---- |:-------:|:--------:
+`graphics/tiles/artis-indoor.png` | Reid, Saweres, IvanMorve, Lien | GPLv2, CC BY-SA
+`graphics/tiles/artis-lamps-x1x3.png` | Alige, Reid | GPLv2, CC BY-SA
 `graphics/tiles/barbarians_outdoor.png` | Salmondine | GPLv2
 `graphics/tiles/barbarians_yurt_x4.png` | Alige, Meway, Nami | GPLv2, CC BY-SA 3.0
 `graphics/tiles/castle1.png` | Alige, EJlol, Irukard, Len, MerlinX420 | GPLv2
@@ -1015,6 +1019,7 @@ File | Artists | Licenses
 `graphics/tiles/crypt_x4.png` | Black Don, Crush, Irukard, Skipy, Spit23, Wushin | GPLv2
 `graphics/tiles/crypt_x5.png` | Black Don, Crush, Irukard, Skipy, Spit23, Wushin | GPLv2
 `graphics/tiles/crypt_x8.png` | Black Don, Crush, Irukard, Skipy, Spit23, Wushin | GPLv2
+`graphics/tiles/dark-tileset-accessory.png` | Micksha | GPLv2, CC BY-SA
 `graphics/tiles/desert_x2.png` | :grey_question:, Wushin | GPLv2
 `graphics/tiles/desert_x3.png` | :grey_question:, Wushin | GPLv2
 `graphics/tiles/desert_x5.png` | :grey_question:, Wushin | GPLv2
@@ -1048,6 +1053,7 @@ File | Artists | Licenses
 `graphics/tiles/inn_x4.png` | Salmondine | GPLv2
 `graphics/tiles/inn.png` | Irukard | GPLv2, CC BY-SA 3.0
 `graphics/tiles/inn2.png` | Alige, Irukard, Salmondine | GPLv2
+`graphics/tiles/light-flickering-x1x4.png` | Micksha | GPLv2, CC BY-SA 3.0
 `graphics/tiles/mushrooms.png` | Dave, Len | GPLv2
 `graphics/tiles/snow_docks.png` | Irukard, Arikel, Meway, Wombat | GPLv2
 `graphics/tiles/snow_ground.png` | bagzie, gumi, :grey_question: | GPLv2
@@ -1091,6 +1097,7 @@ File | Artists | Licenses
 File | Artists | Licenses
 ---- |:-------:|:--------:
 `sfx/fist-swish.ogg` | Cosmostrator | GPLv2
+`sfx/punch.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/env/env-burningfire1.ogg` | Dariuna | GPLv2
 `sfx/env/env-riverflow1.ogg` | Dariuna | GPLv2
 `sfx/env/env-waterfall1.ogg` | Dariuna | GPLv2
@@ -1109,6 +1116,7 @@ File | Artists | Licenses
 `sfx/monsters/fluffy/fluffy-hit3.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/fluffy/fluffy-hurt1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/fluffy/fluffy-miss1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/golem/die.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/loghead/loghead-die1.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
 `sfx/monsters/loghead/loghead-hit1.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
 `sfx/monsters/loghead/loghead-hurt1.ogg` | Cosmostrator | GPLv2
@@ -1149,6 +1157,7 @@ File | Artists | Licenses
 `sfx/monsters/zombie/zombie-move2.ogg` | Bcs86 | GPLv2
 `sfx/system/levelup.ogg` | Cosmostrator | GPLv2
 `sfx/system/ship-bell2.ogg` | unknown | (public domain)
+`sfx/system/warning.ogg` | Jesusalva | (public domain)
 `sfx/weapons/bows/bow_shoot_1.ogg` | Cosmostrator | GPLv2
 `sfx/weapons/knives/knife-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/weapons/knives/knife-miss1.ogg` | Cosmostrator | GPLv2

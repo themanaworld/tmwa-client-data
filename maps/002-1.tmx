@@ -4,6 +4,11 @@
   <property name="minimap" value="graphics/minimaps/002-1.png"/>
   <property name="music" value="faith.ogg"/>
   <property name="name" value="Tulimshar South"/>
+  <property name="overlay0image" value="graphics/images/ambient/warning.png"/>
+  <property name="overlay0parallax" value="1.0"/>
+  <property name="overlay0scrollX" value="1.2"/>
+  <property name="overlay0scrollY" value="0.0"/>
+  <property name="overlay0mask" value="2"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
  <tileset firstgid="3" source="../tilesets/desert1.tsx"/>
