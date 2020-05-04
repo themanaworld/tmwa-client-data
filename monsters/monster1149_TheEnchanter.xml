@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<monsters offset="0">
+  <monster id="1149" name="The Enchanter">
+    <sprite>model/female.xml|#413e22,6c5d31,baa06e,b2b05f;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+    <sprite>hairstyles/hairstyle09-female.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#000000,202020,404040,dddddd</sprite>
+    <sprite>equipment/feet/assassin-boots-female.xml</sprite>
+    <sprite>equipment/legs/assassin-female.xml</sprite>
+    <sprite>equipment/chest/equipment/chest/sorcerer-robe-female.xml|#000000;#2554c7</sprite>
+    <!-- No folder for this -->
+    <sprite>equipment/weapons/bow-banshee-female.xml</sprite>
+    <attack id="1" critical-hit-effect-id="16" missile-particle="graphics/particles/fire-burst.xml" action="attack_bow"/>
+  </monster>
+</monsters>
