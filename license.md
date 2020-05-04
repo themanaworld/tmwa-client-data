@@ -189,7 +189,7 @@ File | Artists | Licenses
 `graphics/items/equipment/head/bowler-hat-brown.png` | ChefChelios | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/bowler-hat.png` | ChefChelios | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/bromenalhelmet.png` | Skipy | GPLv2
-`graphics/items/equipment/head/bucket.png` | Nami | GPLv2
+`graphics/items/equipment/head/bucket.png` | Nami | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/bunnyears.png` | Harufym | GPLv2
 `graphics/items/equipment/head/candlehelmet.png` | Skipy | GPLv2
 `graphics/items/equipment/head/cap.png` | Black Don | GPLv2
@@ -731,7 +731,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/bowler-hat-brown.png` | ChefChelios | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/bowler-hat.png` | ChefChelios | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/bromenalhelmet.png` | Skipy | GPLv2
-`graphics/sprites/equipment/head/bucket.png` | Nami | GPLv2
+`graphics/sprites/equipment/head/bucket.png` | Nami | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/bunnyears.png` | Harufym | GPLv2
 `graphics/sprites/equipment/head/candlehelmet.png` | Skipy | GPLv2
 `graphics/sprites/equipment/head/cap.png` | Black Don | GPLv2
