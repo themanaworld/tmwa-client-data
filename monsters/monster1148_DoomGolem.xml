@@ -2,7 +2,6 @@
 <monsters offset="0">
   <monster id="1148" name="Doom Golem">
     <sprite>monsters/golem-red.xml</sprite>
-    <particlefx>graphics/particles/monster-luvia.particle.xml</particlefx>
     <attack id="1" critical-hit-effect-id="16" missile-particle="graphics/particles/fire-burst.xml" action="attack"/>
     <sound event="die">monsters/golem/die.ogg</sound>
   </monster>
