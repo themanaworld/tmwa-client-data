@@ -276,6 +276,7 @@ File | Artists | Licenses
 File | Artists | Licenses
 ---- |:-------:|:--------:
 `graphics/items/equipment/rings/gem.png` | Salmondine | GPLv2
+`graphics/items/equipment/rings/magic.png` | Nami | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/rings/simple.png` | Salmondine | GPLv2
 `graphics/items/equipment/rings/wedding.png` | Kess | GPLv2
 
