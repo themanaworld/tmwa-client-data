@@ -157,7 +157,7 @@ File | Artists | Licenses
 `graphics/items/equipment/chest/valentine-dress.png` | Frictor | GPLv2
 `graphics/items/equipment/chest/vnecksweater.png` | Saphy | GPLv2
 `graphics/items/equipment/chest/desertshirt.png` | Alige | GPLv2, CC BY-SA 3.0
-`graphics/items/equipment/chest/saviorarmor.png` | Saphy, Slave | GPLv2 |
+`graphics/items/equipment/chest/saviorarmor.png` | Saphy, Slave | GPLv2
 
 #### Feet
 File | Artists | Licenses
