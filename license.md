@@ -658,8 +658,8 @@ File | Artists | Licenses
 #### Chest
 File | Artists | Licenses
 ---- |:-------:|:--------:
-`graphics/sprites/equipment/chest/assassin-female.png` | Black Don | GPLv2
-`graphics/sprites/equipment/chest/assassin-male.png` | Black Don | GPLv2
+`graphics/sprites/equipment/chest/assassin-female.png` | Black Don, Untamed Monkey | GPLv2
+`graphics/sprites/equipment/chest/assassin-male.png` | Black Don, Untamed Monkey | GPLv2
 `graphics/sprites/equipment/chest/bra-female.png` | Bernhardt | GPLv2
 `graphics/sprites/equipment/chest/bromenalchest-female.png` | Skipy | GPLv2
 `graphics/sprites/equipment/chest/bromenalchest-male.png` | Skipy | GPLv2
