@@ -983,6 +983,7 @@ File | Artists | Licenses
 `graphics/sprites/npcs/shapeshifter.png` | Alige, Modanung | GPLv2, CC BY-SA 3.0
 `graphics/sprites/npcs/sittingsage.png` | Alige, Nami | GPLv2, CC BY-SA 3.0
 `graphics/sprites/npcs/soulmenhirs.png` | Alige, Lien | GPLv2
+`graphics/sprites/npcs/switch.png` | Miloslav Číž | CC0
 `graphics/sprites/npcs/thermin_npcs.png` | Lien, Nami, Salmondine, Varuna | GPLv2
 `graphics/sprites/npcs/xmas-palm.png` | Chayenne, :grey_question:, Enchilado | GPLv2
 `graphics/sprites/npcs/xmastree-nosnow.png` | Chayenne, :grey_question:, Alige, Hal9000, Enchilado, Kekskiller, FotherJ | GPLv2
