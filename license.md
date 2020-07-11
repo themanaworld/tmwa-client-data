@@ -1054,6 +1054,7 @@ File | Artists | Licenses
 `graphics/tiles/forest_cover.png` | Len | GPLv2, CC BY-SA 3.0
 `graphics/tiles/forest.png` | Len | GPLv2
 `graphics/tiles/forge_x4.png` | Len | GPLv2
+`graphics/tiles/hurns-ground.png` | Micksha | CC BY-SA 3.0
 `graphics/tiles/icecave.png` | :grey_question:, Crush, Octalot | GPLv2
 `graphics/tiles/inn_x2.png` | Irukard | GPLv2, CC BY-SA 3.0
 `graphics/tiles/inn_x3.png` | Irukard, Salmondine | GPLv2, CC BY-SA 3.0
