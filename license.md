@@ -11,6 +11,8 @@ http://www.gnu.org/licenses/gpl-2.0.html).
 **CC BY-SA 3.0**: Licensed under [Creative Commons Attribution-ShareAlike 3.0 Unported](
 http://creativecommons.org/licenses/by-sa/3.0/).
 
+**CC0**: Licensed under [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+
 :grey_question:: Unknown contributors.
 
 ### Emotes
