@@ -6,6 +6,24 @@
   <property name="overlay0image" value="graphics/images/doomsday.png"/>
   <property name="overlay0keepratio" value="true"/>
   <property name="overlay0mask" value="2"/>
+  <property name="overlay1image" value="graphics/images/ambient/dd5_invulnerable.png"/>
+  <property name="overlay1keepratio" value="true"/>
+  <property name="overlay1mask" value="4"/>
+  <property name="overlay2image" value="graphics/images/ambient/dd5_doubledef.png"/>
+  <property name="overlay2keepratio" value="true"/>
+  <property name="overlay2mask" value="8"/>
+  <property name="overlay3image" value="graphics/images/ambient/dd5_potions.png"/>
+  <property name="overlay3keepratio" value="true"/>
+  <property name="overlay3mask" value="16"/>
+  <property name="overlay4image" value="graphics/images/ambient/dd5_kaflosh.png"/>
+  <property name="overlay4keepratio" value="true"/>
+  <property name="overlay4mask" value="32"/>
+  <property name="overlay5image" value="graphics/images/ambient/dd5_melee.png"/>
+  <property name="overlay5keepratio" value="true"/>
+  <property name="overlay5mask" value="64"/>
+  <property name="overlay6image" value="graphics/images/ambient/dd5_bones.png"/>
+  <property name="overlay6keepratio" value="true"/>
+  <property name="overlay6mask" value="128"/>
  </properties>
  <tileset firstgid="1" name="woodland_ground" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../graphics/tiles/woodland_ground.png" width="512" height="512"/>

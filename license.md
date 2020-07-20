@@ -103,6 +103,12 @@ File | Artists | Licenses
 File | Artists | Licenses
 ---- |:-------:|:--------:
 `graphics/images/ambient/clouds.png` | Crush | GPLv2, CC BY-SA 3.0
+`graphics/images/ambient/dd5_bones.png` | Crush, Jesusalva | GPLv2, CC BY-SA 3.0
+`graphics/images/ambient/dd5_doubledef.png` | Crush, Jesusalva | GPLv2, CC BY-SA 3.0
+`graphics/images/ambient/dd5_invulnerable.png` | Crush, Jesusalva | GPLv2, CC BY-SA 3.0
+`graphics/images/ambient/dd5_kaflosh.png` | Crush, Jesusalva | GPLv2, CC BY-SA 3.0
+`graphics/images/ambient/dd5_melee.png` | Crush, Jesusalva | GPLv2, CC BY-SA 3.0
+`graphics/images/ambient/dd5_potions.png` | Crush, Jesusalva | GPLv2, CC BY-SA 3.0
 `graphics/images/ambient/fog.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/images/ambient/night.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/images/ambient/rain.png` | wushin | GPLv2, CC BY-SA 3.0
