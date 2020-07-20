@@ -3,6 +3,9 @@
  <properties>
   <property name="music" value="ghoulish-fun.ogg"/>
   <property name="name" value="?????"/>
+  <property name="overlay0image" value="graphics/images/doomsday.png"/>
+  <property name="overlay0keepratio" value="true"/>
+  <property name="overlay0mask" value="2"/>
  </properties>
  <tileset firstgid="1" name="woodland_ground" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../graphics/tiles/woodland_ground.png" width="512" height="512"/>

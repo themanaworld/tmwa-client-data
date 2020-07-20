@@ -85,6 +85,7 @@ File | Artists | Licenses
 `graphics/images/axe.png` | Othello | GPLv2
 `graphics/images/bow.png` | Othello | GPLv2
 `graphics/images/craft.png` | Othello | GPLv2
+`graphics/images/doomsday.png` | PiNG0 | GPLv2, CC-BY-SA 3.0
 `graphics/images/knife.png` | Othello | GPLv2
 `graphics/images/mace.png` | Othello | GPLv2
 `graphics/images/magic.png` | Othello | GPLv2
