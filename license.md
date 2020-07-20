@@ -1111,6 +1111,7 @@ File | Artists | Licenses
 ## Sounds
 File | Artists | Licenses
 ---- |:-------:|:--------:
+`sfx/epilogue.ogg` | Guilherme Bazenga | GPLv2, CC BY-SA 3.0
 `sfx/fist-swish.ogg` | Cosmostrator | GPLv2
 `sfx/punch.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/env/env-burningfire1.ogg` | Dariuna | GPLv2
