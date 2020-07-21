@@ -103,6 +103,7 @@ File | Artists | Licenses
 File | Artists | Licenses
 ---- |:-------:|:--------:
 `graphics/images/ambient/clouds.png` | Crush | GPLv2, CC BY-SA 3.0
+`graphics/images/ambient/dd5_absorb.png` | Crush, Jesusalva | GPLv2, CC BY-SA 3.0
 `graphics/images/ambient/dd5_bones.png` | Crush, Jesusalva | GPLv2, CC BY-SA 3.0
 `graphics/images/ambient/dd5_doubledef.png` | Crush, Jesusalva | GPLv2, CC BY-SA 3.0
 `graphics/images/ambient/dd5_invulnerable.png` | Crush, Jesusalva | GPLv2, CC BY-SA 3.0
