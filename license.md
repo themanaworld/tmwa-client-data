@@ -899,6 +899,7 @@ File | Artists | Licenses
 `graphics/sprites/monsters/mouboo-demonic.png` | Cassy, Yuuki | GPLv2
 `graphics/sprites/monsters/mushroom-red.png` | Yuuki | GPLv2
 `graphics/sprites/monsters/mushroom-spiky.png` | Yuuki | GPLv2
+`graphics/sprites/monsters/mushroom-void.png` | Cassy, Yuuki, Jesusalva | GPLv2
 `graphics/sprites/monsters/mushroom-wicked.png` | Cassy, Yuuki | GPLv2
 `graphics/sprites/monsters/mushroom-moon.png` | Cassy, Yuuki | GPLv2
 `graphics/sprites/monsters/nutcracker.png` | Chayenne, :grey_question:, Alige, Lizandra, Salmondine | GPLv2
