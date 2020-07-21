@@ -955,6 +955,8 @@ File | Artists | Licenses
 ### NPCs
 File | Artists | Licenses
 ---- |:-------:|:--------:
+`graphics/sprites/npcs/airship.png` | Modanung | GPLv2
+`graphics/sprites/npcs/anon.png` | Lien, Modanung, Reid, Crush, Fother, Nami, Talaroc | CC-BY-SA 3.0
 `graphics/sprites/npcs/bones.png` | FotherJ, Salmondine | GPLv2
 `graphics/sprites/npcs/childoutfits.png` | Milla, Mrgrey, Nami, Salmondine, Wombat | GPLv2
 `graphics/sprites/npcs/childposes.png` | Milla, Mrgrey, Nami, Salmondine | GPLv2
