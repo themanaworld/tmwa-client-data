@@ -250,6 +250,8 @@ File | Artists | Licenses
 `graphics/items/equipment/head/piratehat.png` | Fettsack | GPLv2
 `graphics/items/equipment/head/presenthat.png` | TMW-BR Team | GPLv2
 `graphics/items/equipment/head/pumpkinhelmet.png` | Modanung | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/head/pvpcap.png` | Black Don, kytty | GPLv2
+`graphics/items/equipment/head/pvpcap-golden.png` | Black Don, kytty, Ledmitz | GPLv2
 `graphics/items/equipment/head/rabbit-ears.png` | Black Don, Harufym | GPLv2
 `graphics/items/equipment/head/rangerhat.png` | Pauan | GPLv2
 `graphics/items/equipment/head/rednose.png` | ChefChelios, UntamedMonkey | GPLv2, CC BY-SA 3.0
@@ -797,6 +799,8 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/piratehat.png` | Fettsack | GPLv2
 `graphics/sprites/equipment/head/presenthat.png` | TMW-BR Team | GPLv2
 `graphics/sprites/equipment/head/pumpkinhelmet.png` | Modanung | GPLv2, CC BY-SA 3.0
+`graphics/sprites/equipment/head/pvp-cap.png` | Black Don, kytty | GPLv2
+`graphics/sprites/equipment/head/pvpcap-golden.png` | Black Don, kytty, Ledmitz | GPLv2
 `graphics/sprites/equipment/head/rabbit-ears.png` | Black Don, Harufym | GPLv2
 `graphics/sprites/equipment/head/rangerhat.png` | Pauan | GPLv2
 `graphics/sprites/equipment/head/rednose.png` | ChefChelios, UntamedMonkey | GPLv2, CC BY-SA 3.0
