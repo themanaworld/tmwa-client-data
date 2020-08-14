@@ -485,6 +485,7 @@ File | Artists | Licenses
 `graphics/items/generic/cryptkey.png` | wushin | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/ectoplasm.png` | wushin | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/event-ticket.png` | Micksha | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/pvpcoin.png` | +seeds | GPLv2, CC BY-SA 3.0
 
 #### Food
 File | Artists | Licenses
