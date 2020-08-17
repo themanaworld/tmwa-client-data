@@ -11,6 +11,8 @@ http://www.gnu.org/licenses/gpl-2.0.html).
 **CC BY-SA 3.0**: Licensed under [Creative Commons Attribution-ShareAlike 3.0 Unported](
 http://creativecommons.org/licenses/by-sa/3.0/).
 
+**CC0**: Licensed under [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+
 :grey_question:: Unknown contributors.
 
 ### Emotes
@@ -83,6 +85,7 @@ File | Artists | Licenses
 `graphics/images/axe.png` | Othello | GPLv2
 `graphics/images/bow.png` | Othello | GPLv2
 `graphics/images/craft.png` | Othello | GPLv2
+`graphics/images/doomsday.png` | PiNG0 | GPLv2, CC-BY-SA 3.0
 `graphics/images/knife.png` | Othello | GPLv2
 `graphics/images/mace.png` | Othello | GPLv2
 `graphics/images/magic.png` | Othello | GPLv2
@@ -100,6 +103,14 @@ File | Artists | Licenses
 File | Artists | Licenses
 ---- |:-------:|:--------:
 `graphics/images/ambient/clouds.png` | Crush | GPLv2, CC BY-SA 3.0
+`graphics/images/ambient/dd5_absorb.png` | Crush, Jesusalva | GPLv2, CC BY-SA 3.0
+`graphics/images/ambient/dd5_bones.png` | Crush, Jesusalva | GPLv2, CC BY-SA 3.0
+`graphics/images/ambient/dd5_doubledef.png` | Crush, Jesusalva | GPLv2, CC BY-SA 3.0
+`graphics/images/ambient/dd5_greed.png` | Crush, Jesusalva | GPLv2, CC BY-SA 3.0
+`graphics/images/ambient/dd5_invulnerable.png` | Crush, Jesusalva | GPLv2, CC BY-SA 3.0
+`graphics/images/ambient/dd5_kaflosh.png` | Crush, Jesusalva | GPLv2, CC BY-SA 3.0
+`graphics/images/ambient/dd5_melee.png` | Crush, Jesusalva | GPLv2, CC BY-SA 3.0
+`graphics/images/ambient/dd5_potions.png` | Crush, Jesusalva | GPLv2, CC BY-SA 3.0
 `graphics/images/ambient/fog.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/images/ambient/night.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/images/ambient/rain.png` | wushin | GPLv2, CC BY-SA 3.0
@@ -239,6 +250,8 @@ File | Artists | Licenses
 `graphics/items/equipment/head/piratehat.png` | Fettsack | GPLv2
 `graphics/items/equipment/head/presenthat.png` | TMW-BR Team | GPLv2
 `graphics/items/equipment/head/pumpkinhelmet.png` | Modanung | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/head/pvpcap.png` | Black Don, kytty | GPLv2
+`graphics/items/equipment/head/pvpcap-golden.png` | Black Don, kytty, Ledmitz | GPLv2
 `graphics/items/equipment/head/rabbit-ears.png` | Black Don, Harufym | GPLv2
 `graphics/items/equipment/head/rangerhat.png` | Pauan | GPLv2
 `graphics/items/equipment/head/rednose.png` | ChefChelios, UntamedMonkey | GPLv2, CC BY-SA 3.0
@@ -474,6 +487,7 @@ File | Artists | Licenses
 `graphics/items/generic/cryptkey.png` | wushin | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/ectoplasm.png` | wushin | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/event-ticket.png` | Micksha | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/pvpcoin.png` | +seeds | GPLv2, CC BY-SA 3.0
 
 #### Food
 File | Artists | Licenses
@@ -785,6 +799,8 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/piratehat.png` | Fettsack | GPLv2
 `graphics/sprites/equipment/head/presenthat.png` | TMW-BR Team | GPLv2
 `graphics/sprites/equipment/head/pumpkinhelmet.png` | Modanung | GPLv2, CC BY-SA 3.0
+`graphics/sprites/equipment/head/pvp-cap.png` | Black Don, kytty | GPLv2
+`graphics/sprites/equipment/head/pvpcap-golden.png` | Black Don, kytty, Ledmitz | GPLv2
 `graphics/sprites/equipment/head/rabbit-ears.png` | Black Don, Harufym | GPLv2
 `graphics/sprites/equipment/head/rangerhat.png` | Pauan | GPLv2
 `graphics/sprites/equipment/head/rednose.png` | ChefChelios, UntamedMonkey | GPLv2, CC BY-SA 3.0
@@ -888,6 +904,7 @@ File | Artists | Licenses
 `graphics/sprites/monsters/mouboo-demonic.png` | Cassy, Yuuki | GPLv2
 `graphics/sprites/monsters/mushroom-red.png` | Yuuki | GPLv2
 `graphics/sprites/monsters/mushroom-spiky.png` | Yuuki | GPLv2
+`graphics/sprites/monsters/mushroom-void.png` | Cassy, Yuuki, Jesusalva | GPLv2
 `graphics/sprites/monsters/mushroom-wicked.png` | Cassy, Yuuki | GPLv2
 `graphics/sprites/monsters/mushroom-moon.png` | Cassy, Yuuki | GPLv2
 `graphics/sprites/monsters/nutcracker.png` | Chayenne, :grey_question:, Alige, Lizandra, Salmondine | GPLv2
@@ -946,6 +963,8 @@ File | Artists | Licenses
 ### NPCs
 File | Artists | Licenses
 ---- |:-------:|:--------:
+`graphics/sprites/npcs/airship.png` | Modanung | GPLv2
+`graphics/sprites/npcs/anon.png` | Lien, Modanung, Reid, Crush, Fother, Nami, Talaroc | CC-BY-SA 3.0
 `graphics/sprites/npcs/bones.png` | FotherJ, Salmondine | GPLv2
 `graphics/sprites/npcs/childoutfits.png` | Milla, Mrgrey, Nami, Salmondine, Wombat | GPLv2
 `graphics/sprites/npcs/childposes.png` | Milla, Mrgrey, Nami, Salmondine | GPLv2
@@ -983,6 +1002,7 @@ File | Artists | Licenses
 `graphics/sprites/npcs/shapeshifter.png` | Alige, Modanung | GPLv2, CC BY-SA 3.0
 `graphics/sprites/npcs/sittingsage.png` | Alige, Nami | GPLv2, CC BY-SA 3.0
 `graphics/sprites/npcs/soulmenhirs.png` | Alige, Lien | GPLv2
+`graphics/sprites/npcs/switch.png` | Miloslav Číž | CC0
 `graphics/sprites/npcs/thermin_npcs.png` | Lien, Nami, Salmondine, Varuna | GPLv2
 `graphics/sprites/npcs/xmas-palm.png` | Chayenne, :grey_question:, Enchilado | GPLv2
 `graphics/sprites/npcs/xmastree-nosnow.png` | Chayenne, :grey_question:, Alige, Hal9000, Enchilado, Kekskiller, FotherJ | GPLv2
@@ -1051,6 +1071,7 @@ File | Artists | Licenses
 `graphics/tiles/forest_cover.png` | Len | GPLv2, CC BY-SA 3.0
 `graphics/tiles/forest.png` | Len | GPLv2
 `graphics/tiles/forge_x4.png` | Len | GPLv2
+`graphics/tiles/hurns-ground.png` | Micksha | CC BY-SA 3.0
 `graphics/tiles/icecave.png` | :grey_question:, Crush, Octalot | GPLv2
 `graphics/tiles/inn_x2.png` | Irukard | GPLv2, CC BY-SA 3.0
 `graphics/tiles/inn_x3.png` | Irukard, Salmondine | GPLv2, CC BY-SA 3.0
@@ -1100,6 +1121,7 @@ File | Artists | Licenses
 ## Sounds
 File | Artists | Licenses
 ---- |:-------:|:--------:
+`sfx/epilogue.ogg` | Guilherme Bazenga | GPLv2, CC BY-SA 3.0
 `sfx/fist-swish.ogg` | Cosmostrator | GPLv2
 `sfx/punch.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/env/env-burningfire1.ogg` | Dariuna | GPLv2

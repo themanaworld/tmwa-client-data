@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyleft (C) 2015 Evol Online -->
+<sprite>
+  <imageset name="mob" src="graphics/sprites/monsters/crafty.png" width="32" height="32" offsetY="-40"/>
+  <action name="spawn" imageset="mob">
+    <animation direction="default">
+      <frame index="16" delay="180" offsetY="3"/>
+      <sequence start="17" end="19" delay="90" offsetY="3"/>
+      <frame index="1" delay="80" offsetY="1"/>
+      <jump action="stand"/>
+    </animation>
+  </action>
+  <action name="stand" imageset="mob">
+    <animation direction="down">
+      <frame index="0" delay="90" offsetY="-1"/>
+      <frame index="1" delay="80" offsetY="2"/>
+      <frame index="2" delay="80" offsetY="4"/>
+    </animation>
+    <animation direction="right">
+      <frame index="4" delay="90" offsetY="-1" offsetX="2"/>
+      <frame index="5" delay="60" offsetY="2"/>
+      <frame index="6" delay="80" offsetY="4" offsetX="-2"/>
+      <frame index="5" delay="60" offsetY="2"/>
+    </animation>
+    <animation direction="up">
+      <frame index="8" delay="90" offsetY="-1"/>
+      <frame index="9" delay="80" offsetY="2"/>
+      <frame index="10" delay="80" offsetY="4"/>
+    </animation>
+    <animation direction="left">
+      <frame index="12" delay="90" offsetY="-1" offsetX="-2"/>
+      <frame index="13" delay="60" offsetY="2"/>
+      <frame index="14" delay="80" offsetY="4" offsetX="2"/>
+      <frame index="13" delay="60" offsetY="2"/>
+    </animation>
+  </action>
+  <action name="walk" imageset="mob">
+    <animation direction="down">
+      <frame index="0" delay="90" offsetY="-1"/>
+      <frame index="1" delay="80" offsetY="2"/>
+      <frame index="2" delay="80" offsetY="4"/>
+    </animation>
+    <animation direction="right">
+      <frame index="4" delay="90" offsetY="-1" offsetX="2"/>
+      <frame index="5" delay="60" offsetY="2"/>
+      <frame index="6" delay="80" offsetY="4" offsetX="-2"/>
+      <frame index="5" delay="60" offsetY="2"/>
+    </animation>
+    <animation direction="up">
+      <frame index="8" delay="90" offsetY="-1"/>
+      <frame index="9" delay="80" offsetY="2"/>
+      <frame index="10" delay="80" offsetY="4"/>
+    </animation>
+    <animation direction="left">
+      <frame index="12" delay="90" offsetY="-1" offsetX="-2"/>
+      <frame index="13" delay="60" offsetY="2"/>
+      <frame index="14" delay="80" offsetY="4" offsetX="2"/>
+      <frame index="13" delay="60" offsetY="2"/>
+    </animation>
+  </action>
+  <action name="attack" imageset="mob">
+    <animation direction="down">
+      <frame index="0" delay="60" offsetY="-1"/>
+      <frame index="1" delay="50" offsetY="3"/>
+      <frame index="2" delay="50" offsetY="6"/>
+      <frame index="0" delay="60" offsetY="7"/>
+      <frame index="1" delay="50" offsetY="11"/>
+      <frame index="2" delay="50" offsetY="17"/>
+      <frame index="0" delay="60" offsetY="17"/>
+      <frame index="1" delay="50" offsetY="14"/>
+      <frame index="2" delay="50" offsetY="8"/>
+      <frame index="1" delay="60" offsetY="4"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <!-- Fall -->
+      <frame index="4" delay="30" offsetY="-1"/>
+      <frame index="4" delay="30" offsetY="2" offsetX="4"/>
+      <frame index="5" delay="40" offsetY="4" offsetX="8"/>
+      <frame index="6" delay="50" offsetY="4" offsetX="8"/>
+      <frame index="5" delay="30" offsetY="8" offsetX="12"/>
+      <frame index="4" delay="30" offsetY="8" offsetX="16"/>
+      <!-- Bite -->
+      <frame index="5" delay="40" offsetY="10" offsetX="12"/>
+      <frame index="6" delay="50" offsetY="10" offsetX="12"/>
+      <frame index="5" delay="30" offsetY="12" offsetX="16"/>
+      <!-- Fly back to current pos -->
+      <frame index="4" delay="50" offsetY="11" offsetX="14"/>
+      <frame index="5" delay="40" offsetY="8" offsetX="10"/>
+      <frame index="6" delay="50" offsetY="6" offsetX="7"/>
+      <frame index="5" delay="30" offsetY="3" offsetX="4"/>
+      <frame index="4" delay="40" offsetY="2" offsetX="1"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <frame index="8" delay="60" offsetY="-1"/>
+      <frame index="9" delay="50" offsetY="2"/>
+      <frame index="10" delay="50" offsetY="4"/>
+      <frame index="8" delay="60" offsetY="1"/>
+      <frame index="9" delay="50" offsetY="4"/>
+      <frame index="10" delay="50" offsetY="6"/>
+      <frame index="8" delay="60" offsetY="2"/>
+      <frame index="9" delay="50" offsetY="4"/>
+      <frame index="10" delay="50" offsetY="6"/>
+      <frame index="9" delay="60" offsetY="2"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <!-- Fall -->
+      <frame index="12" delay="30" offsetY="-1"/>
+      <frame index="12" delay="30" offsetY="2" offsetX="-4"/>
+      <frame index="13" delay="40" offsetY="4" offsetX="-8"/>
+      <frame index="14" delay="50" offsetY="4" offsetX="-8"/>
+      <frame index="13" delay="30" offsetY="8" offsetX="-12"/>
+      <frame index="12" delay="30" offsetY="8" offsetX="-16"/>
+      <!-- Bite -->
+      <frame index="13" delay="40" offsetY="10" offsetX="-12"/>
+      <frame index="14" delay="50" offsetY="10" offsetX="-12"/>
+      <frame index="13" delay="30" offsetY="12" offsetX="-16"/>
+      <!-- Fly back to current pos -->
+      <frame index="12" delay="50" offsetY="11" offsetX="-14"/>
+      <frame index="13" delay="40" offsetY="8" offsetX="-10"/>
+      <frame index="14" delay="50" offsetY="6" offsetX="-7"/>
+      <frame index="13" delay="30" offsetY="3" offsetX="-4"/>
+      <frame index="12" delay="40" offsetY="2" offsetX="-1"/>
+      <end/>
+    </animation>
+  </action>
+  <action name="dead" imageset="mob">
+    <animation direction="down">
+      <frame index="3" offsetY="10" delay="10"/>
+      <frame index="3" offsetY="20" delay="10"/>
+      <frame index="3" offsetY="30" delay="10"/>
+      <frame index="3" offsetY="40"/>
+    </animation>
+    <animation direction="right">
+      <frame index="7" offsetY="10" delay="10"/>
+      <frame index="7" offsetY="20" delay="10"/>
+      <frame index="7" offsetY="30" delay="10"/>
+      <frame index="7" offsetY="40"/>
+    </animation>
+    <animation direction="up">
+      <frame index="11" offsetY="10" delay="10"/>
+      <frame index="11" offsetY="20" delay="10"/>
+      <frame index="11" offsetY="30" delay="10"/>
+      <frame index="11" offsetY="40"/>
+    </animation>
+    <animation direction="left">
+      <frame index="15" offsetY="10" delay="10"/>
+      <frame index="15" offsetY="20" delay="10"/>
+      <frame index="15" offsetY="30" delay="10"/>
+      <frame index="15" offsetY="40"/>
+    </animation>
+  </action>
+</sprite>
