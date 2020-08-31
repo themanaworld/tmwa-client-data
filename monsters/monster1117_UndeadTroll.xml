@@ -3,5 +3,7 @@
   <monster id="1117" name="Undead Troll">
     <sprite>monsters/troll.xml|#BFBFBF;#F1F1F1;#FF99FF;#F1F1F1</sprite>
     <attack id="1" missile-particle="graphics/particles/monster-undeadtroll-foefire.particle.xml" action="attack"/>
+    <sound event="hit">magic/flame.ogg</sound> <!-- Ledmitz -->
+    <sound event="miss">magic/flame.ogg</sound> <!-- Ledmitz -->
   </monster>
 </monsters>

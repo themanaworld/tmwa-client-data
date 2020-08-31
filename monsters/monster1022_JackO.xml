@@ -2,5 +2,15 @@
 <monsters offset="0">
   <monster id="1022" name="Jack O">
     <sprite>monsters/ghost-pumpkin.xml</sprite>
+    <sound event="hit">monsters/jacko/jacko-hit1.ogg</sound> <!-- Ledmitz -->
+    <sound event="hit">monsters/jacko/jacko-hit2.ogg</sound> <!-- Ledmitz -->
+    <sound event="hit">monsters/jacko/jacko-hit3.ogg</sound> <!-- Ledmitz -->
+    <sound event="hurt">monsters/jacko/jacko-hurt1.ogg</sound> <!-- Ledmitz -->
+    <sound event="hurt">monsters/jacko/jacko-hurt2.ogg</sound> <!-- Ledmitz -->
+    <sound event="hurt">monsters/jacko/jacko-hurt3.ogg</sound> <!-- Ledmitz -->
+    <sound event="hurt">monsters/jacko/jacko-hurt4.ogg</sound> <!-- Ledmitz -->
+    <sound event="miss">monsters/jacko/jacko-miss.ogg</sound> <!-- Ledmitz -->
+    <sound event="move">monsters/jacko/jacko-move.ogg</sound> <!-- Ledmitz -->
+    <sound event="die">monsters/jacko/jacko-die.ogg</sound> <!-- Ledmitz -->
   </monster>
 </monsters>

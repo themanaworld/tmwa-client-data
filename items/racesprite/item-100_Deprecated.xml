@@ -10,9 +10,13 @@
     <sprite gender="female">model/female.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
     <sprite gender="male">model/male.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
     <sprite gender="other">model/neutral.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+    <sound event="hit">weapons/punch.ogg</sound> <!-- Ledmitz -->
+    <sound event="strike">weapons/miss1.ogg</sound> <!-- Ledmitz -->
   </item>
   <item id="-99100" type="racesprite" name="Placeholder">
     <sprite gender="unisex">model/male.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
     <sprite gender="female">model/female.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+    <sound event="hit">weapons/punch.ogg</sound> <!-- Ledmitz -->
+    <sound event="strike">weapons/miss1.ogg</sound> <!-- Ledmitz -->
   </item>
 </items>

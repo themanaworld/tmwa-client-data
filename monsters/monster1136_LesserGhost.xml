@@ -2,5 +2,9 @@
 <monsters offset="0">
   <monster id="1136" name="Lesser Ghost">
     <sprite>monsters/mana-ghost.xml</sprite>
+    <sound event="die">monsters/ghost/ghost-die1.ogg</sound> <!-- Ledmitz -->
+    <sound event="move">monsters/ghost/ghost-move1.ogg</sound> <!-- Ledmitz -->
+    <sound event="move">monsters/ghost/ghost-move2.ogg</sound> <!-- Ledmitz -->
+    <sound event="move">monsters/ghost/ghost-move3.ogg</sound> <!-- Ledmitz -->
   </monster>
 </monsters>

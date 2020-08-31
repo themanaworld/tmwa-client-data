@@ -11,5 +11,10 @@
     <sprite>equipment/head/aureole.xml</sprite>
     <sprite>equipment/weapons/sandcutter.xml</sprite>
     <attack id="1" critical-hit-effect-id="16" missile-particle="graphics/particles/fire-burst.xml" action="attack"/>
+    <sound event="hit">weapons/knives/knife-rock-hit1.ogg</sound> <!-- Ledmitz -->
+    <sound event="hit">weapons/knives/knife-rock-hit2.ogg</sound> <!-- Ledmitz -->
+    <sound event="miss">weapons/miss1.ogg</sound> <!-- Ledmitz -->
+    <sound event="miss">weapons/miss2.ogg</sound> <!-- Ledmitz -->
+    <sound event="miss">weapons/miss3.ogg</sound> <!-- Ledmitz -->
   </monster>
 </monsters>

@@ -2,5 +2,14 @@
 <monsters offset="0">
   <monster id="1062" name="Terranite">
     <sprite>monsters/terranite.xml</sprite>
+    <sound event="die">monsters/terranite/terra-die.ogg</sound> <!-- Ledmitz -->
+    <sound event="hit">monsters/terranite/terra-hit1.ogg</sound> <!-- Ledmitz -->
+    <sound event="hit">monsters/terranite/terra-hit2.ogg</sound> <!-- Ledmitz -->
+    <sound event="hit">monsters/terranite/terra-hit3.ogg</sound> <!-- Ledmitz -->
+    <sound event="hurt">monsters/terranite/terra-hurt1.ogg</sound> <!-- Ledmitz -->
+    <sound event="hurt">monsters/terranite/terra-hurt2.ogg</sound> <!-- Ledmitz -->
+    <sound event="hurt">monsters/terranite/terra-hurt3.ogg</sound> <!-- Ledmitz -->
+    <sound event="miss">monsters/terranite/terra-miss.ogg</sound> <!-- Ledmitz -->
+    <sound event="move">monsters/terranite/terra-move.ogg</sound> <!-- Ledmitz -->
   </monster>
 </monsters>
