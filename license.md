@@ -1163,7 +1163,9 @@ File | Artists | Licenses
 `sfx/monsters/scorpion/scorpion-hit3.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/scorpion/scorpion-hit4.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/scorpion/scorpion-miss1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/shroom/shroom-die1.ogg` | Davius | GPLv2
 `sfx/monsters/shroom/shroom-hit1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/shroom/shroom-hurt1.ogg` | Davius | GPLv2
 `sfx/monsters/slime/slime-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/squirrel/squirrel-die1.ogg` | Krazyjakee | GPLv2
 `sfx/monsters/squirrel/squirrel-die2.ogg` | Krazyjakee | GPLv2
