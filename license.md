@@ -1143,6 +1143,10 @@ File | Artists | Licenses
 `sfx/monsters/fluffy/fluffy-hit3.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/fluffy/fluffy-hurt1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/fluffy/fluffy-miss1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/ghost/ghost-die1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/ghost/ghost-move1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/ghost/ghost-move2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/ghost/ghost-move3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/golem/die.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/loghead/loghead-die1.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
 `sfx/monsters/loghead/loghead-hit1.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
