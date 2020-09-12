@@ -44,8 +44,8 @@
   <!--  <effect id="12" particle="graphics/particles/magic.haste.xml"/>-->
   <effect id="13" particle="graphics/particles/magic.hit.xml"/>
   <effect id="14" particle="graphics/particles/magic.hit.evil.xml"/>
-  <effect id="15" particle="graphics/particles/fire-burst.xml"/>
-  <effect id="16" particle="graphics/particles/fire-explosion.xml"/>
+  <effect id="15" audio="env/flame.ogg" particle="graphics/particles/fire-burst.xml"/>
+  <effect id="16" audio="env/flame.ogg" particle="graphics/particles/fire-explosion.xml"/>
   <!-- #ingrav (lightning strike) hit -->
   <effect id="17" particle="graphics/particles/lightning1.xml"/>
   <!-- #ingrav (lightning strike) hit -->
@@ -101,8 +101,8 @@
   <effect id="301" particle="graphics/particles/casket-lid.xml"/>
   <effect id="302" particle="graphics/particles/casket-monster.xml"/>
   <!-- Monster attack particle effects -->
-  <effect id="400" particle="graphics/particles/monster-goblin-firebreath.particle.xml"/>
-  <effect id="401" particle="graphics/particles/monster-lizard-firebreath.particle.xml"/>
+  <effect id="400" audio="env/flame.ogg" particle="graphics/particles/monster-goblin-firebreath.particle.xml"/>
+  <effect id="401" audio="env/flame.ogg" particle="graphics/particles/monster-lizard-firebreath.particle.xml"/>
   <!-- Add the data needed for the electricity boss battle. -->
   <effect id="402" audio="system/ship-bell2.ogg"/>
   <effect id="403" audio="monsters/bat/bat-hit1.ogg"/>
