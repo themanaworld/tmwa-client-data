@@ -1144,6 +1144,16 @@ File | Artists | Licenses
 `sfx/monsters/fluffy/fluffy-hurt1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/fluffy/fluffy-miss1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/golem/die.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/jacko/jacko-die1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/jacko/jacko-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/jacko/jacko-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/jacko/jacko-hit3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/jacko/jacko-hurt1.ogg` | nmaligec, Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/jacko/jacko-hurt2.ogg` | nmaligec, Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/jacko/jacko-hurt3.ogg` | nmaligec, Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/jacko/jacko-hurt4.ogg` | nmaligec, Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/jacko/jacko-miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/jacko/jacko-move1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/loghead/loghead-die1.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
 `sfx/monsters/loghead/loghead-hit1.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
 `sfx/monsters/loghead/loghead-hurt1.ogg` | Cosmostrator | GPLv2
