@@ -3,5 +3,9 @@
   <monster id="1049" name="Bee" targetCursor="small">
     <sprite>monsters/bee.xml</sprite>
     <sprite>monsters/accessories/generic-shadow-small-circle.xml</sprite>
+    <sound event="die">monsters/bee/bee-die1.ogg</sound>
+    <sound event="hit">monsters/bee/bee-hit1.ogg</sound>
+    <sound event="miss">monsters/bee/bee-miss1.ogg</sound>
+    <sound event="move">monsters/bee/bee-move1.ogg</sound>
   </monster>
 </monsters>
