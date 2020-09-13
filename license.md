@@ -1158,6 +1158,8 @@ File | Artists | Licenses
 `sfx/monsters/pinkie/pinkie-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/pinkie/pinkie-miss1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/reaper/reaper-hurt.ogg` | nmaligec | GPLv2
+`sfx/monsters/sasquatch/sasquatch-move1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/sasquatch/sasquatch-move2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/scorpion/scorpion-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/scorpion/scorpion-hit2.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/scorpion/scorpion-hit3.ogg` | Cosmostrator | GPLv2
@@ -1176,6 +1178,21 @@ File | Artists | Licenses
 `sfx/monsters/wolvern/wolvern-miss1.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
 `sfx/monsters/wolvern/wolvern-miss2.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
 `sfx/monsters/wolvern/wolvern-miss3.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-die1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-hit3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-hit4.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-hurt1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-hurt2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-hurt3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-miss2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-miss3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-move1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-move2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-move3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-move4.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/zombie/zombie-dying1.ogg` | Bcs86 | GPLv2
 `sfx/monsters/zombie/zombie-hit1.ogg` | Bcs86 | GPLv2
 `sfx/monsters/zombie/zombie-hit2.ogg` | Bcs86 | GPLv2
