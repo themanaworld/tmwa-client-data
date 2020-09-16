@@ -11,5 +11,8 @@
     <sprite>equipment/head/aureole.xml</sprite>
     <particlefx>graphics/particles/angel.particle.xml</particlefx>
     <attack id="1" critical-hit-effect-id="16" missile-particle="graphics/particles/fire-burst.xml" action="attack"/>
+    <sound event="hit">magic/confringo1.ogg</sound>
+    <sound event="hit">magic/confringo2.ogg</sound>
+    <sound event="hit">magic/confringo3.ogg</sound>
   </monster>
 </monsters>
