@@ -11,5 +11,11 @@
     <sprite>equipment/head/aureole.xml</sprite>
     <particlefx>graphics/particles/angel.particle.xml</particlefx>
     <attack id="1" critical-hit-effect-id="16" missile-particle="graphics/particles/fire-burst.xml" action="attack"/>
+    <sound event="hit">weapons/knives/setzer/setzer-hit1.ogg</sound>
+    <sound event="hit">weapons/knives/setzer/setzer-hit2.ogg</sound>
+    <sound event="hit">weapons/knives/setzer/setzer-hit3.ogg</sound>
+    <sound event="miss">weapons/miss1.ogg</sound>
+    <sound event="miss">weapons/miss2.ogg</sound>
+    <sound event="miss">weapons/miss3.ogg</sound>
   </monster>
 </monsters>
