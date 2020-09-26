@@ -15,6 +15,10 @@ http://creativecommons.org/licenses/by-sa/3.0/).
 
 :grey_question:: Unknown contributors.
 
+(Title1/Author1/License1, Title2/Author2/License2): Attribution.
+
+[Editor1, Editor2]: Author of minor edits. For derivative works use Attribution.
+
 ### Emotes
 File | Artists | Licenses
 ---- |:-------:|:--------:
@@ -1124,7 +1128,6 @@ File | Artists | Licenses
 `sfx/epilogue.ogg` | Guilherme Bazenga | GPLv2, CC BY-SA 3.0
 `sfx/fist-swish.ogg` | Cosmostrator | GPLv2
 `sfx/punch.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/env/casket-lid.ogg` | Dariuna | GPLv2
 `sfx/env/env-burningfire1.ogg` | Dariuna | GPLv2
 `sfx/env/env-riverflow1.ogg` | Dariuna | GPLv2
 `sfx/env/env-waterfall1.ogg` | Dariuna | GPLv2
@@ -1132,7 +1135,6 @@ File | Artists | Licenses
 `sfx/magic/kaflosh.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/bat/bat-dying1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/bat/bat-hit1.ogg` | Cosmostrator | GPLv2
-`sfx/monsters/casket-monster/casket-monster.ogg` | Dariuna | GPLv2
 `sfx/monsters/cavesnake/cavesnake-hit1.ogg` | Krazyjakee | GPLv2
 `sfx/monsters/fire-goblin/fire-goblin-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/fire-goblin/fire-goblin-hit2.ogg` | Cosmostrator | GPLv2
@@ -1159,6 +1161,7 @@ File | Artists | Licenses
 `sfx/monsters/maggot/maggot-miss1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/pinkie/pinkie-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/pinkie/pinkie-miss1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/pumpkin/pumpkin-explosion.ogg` | Ledmitz (firework_explosion_fizz.wav / soundscalpel.co / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/monsters/reaper/reaper-hurt.ogg` | nmaligec | GPLv2
 `sfx/monsters/scorpion/scorpion-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/scorpion/scorpion-hit2.ogg` | Cosmostrator | GPLv2

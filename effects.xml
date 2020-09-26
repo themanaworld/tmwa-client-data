@@ -77,7 +77,7 @@
   <effect id="40" particle="graphics/particles/blue-magic-cast.particle.xml"/>
   <effect id="41" particle="graphics/particles/magic-blue-teleport.particle.xml"/>
   <effect id="42" particle="graphics/particles/magic-dark-explosion.particle.xml"/>
-  <effect id="43" particle="graphics/particles/monster-pumpkin-explosion.particle.xml"/>
+  <effect id="43" audio="monsters/pumpkin/pumpkin-explosion.ogg" particle="graphics/particles/monster-pumpkin-explosion.particle.xml"/>
   <effect id="44" particle="graphics/particles/object-getitem.particle.xml"/>
   <effect id="45" sprite="icons/quest-start.xml"/>
   <effect id="46" sprite="icons/quest-continue.xml"/>
@@ -98,8 +98,8 @@
   <effect id="116" particle="graphics/particles/heat.xml"/>
   <!-- Interactive Object Animations -->
   <effect id="300" particle="graphics/particles/gate-opening.xml"/>
-  <effect id="301" audio="env/casket-lid.ogg" particle="graphics/particles/casket-lid.xml"/>
-  <effect id="302" audio="monsters/casket-monster/casket-monster.ogg" particle="graphics/particles/casket-monster.xml"/>
+  <effect id="301" particle="graphics/particles/casket-lid.xml"/>
+  <effect id="302" particle="graphics/particles/casket-monster.xml"/>
   <!-- Monster attack particle effects -->
   <effect id="400" particle="graphics/particles/monster-goblin-firebreath.particle.xml"/>
   <effect id="401" particle="graphics/particles/monster-lizard-firebreath.particle.xml"/>
