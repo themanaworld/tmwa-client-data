@@ -15,6 +15,10 @@ http://creativecommons.org/licenses/by-sa/3.0/).
 
 :grey_question:: Unknown contributors.
 
+(Title1/Author1/License1, Title2/Author2/License2): Attribution.
+
+[Editor1, Editor2]: Author of minor edits. For derivative works use Attribution.
+
 ### Emotes
 File | Artists | Licenses
 ---- |:-------:|:--------:
@@ -1182,8 +1186,8 @@ File | Artists | Licenses
 `sfx/monsters/zombie/zombie-miss1.ogg` | Bcs86 | GPLv2
 `sfx/monsters/zombie/zombie-move1.ogg` | Bcs86 | GPLv2
 `sfx/monsters/zombie/zombie-move2.ogg` | Bcs86 | GPLv2
-`sfx/system/boom.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/system/crit.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/system/boom.ogg` | Ledmitz (firework_explosion_fizz.wav / soundscalpel.co / (CC BY 3.0)) | GPLv2, CC BY-SA 3.0
+`sfx/system/crit.ogg` | Ledmitz (firework_explosion_fizz.wav / soundscalpel.co / (CC BY 3.0)) | GPLv2, CC BY-SA 3.0
 `sfx/system/levelup.ogg` | Cosmostrator | GPLv2
 `sfx/system/ship-bell2.ogg` | unknown | (public domain)
 `sfx/system/warning.ogg` | Jesusalva | (public domain)
