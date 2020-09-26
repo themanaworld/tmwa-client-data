@@ -1169,10 +1169,10 @@ File | Artists | Licenses
 `sfx/monsters/scorpion/scorpion-miss1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/shroom/shroom-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/slime/slime-hit1.ogg` | Cosmostrator | GPLv2
-`sfx/monsters/snail/snail-die1.ogg` | alpha, Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/monsters/snail/snail-hit1.ogg` | alpha, Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/monsters/snail/snail-hurt1.ogg` | alpha, Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/monsters/snail/snail-hurt2.ogg` | alpha, Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/snail/snail-die1.ogg` | alpha [Ledmitz] | GPLv2
+`sfx/monsters/snail/snail-hit1.ogg` | alpha [Ledmitz] | GPLv2
+`sfx/monsters/snail/snail-hurt1.ogg` | alpha [Ledmitz] | GPLv2
+`sfx/monsters/snail/snail-hurt2.ogg` | alpha [Ledmitz] | GPLv2
 `sfx/monsters/squirrel/squirrel-die1.ogg` | Krazyjakee | GPLv2
 `sfx/monsters/squirrel/squirrel-die2.ogg` | Krazyjakee | GPLv2
 `sfx/monsters/squirrel/squirrel-hurt1.ogg` | Krazyjakee | GPLv2
