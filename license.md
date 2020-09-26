@@ -15,6 +15,10 @@ http://creativecommons.org/licenses/by-sa/3.0/).
 
 :grey_question:: Unknown contributors.
 
+(Title1/Author1/License1, Title2/Author2/License2): Attribution.
+
+[Editor1, Editor2]: Author of minor edits. For derivative works use Attribution.
+
 ### Emotes
 File | Artists | Licenses
 ---- |:-------:|:--------:
@@ -1189,10 +1193,10 @@ File | Artists | Licenses
 `sfx/monsters/yeti/yeti-miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/yeti/yeti-miss2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/yeti/yeti-miss3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/monsters/yeti/yeti-move1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/monsters/yeti/yeti-move2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/monsters/yeti/yeti-move3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/monsters/yeti/yeti-move4.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-move1.ogg` | Ledmitz (Snow crunch / 32cheeseman32 / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-move2.ogg` | Ledmitz (Snow crunch / 32cheeseman32 / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-move3.ogg` | Ledmitz (Snow crunch / 32cheeseman32 / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-move4.ogg` | Ledmitz (Snow crunch / 32cheeseman32 / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/monsters/zombie/zombie-dying1.ogg` | Bcs86 | GPLv2
 `sfx/monsters/zombie/zombie-hit1.ogg` | Bcs86 | GPLv2
 `sfx/monsters/zombie/zombie-hit2.ogg` | Bcs86 | GPLv2
