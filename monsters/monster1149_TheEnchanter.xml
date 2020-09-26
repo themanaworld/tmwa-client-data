@@ -7,8 +7,10 @@
     <sprite>equipment/legs/assassin-female.xml</sprite>
     <sprite>equipment/chest/sorcerer-robe-female.xml|#000000;#2554c7</sprite>
     <!-- No folder for this -->
-    <sprite>equipment/weapons/bow-banshee-female.xml</sprite>
+    <sprite>equipment/weapons/bow-female.xml</sprite>
     <particlefx>graphics/particles/doom.particle.xml</particlefx>
     <attack id="1" critical-hit-effect-id="16" missile-particle="graphics/particles/fire-burst.xml" action="attack_bow"/>
+    <sound event="hit">weapons/bows/bow-forest-hit1.ogg</sound>
+    <sound event="miss">weapons/bows/bow-forest-miss1.ogg</sound>
   </monster>
 </monsters>
