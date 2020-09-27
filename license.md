@@ -15,6 +15,10 @@ http://creativecommons.org/licenses/by-sa/3.0/).
 
 :grey_question:: Unknown contributors.
 
+(Title1/Author1/License1, Title2/Author2/License2): Attribution.
+
+[Editor1, Editor2]: Author of minor edits. For derivative works use Attribution.
+
 ### Emotes
 File | Artists | Licenses
 ---- |:-------:|:--------:
@@ -1188,11 +1192,22 @@ File | Artists | Licenses
 `sfx/weapons/bows/bow_shoot_1.ogg` | Cosmostrator | GPLv2
 `sfx/weapons/knives/knife-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/weapons/knives/knife-miss1.ogg` | Cosmostrator | GPLv2
-`sfx/weapons/knives/rock-knife-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/weapons/knives/rock-knife-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/knives/rock/rock-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/knives/rock/rock-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/knives/setzer/setzer-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/knives/setzer/setzer-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/knives/setzer/setzer-hit3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/knives/sharpknife-miss1.ogg` | Krazyjakee | GPLv2
+`sfx/weapons/miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/miss2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/miss3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/swords/broadsword-hit1.ogg` | Krazyjakee | GPLv2
 `sfx/weapons/swords/firesword-miss1.ogg` | Krazyjakee | GPLv2
+`sfx/weapons/swords/ice_gladius/ice_gladius-hit1.ogg` | Ledmitz (ting shas wav.mp3 / CMeeson / CC BY-3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/swords/ice_gladius/ice_gladius-hit2.ogg` | Ledmitz (ting shas wav.mp3 / CMeeson / CC BY-3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/swords/ice_gladius/ice_gladius-hit3.ogg` | Ledmitz (ting shas wav.mp3 / CMeeson / CC BY-3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/swords/ice_gladius/ice_gladius-hit4.ogg` | Ledmitz (ting shas wav.mp3 / CMeeson / CC BY-3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/swords/ice_gladius/ice_gladius-hit5.ogg` | Ledmitz (ting shas wav.mp3 / CMeeson / CC BY-3.0) | GPLv2, CC BY-SA 3.0
 `sfx/weapons/swords/longsword-hit1.ogg` | Krazyjakee | GPLv2
 `sfx/weapons/swords/longsword-hit2.ogg` | Krazyjakee | GPLv2
 `sfx/weapons/swords/longsword-miss1.ogg` | Krazyjakee | GPLv2
@@ -1203,6 +1218,7 @@ File | Artists | Licenses
 `sfx/weapons/swords/sandcutter-hit9.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/swords/short-sword-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/weapons/swords/short-sword-miss1.ogg` | Cosmostrator | GPLv2
+`sfx/weapons/swords/sword-miss1.ogg` | Cosmostrator [Ledmitz] | GPLv2
 
 ## Music
 Please see music sub-folder
