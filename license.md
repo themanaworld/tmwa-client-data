@@ -15,6 +15,10 @@ http://creativecommons.org/licenses/by-sa/3.0/).
 
 :grey_question:: Unknown contributors.
 
+(Title1/Author1/License1, Title2/Author2/License2): Attribution.
+
+[Editor1, Editor2]: Author of minor edits. For derivative works use Attribution.
+
 ### Emotes
 File | Artists | Licenses
 ---- |:-------:|:--------:
@@ -581,6 +585,7 @@ File | Artists | Licenses
 `graphics/particles/bubble_12px.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/bubble_32px.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/casket-trap_96x96.png` | Skipy | GPLv2
+`graphics/particles/dart.png` | Ledmitz | GPLv2, CC BY-SA 3.0
 `graphics/particles/fog-medium-a.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/fog-medium-b.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/fog-medium-c.png` | Crush | GPLv2, CC BY-SA 3.0
@@ -1128,7 +1133,34 @@ File | Artists | Licenses
 `sfx/env/env-riverflow1.ogg` | Dariuna | GPLv2
 `sfx/env/env-waterfall1.ogg` | Dariuna | GPLv2
 `sfx/env/fart.ogg` | unknown | CC0
+`sfx/magic/astral.ogg' | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/magic/betsanc-on.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/magic/betsanc-off.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/magic/chiza1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/magic/chiza2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/magic/chiza3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/magic/confringo1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/magic/confringo2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/magic/confringo3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/magic/default_magic.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/magic/detect_magic.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/magic/discharge.ogg` | Ledmitz (Plunger pop -12.wav / Quistard / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/magic/flar1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/magic/flar2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/magic/flar3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/magic/frillyar.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/magic/generic.ogg` | Ledmitz (firework_explosion_fizz.wav / soundscalpel.co / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/magic/ingrav1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/magic/ingrav2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/magic/ingrav3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/magic/inma.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/magic/itenplz-hit.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/magic/kaflosh.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/magic/nature.ogg` | Ledmitz (nord_analog_howling_wind_storm.wav / medialint / Sampling Plus 1.0) | GPLv2, CC BY-SA 3.0
+`sfx/magic/spawn_burst.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/magic/transmute.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/magic/war.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/magic/warp.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/bat/bat-dying1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/bat/bat-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/cavesnake/cavesnake-hit1.ogg` | Krazyjakee | GPLv2
