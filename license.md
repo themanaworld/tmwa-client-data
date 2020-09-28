@@ -15,6 +15,10 @@ http://creativecommons.org/licenses/by-sa/3.0/).
 
 :grey_question:: Unknown contributors.
 
+(Title1/Author1/License1, Title2/Author2/License2): Attribution.
+
+[Editor1, Editor2]: Author of minor edits. For derivative works use Attribution.
+
 ### Emotes
 File | Artists | Licenses
 ---- |:-------:|:--------:
@@ -1173,6 +1177,15 @@ File | Artists | Licenses
 `sfx/monsters/snail/snail-hit1.ogg` | alpha [Ledmitz] | GPLv2
 `sfx/monsters/snail/snail-hurt1.ogg` | alpha [Ledmitz] | GPLv2
 `sfx/monsters/snail/snail-hurt2.ogg` | alpha [Ledmitz] | GPLv2
+`sfx/monsters/spider/spider-die1.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
+`sfx/monsters/spider/spider-hit1.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
+`sfx/monsters/spider/spider-hit2.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
+`sfx/monsters/spider/spider-hit3.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
+`sfx/monsters/spider/spider-move1.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
+`sfx/monsters/spider/spider-move2.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
+`sfx/monsters/spider/spider-move3.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
+`sfx/monsters/spider/spider-move4.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
+`sfx/monsters/spider/spider-move5.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
 `sfx/monsters/squirrel/squirrel-die1.ogg` | Krazyjakee | GPLv2
 `sfx/monsters/squirrel/squirrel-die2.ogg` | Krazyjakee | GPLv2
 `sfx/monsters/squirrel/squirrel-hurt1.ogg` | Krazyjakee | GPLv2
