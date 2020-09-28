@@ -1171,7 +1171,9 @@ File | Artists | Licenses
 `sfx/monsters/scorpion/scorpion-hit3.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/scorpion/scorpion-hit4.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/scorpion/scorpion-miss1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/shroom/shroom-die1.ogg` | Davius | GPLv2
 `sfx/monsters/shroom/shroom-hit1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/shroom/shroom-hurt1.ogg` | Davius | GPLv2
 `sfx/monsters/slime/slime-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/snail/snail-die1.ogg` | alpha [Ledmitz] | GPLv2
 `sfx/monsters/snail/snail-hit1.ogg` | alpha [Ledmitz] | GPLv2
