@@ -11,13 +11,9 @@
     <replace sprite="hair">
       <item from="-1"/>
     </replace>
-    <sound gender="male" event="hit">monsters/skeleton/skel-hit1.ogg</sound>
-    <sound gender="male" event="hit">monsters/skeleton/skel-hit2.ogg</sound>
-    <sound gender="male" event="hit">monsters/skeleton/skel-hit3.ogg</sound>
-    <sound gender="male" event="strike">monsters/skeleton/skel-miss.ogg</sound>
-    <sound gender="female" event="hit">monsters/lady_skeleton/ladyskel-hit1.ogg</sound>
-    <sound gender="female" event="hit">monsters/lady_skeleton/ladyskel-hit2.ogg</sound>
-    <sound gender="female" event="hit">monsters/lady_skeleton/ladyskel-hit3.ogg</sound>
-    <sound gender="female" event="strike">monsters/lady_skeleton/ladyskel-miss.ogg</sound>
+    <sound event="hit">monsters/skeleton/skel-hit1.ogg</sound>
+    <sound event="hit">monsters/skeleton/skel-hit2.ogg</sound>
+    <sound event="hit">monsters/skeleton/skel-hit3.ogg</sound>
+    <sound event="strike">monsters/skeleton/skel-miss.ogg</sound>
   </item>
 </items>
