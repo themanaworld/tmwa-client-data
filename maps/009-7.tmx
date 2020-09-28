@@ -2,8 +2,8 @@
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="150" height="150" tilewidth="32" tileheight="32" nextobjectid="4">
  <properties>
   <property name="minimap" value="graphics/minimaps/009-7.png"/>
-  <property name="music" value="magick-real.ogg"/>
   <property name="name" value="The Sanguine Vault"/>
+  <!-- Music removed to allow for music toggle -->
  </properties>
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
  <tileset firstgid="3" source="../tilesets/woodland_indoor.tsx"/>
