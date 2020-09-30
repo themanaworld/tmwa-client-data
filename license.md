@@ -1202,6 +1202,9 @@ File | Artists | Licenses
 `sfx/weapons/knives/rock-knife-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/knives/rock-knife-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/knives/sharpknife-miss1.ogg` | Krazyjakee | GPLv2
+`sfx/weapons/other/halberd/halberd-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/other/halberd/halberd-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/other/halberd/halberd-hit3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/swords/broadsword-hit1.ogg` | Krazyjakee | GPLv2
 `sfx/weapons/swords/firesword-miss1.ogg` | Krazyjakee | GPLv2
 `sfx/weapons/swords/longsword-hit1.ogg` | Krazyjakee | GPLv2
@@ -1212,6 +1215,15 @@ File | Artists | Licenses
 `sfx/weapons/swords/sandcutter-hit7.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/swords/sandcutter-hit8.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/swords/sandcutter-hit9.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/other/scythe/scythe-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/other/scythe/scythe-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/other/scythe/scythe-hit3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/other/staff/staff-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/other/staff/staff-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/other/staff/staff-hit3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/other/staff/staff-miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/other/staff/staff-miss2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/other/staff/staff-miss3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/swords/short-sword-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/weapons/swords/short-sword-miss1.ogg` | Cosmostrator | GPLv2
 
