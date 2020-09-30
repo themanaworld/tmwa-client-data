@@ -7,7 +7,7 @@
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="1704" name="Flare Dart" attack-action="attack_bow" attack-range="1" missile-particle="graphics/particles/dart.particle.xml">
-    <!-- <sprite></sprite> -->
+    <sprite>equipment/weapons/null.xml</sprite>
     <sound event="hit">magic/flar1.ogg</sound>
     <sound event="hit">magic/flar2.ogg</sound>
     <sound event="hit">magic/flar3.ogg</sound>

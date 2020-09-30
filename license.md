@@ -664,6 +664,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/weapons/axe-stab.png` | :grey_question:, Wombat, Wushin, Varuna | GPLv2
 `graphics/sprites/equipment/weapons/bow-banshee.png` | V0id | GPLv2
 `graphics/sprites/equipment/weapons/bow-slingshot.png` | Chef Chelios, wushin | GPLv2
+`graphics/sprites/equipment/weapons/null.png` | Ledmitz | CC0
 `graphics/sprites/equipment/weapons/polearm-blunt.png` | :grey_question:, Wombat, Wushin | GPLv2
 `graphics/sprites/equipment/weapons/polearm-chop.png` | :grey_question:, Wombat, Wushin | GPLv2
 `graphics/sprites/equipment/weapons/polearm-spear.png` | :grey_question:, Wombat, Wushin | GPLv2
