@@ -1130,6 +1130,7 @@ File | Artists | Licenses
 `sfx/oblivion.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/punch.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/env/env-burningfire1.ogg` | Dariuna | GPLv2
+`sfx/env/flame.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/env/env-riverflow1.ogg` | Dariuna | GPLv2
 `sfx/env/env-waterfall1.ogg` | Dariuna | GPLv2
 `sfx/env/fart.ogg` | unknown | CC0
@@ -1230,6 +1231,18 @@ File | Artists | Licenses
 `sfx/system/ship-bell2.ogg` | unknown | (public domain)
 `sfx/system/warning.ogg` | Jesusalva | (public domain)
 `sfx/weapons/bows/bow_shoot_1.ogg` | Cosmostrator | GPLv2
+`sfx/weapons/bows/banshee/banshee-hit1.ogg` | Ledmitz (rocket-shots.mp3 / Audionautics / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/banshee/banshee-hit2.ogg` | Ledmitz (rocket-shots.mp3 / Audionautics / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/banshee/banshee-hit3.ogg` | Ledmitz (rocket-shots.mp3 / Audionautics / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/banshee/banshee-miss1.ogg` | Ledmitz (rocket-shots.mp3 / Audionautics / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/banshee/banshee-miss1.ogg` | Ledmitz (rocket-shots.mp3 / Audionautics / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/banshee/banshee-miss1.ogg` | Ledmitz (rocket-shots.mp3 / Audionautics / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/forest/forest-hit1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/forest/forest-miss1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/short/short-hit1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/short/short-miss1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/bow-hit1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/bow-miss1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/weapons/knives/knife-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/weapons/knives/knife-miss1.ogg` | Cosmostrator | GPLv2
 `sfx/weapons/knives/rock-knife-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
