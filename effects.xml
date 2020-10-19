@@ -126,9 +126,9 @@
   <!-- (grow plant) spawn -->
   <effect id="511" audio="magic/spawn_burst.ogg" particle="graphics/particles/pentagram-burst.xml"/>
   <!-- #lum (lesser heal) cast -->
-  <effect id="512" audio="magic/inma.ogg" particle="graphics/particles/magic.white.xml"/>
+  <effect id="512" particle="graphics/particles/magic.white.xml"/>
   <!-- #lum (lesser heal) hit -->
-  <effect id="513" particle="graphics/particles/magic.white.xml"/>
+  <effect id="513" audio="magic/inma.ogg" particle="graphics/particles/magic.white.xml"/>
   <!-- #chiza (magic blade) cast -->
   <effect id="514" audio="magic/war.ogg" particle="graphics/particles/magic.black.xml"/>
   <!-- #gole (make sulphur) cast -->
@@ -152,7 +152,7 @@
   <!-- #manpahil (enchant lifestone) cast -->
   <effect id="525" audio="magic/generic.ogg" particle="graphics/particles/magic.generic.xml"/>
   <!-- #plugh (flying backpack) cast -->
-  <effect id="526" particle="graphics/particles/magic.green.xml"/>
+  <effect id="526" audio="magic/nature.ogg" particle="graphics/particles/magic.green.xml"/>
   <!-- #plugh (flying backpack) hit -->
   <effect id="527" audio="magic/nature.ogg" particle="graphics/particles/magic.generic.xml"/>
   <!-- #plugh (flying backpack) end -->
