@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--Dark Talisman FX effect by Hello=) of TMW-->
+<effect>
+  <particle position-x="16" position-y="24" position-z="12">
+    <animation imageset="graphics/particles/circle-magic.png|W:#AEAEAE" width="78" height="55">
+      <sequence start="0" end="9" delay="120"/>
+    </animation>
+    <emitter>
+      <property name="position-z" min="16" max="48"/>
+      <property name="vertical-angle" min="0" max="90"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="power" min="10" max="25"/>
+      <property name="lifetime" value="1"/>
+      <property name="output" value="1"/>
+      <emitter>
+        <property name="gravity" value="-0.4"/>
+        <property name="momentum" value="0.9"/>
+        <property name="image" value="graphics/particles/gloworb-medium.png|W:#B56565"/>
+        <property name="lifetime" value="25"/>
+        <property name="fade-in" value="5"/>
+        <property name="fade-out" value="20"/>
+        <property name="output" min="0" max="1"/>
+        <property name="output-pause" min="30" max="80"/>
+        <property name="randomness" value="200"/>
+      </emitter>
+      <emitter>
+        <property name="gravity" value="-0.4"/>
+        <property name="momentum" value="0.9"/>
+        <property name="image" value="graphics/particles/orb-small.png|W:#B37010"/>
+        <property name="lifetime" value="25"/>
+        <property name="fade-in" value="5"/>
+        <property name="fade-out" value="20"/>
+        <property name="output" min="0" max="1"/>
+        <property name="output-pause" min="30" max="80"/>
+        <property name="randomness" value="200"/>
+      </emitter>
+    </emitter>
+  </particle>
+</effect>
