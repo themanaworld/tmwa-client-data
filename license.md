@@ -133,6 +133,7 @@ File | Artists | Licenses
 `graphics/items/equipment/ammo/bonedarts.png` | Adarias | GPLv2
 `graphics/items/equipment/ammo/ironarrow.png` | Irukard | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/ammo/arrow.png` | Irukard | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/ammo/snowball.png` | Ledmitz, Reid | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/ammo/stoneprojectile-icon.png` | wushin, tux9th | GPLv2, CC BY-SA 3.0
 
 #### Charms
@@ -599,6 +600,7 @@ File | Artists | Licenses
 `graphics/particles/pool_32x59.particle.png` | Skipy | GPLv2
 `graphics/particles/pool_65x27.particle.png` | Skipy | GPLv2
 `graphics/particles/pool-undyed.png` | Alige, Skipy | GPLv2
+`graphics/particles/snowball.png` | Ledmitz, Reid | GPLv2, CC BY-SA 3.0
 `graphics/particles/star-medium.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/star-small.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/waterfall-a.png` | Modanung | GPLv2, CC BY-SA 3.0
@@ -1191,6 +1193,8 @@ File | Artists | Licenses
 `sfx/weapons/knives/rock-knife-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/knives/rock-knife-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/knives/sharpknife-miss1.ogg` | Krazyjakee | GPLv2
+`sfx/weapons/projectiles/snowball/hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/projectiles/snowball/miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/swords/broadsword-hit1.ogg` | Krazyjakee | GPLv2
 `sfx/weapons/swords/firesword-miss1.ogg` | Krazyjakee | GPLv2
 `sfx/weapons/swords/longsword-hit1.ogg` | Krazyjakee | GPLv2
