@@ -6,10 +6,5 @@
     <its:translateRule selector="//item/@effect" translate="yes"/>
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
-  <include name="items/equip-ammo/item529_IronArrow.xml"/>
-  <include name="items/equip-ammo/item762_TerraniteArrow.xml"/>
-  <include name="items/equip-ammo/item904_SlingBullet.xml"/>
-  <include name="items/equip-ammo/item1199_Arrow.xml"/>
-  <include name="items/equip-ammo/item1282_BoneArrows.xml"/>
-  <include name="items/equip-ammo/item5260_Snowball.xml"/>
+  <item id="5260" image="equipment/ammo/snowball.png" name="Snowball" description="It is Christmas time!" attack="5" type="equip-ammo" weight="1"/>
 </items>
