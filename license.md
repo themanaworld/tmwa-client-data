@@ -239,7 +239,7 @@ File | Artists | Licenses
 `graphics/items/equipment/head/inspector-hat.png` | Micksha | GPLv2
 `graphics/items/equipment/head/jestermask.png` | Spit23 | GPLv2
 `graphics/items/equipment/head/knighthelm.png` | Black Don | GPLv2
-`graphics/items/equipment/head/knit-cap.png` | Salmondine | GPLv2
+`graphics/items/equipment/head/knit-cap.png` | Salmondine, jak1  | GPLv2
 `graphics/items/equipment/head/leathergoggles.png` | Fettsack | GPLv2
 `graphics/items/equipment/head/magicgmtophat.png` | QOAL, V0id | GPLv2
 `graphics/items/equipment/head/mask.png` | QOAL | GPLv2
