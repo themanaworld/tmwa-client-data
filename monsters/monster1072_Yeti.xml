@@ -2,5 +2,20 @@
 <monsters offset="0">
   <monster id="1072" name="Yeti">
     <sprite>monsters/yeti.xml</sprite>
+    <sound event="die">monsters/yeti/yeti-die1.ogg</sound>
+    <sound event="hit">monsters/yeti/yeti-hit1.ogg</sound>
+    <sound event="hit">monsters/yeti/yeti-hit2.ogg</sound>
+    <sound event="hit">monsters/yeti/yeti-hit3.ogg</sound>
+    <sound event="hit">monsters/yeti/yeti-hit4.ogg</sound>
+    <sound event="hurt">monsters/yeti/yeti-hurt1.ogg</sound>
+    <sound event="hurt">monsters/yeti/yeti-hurt2.ogg</sound>
+    <sound event="hurt">monsters/yeti/yeti-hurt3.ogg</sound>
+    <sound event="miss">monsters/yeti/yeti-miss1.ogg</sound>
+    <sound event="miss">monsters/yeti/yeti-miss2.ogg</sound>
+    <sound event="miss">monsters/yeti/yeti-miss3.ogg</sound>
+    <sound event="move">monsters/yeti/yeti-move1.ogg</sound>
+    <sound event="move">monsters/yeti/yeti-move2.ogg</sound>
+    <sound event="move">monsters/yeti/yeti-move3.ogg</sound>
+    <sound event="move">monsters/yeti/yeti-move4.ogg</sound>
   </monster>
 </monsters>
