@@ -181,7 +181,7 @@ File | Artists | Licenses
 `graphics/items/equipment/feet/assassinboots.png` | Black Don | GPLv2
 `graphics/items/equipment/feet/bromenalboots.png` | Skipy | GPLv2
 `graphics/items/equipment/feet/furboots.png` | Black Don | GPLv2
-`graphics/items/equipment/feet/warlordboots.png` | Lizandra | GPLv2
+`graphics/items/equipment/feet/warlordboots.png` | Lizandra | GPLv2, CC BY-SA 3.0
 
 #### Hands
 File | Artists | Licenses
@@ -222,7 +222,7 @@ File | Artists | Licenses
 `graphics/items/equipment/head/desert-helmet.png` | Pauan | GPLv2
 `graphics/items/equipment/head/deserthat.png` | Kr0n05931 | GPLv2
 `graphics/items/equipment/head/devcap.png` | Black Don | GPLv2
-`graphics/items/equipment/head/earmuffs.png` | Lizandra | GPLv2
+`graphics/items/equipment/head/earmuffs.png` | Lizandra | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/eggshell-hat.png` | Kyon | GPLv2
 `graphics/items/equipment/head/elf-nightcap.png` | Lien | GPLv2
 `graphics/items/equipment/head/eyepatch.png` | Yosuhara | GPLv2
@@ -233,7 +233,7 @@ File | Artists | Licenses
 `graphics/items/equipment/head/goggles.png` | Fettsack | GPLv2
 `graphics/items/equipment/head/gradcap.png` | Arilious | GPLv2
 `graphics/items/equipment/head/guyfawkes.png` | 5t3v3 | GPLv2
-`graphics/items/equipment/head/heart-glasses.png` | Lizandra | GPLv2
+`graphics/items/equipment/head/heart-glasses.png` | Lizandra | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/highpriest-crown.png` | Black Don | GPLv2
 `graphics/items/equipment/head/infantryhelm.png` | Black Don | GPLv2
 `graphics/items/equipment/head/inspector-hat.png` | Micksha | GPLv2
@@ -381,8 +381,8 @@ File | Artists | Licenses
 `graphics/items/generic/casinocoins.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/cavesnakelamp.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/chocolatemouboo.png` | :grey_question:, Chicka-Maria, Enchilado | GPLv2
-`graphics/items/generic/christmasbox-closed.png` | Lizandra, Enchilado | GPLv2
-`graphics/items/generic/christmasbox-open.png` | Lizandra, Enchilado | GPLv2
+`graphics/items/generic/christmasbox-closed.png` | Lizandra, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/christmasbox-open.png` | Lizandra, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/christmasbulb.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/claylump_big.png` | Jumpy, Enchilado | GPLv2
 `graphics/items/generic/claylump_small.png` | Fate, Enchilado | GPLv2, CC BY-SA 3.0
@@ -391,7 +391,7 @@ File | Artists | Licenses
 `graphics/items/generic/crystal.png` | Crush, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/dark-easter-egg.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/dark-petal.png` | Enchilado | GPLv2, CC BY-SA 3.0
-`graphics/items/generic/doll.png` | Lizandra, Enchilado | GPLv2
+`graphics/items/generic/doll.png` | Lizandra, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/dry-branch.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/ear-zombie.png` | Goku, Enchilado | GPLv2
 `graphics/items/generic/easterbasket.png` | Salmondine, Enchilado | GPLv2
@@ -482,9 +482,9 @@ File | Artists | Licenses
 `graphics/items/generic/wolvern-pelt.png` | Len, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/wolvern-tooth.png` | Alige, Nami, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/wooden-mouboo.png` | :grey_question:, Enchilado | GPLv2
-`graphics/items/generic/wrapping-paper-dotted.png` | Lizandra, Enchilado | GPLv2
-`graphics/items/generic/wrapping-paper-striped.png` | Lizandra, Enchilado | GPLv2
-`graphics/items/generic/wrapping-paper.png` | Wushin, Lizandra, Enchilado | GPLv2
+`graphics/items/generic/wrapping-paper-dotted.png` | Lizandra, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/wrapping-paper-striped.png` | Lizandra, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/wrapping-paper.png` | Wushin, Lizandra, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/yeti-claw.png` | Nami, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/astral_cube.png` | wushin | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/bloodstone.png` | wushin | GPLv2, CC BY-SA 3.0
@@ -523,7 +523,7 @@ File | Artists | Licenses
 `graphics/items/use/food/juice.png` | Nmaligec, Skipy, Enchilado | GPLv2
 `graphics/items/use/food/lady-fingers.png` | ChefChelios, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/use/food/lollipop.png` | :grey_question:, Wombat, Enchilado | GPLv2
-`graphics/items/use/food/lollipop2.png` | Lizandra, Enchilado, wushin | GPLv2
+`graphics/items/use/food/lollipop2.png` | Lizandra, Enchilado, wushin | GPLv2, CC BY-SA 3.0
 `graphics/items/use/food/marshmallow.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/use/food/milk.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/use/food/orange.png` | EJlol, Enchilado | GPLv2, CC BY-SA 3.0
@@ -771,7 +771,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/desert-helmet.png` | Pauan | GPLv2
 `graphics/sprites/equipment/head/deserthat.png` | Kr0n05931 | GPLv2
 `graphics/sprites/equipment/head/devcap.png` | Black Don | GPLv2
-`graphics/sprites/equipment/head/earmuffs.png` | Lizandra | GPLv2
+`graphics/sprites/equipment/head/earmuffs.png` | Lizandra | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/eggshell.png` | Kyon | GPLv2
 `graphics/sprites/equipment/head/elf-nightcap.png` | Lien | GPLv2
 `graphics/sprites/equipment/head/eyepatch.png` | Yosuhara | GPLv2
@@ -782,7 +782,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/goggles.png` | Fettsack | GPLv2
 `graphics/sprites/equipment/head/gradcap.png` | Arilious | GPLv2
 `graphics/sprites/equipment/head/guyfawkes.png` | 5t3v3 | GPLv2
-`graphics/sprites/equipment/head/heart-glasses.png` | Lizandra | GPLv2
+`graphics/sprites/equipment/head/heart-glasses.png` | Lizandra | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/highpriest-crown.png` | Black Don | GPLv2
 `graphics/sprites/equipment/head/infantryhelm.png` | Black Don | GPLv2
 `graphics/sprites/equipment/head/inspector-hat.png` | ? | GPLv2
