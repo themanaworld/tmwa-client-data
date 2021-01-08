@@ -39,41 +39,39 @@
   <!-- dark -->
   <effect id="8" particle="graphics/particles/magic.darkred.xml"/>
   <effect id="10" particle="graphics/particles/magic.default.xml"/>
-  <!-- #betsanc (protect) hit -->
-  <effect id="11" particle="graphics/particles/magic.shield.xml"/>
+  <!-- #betsanc (protect) hit | XML animation looks reversed, so end animation has on SFX -->
+  <effect id="11" audio="magic/betsanc-on.ogg" particle="graphics/particles/magic.shield-ends.xml"/>
   <!--  <effect id="12" particle="graphics/particles/magic.haste.xml"/>-->
   <effect id="13" particle="graphics/particles/magic.hit.xml"/>
   <effect id="14" particle="graphics/particles/magic.hit.evil.xml"/>
   <effect id="15" particle="graphics/particles/fire-burst.xml"/>
   <effect id="16" particle="graphics/particles/fire-explosion.xml"/>
   <!-- #ingrav (lightning strike) hit -->
-  <effect id="17" particle="graphics/particles/lightning1.xml"/>
-  <!-- #ingrav (lightning strike) hit -->
-  <effect id="18" particle="graphics/particles/lightning2.xml"/>
-  <!-- #ingrav (lightning strike) hit -->
-  <effect id="19" particle="graphics/particles/lightning3.xml"/>
-  <effect id="20" particle="graphics/particles/magic.teleport.xml"/>
+  <effect id="17" audio="magic/ingrav1.ogg" particle="graphics/particles/lightning1.xml"/>
+  <effect id="18" audio="magic/ingrav2.ogg" particle="graphics/particles/lightning2.xml"/>
+  <effect id="19" audio="magic/ingrav3.ogg" particle="graphics/particles/lightning3.xml"/>
+  <effect id="20" audio="system/warp.ogg" particle="graphics/particles/magic.teleport.xml"/>
   <!--  <effect id="20" particle="graphics/particles/magic.barrier.xml"/> -->
   <effect id="21" particle="graphics/particles/pentagram-buildup-short.xml"/>
   <effect id="22" particle="graphics/particles/pentagram-burst.xml"/>
-  <effect id="24" particle="graphics/particles/magic.teleport.xml"/>
+  <effect id="24" audio="system/warp.ogg" particle="graphics/particles/magic.teleport.xml"/>
   <!-- #kaflosh (rain) hit -->
   <effect id="25" particle="graphics/particles/rain.xml" audio="magic/kaflosh.ogg"/>
   <effect id="26" particle="graphics/particles/hit.particle.xml"/>
   <!-- #frillyar (arrow hail) hit -->
-  <effect id="27" particle="graphics/particles/arrow-hail.xml"/>
+  <effect id="27" audio="magic/frillyar.ogg" particle="graphics/particles/arrow-hail.xml"/>
   <effect id="28" particle="graphics/particles/crit.particle.xml"/>
   <effect id="30" particle="graphics/particles/large-explosion.xml"/>
   <effect id="31" particle="graphics/particles/medium-explosion.xml"/>
   <effect id="32" particle="graphics/particles/medium-smoke.xml"/>
   <!-- Illia quest effects -->
-  <effect id="33" particle="graphics/particles/medium-blindinglight.xml"/>
+  <effect id="33" audio="magic/spawn_burst.ogg" particle="graphics/particles/medium-blindinglight.xml"/>
   <effect id="34" particle="graphics/particles/channelling-raise.particle.xml"/>
   <effect id="35" particle="graphics/particles/channelling-cast.particle.xml"/>
   <effect id="36" particle="graphics/particles/enchanted-door-broken.particle.xml"/>
   <effect id="37" particle="graphics/particles/dark-teleport.particle.xml"/>
-  <effect id="38" particle="graphics/particles/evil-summon.particle.xml"/>
-  <effect id="39" particle="graphics/particles/ground-spawn.particle.xml"/>
+  <effect id="38" audio="magic/astral.ogg" particle="graphics/particles/evil-summon.particle.xml"/>
+  <effect id="39" audio="magic/spawn_burst.ogg" particle="graphics/particles/ground-spawn.particle.xml"/>
   <effect id="40" particle="graphics/particles/blue-magic-cast.particle.xml"/>
   <effect id="41" particle="graphics/particles/magic-blue-teleport.particle.xml"/>
   <effect id="42" particle="graphics/particles/magic-dark-explosion.particle.xml"/>
@@ -92,7 +90,7 @@
   <effect id="55" particle="graphics/particles/snowball-crit.particle.xml"/>
   <effect id="69" particle="graphics/particles/python.xml" audio="env/fart.ogg"/>
   <!-- #betsanc (protect) end -->
-  <effect id="111" particle="graphics/particles/magic.shield-ends.xml"/>
+  <effect id="111" audio="magic/betsanc-off.ogg" particle="graphics/particles/magic.shield.xml"/>
   <!-- <effect id="112" particle="graphics/particles/magic.haste-ends.xml"/>-->
   <!-- <effect id="113" particle="graphics/particles/magic.barrier-ends.xml"/> -->
   <effect id="114" particle="graphics/particles/electricity.red.xml"/>
@@ -110,109 +108,109 @@
   <effect id="403" audio="monsters/bat/bat-hit1.ogg"/>
   <!-- magic v3 spells -->
   <!-- #discharge -->
-  <effect id="500" particle="graphics/particles/fire-burst.xml"/>
+  <effect id="500" audio="magic/discharge.ogg" particle="graphics/particles/fire-burst.xml"/>
   <!-- #confringo (wand) cast -->
-  <effect id="501" particle="graphics/particles/magic.generic.xml"/>
+  <effect id="501" audio="magic/generic.ogg" particle="graphics/particles/magic.generic.xml"/>
   <!-- #itenplz (aggravate) cast -->
-  <effect id="503" particle="graphics/particles/magic.green.xml"/>
+  <effect id="503" audio="magic/nature.ogg" particle="graphics/particles/magic.green.xml"/>
   <!-- #itenplz (aggravate) hit -->
-  <effect id="504" particle="graphics/particles/magic.default.xml"/>
+  <effect id="504" audio="magic/itenplz-hit.ogg" particle="graphics/particles/magic.default.xml"/>
   <!-- #miteyo (detect magic) cast -->
-  <effect id="505" particle="graphics/particles/magic.generic.xml"/>
+  <effect id="505" audio="magic/generic.ogg" particle="graphics/particles/magic.generic.xml"/>
   <!-- #miteyo (detect magic) hit -->
-  <effect id="506" particle="graphics/particles/magic.default.xml"/>
+  <effect id="506" audio="magic/detect_magic.ogg" particle="graphics/particles/magic.default.xml"/>
   <!-- #abizit (magic experience) cast -->
-  <effect id="507" particle="graphics/particles/magic.default.xml"/>
+  <effect id="507" audio="magic/default_magic.ogg" particle="graphics/particles/magic.default.xml"/>
   <!-- #flar (flare dart) cast -->
-  <effect id="508" particle="graphics/particles/magic.default.xml"/>
+  <effect id="508" audio="magic/war.ogg" particle="graphics/particles/magic.default.xml"/>
   <!-- (grow plant) cast -->
-  <effect id="510" particle="graphics/particles/magic.grow-plant.xml"/>
+  <effect id="510" audio="magic/nature.ogg" particle="graphics/particles/magic.grow-plant.xml"/>
   <!-- (grow plant) spawn -->
-  <effect id="511" particle="graphics/particles/pentagram-burst.xml"/>
+  <effect id="511" audio="magic/spawn_burst.ogg" particle="graphics/particles/pentagram-burst.xml"/>
   <!-- #lum (lesser heal) cast -->
   <effect id="512" particle="graphics/particles/magic.white.xml"/>
   <!-- #lum (lesser heal) hit -->
-  <effect id="513" particle="graphics/particles/magic.white.xml"/>
+  <effect id="513" audio="magic/inma.ogg" particle="graphics/particles/magic.white.xml"/>
   <!-- #chiza (magic blade) cast -->
-  <effect id="514" particle="graphics/particles/magic.black.xml"/>
+  <effect id="514" audio="magic/war.ogg" particle="graphics/particles/magic.black.xml"/>
   <!-- #gole (make sulphur) cast -->
-  <effect id="516" particle="graphics/particles/magic.red.xml"/>
+  <effect id="516" audio="magic/transmute.ogg" particle="graphics/particles/magic.red.xml"/>
   <!-- #kalmurk (summon maggot) cast -->
-  <effect id="517" particle="graphics/particles/magic.astral-summon.xml"/>
+  <effect id="517" audio="magic/astral.ogg" particle="graphics/particles/magic.astral-summon.xml"/>
   <!-- #kalmurk (summon maggot) spawn -->
-  <effect id="518" particle="graphics/particles/pentagram-burst.xml"/>
+  <effect id="518" audio="magic/spawn_burst.ogg" particle="graphics/particles/pentagram-burst.xml"/>
   <!-- #parum (transmute wood) cast -->
-  <effect id="519" particle="graphics/particles/magic.red.xml"/>
+  <effect id="519" audio="magic/transmute.ogg" particle="graphics/particles/magic.red.xml"/>
   <!-- #frillyar (arrow hail) cast -->
-  <effect id="520" particle="graphics/particles/magic.black.xml"/>
+  <effect id="520" audio="magic/war.ogg" particle="graphics/particles/magic.black.xml"/>
   <!-- #asorm (astral barrier) cast -->
-  <effect id="521" particle="graphics/particles/magic.blue.xml"/>
+  <effect id="521" audio="magic/astral.ogg" particle="graphics/particles/magic.blue.xml"/>
   <!-- #asorm (astral barrier) hit -->
-  <effect id="522" particle="graphics/particles/magic.default.xml"/>
+  <effect id="522" audio="magic/default_magic.ogg" particle="graphics/particles/magic.default.xml"/>
   <!-- #asorm (astral barrier) end -->
-  <effect id="523" particle="graphics/particles/magic.default.xml"/>
+  <effect id="523" audio="magic/default_magic.ogg" particle="graphics/particles/magic.default.xml"/>
   <!-- #inwilt (detect player) cast -->
-  <effect id="524" particle="graphics/particles/magic.generic.xml"/>
+  <effect id="524" audio="magic/generic.ogg" particle="graphics/particles/magic.generic.xml"/>
   <!-- #manpahil (enchant lifestone) cast -->
-  <effect id="525" particle="graphics/particles/magic.generic.xml"/>
+  <effect id="525" audio="magic/generic.ogg" particle="graphics/particles/magic.generic.xml"/>
   <!-- #plugh (flying backpack) cast -->
-  <effect id="526" particle="graphics/particles/magic.green.xml"/>
+  <effect id="526" audio="magic/nature.ogg" particle="graphics/particles/magic.green.xml"/>
   <!-- #plugh (flying backpack) hit -->
-  <effect id="527" particle="graphics/particles/magic.generic.xml"/>
+  <effect id="527" audio="magic/nature.ogg" particle="graphics/particles/magic.generic.xml"/>
   <!-- #plugh (flying backpack) end -->
-  <effect id="528" particle="graphics/particles/magic.generic.xml"/>
+  <effect id="528" audio="magic/nature.ogg" particle="graphics/particles/magic.generic.xml"/>
   <!-- #joyplim (happy curse) cast -->
-  <effect id="529" particle="graphics/particles/magic.green.xml"/>
+  <effect id="529" audio="magic/nature.ogg" particle="graphics/particles/magic.green.xml"/>
   <!-- #anwiltyp (hide) cast -->
-  <effect id="530" particle="graphics/particles/magic.blue.xml"/>
+  <effect id="530" audio="magic/astral.ogg" particle="graphics/particles/magic.blue.xml"/>
   <!-- #anwiltyp (hide) hit -->
-  <effect id="531" particle="graphics/particles/magic.default.xml"/>
+  <effect id="531" audio="magic/default_magic.ogg" particle="graphics/particles/magic.default.xml"/>
   <!-- #anwiltyp (hide) end -->
-  <effect id="532" particle="graphics/particles/magic.generic.xml"/>
+  <effect id="532" audio="magic/default_magic.ogg" particle="graphics/particles/magic.generic.xml"/>
   <!-- #inma (lay on hands) cast -->
   <effect id="533" particle="graphics/particles/magic.white.xml"/>
   <!-- #inma (lay on hands) hit -->
-  <effect id="534" particle="graphics/particles/magic.white.xml"/>
+  <effect id="534" audio="magic/inma.ogg" particle="graphics/particles/magic.white.xml"/>
   <!-- #ingrav (lightning strike) cast -->
-  <effect id="535" particle="graphics/particles/magic.black.xml"/>
+  <effect id="535" audio="magic/war.ogg" particle="graphics/particles/magic.black.xml"/>
   <!-- #upmarmu (magic knuckles) cast -->
-  <effect id="536" particle="graphics/particles/magic.black.xml"/>
+  <effect id="536" audio="magic/war.ogg" particle="graphics/particles/magic.black.xml"/>
   <!-- #kularzufrill (make arrows) cast -->
-  <effect id="537" particle="graphics/particles/magic.red.xml"/>
+  <effect id="537" audio="magic/transmute.ogg" particle="graphics/particles/magic.red.xml"/>
   <!-- #zukminbirf (make iron powder) cast -->
-  <effect id="538" particle="graphics/particles/magic.red.xml"/>
+  <effect id="538" audio="magic/transmute.ogg" particle="graphics/particles/magic.red.xml"/>
   <!-- (make shirt/short tanktop/tanktop) cast -->
-  <effect id="539" particle="graphics/particles/magic.red.xml"/>
+  <effect id="539" audio="magic/transmute.ogg" particle="graphics/particles/magic.red.xml"/>
   <!-- #betsanc (protect) cast -->
-  <effect id="540" particle="graphics/particles/magic.green.xml"/>
+  <effect id="540" audio="magic/nature.ogg" particle="graphics/particles/magic.green.xml"/>
   <!-- #kaflosh (rain) cast -->
-  <effect id="541" particle="graphics/particles/magic.green.xml"/>
+  <effect id="541" audio="magic/nature.ogg" particle="graphics/particles/magic.green.xml"/>
   <!-- #chipchip (shear) cast -->
-  <effect id="542" particle="graphics/particles/magic.green.xml"/>
+  <effect id="542" audio="magic/nature.ogg" particle="graphics/particles/magic.green.xml"/>
   <!-- #kalakarenk (summon fluffy) cast -->
-  <effect id="543" particle="graphics/particles/magic.astral-summon.xml"/>
+  <effect id="543" audio="magic/astral.ogg" particle="graphics/particles/magic.astral-summon.xml"/>
   <!-- #kalakarenk (summon fluffy) spawn -->
-  <effect id="544" particle="graphics/particles/pentagram-burst.xml"/>
+  <effect id="544" audio="magic/spawn_burst.ogg" particle="graphics/particles/pentagram-burst.xml"/>
   <!-- #kalboo (summon mouboo) cast -->
-  <effect id="545" particle="graphics/particles/magic.astral-summon.xml"/>
+  <effect id="545" audio="magic/astral.ogg" particle="graphics/particles/magic.astral-summon.xml"/>
   <!-- #kalboo (summon mouboo) spawn -->
-  <effect id="546" particle="graphics/particles/pentagram-burst.xml"/>
+  <effect id="546" audio="magic/spawn_burst.ogg" particle="graphics/particles/pentagram-burst.xml"/>
   <!-- #kalgina (summon pinky) cast -->
-  <effect id="547" particle="graphics/particles/magic.astral-summon.xml"/>
+  <effect id="547" audio="magic/astral.ogg" particle="graphics/particles/magic.astral-summon.xml"/>
   <!-- #kalgina (summon pinky) spawn -->
-  <effect id="548" particle="graphics/particles/pentagram-burst.xml"/>
+  <effect id="548" audio="magic/spawn_burst.ogg" particle="graphics/particles/pentagram-burst.xml"/>
   <!-- #halhiss (summon snake) cast -->
-  <effect id="549" particle="graphics/particles/magic.dark-summon.xml"/>
+  <effect id="549" audio="magic/astral.ogg" particle="graphics/particles/magic.dark-summon.xml"/>
   <!-- #halhiss (summon snake) spawn -->
-  <effect id="550" particle="graphics/particles/pentagram-burst.xml"/>
+  <effect id="550" audio="magic/spawn_burst.ogg" particle="graphics/particles/pentagram-burst.xml"/>
   <!-- #kalrenk (summon spiky shroom) cast -->
-  <effect id="551" particle="graphics/particles/magic.astral-summon.xml"/>
+  <effect id="551" audio="magic/astral.ogg" particle="graphics/particles/magic.astral-summon.xml"/>
   <!-- #kalrenk (summon spiky shroom) spawn -->
-  <effect id="552" particle="graphics/particles/pentagram-burst.xml"/>
+  <effect id="552" audio="magic/spawn_burst.ogg" particle="graphics/particles/pentagram-burst.xml"/>
   <!-- #helorp (summon wicked shroom) cast -->
-  <effect id="553" particle="graphics/particles/magic.dark-summon.xml"/>
+  <effect id="553" audio="magic/astral.ogg" particle="graphics/particles/magic.dark-summon.xml"/>
   <!-- #helorp (summon wicked shroom) spawn -->
-  <effect id="554" particle="graphics/particles/pentagram-burst.xml"/>
+  <effect id="554" audio="magic/spawn_burst.ogg" particle="graphics/particles/pentagram-burst.xml"/>
   <!-- #phlex (toxic dart) cast -->
-  <effect id="555" particle="graphics/particles/magic.darkred.xml"/>
+  <effect id="555" audio="magic/astral.ogg" particle="graphics/particles/magic.darkred.xml"/>
 </being-effects>
