@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="13">
  <properties>
   <property name="music" value="cavesong.ogg"/>
   <property name="name" value="Last man standing"/>
@@ -7,7 +7,7 @@
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
  <tileset firstgid="3" source="../tilesets/cave.tsx"/>
  <tileset firstgid="131" source="../tilesets/arena.tsx"/>
- <layer name="Ground1" width="100" height="100">
+ <layer id="1" name="Ground1" width="100" height="100">
   <data encoding="csv">
 23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,
 23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,
@@ -111,7 +111,7 @@
 23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23
 </data>
  </layer>
- <layer name="Fringe" width="100" height="100">
+ <layer id="2" name="Fringe" width="100" height="100">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -215,7 +215,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Over1" width="100" height="100">
+ <layer id="3" name="Over1" width="100" height="100">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -319,7 +319,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="100" height="100">
+ <layer id="4" name="Collision" width="100" height="100">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -423,19 +423,19 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup name="Objects" visible="0">
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2177" y="1378" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2177" y="1378" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2240" y="1760" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1664" y="2176" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1728" y="2240" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1664" y="2304" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1504" y="1824" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1056" y="2272" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="864" y="1696" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1152" y="1344" width="32" height="32"/>
-  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1568" y="1376" width="32" height="32"/>
-  <object name="to Hurnscald" type="warp" x="1664" y="2368" width="96" height="32">
+ <objectgroup id="5" name="Objects" visible="0">
+  <object id="1" name="graphics/particles/flame.particle.xml" type="particle_effect" x="2177" y="1378" width="32" height="32"/>
+  <object id="2" name="graphics/particles/flame.particle.xml" type="particle_effect" x="2177" y="1378" width="32" height="32"/>
+  <object id="3" name="graphics/particles/flame.particle.xml" type="particle_effect" x="2240" y="1760" width="32" height="32"/>
+  <object id="4" name="graphics/particles/flame.particle.xml" type="particle_effect" x="1664" y="2176" width="32" height="32"/>
+  <object id="5" name="graphics/particles/flame.particle.xml" type="particle_effect" x="1728" y="2240" width="32" height="32"/>
+  <object id="6" name="graphics/particles/flame.particle.xml" type="particle_effect" x="1664" y="2304" width="32" height="32"/>
+  <object id="7" name="graphics/particles/flame.particle.xml" type="particle_effect" x="1504" y="1824" width="32" height="32"/>
+  <object id="8" name="graphics/particles/flame.particle.xml" type="particle_effect" x="1056" y="2272" width="32" height="32"/>
+  <object id="9" name="graphics/particles/flame.particle.xml" type="particle_effect" x="864" y="1696" width="32" height="32"/>
+  <object id="10" name="graphics/particles/flame.particle.xml" type="particle_effect" x="1152" y="1344" width="32" height="32"/>
+  <object id="11" name="graphics/particles/flame.particle.xml" type="particle_effect" x="1568" y="1376" width="32" height="32"/>
+  <object id="12" name="to Hurnscald" type="warp" x="1664" y="2368" width="96" height="32">
    <properties>
     <property name="dest_map" value="009-3"/>
     <property name="dest_tile_x" value="162"/>

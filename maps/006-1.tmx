@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="140" height="140" tilewidth="32" tileheight="32">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="140" height="140" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="52">
  <properties>
   <property name="minimap" value="graphics/minimaps/006-1.png"/>
   <property name="music" value="faith.ogg"/>
@@ -12,7 +12,7 @@
  <tileset firstgid="563" source="../tilesets/desert_x3.tsx"/>
  <tileset firstgid="595" source="../tilesets/docks.tsx"/>
  <tileset firstgid="755" source="../tilesets/trans_woodland_desert.tsx"/>
- <layer name="Ground1" width="140" height="140">
+ <layer id="1" name="Ground1" width="140" height="140">
   <data encoding="csv">
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,134,118,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,150,150,134,118,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,149,150,134,135,135,118,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,134,118,3,3,3,3,3,3,3,166,150,150,134,118,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
@@ -156,7 +156,7 @@
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,120,136,152,151,152,168,3,3,3,3,3,3,3,3,120,136,152,168,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
 </data>
  </layer>
- <layer name="Ground2" width="140" height="140">
+ <layer id="2" name="Ground2" width="140" height="140">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,564,565,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,564,565,0,0,0,523,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,523,0,0,0,0,0,0,0,0,0,0,0,524,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -300,7 +300,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Ground3" width="140" height="140">
+ <layer id="3" name="Ground3" width="140" height="140">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -444,7 +444,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Fringe" width="140" height="140">
+ <layer id="4" name="Fringe" width="140" height="140">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,133,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,101,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,101,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,88,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -588,7 +588,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Over1" width="140" height="140">
+ <layer id="5" name="Over1" width="140" height="140">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -732,7 +732,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,101,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Over2" width="140" height="140">
+ <layer id="6" name="Over2" width="140" height="140">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -876,7 +876,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="140" height="140">
+ <layer id="7" name="Collision" width="140" height="140">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -1020,141 +1020,141 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup name="Objects" visible="0">
-  <object name="To Desert Mountain Cave" type="warp" x="1280" y="832" width="32" height="32">
+ <objectgroup id="8" name="Objects" visible="0">
+  <object id="1" name="To Desert Mountain Cave" type="warp" x="1280" y="832" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
     <property name="dest_tile_x" value="40"/>
     <property name="dest_tile_y" value="28"/>
    </properties>
   </object>
-  <object name="To Desert Mountain Cave" type="warp" x="1920" y="1856" width="32" height="32">
+  <object id="2" name="To Desert Mountain Cave" type="warp" x="1920" y="1856" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
     <property name="dest_tile_x" value="60"/>
     <property name="dest_tile_y" value="70"/>
    </properties>
   </object>
-  <object name="To Desert Mountain Cave" type="warp" x="1984" y="960" width="32" height="32">
+  <object id="3" name="To Desert Mountain Cave" type="warp" x="1984" y="960" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
     <property name="dest_tile_x" value="62"/>
     <property name="dest_tile_y" value="32"/>
    </properties>
   </object>
-  <object name="To Desert Mountain Cave" type="warp" x="1760" y="864" width="32" height="32">
+  <object id="4" name="To Desert Mountain Cave" type="warp" x="1760" y="864" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
     <property name="dest_tile_x" value="55"/>
     <property name="dest_tile_y" value="29"/>
    </properties>
   </object>
-  <object name="To Desert Mountain Cave" type="warp" x="2464" y="1408" width="32" height="32">
+  <object id="5" name="To Desert Mountain Cave" type="warp" x="2464" y="1408" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
     <property name="dest_tile_x" value="77"/>
     <property name="dest_tile_y" value="46"/>
    </properties>
   </object>
-  <object name="To Desert Mountain Cave" type="warp" x="2752" y="768" width="32" height="32">
+  <object id="6" name="To Desert Mountain Cave" type="warp" x="2752" y="768" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
     <property name="dest_tile_x" value="86"/>
     <property name="dest_tile_y" value="26"/>
    </properties>
   </object>
-  <object name="To Desert Mountain Cave" type="warp" x="2912" y="768" width="32" height="32">
+  <object id="7" name="To Desert Mountain Cave" type="warp" x="2912" y="768" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
     <property name="dest_tile_x" value="91"/>
     <property name="dest_tile_y" value="26"/>
    </properties>
   </object>
-  <object name="To Desert Mountain Cave" type="warp" x="3136" y="1472" width="32" height="32">
+  <object id="8" name="To Desert Mountain Cave" type="warp" x="3136" y="1472" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
     <property name="dest_tile_x" value="104"/>
     <property name="dest_tile_y" value="46"/>
    </properties>
   </object>
-  <object name="To Desert Mountain Cave" type="warp" x="3648" y="704" width="32" height="32">
+  <object id="9" name="To Desert Mountain Cave" type="warp" x="3648" y="704" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
     <property name="dest_tile_x" value="122"/>
     <property name="dest_tile_y" value="26"/>
    </properties>
   </object>
-  <object name="To Desert Mountain Cave" type="warp" x="3648" y="1568" width="32" height="32">
+  <object id="10" name="To Desert Mountain Cave" type="warp" x="3648" y="1568" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
     <property name="dest_tile_x" value="114"/>
     <property name="dest_tile_y" value="51"/>
    </properties>
   </object>
-  <object name="To Desert Mountain Cave" type="warp" x="3264" y="1696" width="32" height="32">
+  <object id="11" name="To Desert Mountain Cave" type="warp" x="3264" y="1696" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
     <property name="dest_tile_x" value="110"/>
     <property name="dest_tile_y" value="58"/>
    </properties>
   </object>
-  <object name="To Desert Mountain Cave" type="warp" x="3744" y="1824" width="32" height="32">
+  <object id="12" name="To Desert Mountain Cave" type="warp" x="3744" y="1824" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
     <property name="dest_tile_x" value="125"/>
     <property name="dest_tile_y" value="61"/>
    </properties>
   </object>
-  <object name="To Desert Mountain Cave" type="warp" x="2944" y="2016" width="32" height="32">
+  <object id="13" name="To Desert Mountain Cave" type="warp" x="2944" y="2016" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
     <property name="dest_tile_x" value="92"/>
     <property name="dest_tile_y" value="65"/>
    </properties>
   </object>
-  <object name="To Desert Mountain Cave" type="warp" x="3584" y="2368" width="32" height="32">
+  <object id="14" name="To Desert Mountain Cave" type="warp" x="3584" y="2368" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
     <property name="dest_tile_x" value="112"/>
     <property name="dest_tile_y" value="76"/>
    </properties>
   </object>
-  <object name="To Desert Mountain Cave" type="warp" x="3552" y="3520" width="32" height="32">
+  <object id="15" name="To Desert Mountain Cave" type="warp" x="3552" y="3520" width="32" height="32">
    <properties>
     <property name="dest_map" value="032-3"/>
     <property name="dest_tile_x" value="56"/>
     <property name="dest_tile_y" value="60"/>
    </properties>
   </object>
-  <object name="To Desert Mountain Cave" type="warp" x="2656" y="3744" width="32" height="32">
+  <object id="16" name="To Desert Mountain Cave" type="warp" x="2656" y="3744" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
     <property name="dest_tile_x" value="79"/>
     <property name="dest_tile_y" value="121"/>
    </properties>
   </object>
-  <object name="To Desert Mountain Cave" type="warp" x="1216" y="3872" width="32" height="32">
+  <object id="17" name="To Desert Mountain Cave" type="warp" x="1216" y="3872" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
     <property name="dest_tile_x" value="38"/>
     <property name="dest_tile_y" value="123"/>
    </properties>
   </object>
-  <object name="To Desert Mountain Cave" type="warp" x="2368" y="2880" width="32" height="32">
+  <object id="18" name="To Desert Mountain Cave" type="warp" x="2368" y="2880" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
     <property name="dest_tile_x" value="74"/>
     <property name="dest_tile_y" value="92"/>
    </properties>
   </object>
-  <object name="To Desert Mountain Cave" type="warp" x="1632" y="2880" width="32" height="32">
+  <object id="19" name="To Desert Mountain Cave" type="warp" x="1632" y="2880" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
     <property name="dest_tile_x" value="51"/>
     <property name="dest_tile_y" value="92"/>
    </properties>
   </object>
-  <object name="Snake" type="spawn" x="1472" y="1632" width="256" height="128">
+  <object id="20" name="Snake" type="spawn" x="1472" y="1632" width="256" height="128">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -1162,7 +1162,7 @@
     <property name="monster_id" value="8"/>
    </properties>
   </object>
-  <object name="MountainSnake" type="spawn" x="1440" y="960" width="544" height="448">
+  <object id="21" name="MountainSnake" type="spawn" x="1440" y="960" width="544" height="448">
    <properties>
     <property name="eA_death" value="10000"/>
     <property name="eA_spawn" value="150000"/>
@@ -1170,7 +1170,7 @@
     <property name="monster_id" value="24"/>
    </properties>
   </object>
-  <object name="MountainSnake" type="spawn" x="2336" y="640" width="1088" height="448">
+  <object id="22" name="MountainSnake" type="spawn" x="2336" y="640" width="1088" height="448">
    <properties>
     <property name="eA_death" value="75000"/>
     <property name="eA_spawn" value="15000"/>
@@ -1178,7 +1178,7 @@
     <property name="monster_id" value="24"/>
    </properties>
   </object>
-  <object name="MountainSnake" type="spawn" x="3424" y="736" width="416" height="1216">
+  <object id="23" name="MountainSnake" type="spawn" x="3424" y="736" width="416" height="1216">
    <properties>
     <property name="eA_death" value="75000"/>
     <property name="eA_spawn" value="15000"/>
@@ -1186,7 +1186,7 @@
     <property name="monster_id" value="24"/>
    </properties>
   </object>
-  <object name="MountainSnake" type="spawn" x="3520" y="1600" width="224" height="128">
+  <object id="24" name="MountainSnake" type="spawn" x="3520" y="1600" width="224" height="128">
    <properties>
     <property name="eA_death" value="75000"/>
     <property name="eA_spawn" value="15000"/>
@@ -1194,7 +1194,7 @@
     <property name="monster_id" value="24"/>
    </properties>
   </object>
-  <object name="MountainSnake" type="spawn" x="2304" y="1408" width="960" height="192">
+  <object id="25" name="MountainSnake" type="spawn" x="2304" y="1408" width="960" height="192">
    <properties>
     <property name="eA_death" value="75000"/>
     <property name="eA_spawn" value="15000"/>
@@ -1202,7 +1202,7 @@
     <property name="monster_id" value="24"/>
    </properties>
   </object>
-  <object name="MountainSnake" type="spawn" x="3040" y="2112" width="704" height="480">
+  <object id="26" name="MountainSnake" type="spawn" x="3040" y="2112" width="704" height="480">
    <properties>
     <property name="eA_death" value="75000"/>
     <property name="eA_spawn" value="15000"/>
@@ -1210,7 +1210,7 @@
     <property name="monster_id" value="24"/>
    </properties>
   </object>
-  <object name="MountainSnake" type="spawn" x="2208" y="3072" width="288" height="448">
+  <object id="27" name="MountainSnake" type="spawn" x="2208" y="3072" width="288" height="448">
    <properties>
     <property name="eA_death" value="75000"/>
     <property name="eA_spawn" value="15000"/>
@@ -1218,7 +1218,7 @@
     <property name="monster_id" value="24"/>
    </properties>
   </object>
-  <object name="MountainSnake" type="spawn" x="3168" y="2976" width="384" height="512">
+  <object id="28" name="MountainSnake" type="spawn" x="3168" y="2976" width="384" height="512">
    <properties>
     <property name="eA_death" value="75000"/>
     <property name="eA_spawn" value="15000"/>
@@ -1226,7 +1226,7 @@
     <property name="monster_id" value="24"/>
    </properties>
   </object>
-  <object name="MountainSnake" type="spawn" x="2240" y="2048" width="832" height="544">
+  <object id="29" name="MountainSnake" type="spawn" x="2240" y="2048" width="832" height="544">
    <properties>
     <property name="eA_death" value="75000"/>
     <property name="eA_spawn" value="15000"/>
@@ -1234,7 +1234,7 @@
     <property name="monster_id" value="24"/>
    </properties>
   </object>
-  <object name="MountainSnake" type="spawn" x="2784" y="3584" width="576" height="160">
+  <object id="30" name="MountainSnake" type="spawn" x="2784" y="3584" width="576" height="160">
    <properties>
     <property name="eA_death" value="75000"/>
     <property name="eA_spawn" value="15000"/>
@@ -1242,7 +1242,7 @@
     <property name="monster_id" value="24"/>
    </properties>
   </object>
-  <object name="MountainSnake" type="spawn" x="1536" y="3776" width="608" height="96">
+  <object id="31" name="MountainSnake" type="spawn" x="1536" y="3776" width="608" height="96">
    <properties>
     <property name="eA_death" value="75000"/>
     <property name="eA_spawn" value="15000"/>
@@ -1250,7 +1250,7 @@
     <property name="monster_id" value="24"/>
    </properties>
   </object>
-  <object name="Scorpion" type="spawn" x="640" y="2592" width="896" height="1088">
+  <object id="32" name="Scorpion" type="spawn" x="640" y="2592" width="896" height="1088">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -1258,56 +1258,56 @@
     <property name="monster_id" value="1"/>
    </properties>
   </object>
-  <object name="To Outback Cave" type="warp" x="960" y="3936" width="32" height="32">
+  <object id="33" name="To Outback Cave" type="warp" x="960" y="3936" width="32" height="32">
    <properties>
     <property name="dest_map" value="032-3"/>
     <property name="dest_tile_x" value="128"/>
     <property name="dest_tile_y" value="33"/>
    </properties>
   </object>
-  <object name="To Pachua's Village" type="warp" x="1056" y="2720" width="32" height="32">
+  <object id="34" name="To Pachua's Village" type="warp" x="1056" y="2720" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-2"/>
     <property name="dest_tile_x" value="58"/>
     <property name="dest_tile_y" value="43"/>
    </properties>
   </object>
-  <object name="To Pachua's Village" type="warp" x="736" y="2720" width="32" height="32">
+  <object id="35" name="To Pachua's Village" type="warp" x="736" y="2720" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-2"/>
     <property name="dest_tile_x" value="48"/>
     <property name="dest_tile_y" value="43"/>
    </properties>
   </object>
-  <object name="To Pachua's Village" type="warp" x="736" y="3200" width="32" height="32">
+  <object id="36" name="To Pachua's Village" type="warp" x="736" y="3200" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-2"/>
     <property name="dest_tile_x" value="67"/>
     <property name="dest_tile_y" value="64"/>
    </properties>
   </object>
-  <object name="To Pachua's Village" type="warp" x="672" y="3456" width="32" height="32">
+  <object id="37" name="To Pachua's Village" type="warp" x="672" y="3456" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-2"/>
     <property name="dest_tile_x" value="65"/>
     <property name="dest_tile_y" value="72"/>
    </properties>
   </object>
-  <object name="To Desert Mountains" type="warp" x="1184" y="832" width="32" height="32">
+  <object id="38" name="To Desert Mountains" type="warp" x="1184" y="832" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-1"/>
     <property name="dest_tile_x" value="37"/>
     <property name="dest_tile_y" value="23"/>
    </properties>
   </object>
-  <object name="To Desert Mountains" type="warp" x="1184" y="768" width="32" height="32">
+  <object id="39" name="To Desert Mountains" type="warp" x="1184" y="768" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-1"/>
     <property name="dest_tile_x" value="37"/>
     <property name="dest_tile_y" value="27"/>
    </properties>
   </object>
-  <object name="GreenSlime" type="spawn" x="1824" y="1536" width="128" height="128">
+  <object id="40" name="GreenSlime" type="spawn" x="1824" y="1536" width="128" height="128">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -1315,7 +1315,7 @@
     <property name="monster_id" value="3"/>
    </properties>
   </object>
-  <object name="Snake" type="spawn" x="1024" y="1536" width="192" height="160">
+  <object id="41" name="Snake" type="spawn" x="1024" y="1536" width="192" height="160">
    <properties>
     <property name="eA_death" value="50000"/>
     <property name="eA_spawn" value="40000"/>
@@ -1323,7 +1323,7 @@
     <property name="monster_id" value="8"/>
    </properties>
   </object>
-  <object name="Snake" type="spawn" x="2752" y="2176" width="672" height="1568">
+  <object id="42" name="Snake" type="spawn" x="2752" y="2176" width="672" height="1568">
    <properties>
     <property name="eA_death" value="50000"/>
     <property name="eA_spawn" value="40000"/>
@@ -1331,7 +1331,7 @@
     <property name="monster_id" value="8"/>
    </properties>
   </object>
-  <object name="Maggot" type="spawn" x="672" y="2656" width="928" height="960">
+  <object id="43" name="Maggot" type="spawn" x="672" y="2656" width="928" height="960">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -1339,7 +1339,7 @@
     <property name="monster_id" value="0"/>
    </properties>
   </object>
-  <object name="GreenSlime" type="spawn" x="864" y="2304" width="128" height="96">
+  <object id="44" name="GreenSlime" type="spawn" x="864" y="2304" width="128" height="96">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -1347,7 +1347,7 @@
     <property name="monster_id" value="3"/>
    </properties>
   </object>
-  <object name="GreenSlime" type="spawn" x="1024" y="1856" width="128" height="96">
+  <object id="45" name="GreenSlime" type="spawn" x="1024" y="1856" width="128" height="96">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -1355,28 +1355,28 @@
     <property name="monster_id" value="3"/>
    </properties>
   </object>
-  <object name="Snake Cave" type="warp" x="1760" y="1472" width="32" height="32">
+  <object id="46" name="Snake Cave" type="warp" x="1760" y="1472" width="32" height="32">
    <properties>
     <property name="dest_map" value="005-3"/>
     <property name="dest_tile_x" value="86"/>
     <property name="dest_tile_y" value="33"/>
    </properties>
   </object>
-  <object name="To Sandstorm Desert" type="warp" x="640" y="1504" width="32" height="64">
+  <object id="47" name="To Sandstorm Desert" type="warp" x="640" y="1504" width="32" height="64">
    <properties>
     <property name="dest_map" value="002-1"/>
     <property name="dest_tile_x" value="118"/>
     <property name="dest_tile_y" value="95"/>
    </properties>
   </object>
-  <object name="Snake Cave" type="warp" x="1632" y="2176" width="32" height="32">
+  <object id="48" name="Snake Cave" type="warp" x="1632" y="2176" width="32" height="32">
    <properties>
     <property name="dest_map" value="005-3"/>
     <property name="dest_tile_x" value="73"/>
     <property name="dest_tile_y" value="61"/>
    </properties>
   </object>
-  <object name="Snake" type="spawn" x="1088" y="2304" width="256" height="128">
+  <object id="49" name="Snake" type="spawn" x="1088" y="2304" width="256" height="128">
    <properties>
     <property name="eA_death" value="30000"/>
     <property name="eA_spawn" value="100000"/>
@@ -1384,7 +1384,7 @@
     <property name="monster_id" value="8"/>
    </properties>
   </object>
-  <object name="Snake" type="spawn" x="2592" y="768" width="1248" height="800">
+  <object id="50" name="Snake" type="spawn" x="2592" y="768" width="1248" height="800">
    <properties>
     <property name="eA_death" value="50000"/>
     <property name="eA_spawn" value="40000"/>
@@ -1392,7 +1392,7 @@
     <property name="monster_id" value="8"/>
    </properties>
   </object>
-  <object name="Snake Cave" type="warp" x="2048" y="2464" width="32" height="32">
+  <object id="51" name="Snake Cave" type="warp" x="2048" y="2464" width="32" height="32">
    <properties>
     <property name="dest_map" value="005-3"/>
     <property name="dest_tile_x" value="107"/>
