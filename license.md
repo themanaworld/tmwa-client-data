@@ -150,8 +150,8 @@ File | Artists | Licenses
 `graphics/items/equipment/charms/heartnecklace.png` | Jetryl | GPLv2
 `graphics/items/equipment/charms/skeletoncharm.png` | Cassy, Jetryl | GPLv2
 `graphics/items/equipment/charms/towel.png` | Bjorn | GPLv2, CC BY-SA 3.0
-`graphics/items/equipment/charms/manapearl.png` | HoraK-FDF | GPLv2, CC BY-SA 3.0
-`graphics/items/equipment/charms/assassin-amulet.png` | HoraK-FDF | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/charms/manapearl.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/items/equipment/charms/assassin-amulet.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 
 #### Chest
 File | Artists | Licenses
@@ -281,7 +281,7 @@ File | Artists | Licenses
 `graphics/items/equipment/head/pipe.png` | Veryape | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/terranite-head.png` | gumi, Kr0n05931 | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/shades.png` | jak1 | GPLv2, CC BY-SA 3.0
-`graphics/items/equipment/head/assassin-mask.png` | HoraK-FDF | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/head/assassin-mask.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 
 #### Legs
 File | Artists | Licenses
@@ -301,7 +301,7 @@ File | Artists | Licenses
 `graphics/items/equipment/rings/magic.png` | Nami | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/rings/simple.png` | Salmondine | GPLv2
 `graphics/items/equipment/rings/wedding.png` | Kess | GPLv2
-`graphics/items/equipment/rings/assassin-ring.png` | HoraK-FDF | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/rings/assassin-ring.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 
 #### Shields
 File | Artists | Licenses
@@ -612,7 +612,7 @@ File | Artists | Licenses
 `graphics/particles/star-medium.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/star-small.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/waterfall-a.png` | Modanung | GPLv2, CC BY-SA 3.0
-`graphics/particles/manapearl_4x4.png` | HoraK-FDF | GPLv2, CC BY-SA 3.0
+`graphics/particles/manapearl_4x4.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 
 
 ### Skills
@@ -679,7 +679,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/weapons/sword-short.png` | ChefChelios, Wushin | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/weapons/wand-deathshand.png` | :grey_question:, Wombat, Wushin | GPLv2
 `graphics/sprites/equipment/weapons/wand.png` | :grey_question:, Wushin | GPLv2
-`graphics/sprites/equipment/weapons/beheader.png` | HoraK-FDF | GPLv2, CC BY-SA 3.0
+`graphics/sprites/equipment/weapons/beheader.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 
 #### Chest
 File | Artists | Licenses
@@ -835,7 +835,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/yeti-mask.png` | Skipy | GPLv2
 `graphics/sprites/equipment/head/pipe.png` | Veryape | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/shades.png` | jak1 | GPLv2, CC BY-SA 3.0
-`graphics/sprites/equipment/head/assassin-mask.png` | HoraK-FDF | GPLv2, CC BY-SA 3.0
+`graphics/sprites/equipment/head/assassin-mask.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 
 
 #### Legs
