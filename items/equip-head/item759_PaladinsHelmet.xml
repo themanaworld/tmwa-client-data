@@ -9,5 +9,8 @@
   <item id="759" image="equipment/head/paladin-helm.png" name="Paladin's Helmet" description="Worn only by paladins." type="equip-head" defense="19" weight="43">
     <sprite gender="unisex">equipment/head/paladinhelm.xml</sprite>
     <sprite gender="female">equipment/head/paladinhelm-female.xml</sprite>
+    <replace sprite="hair">
+      <item to="-1"/>
+    </replace>
   </item>
 </items>
