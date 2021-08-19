@@ -4,7 +4,7 @@ notifications:
     on_failure: always
   irc:
     channels:
-      - "ircs://chat.freenode.net:8000/#evol-dev"
+      - "ircs://irc.libera.chat:6667/#themanaworld-dev"
     on_success: change
     on_failure: always
 
