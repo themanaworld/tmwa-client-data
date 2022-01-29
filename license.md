@@ -1151,6 +1151,13 @@ File | Artists | Licenses
 `sfx/monsters/fire-goblin/fire-goblin-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/fire-goblin/fire-goblin-hit2.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/fire-goblin/fire-goblin-miss1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/flashmob/flashmob-die1.ogg` | Ledmitz (evil laugh-01.wav / Nanakisan / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/monsters/flashmob/flashmob-hurt1.ogg` | Ledmitz (evil laugh-01.wav / Nanakisan / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/monsters/flashmob/flashmob-hurt2.ogg` | Ledmitz (evil laugh-01.wav / Nanakisan / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/monsters/flashmob/flashmob-hurt3.ogg` | Ledmitz (evil laugh-01.wav / Nanakisan / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/monsters/flashmob/flashmob-move1.ogg` | Ledmitz (evil laugh-01.wav / Nanakisan / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/monsters/flashmob/flashmob-move2.ogg` | Ledmitz (evil laugh-01.wav / Nanakisan / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/monsters/flashmob/flashmob-move3.ogg` | Ledmitz (evil laugh-01.wav / Nanakisan / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/monsters/flower/flower-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/flower/flower-hit2.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/flower/flower-miss1.ogg` | Cosmostrator | GPLv2
