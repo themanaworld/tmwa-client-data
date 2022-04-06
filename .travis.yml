@@ -17,7 +17,7 @@ addons:
 
 install:
   - pushd ..
-  - git clone --depth 1 git://github.com/themanaworld/tmw-tools.git tools
+  - git clone --depth 1 https://github.com/themanaworld/tmw-tools.git tools
   - popd
 
 script:
