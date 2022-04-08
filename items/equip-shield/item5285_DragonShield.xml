@@ -6,8 +6,16 @@
     <its:translateRule selector="//item/@effect" translate="yes"/>
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
-  <include name="items/equip-shield/item601_SteelShield.xml"/>
-  <include name="items/equip-shield/item602_WoodenShield.xml"/>
-  <include name="items/equip-shield/item603_LeatherShield.xml"/>
-  <include name="items/equip-shield/item5285_DragonShield.xml"/>
+	<item id="5285"
+		image="equipment/shield/dragonshield.png"
+		name="Dragon Shield"
+		description="A mighty shield from the dragons of another world."
+		effect="Unobtainable."
+		defense="30"
+		mattack="-200"
+		type="equip-shield"
+		sellProtected="true"
+		weight="2500">
+		<sprite>equipment/shields/dragon.xml</sprite>
+	</item>
 </items>

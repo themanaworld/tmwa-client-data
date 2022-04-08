@@ -176,6 +176,7 @@ File | Artists | Licenses
 `graphics/items/equipment/chest/vnecksweater.png` | Saphy | GPLv2
 `graphics/items/equipment/chest/desertshirt.png` | Alige | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/chest/saviorarmor.png` | Saphy, Slave | GPLv2
+`graphics/items/equipment/chest/redknight.png` | ?, TMW-Br Team | GPLv2
 
 #### Feet
 File | Artists | Licenses
@@ -313,6 +314,7 @@ File | Artists | Licenses
 `graphics/items/equipment/shield/scarabarmlet.png` | Adarias | GPLv2
 `graphics/items/equipment/shield/steel.png` | Irukard | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/shield/wooden.png` | Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/shield/dragonshield.png` | tametomo | GPLv2
 
 #### Weapons
 File | Artists | Licenses
@@ -363,6 +365,7 @@ File | Artists | Licenses
 `graphics/items/equipment/weapon/slingshot-icon.png` | wushin | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/weapon/sword-dead.png` | Wombat, wushin | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/weapon/wand.png` | wushin | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/weapons/revolver.png` | Skipy, Micksha | GPLv2
 
 #### Generic
 File | Artists | Licenses
@@ -646,6 +649,8 @@ File | Artists | Licenses
 `graphics/sprites/emote.png` | Alige, Arikel, DerLoisl, Modanung, Reid | GPLv2, CC BY-SA 3.0
 `graphics/sprites/error.png` | Wushin | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/angel-wings.png` | :grey_question:, Varuna, Arikel | GPLv2
+`graphics/sprites/equipment/shields/dragon.png` | ?, TMW-Br Team | GPLv2
+`graphics/sprites/races/savior-male.png` | Modanung, Talaroc, Alige, Reid, Saphy, Jesusalva | CC BY-SA 4.0 (GPLv3)
 
 #### Status Icons
 File | Artists | Licenses
@@ -681,6 +686,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/weapons/wand-deathshand.png` | :grey_question:, Wombat, Wushin | GPLv2
 `graphics/sprites/equipment/weapons/wand.png` | :grey_question:, Wushin | GPLv2
 `graphics/sprites/equipment/weapons/beheader.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/equipment/weapons/gun.png` | Skipy, Jesusalva | GPLv2
 
 #### Chest
 File | Artists | Licenses
@@ -724,6 +730,8 @@ File | Artists | Licenses
 `graphics/sprites/equipment/chest/vnecksweater-male.png` | Saphy | GPLv2
 `graphics/sprites/equipment/chest/saviorarmor-male.png` | Saphy, slave | GPLv2
 `graphics/sprites/equipment/chest/saviorarmor-female.png` | Saphy, slave | GPLv2
+`graphics/sprites/equipment/chest/redknightarmor-female.png` | ?, TMW-Br Team, Saulc | GPLv2
+`graphics/sprites/equipment/chest/redknightarmor-male.png` | ?, TMW-Br Team, Saulc | GPLv2
 
 #### Feet
 File | Artists | Licenses
@@ -1265,6 +1273,8 @@ File | Artists | Licenses
 `sfx/weapons/bows/short/short-miss1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/weapons/bows/bow-hit1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/weapons/bows/bow-miss1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/gunstaff/shot.ogg` | Bird-Man, Freesound.org, Jesusalva | CC 0
+
 `sfx/weapons/knives/knife-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/weapons/knives/knife-miss1.ogg` | Cosmostrator | GPLv2
 `sfx/weapons/knives/rock/rock-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
