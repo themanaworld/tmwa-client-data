@@ -542,6 +542,7 @@ File | Artists | Licenses
 `graphics/items/use/food/snake-egg.png` | Fate, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/use/food/snapple.png` | Nmaligec, Salmondine, Enchilado | GPLv2
 `graphics/items/use/food/steak.png` | Otacke, Enchilado | GPLv2
+`graphics/items/use/food/tomato.png` | Enchilado, Nard, ? | GPLv2, CC BY-SA 3.0
 `graphics/items/use/food/tonoridelight.png` | Meway, Enchilado | GPLv2
 `graphics/items/use/food/water.png` | FotherJ, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/use/food/wine.png` | Nmaligec, Salmondine, Enchilado | GPLv2
