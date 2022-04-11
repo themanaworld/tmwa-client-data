@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="150" height="120" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="21">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="150" height="120" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="23">
  <properties>
   <property name="minimap" value="graphics/minimaps/027-1.png"/>
   <property name="music" value="graveyard.ogg"/>
@@ -1161,6 +1161,22 @@
     <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="15"/>
     <property name="monster_id" value="64"/>
+   </properties>
+  </object>
+  <object id="21" name="Jack O" type="spawn" x="864" y="2154" width="96" height="64">
+   <properties>
+    <property name="eA_death" value="200000"/>
+    <property name="eA_spawn" value="265000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="20"/>
+   </properties>
+  </object>
+  <object id="22" name="Zombie" type="spawn" x="1792" y="960" width="1024" height="736">
+   <properties>
+    <property name="eA_death" value="120000"/>
+    <property name="eA_spawn" value="300000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="34"/>
    </properties>
   </object>
   <object id="20" name="graphics/particles/warparea.particle.xml" type="particle_effect" x="896" y="2144" width="32" height="32"/>
