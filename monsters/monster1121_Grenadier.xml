@@ -8,6 +8,7 @@
     <sprite>equipment/head/piratehat.xml</sprite>
     <sprite>equipment/hands/generic.xml</sprite>
     <sprite>equipment/feet/boots.xml|#212121,444444</sprite>
-    <attack id="1" critical-hit-effect-id="31" hit-effect-id="402" missile-particle="graphics/particles/lobbed-object.xml" action="attack"/>
+    <sound event="hit">system/crit.ogg</sound>
+    <attack id="1" critical-hit-effect-id="30" missile-particle="graphics/particles/lobbed-object.xml" action="attack"/>
   </monster>
 </monsters>

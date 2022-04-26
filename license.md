@@ -1254,6 +1254,8 @@ File | Artists | Licenses
 `sfx/monsters/zombie/zombie-miss1.ogg` | Bcs86 | GPLv2
 `sfx/monsters/zombie/zombie-move1.ogg` | Bcs86 | GPLv2
 `sfx/monsters/zombie/zombie-move2.ogg` | Bcs86 | GPLv2
+`sfx/system/boom.ogg` | Ledmitz (firework_explosion_fizz.wav / soundscalpel.co / (CC BY 3.0)) | GPLv2, CC BY-SA 3.0
+`sfx/system/crit.ogg` | Ledmitz (firework_explosion_fizz.wav / soundscalpel.co / (CC BY 3.0)) | GPLv2, CC BY-SA 3.0
 `sfx/system/levelup.ogg` | Cosmostrator | GPLv2
 `sfx/system/ship-bell2.ogg` | unknown | (public domain)
 `sfx/system/warning.ogg` | Jesusalva | (public domain)
