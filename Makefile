@@ -4,7 +4,7 @@ SHELL=/bin/bash
 .DELETE_ON_ERROR:
 
 check:
-	git diff --exit-code
+	git diff --color=always
 
 XMLS = $(shell find -type f -name '*.xml')
 check: check-xml

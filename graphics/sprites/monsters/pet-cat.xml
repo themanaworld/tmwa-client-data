@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset name="base" src="graphics/sprites/monsters/pet-cat.png" width="32" height="32" offsetX="32"/>
+  <action name="stand" imageset="base">
+    <animation direction="down">
+      <frame index="19" delay="25" offsetX="-30"/>
+    </animation>
+    <animation direction="left">
+      <frame index="22" delay="25" offsetX="-30"/>
+    </animation>
+    <animation direction="up">
+      <frame index="13" delay="25" offsetX="-30"/>
+    </animation>
+    <animation direction="right">
+      <frame index="16" delay="25" offsetX="-30"/>
+    </animation>
+  </action>
+  <action name="attack" imageset="base">
+    <animation direction="down">
+      <frame index="19" delay="150" offsetX="-30"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <frame index="22" delay="150" offsetX="-30"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <frame index="13" delay="150" offsetX="-30"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <frame index="16" delay="150" offsetX="-30"/>
+      <end/>
+    </animation>
+  </action>
+  <action name="walk" imageset="base">
+    <animation direction="down">
+      <sequence start="18" end="20" delay="150" offsetX="-30"/>
+      <frame index="19" delay="150" offsetX="-30"/>
+    </animation>
+    <animation direction="left">
+      <sequence start="21" end="23" delay="100" offsetX="-30"/>
+      <frame index="22" delay="150" offsetX="-30"/>
+    </animation>
+    <animation direction="up">
+      <sequence start="12" end="14" delay="100" offsetX="-30"/>
+      <frame index="13" delay="150" offsetX="-30"/>
+    </animation>
+    <animation direction="right">
+      <sequence start="15" end="17" delay="100" offsetX="-30"/>
+      <frame index="16" delay="150" offsetX="-30"/>
+    </animation>
+  </action>
+</sprite>

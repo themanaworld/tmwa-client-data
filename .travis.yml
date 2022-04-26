@@ -4,7 +4,7 @@ notifications:
     on_failure: always
   irc:
     channels:
-      - "ircs://chat.freenode.net:8000/#evol-dev"
+      - "ircs://irc.libera.chat:6697/#themanaworld-dev"
     on_success: change
     on_failure: always
 
@@ -17,7 +17,7 @@ addons:
 
 install:
   - pushd ..
-  - git clone --depth 1 git://github.com/themanaworld/tmw-tools.git tools
+  - git clone --depth 1 https://github.com/themanaworld/tmw-tools.git tools
   - popd
 
 script:

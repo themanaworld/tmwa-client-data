@@ -45,7 +45,7 @@
   </action>
   <action imageset="base" name="attack">
     <animation direction="down">
-      <frame delay="75" index="0" offsetX="-1" offsetY="-39"/>
+      <frame delay="75" index="0" offsetX="-1" offsetY="-29"/>
       <frame delay="75" index="0" offsetX="-1" offsetY="-30"/>
       <frame delay="75" index="0" offsetX="-1" offsetY="-27"/>
       <frame delay="75" index="0" offsetX="-1" offsetY="-26"/>
@@ -116,7 +116,7 @@
   </action>
   <action name="attack_2hand" imageset="base">
     <animation direction="down">
-      <frame index="0" offsetX="-2" offsetY="-38" delay="140"/>
+      <frame index="0" offsetX="-2" offsetY="-28" delay="140"/>
       <frame index="0" offsetX="-2" offsetY="-25" delay="140"/>
       <frame index="0" offsetX="-2" offsetY="-30" delay="140"/>
       <frame index="0" offsetX="-2" offsetY="-24" delay="140"/>
@@ -145,7 +145,7 @@
   </action>
   <action name="attack_sword_stab" imageset="base">
     <animation direction="down">
-      <frame index="0" offsetX="-1" offsetY="-39" delay="100"/>
+      <frame index="0" offsetX="-1" offsetY="-29" delay="100"/>
       <frame index="0" offsetX="-1" offsetY="-30" delay="100"/>
       <frame index="0" offsetX="-1" offsetY="-27" delay="100"/>
       <frame index="0" offsetX="-1" offsetY="-26" delay="100"/>
@@ -173,8 +173,7 @@
   </action>
   <action name="attack_spear" imageset="base">
     <animation direction="down">
-      <frame index="0" offsetX="-3" offsetY="-41" delay="140"/>
-      <frame index="0" offsetX="-3" offsetY="-31" delay="140"/>
+      <frame index="0" offsetX="-3" offsetY="-31" delay="280"/>
       <frame index="0" offsetX="-3" offsetY="-32" delay="140"/>
       <frame index="0" offsetX="-3" offsetY="-26" delay="140"/>
       <end/>
@@ -203,8 +202,7 @@
   </action>
   <action name="attack_chop" imageset="base">
     <animation direction="down">
-      <frame index="0" offsetX="-2" offsetY="-38" delay="140"/>
-      <frame index="0" offsetX="-2" offsetY="-28" delay="140"/>
+      <frame index="0" offsetX="-2" offsetY="-28" delay="280"/>
       <frame index="0" offsetX="-2" offsetY="-30" delay="140"/>
       <frame index="0" offsetX="-2" offsetY="-24" delay="140"/>
       <end/>
