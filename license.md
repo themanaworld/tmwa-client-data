@@ -1157,6 +1157,10 @@ File | Artists | Licenses
 `sfx/magic/kaflosh.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/bat/bat-dying1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/bat/bat-hit1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/bee/bee-die1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/bee/bee-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/bee/bee-miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/bee/bee-move1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/casket-monster/casket-monster.ogg` | Dariuna | GPLv2
 `sfx/monsters/cavesnake/cavesnake-hit1.ogg` | Krazyjakee | GPLv2
 `sfx/monsters/fallen-die1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
@@ -1225,15 +1229,19 @@ File | Artists | Licenses
 `sfx/monsters/skeleton_lady/ladyskel-hurt1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/skeleton_lady/ladyskel-miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/slime/slime-hit1.ogg` | Cosmostrator | GPLv2
-`sfx/monsters/spider/spider-die1.ogg | alpha, Ledmitz | GPLv2, CC BY-SA 3.0`
-`sfx/monsters/spider/spider-hit1.ogg | alpha, Ledmitz | GPLv2, CC BY-SA 3.0`
-`sfx/monsters/spider/spider-hit2.ogg | alpha, Ledmitz | GPLv2, CC BY-SA 3.0`
-`sfx/monsters/spider/spider-hit3.ogg | alpha, Ledmitz | GPLv2, CC BY-SA 3.0`
-`sfx/monsters/spider/spider-move1.ogg | alpha, Ledmitz | GPLv2, CC BY-SA 3.0`
-`sfx/monsters/spider/spider-move2.ogg | alpha, Ledmitz | GPLv2, CC BY-SA 3.0`
-`sfx/monsters/spider/spider-move3.ogg | alpha, Ledmitz | GPLv2, CC BY-SA 3.0`
-`sfx/monsters/spider/spider-move4.ogg | alpha, Ledmitz | GPLv2, CC BY-SA 3.0`
-`sfx/monsters/spider/spider-move5.ogg | alpha, Ledmitz | GPLv2, CC BY-SA 3.0`
+`sfx/monsters/snail/snail-die1.ogg` | alpha [Ledmitz] | GPLv2
+`sfx/monsters/snail/snail-hit1.ogg` | alpha [Ledmitz] | GPLv2
+`sfx/monsters/snail/snail-hurt1.ogg` | alpha [Ledmitz] | GPLv2
+`sfx/monsters/snail/snail-hurt2.ogg` | alpha [Ledmitz] | GPLv2
+`sfx/monsters/spider/spider-die1.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
+`sfx/monsters/spider/spider-hit1.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
+`sfx/monsters/spider/spider-hit2.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
+`sfx/monsters/spider/spider-hit3.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
+`sfx/monsters/spider/spider-move1.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
+`sfx/monsters/spider/spider-move2.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
+`sfx/monsters/spider/spider-move3.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
+`sfx/monsters/spider/spider-move4.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
+`sfx/monsters/spider/spider-move5.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
 `sfx/monsters/squirrel/squirrel-die1.ogg` | Krazyjakee | GPLv2
 `sfx/monsters/squirrel/squirrel-die2.ogg` | Krazyjakee | GPLv2
 `sfx/monsters/squirrel/squirrel-hurt1.ogg` | Krazyjakee | GPLv2
