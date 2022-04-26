@@ -1159,6 +1159,11 @@ File | Artists | Licenses
 `sfx/monsters/bat/bat-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/casket-monster/casket-monster.ogg` | Dariuna | GPLv2
 `sfx/monsters/cavesnake/cavesnake-hit1.ogg` | Krazyjakee | GPLv2
+`sfx/monsters/fallen-die1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/fallen-die2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/fallen-hurt1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/fallen-hurt2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/fallen-hurt3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/fire-goblin/fire-goblin-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/fire-goblin/fire-goblin-hit2.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/fire-goblin/fire-goblin-miss1.ogg` | Cosmostrator | GPLv2
@@ -1205,6 +1210,20 @@ File | Artists | Licenses
 `sfx/monsters/shroom/shroom-die1.ogg` | Davius | GPLv2
 `sfx/monsters/shroom/shroom-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/shroom/shroom-hurt1.ogg` | Davius | GPLv2
+`sfx/monsters/skeleton/skel-die1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/skeleton/skel-die2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/skeleton/skel-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/skeleton/skel-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/skeleton/skel-hit3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/skeleton/skel-hurt1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/skeleton/skel-miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/skeleton_lady/ladyskel-die1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/skeleton_lady/ladyskel-die2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/skeleton_lady/ladyskel-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/skeleton_lady/ladyskel-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/skeleton_lady/ladyskel-hit3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/skeleton_lady/ladyskel-hurt1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/skeleton_lady/ladyskel-miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/slime/slime-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/spider/spider-die1.ogg | alpha, Ledmitz | GPLv2, CC BY-SA 3.0`
 `sfx/monsters/spider/spider-hit1.ogg | alpha, Ledmitz | GPLv2, CC BY-SA 3.0`
