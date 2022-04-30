@@ -11,15 +11,13 @@
 		image="equipment/head/corsairhat.png"
 		name="Corsair Hat"
 		description="The official Hat of Mana Corsairs (HMC)."
-
-		effect="HP Recovery Rate -400%"
-		mdefense="70"
-		criticaldefense="250"
-		flee="-200"
-		maxhp="15000"
+		defense="5"
+		mdefense="15"
+		criticaldefense="5"
+		maxhp="50"
 		type="equip-head"
 		sellProtected="true"
-		weight="22">
+		weight="20">
 		<sprite>equipment/head/corsairhat.xml</sprite>
     <replace sprite="hair">
       <item from="-6" to="-1"/>
