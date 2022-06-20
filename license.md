@@ -1154,6 +1154,7 @@ File | Artists | Licenses
 `sfx/env/env-riverflow1.ogg` | Dariuna | GPLv2
 `sfx/env/env-waterfall1.ogg` | Dariuna | GPLv2
 `sfx/env/fart.ogg` | unknown | CC0
+`sfx/env/flame.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/magic/kaflosh.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/bat/bat-dying1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/bat/bat-hit1.ogg` | Cosmostrator | GPLv2
