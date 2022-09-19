@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <status-effects>
-  <status-effect name="item-healing" id="70" opt2="256" persistent-particle-effect="yes" particle="graphics/particles/circle.particle.xml"/>
+  <status-effect name="item-healing" id="70" opt2="256" icon="icons/healing.xml" persistent-particle-effect="yes" particle="graphics/particles/circle.particle.xml"/>
   <status-effect name="speed" id="37" opt2="32" icon="icons/haste-potion.xml|#da69e5,ffdaff" persistent-particle-effect="yes" particle="graphics/particles/pink-violent-glow.particle.xml"/>
   <status-effect name="strength" id="185" opt2="128" icon="icons/iron-potion.xml|#c05000,f0a000,f0f09f" persistent-particle-effect="yes" particle="graphics/particles/orange-violent-glow.particle.xml"/>
   <status-effect name="invisibility" id="4096" option="4096" icon="icons/invisible.xml" start-message="You are now invisible." end-message="You are no longer invisible." persistent-particle-effect="yes" particle="graphics/particles/sphere-white.particle.xml"/>
