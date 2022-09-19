@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <sprite>
-  <imageset name="base" src="graphics/sprites/icons/hidden.png" width="12" height="12"/>
+  <imageset name="base" src="graphics/sprites/icons/hidden-outline.png" width="12" height="11"/>
   <action name="default" imageset="base">
     <animation direction="default">
-      <frame index="0" offsetY="15" delay="0"/>
+      <frame index="0" offsetY="-12" delay="0"/>
     </animation>
   </action>
 </sprite>
