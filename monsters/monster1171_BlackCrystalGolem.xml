@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<monsters offset="0">
+  <monster id="1171" name="Black Crystal Golem">
+    <sprite>monsters/golem-blackcrystal.xml</sprite>
+    <attack id="1" critical-hit-effect-id="16" missile-particle="graphics/particles/fire-burst.xml" action="attack"/>
+    <sound event="die">monsters/golem/die.ogg</sound>
+    <sound event="hit">monsters/golem/hit1.ogg</sound>
+    <sound event="miss">monsters/golem/miss1.ogg</sound>
+  </monster>
+</monsters>
