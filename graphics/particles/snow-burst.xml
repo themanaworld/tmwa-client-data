@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<!--
+    Snow Burst
+    a ball of snow that leaves a tail on its way
+-->
+<effect>
+  <particle position-x="0" position-y="0" position-z="32" lifetime="128">
+    <emitter>
+      <property name="image" value="graphics/particles/snowflake-7x7.png"/>
+      <property name="lifetime" value="111"/>
+      <property name="fade-in" value="10"/>
+      <property name="fade-out" value="40"/>
+      <property name="output" min="3" max="4"/>
+      <property name="power" min="1" max="2"/>
+      <property name="horizontal-angle" min="-180" max="180"/>
+      <property name="gravity" value="0.05"/>
+      <property name="bounce" value="1"/>
+      <property name="momentum" value="0.95"/>
+      <property name="randomness" value="100"/>
+      <property name="vertical-angle" min="-180" max="180"/>
+    </emitter>
+<!--
+    it looks good with the 9x9 snowflakes but its very unrealistic when a snowflake is 1/4 size of the head
+-->
+<!--
+    <emitter>
+      <property name="image" value="graphics/particles/snowflake-9x9.png"/>
+      <property name="lifetime" value="111"/>
+      <property name="fade-in" value="10"/>
+      <property name="fade-out" value="40"/>
+      <property name="output" min="0" max="1"/>
+      <property name="power" min="2" max="3"/>
+      <property name="horizontal-angle" min="-180" max="180"/>
+      <property name="gravity" value="0.05"/>
+      <property name="bounce" value="1"/>
+      <property name="momentum" value="0.95"/>
+      <property name="randomness" value="200"/>
+      <property name="vertical-angle" min="-180" max="180"/>
+    </emitter>
+-->
+    <emitter>
+      <property name="image" value="graphics/particles/star-small.png"/>
+      <property name="lifetime" value="111"/>
+      <property name="fade-in" value="10"/>
+      <property name="fade-out" value="40"/>
+      <property name="output" min="3" max="4"/>
+      <property name="power" min="1" max="2"/>
+      <property name="horizontal-angle" min="-180" max="180"/>
+      <property name="gravity" value="0.01"/>
+      <property name="bounce" value="1"/>
+      <property name="momentum" value="0.95"/>
+      <property name="randomness" value="200"/>
+      <property name="vertical-angle" min="-180" max="180"/>
+    </emitter>
+    <emitter>
+      <property name="image" value="graphics/particles/snowflake-7x7.png"/>
+      <property name="lifetime" value="111"/>
+      <property name="alpha" value="1"/>
+      <property name="fade-in" value="10"/>
+      <property name="fade-out" value="40"/>
+      <property name="output" min="8" max="10"/>
+      <property name="power" min="1" max="1"/>
+      <property name="horizontal-angle" min="-180" max="180"/>
+      <property name="gravity" value="0.1"/>
+      <property name="bounce" value="1"/>
+      <property name="momentum" value="0.95"/>
+      <property name="randomness" value="100"/>
+      <property name="vertical-angle" min="-180" max="180"/>
+      <property name="follow-parent" value="1"/>
+    </emitter>
+    <emitter>
+      <property name="image" value="graphics/particles/snowflake-7x7.png"/>
+      <property name="lifetime" value="12"/>
+      <property name="alpha" value="1"/>
+      <property name="fade-in" value="4"/>
+      <property name="fade-out" value="4"/>
+      <property name="output" min="66" max="66"/>
+      <property name="power" min="2" max="2"/>
+      <property name="horizontal-angle" min="-180" max="180"/>
+      <property name="gravity" value="0.1"/>
+      <property name="bounce" value="1"/>
+      <property name="vertical-angle" min="-180" max="180"/>
+      <property name="follow-parent" value="1"/>
+    </emitter>
+  </particle>
+</effect>
