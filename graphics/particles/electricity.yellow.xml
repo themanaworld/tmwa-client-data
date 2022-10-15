@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<effect>
+  <particle position-x="0" position-y="0" position-z="0" lifetime="300">
+    <emitter>
+      <property name="lifetime" value="30"/>
+      <property name="output" value="1"/>
+      <property name="position-x" min="-16" max="16"/>
+      <property name="position-y" min="-16" max="16"/>
+      <property name="gravity" value="-2"/>
+      <property name="momentum" value="0.3"/>
+      <animation imageset="graphics/particles/electricity.particle.png|W:#FFFF8F" width="15" height="15">
+        <sequence start="0" end="7" delay="20"/>
+      </animation>
+      <property name="fade-out" value="30"/>
+    </emitter>
+  </particle>
+</effect>
