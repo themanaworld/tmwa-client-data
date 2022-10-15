@@ -8,9 +8,22 @@ An explosion of white particles.
       <property name="power" min="0" max="0"/>
       <property name="gravity" value="0"/>
       <property name="image" value="graphics/particles/lightning1-240.png"/>
-      <property name="lifetime" min="5" max="10"/>
+      <property name="lifetime" min="5" max="50"/>
       <property name="output" value="1"/>
       <property name="fade-out" value="8"/>
+    </emitter>
+    <emitter>
+      <property name="lifetime" value="300"/>
+      <property name="output" min="5" max="30"/>
+      <property name="position-x" min="-32" max="32"/>
+      <property name="position-y" min="-16" max="-32"/>
+      <property name="position-z" value="-120"/>
+      <property name="gravity" value="1"/>
+      <property name="momentum" value="0.1"/>
+      <animation imageset="graphics/particles/electricity.particle.png|W:#FFFF8F" width="15" height="15">
+        <sequence start="0" end="7" delay="20"/>
+      </animation>
+      <property name="fade-out" value="0"/>
     </emitter>
   </particle>
 </effect>
