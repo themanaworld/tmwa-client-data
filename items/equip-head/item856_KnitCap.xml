@@ -6,7 +6,7 @@
     <its:translateRule selector="//item/@effect" translate="yes"/>
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
-  <item id="856" image="equipment/head/knit-cap.png" name="Knit Cap" description="A knitted cap keeping your head warm in the cruel cold." type="equip-head" defense="3" weight="50" sellProtected="true">
+  <item id="856" image="equipment/head/knit-cap.png|W:#ffffff;Y:#2958b5,3c6cce,90b3fb,c5d8ff;R:#2453b3,3561bf,638bdc,7799de,b0caff" name="Knit Cap" description="A knitted cap keeping your head warm in the cruel cold." type="equip-head" defense="3" weight="50" sellProtected="true">
     <replace sprite="hair">
       <item from="-6" to="-1"/>
     </replace>

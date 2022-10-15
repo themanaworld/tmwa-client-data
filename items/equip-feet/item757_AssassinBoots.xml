@@ -6,7 +6,7 @@
     <its:translateRule selector="//item/@effect" translate="yes"/>
     <its:translateRule selector="//*" translate="no"/>
   </its:rules>
-  <item id="757" image="equipment/feet/assassinboots.png" name="Assassin Boots" description="Boots for a master assassin." mattack="-3" type="equip-feet" defense="3" agi="4" weight="10" sellProtected="true">
+  <item id="757" image="equipment/feet/assassinboots.png" name="Assassin Boots" description="Boots for a master assassin. (Brawler only: Strength +2 / Dexterity +1)" effect="Walk Speed +5%" mattack="-3" type="equip-feet" defense="4" agi="4" flee="5" weight="10" sellProtected="true">
     <sprite gender="unisex">equipment/feet/assassin-boots.xml</sprite>
     <sprite gender="female">equipment/feet/assassin-boots-female.xml</sprite>
   </item>

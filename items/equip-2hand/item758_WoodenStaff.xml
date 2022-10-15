@@ -9,5 +9,11 @@
   <item id="758" image="equipment/weapon/staff-woodstaff.png" name="Wooden Staff" description="A basic wooden staff." effect="Lvl 2 Wand" req-int="60+" attack="50" mattack="10" type="equip-2hand" attack-action="attack_sword_stab" attack-range="2" weight="1000">
     <sprite gender="unisex">equipment/weapons/polearm-blunt.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
     <sprite gender="female">equipment/weapons/polearm-blunt-female.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
+    <sound event="strike">weapons/other/staff/staff-miss1.ogg</sound>
+    <sound event="strike">weapons/other/staff/staff-miss2.ogg</sound>
+    <sound event="strike">weapons/other/staff/staff-miss3.ogg</sound>
+    <sound event="hit">weapons/other/staff/staff-hit1.ogg</sound>
+    <sound event="hit">weapons/other/staff/staff-hit2.ogg</sound>
+    <sound event="hit">weapons/other/staff/staff-hit3.ogg</sound>
   </item>
 </items>

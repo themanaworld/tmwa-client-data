@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!--
+Snowball hit effect by Hello=) of TMW. Derived from arrow-banshee.particle.xml
+-->
+<effect>
+  <particle position-x="0" position-y="0" position-z="32" lifetime="45">
+    <emitter>
+      <property name="image" value="graphics/particles/star-small.png|W:#C0F0FF,B7D0E0"/>
+      <property name="gravity" value="0.2"/>
+      <property name="lifetime" value="35"/>
+      <property name="fade-in" value="10"/>
+      <property name="fade-out" value="10"/>
+      <property name="output" min="1" max="2"/>
+      <property name="power" min="2" max="4.5"/>
+      <property name="horizontal-angle" min="-15" max="-175"/>
+      <property name="momentum" value="0.95"/>
+      <property name="randomness" value="100"/>
+      <property name="vertical-angle" min="0" max="90"/>
+    </emitter>
+    <emitter>
+      <property name="image" value="graphics/particles/orb-medium.png|W:#C1F3FF,B7D2E0"/>
+      <property name="gravity" value="0.25"/>
+      <property name="lifetime" value="35"/>
+      <property name="fade-in" value="10"/>
+      <property name="fade-out" value="10"/>
+      <property name="output" min="1" max="2"/>
+      <property name="power" min="2" max="4.5"/>
+      <property name="horizontal-angle" min="-15" max="-175"/>
+      <property name="momentum" value="0.95"/>
+      <property name="randomness" value="100"/>
+      <property name="vertical-angle" min="0" max="90"/>
+    </emitter>
+    <emitter>
+      <property name="image" value="graphics/particles/orb-medium.png|W:#C2F0FF,B7D2E0"/>
+      <property name="gravity" value="0.23"/>
+      <property name="lifetime" value="35"/>
+      <property name="fade-in" value="10"/>
+      <property name="fade-out" value="10"/>
+      <property name="output" min="1" max="2"/>
+      <property name="power" min="2" max="4.5"/>
+      <property name="horizontal-angle" min="-15" max="-175"/>
+      <property name="momentum" value="0.95"/>
+      <property name="randomness" value="100"/>
+      <property name="vertical-angle" min="0" max="90"/>
+    </emitter>
+  </particle>
+</effect>

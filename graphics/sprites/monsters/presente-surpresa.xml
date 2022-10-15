@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<sprite>
+
+  <imageset name="base" src="graphics/sprites/monsters/presente-surpresa.png" width="60" height="61"/>
+
+  <action name="stand" imageset="base">
+    <animation>
+      <frame index="0" offsetX="-3" offsetY="10"/>
+    </animation>
+  </action>
+
+  <action name="dead" imageset="base">
+    <animation>
+      <frame index="1" delay="50" offsetX="-3" offsetY="10"/>
+      <frame index="2" delay="50" offsetX="-3" offsetY="10"/>
+      <frame index="3" delay="50" offsetX="-3" offsetY="10"/>
+      <frame index="4" delay="100" offsetX="-3" offsetY="10"/>
+      <frame index="5" delay="50" offsetX="-3" offsetY="10"/>
+      <frame index="6" delay="50" offsetX="-3" offsetY="10"/>
+      <frame index="7" delay="50" offsetX="-3" offsetY="10"/>
+      <frame index="8" delay="75" offsetX="-3" offsetY="10"/>
+      <frame index="9" delay="75" offsetX="-3" offsetY="10"/>
+      <frame index="10" delay="75" offsetX="-3" offsetY="10"/>
+      <frame index="11" delay="100" offsetX="-3" offsetY="10"/>
+      <frame index="12" delay="75" offsetX="-3" offsetY="10"/>
+      <frame index="13" delay="75" offsetX="-3" offsetY="10"/>
+      <frame index="14" delay="75" offsetX="-3" offsetY="10"/>
+      <frame index="15" delay="75" offsetX="-3" offsetY="10"/>
+      <frame index="16" delay="75" offsetX="-3" offsetY="10"/>
+      <frame index="17" delay="75" offsetX="-3" offsetY="10"/>
+      <frame index="18" delay="75" offsetX="-3" offsetY="10"/>
+      <frame index="19" delay="75" offsetX="-3" offsetY="10"/>
+      <frame index="15" delay="75" offsetX="-3" offsetY="10"/>
+      <frame index="14" delay="75" offsetX="-3" offsetY="10"/>
+      <frame index="13" delay="75" offsetX="-3" offsetY="10"/>
+      <frame index="12" offsetX="-3" offsetY="10"/>
+    </animation>
+  </action>
+
+</sprite>
