@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--
+-->
+<effect>
+  <particle position-x="0" position-y="0" position-z="48">
+    <emitter>
+      <property name="position-x" min="-32" max="32"/>
+      <property name="position-y" min="-32" max="32"/>
+      <property name="position-z" min="-32" max="32"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="360"/>
+      <property name="power" min="1" max="2"/>
+      <property name="lifetime" value="120"/>
+      <property name="fade-out" value="20"/>
+      <property name="fade-in" value="20"/>
+      <property name="output" min="1" max="1"/>
+      <property name="output-pause" value="160"/>
+      <property name="acceleration" value="0.1"/>
+      <property name="alpha" value="0.9"/>
+      <property name="bounce" value="1"/>
+      <property name="image" value="graphics/particles/manapearl_4x4.png"/>
+      <property name="follow-parent"/>
+    </emitter>
+    <emitter>
+      <property name="image" value="graphics/particles/star-small.png|W:#aaaaff,222222"/>
+      <property name="lifetime" value="80"/>
+      <property name="fade-in" value="10"/>
+      <property name="fade-out" value="70"/>
+      <property name="output" min="0" max="1"/>
+      <property name="output-pause" value="45"/>
+      <property name="power" min="0" max="2"/>
+      <property name="horizontal-angle" min="-15" max="-175"/>
+      <property name="momentum" value="0.95"/>
+      <property name="randomness" value="200"/>
+      <property name="vertical-angle" min="0" max="90"/>
+    </emitter>
+  </particle>
+</effect>

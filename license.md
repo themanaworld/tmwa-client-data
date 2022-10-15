@@ -137,6 +137,7 @@ File | Artists | Licenses
 `graphics/items/equipment/ammo/bonedarts.png` | Adarias | GPLv2
 `graphics/items/equipment/ammo/ironarrow.png` | Irukard | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/ammo/arrow.png` | Irukard | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/ammo/snowball.png` | Ledmitz, Reid | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/ammo/stoneprojectile-icon.png` | wushin, tux9th | GPLv2, CC BY-SA 3.0
 
 #### Charms
@@ -149,6 +150,8 @@ File | Artists | Licenses
 `graphics/items/equipment/charms/heartnecklace.png` | Jetryl | GPLv2
 `graphics/items/equipment/charms/skeletoncharm.png` | Cassy, Jetryl | GPLv2
 `graphics/items/equipment/charms/towel.png` | Bjorn | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/charms/manapearl.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/items/equipment/charms/assassin-amulet.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 
 #### Chest
 File | Artists | Licenses
@@ -173,6 +176,7 @@ File | Artists | Licenses
 `graphics/items/equipment/chest/vnecksweater.png` | Saphy | GPLv2
 `graphics/items/equipment/chest/desertshirt.png` | Alige | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/chest/saviorarmor.png` | Saphy, Slave | GPLv2
+`graphics/items/equipment/chest/redknight.png` | ?, TMW-Br Team | GPLv2
 
 #### Feet
 File | Artists | Licenses
@@ -180,7 +184,7 @@ File | Artists | Licenses
 `graphics/items/equipment/feet/assassinboots.png` | Black Don | GPLv2
 `graphics/items/equipment/feet/bromenalboots.png` | Skipy | GPLv2
 `graphics/items/equipment/feet/furboots.png` | Black Don | GPLv2
-`graphics/items/equipment/feet/warlordboots.png` | Lizandra | GPLv2
+`graphics/items/equipment/feet/warlordboots.png` | Lizandra | GPLv2, CC BY-SA 3.0
 
 #### Hands
 File | Artists | Licenses
@@ -221,7 +225,7 @@ File | Artists | Licenses
 `graphics/items/equipment/head/desert-helmet.png` | Pauan | GPLv2
 `graphics/items/equipment/head/deserthat.png` | Kr0n05931 | GPLv2
 `graphics/items/equipment/head/devcap.png` | Black Don | GPLv2
-`graphics/items/equipment/head/earmuffs.png` | Lizandra | GPLv2
+`graphics/items/equipment/head/earmuffs.png` | Lizandra | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/eggshell-hat.png` | Kyon | GPLv2
 `graphics/items/equipment/head/elf-nightcap.png` | Lien | GPLv2
 `graphics/items/equipment/head/eyepatch.png` | Yosuhara | GPLv2
@@ -232,13 +236,13 @@ File | Artists | Licenses
 `graphics/items/equipment/head/goggles.png` | Fettsack | GPLv2
 `graphics/items/equipment/head/gradcap.png` | Arilious | GPLv2
 `graphics/items/equipment/head/guyfawkes.png` | 5t3v3 | GPLv2
-`graphics/items/equipment/head/heart-glasses.png` | Lizandra | GPLv2
+`graphics/items/equipment/head/heart-glasses.png` | Lizandra | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/highpriest-crown.png` | Black Don | GPLv2
 `graphics/items/equipment/head/infantryhelm.png` | Black Don | GPLv2
 `graphics/items/equipment/head/inspector-hat.png` | Micksha | GPLv2
 `graphics/items/equipment/head/jestermask.png` | Spit23 | GPLv2
 `graphics/items/equipment/head/knighthelm.png` | Black Don | GPLv2
-`graphics/items/equipment/head/knit-cap.png` | Salmondine | GPLv2
+`graphics/items/equipment/head/knit-cap.png` | Salmondine, jak1  | GPLv2
 `graphics/items/equipment/head/leathergoggles.png` | Fettsack | GPLv2
 `graphics/items/equipment/head/magicgmtophat.png` | QOAL, V0id | GPLv2
 `graphics/items/equipment/head/mask.png` | QOAL | GPLv2
@@ -278,6 +282,7 @@ File | Artists | Licenses
 `graphics/items/equipment/head/pipe.png` | Veryape | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/terranite-head.png` | gumi, Kr0n05931 | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/shades.png` | jak1 | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/head/assassin-mask.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 
 #### Legs
 File | Artists | Licenses
@@ -297,6 +302,7 @@ File | Artists | Licenses
 `graphics/items/equipment/rings/magic.png` | Nami | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/rings/simple.png` | Salmondine | GPLv2
 `graphics/items/equipment/rings/wedding.png` | Kess | GPLv2
+`graphics/items/equipment/rings/assassin-ring.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 
 #### Shields
 File | Artists | Licenses
@@ -308,6 +314,7 @@ File | Artists | Licenses
 `graphics/items/equipment/shield/scarabarmlet.png` | Adarias | GPLv2
 `graphics/items/equipment/shield/steel.png` | Irukard | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/shield/wooden.png` | Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/shield/dragonshield.png` | tametomo | GPLv2
 
 #### Weapons
 File | Artists | Licenses
@@ -358,6 +365,7 @@ File | Artists | Licenses
 `graphics/items/equipment/weapon/slingshot-icon.png` | wushin | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/weapon/sword-dead.png` | Wombat, wushin | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/weapon/wand.png` | wushin | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/weapons/revolver.png` | Skipy, Micksha | GPLv2
 
 #### Generic
 File | Artists | Licenses
@@ -380,8 +388,8 @@ File | Artists | Licenses
 `graphics/items/generic/casinocoins.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/cavesnakelamp.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/chocolatemouboo.png` | :grey_question:, Chicka-Maria, Enchilado | GPLv2
-`graphics/items/generic/christmasbox-closed.png` | Lizandra, Enchilado | GPLv2
-`graphics/items/generic/christmasbox-open.png` | Lizandra, Enchilado | GPLv2
+`graphics/items/generic/christmasbox-closed.png` | Lizandra, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/christmasbox-open.png` | Lizandra, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/christmasbulb.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/claylump_big.png` | Jumpy, Enchilado | GPLv2
 `graphics/items/generic/claylump_small.png` | Fate, Enchilado | GPLv2, CC BY-SA 3.0
@@ -390,7 +398,7 @@ File | Artists | Licenses
 `graphics/items/generic/crystal.png` | Crush, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/dark-easter-egg.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/dark-petal.png` | Enchilado | GPLv2, CC BY-SA 3.0
-`graphics/items/generic/doll.png` | Lizandra, Enchilado | GPLv2
+`graphics/items/generic/doll.png` | Lizandra, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/dry-branch.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/ear-zombie.png` | Goku, Enchilado | GPLv2
 `graphics/items/generic/easterbasket.png` | Salmondine, Enchilado | GPLv2
@@ -481,9 +489,9 @@ File | Artists | Licenses
 `graphics/items/generic/wolvern-pelt.png` | Len, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/wolvern-tooth.png` | Alige, Nami, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/wooden-mouboo.png` | :grey_question:, Enchilado | GPLv2
-`graphics/items/generic/wrapping-paper-dotted.png` | Lizandra, Enchilado | GPLv2
-`graphics/items/generic/wrapping-paper-striped.png` | Lizandra, Enchilado | GPLv2
-`graphics/items/generic/wrapping-paper.png` | Wushin, Lizandra, Enchilado | GPLv2
+`graphics/items/generic/wrapping-paper-dotted.png` | Lizandra, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/wrapping-paper-striped.png` | Lizandra, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/wrapping-paper.png` | Wushin, Lizandra, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/yeti-claw.png` | Nami, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/astral_cube.png` | wushin | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/bloodstone.png` | wushin | GPLv2, CC BY-SA 3.0
@@ -522,7 +530,7 @@ File | Artists | Licenses
 `graphics/items/use/food/juice.png` | Nmaligec, Skipy, Enchilado | GPLv2
 `graphics/items/use/food/lady-fingers.png` | ChefChelios, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/use/food/lollipop.png` | :grey_question:, Wombat, Enchilado | GPLv2
-`graphics/items/use/food/lollipop2.png` | Lizandra, Enchilado, wushin | GPLv2
+`graphics/items/use/food/lollipop2.png` | Lizandra, Enchilado, wushin | GPLv2, CC BY-SA 3.0
 `graphics/items/use/food/marshmallow.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/use/food/milk.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/use/food/orange.png` | EJlol, Enchilado | GPLv2, CC BY-SA 3.0
@@ -537,6 +545,7 @@ File | Artists | Licenses
 `graphics/items/use/food/snake-egg.png` | Fate, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/use/food/snapple.png` | Nmaligec, Salmondine, Enchilado | GPLv2
 `graphics/items/use/food/steak.png` | Otacke, Enchilado | GPLv2
+`graphics/items/use/food/tomato.png` | Enchilado, Nard, ? | GPLv2, CC BY-SA 3.0
 `graphics/items/use/food/tonoridelight.png` | Meway, Enchilado | GPLv2
 `graphics/items/use/food/water.png` | FotherJ, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/use/food/wine.png` | Nmaligec, Salmondine, Enchilado | GPLv2
@@ -604,9 +613,11 @@ File | Artists | Licenses
 `graphics/particles/pool_32x59.particle.png` | Skipy | GPLv2
 `graphics/particles/pool_65x27.particle.png` | Skipy | GPLv2
 `graphics/particles/pool-undyed.png` | Alige, Skipy | GPLv2
+`graphics/particles/snowball.png` | Ledmitz, Reid | GPLv2, CC BY-SA 3.0
 `graphics/particles/star-medium.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/star-small.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/waterfall-a.png` | Modanung | GPLv2, CC BY-SA 3.0
+`graphics/particles/manapearl_4x4.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 
 
 ### Skills
@@ -639,6 +650,8 @@ File | Artists | Licenses
 `graphics/sprites/emote.png` | Alige, Arikel, DerLoisl, Modanung, Reid | GPLv2, CC BY-SA 3.0
 `graphics/sprites/error.png` | Wushin | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/angel-wings.png` | :grey_question:, Varuna, Arikel | GPLv2
+`graphics/sprites/equipment/shields/dragon.png` | ?, TMW-Br Team | GPLv2
+`graphics/sprites/races/savior-male.png` | Modanung, Talaroc, Alige, Reid, Saphy, Jesusalva | CC BY-SA 4.0 (GPLv3)
 
 #### Status Icons
 File | Artists | Licenses
@@ -674,6 +687,8 @@ File | Artists | Licenses
 `graphics/sprites/equipment/weapons/sword-short.png` | ChefChelios, Wushin | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/weapons/wand-deathshand.png` | :grey_question:, Wombat, Wushin | GPLv2
 `graphics/sprites/equipment/weapons/wand.png` | :grey_question:, Wushin | GPLv2
+`graphics/sprites/equipment/weapons/beheader.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/equipment/weapons/gun.png` | Skipy, Jesusalva | GPLv2
 
 #### Chest
 File | Artists | Licenses
@@ -717,6 +732,8 @@ File | Artists | Licenses
 `graphics/sprites/equipment/chest/vnecksweater-male.png` | Saphy | GPLv2
 `graphics/sprites/equipment/chest/saviorarmor-male.png` | Saphy, slave | GPLv2
 `graphics/sprites/equipment/chest/saviorarmor-female.png` | Saphy, slave | GPLv2
+`graphics/sprites/equipment/chest/redknightarmor-female.png` | ?, TMW-Br Team, Saulc | GPLv2
+`graphics/sprites/equipment/chest/redknightarmor-male.png` | ?, TMW-Br Team, Saulc | GPLv2
 
 #### Feet
 File | Artists | Licenses
@@ -771,7 +788,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/desert-helmet.png` | Pauan | GPLv2
 `graphics/sprites/equipment/head/deserthat.png` | Kr0n05931 | GPLv2
 `graphics/sprites/equipment/head/devcap.png` | Black Don | GPLv2
-`graphics/sprites/equipment/head/earmuffs.png` | Lizandra | GPLv2
+`graphics/sprites/equipment/head/earmuffs.png` | Lizandra | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/eggshell.png` | Kyon | GPLv2
 `graphics/sprites/equipment/head/elf-nightcap.png` | Lien | GPLv2
 `graphics/sprites/equipment/head/eyepatch.png` | Yosuhara | GPLv2
@@ -782,7 +799,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/goggles.png` | Fettsack | GPLv2
 `graphics/sprites/equipment/head/gradcap.png` | Arilious | GPLv2
 `graphics/sprites/equipment/head/guyfawkes.png` | 5t3v3 | GPLv2
-`graphics/sprites/equipment/head/heart-glasses.png` | Lizandra | GPLv2
+`graphics/sprites/equipment/head/heart-glasses.png` | Lizandra | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/highpriest-crown.png` | Black Don | GPLv2
 `graphics/sprites/equipment/head/infantryhelm.png` | Black Don | GPLv2
 `graphics/sprites/equipment/head/inspector-hat.png` | ? | GPLv2
@@ -829,6 +846,8 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/yeti-mask.png` | Skipy | GPLv2
 `graphics/sprites/equipment/head/pipe.png` | Veryape | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/shades.png` | jak1 | GPLv2, CC BY-SA 3.0
+`graphics/sprites/equipment/head/assassin-mask.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+
 
 #### Legs
 File | Artists | Licenses
@@ -1129,11 +1148,15 @@ File | Artists | Licenses
 ---- |:-------:|:--------:
 `sfx/epilogue.ogg` | Guilherme Bazenga | GPLv2, CC BY-SA 3.0
 `sfx/fist-swish.ogg` | Cosmostrator | GPLv2
+`sfx/oblivion.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/punch.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/env/casket-lid.ogg` | Dariuna | GPLv2
 `sfx/env/env-burningfire1.ogg` | Dariuna | GPLv2
+`sfx/env/flame.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/env/env-riverflow1.ogg` | Dariuna | GPLv2
 `sfx/env/env-waterfall1.ogg` | Dariuna | GPLv2
 `sfx/env/fart.ogg` | unknown | CC0
+`sfx/env/flame.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/magic/astral.ogg' | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/magic/betsanc-on.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/magic/betsanc-off.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
@@ -1164,10 +1187,27 @@ File | Artists | Licenses
 `sfx/magic/warp.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/bat/bat-dying1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/bat/bat-hit1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/bee/bee-die1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/bee/bee-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/bee/bee-miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/bee/bee-move1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/casket-monster/casket-monster.ogg` | Dariuna | GPLv2
 `sfx/monsters/cavesnake/cavesnake-hit1.ogg` | Krazyjakee | GPLv2
+`sfx/monsters/fallen-die1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/fallen-die2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/fallen-hurt1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/fallen-hurt2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/fallen-hurt3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/fire-goblin/fire-goblin-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/fire-goblin/fire-goblin-hit2.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/fire-goblin/fire-goblin-miss1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/flashmob/flashmob-die1.ogg` | Ledmitz (evil laugh-01.wav / Nanakisan / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/monsters/flashmob/flashmob-hurt1.ogg` | Ledmitz (evil laugh-01.wav / Nanakisan / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/monsters/flashmob/flashmob-hurt2.ogg` | Ledmitz (evil laugh-01.wav / Nanakisan / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/monsters/flashmob/flashmob-hurt3.ogg` | Ledmitz (evil laugh-01.wav / Nanakisan / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/monsters/flashmob/flashmob-move1.ogg` | Ledmitz (evil laugh-01.wav / Nanakisan / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/monsters/flashmob/flashmob-move2.ogg` | Ledmitz (evil laugh-01.wav / Nanakisan / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/monsters/flashmob/flashmob-move3.ogg` | Ledmitz (evil laugh-01.wav / Nanakisan / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/monsters/flower/flower-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/flower/flower-hit2.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/flower/flower-miss1.ogg` | Cosmostrator | GPLv2
@@ -1177,6 +1217,8 @@ File | Artists | Licenses
 `sfx/monsters/fluffy/fluffy-hurt1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/fluffy/fluffy-miss1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/golem/die.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/golem/hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/golem/miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/loghead/loghead-die1.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
 `sfx/monsters/loghead/loghead-hit1.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
 `sfx/monsters/loghead/loghead-hurt1.ogg` | Cosmostrator | GPLv2
@@ -1190,18 +1232,68 @@ File | Artists | Licenses
 `sfx/monsters/maggot/maggot-miss1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/pinkie/pinkie-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/pinkie/pinkie-miss1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/pumpkin/pumpkin-explosion.ogg` | Ledmitz (firework_explosion_fizz.wav / soundscalpel.co / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/monsters/reaper/reaper-hurt.ogg` | nmaligec | GPLv2
+`sfx/monsters/sasquatch/sasquatch-move1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/sasquatch/sasquatch-move2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/scorpion/scorpion-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/scorpion/scorpion-hit2.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/scorpion/scorpion-hit3.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/scorpion/scorpion-hit4.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/scorpion/scorpion-miss1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/shroom/shroom-die1.ogg` | Davius | GPLv2
 `sfx/monsters/shroom/shroom-hit1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/shroom/shroom-hurt1.ogg` | Davius | GPLv2
+`sfx/monsters/skeleton/skel-die1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/skeleton/skel-die2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/skeleton/skel-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/skeleton/skel-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/skeleton/skel-hit3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/skeleton/skel-hurt1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/skeleton/skel-miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/skeleton_lady/ladyskel-die1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/skeleton_lady/ladyskel-die2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/skeleton_lady/ladyskel-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/skeleton_lady/ladyskel-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/skeleton_lady/ladyskel-hit3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/skeleton_lady/ladyskel-hurt1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/skeleton_lady/ladyskel-miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/slime/slime-hit1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/snail/snail-die1.ogg` | alpha [Ledmitz] | GPLv2
+`sfx/monsters/snail/snail-hit1.ogg` | alpha [Ledmitz] | GPLv2
+`sfx/monsters/snail/snail-hurt1.ogg` | alpha [Ledmitz] | GPLv2
+`sfx/monsters/snail/snail-hurt2.ogg` | alpha [Ledmitz] | GPLv2
+`sfx/monsters/spider/spider-die1.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
+`sfx/monsters/spider/spider-hit1.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
+`sfx/monsters/spider/spider-hit2.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
+`sfx/monsters/spider/spider-hit3.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
+`sfx/monsters/spider/spider-move1.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
+`sfx/monsters/spider/spider-move2.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
+`sfx/monsters/spider/spider-move3.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
+`sfx/monsters/spider/spider-move4.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
+`sfx/monsters/spider/spider-move5.ogg | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
 `sfx/monsters/squirrel/squirrel-die1.ogg` | Krazyjakee | GPLv2
 `sfx/monsters/squirrel/squirrel-die2.ogg` | Krazyjakee | GPLv2
 `sfx/monsters/squirrel/squirrel-hurt1.ogg` | Krazyjakee | GPLv2
 `sfx/monsters/squirrel/squirrel-hurt2.ogg` | Krazyjakee | GPLv2
+`sfx/monsters/terranite/terra-die1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/terranite/terra-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/terranite/terra-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/terranite/terra-hit3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/terranite/terra-hurt1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/terranite/terra-hurt2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/terranite/terra-hurt3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/terranite/terra-miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/terranite/terra-move1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/tengu/tengu-crit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/tengu/tengu-die1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/tengu/tengu-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/tengu/tengu-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/tengu/tengu-hit3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/tengu/tengu-hurt1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/tengu/tengu-hurt2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/tengu/tengu-hurt3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/tengu/tengu-miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/wolvern/wolvern-dying1.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
 `sfx/monsters/wolvern/wolvern-hit1.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
 `sfx/monsters/wolvern/wolvern-hit2.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
@@ -1209,23 +1301,73 @@ File | Artists | Licenses
 `sfx/monsters/wolvern/wolvern-miss1.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
 `sfx/monsters/wolvern/wolvern-miss2.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
 `sfx/monsters/wolvern/wolvern-miss3.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-die1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-hit3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-hit4.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-hurt1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-hurt2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-hurt3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-miss2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-miss3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-move1.ogg` | Ledmitz (Snow crunch / 32cheeseman32 / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-move2.ogg` | Ledmitz (Snow crunch / 32cheeseman32 / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-move3.ogg` | Ledmitz (Snow crunch / 32cheeseman32 / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/monsters/yeti/yeti-move4.ogg` | Ledmitz (Snow crunch / 32cheeseman32 / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/monsters/zombie/zombie-dying1.ogg` | Bcs86 | GPLv2
 `sfx/monsters/zombie/zombie-hit1.ogg` | Bcs86 | GPLv2
 `sfx/monsters/zombie/zombie-hit2.ogg` | Bcs86 | GPLv2
 `sfx/monsters/zombie/zombie-miss1.ogg` | Bcs86 | GPLv2
 `sfx/monsters/zombie/zombie-move1.ogg` | Bcs86 | GPLv2
 `sfx/monsters/zombie/zombie-move2.ogg` | Bcs86 | GPLv2
+`sfx/system/boom.ogg` | Ledmitz (firework_explosion_fizz.wav / soundscalpel.co / (CC BY 3.0)) | GPLv2, CC BY-SA 3.0
+`sfx/system/crit.ogg` | Ledmitz (firework_explosion_fizz.wav / soundscalpel.co / (CC BY 3.0)) | GPLv2, CC BY-SA 3.0
 `sfx/system/levelup.ogg` | Cosmostrator | GPLv2
 `sfx/system/ship-bell2.ogg` | unknown | (public domain)
 `sfx/system/warning.ogg` | Jesusalva | (public domain)
+`sfx/weapons/miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/miss2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/miss3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/bows/bow_shoot_1.ogg` | Cosmostrator | GPLv2
+`sfx/weapons/bows/banshee/banshee-hit1.ogg` | Ledmitz (rocket-shots.mp3 / Audionautics / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/banshee/banshee-hit2.ogg` | Ledmitz (rocket-shots.mp3 / Audionautics / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/banshee/banshee-hit3.ogg` | Ledmitz (rocket-shots.mp3 / Audionautics / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/banshee/banshee-miss1.ogg` | Ledmitz (rocket-shots.mp3 / Audionautics / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/banshee/banshee-miss1.ogg` | Ledmitz (rocket-shots.mp3 / Audionautics / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/banshee/banshee-miss1.ogg` | Ledmitz (rocket-shots.mp3 / Audionautics / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/forest/forest-hit1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/forest/forest-miss1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/short/short-hit1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/short/short-miss1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/bow-hit1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/bow-miss1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/gunstaff/shot.ogg` | Bird-Man, Freesound.org, Jesusalva | CC 0
+
 `sfx/weapons/knives/knife-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/weapons/knives/knife-miss1.ogg` | Cosmostrator | GPLv2
-`sfx/weapons/knives/rock-knife-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/weapons/knives/rock-knife-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/knives/rock/rock-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/knives/rock/rock-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/knives/setzer/setzer-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/knives/setzer/setzer-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/knives/setzer/setzer-hit3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/knives/sharpknife-miss1.ogg` | Krazyjakee | GPLv2
+`sfx/weapons/projectiles/snowball/hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/projectiles/snowball/miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/other/halberd/halberd-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/other/halberd/halberd-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/other/halberd/halberd-hit3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/swords/broadsword-hit1.ogg` | Krazyjakee | GPLv2
 `sfx/weapons/swords/firesword-miss1.ogg` | Krazyjakee | GPLv2
+`sfx/weapons/swords/short-sword-hit1.ogg` | Cosmostrator | GPLv2
+`sfx/weapons/swords/short-sword-miss1.ogg` | Cosmostrator | GPLv2
+`sfx/weapons/swords/sword-miss1.ogg` | Cosmostrator [Ledmitz] | GPLv2
+`sfx/weapons/swords/ice_gladius/ice_gladius-hit1.ogg` | Ledmitz (ting shas wav.mp3 / CMeeson / CC BY-3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/swords/ice_gladius/ice_gladius-hit2.ogg` | Ledmitz (ting shas wav.mp3 / CMeeson / CC BY-3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/swords/ice_gladius/ice_gladius-hit3.ogg` | Ledmitz (ting shas wav.mp3 / CMeeson / CC BY-3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/swords/ice_gladius/ice_gladius-hit4.ogg` | Ledmitz (ting shas wav.mp3 / CMeeson / CC BY-3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/swords/ice_gladius/ice_gladius-hit5.ogg` | Ledmitz (ting shas wav.mp3 / CMeeson / CC BY-3.0) | GPLv2, CC BY-SA 3.0
 `sfx/weapons/swords/longsword-hit1.ogg` | Krazyjakee | GPLv2
 `sfx/weapons/swords/longsword-hit2.ogg` | Krazyjakee | GPLv2
 `sfx/weapons/swords/longsword-miss1.ogg` | Krazyjakee | GPLv2
@@ -1234,8 +1376,15 @@ File | Artists | Licenses
 `sfx/weapons/swords/sandcutter-hit7.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/swords/sandcutter-hit8.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/swords/sandcutter-hit9.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/weapons/swords/short-sword-hit1.ogg` | Cosmostrator | GPLv2
-`sfx/weapons/swords/short-sword-miss1.ogg` | Cosmostrator | GPLv2
+`sfx/weapons/other/scythe/scythe-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/other/scythe/scythe-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/other/scythe/scythe-hit3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/other/staff/staff-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/other/staff/staff-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/other/staff/staff-hit3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/other/staff/staff-miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/other/staff/staff-miss2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/other/staff/staff-miss3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 
 ## Music
 Please see music sub-folder

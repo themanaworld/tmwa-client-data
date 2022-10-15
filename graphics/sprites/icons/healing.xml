@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2011-2012 Evol Online -->
+
+<sprite>
+    <imageset name="icon"
+              src="graphics/sprites/icons/healing.png"
+              width="14"
+              height="15"
+              offsetY="-11"/>
+
+    <action name="default" imageset="icon">
+        <animation direction="default">
+            <sequence start="0" end="2" delay="100"/>
+            <frame index="1" delay="100"/>
+        </animation>
+    </action>
+</sprite>
