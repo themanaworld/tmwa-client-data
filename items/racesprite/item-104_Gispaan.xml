@@ -10,9 +10,13 @@
     <sprite gender="female">model/female.xml|#413e22,6c5d31,baa06e,b2b05f;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
     <sprite gender="male">model/male.xml|#413e22,6c5d31,baa06e,b2b05f;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
     <sprite gender="other">model/neutral.xml|#413e22,6c5d31,baa06e,b2b05f;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+    <sound event="hit">punch.ogg</sound>
+    <sound event="strike">weapons/miss1.ogg</sound>
   </item>
   <item id="-99104" type="racesprite" name="Gispaan">
     <sprite gender="unisex">model/male.xml|#413e22,6c5d31,baa06e,b2b05f;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
     <sprite gender="female">model/female.xml|#413e22,6c5d31,baa06e,b2b05f;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+    <sound event="hit">weapons/punch.ogg</sound>
+    <sound event="strike">weapons/miss1.ogg</sound>
   </item>
 </items>
