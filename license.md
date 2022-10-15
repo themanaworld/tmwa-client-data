@@ -1325,7 +1325,13 @@ File | Artists | Licenses
 `sfx/system/boom.ogg` | Ledmitz (firework_explosion_fizz.wav / soundscalpel.co / (CC BY 3.0)) | GPLv2, CC BY-SA 3.0
 `sfx/system/crit.ogg` | Ledmitz (firework_explosion_fizz.wav / soundscalpel.co / (CC BY 3.0)) | GPLv2, CC BY-SA 3.0
 `sfx/system/levelup.ogg` | Cosmostrator | GPLv2
+`sfx/system/levelup-long.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/system/quest-continue.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/system/quest-done.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/system/quest-start.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/system/quest-up.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/system/ship-bell2.ogg` | unknown | (public domain)
+`sfx/system/skillup02.ogg` | Ledmitz ([SFX] Angelic_ Choir_ Ahhhh_ Dm Chord (90bpm) (320kb).mp3 / TuneHntr_2Day / Sampling+ 1.0) | GPLv2, CC BY-SA 3.0
 `sfx/system/warning.ogg` | Jesusalva | (public domain)
 `sfx/weapons/miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/miss2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
