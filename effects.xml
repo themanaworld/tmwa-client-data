@@ -23,7 +23,7 @@
 <being-effects>
   <!-- Core effect - used by the TMW magic system - do not change the ids
         without testing the corresponding magic spells. -->
-  <effect id="0" audio="system/levelup-long.ogg" particle="graphics/particles/levelup.particle.xml"/>
+  <effect id="0" audio="system/levelup.ogg" particle="graphics/particles/levelup.particle.xml"/>
   <effect id="1" audio="system/skillup02.ogg" particle="graphics/particles/skillup.particle.xml"/>
   <effect id="2" particle="graphics/particles/magic.generic.xml"/>
   <!-- life -->
@@ -88,6 +88,7 @@
   <effect id="53" particle="graphics/particles/epilogue.xml" audio="epilogue.ogg"/>
   <effect id="54" audio="oblivion.ogg"/>
   <effect id="55" particle="graphics/particles/snowball-crit.particle.xml"/>
+  <effect id="56" audio="system/levelup-long.ogg" particle="graphics/particles/levelup.particle.xml"/>
   <effect id="69" particle="graphics/particles/python.xml" audio="env/fart.ogg"/>
   <!-- #betsanc (protect) end -->
   <effect id="111" audio="magic/betsanc-off.ogg" particle="graphics/particles/magic.shield.xml"/>
