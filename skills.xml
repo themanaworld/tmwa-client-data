@@ -61,8 +61,26 @@
     <skill id="350" name="Brawling" icon="graphics/skills/focus/brawling.png" description="Your fists hit harder."/>
     <skill id="351" name="Lucky Counter" icon="graphics/skills/unknown.png" description="???"/>
     <skill id="352" name="Speed" icon="graphics/skills/focus/speed.png" description="Faster walking and attacking."/>
-    <skill id="353" name="Resist Poison" icon="graphics/skills/focus/resistpoison.png" description="Lower chance to get poisoned."/>
+    <skill id="353" name="Ailment Resistance" icon="graphics/skills/focus/resistpoison.png" description="Lower chance to get ailments."/>
     <skill id="354" name="Astral Soul" icon="graphics/skills/focus/astralsoul.png" description="Increases your Magic Attack."/>
     <skill id="355" name="Raging" icon="graphics/skills/focus/raging.png" description="Higher chance for critical hits."/>
   </set>
+  <!--
+  <set name="Spells">
+		<skill
+			id="420"
+			name="Itenplz"
+			icon="graphics/skills/magic/basic.png"
+			description="Provoke mobs"
+			invokeCmd="#itenplz"
+		/>
+		<skill
+			id="457"
+			name="Jande"
+			icon="graphics/skills/magic/basic.png"
+			description="Summons mana guardian. 1x Small Potion"
+			invokeCmd="#jande"
+		/>
+  </set>
+  -->
 </skills>
