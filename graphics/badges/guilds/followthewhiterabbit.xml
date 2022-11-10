@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Micksha -->
+<sprite>
+    <imageset name="icon"
+              src="graphics/badges/parties/followthewhiterabbit.png"
+              width="16"
+              height="16"
+              offsetY="0"/>
+    <action name="default" imageset="icon">
+        <animation direction="default">
+            <frame index="0" delay="100"/>
+            <frame index="1" delay="100"/>
+            <frame index="2" delay="100"/>
+            <frame index="3" delay="100"/>
+            <frame index="4" delay="100"/>
+            <frame index="5" delay="100"/>
+            <frame index="6" delay="100"/>
+        </animation>
+    </action>
+</sprite>
