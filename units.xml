@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
 <units>
-  <unit type="currency" base="GP" round="0"/>
-  <unit type="weight" base="g" round="0">
-    <level symbol="kg" count="1000" round="2"/>
-  </unit>
+    <unit type="currency" base="GP" round="0" separator=" "/>
+    <unit type="weight" base="g" round="0" separator=" ">
+        <level symbol="kg" count="1000" round="2"/>
+    </unit>
+    <currency>
+        <unit name="medal" base=" Medals" round="0" separator=" "/>
+        <unit name="ticket" base=" Tickets" round="0" separator=" "/>
+    </currency>
 </units>
