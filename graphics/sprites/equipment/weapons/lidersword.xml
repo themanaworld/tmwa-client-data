@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset name="lider" src="graphics/sprites/equipment/weapons/lidersword.png" width="128" height="128"/>
+
+  <action name="default" imageset="lider">
+  </action>
+
+  <action name="stand" imageset="lider">
+    <animation direction="down">
+      <frame index="0" offsetX="0" offsetY="32"/>
+    </animation>
+    <animation direction="left">
+      <frame index="18" offsetX="0" offsetY="32"/>
+    </animation>
+    <animation direction="up">
+      <frame index="36" offsetX="0" offsetY="32"/>
+    </animation>
+    <animation direction="right">
+      <frame index="54" offsetX="0" offsetY="32"/>
+    </animation>
+  </action>
+
+  <action name="walk" imageset="lider">
+    <animation direction="down">
+      <sequence start="1" end="6" offsetX="0" offsetY="32" delay="75"/>
+    </animation>
+    <animation direction="left">
+      <sequence start="19" end="24" offsetX="0" offsetY="32" delay="75"/>
+    </animation>
+    <animation direction="up">
+      <sequence start="37" end="42" offsetX="0" offsetY="32" delay="75"/>
+    </animation>
+    <animation direction="right">
+      <sequence start="55" end="60" offsetX="0" offsetY="32" delay="75"/>
+    </animation>
+  </action>
+  
+  <action name="attack" imageset="lider">
+    <animation direction="down">
+      <sequence start="9" end="12" offsetX="0" offsetY="32" delay="75"/>
+      <end />
+    </animation>
+    <animation direction="left">
+      <sequence start="27" end="30" offsetX="0" offsetY="32" delay="75"/>
+      <end />
+    </animation>
+    <animation direction="up">
+      <sequence start="45" end="48" offsetX="0" offsetY="32" delay="75"/>
+      <end />
+    </animation>
+    <animation direction="right">
+      <sequence start="63" end="66" offsetX="0" offsetY="32" delay="75"/>
+      <end />
+    </animation>
+  </action>
+
+  <action name="sit" imageset="lider">
+    <animation direction="down">
+      <frame index="7" offsetX="0" offsetY="32"/>
+    </animation>
+    <animation direction="left">
+      <frame index="25" offsetX="0" offsetY="32"/>
+    </animation>
+    <animation direction="up">
+      <frame index="43" offsetX="0" offsetY="32"/>
+    </animation>
+    <animation direction="right">
+      <frame index="61" offsetX="0" offsetY="32"/>
+    </animation>
+  </action>
+
+  <action name="dead" imageset="lider">
+    <animation direction="down">
+      <frame index="8" offsetX="0" offsetY="32"/>
+    </animation>
+    <animation direction="left">
+      <frame index="8" offsetX="0" offsetY="32"/>
+    </animation>
+    <animation direction="up">
+      <frame index="8" offsetX="0" offsetY="32"/>
+    </animation>
+    <animation direction="right">
+      <frame index="8" offsetX="0" offsetY="32"/>
+    </animation>
+  </action>
+
+
+
+</sprite>
