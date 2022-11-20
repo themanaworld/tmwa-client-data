@@ -38,7 +38,7 @@
 		<sound event="hit">weapons/other/halberd/halberd-hit3.ogg</sound>
 		<sound event="miss">weapons/swords/sword-miss1.ogg</sound>
 	</item>
-	<item id="589"
+	<item id="590"
 		image="equipment/weapon/sword-dragon.png"
 		name="Dragon Sword"
 		description="Empowered by demure's drakes, relic of a long forsaken war."
@@ -63,7 +63,7 @@
         image="equipment/weapon/bow-life.png"
         name="Imperial Bow"
         description="No one remember the emperor's name, though."
-		effect="HP Drain 2%"
+		effect="HP Drain 4%"
         attack="110"
         criticaldefense="10"
         flee="10"
@@ -113,7 +113,7 @@
 		image="equipment/ammo/cursedarrow.png"
 		name="Armor Breaker Arrow"
 		description="Used against heavily armored targets."
-		effect="Critical +50"
+		effect="Critical +75"
 		type="equip-ammo"
 		attack="-150"
 		weight="2"/>
@@ -129,7 +129,7 @@
 		image="equipment/ammo/thornarrow.png"
 		name="Thorn Arrow"
 		description="A superior arrow which never misses."
-		effect="Critical +7 / Hit +15"
+		effect="Critical +10 / Hit +25"
 		type="equip-ammo"
 		attack="65"
 		weight="12"/>
