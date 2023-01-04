@@ -1,0 +1,61 @@
+stages:
+- test
+
+image: debian:buster
+before_script:
+  - uname -a
+
+pngcheck:
+  stage: test
+  script:
+  - ./.tools/pngcheck.sh
+  allow_failure: true
+
+imagemagiccheck:
+  stage: test
+  script:
+  - ./.tools/imagemagiccheck.sh
+  allow_failure: true
+
+manaplus:
+  stage: test
+  script:
+  - ./.tools/manaplus.sh
+  image: debian:stable
+  artifacts:
+    paths:
+    - shared
+    when: always
+    expire_in: 3 week
+  allow_failure: true
+
+newlines:
+  stage: test
+  tags:
+  - lightweight
+  script:
+  - ./.tools/newlines.sh
+  artifacts:
+    paths:
+    - shared
+    when: always
+    expire_in: 3 week
+  allow_failure: true
+
+licensecheck:
+  stage: test
+  tags:
+  - lightweight
+  script:
+  - ./.tools/licensecheck.sh
+  allow_failure: true
+
+testxml:
+  stage: test
+  tags:
+  - glados
+  script:
+  - ./.tools/testxml.sh
+  - pwd
+  allow_failure: true
+
