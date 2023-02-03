@@ -6,6 +6,15 @@
     <sprite>equipment/head/witch-hat.xml</sprite>
     <sprite>equipment/chest/sorcerer-robe.xml|#111111,222222,333333,444444,555555,aaaaaa;#EFEFEF</sprite>
     <sprite>equipment/weapons/polearm-blunt.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
+    <sound event="die">monsters/skeleton_lady/ladyskel-die1.ogg</sound>
+    <sound event="die">monsters/skeleton_lady/ladyskel-die2.ogg</sound>
+    <sound event="hit">magic/confringo1.ogg</sound>
+    <sound event="hit">magic/confringo2.ogg</sound>
+    <sound event="hit">magic/confringo3.ogg</sound>
+    <sound event="hurt">monsters/skeleton_lady/ladyskel-hurt1.ogg</sound>
+    <sound event="miss">weapons/other/staff/staff-miss1.ogg</sound>
+    <sound event="miss">weapons/other/staff/staff-miss2.ogg</sound>
+    <sound event="miss">weapons/other/staff/staff-miss3.ogg</sound>
     <attack id="1" missile-particle="graphics/particles/undead-witch-attack.particle.xml" action="attack"/>
   </monster>
 </monsters>
