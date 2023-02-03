@@ -1184,7 +1184,7 @@ File | Artists | Licenses
 `sfx/magic/spawn_burst.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/magic/transmute.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/magic/war.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/magic/warp.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/system/warp.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/bat/bat-dying1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/bat/bat-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/bee/bee-die1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
