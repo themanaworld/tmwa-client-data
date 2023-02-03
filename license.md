@@ -1232,6 +1232,16 @@ File | Artists | Licenses
 `sfx/monsters/maggot/maggot-miss1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/pinkie/pinkie-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/pinkie/pinkie-miss1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/pollett/pollett-hit1.ogg` | clort | GPLv2, CC BY-SA 3.0
+`sfx/monsters/pollett/pollett-hit2.ogg` | clort | GPLv2, CC BY-SA 3.0
+`sfx/monsters/pollett/pollett-hit3.ogg` | clort | GPLv2, CC BY-SA 3.0
+`sfx/monsters/pollett/pollett-hit4.ogg` | clort | GPLv2, CC BY-SA 3.0
+`sfx/monsters/pollett/pollett-hurt1.ogg` | clort | GPLv2, CC BY-SA 3.0
+`sfx/monsters/pollett/pollett-hurt2.ogg` | clort | GPLv2, CC BY-SA 3.0
+`sfx/monsters/pollett/pollett-hurt3.ogg` | clort | GPLv2, CC BY-SA 3.0
+`sfx/monsters/pollett/pollett-hurt4.ogg` | clort | GPLv2, CC BY-SA 3.0
+`sfx/monsters/pollett/pollett-hurt5.ogg` | clort | GPLv2, CC BY-SA 3.0
+`sfx/monsters/pollett/pollett-hurt6.ogg` | clort | GPLv2, CC BY-SA 3.0
 `sfx/monsters/pumpkin/pumpkin-explosion.ogg` | Ledmitz (firework_explosion_fizz.wav / soundscalpel.co / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/monsters/reaper/reaper-hurt.ogg` | nmaligec | GPLv2
 `sfx/monsters/sasquatch/sasquatch-move1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
