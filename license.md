@@ -1125,8 +1125,8 @@ File | Artists | Licenses
 `graphics/tiles/wood_lab.png` | Fate, Varuna, Enchilado, Wushin | GPLv2
 `graphics/tiles/wood_lab_small.png` | Fate, Varuna, Enchilado, Wushin | GPLv2
 `graphics/tiles/woodland_graveyard_crypt.png` | :grey_question:, Spit23 | GPLv2
-`graphics/tiles/woodland_graveyard_ground.png` | :grey_question:, Crush | GPLv2
-`graphics/tiles/woodland_graveyard_x3.png` | :grey_question:, Black Don, Crush | GPLv2
+`graphics/tiles/woodland_graveyard_ground.png` | Micksha, :grey_question:, Crush | GPLv2
+`graphics/tiles/woodland_graveyard_x3.png` | Micksha, :grey_question:, Black Don, Crush | GPLv2
 `graphics/tiles/woodland_graveyard_x4.png` | :grey_question:, Crush, Spit23 | GPLv2
 `graphics/tiles/woodland_ground.png` | :grey_question:, Crush, Wombat, enchilado | GPLv2
 `graphics/tiles/woodland_indoor_x2.png` | :grey_question:, Crush, tux9th | GPLv2
