@@ -4,7 +4,7 @@
     <sprite>monsters/skeleton.xml|#aca379</sprite>
     <sprite>equipment/chest/robe.xml|#ea0000,333333</sprite>
     <sprite>equipment/head/phylactery.xml</sprite>
-    <sprite>equipment/head/evileyes.xml</sprite>
+    <!-- <sprite>equipment/head/evileyes.xml</sprite> Commented due to missing frame errors, which cause lag. evileyes.xml needs rework -->
     <sprite>equipment/hands/magefire.xml</sprite>
     <attack id="1" critical-hit-effect-id="42" missile-particle="graphics/particles/thelost-attack.particle.xml" action="attack"/>
   </monster>
