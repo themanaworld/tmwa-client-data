@@ -11,6 +11,12 @@
     <!-- No folder for this -->
     <sprite>equipment/angel-wings.xml</sprite>
     <sprite>equipment/head/aureole.xml</sprite>
+    <sound event="hit">weapons/punch1.ogg</sound>
+    <sound event="hit">weapons/punch2.ogg</sound>
+    <sound event="hit">weapons/punch3.ogg</sound>
+    <sound event="miss">weapons/miss1.ogg</sound>
+    <sound event="miss">weapons/miss2.ogg</sound>
+    <sound event="miss">weapons/miss3.ogg</sound>
     <particlefx>graphics/particles/angel.particle.xml</particlefx>
     <attack id="1" critical-hit-effect-id="16" missile-particle="graphics/particles/fire-burst.xml" action="attack"/>
   </monster>

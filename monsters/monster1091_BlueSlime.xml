@@ -3,6 +3,12 @@
   <monster id="1091" name="Blue Slime">
     <sprite>monsters/slime.xml|#2121ae,ffffff</sprite>
     <sprite>monsters/accessories/slime-littleslime.xml|#2121ae,ffffff</sprite>
+    <sound event="die">monsters/slime/slime-die1.ogg</sound>
     <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+    <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+    <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+    <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
+    <sound event="move">monsters/slime/slime-move1.ogg</sound>
+    <sound event="move">monsters/slime/slime-move2.ogg</sound>
   </monster>
 </monsters>

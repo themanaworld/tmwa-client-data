@@ -7,6 +7,8 @@
     <sprite>equipment/chest/warlordplate.xml|#444444,979797</sprite>
     <sprite>equipment/head/bull.xml</sprite>
     <sprite>equipment/weapons/bow-banshee.xml|#1c1b00,1b1a31,5b5660,827e85,9596e0</sprite>
+    <sound event="hit">weapons/bows/forest/forest-hit1.ogg</sound>
+    <sound event="miss">weapons/bows/forest/forest-miss1.ogg</sound>
     <attack id="1" critical-hit-effect-id="28" missile-particle="graphics/particles/arrow.particle.xml" action="attack_bow"/>
   </monster>
 </monsters>
