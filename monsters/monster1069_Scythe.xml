@@ -3,5 +3,15 @@
   <monster id="1069" name="Flying Scythe" targetCursor="large">
     <sprite>monsters/spinning-scythe.xml</sprite>
     <sprite>monsters/accessories/scythe-shadow.xml</sprite>
+    <sound event="die">monsters/scythe/scythe-die1.ogg</sound>
+    <sound event="hit">weapons/other/scythe/scythe-hit1.ogg</sound>
+    <sound event="hit">weapons/other/scythe/scythe-hit2.ogg</sound>
+    <sound event="hit">weapons/other/scythe/scythe-hit3.ogg</sound>
+    <sound event="move">monsters/scythe/move1.ogg</sound>
+    <sound event="move">monsters/scythe/move2.ogg</sound>
+    <sound event="move">monsters/scythe/move3.ogg</sound>
+    <sound event="sit">monsters/scythe/move1.ogg</sound>
+    <sound event="sit">monsters/scythe/move2.ogg</sound>
+    <sound event="sit">monsters/scythe/move3.ogg</sound>
   </monster>
 </monsters>

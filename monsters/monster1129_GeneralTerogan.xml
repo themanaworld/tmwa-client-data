@@ -4,8 +4,14 @@
     <sprite>monsters/skeleton.xml|#aca379</sprite>
     <sprite>equipment/chest/robe.xml|#ea0000,333333</sprite>
     <sprite>equipment/head/phylactery.xml</sprite>
-    <sprite>equipment/head/evileyes.xml</sprite>
+    <!-- <sprite>equipment/head/evileyes.xml</sprite> Commented due to missing frame errors, which cause lag. evileyes.xml needs rework -->
     <sprite>equipment/hands/magefire.xml</sprite>
+    <sound event="die">monsters/fallen/fallen-die2.ogg</sound>
+    <sound event="hit">magic/confringo1.ogg</sound>
+    <sound event="hit">magic/confringo2.ogg</sound>
+    <sound event="hit">magic/confringo3.ogg</sound>
+    <sound event="hurt">monsters/fallen/skel-hurt1.ogg</sound>
+    <sound event="miss">monsters/skeleton/skel-miss1.ogg</sound>
     <attack id="1" critical-hit-effect-id="42" missile-particle="graphics/particles/thelost-attack.particle.xml" action="attack"/>
   </monster>
 </monsters>

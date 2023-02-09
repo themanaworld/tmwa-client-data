@@ -7,6 +7,16 @@
     <sprite>equipment/chest/demonwarlordplate.xml|#ea0000,979797</sprite>
     <sprite>equipment/head/bull.xml</sprite>
     <sprite>equipment/weapons/dagger.xml|#181619,1c1b00,1b1a31,54438a,5b5660,827e85,9596e0</sprite>
+    <sound event="die">monsters/fallen/fallen-die2.ogg</sound>
+    <sound event="hit">weapons/knives/setzer/setzer-hit1.ogg</sound>
+    <sound event="hit">weapons/knives/setzer/setzer-hit2.ogg</sound>
+    <sound event="hit">weapons/knives/setzer/setzer-hit3.ogg</sound>
+    <sound event="hurt">monsters/fallen/fallen-hurt1.ogg</sound>
+    <sound event="hurt">monsters/fallen/fallen-hurt2.ogg</sound>
+    <sound event="hurt">monsters/fallen/fallen-hurt3.ogg</sound>
+    <sound event="miss">weapons/miss1.ogg</sound>
+    <sound event="miss">weapons/miss2.ogg</sound>
+    <sound event="miss">weapons/miss3.ogg</sound>
     <particlefx>graphics/particles/monster-witchguard.particle.xml</particlefx>
   </monster>
 </monsters>
