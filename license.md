@@ -1281,7 +1281,13 @@ File | Artists | Licenses
 `sfx/monsters/skeleton_lady/ladyskel-hit3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/skeleton_lady/ladyskel-hurt1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/skeleton_lady/ladyskel-miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/slime/slime-die1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/slime/slime-hit1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/slime/slime-hurt1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/slime/slime-hurt2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/slime/slime-hurt3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/slime/slime-move1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/slime/slime-move2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/snail/snail-die1.ogg` | alpha [Ledmitz] | GPLv2
 `sfx/monsters/snail/snail-hit1.ogg` | alpha [Ledmitz] | GPLv2
 `sfx/monsters/snail/snail-hurt1.ogg` | alpha [Ledmitz] | GPLv2
@@ -1389,6 +1395,9 @@ File | Artists | Licenses
 `sfx/weapons/other/halberd/halberd-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/other/halberd/halberd-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/other/halberd/halberd-hit3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/punch1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/punch2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/punch3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/swords/broadsword-hit1.ogg` | Krazyjakee | GPLv2
 `sfx/weapons/swords/firesword-miss1.ogg` | Krazyjakee | GPLv2
 `sfx/weapons/swords/short-sword-hit1.ogg` | Cosmostrator | GPLv2
