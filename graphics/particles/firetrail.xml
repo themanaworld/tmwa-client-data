@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!--
+Fire trail animation
+-->
+<effect>
+  <particle position-x="15" position-y="0" position-z="15">
+    <emitter>
+      <property name="position-x" value="-5"/>
+      <property name="position-y" min="-4" max="-4"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="90"/>
+      <property name="power" min="0" max="0.05"/>
+      <property name="gravity" value="-0.03"/>
+      <animation imageset="graphics/particles/aniblaze.png|W:#BF0019,FF6715,FFE659" width="8" height="8">
+        <sequence start="0" end="14" delay="30"/>
+        <frame index="14" delay="1000"/>
+      </animation>
+      <property name="lifetime" value="15"/>
+      <property name="output" value="1"/>
+      <property name="fade-out" value="100"/>
+      <property name="fade-in" value="40"/>
+    </emitter>
+    <emitter>
+      <property name="position-x" value="5"/>
+      <property name="position-y" min="-4" max="-2"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="90"/>
+      <property name="power" min="0" max="0.05"/>
+      <property name="gravity" value="-0.03"/>
+      <animation imageset="graphics/particles/aniblaze.png|W:#BF0019,FF6715,FFE659" width="8" height="8">
+        <sequence start="0" end="14" delay="30"/>
+        <frame index="14" delay="1000"/>
+      </animation>
+      <property name="lifetime" value="15"/>
+      <property name="output" value="1"/>
+      <property name="fade-out" value="100"/>
+      <property name="fade-in" value="40"/>
+    </emitter>
+    <emitter>
+      <property name="position-y" min="-4" max="0"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="90"/>
+      <property name="power" min="0.0" max="0.05"/>
+      <property name="gravity" value="-0.03"/>
+      <animation imageset="graphics/particles/aniblaze.png|W:#BF0019,FF6715,FFE659" width="8" height="8">
+        <sequence start="0" end="14" delay="30"/>
+        <frame index="14" delay="1000"/>
+      </animation>
+      <property name="lifetime" value="15"/>
+      <property name="output" value="1"/>
+      <property name="fade-out" value="100"/>
+      <property name="fade-in" value="40"/>
+    </emitter>
+    <emitter>
+      <property name="position-y" value="-10"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="180"/>
+      <property name="power" value="0.3"/>
+      <property name="gravity" value="-0.01"/>
+      <animation imageset="graphics/particles/fog-medium-c.png" width="32" height="32">
+        <frame index="0" delay="100"/>
+        <frame index="0" delay="1000"/>
+      </animation>
+      <property name="lifetime" value="40"/>
+      <property name="output" value="1"/>
+      <property name="output-pause" min="30" max="80"/>
+      <property name="fade-in" value="0"/>
+      <property name="fade-out" value="230"/>
+    </emitter>
+  </particle>
+</effect>
