@@ -4,5 +4,13 @@
     <sprite>monsters/skeleton.xml|#aca379</sprite>
     <sprite>equipment/chest/robe.xml|#333333</sprite>
     <sprite>equipment/head/phylactery.xml</sprite>
+    <sound event="die">monsters/skeleton/skel-die1.ogg</sound>
+    <sound event="die">monsters/skeleton/skel-die2.ogg</sound>
+    <sound event="hit">magic/confringo1.ogg</sound>
+    <sound event="hit">magic/confringo2.ogg</sound>
+    <sound event="hit">magic/confringo3.ogg</sound>
+    <sound event="hurt">monsters/skeleton/skel-hurt1.ogg</sound>
+    <sound event="miss">monsters/skeleton/skel-miss1.ogg</sound>
+    <attack id="1" missile-particle="graphics/particles/thelost-attack.particle.xml" action="attack"/>
   </monster>
 </monsters>

@@ -1230,6 +1230,10 @@ File | Artists | Licenses
 `sfx/monsters/maggot/maggot-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/maggot/maggot-hit2.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/maggot/maggot-miss1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/ghost/ghost-die1.ogg` | Ledmitz (ghostly-moans / Alivvie / CC by SA 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/monsters/ghost/ghost-move1.ogg` | Ledmitz (ghostly-moans / Alivvie / CC by SA 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/monsters/ghost/ghost-move2.ogg` | Ledmitz (ghostly-moans / Alivvie / CC by SA 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/monsters/ghost/ghost-move3.ogg` | Ledmitz (ghostly-moans / Alivvie / CC by SA 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/monsters/pinkie/pinkie-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/pinkie/pinkie-miss1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/pumpkin/pumpkin-explosion.ogg` | Ledmitz (firework_explosion_fizz.wav / soundscalpel.co / CC BY 3.0) | GPLv2, CC BY-SA 3.0
