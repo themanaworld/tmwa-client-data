@@ -1364,7 +1364,6 @@ File | Artists | Licenses
 `sfx/weapons/bows/bow-hit1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/weapons/bows/bow-miss1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/weapons/gunstaff/shot.ogg` | Bird-Man, Freesound.org, Jesusalva | CC 0
-
 `sfx/weapons/knives/knife-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/weapons/knives/knife-miss1.ogg` | Cosmostrator | GPLv2
 `sfx/weapons/knives/rock/rock-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
@@ -1375,6 +1374,9 @@ File | Artists | Licenses
 `sfx/weapons/knives/sharpknife-miss1.ogg` | Krazyjakee | GPLv2
 `sfx/weapons/projectiles/snowball/hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/projectiles/snowball/miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/punch1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/punch2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/punch3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/other/halberd/halberd-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/other/halberd/halberd-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/other/halberd/halberd-hit3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
