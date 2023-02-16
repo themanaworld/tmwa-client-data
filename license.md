@@ -333,8 +333,9 @@ File | Artists | Licenses
 `graphics/items/equipment/weapon/dagger-sharpknife.png` | EJlol | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/weapon/dagger-shortsword.png` | Irukard | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/weapon/dagger-stiletto.png` | Irukard | GPLv2, CC BY-SA 3.0
-`graphics/items/equipment/weapon/mace-club.png` | Irukard | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/weapon/floydbook.png` | Ledmitz | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/weapon/kidbook.png` | Wombat, Salmondine, Enchilado | GPLv2
+`graphics/items/equipment/weapon/mace-club.png` | Irukard | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/weapon/polearm-bardiche.png` | Irukard | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/weapon/polearm-dualspear.png` | Irukard | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/weapon/polearm-halberd.png` | Irukard | GPLv2, CC BY-SA 3.0
