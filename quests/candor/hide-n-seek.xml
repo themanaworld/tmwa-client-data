@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <quests>
-    <its:translateRule selector="//var/quest/@name" translate="yes"/>
-    <its:translateRule selector="//var/quest/name" translate="yes"/>
-    <its:translateRule selector="//var/quest/text" translate="yes"/>
-    <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <var id="6">
     <effect map="029-1.tmx" npc="258" value="0" effect="45"/>

@@ -1,9 +1,5 @@
 <?xml version="1.0"?>
 <items>
-    <its:translateRule selector="//item/@name" translate="yes"/>
-    <its:translateRule selector="//item/@description" translate="yes"/>
-    <its:translateRule selector="//item/@effect" translate="yes"/>
-    <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="2272" image="equipment/head/blinkingevil.png|W:#002d99,0038be,0040da,004bff" name="Mask of Blinking Evil (Blue)" description="Made of a strange, animated stone, this mask seems to cling to your face" mattack="10" mdefense="5" type="equip-head" defense="13" weight="50">
     <sprite gender="unisex">equipment/head/blinkingevil.xml|#002d99,0038be,0040da,004bff</sprite>

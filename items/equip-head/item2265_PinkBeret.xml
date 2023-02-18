@@ -1,9 +1,5 @@
 <?xml version="1.0"?>
 <items>
-    <its:translateRule selector="//item/@name" translate="yes"/>
-    <its:translateRule selector="//item/@description" translate="yes"/>
-    <its:translateRule selector="//item/@effect" translate="yes"/>
-    <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="2265" image="equipment/head/beret.png|W:#bf369b,f25cb1,ff87b7,ffcccf" name="Pink Beret" description="A simple pink beret. Fluffies look utterly cute with it." defense="3" weight="20" agi="2" type="equip-head" sellProtected="true">
     <sprite gender="unisex">equipment/head/beret.xml|#bf369b,f25cb1,ff87b7,ffcccf</sprite>

@@ -1,9 +1,5 @@
 <?xml version="1.0"?>
 <items>
-    <its:translateRule selector="//item/@name" translate="yes"/>
-    <its:translateRule selector="//item/@description" translate="yes"/>
-    <its:translateRule selector="//item/@effect" translate="yes"/>
-    <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="5266" image="equipment/head/cloverhat.png" name="Clover Top Hat" description="For the refined and lucky gentry of The Mana World." type="equip-head" defense="3" luk="1" weight="50" sellProtected="true">
     <replace sprite="hair">

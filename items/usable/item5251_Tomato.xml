@@ -1,9 +1,5 @@
 <?xml version="1.0"?>
 <items>
-    <its:translateRule selector="//item/@name" translate="yes"/>
-    <its:translateRule selector="//item/@description" translate="yes"/>
-    <its:translateRule selector="//item/@effect" translate="yes"/>
-    <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="5251" image="use/food/tomato.png" name="Tomato" description="Please be civilized and don't throw it at anyone!" type="usable" hp="200" mp="5" weight="5"/>
 </items>

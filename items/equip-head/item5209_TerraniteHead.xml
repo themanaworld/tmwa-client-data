@@ -1,9 +1,5 @@
 <?xml version="1.0"?>
 <items>
-    <its:translateRule selector="//item/@name" translate="yes"/>
-    <its:translateRule selector="//item/@description" translate="yes"/>
-    <its:translateRule selector="//item/@effect" translate="yes"/>
-    <its:translateRule selector="//*" translate="no"/>
   </its:rules>
   <item id="5209" image="equipment/head/terranite-head.png" name="Terranite Head" description="The severed head of a Terranite." type="equip-head" defense="16" agi="3" dex="1" mattack="-30" mdefense="5" weight="500" sellProtected="true">
     <sprite gender="unisex">equipment/head/terranite-mask.xml</sprite>
