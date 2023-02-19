@@ -1158,6 +1158,7 @@ File | Artists | Licenses
 `sfx/env/env-waterfall1.ogg` | Dariuna | GPLv2
 `sfx/env/fart.ogg` | unknown | CC0
 `sfx/env/flame.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/env/spawn_burst.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/env/zap.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/magic/astral.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/magic/betsanc-on.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
@@ -1183,7 +1184,6 @@ File | Artists | Licenses
 `sfx/magic/itenplz-hit.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/magic/kaflosh.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/magic/nature.ogg` | Ledmitz (nord_analog_howling_wind_storm.wav / medialint / Sampling Plus 1.0) | GPLv2, CC BY-SA 3.0
-`sfx/magic/spawn_burst.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/magic/transmute.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/magic/war.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/magic/warp.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
