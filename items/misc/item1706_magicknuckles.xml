@@ -5,5 +5,12 @@
     <!-- <sprite gender="female">equipment/hands/bromenalgloves-female.xml</sprite> -->
     <sprite>equipment/weapons/null.xml</sprite>
     <sound event="hit">punch.ogg</sound>
+    <sound event="hit">weapons/punch1.ogg</sound>
+    <sound event="hit">weapons/punch2.ogg</sound>
+    <sound event="hit">weapons/punch3.ogg</sound>
+    <!-- Intentional: Same as above 3 punches, so as not to overplay the first punch sound -->
+    <sound event="hit">weapons/punch1.ogg</sound>
+    <sound event="hit">weapons/punch2.ogg</sound>
+    <sound event="hit">weapons/punch3.ogg</sound>
   </item>
 </items>
