@@ -1220,6 +1220,10 @@ File | Artists | Licenses
 `sfx/monsters/fluffy/fluffy-hit3.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/fluffy/fluffy-hurt1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/fluffy/fluffy-miss1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/ghost/ghost-die1.ogg` | Ledmitz (ghostly moans / Alivvie / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/monsters/ghost/ghost-move1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/ghost/ghost-move2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/ghost/ghost-move3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/golem/die.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/golem/hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/golem/miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
