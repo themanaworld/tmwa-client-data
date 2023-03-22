@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <quests>
-  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
-    <its:translateRule selector="//var/quest/@name" translate="yes"/>
-    <its:translateRule selector="//var/quest/name" translate="yes"/>
-    <its:translateRule selector="//var/quest/text" translate="yes"/>
-    <its:translateRule selector="//*" translate="no"/>
-  </its:rules>
   <var id="8">
     <effect map="031-1.tmx" npc="195" value="5" effect="45"/>
     <effect map="031-1.tmx" npc="195" value="1,2,3,6" effect="46"/>

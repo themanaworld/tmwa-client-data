@@ -9,7 +9,7 @@ pngcheck:
   stage: test
   script:
   - ./.tools/pngcheck.sh
-  allow_failure: true
+  #allow_failure: true
 
 imagemagiccheck:
   stage: test
@@ -40,18 +40,20 @@ newlines:
     - shared
     when: always
     expire_in: 3 week
-  allow_failure: true
+  #allow_failure: true
 
 licensecheck:
   stage: test
   tags:
   - lightweight
   script:
+  - ln -s license.md LICENSE
   - ./.tools/licensecheck.sh
   allow_failure: true
 
 testxml:
   stage: test
+  image: ubuntu:18.04
   tags:
   - glados
   script:

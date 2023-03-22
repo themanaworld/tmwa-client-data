@@ -1,11 +1,5 @@
 <?xml version="1.0"?>
 <items>
-  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
-    <its:translateRule selector="//item/@name" translate="yes"/>
-    <its:translateRule selector="//item/@description" translate="yes"/>
-    <its:translateRule selector="//item/@effect" translate="yes"/>
-    <its:translateRule selector="//*" translate="no"/>
-  </its:rules>
   <item id="5252" image="equipment/rings/wedding.png" name="Guardian Wings" description="Powerful guardian wings, which watches over the horizon, guarding mana." type="equip-ring" weight="1">
     <sprite>equipment/angel-wings.xml</sprite>
     <particlefx>graphics/particles/angel.particle.xml</particlefx>

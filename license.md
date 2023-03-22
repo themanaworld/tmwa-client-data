@@ -1158,6 +1158,7 @@ File | Artists | Licenses
 `sfx/env/env-waterfall1.ogg` | Dariuna | GPLv2
 `sfx/env/fart.ogg` | unknown | CC0
 `sfx/env/flame.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/env/spawn_burst.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/env/zap.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/magic/astral.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/magic/betsanc-on.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
@@ -1183,7 +1184,6 @@ File | Artists | Licenses
 `sfx/magic/itenplz-hit.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/magic/kaflosh.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/magic/nature.ogg` | Ledmitz (nord_analog_howling_wind_storm.wav / medialint / Sampling Plus 1.0) | GPLv2, CC BY-SA 3.0
-`sfx/magic/spawn_burst.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/magic/transmute.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/magic/war.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/magic/warp.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
@@ -1196,11 +1196,11 @@ File | Artists | Licenses
 `sfx/monsters/bee/bee-move1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/casket-monster/casket-monster.ogg` | Dariuna | GPLv2
 `sfx/monsters/cavesnake/cavesnake-hit1.ogg` | Krazyjakee | GPLv2
-`sfx/monsters/fallen-die1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/monsters/fallen-die2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/monsters/fallen-hurt1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/monsters/fallen-hurt2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/monsters/fallen-hurt3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/fallen/fallen-die1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/fallen/fallen-die2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/fallen/fallen-hurt1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/fallen/fallen-hurt2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/fallen/fallen-hurt3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/fire-goblin/fire-goblin-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/fire-goblin/fire-goblin-hit2.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/fire-goblin/fire-goblin-miss1.ogg` | Cosmostrator | GPLv2
@@ -1211,6 +1211,7 @@ File | Artists | Licenses
 `sfx/monsters/flashmob/flashmob-move1.ogg` | Ledmitz (evil laugh-01.wav / Nanakisan / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/monsters/flashmob/flashmob-move2.ogg` | Ledmitz (evil laugh-01.wav / Nanakisan / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/monsters/flashmob/flashmob-move3.ogg` | Ledmitz (evil laugh-01.wav / Nanakisan / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/monsters/flashmob/flashmob-move4.ogg` | Ledmitz (evil laugh-01.wav / Nanakisan / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/monsters/flower/flower-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/flower/flower-hit2.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/flower/flower-miss1.ogg` | Cosmostrator | GPLv2
@@ -1293,6 +1294,8 @@ File | Artists | Licenses
 `sfx/monsters/snail/snail-hit1.ogg` | alpha [Ledmitz] | GPLv2
 `sfx/monsters/snail/snail-hurt1.ogg` | alpha [Ledmitz] | GPLv2
 `sfx/monsters/snail/snail-hurt2.ogg` | alpha [Ledmitz] | GPLv2
+`sfx/monsters/snowman_boss/hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/snowman_boss/miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/spider/spider-die1.ogg` | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
 `sfx/monsters/spider/spider-hit1.ogg` | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
 `sfx/monsters/spider/spider-hit2.ogg` | alpha [Ledmitz] | GPLv2, CC BY-SA 3.0`
@@ -1315,15 +1318,15 @@ File | Artists | Licenses
 `sfx/monsters/terranite/terra-hurt3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/terranite/terra-miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/terranite/terra-move1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/monsters/tengu/tengu-crit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/monsters/tengu/tengu-die1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/monsters/tengu/tengu-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/monsters/tengu/tengu-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/monsters/tengu/tengu-hit3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/monsters/tengu/tengu-hurt1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/monsters/tengu/tengu-hurt2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/monsters/tengu/tengu-hurt3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/monsters/tengu/tengu-miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/tengu/crit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/tengu/die1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/tengu/hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/tengu/hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/tengu/hit3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/tengu/hurt1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/tengu/hurt2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/tengu/hurt3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/tengu/miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/wolvern/wolvern-dying1.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
 `sfx/monsters/wolvern/wolvern-hit1.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
 `sfx/monsters/wolvern/wolvern-hit2.ogg` | Chicka-Maria | GPLv2, CC BY-SA 3.0
@@ -1363,6 +1366,7 @@ File | Artists | Licenses
 `sfx/system/ship-bell2.ogg` | unknown | (public domain)
 `sfx/system/skillup02.ogg` | Ledmitz ([SFX] Angelic_ Choir_ Ahhhh_ Dm Chord (90bpm) (320kb).mp3 / TuneHntr_2Day / Sampling+ 1.0) | GPLv2, CC BY-SA 3.0
 `sfx/system/warning.ogg` | Jesusalva | (public domain)
+`sfx/system/warp.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/miss2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/miss3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
@@ -1371,8 +1375,8 @@ File | Artists | Licenses
 `sfx/weapons/bows/banshee/banshee-hit2.ogg` | Ledmitz (rocket-shots.mp3 / Audionautics / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/weapons/bows/banshee/banshee-hit3.ogg` | Ledmitz (rocket-shots.mp3 / Audionautics / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/weapons/bows/banshee/banshee-miss1.ogg` | Ledmitz (rocket-shots.mp3 / Audionautics / CC BY 3.0) | GPLv2, CC BY-SA 3.0
-`sfx/weapons/bows/banshee/banshee-miss1.ogg` | Ledmitz (rocket-shots.mp3 / Audionautics / CC BY 3.0) | GPLv2, CC BY-SA 3.0
-`sfx/weapons/bows/banshee/banshee-miss1.ogg` | Ledmitz (rocket-shots.mp3 / Audionautics / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/banshee/banshee-miss2.ogg` | Ledmitz (rocket-shots.mp3 / Audionautics / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/banshee/banshee-miss3.ogg` | Ledmitz (rocket-shots.mp3 / Audionautics / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/weapons/bows/forest/forest-hit1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/weapons/bows/forest/forest-miss1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/weapons/bows/short/short-hit1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0

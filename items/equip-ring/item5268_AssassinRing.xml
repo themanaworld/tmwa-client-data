@@ -1,10 +1,4 @@
 <?xml version="1.0"?>
 <items>
-  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
-    <its:translateRule selector="//item/@name" translate="yes"/>
-    <its:translateRule selector="//item/@description" translate="yes"/>
-    <its:translateRule selector="//item/@effect" translate="yes"/>
-    <its:translateRule selector="//*" translate="no"/>
-  </its:rules>
   <item id="5268" image="equipment/rings/assassin-ring.png" name="Assassin Ring" description="Ring for a master assassin. (Brawler only: Strength +2 / Dexterity +1)" effect="Attack Speed +5%" agi="1" criticalattack="5" type="equip-ring" weight="1" sellProtected="true"/>
 </items>

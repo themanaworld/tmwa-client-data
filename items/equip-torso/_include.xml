@@ -1,11 +1,5 @@
 <?xml version="1.0"?>
 <items>
-  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
-    <its:translateRule selector="//item/@name" translate="yes"/>
-    <its:translateRule selector="//item/@description" translate="yes"/>
-    <its:translateRule selector="//item/@effect" translate="yes"/>
-    <its:translateRule selector="//*" translate="no"/>
-  </its:rules>
   <include name="items/equip-torso/item523_LeatherShirt.xml"/>
   <include name="items/equip-torso/item546_DesertShirt.xml"/>
   <include name="items/equip-torso/item564_TurtleneckSweater.xml"/>
