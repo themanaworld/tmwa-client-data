@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.4" orientation="orthogonal" renderorder="right-down" width="160" height="170" tilewidth="32" tileheight="32" infinite="0" nextobjectid="28">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="160" height="170" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="28">
  <properties>
   <property name="music" value="peace.ogg"/>
   <property name="name" value="Tulimshar Lighthouse Beach"/>
@@ -19,7 +19,7 @@
  <tileset firstgid="1561" source="../tilesets/waterflow.tsx"/>
  <tileset firstgid="1633" source="../tilesets/water.tsx"/>
  <tileset firstgid="1798" source="../tilesets/water_overflow.tsx"/>
- <layer name="Ground1" width="160" height="170">
+ <layer id="1" name="Ground1" width="160" height="170">
   <data encoding="csv">
 1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,
 1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1578,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,1596,
@@ -193,7 +193,7 @@
 1569,1569,1569,1569,1569,1569,1569,1569,1569,1569,1569,1569,1569,1569,1569,1569,1569,1569,1569,1569,1569,1569,1569,1569,1569,1569,1569,1569,1569,1569,1569,1569,1569,1569,1796,1778,3,3,3,3,3,3,3,3,3,3,3,3,605,605,605,605,605,605,605,605,605,605,605,605,605,605,605,605,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,374,391,359,359,359,359,406,343,343,343,343,343,343,343,343,343,343,343,344,387,388,388,388,388,388,388,388,388,388,388,388,388,388,388,388,388,388,388,388,388,388,388,388,388,388,388,388,388,388,439,404,438,388,388,388,388,388,388,389,1780,1796,1623,1623,1623,1623,1623,1623,1623,1623,1623,1623,1623
 </data>
  </layer>
- <layer name="Ground2" width="160" height="170">
+ <layer id="2" name="Ground2" width="160" height="170">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -367,7 +367,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1775,1770,914,101,0,0,0,0,0,0,0,0,0,0,681,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,682,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,114,186,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1165,1149,1150,1151,1152,1153,1154,1149,1150,1151,1152,1153,1154,1149,1150,1151,1152,1153,1154,1149,1150,1151,1152,1153,1149,1150,1151,1152,1153,1154,1145,0,1146,1151,1152,1153,1151,1152,1153,1166,916,1768,1773,1020,1021,1022,1020,1021,1022,1020,1021,1022,0
 </data>
  </layer>
- <layer name="Ground3" width="160" height="170">
+ <layer id="3" name="Ground3" width="160" height="170">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -541,7 +541,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1007,1020,1021,1022,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Ground4" width="160" height="170">
+ <layer id="4" name="Ground4" width="160" height="170">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -715,7 +715,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Fringe" width="160" height="170">
+ <layer id="5" name="Fringe" width="160" height="170">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -889,7 +889,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Over1" width="160" height="170">
+ <layer id="6" name="Over1" width="160" height="170">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1063,7 +1063,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,101,0,0,0,0,0,0,0,0,0,0,681,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,682,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,87,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1000,0,0,0,0,0,0,0,0,1000,0
 </data>
  </layer>
- <layer name="Over2" width="160" height="170">
+ <layer id="7" name="Over2" width="160" height="170">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1237,7 +1237,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="160" height="170">
+ <layer id="8" name="Collision" width="160" height="170">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -1411,184 +1411,184 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup name="Objects" visible="0">
+ <objectgroup id="9" name="Objects" visible="0">
   <object id="2" name="To Tulismhar Suburbs" type="warp" x="2048" y="4672" width="64" height="32">
    <properties>
     <property name="dest_map" value="042-1"/>
-    <property name="dest_tile_x" value="65"/>
-    <property name="dest_tile_y" value="24"/>
+    <property name="dest_x" value="65"/>
+    <property name="dest_y" value="24"/>
    </properties>
   </object>
   <object id="3" name="To Lighthouse Caves" type="warp" x="2400" y="4288" width="32" height="32">
    <properties>
     <property name="dest_map" value="023-3"/>
-    <property name="dest_tile_x" value="75"/>
-    <property name="dest_tile_y" value="132"/>
+    <property name="dest_x" value="75"/>
+    <property name="dest_y" value="132"/>
    </properties>
   </object>
   <object id="4" name="To Lighthouse Caves" type="warp" x="2272" y="3744" width="32" height="32">
    <properties>
     <property name="dest_map" value="023-3"/>
-    <property name="dest_tile_x" value="71"/>
-    <property name="dest_tile_y" value="114"/>
+    <property name="dest_x" value="71"/>
+    <property name="dest_y" value="114"/>
    </properties>
   </object>
   <object id="5" name="To Lighthouse Caves" type="warp" x="2656" y="3648" width="32" height="32">
    <properties>
     <property name="dest_map" value="023-3"/>
-    <property name="dest_tile_x" value="83"/>
-    <property name="dest_tile_y" value="112"/>
+    <property name="dest_x" value="83"/>
+    <property name="dest_y" value="112"/>
    </properties>
   </object>
   <object id="6" name="To Lighthouse Caves" type="warp" x="3424" y="3840" width="32" height="32">
    <properties>
     <property name="dest_map" value="023-3"/>
-    <property name="dest_tile_x" value="106"/>
-    <property name="dest_tile_y" value="118"/>
+    <property name="dest_x" value="106"/>
+    <property name="dest_y" value="118"/>
    </properties>
   </object>
   <object id="7" name="To Lighthouse Caves" type="warp" x="3360" y="3648" width="32" height="32">
    <properties>
     <property name="dest_map" value="023-3"/>
-    <property name="dest_tile_x" value="106"/>
-    <property name="dest_tile_y" value="115"/>
+    <property name="dest_x" value="106"/>
+    <property name="dest_y" value="115"/>
    </properties>
   </object>
   <object id="8" name="To Lighthouse Caves" type="warp" x="2240" y="3040" width="32" height="32">
    <properties>
     <property name="dest_map" value="023-3"/>
-    <property name="dest_tile_x" value="70"/>
-    <property name="dest_tile_y" value="93"/>
+    <property name="dest_x" value="70"/>
+    <property name="dest_y" value="93"/>
    </properties>
   </object>
   <object id="9" name="To Lighthouse Caves" type="warp" x="1536" y="2560" width="32" height="32">
    <properties>
     <property name="dest_map" value="023-3"/>
-    <property name="dest_tile_x" value="48"/>
-    <property name="dest_tile_y" value="78"/>
+    <property name="dest_x" value="48"/>
+    <property name="dest_y" value="78"/>
    </properties>
   </object>
   <object id="10" name="To Lighthouse Caves" type="warp" x="1952" y="1152" width="32" height="32">
    <properties>
     <property name="dest_map" value="023-3"/>
-    <property name="dest_tile_x" value="61"/>
-    <property name="dest_tile_y" value="39"/>
+    <property name="dest_x" value="61"/>
+    <property name="dest_y" value="39"/>
    </properties>
   </object>
   <object id="11" name="To Lighthouse " type="warp" x="1152" y="1088" width="32" height="32">
    <properties>
     <property name="dest_map" value="023-2"/>
-    <property name="dest_tile_x" value="31"/>
-    <property name="dest_tile_y" value="38"/>
+    <property name="dest_x" value="31"/>
+    <property name="dest_y" value="38"/>
    </properties>
   </object>
   <object id="12" name="To Lighthouse " type="warp" x="1184" y="736" width="32" height="32">
    <properties>
     <property name="dest_map" value="023-2"/>
-    <property name="dest_tile_x" value="31"/>
-    <property name="dest_tile_y" value="33"/>
+    <property name="dest_x" value="31"/>
+    <property name="dest_y" value="33"/>
    </properties>
   </object>
   <object id="13" name="Thug" type="spawn" x="2144" y="1216" width="256" height="256">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="117"/>
    </properties>
   </object>
   <object id="14" name="Swashbuckler" type="spawn" x="2528" y="960" width="384" height="256">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="118"/>
    </properties>
   </object>
   <object id="15" name="Grenadier" type="spawn" x="1760" y="800" width="224" height="224">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="119"/>
    </properties>
   </object>
   <object id="16" name="Swashbuckler" type="spawn" x="2400" y="3072" width="384" height="256">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="118"/>
    </properties>
   </object>
   <object id="17" name="Grenadier" type="spawn" x="2464" y="3712" width="640" height="96">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="119"/>
    </properties>
   </object>
   <object id="18" name="Thug" type="spawn" x="1664" y="3936" width="256" height="256">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="117"/>
    </properties>
   </object>
   <object id="19" name="Thug" type="spawn" x="1408" y="2656" width="256" height="256">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="117"/>
    </properties>
   </object>
   <object id="20" name="Swashbuckler" type="spawn" x="3104" y="2048" width="384" height="256">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="118"/>
    </properties>
   </object>
   <object id="21" name="Thug" type="spawn" x="3264" y="2784" width="256" height="256">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="117"/>
    </properties>
   </object>
   <object id="22" name="Thug" type="spawn" x="1888" y="1824" width="256" height="256">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="117"/>
    </properties>
   </object>
   <object id="23" name="Grenadier" type="spawn" x="2784" y="1408" width="448" height="384">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="119"/>
    </properties>
   </object>
   <object id="24" name="AngrySeaSlime" type="spawn" x="2048" y="2304" width="32" height="1504">
    <properties>
-    <property name="eA_death" value="100000"/>
-    <property name="eA_spawn" value="150000"/>
+    <property name="death" value="100000"/>
+    <property name="spawn" value="150000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="107"/>
    </properties>
   </object>
   <object id="25" name="AngrySeaSlime" type="spawn" x="1376" y="1120" width="192" height="1248">
    <properties>
-    <property name="eA_death" value="100000"/>
-    <property name="eA_spawn" value="150000"/>
+    <property name="death" value="100000"/>
+    <property name="spawn" value="150000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="107"/>
    </properties>
@@ -1596,15 +1596,15 @@
   <object id="26" name="To Other Side Of Bridge" type="warp" x="2112" y="3168" width="32" height="128">
    <properties>
     <property name="dest_map" value="023-1"/>
-    <property name="dest_tile_x" value="61"/>
-    <property name="dest_tile_y" value="100"/>
+    <property name="dest_x" value="61"/>
+    <property name="dest_y" value="100"/>
    </properties>
   </object>
   <object id="27" name="To Other Side Of Bridge" type="warp" x="1984" y="3168" width="32" height="128">
    <properties>
     <property name="dest_map" value="023-1"/>
-    <property name="dest_tile_x" value="67"/>
-    <property name="dest_tile_y" value="100"/>
+    <property name="dest_x" value="67"/>
+    <property name="dest_y" value="100"/>
    </properties>
   </object>
  </objectgroup>

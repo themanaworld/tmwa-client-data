@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="orthogonal" renderorder="right-down" width="178" height="135" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="22">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="178" height="135" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="22">
  <properties>
   <property name="music" value="explorers-melody.ogg"/>
   <property name="name" value="Rock Plateau"/>
@@ -870,56 +870,56 @@
  <objectgroup id="7" name="Objects" visible="0">
   <object id="1" name="Reinboo" type="spawn" x="0" y="224">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="40"/>
     <property name="monster_id" value="92"/>
    </properties>
   </object>
   <object id="2" name="Fluffy" type="spawn" x="0" y="224">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="50"/>
     <property name="monster_id" value="18"/>
    </properties>
   </object>
   <object id="3" name="Squirrel" type="spawn" x="0" y="224">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="50"/>
     <property name="monster_id" value="36"/>
    </properties>
   </object>
   <object id="4" name="Moggun" type="spawn" x="576" y="800" width="1696" height="672">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="12"/>
     <property name="monster_id" value="59"/>
    </properties>
   </object>
   <object id="5" name="Yeti" type="spawn" x="0" y="224">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="70"/>
    </properties>
   </object>
   <object id="6" name="Wolvern" type="spawn" x="2432" y="3040" width="768" height="448">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="5"/>
     <property name="monster_id" value="88"/>
    </properties>
   </object>
   <object id="7" name="WhiteBell" type="spawn" x="0" y="224">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="9"/>
     <property name="monster_id" value="93"/>
    </properties>
@@ -927,94 +927,94 @@
   <object id="8" name="To Snow Forest" type="warp" x="3008" y="3968" width="64" height="32">
    <properties>
     <property name="dest_map" value="034-1"/>
-    <property name="dest_tile_x" value="94"/>
-    <property name="dest_tile_y" value="19"/>
+    <property name="dest_x" value="94"/>
+    <property name="dest_y" value="19"/>
    </properties>
   </object>
   <object id="9" name="To Highlands" type="warp" x="928" y="640" width="32" height="32">
    <properties>
     <property name="dest_map" value="047-1"/>
-    <property name="dest_tile_x" value="70"/>
-    <property name="dest_tile_y" value="178"/>
+    <property name="dest_x" value="70"/>
+    <property name="dest_y" value="178"/>
    </properties>
   </object>
   <object id="10" name="To Highlands" type="warp" x="992" y="640" width="32" height="32">
    <properties>
     <property name="dest_map" value="047-1"/>
-    <property name="dest_tile_x" value="70"/>
-    <property name="dest_tile_y" value="178"/>
+    <property name="dest_x" value="70"/>
+    <property name="dest_y" value="178"/>
    </properties>
   </object>
   <object id="11" name="To Frosty Underground" type="warp" x="2496" y="1184" width="32" height="32">
    <properties>
     <property name="dest_map" value="046-3"/>
-    <property name="dest_tile_x" value="78"/>
-    <property name="dest_tile_y" value="29"/>
+    <property name="dest_x" value="78"/>
+    <property name="dest_y" value="29"/>
    </properties>
   </object>
   <object id="12" name="To Frosty Underground" type="warp" x="4192" y="1760" width="32" height="32">
    <properties>
     <property name="dest_map" value="046-3"/>
-    <property name="dest_tile_x" value="131"/>
-    <property name="dest_tile_y" value="47"/>
+    <property name="dest_x" value="131"/>
+    <property name="dest_y" value="47"/>
    </properties>
   </object>
   <object id="13" name="To Frosty Underground" type="warp" x="4192" y="1984" width="32" height="32">
    <properties>
     <property name="dest_map" value="046-3"/>
-    <property name="dest_tile_x" value="131"/>
-    <property name="dest_tile_y" value="54"/>
+    <property name="dest_x" value="131"/>
+    <property name="dest_y" value="54"/>
    </properties>
   </object>
   <object id="14" name="To Frosty Underground" type="warp" x="4448" y="832" width="32" height="32">
    <properties>
     <property name="dest_map" value="046-3"/>
-    <property name="dest_tile_x" value="139"/>
-    <property name="dest_tile_y" value="18"/>
+    <property name="dest_x" value="139"/>
+    <property name="dest_y" value="18"/>
    </properties>
   </object>
   <object id="15" name="To Frosty Underground" type="warp" x="2656" y="1600" width="32" height="32">
    <properties>
     <property name="dest_map" value="046-3"/>
-    <property name="dest_tile_x" value="83"/>
-    <property name="dest_tile_y" value="42"/>
+    <property name="dest_x" value="83"/>
+    <property name="dest_y" value="42"/>
    </properties>
   </object>
   <object id="16" name="To Frosty Underground" type="warp" x="3968" y="3712" width="32" height="32">
    <properties>
     <property name="dest_map" value="046-3"/>
-    <property name="dest_tile_x" value="124"/>
-    <property name="dest_tile_y" value="108"/>
+    <property name="dest_x" value="124"/>
+    <property name="dest_y" value="108"/>
    </properties>
   </object>
   <object id="17" name="Wolvern" type="spawn" x="2080" y="1696" width="512" height="416">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="88"/>
    </properties>
   </object>
   <object id="18" name="Wolvern" type="spawn" x="992" y="3456" width="352" height="320">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="88"/>
    </properties>
   </object>
   <object id="19" name="Wolvern" type="spawn" x="2976" y="768" width="1472" height="1088">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="7"/>
     <property name="monster_id" value="88"/>
    </properties>
   </object>
   <object id="20" name="Wolvern" type="spawn" x="4480" y="2016" width="352" height="320">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="88"/>
    </properties>
@@ -1022,8 +1022,8 @@
   <object id="21" name="To Frosty Underground" type="warp" x="1984" y="832" width="32" height="32">
    <properties>
     <property name="dest_map" value="019-4"/>
-    <property name="dest_tile_x" value="24"/>
-    <property name="dest_tile_y" value="123"/>
+    <property name="dest_x" value="24"/>
+    <property name="dest_y" value="123"/>
    </properties>
   </object>
  </objectgroup>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="140" height="140" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="103">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="140" height="140" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="103">
  <properties>
   <property name="minimap" value="graphics/minimaps/001-1.png"/>
   <property name="music" value="faith.ogg"/>
@@ -1319,143 +1319,143 @@
 </data>
  </layer>
  <objectgroup id="10" name="Objects" visible="0">
-  <object id="3" name="South Tulimshar" class="warp" x="1952" y="3808" width="160" height="32">
+  <object id="3" name="South Tulimshar" type="warp" x="1952" y="3808" width="160" height="32">
    <properties>
     <property name="dest_map" value="002-1"/>
-    <property name="dest_tile_x" value="63"/>
-    <property name="dest_tile_y" value="21"/>
+    <property name="dest_x" value="63"/>
+    <property name="dest_y" value="21"/>
    </properties>
   </object>
-  <object id="4" name="South Tulimshar" class="warp" x="3232" y="3808" width="160" height="32">
+  <object id="4" name="South Tulimshar" type="warp" x="3232" y="3808" width="160" height="32">
    <properties>
     <property name="dest_map" value="002-1"/>
-    <property name="dest_tile_x" value="103"/>
-    <property name="dest_tile_y" value="21"/>
+    <property name="dest_x" value="103"/>
+    <property name="dest_y" value="21"/>
    </properties>
   </object>
-  <object id="27" name="GreenSlime" class="spawn" x="864" y="1728" width="352" height="384">
+  <object id="27" name="GreenSlime" type="spawn" x="864" y="1728" width="352" height="384">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="8"/>
     <property name="monster_id" value="3"/>
    </properties>
   </object>
-  <object id="29" name="GreenSlime" class="spawn" x="1280" y="3040" width="352" height="384">
+  <object id="29" name="GreenSlime" type="spawn" x="1280" y="3040" width="352" height="384">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="8"/>
     <property name="monster_id" value="3"/>
    </properties>
   </object>
-  <object id="34" name="SeaSlime" class="spawn" x="1056" y="1856" width="288" height="1120">
+  <object id="34" name="SeaSlime" type="spawn" x="1056" y="1856" width="288" height="1120">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="8"/>
     <property name="monster_id" value="31"/>
    </properties>
   </object>
-  <object id="40" name="Maggot" class="spawn" x="1728" y="1824" width="2112" height="1792">
+  <object id="40" name="Maggot" type="spawn" x="1728" y="1824" width="2112" height="1792">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="11"/>
     <property name="monster_id" value="0"/>
    </properties>
   </object>
-  <object id="41" name="SeaSlime" class="spawn" x="1728" y="1824" width="2112" height="1792">
+  <object id="41" name="SeaSlime" type="spawn" x="1728" y="1824" width="2112" height="1792">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="8"/>
     <property name="monster_id" value="31"/>
    </properties>
   </object>
-  <object id="51" name="To Government Building" class="warp" x="1760" y="2272" width="32" height="32">
+  <object id="51" name="To Government Building" type="warp" x="1760" y="2272" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2"/>
-    <property name="dest_tile_x" value="31"/>
-    <property name="dest_tile_y" value="27"/>
+    <property name="dest_x" value="31"/>
+    <property name="dest_y" value="27"/>
    </properties>
   </object>
-  <object id="52" name="To Government Building" class="warp" x="1664" y="2272" width="32" height="32">
+  <object id="52" name="To Government Building" type="warp" x="1664" y="2272" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2"/>
-    <property name="dest_tile_x" value="28"/>
-    <property name="dest_tile_y" value="27"/>
+    <property name="dest_x" value="28"/>
+    <property name="dest_y" value="27"/>
    </properties>
   </object>
-  <object id="53" name="To Government Building" class="warp" x="1568" y="2272" width="32" height="32">
+  <object id="53" name="To Government Building" type="warp" x="1568" y="2272" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2"/>
-    <property name="dest_tile_x" value="25"/>
-    <property name="dest_tile_y" value="27"/>
+    <property name="dest_x" value="25"/>
+    <property name="dest_y" value="27"/>
    </properties>
   </object>
-  <object id="54" name="To Tulimshar Forge" class="warp" x="3648" y="3168" width="32" height="32">
+  <object id="54" name="To Tulimshar Forge" type="warp" x="3648" y="3168" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2"/>
-    <property name="dest_tile_x" value="25"/>
-    <property name="dest_tile_y" value="64"/>
+    <property name="dest_x" value="25"/>
+    <property name="dest_y" value="64"/>
    </properties>
   </object>
-  <object id="58" name="To MIT" class="warp" x="864" y="1024" width="32" height="32">
+  <object id="58" name="To MIT" type="warp" x="864" y="1024" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2"/>
-    <property name="dest_tile_x" value="28"/>
-    <property name="dest_tile_y" value="101"/>
+    <property name="dest_x" value="28"/>
+    <property name="dest_y" value="101"/>
    </properties>
   </object>
-  <object id="60" name="graphics/particles/magic-building-aura.particle.xml" class="particle_effect" x="2208" y="768" width="32" height="32"/>
-  <object id="95" name="To MIT" class="warp" x="1184" y="1024" width="32" height="32">
+  <object id="60" name="graphics/particles/magic-building-aura.particle.xml" type="particle_effect" x="2208" y="768" width="32" height="32"/>
+  <object id="95" name="To MIT" type="warp" x="1184" y="1024" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2"/>
-    <property name="dest_tile_x" value="71"/>
-    <property name="dest_tile_y" value="101"/>
+    <property name="dest_x" value="71"/>
+    <property name="dest_y" value="101"/>
    </properties>
   </object>
-  <object id="96" name="To Tulimshar Castle" class="warp" x="1728" y="1088" width="64" height="32">
+  <object id="96" name="To Tulimshar Castle" type="warp" x="1728" y="1088" width="64" height="32">
    <properties>
     <property name="dest_map" value="001-2"/>
-    <property name="dest_tile_x" value="104"/>
-    <property name="dest_tile_y" value="101"/>
+    <property name="dest_x" value="104"/>
+    <property name="dest_y" value="101"/>
    </properties>
   </object>
-  <object id="97" name="Council Chambers" class="warp" x="1664" y="704" width="32" height="32">
+  <object id="97" name="Council Chambers" type="warp" x="1664" y="704" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2"/>
-    <property name="dest_tile_x" value="95"/>
-    <property name="dest_tile_y" value="52"/>
+    <property name="dest_x" value="95"/>
+    <property name="dest_y" value="52"/>
    </properties>
   </object>
-  <object id="98" name="Council Chambers" class="warp" x="1824" y="704" width="32" height="32">
+  <object id="98" name="Council Chambers" type="warp" x="1824" y="704" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2"/>
-    <property name="dest_tile_x" value="114"/>
-    <property name="dest_tile_y" value="52"/>
+    <property name="dest_x" value="114"/>
+    <property name="dest_y" value="52"/>
    </properties>
   </object>
-  <object id="99" name="To MIT" class="warp" x="896" y="736" width="32" height="32">
+  <object id="99" name="To MIT" type="warp" x="896" y="736" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2"/>
-    <property name="dest_tile_x" value="28"/>
-    <property name="dest_tile_y" value="87"/>
+    <property name="dest_x" value="28"/>
+    <property name="dest_y" value="87"/>
    </properties>
   </object>
-  <object id="101" name="Sewers" class="warp" x="896" y="1408" width="32" height="32">
+  <object id="101" name="Sewers" type="warp" x="896" y="1408" width="32" height="32">
    <properties>
     <property name="dest_map" value="021-3"/>
-    <property name="dest_tile_x" value="29"/>
-    <property name="dest_tile_y" value="61"/>
+    <property name="dest_x" value="29"/>
+    <property name="dest_y" value="61"/>
    </properties>
   </object>
-  <object id="102" name="To Bank" class="warp" x="1888" y="3136" width="32" height="32">
+  <object id="102" name="To Bank" type="warp" x="1888" y="3136" width="32" height="32">
    <properties>
     <property name="dest_map" value="001-2"/>
-    <property name="dest_tile_x" value="65"/>
-    <property name="dest_tile_y" value="25"/>
+    <property name="dest_x" value="65"/>
+    <property name="dest_y" value="25"/>
    </properties>
   </object>
  </objectgroup>

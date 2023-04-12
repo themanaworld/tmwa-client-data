@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="140" height="142" tilewidth="32" tileheight="32" nextobjectid="12">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="140" height="142" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="12">
  <properties>
   <property name="music" value="peace.ogg"/>
   <property name="name" value="Candor Island Indoor"/>
@@ -14,7 +14,7 @@
  <tileset firstgid="911" source="../tilesets/woodland_indoor_x2.tsx"/>
  <tileset firstgid="959" source="../tilesets/woodland_indoor_x3.tsx"/>
  <tileset firstgid="1007" source="../tilesets/arrows.tsx"/>
- <layer name="Ground1" width="140" height="142">
+ <layer id="1" name="Ground1" width="140" height="142">
   <properties>
    <property name="Mask" value="1"/>
   </properties>
@@ -163,7 +163,7 @@
 249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249
 </data>
  </layer>
- <layer name="Ground2" width="140" height="142">
+ <layer id="2" name="Ground2" width="140" height="142">
   <properties>
    <property name="Mask" value="1"/>
   </properties>
@@ -312,7 +312,7 @@
 249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249
 </data>
  </layer>
- <layer name="Mask_Outside" width="140" height="142">
+ <layer id="3" name="Mask_Outside" width="140" height="142">
   <properties>
    <property name="Mask" value="2"/>
   </properties>
@@ -461,7 +461,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Mask_Exit" width="140" height="142">
+ <layer id="4" name="Mask_Exit" width="140" height="142">
   <properties>
    <property name="Mask" value="8"/>
   </properties>
@@ -610,7 +610,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Mask_Carpet" width="140" height="142">
+ <layer id="5" name="Mask_Carpet" width="140" height="142">
   <properties>
    <property name="Mask" value="4"/>
   </properties>
@@ -759,7 +759,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Mask_Dresser2" width="140" height="142">
+ <layer id="6" name="Mask_Dresser2" width="140" height="142">
   <properties>
    <property name="Mask" value="32"/>
   </properties>
@@ -908,7 +908,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Mask_Dresser" width="140" height="142">
+ <layer id="7" name="Mask_Dresser" width="140" height="142">
   <properties>
    <property name="Mask" value="16"/>
   </properties>
@@ -1057,7 +1057,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Ground3" width="140" height="142">
+ <layer id="8" name="Ground3" width="140" height="142">
   <properties>
    <property name="Mask" value="1"/>
   </properties>
@@ -1206,7 +1206,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Fringe" width="140" height="142">
+ <layer id="9" name="Fringe" width="140" height="142">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1352,7 +1352,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Over1" width="140" height="142">
+ <layer id="10" name="Over1" width="140" height="142">
   <properties>
    <property name="Mask" value="1"/>
   </properties>
@@ -1501,7 +1501,7 @@
 249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249
 </data>
  </layer>
- <layer name="Collision" width="140" height="142" visible="0">
+ <layer id="11" name="Collision" width="140" height="142" visible="0">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -1647,26 +1647,26 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup name="Objects">
+ <objectgroup id="12" name="Objects">
   <object id="1" name="To Outside" type="warp" x="928" y="1984" width="32" height="32">
    <properties>
     <property name="dest_map" value="029-1"/>
-    <property name="dest_tile_x" value="40"/>
-    <property name="dest_tile_y" value="89"/>
+    <property name="dest_x" value="40"/>
+    <property name="dest_y" value="89"/>
    </properties>
   </object>
   <object id="2" name="To Outside" type="warp" x="704" y="2976" width="32" height="32">
    <properties>
     <property name="dest_map" value="029-1"/>
-    <property name="dest_tile_x" value="44"/>
-    <property name="dest_tile_y" value="84"/>
+    <property name="dest_x" value="44"/>
+    <property name="dest_y" value="84"/>
    </properties>
   </object>
   <object id="3" name="To Bedroom" type="warp" x="3584" y="2688" width="32" height="32">
    <properties>
     <property name="dest_map" value="029-2"/>
-    <property name="dest_tile_x" value="44"/>
-    <property name="dest_tile_y" value="30"/>
+    <property name="dest_x" value="44"/>
+    <property name="dest_y" value="30"/>
    </properties>
   </object>
   <object id="4" name="graphics/particles/warparea.particle.xml" type="particle_effect" x="1408" y="992" width="32" height="32"/>
@@ -1674,14 +1674,14 @@
   <object id="6" name="To Outside" type="warp" x="3296" y="1984" width="32" height="32">
    <properties>
     <property name="dest_map" value="029-1"/>
-    <property name="dest_tile_x" value="52"/>
-    <property name="dest_tile_y" value="85"/>
+    <property name="dest_x" value="52"/>
+    <property name="dest_y" value="85"/>
    </properties>
   </object>
   <object id="7" name="HouseMaggot" type="spawn" x="672" y="1728" width="800" height="256">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="7"/>
     <property name="monster_id" value="48"/>
    </properties>
@@ -1689,15 +1689,15 @@
   <object id="8" name="To Outside" type="warp" x="3008" y="992" width="32" height="32">
    <properties>
     <property name="dest_map" value="029-1"/>
-    <property name="dest_tile_x" value="58"/>
-    <property name="dest_tile_y" value="80"/>
+    <property name="dest_x" value="58"/>
+    <property name="dest_y" value="80"/>
    </properties>
   </object>
   <object id="9" name="To Outside" type="warp" x="768" y="3968" width="32" height="32">
    <properties>
     <property name="dest_map" value="029-1"/>
-    <property name="dest_tile_x" value="49"/>
-    <property name="dest_tile_y" value="78"/>
+    <property name="dest_x" value="49"/>
+    <property name="dest_y" value="78"/>
    </properties>
   </object>
   <object id="10" name="Alchemy" type="node" x="3616" y="1824" width="32" height="32"/>

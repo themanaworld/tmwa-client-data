@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="140" height="120" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="14">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="140" height="120" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="14">
  <properties>
   <property name="minimap" value="graphics/minimaps/015-1.png"/>
   <property name="music" value="the-forest.ogg"/>
@@ -636,103 +636,103 @@
 </data>
  </layer>
  <objectgroup id="6" name="Objects" visible="0">
-  <object id="1" name="To Woodland" class="warp" x="2976" y="1728" width="32" height="64">
+  <object id="1" name="To Woodland" type="warp" x="2976" y="1728" width="32" height="64">
    <properties>
     <property name="dest_map" value="010-1"/>
-    <property name="dest_tile_x" value="14"/>
-    <property name="dest_tile_y" value="54"/>
+    <property name="dest_x" value="14"/>
+    <property name="dest_y" value="54"/>
    </properties>
   </object>
-  <object id="2" name="To Cat's Cave" class="warp" x="1888" y="992" width="32" height="32">
+  <object id="2" name="To Cat's Cave" type="warp" x="1888" y="992" width="32" height="32">
    <properties>
     <property name="dest_map" value="015-3"/>
-    <property name="dest_tile_x" value="31"/>
-    <property name="dest_tile_y" value="42"/>
+    <property name="dest_x" value="31"/>
+    <property name="dest_y" value="42"/>
    </properties>
   </object>
-  <object id="3" name="CloverPatch" class="spawn" x="0" y="0">
+  <object id="3" name="CloverPatch" type="spawn" x="0" y="0">
    <properties>
-    <property name="eA_death" value="1000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="1000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="35"/>
    </properties>
   </object>
-  <object id="4" name="To Woodland Swamp" class="warp" x="1824" y="3232" width="128" height="32">
+  <object id="4" name="To Woodland Swamp" type="warp" x="1824" y="3232" width="128" height="32">
    <properties>
     <property name="dest_map" value="025-1"/>
-    <property name="dest_tile_x" value="89"/>
-    <property name="dest_tile_y" value="20"/>
+    <property name="dest_x" value="89"/>
+    <property name="dest_y" value="20"/>
    </properties>
   </object>
-  <object id="5" name="Butterfly" class="spawn" x="0" y="0">
+  <object id="5" name="Butterfly" type="spawn" x="0" y="0">
    <properties>
-    <property name="eA_death" value="20"/>
-    <property name="eA_spawn" value="30"/>
+    <property name="death" value="20"/>
+    <property name="spawn" value="30"/>
     <property name="max_beings" value="10"/>
     <property name="monster_id" value="53"/>
    </properties>
   </object>
-  <object id="6" name="Squirrel" class="spawn" x="0" y="0">
+  <object id="6" name="Squirrel" type="spawn" x="0" y="0">
    <properties>
-    <property name="eA_death" value="10"/>
-    <property name="eA_spawn" value="20"/>
+    <property name="death" value="10"/>
+    <property name="spawn" value="20"/>
     <property name="max_beings" value="30"/>
     <property name="monster_id" value="36"/>
    </properties>
   </object>
-  <object id="7" name="LogHead" class="spawn" x="0" y="0">
+  <object id="7" name="LogHead" type="spawn" x="0" y="0">
    <properties>
-    <property name="eA_death" value="0"/>
-    <property name="eA_spawn" value="0"/>
+    <property name="death" value="0"/>
+    <property name="spawn" value="0"/>
     <property name="max_beings" value="40"/>
     <property name="monster_id" value="23"/>
    </properties>
   </object>
-  <object id="8" name="SpikyMushroom" class="spawn" x="0" y="0">
+  <object id="8" name="SpikyMushroom" type="spawn" x="0" y="0">
    <properties>
-    <property name="eA_death" value="0"/>
-    <property name="eA_spawn" value="0"/>
+    <property name="death" value="0"/>
+    <property name="spawn" value="0"/>
     <property name="max_beings" value="20"/>
     <property name="monster_id" value="17"/>
    </properties>
   </object>
-  <object id="9" name="PinkFlower" class="spawn" x="0" y="0">
+  <object id="9" name="PinkFlower" type="spawn" x="0" y="0">
    <properties>
-    <property name="eA_death" value="0"/>
-    <property name="eA_spawn" value="0"/>
+    <property name="death" value="0"/>
+    <property name="spawn" value="0"/>
     <property name="max_beings" value="20"/>
     <property name="monster_id" value="12"/>
    </properties>
   </object>
-  <object id="10" name="GambogePlant" class="spawn" x="0" y="0">
+  <object id="10" name="GambogePlant" type="spawn" x="0" y="0">
    <properties>
-    <property name="eA_death" value="0"/>
-    <property name="eA_spawn" value="0"/>
+    <property name="death" value="0"/>
+    <property name="spawn" value="0"/>
     <property name="max_beings" value="5"/>
     <property name="monster_id" value="29"/>
    </properties>
   </object>
-  <object id="11" name="AlizarinPlant" class="spawn" x="0" y="0">
+  <object id="11" name="AlizarinPlant" type="spawn" x="0" y="0">
    <properties>
-    <property name="eA_death" value="0"/>
-    <property name="eA_spawn" value="0"/>
+    <property name="death" value="0"/>
+    <property name="spawn" value="0"/>
     <property name="max_beings" value="5"/>
     <property name="monster_id" value="30"/>
    </properties>
   </object>
-  <object id="12" name="Silkworm" class="spawn" x="0" y="0">
+  <object id="12" name="Silkworm" type="spawn" x="0" y="0">
    <properties>
-    <property name="eA_death" value="7000"/>
-    <property name="eA_spawn" value="15000"/>
+    <property name="death" value="7000"/>
+    <property name="spawn" value="15000"/>
     <property name="max_beings" value="7"/>
     <property name="monster_id" value="33"/>
    </properties>
   </object>
-  <object id="13" name="MauvePlant" class="spawn" x="0" y="0">
+  <object id="13" name="MauvePlant" type="spawn" x="0" y="0">
    <properties>
-    <property name="eA_death" value="180000"/>
-    <property name="eA_spawn" value="270000"/>
+    <property name="death" value="180000"/>
+    <property name="spawn" value="270000"/>
     <property name="max_beings" value="4"/>
     <property name="monster_id" value="27"/>
    </properties>

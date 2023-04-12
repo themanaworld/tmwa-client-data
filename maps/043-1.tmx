@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.0" orientation="orthogonal" renderorder="right-down" width="120" height="150" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="7">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="120" height="150" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="7">
  <properties>
   <property name="minimap" value="graphics/minimaps/043-1.png"/>
   <property name="music" value="faith.ogg"/>
@@ -1102,30 +1102,30 @@
   <object id="1" name="To Beach" type="warp" x="1280" y="608" width="192" height="32">
    <properties>
     <property name="dest_map" value="003-4"/>
-    <property name="dest_tile_x" value="114"/>
-    <property name="dest_tile_y" value="116"/>
+    <property name="dest_x" value="114"/>
+    <property name="dest_y" value="116"/>
    </properties>
   </object>
   <object id="2" name="SeaSlime" type="spawn" x="0" y="0">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="40000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="40000"/>
     <property name="max_beings" value="17"/>
     <property name="monster_id" value="31"/>
    </properties>
   </object>
   <object id="3" name="YellowSlime" type="spawn" x="0" y="0">
    <properties>
-    <property name="eA_death" value="60000"/>
-    <property name="eA_spawn" value="60000"/>
+    <property name="death" value="60000"/>
+    <property name="spawn" value="60000"/>
     <property name="max_beings" value="15"/>
     <property name="monster_id" value="5"/>
    </properties>
   </object>
   <object id="4" name="GreenSlime" type="spawn" x="0" y="0">
    <properties>
-    <property name="eA_death" value="60000"/>
-    <property name="eA_spawn" value="60000"/>
+    <property name="death" value="60000"/>
+    <property name="spawn" value="60000"/>
     <property name="max_beings" value="20"/>
     <property name="monster_id" value="3"/>
    </properties>

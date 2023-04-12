@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="190" height="138" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="12">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="190" height="138" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="12">
  <properties>
   <property name="minimap" value="graphics/minimaps/003-4.png"/>
   <property name="music" value="faith.ogg"/>
@@ -1158,73 +1158,73 @@
 </data>
  </layer>
  <objectgroup id="9" name="Objects" visible="0">
-  <object id="1" name="To Exit" class="warp" x="5504" y="2400" width="32" height="160">
+  <object id="1" name="To Exit" type="warp" x="5504" y="2400" width="32" height="160">
    <properties>
     <property name="dest_map" value="002-1"/>
-    <property name="dest_tile_x" value="32"/>
-    <property name="dest_tile_y" value="66"/>
+    <property name="dest_x" value="32"/>
+    <property name="dest_y" value="66"/>
    </properties>
   </object>
-  <object id="2" name="To Beach" class="warp" x="4480" y="608" width="96" height="32">
+  <object id="2" name="To Beach" type="warp" x="4480" y="608" width="96" height="32">
    <properties>
     <property name="dest_map" value="004-1"/>
-    <property name="dest_tile_x" value="37"/>
-    <property name="dest_tile_y" value="110"/>
+    <property name="dest_x" value="37"/>
+    <property name="dest_y" value="110"/>
    </properties>
   </object>
-  <object id="3" name="GiantMaggot" class="spawn" x="4608" y="640" width="928" height="3104">
+  <object id="3" name="GiantMaggot" type="spawn" x="4608" y="640" width="928" height="3104">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="10"/>
     <property name="monster_id" value="4"/>
    </properties>
   </object>
-  <object id="4" name="SeaSlime" class="spawn" x="0" y="0">
+  <object id="4" name="SeaSlime" type="spawn" x="0" y="0">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="15"/>
     <property name="monster_id" value="31"/>
    </properties>
   </object>
-  <object id="5" name="SeaSlime" class="spawn" x="3488" y="640" width="736" height="736">
+  <object id="5" name="SeaSlime" type="spawn" x="3488" y="640" width="736" height="736">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="5"/>
     <property name="monster_id" value="31"/>
    </properties>
   </object>
-  <object id="6" name="GreenSlime" class="spawn" x="2144" y="576" width="3392" height="3264">
+  <object id="6" name="GreenSlime" type="spawn" x="2144" y="576" width="3392" height="3264">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="35"/>
     <property name="monster_id" value="3"/>
    </properties>
   </object>
-  <object id="7" name="RedScorpion" class="spawn" x="3072" y="1088" width="2464" height="2304">
+  <object id="7" name="RedScorpion" type="spawn" x="3072" y="1088" width="2464" height="2304">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="20"/>
     <property name="monster_id" value="2"/>
    </properties>
   </object>
-  <object id="8" name="MountainSnake" class="spawn" x="960" y="768" width="352" height="128">
+  <object id="8" name="MountainSnake" type="spawn" x="960" y="768" width="352" height="128">
    <properties>
-    <property name="eA_death" value="600000"/>
-    <property name="eA_spawn" value="700000"/>
+    <property name="death" value="600000"/>
+    <property name="spawn" value="700000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="24"/>
    </properties>
   </object>
-  <object id="11" name="To Beach" class="warp" x="3584" y="3744" width="128" height="32">
+  <object id="11" name="To Beach" type="warp" x="3584" y="3744" width="128" height="32">
    <properties>
     <property name="dest_map" value="043-1"/>
-    <property name="dest_tile_x" value="44"/>
-    <property name="dest_tile_y" value="20"/>
+    <property name="dest_x" value="44"/>
+    <property name="dest_y" value="20"/>
    </properties>
   </object>
  </objectgroup>

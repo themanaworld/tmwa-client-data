@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="right-down" width="100" height="153" tilewidth="32" tileheight="32" infinite="0" nextlayerid="17" nextobjectid="36">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="100" height="153" tilewidth="32" tileheight="32" infinite="0" nextlayerid="17" nextobjectid="36">
  <properties>
   <property name="Authors" value="Tezer,Gumi"/>
   <property name="music" value="despair.ogg"/>
@@ -2424,15 +2424,15 @@
   <object id="6" name="To Outside" type="warp" x="832" y="3904" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-1"/>
-    <property name="dest_tile_x" value="74"/>
-    <property name="dest_tile_y" value="50"/>
+    <property name="dest_x" value="74"/>
+    <property name="dest_y" value="50"/>
    </properties>
   </object>
   <object id="8" name="To Back Entrance" type="warp" x="704" y="4288" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-1"/>
-    <property name="dest_tile_x" value="72"/>
-    <property name="dest_tile_y" value="54"/>
+    <property name="dest_x" value="72"/>
+    <property name="dest_y" value="54"/>
    </properties>
   </object>
   <object id="11" name="graphics/particles/fireplace.particle.xml" type="particle_effect" x="704" y="3936" width="32" height="32">
@@ -2488,93 +2488,93 @@
   <object id="23" name="To Hall" type="warp" x="1760" y="1760" width="64" height="32">
    <properties>
     <property name="dest_map" value="069-2"/>
-    <property name="dest_tile_x" value="44"/>
-    <property name="dest_tile_y" value="127"/>
+    <property name="dest_x" value="44"/>
+    <property name="dest_y" value="127"/>
    </properties>
   </object>
   <object id="24" name="To Hall" type="warp" x="1696" y="1280" width="32" height="32">
    <properties>
     <property name="dest_map" value="069-2"/>
-    <property name="dest_tile_x" value="97"/>
-    <property name="dest_tile_y" value="127"/>
+    <property name="dest_x" value="97"/>
+    <property name="dest_y" value="127"/>
    </properties>
   </object>
   <object id="25" name="To Hall" type="warp" x="1856" y="1280" width="32" height="32">
    <properties>
     <property name="dest_map" value="069-2"/>
-    <property name="dest_tile_x" value="116"/>
-    <property name="dest_tile_y" value="127"/>
+    <property name="dest_x" value="116"/>
+    <property name="dest_y" value="127"/>
    </properties>
   </object>
   <object id="26" name="To Tower" type="warp" x="2528" y="3168" width="32" height="32">
    <properties>
     <property name="dest_map" value="069-2"/>
-    <property name="dest_tile_x" value="117"/>
-    <property name="dest_tile_y" value="61"/>
+    <property name="dest_x" value="117"/>
+    <property name="dest_y" value="61"/>
    </properties>
   </object>
   <object id="27" name="To Tower" type="warp" x="2784" y="2496" width="32" height="32">
    <properties>
     <property name="dest_map" value="069-2"/>
-    <property name="dest_tile_x" value="86"/>
-    <property name="dest_tile_y" value="61"/>
+    <property name="dest_x" value="86"/>
+    <property name="dest_y" value="61"/>
    </properties>
   </object>
   <object id="28" name="To Tower" type="warp" x="2784" y="1792" width="32" height="32">
    <properties>
     <property name="dest_map" value="069-2"/>
-    <property name="dest_tile_x" value="55"/>
-    <property name="dest_tile_y" value="61"/>
+    <property name="dest_x" value="55"/>
+    <property name="dest_y" value="61"/>
    </properties>
   </object>
   <object id="29" name="To Tower" type="warp" x="2528" y="1248" width="32" height="32">
    <properties>
     <property name="dest_map" value="069-2"/>
-    <property name="dest_tile_x" value="24"/>
-    <property name="dest_tile_y" value="61"/>
+    <property name="dest_x" value="24"/>
+    <property name="dest_y" value="61"/>
    </properties>
   </object>
   <object id="30" name="To Tower" type="warp" x="1056" y="1248" width="32" height="32">
    <properties>
     <property name="dest_map" value="069-2"/>
-    <property name="dest_tile_x" value="117"/>
-    <property name="dest_tile_y" value="30"/>
+    <property name="dest_x" value="117"/>
+    <property name="dest_y" value="30"/>
    </properties>
   </object>
   <object id="31" name="To Tower" type="warp" x="768" y="1792" width="32" height="32">
    <properties>
     <property name="dest_map" value="069-2"/>
-    <property name="dest_tile_x" value="86"/>
-    <property name="dest_tile_y" value="30"/>
+    <property name="dest_x" value="86"/>
+    <property name="dest_y" value="30"/>
    </properties>
   </object>
   <object id="32" name="To Tower" type="warp" x="768" y="2496" width="32" height="32">
    <properties>
     <property name="dest_map" value="069-2"/>
-    <property name="dest_tile_x" value="55"/>
-    <property name="dest_tile_y" value="30"/>
+    <property name="dest_x" value="55"/>
+    <property name="dest_y" value="30"/>
    </properties>
   </object>
   <object id="33" name="To Tower" type="warp" x="1024" y="3136" width="32" height="32">
    <properties>
     <property name="dest_map" value="069-2"/>
-    <property name="dest_tile_x" value="24"/>
-    <property name="dest_tile_y" value="30"/>
+    <property name="dest_x" value="24"/>
+    <property name="dest_y" value="30"/>
    </properties>
   </object>
   <object id="34" name="To Basement" type="warp" x="1280" y="4000" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-8"/>
-    <property name="dest_tile_x" value="82"/>
-    <property name="dest_tile_y" value="126"/>
+    <property name="dest_x" value="82"/>
+    <property name="dest_y" value="126"/>
     <property name="ignore" value="this"/>
    </properties>
   </object>
   <object id="35" name="To Upper Floor" type="warp" x="2656" y="4000" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-8"/>
-    <property name="dest_tile_x" value="39"/>
-    <property name="dest_tile_y" value="126"/>
+    <property name="dest_x" value="39"/>
+    <property name="dest_y" value="126"/>
     <property name="ignore" value="this"/>
    </properties>
   </object>
