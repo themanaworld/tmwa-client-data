@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="73" height="130" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="18">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="73" height="130" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="18">
  <properties>
   <property name="music" value="inquisitive-inn.ogg"/>
   <property name="name" value="Graveyard Indoor"/>
@@ -952,8 +952,8 @@
  <objectgroup id="8" name="Objects" visible="0">
   <object id="5" name="TipsySkeleton" type="spawn" x="672" y="2880" width="320" height="640">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="76"/>
    </properties>
@@ -961,37 +961,37 @@
   <object id="11" name="To Graveyard" type="warp" x="1056" y="3552" width="192" height="32">
    <properties>
     <property name="dest_map" value="027-1"/>
-    <property name="dest_tile_x" value="28"/>
-    <property name="dest_tile_y" value="68"/>
+    <property name="dest_x" value="28"/>
+    <property name="dest_y" value="68"/>
    </properties>
   </object>
   <object id="12" name="To Crypts Basement" type="warp" x="1056" y="2496" width="192" height="32">
    <properties>
     <property name="dest_map" value="027-3"/>
-    <property name="dest_tile_x" value="25"/>
-    <property name="dest_tile_y" value="68"/>
+    <property name="dest_x" value="25"/>
+    <property name="dest_y" value="68"/>
    </properties>
   </object>
   <object id="13" name="VampireBat" type="spawn" x="673" y="2219" width="945" height="1287">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="15"/>
     <property name="monster_id" value="64"/>
    </properties>
   </object>
   <object id="14" name="DrunkenSkeleton" type="spawn" x="672" y="2880" width="320" height="640">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="75"/>
    </properties>
   </object>
   <object id="15" name="TipsySkeleton" type="spawn" x="672" y="2880" width="320" height="640">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="76"/>
    </properties>
@@ -999,8 +999,8 @@
   <object id="17" name="To Graveyard" type="warp" x="1472" y="1088" width="32" height="32">
    <properties>
     <property name="dest_map" value="027-1"/>
-    <property name="dest_tile_x" value="88"/>
-    <property name="dest_tile_y" value="85"/>
+    <property name="dest_x" value="88"/>
+    <property name="dest_y" value="85"/>
    </properties>
   </object>
  </objectgroup>

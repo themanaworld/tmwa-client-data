@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="right-down" width="110" height="100" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="10">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="110" height="100" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="10">
  <properties>
   <property name="minimap" value="graphics/minimaps/017-3.png"/>
   <property name="music" value="cavesong.ogg"/>
@@ -537,64 +537,64 @@
   <object id="1" name="To Woodland Hills" type="warp" x="2208" y="2208" width="32" height="32">
    <properties>
     <property name="dest_map" value="017-1"/>
-    <property name="dest_tile_x" value="76"/>
-    <property name="dest_tile_y" value="32"/>
+    <property name="dest_x" value="76"/>
+    <property name="dest_y" value="32"/>
    </properties>
   </object>
   <object id="2" name="To Theater Hill" type="warp" x="2656" y="1696" width="32" height="32">
    <properties>
     <property name="dest_map" value="017-1"/>
-    <property name="dest_tile_x" value="98"/>
-    <property name="dest_tile_y" value="21"/>
+    <property name="dest_x" value="98"/>
+    <property name="dest_y" value="21"/>
    </properties>
   </object>
   <object id="3" name="To Woodland Hills Labyrinth" type="warp" x="2432" y="2048" width="32" height="32">
    <properties>
     <property name="dest_map" value="017-1"/>
-    <property name="dest_tile_x" value="98"/>
-    <property name="dest_tile_y" value="30"/>
+    <property name="dest_x" value="98"/>
+    <property name="dest_y" value="30"/>
    </properties>
   </object>
   <object id="4" name="To Deeper Labyrinth" type="warp" x="2016" y="832" width="32" height="32">
    <properties>
     <property name="dest_map" value="017-4"/>
-    <property name="dest_tile_x" value="52"/>
-    <property name="dest_tile_y" value="24"/>
+    <property name="dest_x" value="52"/>
+    <property name="dest_y" value="24"/>
    </properties>
   </object>
   <object id="5" name="To Deeper Labyrinth" type="warp" x="928" y="1536" width="32" height="32">
    <properties>
     <property name="dest_map" value="017-4"/>
-    <property name="dest_tile_x" value="30"/>
-    <property name="dest_tile_y" value="48"/>
+    <property name="dest_x" value="30"/>
+    <property name="dest_y" value="48"/>
    </properties>
   </object>
   <object id="6" name="To Deeper Labyrinth" type="warp" x="2208" y="1664" width="32" height="32">
    <properties>
     <property name="dest_map" value="017-4"/>
-    <property name="dest_tile_x" value="91"/>
-    <property name="dest_tile_y" value="27"/>
+    <property name="dest_x" value="91"/>
+    <property name="dest_y" value="27"/>
    </properties>
   </object>
   <object id="7" name="To Deeper Labyrinth" type="warp" x="1856" y="1920" width="32" height="32">
    <properties>
     <property name="dest_map" value="017-4"/>
-    <property name="dest_tile_x" value="83"/>
-    <property name="dest_tile_y" value="40"/>
+    <property name="dest_x" value="83"/>
+    <property name="dest_y" value="40"/>
    </properties>
   </object>
   <object id="8" name="To Deeper Labyrinth" type="warp" x="992" y="2240" width="64" height="32">
    <properties>
     <property name="dest_map" value="017-4"/>
-    <property name="dest_tile_x" value="123"/>
-    <property name="dest_tile_y" value="27"/>
+    <property name="dest_x" value="123"/>
+    <property name="dest_y" value="27"/>
    </properties>
   </object>
   <object id="9" name="To Deeper Cave" type="warp" x="2592" y="2464" width="96" height="32">
    <properties>
     <property name="dest_map" value="017-4"/>
-    <property name="dest_tile_x" value="166"/>
-    <property name="dest_tile_y" value="27"/>
+    <property name="dest_x" value="166"/>
+    <property name="dest_y" value="27"/>
    </properties>
   </object>
  </objectgroup>

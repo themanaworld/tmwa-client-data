@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="170" height="124" tilewidth="32" tileheight="32" nextobjectid="28">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="170" height="124" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="28">
  <properties>
   <property name="minimap" value="graphics/minimaps/055-1.png"/>
   <property name="music" value="mystique-forest.ogg"/>
@@ -14,7 +14,7 @@
  <tileset firstgid="259" source="../tilesets/woodland_x2.tsx"/>
  <tileset firstgid="291" source="../tilesets/woodland_x3.tsx"/>
  <tileset firstgid="323" source="../tilesets/woodland_village.tsx"/>
- <layer name="Ground1" width="170" height="124">
+ <layer id="1" name="Ground1" width="170" height="124">
   <data encoding="csv">
 19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,
 19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,
@@ -142,7 +142,7 @@
 213,251,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,43,44,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,196,182,212,19,19,19,19,19,19,35,35,35,35,35,35,35,35,35,19,19,19,243,234,199,199,199,199,199,199,199,199,228,213,229,19,19,19,19,19,19,19,19,19,19,19,19,19,19,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89
 </data>
  </layer>
- <layer name="Ground2" width="170" height="124">
+ <layer id="2" name="Ground2" width="170" height="124">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,245,0,0,0,0,0,0,0,0,0,0,0,0,245,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,245,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -270,7 +270,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,235,0,0,0,0,0,0,0,0,0,0,0,0,0,0,187,0,0,0,0,0,230,169,167,167,167,167,167,167,170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,187,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Fringe" width="170" height="124">
+ <layer id="3" name="Fringe" width="170" height="124">
   <data encoding="csv">
 0,291,292,0,0,0,0,291,292,0,0,0,0,0,0,0,0,0,293,294,0,293,294,0,0,0,293,294,0,0,0,0,0,293,294,0,0,291,292,0,0,293,294,0,0,0,0,0,0,0,0,0,291,292,293,294,0,0,0,293,294,291,292,293,294,291,292,0,291,292,0,0,0,0,293,294,293,294,293,294,0,0,0,0,0,0,0,293,294,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,291,292,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,291,292,0,291,292,0,293,294,0,291,292,293,294,0,291,292,0,0,0,0,0,293,294,0,0,0,0,0,293,294,0,0,0,0,0,0,0,0,293,294,0,293,294,0,0,0,0,293,294,291,292,291,292,0,0,293,294,291,292,291,292,0,291,292,293,294,0,0,0,0,291,292,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,291,292,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -398,7 +398,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,291,292,0,0,0,0,0,0,0,0,0,0,0,0,291,292,0,0,0,0,0,0,0,0,0,0,0,0,0,266,267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Over1" width="170" height="124">
+ <layer id="4" name="Over1" width="170" height="124">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,525,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -526,7 +526,7 @@
 0,0,0,171,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,230,246,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,163,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Over2" width="170" height="124">
+ <layer id="5" name="Over2" width="170" height="124">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -654,7 +654,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,89,0,0,0,0,89,89,89,89,0,89,89,0,0,89,89
 </data>
  </layer>
- <layer name="Collision" width="170" height="124">
+ <layer id="6" name="Collision" width="170" height="124">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -782,25 +782,25 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup name="Objects">
+ <objectgroup id="7" name="Objects">
   <object id="1" name="To Cave" type="warp" x="3200" y="2656" width="32" height="32">
    <properties>
     <property name="dest_map" value="055-3"/>
-    <property name="dest_tile_x" value="30"/>
-    <property name="dest_tile_y" value="27"/>
+    <property name="dest_x" value="30"/>
+    <property name="dest_y" value="27"/>
    </properties>
   </object>
   <object id="2" name="To Cave" type="warp" x="3200" y="2848" width="32" height="32">
    <properties>
     <property name="dest_map" value="055-3"/>
-    <property name="dest_tile_x" value="50"/>
-    <property name="dest_tile_y" value="42"/>
+    <property name="dest_x" value="50"/>
+    <property name="dest_y" value="42"/>
    </properties>
   </object>
   <object id="3" name="Butterfly" type="spawn" x="1836" y="2036" width="750" height="654">
    <properties>
-    <property name="eA_death" value="85000"/>
-    <property name="eA_spawn" value="10000"/>
+    <property name="death" value="85000"/>
+    <property name="spawn" value="10000"/>
     <property name="max_beings" value="16"/>
     <property name="monster_id" value="53"/>
    </properties>
@@ -808,126 +808,126 @@
   <object id="4" name="To Woodland Hills" type="warp" x="704" y="1600" width="32" height="128">
    <properties>
     <property name="dest_map" value="013-1"/>
-    <property name="dest_tile_x" value="135"/>
-    <property name="dest_tile_y" value="51"/>
+    <property name="dest_x" value="135"/>
+    <property name="dest_y" value="51"/>
    </properties>
   </object>
   <object id="5" name="Silkworm" type="spawn" x="1928" y="724" width="1794" height="494">
    <properties>
-    <property name="eA_death" value="85000"/>
-    <property name="eA_spawn" value="10000"/>
+    <property name="death" value="85000"/>
+    <property name="spawn" value="10000"/>
     <property name="max_beings" value="15"/>
     <property name="monster_id" value="33"/>
    </properties>
   </object>
   <object id="6" name="Squirrel" type="spawn" x="1204" y="716" width="2750" height="602">
    <properties>
-    <property name="eA_death" value="45000"/>
-    <property name="eA_spawn" value="10000"/>
+    <property name="death" value="45000"/>
+    <property name="spawn" value="10000"/>
     <property name="max_beings" value="10"/>
     <property name="monster_id" value="36"/>
    </properties>
   </object>
   <object id="7" name="Mouboo" type="spawn" x="0" y="0">
    <properties>
-    <property name="eA_death" value="85000"/>
-    <property name="eA_spawn" value="10000"/>
+    <property name="death" value="85000"/>
+    <property name="spawn" value="10000"/>
     <property name="max_beings" value="15"/>
     <property name="monster_id" value="26"/>
    </properties>
   </object>
   <object id="8" name="CloverPatch" type="spawn" x="2819" y="1511" width="244" height="180">
    <properties>
-    <property name="eA_death" value="180000"/>
-    <property name="eA_spawn" value="10000"/>
+    <property name="death" value="180000"/>
+    <property name="spawn" value="10000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="35"/>
    </properties>
   </object>
   <object id="9" name="CloverPatch" type="spawn" x="3235" y="1724" width="213" height="157">
    <properties>
-    <property name="eA_death" value="180000"/>
-    <property name="eA_spawn" value="10000"/>
+    <property name="death" value="180000"/>
+    <property name="spawn" value="10000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="35"/>
    </properties>
   </object>
   <object id="10" name="CloverPatch" type="spawn" x="1653" y="2164" width="916" height="548">
    <properties>
-    <property name="eA_death" value="120000"/>
-    <property name="eA_spawn" value="10000"/>
+    <property name="death" value="120000"/>
+    <property name="spawn" value="10000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="35"/>
    </properties>
   </object>
   <object id="11" name="Snail" type="spawn" x="1268" y="714" width="2681" height="833">
    <properties>
-    <property name="eA_death" value="85000"/>
-    <property name="eA_spawn" value="10000"/>
+    <property name="death" value="85000"/>
+    <property name="spawn" value="10000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="39"/>
    </properties>
   </object>
   <object id="12" name="AlizarinPlant" type="spawn" x="1993" y="1936" width="588" height="806">
    <properties>
-    <property name="eA_death" value="60000"/>
-    <property name="eA_spawn" value="10000"/>
+    <property name="death" value="60000"/>
+    <property name="spawn" value="10000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="30"/>
    </properties>
   </object>
   <object id="13" name="AlizarinPlant" type="spawn" x="1329" y="702" width="2628" height="746">
    <properties>
-    <property name="eA_death" value="60000"/>
-    <property name="eA_spawn" value="10000"/>
+    <property name="death" value="60000"/>
+    <property name="spawn" value="10000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="30"/>
    </properties>
   </object>
   <object id="14" name="MauvePlant" type="spawn" x="0" y="0">
    <properties>
-    <property name="eA_death" value="55000"/>
-    <property name="eA_spawn" value="10000"/>
+    <property name="death" value="55000"/>
+    <property name="spawn" value="10000"/>
     <property name="max_beings" value="7"/>
     <property name="monster_id" value="27"/>
    </properties>
   </object>
   <object id="15" name="CobaltPlant" type="spawn" x="0" y="0">
    <properties>
-    <property name="eA_death" value="60000"/>
-    <property name="eA_spawn" value="10000"/>
+    <property name="death" value="60000"/>
+    <property name="spawn" value="10000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="28"/>
    </properties>
   </object>
   <object id="16" name="GambogePlant" type="spawn" x="0" y="0">
    <properties>
-    <property name="eA_death" value="60000"/>
-    <property name="eA_spawn" value="10000"/>
+    <property name="death" value="60000"/>
+    <property name="spawn" value="10000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="29"/>
    </properties>
   </object>
   <object id="17" name="PinkFlower" type="spawn" x="3678" y="1896" width="188" height="126">
    <properties>
-    <property name="eA_death" value="45000"/>
-    <property name="eA_spawn" value="10000"/>
+    <property name="death" value="45000"/>
+    <property name="spawn" value="10000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="12"/>
    </properties>
   </object>
   <object id="18" name="PinkFlower" type="spawn" x="3049" y="1908" width="183" height="116">
    <properties>
-    <property name="eA_death" value="45000"/>
-    <property name="eA_spawn" value="10000"/>
+    <property name="death" value="45000"/>
+    <property name="spawn" value="10000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="12"/>
    </properties>
   </object>
   <object id="19" name="PinkFlower" type="spawn" x="1708" y="2109" width="787" height="590">
    <properties>
-    <property name="eA_death" value="45000"/>
-    <property name="eA_spawn" value="10000"/>
+    <property name="death" value="45000"/>
+    <property name="spawn" value="10000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="12"/>
    </properties>
@@ -935,28 +935,28 @@
   <object id="20" name="To Cave" type="warp" x="4384" y="3072" width="32" height="32">
    <properties>
     <property name="dest_map" value="055-3"/>
-    <property name="dest_tile_x" value="76"/>
-    <property name="dest_tile_y" value="39"/>
+    <property name="dest_x" value="76"/>
+    <property name="dest_y" value="39"/>
    </properties>
   </object>
   <object id="21" name="To Cave" type="warp" x="1920" y="2976" width="32" height="32">
    <properties>
     <property name="dest_map" value="055-3"/>
-    <property name="dest_tile_x" value="96"/>
-    <property name="dest_tile_y" value="70"/>
+    <property name="dest_x" value="96"/>
+    <property name="dest_y" value="70"/>
    </properties>
   </object>
   <object id="22" name="To Woods" type="warp" x="2368" y="640" width="64" height="32">
    <properties>
     <property name="dest_map" value="017-1"/>
-    <property name="dest_tile_x" value="188"/>
-    <property name="dest_tile_y" value="103"/>
+    <property name="dest_x" value="188"/>
+    <property name="dest_y" value="103"/>
    </properties>
   </object>
   <object id="23" name="SpikyMushroom" type="spawn" x="0" y="0">
    <properties>
-    <property name="eA_death" value="60000"/>
-    <property name="eA_spawn" value="10000"/>
+    <property name="death" value="60000"/>
+    <property name="spawn" value="10000"/>
     <property name="max_beings" value="7"/>
     <property name="monster_id" value="17"/>
    </properties>
@@ -964,8 +964,8 @@
   <object id="24" name="To Woodland" type="warp" x="4768" y="1984" width="32" height="96">
    <properties>
     <property name="dest_map" value="057-1"/>
-    <property name="dest_tile_x" value="20"/>
-    <property name="dest_tile_y" value="63"/>
+    <property name="dest_x" value="20"/>
+    <property name="dest_y" value="63"/>
    </properties>
   </object>
   <object id="25" name="Pumpkin" type="node" x="1312" y="704" width="224" height="288"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="150" height="150" tilewidth="32" tileheight="32" nextobjectid="19">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="150" height="150" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="19">
  <properties>
   <property name="minimap" value="graphics/minimaps/011-4.png"/>
   <property name="music" value="cavesong.ogg"/>
@@ -10,7 +10,7 @@
  <tileset firstgid="131" source="../tilesets/cave_x2.tsx"/>
  <tileset firstgid="147" source="../tilesets/cave_bilevel.tsx"/>
  <tileset firstgid="403" source="../tilesets/woodland_ground.tsx"/>
- <layer name="Ground1" width="150" height="150">
+ <layer id="1" name="Ground1" width="150" height="150">
   <data encoding="csv">
 23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,
 23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,
@@ -164,7 +164,7 @@
 23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23
 </data>
  </layer>
- <layer name="Fringe" width="150" height="150">
+ <layer id="2" name="Fringe" width="150" height="150">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -318,7 +318,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Over1" width="150" height="150">
+ <layer id="3" name="Over1" width="150" height="150">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -472,7 +472,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="150" height="150">
+ <layer id="4" name="Collision" width="150" height="150">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -626,134 +626,134 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup name="Objects">
+ <objectgroup id="5" name="Objects">
   <object id="1" name="SpikyMushroom" type="spawn" x="1056" y="352" width="1280" height="1280">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="monster_id" value="17"/>
    </properties>
   </object>
   <object id="2" name="CaveSnake" type="spawn" x="2368" y="3040" width="1280" height="1280">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="monster_id" value="19"/>
    </properties>
   </object>
   <object id="3" name="To Hermit's Cave" type="warp" x="2336" y="256" width="32" height="32">
    <properties>
     <property name="dest_map" value="011-3"/>
-    <property name="dest_tile_x" value="31"/>
-    <property name="dest_tile_y" value="16"/>
+    <property name="dest_x" value="31"/>
+    <property name="dest_y" value="16"/>
    </properties>
   </object>
   <object id="4" name="To Hurnscald Cave" type="warp" x="4128" y="2752" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-3"/>
-    <property name="dest_tile_x" value="20"/>
-    <property name="dest_tile_y" value="56"/>
+    <property name="dest_x" value="20"/>
+    <property name="dest_y" value="56"/>
    </properties>
   </object>
   <object id="5" name="To Bandit Cave" type="warp" x="1248" y="1120" width="32" height="32">
    <properties>
     <property name="dest_map" value="011-6"/>
-    <property name="dest_tile_x" value="47"/>
-    <property name="dest_tile_y" value="184"/>
+    <property name="dest_x" value="47"/>
+    <property name="dest_y" value="184"/>
    </properties>
   </object>
   <object id="6" name="To Bryant Cave" type="warp" x="512" y="1824" width="32" height="32">
    <properties>
     <property name="dest_map" value="011-6"/>
-    <property name="dest_tile_x" value="24"/>
-    <property name="dest_tile_y" value="205"/>
+    <property name="dest_x" value="24"/>
+    <property name="dest_y" value="205"/>
    </properties>
   </object>
   <object id="7" name="To Bandit Cave" type="warp" x="2848" y="640" width="32" height="32">
    <properties>
     <property name="dest_map" value="011-6"/>
-    <property name="dest_tile_x" value="97"/>
-    <property name="dest_tile_y" value="168"/>
+    <property name="dest_x" value="97"/>
+    <property name="dest_y" value="168"/>
    </properties>
   </object>
   <object id="8" name="To Bandit Cave" type="warp" x="3360" y="1024" width="32" height="32">
    <properties>
     <property name="dest_map" value="011-6"/>
-    <property name="dest_tile_x" value="114"/>
-    <property name="dest_tile_y" value="183"/>
+    <property name="dest_x" value="114"/>
+    <property name="dest_y" value="183"/>
    </properties>
   </object>
   <object id="9" name="To Bandit Cave" type="warp" x="3648" y="1952" width="32" height="32">
    <properties>
     <property name="dest_map" value="011-6"/>
-    <property name="dest_tile_x" value="123"/>
-    <property name="dest_tile_y" value="212"/>
+    <property name="dest_x" value="123"/>
+    <property name="dest_y" value="212"/>
    </properties>
   </object>
   <object id="10" name="To Bandit Cave" type="warp" x="2752" y="2400" width="32" height="32">
    <properties>
     <property name="dest_map" value="011-6"/>
-    <property name="dest_tile_x" value="95"/>
-    <property name="dest_tile_y" value="226"/>
+    <property name="dest_x" value="95"/>
+    <property name="dest_y" value="226"/>
    </properties>
   </object>
   <object id="11" name="To Bandit Cave" type="warp" x="1984" y="2752" width="32" height="32">
    <properties>
     <property name="dest_map" value="011-6"/>
-    <property name="dest_tile_x" value="68"/>
-    <property name="dest_tile_y" value="234"/>
+    <property name="dest_x" value="68"/>
+    <property name="dest_y" value="234"/>
    </properties>
   </object>
   <object id="12" name="To Small Cave" type="warp" x="992" y="160" width="64" height="32">
    <properties>
     <property name="dest_map" value="011-6"/>
-    <property name="dest_tile_x" value="186"/>
-    <property name="dest_tile_y" value="181"/>
+    <property name="dest_x" value="186"/>
+    <property name="dest_y" value="181"/>
    </properties>
   </object>
   <object id="13" name="To Small Cave" type="warp" x="1440" y="3776" width="32" height="32">
    <properties>
     <property name="dest_map" value="011-6"/>
-    <property name="dest_tile_x" value="266"/>
-    <property name="dest_tile_y" value="181"/>
+    <property name="dest_x" value="266"/>
+    <property name="dest_y" value="181"/>
    </properties>
   </object>
   <object id="14" name="CaveSnake" type="spawn" x="0" y="0">
    <properties>
-    <property name="eA_death" value="0"/>
-    <property name="eA_spawn" value="0"/>
+    <property name="death" value="0"/>
+    <property name="spawn" value="0"/>
     <property name="max_beings" value="40"/>
     <property name="monster_id" value="19"/>
    </properties>
   </object>
   <object id="15" name="SpikyMushroom" type="spawn" x="0" y="0">
    <properties>
-    <property name="eA_death" value="0"/>
-    <property name="eA_spawn" value="0"/>
+    <property name="death" value="0"/>
+    <property name="spawn" value="0"/>
     <property name="max_beings" value="15"/>
     <property name="monster_id" value="17"/>
    </properties>
   </object>
   <object id="16" name="CaveMaggot" type="spawn" x="1024" y="1312" width="1824" height="2432">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="10"/>
     <property name="monster_id" value="54"/>
    </properties>
   </object>
   <object id="17" name="CaveMaggot" type="spawn" x="256" y="128" width="3552" height="1152">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="10"/>
     <property name="monster_id" value="54"/>
    </properties>
   </object>
   <object id="18" name="Bat" type="spawn" x="0" y="0">
    <properties>
-    <property name="eA_death" value="40000"/>
-    <property name="eA_spawn" value="180000"/>
+    <property name="death" value="40000"/>
+    <property name="spawn" value="180000"/>
     <property name="max_beings" value="20"/>
     <property name="monster_id" value="15"/>
    </properties>

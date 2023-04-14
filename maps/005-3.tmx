@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="156" height="123" tilewidth="32" tileheight="32" nextobjectid="23">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="156" height="123" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="23">
  <properties>
   <property name="minimap" value="graphics/minimaps/005-3.png"/>
   <property name="music" value="cavesong.ogg"/>
@@ -12,7 +12,7 @@
  <tileset firstgid="131" source="../tilesets/cave2_x2.tsx"/>
  <tileset firstgid="163" source="../tilesets/cave2_bilevel.tsx"/>
  <tileset firstgid="419" source="../tilesets/cave2_sewer_mine.tsx"/>
- <layer name="Ground1" width="156" height="123">
+ <layer id="1" name="Ground1" width="156" height="123">
   <data encoding="csv">
 23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,
 23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,
@@ -139,7 +139,7 @@
 23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23
 </data>
  </layer>
- <layer name="Ground2" width="156" height="123">
+ <layer id="2" name="Ground2" width="156" height="123">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -266,7 +266,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Fringe" width="156" height="123">
+ <layer id="3" name="Fringe" width="156" height="123">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -393,7 +393,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Over1" width="156" height="123">
+ <layer id="4" name="Over1" width="156" height="123">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -520,7 +520,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Over2" width="156" height="123">
+ <layer id="5" name="Over2" width="156" height="123">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -647,7 +647,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Collision" width="156" height="123">
+ <layer id="6" name="Collision" width="156" height="123">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -774,62 +774,62 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup name="Objects" visible="0">
+ <objectgroup id="7" name="Objects" visible="0">
   <object id="1" name="To Outside" type="warp" x="1664" y="1120" width="32" height="32">
    <properties>
     <property name="dest_map" value="002-1"/>
-    <property name="dest_tile_x" value="113"/>
-    <property name="dest_tile_y" value="109"/>
+    <property name="dest_x" value="113"/>
+    <property name="dest_y" value="109"/>
    </properties>
   </object>
   <object id="2" name="Snake Mountain" type="warp" x="2016" y="1536" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
-    <property name="dest_tile_x" value="89"/>
-    <property name="dest_tile_y" value="45"/>
+    <property name="dest_x" value="89"/>
+    <property name="dest_y" value="45"/>
    </properties>
   </object>
   <object id="3" name="Snake Mountain" type="warp" x="2720" y="1632" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-3"/>
-    <property name="dest_tile_x" value="125"/>
-    <property name="dest_tile_y" value="65"/>
+    <property name="dest_x" value="125"/>
+    <property name="dest_y" value="65"/>
    </properties>
   </object>
   <object id="4" name="To Outside" type="warp" x="2752" y="1024" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-1"/>
-    <property name="dest_tile_x" value="55"/>
-    <property name="dest_tile_y" value="47"/>
+    <property name="dest_x" value="55"/>
+    <property name="dest_y" value="47"/>
    </properties>
   </object>
   <object id="5" name="To Outside" type="warp" x="2336" y="1984" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-1"/>
-    <property name="dest_tile_x" value="51"/>
-    <property name="dest_tile_y" value="69"/>
+    <property name="dest_x" value="51"/>
+    <property name="dest_y" value="69"/>
    </properties>
   </object>
   <object id="6" name="Snake" type="spawn" x="1120" y="1120" width="1568" height="1856">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="50"/>
     <property name="monster_id" value="8"/>
    </properties>
   </object>
   <object id="7" name="BlackScorpion" type="spawn" x="960" y="1280" width="1728" height="1600">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="15"/>
     <property name="monster_id" value="7"/>
    </properties>
   </object>
   <object id="8" name="GiantMaggot" type="spawn" x="960" y="1504" width="1888" height="1376">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="20"/>
     <property name="monster_id" value="4"/>
    </properties>
@@ -837,29 +837,29 @@
   <object id="9" name="Sandy Dungeon" type="warp" x="2496" y="2880" width="32" height="32">
    <properties>
     <property name="dest_map" value="043-3"/>
-    <property name="dest_tile_x" value="116"/>
-    <property name="dest_tile_y" value="37"/>
+    <property name="dest_x" value="116"/>
+    <property name="dest_y" value="37"/>
    </properties>
   </object>
   <object id="10" name="Sandy Dungeon" type="warp" x="1056" y="2688" width="32" height="32">
    <properties>
     <property name="dest_map" value="043-3"/>
-    <property name="dest_tile_x" value="31"/>
-    <property name="dest_tile_y" value="35"/>
+    <property name="dest_x" value="31"/>
+    <property name="dest_y" value="35"/>
    </properties>
   </object>
   <object id="11" name="Troll" type="spawn" x="2880" y="704" width="352" height="1984">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="7"/>
     <property name="monster_id" value="1054"/>
    </properties>
   </object>
   <object id="12" name="Troll" type="spawn" x="672" y="640" width="2080" height="416">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
+    <property name="death" value="30000"/>
+    <property name="spawn" value="100000"/>
     <property name="max_beings" value="5"/>
     <property name="monster_id" value="1054"/>
    </properties>
@@ -867,15 +867,15 @@
   <object id="13" name="To Outside" type="warp" x="3424" y="3264" width="32" height="32">
    <properties>
     <property name="dest_map" value="006-1"/>
-    <property name="dest_tile_x" value="64"/>
-    <property name="dest_tile_y" value="78"/>
+    <property name="dest_x" value="64"/>
+    <property name="dest_y" value="78"/>
    </properties>
   </object>
   <object id="14" name="Witch Cave" type="warp" x="864" y="1312" width="32" height="32">
    <properties>
     <property name="dest_map" value="043-5"/>
-    <property name="dest_tile_x" value="126"/>
-    <property name="dest_tile_y" value="27"/>
+    <property name="dest_x" value="126"/>
+    <property name="dest_y" value="27"/>
    </properties>
   </object>
   <object id="15" name="graphics/particles/flame.particle.xml" type="particle_effect" x="768" y="1184" width="32" height="32"/>
@@ -887,15 +887,15 @@
   <object id="21" name="Back to path" type="warp" x="3232" y="960" width="32" height="32">
    <properties>
     <property name="dest_map" value="005-3"/>
-    <property name="dest_tile_x" value="101"/>
-    <property name="dest_tile_y" value="35"/>
+    <property name="dest_x" value="101"/>
+    <property name="dest_y" value="35"/>
    </properties>
   </object>
   <object id="22" name="Back to path" type="warp" x="3520" y="2528" width="32" height="32">
    <properties>
     <property name="dest_map" value="005-3"/>
-    <property name="dest_tile_x" value="110"/>
-    <property name="dest_tile_y" value="75"/>
+    <property name="dest_x" value="110"/>
+    <property name="dest_y" value="75"/>
    </properties>
   </object>
  </objectgroup>
