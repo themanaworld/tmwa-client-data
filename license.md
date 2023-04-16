@@ -928,6 +928,7 @@ File | Artists | Licenses
 `graphics/sprites/monsters/moggun.png` | Modanung, Pateame | GPLv2
 `graphics/sprites/monsters/mouboo.png` | Yuuki | GPLv2
 `graphics/sprites/monsters/mouboo-demonic.png` | Cassy, Yuuki | GPLv2
+`graphics/sprites/monsters/montblanc.png` | KokoroReflections | CC BY 4.0
 `graphics/sprites/monsters/mushroom-red.png` | Yuuki | GPLv2
 `graphics/sprites/monsters/mushroom-spiky.png` | Yuuki | GPLv2
 `graphics/sprites/monsters/mushroom-void.png` | Cassy, Yuuki, Jesusalva | GPLv2
