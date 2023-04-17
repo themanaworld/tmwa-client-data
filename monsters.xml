@@ -1,10 +1,1606 @@
 <?xml version="1.0"?>
 <monsters offset="0">
-    <include name="monsters/_include.xml"/>
+    <monster id="1002" name="Maggot" targetCursor="small">
+        <sprite>monsters/maggot.xml</sprite>
+        <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
+        <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
+        <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
+        <sound event="die">monsters/maggot/maggot-dying1.ogg</sound>
+    </monster>
+
+    <monster id="1003" name="Scorpion">
+        <sprite>monsters/scorpion.xml|#4d422d,826242,d8c282,ffffff</sprite>
+        <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
+        <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
+        <sound event="move">monsters/spider/spider-move1.ogg</sound>
+        <sound event="move">monsters/spider/spider-move2.ogg</sound>
+        <sound event="move">monsters/spider/spider-move3.ogg</sound>
+        <sound event="move">monsters/spider/spider-move4.ogg</sound>
+        <sound event="move">monsters/spider/spider-move5.ogg</sound>
+        <sound event="die">monsters/spider/spider-die1.ogg</sound>
+    </monster>
+
+    <monster id="1004" name="Red Scorpion">
+        <sprite>monsters/scorpion.xml|#791d0a,cd5d27,f28d54,ffffff</sprite>
+        <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
+        <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
+        <sound event="move">monsters/spider/spider-move1.ogg</sound>
+        <sound event="move">monsters/spider/spider-move2.ogg</sound>
+        <sound event="move">monsters/spider/spider-move3.ogg</sound>
+        <sound event="move">monsters/spider/spider-move4.ogg</sound>
+        <sound event="move">monsters/spider/spider-move5.ogg</sound>
+        <sound event="die">monsters/spider/spider-die1.ogg</sound>
+    </monster>
+
+    <monster id="1005" name="Green Slime">
+        <sprite>monsters/slime.xml|#72982c,ffffff</sprite>
+        <sound event="die">monsters/slime/slime-die1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
+        <sound event="move">monsters/slime/slime-move1.ogg</sound>
+        <sound event="move">monsters/slime/slime-move2.ogg</sound>
+    </monster>
+
+    <monster id="1006" name="Giant Maggot" targetCursor="large">
+        <sprite>monsters/maggot-giant.xml</sprite>
+        <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
+        <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
+        <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
+        <sound event="die">monsters/maggot/maggot-dying1.ogg</sound>
+    </monster>
+
+    <monster id="1007" name="Yellow Slime">
+        <sprite>monsters/slime.xml|#b47f00,ffffff</sprite>
+        <sound event="die">monsters/slime/slime-die1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
+        <sound event="move">monsters/slime/slime-move1.ogg</sound>
+        <sound event="move">monsters/slime/slime-move2.ogg</sound>
+    </monster>
+
+    <monster id="1008" name="Red Slime">
+        <sprite>monsters/slime.xml|#7e0000,ffffff</sprite>
+        <sound event="die">monsters/slime/slime-die1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
+        <sound event="move">monsters/slime/slime-move1.ogg</sound>
+        <sound event="move">monsters/slime/slime-move2.ogg</sound>
+    </monster>
+
+    <monster id="1009" name="Black Scorpion">
+        <sprite>monsters/scorpion.xml|#0d1313,435a5a,879999,ffffff</sprite>
+        <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
+        <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
+        <sound event="move">monsters/spider/spider-move1.ogg</sound>
+        <sound event="move">monsters/spider/spider-move2.ogg</sound>
+        <sound event="move">monsters/spider/spider-move3.ogg</sound>
+        <sound event="move">monsters/spider/spider-move4.ogg</sound>
+        <sound event="move">monsters/spider/spider-move5.ogg</sound>
+        <sound event="die">monsters/spider/spider-die1.ogg</sound>
+    </monster>
+
+    <monster id="1010" name="Snake">
+        <sprite>monsters/snake.xml|#664d28,a6673a,dbbc86,ffffff</sprite>
+    </monster>
+
+    <monster id="1011" name="Fire Goblin">
+        <sprite>monsters/goblin-fire.xml</sprite>
+        <sound event="hit">monsters/fire-goblin/fire-goblin-hit1.ogg</sound>
+        <sound event="hit">monsters/fire-goblin/fire-goblin-hit2.ogg</sound>
+        <sound event="miss">monsters/fire-goblin/fire-goblin-miss1.ogg</sound>
+        <attack id="1" effect-id="400"/>
+    </monster>
+
+    <monster id="1012" name="Spider">
+        <sprite>monsters/spider.xml|#1a160f,4A7A93,AAC5D2,ffffff;#FF6666</sprite>
+        <sound event="hit">monsters/spider/spider-hit1.ogg</sound>
+        <sound event="hit">monsters/spider/spider-hit2.ogg</sound>
+        <sound event="hit">monsters/spider/spider-hit3.ogg</sound>
+        <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
+        <sound event="move">monsters/spider/spider-move1.ogg</sound>
+        <sound event="move">monsters/spider/spider-move2.ogg</sound>
+        <sound event="move">monsters/spider/spider-move3.ogg</sound>
+        <sound event="move">monsters/spider/spider-move4.ogg</sound>
+        <sound event="move">monsters/spider/spider-move5.ogg</sound>
+        <sound event="die">monsters/spider/spider-die1.ogg</sound>
+    </monster>
+
+    <monster id="1013" name="Evil Mushroom">
+        <sprite>monsters/accessories/mushroom-base1.xml|#B38336,FFF5CC</sprite>
+        <sprite>monsters/accessories/mushroom-base1-arms1.xml|#B38336,FFF5CC</sprite>
+        <sprite>monsters/accessories/mushroom-base1-face2.xml|#732222,BF3939,FF9E9E,FFD9D9,FFFFFF;#B38336,FFF5CC</sprite>
+        <sprite>monsters/accessories/mushroom-base1-cap1.xml|#732222,BF3939,FF9E9E,FFD9D9,FFFFFF;#B38336,FFF5CC</sprite>
+        <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
+        <sound event="hurt">monsters/shroom/shroom-hurt1.ogg</sound>
+        <sound event="die">monsters/shroom/shroom-die1.ogg</sound>
+    </monster>
+
+    <monster id="1014" name="Pink Flower">
+        <sprite>monsters/flower.xml|#ee748d,ffd8ce;#f6ffbd;#23285f</sprite>
+        <sound event="hit">monsters/flower/flower-hit1.ogg</sound>
+        <sound event="hit">monsters/flower/flower-hit2.ogg</sound>
+        <sound event="miss">monsters/flower/flower-miss1.ogg</sound>
+    </monster>
+
+    <monster id="1015" name="Santa Slime">
+        <sprite>monsters/slime.xml|#545166,66A9CD,C2F7FA</sprite>
+        <sprite>monsters/accessories/slime-santa.xml</sprite>
+        <sound event="die">monsters/slime/slime-die1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
+        <sound event="move">monsters/slime/slime-move1.ogg</sound>
+        <sound event="move">monsters/slime/slime-move2.ogg</sound>
+    </monster>
+
+    <monster id="1016" name="Rudolph Slime">
+        <sprite>monsters/slime.xml|#9092B9,9DB4D4,F8F9FA</sprite>
+        <sprite>monsters/accessories/slime-rudolph.xml</sprite>
+        <sound event="die">monsters/slime/slime-die1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
+        <sound event="move">monsters/slime/slime-move1.ogg</sound>
+        <sound event="move">monsters/slime/slime-move2.ogg</sound>
+    </monster>
+
+    <monster id="1017" name="Bat">
+        <sprite>monsters/bat.xml</sprite>
+        <sound event="die">monsters/bat/bat-dying1.ogg</sound>
+        <sound event="hit">monsters/bat/bat-hit1.ogg</sound>
+    </monster>
+
+    <monster id="1018" name="Pinkie" targetCursor="small">
+        <sprite>monsters/pinkie.xml</sprite>
+        <sound event="hit">monsters/pinkie/pinkie-hit1.ogg</sound>
+        <sound event="miss">monsters/pinkie/pinkie-miss1.ogg</sound>
+    </monster>
+
+    <monster id="1019" name="Spiky Mushroom">
+        <sprite>monsters/accessories/mushroom-base1.xml|#B37410,FFF5CC</sprite>
+        <sprite>monsters/accessories/mushroom-base1-face1.xml|#730A73,BF31C0,FF9EFF,FFD9FF,FFFFFF;#7B4E07,FFF5CC</sprite>
+        <sprite>monsters/accessories/mushroom-base1-cap1.xml|#730A73,BF31C0,FF9EFF,FFD9FF,FFFFFF;#B36E00,FFF5CC</sprite>
+        <sprite>monsters/accessories/mushroom-base1-cap1-spikes.xml|#CC9C3D,FFFFCC</sprite>
+        <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
+        <sound event="hurt">monsters/shroom/shroom-hurt1.ogg</sound>
+        <sound event="die">monsters/shroom/shroom-die1.ogg</sound>
+    </monster>
+
+    <monster id="1020" name="Fluffy">
+        <sprite>monsters/fluffy.xml</sprite>
+        <sound event="hit">monsters/fluffy/fluffy-hit1.ogg</sound>
+        <sound event="hit">monsters/fluffy/fluffy-hit2.ogg</sound>
+        <sound event="hit">monsters/fluffy/fluffy-hit3.ogg</sound>
+        <sound event="miss">monsters/fluffy/fluffy-miss1.ogg</sound>
+        <sound event="hurt">monsters/fluffy/fluffy-hurt1.ogg</sound>
+    </monster>
+
+    <monster id="1021" name="Cave Snake">
+        <sprite>monsters/snake-cave.xml</sprite>
+        <sound event="hit">monsters/cavesnake/cavesnake-hit1.ogg</sound>
+    </monster>
+
+    <monster id="1022" name="Jack O">
+        <sprite>monsters/ghost-pumpkin.xml</sprite>
+    </monster>
+
+    <monster id="1023" name="Fire Skull">
+        <sprite>monsters/skull-fire.xml</sprite>
+    </monster>
+
+    <monster id="1024" name="Poison Skull">
+        <sprite>monsters/skull-poison.xml</sprite>
+    </monster>
+
+    <monster id="1025" name="Log Head">
+        <sprite>monsters/logmonster.xml</sprite>
+        <sound event="hit">monsters/loghead/loghead-hit1.ogg</sound>
+        <sound event="hurt">monsters/loghead/loghead-hurt1.ogg</sound>
+        <sound event="hurt">monsters/loghead/loghead-hurt2.ogg</sound>
+        <sound event="hurt">monsters/loghead/loghead-hurt3.ogg</sound>
+        <sound event="hurt">monsters/loghead/loghead-hurt4.ogg</sound>
+        <sound event="hurt">monsters/loghead/loghead-hurt5.ogg</sound>
+        <sound event="die">monsters/loghead/loghead-die1.ogg</sound>
+    </monster>
+
+    <monster id="1026" name="Mountain Snake">
+        <sprite>monsters/snake.xml|#585b39,a67c5d,dbc9a9,ffffff</sprite>
+    </monster>
+
+    <monster id="1027" name="Easter Fluffy">
+        <sprite>monsters/fluffy.xml</sprite>
+        <sound event="hit">monsters/fluffy/fluffy-hit1.ogg</sound>
+        <sound event="hit">monsters/fluffy/fluffy-hit2.ogg</sound>
+        <sound event="hit">monsters/fluffy/fluffy-hit3.ogg</sound>
+        <sound event="miss">monsters/fluffy/fluffy-miss1.ogg</sound>
+        <sound event="hurt">monsters/fluffy/fluffy-hurt1.ogg</sound>
+    </monster>
+
+    <monster id="1028" name="Mouboo">
+        <sprite>monsters/mouboo.xml</sprite>
+    </monster>
+
+    <monster id="1029" name="Mauve Plant">
+        <sprite>monsters/plant.xml|#e0b0ff</sprite>
+    </monster>
+
+    <monster id="1030" name="Cobalt Plant">
+        <sprite>monsters/plant.xml|#0047ab</sprite>
+    </monster>
+
+    <monster id="1031" name="Gamboge Plant">
+        <sprite>monsters/plant.xml|#ef9b0f</sprite>
+    </monster>
+
+    <monster id="1032" name="Alizarin Plant">
+        <sprite>monsters/plant.xml|#e32636</sprite>
+    </monster>
+
+    <monster id="1033" name="Sea Slime">
+        <sprite>monsters/slime.xml|#4ca1a0,ffffff</sprite>
+        <sprite>monsters/accessories/slime-seajelly.xml|#4Ca16e,ffffff</sprite>
+        <sound event="die">monsters/slime/slime-die1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
+        <sound event="move">monsters/slime/slime-move1.ogg</sound>
+        <sound event="move">monsters/slime/slime-move2.ogg</sound>
+    </monster>
+
+    <monster id="1034" name="Grass Snake">
+        <sprite>monsters/snake.xml|#205839,60a65d,80dba9,ffffff</sprite>
+    </monster>
+
+    <monster id="1035" name="Silkworm">
+        <sprite>monsters/silkworm.xml|#807d20,e0dac0;#c0a830</sprite>
+    </monster>
+
+    <monster id="1036" name="Zombie">
+        <sprite>monsters/zombie.xml</sprite>
+        <sound event="move">monsters/zombie/zombie-move1.ogg</sound>
+        <sound event="move">monsters/zombie/zombie-move2.ogg</sound>
+        <sound event="hit">monsters/zombie/zombie-hit1.ogg</sound>
+        <sound event="hit">monsters/zombie/zombie-hit2.ogg</sound>
+        <sound event="miss">monsters/zombie/zombie-miss1.ogg</sound>
+        <sound event="die">monsters/zombie/zombie-dying1.ogg</sound>
+    </monster>
+
+    <monster id="1037" name="Clover Patch">
+        <sprite>monsters/clover.xml</sprite>
+    </monster>
+
+    <monster id="1038" name="Squirrel">
+        <sprite>monsters/squirrel.xml|#dfae76</sprite>
+        <sound event="hurt">monsters/squirrel/squirrel-hurt1.ogg</sound>
+        <sound event="hurt">monsters/squirrel/squirrel-hurt2.ogg</sound>
+        <sound event="die">monsters/squirrel/squirrel-die1.ogg</sound>
+        <sound event="die">monsters/squirrel/squirrel-die2.ogg</sound>
+    </monster>
+
+    <monster id="1039" name="Fire Lizard">
+        <sprite>monsters/lizard.xml|#673132,923F42,CD5961,E163A4,ffffff</sprite>
+        <sound event="hit">monsters/fire-goblin/fire-goblin-hit1.ogg</sound>
+        <sound event="hit">monsters/fire-goblin/fire-goblin-hit2.ogg</sound>
+        <sound event="miss">monsters/fire-goblin/fire-goblin-miss1.ogg</sound>
+        <attack id="1" effect-id="401"/>
+    </monster>
+
+    <monster id="1040" name="Wisp">
+        <sprite>monsters/wisp.xml|#aadd44,ffff66</sprite>
+        <particlefx>graphics/particles/wisp.particle.xml</particlefx>
+    </monster>
+
+    <monster id="1041" name="Snail">
+        <sprite>monsters/snail.xml|#FDC689;#E0A6E3;#E0A6E3;#F06EAA;#C69C6D;#A9FF02</sprite>
+        <particlefx>graphics/particles/monster-snail-trail.particle.xml</particlefx>
+        <sound event="hit">monsters/snail/snail-hit1.ogg</sound>
+        <sound event="hurt">monsters/snail/snail-hurt1.ogg</sound>
+        <sound event="hurt">monsters/snail/snail-hurt1.ogg</sound>
+        <sound event="die">monsters/snail/snail-die1.ogg</sound>
+    </monster>
+
+    <monster id="1042" name="Spectre">
+        <sprite>monsters/wisp.xml|#ff77dd,dd77ff</sprite>
+        <particlefx>graphics/particles/spectre.particle.xml</particlefx>
+    </monster>
+
+    <monster id="1043" name="Skeleton">
+        <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
+        <sound event="die">monsters/skeleton/skel-die1.ogg</sound>
+        <sound event="die">monsters/skeleton/skel-die2.ogg</sound>
+        <sound event="hit">monsters/skeleton/skel-hit1.ogg</sound>
+        <sound event="hit">monsters/skeleton/skel-hit2.ogg</sound>
+        <sound event="hit">monsters/skeleton/skel-hit3.ogg</sound>
+        <sound event="hurt">monsters/skeleton/skel-hurt1.ogg</sound>
+        <sound event="miss">monsters/skeleton/skel-miss1.ogg</sound>
+    </monster>
+
+    <monster id="1044" name="Lady Skeleton">
+        <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
+        <sprite>monsters/accessories/hairstyle08.xml|#ffe8bf</sprite>
+        <sound event="die">monsters/skeleton_lady/ladyskel-die1.ogg</sound>
+        <sound event="die">monsters/skeleton_lady/ladyskel-die2.ogg</sound>
+        <sound event="hit">monsters/skeleton_lady/ladyskel-hit1.ogg</sound>
+        <sound event="hit">monsters/skeleton_lady/ladyskel-hit2.ogg</sound>
+        <sound event="hit">monsters/skeleton_lady/ladyskel-hit3.ogg</sound>
+        <sound event="hurt">monsters/skeleton_lady/ladyskel-hurt1.ogg</sound>
+        <sound event="miss">monsters/skeleton_lady/ladyskel-miss1.ogg</sound>
+    </monster>
+
+    <monster id="1045" name="Fallen">
+        <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
+        <sprite>equipment/legs/chaps.xml</sprite>
+        <sprite>equipment/chest/warlordplate.xml</sprite>
+        <sprite>equipment/head/warlordhelm.xml</sprite>
+        <sprite>equipment/weapons/dagger.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
+        <sound event="die">monsters/fallen/fallen-die1.ogg</sound>
+        <sound event="die">monsters/fallen/fallen-die2.ogg</sound>
+        <sound event="hit">weapons/knives/setzer/setzer-hit1.ogg</sound>
+        <sound event="hit">weapons/knives/setzer/setzer-hit2.ogg</sound>
+        <sound event="hit">weapons/knives/setzer/setzer-hit3.ogg</sound>
+        <sound event="hurt">monsters/fallen/fallen-hurt1.ogg</sound>
+        <sound event="hurt">monsters/fallen/fallen-hurt2.ogg</sound>
+        <sound event="hurt">monsters/fallen/fallen-hurt3.ogg</sound>
+        <sound event="miss">weapons/miss1.ogg</sound>
+        <sound event="miss">weapons/miss2.ogg</sound>
+        <sound event="miss">weapons/miss3.ogg</sound>
+    </monster>
+
+    <monster id="1046" name="Tame Scorpion">
+        <sprite>monsters/scorpion.xml|#4d422d,826242,d8c282,ffffff</sprite>
+        <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
+        <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
+        <sound event="move">monsters/spider/spider-move1.ogg</sound>
+        <sound event="move">monsters/spider/spider-move2.ogg</sound>
+        <sound event="move">monsters/spider/spider-move3.ogg</sound>
+        <sound event="move">monsters/spider/spider-move4.ogg</sound>
+        <sound event="move">monsters/spider/spider-move5.ogg</sound>
+    </monster>
+
+    <monster id="1047" name="Poltergeist">
+        <sprite>monsters/wisp.xml|#77ffdd,77ddff</sprite>
+        <particlefx>graphics/particles/polter.particle.xml</particlefx>
+    </monster>
+
+    <monster id="1048" name="Duck" targetCursor="small">
+        <sprite>monsters/duck.xml</sprite>
+    </monster>
+
+    <monster id="1049" name="Bee" targetCursor="small">
+        <sprite>monsters/bee.xml</sprite>
+        <sprite>monsters/accessories/generic-shadow-small-circle.xml</sprite>
+        <sound event="die">monsters/bee/bee-die1.ogg</sound>
+        <sound event="hit">monsters/bee/bee-hit1.ogg</sound>
+        <sound event="miss">monsters/bee/bee-miss1.ogg</sound>
+        <sound event="move">monsters/bee/bee-move1.ogg</sound>
+    </monster>
+
+    <monster id="1050" name="House Maggot" targetCursor="small">
+        <sprite>monsters/cave-maggot.xml|#4d422d,826242,d8c282,ffffff</sprite>
+        <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
+        <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
+        <!-- <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound> -->
+        <sound event="die">monsters/maggot/maggot-dying1.ogg</sound>
+    </monster>
+
+    <!-- Monster ID 1051 is free -->
+    <!-- Monster ID 1052 is free -->
+    <!-- Monster ID 1053 is free -->
+    <monster id="1054" name="Troll">
+        <sprite>monsters/troll.xml|#FFDEC2;#FF4D4D;#FF99FF;#FFC88A</sprite>
+        <attack id="1" missile-particle="graphics/particles/monster-troll-foefire.particle.xml" action="attack"/>
+        <sound event="hit">env/flame.ogg</sound>
+        <sound event="miss">env/flame.ogg</sound>
+    </monster>
+
+    <monster id="1055" name="Butterfly" targetCursor="small">
+        <sprite>monsters/butterfly.xml|#660000,FF3300,FFCC99,FFCCCC</sprite>
+        <sprite>monsters/accessories/generic-shadow-small-circle.xml</sprite>
+    </monster>
+
+    <monster id="1056" name="Cave Maggot" targetCursor="small">
+        <sprite>monsters/cave-maggot.xml|</sprite>
+        <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
+        <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
+        <!-- <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound> -->
+        <sound event="die">monsters/maggot/maggot-dying1.ogg</sound>
+    </monster>
+
+    <monster id="1057" name="Angry Scorpion">
+        <sprite>monsters/scorpion.xml|#800000,ffffff</sprite>
+        <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
+        <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
+        <sound event="move">monsters/spider/spider-move1.ogg</sound>
+        <sound event="move">monsters/spider/spider-move2.ogg</sound>
+        <sound event="move">monsters/spider/spider-move3.ogg</sound>
+        <sound event="move">monsters/spider/spider-move4.ogg</sound>
+        <sound event="move">monsters/spider/spider-move5.ogg</sound>
+    </monster>
+
+    <monster id="1058" name="Ice Goblin">
+        <sprite>monsters/goblin-ice.xml</sprite>
+        <sound event="hit">monsters/fire-goblin/fire-goblin-hit1.ogg</sound>
+        <sound event="hit">monsters/fire-goblin/fire-goblin-hit2.ogg</sound>
+        <sound event="miss">monsters/fire-goblin/fire-goblin-miss1.ogg</sound>
+    </monster>
+
+    <monster id="1059" name="Giant Cave Maggot" targetCursor="large">
+        <sprite>monsters/cave-maggot-giant.xml|#565051,ffffff</sprite>
+        <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
+        <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
+        <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
+        <sound event="die">monsters/maggot/maggot-dying1.ogg</sound>
+    </monster>
+
+    <monster id="1060" name="Archant">
+        <sprite>monsters/archant.xml</sprite>
+        <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
+        <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
+    </monster>
+
+    <monster id="1061" name="Moggun">
+        <sprite>monsters/moggun.xml</sprite>
+    </monster>
+
+    <monster id="1062" name="Terranite">
+        <sprite>monsters/terranite.xml</sprite>
+        <sound event="die">monsters/terranite/terra-die1.ogg</sound>
+        <sound event="hit">monsters/terranite/terra-hit1.ogg</sound>
+        <sound event="hit">monsters/terranite/terra-hit2.ogg</sound>
+        <sound event="hit">monsters/terranite/terra-hit3.ogg</sound>
+        <sound event="hurt">monsters/terranite/terra-hurt1.ogg</sound>
+        <sound event="hurt">monsters/terranite/terra-hurt2.ogg</sound>
+        <sound event="hurt">monsters/terranite/terra-hurt3.ogg</sound>
+        <sound event="miss">monsters/terranite/terra-miss1.ogg</sound>
+        <sound event="move">monsters/terranite/terra-move1.ogg</sound>
+    </monster>
+
+    <monster id="1063" name="Pumpkin">
+        <sprite>monsters/pumpkin.xml</sprite>
+    </monster>
+
+    <monster id="1064" name="Bandit">
+        <sprite>monsters/bandit.xml</sprite>
+        <sprite>equipment/weapons/dagger.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
+    </monster>
+
+    <monster id="1065" name="Bandit Lord">
+        <sprite>monsters/bandit-lord.xml</sprite>
+        <sprite>equipment/weapons/bow.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
+        <attack id="1" missile-particle="graphics/particles/arrow.particle.xml" action="attack"/>
+    </monster>
+
+    <monster id="1066" name="Vampire Bat">
+        <sprite>monsters/vampire-bat.xml</sprite>
+        <sound event="die">monsters/bat/bat-dying1.ogg</sound>
+        <sound event="hit">monsters/bat/bat-hit1.ogg</sound>
+    </monster>
+
+    <monster id="1067" name="Reaper">
+        <sprite>monsters/reaper.xml</sprite>
+        <sprite>monsters/accessories/reaper-shadow.xml</sprite>
+        <particlefx>graphics/particles/monster-reaper.particle.xml</particlefx>
+        <sound event="die">monsters/reaper/reaper-die1.ogg</sound>
+        <sound event="hit">monsters/reaper/reaper-hit1.ogg</sound>
+        <sound event="hurt">monsters/reaper/reaper-hurt1.ogg</sound>
+        <sound event="move">monsters/reaper/reaper-move1.ogg</sound>
+        <attack id="1" critical-hit-effect-id="32" missile-particle="graphics/particles/lobbed-object.xml" action="attack"/>
+    </monster>
+
+    <monster id="1068" name="Reaper">
+        <sprite>monsters/reaper.xml</sprite>
+        <sprite>monsters/accessories/reaper-shadow.xml</sprite>
+        <particlefx>graphics/particles/monster-reaper.particle.xml</particlefx>
+        <sound event="die">monsters/reaper/reaper-die1.ogg</sound>
+        <sound event="hit">monsters/reaper/reaper-hit1.ogg</sound>
+        <sound event="hurt">monsters/reaper/reaper-hurt1.ogg</sound>
+        <sound event="move">monsters/reaper/reaper-move1.ogg</sound>
+        <attack id="1" critical-hit-effect-id="32" missile-particle="graphics/particles/lobbed-object.xml" action="attack"/>
+    </monster>
+
+    <monster id="1069" name="Flying Scythe" targetCursor="large">
+        <sprite>monsters/spinning-scythe.xml</sprite>
+        <sprite>monsters/accessories/scythe-shadow.xml</sprite>
+        <sound event="die">monsters/scythe/scythe-die1.ogg</sound>
+        <sound event="hit">weapons/other/scythe/scythe-hit1.ogg</sound>
+        <sound event="hit">weapons/other/scythe/scythe-hit2.ogg</sound>
+        <sound event="hit">weapons/other/scythe/scythe-hit3.ogg</sound>
+        <sound event="move">monsters/scythe/scythe-move1.ogg</sound>
+        <sound event="move">monsters/scythe/scythe-move2.ogg</sound>
+        <sound event="move">monsters/scythe/scythe-move3.ogg</sound>
+        <sound event="sit">monsters/scythe/scythe-move1.ogg</sound>
+        <sound event="sit">monsters/scythe/scythe-move2.ogg</sound>
+        <sound event="sit">monsters/scythe/scythe-move3.ogg</sound>
+    </monster>
+
+    <monster id="1070" name="Ball Lightning" targetCursor="small">
+        <sprite>monsters/ball-lightning.xml</sprite>
+        <sprite>monsters/accessories/ball-lightning-shadow.xml</sprite>
+        <particlefx>graphics/particles/monster-ball-lightning.particle.xml</particlefx>
+        <sound event="move">monsters/ball_lightning/ball_lighning-move1.ogg</sound>
+        <sound event="die">env/zap.ogg</sound>
+        <attack id="1" hit-effect-id="23" miss-effect-id="23" action="attack"/>
+    </monster>
+
+    <monster id="1071" name="Ice Element">
+        <sprite>monsters/element-ball.xml|#5e929d,a2d8e3,ffffff</sprite>
+    </monster>
+
+    <monster id="1072" name="Yeti">
+        <sprite>monsters/yeti.xml</sprite>
+        <sound event="die">monsters/yeti/yeti-die1.ogg</sound>
+        <sound event="hit">monsters/yeti/yeti-hit1.ogg</sound>
+        <sound event="hit">monsters/yeti/yeti-hit2.ogg</sound>
+        <sound event="hit">monsters/yeti/yeti-hit3.ogg</sound>
+        <sound event="hit">monsters/yeti/yeti-hit4.ogg</sound>
+        <sound event="hurt">monsters/yeti/yeti-hurt1.ogg</sound>
+        <sound event="hurt">monsters/yeti/yeti-hurt2.ogg</sound>
+        <sound event="hurt">monsters/yeti/yeti-hurt3.ogg</sound>
+        <sound event="miss">monsters/yeti/yeti-miss1.ogg</sound>
+        <sound event="miss">monsters/yeti/yeti-miss2.ogg</sound>
+        <sound event="miss">monsters/yeti/yeti-miss3.ogg</sound>
+        <sound event="move">monsters/yeti/yeti-move1.ogg</sound>
+        <sound event="move">monsters/yeti/yeti-move2.ogg</sound>
+        <sound event="move">monsters/yeti/yeti-move3.ogg</sound>
+        <sound event="move">monsters/yeti/yeti-move4.ogg</sound>
+    </monster>
+
+    <monster id="1073" name="The Lost">
+        <sprite>monsters/skeleton.xml|#aca379</sprite>
+        <sprite>equipment/chest/robe.xml|#333333</sprite>
+        <sprite>equipment/head/phylactery.xml</sprite>
+        <sound event="die">monsters/skeleton/skel-die1.ogg</sound>
+        <sound event="die">monsters/skeleton/skel-die2.ogg</sound>
+        <sound event="hit">magic/confringo1.ogg</sound>
+        <sound event="hit">magic/confringo2.ogg</sound>
+        <sound event="hit">magic/confringo3.ogg</sound>
+        <sound event="hurt">monsters/skeleton/skel-hurt1.ogg</sound>
+        <sound event="miss">monsters/skeleton/skel-miss1.ogg</sound>
+        <attack id="1" missile-particle="graphics/particles/thelost-attack.particle.xml" action="attack"/>
+    </monster>
+
+    <monster id="1074" name="Red Bone">
+        <sprite>monsters/skeleton.xml|#994040,772020,440808,000000</sprite>
+        <sound event="die">monsters/skeleton/skel-die1.ogg</sound>
+        <sound event="die">monsters/skeleton/skel-die2.ogg</sound>
+        <sound event="hit">monsters/skeleton/skel-hit1.ogg</sound>
+        <sound event="hit">monsters/skeleton/skel-hit2.ogg</sound>
+        <sound event="hit">monsters/skeleton/skel-hit3.ogg</sound>
+        <sound event="hurt">monsters/skeleton/skel-hurt1.ogg</sound>
+        <sound event="miss">monsters/skeleton/skel-miss1.ogg</sound>
+        <particlefx>graphics/particles/necroblast.particle.xml</particlefx>
+    </monster>
+
+    <monster id="1075" name="Stalker">
+        <sprite>monsters/wraith.xml</sprite>
+    </monster>
+
+    <!-- Monster ID 1076 is free -->
+    <monster id="1077" name="Drunken Skeleton">
+        <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
+        <sprite>equipment/legs/chaps.xml</sprite>
+        <sprite>equipment/chest/vnecksweater.xml|#580000,A40000,C02020,ff6060</sprite>
+        <sprite>equipment/head/tophat.xml</sprite>
+        <sound event="die">monsters/skeleton/skel-die1.ogg</sound>
+        <sound event="die">monsters/skeleton/skel-die2.ogg</sound>
+        <sound event="hit">monsters/skeleton/skel-hit1.ogg</sound>
+        <sound event="hit">monsters/skeleton/skel-hit2.ogg</sound>
+        <sound event="hit">monsters/skeleton/skel-hit3.ogg</sound>
+        <sound event="hurt">monsters/skeleton/skel-hurt1.ogg</sound>
+        <sound event="miss">monsters/skeleton/skel-miss1.ogg</sound>
+    </monster>
+
+    <monster id="1078" name="Tipsy Skeleton">
+        <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
+        <sprite>equipment/legs/chaps.xml</sprite>
+        <sprite>equipment/chest/vnecksweater.xml|#0d1430,21337c,4363e5</sprite>
+        <sprite>equipment/head/bowler-hat.xml</sprite>
+        <sound event="die">monsters/skeleton/skel-die1.ogg</sound>
+        <sound event="die">monsters/skeleton/skel-die2.ogg</sound>
+        <sound event="hit">monsters/skeleton/skel-hit1.ogg</sound>
+        <sound event="hit">monsters/skeleton/skel-hit2.ogg</sound>
+        <sound event="hit">monsters/skeleton/skel-hit3.ogg</sound>
+        <sound event="hurt">monsters/skeleton/skel-hurt1.ogg</sound>
+        <sound event="miss">monsters/skeleton/skel-miss1.ogg</sound>
+    </monster>
+
+    <monster id="1079" name="Drunken Lady Skeleton">
+        <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
+        <sprite>monsters/accessories/hairstyle08.xml|#ffe8bf</sprite>
+        <sprite>equipment/legs/skirt.xml|#3f221d,754d23,f5cea4</sprite>
+        <sprite>equipment/chest/shorttanktop.xml|#3f221d,754d23,f5cea4</sprite>
+        <sprite>equipment/head/heart-glasses.xml</sprite>
+        <sound event="die">monsters/skeleton_lady/ladyskel-die1.ogg</sound>
+        <sound event="die">monsters/skeleton_lady/ladyskel-die2.ogg</sound>
+        <sound event="hit">monsters/skeleton_lady/ladyskel-hit1.ogg</sound>
+        <sound event="hit">monsters/skeleton_lady/ladyskel-hit2.ogg</sound>
+        <sound event="hit">monsters/skeleton_lady/ladyskel-hit3.ogg</sound>
+        <sound event="hurt">monsters/skeleton_lady/ladyskel-hurt1.ogg</sound>
+        <sound event="miss">monsters/skeleton_lady/ladyskel-miss1.ogg</sound>
+    </monster>
+
+    <monster id="1080" name="Blue Spark">
+        <sprite>monsters/ball-lightning.xml</sprite>
+        <sprite>monsters/accessories/ball-lightning-shadow.xml</sprite>
+        <particlefx>graphics/particles/monster-ball-lightning-blue.particle.xml</particlefx>
+    </monster>
+
+    <monster id="1081" name="Red Spark">
+        <sprite>monsters/ball-lightning.xml</sprite>
+        <sprite>monsters/accessories/ball-lightning-shadow.xml</sprite>
+        <particlefx>graphics/particles/monster-ball-lightning-red.particle.xml</particlefx>
+    </monster>
+
+    <monster id="1082" name="Serqet">
+        <sprite>monsters/serqet.xml</sprite>
+    </monster>
+
+    <monster id="1083" name="Huntsman Spider">
+        <sprite>monsters/spider.xml|#1a160f,93774a,d2c3aa,ffffff;#a00000</sprite>
+        <sound event="die">monsters/spider/spider-die1.ogg</sound>
+        <sound event="hit">monsters/spider/spider-hit1.ogg</sound>
+        <sound event="hit">monsters/spider/spider-hit2.ogg</sound>
+        <sound event="hit">monsters/spider/spider-hit3.ogg</sound>
+        <sound event="move">monsters/spider/spider-move1.ogg</sound>
+        <sound event="move">monsters/spider/spider-move2.ogg</sound>
+        <sound event="move">monsters/spider/spider-move3.ogg</sound>
+        <sound event="move">monsters/spider/spider-move4.ogg</sound>
+        <sound event="move">monsters/spider/spider-move5.ogg</sound>
+        <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
+    </monster>
+
+    <monster id="1084" name="Crotcher Scorpion">
+        <sprite>monsters/scorpion.xml|#211b0e,5c3e20,a68d42,ffffff</sprite>
+        <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
+        <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
+        <sound event="move">monsters/spider/spider-move1.ogg</sound>
+        <sound event="move">monsters/spider/spider-move2.ogg</sound>
+        <sound event="move">monsters/spider/spider-move3.ogg</sound>
+        <sound event="move">monsters/spider/spider-move4.ogg</sound>
+        <sound event="move">monsters/spider/spider-move5.ogg</sound>
+    </monster>
+
+    <monster id="1085" name="Ice Skull">
+        <sprite>monsters/skull-ice.xml</sprite>
+    </monster>
+
+    <monster id="1086" name="Fey Element">
+        <sprite>monsters/element-ball.xml|#6d4e2f,98612c,c38a53,ffffff</sprite>
+        <particlefx>graphics/particles/monster-leaf.particle.xml</particlefx>
+    </monster>
+
+    <monster id="1087" name="Larvern" targetCursor="small">
+        <sprite>monsters/larvespa.xml|#211b0e,5c3e20,a68d42;#667C26</sprite>
+    </monster>
+
+    <monster id="1088" name="Hyvern">
+        <sprite>monsters/vespa.xml|#1a160f,93774a;#DEBFBF,BBA2A2</sprite>
+    </monster>
+
+    <monster id="1089" name="Hungry Fluffy">
+        <sprite>monsters/fluffy.xml</sprite>
+        <sound event="hit">monsters/fluffy/fluffy-hit1.ogg</sound>
+        <sound event="hit">monsters/fluffy/fluffy-hit2.ogg</sound>
+        <sound event="hit">monsters/fluffy/fluffy-hit3.ogg</sound>
+        <sound event="miss">monsters/fluffy/fluffy-miss1.ogg</sound>
+        <sound event="hurt">monsters/fluffy/fluffy-hurt1.ogg</sound>
+    </monster>
+
+    <monster id="1090" name="Wolvern">
+        <sprite>monsters/wolvern.xml|#000000,64727a,8996a0,a6afbf,dce9f3,ffffff</sprite>
+        <sound event="hit">monsters/wolvern/wolvern-hit1.ogg</sound>
+        <sound event="hit">monsters/wolvern/wolvern-hit2.ogg</sound>
+        <sound event="miss">monsters/wolvern/wolvern-miss1.ogg</sound>
+        <sound event="miss">monsters/wolvern/wolvern-miss2.ogg</sound>
+        <sound event="miss">monsters/wolvern/wolvern-miss3.ogg</sound>
+        <sound event="die">monsters/wolvern/wolvern-dying1.ogg</sound>
+    </monster>
+
+    <monster id="1091" name="Blue Slime">
+        <sprite>monsters/slime.xml|#2121ae,ffffff</sprite>
+        <sprite>monsters/accessories/slime-littleslime.xml|#2121ae,ffffff</sprite>
+        <sound event="die">monsters/slime/slime-die1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
+        <sound event="move">monsters/slime/slime-move1.ogg</sound>
+        <sound event="move">monsters/slime/slime-move2.ogg</sound>
+    </monster>
+
+    <monster id="1092" name="Slime Blast">
+        <sprite>monsters/accessories/slime-slimeblast.xml|#2121ae,ffffff</sprite>
+        <sound event="die">monsters/slime/slime-hit1.ogg</sound>
+    </monster>
+
+    <monster id="1093" name="White Slime">
+        <sprite>monsters/accessories/slime-slimeblast.xml|#dcdcff,ffffff</sprite>
+        <sound event="die">monsters/slime/slime-die1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
+        <sound event="move">monsters/slime/slime-move1.ogg</sound>
+        <sound event="move">monsters/slime/slime-move2.ogg</sound>
+    </monster>
+
+    <monster id="1094" name="Reinboo">
+        <sprite>monsters/christmas-mouboo.xml</sprite>
+        <sprite>monsters/accessories/mouboo-red-nose.xml</sprite>
+        <sprite>monsters/accessories/mouboo-red-saddle.xml</sprite>
+        <sprite>monsters/accessories/mouboo-red-shoes.xml</sprite>
+        <sprite>monsters/accessories/mouboo-antlers.xml</sprite>
+    </monster>
+
+    <monster id="1095" name="White Bell">
+        <sprite>monsters/snowflower.xml</sprite>
+    </monster>
+
+    <monster id="1096" name="Soul Snake">
+        <sprite>monsters/snake.xml|#664d28,a6673a,86D6DB,ffffff</sprite>
+        <particlefx>graphics/particles/monster-soulsnake.particle.xml</particlefx>
+    </monster>
+
+    <monster id="1097" name="Soul Eater">
+        <sprite>monsters/skeleton.xml|#D9BFFF</sprite>
+        <sprite>equipment/chest/tanktop.xml|#333333,555555,444444</sprite>
+        <sprite>equipment/legs/shorts.xml|#333333,555555,444444</sprite>
+        <sprite>monsters/accessories/hairstyle05.xml|#333333</sprite>
+        <sound event="die">monsters/skeleton/skel-die1.ogg</sound>
+        <sound event="die">monsters/skeleton/skel-die2.ogg</sound>
+        <sound event="hit">monsters/skeleton/skel-hit1.ogg</sound>
+        <sound event="hit">monsters/skeleton/skel-hit2.ogg</sound>
+        <sound event="hit">monsters/skeleton/skel-hit3.ogg</sound>
+        <sound event="hurt">monsters/skeleton/skel-hurt1.ogg</sound>
+        <sound event="miss">monsters/skeleton/skel-miss1.ogg</sound>
+        <particlefx>graphics/particles/monster-souleater.particle.xml</particlefx>
+    </monster>
+
+    <monster id="1098" name="Copper Slime">
+        <sprite>monsters/slime.xml|#a1734c,ffffff</sprite>
+        <sprite>monsters/accessories/slime-seajelly.xml|#a1744c,ffffff</sprite>
+        <sound event="die">monsters/slime/slime-die1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
+        <sound event="move">monsters/slime/slime-move1.ogg</sound>
+        <sound event="move">monsters/slime/slime-move2.ogg</sound>
+    </monster>
+
+    <monster id="1099" name="Sleeping Bandit">
+        <sprite>monsters/sleeping-bandit.xml</sprite>
+        <sprite>equipment/weapons/dagger.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
+    </monster>
+
+    <monster id="1100" name="Azul Slime">
+        <sprite>monsters/slime-littleslime.xml|#3080e4,d2f4ff</sprite>
+        <sound event="die">monsters/slime/slime-hit1.ogg</sound>
+    </monster>
+
+    <monster id="1101" name="Demonic Spirit">
+        <sprite>monsters/spirit-demonic.xml|#444444,9933ff</sprite>
+    </monster>
+
+    <monster id="1102" name="Luvia">
+        <sprite>model/female.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+        <sprite>hairstyles/hairstyle11-female.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#8c6625,dab425,ffffff</sprite>
+        <sprite>equipment/feet/assassin-boots.xml</sprite>
+        <sprite>equipment/legs/shorts.xml|#121212,343434</sprite>
+        <sprite>equipment/chest/sorcerer-robe-female.xml|#121212,343434;#8F47D6</sprite>
+        <sprite>equipment/head/wizard-hat.xml|#070707,121212,663399</sprite>
+        <sound event="die">system/boom.ogg</sound>
+        <sound event="hit">magic/confringo1.ogg</sound>
+        <sound event="hit">magic/confringo2.ogg</sound>
+        <sound event="hit">magic/confringo3.ogg</sound>
+        <sound event="miss">weapons/miss1.ogg</sound>
+        <sound event="miss">weapons/miss2.ogg</sound>
+        <sound event="miss">weapons/miss3.ogg</sound>
+        <particlefx>graphics/particles/monster-luvia.particle.xml</particlefx>
+        <attack id="1" critical-hit-effect-id="42" missile-particle="graphics/particles/luvia-attack.particle.xml" action="attack"/>
+    </monster>
+
+    <monster id="1103" name="Witch Guard">
+        <sprite>monsters/demon.xml|#444444,979797</sprite>
+        <sprite>equipment/feet/warlordboots.xml|#333333,878787</sprite>
+        <sprite>equipment/hands/generic.xml|#242424,626262</sprite>
+        <sprite>equipment/chest/demonwarlordplate.xml|#444444,979797</sprite>
+        <sprite>equipment/head/bull.xml</sprite>
+        <sprite>equipment/weapons/dagger.xml|#1c1b00,1b1a31,5b5660,827e85,9596e0</sprite>
+        <particlefx>graphics/particles/monster-witchguard.particle.xml</particlefx>
+    </monster>
+
+    <monster id="1104" name="Demonic Mouboo">
+        <sprite>monsters/mouboo-demonic.xml</sprite>
+        <sprite>monsters/accessories/mouboo-demonic-antlers.xml</sprite>
+        <particlefx>graphics/particles/monster-mouboo-demonic.particle.xml</particlefx>
+    </monster>
+
+    <monster id="1105" name="Vicious Squirrel">
+        <sprite>monsters/squirrel.xml|#736443</sprite>
+        <sound event="hurt">monsters/squirrel/squirrel-hurt1.ogg</sound>
+        <sound event="hurt">monsters/squirrel/squirrel-hurt2.ogg</sound>
+        <sound event="die">monsters/squirrel/squirrel-die1.ogg</sound>
+        <sound event="die">monsters/squirrel/squirrel-die2.ogg</sound>
+    </monster>
+
+    <monster id="1106" name="Wicked Mushroom">
+        <sprite>monsters/mushroom-wicked.xml</sprite>
+        <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
+        <sound event="hurt">monsters/shroom/shroom-hurt1.ogg</sound>
+        <sound event="die">monsters/shroom/shroom-die1.ogg</sound>
+    </monster>
+
+    <monster id="1107" name="Bluepar" targetCursor="small">
+        <sprite>monsters/bluepar.xml</sprite>
+        <sound event="hit">monsters/pinkie/pinkie-hit1.ogg</sound>
+        <sound event="miss">monsters/pinkie/pinkie-miss1.ogg</sound>
+    </monster>
+
+    <monster id="1108" name="Angry Fire Goblin">
+        <sprite>monsters/goblin-fire.xml</sprite>
+        <sound event="hit">monsters/fire-goblin/fire-goblin-hit1.ogg</sound>
+        <sound event="hit">monsters/fire-goblin/fire-goblin-hit2.ogg</sound>
+        <sound event="miss">monsters/fire-goblin/fire-goblin-miss1.ogg</sound>
+        <particlefx>graphics/particles/monster-angry-fire-goblin.particle.xml</particlefx>
+        <attack id="1" effect-id="400"/>
+    </monster>
+
+    <monster id="1109" name="Angry Sea Slime">
+        <sprite>monsters/slime.xml|#4ca1a0,ffffff</sprite>
+        <sprite>monsters/accessories/slime-seajelly.xml|#4Ca16e,ffffff</sprite>
+        <particlefx>graphics/particles/monster-angry-sea-slime.particle.xml</particlefx>
+        <sound event="die">monsters/slime/slime-die1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
+        <sound event="move">monsters/slime/slime-move1.ogg</sound>
+        <sound event="move">monsters/slime/slime-move2.ogg</sound>
+    </monster>
+
+    <monster id="1110" name="Angry Green Slime">
+        <sprite>monsters/slime.xml|#72982c,ffffff</sprite>
+        <particlefx>graphics/particles/monster-angry-green-slime.particle.xml</particlefx>
+        <sound event="die">monsters/slime/slime-die1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
+        <sound event="move">monsters/slime/slime-move1.ogg</sound>
+        <sound event="move">monsters/slime/slime-move2.ogg</sound>
+    </monster>
+
+    <monster id="1111" name="Candied Slime">
+        <sprite>monsters/slime.xml|#fd2273,ffbeff,ffffff</sprite>
+        <sprite>monsters/accessories/slime-bubble.xml|#feaaa7,fdfffb</sprite>
+        <attack id="1" missile-particle="graphics/particles/peppermint.particle.xml" action="attack"/>
+        <sound event="die">monsters/slime/slime-die1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
+        <sound event="move">monsters/slime/slime-move1.ogg</sound>
+        <sound event="move">monsters/slime/slime-move2.ogg</sound>
+    </monster>
+
+    <monster id="1112" name="Santaboo">
+        <sprite>monsters/christmas-mouboo.xml</sprite>
+        <sprite>monsters/accessories/mouboo-red-nose.xml</sprite>
+        <sprite>monsters/accessories/mouboo-red-saddle.xml</sprite>
+        <sprite>monsters/accessories/mouboo-red-shoes.xml</sprite>
+        <sprite>monsters/accessories/mouboo-santa-hat.xml</sprite>
+    </monster>
+
+    <monster id="1113" name="Pollett">
+        <sprite>monsters/penguin.xml</sprite>
+        <sound event="hit">monsters/pollett/pollett-hit1.ogg</sound>
+        <sound event="hit">monsters/pollett/pollett-hit2.ogg</sound>
+        <sound event="hit">monsters/pollett/pollett-hit3.ogg</sound>
+        <sound event="hit">monsters/pollett/pollett-hit4.ogg</sound>
+        <sound event="hurt">monsters/pollett/pollett-hurt1.ogg</sound>
+        <sound event="hurt">monsters/pollett/pollett-hurt2.ogg</sound>
+        <sound event="hurt">monsters/pollett/pollett-hurt3.ogg</sound>
+        <sound event="hurt">monsters/pollett/pollett-hurt4.ogg</sound>
+        <sound event="hurt">monsters/pollett/pollett-hurt5.ogg</sound>
+        <sound event="hurt">monsters/pollett/pollett-hurt6.ogg</sound>
+    </monster>
+
+    <monster id="1114" name="Nut Cracker">
+        <sprite>monsters/nutcracker.xml</sprite>
+        <sprite>monsters/accessories/hairstyle07.xml|#333333</sprite>
+        <sprite>monsters/accessories/nutcrackerhat.xml</sprite>
+    </monster>
+
+    <monster id="1115" name="Sea Slime Mother">
+        <sprite>monsters/slime-mother.xml|#4ca1a0,ffffff</sprite>
+        <sprite>monsters/accessories/slime-covered-bow.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;#4Ca16e,ffffff</sprite>
+        <sound event="die">monsters/slime/slime-die1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
+        <sound event="move">monsters/slime/slime-move1.ogg</sound>
+        <sound event="move">monsters/slime/slime-move2.ogg</sound>
+        <attack id="1" missile-particle="graphics/particles/arrowh-sea-slime.particle.xml|#4Ca16e,ffffff" action="attack"/>
+    </monster>
+
+    <monster id="1116" name="Undead Witch">
+        <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
+        <sprite>monsters/accessories/hairstyle08.xml</sprite>
+        <sprite>equipment/head/witch-hat.xml</sprite>
+        <sprite>equipment/chest/sorcerer-robe.xml|#111111,222222,333333,444444,555555,aaaaaa;#EFEFEF</sprite>
+        <sprite>equipment/weapons/polearm-blunt.xml|#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
+        <sound event="die">monsters/skeleton_lady/ladyskel-die1.ogg</sound>
+        <sound event="die">monsters/skeleton_lady/ladyskel-die2.ogg</sound>
+        <sound event="hit">magic/confringo1.ogg</sound>
+        <sound event="hit">magic/confringo2.ogg</sound>
+        <sound event="hit">magic/confringo3.ogg</sound>
+        <sound event="hurt">monsters/skeleton_lady/ladyskel-hurt1.ogg</sound>
+        <sound event="miss">weapons/other/staff/staff-miss1.ogg</sound>
+        <sound event="miss">weapons/other/staff/staff-miss2.ogg</sound>
+        <sound event="miss">weapons/other/staff/staff-miss3.ogg</sound>
+        <attack id="1" missile-particle="graphics/particles/undead-witch-attack.particle.xml" action="attack"/>
+    </monster>
+
+    <monster id="1117" name="Undead Troll">
+        <sprite>monsters/troll.xml|#BFBFBF;#F1F1F1;#FF99FF;#F1F1F1</sprite>
+        <attack id="1" missile-particle="graphics/particles/monster-undeadtroll-foefire.particle.xml" action="attack"/>
+        <sound event="hit">env/flame.ogg</sound>
+        <sound event="miss">env/flame.ogg</sound>
+    </monster>
+
+    <monster id="1118" name="Green Slime Mother">
+        <sprite>monsters/slime-mother.xml|#72982c,ffffff</sprite>
+        <sprite>monsters/accessories/slime-covered-bow.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d;#72982c,ffffff</sprite>
+        <sound event="die">monsters/slime/slime-die1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
+        <sound event="move">monsters/slime/slime-move1.ogg</sound>
+        <sound event="move">monsters/slime/slime-move2.ogg</sound>
+        <attack id="1" missile-particle="graphics/particles/arrowh-green-slime.particle.xml|#72982c,ffffff" action="attack"/>
+    </monster>
+
+    <monster id="1119" name="Thug">
+        <sprite>model/base.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#36e2fc,0ba8bf,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+        <sprite>hairstyles/hairstyle00-male.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#000000</sprite>
+        <sprite>equipment/head/sailor-hat.xml</sprite>
+        <sprite>equipment/feet/boots.xml</sprite>
+        <sprite>equipment/chest/tanktop.xml</sprite>
+        <sprite>equipment/legs/pants.xml</sprite>
+        <sound event="die">env/spawn_burst.ogg</sound>
+        <sound event="hit">weapons/punch1.ogg</sound>
+        <sound event="hit">weapons/punch2.ogg</sound>
+        <sound event="hit">weapons/punch3.ogg</sound>
+        <sound event="miss">weapons/miss1.ogg</sound>
+        <sound event="miss">weapons/miss2.ogg</sound>
+        <sound event="miss">weapons/miss3.ogg</sound>
+    </monster>
+
+    <monster id="1120" name="Swashbuckler">
+        <sprite>model/base.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#36e2fc,0ba8bf,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+        <sprite>hairstyles/hairstyle00-male.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#000000</sprite>
+        <sprite>equipment/chest/vnecksweater.xml</sprite>
+        <sprite>equipment/legs/pants.xml|#212121,555555</sprite>
+        <sprite>equipment/head/bandana.xml|#212121,555555</sprite>
+        <sprite>equipment/feet/boots.xml|#212121,555555</sprite>
+        <sprite>equipment/weapons/dagger.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
+        <sound event="die">env/spawn_burst.ogg</sound>
+        <sound event="hit">weapons/knives/setzer/setzer-hit1.ogg</sound>
+        <sound event="hit">weapons/knives/setzer/setzer-hit2.ogg</sound>
+        <sound event="hit">weapons/knives/setzer/setzer-hit3.ogg</sound>
+        <sound event="miss">weapons/miss1.ogg</sound>
+        <sound event="miss">weapons/miss2.ogg</sound>
+        <sound event="miss">weapons/miss3.ogg</sound>
+    </monster>
+
+    <monster id="1121" name="Grenadier">
+        <sprite>model/base.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#36e2fc,0ba8bf,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+        <sprite>hairstyles/hairstyle00-male.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#000000</sprite>
+        <sprite>equipment/chest/sorcerer-robe.xml|#5178a0,1a294c;#d5b02c</sprite>
+        <sprite>equipment/legs/pants.xml|#5178a0,1a294c</sprite>
+        <sprite>equipment/head/piratehat.xml</sprite>
+        <sprite>equipment/hands/generic.xml</sprite>
+        <sprite>equipment/feet/boots.xml|#212121,444444</sprite>
+        <sound event="die">env/spawn_burst.ogg</sound>
+        <sound event="hit">system/crit.ogg</sound>
+        <sound event="miss">system/crit.ogg</sound>
+        <attack id="1" critical-hit-effect-id="30" missile-particle="graphics/particles/lobbed-object.xml" action="attack"/>
+    </monster>
+
+    <monster id="1122" name="The Dread Pirate Marley">
+        <sprite>model/base.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#36e2fc,0ba8bf,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+        <sprite>hairstyles/hairstyle00-male.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#000000</sprite>
+        <sprite>equipment/chest/assassin.xml</sprite>
+        <sprite>equipment/legs/assassin.xml</sprite>
+        <sprite>equipment/head/eyepatch.xml</sprite>
+        <sprite>equipment/feet/assassin-boots.xml</sprite>
+        <sprite>equipment/weapons/bow.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
+        <sound event="die">env/spawn_burst.ogg</sound>
+        <sound event="hit">weapons/bows/forest/forest-hit1.ogg</sound>
+        <sound event="miss">weapons/bows/forest/forest-miss1.ogg</sound>
+        <attack id="1" missile-particle="graphics/particles/arrow.particle.xml" action="attack"/>
+    </monster>
+
+    <monster id="1123" name="The Dread Pirate Marley">
+        <sprite>model/base.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#36e2fc,0ba8bf,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+        <sprite>hairstyles/hairstyle00-male.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#000000</sprite>
+        <sprite>equipment/chest/assassin.xml</sprite>
+        <sprite>equipment/legs/assassin.xml</sprite>
+        <sprite>equipment/head/eyepatch.xml</sprite>
+        <sprite>equipment/feet/assassin-boots.xml</sprite>
+        <sprite>equipment/weapons/bow.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
+        <sound event="die">env/spawn_burst.ogg</sound>
+        <sound event="hit">weapons/bows/forest/forest-hit1.ogg</sound>
+        <sound event="miss">weapons/bows/forest/forest-miss1.ogg</sound>
+        <attack id="1" missile-particle="graphics/particles/arrow.particle.xml" action="attack"/>
+    </monster>
+
+    <monster id="1124" name="Wight">
+        <sprite>monsters/skeleton_inv.xml|#497ac3,2053a0,164995,154387</sprite>
+        <sprite>monsters/wight.xml|#164489,1f529f,619aea</sprite>
+        <sound event="die">monsters/skeleton/skel-die1.ogg</sound>
+        <sound event="die">monsters/skeleton/skel-die2.ogg</sound>
+        <sound event="hit">monsters/skeleton/skel-hit1.ogg</sound>
+        <sound event="hit">monsters/skeleton/skel-hit2.ogg</sound>
+        <sound event="hit">monsters/skeleton/skel-hit3.ogg</sound>
+        <sound event="hurt">monsters/skeleton/skel-hurt1.ogg</sound>
+        <sound event="miss">monsters/skeleton/skel-miss1.ogg</sound>
+        <particlefx>graphics/particles/chillfog.particle.xml</particlefx>
+    </monster>
+
+    <monster id="1125" name="Mana Ghost">
+        <sprite>monsters/mana-ghost.xml</sprite>
+        <sound event="die">monsters/ghost/ghost-die1.ogg</sound>
+        <sound event="move">monsters/ghost/ghost-move1.ogg</sound>
+        <sound event="move">monsters/ghost/ghost-move2.ogg</sound>
+        <sound event="move">monsters/ghost/ghost-move3.ogg</sound>
+    </monster>
+
+    <monster id="1126" name="Psi-Brain">
+        <sprite>monsters/psi-brain.xml</sprite>
+        <sprite>monsters/psi-bubble.xml</sprite>
+    </monster>
+
+    <monster id="1127" name="General Krukan">
+        <sprite>monsters/skeleton.xml|#ffe8bf</sprite>
+        <sprite>equipment/legs/chaps.xml</sprite>
+        <sprite>equipment/chest/warlordplate.xml</sprite>
+        <sprite>equipment/head/dark-helm.xml</sprite>
+        <sound event="die">monsters/fallen/fallen-die2.ogg</sound>
+        <sound event="hit">monsters/skeleton/skel-hit1.ogg</sound>
+        <sound event="hit">monsters/skeleton/skel-hit2.ogg</sound>
+        <sound event="hit">monsters/skeleton/skel-hit3.ogg</sound>
+        <sound event="hurt">monsters/fallen/fallen-hurt1.ogg</sound>
+        <sound event="hurt">monsters/fallen/fallen-hurt2.ogg</sound>
+        <sound event="hurt">monsters/fallen/fallen-hurt3.ogg</sound>
+        <sound event="miss">weapons/miss1.ogg</sound>
+        <sound event="miss">weapons/miss2.ogg</sound>
+        <sound event="miss">weapons/miss3.ogg</sound>
+    </monster>
+
+    <monster id="1128" name="General Razha">
+        <sprite>monsters/demon.xml|#444444,979797</sprite>
+        <sprite>equipment/feet/warlordboots.xml|#333333,878787</sprite>
+        <sprite>equipment/hands/generic.xml|#242424,626262</sprite>
+        <sprite>equipment/chest/demonwarlordplate.xml|#ea0000,979797</sprite>
+        <sprite>equipment/head/underworld-mask.xml</sprite>
+        <sprite>equipment/weapons/dagger.xml|#181619,1c1b00,1b1a31,54438a,5b5660,827e85,9596e0</sprite>
+        <sound event="die">monsters/fallen/fallen-die2.ogg</sound>
+        <sound event="hit">weapons/knives/setzer/setzer-hit1.ogg</sound>
+        <sound event="hit">weapons/knives/setzer/setzer-hit2.ogg</sound>
+        <sound event="hit">weapons/knives/setzer/setzer-hit3.ogg</sound>
+        <sound event="hurt">monsters/fallen/fallen-hurt1.ogg</sound>
+        <sound event="hurt">monsters/fallen/fallen-hurt2.ogg</sound>
+        <sound event="hurt">monsters/fallen/fallen-hurt3.ogg</sound>
+        <sound event="miss">weapons/miss1.ogg</sound>
+        <sound event="miss">weapons/miss2.ogg</sound>
+        <sound event="miss">weapons/miss3.ogg</sound>
+        <particlefx>graphics/particles/monster-witchguard.particle.xml</particlefx>
+    </monster>
+
+    <monster id="1129" name="General Terogan">
+        <sprite>monsters/skeleton.xml|#aca379</sprite>
+        <sprite>equipment/chest/robe.xml|#ea0000,333333</sprite>
+        <sprite>equipment/head/phylactery.xml</sprite>
+        <!-- <sprite>equipment/head/evileyes.xml</sprite> Commented due to missing frame errors, which cause lag. evileyes.xml needs rework -->
+        <sprite>equipment/hands/magefire.xml</sprite>
+        <sound event="die">monsters/fallen/fallen-die2.ogg</sound>
+        <sound event="hit">magic/confringo1.ogg</sound>
+        <sound event="hit">magic/confringo2.ogg</sound>
+        <sound event="hit">magic/confringo3.ogg</sound>
+        <sound event="hurt">monsters/skeleton/skel-hurt1.ogg</sound>
+        <sound event="miss">monsters/skeleton/skel-miss1.ogg</sound>
+        <attack id="1" critical-hit-effect-id="42" missile-particle="graphics/particles/thelost-attack.particle.xml" action="attack"/>
+    </monster>
+
+    <monster id="1130" name="Moonshroom">
+        <sprite>monsters/moonshroom.xml</sprite>
+        <particlefx>graphics/particles/monster-moonshroom.particle.xml</particlefx>
+        <attack id="1" missile-particle="graphics/particles/moonshroom-attack.particle.xml" action="attack"/>
+        <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
+        <sound event="hurt">monsters/shroom/shroom-hurt1.ogg</sound>
+        <sound event="die">monsters/shroom/shroom-die1.ogg</sound>
+    </monster>
+
+    <monster id="1131" name="Mana Bug" targetCursor="small">
+        <sprite>monsters/mana-bug.xml|#660000,FF3300,FFCC99,FFCCCC</sprite>
+        <sprite>monsters/accessories/generic-shadow-small-circle.xml</sprite>
+    </monster>
+
+    <monster id="1132" name="Lava Slime">
+        <sprite>monsters/slime.xml|#bb0201,ff9934,ffd366</sprite>
+        <particlefx>graphics/particles/firetrail.xml</particlefx>
+        <sound event="die">monsters/slime/slime-die1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
+        <sound event="move">monsters/slime/slime-move1.ogg</sound>
+        <sound event="move">monsters/slime/slime-move2.ogg</sound>
+        <attack id="1" critical-hit-effect-id="400" action="attack"/>
+    </monster>
+
+    <monster id="1133" name="Anne">
+        <sprite>monsters/lizard.xml|#923F7C,6E5A8C,C1B5B6</sprite>
+        <sound event="hit">monsters/wolvern/wolvern-hit1.ogg</sound>
+    </monster>
+
+    <monster id="1134" name="SUSAN" targetCursor="large">
+        <sprite>monsters/SUSAN.xml|R:#ff00e4</sprite>
+        <particlefx>graphics/particles/heartnecklace.particle.xml</particlefx>
+        <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
+        <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
+        <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound>
+        <sound event="die">monsters/maggot/maggot-dying1.ogg</sound>
+    </monster>
+
+    <monster id="1135" name="Lovely Maggot" targetCursor="small">
+        <sprite>monsters/lovely-maggot.xml|S:#524b51,8463a0,6f706f,af006d</sprite>
+        <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
+        <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
+        <!-- <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound> -->
+        <sound event="die">monsters/maggot/maggot-dying1.ogg</sound>
+    </monster>
+
+    <monster id="1136" name="Lesser Ghost">
+        <sprite>monsters/mana-ghost.xml</sprite>
+    </monster>
+
+    <monster id="1137" name="Tormenta">
+        <sprite>model/base.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+        <sprite>hairstyles/hairstyle13-female.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#000000,202020,404040,dddddd</sprite>
+        <sprite>equipment/feet/assassin-boots.xml</sprite>
+        <sprite>equipment/legs/shorts.xml|#121212,343434</sprite>
+        <sprite>equipment/chest/sorcerer-robe.xml|#121212,343434;#8F47D6</sprite>
+        <sprite>equipment/head/wizard-hat.xml|#070707,121212,663399</sprite>
+        <sound event="die">system/boom.ogg</sound>
+        <sound event="hit">magic/confringo1.ogg</sound>
+        <sound event="hit">magic/confringo2.ogg</sound>
+        <sound event="hit">magic/confringo3.ogg</sound>
+        <sound event="miss">weapons/miss1.ogg</sound>
+        <sound event="miss">weapons/miss2.ogg</sound>
+        <sound event="miss">weapons/miss3.ogg</sound>
+        <particlefx>graphics/particles/monster-luvia.particle.xml</particlefx>
+        <particlefx>graphics/particles/soulpool.xml</particlefx>
+        <attack id="1" critical-hit-effect-id="42" missile-particle="graphics/particles/luvia-attack.particle.xml" action="attack"/>
+    </monster>
+
+    <monster id="1138" name="Mana Guardian">
+        <sprite>model/base.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+        <sprite>hairstyles/hairstyle08.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#000000,202020,404040,dddddd</sprite>
+        <sprite>equipment/feet/assassin-boots.xml</sprite>
+        <sprite>equipment/legs/shorts.xml|#121212,343434</sprite>
+        <sprite>equipment/chest/robe.xml|#ffffff</sprite>
+        <!-- No folder for this -->
+        <sprite>equipment/angel-wings.xml</sprite>
+        <sprite>equipment/head/aureole.xml</sprite>
+        <sound event="hit">env/flame.ogg</sound>
+        <sound event="miss">weapons/miss1.ogg</sound>
+        <sound event="miss">weapons/miss2.ogg</sound>
+        <sound event="miss">weapons/miss3.ogg</sound>
+        <particlefx>graphics/particles/angel.particle.xml</particlefx>
+        <attack id="1" critical-hit-effect-id="16" missile-particle="graphics/particles/fire-burst.xml" action="attack"/>
+    </monster>
+
+    <monster id="1139" name="Virus">
+        <sprite>monsters/virus.xml</sprite>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <attack id="1" missile-particle="graphics/particles/monster-virus-foefire.particle.xml" action="attack"/>
+    </monster>
+
+    <monster id="1140" name="Tengu">
+        <sprite>monsters/tengu.xml</sprite>
+        <sound event="die">monsters/tengu/die1.ogg</sound>
+        <sound event="hit">monsters/tengu/hit1.ogg</sound>
+        <sound event="hit">monsters/tengu/hit2.ogg</sound>
+        <sound event="hit">monsters/tengu/hit3.ogg</sound>
+        <sound event="hurt">monsters/tengu/hurt1.ogg</sound>
+        <sound event="hurt">monsters/tengu/hurt2.ogg</sound>
+        <sound event="hurt">monsters/tengu/hurt3.ogg</sound>
+        <sound event="miss">monsters/tengu/miss1.ogg</sound>
+    </monster>
+
+    <monster id="1141" name="Sasquatch">
+        <sprite>monsters/sasquatch.xml</sprite>
+        <sound event="die">monsters/yeti/yeti-die1.ogg</sound>
+        <sound event="hit">monsters/yeti/yeti-hit1.ogg</sound>
+        <sound event="hit">monsters/yeti/yeti-hit2.ogg</sound>
+        <sound event="hit">monsters/yeti/yeti-hit3.ogg</sound>
+        <sound event="hit">monsters/yeti/yeti-hit4.ogg</sound>
+        <sound event="hurt">monsters/yeti/yeti-hurt1.ogg</sound>
+        <sound event="hurt">monsters/yeti/yeti-hurt2.ogg</sound>
+        <sound event="hurt">monsters/yeti/yeti-hurt3.ogg</sound>
+        <sound event="miss">monsters/yeti/yeti-miss1.ogg</sound>
+        <sound event="miss">monsters/yeti/yeti-miss2.ogg</sound>
+        <sound event="miss">monsters/yeti/yeti-miss3.ogg</sound>
+        <sound event="move">monsters/sasquatch/sasquatch-move1.ogg</sound>
+        <sound event="move">monsters/sasquatch/sasquatch-move1.ogg</sound>
+        <sound event="move">monsters/sasquatch/sasquatch-move1.ogg</sound>
+        <sound event="move">monsters/sasquatch/sasquatch-move2.ogg</sound>
+    </monster>
+
+    <monster id="1142" name="Zax De'Kagen">
+        <sprite>model/base.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+        <sprite>hairstyles/hairstyle06-male.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#000000,202020,404040,dddddd</sprite>
+        <sprite>equipment/feet/assassin-boots.xml</sprite>
+        <sprite>equipment/legs/shorts.xml|#121212,343434</sprite>
+        <sprite>equipment/chest/sorcerer-robe.xml|#121212,343434;#8F47D6</sprite>
+        <sprite>equipment/head/wizard-hat.xml|#070707,121212,663399</sprite>
+        <sound event="die">system/boom.ogg</sound>
+        <sound event="hit">magic/confringo1.ogg</sound>
+        <sound event="hit">magic/confringo2.ogg</sound>
+        <sound event="hit">magic/confringo3.ogg</sound>
+        <sound event="miss">weapons/miss1.ogg</sound>
+        <sound event="miss">weapons/miss2.ogg</sound>
+        <sound event="miss">weapons/miss3.ogg</sound>
+        <particlefx>graphics/particles/monster-luvia.particle.xml</particlefx>
+        <particlefx>graphics/particles/soulpool.xml</particlefx>
+        <particlefx>graphics/particles/angel.particle.xml</particlefx>
+        <sprite>equipment/head/katzeur.xml</sprite>
+        <attack id="1" critical-hit-effect-id="42" missile-particle="graphics/particles/luvia-attack.particle.xml" action="attack"/>
+    </monster>
+
+    <monster id="1143" name="Mana Slayer">
+        <sprite>model/base.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+        <sprite>hairstyles/hairstyle08.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#000000,202020,404040,dddddd</sprite>
+        <sprite>equipment/feet/assassin-boots.xml</sprite>
+        <sprite>equipment/legs/shorts.xml|#121212,343434</sprite>
+        <sprite>equipment/chest/robe.xml|#000000</sprite>
+        <!-- No folder for this -->
+        <sprite>equipment/angel-wings.xml</sprite>
+        <sprite>equipment/head/aureole.xml</sprite>
+        <sprite>equipment/weapons/sandcutter.xml</sprite>
+        <sound event="hit">weapons/knives/rock/rock-hit1.ogg</sound>
+        <sound event="hit">weapons/knives/rock/rock-hit2.ogg</sound>
+        <sound event="miss">weapons/miss1.ogg</sound>
+        <sound event="miss">weapons/miss2.ogg</sound>
+        <sound event="miss">weapons/miss3.ogg</sound>
+        <attack id="1" critical-hit-effect-id="16" missile-particle="graphics/particles/fire-burst.xml" action="attack"/>
+    </monster>
+
+    <monster id="1144" name="Great Dragon">
+        <sprite>monsters/dragon.xml</sprite>
+    </monster>
+
+    <monster id="1145" name="Coal Golem">
+        <sprite>monsters/golem.xml</sprite>
+        <!-- No folder for this -->
+        <attack id="1" critical-hit-effect-id="16" missile-particle="graphics/particles/fire-burst.xml" action="attack"/>
+        <sound event="die">monsters/golem/die.ogg</sound>
+        <sound event="hit">monsters/golem/hit1.ogg</sound>
+        <sound event="miss">monsters/golem/miss1.ogg</sound>
+    </monster>
+
+    <monster id="1146" name="Flashmob">
+        <sprite>model/base.xml|#413e22,6c5d31,baa06e,b2b05f;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d55</sprite>
+        <sprite>hairstyles/hairstyle15.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#000000,202020,404040,dddddd</sprite>
+        <sprite>equipment/feet/assassin-boots.xml</sprite>
+        <sprite>equipment/legs/assassin.xml</sprite>
+        <sprite>equipment/chest/bromenalchest.xml|#fbf5e9</sprite>
+        <!-- No folder for this -->
+        <sprite>equipment/angel-wings.xml</sprite>
+        <sprite>equipment/weapons/polearm-chop.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
+        <attack id="1" critical-hit-effect-id="16" missile-particle="graphics/particles/fire-burst.xml" action="attack_2hand"/>
+        <sound event="die">monsters/flashmob/flashmob-die1.ogg</sound>
+        <sound event="hit">weapons/other/halberd/halberd-hit1.ogg</sound>
+        <sound event="hit">weapons/other/halberd/halberd-hit2.ogg</sound>
+        <sound event="hit">weapons/other/halberd/halberd-hit3.ogg</sound>
+        <sound event="miss">weapons/other/staff/staff-miss1.ogg</sound>
+        <sound event="miss">weapons/other/staff/staff-miss2.ogg</sound>
+        <sound event="miss">weapons/other/staff/staff-miss3.ogg</sound>
+        <sound event="hurt">monsters/flashmob/flashmob-hurt1.ogg</sound>
+        <sound event="hurt">monsters/flashmob/flashmob-hurt2.ogg</sound>
+        <sound event="hurt">monsters/flashmob/flashmob-hurt3.ogg</sound>
+        <sound event="move">monsters/flashmob/flashmob-move1.ogg</sound>
+        <sound event="move">monsters/flashmob/flashmob-move2.ogg</sound>
+        <sound event="move">monsters/flashmob/flashmob-move3.ogg</sound>
+        <sound event="move">monsters/flashmob/flashmob-move4.ogg</sound>
+    </monster>
+
+    <monster id="1147" name="Koyntety">
+        <sprite>model/female.xml|#413e22,6c5d31,baa06e,b2b05f;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+        <sprite>hairstyles/hairstyle09-female.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#000000,202020,404040,dddddd</sprite>
+        <sprite>equipment/feet/assassin-boots-female.xml</sprite>
+        <sprite>equipment/legs/assassin-female.xml</sprite>
+        <sprite>equipment/chest/bromenalchest-female.xml|#fbf5e9</sprite>
+        <!-- No folder for this -->
+        <sprite>equipment/angel-wings.xml</sprite>
+        <sprite>equipment/weapons/bow-female.xml</sprite>
+        <attack id="1" critical-hit-effect-id="16" missile-particle="graphics/particles/fire-burst.xml" action="attack_bow"/>
+        <sound event="hit">weapons/bows/forest/forest-hit1.ogg</sound>
+        <sound event="miss">weapons/bows/forest/forest-miss1.ogg</sound>
+    </monster>
+
+    <monster id="1148" name="Doom Golem">
+        <sprite>monsters/golem-red.xml</sprite>
+        <attack id="1" critical-hit-effect-id="16" missile-particle="graphics/particles/fire-burst.xml" action="attack"/>
+        <sound event="die">monsters/golem/die.ogg</sound>
+        <sound event="hit">monsters/golem/hit1.ogg</sound>
+        <sound event="miss">monsters/golem/miss1.ogg</sound>
+    </monster>
+
+    <monster id="1149" name="The Enchanter">
+        <sprite>model/female.xml|#413e22,6c5d31,baa06e,b2b05f;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+        <sprite>hairstyles/hairstyle09-female.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#000000,202020,404040,dddddd</sprite>
+        <sprite>equipment/feet/assassin-boots-female.xml</sprite>
+        <sprite>equipment/legs/assassin-female.xml</sprite>
+        <sprite>equipment/chest/sorcerer-robe-female.xml|#000000;#2554c7</sprite>
+        <!-- No folder for this -->
+        <sprite>equipment/weapons/bow-female.xml</sprite>
+        <particlefx>graphics/particles/doom.particle.xml</particlefx>
+        <attack id="1" critical-hit-effect-id="16" missile-particle="graphics/particles/fire-burst.xml" action="attack_bow"/>
+        <sound event="hit">weapons/bows/forest/forest-hit1.ogg</sound>
+        <sound event="miss">weapons/bows/forest/forest-miss1.ogg</sound>
+    </monster>
+
+    <monster id="1150" name="Mana Tyrant">
+        <sprite>model/base.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+        <sprite>hairstyles/hairstyle08.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#000000,202020,404040,dddddd</sprite>
+        <sprite>equipment/feet/assassin-boots.xml</sprite>
+        <sprite>equipment/legs/shorts.xml|#121212,343434</sprite>
+        <sprite>equipment/chest/robe.xml|#5e7480,f1ffff,ffffff</sprite>
+        <sprite>equipment/chest/warlordplate.xml</sprite>
+        <sprite>equipment/head/knighthelm.xml</sprite>
+        <!-- No folder for this -->
+        <sprite>equipment/angel-wings.xml</sprite>
+        <sprite>equipment/head/aureole.xml</sprite>
+        <sound event="hit">weapons/punch1.ogg</sound>
+        <sound event="hit">weapons/punch2.ogg</sound>
+        <sound event="hit">weapons/punch3.ogg</sound>
+        <sound event="miss">weapons/miss1.ogg</sound>
+        <sound event="miss">weapons/miss2.ogg</sound>
+        <sound event="miss">weapons/miss3.ogg</sound>
+        <particlefx>graphics/particles/angel.particle.xml</particlefx>
+        <attack id="1" critical-hit-effect-id="16" missile-particle="graphics/particles/fire-burst.xml" action="attack"/>
+    </monster>
+
+    <monster id="1151" name="V0id Flower">
+        <sprite>monsters/flower.xml|#f08808,e06808;#f6ffbd;#23285f</sprite>
+        <sound event="hit">monsters/flower/flower-hit1.ogg</sound>
+        <sound event="hit">monsters/flower/flower-hit2.ogg</sound>
+        <sound event="miss">monsters/flower/flower-miss1.ogg</sound>
+    </monster>
+
+    <monster id="1152" name="V0id Archant">
+        <sprite>monsters/archant.xml</sprite>
+        <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
+        <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
+    </monster>
+
+    <monster id="1153" name="V0id Slime">
+        <sprite>monsters/slime.xml|#fc6e00,ffffff</sprite>
+        <sprite>monsters/accessories/slime-seajelly.xml|#ffaa00,ffffff</sprite>
+        <sound event="die">monsters/slime/slime-die1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
+        <sound event="move">monsters/slime/slime-move1.ogg</sound>
+        <sound event="move">monsters/slime/slime-move2.ogg</sound>
+    </monster>
+
+    <monster id="1154" name="V0id Snake">
+        <sprite>monsters/snake.xml|#151515,505050,e02020;#a01010;#ffffff</sprite>
+        <sound event="hit">monsters/cavesnake/cavesnake-hit1.ogg</sound>
+    </monster>
+
+    <monster id="1155" name="V0id Bat">
+        <sprite>monsters/crafty.xml</sprite>
+        <sound event="die">monsters/bat/bat-dying1.ogg</sound>
+        <sound event="hit">monsters/bat/bat-hit1.ogg</sound>
+    </monster>
+
+    <monster id="1156" name="V0id Maggot" targetCursor="small">
+        <sprite>monsters/void-maggot.xml</sprite>
+        <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
+        <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
+        <!-- <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound> -->
+        <sound event="die">monsters/maggot/maggot-dying1.ogg</sound>
+    </monster>
+
+    <monster id="1157" name="V0id Soldier">
+        <sprite>model/male.xml|#166876,32992e,23a988,70cd87,a7f1b2;#0e0036,4c264b,a04f62,d2a391,e6d7b8;#3a3a3a,d5d5d5</sprite>
+        <sprite>equipment/feet/warlordboots.xml|#333333,878787</sprite>
+        <sprite>equipment/hands/generic.xml|#242424,626262</sprite>
+        <sprite>equipment/chest/warlordplate.xml|#444444,979797</sprite>
+        <sprite>equipment/head/bull.xml</sprite>
+        <sprite>equipment/weapons/bow-banshee.xml|#1c1b00,1b1a31,5b5660,827e85,9596e0</sprite>
+        <sound event="hit">weapons/bows/forest/forest-hit1.ogg</sound>
+        <sound event="miss">weapons/bows/forest/forest-miss1.ogg</sound>
+        <attack id="1" critical-hit-effect-id="28" missile-particle="graphics/particles/arrow.particle.xml" action="attack_bow"/>
+    </monster>
+
+    <monster id="1158" name="V0id Mouboo">
+        <sprite>monsters/moubi.xml</sprite>
+    </monster>
+
+    <monster id="1159" name="V0id Scorpion">
+        <sprite>monsters/scorpion.xml|#fc6e00,fa9a00,ffff00,ffffff</sprite>
+        <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
+        <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
+        <sound event="move">monsters/spider/spider-move1.ogg</sound>
+        <sound event="move">monsters/spider/spider-move2.ogg</sound>
+        <sound event="move">monsters/spider/spider-move3.ogg</sound>
+        <sound event="move">monsters/spider/spider-move4.ogg</sound>
+        <sound event="move">monsters/spider/spider-move5.ogg</sound>
+        <sound event="die">monsters/spider/spider-die1.ogg</sound>
+    </monster>
+
+    <monster id="1160" name="V0id Mushroom">
+        <sprite>monsters/mushroom-void.xml</sprite>
+        <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
+        <sound event="hurt">monsters/shroom/shroom-hurt1.ogg</sound>
+        <sound event="die">monsters/shroom/shroom-die1.ogg</sound>
+    </monster>
+
+    <monster id="1161" name="Xakelbael the Dark">
+        <sprite>model/base.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
+        <sprite>hairstyles/hairstyle06-male.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#000000,202020,404040,dddddd</sprite>
+        <sprite>equipment/feet/assassin-boots.xml</sprite>
+        <sprite>equipment/legs/shorts.xml|#121212,343434</sprite>
+        <sprite>equipment/chest/sorcerer-robe.xml|#846928,dab641,ffef93,fff7c9;#8F47D6</sprite>
+        <sprite>equipment/head/wizard-hat.xml|#070707,121212,663399</sprite>
+        <sound event="die">system/boom.ogg</sound>
+        <sound event="hit">magic/confringo1.ogg</sound>
+        <sound event="hit">magic/confringo2.ogg</sound>
+        <sound event="hit">magic/confringo3.ogg</sound>
+        <sound event="miss">weapons/miss1.ogg</sound>
+        <sound event="miss">weapons/miss2.ogg</sound>
+        <sound event="miss">weapons/miss3.ogg</sound>
+        <particlefx>graphics/particles/monster-luvia.particle.xml</particlefx>
+        <particlefx>graphics/particles/angel.particle.xml</particlefx>
+        <attack id="1" critical-hit-effect-id="42" missile-particle="graphics/particles/luvia-attack.particle.xml" action="attack"/>
+    </monster>
+
+    <monster id="1162" name="Grinchboo">
+        <sprite>monsters/grinchboo.xml</sprite>
+    </monster>
+
+    <monster id="1163" name="Friday">
+        <sprite>monsters/pet-black-cat.xml</sprite>
+    </monster>
+
+    <monster id="1164" name="Christmas Tree">
+        <sprite>npcs/christmastree.xml</sprite>
+    </monster>
+
+    <monster id="1165" name="Christmas Gift">
+        <sprite>monsters/presente-surpresa.xml</sprite>
+    </monster>
+
+    <monster id="1166" name="Snowman">
+        <sprite>monsters/snowman.xml</sprite>
+        <sound event="hit">weapons/projectiles/snowball/hit1.ogg</sound>
+        <sound event="miss">weapons/projectiles/snowball/miss1.ogg</sound>
+    </monster>
+
+    <monster id="1167" name="Der Schneemann">
+        <sprite>monsters/snowman-boss.xml</sprite>
+        <attack id="1" critical-hit-effect-id="16" missile-particle="graphics/particles/snow-burst.xml" action="attack"/>
+        <sound event="hit">monsters/snowman_boss/hit1.ogg</sound>
+        <sound event="miss">monsters/snowman_boss/miss1.ogg</sound>
+    </monster>
+
+    <monster id="1168" name="Floyd">
+        <sprite>monsters/floyd.xml</sprite>
+        <sound event="hit">env/zap.ogg</sound>
+    </monster>
+
+    <monster id="1169" name="Crystal Spider">
+        <sprite>monsters/spider-crystal.xml</sprite>
+        <sound event="hit">monsters/spider/spider-hit1.ogg</sound>
+        <sound event="hit">monsters/spider/spider-hit2.ogg</sound>
+        <sound event="hit">monsters/spider/spider-hit3.ogg</sound>
+        <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
+        <sound event="move">monsters/spider/spider-move1.ogg</sound>
+        <sound event="move">monsters/spider/spider-move2.ogg</sound>
+        <sound event="move">monsters/spider/spider-move3.ogg</sound>
+        <sound event="move">monsters/spider/spider-move4.ogg</sound>
+        <sound event="move">monsters/spider/spider-move5.ogg</sound>
+        <sound event="die">monsters/spider/spider-die1.ogg</sound>
+    </monster>
+
+    <monster id="1170" name="Crystal Golem">
+        <sprite>monsters/golem-crystal.xml</sprite>
+        <attack id="1" critical-hit-effect-id="16" missile-particle="graphics/particles/fire-burst.xml" action="attack"/>
+        <sound event="die">monsters/golem/die.ogg</sound>
+        <sound event="hit">monsters/golem/hit1.ogg</sound>
+        <sound event="miss">monsters/golem/miss1.ogg</sound>
+    </monster>
+
+    <monster id="1171" name="Black Crystal Golem">
+        <sprite>monsters/golem-blackcrystal.xml</sprite>
+        <attack id="1" critical-hit-effect-id="16" missile-particle="graphics/particles/fire-burst.xml" action="attack"/>
+        <sound event="die">monsters/golem/die.ogg</sound>
+        <sound event="hit">monsters/golem/hit1.ogg</sound>
+        <sound event="miss">monsters/golem/miss1.ogg</sound>
+    </monster>
+
 	<monster id="1172" name="Bif" targetCursor="medium">
 		<sprite>monsters/bif.xml</sprite>
 	</monster>
+
 	<monster id="1173" name="Mont Blanc" targetCursor="large">
 		<sprite>monsters/montblanc.xml</sprite>
 	</monster>
+
+    <monster id="1174" name="Emo">
+        <sprite gender="male">model/male.xml|#166876,32992e,23a988,70cd87,a7f1b2;#0e0036,4c264b,a04f62,d2a391,e6d7b8;#3a3a3a,d5d5d5</sprite>
+        <sprite>hairstyles/hairstyle27.xml|#166876,32992e,23a988,70cd87,a7f1b2;#0e0036,4c264b,a04f62,d2a391,e6d7b8;#3a3a3a,d5d5d5</sprite>
+        <sprite>equipment/chest/leather.xml|W:#2a2117,2f2112,493219,61411e,724c22,a97e4f</sprite>
+        <sprite>equipment/legs/pants.xml|W:#2a2117,2f2112,493219,61411e,724c22,a97e4f</sprite>
+        <sprite>equipment/head/shades.xml|#104010,208020,30c030</sprite>
+        <sprite>equipment/feet/boots.xml|#212121,555555</sprite>
+        <sprite>equipment/hands/generic.xml|#4e2e18,c8752f</sprite>
+        <sprite>equipment/weapons/sword-long.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
+        <sprite>equipment/shields/wooden.xml</sprite>
+        <sound event="die">env/spawn_burst.ogg</sound>
+        <sound event="hit">weapons/swords/longsword-hit1.ogg</sound>
+        <sound event="hit">weapons/swords/longsword-hit2.ogg</sound>
+        <sound event="miss">weapons/miss1.ogg</sound>
+        <sound event="miss">weapons/miss2.ogg</sound>
+        <sound event="miss">weapons/miss3.ogg</sound>
+    </monster>
+
+    <!-- Mods should use the following code -->
+    <!--include name="mods/monsters.xml"/-->
 </monsters>
