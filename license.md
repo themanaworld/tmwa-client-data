@@ -152,6 +152,7 @@ File | Artists | Licenses
 `graphics/items/equipment/charms/towel.png` | Bjorn | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/charms/manapearl.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/equipment/charms/assassin-amulet.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/items/equipment/charms/darktalisman.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 
 #### Chest
 File | Artists | Licenses
@@ -619,7 +620,10 @@ File | Artists | Licenses
 `graphics/particles/star-small.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/waterfall-a.png` | Modanung | GPLv2, CC BY-SA 3.0
 `graphics/particles/manapearl_4x4.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
-
+`graphics/particles/snowflake-7x7.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/particles/snowflake-9x9.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/particles/hex-facet-outline.png` | ?, HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/particles/hex-facet-outline-50.png` | ?, HoraK-FDF | GPLv2, CC BY-SA 4.0
 
 ### Skills
 File | Artists | Licenses
@@ -662,6 +666,21 @@ File | Artists | Licenses
 `graphics/sprites/icons/slow-poison.png` | Freeyorp101 | GPLv2, CC BY-SA 3.0
 `graphics/sprites/icons/spell-haste.png` | Graingert | GPLv2
 `graphics/sprites/icons/spell-protection-generic.png` | Freeyorp101 | GPLv2, CC BY-SA 3.0
+`graphics/sprites/icons/weight-big.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/icons/weight-small.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/icons/spell-cooldown-mg.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/icons/spell-cooldown-mt.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/icons/spell-cooldown-ench.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/icons/spell-cooldown-koy.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/icons/spell-cooldown-ar.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/icons/spell-cooldown-ar-outline.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/icons/spell-cooldown-r.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/icons/spell-cooldown-r-outline.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/icons/spell-cooldown-upmarmu.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/icons/spell-attack-generic-outline.png` | ?, HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/icons/feather-outline.png` | ?, HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/icons/hidden-outline.png` | ?, HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/icons/invisible-outline.png` | ?, HoraK-FDF | GPLv2, CC BY-SA 4.0
 
 #### Actor Models
 File | Artists | Licenses
@@ -689,6 +708,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/weapons/wand-deathshand.png` | :grey_question:, Wombat, Wushin | GPLv2
 `graphics/sprites/equipment/weapons/wand.png` | :grey_question:, Wushin | GPLv2
 `graphics/sprites/equipment/weapons/beheader.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/equipment/weapons/sandcutter.png` | ?, HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/equipment/weapons/gun.png` | Skipy, Jesusalva | GPLv2
 
 #### Chest
@@ -919,6 +939,9 @@ File | Artists | Licenses
 `graphics/sprites/monsters/goblin-fire.png` | :grey_question:, Neoriceisgood | GPLv2
 `graphics/sprites/monsters/goblin-ice.png` | :grey_question:, Neoriceisgood | GPLv2
 `graphics/sprites/monsters/golem.png` | Hocus | MIT, GPLv2, CC BY-SA 3.0
+`graphics/sprites/monsters/golem-red.png` | Hocus | MIT, GPLv2, CC BY-SA 3.0
+`graphics/sprites/monsters/golem-blackcrystal.png` | Hocus | MIT, GPLv2, CC BY-SA 3.0
+`graphics/sprites/monsters/golem-crystal.png` | Hocus, HoraK-FDF | MIT, GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/larvespa.png` | Arikel | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/lizard.png` | Len, Pateame | GPLv2
 `graphics/sprites/monsters/logmonster.png` | FotherJ | GPLv2, CC BY-SA 3.0
@@ -953,6 +976,7 @@ File | Artists | Licenses
 `graphics/sprites/monsters/snake.png` | :grey_question:, Neoriceisgood | GPLv2
 `graphics/sprites/monsters/snowflower.png` | Salmondine | GPLv2
 `graphics/sprites/monsters/spider.png` | FotherJ | GPLv2, CC BY-SA 3.0
+`graphics/sprites/monsters/spider-crystal.png` | FotherJ, HoraK-FDF | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/spinning-scythe.png` | Nmaligec, Skipy | GPLv2
 `graphics/sprites/monsters/spirit-demonic.png` | :grey_question:, Neoriceisgood, V0id | GPLv2
 `graphics/sprites/monsters/squirrel.png` | FotherJ, Wombat | GPLv2, CC BY-SA 3.0
