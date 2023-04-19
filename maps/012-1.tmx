@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="168" height="188" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="42">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="168" height="188" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="44">
  <properties>
   <property name="minimap" value="graphics/minimaps/012-1.png"/>
   <property name="music" value="the-forest.ogg"/>
@@ -900,41 +900,41 @@
   <object id="30" name="MauvePlant" type="spawn" x="0" y="0">
    <properties>
     <property name="death" value="1800000"/>
-    <property name="spawn" value="2700000"/>
     <property name="max_beings" value="5"/>
     <property name="monster_id" value="27"/>
+    <property name="spawn" value="2700000"/>
    </properties>
   </object>
   <object id="31" name="CobaltPlant" type="spawn" x="0" y="0">
    <properties>
     <property name="death" value="1800000"/>
-    <property name="spawn" value="2700000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="28"/>
+    <property name="spawn" value="2700000"/>
    </properties>
   </object>
   <object id="32" name="GambogePlant" type="spawn" x="0" y="0">
    <properties>
     <property name="death" value="1800000"/>
-    <property name="spawn" value="2700000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="29"/>
+    <property name="spawn" value="2700000"/>
    </properties>
   </object>
   <object id="33" name="AlizarinPlant" type="spawn" x="0" y="0">
    <properties>
     <property name="death" value="1800000"/>
-    <property name="spawn" value="2700000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="30"/>
+    <property name="spawn" value="2700000"/>
    </properties>
   </object>
   <object id="34" name="Silkworm" type="spawn" x="0" y="0">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="60000"/>
     <property name="max_beings" value="5"/>
     <property name="monster_id" value="33"/>
+    <property name="spawn" value="60000"/>
    </properties>
   </object>
   <object id="35" name="CloverPatch" type="spawn" x="0" y="0">
@@ -947,22 +947,36 @@
   <object id="36" name="Squirrel" type="spawn" x="0" y="0">
    <properties>
     <property name="death" value="20"/>
-    <property name="spawn" value="30"/>
     <property name="max_beings" value="25"/>
     <property name="monster_id" value="36"/>
+    <property name="spawn" value="30"/>
    </properties>
   </object>
   <object id="37" name="Butterfly" type="spawn" x="0" y="0">
    <properties>
     <property name="death" value="20"/>
-    <property name="spawn" value="30"/>
     <property name="max_beings" value="20"/>
     <property name="monster_id" value="53"/>
+    <property name="spawn" value="30"/>
    </properties>
   </object>
   <object id="38" name="graphics/particles/apple.particle.xml" type="particle_effect" x="2732" y="3308"/>
   <object id="39" name="graphics/particles/apple.particle.xml" type="particle_effect" x="2729" y="3318"/>
   <object id="40" name="graphics/particles/apple.particle.xml" type="particle_effect" x="2717" y="3306"/>
   <object id="41" name="graphics/particles/apple.particle.xml" type="particle_effect" x="2707" y="3312"/>
+  <object id="42" name="PinkFlower" type="spawn" x="1952" y="4576" width="384" height="192">
+   <properties>
+    <property name="death" value="250"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="12"/>
+   </properties>
+  </object>
+  <object id="43" name="PinkFlower" type="spawn" x="672" y="1600" width="224" height="288">
+   <properties>
+    <property name="death" value="250"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="12"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
