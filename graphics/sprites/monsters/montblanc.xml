@@ -1,12 +1,13 @@
 <?xml version="1.0"?>
 <sprite>
   <imageset name="base" src="graphics/sprites/monsters/montblanc.png" width="634" height="470"/>
+  <imageset name="dead" src="graphics/sprites/npcs/blanc.png" width="527" height="467"/>
   <action name="stand" imageset="base">
     <animation>
       <frame index="0"/>
     </animation>
   </action>
-  <action name="dead" imageset="base">
+  <action name="dead" imageset="dead">
     <animation>
       <frame index="0"/>
     </animation>
