@@ -1131,6 +1131,7 @@ File | Artists | Licenses
 `graphics/tiles/inn2.png` | Alige, Irukard, Salmondine | GPLv2
 `graphics/tiles/light-flickering-x1x4.png` | Micksha | GPLv2, CC BY-SA 3.0
 `graphics/tiles/mushrooms.png` | Dave, Len | GPLv2
+`graphics/tiles/shipwreck_blanc.png` | KokoroReflections, Hocus | CC BY 4.0
 `graphics/tiles/snow_docks.png` | Irukard, Arikel, Meway, Wombat | GPLv2
 `graphics/tiles/snow_ground.png` | bagzie, gumi, :grey_question: | GPLv2
 `graphics/tiles/snow_tree_x3.png` | :grey_question:, Alige, Hal9000 | GPLv2
