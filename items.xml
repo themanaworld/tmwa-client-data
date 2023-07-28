@@ -218,14 +218,31 @@
         description="Can be sold for a considerable amount of money."
         type="generic"
         weight="40" />
-
+  <item id="5293"
+        image="generic/crystalized-dragon-blood.png"
+        name="Crystallized Dragon Blood"
+        description="The blood of a slain dragon that seeped down to the earth's core and was formed into a crystal by the enormous pressure. It is still surrounded by an aura of incredible power that is almost as strong as it was during the dragon's lifetime."
+        type="generic"
+        weight="1111"/>
   <item id="5294"
         image="use/food/rum.png"
         name="Rum"
         description="Hohoho and a bottle of rum!"
         effect="Hangover"
         type="usable"
-        weight="2"
-  />
+        weight="2"/>
+  <item id="5295"
+        image="generic/pink-flower-seed.png"
+        name="Pink Flower Seed"
+        description="You could swear that this seed is watching you."
+        type="generic"
+        weight="10"/>
+  <item id="5297"
+        image="generic/golden-tooth.png"
+        name="Golden Tooth"
+        description="Somebody was very rich during his lifetime."
+        type="generic"
+        sellProtected="true"
+        weight="40"/>
 
 </items>

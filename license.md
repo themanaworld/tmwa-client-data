@@ -398,6 +398,7 @@ File | Artists | Licenses
 `graphics/items/generic/coal.png` | Enchilado, Meway, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/coinbag.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/crystal.png` | Crush, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/crystalized-dragon-blood.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/dark-easter-egg.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/dark-petal.png` | Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/doll.png` | Lizandra, Enchilado | GPLv2, CC BY-SA 3.0
@@ -414,6 +415,7 @@ File | Artists | Licenses
 `graphics/items/generic/gempowder.png` | Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/gemstone-a.png` | Crush, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/gemstone-b.png` | Crush, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/golden-tooth.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/grassliner.png` | Salmondine, Enchilado | GPLv2
 `graphics/items/generic/grassseeds.png` | Coolkid782, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/grub-slime.png` | Enchilado | GPLv2, CC BY-SA 3.0
@@ -441,6 +443,7 @@ File | Artists | Licenses
 `graphics/items/generic/patch-leather.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/pearl.png` | Fate, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/petal.png` | :grey_question:, Enchilado | GPLv2
+`graphics/items/generic/pink-flower-seed.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/pinkantennae.png` | Crush, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/plushmouboo.png` | Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/powder.png` | Crush, Enchilado | GPLv2, CC BY-SA 3.0
