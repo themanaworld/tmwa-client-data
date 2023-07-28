@@ -71,12 +71,13 @@
         attack-action="attack_bow"
         attack-range="6">
     <sprite>equipment/weapons/bow-life.xml</sprite>
-    <sound event="strike">weapons/bows/banshee/banshee-miss1.ogg</sound>
-    <sound event="strike">weapons/bows/banshee/banshee-miss2.ogg</sound>
-    <sound event="strike">weapons/bows/banshee/banshee-miss3.ogg</sound>
-    <sound event="hit">weapons/bows/banshee/banshee-hit1.ogg</sound>
-    <sound event="hit">weapons/bows/banshee/banshee-hit2.ogg</sound>
-    <sound event="hit">weapons/bows/banshee/banshee-hit3.ogg</sound>
+    <sound event="hit">weapons/bows/imperial/imperial-hit1.ogg</sound>
+    <sound event="hit">weapons/bows/imperial/imperial-hit2.ogg</sound>
+    <sound event="hit">weapons/bows/imperial/imperial-hit3.ogg</sound>
+    <sound event="hit">weapons/bows/imperial/imperial-hit4.ogg</sound>
+    <sound event="hit">weapons/bows/imperial/imperial-hit5.ogg</sound>
+    <sound event="hit">weapons/bows/imperial/imperial-hit6.ogg</sound>
+    <sound event="miss">weapons/bows/imperial/imperial-miss1.ogg</sound>
   </item>
   <item id="1170"
         image="equipment/weapon/staff-woodstaff.png"
@@ -91,9 +92,9 @@
         attack-range="2"
         weight="1000">
     <sprite gender="unisex">equipment/weapons/staff.xml</sprite>
-    <sound event="strike">weapons/other/staff/staff-miss1.ogg</sound>
-    <sound event="strike">weapons/other/staff/staff-miss2.ogg</sound>
-    <sound event="strike">weapons/other/staff/staff-miss3.ogg</sound>
+    <sound event="miss">weapons/other/staff/staff-miss1.ogg</sound>
+    <sound event="miss">weapons/other/staff/staff-miss2.ogg</sound>
+    <sound event="miss">weapons/other/staff/staff-miss3.ogg</sound>
     <sound event="hit">weapons/other/staff/staff-hit1.ogg</sound>
     <sound event="hit">weapons/other/staff/staff-hit2.ogg</sound>
     <sound event="hit">weapons/other/staff/staff-hit3.ogg</sound>
