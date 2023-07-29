@@ -17,7 +17,9 @@
 		sellProtected="true"
 		weight="3000">
 		<sprite>equipment/weapons/gun.xml</sprite>
-		<sound event="hit">weapons/gun/shot.ogg</sound>
-		<sound event="miss">weapons/gun/shot.ogg</sound>
+		<sound event="hit">weapons/gun/gun-hit1.ogg</sound>
+		<sound event="miss">weapons/gun/gun-miss1.ogg</sound>
+		<sound event="miss">weapons/gun/gun-miss2.ogg</sound>
+		<sound event="miss">weapons/gun/gun-miss3.ogg</sound>
 	</item>
 </items>
