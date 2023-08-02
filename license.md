@@ -1412,7 +1412,10 @@ File | Artists | Licenses
 `sfx/weapons/bows/short/short-miss1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/weapons/bows/bow-hit1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/weapons/bows/bow-miss1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
-`sfx/weapons/gunstaff/shot.ogg` | Bird-Man, Freesound.org, Jesusalva | CC 0
+`sfx/weapons/gun/gun-hit1.ogg` | Bird-Man, Freesound.org(shot), Jesusalva | CC 0
+`sfx/weapons/gun/gun-miss1.ogg` | Bird-Man, Freesound.org(shot), craigsmith, Freesound.org(Rifle ricochets), Jesusalva, Ledmitz | CC 0
+`sfx/weapons/gun/gun-miss2.ogg` | Bird-Man, Freesound.org(shot), craigsmith, Freesound.org(Rifle ricochets), Jesusalva, Ledmitz | CC 0
+`sfx/weapons/gun/gun-miss3.ogg` | Bird-Man, Freesound.org(shot), craigsmith, Freesound.org(Rifle ricochets), Jesusalva, Ledmitz | CC 0
 `sfx/weapons/knives/knife-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/weapons/knives/knife-miss1.ogg` | Cosmostrator | GPLv2
 `sfx/weapons/knives/rock/rock-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
