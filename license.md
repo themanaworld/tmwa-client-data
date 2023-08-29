@@ -1408,6 +1408,13 @@ File | Artists | Licenses
 `sfx/weapons/bows/banshee/banshee-miss3.ogg` | Ledmitz (rocket-shots.mp3 / Audionautics / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/weapons/bows/forest/forest-hit1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/weapons/bows/forest/forest-miss1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/imperial/imperial-hit1.ogg` | Ledmitz  | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/imperial/imperial-hit2.ogg` | Ledmitz  | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/imperial/imperial-hit3.ogg` | Ledmitz  | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/imperial/imperial-hit4.ogg` | Ledmitz  | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/imperial/imperial-hit5.ogg` | Ledmitz  | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/imperial/imperial-hit6.ogg` | Ledmitz  | GPLv2, CC BY-SA 3.0
+`sfx/weapons/bows/imperial/imperial-miss1.ogg` | Ledmitz  | GPLv2, CC BY-SA 3.0
 `sfx/weapons/bows/short/short-hit1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/weapons/bows/short/short-miss1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/weapons/bows/bow-hit1.ogg` | Ledmitz (arrow_whoosh.ogg / smcameron / CC BY 3.0) | GPLv2, CC BY-SA 3.0
