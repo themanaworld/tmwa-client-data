@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="300" height="300" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="77">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="300" height="300" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="80">
  <properties>
   <property name="music" value="cavesong.ogg"/>
   <property name="name" value="Bandit Cave"/>
@@ -1699,377 +1699,391 @@
   <object id="25" name="Silkworm" type="spawn" x="352" y="288" width="9088" height="4096">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="9"/>
     <property name="monster_id" value="33"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="26" name="Bandit" type="spawn" x="7936" y="672" width="992" height="1120">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="62"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="27" name="Bandit" type="spawn" x="7776" y="3040" width="1248" height="1248">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="62"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="28" name="Bandit" type="spawn" x="3968" y="3488" width="576" height="704">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="62"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="29" name="Bandit" type="spawn" x="5184" y="1792" width="576" height="704">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="62"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="30" name="Bandit" type="spawn" x="1888" y="1920" width="576" height="704">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="62"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="31" name="Bandit" type="spawn" x="6016" y="3104" width="576" height="704">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="62"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="32" name="Bandit" type="spawn" x="6016" y="608" width="576" height="704">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="62"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="33" name="Bandit" type="spawn" x="896" y="864" width="576" height="704">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="62"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="34" name="Bandit" type="spawn" x="2880" y="512" width="1472" height="1568">
    <properties>
     <property name="death" value="60000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="62"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="35" name="Bandit" type="spawn" x="736" y="2848" width="576" height="704">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="62"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="36" name="Bat" type="spawn" x="5184" y="6976" width="3968" height="2112">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="5"/>
     <property name="monster_id" value="15"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="37" name="Bat" type="spawn" x="5280" y="5216" width="3808" height="832">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="15"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="38" name="Bat" type="spawn" x="8160" y="448" width="160" height="4064">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="6"/>
     <property name="monster_id" value="15"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="39" name="Bat" type="spawn" x="6080" y="448" width="160" height="4064">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="9"/>
     <property name="monster_id" value="15"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="40" name="Bat" type="spawn" x="3968" y="3328" width="2816" height="448">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="9"/>
     <property name="monster_id" value="15"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="41" name="Bat" type="spawn" x="736" y="704" width="3360" height="3104">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="23"/>
     <property name="monster_id" value="15"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="42" name="Bat" type="spawn" x="448" y="4704" width="4160" height="3136">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="9"/>
     <property name="monster_id" value="15"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="43" name="SpikyMushroom" type="spawn" x="4800" y="2912" width="1184" height="1216">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="5"/>
     <property name="monster_id" value="17"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="44" name="SpikyMushroom" type="spawn" x="5792" y="1856" width="1184" height="1216">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="5"/>
     <property name="monster_id" value="17"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="45" name="SpikyMushroom" type="spawn" x="2368" y="4800" width="960" height="896">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="5"/>
     <property name="monster_id" value="17"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="46" name="SpikyMushroom" type="spawn" x="992" y="3328" width="1152" height="640">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="5"/>
     <property name="monster_id" value="17"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="47" name="EvilMushroom" type="spawn" x="5344" y="2560" width="672" height="928">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="4"/>
     <property name="monster_id" value="11"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="48" name="EvilMushroom" type="spawn" x="5888" y="1120" width="672" height="928">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="11"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="49" name="EvilMushroom" type="spawn" x="896" y="3296" width="1536" height="800">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="11"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="50" name="EvilMushroom" type="spawn" x="1824" y="5152" width="448" height="576">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="11"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="51" name="SpikyMushroom" type="spawn" x="2752" y="7008" width="960" height="480">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="17"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="52" name="SpikyMushroom" type="spawn" x="7488" y="1152" width="1728" height="544">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="17"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="53" name="EvilMushroom" type="spawn" x="8384" y="1088" width="704" height="928">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="11"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="54" name="YellowSlime" type="spawn" x="2560" y="2112" width="1024" height="832">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="5"/>
     <property name="monster_id" value="5"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="55" name="YellowSlime" type="spawn" x="1600" y="768" width="640" height="832">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="5"/>
     <property name="monster_id" value="5"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="56" name="YellowSlime" type="spawn" x="544" y="1824" width="640" height="832">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="5"/>
     <property name="monster_id" value="5"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="57" name="YellowSlime" type="spawn" x="1728" y="3072" width="480" height="352">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="5"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="58" name="YellowSlime" type="spawn" x="1472" y="1760" width="320" height="416">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="5"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="59" name="YellowSlime" type="spawn" x="3968" y="1056" width="320" height="416">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="5"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="60" name="YellowSlime" type="spawn" x="1184" y="5504" width="320" height="416">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="5"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="61" name="YellowSlime" type="spawn" x="2112" y="7136" width="320" height="416">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="5"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="62" name="YellowSlime" type="spawn" x="512" y="6336" width="320" height="416">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="5"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="63" name="YellowSlime" type="spawn" x="3520" y="5888" width="320" height="416">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="4"/>
     <property name="monster_id" value="5"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="64" name="YellowSlime" type="spawn" x="4256" y="6368" width="320" height="416">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="5"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="65" name="CaveSnake" type="spawn" x="2080" y="6816" width="960" height="480">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="19"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="66" name="CaveSnake" type="spawn" x="3232" y="6496" width="960" height="480">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="19"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="67" name="CaveSnake" type="spawn" x="832" y="5696" width="1024" height="1024">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="19"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="68" name="CaveSnake" type="spawn" x="1760" y="4096" width="1024" height="1024">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="19"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="69" name="CaveSnake" type="spawn" x="2656" y="5632" width="960" height="480">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="19"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="70" name="CaveMaggot" type="spawn" x="5376" y="7872" width="320" height="416">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="4"/>
     <property name="monster_id" value="54"/>
+    <property name="spawn" value="30000"/>
    </properties>
   </object>
   <object id="71" name="CaveMaggot" type="spawn" x="8160" y="7488" width="544" height="192">
    <properties>
     <property name="death" value="100000"/>
-    <property name="spawn" value="30000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="54"/>
+    <property name="spawn" value="30000"/>
+   </properties>
+  </object>
+  <object id="79" name="EvilMushroom" type="spawn" x="8384" y="5472" width="352" height="288">
+   <properties>
+    <property name="death" value="250"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="1013"/>
+   </properties>
+  </object>
+  <object id="78" name="EvilMushroom" type="spawn" x="5824" y="5472" width="288" height="288">
+   <properties>
+    <property name="death" value="250"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="1013"/>
    </properties>
   </object>
   <object id="72" name="graphics/particles/flame.particle.xml" type="particle_effect" x="8000" y="7680" width="32" height="32"/>
