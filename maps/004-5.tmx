@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="120" height="120" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="14">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="120" height="120" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="15">
  <properties>
   <property name="minimap" value="graphics/minimaps/004-5.png"/>
   <property name="music" value="cavesong.ogg"/>
@@ -759,7 +759,7 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup id="7" name="Objects" visible="0">
+ <objectgroup id="7" name="Objects">
   <object id="1" name="To Pirates Den" type="warp" x="768" y="2080" width="32" height="32">
    <properties>
     <property name="dest_map" value="004-4"/>
@@ -770,97 +770,104 @@
   <object id="2" name="Grenadier" type="spawn" x="1216" y="2176" width="224" height="192">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="119"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="3" name="Swashbuckler" type="spawn" x="1216" y="2208" width="256" height="128">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="118"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="4" name="Thug" type="spawn" x="1152" y="2208" width="288" height="96">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="117"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="5" name="Grenadier" type="spawn" x="1024" y="2688" width="224" height="192">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="119"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="6" name="Thug" type="spawn" x="960" y="2720" width="288" height="96">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="117"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="7" name="Swashbuckler" type="spawn" x="1024" y="2720" width="256" height="128">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="118"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="8" name="Grenadier" type="spawn" x="1632" y="1152" width="224" height="192">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="119"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="9" name="Thug" type="spawn" x="1568" y="1184" width="288" height="96">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="117"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="10" name="Swashbuckler" type="spawn" x="1632" y="1184" width="256" height="128">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="118"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="11" name="Grenadier" type="spawn" x="2496" y="1152" width="224" height="192">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="119"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="12" name="Thug" type="spawn" x="2432" y="1184" width="288" height="96">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="117"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="13" name="Swashbuckler" type="spawn" x="2496" y="1184" width="256" height="128">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="118"/>
+    <property name="spawn" value="100000"/>
+   </properties>
+  </object>
+  <object id="14" name="EvilMushroom" type="spawn" x="2080" y="1888" width="256" height="384">
+   <properties>
+    <property name="death" value="250"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="1013"/>
    </properties>
   </object>
  </objectgroup>
