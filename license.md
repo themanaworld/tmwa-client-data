@@ -571,6 +571,7 @@ File | Artists | Licenses
 `graphics/items/use/potions/c.png` | Varuna, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/use/potions/d.png` | Varuna, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/use/potions/e.png` | Fate, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/use/potions/g.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/use/potions/skull.png` | Varuna | GPLv2, CC BY-SA 3.0
 
 #### Scrolls
@@ -684,6 +685,7 @@ File | Artists | Licenses
 `graphics/sprites/icons/feather-outline.png` | ?, HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/icons/hidden-outline.png` | ?, HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/icons/invisible-outline.png` | ?, HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/icons/potion-g.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 
 #### Actor Models
 File | Artists | Licenses
@@ -950,7 +952,8 @@ File | Artists | Licenses
 `graphics/sprites/monsters/logmonster.png` | FotherJ | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/maggot-giant.png` | :grey_question:, Neoriceisgood | GPLv2
 `graphics/sprites/monsters/maggot.png` | Neoriceisgood | GPLv2
-`graphics/sprites/monsters/mana-bug.png` | Meway | GPLv2, CC BY-SA 3.0
+`graphics/sprites/monsters/mana-bug.png` | Meway, HoraK-FDF | GPLv2, CC BY-SA 3.0
+`graphics/sprites/monsters/mega-mana-bug.png` | Meway, HoraK-FDF | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/moggun.png` | Modanung, Pateame | GPLv2
 `graphics/sprites/monsters/mouboo.png` | Yuuki | GPLv2
 `graphics/sprites/monsters/mouboo-demonic.png` | Cassy, Yuuki | GPLv2
