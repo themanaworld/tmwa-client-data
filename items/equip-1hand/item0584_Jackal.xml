@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<items>
+    <item id="584"
+	image="equipment/weapon/sword-jackal.png"
+	name="Jackal"
+	description="Made to parry attacks from drakes, relic of a long forsaken war."
+	effect="Attack Speed +1% / Accuracy +5% / HP +50 / HP Drain 5% / Weapon Level 1"
+	attack="150"
+	attack-range="1"
+	defense="5"
+	criticaldefense="2"
+	str="1"
+	level="90"
+	type="equip-1hand"
+	attack-action="attack"
+	hit-effect-id="32"
+	critical-hit-effect-id="30"
+	weight="1000"
+	sellProtected="true">
+	<sprite>equipment/weapons/jackal.xml</sprite>
+	<sound event="hit">weapons/other/halberd/halberd-hit1.ogg</sound>
+	<sound event="hit">weapons/other/halberd/halberd-hit2.ogg</sound>
+	<sound event="hit">weapons/other/halberd/halberd-hit3.ogg</sound>
+	<sound event="miss">weapons/swords/sword-miss1.ogg</sound>
+    </item>
+</items>

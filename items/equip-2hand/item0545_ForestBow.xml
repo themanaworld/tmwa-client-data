@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<items>
+  <item id="545" image="equipment/weapon/bow-forestbow.png" name="Forest Bow" description="A bow usually used for hunting." effect="Weapon Level 1" attack="70" mattack="-7" type="equip-2hand" attack-action="attack_bow" attack-range="5" weight="1200" sellProtected="true" missile-particle="graphics/particles/arrow.particle.xml">
+    <sprite gender="unisex">equipment/weapons/bow.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
+    <sprite gender="female">equipment/weapons/bow-female.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff;#332c19,443a20,453b1e,61532d,87733d,a58d4d</sprite>
+    <sound event="strike">weapons/bows/forest/forest-miss1.ogg</sound>
+    <sound event="hit">weapons/bows/forest/forest-hit1.ogg</sound>
+  </item>
+</items>

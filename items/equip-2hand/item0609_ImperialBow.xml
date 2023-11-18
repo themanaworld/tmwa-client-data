@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<items>
+    <item id="609"
+	image="equipment/weapon/bow-life.png"
+	name="Imperial Bow"
+	description="No one remembers the emperor's name, though."
+	effect="Attack Speed +10% / HP Drain 4% / Weapon Level 1"
+	attack="110"
+	mattack="-9"
+	criticaldefense="10"
+	flee="10"
+	req-dex="80+"
+	level="90"
+	type="equip-2hand"
+	weight="900"
+	missile-particle="graphics/particles/arrow.particle.xml"
+	attack-action="attack_bow"
+	attack-range="6"
+	sellProtected="true">
+	<sprite>equipment/weapons/bow-life.xml</sprite>
+	<sound event="hit">weapons/bows/imperial/imperial-hit1.ogg</sound>
+	<sound event="hit">weapons/bows/imperial/imperial-hit2.ogg</sound>
+	<sound event="hit">weapons/bows/imperial/imperial-hit3.ogg</sound>
+	<sound event="hit">weapons/bows/imperial/imperial-hit4.ogg</sound>
+	<sound event="hit">weapons/bows/imperial/imperial-hit5.ogg</sound>
+	<sound event="hit">weapons/bows/imperial/imperial-hit6.ogg</sound>
+	<sound event="miss">weapons/bows/imperial/imperial-miss1.ogg</sound>
+    </item>
+</items>

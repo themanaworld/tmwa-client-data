@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<items>
+  <item id="760" image="equipment/head/overlord-helm.png" name="Overlord's Helmet" description="Worn by the greatest warriors." type="equip-head" defense="44" mattack="-60" mdefense="-60" effect="Walk Speed Cap 150" flee="-20" weight="1800" sellProtected="true">
+    <sprite gender="unisex">equipment/head/overlordhelm.xml</sprite>
+    <sprite gender="female">equipment/head/overlordhelm-female.xml</sprite>
+    <replace sprite="hair">
+      <item to="-1"/>
+    </replace>
+  </item>
+</items>

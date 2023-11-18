@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <items>
-  <item id="5261" image="equipment/weapon/xmas-slingshot-icon.png" name="Candy-Caned Anti-Grinch-Rifle 2020" description="The best way to shoot snowballs." type="equip-2hand" attack-action="attack_bow" attack="20" attack-range="3" weight="10" critical-hit-effect-id="55" missile-particle="graphics/particles/snowball.particle.xml">
+  <item id="5261" image="equipment/weapon/xmas-slingshot-icon.png" name="Candy-Caned Anti-Grinch-Rifle 2020" description="The best way to shoot snowballs." effect="Weapon Level 1" type="equip-2hand" attack-action="attack_bow" attack="20" attack-range="3" weight="10" critical-hit-effect-id="55" sellProtected="true" missile-particle="graphics/particles/snowball.particle.xml">
     <sprite gender="unisex">equipment/weapons/xmas-bow-slingshot.xml</sprite>
     <sprite gender="female">equipment/weapons/xmas-bow-slingshot.xml</sprite>
     <sound event="hit">weapons/projectiles/snowball/hit1.ogg</sound>

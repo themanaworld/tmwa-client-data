@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<items>
+  <item id="880" image="equipment/chest/sorcerer-robe.png|W:#2470BF,C9EAFF,D9D244;R:#cc7722" name="Lazurite Robe" description="A robe overflowing of magical aura." mattack="60" mdefense="60" level="90" effect="VIT Defense -40%" req-int="70" req-vit="40" type="equip-torso" defense="7" vit="-1" int="7" luk="-1" dex="-1" str="-1" weight="30" sellProtected="true">
+    <sprite gender="unisex">equipment/chest/sorcerer-robe.xml|#2470BF,C9EAFF,D9D244;#cc7722</sprite>
+    <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#2470BF,C9EAFF,D9D244;#cc7722</sprite>
+    <replace sprite="race">
+      <item from="-100" to="-99100"/>
+      <item from="-101" to="-99101"/>
+      <item from="-102" to="-99102"/>
+      <item from="-103" to="-99103"/>
+      <item from="-104" to="-99104"/>
+      <item from="-105" to="-99105"/>
+    </replace>
+  </item>
+</items>
