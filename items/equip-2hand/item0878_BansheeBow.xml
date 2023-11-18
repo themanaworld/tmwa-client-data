@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<items>
+  <item id="878" image="equipment/weapon/bow-bansheebow.png" name="Banshee Bow" description="A bow that has been enchanted by the dark powers of a witch." effect="Attack Speed +20% / Defense -40% / VIT Defense -35% / Vanishes HP by 2% of damages dealt / Walk Speed +10% / Weapon Level 1" type="equip-2hand" req-dex="80+" maxhp="-150" attack-action="attack_bow" attack-range="6" attack="140" mattack="-9" level="90" weight="900" missile-particle="graphics/particles/arrow-banshee.particle.xml" sellProtected="true">
+    <sprite gender="unisex">equipment/weapons/bow-banshee.xml|#27113e,7442a7,b498d1</sprite>
+    <sprite gender="female">equipment/weapons/bow-banshee-female.xml|#27113e,7442a7,b498d1</sprite>
+    <sound event="strike">weapons/bows/banshee/banshee-miss1.ogg</sound>
+    <sound event="strike">weapons/bows/banshee/banshee-miss2.ogg</sound>
+    <sound event="strike">weapons/bows/banshee/banshee-miss3.ogg</sound>
+    <sound event="hit">weapons/bows/banshee/banshee-hit1.ogg</sound>
+    <sound event="hit">weapons/bows/banshee/banshee-hit2.ogg</sound>
+    <sound event="hit">weapons/bows/banshee/banshee-hit3.ogg</sound>
+  </item>
+</items>

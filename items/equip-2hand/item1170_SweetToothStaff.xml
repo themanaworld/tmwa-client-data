@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<items>
+    <item id="1170"
+	image="equipment/weapon/staff-woodstaff.png"
+	name="Sweet Tooth Staff"
+	description="Turning gore into cake which recovers your MP, it is the Grandmaster's favorite staff."
+	effect="Lvl 2 Wand / 5% MP Recovery when a monster is killed / Weapon Level 1"
+	req-int="60+"
+	attack="50"
+	mattack="15"
+	type="equip-2hand"
+	attack-action="attack_wand"
+	attack-range="2"
+	weight="1000"
+	sellProtected="true">
+	<sprite gender="unisex">equipment/weapons/staff.xml</sprite>
+	<sound event="strike">weapons/other/staff/staff-miss1.ogg</sound>
+	<sound event="strike">weapons/other/staff/staff-miss2.ogg</sound>
+	<sound event="strike">weapons/other/staff/staff-miss3.ogg</sound>
+	<sound event="hit">weapons/other/staff/staff-hit1.ogg</sound>
+	<sound event="hit">weapons/other/staff/staff-hit2.ogg</sound>
+	<sound event="hit">weapons/other/staff/staff-hit3.ogg</sound>
+    </item>
+</items>

@@ -4,7 +4,7 @@
 		image="equipment/weapon/revolver.png"
 		name="Short Gunstaff"
 		description="A gunstaff, which is not produced in The Mana World. Brought from the Mirror Lake."
-		effect="Unobtainable."
+		effect="Unobtainable. / Weapon Level 1"
 		attack="120"
 		attack-range="5"
 		missile-particle="graphics/particles/flame.particle.xml"
@@ -14,8 +14,8 @@
 		missile-diedistance="3"
 		type="equip-1hand"
 		attack-action="attack_bow"
-		sellProtected="true"
-		weight="3000">
+		weight="3000"
+		sellProtected="true">
 		<sprite>equipment/weapons/gun.xml</sprite>
 		<sound event="hit">weapons/gun/gun-hit1.ogg</sound>
 		<sound event="miss">weapons/gun/gun-miss1.ogg</sound>
