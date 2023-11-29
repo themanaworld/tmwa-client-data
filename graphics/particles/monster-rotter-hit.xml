@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--
+An explosion of green slime particles.
+-->
+<effect>
+  <particle position-x="0" position-y="32" position-z="32" lifetime="3">
+    <emitter>
+      <property name="position-x" min="-8" max="8"/>
+      <property name="position-y" min="-8" max="8"/>
+      <property name="position-z" min="-8" max="8"/>
+      <property name="vertical-angle" min="30" max="90"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="power" min="0" max="5"/>
+      <property name="gravity" value="0.2"/>
+      <property name="image" value="graphics/particles/orb-small.png|W:#404D2C,404D2C,4E7237"/>
+      <property name="lifetime" min="0" max="200"/>
+      <property name="output" min="8" max="16"/>
+    </emitter>
+    <emitter>
+      <property name="position-x" min="-8" max="8"/>
+      <property name="position-y" min="-8" max="8"/>
+      <property name="position-z" min="-8" max="8"/>
+      <property name="vertical-angle" min="45" max="90"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="power" min="0" max="3"/>
+      <property name="gravity" value="0.5"/>
+      <property name="image" value="graphics/particles/orb-medium.png|W:#4E7237,4E7237,4E7237"/>
+      <property name="lifetime" min="0" max="120"/>
+      <property name="output" min="6" max="12"/>
+    </emitter>
+  </particle>
+</effect>
