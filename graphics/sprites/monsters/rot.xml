@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset name="base" src="graphics/sprites/monsters/rot.png" width="20" height="20"/>
+  <action name="stand" imageset="base">
+    <animation>
+      <frame index="0"/>
+    </animation>
+  </action>
+  <action name="attack" imageset="base">
+    <animation direction="default">
+      <sequence start="1" end="2" delay="100"/>
+      <end/>
+    </animation>
+  </action>
+  <action name="dead" imageset="base">
+    <animation>
+      <frame index="2" delay="5000"/>
+    </animation>
+  </action>
+</sprite>

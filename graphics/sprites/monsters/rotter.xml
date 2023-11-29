@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<sprite variants="56" variant_offset="1">
+  <imageset name="base" src="graphics/sprites/monsters/rotter.png" width="64" height="64"/>
+  <action name="stand" imageset="base">
+    <animation direction="down">
+      <frame index="0"/>
+    </animation>
+    <animation direction="right">
+      <frame index="7"/>
+    </animation>
+    <animation direction="left">
+      <frame index="14"/>
+    </animation>
+    <animation direction="up">
+      <frame index="21"/>
+    </animation>
+  </action>
+  <action name="walk" imageset="base">
+    <animation direction="down">
+      <sequence start="1" end="6" delay="300"/>
+    </animation>
+    <animation direction="right">
+      <sequence start="8" end="13" delay="300"/>
+    </animation>
+    <animation direction="left">
+      <sequence start="15" end="20" delay="300"/>
+    </animation>
+    <animation direction="up">
+      <sequence start="22" end="27" delay="300"/>
+    </animation>
+  </action>
+  <action name="dead" imageset="base">
+    <animation>
+      <sequence start="44" end="55" delay="200"/>
+      <frame index="55" delay="5000"/>
+    </animation>
+  </action>
+  <action name="attack" imageset="base">
+    <animation direction="down">
+      <sequence start="28" end="31" delay="100"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <sequence start="32" end="35" delay="100"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <sequence start="36" end="39" delay="100"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <sequence start="40" end="43" delay="100"/>
+      <end/>
+    </animation>
+  </action>
+</sprite>
