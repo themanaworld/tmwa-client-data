@@ -612,6 +612,8 @@ File | Artists | Licenses
 `graphics/particles/mist-face-a.png` | Nmaligec | GPLv2
 `graphics/particles/mist-face-b.png` | Nmaligec | GPLv2
 `graphics/particles/monster-troll-foefire.particle.png` | FotherJ | GPLv2, CC BY-SA 3.0
+`graphics/particles/monster-rotter-crit.png` | Ledmitz | GPLv2, CC BY-SA 3.0
+`graphics/particles/monster-rotter-vomit.png` | Ledmitz | GPLv2, CC BY-SA 3.0
 `graphics/particles/orb-large.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/orb-medium.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/orb-small.png` | Crush | GPLv2, CC BY-SA 3.0
@@ -968,6 +970,8 @@ File | Artists | Licenses
 `graphics/sprites/monsters/pinkie.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/plant.png` | Crush, Seradest | GPLv2
 `graphics/sprites/monsters/reaper.png` | Alige, Len, Reid, Skipy | GPLv2
+`graphics/sprites/monsters/rot.png` | Ledmitz | GPLv2, CC BY-SA 3.0
+`graphics/sprites/monsters/rotter.png` | Ledmitz | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/sasquatch.png` | Xtreem | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/serqet.png` | ChefChelios | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/silkworm.png` | Fate | GPLv2, CC BY-SA 3.0
@@ -1287,6 +1291,16 @@ File | Artists | Licenses
 `sfx/monsters/reaper/reaper-hit1.ogg` | Ledmitz, nmaligec | GPLv2, CC BY-SA 3.0
 `sfx/monsters/reaper/reaper-hurt1.ogg` | nmaligec | GPLv2
 `sfx/monsters/reaper/reaper-move1.ogg` | Ledmitz, nmaligec | GPLv2, CC BY-SA 3.0
+`sfx/monsters/rotter/crit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/rotter/die1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/rotter/die2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/rotter/hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/rotter/hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/rotter/miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/rotter/miss2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/rotter/move1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/rotter/move2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/rotter/move3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/sasquatch/sasquatch-move1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/sasquatch/sasquatch-move2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/scorpion/scorpion-hit1.ogg` | Cosmostrator | GPLv2

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- A thin trail of green slime. -->
+<effect>
+  <particle position-x="0" position-y="0" position-z="5">
+    <emitter>
+      <property name="position-y" min="-1" max="5"/>
+      <property name="position-x" min="-3" max="3"/>
+      <property name="lifetime" value="1000"/>
+      <property name="fade-out" value="800"/>
+      <property name="fade-in" value="100"/>
+      <property name="output" min="1" max="5"/>
+      <property name="output-pause" min="10" max="30"/>
+      <property name="image" value="graphics/particles/orb-medium.png|W:#4E7237,4E7237,4E7237"/>
+      <property name="alpha" value=".5"/>
+    </emitter>
+  </particle>
+</effect>

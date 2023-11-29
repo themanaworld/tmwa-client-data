@@ -1576,13 +1576,13 @@
         <sound event="miss">monsters/golem/miss1.ogg</sound>
     </monster>
 
-	<monster id="1172" name="Bif" targetCursor="medium">
-		<sprite>monsters/bif.xml</sprite>
-	</monster>
+    <monster id="1172" name="Bif" targetCursor="medium">
+        <sprite>monsters/bif.xml</sprite>
+    </monster>
 
-	<monster id="1173" name="Mont Blanc" targetCursor="large">
-		<sprite>monsters/montblanc.xml</sprite>
-	</monster>
+    <monster id="1173" name="Mont Blanc" targetCursor="large">
+        <sprite>monsters/montblanc.xml</sprite>
+    </monster>
 
     <monster id="1174" name="Emo">
         <sprite>model/male.xml|#166876,32992e,23a988,70cd87,a7f1b2;#0e0036,4c264b,a04f62,d2a391,e6d7b8;#3a3a3a,d5d5d5</sprite>
@@ -1606,6 +1606,29 @@
         <sprite>monsters/mega-mana-bug.xml|#660000,FF3300,FFCC99,FFCCCC</sprite>
         <sprite>monsters/accessories/generic-shadow-medium-circle.xml</sprite>
         <particlefx>graphics/particles/manadust.particle.xml</particlefx>
+    </monster>
+    
+    <monster id="1176" name="Rotter">
+        <sprite>monsters/rotter.xml</sprite>
+        <particlefx>graphics/particles/monster-rotter-trail.xml</particlefx>
+        <sound event="die">monsters/rotter/die1.ogg</sound>
+        <sound event="die">monsters/rotter/die2.ogg</sound>
+        <sound event="hit">monsters/rotter/hit1.ogg</sound>
+        <sound event="hit">monsters/rotter/hit2.ogg</sound>
+        <sound event="hurt">monsters/slime/hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/hurt3.ogg</sound>
+        <sound event="miss">monsters/rotter/miss1.ogg</sound>
+        <sound event="miss">monsters/rotter/miss2.ogg</sound>
+        <sound event="move">monsters/rotter/move1.ogg</sound>
+        <sound event="move">monsters/rotter/move2.ogg</sound>
+        <sound event="move">monsters/rotter/move3.ogg</sound>
+        <attack id="1" critical-hit-effect-id="71" hit-effect-id="70" missile-particle="graphics/particles/monster-rotter-vomit.xml" action="attack"/>
+    </monster>
+    
+    <monster id="1177" name="Rot">
+        <sprite>monsters/rot.xml</sprite>
+        <sound event="die">monsters/slime/slime-die1.ogg</sound>
+        <attack id="1" critical-hit-effect-id="71" hit-effect-id="70" action="attack"/>
     </monster>
 
     <!-- Mods should use the following code -->
