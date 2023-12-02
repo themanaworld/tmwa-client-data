@@ -709,13 +709,13 @@ File | Artists | Licenses
 `graphics/sprites/equipment/weapons/polearm-chop.png` | :grey_question:, Wombat, Wushin | GPLv2
 `graphics/sprites/equipment/weapons/polearm-spear.png` | :grey_question:, Wombat, Wushin | GPLv2
 `graphics/sprites/equipment/weapons/polearm-stab.png` | :grey_question:, Wombat, Wushin, Varuna | GPLv2
+`graphics/sprites/equipment/weapons/sword-beheader.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/equipment/weapons/sword-deadsword.png` | :grey_question:, Wombat, Wushin | GPLv2
 `graphics/sprites/equipment/weapons/sword-long.png` | ChefChelios, Wushin | GPLv2
+`graphics/sprites/equipment/weapons/sword-sandcutter.png` | ?, HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/equipment/weapons/sword-short.png` | ChefChelios, Wushin | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/weapons/wand-deathshand.png` | :grey_question:, Wombat, Wushin | GPLv2
 `graphics/sprites/equipment/weapons/wand.png` | :grey_question:, Wushin | GPLv2
-`graphics/sprites/equipment/weapons/beheader.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
-`graphics/sprites/equipment/weapons/sandcutter.png` | ?, HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/equipment/weapons/gun.png` | Skipy, Jesusalva | GPLv2
 
 #### Chest
