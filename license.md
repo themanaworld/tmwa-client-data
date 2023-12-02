@@ -704,6 +704,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/weapons/axe-stab.png` | :grey_question:, Wombat, Wushin, Varuna | GPLv2
 `graphics/sprites/equipment/weapons/bow-banshee.png` | V0id | GPLv2
 `graphics/sprites/equipment/weapons/bow-slingshot.png` | Chef Chelios, wushin | GPLv2
+`graphics/sprites/equipment/weapons/dagger-setzer.png` | ?, TMW-Br Team | GPLv2
 `graphics/sprites/equipment/weapons/null.png` | Ledmitz | CC0
 `graphics/sprites/equipment/weapons/polearm-blunt.png` | :grey_question:, Wombat, Wushin | GPLv2
 `graphics/sprites/equipment/weapons/polearm-chop.png` | :grey_question:, Wombat, Wushin | GPLv2
@@ -712,7 +713,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/weapons/sword-beheader.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/equipment/weapons/sword-deadsword.png` | :grey_question:, Wombat, Wushin | GPLv2
 `graphics/sprites/equipment/weapons/sword-long.png` | ChefChelios, Wushin | GPLv2
-`graphics/sprites/equipment/weapons/sword-sandcutter.png` | ?, HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/equipment/weapons/sword-sandcutter.png` | ?, TMW-Br Team, HoraK-FDF | GPLv2
 `graphics/sprites/equipment/weapons/sword-short.png` | ChefChelios, Wushin | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/weapons/wand-deathshand.png` | :grey_question:, Wombat, Wushin | GPLv2
 `graphics/sprites/equipment/weapons/wand.png` | :grey_question:, Wushin | GPLv2
