@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors: Micksha
+Copyright (C) 2011-2019 Evol Online -->
+<sprite>
+    <imageset name="mob"
+              src="graphics/sprites/monsters/spider-queen.png"
+              width="96"
+              height="96"
+              offsetY="28"/>
+
+    <action name="spawn" imageset="mob">
+        <animation direction="default">
+            <sequence start="144" end="149" delay="100"/>
+        </animation>
+    </action>
+
+    <action name="stand" imageset="mob">
+        <animation direction="down">
+            <frame index="0"/>
+        </animation>
+
+        <animation direction="downleft">
+            <frame index="126"/>
+        </animation>
+
+        <animation direction="left">
+            <frame index="108"/>
+        </animation>
+
+        <animation direction="upleft">
+            <frame index="90"/>
+        </animation>
+
+        <animation direction="up">
+            <frame index="72"/>
+        </animation>
+
+        <animation direction="upright">
+            <frame index="54"/>
+        </animation>
+
+        <animation direction="right">
+            <frame index="36"/>
+        </animation>
+
+        <animation direction="downright">
+            <frame index="18"/>
+        </animation>
+    </action>
+
+    <action name="walk" imageset="mob">
+        <animation direction="down">
+            <sequence start="0" end="8" delay="70"/>
+        </animation>
+
+        <animation direction="downleft">
+            <sequence start="126" end="134" delay="70"/>
+        </animation>
+
+        <animation direction="left">
+            <sequence start="108" end="116" delay="70"/>
+        </animation>
+
+        <animation direction="upleft">
+            <sequence start="90" end="98" delay="70"/>
+        </animation>
+
+        <animation direction="up">
+            <sequence start="72" end="80" delay="70"/>
+        </animation>
+
+        <animation direction="upright">
+            <sequence start="54" end="62" delay="70"/>
+        </animation>
+
+        <animation direction="right">
+            <sequence start="36" end="44" delay="70"/>
+        </animation>
+
+        <animation direction="downright">
+            <sequence start="18" end="26" delay="70"/>
+        </animation>
+    </action>
+
+    <action name="attack" imageset="mob">
+        <animation direction="down">
+            <sequence start="9" end="17" delay="40"/>
+            <end />
+        </animation>
+
+        <animation direction="downleft">
+            <sequence start="135" end="143" delay="40"/>
+            <end />
+        </animation>
+
+        <animation direction="left">
+            <sequence start="117" end="125" delay="40"/>
+            <end />
+        </animation>
+
+        <animation direction="upleft">
+            <sequence start="99" end="107" delay="40"/>
+            <end />
+        </animation>
+
+        <animation direction="up">
+            <sequence start="81" end="89" delay="40"/>
+            <end />
+        </animation>
+
+        <animation direction="upright">
+            <sequence start="63" end="71" delay="40"/>
+            <end />
+        </animation>
+
+        <animation direction="right">
+            <sequence start="45" end="53" delay="40"/>
+            <end />
+        </animation>
+
+        <animation direction="downright">
+            <sequence start="27" end="35" delay="40"/>
+            <end />
+        </animation>
+    </action>
+    
+    <action name="dead" imageset="mob">
+        <animation direction="down">
+            <sequence start="150" end="153" delay="80"/>
+            <frame index="154" />
+            <end />
+        </animation>
+
+        <animation direction="downleft">
+            <sequence start="276" end="279" delay="80"/>
+            <frame index="280" />
+            <end />
+        </animation>
+
+        <animation direction="left">
+            <sequence start="258" end="261" delay="80"/>
+            <frame index="262" />
+            <end />
+        </animation>
+
+        <animation direction="upleft">
+            <sequence start="240" end="243" delay="80"/>
+            <frame index="244" />
+            <end />
+        </animation>
+
+        <animation direction="up">
+            <sequence start="222" end="225" delay="80"/>
+            <frame index="226" />
+            <end />
+        </animation>
+
+        <animation direction="upright">
+            <sequence start="204" end="207" delay="80"/>
+            <frame index="208" />
+            <end />
+        </animation>
+
+        <animation direction="right">
+            <sequence start="186" end="189" delay="80"/>
+            <frame index="190" />
+            <end />
+        </animation>
+
+        <animation direction="downright">
+            <sequence start="168" end="171" delay="80"/>
+            <frame index="172" />
+            <end />
+        </animation>
+    </action>
+
+</sprite>
