@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="170" height="124" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="29">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="170" height="124" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="32">
  <properties>
   <property name="minimap" value="graphics/minimaps/055-1.png"/>
   <property name="music" value="mystique-forest.ogg"/>
@@ -932,6 +932,21 @@
     <property name="spawn" value="10000"/>
    </properties>
   </object>
+  <object id="23" name="SpikyMushroom" type="spawn" x="0" y="0">
+   <properties>
+    <property name="death" value="60000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="17"/>
+    <property name="spawn" value="10000"/>
+   </properties>
+  </object>
+  <object id="28" name="PinkFlower" type="spawn" x="3456" y="704" width="352" height="256">
+   <properties>
+    <property name="death" value="250"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="12"/>
+   </properties>
+  </object>
   <object id="20" name="To Cave" type="warp" x="4384" y="3072" width="32" height="32">
    <properties>
     <property name="dest_map" value="055-3"/>
@@ -953,14 +968,6 @@
     <property name="dest_y" value="103"/>
    </properties>
   </object>
-  <object id="23" name="SpikyMushroom" type="spawn" x="0" y="0">
-   <properties>
-    <property name="death" value="60000"/>
-    <property name="max_beings" value="7"/>
-    <property name="monster_id" value="17"/>
-    <property name="spawn" value="10000"/>
-   </properties>
-  </object>
   <object id="24" name="To Woodland" type="warp" x="4768" y="1984" width="32" height="96">
    <properties>
     <property name="dest_map" value="057-1"/>
@@ -971,11 +978,20 @@
   <object id="25" name="Pumpkin" type="node" x="1312" y="704" width="224" height="288"/>
   <object id="26" name="Pumpkin" type="node" x="4256" y="864" width="224" height="224"/>
   <object id="27" name="Pumpkin" type="node" x="4128" y="736" width="224" height="128"/>
-  <object id="28" name="PinkFlower" type="spawn" x="3456" y="704" width="352" height="256">
+  <object id="29" name="BigFrog" type="spawn" x="0" y="0">
    <properties>
-    <property name="death" value="250"/>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="12"/>
+    <property name="death" value="7000"/>
+    <property name="max_beings" value="8"/>
+    <property name="monster_id" value="1182"/>
+    <property name="spawn" value="150000"/>
+   </properties>
+  </object>
+  <object id="30" name="SmallFrog" type="spawn" x="0" y="0">
+   <properties>
+    <property name="death" value="7000"/>
+    <property name="max_beings" value="16"/>
+    <property name="monster_id" value="1181"/>
+    <property name="spawn" value="150000"/>
    </properties>
   </object>
  </objectgroup>

@@ -1303,7 +1303,7 @@
         <!-- No folder for this -->
         <sprite>equipment/angel-wings.xml</sprite>
         <sprite>equipment/head/aureole.xml</sprite>
-        <sprite>equipment/weapons/sandcutter.xml</sprite>
+        <sprite>equipment/weapons/sword-sandcutter.xml</sprite>
         <sound event="hit">weapons/knives/rock/rock-hit1.ogg</sound>
         <sound event="hit">weapons/knives/rock/rock-hit2.ogg</sound>
         <sound event="miss">weapons/miss1.ogg</sound>
@@ -1633,20 +1633,116 @@
 
     <monster id="1178" name="Spider Queen" walkType="walk" targetCursor="large">
         <sprite>monsters/spider-queen.xml</sprite>
-        <sound event="hit">monsters/scorpion/scorpionhit1.ogg</sound>
-        <sound event="hit">monsters/scorpion/scorpionhit2.ogg</sound>
-        <sound event="hit">monsters/scorpion/scorpionhit3.ogg</sound>
-        <sound event="hit">monsters/scorpion/scorpionhit4.ogg</sound>
-        <sound event="miss">monsters/scorpion/scorpionmiss1.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
+        <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
    </monster>
 
     <monster id="1179" name="Crystal Spider Queen" walkType="walk" targetCursor="large">
         <sprite>monsters/spider-queen-crystal.xml</sprite>
-        <sound event="hit">monsters/scorpion/scorpionhit1.ogg</sound>
-        <sound event="hit">monsters/scorpion/scorpionhit2.ogg</sound>
-        <sound event="hit">monsters/scorpion/scorpionhit3.ogg</sound>
-        <sound event="hit">monsters/scorpion/scorpionhit4.ogg</sound>
-        <sound event="miss">monsters/scorpion/scorpionmiss1.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
+        <sound event="hit">monsters/scorpion/scorpion-hit4.ogg</sound>
+        <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
+    </monster>
+
+    <monster id="1180" name="Mister Prickel" targetCursor="medium">
+        <sprite>monsters/mister-prickel.xml</sprite>
+        <attack id="1" action="attack"/>
+    </monster>
+
+    <monster id="1181" name="Small Frog" targetCursor="small">
+        <sprite>monsters/frog-small.xml</sprite>
+    </monster>
+
+    <monster id="1182" name="Big Frog" targetCursor="small">
+        <sprite>monsters/frog-big.xml</sprite>
+    </monster>
+
+    <monster id="1183" name="Moubootaur" targetCursor="large">
+        <sprite>monsters/moubootaur.xml</sprite>
+        <sound event="hit">monsters/frostiana/hit1.ogg</sound>
+    </monster>
+
+    <monster id="1184" name="Bone Quadceratops" targetCursor="medium">
+        <sprite>monsters/bobone.xml</sprite>
+    </monster>
+
+    <monster id="1185" name="Ent Abomination" targetCursor="large">
+        <sprite>monsters/ent.xml</sprite>
+        <sound event="hit">monsters/crocotree/die1.ogg</sound>
+        <sound event="hit">monsters/frostiana/hit1.ogg</sound>
+        <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
+        <sound event="die">monsters/crocotree/die1.ogg</sound>
+    </monster>
+
+    <monster id="1186" name="Manana Tree" targetCursor="medium">
+        <sprite>monsters/mananatree.xml</sprite>
+        <sound event="die">monsters/crocotree/die1.ogg</sound>
+        <sound event="hurt">monsters/crocotree/hurt1.ogg</sound>
+        <sound event="hurt">monsters/crocotree/hurt2.ogg</sound>
+        <sound event="hurt">monsters/crocotree/hurt3.ogg</sound>
+    </monster>
+
+    <monster id="1187" name="Elite Duck" targetCursor="medium" walkType="walkswim">
+        <sprite>monsters/darkduck.xml</sprite>
+        <sound event="hit">weapons/lightsaber/hit1.ogg</sound>
+        <sound event="hit">weapons/lightsaber/hit2.ogg</sound>
+        <sound event="hit">weapons/lightsaber/hit3.ogg</sound>
+        <sound event="hit">weapons/lightsaber/crit.ogg</sound>
+        <sound event="miss">weapons/lightsaber/miss.ogg</sound>
+    </monster>
+
+    <monster id="1188" name="Junglefowl">
+        <sprite>monsters/junglefowl.xml</sprite>
+    </monster>
+
+    <monster id="1189" name="Shadow Plant">
+        <sprite>monsters/plant.xml|#332636</sprite>
+    </monster>
+
+    <monster id="1190" name="Bee Hive" targetCursor="medium">
+        <sprite>monsters/beehive.xml</sprite>
+        <sound event="hit">monsters/bee/bee-hit1.ogg</sound>
+        <sound event="miss">monsters/bee/bee-miss1.ogg</sound>
+    </monster>
+
+    <monster id="1191" name="Tortuga" targetCursor="small" walkType="walkswim" sortOffsetY="30">
+        <sprite>monsters/tortuga.xml</sprite>
+        <sound event="die">monsters/tortuga/die1.ogg</sound> 
+        <sound event="hit">monsters/tortuga/hit1.ogg</sound>
+        <sound event="hit">monsters/tortuga/hit2.ogg</sound>
+        <sound event="hurt">monsters/tortuga/hurt1.ogg</sound>
+        <sound event="miss">monsters/tortuga/miss1.ogg</sound>
+        <sound event="spawn">monsters/tortuga/spawn1.ogg</sound>
+    </monster>
+
+    <monster id="1192" name="Ratto" targetCursor="small">
+        <sprite>monsters/ratto.xml</sprite>
+        <sprite>monsters/accessories/ratto-tail.xml</sprite>
+        <sound event="die">monsters/ratto/die1.ogg</sound>
+        <sound event="hit">monsters/ratto/hit1.ogg</sound>
+        <sound event="hit">monsters/ratto/hit2.ogg</sound>
+        <sound event="hurt">monsters/ratto/hurt1.ogg</sound>
+        <sound event="spawn">monsters/ratto/spawn1.ogg</sound>
+    </monster>
+
+    <monster id="1193" name="Croc" targetCursor="small" sortOffsetY="30">
+        <sprite>monsters/croc.xml</sprite>
+        <sound event="hit">monsters/croc/hit1.ogg</sound>
+        <sound event="hit">monsters/croc/hit2.ogg</sound>
+        <sound event="hurt">monsters/croc/hurt1.ogg</sound>
+        <sound event="hurt">monsters/croc/hurt2.ogg</sound>
+        <sound event="hurt">monsters/croc/hurt3.ogg</sound>
+        <sound event="miss">monsters/croc/miss1.ogg</sound>
+        <sound event="spawn">monsters/croc/spawn1.ogg</sound>
+    </monster>
+
+    <monster id="1194" name="King Chonky Birb" targetCursor="large">
+        <sprite>monsters/piou-king.xml</sprite>
     </monster>
 
     <!-- Mods should use the following code -->

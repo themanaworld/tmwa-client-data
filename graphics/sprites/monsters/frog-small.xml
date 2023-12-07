@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset name="base" src="graphics/sprites/monsters/frog-small.png" width="32" height="32"/>
+  <action name="stand" imageset="base">
+    <animation direction="down">
+      <frame index="0"/>
+    </animation>
+    <animation direction="downright">
+      <frame index="12"/>
+    </animation>
+    <animation direction="right">
+      <frame index="24"/>
+    </animation>
+    <animation direction="upright">
+      <frame index="36"/>
+    </animation>
+    <animation direction="up">
+      <frame index="48"/>
+    </animation>
+    <animation direction="upleft">
+      <frame index="60"/>
+    </animation>
+    <animation direction="left">
+      <frame index="72"/>
+    </animation>
+    <animation direction="downleft">
+      <frame index="84"/>
+    </animation>
+  </action>
+
+  <action name="walk" imageset="base">
+    <animation direction="down">
+      <sequence start="0" end="11" delay="55"/>
+    </animation>
+    <animation direction="downright">
+      <sequence start="12" end="23" delay="55"/>
+    </animation>
+    <animation direction="right">
+      <sequence start="24" end="35" delay="55"/>
+    </animation>
+    <animation direction="upright">
+      <sequence start="36" end="47" delay="55"/>
+    </animation>
+    <animation direction="up">
+      <sequence start="48" end="59" delay="55"/>
+    </animation>
+    <animation direction="upleft">
+      <sequence start="60" end="71" delay="55"/>
+    </animation>
+    <animation direction="left">
+      <sequence start="72" end="83" delay="55"/>
+    </animation>
+    <animation direction="downleft">
+      <sequence start="84" end="95" delay="55"/>
+    </animation>
+  </action>
+
+  <action name="attack" imageset="base">
+    <animation direction="down">
+      <sequence start="96" end="104" delay="50"/>
+      <end/>
+    </animation>
+    <animation direction="downright">
+      <sequence start="108" end="116" delay="50"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <sequence start="120" end="128" delay="50"/>
+      <end/>
+    </animation>
+    <animation direction="upright">
+      <sequence start="132" end="140" delay="50"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <sequence start="144" end="152" delay="50"/>
+      <end/>
+    </animation>
+    <animation direction="upleft">
+      <sequence start="156" end="164" delay="50"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <sequence start="168" end="176" delay="50"/>
+      <end/>
+    </animation>
+    <animation direction="downleft">
+      <sequence start="180" end="188" delay="50"/>
+      <end/>
+    </animation>
+  </action>
+
+  <action name="dead" imageset="base">
+    <animation direction="down">
+      <frame index="7"/>
+    </animation>
+    <animation direction="downright">
+      <frame index="19"/>
+    </animation>
+    <animation direction="right">
+      <frame index="32"/>
+    </animation>
+    <animation direction="upright">
+      <frame index="43"/>
+    </animation>
+    <animation direction="up">
+      <frame index="53"/>
+    </animation>
+    <animation direction="upleft">
+      <frame index="66"/>
+    </animation>
+    <animation direction="left">
+      <frame index="79"/>
+    </animation>
+    <animation direction="downleft">
+      <frame index="90"/>
+    </animation>
+  </action>
+
+</sprite>

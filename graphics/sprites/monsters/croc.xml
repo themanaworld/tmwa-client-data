@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors: Alige, Reid
+Copyright (C) 2011-2014 Evol Online -->
+<sprite>
+    <imageset name="mob"
+              src="graphics/sprites/monsters/croc.png"
+              width="30"
+              height="22"
+              offsetY="-4"/>
+
+    <action name="spawn" imageset="mob">
+        <animation direction="default">
+            <frame index="64" delay="350"/>
+            <frame index="65" delay="70"/>
+            <frame index="66" delay="90"/>
+            <frame index="67" delay="210"/>
+            <frame index="68" delay="110"/>
+            <frame index="69" delay="130"/>
+            <frame index="70" delay="165"/>
+            <frame index="71" delay="90"/>
+            <frame index="72" delay="80"/>
+            <frame index="73" delay="70"/>
+            <jump action="stand"/>
+        </animation>
+    </action>
+    
+    <action name="stand" imageset="mob">
+        <animation direction="down">
+            <frame index="0"/>
+        </animation>
+
+        <animation direction="downleft">
+            <frame index="8"/>
+        </animation>
+
+        <animation direction="left">
+            <frame index="16"/>
+        </animation>
+
+        <animation direction="upleft">
+            <frame index="24"/>
+        </animation>
+
+        <animation direction="up">
+            <frame index="32"/>
+        </animation>
+
+        <animation direction="upright">
+            <frame index="40"/>
+        </animation>
+
+        <animation direction="right">
+            <frame index="48"/>
+        </animation>
+
+        <animation direction="downright">
+            <frame index="56"/>
+        </animation>
+    </action>
+
+    <action name="walk" imageset="mob">
+        <animation direction="down">
+            <frame index="1" delay="80"/>
+            <frame index="0" delay="70"/>
+            <frame index="2" delay="80"/>
+            <frame index="0" delay="70"/>
+        </animation>
+
+        <animation direction="downleft">
+            <frame index="9" delay="80"/>
+            <frame index="8" delay="70"/>
+            <frame index="10" delay="80"/>
+            <frame index="8" delay="70"/>
+        </animation>
+
+        <animation direction="left">
+            <frame index="17" delay="80"/>
+            <frame index="16" delay="70"/>
+            <frame index="18" delay="80"/>
+            <frame index="16" delay="70"/>
+        </animation>
+
+        <animation direction="upleft">
+            <frame index="25" delay="80"/>
+            <frame index="24" delay="70"/>
+            <frame index="26" delay="80"/>
+            <frame index="24" delay="70"/>
+        </animation>
+
+        <animation direction="up">
+            <frame index="33" delay="80"/>
+            <frame index="32" delay="70"/>
+            <frame index="34" delay="80"/>
+            <frame index="32" delay="70"/>
+        </animation>
+
+        <animation direction="upright">
+            <frame index="41" delay="80"/>
+            <frame index="40" delay="70"/>
+            <frame index="42" delay="80"/>
+            <frame index="40" delay="70"/>
+        </animation>
+
+        <animation direction="right">
+            <frame index="49" delay="80"/>
+            <frame index="48" delay="70"/>
+            <frame index="50" delay="80"/>
+            <frame index="48" delay="70"/>
+        </animation>
+
+        <animation direction="downright">
+            <frame index="57" delay="80"/>
+            <frame index="56" delay="70"/>
+            <frame index="58" delay="80"/>
+            <frame index="56" delay="70"/>
+        </animation>
+    </action>
+
+    <action name="attack" imageset="mob">
+        <animation direction="down">
+            <frame index="3" delay="90"/>
+            <frame index="4" delay="130"/>
+            <frame index="3" delay="100"/>
+            <frame index="0" delay="50"/>
+            <frame index="5" delay="90"/>
+            <frame index="6" delay="130"/>
+            <frame index="5" delay="100"/>
+            <end />
+        </animation>
+
+        <animation direction="downleft">
+            <frame index="11" delay="90"/>
+            <frame index="12" delay="130"/>
+            <frame index="11" delay="100"/>
+            <frame index="8" delay="50"/>
+            <frame index="13" delay="90"/>
+            <frame index="14" delay="130"/>
+            <frame index="13" delay="100"/>
+            <end />
+        </animation>
+
+        <animation direction="left">
+            <frame index="19" delay="90"/>
+            <frame index="20" delay="130"/>
+            <frame index="19" delay="100"/>
+            <frame index="16" delay="50"/>
+            <frame index="21" delay="90"/>
+            <frame index="22" delay="130"/>
+            <frame index="21" delay="100"/>
+            <end />
+        </animation>
+
+        <animation direction="upleft">
+            <frame index="27" delay="90"/>
+            <frame index="28" delay="130"/>
+            <frame index="27" delay="100"/>
+            <frame index="24" delay="50"/>
+            <frame index="29" delay="90"/>
+            <frame index="30" delay="130"/>
+            <frame index="29" delay="100"/>
+            <end />
+        </animation>
+
+        <animation direction="up">
+            <frame index="35" delay="90"/>
+            <frame index="36" delay="130"/>
+            <frame index="35" delay="100"/>
+            <frame index="32" delay="50"/>
+            <frame index="37" delay="90"/>
+            <frame index="38" delay="130"/>
+            <frame index="37" delay="100"/>
+            <end />
+        </animation>
+
+        <animation direction="upright">
+            <frame index="43" delay="90"/>
+            <frame index="44" delay="130"/>
+            <frame index="43" delay="100"/>
+            <frame index="40" delay="50"/>
+            <frame index="45" delay="90"/>
+            <frame index="46" delay="130"/>
+            <frame index="45" delay="100"/>
+            <end />
+        </animation>
+
+        <animation direction="right">
+            <frame index="51" delay="90"/>
+            <frame index="52" delay="130"/>
+            <frame index="51" delay="100"/>
+            <frame index="48" delay="50"/>
+            <frame index="53" delay="90"/>
+            <frame index="54" delay="130"/>
+            <frame index="53" delay="100"/>
+            <end />
+        </animation>
+
+        <animation direction="downright">
+            <frame index="59" delay="90"/>
+            <frame index="60" delay="130"/>
+            <frame index="59" delay="100"/>
+            <frame index="56" delay="50"/>
+            <frame index="61" delay="90"/>
+            <frame index="62" delay="130"/>
+            <frame index="61" delay="100"/>
+            <end />
+        </animation>
+    </action>
+    
+    <action name="dead" imageset="mob">
+        <animation direction="down">
+            <frame index="7"/>
+        </animation>
+
+        <animation direction="downleft">
+            <frame index="15"/>
+        </animation>
+
+        <animation direction="left">
+            <frame index="23"/>
+        </animation>
+
+        <animation direction="upleft">
+            <frame index="31"/>
+        </animation>
+
+        <animation direction="up">
+            <frame index="39"/>
+        </animation>
+
+        <animation direction="upright">
+            <frame index="47"/>
+        </animation>
+
+        <animation direction="right">
+            <frame index="55"/>
+        </animation>
+
+        <animation direction="downright">
+            <frame index="63"/>
+        </animation>
+    </action>
+</sprite>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Reid
+Copyright (C) 2015 Evol Online -->
+
+<sprite>
+    <imageset name="mob"
+              src="graphics/sprites/monsters/mananatree.png"
+              width="96"
+              height="128"/>
+
+    <action name="spawn" imageset="mob">
+        <animation direction="default">
+            <frame index="0" delay="500"/>
+            <frame index="1" delay="500"/>
+            <frame index="2" delay="500"/>
+            <frame index="3" delay="500"/>
+            <frame index="4" delay="500"/>
+            <frame index="5" delay="500"/>
+            <frame index="6" delay="500"/>
+            <frame index="7" delay="500"/>
+            <frame index="8" delay="500"/>
+            <frame index="9" delay="500"/>
+            <frame index="10" delay="500"/>
+            <jump action="stand"/>
+        </animation>
+    </action>
+
+    <action name="stand" imageset="mob">
+        <animation direction="default">
+            <label name="start"/>
+            <goto label="static" rand="95"/>
+            <goto label="longmoving" rand="50"/>
+            <!-- Simple Move Animation -->
+            <frame index="11" delay="100"/>
+            <frame index="12" delay="120"/>
+            <frame index="11" delay="100"/>
+            <frame index="10" delay="100"/>
+            <frame index="13" delay="100"/>
+            <frame index="14" delay="120"/>
+            <frame index="13" delay="100"/>
+            <goto label="start"/>
+            <label name="static"/>
+            <!-- Static Animation -->
+            <frame index="10" delay="260"/>
+            <goto label="start"/>
+            <label name="longmoving"/>
+            <!-- Long Move Animation -->
+            <frame index="11" delay="100"/>
+            <frame index="12" delay="120"/>
+            <frame index="11" delay="100"/>
+            <frame index="10" delay="100"/>
+            <frame index="13" delay="100"/>
+            <frame index="14" delay="120"/>
+            <frame index="13" delay="100"/>
+            <frame index="10" delay="100"/>
+            <frame index="11" delay="100"/>
+            <frame index="12" delay="120"/>
+            <frame index="11" delay="100"/>
+            <frame index="10" delay="100"/>
+            <frame index="13" delay="100"/>
+            <frame index="14" delay="120"/>
+            <frame index="13" delay="100"/>
+            <goto label="start"/>
+        </animation>
+    </action>
+
+    <action name="hurt" imageset="mob">
+        <animation direction="default">
+            <frame index="11" delay="100"/>
+            <frame index="12" delay="120"/>
+            <frame index="11" delay="100"/>
+            <frame index="10" delay="100"/>
+            <frame index="13" delay="100"/>
+            <frame index="14" delay="120"/>
+            <frame index="13" delay="100"/>
+            <frame index="10" delay="50"/>
+            <end />
+        </animation>
+    </action>
+
+    <action name="dead" imageset="mob">
+        <animation>
+            <!-- Falling Manana -->
+            <sequence start="15" end="19" delay="70"/>
+            <sequence start="20" end="28" delay="90"/>
+            <frame index="19"/>
+        </animation>
+    </action>
+</sprite>
