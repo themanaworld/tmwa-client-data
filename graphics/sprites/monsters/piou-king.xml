@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authors: Micksha
+Copyright (C) 2011-2021 Moubootaur Legends -->
+<sprite>
+    <imageset name="mob"
+              src="graphics/sprites/monsters/piou-king.png"
+              width="96"
+              height="96"
+              offsetY="8"/>
+
+    <action name="spawn" imageset="mob">
+<!--
+        <animation direction="default">
+            <sequence start="12" end="23" delay="100"/>
+            <end/>
+        </animation>
+
+        no clue if directional spawns work in case they dont use the above lines in the comment
+-->
+        <animation direction="down">
+            <sequence start="12" end="23" delay="100"/>
+            <end/>
+        </animation>
+
+        <animation direction="downleft">
+            <sequence start="24" end="35" delay="100"/>
+            <end/>
+        </animation>
+
+        <animation direction="left">
+            <sequence start="36" end="47" delay="100"/>
+            <end/>
+        </animation>
+
+        <animation direction="upleft">
+            <sequence start="48" end="59" delay="100"/>
+            <end/>
+        </animation>
+
+        <animation direction="up">
+            <sequence start="60" end="71" delay="100"/>
+            <end/>
+        </animation>
+
+        <animation direction="upright">
+            <sequence start="72" end="83" delay="100"/>
+            <end/>
+        </animation>
+
+        <animation direction="right">
+            <sequence start="84" end="95" delay="100"/>
+            <end/>
+        </animation>
+
+        <animation direction="downright">
+            <sequence start="96" end="107" delay="100"/>
+            <end/>
+        </animation>
+    </action>
+
+    <action name="stand" imageset="mob">
+        <animation direction="down">
+            <frame index="0"/>
+        </animation>
+
+        <animation direction="downleft">
+            <frame index="1"/>
+        </animation>
+
+        <animation direction="left">
+            <frame index="2"/>
+        </animation>
+
+        <animation direction="upleft">
+            <frame index="3"/>
+        </animation>
+
+        <animation direction="up">
+            <frame index="4"/>
+        </animation>
+
+        <animation direction="upright">
+            <frame index="5"/>
+        </animation>
+
+        <animation direction="right">
+            <frame index="6"/>
+        </animation>
+
+        <animation direction="downright">
+            <frame index="7"/>
+        </animation>
+    </action>
+
+    <action name="walk" imageset="mob">
+        <animation direction="down">
+            <sequence start="108" end="119" delay="20"/>
+            <end/>
+        </animation>
+
+        <animation direction="downleft">
+            <sequence start="120" end="131" delay="20"/>
+            <end/>
+        </animation>
+
+        <animation direction="left">
+            <sequence start="132" end="143" delay="20"/>
+            <end/>
+        </animation>
+
+        <animation direction="upleft">
+            <sequence start="144" end="155" delay="20"/>
+            <end/>
+        </animation>
+
+        <animation direction="up">
+            <sequence start="156" end="167" delay="20"/>
+            <end/>
+        </animation>
+
+        <animation direction="upright">
+            <sequence start="168" end="179" delay="20"/>
+            <end/>
+        </animation>
+
+        <animation direction="right">
+            <sequence start="180" end="191" delay="20"/>
+            <end/>
+        </animation>
+
+        <animation direction="downright">
+            <sequence start="192" end="203" delay="20"/>
+            <end/>
+        </animation>
+    </action>
+
+    <action name="attack" imageset="mob">
+        <animation direction="down">
+            <sequence start="204" end="215" delay="50"/>
+            <end/>
+        </animation>
+
+        <animation direction="downleft">
+            <sequence start="216" end="227" delay="50"/>
+            <end/>
+        </animation>
+
+        <animation direction="left">
+            <sequence start="228" end="239" delay="50"/>
+            <end/>
+        </animation>
+
+        <animation direction="upleft">
+            <sequence start="240" end="251" delay="50"/>
+            <end/>
+        </animation>
+
+        <animation direction="up">
+            <sequence start="252" end="263" delay="50"/>
+            <end/>
+        </animation>
+
+        <animation direction="upright">
+            <sequence start="264" end="275" delay="50"/>
+            <end/>
+        </animation>
+
+        <animation direction="right">
+            <sequence start="276" end="287" delay="50"/>
+            <end/>
+        </animation>
+
+        <animation direction="downright">
+            <sequence start="288" end="299" delay="50"/>
+            <end/>
+        </animation>
+    </action>
+
+    <action name="attack_splash" imageset="mob">
+        <animation direction="down">
+            <sequence start="300" end="311" delay="50"/>
+            <end/>
+        </animation>
+
+        <animation direction="downleft">
+            <sequence start="312" end="323" delay="50"/>
+            <end/>
+        </animation>
+
+        <animation direction="left">
+            <sequence start="324" end="335" delay="50"/>
+            <end/>
+        </animation>
+
+        <animation direction="upleft">
+            <sequence start="336" end="347" delay="50"/>
+            <end/>
+        </animation>
+
+        <animation direction="up">
+            <sequence start="248" end="359" delay="50"/>
+            <end/>
+        </animation>
+
+        <animation direction="upright">
+            <sequence start="360" end="371" delay="50"/>
+            <end/>
+        </animation>
+
+        <animation direction="right">
+            <sequence start="372" end="383" delay="50"/>
+            <end/>
+        </animation>
+
+        <animation direction="downright">
+            <sequence start="384" end="395" delay="50"/>
+            <end/>
+        </animation>
+    </action>
+
+    <action name="dead" imageset="mob">
+        <animation direction="down">
+            <sequence start="396" end="407" delay="100"/>
+            <frame index="407"/>
+            <end/>
+        </animation>
+
+        <animation direction="downleft">
+            <sequence start="408" end="419" delay="100"/>
+            <frame index="419"/>
+            <end/>
+        </animation>
+
+        <animation direction="left">
+            <sequence start="420" end="431" delay="100"/>
+            <frame index="431"/>
+            <end/>
+        </animation>
+
+        <animation direction="upleft">
+            <sequence start="432" end="443" delay="100"/>
+            <frame index="443"/>
+            <end/>
+        </animation>
+
+        <animation direction="up">
+            <sequence start="444" end="455" delay="100"/>
+            <frame index="455"/>
+            <end/>
+        </animation>
+
+        <animation direction="upright">
+            <sequence start="456" end="467" delay="100"/>
+            <frame index="467"/>
+            <end/>
+        </animation>
+
+        <animation direction="right">
+            <sequence start="468" end="479" delay="100"/>
+            <frame index="479"/>
+            <end/>
+        </animation>
+
+        <animation direction="downright">
+            <sequence start="490" end="491" delay="100"/>
+            <frame index="491"/>
+            <end/>
+        </animation>
+    </action>
+
+</sprite>

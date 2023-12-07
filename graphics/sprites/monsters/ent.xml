@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset name="base" src="graphics/sprites/monsters/ent.png" width="112" height="112"/>
+  <action name="stand" imageset="base">
+    <animation direction="down">
+      <frame index="0"/>
+    </animation>
+    <animation direction="left">
+      <frame index="8"/>
+    </animation>
+    <animation direction="right">
+      <frame index="12"/>
+    </animation>
+    <animation direction="up">
+      <frame index="18"/>
+    </animation>
+  </action>
+  <action name="walk" imageset="base">
+    <animation direction="down">
+      <sequence start="0" end="2" delay="200"/>
+    </animation>
+    <animation direction="left">
+      <sequence start="8" end="6" delay="200"/>
+    </animation>
+    <animation direction="right">
+      <sequence start="12" end="14" delay="200"/>
+    </animation>
+    <animation direction="up">
+      <sequence start="18" end="20" delay="200"/>
+    </animation>
+  </action>
+  <action name="dead" imageset="base">
+    <animation direction="default">
+      <sequence start="24" end="26" delay="150"/>
+      <frame index="27" delay="150" offsetY="8"/>
+      <frame index="27" offsetY="8"/>
+    </animation>
+  </action>
+  <action name="attack" imageset="base">
+    <animation direction="down">
+      <sequence start="3" end="5" delay="150" offsetX="-1" offsetY="-2"/>
+      <end/>
+    </animation>
+    <animation direction="left">
+      <sequence start="9" end="11" delay="150" offsetX="-9" offsetY="-3"/>
+      <end/>
+    </animation>
+    <animation direction="right">
+      <sequence start="15" end="17" delay="150" offsetX="8" offsetY="-3"/>
+      <end/>
+    </animation>
+    <animation direction="up">
+      <sequence start="21" end="23" delay="150" offsetX="-3" offsetY="-2"/>
+      <end/>
+    </animation>
+  </action>
+</sprite>

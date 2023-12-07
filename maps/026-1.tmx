@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="150" height="120" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="34">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="150" height="120" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="36">
  <properties>
   <property name="minimap" value="graphics/minimaps/026-1.png"/>
   <property name="music" value="DrearyDay.ogg"/>
@@ -1015,7 +1015,7 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup id="9" name="Objects" visible="0">
+ <objectgroup id="9" name="Objects">
   <object id="1" name="To Graveyard" type="warp" x="2016" y="512" width="32" height="32">
    <properties>
     <property name="dest_map" value="027-1"/>
@@ -1033,41 +1033,41 @@
   <object id="3" name="Wisp" type="spawn" x="0" y="0">
    <properties>
     <property name="death" value="40000"/>
-    <property name="spawn" value="120000"/>
     <property name="max_beings" value="34"/>
     <property name="monster_id" value="38"/>
+    <property name="spawn" value="120000"/>
    </properties>
   </object>
   <object id="4" name="Spectre" type="spawn" x="0" y="0">
    <properties>
     <property name="death" value="40000"/>
-    <property name="spawn" value="120000"/>
     <property name="max_beings" value="34"/>
     <property name="monster_id" value="40"/>
+    <property name="spawn" value="120000"/>
    </properties>
   </object>
   <object id="5" name="Poltergeist" type="spawn" x="0" y="0">
    <properties>
     <property name="death" value="40000"/>
-    <property name="spawn" value="120000"/>
     <property name="max_beings" value="34"/>
     <property name="monster_id" value="45"/>
+    <property name="spawn" value="120000"/>
    </properties>
   </object>
   <object id="6" name="Silkworm" type="spawn" x="0" y="0">
    <properties>
     <property name="death" value="60000"/>
-    <property name="spawn" value="300000"/>
     <property name="max_beings" value="10"/>
     <property name="monster_id" value="33"/>
+    <property name="spawn" value="300000"/>
    </properties>
   </object>
   <object id="8" name="LogHead" type="spawn" x="0" y="0">
    <properties>
     <property name="death" value="40000"/>
-    <property name="spawn" value="300000"/>
     <property name="max_beings" value="8"/>
     <property name="monster_id" value="23"/>
+    <property name="spawn" value="300000"/>
    </properties>
   </object>
   <object id="19" name="To Reid's Inn" type="warp" x="1536" y="1248" width="32" height="32">
@@ -1080,49 +1080,89 @@
   <object id="20" name="DrunkenSkeleton" type="spawn" x="672" y="768" width="1824" height="480">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="4"/>
     <property name="monster_id" value="75"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="21" name="TipsySkeleton" type="spawn" x="768" y="832" width="1696" height="384">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="4"/>
     <property name="monster_id" value="76"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="22" name="DrunkenSkeleton" type="spawn" x="736" y="1984" width="2150" height="992">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="4"/>
     <property name="monster_id" value="75"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="23" name="TipsySkeleton" type="spawn" x="896" y="2112" width="1930" height="770">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="4"/>
     <property name="monster_id" value="76"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="24" name="DrunkenSkeleton" type="spawn" x="3040" y="704" width="1024" height="2400">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="4"/>
     <property name="monster_id" value="75"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="25" name="TipsySkeleton" type="spawn" x="3072" y="768" width="928" height="2304">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="4"/>
     <property name="monster_id" value="76"/>
+    <property name="spawn" value="100000"/>
+   </properties>
+  </object>
+  <object id="31" name="DrunkenLadySkeleton" type="spawn" x="3040" y="704" width="1024" height="2400">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="77"/>
+    <property name="spawn" value="100000"/>
+   </properties>
+  </object>
+  <object id="32" name="DrunkenLadySkeleton" type="spawn" x="736" y="2016" width="2240" height="1056">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="77"/>
+    <property name="spawn" value="100000"/>
+   </properties>
+  </object>
+  <object id="33" name="DrunkenLadySkeleton" type="spawn" x="672" y="800" width="1760" height="416">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="77"/>
+    <property name="spawn" value="100000"/>
+   </properties>
+  </object>
+  <object id="35" name="BigFrog" type="spawn" x="0" y="0">
+   <properties>
+    <property name="death" value="7000"/>
+    <property name="max_beings" value="8"/>
+    <property name="monster_id" value="1182"/>
+    <property name="spawn" value="150000"/>
+   </properties>
+  </object>
+  <object id="34" name="SmallFrog" type="spawn" x="0" y="0">
+   <properties>
+    <property name="death" value="7000"/>
+    <property name="max_beings" value="16"/>
+    <property name="monster_id" value="1181"/>
+    <property name="spawn" value="150000"/>
    </properties>
   </object>
   <object id="28" name="To Shops" type="warp" x="1376" y="768" width="32" height="32">
@@ -1137,30 +1177,6 @@
     <property name="dest_map" value="026-2"/>
     <property name="dest_x" value="22"/>
     <property name="dest_y" value="95"/>
-   </properties>
-  </object>
-  <object id="31" name="DrunkenLadySkeleton" type="spawn" x="3040" y="704" width="1024" height="2400">
-   <properties>
-    <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="77"/>
-   </properties>
-  </object>
-  <object id="32" name="DrunkenLadySkeleton" type="spawn" x="736" y="2016" width="2240" height="1056">
-   <properties>
-    <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="77"/>
-   </properties>
-  </object>
-  <object id="33" name="DrunkenLadySkeleton" type="spawn" x="672" y="800" width="1760" height="416">
-   <properties>
-    <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="77"/>
    </properties>
   </object>
  </objectgroup>

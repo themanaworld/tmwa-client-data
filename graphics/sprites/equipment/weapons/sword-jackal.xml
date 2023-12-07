@@ -69,15 +69,19 @@
   <action name="attack" imageset="sword">
     <animation direction="down">
       <sequence start="8" end="11" offsetX ="0" offsetY ="32" delay="75"/>
+      <end/>
     </animation>
     <animation direction="left">
       <sequence start="24" end="27" offsetX ="0" offsetY ="32" delay="75"/>
+      <end/>
     </animation>
     <animation direction="up">
       <sequence start="40" end="43" offsetX ="0" offsetY ="32" delay="75"/>
+      <end/>
     </animation>
     <animation direction="right">
       <sequence start="56" end="59" offsetX ="0" offsetY ="32" delay="75"/>
+      <end/>
     </animation>
   </action>
 
