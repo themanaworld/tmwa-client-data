@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="150" height="125" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="14">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="150" height="125" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="16">
  <properties>
   <property name="music" value="faith.ogg"/>
   <property name="name" value="Beach"/>
@@ -791,7 +791,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,340,0,0,0,0,0
 </data>
  </layer>
- <layer id="7" name="Collision" width="150" height="125" visible="0">
+ <layer id="7" name="Collision" width="150" height="125">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -920,93 +920,109 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup id="8" name="Object" visible="0">
+ <objectgroup id="8" name="Object">
   <object id="1" name="Scorpion" type="spawn" x="2304" y="1632" width="608" height="320">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="1"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="2" name="Scorpion" type="spawn" x="2944" y="2016" width="608" height="320">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="1"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="3" name="Scorpion" type="spawn" x="2912" y="2560" width="608" height="320">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="1"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="4" name="Scorpion" type="spawn" x="1760" y="768" width="448" height="672">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="1"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="5" name="SeaSlime" type="spawn" x="1600" y="192" width="352" height="1568">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="31"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="6" name="Scorpion" type="spawn" x="1728" y="288" width="352" height="320">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="1"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="7" name="TameScorpion" type="spawn" x="1888" y="192" width="128" height="96">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="44"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="8" name="TameScorpion" type="spawn" x="2080" y="1536" width="128" height="96">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="44"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="9" name="TameScorpion" type="spawn" x="2720" y="2272" width="704" height="320">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="44"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="10" name="RedScorpion" type="spawn" x="2912" y="1696" width="608" height="320">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="2"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="11" name="RedScorpion" type="spawn" x="2368" y="1920" width="608" height="320">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="100000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="2"/>
+    <property name="spawn" value="100000"/>
+   </properties>
+  </object>
+  <object id="14" name="Croc" type="spawn" x="1664" y="2368" width="800" height="736">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="1193"/>
+    <property name="spawn" value="10000"/>
+   </properties>
+  </object>
+  <object id="15" name="Croc" type="spawn" x="1280" y="160" width="928" height="2208">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="1193"/>
+    <property name="spawn" value="10000"/>
    </properties>
   </object>
   <object id="12" name="To Beach" type="warp" x="3200" y="3040" width="96" height="32">
