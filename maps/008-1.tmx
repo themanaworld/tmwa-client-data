@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="162" height="120" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="22">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="162" height="120" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="24">
  <properties>
   <property name="minimap" value="graphics/minimaps/008-1.png"/>
   <property name="music" value="the-forest.ogg"/>
@@ -637,7 +637,7 @@
 230,169,165,232,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="5" name="Collision" width="162" height="120" visible="0">
+ <layer id="5" name="Collision" width="162" height="120">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -906,6 +906,22 @@
     <property name="max_beings" value="16"/>
     <property name="monster_id" value="1181"/>
     <property name="spawn" value="150000"/>
+   </properties>
+  </object>
+  <object id="22" name="Tortuga" type="spawn" x="1120" y="480" width="832" height="896">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1191"/>
+    <property name="spawn" value="10000"/>
+   </properties>
+  </object>
+  <object id="23" name="Tortuga" type="spawn" x="1376" y="2528" width="256" height="224">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="1191"/>
+    <property name="spawn" value="10000"/>
    </properties>
   </object>
  </objectgroup>
