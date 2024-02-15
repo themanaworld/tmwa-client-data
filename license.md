@@ -386,6 +386,7 @@ File | Artists | Licenses
 `graphics/items/generic/bottle-sand.png` | FotherJ, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/broken-fourleaf-amulet.png` | Alige, Fate, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/brokendoll.png` | Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/bromenal-droplet.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/bugleg.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/casinocoins.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/cavesnakelamp.png` | :grey_question:, Enchilado | GPLv2
@@ -398,6 +399,7 @@ File | Artists | Licenses
 `graphics/items/generic/coal.png` | Enchilado, Meway, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/coinbag.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/crystal.png` | Crush, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/crystal-crozenite.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/crystalized-dragon-blood.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/dark-easter-egg.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/dark-petal.png` | Enchilado | GPLv2, CC BY-SA 3.0
