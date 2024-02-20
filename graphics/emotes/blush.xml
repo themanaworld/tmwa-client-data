@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<effect>
+  <particle position-x="0" position-y="0" position-z="105" lifetime="5">
+    <emitter>
+      <property name="position-x" value="0"/>
+      <property name="position-y" value="0"/>
+      <property name="position-z" value="-32"/>
+      <property name="lifetime" value="150"/>
+      <property name="fade-out" value="80"/>
+      <property name="gravity" value="-0.005"/>
+      <animation imageset="graphics/emotes/blush.png" width="30" height="32">
+        <frame index="0"/>
+      </animation>
+      <property name="follow-parent"/>
+    </emitter>
+  </particle>
+</effect>
