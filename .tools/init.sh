@@ -19,7 +19,7 @@ function gitclone1 {
 }
 
 function gitclone {
-    printf '$CI_BUILD_REPO is $s\n' "$CI_BUILD_REPO"
+    printf '$CI_BUILD_REPO is %s\n' "$CI_BUILD_REPO"
     export name1=$1/$2
     export name2=${CI_BUILD_REPO##*@}
     export name2=https://${name2%/*}/$2
