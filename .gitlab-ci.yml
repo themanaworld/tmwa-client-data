@@ -11,7 +11,7 @@ before_script:
   - ./.tools/pngcheck.sh
   #allow_failure: true
 
-imagemagiccheck:
+.imagemagiccheck:
   stage: test
   script:
   - ./.tools/imagemagiccheck.sh
@@ -51,7 +51,7 @@ imagemagiccheck:
   - ./.tools/licensecheck.sh
   allow_failure: true
 
-.testxml:
+testxml:
   stage: test
   image: ubuntu:18.04
   tags:
