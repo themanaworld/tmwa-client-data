@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<items>
+  <item id="5326" image="equipment/head/crusadehelm.png|W:#000000,ffffff" name="Black Crusade Helmet" description="Start your own crusade." mattack="-36" type="equip-head" defense="18" weight="1300">
+    <sprite gender="unisex">equipment/head/crusadehelm.xml|#000000,ffffff</sprite>
+    <sprite gender="female">equipment/head/crusadehelm-female.xml|#000000,ffffff</sprite>
+    <replace sprite="hair">
+      <item to="-1"/>
+    </replace>
+  </item>
+</items>

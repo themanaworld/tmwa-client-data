@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<items>
+  <item id="5324" image="equipment/head/warlordhelm.png|W:#000000,ffffff" name="Black Warlord Helmet" description="Worn by great warriors." mattack="-36" type="equip-head" defense="18" weight="900">
+    <sprite gender="unisex">equipment/head/warlordhelm.xml|#000000,ffffff</sprite>
+    <sprite gender="female">equipment/head/warlordhelm-female.xml|#000000,ffffff</sprite>
+    <replace sprite="hair">
+      <item from="-6" to="-1"/>
+      <item from="-7" to="-1"/>
+      <item from="-10" to="-1"/>
+    </replace>
+  </item>
+</items>

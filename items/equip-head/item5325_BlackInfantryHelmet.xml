@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<items>
+  <item id="5325" image="equipment/head/infantryhelm.png|W:#000000,ffffff" name="Black Infantry Helmet" description="A helmet for soldiers and guards." mattack="-30" type="equip-head" defense="15" weight="400">
+    <sprite gender="unisex">equipment/head/infantryhelm.xml|#000000,ffffff</sprite>
+    <sprite gender="female">equipment/head/infantryhelm-female.xml|#000000,ffffff</sprite>
+    <replace direction="downall" sprite="hair">
+      <item from="-7" to="-4"/>
+    </replace>
+    <replace sprite="hair">
+      <item from="-6" to="-1"/>
+      <item from="-10" to="-1"/>
+    </replace>
+  </item>
+</items>
