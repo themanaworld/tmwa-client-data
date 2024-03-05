@@ -400,6 +400,7 @@ File | Artists | Licenses
 `graphics/items/generic/christmasbulb.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/claylump_big.png` | Jumpy, Enchilado | GPLv2
 `graphics/items/generic/claylump_small.png` | Fate, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/clover-drawing.png` | Adamaix, Enchilado, HoraK | GPLv2
 `graphics/items/generic/coal.png` | Enchilado, Meway, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/coinbag.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/crystal.png` | Crush, Enchilado | GPLv2, CC BY-SA 3.0
@@ -567,6 +568,7 @@ File | Artists | Licenses
 #### Misc Usable Items
 File | Artists | Licenses
 ---- |:-------:|:--------:
+`graphics/items/use/others/shovel.png` | Alige, Reid | CC BY-SA 3.0
 `graphics/items/use/others/warp-towel.png` | Bjorn, ChefChelios | GPLv2, CC BY-SA 3.0
 
 #### Potions
@@ -584,13 +586,12 @@ File | Artists | Licenses
 File | Artists | Licenses
 ---- |:-------:|:--------:
 `graphics/items/use/scrolls/firescroll.png` | Adamaix, Enchilado | GPLv2
-
+`graphics/items/use/scrolls/scroll-shadow.png` | Adamaix, Enchilado, HoraK | GPLv2
 
 ### Minimaps
 File | Artists | Licenses
 ---- |:-------:|:--------:
 `graphics/minimaps/*.png` | The Mana World Development Team | GPLv2
-
 
 ### Particles
 File | Artists | Licenses

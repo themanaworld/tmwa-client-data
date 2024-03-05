@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Saulc
+Copyright (C) 2018 TMW 2 Moubootaur Legends -->
+
+<sprite>
+
+  <imageset name="base" src="graphics/sprites/monsters/bigbif.png|W" 
+            width="32" 
+            height="32" />
+
+  <action name="stand" imageset="base">
+    <animation>
+      <frame index="0"/>
+    </animation>
+  </action>
+
+  <action name="dead" imageset="base">
+    <animation>
+      <frame index="1"/>
+    </animation>
+  </action>
+
+</sprite>
