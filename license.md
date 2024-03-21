@@ -394,6 +394,7 @@ File | Artists | Licenses
 `graphics/items/generic/bugleg.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/casinocoins.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/cavesnakelamp.png` | :grey_question:, Enchilado | GPLv2
+`graphics/items/generic/charcoal.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/chocolatemouboo.png` | :grey_question:, Chicka-Maria, Enchilado | GPLv2
 `graphics/items/generic/christmasbox-closed.png` | Lizandra, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/christmasbox-open.png` | Lizandra, Enchilado | GPLv2, CC BY-SA 3.0
