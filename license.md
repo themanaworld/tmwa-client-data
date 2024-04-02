@@ -1215,6 +1215,7 @@ File | Artists | Licenses
 `sfx/env/fart.ogg` | unknown | CC0
 `sfx/env/flame.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/env/spawn_burst.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/env/tiny_bell.ogg` | SamuelGremaud, Ledmitz | CC0
 `sfx/env/zap.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/magic/astral.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/magic/betsanc-on.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
