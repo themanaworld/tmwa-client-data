@@ -1543,7 +1543,20 @@
 
     <monster id="1168" name="Floyd">
         <sprite>monsters/floyd.xml</sprite>
-        <sound event="hit">env/zap.ogg</sound>
+        <attack id="1" critical-hit-effect-id="405" missile-particle="graphics/particles/beam.xml" action="attack"/>
+        <sound event="die">monsters/floyd/floyd-die1.ogg</sound>
+        <sound event="hit">weapons/beam/beam-hit.ogg</sound>
+        <sound event="hurt">monsters/floyd/floyd-hurt1.ogg</sound>
+        <sound event="hurt">monsters/floyd/floyd-hurt2.ogg</sound>
+        <sound event="hurt">monsters/floyd/floyd-hurt3.ogg</sound>
+        <sound event="miss">weapons/beam/beam-miss.ogg</sound>
+        <sound event="move">monsters/floyd/floyd-move1.ogg</sound>
+        <sound event="move">monsters/floyd/floyd-move1.ogg</sound>
+        <sound event="move">monsters/floyd/floyd-move1.ogg</sound>
+        <sound event="move">monsters/floyd/floyd-move2.ogg</sound>
+        <sound event="move">monsters/floyd/floyd-move3.ogg</sound>
+        <sound event="move">monsters/floyd/floyd-move4.ogg</sound>
+        <sound event="move">monsters/floyd/floyd-move5.ogg</sound>
     </monster>
 
     <monster id="1169" name="Crystal Spider">

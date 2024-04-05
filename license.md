@@ -599,6 +599,8 @@ File | Artists | Licenses
 `graphics/particles/bubble_8px.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/anibubble_8px.png` | Crush,wushin | GPLv2, CC BY-SA 3.0
 `graphics/particles/anibubble_8px_green.png` | Crush,wushin | GPLv2, CC BY-SA 3.0
+`graphics/particles/beam.png` | Ledmitz | GPLv2, CC BY-SA 3.0
+`graphics/particles/beam-crit.png` | Ledmitz | GPLv2, CC BY-SA 3.0
 `graphics/particles/bubble_12px.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/bubble_32px.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/casket-trap_96x96.png` | Skipy | GPLv2
@@ -1283,6 +1285,15 @@ File | Artists | Licenses
 `sfx/monsters/flower/flower-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/flower/flower-hit2.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/flower/flower-miss1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/floyd/floyd-die1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/floyd/floyd-hurt1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/floyd/floyd-hurt2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/floyd/floyd-hurt3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/floyd/floyd-move1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/floyd/floyd-move2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/floyd/floyd-move3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/floyd/floyd-move4.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/floyd/floyd-move5.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/fluffy/fluffy-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/fluffy/fluffy-hit2.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/fluffy/fluffy-hit3.ogg` | Cosmostrator | GPLv2
@@ -1460,6 +1471,9 @@ File | Artists | Licenses
 `sfx/weapons/miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/miss2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/miss3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/beam/beam-crit.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/beam/beam-hit.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/beam/beam-miss.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/bows/bow_shoot_1.ogg` | Cosmostrator | GPLv2
 `sfx/weapons/bows/banshee/banshee-hit1.ogg` | Ledmitz (rocket-shots.mp3 / Audionautics / CC BY 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/weapons/bows/banshee/banshee-hit2.ogg` | Ledmitz (rocket-shots.mp3 / Audionautics / CC BY 3.0) | GPLv2, CC BY-SA 3.0
