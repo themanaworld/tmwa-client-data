@@ -975,7 +975,7 @@ File | Artists | Licenses
 `graphics/sprites/monsters/mouboo.png` | Yuuki | GPLv2
 `graphics/sprites/monsters/mouboo-demonic.png` | Cassy, Yuuki | GPLv2
 `graphics/sprites/monsters/moubootaur.png` | Hocus | MIT
-`graphics/sprites/monsters/montblanc.png` | KokoroReflections | CC BY 4.0
+`graphics/sprites/monsters/montblanc.png` | KokoroReflections (piratehat.png | Fettsack | GPLv2) (cannon | AntumDeluge | CC BY 3.0, OGA BY 3.0) | CC BY 4.0
 `graphics/sprites/monsters/mushroom-red.png` | Yuuki | GPLv2
 `graphics/sprites/monsters/mushroom-spiky.png` | Yuuki | GPLv2
 `graphics/sprites/monsters/mushroom-void.png` | Cassy, Yuuki, Jesusalva | GPLv2
@@ -1048,6 +1048,7 @@ File | Artists | Licenses
 ---- |:-------:|:--------:
 `graphics/sprites/npcs/airship.png` | Modanung | GPLv2
 `graphics/sprites/npcs/anon.png` | Lien, Modanung, Reid, Crush, Fother, Nami, Talaroc | CC-BY-SA 3.0
+`graphics/npcs/blanc.png` | KokoroReflections, Hocus (piratehat.png | Fettsack | GPLv2) (cannon | AntumDeluge | CC BY 3.0, OGA BY 3.0) | CC BY 4.0
 `graphics/sprites/npcs/bones.png` | FotherJ, Salmondine | GPLv2
 `graphics/sprites/npcs/childoutfits.png` | Milla, Mrgrey, Nami, Salmondine, Wombat | GPLv2
 `graphics/sprites/npcs/childposes.png` | Milla, Mrgrey, Nami, Salmondine | GPLv2
@@ -1163,7 +1164,6 @@ File | Artists | Licenses
 `graphics/tiles/inn2.png` | Alige, Irukard, Salmondine | GPLv2
 `graphics/tiles/light-flickering-x1x4.png` | Micksha | GPLv2, CC BY-SA 3.0
 `graphics/tiles/mushrooms.png` | Dave, Len | GPLv2
-`graphics/tiles/shipwreck_blanc.png` | KokoroReflections, Hocus | CC BY 4.0
 `graphics/tiles/snow_docks.png` | Irukard, Arikel, Meway, Wombat | GPLv2
 `graphics/tiles/snow_ground.png` | bagzie, gumi, :grey_question: | GPLv2
 `graphics/tiles/snow_tree_x3.png` | :grey_question:, Alige, Hal9000 | GPLv2
@@ -1314,6 +1314,7 @@ File | Artists | Licenses
 `sfx/monsters/maggot/maggot-hit1.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/maggot/maggot-hit2.ogg` | Cosmostrator | GPLv2
 `sfx/monsters/maggot/maggot-miss1.ogg` | Cosmostrator | GPLv2
+`sfx/monsters/montblanc/montblanc-die1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/ghost/ghost-die1.ogg` | Ledmitz (ghostly-moans / Alivvie / CC by SA 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/monsters/ghost/ghost-move1.ogg` | Ledmitz (ghostly-moans / Alivvie / CC by SA 3.0) | GPLv2, CC BY-SA 3.0
 `sfx/monsters/ghost/ghost-move2.ogg` | Ledmitz (ghostly-moans / Alivvie / CC by SA 3.0) | GPLv2, CC BY-SA 3.0

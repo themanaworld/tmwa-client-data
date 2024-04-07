@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!-- Author: Ledmitz. For use with montblanc -->
+<effect>
+  <particle position-x="20" position-y="0" position-z="120" lifetime="128">
+    <emitter>
+      <property name="image" value="graphics/particles/orb-large.png|W:#000000"/>
+      <property name="output" value="1"/>
+      <property name="lifetime" value="1"/>
+        <emitter>
+      <property name="position-x" value="-5"/>
+      <property name="position-y" min="-4" max="-4"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="vertical-angle" min="0" max="90"/>
+      <property name="power" min="0" max="0.05"/>
+      <property name="gravity" value="-0.03"/>
+      <animation imageset="graphics/particles/aniblaze.png|W:#BF0019,FF6715,FFE659" width="8" height="8">
+        <sequence start="0" end="14" delay="30"/>
+        <frame index="14" delay="1000"/>
+      </animation>
+      <property name="lifetime" value="15"/>
+      <property name="output" value="1"/>
+      <property name="fade-out" value="100"/>
+      <property name="fade-in" value="40"/>
+    </emitter>
+    <emitter>
+      <animation imageset="graphics/particles/aniblaze.png|W:#BF0019,FF6715,FFE659" width="8" height="8">
+        <sequence start="0" end="14" delay="30"/>
+        <frame index="14" delay="1000"/>
+      </animation>
+      <property name="lifetime" value="30"/>
+      <property name="output" value="1"/>
+      <property name="fade-out" value="100"/>
+    </emitter>
+    <emitter>
+      <animation imageset="graphics/particles/fog-medium-c.png" width="32" height="32">
+        <frame index="0" delay="100"/>
+        <frame index="0" delay="1000"/>
+      </animation>
+      <property name="lifetime" value="40"/>
+      <property name="output" value="1"/>
+      <property name="fade-out" value="230"/>
+    </emitter>
+    </emitter>
+  </particle>
+</effect>
