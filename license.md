@@ -146,6 +146,7 @@ File | Artists | Licenses
 `graphics/items/equipment/charms/clover.png` | 5t3v3 | GPLv2
 `graphics/items/equipment/charms/enchanter.png` | Fate | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/charms/fourleaf-amulet.png` | Fate | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/charms/gmamulet.png` | Ledmitz | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/charms/heart-of-isis.png` | V0id | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/charms/heartnecklace.png` | Jetryl | GPLv2
 `graphics/items/equipment/charms/skeletoncharm.png` | Cassy, Jetryl | GPLv2
