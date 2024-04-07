@@ -1595,6 +1595,11 @@
 
     <monster id="1173" name="Mont Blanc" targetCursor="large">
         <sprite>monsters/montblanc.xml</sprite>
+        <sound event="die">monsters/montblanc/montblanc-die1.ogg</sound>
+        <sound event="hurt">monsters/crocotree/hurt2.ogg</sound>
+        <sound event="hurt">monsters/crocotree/hurt3.ogg</sound>
+        <sound event="miss">system/crit.ogg</sound>
+        <attack id="1" critical-hit-effect-id="30" hit-effect-id="31" missile-particle="graphics/particles/cannonball.xml" action="attack"/>
     </monster>
 
     <monster id="1174" name="Emo">
