@@ -246,6 +246,8 @@ File | Artists | Licenses
 `graphics/items/equipment/head/knighthelm.png` | Black Don | GPLv2
 `graphics/items/equipment/head/knit-cap.png` | Salmondine, jak1  | GPLv2
 `graphics/items/equipment/head/leathergoggles.png` | Fettsack | GPLv2
+`graphics/items/equipment/head/leprechaunhat.png` | Scorpius, QOAL, Saulc | GPLv2
+`graphics/items/equipment/head/leprechaunhead.png` | Ledmitz, (leprechaunhat.png | Scorpius, QOAL, Saulc | GPLv2) | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/magicgmtophat.png` | QOAL, V0id | GPLv2
 `graphics/items/equipment/head/mask.png` | QOAL | GPLv2
 `graphics/items/equipment/head/minershat.png` | Crush | GPLv2, CC BY-SA 3.0
@@ -688,10 +690,10 @@ File | Artists | Licenses
 `graphics/sprites/icons/spell-cooldown-r.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/icons/spell-cooldown-r-outline.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/icons/spell-cooldown-upmarmu.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
-`graphics/sprites/icons/spell-attack-generic-outline.png` | ?, HoraK-FDF | GPLv2, CC BY-SA 4.0
-`graphics/sprites/icons/feather-outline.png` | ?, HoraK-FDF | GPLv2, CC BY-SA 4.0
-`graphics/sprites/icons/hidden-outline.png` | ?, HoraK-FDF | GPLv2, CC BY-SA 4.0
-`graphics/sprites/icons/invisible-outline.png` | ?, HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/icons/spell-attack-generic-outline.png` | :grey_question:, HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/icons/feather-outline.png` | :grey_question:, HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/icons/hidden-outline.png` | :grey_question:, HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/icons/invisible-outline.png` | :grey_question:, HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/icons/potion-g.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 
 #### Actor Models
@@ -709,7 +711,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/weapons/axe-stab.png` | :grey_question:, Wombat, Wushin, Varuna | GPLv2
 `graphics/sprites/equipment/weapons/bow-banshee.png` | V0id | GPLv2
 `graphics/sprites/equipment/weapons/bow-slingshot.png` | Chef Chelios, wushin | GPLv2
-`graphics/sprites/equipment/weapons/dagger-setzer.png` | ?, TMW-Br Team | GPLv2
+`graphics/sprites/equipment/weapons/dagger-setzer.png` | :grey_question:, TMW-Br Team | GPLv2
 `graphics/sprites/equipment/weapons/null.png` | Ledmitz | CC0
 `graphics/sprites/equipment/weapons/polearm-blunt.png` | :grey_question:, Wombat, Wushin | GPLv2
 `graphics/sprites/equipment/weapons/polearm-chop.png` | :grey_question:, Wombat, Wushin | GPLv2
@@ -766,8 +768,8 @@ File | Artists | Licenses
 `graphics/sprites/equipment/chest/vnecksweater-male.png` | Saphy | GPLv2
 `graphics/sprites/equipment/chest/saviorarmor-male.png` | Saphy, slave | GPLv2
 `graphics/sprites/equipment/chest/saviorarmor-female.png` | Saphy, slave | GPLv2
-`graphics/sprites/equipment/chest/redknightarmor-female.png` | ?, TMW-Br Team, Saulc | GPLv2
-`graphics/sprites/equipment/chest/redknightarmor-male.png` | ?, TMW-Br Team, Saulc | GPLv2
+`graphics/sprites/equipment/chest/redknightarmor-female.png` | :grey_question:, TMW-Br Team, Saulc | GPLv2
+`graphics/sprites/equipment/chest/redknightarmor-male.png` | :grey_question:, TMW-Br Team, Saulc | GPLv2
 
 #### Feet
 File | Artists | Licenses
@@ -840,6 +842,11 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/jestermask.png` | Spit23 | GPLv2
 `graphics/sprites/equipment/head/knighthelm.png` | Black Don | GPLv2
 `graphics/sprites/equipment/head/knit-cap.png` | Salmondine | GPLv2
+
+
+
+`graphics/sprites/equipment/head/leprechaunhat.png` | Scorpius, QOAL, Saulc | GPLv2
+`graphics/sprites/equipment/head/leprechaunhead.png` | Ledmitz, (leprechaunhat.png | Scorpius, QOAL, Saulc | GPLv2)  | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/magicgmtophat.png` | QOAL, V0id | GPLv2
 `graphics/sprites/equipment/head/mask.png` | QOAL | GPLv2
 `graphics/sprites/equipment/head/minershat.png` | Crush | GPLv2, CC BY-SA 3.0
