@@ -842,9 +842,6 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/jestermask.png` | Spit23 | GPLv2
 `graphics/sprites/equipment/head/knighthelm.png` | Black Don | GPLv2
 `graphics/sprites/equipment/head/knit-cap.png` | Salmondine | GPLv2
-
-
-
 `graphics/sprites/equipment/head/leprechaunhat.png` | Scorpius, QOAL, Saulc | GPLv2
 `graphics/sprites/equipment/head/leprechaunhead.png` | Ledmitz, (leprechaunhat.png | Scorpius, QOAL, Saulc | GPLv2)  | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/magicgmtophat.png` | QOAL, V0id | GPLv2
