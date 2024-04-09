@@ -57,7 +57,7 @@
   <effect id="23" audio="env/zap.ogg" particle="graphics/particles/zap.xml"/>
   <effect id="24" audio="system/warp.ogg" particle="graphics/particles/magic.teleport.xml"/>
   <!-- #kaflosh (rain) hit -->
-  <effect id="25" particle="graphics/particles/rain.xml" audio="magic/kaflosh.ogg"/>
+  <effect id="25" audio="magic/kaflosh.ogg" particle="graphics/particles/rain.xml"/>
   <effect id="26" particle="graphics/particles/hit.particle.xml"/>
   <!-- #frillyar (arrow hail) hit -->
   <effect id="27" audio="magic/frillyar.ogg" particle="graphics/particles/arrow-hail.xml"/>
@@ -95,9 +95,11 @@
   <effect id="59" particle="graphics/particles/channelling-cast-red.particle.xml"/>
   <effect id="60" particle="graphics/particles/channelling-cast-blue.particle.xml"/>
   <effect id="61" particle="graphics/particles/red-magic-cast.particle.xml"/>
-  <effect id="69" particle="graphics/particles/python.xml" audio="env/fart.ogg"/>
-  <effect id="70" particle="graphics/particles/monster-rotter-hit.xml" audio="monsters/slime/slime-hurt1.ogg"/>
-  <effect id="71" particle="graphics/particles/monster-rotter-crit.xml" audio="monsters/rotter/crit1.ogg"/>
+  <effect id="69" audio="env/fart.ogg" particle="graphics/particles/python.xml"/>
+  <effect id="70" audio="monsters/slime/slime-hurt1.ogg" particle="graphics/particles/monster-rotter-hit.xml"/>
+  <effect id="71" audio="monsters/rotter/crit1.ogg" particle="graphics/particles/monster-rotter-crit.xml"/>
+  <effect id="72" particle="graphics/particles/rainbow-hit.xml"/>
+  <effect id="73" audio="system/boom.ogg" particle="graphics/particles/rainbow-crit.xml"/>
   <!-- #betsanc (protect) end -->
   <effect id="111" audio="magic/betsanc-off.ogg" particle="graphics/particles/magic.shield.xml"/>
   <!-- <effect id="112" particle="graphics/particles/magic.haste-ends.xml"/>-->
