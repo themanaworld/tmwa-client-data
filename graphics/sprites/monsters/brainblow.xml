@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset name="base" src="graphics/sprites/monsters/brainblow.png" width="13" height="13"/>
+  <action name="stand" imageset="base">
+    <animation direction="default">
+      <sequence start="0" end="7" delay="100"/>
+    </animation>
+  </action>
+  <action name="walk" imageset="base">
+    <animation direction="default">
+      <sequence start="0" end="7" delay="33"/>
+    </animation>
+  </action>
+  <action name="dead" imageset="base">
+    <animation direction="default">
+      <frame index="8" delay="66"/>
+      <frame index="9" delay="66"/>
+      <frame index="10" delay="66"/>
+      <frame index="11" delay="66"/>
+      <frame index="12" delay="66"/>
+      <frame index="13" delay="66"/>
+      <frame index="14" delay="66"/>
+      <frame index="15" delay="150"/>
+      <frame index="16" delay="125"/>
+      <frame index="17" delay="125"/>
+      <frame index="18" delay="100"/>
+      <frame index="19"/>
+    </animation>
+  </action>
+  <action name="attack" imageset="base">
+    <animation direction="default">
+      <sequence start="0" end="7" delay="20"/>
+      <end/>
+    </animation>
+  </action>
+</sprite>

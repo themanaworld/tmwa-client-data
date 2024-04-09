@@ -1643,7 +1643,7 @@
         <attack id="1" critical-hit-effect-id="71" hit-effect-id="70" missile-particle="graphics/particles/monster-rotter-vomit.xml" action="attack"/>
     </monster>
 
-    <monster id="1177" name="Rot">
+    <monster id="1177" name="Rot" targetCursor="small">
         <sprite>monsters/rot.xml</sprite>
         <sound event="die">monsters/slime/slime-die1.ogg</sound>
         <attack id="1" critical-hit-effect-id="71" hit-effect-id="70" action="attack"/>
@@ -1762,6 +1762,14 @@
     <monster id="1194" name="King Chonky Birb" targetCursor="large">
         <sprite>monsters/piou-king.xml</sprite>
     </monster>
+    
+    <monster id="1195" name="Brainblow" targetCursor="small">
+        <sprite>monsters/brainblow.xml</sprite>
+        <sound event="die">monsters/brainblow/brainblow-die1.ogg</sound>
+        <sound event="die">monsters/brainblow/brainblow-die2.ogg</sound>
+        <sound event="die">monsters/brainblow/brainblow-die3.ogg</sound>
+    </monster>
+    
 
     <!-- Mods should use the following code -->
     <include name="mods/monsters.xml" />

@@ -945,6 +945,7 @@ File | Artists | Licenses
 `graphics/sprites/monsters/beehive.png` | Len, TMW.org | CC BY-SA 4.0
 `graphics/sprites/monsters/bluepar.png` | Crush, Meway | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/bobone.png` | Pateame, HoraK-FDF | GPLv2
+`graphics/sprites/monsters/brainblow.png` | Ledmitz | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/butterfly.png` | Meway | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/cave-maggot-giant.png` | :grey_question:, Neoriceisgood | GPLv2
 `graphics/sprites/monsters/cave-maggot.png` | :grey_question:, Neoriceisgood | GPLv2
@@ -1258,6 +1259,9 @@ File | Artists | Licenses
 `sfx/monsters/bee/bee-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/bee/bee-miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/bee/bee-move1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/brainblow-die1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/brainblow-die2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/brainblow-die3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/casket-monster/casket-monster.ogg` | Dariuna | GPLv2
 `sfx/monsters/cavesnake/cavesnake-hit1.ogg` | Krazyjakee | GPLv2
 `sfx/monsters/croc/hit1.ogg` | Ezili, Reid, Socapex | CC BY-SA 3.0
