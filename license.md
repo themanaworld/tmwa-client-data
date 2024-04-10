@@ -348,6 +348,7 @@ File | Artists | Licenses
 `graphics/items/equipment/weapon/polearm-scorpion.png` | Adarias | GPLv2
 `graphics/items/equipment/weapon/polearm-spear.png` | Irukard | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/weapon/polearm-trident.png` | Irukard | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/weapon/rainerang.png` | Ledmitz | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/weapon/staff-crescentrod.png` | Adarias | GPLv2
 `graphics/items/equipment/weapon/staff-staffoffire.png` | Adarias | GPLv2
 `graphics/items/equipment/weapon/staff-staffofice.png` | Adarias | GPLv2
@@ -628,6 +629,7 @@ File | Artists | Licenses
 `graphics/particles/pool_32x59.particle.png` | Skipy | GPLv2
 `graphics/particles/pool_65x27.particle.png` | Skipy | GPLv2
 `graphics/particles/pool-undyed.png` | Alige, Skipy | GPLv2
+`graphics/particles/rainerang.png` | Ledmitz | GPLv2, CC BY-SA 3.0
 `graphics/particles/snowball.png` | Ledmitz, Reid | GPLv2, CC BY-SA 3.0
 `graphics/particles/star-medium.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/star-small.png` | Crush | GPLv2, CC BY-SA 3.0
