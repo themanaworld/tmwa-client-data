@@ -1,22 +1,22 @@
 <?xml version="1.0"?>
 <items>
 	<item id="5284"
-		image="equipment/weapon/revolver.png"
-		name="Short Gunstaff"
-		description="A gunstaff, which is not produced in The Mana World. Brought from the Mirror Lake."
+		image="equipment/weapon/flintlock.png"
+		name="Flintlock Pistol"
+		description="Brought by Blanc to The Mana World from Mirror Lake."
 		effect="Unobtainable. / Weapon Level 1"
 		attack="120"
 		attack-range="5"
-		missile-particle="graphics/particles/flame.particle.xml"
+		missile-particle="graphics/particles/bullet.xml"
 		missile-z="32"
 		missile-lifetime="500"
 		missile-speed="5"
-		missile-diedistance="3"
+		missile-diedistance="5"
 		type="equip-1hand"
 		attack-action="attack_bow"
 		weight="3000"
 		sellProtected="true">
-		<sprite>equipment/weapons/gun.xml</sprite>
+		<sprite>equipment/weapons/flintlock.xml</sprite>
 		<sound event="hit">weapons/gun/gun-hit1.ogg</sound>
 		<sound event="miss">weapons/gun/gun-miss1.ogg</sound>
 		<sound event="miss">weapons/gun/gun-miss2.ogg</sound>

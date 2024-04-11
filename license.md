@@ -371,7 +371,7 @@ File | Artists | Licenses
 `graphics/items/equipment/weapon/slingshot-icon.png` | wushin | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/weapon/sword-dead.png` | Wombat, wushin | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/weapon/wand.png` | wushin | GPLv2, CC BY-SA 3.0
-`graphics/items/equipment/weapons/revolver.png` | Skipy, Micksha | GPLv2
+`graphics/items/equipment/weapons/flintlock.png` | Skipy, Micksha | GPLv2
 
 #### Generic
 File | Artists | Licenses
@@ -726,7 +726,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/weapons/sword-short.png` | ChefChelios, Wushin | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/weapons/wand-deathshand.png` | :grey_question:, Wombat, Wushin | GPLv2
 `graphics/sprites/equipment/weapons/wand.png` | :grey_question:, Wushin | GPLv2
-`graphics/sprites/equipment/weapons/gun.png` | Skipy, Jesusalva | GPLv2
+`graphics/sprites/equipment/weapons/flintlock.png` | Skipy, Jesusalva | GPLv2
 
 #### Chest
 File | Artists | Licenses
