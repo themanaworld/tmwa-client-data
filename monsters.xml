@@ -1771,6 +1771,23 @@
         <attack id="1" hit-effect-id="72" critical-hit-effect-id="73" action="attack"/>
     </monster>
     
+    <monster id="1196" name="Rick Lime">
+        <sprite>model/male.xml|#166876,32992e,23a988,70cd87,a7f1b2;#0e0036,4c264b,a04f62,d2a391,e6d7b8;#3a3a3a,d5d5d5</sprite>
+        <sprite>hairstyles/hairstyle18.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#5f0b33,91191c,f9ad81</sprite>
+        <sprite>equipment/chest/vnecksweater.xml|W:#255511,579932,4aaf36,4ed65e</sprite>
+        <sprite>equipment/legs/pants.xml|W:#255511,579932,4aaf36,4ed65e</sprite>
+        <sprite>equipment/head/leprechaunhead.xml</sprite>
+        <sprite>equipment/feet/boots.xml|#212121</sprite>
+        <sprite>equipment/hands/generic.xml|#202020,505050</sprite>
+        <!-- sprite>equipment/weapons/rainerang.xml</sprite>
+        <sound event="die"></sound>
+        <sound event="hit">weapons/</sound>
+        <sound event="hit">weapons/</sound -->
+        <sound event="miss">weapons/miss1.ogg</sound>
+        <sound event="miss">weapons/miss2.ogg</sound>
+        <sound event="miss">weapons/miss3.ogg</sound>
+    </monster>
+        <attack id="1" hit-effect-id="72" critical-hit-effect-id="73" missile-particle="graphics/particles/rainerang.xml" action="attack"/>
 
     <!-- Mods should use the following code -->
     <include name="mods/monsters.xml" />
