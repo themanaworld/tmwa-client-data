@@ -1779,13 +1779,10 @@
         <sprite>equipment/head/leprechaunhead.xml</sprite>
         <sprite>equipment/feet/boots.xml|#212121</sprite>
         <sprite>equipment/hands/generic.xml|#202020,505050</sprite>
-        <!-- sprite>equipment/weapons/rainerang.xml</sprite>
-        <sound event="die"></sound>
-        <sound event="hit">weapons/</sound>
-        <sound event="hit">weapons/</sound -->
-        <sound event="miss">weapons/miss1.ogg</sound>
-        <sound event="miss">weapons/miss2.ogg</sound>
-        <sound event="miss">weapons/miss3.ogg</sound>
+        <!-- sprite>equipment/weapons/rainerang.xml</sprite -->
+        <sound event="die">env/spawn_burst.ogg</sound>
+        <sound event="hit">weapons/bows/forest/forest-hit1.ogg</sound>
+        <sound event="miss">weapons/bows/forest/forest-miss1.ogg</sound>
     </monster>
         <attack id="1" hit-effect-id="72" critical-hit-effect-id="73" missile-particle="graphics/particles/rainerang.xml" action="attack"/>
 
