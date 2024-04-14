@@ -1762,7 +1762,7 @@
     <monster id="1194" name="King Chonky Birb" targetCursor="large">
         <sprite>monsters/piou-king.xml</sprite>
     </monster>
-    
+
     <monster id="1195" name="Brainblow" targetCursor="small">
         <sprite>monsters/brainblow.xml</sprite>
         <sound event="die">monsters/brainblow/brainblow-die1.ogg</sound>
@@ -1770,7 +1770,7 @@
         <sound event="die">monsters/brainblow/brainblow-die3.ogg</sound>
         <attack id="1" hit-effect-id="72" critical-hit-effect-id="73" action="attack"/>
     </monster>
-    
+
     <monster id="1196" name="Rick Lime">
         <sprite>model/male.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#3a3a3a,d5d5d5</sprite>
         <sprite>hairstyles/hairstyle18.xml|#53202b,7f4f45,9e6a43,d09459,fcd3a1,fefffc;#2f312f,727471,a4a6a3,dad5f5;#5f0b33,91191c,f9ad81</sprite>
@@ -1816,13 +1816,13 @@
         <sprite>equipment/weapons/sword-jackal.xml</sprite>
         <sound event="die">env/spawn_burst.ogg</sound>
         <sound event="hit">weapons/other/halberd/halberd-hit1.ogg</sound>
-	<sound event="hit">weapons/other/halberd/halberd-hit2.ogg</sound>
-	<sound event="hit">weapons/other/halberd/halberd-hit3.ogg</sound>
-	<sound event="miss">weapons/swords/sword-miss1.ogg</sound>
-	<attack id="1" action="attack"/>
+        <sound event="hit">weapons/other/halberd/halberd-hit2.ogg</sound>
+        <sound event="hit">weapons/other/halberd/halberd-hit3.ogg</sound>
+        <sound event="miss">weapons/swords/sword-miss1.ogg</sound>
+        <attack id="1" action="attack"/>
     </monster>
 
-    <monster id="1195" name="Silver Slime" targetCursor="medium">
+    <monster id="1199" name="Silver Slime" targetCursor="medium">
         <sprite>monsters/slime.xml|#474f53,586367,8f9ea5,ffffff</sprite>
         <sprite>monsters/accessories/slime-seajelly.xml|#474f53,586367,8f9ea5,ffffff</sprite>
         <sound event="die">monsters/slime/slime-die1.ogg</sound>
@@ -1834,7 +1834,7 @@
         <sound event="move">monsters/slime/slime-move2.ogg</sound>
     </monster>
 
-    <monster id="1196" name="Bromenal Slime" targetCursor="medium">
+    <monster id="1200" name="Bromenal Slime" targetCursor="medium">
         <sprite>monsters/slime.xml|#3f2e26,644435,7c513c,ffffff</sprite>
         <sprite>monsters/accessories/slime-seajelly.xml|#3f2e26,644435,7c513c,ffffff</sprite>
         <sound event="die">monsters/slime/slime-die1.ogg</sound>
@@ -1846,7 +1846,7 @@
         <sound event="move">monsters/slime/slime-move2.ogg</sound>
     </monster>
 
-    <monster id="1197" name="Gold Slime" targetCursor="medium">
+    <monster id="1201" name="Gold Slime" targetCursor="medium">
         <sprite>monsters/slime.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
         <sprite>monsters/accessories/slime-seajelly.xml|#573f10,9c8226,d3c04b,ffffff</sprite>
         <sound event="die">monsters/slime/slime-die1.ogg</sound>
@@ -1858,7 +1858,7 @@
         <sound event="move">monsters/slime/slime-move2.ogg</sound>
     </monster>
 
-    <monster id="1198" name="Iron Slime" targetCursor="medium">
+    <monster id="1202" name="Iron Slime" targetCursor="medium">
         <sprite>monsters/slime.xml</sprite>
         <sound event="die">monsters/slime/slime-die1.ogg</sound>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
@@ -1869,7 +1869,7 @@
         <sound event="move">monsters/slime/slime-move2.ogg</sound>
     </monster>
 
-    <monster id="1199" name="Coal Slime" targetCursor="medium">
+    <monster id="1203" name="Coal Slime" targetCursor="medium">
         <sprite>monsters/slime.xml|#222222,bbbbbb</sprite>
         <sound event="die">monsters/slime/slime-die1.ogg</sound>
         <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
@@ -1880,87 +1880,87 @@
         <sound event="move">monsters/slime/slime-move2.ogg</sound>
     </monster>
 
-    <monster id="1200" name="Big Bif" targetCursor="medium">
+    <monster id="1204" name="Big Bif" targetCursor="medium">
         <sprite>monsters/bigbif.xml</sprite>
     </monster>
 
-    <monster id="1201" name="Small Bif" targetCursor="medium">
+    <monster id="1205" name="Small Bif" targetCursor="medium">
         <sprite>monsters/smallbif.xml</sprite>
     </monster>
 
-    <monster id="1202" name="Amethyst Bif" targetCursor="medium">
+    <monster id="1206" name="Amethyst Bif" targetCursor="medium">
         <sprite>monsters/bif.xml|#530a7c,b362e1,ca87ef</sprite>
     </monster>
 
-    <monster id="1203" name="Diamond Bif" targetCursor="medium">
+    <monster id="1207" name="Diamond Bif" targetCursor="medium">
         <sprite>monsters/bif.xml</sprite>
     </monster>
 
-    <monster id="1204" name="Emerald Bif" targetCursor="medium">
+    <monster id="1208" name="Emerald Bif" targetCursor="medium">
         <sprite>monsters/bif.xml|#1f9c1f,89d689</sprite>
     </monster>
 
-    <monster id="1205" name="Ruby Bif" targetCursor="medium">
+    <monster id="1209" name="Ruby Bif" targetCursor="medium">
         <sprite>monsters/bif.xml|#581a1a,a41111,c03a3a,ff6060</sprite>
     </monster>
 
-    <monster id="1206" name="Sapphire Bif" targetCursor="medium">
+    <monster id="1210" name="Sapphire Bif" targetCursor="medium">
         <sprite>monsters/bif.xml|#4b4bbd,888af4</sprite>
     </monster>
 
-    <monster id="1207" name="Topaz Bif" targetCursor="medium">
+    <monster id="1211" name="Topaz Bif" targetCursor="medium">
         <sprite>monsters/bif.xml|#ccb534,f1ea8e,ffffaa</sprite>
     </monster>
 
-    <monster id="1208" name="Big Amethyst Bif" targetCursor="medium">
+    <monster id="1212" name="Big Amethyst Bif" targetCursor="medium">
         <sprite>monsters/bigbif.xml|#530a7c,b362e1,ca87ef</sprite>
     </monster>
 
-    <monster id="1209" name="Big Diamond Bif" targetCursor="medium">
+    <monster id="1213" name="Big Diamond Bif" targetCursor="medium">
         <sprite>monsters/bigbif.xml</sprite>
     </monster>
 
-    <monster id="1210" name="Big Emerald Bif" targetCursor="medium">
+    <monster id="1214" name="Big Emerald Bif" targetCursor="medium">
         <sprite>monsters/bigbif.xml|#1f9c1f,89d689</sprite>
     </monster>
 
-    <monster id="1211" name="Big Ruby Bif" targetCursor="medium">
+    <monster id="1215" name="Big Ruby Bif" targetCursor="medium">
         <sprite>monsters/bigbif.xml|#581a1a,a41111,c03a3a,ff6060</sprite>
     </monster>
 
-    <monster id="1212" name="Big Sapphire Bif" targetCursor="medium">
+    <monster id="1216" name="Big Sapphire Bif" targetCursor="medium">
         <sprite>monsters/bigbif.xml|#4b4bbd,888af4</sprite>
     </monster>
 
-    <monster id="1213" name="Big Topaz Bif" targetCursor="medium">
+    <monster id="1217" name="Big Topaz Bif" targetCursor="medium">
         <sprite>monsters/bigbif.xml|#ccb534,f1ea8e,ffffaa</sprite>
     </monster>
 
-    <monster id="1214" name="Small Amethyst Bif" targetCursor="medium">
+    <monster id="1218" name="Small Amethyst Bif" targetCursor="medium">
         <sprite>monsters/smallbif.xml|#530a7c,b362e1,ca87ef</sprite>
     </monster>
 
-    <monster id="1215" name="Small Diamond Bif" targetCursor="medium">
+    <monster id="1219" name="Small Diamond Bif" targetCursor="medium">
         <sprite>monsters/smallbif.xml</sprite>
     </monster>
 
-    <monster id="1216" name="Small Emerald Bif" targetCursor="medium">
+    <monster id="1220" name="Small Emerald Bif" targetCursor="medium">
         <sprite>monsters/smallbif.xml|#1f9c1f,89d689</sprite>
     </monster>
 
-    <monster id="1217" name="Small Ruby Bif" targetCursor="medium">
+    <monster id="1221" name="Small Ruby Bif" targetCursor="medium">
         <sprite>monsters/smallbif.xml|#581a1a,a41111,c03a3a,ff6060</sprite>
     </monster>
 
-    <monster id="1218" name="Small Sapphire Bif" targetCursor="medium">
+    <monster id="1222" name="Small Sapphire Bif" targetCursor="medium">
         <sprite>monsters/smallbif.xml|#4b4bbd,888af4</sprite>
     </monster>
 
-    <monster id="1219" name="Small Topaz Bif" targetCursor="medium">
+    <monster id="1223" name="Small Topaz Bif" targetCursor="medium">
         <sprite>monsters/smallbif.xml|#ccb534,f1ea8e,ffffaa</sprite>
     </monster>
 
-    <monster id="1220" name="Coal Golem">
+    <monster id="1224" name="Coal Golem">
         <sprite>monsters/golem.xml</sprite>
         <attack id="1" critical-hit-effect-id="16" missile-particle="graphics/particles/fire-burst.xml" action="attack"/>
         <sound event="die">monsters/golem/die.ogg</sound>
