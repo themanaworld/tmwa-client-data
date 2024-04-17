@@ -1,9 +1,23 @@
 <?xml version="1.0"?>
 <items>
-  <item id="907" image="equipment/weapon/floydbook.png" name="Book of Floyd" description="Beep boop. Boop beep?" effect="Weapon Level 1" level="135" attack="1" attack-range="3" type="equip-2hand" weight="100" missile-particle="graphics/particles/monster-goblin-firebreath.particle.xml" sellProtected="true">
+  <item id="907"
+    image="equipment/weapon/floydbook.png"
+    name="Book of Floyd"
+    description="Beep boop. Boop beep?"
+    effect="Weapon Level 1"
+    level="135"
+    attack="1"
+    attack-range="3"
+    type="equip-2hand"
+    weight="100"
+    missile-particle="graphics/particles/beam.xml"
+    critical-hit-effect-id="405"
+    sellProtected="true">
     <replace/>
     <replace sprite="race">
       <item to="-99168"/>
     </replace>
+    <sound event="hit">weapons/beam/beam-hit.ogg</sound>
+    <sound event="strike">weapons/beam/beam-miss.ogg</sound>
   </item>
 </items>

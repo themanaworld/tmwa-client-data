@@ -1,9 +1,23 @@
 <?xml version="1.0"?>
 <items>
-  <item id="906" image="equipment/weapon/kidbook.png" name="Kid Book" description="A big spell book used to transform humans into Trolls." effect="Weapon Level 1" attack="1" attack-range="3" type="equip-2hand" weight="100" missile-particle="graphics/particles/monster-troll-foefire.particle.xml" sellProtected="true">
+  <item id="906"
+    image="equipment/weapon/kidbook.png"
+    name="Kid Book"
+    description="A big spell book used to transform humans into Trolls."
+    effect="Weapon Level 1"
+    attack="1"
+    attack-range="3"
+    type="equip-2hand"
+    weight="100"
+    missile-particle="graphics/particles/monster-troll-foefire.particle.xml"
+    critical-hit-effect-id="16"
+    sellProtected="true">
     <replace/>
     <replace sprite="race">
       <item to="-99054"/>
     </replace>
+    <!-- sound event="hit">env/flame.ogg</sound -->
+    <sound event="hit">monsters/fire-goblin/fire-goblin-hit1.ogg</sound>
+    <sound event="strike">monsters/fire-goblin/fire-goblin-hit1.ogg</sound>
   </item>
 </items>
