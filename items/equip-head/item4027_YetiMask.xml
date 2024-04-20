@@ -3,5 +3,8 @@
   <item id="4027" image="equipment/head/yeti-mask.png" name="Yeti Mask" description="A mask made from the yeti's head." mattack="-10" type="equip-head" defense="4" weight="10">
     <sprite gender="unisex">equipment/head/yeti-mask.xml</sprite>
     <sprite gender="female">equipment/head/yeti-mask-female.xml</sprite>
+    <replace sprite="hair">
+      <item to="-1"/>
+    </replace>
   </item>
 </items>
