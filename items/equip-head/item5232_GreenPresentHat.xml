@@ -3,5 +3,8 @@
   <item id="5232" image="equipment/head/presenthat.png|W:#4bff4b,ccffcc;R:#EF4A76,FF9FB9" name="Green Present Hat" description="The Mana World 15th Anniversary gift." type="equip-head" weight="60" defense="1">
     <sprite gender="unisex">equipment/head/presenthat.xml|#4bff4b,ccffcc;#EF4A76,FF9FB9</sprite>
     <sprite gender="female">equipment/head/presenthat-female.xml|#4bff4b,ccffcc;#EF4A76,FF9FB9</sprite>
+    <replace sprite="hair">
+      <item to="-1"/>
+    </replace>
   </item>
 </items>
