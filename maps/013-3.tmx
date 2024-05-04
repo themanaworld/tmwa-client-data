@@ -1036,7 +1036,7 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup id="6" name="Objects">
+ <objectgroup id="6" name="Objects" visible="0">
   <properties>
    <property name="FireSkull" value=""/>
    <property name="PoisonSkull" value=""/>
@@ -1454,68 +1454,60 @@
     <property name="spawn" value="120000"/>
    </properties>
   </object>
-  <object id="75" name="Bif" type="spawn" x="0" y="0">
-   <properties>
-    <property name="death" value="15000"/>
-    <property name="max_beings" value="20"/>
-    <property name="monster_id" value="1172"/>
-    <property name="spawn" value="30000"/>
-   </properties>
-  </object>
   <object id="76" name="ShadowPlant" type="spawn" x="2560" y="3072" width="128" height="192">
    <properties>
-    <property name="death" value="30000"/>
+    <property name="death" value="120000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="1189"/>
-    <property name="spawn" value="60000"/>
+    <property name="spawn" value="240000"/>
    </properties>
   </object>
   <object id="77" name="ShadowPlant" type="spawn" x="1888" y="5536" width="224" height="160">
    <properties>
-    <property name="death" value="30000"/>
+    <property name="death" value="120000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="1189"/>
-    <property name="spawn" value="60000"/>
+    <property name="spawn" value="240000"/>
    </properties>
   </object>
   <object id="78" name="ShadowPlant" type="spawn" x="640" y="3520" width="224" height="128">
    <properties>
-    <property name="death" value="30000"/>
+    <property name="death" value="120000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="1189"/>
-    <property name="spawn" value="60000"/>
+    <property name="spawn" value="240000"/>
    </properties>
   </object>
   <object id="79" name="ShadowPlant" type="spawn" x="960" y="2080" width="224" height="128">
    <properties>
-    <property name="death" value="30000"/>
+    <property name="death" value="120000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="1189"/>
-    <property name="spawn" value="60000"/>
+    <property name="spawn" value="240000"/>
    </properties>
   </object>
   <object id="80" name="ShadowPlant" type="spawn" x="5600" y="2720" width="160" height="160">
    <properties>
-    <property name="death" value="30000"/>
+    <property name="death" value="120000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="1189"/>
-    <property name="spawn" value="60000"/>
+    <property name="spawn" value="240000"/>
    </properties>
   </object>
   <object id="81" name="ShadowPlant" type="spawn" x="800" y="704" width="224" height="128">
    <properties>
-    <property name="death" value="30000"/>
+    <property name="death" value="120000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="1189"/>
-    <property name="spawn" value="60000"/>
+    <property name="spawn" value="240000"/>
    </properties>
   </object>
   <object id="82" name="ShadowPlant" type="spawn" x="4352" y="1280" width="224" height="128">
    <properties>
-    <property name="death" value="30000"/>
+    <property name="death" value="120000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="1189"/>
-    <property name="spawn" value="60000"/>
+    <property name="spawn" value="240000"/>
    </properties>
   </object>
   <object id="52" name="graphics/particles/flame.particle.xml" type="particle_effect" x="2624" y="4352" width="32" height="32"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="200" height="120" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="53">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="200" height="120" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="54">
  <properties>
   <property name="minimap" value="graphics/minimaps/018-1.png"/>
   <property name="music" value="the-forest.ogg"/>
@@ -1126,10 +1126,18 @@
     <property name="dest_y" value="147"/>
    </properties>
   </object>
-  <object id="51" name="Tortuga" type="spawn" x="3616" y="1312" width="224" height="384">
+  <object id="51" name="Tortuga" type="spawn" x="3616" y="1312" width="224" height="256">
    <properties>
     <property name="death" value="30000"/>
-    <property name="max_beings" value="5"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1191"/>
+    <property name="spawn" value="10000"/>
+   </properties>
+  </object>
+  <object id="53" name="Tortuga" type="spawn" x="3680" y="1568" width="160" height="128">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="1"/>
     <property name="monster_id" value="1191"/>
     <property name="spawn" value="10000"/>
    </properties>
