@@ -414,7 +414,7 @@ File | Artists | Licenses
 `graphics/items/generic/dark-easter-egg.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/dark-petal.png` | Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/doll.png` | Lizandra, Enchilado | GPLv2, CC BY-SA 3.0
-`graphics/items/generic/dragonhorn.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/items/generic/dragon-horn.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/dragonscales.png` | Lugia/Lunovox?, TMW-Br | GPLv2
 `graphics/items/generic/dry-branch.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/duckfeather.png` | Saulc | CC BY-SA 4.0
