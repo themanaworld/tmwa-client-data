@@ -381,8 +381,10 @@ File | Artists | Licenses
 `graphics/items/generic/bandit-hood.png` | Wombat, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/batteeth.png` | Crush, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/batwing.png` | Crush, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/beeswax.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/bent-needle.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/blackpearl.png` | :grey_question:, Fate, Enchilado | GPLv2
+`graphics/items/generic/blackscorpionclaw.png` | Saulc | CC BY-SA 3.0
 `graphics/items/generic/blanket.png` | Nami, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/bone.png` | Yosuhara, Enchilado | GPLv2
 `graphics/items/generic/bottle-empty.png` | FotherJ, Enchilado | GPLv2, CC BY-SA 3.0
@@ -392,6 +394,7 @@ File | Artists | Licenses
 `graphics/items/generic/brokendoll.png` | Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/bromenal-droplet.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/bugleg.png` | :grey_question:, Enchilado | GPLv2
+`graphics/items/generic/butterfly.png` | Meway, Saulc | GPL 3.0/CC BY-SA 3.0
 `graphics/items/generic/casinocoins.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/cavesnakelamp.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/charcoal.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
@@ -404,21 +407,27 @@ File | Artists | Licenses
 `graphics/items/generic/clover-drawing.png` | Adamaix, Enchilado, HoraK | GPLv2
 `graphics/items/generic/coal.png` | Enchilado, Meway, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/coinbag.png` | :grey_question:, Enchilado | GPLv2
+`graphics/items/generic/crocclaw.png` | Reid, Enchilado | CC BY-SA 3.0
 `graphics/items/generic/crystal.png` | Crush, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/crystal-crozenite.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/crystalized-dragon-blood.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/dark-easter-egg.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/dark-petal.png` | Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/doll.png` | Lizandra, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/dragonhorn.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/items/generic/dragonscales.png` | Lugia/Lunovox?, TMW-Br | GPLv2
 `graphics/items/generic/dry-branch.png` | :grey_question:, Enchilado | GPLv2
+`graphics/items/generic/duckfeather.png` | Saulc | CC BY-SA 4.0
 `graphics/items/generic/ear-zombie.png` | Goku, Enchilado | GPLv2
 `graphics/items/generic/easterbasket.png` | Salmondine, Enchilado | GPLv2
 `graphics/items/generic/easteregg.png` | Crush, Enchilado, wushin | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/eyeball.png` | Yosuhara, Enchilado | GPLv2
 `graphics/items/generic/fabric.png` | Crush, Enchilado, wushin | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/fakefangs.png` | :grey_question:, Enchilado | GPLv2
+`graphics/items/generic/feather-a.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/flawed-lens.png` | Skipy, Enchilado | GPLv2
 `graphics/items/generic/flighttalisman.png` | Nami, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/flour.png` | Micksha | MIT
 `graphics/items/generic/frozen-yeti-tear.png` | ChefChelios, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/gempowder.png` | Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/gemstone-a.png` | Crush, Enchilado | GPLv2, CC BY-SA 3.0
@@ -435,6 +444,7 @@ File | Artists | Licenses
 `graphics/items/generic/herb-gamboge.png` | Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/herb-alizarin.png` | Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/hint.png` | Modanung, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/honeycomb.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/ice-cube.png` | Alige, Arikel, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/ingot.png` | Wombat, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/ironore.png` | Crush, Enchilado | GPLv2, CC BY-SA 3.0
@@ -447,6 +457,7 @@ File | Artists | Licenses
 `graphics/items/generic/lazurite-shard.png` | V0id, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/leatherball.png` | Lizandra, Salmondine, Enchilado | GPLv2
 `graphics/items/generic/leathersuitcase.png` | Nami, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/mushroomspores.png` | Reid | CC BY-SA 3.0
 `graphics/items/generic/mylarin-dust.png` | :grey_question:, FotherJ, Salmondine | GPLv2
 `graphics/items/generic/patch-leather.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/pearl.png` | Fate, Enchilado | GPLv2, CC BY-SA 3.0
@@ -458,9 +469,12 @@ File | Artists | Licenses
 `graphics/items/generic/pumpkinseed.png` | Enchilado | GPLv2
 `graphics/items/generic/presentbox.png` | Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/rags-rotten.png` | FotherJ, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/rattotail.png` | Reid, Alige | CC BY-SA 3.0
+`graphics/items/generic/rattoteeth.png` | Reid, Alige | CC BY-SA 3.0
 `graphics/items/generic/rawlog.png` | Lien, Enchilado | GPLv2
 `graphics/items/generic/rawtalisman.png` | Nami, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/realisticbrain.png` | Skipy, Enchilado | GPLv2
+`graphics/items/generic/redscorpionclaw.png` | Saulc | CC BY-SA 3.0
 `graphics/items/generic/redstocking.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/reedbundle.png` | Salmondine, Enchilado | GPLv2
 `graphics/items/generic/reinboo-stick.png` | :grey_question:, Enchilado | GPLv2
@@ -471,9 +485,11 @@ File | Artists | Licenses
 `graphics/items/generic/santacookie.png` | Crush, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/santaglobe.png` | Enchilado | GPLv2
 `graphics/items/generic/scissors.png` | :grey_question:, Enchilado | GPLv2
+`graphics/items/generic/scorpionclaw.png` | Saulc | CC BY-SA 3.0
 `graphics/items/generic/scorpionstinger.png` | :grey_question:, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/scroll.png` | Adamaix, Enchilado | GPLv2
 `graphics/items/generic/sealed-soul.png` | V0id, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/shipkey.png` | Hal9000, Reid | CC BY-SA 3.0
 `graphics/items/generic/silkcocoon.png` | Fate, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/silk-sheet.png` | bh28, Bjorn, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/silverbell.png` | FotherJ, Enchilado | GPLv2, CC BY-SA 3.0
@@ -482,17 +498,21 @@ File | Artists | Licenses
 `graphics/items/generic/smallmushroom.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/snake-tongue.png` | Fate, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/snakeskin.png` | :grey_question:, Enchilado | GPLv2
+`graphics/items/generic/snowflake.png` | mkwong98, Open Game Art, jesusalva | CC0
 `graphics/items/generic/snowmanglobe.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/spectral-orb.png` | Kr0n05931, Enchilado | GPLv2
 `graphics/items/generic/spell-book-page.png` | Salmondine, Enchilado | GPLv2
 `graphics/items/generic/spell-book.png` | Salmondine, Enchilado | GPLv2
 `graphics/items/generic/spice.png` | FotherJ, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/squichyclaws.png` | Reid | CC BY-SA 3.0
 `graphics/items/generic/squirrel-pelt.png` | Wombat, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/stinger.png` | Wombat, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/strange-coin.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/terraniteore.png` | Kr0n05931, Enchilado | GPLv2
 `graphics/items/generic/tongue.png` | Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/toothbrush.png` | Chay | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/tortugashellfragment.png` | Reid | CC BY-SA 3.0
+`graphics/items/generic/tortugashell.png` | Reid | CC BY-SA 3.0
 `graphics/items/generic/transmutedflower` | Korcha, V0id, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/treasurekey.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/tuber.png` | Salmondine, Enchilado | GPLv2
@@ -521,37 +541,57 @@ File | Artists | Licenses
 `graphics/items/use/food/acornroasted.png` | Nami, V0id, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/use/food/apple.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/use/food/beer.png` | :grey_question:, Enchilado | GPLv2
+`graphics/items/use/food/bird-big-egg-a.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/items/use/food/bird-egg-a.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/use/food/bigcake.png` | Freeyorp101, Kr0n05931, Enchilado | GPLv2
 `graphics/items/use/food/blueberries.png` | Meway, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/use/food/bread.png` | Coolkid782 | CC BY-SA 3.0
 `graphics/items/use/food/cake.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/use/food/candy.png` | Kekskiller, Enchilado | GPLv2
 `graphics/items/use/food/candycane.png` | Kekskiller, Enchilado | GPLv2
 `graphics/items/use/food/candypumpkin.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/use/food/caramelapple.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/use/food/caramelcandy.png` | TMW-BR Team | GPLv2
+`graphics/items/use/food/carrot.png` | Enchilado, Reid | CC BY-SA 3.0
+`graphics/items/use/food/cheese.png` | Reid | CC BY-SA 3.0
 `graphics/items/use/food/cherry.png` | Alige, Len, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/use/food/cherrycake.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/use/food/chickenleg.png` | Modanung, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/use/food/chocolatebar.png` | Kinwa, Enchilado | GPLv2
+`graphics/items/use/food/chocolatebiscuit.png` | jesusalva, TMW-Br | GPLv2
+`graphics/items/use/food/chocolatebunny.png` | TMW.Org Forum | GPLv2
 `graphics/items/use/food/decorcandy.png` | :grey_question:, Enchilado | GPLv2
+`graphics/items/use/food/deliciouscookie.png` | Enchilado, Alige | CC BY-SA 3.0
+`graphics/items/use/food/dragonfruit.png` | seeds | GPL3/CC BY-SA 4.0
+`graphics/items/use/food/duckegg.png` | +seeds | CC BY-SA 4.0
 `graphics/items/use/food/easteregg.png` | :grey_question:, Enchilado | GPLv2
+`graphics/items/use/food/fruit-salad.png` | Meway, jesusalva | MIT
+`graphics/items/use/food/fungus.png` | Enchilado | CC BY-SA 3.0
 `graphics/items/use/food/gingerbreadman.png` | Kekskiller, Enchilado | GPLv2
 `graphics/items/use/food/golden-apple.png` | :grey_question:, Enchilado | GPLv2
+`graphics/items/use/food/halfcroconut.png` | Hal9000 | CC BY-SA 3.0
 `graphics/items/use/food/honey.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/use/food/jello.png` | Nmaligec, Salmondine, Enchilado | GPLv2
 `graphics/items/use/food/jellyskull.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/use/food/juice.png` | Nmaligec, Skipy, Enchilado | GPLv2
 `graphics/items/use/food/lady-fingers.png` | ChefChelios, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/use/food/lettuceleaf.png` | Reid | CC BY-SA 3.0
 `graphics/items/use/food/lollipop.png` | :grey_question:, Wombat, Enchilado | GPLv2
 `graphics/items/use/food/lollipop2.png` | Lizandra, Enchilado, wushin | GPLv2, CC BY-SA 3.0
+`graphics/items/use/food/manana.png` | Reid, IvanMorve | CC BY-SA 3.0
 `graphics/items/use/food/marshmallow.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/use/food/milk.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/use/food/orange.png` | EJlol, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/use/food/orangecupcake.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/use/food/pear.png` | :grey_question:, Enchilado | GPLv2
+`graphics/items/use/food/piberries.png` | Reid | CC BY-SA 3.0
 `graphics/items/use/food/pickled_beets.png` | Nami, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/use/food/plum.png` | Alige, Meway, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/use/food/potatoz.png` | Saulc, Joshua Taylor | CC BY-SA 3.0
+`graphics/items/use/food/pumpkin.png` | Enchilado | CC BY-SA 3.0
+`graphics/items/use/food/pumpkinjuice.png` | Enchilado, Reid | CC BY-SA 3.0
 `graphics/items/use/food/roastedmaggot.png` | :grey_question:, Enchilado | GPLv2
+`graphics/items/use/food/sauerkraut.png` | Nmaligec, Salmondine, Enchilado, HoraK-FDF | GPLv2
 `graphics/items/use/food/sex-candy.png` | TMW-BR Team | GPLv2
 `graphics/items/use/food/shock-candy.png` | Kekskiller, Enchilado | GPLv2
 `graphics/items/use/food/skull-mug.png` | :grey_question:, Enchilado | GPLv2
@@ -569,7 +609,11 @@ File | Artists | Licenses
 #### Misc Usable Items
 File | Artists | Licenses
 ---- |:-------:|:--------:
+`graphics/items/use/others/croconut.png` | Hal9000 | CC BY-SA 3.0
+`graphics/items/use/others/rubberducky.png` | Salmondine, dangerDuck | GPLv2
 `graphics/items/use/others/shovel.png` | Alige, Reid | CC BY-SA 3.0
+`graphics/items/use/others/treasuremap.png` | Diego, TMW-Br | GPLv2
+`graphics/items/use/others/treasuremap2.png` | Salmondine | GPLv2
 `graphics/items/use/others/warp-towel.png` | Bjorn, ChefChelios | GPLv2, CC BY-SA 3.0
 
 #### Potions
