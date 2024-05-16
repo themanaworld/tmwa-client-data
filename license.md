@@ -511,8 +511,8 @@ File | Artists | Licenses
 `graphics/items/generic/terraniteore.png` | Kr0n05931, Enchilado | GPLv2
 `graphics/items/generic/tongue.png` | Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/toothbrush.png` | Chay | GPLv2, CC BY-SA 3.0
-`graphics/items/generic/tortugashellfragment.png` | Reid | CC BY-SA 3.0
 `graphics/items/generic/tortugashell.png` | Reid | CC BY-SA 3.0
+`graphics/items/generic/tortugashellfragment.png` | Reid | CC BY-SA 3.0
 `graphics/items/generic/transmutedflower` | Korcha, V0id, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/treasurekey.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/tuber.png` | Salmondine, Enchilado | GPLv2
