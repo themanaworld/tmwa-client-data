@@ -5,7 +5,8 @@ source ./.tools/init.sh
 clientdata_init
 
 aptget_update
-aptget_install git-core gcc ca-certificates libxml2-utils make xsltproc
+aptget_install git-core make xsltproc
+
 rm -rf tools
 gitclone https://git.themanaworld.org/evolved tools.git tools
 
