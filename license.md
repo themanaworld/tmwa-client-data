@@ -318,6 +318,7 @@ File | Artists | Licenses
 `graphics/items/equipment/shield/scarabarmlet.png` | Adarias | GPLv2
 `graphics/items/equipment/shield/steel.png` | Irukard | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/shield/wooden.png` | Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/shield/bromenal.png` | Skipy | GPLv2
 `graphics/items/equipment/shield/dragonshield.png` | tametomo | GPLv2
 
 #### Weapons
