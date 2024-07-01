@@ -391,6 +391,7 @@ File | Artists | Licenses
 `graphics/items/generic/bottle-empty.png` | FotherJ, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/bottle-ice.png` | FotherJ, Nami, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/bottle-sand.png` | FotherJ, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/brick-a.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/broken-fourleaf-amulet.png` | Alige, Fate, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/brokendoll.png` | Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/bromenal-droplet.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
@@ -410,7 +411,9 @@ File | Artists | Licenses
 `graphics/items/generic/coinbag.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/crocclaw.png` | Reid, Enchilado | CC BY-SA 3.0
 `graphics/items/generic/crystal.png` | Crush, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/crystal-black-quarz.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/crystal-crozenite.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/items/generic/crystal-mountain.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/crystalized-dragon-blood.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/dark-easter-egg.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/dark-petal.png` | Enchilado | GPLv2, CC BY-SA 3.0
@@ -508,6 +511,7 @@ File | Artists | Licenses
 `graphics/items/generic/squichyclaws.png` | Reid | CC BY-SA 3.0
 `graphics/items/generic/squirrel-pelt.png` | Wombat, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/stinger.png` | Wombat, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/stone-a.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/strange-coin.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/terraniteore.png` | Kr0n05931, Enchilado | GPLv2
 `graphics/items/generic/tongue.png` | Enchilado | GPLv2, CC BY-SA 3.0
@@ -610,6 +614,8 @@ File | Artists | Licenses
 #### Misc Usable Items
 File | Artists | Licenses
 ---- |:-------:|:--------:
+`graphics/items/use/others/anchor-stone.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/items/use/others/anchor-stone-anchored.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/use/others/croconut.png` | Hal9000 | CC BY-SA 3.0
 `graphics/items/use/others/rubberducky.png` | Salmondine, dangerDuck | GPLv2
 `graphics/items/use/others/shovel.png` | Alige, Reid | CC BY-SA 3.0
@@ -1013,9 +1019,10 @@ File | Artists | Licenses
 `graphics/sprites/monsters/goblin-fire.png` | :grey_question:, Neoriceisgood | GPLv2
 `graphics/sprites/monsters/goblin-ice.png` | :grey_question:, Neoriceisgood | GPLv2
 `graphics/sprites/monsters/golem.png` | Hocus | MIT, GPLv2, CC BY-SA 3.0
-`graphics/sprites/monsters/golem-red.png` | Hocus | MIT, GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/golem-blackcrystal.png` | Hocus | MIT, GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/golem-crystal.png` | Hocus, HoraK-FDF | MIT, GPLv2, CC BY-SA 3.0
+`graphics/sprites/monsters/golem-dyable.png` | Hocus, HoraK-FDF | MIT, GPLv2, CC BY-SA 3.0
+`graphics/sprites/monsters/golem-red.png` | Hocus | MIT, GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/junglefowl.png` | Pateame, Virtual Reality | GPLv2
 `graphics/sprites/monsters/larvespa.png` | Arikel | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/lizard.png` | Len, Pateame | GPLv2

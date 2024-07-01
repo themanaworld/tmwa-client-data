@@ -1961,7 +1961,26 @@
     </monster>
 
     <monster id="1224" name="Coal Golem">
-        <sprite>monsters/golem.xml</sprite>
+        <sprite>monsters/golem-dyable.xml|#222222,bbbbbb;#ffffff</sprite>
+        <attack id="1" critical-hit-effect-id="16" missile-particle="graphics/particles/fire-burst.xml" action="attack"/>
+        <sound event="die">monsters/golem/die.ogg</sound>
+        <sound event="hit">monsters/golem/hit1.ogg</sound>
+        <sound event="miss">monsters/golem/miss1.ogg</sound>
+    </monster>
+
+    <monster id="1225" name="Stone Slime" targetCursor="medium">
+        <sprite>monsters/slime.xml|#280b03,81330f,b3582b,d78464,f8ba81,ffddbb,ffffff</sprite>
+        <sound event="die">monsters/slime/slime-die1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
+        <sound event="move">monsters/slime/slime-move1.ogg</sound>
+        <sound event="move">monsters/slime/slime-move2.ogg</sound>
+    </monster>
+
+    <monster id="1226" name="Stone Golem">
+        <sprite>monsters/golem-dyable.xml|#280b03,81330f,b3582b,d78464,f8ba81,ffddbb,ffffff;#ff0000,ffffff</sprite>
         <attack id="1" critical-hit-effect-id="16" missile-particle="graphics/particles/fire-burst.xml" action="attack"/>
         <sound event="die">monsters/golem/die.ogg</sound>
         <sound event="hit">monsters/golem/hit1.ogg</sound>
