@@ -411,7 +411,7 @@ File | Artists | Licenses
 `graphics/items/generic/coinbag.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/crocclaw.png` | Reid, Enchilado | CC BY-SA 3.0
 `graphics/items/generic/crystal.png` | Crush, Enchilado | GPLv2, CC BY-SA 3.0
-`graphics/items/generic/crystal-black-quarz.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/items/generic/crystal-black-quartz.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/crystal-crozenite.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/crystal-mountain.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/crystalized-dragon-blood.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
