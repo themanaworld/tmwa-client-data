@@ -140,20 +140,34 @@ File | Artists | Licenses
 `graphics/items/equipment/ammo/snowball.png` | Ledmitz, Reid | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/ammo/stoneprojectile-icon.png` | wushin, tux9th | GPLv2, CC BY-SA 3.0
 
+#### Amulets
+File | Artists | Licenses
+---- |:-------:|:--------:
+`graphics/items/equipment/amulets/angel-wings.png` | :grey_question:, Varuna, Arikel, HoraK-FDF | GPLv2
+`graphics/items/equipment/amulets/enchanter.png` | Fate | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/amulets/fourleaf-amulet.png` | Fate | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/amulets/gmamulet.png` | Ledmitz | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/amulets/manapearl.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/items/equipment/amulets/assassin-amulet.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+
 #### Charms
 File | Artists | Licenses
 ---- |:-------:|:--------:
 `graphics/items/equipment/charms/clover.png` | 5t3v3 | GPLv2
-`graphics/items/equipment/charms/enchanter.png` | Fate | GPLv2, CC BY-SA 3.0
-`graphics/items/equipment/charms/fourleaf-amulet.png` | Fate | GPLv2, CC BY-SA 3.0
-`graphics/items/equipment/charms/gmamulet.png` | Ledmitz | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/charms/heart-of-isis.png` | V0id | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/charms/heartnecklace.png` | Jetryl | GPLv2
 `graphics/items/equipment/charms/skeletoncharm.png` | Cassy, Jetryl | GPLv2
 `graphics/items/equipment/charms/towel.png` | Bjorn | GPLv2, CC BY-SA 3.0
-`graphics/items/equipment/charms/manapearl.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
-`graphics/items/equipment/charms/assassin-amulet.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/equipment/charms/darktalisman.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+
+#### Rings
+File | Artists | Licenses
+---- |:-------:|:--------:
+`graphics/items/equipment/rings/gem.png` | Salmondine | GPLv2
+`graphics/items/equipment/rings/magic.png` | Nami | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/rings/simple.png` | Salmondine | GPLv2
+`graphics/items/equipment/rings/wedding.png` | Kess | GPLv2
+`graphics/items/equipment/rings/assassin-ring.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 
 #### Chest
 File | Artists | Licenses
@@ -298,15 +312,6 @@ File | Artists | Licenses
 `graphics/items/equipment/legs/pants.png` | Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/legs/silkpants.png` | LuH | GPLv2
 `graphics/items/equipment/legs/terranitepants.png` | Kr0n05931 | GPLv2
-
-#### Rings
-File | Artists | Licenses
----- |:-------:|:--------:
-`graphics/items/equipment/rings/gem.png` | Salmondine | GPLv2
-`graphics/items/equipment/rings/magic.png` | Nami | GPLv2, CC BY-SA 3.0
-`graphics/items/equipment/rings/simple.png` | Salmondine | GPLv2
-`graphics/items/equipment/rings/wedding.png` | Kess | GPLv2
-`graphics/items/equipment/rings/assassin-ring.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 
 #### Shields
 File | Artists | Licenses
@@ -722,7 +727,7 @@ File | Artists | Licenses
 ---- |:-------:|:--------:
 `graphics/sprites/emote.png` | Alige, Arikel, DerLoisl, Modanung, Reid | GPLv2, CC BY-SA 3.0
 `graphics/sprites/error.png` | Wushin | GPLv2, CC BY-SA 3.0
-`graphics/sprites/equipment/charm/angel-wings.png` | :grey_question:, Varuna, Arikel | GPLv2
+`graphics/sprites/equipment/amulets/angel-wings.png` | :grey_question:, Varuna, Arikel | GPLv2
 `graphics/sprites/equipment/shields/dragon.png` | ?, TMW-Br Team | GPLv2
 `graphics/sprites/races/savior-male.png` | Modanung, Talaroc, Alige, Reid, Saphy, Jesusalva | CC BY-SA 4.0 (GPLv3)
 
