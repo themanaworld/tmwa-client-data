@@ -722,7 +722,7 @@ File | Artists | Licenses
 ---- |:-------:|:--------:
 `graphics/sprites/emote.png` | Alige, Arikel, DerLoisl, Modanung, Reid | GPLv2, CC BY-SA 3.0
 `graphics/sprites/error.png` | Wushin | GPLv2, CC BY-SA 3.0
-`graphics/sprites/equipment/angel-wings.png` | :grey_question:, Varuna, Arikel | GPLv2
+`graphics/sprites/equipment/charm/angel-wings.png` | :grey_question:, Varuna, Arikel | GPLv2
 `graphics/sprites/equipment/shields/dragon.png` | ?, TMW-Br Team | GPLv2
 `graphics/sprites/races/savior-male.png` | Modanung, Talaroc, Alige, Reid, Saphy, Jesusalva | CC BY-SA 4.0 (GPLv3)
 
