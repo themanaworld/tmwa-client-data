@@ -727,8 +727,6 @@ File | Artists | Licenses
 ---- |:-------:|:--------:
 `graphics/sprites/emote.png` | Alige, Arikel, DerLoisl, Modanung, Reid | GPLv2, CC BY-SA 3.0
 `graphics/sprites/error.png` | Wushin | GPLv2, CC BY-SA 3.0
-`graphics/sprites/equipment/amulets/angel-wings.png` | :grey_question:, Varuna, Arikel | GPLv2
-`graphics/sprites/equipment/shields/dragon.png` | ?, TMW-Br Team | GPLv2
 `graphics/sprites/races/savior-male.png` | Modanung, Talaroc, Alige, Reid, Saphy, Jesusalva | CC BY-SA 4.0 (GPLv3)
 
 #### Status Icons
@@ -763,6 +761,11 @@ File | Artists | Licenses
 `graphics/sprites/model/female.png` | Modanung, Skipy, Talaroc, Wombat, Nami, Wushin, Tezer | GPLv2
 `graphics/sprites/model/male.png` | Modanung, Skipy, Talaroc, Wombat, Nami, Wushin | GPLv2
 `graphics/sprites/model/city-emblems.png` | Alige, Wushin | GPLv2
+
+#### Amulets
+File | Artists | Licenses
+---- |:-------:|:--------:
+`graphics/sprites/equipment/amulets/angel-wings.png` | :grey_question:, Varuna, Arikel | GPLv2
 
 #### Weapons
 File | Artists | Licenses
@@ -946,7 +949,6 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/shades.png` | jak1 | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/assassin-mask.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 
-
 #### Legs
 File | Artists | Licenses
 ---- |:-------:|:--------:
@@ -964,6 +966,14 @@ File | Artists | Licenses
 `graphics/sprites/equipment/legs/shorts-male.png` | Modanung | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/legs/terranite-female.png` | Kr0n05931 | GPLv2
 `graphics/sprites/equipment/legs/terranite-male.png` | Kr0n05931 | GPLv2
+
+#### Shields
+File | Artists | Licenses
+---- |:-------:|:--------:
+`graphics/sprites/equipment/shields/dragon.png` | ?, TMW-Br Team | GPLv2
+`graphics/sprites/equipment/shields/leather.png` | ?, Irukard, TMW-Br Team | GPLv2
+`graphics/sprites/equipment/shields/steel.png` | ?, Irukard, TMW-Br Team | GPLv2
+`graphics/sprites/equipment/shields/wooden.png` | Enchilado | GPL 3.0/CC BY-SA 3.0
 
 #### Override
 File | Artists | Licenses
