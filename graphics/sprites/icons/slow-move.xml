@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset name="base" src="graphics/sprites/icons/slow-move.png" width="26" height="21"/>
+  <action name="default" imageset="base">
+    <animation direction="default">
+      <frame index="0" offsetX="7" offsetY="-8" delay="100"/>
+    </animation>
+  </action>
+</sprite>

@@ -737,6 +737,8 @@ File | Artists | Licenses
 `graphics/sprites/icons/slow-poison.png` | Freeyorp101 | GPLv2, CC BY-SA 3.0
 `graphics/sprites/icons/spell-haste.png` | Graingert | GPLv2
 `graphics/sprites/icons/spell-protection-generic.png` | Freeyorp101 | GPLv2, CC BY-SA 3.0
+`graphics/sprites/icons/cant-move.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/icons/slow-move.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/icons/weight-big.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/icons/weight-small.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/icons/spell-cooldown-mg.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
@@ -748,6 +750,7 @@ File | Artists | Licenses
 `graphics/sprites/icons/spell-cooldown-r.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/icons/spell-cooldown-r-outline.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/icons/spell-cooldown-upmarmu.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/icons/spell-cooldown-sg.png` | Hocus, HoraK-FDF | MIT, GPLv2, CC BY-SA 3.0
 `graphics/sprites/icons/spell-attack-generic-outline.png` | :grey_question:, HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/icons/feather-outline.png` | :grey_question:, HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/icons/hidden-outline.png` | :grey_question:, HoraK-FDF | GPLv2, CC BY-SA 4.0
