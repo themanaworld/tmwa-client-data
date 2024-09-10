@@ -1,5 +1,14 @@
 <?xml version="1.0"?>
 <items>
-  <item id="5253" image="equipment/rings/magic.png" name="Magic Ring" description="A powerful ring for spellcasters." effect="#ingrav delay -20% " int="1" type="equip-ring" weight="1">
+  <item id="5253"
+        image="equipment/rings/magic.png"
+        type="equip-ring"
+        name="Magic Ring"
+        description="A powerful ring for spellcasters."
+        effect="ingrav delay -20% / Requires Naturally Flowing Magic (lvl 2)"
+        int="1"
+        level="80"
+        req-int="80"
+        weight="3">
   </item>
 </items>

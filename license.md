@@ -1617,8 +1617,8 @@ File | Artists | Licenses
 `sfx/weapons/swords/ice_gladius/ice_gladius-hit3.ogg` | Ledmitz (ting shas wav.mp3 / CMeeson / CC BY-3.0) | GPLv2, CC BY-SA 3.0
 `sfx/weapons/swords/ice_gladius/ice_gladius-hit4.ogg` | Ledmitz (ting shas wav.mp3 / CMeeson / CC BY-3.0) | GPLv2, CC BY-SA 3.0
 `sfx/weapons/swords/ice_gladius/ice_gladius-hit5.ogg` | Ledmitz (ting shas wav.mp3 / CMeeson / CC BY-3.0) | GPLv2, CC BY-SA 3.0
-`sfx/weapons/swords/longsword-hit1.ogg` | Krazyjakee | GPLv2
-`sfx/weapons/swords/longsword-hit2.ogg` | Krazyjakee | GPLv2
+`sfx/weapons/swords/longsword/longsword-hit1.ogg` | Krazyjakee | GPLv2
+`sfx/weapons/swords/longsword/longsword-hit2.ogg` | Krazyjakee | GPLv2
 `sfx/weapons/swords/longsword-miss1.ogg` | Krazyjakee | GPLv2
 `sfx/weapons/swords/rapier-hit1.ogg` | Krazyjakee | GPLv2
 `sfx/weapons/swords/sabre-hit1.ogg` | Krazyjakee | GPLv2
