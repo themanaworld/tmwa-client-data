@@ -1,7 +1,26 @@
 <?xml version="1.0"?>
 <items>
-  <item id="591" image="equipment/weapon/sword-longsword.png" name="Long Sword" description="A sword with a long and agile blade." effect="Weapon Level 1" attack="1" type="equip-1hand" attack-action="attack_chop" attack-range="1" weight="10" sellProtected="true">
+  <item id="591"
+        image="equipment/weapon/sword-longsword.png"
+        name="Long Sword"
+        description="A sword with a long and agile blade."
+        type="equip-1hand"
+        attack-action="attack_chop"
+        effect="Weapon Level 2 / Perfect Hit +11%, +7% Damage / Attack Speed -11"
+        attack="149"
+        attack-range="1"
+        weight="1300"
+        req-str="31"
+        req-vit="67"
+        req-dex="59"
+        req-luk="61"
+        sellProtected="true">
     <sprite gender="unisex">equipment/weapons/sword-long.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
     <sprite gender="female">equipment/weapons/sword-long-female.xml|#48488c,48488e,48488f,695c21,5f5fbe,827229,6e6edb,9493a4,a4adff,bab8c2,bcbbc6,e3eaff</sprite>
+    <sound event="hit">weapons/swords/longsword/longsword-hit1.ogg</sound>
+    <sound event="hit">weapons/swords/longsword/longsword-hit2.ogg</sound>
+    <sound event="miss">weapons/miss1.ogg</sound>
+    <sound event="miss">weapons/miss2.ogg</sound>
+    <sound event="miss">weapons/miss3.ogg</sound>
   </item>
 </items>

@@ -1,6 +1,15 @@
 <?xml version="1.0"?>
 <items>
-  <item id="801" image="equipment/head/pinkie-helmet.png" name="Pinkie Helmet" description="A helmet of Pinkie warriors." mattack="-20" type="equip-head" defense="10" luk="1" weight="800" sellProtected="true">
+  <item id="801"
+        image="equipment/head/pinkie-helmet.png"
+        type="equip-head"
+        name="Pinkie Helmet"
+        description="A helmet for Pinkie warriors."
+        defense="15"
+        luk="1"
+        mattack="-30"
+        weight="800"
+        sellProtected="true">
     <sprite gender="unisex">equipment/head/pinkie-helmet.xml</sprite>
     <sprite gender="female">equipment/head/pinkie-helmet-female.xml</sprite>
     <replace sprite="hair">
