@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//var/quest/@name" translate="yes"/>
+    <its:translateRule selector="//var/quest/name" translate="yes"/>
+    <its:translateRule selector="//var/quest/text" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <var id="26">
+    <effect map="009-2.tmx" npc="182" value="1" effect="45"/>
+    <effect map="009-2.tmx" npc="182" value="2,6" effect="46"/>
+    <quest name="Bandit Quest" group="Argeas" incomplete="1">
+      <name>Lena</name>
+      <text>You agree to help. Find the Bandit Caves and kill Bandits. Pick up 10 Bandit Hoods.</text>
+      <text>Return to Lena with the Bandit Hoods.</text>
+    </quest>
+    <quest name="Bandit Quest" group="Argeas" incomplete="2">
+      <name>Lena</name>
+      <text>As a reward, you get a Fairy Hat [@@770|@@]!</text>
+    </quest>
+    <quest name="Bandit Quest" group="Argeas" incomplete="3">
+      <name>Lena</name>
+      <text>Now Lena asks you to kill the Bandit Lord.</text>
+      <text>You agree to do it. First, go through the Hermit's Cave and Lake Cave to find Bryant's Cave. There, Bryant will instruct you.</text>
+    </quest>
+    <quest name="Bandit Quest" group="Argeas" incomplete="4">
+      <name>Lena</name>
+      <text>Next, search within the Lake Cave for a cave entrance with a red carpet outside. Go in to fight the Bandit Lord.</text>
+    </quest>
+    <quest name="Bandit Quest" group="Argeas" incomplete="5">
+      <name>Lena</name>
+      <text>You slayed the Bandit Lord! Now return to Lena once more.</text>
+    </quest>
+    <quest name="Bandit Quest" group="Argeas" complete="6">
+      <name>Lena</name>
+      <text>As a reward, you get the incredible Forest Armor [@@782|@@]!</text>
+      <text>You have finished the quest and Hurnscald is at peace again. Well done!</text>
+    </quest>
+  </var>
+</quests>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//var/quest/@name" translate="yes"/>
+    <its:translateRule selector="//var/quest/name" translate="yes"/>
+    <its:translateRule selector="//var/quest/text" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <var id="24">
+    <effect map="009-4.tmx" npc="158" value="2,3,4,5,6,8,9,10,11,12,13" effect="45"/>
+    <effect map="009-4.tmx" npc="158" value="14,36,41" effect="46"/>
+    <quest name="Orum Quest" group="Argeas" incomplete="1">
+      <name>Orum Quest</name>
+      <text>Orum needs your help to save his friend, Waric.</text>
+      <text>Bring items to Orum.</text>
+      <text/>
+      <text>Quest Giver: Orum.</text>
+      <text>Reward: Unknown.</text>
+    </quest>
+    <quest name="Orum Quest" group="Argeas" incomplete="2,3,4,5">
+      <name>Orum Quest</name>
+      <text>Explore the cave below Orum.</text>
+      <text/>
+      <text>Quest Giver: Orum.</text>
+      <text>Reward: Unknown</text>
+    </quest>
+    <quest name="Orum Quest" group="Argeas" incomplete="6">
+      <name>Orum Quest</name>
+      <text>Talk to one torch, and return to Orum.</text>
+      <text/>
+      <text>Quest Giver: Orum.</text>
+      <text>Reward: Unknown</text>
+    </quest>
+    <quest name="Orum Quest" group="Argeas" incomplete="7">
+      <name>Orum Quest</name>
+      <text>Bring more items to Orum to make special powders.</text>
+      <text/>
+      <text>Quest Giver: Orum.</text>
+      <text>Reward: Unknown</text>
+    </quest>
+    <quest name="Orum Quest" group="Argeas" incomplete="8,9,10">
+      <name>Orum Quest</name>
+      <text>Return to the cave below Orum, and open all the barriers.</text>
+      <text/>
+      <text>Quest Giver: Orum.</text>
+      <text>Reward: Unknown</text>
+    </quest>
+    <quest name="Orum Quest" group="Argeas" incomplete="11">
+      <name>Orum Quest</name>
+      <text>Talk to Orum again.</text>
+      <text/>
+      <text>Quest Giver: Orum.</text>
+      <text>Reward: Unknown</text>
+    </quest>
+    <quest name="Orum Quest" group="Argeas" incomplete="12">
+      <name>Orum Quest</name>
+      <text>As a reward, you get the Candle Helmet.  Congratz!</text>
+      <text/>
+      <text>Quest Giver: Orum.</text>
+      <text>Reward: A [@@4020|Candle Helmet@@]</text>
+    </quest>
+    <quest name="Orum Quest" group="Argeas" incomplete="13">
+      <name>Orum Quest</name>
+      <text>Disobey Orum and go back into the cave and through the last barrier you opened.</text>
+      <text/>
+      <text>Quest Giver: Orum.</text>
+      <text>Reward: A [@@4020|Candle Helmet@@]</text>
+    </quest>
+    <quest name="Orum Quest" group="Argeas" complete="14">
+      <name>Orum Quest</name>
+      <text>Surprise!  You've finished the quest!</text>
+      <text/>
+      <text>Quest Giver: Orum.</text>
+      <text>Reward: A [@@4020|Candle Helmet@@] and 10000 EXP.</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="14">
+      <name>Orum</name>
+      <text>You have already completed the Orum Quest, where you met Orum and Waric and got a Candle Helmet.</text>
+      <text>Now it is time to see them again, in a different hideout.</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="15">
+      <name>Orum</name>
+      <text>Talk to Orum and offer your services.</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="16">
+      <name>Orum</name>
+      <text>Orum asks for items.</text>
+      <text/>
+      <text>%%E 5 [@@566|@@]</text>
+      <text>%%E 5 [@@701|@@]</text>
+      <text>%%E 1 [@@674|@@]</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="17">
+      <name>Orum</name>
+      <text>You get an Orange Summoning Flower. Leave the Woodland Hills Labyrinth and place the flower in the right location.</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="18">
+      <name>Orum</name>
+      <text>Return to Orum.</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="19">
+      <name>Orum</name>
+      <text>Orum asks for more items.</text>
+      <text/>
+      <text>%%E 5 [@@565|@@]</text>
+      <text>%%E 5 [@@507|@@]</text>
+      <text>%%E 1 [@@673|@@]</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="20">
+      <name>Orum</name>
+      <text>You get a second flower, a Purple Summoning Flower. Leave the Woodland Hills Labyrinth and place the flower in the right location.</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="21">
+      <name>Orum</name>
+      <text>Return to Orum.</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="22">
+      <name>Orum</name>
+      <text>Orum asks for more items.</text>
+      <text/>
+      <text>%%E 5 [@@611|@@]</text>
+      <text>%%E 5 [@@517|@@]</text>
+      <text>%%E 1 [@@672|@@]</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="23">
+      <name>Orum</name>
+      <text>You get a third flower, a White Summoning Flower. Leave the Woodland Hills Labyrinth and place the flower in the right location.</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="24">
+      <name>Orum</name>
+      <text>Return to Orum.</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="25">
+      <name>Orum</name>
+      <text>Orum asks for more items.</text>
+      <text/>
+      <text>%%E 5 [@@613|@@]</text>
+      <text>%%E 5 [@@4000|@@]</text>
+      <text>%%E 1 [@@665|@@]</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="26">
+      <name>Orum</name>
+      <text>You get a fourth flower, a Yellow Summoning Flower. Leave the Woodland Hills Labyrinth and place the flower in the right location.</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="27">
+      <name>Orum</name>
+      <text>Return to Orum.</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="28">
+      <name>Orum</name>
+      <text>Orum asks for more items.</text>
+      <text/>
+      <text>%%E 20 [@@743|@@]</text>
+      <text>%%E 5 [@@709|@@]</text>
+      <text>%%E 3 [@@700|@@]</text>
+      <text>%%E 1 [@@661|@@]</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="29">
+      <name>Orum</name>
+      <text>Your choice did not work. But you get the beautiful [@@897|@@] !</text>
+      <text>Orum needs another [@@661|@@] to complete the mixture. Give it to him.</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="30">
+      <name>Orum</name>
+      <text>You get a fifth flower, a Red Summoning Flower. Leave the Woodland Hills Labyrinth and place the flower in the right location.</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" incomplete="31">
+      <name>Orum</name>
+      <text>Return to Orum.</text>
+    </quest>
+    <quest name="Orum and Waric follow-up quest" group="Argeas" complete="32">
+      <name>Orum</name>
+      <text>You have finished Part 1 of the quest, and received the rewards. Well done! (Part 2 is OPTIONAL.)</text>
+      <text/>
+      <text>You won 100,000 GP and 100,000 EXP.</text>
+    </quest>
+    <quest name="Dark Magic Skill" group="Argeas" incomplete="33">
+      <name>Waric</name>
+      <text>If you choose to proceed, follow Waric's instructions and take the oath.</text>
+    </quest>
+    <quest name="Dark Magic Skill" group="Argeas" incomplete="34">
+      <name>Waric</name>
+      <text>Don't be a coward, and say the oath ! It's your last chance.</text>
+    </quest>
+    <quest name="Dark Magic Skill" group="Argeas" complete="35">
+      <name>Waric</name>
+      <text>Seem you are not made for the dark side...</text>
+    </quest>
+    <quest name="Dark Magic Skill" group="Argeas" incomplete="36">
+      <name>Waric</name>
+      <text>You have received the Dark Magic Skill. Welcome to the dark side!</text>
+      <text/>
+      <text>You won 150,000 EXP.</text>
+    </quest>
+    <quest name="Dark Magic Skill" group="Argeas" incomplete="37">
+      <name>Waric</name>
+      <text>Waric teaches you a spell to summon Wicked Mushrooms: #helorp (It requires 1 Dark Crystal and 1 Small Mushroom.) </text>
+    </quest>
+    <quest name="Dark Magic Skill" group="Argeas" incomplete="38">
+      <name>Waric</name>
+      <text>Waric teaches you a spell to poison players with a poison dart: #phlex (It requires 2 Roots.)</text>
+    </quest>
+    <quest name="Dark Magic Skill" group="Argeas" incomplete="39">
+      <name>Waric</name>
+      <text>Waric needs items before he will teach you the next spell.</text>
+      <text>Gring him a [@@740|@@] and a [@@714|@@].</text>
+    </quest>
+    <quest name="Dark Magic Skill" group="Argeas" incomplete="40">
+      <name>Waric</name>
+      <text>Waric teaches you a spell to summon Snakes: #halhiss (It requires 1 Dark Crystal and 1 Snake Egg.)</text>
+    </quest>
+    <quest name="Dark Magic Skill" group="Argeas" complete="41">
+      <name>Waric</name>
+      <text>That is all Waric will teach you, for now.</text>
+    </quest>
+  </var>
+</quests>
