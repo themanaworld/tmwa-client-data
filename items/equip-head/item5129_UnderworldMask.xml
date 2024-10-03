@@ -3,7 +3,7 @@
   <item id="5129" image="equipment/head/underworld-mask.png" name="Underworld Mask" description="Surely, you don't think I jest. (Troll / Floyd only: Attack range +1 / Strength +10)" effect="0 Int" attack-range="2" dex="2" agi="3" type="equip-head" defense="5" weight="100" sellProtected="true">
     <sprite gender="unisex">equipment/head/underworld-mask.xml</sprite>
     <sprite gender="female">equipment/head/underworld-mask-female.xml</sprite>
-    <replace sprite="hair">
+    <!-- replace sprite="hair">
       <item from="-6" to="-1"/>
       <item from="-7" to="-1"/>
       <item from="-14" to="-1"/>
@@ -11,6 +11,6 @@
       <item from="-16" to="-1"/>
       <item from="-17" to="-1"/>
       <item from="-19" to="-1"/>
-    </replace>
+    </replace -->
   </item>
 </items>
