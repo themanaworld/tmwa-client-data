@@ -6,7 +6,11 @@ export libname="$1_$2"
 mkdir libdownload
 cd libdownload
 rm "${zipname}"
-../client-data/.tools/retry.sh wget -O "${zipname}" "https://git.themanaworld.org/mana/spm/builds/artifacts/$1/download?job=${libname}"
+
+wget --retry-connrefused --retry-on-host-error --tries=10 --waitretry=5 \
+     -O "$zipname" \
+     "https://git.themanaworld.org/mana/spm/builds/artifacts/$1/download?job=${libname}"
+
 unzip "${zipname}"
 cp -r "bin/${libname}" ..
 cd ..
