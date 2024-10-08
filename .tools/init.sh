@@ -18,11 +18,18 @@ function gitclone1 {
     return $?
 }
 
+# First try cloning $2 into $3 from this repository's
+# project space, then use provided fallback space ($1).
 function gitclone {
     printf '$CI_BUILD_REPO is %s\n' "$CI_BUILD_REPO"
-    export name1=$1/$2
-    export name2=${CI_BUILD_REPO##*@}
-    export name2=https://${name2%/*}/$2
+    printf '$CI_REPOSITORY_URL is %s\n' "$CI_REPOSITORY_URL"
+    printf '$CI_PROJECT_URL is %s\n' "$CI_PROJECT_URL"
+    local name1=$1/$2
+    # Format https://gitlab-ci-token:$CI_JOB_TOKEN@gitlab.example.com/my-group/my-project.git
+    # strip token part
+    local name2=${CI_REPOSITORY_URL##*@}
+    # Strip URL down to namespace and append the project we want
+    local name2=https://${name2%/*}/$2
 
     gitclone1 "$name1" "$name2" $3
     if [ "$?" != 0 ]; then
