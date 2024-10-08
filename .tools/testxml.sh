@@ -5,7 +5,8 @@ source ./.tools/init.sh
 clientdata_init
 
 aptget_update
-aptget_install git-core zip gcc zlib1g-dev ca-certificates libxml2-utils python python-pyvorbis python-ogg python-pil
+aptget_install git-core libxml2-utils python python-pil python-pyvorbis
+
 rm -rf tools
 gitclone https://git.themanaworld.org/evolved tools.git tools
 

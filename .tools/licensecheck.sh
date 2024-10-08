@@ -5,7 +5,8 @@ source ./.tools/init.sh
 clientdata_init
 
 aptget_update
-aptget_install git-core gcc ca-certificates grep
+aptget_install git-core grep
+
 rm -rf tools
 gitclone https://git.themanaworld.org/evolved tools.git tools
 
