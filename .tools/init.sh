@@ -7,6 +7,30 @@ function check_error {
     fi
 }
 
+retry_with_increasing_wait()
+{
+    local wait_time=1
+
+    while true; do
+        "$@"
+        local retval=$?
+
+        if [[ $retval -eq 0  ||  $wait_time -gt 16 ]]; then
+            break
+        fi
+
+        printf "command %s failed (exit code %d), waiting %d seconds until next try.\n"\
+               "$*" "$retval" "$wait_time"
+
+        sleep "$wait_time"
+        # 1, 2, 4, 8, 16...
+        (( wait_time = 2 * wait_time ))
+    done
+
+    return "$retval"
+}
+
+
 function gitclone1 {
     echo git clone $2 $3
     git clone $2 $3
@@ -23,19 +47,7 @@ function gitclone {
     export name2=${CI_BUILD_REPO##*@}
     export name2=https://${name2%/*}/$2
 
-    gitclone1 "$name1" "$name2" $3
-    if [ "$?" != 0 ]; then
-        sleep 1s
-        gitclone1 "$name1" "$name2" $3
-        if [ "$?" != 0 ]; then
-            sleep 3s
-            gitclone1 "$name1" "$name2" $3
-            if [ "$?" != 0 ]; then
-                sleep 5s
-                gitclone1 "$name1" "$name2" $3
-            fi
-        fi
-    fi
+    retry_with_increasing_wait gitclone1 "$name1" "$name2" "$3"
     check_error $?
 }
 
@@ -57,28 +69,12 @@ function update_repos {
 
 function aptget_update {
     update_repos
-    apt-get update
-    if [ "$?" != 0 ]; then
-        sleep 1s
-        apt-get update
-        if [ "$?" != 0 ]; then
-            sleep 1s
-            apt-get update
-        fi
-    fi
+    retry_with_increasing_wait apt-get update
     check_error $?
 }
 
 function aptget_install {
-    apt-get -y -qq install $*
-    if [ "$?" != 0 ]; then
-        sleep 1s
-        apt-get -y -qq install $*
-        if [ "$?" != 0 ]; then
-            sleep 2s
-            apt-get -y -qq install $*
-        fi
-    fi
+    retry_with_increasing_wait apt-get -y -qq install $*
     check_error $?
 }
 
