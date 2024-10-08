@@ -16,7 +16,7 @@ check_error $?
 export RES=$(cat errors.txt)
 if [[ -n "${RES}" ]]; then
     echo "xml check failed" >../../../clientdata/shared/error.log
-    echo ${RES} >>../../../clientdata/shared/error.log
+    cat errors.txt >>../../../clientdata/shared/error.log
     cat ../../../clientdata/shared/error.log
     exit 1
 fi
