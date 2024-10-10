@@ -21,7 +21,7 @@ manaplus:
   stage: test
   script:
   - ./.tools/manaplus.sh
-  image: debian:stable
+  image: debian:unstable
   artifacts:
     paths:
     - shared
