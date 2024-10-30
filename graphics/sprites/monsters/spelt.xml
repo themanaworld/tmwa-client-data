@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset name="base" src="graphics/sprites/monsters/spelt.png" width="32" height="64"/>
+  <action name="stand" imageset="base">
+    <animation>
+      <frame index="0"/>
+    </animation>
+  </action>
+  <action name="dead" imageset="base">
+    <animation>
+      <frame index="1"/>
+    </animation>
+  </action>
+</sprite>

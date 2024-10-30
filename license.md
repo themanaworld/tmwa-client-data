@@ -516,6 +516,7 @@ File | Artists | Licenses
 `graphics/items/generic/spectral-orb.png` | Kr0n05931, Enchilado | GPLv2
 `graphics/items/generic/spell-book-page.png` | Salmondine, Enchilado | GPLv2
 `graphics/items/generic/spell-book.png` | Salmondine, Enchilado | GPLv2
+`graphics/items/generic/seeds-dyable.png` | Coolkid782, Enchilado, HoraK-FDF | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/spice.png` | FotherJ, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/squichyclaws.png` | Reid | CC BY-SA 3.0
 `graphics/items/generic/squirrel-pelt.png` | Wombat, Enchilado | GPLv2, CC BY-SA 3.0
@@ -1050,6 +1051,7 @@ File | Artists | Licenses
 `graphics/sprites/monsters/golem-crystal.png` | Hocus, HoraK-FDF | MIT, GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/golem-dyable.png` | Hocus, HoraK-FDF | MIT, GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/golem-red.png` | Hocus | MIT, GPLv2, CC BY-SA 3.0
+`graphics/sprites/monsters/grass.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/monsters/junglefowl.png` | Pateame, Virtual Reality | GPLv2
 `graphics/sprites/monsters/larvespa.png` | Arikel | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/lizard.png` | Len, Pateame | GPLv2
@@ -1095,6 +1097,7 @@ File | Artists | Licenses
 `graphics/sprites/monsters/snake-cave.png` | :grey_question:, Neoriceisgood | GPLv2
 `graphics/sprites/monsters/snake.png` | :grey_question:, Neoriceisgood | GPLv2
 `graphics/sprites/monsters/snowflower.png` | Salmondine | GPLv2
+`graphics/sprites/monsters/spelt.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/monsters/spider.png` | FotherJ | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/spider-crystal.png` | FotherJ, HoraK-FDF | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/spider-queen.png` | Hocus | MIT, GPLv2, CC BY-SA 3.0
