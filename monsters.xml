@@ -1148,7 +1148,7 @@
     </monster>
 
     <monster id="1130" name="Moonshroom">
-        <sprite>monsters/moonshroom.xml</sprite>
+        <sprite>monsters/mushroom-moon.xml</sprite>
         <particlefx>graphics/particles/monster-moonshroom.particle.xml</particlefx>
         <attack id="1" missile-particle="graphics/particles/moonshroom-attack.particle.xml" action="attack"/>
         <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
@@ -1985,6 +1985,31 @@
         <sound event="die">monsters/golem/die.ogg</sound>
         <sound event="hit">monsters/golem/hit1.ogg</sound>
         <sound event="miss">monsters/golem/miss1.ogg</sound>
+    </monster>
+
+    <monster id="1227" name="Grass">
+        <sprite>monsters/grass.xml</sprite>
+    </monster>
+
+    <monster id="1228" name="Spelt">
+        <sprite>monsters/spelt.xml</sprite>
+    </monster>
+
+    <monster id="1229" name="Warlord Skull">
+        <sprite>monsters/skull-warlord.xml</sprite>
+    </monster>
+
+    <monster id="1230" name="Golden Skull">
+        <sprite>monsters/skull-golden.xml</sprite>
+    </monster>
+
+    <monster id="1231" name="Sunshroom">
+        <sprite>monsters/mushroom-sun.xml</sprite>
+        <particlefx>graphics/particles/monster-sunshroom.particle.xml</particlefx>
+        <attack id="1" missile-particle="graphics/particles/sunshroom-attack.particle.xml" action="attack"/>
+        <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
+        <sound event="hurt">monsters/shroom/shroom-hurt1.ogg</sound>
+        <sound event="die">monsters/shroom/shroom-die1.ogg</sound>
     </monster>
 
     <!-- Mods should use the following code -->

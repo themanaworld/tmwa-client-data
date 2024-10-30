@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<items>
+  <item id="5392" image="equipment/head/sunshroomhat.png" name="Sunshroom Hat" description="Your head is always warm with this hat and you have light at night." type="equip-head" defense="15" mattack="5" weight="30" sellProtected="true">
+    <sprite gender="unisex">equipment/head/sunshroomhat.xml</sprite>
+    <sprite gender="female">equipment/head/sunshroomhat-female.xml</sprite>
+    <replace sprite="hair">
+      <item from="-6" to="-1"/>
+    </replace>
+  </item>
+</items>

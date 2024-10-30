@@ -267,6 +267,7 @@ File | Artists | Licenses
 `graphics/items/equipment/head/minershat.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/monocle.png` | Skipy | GPLv2
 `graphics/items/equipment/head/monster-skull-helm.png` | Black Don | GPLv2
+`graphics/items/equipment/head/moonshroomhat.png` | Cassy | CC BY-SA 3.0
 `graphics/items/equipment/head/opera-mask.png` | Meway | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/overlord-helm.png` | Black Don | GPLv2
 `graphics/items/equipment/head/paladin-helm.png` | Black Don | GPLv2
@@ -288,6 +289,7 @@ File | Artists | Licenses
 `graphics/items/equipment/head/skullmask.png` | Beelzebub, FotherJ | GPLv2
 `graphics/items/equipment/head/snowgoggles.png` | VXD | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/sunglasses.png` | UntamedMonkey | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/head/sunshroomhat.png` | Cassy, HoraK-FDF | CC BY-SA 3.0
 `graphics/items/equipment/head/terranitehelm.png` | Kr0n05931 | GPLv2
 `graphics/items/equipment/head/thin-crown.png` | Black Don, V0id | GPLv2
 `graphics/items/equipment/head/tophat.png` | QOAL | GPLv2
@@ -441,11 +443,13 @@ File | Artists | Licenses
 `graphics/items/generic/gempowder.png` | Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/gemstone-a.png` | Crush, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/gemstone-b.png` | Crush, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/glass-shards.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/golden-tooth.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/grassliner.png` | Salmondine, Enchilado | GPLv2
 `graphics/items/generic/grassseeds.png` | Coolkid782, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/grub-slime.png` | Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/hardspike.png` | Crush, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/hay.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/heart-diseased.png` | FotherJ, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/herb.png` | Irukard | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/herb-mauve.png` | Enchilado | GPLv2, CC BY-SA 3.0
@@ -518,6 +522,7 @@ File | Artists | Licenses
 `graphics/items/generic/stinger.png` | Wombat, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/stone-a.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/strange-coin.png` | :grey_question:, Enchilado | GPLv2
+`graphics/items/generic/straw.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/terraniteore.png` | Kr0n05931, Enchilado | GPLv2
 `graphics/items/generic/tongue.png` | Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/toothbrush.png` | Chay | GPLv2, CC BY-SA 3.0
@@ -667,6 +672,7 @@ File | Artists | Licenses
 `graphics/particles/bubble_32px.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/casket-trap_96x96.png` | Skipy | GPLv2
 `graphics/particles/dart.png` | Ledmitz | GPLv2, CC BY-SA 3.0
+`graphics/particles/flame-8x8.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/particles/fog-medium-a.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/fog-medium-b.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/fog-medium-c.png` | Crush | GPLv2, CC BY-SA 3.0
@@ -915,6 +921,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/minershat.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/monocle.png` | Skipy | GPLv2
 `graphics/sprites/equipment/head/monster-skull-helm.png` | Black Don | GPLv2
+`graphics/sprites/equipment/head/moonshroomhat.png` | Saulc, Cassy | CC BY-SA 3.0
 `graphics/sprites/equipment/head/mushroom.png` | crevost2, Yuuki | GPLv2
 `graphics/sprites/equipment/head/nutcrackerhat.png` | Chayenne, :grey_question:, Alige, Lizandra, Salmondine | GPLv2
 `graphics/sprites/equipment/head/operamask.png` | Meway | GPLv2, CC BY-SA 3.0
@@ -940,6 +947,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/smileycap.png` | +seeds | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/snowgoggles.png` | VXD | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/sunglasses.png` | UntamedMonkey | GPLv2, CC BY-SA 3.0
+`graphics/sprites/equipment/head/sunshroomhat.png` | Saulc, Cassy, HoraK-FDF | CC BY-SA 3.0
 `graphics/sprites/equipment/head/terranitehelm.png` | Kr0n05931 | GPLv2
 `graphics/sprites/equipment/head/thin-crown.png` | Black Don, V0id | GPLv2
 `graphics/sprites/equipment/head/tophat.png` | QOAL | GPLv2
@@ -1056,11 +1064,12 @@ File | Artists | Licenses
 `graphics/sprites/monsters/mouboo-demonic.png` | Cassy, Yuuki | GPLv2
 `graphics/sprites/monsters/moubootaur.png` | Hocus | MIT
 `graphics/sprites/monsters/montblanc.png` | KokoroReflections (piratehat.png | Fettsack | GPLv2) (cannon | AntumDeluge | CC BY 3.0, OGA BY 3.0) | CC BY 4.0
+`graphics/sprites/monsters/mushroom-moon.png` | Cassy, Yuuki | GPLv2
 `graphics/sprites/monsters/mushroom-red.png` | Yuuki | GPLv2
 `graphics/sprites/monsters/mushroom-spiky.png` | Yuuki | GPLv2
+`graphics/sprites/monsters/mushroom-sun.png` | Cassy, Yuuki, HoraK-FDF | GPLv2
 `graphics/sprites/monsters/mushroom-void.png` | Cassy, Yuuki, Jesusalva | GPLv2
 `graphics/sprites/monsters/mushroom-wicked.png` | Cassy, Yuuki | GPLv2
-`graphics/sprites/monsters/mushroom-moon.png` | Cassy, Yuuki | GPLv2
 `graphics/sprites/monsters/nutcracker.png` | Chayenne, :grey_question:, Alige, Lizandra, Salmondine | GPLv2
 `graphics/sprites/monsters/penguin.png` | Fother | GPLv2
 `graphics/sprites/monsters/pinkie.png` | Crush | GPLv2, CC BY-SA 3.0
