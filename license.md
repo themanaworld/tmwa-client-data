@@ -217,7 +217,7 @@ File | Artists | Licenses
 `graphics/items/equipment/head/phylactery.png` | strealyn, wushin | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/nutcrackerhat.png` | Chayenne, Alige, Lizandra, Salmondine | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/dark-helm.png` | Bankai777 | GPLv2
-`graphics/sprites/equipment/head/underworld-mask.png` | wushin | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/head/underworld-mask.png` | wushin | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/bandana.png` | Modanung | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/beaniecopter.png` | Alige, Black Don, Milla, Veryape | GPLv2
 `graphics/items/equipment/head/beret.png` | Varuna | GPLv2
@@ -951,6 +951,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/terranitehelm.png` | Kr0n05931 | GPLv2
 `graphics/sprites/equipment/head/thin-crown.png` | Black Don, V0id | GPLv2
 `graphics/sprites/equipment/head/tophat.png` | QOAL | GPLv2
+`graphics/sprites/equipment/head/underworld-mask.png` | Saulc, Dustman, wushin | CC BY-SA 3.0
 `graphics/sprites/equipment/head/warlordhelm.png` | Black Don | GPLv2
 `graphics/sprites/equipment/head/witch-doctor-mask.png` | Black Don | GPLv2
 `graphics/sprites/equipment/head/witch-hat.png` | Meway | GPLv2, CC BY-SA 3.0
@@ -1084,8 +1085,10 @@ File | Artists | Licenses
 `graphics/sprites/monsters/silkworm.png` | Fate | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/skeleton.png` | FotherJ | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/skull-fire.png` | Modanung | GPLv2, CC BY-SA 3.0
+`graphics/sprites/monsters/skull-golden.png` | ChefChelios, Saulc | CC BY-SA 3.0
 `graphics/sprites/monsters/skull-ice.png` | ChefChelios | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/skull-poison.png` | Modanung | GPLv2, CC BY-SA 3.0
+`graphics/sprites/monsters/skull-warlord.png` | Saulc, Modanung, HoraK-FDF | CC BY-SA 3.0
 `graphics/sprites/monsters/sleeping-bandit.png` | Alige, Skipy, V0id, Wombat | GPLv2
 `graphics/sprites/monsters/slime.png` | :grey_question:, Neoriceisgood | GPLv2
 `graphics/sprites/monsters/snail.png` | FotherJ | GPLv2, CC BY-SA 3.0
