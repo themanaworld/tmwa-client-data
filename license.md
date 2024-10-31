@@ -1613,9 +1613,10 @@ File | Artists | Licenses
 `sfx/weapons/lightsaber/miss.ogg` | skytheguy, Freesound.org, Jesusalva | CC BY 3.0)
 `sfx/weapons/projectiles/snowball/hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/projectiles/snowball/miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/weapons/punch1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/weapons/punch2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
-`sfx/weapons/punch3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/projectiles/rainerang/rainerang-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/projectiles/rainerang/rainerang-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/projectiles/rainerang/rainerang-hit3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/weapons/projectiles/rainerang/rainerang-miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/other/halberd/halberd-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/other/halberd/halberd-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/weapons/other/halberd/halberd-hit3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
