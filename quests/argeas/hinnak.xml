@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//var/quest/@name" translate="yes"/>
+    <its:translateRule selector="//var/quest/name" translate="yes"/>
+    <its:translateRule selector="//var/quest/text" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <var id="27">
+    <effect map="008-1.tmx" npc="142" value="1" effect="45"/>
+    <effect map="008-1.tmx" npc="142" value="2" effect="46"/>
+    <quest name="Farmer's Scythe" group="Argeas" incomplete="1">
+      <name>Hinnak</name>
+      <text>You agree to help. Hunt Pinkies and collect 10 Pink Antennae. (But avoid Ginaria, who loves Pinkies!)</text>
+      <text>Return to Hinnak with the Pink Antennae.</text>
+      <text/>
+      <text>%%E  10 [@@614|@@]</text>
+    </quest>
+    <quest name="Farmer's Scythe" group="Argeas" complete="2">
+      <name>Hinnak</name>
+      <text>You have completed the task. The Scythe, an excellent weapon, is your reward!</text>
+      <text/>
+      <text>Quest Giver: Hinnak.</text>
+      <text>Reward: [@@623|@@].</text>
+    </quest>
+  </var>
+</quests>

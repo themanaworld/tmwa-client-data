@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//var/quest/@name" translate="yes"/>
+    <its:translateRule selector="//var/quest/name" translate="yes"/>
+    <its:translateRule selector="//var/quest/text" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <var id="23">
+    <effect map="027-2.tmx" npc="159" value="2,5" effect="45"/>
+    <effect map="027-2.tmx" npc="159" value="3,4" effect="46"/>
+    <quest name="Letter Quest" group="Argeas" incomplete="2">
+      <name>Letter</name>
+      <text>The Caretaker in the Graveyard needs your help to deliver a letter to his daughter, Airlia.</text>
+      <text/>
+      <text>Quest Giver: Caretaker.</text>
+      <text>Reward: Unknown.</text>
+    </quest>
+    <quest name="Letter Quest" group="Argeas" complete="3">
+      <name>Letter</name>
+      <text>You have delivered the letter to Airlia.  Well done!</text>
+      <text/>
+      <text>Quest Giver: Caretaker.</text>
+      <text>Reward: 1,000 GP, 2000 EXP.</text>
+    </quest>
+    <quest name="Letter Quest" group="Argeas" incomplete="5">
+      <name>Letter</name>
+      <text>The Caretaker in the Graveyard needs your help to deliver a letter to his daughter, Airlia.</text>
+      <text/>
+      <text>Quest Giver: Caretaker.</text>
+      <text>Reward: 42 GP, 500 EXP.</text>
+    </quest>
+    <quest name="Letter Quest" group="Argeas" complete="4">
+      <name>Letter</name>
+      <text>You have delivered the letter to Airlia.  Well done!</text>
+      <text/>
+      <text>Quest Giver: Caretaker.</text>
+      <text>Reward: 1,000 GP and 2,000 EXP the first time.</text>
+      <text>42 GP and 500 EXP every time afterwards</text>
+    </quest>
+  </var>
+</quests>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//var/quest/@name" translate="yes"/>
+    <its:translateRule selector="//var/quest/name" translate="yes"/>
+    <its:translateRule selector="//var/quest/text" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <var id="28">
+    <effect map="013-3.tmx" npc="111" value="1,2" effect="45"/>
+    <effect map="013-3.tmx" npc="111" value="3" effect="46"/>
+    <quest name="Demon Mask" group="Argeas" incomplete="1">
+      <name>Demon Mask</name>
+      <text>From one of the bookshelves in the mines, you learn about the ritual.</text>
+      <text>You will need many items, including a Jack O Soul [@@1198|@@].</text>
+    </quest>
+    <quest name="Demon Mask" group="Argeas" incomplete="2">
+      <name>Demon Mask</name>
+      <text>Pass through the barrier, and talk to the chest.</text>
+    </quest>
+    <quest name="Demon Mask" group="Argeas" complete="3">
+      <name>Demon Mask</name>
+      <text>You got the Demon Mask [@@679|@@]! Congratz!</text>
+    </quest>
+  </var>
+</quests>
