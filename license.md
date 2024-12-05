@@ -258,6 +258,7 @@ File | Artists | Licenses
 `graphics/items/equipment/head/inspector-hat.png` | Micksha | GPLv2
 `graphics/items/equipment/head/jestermask.png` | Spit23 | GPLv2
 `graphics/items/equipment/head/knighthelm.png` | Black Don | GPLv2
+`graphics/items/equipment/head/knighthelm-dyable.png` | Black Don, HoraK-FDF | GPLv2
 `graphics/items/equipment/head/knit-cap.png` | Salmondine, jak1  | GPLv2
 `graphics/items/equipment/head/leathergoggles.png` | Fettsack | GPLv2
 `graphics/items/equipment/head/leprechaunhat.png` | Scorpius, QOAL, Saulc | GPLv2
@@ -324,6 +325,7 @@ File | Artists | Licenses
 `graphics/items/equipment/shield/leather.png` | Meway | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/shield/scarabarmlet.png` | Adarias | GPLv2
 `graphics/items/equipment/shield/steel.png` | Irukard | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/shield/steel-dyable.png` | Irukard, HoraK-FDF | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/shield/wooden.png` | Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/shield/bromenal.png` | Skipy | GPLv2
 `graphics/items/equipment/shield/dragonshield.png` | tametomo | GPLv2
@@ -914,6 +916,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/inspector-hat.png` | ? | GPLv2
 `graphics/sprites/equipment/head/jestermask.png` | Spit23 | GPLv2
 `graphics/sprites/equipment/head/knighthelm.png` | Black Don | GPLv2
+`graphics/sprites/equipment/head/knighthelm-dyable.png` | Black Don, HoraK-FDF | GPLv2
 `graphics/sprites/equipment/head/knit-cap.png` | Salmondine | GPLv2
 `graphics/sprites/equipment/head/leprechaunhat.png` | Scorpius, QOAL, Saulc | GPLv2
 `graphics/sprites/equipment/head/leprechaunhead.png` | Ledmitz, (leprechaunhat.png | Scorpius, QOAL, Saulc | GPLv2)  | GPLv2, CC BY-SA 3.0
@@ -986,6 +989,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/shields/dragon.png` | ?, TMW-Br Team | GPLv2
 `graphics/sprites/equipment/shields/leather.png` | ?, Irukard, TMW-Br Team | GPLv2
 `graphics/sprites/equipment/shields/steel.png` | ?, Irukard, TMW-Br Team | GPLv2
+`graphics/sprites/equipment/shields/steel-dyable.png` | ?, Irukard, TMW-Br Team, HoraK-FDF | GPLv2
 `graphics/sprites/equipment/shields/wooden.png` | Enchilado | GPL 3.0/CC BY-SA 3.0
 
 #### Override

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<items>
+  <item id="5394" image="equipment/head/knighthelm-dyable.png|R:#000000,ffffff" name="Black Knight's Helmet" description="A helmet with two small wings on it." mattack="-30" type="equip-head" defense="15" weight="600" sellProtected="true">
+    <sprite gender="unisex">equipment/head/knighthelm-dyable.xml|#000000,ffffff</sprite>
+    <sprite gender="female">equipment/head/knighthelm-dyable-female.xml|#000000,ffffff</sprite>
+    <replace sprite="hair">
+      <item from="-6" to="-1"/>
+      <item from="-7" to="-1"/>
+      <item from="-10" to="-1"/>
+    </replace>
+  </item>
+</items>
