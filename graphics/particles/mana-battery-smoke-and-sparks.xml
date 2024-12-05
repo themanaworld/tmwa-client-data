@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!--
+Smoke and sparks that come out of the mana battery when overheated.
+-->
+<effect>
+  <particle position-x="0" position-y="0" position-z="0">
+
+    <emitter>
+      <property name="position-x" min="-48" max="-8"/>
+      <property name="position-y" min="-48" max="-8"/>
+      <property name="power" min="1" max="2"/>
+      <property name="acceleration" value="0.01"/>
+      <property name="alpha" value="0.9"/>
+      <property name="gravity" value="-0.1"/>
+      <property name="momentum" value="0.9"/>
+      <property name="lifetime" min="160" max="160"/>
+      <property name="output" min="0" max="1"/>
+      <property name="output-pause" value="4"/>
+      <property name="fade-in" value="10"/>
+      <property name="fade-out" value="150"/>
+      <property name="randomness" value="100"/>
+      <property name="image" value="graphics/particles/smoke-large-grey.png|W:#666666"/>
+    </emitter>
+    <emitter>
+      <property name="position-x" min="-48" max="-8"/>
+      <property name="position-y" min="-48" max="-8"/>
+      <property name="power" min="1" max="2"/>
+      <property name="acceleration" value="0.01"/>
+      <property name="alpha" value="0.9"/>
+      <property name="gravity" value="-0.1"/>
+      <property name="momentum" value="0.9"/>
+      <property name="lifetime" min="160" max="160"/>
+      <property name="output" min="0" max="1"/>
+      <property name="output-pause" value="4"/>
+      <property name="fade-in" value="10"/>
+      <property name="fade-out" value="150"/>
+      <property name="randomness" value="100"/>
+      <property name="image" value="graphics/particles/fog-medium-a.png|W:#999999"/>
+    </emitter>
+
+    <emitter>
+      <property name="position-x" min="-32" max="0"/>
+      <property name="position-y" min="-48" max="-8"/>
+      <property name="power" min="2" max="3"/>
+      <property name="alpha" value="1"/>
+      <property name="gravity" value="0"/>
+      <property name="momentum" value="0"/>
+      <property name="lifetime" min="100" max="100"/>
+      <property name="output" min="1" max="2"/>
+      <property name="output-pause" value="12"/>
+      <property name="fade-in" value="10"/>
+      <property name="fade-out" value="90"/>
+      <property name="randomness" value="100"/>
+      <animation imageset="graphics/particles/electricity.particle.png|W:#FFFFFF" width="15" height="15">
+        <sequence start="0" end="7" delay="20"/>
+      </animation>
+    </emitter>
+  </particle>
+</effect>
