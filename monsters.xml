@@ -1149,8 +1149,8 @@
 
     <monster id="1130" name="Moonshroom">
         <sprite>monsters/mushroom-moon.xml</sprite>
-        <particlefx>graphics/particles/monster-moonshroom.particle.xml</particlefx>
-        <attack id="1" missile-particle="graphics/particles/moonshroom-attack.particle.xml" action="attack"/>
+        <particlefx>graphics/particles/monster-mushroom-moon.particle.xml</particlefx>
+        <attack id="1" missile-particle="graphics/particles/monster-mushroom-moon-attack.particle.xml" action="attack"/>
         <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
         <sound event="hurt">monsters/shroom/shroom-hurt1.ogg</sound>
         <sound event="die">monsters/shroom/shroom-die1.ogg</sound>
@@ -2005,11 +2005,64 @@
 
     <monster id="1231" name="Sunshroom">
         <sprite>monsters/mushroom-sun.xml</sprite>
-        <particlefx>graphics/particles/monster-sunshroom.particle.xml</particlefx>
-        <attack id="1" missile-particle="graphics/particles/sunshroom-attack.particle.xml" action="attack"/>
+        <particlefx>graphics/particles/monster-mushroom-sun.particle.xml</particlefx>
+        <attack id="1" missile-particle="graphics/particles/monster-mushroom-sun-attack.particle.xml" action="attack"/>
         <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
         <sound event="hurt">monsters/shroom/shroom-hurt1.ogg</sound>
         <sound event="die">monsters/shroom/shroom-die1.ogg</sound>
+    </monster>
+
+    <monster id="1232" name="Snowshroom">
+        <sprite>monsters/mushroom-snow.xml</sprite>
+        <particlefx>graphics/particles/monster-mushroom-snow.particle.xml</particlefx>
+        <attack id="1" missile-particle="graphics/particles/monster-mushroom-snow-attack.particle.xml" action="attack"/>
+        <sound event="hit">monsters/shroom/shroom-hit1.ogg</sound>
+        <sound event="hurt">monsters/shroom/shroom-hurt1.ogg</sound>
+        <sound event="die">monsters/shroom/shroom-die1.ogg</sound>
+    </monster>
+
+    <monster id="1233" name="Yellow Super Slime" targetCursor="large">
+        <sprite>monsters/slime-super.xml|#b47f00,ffffff</sprite>
+        <sound event="die">monsters/slime/slime-die1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
+        <sound event="move">monsters/slime/slime-move1.ogg</sound>
+        <sound event="move">monsters/slime/slime-move2.ogg</sound>
+    </monster>
+
+    <monster id="1234" name="Red Super Slime" targetCursor="large">
+        <sprite>monsters/slime-super.xml|#7e0000,ffffff</sprite>
+        <sound event="die">monsters/slime/slime-die1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
+        <sound event="move">monsters/slime/slime-move1.ogg</sound>
+        <sound event="move">monsters/slime/slime-move2.ogg</sound>
+    </monster>
+
+    <monster id="1235" name="Green Super Slime" targetCursor="large">
+        <sprite>monsters/slime-super.xml|#72982c,ffffff</sprite>
+        <sound event="die">monsters/slime/slime-die1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
+        <sound event="move">monsters/slime/slime-move1.ogg</sound>
+        <sound event="move">monsters/slime/slime-move2.ogg</sound>
+    </monster>
+
+    <monster id="1236" name="Blue Super Slime" targetCursor="large">
+        <sprite>monsters/slime-super.xml|#2121ae,ffffff</sprite>
+        <sound event="die">monsters/slime/slime-die1.ogg</sound>
+        <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt1.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
+        <sound event="move">monsters/slime/slime-move1.ogg</sound>
+        <sound event="move">monsters/slime/slime-move2.ogg</sound>
     </monster>
 
     <!-- Mods should use the following code -->

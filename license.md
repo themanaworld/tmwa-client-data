@@ -289,12 +289,14 @@ File | Artists | Licenses
 `graphics/items/equipment/head/silkheadband.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/skullmask.png` | Beelzebub, FotherJ | GPLv2
 `graphics/items/equipment/head/snowgoggles.png` | VXD | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/head/snowshroomhat.png` | Cassy, HoraK-FDF | CC BY-SA 3.0
 `graphics/items/equipment/head/sunglasses.png` | UntamedMonkey | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/sunshroomhat.png` | Cassy, HoraK-FDF | CC BY-SA 3.0
 `graphics/items/equipment/head/terranitehelm.png` | Kr0n05931 | GPLv2
 `graphics/items/equipment/head/thin-crown.png` | Black Don, V0id | GPLv2
 `graphics/items/equipment/head/tophat.png` | QOAL | GPLv2
 `graphics/items/equipment/head/warlordhelm.png` | Black Don | GPLv2
+`graphics/items/equipment/head/wickedmushroomhat.png` | Cassy, Yuuki, HoraK-FDF | GPLv2
 `graphics/items/equipment/head/witch-doctor-mask.png` | Black Don | GPLv2
 `graphics/items/equipment/head/witch-hat.png` | Meway | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/wizard-hat.png` | Crush, Hal9000 | GPLv2, CC BY-SA 3.0
@@ -950,6 +952,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/skullmask.png` | Beelzebub, FotherJ | GPLv2
 `graphics/sprites/equipment/head/smileycap.png` | +seeds | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/snowgoggles.png` | VXD | GPLv2, CC BY-SA 3.0
+`graphics/sprites/equipment/head/snowshroomhat.png` | Saulc, Cassy, HoraK-FDF | CC BY-SA 3.0
 `graphics/sprites/equipment/head/sunglasses.png` | UntamedMonkey | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/sunshroomhat.png` | Saulc, Cassy, HoraK-FDF | CC BY-SA 3.0
 `graphics/sprites/equipment/head/terranitehelm.png` | Kr0n05931 | GPLv2
@@ -957,6 +960,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/tophat.png` | QOAL | GPLv2
 `graphics/sprites/equipment/head/underworld-mask.png` | Saulc, Dustman, wushin | CC BY-SA 3.0
 `graphics/sprites/equipment/head/warlordhelm.png` | Black Don | GPLv2
+`graphics/sprites/equipment/head/wickedmushroomhat.png` | Cassy, Yuuki, HoraK-FDF | GPLv2
 `graphics/sprites/equipment/head/witch-doctor-mask.png` | Black Don | GPLv2
 `graphics/sprites/equipment/head/witch-hat.png` | Meway | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/wizard-hat.png` | Chayenne, Crush, Hal9000 | GPLv2, CC BY-SA 3.0
@@ -1073,6 +1077,7 @@ File | Artists | Licenses
 `graphics/sprites/monsters/montblanc.png` | KokoroReflections (piratehat.png | Fettsack | GPLv2) (cannon | AntumDeluge | CC BY 3.0, OGA BY 3.0) | CC BY 4.0
 `graphics/sprites/monsters/mushroom-moon.png` | Cassy, Yuuki | GPLv2
 `graphics/sprites/monsters/mushroom-red.png` | Yuuki | GPLv2
+`graphics/sprites/monsters/mushroom-snow.png` | Cassy, Yuuki, HoraK-FDF | GPLv2
 `graphics/sprites/monsters/mushroom-spiky.png` | Yuuki | GPLv2
 `graphics/sprites/monsters/mushroom-sun.png` | Cassy, Yuuki, HoraK-FDF | GPLv2
 `graphics/sprites/monsters/mushroom-void.png` | Cassy, Yuuki, Jesusalva | GPLv2
@@ -1097,6 +1102,7 @@ File | Artists | Licenses
 `graphics/sprites/monsters/skull-warlord.png` | Saulc, Modanung, HoraK-FDF | CC BY-SA 3.0
 `graphics/sprites/monsters/sleeping-bandit.png` | Alige, Skipy, V0id, Wombat | GPLv2
 `graphics/sprites/monsters/slime.png` | :grey_question:, Neoriceisgood | GPLv2
+`graphics/sprites/monsters/slime-super.png` | Reid, HoraK-FDF | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/snail.png` | FotherJ | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/snake-cave.png` | :grey_question:, Neoriceisgood | GPLv2
 `graphics/sprites/monsters/snake.png` | :grey_question:, Neoriceisgood | GPLv2
@@ -1134,6 +1140,7 @@ File | Artists | Licenses
 `graphics/sprites/monsters/accessories/slime-bubble.png` | Fother | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/accessories/slime-littleslime.png` | Wombat | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/accessories/slime-seajelly.png` | FotherJ | GPLv2, CC BY-SA 3.0
+`graphics/sprites/monsters/accessories/slime-super-crown.png` | Reid, HoraK-FDF | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/accessories/mushroom-base1-arms1.png` | FotherJ | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/accessories/mushroom-base1-cap1.png` | FotherJ | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/accessories/mushroom-base1-cap1-spikes.png` | FotherJ | GPLv2, CC BY-SA 3.0

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<items>
+  <item id="5397" image="equipment/head/wickedmushroomhat.png" name="Wicked Mushroom Hat" description="A wicked energy emits from that hat." type="equip-head" defense="15" weight="30" sellProtected="true">
+    <sprite gender="unisex">equipment/head/wickedmushroomhat.xml</sprite>
+    <sprite gender="female">equipment/head/wickedmushroomhat-female.xml</sprite>
+    <replace sprite="hair">
+      <item from="-6" to="-1"/>
+    </replace>
+  </item>
+</items>
