@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<items>
+  <item id="5398" image="equipment/chest/cottonshirt.png|W:#95887F,E0D1C9" name="Ragged Shirt" description="This shirt is too worn-out to give any protection." mattack="-1" type="equip-torso" defense="1" weight="7">
+    <sprite gender="unisex">equipment/chest/cotton.xml|#95887F,E0D1C9</sprite>
+    <sprite gender="female">equipment/chest/cotton-female.xml|#95887F,E0D1C9</sprite>
+    <replace sprite="race">
+      <item from="-100" to="-99100"/>
+      <item from="-101" to="-99101"/>
+      <item from="-102" to="-99102"/>
+      <item from="-103" to="-99103"/>
+      <item from="-104" to="-99104"/>
+      <item from="-105" to="-99105"/>
+    </replace>
+  </item>
+</items>
