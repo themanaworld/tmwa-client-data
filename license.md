@@ -1500,6 +1500,18 @@ File | Artists | Licenses
 `sfx/monsters/slime/slime-hurt3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/slime/slime-move1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/slime/slime-move2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/slime-super/slime-super-die1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/slime-super/slime-super-hit1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/slime-super/slime-super-hit2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/slime-super/slime-super-hit3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/slime-super/slime-super-hurt1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/slime-super/slime-super-hurt2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/slime-super/slime-super-hurt3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/slime-super/slime-super-miss1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/slime-super/slime-super-miss2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/slime-super/slime-super-miss3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/slime-super/slime-super-move1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/monsters/slime-super/slime-super-move2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/monsters/snail/snail-die1.ogg` | alpha [Ledmitz] | GPLv2
 `sfx/monsters/snail/snail-hit1.ogg` | alpha [Ledmitz] | GPLv2
 `sfx/monsters/snail/snail-hurt1.ogg` | alpha [Ledmitz] | GPLv2
