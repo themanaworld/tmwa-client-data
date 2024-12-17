@@ -252,6 +252,7 @@ File | Artists | Licenses
 `graphics/items/equipment/head/goggles.png` | Fettsack | GPLv2
 `graphics/items/equipment/head/gradcap.png` | Arilious | GPLv2
 `graphics/items/equipment/head/guyfawkes.png` | 5t3v3 | GPLv2
+`graphics/items/equipment/head/headslime.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/equipment/head/heart-glasses.png` | Lizandra | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/highpriest-crown.png` | Black Don | GPLv2
 `graphics/items/equipment/head/infantryhelm.png` | Black Don | GPLv2
@@ -288,6 +289,7 @@ File | Artists | Licenses
 `graphics/items/equipment/head/santahat.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/silkheadband.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/skullmask.png` | Beelzebub, FotherJ | GPLv2
+`graphics/items/equipment/head/skullmask-dyable.png` | Beelzebub, FotherJ, HoraK-FDF | GPLv2
 `graphics/items/equipment/head/snowgoggles.png` | VXD | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/snowshroomhat.png` | Cassy, HoraK-FDF | CC BY-SA 3.0
 `graphics/items/equipment/head/sunglasses.png` | UntamedMonkey | GPLv2, CC BY-SA 3.0
@@ -912,6 +914,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/goggles.png` | Fettsack | GPLv2
 `graphics/sprites/equipment/head/gradcap.png` | Arilious | GPLv2
 `graphics/sprites/equipment/head/guyfawkes.png` | 5t3v3 | GPLv2
+`graphics/sprites/equipment/head/headslime.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/equipment/head/heart-glasses.png` | Lizandra | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/highpriest-crown.png` | Black Don | GPLv2
 `graphics/sprites/equipment/head/infantryhelm.png` | Black Don | GPLv2
@@ -950,6 +953,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/shroom.png` | crevost2, Yuuki | GPLv2
 `graphics/sprites/equipment/head/silkheadband.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/skullmask.png` | Beelzebub, FotherJ | GPLv2
+`graphics/sprites/equipment/head/skullmask-dyable.png` | Beelzebub, FotherJ, HoraK-FDF | GPLv2
 `graphics/sprites/equipment/head/smileycap.png` | +seeds | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/snowgoggles.png` | VXD | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/snowshroomhat.png` | Saulc, Cassy, HoraK-FDF | CC BY-SA 3.0
