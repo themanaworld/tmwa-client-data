@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="150" height="150" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="68">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="150" height="150" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="76">
  <properties>
   <property name="minimap" value="graphics/minimaps/006-3.png"/>
   <property name="music" value="Clouds_Calling.ogg"/>
@@ -779,7 +779,7 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup id="6" name="Objects" visible="0">
+ <objectgroup id="6" name="Objects">
   <object id="1" name="graphics/particles/flame.particle.xml" type="particle_effect" x="928" y="3456" width="32" height="32"/>
   <object id="2" name="graphics/particles/flame.particle.xml" type="particle_effect" x="2112" y="3360" width="32" height="32"/>
   <object id="3" name="graphics/particles/flame.particle.xml" type="particle_effect" x="2592" y="3904" width="32" height="32"/>
@@ -921,209 +921,273 @@
   <object id="31" name="MountainSnake" type="spawn" x="2880" y="672" width="1184" height="288">
    <properties>
     <property name="death" value="90000"/>
-    <property name="spawn" value="15000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="24"/>
+    <property name="spawn" value="15000"/>
    </properties>
   </object>
   <object id="32" name="MountainSnake" type="spawn" x="2944" y="1408" width="480" height="448">
    <properties>
     <property name="death" value="90000"/>
-    <property name="spawn" value="15000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="24"/>
+    <property name="spawn" value="15000"/>
    </properties>
   </object>
   <object id="33" name="MountainSnake" type="spawn" x="2624" y="1856" width="480" height="384">
    <properties>
     <property name="death" value="90000"/>
-    <property name="spawn" value="15000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="24"/>
+    <property name="spawn" value="15000"/>
    </properties>
   </object>
   <object id="34" name="MountainSnake" type="spawn" x="2304" y="2752" width="960" height="320">
    <properties>
     <property name="death" value="90000"/>
-    <property name="spawn" value="15000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="24"/>
+    <property name="spawn" value="15000"/>
    </properties>
   </object>
   <object id="35" name="MountainSnake" type="spawn" x="3296" y="2368" width="416" height="320">
    <properties>
     <property name="death" value="90000"/>
-    <property name="spawn" value="15000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="24"/>
+    <property name="spawn" value="15000"/>
    </properties>
   </object>
   <object id="36" name="MountainSnake" type="spawn" x="3584" y="3520" width="512" height="480">
    <properties>
     <property name="death" value="90000"/>
-    <property name="spawn" value="15000"/>
     <property name="max_beings" value="4"/>
     <property name="monster_id" value="24"/>
+    <property name="spawn" value="15000"/>
    </properties>
   </object>
   <object id="37" name="MountainSnake" type="spawn" x="3168" y="1792" width="480" height="576">
    <properties>
     <property name="death" value="90000"/>
-    <property name="spawn" value="15000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="24"/>
+    <property name="spawn" value="15000"/>
    </properties>
   </object>
   <object id="38" name="MountainSnake" type="spawn" x="1600" y="1728" width="1024" height="1152">
    <properties>
     <property name="death" value="90000"/>
-    <property name="spawn" value="15000"/>
     <property name="max_beings" value="10"/>
     <property name="monster_id" value="24"/>
+    <property name="spawn" value="15000"/>
    </properties>
   </object>
   <object id="39" name="MountainSnake" type="spawn" x="1408" y="2880" width="896" height="992">
    <properties>
     <property name="death" value="90000"/>
-    <property name="spawn" value="15000"/>
     <property name="max_beings" value="8"/>
     <property name="monster_id" value="24"/>
+    <property name="spawn" value="15000"/>
    </properties>
   </object>
   <object id="40" name="MountainSnake" type="spawn" x="2080" y="3776" width="544" height="192">
    <properties>
     <property name="death" value="90000"/>
-    <property name="spawn" value="15000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="24"/>
+    <property name="spawn" value="15000"/>
    </properties>
   </object>
   <object id="41" name="MountainSnake" type="spawn" x="3584" y="1600" width="384" height="320">
    <properties>
     <property name="death" value="90000"/>
-    <property name="spawn" value="15000"/>
     <property name="max_beings" value="4"/>
     <property name="monster_id" value="24"/>
+    <property name="spawn" value="15000"/>
    </properties>
   </object>
   <object id="42" name="MountainSnake" type="spawn" x="3776" y="1920" width="352" height="192">
    <properties>
     <property name="death" value="90000"/>
-    <property name="spawn" value="15000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="24"/>
+    <property name="spawn" value="15000"/>
    </properties>
   </object>
   <object id="43" name="MountainSnake" type="spawn" x="1920" y="768" width="800" height="832">
    <properties>
     <property name="death" value="90000"/>
-    <property name="spawn" value="15000"/>
     <property name="max_beings" value="10"/>
     <property name="monster_id" value="24"/>
+    <property name="spawn" value="15000"/>
    </properties>
   </object>
   <object id="44" name="MountainSnake" type="spawn" x="2624" y="768" width="192" height="256">
    <properties>
     <property name="death" value="90000"/>
-    <property name="spawn" value="15000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="24"/>
+    <property name="spawn" value="15000"/>
    </properties>
   </object>
   <object id="45" name="MountainSnake" type="spawn" x="704" y="832" width="1184" height="928">
    <properties>
     <property name="death" value="90000"/>
-    <property name="spawn" value="15000"/>
     <property name="max_beings" value="8"/>
     <property name="monster_id" value="24"/>
+    <property name="spawn" value="15000"/>
    </properties>
   </object>
   <object id="46" name="MountainSnake" type="spawn" x="672" y="1760" width="896" height="384">
    <properties>
     <property name="death" value="90000"/>
-    <property name="spawn" value="15000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="24"/>
+    <property name="spawn" value="15000"/>
    </properties>
   </object>
   <object id="47" name="RedSlime" type="spawn" x="2368" y="2240" width="864" height="320">
    <properties>
     <property name="death" value="10000"/>
-    <property name="spawn" value="15000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="6"/>
+    <property name="spawn" value="15000"/>
    </properties>
   </object>
-  <object id="48" name="RedSlime" type="spawn" x="3712" y="2112" width="320" height="704">
+  <object id="71" name="RedSuperSlime" type="spawn" x="2368" y="2240" width="864" height="320">
    <properties>
     <property name="death" value="10000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1234"/>
     <property name="spawn" value="15000"/>
+   </properties>
+  </object>
+  <object id="48" name="RedSlime" type="spawn" x="3712" y="2176" width="320" height="640">
+   <properties>
+    <property name="death" value="10000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="6"/>
+    <property name="spawn" value="15000"/>
+   </properties>
+  </object>
+  <object id="70" name="RedSuperSlime" type="spawn" x="3712" y="2176" width="320" height="640">
+   <properties>
+    <property name="death" value="10000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1234"/>
+    <property name="spawn" value="15000"/>
    </properties>
   </object>
   <object id="49" name="RedSlime" type="spawn" x="3008" y="2592" width="480" height="288">
    <properties>
     <property name="death" value="10000"/>
-    <property name="spawn" value="15000"/>
     <property name="max_beings" value="4"/>
     <property name="monster_id" value="6"/>
+    <property name="spawn" value="15000"/>
    </properties>
   </object>
-  <object id="50" name="MountainSnake" type="spawn" x="960" y="3872" width="960" height="256">
+  <object id="69" name="RedSuperSlime" type="spawn" x="3008" y="2592" width="480" height="288">
    <properties>
-    <property name="death" value="90000"/>
+    <property name="death" value="10000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1234"/>
     <property name="spawn" value="15000"/>
-    <property name="max_beings" value="5"/>
-    <property name="monster_id" value="24"/>
-   </properties>
-  </object>
-  <object id="51" name="MountainSnake" type="spawn" x="2624" y="3904" width="576" height="256">
-   <properties>
-    <property name="death" value="90000"/>
-    <property name="spawn" value="15000"/>
-    <property name="max_beings" value="5"/>
-    <property name="monster_id" value="24"/>
    </properties>
   </object>
   <object id="52" name="RedSlime" type="spawn" x="768" y="2496" width="448" height="672">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="90000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="6"/>
+    <property name="spawn" value="90000"/>
+   </properties>
+  </object>
+  <object id="72" name="RedSuperSlime" type="spawn" x="768" y="2496" width="448" height="672">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1234"/>
+    <property name="spawn" value="90000"/>
+   </properties>
+  </object>
+  <object id="50" name="MountainSnake" type="spawn" x="960" y="3872" width="960" height="256">
+   <properties>
+    <property name="death" value="90000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="24"/>
+    <property name="spawn" value="15000"/>
+   </properties>
+  </object>
+  <object id="51" name="MountainSnake" type="spawn" x="2624" y="3904" width="576" height="256">
+   <properties>
+    <property name="death" value="90000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="24"/>
+    <property name="spawn" value="15000"/>
    </properties>
   </object>
   <object id="53" name="Spider" type="spawn" x="3744" y="2880" width="352" height="544">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="90000"/>
     <property name="max_beings" value="3"/>
     <property name="monster_id" value="10"/>
+    <property name="spawn" value="90000"/>
    </properties>
   </object>
   <object id="54" name="Spider" type="spawn" x="3488" y="3136" width="256" height="448">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="90000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="10"/>
+    <property name="spawn" value="90000"/>
    </properties>
   </object>
   <object id="55" name="Spider" type="spawn" x="3168" y="3328" width="320" height="320">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="90000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="10"/>
+    <property name="spawn" value="90000"/>
    </properties>
   </object>
   <object id="56" name="YellowSlime" type="spawn" x="2464" y="3200" width="448" height="480">
    <properties>
     <property name="death" value="30000"/>
-    <property name="spawn" value="90000"/>
     <property name="max_beings" value="6"/>
     <property name="monster_id" value="5"/>
+    <property name="spawn" value="90000"/>
+   </properties>
+  </object>
+  <object id="68" name="YellowSuperSlime" type="spawn" x="2464" y="3200" width="448" height="480">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="1233"/>
+    <property name="spawn" value="100000"/>
+   </properties>
+  </object>
+  <object id="73" name="GoldenSkull" type="spawn" x="3584" y="3520" width="512" height="480">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1230"/>
+    <property name="spawn" value="100000"/>
+   </properties>
+  </object>
+  <object id="74" name="GoldenSkull" type="spawn" x="2624" y="3904" width="576" height="256">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="1230"/>
+    <property name="spawn" value="100000"/>
+   </properties>
+  </object>
+  <object id="75" name="GoldenSkull" type="spawn" x="960" y="3872" width="960" height="256">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="1230"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="57" name="graphics/particles/flame.particle.xml" type="particle_effect" x="1280" y="3936" width="32" height="32"/>

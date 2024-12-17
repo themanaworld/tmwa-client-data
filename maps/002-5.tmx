@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="128" height="128" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="30">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="128" height="128" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="31">
  <properties>
   <property name="minimap" value="graphics/minimaps/002-5.png"/>
   <property name="music" value="cavesong.ogg"/>
@@ -1256,14 +1256,6 @@
     <property name="spawn" value="100000"/>
    </properties>
   </object>
-  <object id="15" name="YellowSlime" type="spawn" x="1984" y="3168" width="416" height="96">
-   <properties>
-    <property name="death" value="30000"/>
-    <property name="max_beings" value="4"/>
-    <property name="monster_id" value="5"/>
-    <property name="spawn" value="100000"/>
-   </properties>
-  </object>
   <object id="16" name="Archant" type="spawn" x="2912" y="2496" width="64" height="192">
    <properties>
     <property name="death" value="30000"/>
@@ -1293,14 +1285,6 @@
     <property name="death" value="30000"/>
     <property name="max_beings" value="1"/>
     <property name="monster_id" value="58"/>
-    <property name="spawn" value="100000"/>
-   </properties>
-  </object>
-  <object id="20" name="YellowSlime" type="spawn" x="2784" y="1920" width="224" height="96">
-   <properties>
-    <property name="death" value="30000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="5"/>
     <property name="spawn" value="100000"/>
    </properties>
   </object>
@@ -1336,11 +1320,35 @@
     <property name="spawn" value="100000"/>
    </properties>
   </object>
+  <object id="15" name="YellowSlime" type="spawn" x="1984" y="3168" width="416" height="96">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="5"/>
+    <property name="spawn" value="100000"/>
+   </properties>
+  </object>
+  <object id="20" name="YellowSlime" type="spawn" x="2784" y="1920" width="224" height="96">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="5"/>
+    <property name="spawn" value="100000"/>
+   </properties>
+  </object>
   <object id="25" name="YellowSlime" type="spawn" x="2848" y="1184" width="288" height="96">
    <properties>
     <property name="death" value="30000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="5"/>
+    <property name="spawn" value="100000"/>
+   </properties>
+  </object>
+  <object id="30" name="YellowSuperSlime" type="spawn" x="2112" y="1184" width="1024" height="2080">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="1233"/>
     <property name="spawn" value="100000"/>
    </properties>
   </object>

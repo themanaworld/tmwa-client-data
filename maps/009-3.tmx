@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="200" height="151" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="35">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="200" height="151" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="38">
  <properties>
   <property name="minimap" value="graphics/minimaps/009-3.png"/>
   <property name="music" value="cavesong.ogg"/>
@@ -695,6 +695,14 @@
     <property name="spawn" value="0"/>
    </properties>
   </object>
+  <object id="36" name="YellowSuperSlime" type="spawn" x="0" y="0">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="1233"/>
+    <property name="spawn" value="100000"/>
+   </properties>
+  </object>
   <object id="30" name="BlackScorpion" type="spawn" x="0" y="0" width="4032" height="4832">
    <properties>
     <property name="death" value="0"/>
@@ -709,6 +717,14 @@
     <property name="max_beings" value="35"/>
     <property name="monster_id" value="6"/>
     <property name="spawn" value="0"/>
+   </properties>
+  </object>
+  <object id="37" name="RedSuperSlime" type="spawn" x="0" y="0" width="4064" height="4832">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="7"/>
+    <property name="monster_id" value="1234"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="32" name="CaveMaggot" type="spawn" x="2880" y="0" width="3552" height="4864">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="178" height="128" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="23">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="178" height="128" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="24">
  <properties>
   <property name="music" value="explorers-melody.ogg"/>
   <property name="name" value="Frosty Underground"/>
@@ -617,14 +617,6 @@
     <property name="spawn" value="100000"/>
    </properties>
   </object>
-  <object id="12" name="BlueSlime" type="spawn" x="3200" y="2592" width="480" height="320">
-   <properties>
-    <property name="death" value="30000"/>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="89"/>
-    <property name="spawn" value="100000"/>
-   </properties>
-  </object>
   <object id="13" name="WhiteSlime" type="spawn" x="3040" y="2400" width="224" height="160">
    <properties>
     <property name="death" value="30000"/>
@@ -657,6 +649,14 @@
     <property name="spawn" value="100000"/>
    </properties>
   </object>
+  <object id="12" name="BlueSlime" type="spawn" x="3200" y="2592" width="480" height="320">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="89"/>
+    <property name="spawn" value="100000"/>
+   </properties>
+  </object>
   <object id="17" name="BlueSlime" type="spawn" x="4384" y="3232" width="480" height="320">
    <properties>
     <property name="death" value="30000"/>
@@ -678,6 +678,14 @@
     <property name="death" value="30000"/>
     <property name="max_beings" value="2"/>
     <property name="monster_id" value="89"/>
+    <property name="spawn" value="100000"/>
+   </properties>
+  </object>
+  <object id="23" name="BlueSuperSlime" type="spawn" x="2464" y="1408" width="2656" height="2176">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="1236"/>
     <property name="spawn" value="100000"/>
    </properties>
   </object>
