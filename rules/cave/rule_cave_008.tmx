@@ -1,49 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="13" height="17" tilewidth="32" tileheight="32">
- <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="13" height="17" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="1">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32" tilecount="2" columns="2">
   <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
- <tileset firstgid="3" name="set" tilewidth="32" tileheight="32">
+ <tileset firstgid="3" name="set" tilewidth="32" tileheight="32" tilecount="64" columns="8">
   <image source="../../graphics/tiles/set_cave.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="67" name="set_rules" tilewidth="32" tileheight="32">
+ <tileset firstgid="67" name="set_rules" tilewidth="32" tileheight="32" tilecount="4" columns="2">
   <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="71" name="cave" tilewidth="32" tileheight="32">
+ <tileset firstgid="71" name="cave" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../../graphics/tiles/cave.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="199" name="cave_x2" tilewidth="32" tileheight="64">
+ <tileset firstgid="199" name="cave_x2" tilewidth="32" tileheight="64" tilecount="16" columns="16">
   <image source="../../graphics/tiles/cave_x2.png" width="512" height="64"/>
  </tileset>
- <layer name="ruleRegions" width="13" height="17">
+ <layer id="1" name="regions" width="13" height="17">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA84I2Fi+MNRDzUAOebSS88ooA0AAAuES0x0AwAA
+   H4sIAAAAAAAACmNgIA84I2Fi+MNRDzUAOebSS88ooA0AAAuES0x0AwAA
   </data>
  </layer>
- <layer name="ruleSet" width="13" height="17">
+ <layer id="2" name="input_set" width="13" height="17">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA+wI2Fi+PTWI4GmRh6NL46mZygBkLv5GUhzP7ZwGgUDAwCsvj4ldAMAAA==
+   H4sIAAAAAAAACmNgIA+wI2Fi+PTWI4GmRh6NL46mZygBkLv5GUhzP7ZwGgUDAwCsvj4ldAMAAA==
   </data>
  </layer>
- <layer name="ruleSet" width="13" height="17">
+ <layer id="3" name="input_set" width="13" height="17">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGBlAAI3PMSCuGAWjgIEBAFKSi7B0AwAA
+   H4sIAAAAAAAACmNgGBlAAI3PMSCuGAWjgIEBAFKSi7B0AwAA
   </data>
  </layer>
- <layer name="ruleNotSet" width="13" height="17" opacity="0.36">
+ <layer id="4" name="output_NotSet" width="13" height="17" opacity="0.36">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAUgwI6EieHTyt5RMPwBAE+qjq10AwAA
+   H4sIAAAAAAAACmNgGAUgwI6EieHTyt5RMPwBAE+qjq10AwAA
   </data>
  </layer>
- <layer name="rule_Ground" width="13" height="17">
+ <layer id="5" name="output_Ground" width="13" height="17">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA9EI2Fi+CCQjYSJ4YPAXCCeB8TzofwWIG4F4jYoPwSIQ4E4DEnPWiBeB8TrofwpQDwViKdB+SlAnArEaUT6FQRKgLgUiMtI0EMr4I2EaalnFNAGAADyhvLUdAMAAA==
+   H4sIAAAAAAAACmNgIA9EI2Fi+CCQjYSJ4YPAXCCeB8TzofwWIG4F4jYoPwSIQ4E4DEnPWiBeB8TrofwpQDwViKdB+SlAnArEaUT6FQRKgLgUiMtI0EMr4I2EaalnFNAGAADyhvLUdAMAAA==
   </data>
  </layer>
- <layer name="rule_Over" width="13" height="17">
+ <layer id="6" name="output_Over" width="13" height="17">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAUDCeKQMLHAHQkTC04D8RkgPkuCnlFAGwAAqtusvHQDAAA=
+   H4sIAAAAAAAACmNgGAUDCeKQMLHAHQkTC04D8RkgPkuCnlFAGwAAqtusvHQDAAA=
   </data>
  </layer>
 </map>

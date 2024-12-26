@@ -1,54 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="17" height="17" tilewidth="32" tileheight="32">
- <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="17" height="17" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="1">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32" tilecount="2" columns="2">
   <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
- <tileset firstgid="3" name="set" tilewidth="32" tileheight="32">
+ <tileset firstgid="3" name="set" tilewidth="32" tileheight="32" tilecount="64" columns="8">
   <image source="../../graphics/tiles/set_cave.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="67" name="set_rules" tilewidth="32" tileheight="32">
+ <tileset firstgid="67" name="set_rules" tilewidth="32" tileheight="32" tilecount="4" columns="2">
   <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="71" name="cave" tilewidth="32" tileheight="32">
+ <tileset firstgid="71" name="cave" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../../graphics/tiles/cave.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="199" name="cave_x2" tilewidth="32" tileheight="64">
+ <tileset firstgid="199" name="cave_x2" tilewidth="32" tileheight="64" tilecount="16" columns="16">
   <image source="../../graphics/tiles/cave_x2.png" width="512" height="64"/>
  </tileset>
- <layer name="ruleRegions" width="17" height="17">
+ <layer id="1" name="regions" width="17" height="17">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoA5wJpGmFRis7sAlPlDuIFaeXu4YBSMXAAAIMvB/hAQAAA==
+   H4sIAAAAAAAACmNgoA5wJpGmFRis7sAlPlDuIFaeXu4YBSMXAAAIMvB/hAQAAA==
   </data>
  </layer>
- <layer name="ruleSet" width="17" height="17">
+ <layer id="2" name="input_set" width="17" height="17">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA9XOSQqAMBBE0YAjzhhRwRH1/md080VocNdRrM2DhKbKGJ146GOAIUYYi7tEqf9KihnmWGCJlbirlXdYbMR7ix32yr0yA44P/wuujnfseDju+WsmnD9dcWd7sesEaEU/nYQEAAA=
+   H4sIAAAAAAAACtXOSQqAMBBE0YAjzhhRwRH1/md080VocNdRrM2DhKbKGJ146GOAIUYYi7tEqf9KihnmWGCJlbirlXdYbMR7ix32yr0yA44P/wuujnfseDju+WsmnD9dcWd7sesEaEU/nYQEAAA=
   </data>
  </layer>
- <layer name="rule_Ground" width="17" height="17">
+ <layer id="3" name="output_Ground" width="17" height="17">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoA7whtL7ofRWNDoaSrtQyT5c4BCU3ovDHS5oNK3ARijtjSZOb3d4o9HogNb2w0ASGj0KRgEMAAB5sOMrhAQAAA==
+   H4sIAAAAAAAACmNgoA7whtL7ofRWNDoaSrtQyT5c4BCU3ovDHS5oNK3ARijtjSZOb3d4o9HogNb2w0ASGj0KRgEMAAB5sOMrhAQAAA==
   </data>
  </layer>
- <layer name="rule_Fringe" width="17" height="17">
+ <layer id="6" name="output_Over" width="17" height="17">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC1opLH5xIKJA2RvAhp/IZ3tPwilj9PZXlwgYaAdMAoGHQAA9etQ4oQEAAA=
+   H4sIAAAAAAAACmNgGAWjYBSMgoEDAJPZHwSEBAAA
   </data>
  </layer>
- <layer name="rule_Collision" width="17" height="17">
+ <layer id="4" name="output_Fringe" width="17" height="17">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoA1gIsCnFaCXPYQAExpNqjy93UEvMFjiZxQMHgAAgZ1QGoQEAAA=
+   H4sIAAAAAAAACmNgoC1opLH5xIKJA2RvAhp/IZ3tPwilj9PZXlwgYaAdMAoGHQAA9etQ4oQEAAA=
   </data>
  </layer>
- <layer name="rule_Over" width="17" height="17">
+ <layer id="5" name="output_Collision" width="17" height="17">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAWjYBSMgoEDAJPZHwSEBAAA
+   H4sIAAAAAAAACmNgoA1gIsCnFaCXPYQAExpNqjy93UEvMFjiZxQMHgAAgZ1QGoQEAAA=
   </data>
  </layer>
- <layer name="rule_Error" width="17" height="17">
+ <layer id="7" name="output_Error" width="17" height="17">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAWjYBSMgoEDAJPZHwSEBAAA
+   H4sIAAAAAAAACmNgGAWjYBSMgoEDAJPZHwSEBAAA
   </data>
  </layer>
 </map>

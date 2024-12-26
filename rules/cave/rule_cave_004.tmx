@@ -1,41 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="7" height="7" tilewidth="32" tileheight="32">
- <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="7" height="7" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="1">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32" tilecount="2" columns="2">
   <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
- <tileset firstgid="3" name="set" tilewidth="32" tileheight="32">
+ <tileset firstgid="3" name="set" tilewidth="32" tileheight="32" tilecount="64" columns="8">
   <image source="../../graphics/tiles/set_cave.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="67" name="set_rules" tilewidth="32" tileheight="32">
+ <tileset firstgid="67" name="set_rules" tilewidth="32" tileheight="32" tilecount="4" columns="2">
   <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="71" name="cave" tilewidth="32" tileheight="32">
+ <tileset firstgid="71" name="cave" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../../graphics/tiles/cave.png" width="512" height="256"/>
  </tileset>
- <layer name="ruleRegions" width="7" height="7">
+ <layer id="1" name="regions" width="7" height="7">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA+coRidTSs5cgAAwD96ZMQAAAA=
+   H4sIAAAAAAAACmNgwA+coRidTSs5cgAAwD96ZMQAAAA=
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="7">
+ <layer id="2" name="input_set" width="7" height="7">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoA1gh2J0NrI8AxZxcgAAt2sDDsQAAAA=
+   H4sIAAAAAAAACmNgwA/YoRidTYkcA5ocpQAA/yOthcQAAAA=
   </data>
  </layer>
- <layer name="ruleNotSet" width="7" height="7">
+ <layer id="3" name="output_NotSet" width="7" height="7" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoD9gJ8AnFQAAUPPppcQAAAA=
+   H4sIAAAAAAAACmNgoD9gJ8AnFQAAUPPppcQAAAA=
   </data>
  </layer>
- <layer name="rule_Ground" width="7" height="7">
+ <layer id="4" name="output_Ground" width="7" height="7" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAzyoXQuFrl6KF2LRa4fSvcSYQclAAD6CzmwxAAAAA==
+   H4sIAAAAAAAACmNgIAzyoXQuFrl6KF2LRa4fSvcSYQclAAD6CzmwxAAAAA==
   </data>
  </layer>
- <layer name="rule_Collision" width="7" height="7">
+ <layer id="5" name="output_Collision" width="7" height="7" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA+YoBidTYkcA5ocpQAAeqBqScQAAAA=
+   H4sIAAAAAAAACmNgwA+YoBidTYkcA5ocpQAAeqBqScQAAAA=
   </data>
  </layer>
 </map>

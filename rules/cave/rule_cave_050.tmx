@@ -1,78 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="5" height="5" tilewidth="32" tileheight="32">
- <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="5" height="5" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="1">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32" tilecount="2" columns="2">
   <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
- <tileset firstgid="3" name="set" tilewidth="32" tileheight="32">
+ <tileset firstgid="3" name="set" tilewidth="32" tileheight="32" tilecount="64" columns="8">
   <image source="../../graphics/tiles/set_cave.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="67" name="set_rules" tilewidth="32" tileheight="32">
+ <tileset firstgid="67" name="set_rules" tilewidth="32" tileheight="32" tilecount="4" columns="2">
   <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
  </tileset>
- <layer name="ruleRegions" width="5" height="5">
+ <layer id="1" name="regions" width="5" height="5">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA2csfCdcYjjAwBFZMEtZAAAAA==
+   H4sIAAAAAAAACmNgwA2csfCdcYjjAwBFZMEtZAAAAA==
   </data>
  </layer>
- <layer name="ruleSet" width="5" height="5">
+ <layer id="2" name="input_set" width="5" height="5" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA24cfBxieMCAL942VBkAAAA
+   H4sIAAAAAAAACmNgwA24cfBxieMCAL942VBkAAAA
   </data>
  </layer>
- <layer name="ruleSet" width="5" height="5">
+ <layer id="3" name="input_set" width="5" height="5" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA2EcfBxieMCAMG3CItkAAAA
+   H4sIAAAAAAAACmNgwA2EcfBxieMCAMG3CItkAAAA
   </data>
  </layer>
- <layer name="ruleSet" width="5" height="5">
+ <layer id="4" name="input_set" width="5" height="5" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA1EcPBxieMCAAvusS9kAAAA
+   H4sIAAAAAAAACmNgwA1EcPBxieMCAAvusS9kAAAA
   </data>
  </layer>
- <layer name="ruleSet" width="5" height="5">
+ <layer id="5" name="input_set" width="5" height="5" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA1kcPBxieMCACGr/mZkAAAA
+   H4sIAAAAAAAACmNgwA1kcPBxieMCACGr/mZkAAAA
   </data>
  </layer>
- <layer name="ruleSet" width="5" height="5">
+ <layer id="6" name="input_set" width="5" height="5" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA1UcPBxieMCALZ2Y0NkAAAA
+   H4sIAAAAAAAACmNgwA1UcPBxieMCALZ2Y0NkAAAA
   </data>
  </layer>
- <layer name="ruleSet" width="5" height="5">
+ <layer id="7" name="input_set" width="5" height="5" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA1YcfBxieMCAGrN2sJkAAAA
+   H4sIAAAAAAAACmNgwA1YcfBxieMCAGrN2sJkAAAA
   </data>
  </layer>
- <layer name="ruleSet" width="5" height="5">
+ <layer id="8" name="input_set" width="5" height="5" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA3YcfBxieMCAACfMT1kAAAA
+   H4sIAAAAAAAACmNgwA3YcfBxieMCAACfMT1kAAAA
   </data>
  </layer>
- <layer name="ruleSet" width="5" height="5">
+ <layer id="9" name="input_set" width="5" height="5" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA3EcfBxieMCAFQVr69kAAAA
+   H4sIAAAAAAAACmNgwA3EcfBxieMCAFQVr69kAAAA
   </data>
  </layer>
- <layer name="ruleSet" width="5" height="5">
+ <layer id="10" name="input_set" width="5" height="5" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA3kcfBxieMCAH5Q4OZkAAAA
+   H4sIAAAAAAAACmNgwA3kcfBxieMCAH5Q4OZkAAAA
   </data>
  </layer>
- <layer name="ruleSet" width="5" height="5">
+ <layer id="11" name="input_set" width="5" height="5" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA0kcPBxieMCALQJWUJkAAAA
+   H4sIAAAAAAAACmNgwA0kcPBxieMCALQJWUJkAAAA
   </data>
  </layer>
- <layer name="ruleSet" width="5" height="5">
+ <layer id="12" name="input_set" width="5" height="5" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA0UcPBxieMCACPUxGdkAAAA
+   H4sIAAAAAAAACmNgwA0UcPBxieMCACPUxGdkAAAA
   </data>
  </layer>
- <layer name="rule_Collision" width="5" height="5">
+ <layer id="13" name="output_Collision" width="5" height="5" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA0wkageBADQPhFKZAAAAA==
+   H4sIAAAAAAAACmNgIA0wkageBADQPhFKZAAAAA==
   </data>
  </layer>
 </map>

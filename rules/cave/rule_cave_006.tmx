@@ -1,76 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="6" height="6" tilewidth="32" tileheight="32">
- <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="6" height="6" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="1">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32" tilecount="2" columns="2">
   <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
  </tileset>
- <tileset firstgid="3" name="set" tilewidth="32" tileheight="32">
+ <tileset firstgid="3" name="set" tilewidth="32" tileheight="32" tilecount="64" columns="8">
   <image source="../../graphics/tiles/set_cave.png" width="256" height="256"/>
  </tileset>
- <tileset firstgid="67" name="set_rules" tilewidth="32" tileheight="32">
+ <tileset firstgid="67" name="set_rules" tilewidth="32" tileheight="32" tilecount="4" columns="2">
   <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="71" name="cave" tilewidth="32" tileheight="32">
+ <tileset firstgid="71" name="cave" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../../graphics/tiles/cave.png" width="512" height="256"/>
  </tileset>
- <layer name="ruleRegions" width="6" height="6">
+ <layer id="1" name="regions" width="6" height="6">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA2ckWhnLOL4ALp6Zyzi2AAAH/dlMZAAAAA=
+   H4sIAAAAAAAACmNgwA2ckWhnLOL4ALp6Zyzi2AAAH/dlMZAAAAA=
   </data>
  </layer>
- <layer name="ruleSet" width="6" height="6">
+ <layer id="2" name="input_set" width="6" height="6" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAzECPCppQcEAF5x3w6QAAAA
+   H4sIAAAAAAAACmNgIAzECPCppQcEAF5x3w6QAAAA
   </data>
  </layer>
- <layer name="ruleSet" width="6" height="6">
+ <layer id="3" name="input_set" width="6" height="6" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAz4CPCppQcEAMFTlWKQAAAA
+   H4sIAAAAAAAACmNgIAz4CPCppQcEAMFTlWKQAAAA
   </data>
  </layer>
- <layer name="ruleSet" width="6" height="6">
+ <layer id="4" name="input_set" width="6" height="6" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAzYCPCppQcEAItPfPCQAAAA
+   H4sIAAAAAAAACmNgIAzYCPCppQcEAItPfPCQAAAA
   </data>
  </layer>
- <layer name="ruleSet" width="6" height="6">
+ <layer id="5" name="input_set" width="6" height="6" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAx4CfCppQcEAOr1Fs+QAAAA
+   H4sIAAAAAAAACmNgIAx4CfCppQcEAOr1Fs+QAAAA
   </data>
  </layer>
- <layer name="ruleSet" width="6" height="6">
+ <layer id="6" name="input_set" width="6" height="6" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAxYCfCppQcEAKDp/12QAAAA
+   H4sIAAAAAAAACmNgIAxYCfCppQcEAKDp/12QAAAA
   </data>
  </layer>
- <layer name="ruleNotSet" width="6" height="6" opacity="0.06">
+ <layer id="7" name="output_NotSet" width="6" height="6" visible="0" opacity="0.96">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA3EcLBJBaSYAwCr1UHrkAAAAA==
+   H4sIAAAAAAAACmNgwA3EcLBJBaSYAwCr1UHrkAAAAA==
   </data>
  </layer>
- <layer name="ruleNotSet" width="6" height="6" opacity="0.06">
+ <layer id="8" name="output_NotSet" width="6" height="6" visible="0" opacity="0.96">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA34cLBJBaSYAwDclnPrkAAAAA==
+   H4sIAAAAAAAACmNgwA34cLBJBaSYAwDclnPrkAAAAA==
   </data>
  </layer>
- <layer name="ruleNotSet" width="6" height="6" opacity="0.05">
+ <layer id="9" name="output_NotSet" width="6" height="6" visible="0" opacity="0.79">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA3YcLBJBaSYAwDxV2LrkAAAAA==
+   H4sIAAAAAAAACmNgwA3YcLBJBaSYAwDxV2LrkAAAAA==
   </data>
  </layer>
- <layer name="ruleNotSet" width="6" height="6" opacity="0.08">
+ <layer id="10" name="output_NotSet" width="6" height="6" visible="0" opacity="0.88">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA14cbBJBaSYAwDKPH9LkAAAAA==
+   H4sIAAAAAAAACmNgwA14cbBJBaSYAwDKPH9LkAAAAA==
   </data>
  </layer>
- <layer name="ruleNotSet" width="6" height="6" opacity="0.09">
+ <layer id="11" name="output_NotSet" width="6" height="6" visible="0" opacity="0.92">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA1YcbBJBaSYAwDn/W5LkAAAAA==
+   H4sIAAAAAAAACmNgwA1YcbBJBaSYAwDn/W5LkAAAAA==
   </data>
  </layer>
- <layer name="rule_Ground" width="6" height="6">
+ <layer id="12" name="output_Ground" width="6" height="6" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAy2ofGXEqHnKBp/CxF6QAAAOgJv95AAAAA=
+   H4sIAAAAAAAACmNgIAy2ofGXEqHnKBp/CxF6QAAAOgJv95AAAAA=
   </data>
  </layer>
 </map>
