@@ -1824,22 +1824,6 @@
     <property name="spawn" value="100000"/>
    </properties>
   </object>
-  <object id="72" name="Yeti" type="spawn" x="6496" y="6112" width="416" height="576">
-   <properties>
-    <property name="death" value="30000"/>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="70"/>
-    <property name="spawn" value="100000"/>
-   </properties>
-  </object>
-  <object id="73" name="Yeti" type="spawn" x="5984" y="6656" width="416" height="576">
-   <properties>
-    <property name="death" value="30000"/>
-    <property name="max_beings" value="1"/>
-    <property name="monster_id" value="70"/>
-    <property name="spawn" value="100000"/>
-   </properties>
-  </object>
   <object id="74" name="Bat" type="spawn" x="5760" y="8352" width="2144" height="1408">
    <properties>
     <property name="death" value="30000"/>
@@ -1856,19 +1840,27 @@
     <property name="spawn" value="100000"/>
    </properties>
   </object>
-  <object id="76" name="Bat" type="spawn" x="5664" y="6176" width="1472" height="480">
+  <object id="73" name="Yeti" type="spawn" x="5984" y="6656" width="416" height="576">
    <properties>
     <property name="death" value="30000"/>
-    <property name="max_beings" value="13"/>
-    <property name="monster_id" value="15"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="70"/>
     <property name="spawn" value="100000"/>
    </properties>
   </object>
   <object id="77" name="Yeti" type="spawn" x="6496" y="6112" width="416" height="576">
    <properties>
     <property name="death" value="30000"/>
-    <property name="max_beings" value="2"/>
+    <property name="max_beings" value="4"/>
     <property name="monster_id" value="70"/>
+    <property name="spawn" value="100000"/>
+   </properties>
+  </object>
+  <object id="76" name="Bat" type="spawn" x="5664" y="6176" width="1472" height="480">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="13"/>
+    <property name="monster_id" value="15"/>
     <property name="spawn" value="100000"/>
    </properties>
   </object>
