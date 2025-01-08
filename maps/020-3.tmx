@@ -499,7 +499,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="4" name="Collision" width="160" height="160">
+ <layer id="4" name="Collision" width="160" height="160" visible="0">
   <data encoding="csv">
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
@@ -663,19 +663,19 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup id="5" name="Objects" visible="0">
-  <object id="1" name="Bat" type="spawn" x="832" y="1088" width="960" height="160">
+ <objectgroup id="5" name="Objects">
+  <object id="1" name="Moggun" type="spawn" x="832" y="1088" width="960" height="160">
    <properties>
     <property name="death" value="30000"/>
+    <property name="monster_id" value="59"/>
     <property name="spawn" value="100000"/>
-    <property name="monster_id" value="15"/>
    </properties>
   </object>
-  <object id="2" name="Pinkie" type="spawn" x="736" y="1472" width="1120" height="256">
+  <object id="2" name="Bluepar" type="spawn" x="736" y="1472" width="1120" height="256">
    <properties>
     <property name="death" value="30000"/>
+    <property name="monster_id" value="105"/>
     <property name="spawn" value="100000"/>
-    <property name="monster_id" value="16"/>
    </properties>
   </object>
   <object id="3" name="To Nivalis" type="warp" x="992" y="800" width="32" height="32">
@@ -727,20 +727,28 @@
     <property name="dest_y" value="34"/>
    </properties>
   </object>
-  <object id="10" name="Bat" type="spawn" x="0" y="0">
+  <object id="10" name="Moggun" type="spawn" x="0" y="0">
    <properties>
     <property name="death" value="0"/>
-    <property name="spawn" value="0"/>
     <property name="max_beings" value="20"/>
-    <property name="monster_id" value="15"/>
+    <property name="monster_id" value="59"/>
+    <property name="spawn" value="0"/>
    </properties>
   </object>
-  <object id="11" name="Pinkie" type="spawn" x="0" y="0">
+  <object id="11" name="Bluepar" type="spawn" x="0" y="0">
    <properties>
     <property name="death" value="0"/>
-    <property name="spawn" value="0"/>
     <property name="max_beings" value="10"/>
-    <property name="monster_id" value="16"/>
+    <property name="monster_id" value="105"/>
+    <property name="spawn" value="0"/>
+   </properties>
+  </object>
+  <object id="12" name="WhiteSlime" type="spawn" x="0" y="0">
+   <properties>
+    <property name="death" value="0"/>
+    <property name="max_beings" value="20"/>
+    <property name="monster_id" value="91"/>
+    <property name="spawn" value="0"/>
    </properties>
   </object>
  </objectgroup>
