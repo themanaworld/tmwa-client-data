@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="8" height="8" tilewidth="32" tileheight="32">
+<map version="1.2" tiledversion="" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="1">
  <tileset firstgid="1" source="../../tilesets/woodland_ground.tsx"/>
  <tileset firstgid="257" source="../../tilesets/collision.tsx"/>
  <tileset firstgid="259" source="../tile_sets/set_rules.tsx"/>
  <tileset firstgid="263" source="../tile_sets/set_woodland.tsx"/>
- <layer name="RuleRegions" width="8" height="8">
+ <layer id="1" name="Regions" width="8" height="8">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgIAyYGVHZMIwuhk09Nj4xAJ8ZuOzH5wZcAABa4mSDAAEAAA==
   </data>
  </layer>
- <layer name="ruleSet" width="8" height="8">
+ <layer id="2" name="Input_set" width="8" height="8">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgIB20M+Ln0wNQyw0ABb5nWQABAAA=
   </data>
  </layer>
- <layer name="rule_Ground" width="8" height="8">
+ <layer id="3" name="Output_Ground" width="8" height="8">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgIB0oovEZyTCDUoDuBnQ+sQAA+GtYcQABAAA=
   </data>
  </layer>
- <layer name="rule_Fringe" width="8" height="8">
+ <layer id="4" name="Output_Fringe" width="8" height="8">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIB20ofGbyDCDUtCIxjcl0xwA8d3OaQABAAA=
+   H4sIAAAAAAAAA2NgIB20ofGbyDCDUtCIxjcl0yAA8d3OaQABAAA=
   </data>
  </layer>
 </map>

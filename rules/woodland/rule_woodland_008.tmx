@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="3" height="3" tilewidth="32" tileheight="32">
+<map version="1.2" tiledversion="" orientation="orthogonal" renderorder="right-down" width="3" height="3" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="1">
  <tileset firstgid="1" source="../../tilesets/woodland_ground.tsx"/>
  <tileset firstgid="257" source="../../tilesets/collision.tsx"/>
  <tileset firstgid="259" source="../tile_sets/set_rules.tsx"/>
  <tileset firstgid="263" source="../tile_sets/set_woodland.tsx"/>
- <layer name="RuleRegions" width="3" height="3">
+ <layer id="1" name="Regions" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAXMjAwYAABHf/0SJAAAAA==
   </data>
  </layer>
- <layer name="ruleSet" width="3" height="3">
+ <layer id="2" name="Input_set" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAU8jAwYAABmD2JuJAAAAA==
   </data>
  </layer>
- <layer name="ruleSet" width="3" height="3">
+ <layer id="3" name="Input_set" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAU6jAwYAABtX550JAAAAA==
   </data>
  </layer>
- <layer name="rule_Fringe" width="3" height="3">
+ <layer id="4" name="Output_Fringe" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAXyDJgAANFp7/YkAAAA
   </data>
  </layer>
- <layer name="rule1_Fringe" width="3" height="3">
+ <layer id="5" name="Output1_Fringe" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAUKDJgAAN7iSnAkAAAA
   </data>

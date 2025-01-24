@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="6" height="6" tilewidth="32" tileheight="32">
+<map version="1.2" tiledversion="" orientation="orthogonal" renderorder="right-down" width="6" height="6" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="1">
  <tileset firstgid="1" source="../../tilesets/woodland_ground.tsx"/>
  <tileset firstgid="257" source="../../tilesets/collision.tsx"/>
  <tileset firstgid="259" source="../tile_sets/set_rules.tsx"/>
  <tileset firstgid="263" source="../tile_sets/set_woodland.tsx"/>
- <layer name="RuleRegions" width="6" height="6">
+ <layer id="1" name="Regions" width="6" height="6">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA2YGRE0jI0sjg+gq0c2Cx8AABj1d5WQAAAA
   </data>
  </layer>
- <layer name="ruleSet" width="6" height="6">
+ <layer id="2" name="Input_set" width="6" height="6">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA3aGbGzSQWkmAMATPuSPpAAAAA=
   </data>
  </layer>
- <layer name="rule_Ground" width="6" height="6">
+ <layer id="3" name="Output_Ground" width="6" height="6">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA2ykdhReNQRAjFIbG8CagE/UQ89kAAAAA==
+   H4sIAAAAAAAAA2NgwA2ykdhReNQRAjFIbG8CigE/UQ89kAAAAA==
   </data>
  </layer>
 </map>

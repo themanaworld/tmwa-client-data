@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="5" height="3" tilewidth="32" tileheight="32">
+<map version="1.2" tiledversion="" orientation="orthogonal" renderorder="right-down" width="5" height="3" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="1">
  <tileset firstgid="1" source="../../tilesets/woodland_ground.tsx"/>
  <tileset firstgid="257" source="../../tilesets/collision.tsx"/>
  <tileset firstgid="259" source="../tile_sets/set_rules.tsx"/>
@@ -8,59 +8,59 @@
  <tileset firstgid="455" source="../../tilesets/woodland_x4.tsx"/>
  <tileset firstgid="471" source="../../tilesets/woodland_x5.tsx"/>
  <tileset firstgid="487" source="../../tilesets/woodland_x8.tsx"/>
- <layer name="RuleRegions" width="5" height="3">
+ <layer id="1" name="Regions" width="5" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA6YGREYFwAANhnGBDwAAAA=
   </data>
  </layer>
- <layer name="ruleSet" width="5" height="3">
+ <layer id="2" name="Input_set" width="5" height="3">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA10GfFIAgEA35cDUzwAAAA=
+   H4sIAAAAAAAAA2NgwA10GfFIMjAwAADflwNTPAAAAA==
   </data>
  </layer>
- <layer name="ruleSet" width="5" height="3">
+ <layer id="3" name="Input_set" width="5" height="3">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA14GfFIAgEADUqxaTwAAAA=
+   H4sIAAAAAAAAA2NgwA14GfFIMjAwAAANSrFpPAAAAA==
   </data>
  </layer>
- <layer name="ruleNotSet" width="5" height="3" opacity="0.48">
+ <layer id="4" name="InputNot_set" width="5" height="3" opacity="0.48">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA50GVFpbAAAdTgBXTwAAAA=
   </data>
  </layer>
- <layer name="ruleNotSet" width="5" height="3" opacity="0.35">
+ <layer id="5" name="InputNot_set" width="5" height="3" opacity="0.35">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA54GVFpbAAALFlNcjwAAAA=
   </data>
  </layer>
- <layer name="rule1_Collision" width="5" height="3" visible="0">
+ <layer id="6" name="Output1_Collision" width="5" height="3" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA2YGCEYFwAAt43XXzwAAAA=
   </data>
  </layer>
- <layer name="rule2_Collision" width="5" height="3" visible="0">
+ <layer id="7" name="Output2_Collision" width="5" height="3" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA2YGCEYFwAAt43XXzwAAAA=
   </data>
  </layer>
- <layer name="rule3_Collision" width="5" height="3" visible="0">
+ <layer id="8" name="Output3_Collision" width="5" height="3" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA2YGCEYFwAAt43XXzwAAAA=
   </data>
  </layer>
- <layer name="rule1_Fringe" width="5" height="3" visible="0">
+ <layer id="9" name="Output1_Fringe" width="5" height="3" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA2WMzIwrGDELQ8AXwd77TwAAAA=
+   H4sIAAAAAAAAA2NgwA2WMzIwrGDErQAAXwd77TwAAAA=
   </data>
  </layer>
- <layer name="rule2_Fringe" width="5" height="3" visible="0">
+ <layer id="10" name="Output2_Fringe" width="5" height="3" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA1WMjIwrGLELQ8ADt5LRDwAAAA=
+   H4sIAAAAAAAAA2NgwA1WMjIwrGLErQAADt5LRDwAAAA=
   </data>
  </layer>
- <layer name="rule3_Fringe" width="5" height="3" visible="0">
+ <layer id="11" name="Output3_Fringe" width="5" height="3" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA1WMzIwrGHELQ8AVd0yeTwAAAA=
+   H4sIAAAAAAAAA2NgwA1WMzIwrGHErQAAVd0yeTwAAAA=
   </data>
  </layer>
 </map>

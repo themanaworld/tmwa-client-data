@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="7" height="7" tilewidth="32" tileheight="32">
+<map version="1.2" tiledversion="" orientation="orthogonal" renderorder="right-down" width="7" height="7" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="1">
  <tileset firstgid="1" source="../../tilesets/woodland_ground.tsx"/>
  <tileset firstgid="257" source="../../tilesets/collision.tsx"/>
  <tileset firstgid="259" source="../tile_sets/set_rules.tsx"/>
  <tileset firstgid="263" source="../tile_sets/set_woodland.tsx"/>
- <layer name="RuleRegions" width="7" height="7">
+ <layer id="1" name="Regions" width="7" height="7">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA+YGSEYnU1Ijp5mAgAsuIhLxAAAAA==
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="7">
+ <layer id="2" name="Input_set" width="7" height="7">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA+mM0IwOhvGR1dLDMCnD599uAAAWiD2c8QAAAA=
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="7">
+ <layer id="3" name="Input_set" width="7" height="7">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA9mMEIwOhvGR1dLDMCnD599uAAAQDj/bcQAAAA=
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="7">
+ <layer id="4" name="Input_set" width="7" height="7">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA9mMkIwOhvGR1dLDMCnD599uAAAaPfeJsQAAAA=
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="7">
+ <layer id="5" name="Input_set" width="7" height="7">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA9mMUIwOhvGR1dLDMCnD599uAAAEKa8+8QAAAA=
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="7">
+ <layer id="6" name="Input_set" width="7" height="7">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA9mM0IwOhvGR1dLDMCnD599uAAAOGmdsMQAAAA=
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="7">
+ <layer id="7" name="Input_set" width="7" height="7">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA/mMEIwOhvGR1dLDMCnD599uAAAoQIJmsQAAAA=
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="7">
+ <layer id="8" name="Input_set" width="7" height="7">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA/mMkIwOhvGR1dLDMCnD599uAAAic0o0cQAAAA=
   </data>
  </layer>
- <layer name="rule_Ground" width="7" height="7">
+ <layer id="9" name="Output_Ground" width="7" height="7">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA/M0fhmBNRTCtTR+GpE6AEA/B2eFsQAAAA=
+   H4sIAAAAAAAAA2NgwA/M0fhmBNRTCtTR+GpEaAIA/B2eFsQAAAA=
   </data>
  </layer>
 </map>

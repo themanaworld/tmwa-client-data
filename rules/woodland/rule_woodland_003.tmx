@@ -1,140 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="3" height="3" tilewidth="32" tileheight="32">
+<map version="1.2" tiledversion="" orientation="orthogonal" renderorder="right-down" width="3" height="3" tilewidth="32" tileheight="32" infinite="0" nextlayerid="28" nextobjectid="1">
  <tileset firstgid="1" source="../../tilesets/woodland_ground.tsx"/>
  <tileset firstgid="257" source="../../tilesets/collision.tsx"/>
  <tileset firstgid="259" source="../tile_sets/set_rules.tsx"/>
  <tileset firstgid="263" source="../tile_sets/set_woodland.tsx"/>
- <layer name="RuleRegions" width="3" height="3">
+ <layer id="1" name="Regions" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAXMjAwYAABHf/0SJAAAAA==
   </data>
  </layer>
- <layer name="ruleSet" width="3" height="3">
+ <layer id="2" name="Input_set" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAXTGRkwAAAXfyfXJAAAAA==
   </data>
  </layer>
- <layer name="ruleSet" width="3" height="3">
+ <layer id="3" name="Input_set" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAUzGBkwAAA2D7irJAAAAA==
   </data>
  </layer>
- <layer name="ruleSet" width="3" height="3">
+ <layer id="4" name="Input_set" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAUzGRkwAABwNN/OJAAAAA==
   </data>
  </layer>
- <layer name="ruleSet" width="3" height="3">
+ <layer id="5" name="Input_set" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAWzGBkwAAC6eXZhJAAAAA==
   </data>
  </layer>
- <layer name="ruleSet" width="3" height="3">
+ <layer id="6" name="Input_set" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAWzGRkwAAD8QhEEJAAAAA==
   </data>
  </layer>
- <layer name="ruleSet" width="3" height="3">
+ <layer id="7" name="Input_set" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAVzGBkwAABv5FXlJAAAAA==
   </data>
  </layer>
- <layer name="ruleSet" width="3" height="3">
+ <layer id="8" name="Input_set" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAVzGRkwAAAp3zKAJAAAAA==
   </data>
  </layer>
- <layer name="rule_Ground" width="3" height="3">
+ <layer id="9" name="Output_Ground" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
   </data>
  </layer>
- <layer name="rule1_Ground" width="3" height="3">
+ <layer id="10" name="Output1_Ground" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
   </data>
  </layer>
- <layer name="rule2_Ground" width="3" height="3">
+ <layer id="11" name="Output2_Ground" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
   </data>
  </layer>
- <layer name="rule3_Ground" width="3" height="3">
+ <layer id="12" name="Output3_Ground" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
   </data>
  </layer>
- <layer name="rule4_Ground" width="3" height="3">
+ <layer id="13" name="Output4_Ground" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
   </data>
  </layer>
- <layer name="rule5_Ground" width="3" height="3">
+ <layer id="14" name="Output5_Ground" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
   </data>
  </layer>
- <layer name="rule6_Ground" width="3" height="3">
+ <layer id="15" name="Output6_Ground" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
   </data>
  </layer>
- <layer name="rule7_Ground" width="3" height="3">
+ <layer id="16" name="Output7_Ground" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
   </data>
  </layer>
- <layer name="rule8_Ground" width="3" height="3">
+ <layer id="17" name="Output8_Ground" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
   </data>
  </layer>
- <layer name="rule9_Ground" width="3" height="3">
+ <layer id="18" name="Output9_Ground" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
   </data>
  </layer>
- <layer name="rule10_Ground" width="3" height="3">
+ <layer id="19" name="Output10_Ground" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
   </data>
  </layer>
- <layer name="rule11_Ground" width="3" height="3">
+ <layer id="20" name="Output11_Ground" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
   </data>
  </layer>
- <layer name="rule12_Ground" width="3" height="3">
+ <layer id="21" name="Output12_Ground" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
   </data>
  </layer>
- <layer name="rule13_Ground" width="3" height="3">
+ <layer id="22" name="Output13_Ground" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
   </data>
  </layer>
- <layer name="rule14_Ground" width="3" height="3">
+ <layer id="23" name="Output14_Ground" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
   </data>
  </layer>
- <layer name="rule15_Ground" width="3" height="3">
+ <layer id="24" name="Output15_Ground" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
   </data>
  </layer>
- <layer name="rule16_Ground" width="3" height="3">
+ <layer id="25" name="Output16_Ground" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
   </data>
  </layer>
- <layer name="ruleSP_Ground" width="3" height="3" visible="0">
+ <layer id="26" name="OutputSP_Ground" width="3" height="3" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAX9DJgAANiC2H0kAAAA
   </data>
  </layer>
- <layer name="ruleSP1_Ground" width="3" height="3" visible="0">
+ <layer id="27" name="OutputSP1_Ground" width="3" height="3" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAXzGTABAP0pHp0kAAAA
   </data>

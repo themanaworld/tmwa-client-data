@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="3" height="3" tilewidth="32" tileheight="32">
+<map version="1.2" tiledversion="" orientation="orthogonal" renderorder="right-down" width="3" height="3" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="1">
  <tileset firstgid="1" source="../../tilesets/woodland_ground.tsx"/>
  <tileset firstgid="257" source="../../tilesets/collision.tsx"/>
  <tileset firstgid="259" source="../tile_sets/set_rules.tsx"/>
  <tileset firstgid="263" source="../tile_sets/set_woodland.tsx"/>
- <layer name="RuleRegions" width="3" height="3">
+ <layer id="1" name="Regions" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAXMjAwYAABHf/0SJAAAAA==
   </data>
  </layer>
- <layer name="ruleSet" width="3" height="3">
+ <layer id="2" name="Input_set" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAXsjAwYAAAelBBcJAAAAA==
   </data>
  </layer>
- <layer name="rule_Ground" width="3" height="3" visible="0">
+ <layer id="3" name="Output_Ground" width="3" height="3" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAWODJgAAIUpKTokAAAA
   </data>
  </layer>
- <layer name="rule1_Ground" width="3" height="3" visible="0">
+ <layer id="4" name="Output1_Ground" width="3" height="3" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAWGDJgAAL1y6/UkAAAA
   </data>
  </layer>
- <layer name="rule2_Ground" width="3" height="3" visible="0">
+ <layer id="5" name="Output2_Ground" width="3" height="3" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAWKDJgAAJjZLRUkAAAA
   </data>
  </layer>
- <layer name="rule3_Ground" width="3" height="3" visible="0">
+ <layer id="6" name="Output3_Ground" width="3" height="3" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAWCDJgAALYiF+8kAAAA
   </data>
  </layer>
- <layer name="rule4_Ground" width="3" height="3" visible="0">
+ <layer id="7" name="Output4_Ground" width="3" height="3" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAWMDJgAAJOJ0Q8kAAAA
   </data>
