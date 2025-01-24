@@ -5,10 +5,8 @@
  <tileset firstgid="3" name="set_icecave" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/set_icecave.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="19" source="../tile_sets/set_rules.tsx"/>
- <tileset firstgid="23" name="icecave" tilewidth="32" tileheight="32">
-  <image source="../../graphics/tiles/icecave.png" width="512" height="256"/>
- </tileset>
+ <tileset firstgid="19" source="../../tilesets/set_rules.tsx"/>
+ <tileset firstgid="23" source="../../tilesets/icecave.tsx"/>
  <layer name="ruleRegions" width="6" height="6">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA2EkWhhLOL4ALp6YSzi2AAALrUFg5AAAAA=
