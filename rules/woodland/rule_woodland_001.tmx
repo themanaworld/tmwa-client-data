@@ -1,49 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="33" height="17" tilewidth="32" tileheight="32">
- <tileset firstgid="1" name="Woodland" tilewidth="32" tileheight="32">
-  <image source="../../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
- </tileset>
- <tileset firstgid="257" name="Collision" tilewidth="32" tileheight="32">
-  <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
- </tileset>
- <tileset firstgid="259" name="set_rules" tilewidth="32" tileheight="32">
-  <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
- </tileset>
- <tileset firstgid="263" name="set_woodland" tilewidth="32" tileheight="32">
-  <image source="../../graphics/tiles/set_woodland.png" width="512" height="320"/>
- </tileset>
- <layer name="RuleRegions" width="33" height="17">
+<map version="1.2" tiledversion="" orientation="orthogonal" renderorder="right-down" width="33" height="17" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="1">
+ <tileset firstgid="1" source="../../tilesets/woodland_ground.tsx"/>
+ <tileset firstgid="257" source="../../tilesets/collision.tsx"/>
+ <tileset firstgid="259" source="../tile_sets/set_rules.tsx"/>
+ <tileset firstgid="263" source="../tile_sets/set_woodland.tsx"/>
+ <layer id="1" name="Regions" width="33" height="17">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgGByAmZG69FAFo+EAASPNv7jAcPXXKBgFo2AUUAMAAN4iJrHECAAA
   </data>
  </layer>
- <layer name="ruleSet" width="33" height="17">
+ <layer id="2" name="Input_set" width="33" height="17">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3QtxGAMBAFUSnCmy6Ehy4pAd8rAZsqQzOIuU1e+u+U+kaBfgwxwhgTTDHDHAsstdudrjPsr7DGBlvssMcBR5w8/8PC/hU33PHAEy/P77U1//QuSZKkN7oB0kdMgMQIAAA=
+   H4sIAAAAAAAAA+3QtxGAMBAFUSnCmy6Ehy4pAd8rAZsqAwYxt8lL/51S38jTlz4GGGKEMSaYYoa5fmvxMxn2F1hihTU22GKHPQ6O/2Fi/4wLrrjhjofj99oaf3qXJEnSHZ3SR0yAxAgAAA==
   </data>
  </layer>
- <layer name="rule_Ground" width="33" height="17" visible="0">
+ <layer id="3" name="Output_Ground" width="33" height="17" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgGByAkcr0UAUhVKaHKggnkR6uIHqgHTAKRsEoGAWDGAAA1h8aocQIAAA=
   </data>
  </layer>
- <layer name="rule_Fringe" width="33" height="17">
+ <layer id="4" name="Output_Fringe" width="33" height="17">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgGAWjYBSMglEwCkbBKBh6AAB3v+jzxAgAAA==
   </data>
  </layer>
- <layer name="rule_Over" width="33" height="17">
+ <layer id="5" name="Output_Over" width="33" height="17">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgGAWjYBSMglEwCkbBKBh6AAB3v+jzxAgAAA==
   </data>
  </layer>
- <layer name="rule_Collision" width="33" height="17">
+ <layer id="6" name="Output_Collision" width="33" height="17">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgGFyAiXGgXTA4wEgPh5Hu/1EwCkbBKBgFhAEARsiQ18QIAAA=
   </data>
  </layer>
- <layer name="rule_Error" width="33" height="17">
+ <layer id="7" name="Output_Error" width="33" height="17">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgGAWjYBSMglEwCkbBKBh6AAB3v+jzxAgAAA==
   </data>

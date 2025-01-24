@@ -3,15 +3,11 @@
  <tileset firstgid="1" name="set_icemountain" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/set_icemountain.png" width="96" height="64"/>
  </tileset>
- <tileset firstgid="7" name="set_rules" tilewidth="32" tileheight="32">
-  <image source="../../graphics/tiles/set_rules.png" width="32" height="32"/>
- </tileset>
+ <tileset firstgid="7" source="../tile_sets/set_rules.tsx"/>
  <tileset firstgid="8" name="Snow" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/Snow.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="264" name="collision" tilewidth="32" tileheight="32">
-  <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
- </tileset>
+ <tileset firstgid="264" source="../../tilesets/collision.tsx"/>
  <layer name="ruleRegions" width="13" height="9">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgIA+wQzE6mwFNnFI9uOTwmUWuHlIBLvMI+ZNUPaQCAF4FYvXUAQAA

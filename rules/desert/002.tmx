@@ -19,9 +19,7 @@
  <tileset firstgid="551" name="set_desert" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/set_desert.png" width="320" height="160"/>
  </tileset>
- <tileset firstgid="601" name="set_rules" tilewidth="32" tileheight="32">
-  <image source="../../graphics/tiles/set_rules.png" width="64" height="64"/>
- </tileset>
+ <tileset firstgid="601" source="../tile_sets/set_rules.tsx"/>
  <layer name="RuleRegions" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAWRTAwYAADjUoAzJAAAAA==

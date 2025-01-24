@@ -1,30 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="50" height="30" tilewidth="32" tileheight="32">
- <tileset firstgid="1" name="set_woodland" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/set_woodland.png" width="512" height="320"/>
- </tileset>
- <tileset firstgid="161" name="Woodland" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
- </tileset>
- <tileset firstgid="417" name="Woodland x3" tilewidth="32" tileheight="96">
-  <image source="../graphics/tiles/Woodland_x3.png" width="512" height="192"/>
- </tileset>
- <tileset firstgid="449" name="Collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
- </tileset>
- <tileset firstgid="451" name="Woodland x2" tilewidth="32" tileheight="64">
-  <image source="../graphics/tiles/Woodland_x2.png" width="512" height="128"/>
- </tileset>
- <tileset firstgid="483" name="Woodland_x4" tilewidth="32" tileheight="128">
-  <image source="../graphics/tiles/Woodland_x4.png" width="512" height="128"/>
- </tileset>
- <tileset firstgid="499" name="set_rules" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/set_rules.png" width="64" height="64"/>
- </tileset>
- <layer name="set" width="50" height="30">
+<map version="1.11" tiledversion="1.11.1" orientation="orthogonal" renderorder="right-down" width="50" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" source="tile_sets/set_woodland.tsx"/>
+ <tileset firstgid="161" source="../tilesets/woodland_ground.tsx"/>
+ <tileset firstgid="417" source="../tilesets/woodland_x3.tsx"/>
+ <tileset firstgid="449" source="../tilesets/collision.tsx"/>
+ <tileset firstgid="451" source="../tilesets/woodland_x2.tsx"/>
+ <tileset firstgid="483" source="../tilesets/woodland_x4.tsx"/>
+ <tileset firstgid="499" source="tile_sets/set_rules.tsx"/>
+ <layer id="1" name="set" width="50" height="30">
   <data encoding="base64" compression="zlib">
-   eJzdlmFuwjAMhUPXrbBbpIyxa/YI3HiqFEueFdvPSYCJH091Q5P483NoDymlw4vqqMSP0BaQlfezted3LtrE+MRi1IdnsUqOhY3z2MtT5kv3N1CjOaQHk8FRq7UcQzl6eSTHRxHqBz3D86daRBl6WCwOz48l/c271wuLQ9sD4chFiB+eF5Fzg3rAmYhjrXBcHQ7JYPkwO5wex1HMl75s5bdZ8YP4LK+n5HNkVpceP6y+mhnHpQjpK7SnaJ3vch11znn9LA6vr7Te6uFoORuIH1ZftbBo+cveRHpJcnCtA/zw+n/0u7zmjWTj4yhDlCWat+WdxiGZRrN4OSF5W/2FcCzAHvfqqdqZaWGIKMLwVrTH9P/jrc97otUPpLdqLNpzLRwtvmjeaO/EqCyO0yAWxNdHS+bX4sE9GN6Loiwy5nl7vUHvyfwPOD5ZTN/vmY1ZXuRU55D8Wj3k3D2m7yKvNrLu/J7W/TH8QjhQyflrYM2tQyM5Mqhr0A/rWc2PHlGea9FXuZ4rLL17jc494smoPRC/XkG/FI3Ggw==
+   eJzdlmFuwyAMhZMsG91uAd2WXbNH2I2nSSBZFrafwWuq/XiCogb88WxgXZZl/ae6CP176OaQFvfZ+o3vWnVj4xvpoz6cxco5EhmnfStOHm/7/Q0qmoN7sCkcvb3mYyjHLA/neKlC/Uid+LdBhhkWjcPyI7G4Z73QOKQ1EI5chfhheeGpG9SDS4ejdDgOg4MzaD7sjpzTYpZ8abW9C34UhWNjrcaRyb7M+KHl1U44PqqQvEJzqs3zWduoOt9ADiuvpNya4RipDcQPLa9GWKT4eW4iucQ5qEqAH1b+R9/lPW842zpwXnlZvHFr3kkc2ns3gsWKCYlbyy+EIwFr/FVO9WpmhMEjD8NT1UrOH2v+NMmSOvOgLNL/RjhGfPHeiV5pHK9BLIiv91bvbH0EhucqLwvv07it3DjIPX02xxvpt/d7JmOaF1ng4PzSfvBvM3kXWXuj3dlt3i/FL4QDFf++OOZEzySkRmY4MqjD6QdaP1FqcZaq99peOyyza0XH7vEkao2oN8mj6wcUjcaD
   </data>
  </layer>
 </map>
