@@ -34,9 +34,7 @@
  <tileset firstgid="1453" name="crypt_blockwall" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../graphics/tiles/crypt_blockwall.png" width="512" height="512"/>
  </tileset>
- <tileset firstgid="1709" name="collision" tilewidth="32" tileheight="32" tilecount="2" columns="2">
-  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
- </tileset>
+ <tileset firstgid="1709" source="../tilesets/collision.tsx"/>
  <tileset firstgid="1711" name="woodland_indoor_x2" tilewidth="32" tileheight="32" tilecount="96" columns="16">
   <image source="../graphics/tiles/woodland_indoor_x2.png" width="512" height="192"/>
  </tileset>

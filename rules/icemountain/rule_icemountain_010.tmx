@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="30" height="10" tilewidth="32" tileheight="32">
- <tileset firstgid="1" name="set_icemountain" tilewidth="32" tileheight="32">
-  <image source="../../graphics/tiles/set_icemountain.png" width="224" height="128"/>
- </tileset>
+ <tileset firstgid="1" source="../../tilesets/set_icemountain.tsx"/>
  <tileset firstgid="29" source="../../tilesets/set_rules.tsx"/>
  <tileset firstgid="33" name="Snow" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/Snow.png" width="512" height="512"/>

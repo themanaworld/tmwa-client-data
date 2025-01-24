@@ -6,13 +6,9 @@
   <property name="NoOverlappingOutput" type="bool" value="false"/>
  </properties>
  <tileset firstgid="1" source="../../tilesets/collision.tsx"/>
- <tileset firstgid="3" name="set" tilewidth="32" tileheight="32" tilecount="64" columns="8">
-  <image source="../../graphics/tiles/set_cave.png" width="256" height="256"/>
- </tileset>
+ <tileset firstgid="3" source="../../tilesets/set_cave.tsx"/>
  <tileset firstgid="67" source="../../tilesets/set_rules.tsx"/>
- <tileset firstgid="71" name="cave" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../graphics/tiles/cave.png" width="512" height="256"/>
- </tileset>
+ <tileset firstgid="71" source="../../tilesets/cave.tsx"/>
  <layer id="1" name="regions" width="8" height="6">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAACmNgIAycSZR3RhNzxqEOlzy6fnwAAPmsh/LAAAAA

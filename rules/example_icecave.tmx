@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
- <tileset firstgid="1" name="set_icecave" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/set_icecave.png" width="128" height="128"/>
- </tileset>
- <tileset firstgid="17" name="collision" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
- </tileset>
+ <tileset firstgid="1" source="../tilesets/set_icecave.tsx"/>
+ <tileset firstgid="17" source="../tilesets/collision.tsx"/>
  <tileset firstgid="19" source="../tilesets/icecave.tsx"/>
  <tileset firstgid="147" source="../tilesets/set_rules.tsx"/>
  <layer name="set" width="32" height="32" opacity="0.73">

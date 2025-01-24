@@ -2,9 +2,7 @@
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="7" height="6" tilewidth="32" tileheight="32">
  <tileset firstgid="1" source="../../tilesets/collision.tsx"/>
- <tileset firstgid="3" name="set_icecave" tilewidth="32" tileheight="32">
-  <image source="../../graphics/tiles/set_icecave.png" width="128" height="128"/>
- </tileset>
+ <tileset firstgid="3" source="../../tilesets/set_icecave.tsx"/>
  <tileset firstgid="19" source="../../tilesets/set_rules.tsx"/>
  <tileset firstgid="23" source="../../tilesets/icecave.tsx"/>
  <layer name="ruleRegions" width="7" height="6">

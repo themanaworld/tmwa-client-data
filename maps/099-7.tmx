@@ -142,9 +142,7 @@
  <tileset firstgid="1353" name="woodland_x2" tilewidth="64" tileheight="64" tilecount="16" columns="8">
   <image source="../graphics/tiles/woodland_x2.png" width="512" height="128"/>
  </tileset>
- <tileset firstgid="1369" name="collision" tilewidth="32" tileheight="32" tilecount="2" columns="2">
-  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
- </tileset>
+ <tileset firstgid="1369" source="../tilesets/collision.tsx"/>
  <tileset firstgid="1371" source="../tilesets/woodland_x2.tsx"/>
  <tileset firstgid="1403" name="woodland_ground2" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../graphics/tiles/woodland_ground2.png" width="512" height="512"/>
