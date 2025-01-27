@@ -1,33 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="13" height="7" tilewidth="32" tileheight="32">
+<map version="1.2" tiledversion="" orientation="orthogonal" renderorder="right-down" width="13" height="7" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="1">
  <tileset firstgid="1" source="../../tilesets/collision.tsx"/>
  <tileset firstgid="3" source="../../tilesets/set_icecave.tsx"/>
  <tileset firstgid="19" source="../../tilesets/set_rules.tsx"/>
  <tileset firstgid="23" source="../../tilesets/icecave.tsx"/>
- <layer name="ruleRegions" width="13" height="7">
+ <layer id="1" name="Regions" width="13" height="7">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgIA8IQzGxbHL1DCe3AQDj6TXRbAEAAA==
   </data>
  </layer>
- <layer name="ruleSet" width="13" height="7">
+ <layer id="2" name="Input_set" width="13" height="7">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgoC5gg2J0NrI8A5o4LjWUuoMa9hDyDykAANyNKXlsAQAA
   </data>
  </layer>
- <layer name="ruleSet" width="13" height="7">
+ <layer id="3" name="Input_set" width="13" height="7">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgoC7ggmJ0NrI8A5o4LjWUuoMa9hDyDykAAN2upiFsAQAA
   </data>
  </layer>
- <layer name="ruleSet" width="13" height="7">
+ <layer id="4" name="Input_set" width="13" height="7">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgoC7gg2J0NrI8A5o4LjWUuoMa9hDyDykAACKwIxZsAQAA
   </data>
  </layer>
- <layer name="rule_Ground" width="13" height="7">
+ <layer id="5" name="Output_Ground" width="13" height="7">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC4oQuMXo/FLoHQZle1FB1Og9DQKzWlC4zdTYBYAacXSPGwBAAA=
+   H4sIAAAAAAAAA2NgoC4oQuMXo/FLoHQZle1FB1Og9DQKzWlC4zdTYBgAacXSPGwBAAA=
   </data>
  </layer>
 </map>

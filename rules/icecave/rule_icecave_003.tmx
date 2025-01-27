@@ -1,31 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="13" height="4" tilewidth="32" tileheight="32">
+<map version="1.2" tiledversion="" orientation="orthogonal" renderorder="right-down" width="13" height="4" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="1">
  <tileset firstgid="1" source="../../tilesets/collision.tsx"/>
  <tileset firstgid="3" source="../../tilesets/set_icecave.tsx"/>
  <tileset firstgid="19" source="../../tilesets/set_rules.tsx"/>
  <tileset firstgid="23" source="../../tilesets/icecave.tsx"/>
- <layer name="ruleRegions" width="13" height="4">
+ <layer id="1" name="Regions" width="13" height="4">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgIA8IQzGxbHL1kAoA+YlsANAAAAA=
   </data>
  </layer>
- <layer name="ruleSet" width="13" height="4">
+ <layer id="2" name="Input_set" width="13" height="4">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgIA8wE+Dj0sOMhc2AJk4JAAB87igk0AAAAA==
   </data>
  </layer>
- <layer name="ruleNotSet" width="13" height="4">
+ <layer id="3" name="InputNot_set" width="13" height="4">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgIB8wo9EwNjMWNjHm4OKTAgA8hSQr0AAAAA==
   </data>
  </layer>
- <layer name="rule_Ground" width="13" height="4">
+ <layer id="4" name="Output_Ground" width="13" height="4">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGBxACkrLUGgOAN2P9CXQAAAA
+   H4sIAAAAAAAAA2NgGBxACkrLUGgQAN2P9CXQAAAA
   </data>
  </layer>
- <layer name="rule_Over" width="13" height="4">
+ <layer id="5" name="Output_Over" width="13" height="4">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgIA/Io/EVkNi6UFqfTLMpAQCgAAh70AAAAA==
   </data>

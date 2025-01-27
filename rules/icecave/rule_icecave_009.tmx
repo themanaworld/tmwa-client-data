@@ -1,46 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="6" height="6" tilewidth="32" tileheight="32">
+<map version="1.2" tiledversion="" orientation="orthogonal" renderorder="right-down" width="6" height="6" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
  <tileset firstgid="1" source="../../tilesets/collision.tsx"/>
  <tileset firstgid="3" source="../../tilesets/set_icecave.tsx"/>
  <tileset firstgid="19" source="../../tilesets/set_rules.tsx"/>
  <tileset firstgid="23" source="../../tilesets/icecave.tsx"/>
- <layer name="ruleRegions" width="6" height="6">
+ <layer id="1" name="Regions" width="6" height="6">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA2EkWhhLOL4ALp6YSzi2AAALrUFg5AAAAA=
   </data>
  </layer>
- <layer name="ruleSet" width="6" height="6">
+ <layer id="2" name="Input_set" width="6" height="6">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgIAzYCfCppQcEAJIt/ZSQAAAA
   </data>
  </layer>
- <layer name="ruleSet" width="6" height="6">
+ <layer id="3" name="Input_set" width="6" height="6">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgIAy4CfCppQcEAP2/YE+QAAAA
   </data>
  </layer>
- <layer name="ruleSet" width="6" height="6">
+ <layer id="4" name="Input_set" width="6" height="6">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgIAz4CfCppQcEANgxFAaQAAAA
   </data>
  </layer>
- <layer name="ruleNotSet" width="6" height="6">
+ <layer id="5" name="InputNot_set" width="6" height="6">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA3YcbBJBaSYAwA8zLY9kAAAAA==
   </data>
  </layer>
- <layer name="ruleNotSet" width="6" height="6">
+ <layer id="6" name="InputNot_set" width="6" height="6">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA24cbBJBaSYAwCnbhfQkAAAAA==
   </data>
  </layer>
- <layer name="ruleNotSet" width="6" height="6">
+ <layer id="7" name="InputNot_set" width="6" height="6">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgwA34cbBJBaSYAwARDac9kAAAAA==
   </data>
  </layer>
- <layer name="rule_Ground" width="6" height="6">
+ <layer id="8" name="Output_Ground" width="6" height="6">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgIAyM0fhKROhxQuMbEqEHBABmYFlZkAAAAA==
   </data>
