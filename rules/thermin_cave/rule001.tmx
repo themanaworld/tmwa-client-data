@@ -1,43 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="15" height="11" tilewidth="32" tileheight="32">
+<map version="1.2" tiledversion="" orientation="orthogonal" renderorder="right-down" width="15" height="11" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="1">
  <tileset firstgid="1" source="../../tilesets/collision.tsx"/>
  <tileset firstgid="3" source="../../tilesets/set_rules.tsx"/>
  <tileset firstgid="7" source="../../tilesets/set_thermin_cave.tsx"/>
- <tileset firstgid="71" name="thermin-cave" tilewidth="32" tileheight="32">
+ <tileset firstgid="71" name="thermin-cave" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../../graphics/tiles/thermin-cave.png" width="512" height="256"/>
  </tileset>
- <layer name="ruleRegions" width="15" height="11">
+ <layer id="1" name="Regions" width="15" height="11">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgoAwwk0lTCkbtHb72AgCLNgymlAIAAA==
   </data>
  </layer>
- <layer name="ruleSet" width="15" height="11">
+ <layer id="2" name="Input_set" width="15" height="11">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgoAywo/E5oTQXlOam0HxcgB9KC0BpQSgtBKWFaWSvOI3MHQUIAACXQma5lAIAAA==
   </data>
  </layer>
- <layer name="rule_Ground" width="15" height="11">
+ <layer id="3" name="Output_Ground" width="15" height="11">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgGAWjYHABAHevG6iUAgAA
   </data>
  </layer>
- <layer name="rule_Fringe" width="15" height="11">
+ <layer id="4" name="Output_Fringe" width="15" height="11">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgGAWjYHABAHevG6iUAgAA
   </data>
  </layer>
- <layer name="rule_Over" width="15" height="11">
+ <layer id="5" name="Output_Over" width="15" height="11">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgGAWjYHABAHevG6iUAgAA
   </data>
  </layer>
- <layer name="rule_Collision" width="15" height="11">
+ <layer id="6" name="Output_Collision" width="15" height="11">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgoC5gIsCntj24zKe1vaOAdgAAxU9zT5QCAAA=
   </data>
  </layer>
- <layer name="rule_Error" width="15" height="11">
+ <layer id="7" name="Output_Error" width="15" height="11">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgGAWjYHABAHevG6iUAgAA
   </data>
