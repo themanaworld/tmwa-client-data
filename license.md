@@ -226,6 +226,7 @@ File | Artists | Licenses
 `graphics/items/equipment/head/bowler-hat.png` | ChefChelios | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/bromenalhelmet.png` | Skipy | GPLv2
 `graphics/items/equipment/head/bucket.png` | Nami | GPLv2, CC BY-SA 3.0
+`graphics/items/equipment/head/bull.png` | ? | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/bunnyears.png` | Harufym | GPLv2
 `graphics/items/equipment/head/candlehelmet.png` | Skipy | GPLv2
 `graphics/items/equipment/head/cap.png` | Black Don | GPLv2
@@ -255,6 +256,7 @@ File | Artists | Licenses
 `graphics/items/equipment/head/headslime.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/equipment/head/heart-glasses.png` | Lizandra | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/highpriest-crown.png` | Black Don | GPLv2
+`graphics/items/equipment/head/imperial-helmet.png` | ?(bull.png), Ledmitz | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/infantryhelm.png` | Black Don | GPLv2
 `graphics/items/equipment/head/inspector-hat.png` | Micksha | GPLv2
 `graphics/items/equipment/head/jestermask.png` | Spit23 | GPLv2
@@ -873,21 +875,18 @@ File | Artists | Licenses
 #### Head
 File | Artists | Licenses
 ---- |:-------:|:--------:
-`graphics/sprites/equipment/head/tamoshanter.png` | Chay | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/afkcap.png` | TMW-BR Team | GPLv2
 `graphics/sprites/equipment/head/aureole.png` | TMW-BR Team | GPLv2
 `graphics/sprites/equipment/head/autumn-mask.png` | Chay | GPLv2, CC BY-SA 3.0
-`graphics/sprites/equipment/head/nutcrackerhat.png` | Chayenne, Alige, Lizandra, Salmondine | GPLv2, CC BY-SA 3.0
-`graphics/sprites/equipment/head/phylactery.png` | strealyn, wushin | GPLv2, CC BY-SA 3.0
-`graphics/sprites/equipment/head/dark-helm.png` | Bankai777 | GPLv2
 `graphics/sprites/equipment/head/bandana.png` | Modanung | GPLv2, CC BY-SA 3.0
+`graphics/sprites/equipment/head/beaniecopter.png` | Alige, Black Don, Milla, Veryape | GPLv2
 `graphics/sprites/equipment/head/beret.png` | Varuna | GPLv2
 `graphics/sprites/equipment/head/blinkingevil.png` | mrgrey | GPLv2, CC-BY-SA 3.0
-`graphics/sprites/equipment/head/beaniecopter.png` | Alige, Black Don, Milla, Veryape | GPLv2
 `graphics/sprites/equipment/head/bowler-hat-brown.png` | ChefChelios | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/bowler-hat.png` | ChefChelios | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/bromenalhelmet.png` | Skipy | GPLv2
 `graphics/sprites/equipment/head/bucket.png` | Nami | GPLv2, CC BY-SA 3.0
+`graphics/sprites/equipment/head/bull.png` | ? | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/bunnyears.png` | Harufym | GPLv2
 `graphics/sprites/equipment/head/candlehelmet.png` | Skipy | GPLv2
 `graphics/sprites/equipment/head/cap.png` | Black Don | GPLv2
@@ -899,6 +898,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/cowboywhite.png` | Black Don | GPLv2
 `graphics/sprites/equipment/head/crown.png` | Black Don | GPLv2
 `graphics/sprites/equipment/head/crusadehelm.png` | Black Don | GPLv2
+`graphics/sprites/equipment/head/dark-helm.png` | Bankai777 | GPLv2
 `graphics/sprites/equipment/head/demonmask.png` | Black Don | GPLv2
 `graphics/sprites/equipment/head/desert-helmet.png` | Pauan | GPLv2
 `graphics/sprites/equipment/head/deserthat.png` | Kr0n05931 | GPLv2
@@ -917,6 +917,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/headslime.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/equipment/head/heart-glasses.png` | Lizandra | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/highpriest-crown.png` | Black Don | GPLv2
+`graphics/sprites/equipment/head/imperial-helmet.png` | ?, Ledmitz | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/infantryhelm.png` | Black Don | GPLv2
 `graphics/sprites/equipment/head/inspector-hat.png` | ? | GPLv2
 `graphics/sprites/equipment/head/jestermask.png` | Spit23 | GPLv2
@@ -932,12 +933,13 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/monster-skull-helm.png` | Black Don | GPLv2
 `graphics/sprites/equipment/head/moonshroomhat.png` | Saulc, Cassy | CC BY-SA 3.0
 `graphics/sprites/equipment/head/mushroom.png` | crevost2, Yuuki | GPLv2
-`graphics/sprites/equipment/head/nutcrackerhat.png` | Chayenne, :grey_question:, Alige, Lizandra, Salmondine | GPLv2
+`graphics/sprites/equipment/head/nutcrackerhat.png` | Chayenne, Alige, Lizandra, Salmondine | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/operamask.png` | Meway | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/overlordhelm.png` | Black Don | GPLv2
 `graphics/sprites/equipment/head/paladinhelm.png` | Black Don | GPLv2
 `graphics/sprites/equipment/head/panhat.png` | Alige, Coolkid782 | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/paperbag.png` | Black Don | GPLv2
+`graphics/sprites/equipment/head/phylactery.png` | strealyn, wushin | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/pinkie-helmet.png` | Ginaria | GPLv2
 `graphics/sprites/equipment/head/piratehat.png` | Fettsack | GPLv2
 `graphics/sprites/equipment/head/presenthat.png` | TMW-BR Team | GPLv2
@@ -959,6 +961,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/snowshroomhat.png` | Saulc, Cassy, HoraK-FDF | CC BY-SA 3.0
 `graphics/sprites/equipment/head/sunglasses.png` | UntamedMonkey | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/sunshroomhat.png` | Saulc, Cassy, HoraK-FDF | CC BY-SA 3.0
+`graphics/sprites/equipment/head/tamoshanter.png` | Chay | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/terranitehelm.png` | Kr0n05931 | GPLv2
 `graphics/sprites/equipment/head/thin-crown.png` | Black Don, V0id | GPLv2
 `graphics/sprites/equipment/head/tophat.png` | QOAL | GPLv2

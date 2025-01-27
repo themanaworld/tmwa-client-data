@@ -1,6 +1,22 @@
 <?xml version="1.0"?>
 <items>
-  <item id="877" image="equipment/head/bull.png" name="Bull Helmet" description="A black steel helmet worn by the most ferocious warriors." effect="Double Damage +20% / Attack Speed +10% / VIT Defense -39% / Melee only" mattack="-52" hit="-15" level="90" criticalattack="15" req-str="70" req-vit="50" req-luk="50" type="equip-head" weight="1300" str="10" defense="19" sellProtected="true">
+  <item id="877"
+        image="equipment/head/bull.png"
+        name="Bull Helmet"
+        description="A black steel helmet worn by the most ferocious warriors."
+        effect="Double Damage +20% / Attack Speed +10% / VIT Defense -39% / Melee only"
+        mattack="-52"
+        hit="-10"
+        level="90"
+        criticalattack="8"
+        req-str="70"
+        req-vit="50"
+        req-luk="50"
+        type="equip-head"
+        weight="1300"
+        str="10"
+        defense="19"
+        sellProtected="true">
     <sprite gender="unisex">equipment/head/bull.xml</sprite>
     <sprite gender="female">equipment/head/bull-female.xml</sprite>
     <replace sprite="hair">
