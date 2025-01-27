@@ -1,33 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="19" height="13" tilewidth="32" tileheight="32">
+<map version="1.2" tiledversion="" orientation="orthogonal" renderorder="right-down" width="19" height="13" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="1">
  <tileset firstgid="1" source="../../tilesets/set_icemountain.tsx"/>
- <tileset firstgid="37" source="../../tilesets/set_rules.tsx"/>
- <tileset firstgid="41" name="Snow" tilewidth="32" tileheight="32">
-  <image source="../../graphics/tiles/Snow.png" width="512" height="512"/>
- </tileset>
- <tileset firstgid="297" source="../../tilesets/collision.tsx"/>
- <tileset firstgid="299" name="Snow_ground" tilewidth="32" tileheight="32">
-  <image source="../../graphics/tiles/Snow_ground.png" width="352" height="224"/>
- </tileset>
- <layer name="ruleRegions" width="19" height="13">
+ <tileset firstgid="29" source="../../tilesets/set_rules.tsx"/>
+ <tileset firstgid="33" source="../../tilesets/snow.tsx"/>
+ <tileset firstgid="289" source="../../tilesets/collision.tsx"/>
+ <tileset firstgid="291" source="../../tilesets/snow_ground.tsx"/>
+ <layer id="1" name="Regions" width="19" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYKAuUIViStnUNouaYNSPpLlr1I+kmUUtAADnYg3h
+   eJxjYKAukIViStnUNouaYNSPpLlr1I+kmUUtAAAXFwrh
   </data>
  </layer>
- <layer name="ruleSet" width="19" height="13">
+ <layer id="2" name="Input_set" width="19" height="13">
   <data encoding="base64" compression="zlib">
-   eJytkDkKADAMwzK0zf9/3CUBNVtBBoMXK0eEq1WeeZdnPuWZu88OWeyQlZVzsEyZe5n/MvU7P+O9sXP3eSNZnEEWZ5BlytzL/JelC+epAhE=
+   eJytkDkKADAMwzK0zf9/3CUF4a0gg8GLlaPK1Rpn3uPMZ5z59dkhix2yenIHy5S5l/kvU7/zO27sYPFGsjiDLM4gy5S5l/kvSxfnqQIR
   </data>
  </layer>
- <layer name="rule_Ground" width="19" height="13">
+ <layer id="3" name="Output_Ground" width="19" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYKAu0GZE5etC+QZo4kZQvjGauCkaf7gDRzT/OkP5bmjiHlC+J5q49xAJrwioOyPR3KsH5eujiYdA+aE09l8y1PwUNHssoXwrNPF4KD9hCIQ7AIjZBpE=
+   eJxjYKAuUGZE5atC+Rpo4lpQvjaauC4af7gDSzT/WkP5dmjiDlC+I5q48xAJrwCoOwPR3KsG5aujiftA+b409l801PwYNHsMoXwjNPFwKD9iCIQ7ABTKBdE=
   </data>
  </layer>
- <layer name="rule_Collision" width="19" height="13" visible="0">
+ <layer id="4" name="Output_Collision" width="19" height="13" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYKAP0GLEzsclPtLBSAkvQv4aKP8NVneRAgAY1wKx
+   eJxjYKAPUGLEzsclPtLBSAkvQv4aKP8NVneRAgAmyAIx
   </data>
  </layer>
 </map>

@@ -3,12 +3,8 @@
 <map version="1.0" orientation="orthogonal" width="45" height="45" tilewidth="32" tileheight="32">
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
  <tileset firstgid="3" source="../tilesets/set_icemountain.tsx"/>
- <tileset firstgid="31" name="Snow" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Snow.png" width="512" height="512"/>
- </tileset>
- <tileset firstgid="287" name="Snow_ground" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Snow_ground.png" width="352" height="224"/>
- </tileset>
+ <tileset firstgid="31" source="../tilesets/snow.tsx"/>
+ <tileset firstgid="287" source="../tilesets/snow_ground.tsx"/>
  <layer name="Underground" width="45" height="45">
   <data encoding="base64" compression="zlib">
    eJztwzENAAAMA6DOVf0rq4p9kNBLqqqqqqqqqqq+H0tNwvE=
