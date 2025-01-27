@@ -1,44 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="3" height="3" tilewidth="32" tileheight="32">
- <tileset firstgid="1" name="desert1" tilewidth="32" tileheight="32">
-  <image source="../../graphics/tiles/desert1.png" width="512" height="512"/>
- </tileset>
- <tileset firstgid="257" name="desert2" tilewidth="32" tileheight="32">
-  <image source="../../graphics/tiles/desert2.png" width="512" height="512"/>
- </tileset>
- <tileset firstgid="513" name="desert_x2" tilewidth="32" tileheight="64">
-  <image source="../../graphics/tiles/desert_x2.png" width="512" height="64"/>
- </tileset>
- <tileset firstgid="529" name="desert_x3" tilewidth="32" tileheight="96">
-  <image source="../../graphics/tiles/desert_x3.png" width="512" height="96"/>
- </tileset>
- <tileset firstgid="545" name="desert_x5" tilewidth="32" tileheight="160">
-  <image source="../../graphics/tiles/desert_x5.png" width="192" height="160"/>
- </tileset>
- <tileset firstgid="551" source="../../tilesets/set_desert.tsx"/>
- <tileset firstgid="601" source="../../tilesets/set_rules.tsx"/>
- <layer name="RuleRegions" width="3" height="3">
+<map version="1.2" tiledversion="" orientation="orthogonal" renderorder="right-down" width="3" height="3" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="1">
+ <tileset firstgid="1" source="../../tilesets/desert1.tsx"/>
+ <tileset firstgid="257" source="../../tilesets/desert2.tsx"/>
+ <tileset firstgid="513" source="../../tilesets/desert_x2.tsx"/>
+ <tileset firstgid="561" source="../../tilesets/desert_x3.tsx"/>
+ <tileset firstgid="593" source="../../tilesets/desert_x5.tsx"/>
+ <tileset firstgid="599" source="../../tilesets/set_desert.tsx"/>
+ <tileset firstgid="649" source="../../tilesets/set_rules.tsx"/>
+ <layer id="1" name="Regions" width="3" height="3">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgQAWdTAwYAAD8GU+NJAAAAA==
+  </data>
+ </layer>
+ <layer id="2" name="Input_set" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAWRTAwYAADjUoAzJAAAAA==
   </data>
  </layer>
- <layer name="RuleSet" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAWaTAwYAADbCUL8JAAAAA==
-  </data>
- </layer>
- <layer name="Rule_Ground" width="3" height="3">
+ <layer id="3" name="Output_Ground" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAXsDJgAAEYU8oskAAAA
   </data>
  </layer>
- <layer name="Rule1_Ground" width="3" height="3">
+ <layer id="4" name="Output1_Ground" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAWcDJgAACFfCpIkAAAA
   </data>
  </layer>
- <layer name="Rule2_Ground" width="3" height="3">
+ <layer id="5" name="Output2_Ground" width="3" height="3">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA2NgQAVcDJgAAOsSoz0kAAAA
   </data>
