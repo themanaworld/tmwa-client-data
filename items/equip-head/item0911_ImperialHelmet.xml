@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<items>
+  <item id="911"
+        image="equipment/head/imperial-helmet.png"
+        name="Imperial Helmet"
+        description="A golden helmet, once worn by ancient imperial guards."
+        effect="Double Damage +5% / Perfect Hit +5% / Attack Speed +5% / Melee only"
+        mattack="-52"
+        level="90"
+        criticaldefense="5"
+        mdefense="5"
+        req-str="70"
+        req-vit="50"
+        req-luk="50"
+        type="equip-head"
+        weight="1300"
+        str="5"
+        defense="25"
+        sellProtected="true">
+    <sprite gender="unisex">equipment/head/imperial-helmet.xml</sprite>
+    <sprite gender="female">equipment/head/imperial-helmet-female.xml</sprite>
+    <replace sprite="hair">
+      <item to="-1"/>
+    </replace>
+  </item>
+</items>
