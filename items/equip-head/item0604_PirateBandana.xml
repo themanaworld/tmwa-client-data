@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<items>
+  <item id="604"
+        image="equipment/head/bandana.png|W:#212121,FF0000"
+        name="Pirate Bandana"
+        description="A striped bandana, commonly worn by Swashbucklers."
+        type="equip-head"
+        weight="20"
+        defense="3">
+    <sprite gender="unisex">equipment/head/bandana.xml|#212121,555555</sprite>
+    <sprite gender="female">equipment/head/bandana-female.xml|#212121,555555</sprite>
+    <replace sprite="hair">
+      <item from="-6" to="-1"/>
+      <item from="-4" to="-8"/>
+      <item from="-7" to="-8"/>
+      <item from="-13" to="-8"/>
+      <item from="-15" to="-8"/>
+      <item from="-16" to="-2"/>
+      <item from="-17" to="-2"/>
+      <item from="-19" to="-8"/>
+    </replace>
+  </item>
+</items>
