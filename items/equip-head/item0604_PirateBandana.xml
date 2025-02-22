@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <items>
-  <item id="622"
-        image="equipment/head/bandana.png|W:#ff4645,ffffff"
-        name="Bandana"
-        description="A striped bandana."
+  <item id="604"
+        image="equipment/head/bandana.png|W:#212121,FF0000"
+        name="Pirate Bandana"
+        description="A striped bandana, commonly worn by Swashbucklers."
         type="equip-head"
         weight="20"
         defense="3">
-    <sprite gender="unisex">equipment/head/bandana.xml|#ffffff;#ff4645</sprite>
-    <sprite gender="female">equipment/head/bandana-female.xml|#ffffff;#ff4645</sprite>
+    <sprite gender="unisex">equipment/head/bandana.xml|#212121,555555</sprite>
+    <sprite gender="female">equipment/head/bandana-female.xml|#212121,555555</sprite>
     <replace sprite="hair">
       <item from="-6" to="-1"/>
       <item from="-4" to="-8"/>
