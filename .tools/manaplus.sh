@@ -22,8 +22,8 @@ cd manaplus_master || exit 1
 export SDL_VIDEODRIVER=dummy
 ./bin/manaplus --validate -u -d ../clientdata || exit 1
 
-ls "${HOME}/.local/share/mana/manaplus.log" || exit 1
-grep -A 10 "Assert:" "${HOME}/.local/share/mana/manaplus.log"
+[[ -f "${HOME}/.local/share/mana/manaverse.log" ]] || exit 1
+grep -A 10 "Assert:" "${HOME}/.local/share/mana/manaverse.log"
 
 if [ "$?" == 0 ]; then
     echo "Asserts found"
