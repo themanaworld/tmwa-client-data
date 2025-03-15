@@ -9,6 +9,7 @@ rm "${zipname}"
 
 wget --retry-connrefused --retry-on-host-error --tries=10 --waitretry=5 \
      -O "$zipname" \
+     --progress=dot:mega \
      "https://git.themanaworld.org/mana/spm/builds/artifacts/$1/download?job=${libname}"
 
 unzip "${zipname}"
