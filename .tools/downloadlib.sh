@@ -3,9 +3,9 @@
 export zipname="lib.zip"
 export libname="$1_$2"
 
+rm -rf libdownload
 mkdir libdownload
 cd libdownload
-rm "${zipname}"
 
 wget --retry-connrefused --retry-on-host-error --tries=10 --waitretry=5 \
      -O "$zipname" \
