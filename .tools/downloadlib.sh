@@ -1,7 +1,8 @@
 #!/bin/bash
 
 export zipname="lib.zip"
-export libname="$1_$2"
+export branch="$1"
+export libname="$2_$3"
 
 rm -rf libdownload
 mkdir libdownload
@@ -10,7 +11,7 @@ cd libdownload
 wget --retry-connrefused --retry-on-host-error --tries=10 --waitretry=5 \
      -O "$zipname" \
      --progress=dot:mega \
-     "https://git.themanaworld.org/mana/spm/builds/artifacts/$1/download?job=${libname}"
+     "https://git.themanaworld.org/mana/spm/builds/artifacts/$branch/download?job=$libname"
 
 unzip "${zipname}"
 cp -r "bin/${libname}" ..
@@ -22,6 +23,6 @@ mkdir -p /usr/local/spm/bin
 cp -r libdownload/bin/${libname} /usr/local/spm/bin/
 ls /usr/local/spm/bin/${libname}
 if [ "$?" != 0 ]; then
-    echo "Library $1 $2 unpack failed"
+    printf "Library %s %s %s unpack failed" "$1" "$2" "$3"
     exit 1
 fi

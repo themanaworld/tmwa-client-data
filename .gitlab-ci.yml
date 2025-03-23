@@ -19,9 +19,20 @@ imagemagiccheck:
 
 manaplus:
   stage: test
-  script:
-  - ./.tools/manaplus.sh
   image: debian:unstable
+  script:
+  - ./.tools/manaplus.sh manaplus master manaverse.log
+  artifacts:
+    paths:
+    - shared
+    when: always
+    expire_in: 3 week
+
+old_manaplus:
+  stage: test
+  image: debian:buster
+  script:
+  - ./.tools/manaplus.sh packetver24 s20180215 manaplus.log
   artifacts:
     paths:
     - shared
