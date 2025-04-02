@@ -754,6 +754,7 @@ File | Artists | Licenses
 `graphics/sprites/icons/slow-move.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/icons/weight-big.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/icons/weight-small.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/icons/spell-cooldown-cg.png` | Hocus, HoraK-FDF | MIT, GPLv2, CC BY-SA 3.0
 `graphics/sprites/icons/spell-cooldown-mg.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/icons/spell-cooldown-mt.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/icons/spell-cooldown-ench.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
