@@ -299,7 +299,7 @@ File | Artists | Licenses
 `graphics/items/equipment/head/tophat.png` | QOAL | GPLv2
 `graphics/items/equipment/head/warlordhelm.png` | Black Don | GPLv2
 `graphics/items/equipment/head/wickedmushroomhat.png` | Cassy, Yuuki, HoraK-FDF | GPLv2
-`graphics/items/equipment/head/witch-doctor-mask.png` | Black Don | GPLv2
+`graphics/items/equipment/head/witch-doctor-mask.png` | Black Don, Hello=) | GPLv2
 `graphics/items/equipment/head/witch-hat.png` | Meway | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/wizard-hat.png` | Crush, Hal9000 | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/yeti-mask.png` | Skipy | GPLv2
