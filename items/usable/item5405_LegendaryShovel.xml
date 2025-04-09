@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<items>
+    <item id="5405"
+	image="use/others/shovel-legendary.png"
+	name="Legendary Shovel"
+	useButton="Dig"
+	description="Discover treasures, dungeons and raw materials."
+	effect="Dig holes"
+	type="usable"
+	weight="210"
+	sellProtected="true">
+	<inventory>
+	    <menu
+		name1="Dig"
+		command1="useinv 'INVINDEX'"
+		name2="Dig"
+	    />
+	    <menu
+		name1="Bury"
+		command1="useinv 'INVINDEX' 1"
+		name2="Bury"
+	    />
+	</inventory>
+    </item>
+</items>
