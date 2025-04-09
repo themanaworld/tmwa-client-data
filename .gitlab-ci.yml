@@ -54,8 +54,6 @@ licensecheck:
 testxml:
   stage: test
   image: ubuntu:18.04
-  tags:
-  - glados
   script:
   - ./.tools/testxml.sh
   - pwd
