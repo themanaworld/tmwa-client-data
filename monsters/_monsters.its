@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ITS rules for "monsters/monster*.xml" files. -->
+<its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <!-- Ignore translations for all xpaths... -->
+    <its:translateRule selector="//*" translate="no"/>
+    <!-- ...except the name of the monster (as attribute and element) -->
+    <its:translateRule selector="//monster/@name" translate="yes"/>
+    <its:translateRule selector="//monster/name" translate="yes"/>
+
+    <!-- Description for translators -->
+    <its:locNoteRule selector="//monster/name | //monster/@name"
+        locNoteType="description">
+      <its:locNote>Monster's name</its:locNote>
+    </its:locNoteRule>
+</its:rules>
