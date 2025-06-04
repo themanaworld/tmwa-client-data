@@ -106,7 +106,11 @@ File | Artists | Licenses
 ### Ambient Effects
 File | Artists | Licenses
 ---- |:-------:|:--------:
+`graphics/images/ambient/aethyr.jpg` | LuminousDragonGames | CC0
+`graphics/images/ambient/cloud.png` | Len, Reid | CC BY-SA 3.0
 `graphics/images/ambient/clouds.png` | Crush | GPLv2, CC BY-SA 3.0
+`graphics/images/ambient/darkness1.png` | jesusalva | CC0
+`graphics/images/ambient/darkness2.png` | jesusalva | CC0
 `graphics/images/ambient/dd5_absorb.png` | Crush, Jesusalva | GPLv2, CC BY-SA 3.0
 `graphics/images/ambient/dd5_bones.png` | Crush, Jesusalva | GPLv2, CC BY-SA 3.0
 `graphics/images/ambient/dd5_doubledef.png` | Crush, Jesusalva | GPLv2, CC BY-SA 3.0
@@ -115,6 +119,7 @@ File | Artists | Licenses
 `graphics/images/ambient/dd5_kaflosh.png` | Crush, Jesusalva | GPLv2, CC BY-SA 3.0
 `graphics/images/ambient/dd5_melee.png` | Crush, Jesusalva | GPLv2, CC BY-SA 3.0
 `graphics/images/ambient/dd5_potions.png` | Crush, Jesusalva | GPLv2, CC BY-SA 3.0
+`graphics/images/ambient/desertclouds.png` | Saulc | CC BY-SA 4.0
 `graphics/images/ambient/fog.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/images/ambient/night.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/images/ambient/rain.png` | wushin | GPLv2, CC BY-SA 3.0
@@ -1212,6 +1217,7 @@ File | Artists | Licenses
 `graphics/tiles/artis-lamps-x1x3.png` | Alige, Reid | GPLv2, CC BY-SA
 `graphics/tiles/barbarians_outdoor.png` | Salmondine | GPLv2
 `graphics/tiles/barbarians_yurt_x4.png` | Alige, Meway, Nami | GPLv2, CC BY-SA 3.0
+`graphics/tiles/cabana_in_fada.png` | Lunovox?, TMW-Br | GPLv2
 `graphics/tiles/castle1.png` | Alige, EJlol, Irukard, Len, MerlinX420 | GPLv2
 `graphics/tiles/castle2.png` | Alige, EJlol, Irukard, IvanMorve Len, MerlinX420 | GPLv2
 `graphics/tiles/cave_ani_wetwall.png` | Octalot | GPLv2
@@ -1230,6 +1236,7 @@ File | Artists | Licenses
 `graphics/tiles/cave2_x2.png` | :grey_question:, Bjorn, Octalot, Len, wushin | GPLv2
 `graphics/tiles/clock.png` | Salmondine | GPLv2
 `graphics/tiles/collision.png` | Bjorn | GPLv2
+`graphics/tiles/christmas.png` | ???, TMW.org | ???
 `graphics/tiles/crypt1.png` | Black Don, Crush, Irukard, Skipy, Spit23, Wushin | GPLv2
 `graphics/tiles/crypt2.png` | Black Don, Crush, Irukard, Skipy, Spit23, Wushin | GPLv2
 `graphics/tiles/crypt2_x4.png` | Black Don, Crush, Irukard, Skipy, Spit23, Wushin | GPLv2
@@ -1265,6 +1272,8 @@ File | Artists | Licenses
 `graphics/tiles/desert_city.png` | Modanung, Wushin | GPLv2, CC BY-SA 3.0
 `graphics/tiles/desert_city_x2.png` | Modanung, Wushin | GPLv2, CC BY-SA 3.0
 `graphics/tiles/desert_city_x4.png` | Modanung, Wushin | GPLv2, CC BY-SA 3.0
+`graphics/tiles/edges_black_rotated.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/tiles/edges_ice_rotated.png` | ?, Tametomo - Aethyra, HoraK-FDF | GPL 3.0
 `graphics/tiles/evil_obelisk.png` | Alige, ChefChelios, Leela | GPLv2
 `graphics/tiles/forest_cover.png` | Len | GPLv2, CC BY-SA 3.0
 `graphics/tiles/forest.png` | Len | GPLv2
@@ -1282,9 +1291,9 @@ File | Artists | Licenses
 `graphics/tiles/snow_ground.png` | bagzie, gumi, :grey_question: | GPLv2
 `graphics/tiles/snow_tree_x3.png` | :grey_question:, Alige, Hal9000 | GPLv2
 `graphics/tiles/snow_village.png` | bagzie, gumi, :grey_question: | GPLv2
-`graphics/tiles/snow_village_x3.png` | bagzie, gumi, :grey_question: | GPLv2
+`graphics/tiles/snow_village_x3.png` | bagzie, gumi, :grey_question:, HoraK-FDF | GPLv2
 `graphics/tiles/snow_village_x4.png` | bagzie, gumi, :grey_question: | GPLv2
-`graphics/tiles/snow_village2.png` | bagzie, gumi, :grey_question: | GPLv2
+`graphics/tiles/snow_village2.png` | bagzie, gumi, :grey_question:, HoraK-FDF | GPLv2
 `graphics/tiles/snow_x2.png` | Nami, Salmondine, Arkhen | (CC BY 4.0)
 `graphics/tiles/snow_x4.png` | gumi | GPLv2
 `graphics/tiles/snow.png` | bagzie, gumi, wushin, :grey_question: | GPLv2
@@ -1315,6 +1324,21 @@ File | Artists | Licenses
 `graphics/tiles/woodland_x5.png` | Saphy, :grey_question: | GPLv2
 `graphics/tiles/woodland_x8.png` | Len | GPLv2, CC BY-SA 3.0
 `graphics/tiles/arrows.png` | gumi | CC0
+
+### Aethyra Tilesets
+`graphics/tiles/aethyra/snow.png` | ?, Tametomo - Aethyra | GPL 3.0
+`graphics/tiles/aethyra/snow_building.png` | ?, Tametomo - Aethyra | GPL 3.0
+`graphics/tiles/aethyra/snow_roof.png` | ? ,Tametomo - Aethyra | GPL 3.0
+`graphics/tiles/aethyra/snow_water.png` | ?, Tametomo - Aethyra | GPL 3.0
+`graphics/tiles/aethyra/snowset.png` | ?, Tametomo - Aethyra | GPL 3.0
+
+### Br Tilesets
+`graphics/tilesets/br/christmastree.png` | ?, TMW-BR, TMW Org | GPL 2.0
+
+### Lof Tilesets
+`graphics/tiles/lof/warp_gates.png` | ?, LoF | GPL 2.0
+`graphics/tiles/lof/woodland_indoor.png` | ?, LoF | GPL 2.0
+`graphics/tiles/lof/woodland_indoor_extra.png` | ?, LoF, Jesusalva | GPL 2.0
 
 ## Sounds
 File | Artists | Licenses
