@@ -80,7 +80,9 @@ function aptget_install {
 
 function clientdata_init {
     mkdir shared
+    if [[ "${PWD##*/}" != clientdata && ! -L ../clientdata ]]; then
+        ln -s "$PWD" ../clientdata
+        check_error $?
+    fi
     cd ..
-    ln -s clientdata client-data
-    check_error $?
 }

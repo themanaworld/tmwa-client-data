@@ -23,7 +23,7 @@ aptget_install \
     wget unzip
 
 pwd
-ls
+ls -la
 
 # --retry-on-host-error unknown option?
 wget --retry-connrefused --tries=10 --waitretry=5 \
