@@ -1173,6 +1173,17 @@ File | Artists | Licenses
 `graphics/sprites/npcs/childposes.png` | Milla, Mrgrey, Nami, Salmondine | GPLv2
 `graphics/sprites/npcs/christmas_npcs.png` | :grey_question:, Alige, Lizandra, Salmondine | GPLv2
 `graphics/sprites/npcs/christmastree.png` | Chayenne, :grey_question:, Alige, Hal9000, Enchilado, Kekskiller, FotherJ | GPLv2
+`graphics/sprites/npcs/dig-01.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/npcs/dig-02.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/npcs/dig-03.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/npcs/dig-04.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/npcs/dig-01-flow.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/npcs/dig-02-flow.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/npcs/dig-04-flow.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/npcs/dig-01-glow.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/npcs/dig-02-glow.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/npcs/dig-03-glow.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/sprites/npcs/dig-04-glow.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/npcs/furnace.png` | Salmondine | GPLv2
 `graphics/sprites/npcs/hugenpcs.png` | ChefChelios, Nami | GPLv2, CC BY-SA 3.0
 `graphics/sprites/npcs/npc-beerguyghost.png` | Reid, Skipy | GPLv2

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset name="base" src="graphics/sprites/npcs/dig-03-glow.png|Y" width="32" height="32"/>
+  <action name="stand" imageset="base">
+    <animation direction="default">
+      <frame index="0" delay="333"/>
+      <frame index="1" delay="333"/>
+      <frame index="2" delay="333"/>
+      <frame index="3" delay="333"/>
+      <frame index="4" delay="333"/>
+      <frame index="3" delay="333"/>
+      <frame index="2" delay="333"/>
+      <frame index="1" delay="333"/>
+    </animation>
+  </action>
+</sprite>
