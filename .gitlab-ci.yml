@@ -30,7 +30,7 @@ manaplus:
 
 old_manaplus:
   stage: test
-  image: debian:buster
+  image: debian:bullseye
   script:
   - ./.tools/manaplus.sh packetver24 s20180215 manaplus.log
   artifacts:
