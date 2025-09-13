@@ -1,7 +1,7 @@
 stages:
 - test
 
-image: debian:buster
+image: debian:bullseye
 before_script:
   - uname -a
 
