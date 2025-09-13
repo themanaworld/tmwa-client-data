@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<!--
+Raindrops in two different sizes fall to the ground and splash on the ground.
+-->
+<effect>
+  <particle position-x="0" position-y="0" position-z="10">
+    <emitter>
+      <property name="vertical-angle" min="-300" max="-150"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="position-x" min="-16" max="24"/>
+      <property name="position-y" min="-28" max="-8"/>
+      <property name="position-z" min="32" max="28"/>
+      <property name="acceleration" value="0"/>
+      <property name="output-pause" value="8"/>
+      <property name="output" min="1" max="1"/>
+      <property name="lifetime" value="50"/>
+      <property name="fade-in" value="1"/>
+      <property name="fade-out" value="40"/>
+      <property name="alpha" value="1"/>
+      <property name="gravity" value="0.6"/>
+      <property name="momentum" value="0"/>
+      <property name="power" min="1" max="1"/>
+      <property name="bounce" value="0.000001"/>
+      <property name="randomness" value="0"/>
+      <property name="image" value="graphics/particles/raindrop_3x5.png"/>
+
+      <emitter>
+        <property name="vertical-angle" min="-300" max="-150"/>
+        <property name="horizontal-angle" min="0" max="360"/>
+        <property name="acceleration" value="0"/>
+        <property name="output-pause" value="222"/>
+        <property name="output" min="1" max="1"/>
+        <property name="lifetime" value="180"/>
+        <property name="fade-in" value="40"/>
+        <property name="fade-out" value="160"/>
+        <property name="alpha" value="1"/>
+        <property name="gravity" value="0.6"/>
+        <property name="power" min="0" max="0"/>
+        <property name="bounce" value="0.000001"/>
+        <property name="follow-parent" value="1"/>
+        <animation imageset="graphics/particles/raindrop-hit_8x8.png" width="8" height="8">
+          <frame index="0" delay="80"/>
+          <sequence start="1" end="3" delay="22"/>
+          <frame index="4" delay="5000"/>
+        </animation>
+      </emitter>
+    </emitter>
+
+    <emitter>
+      <property name="vertical-angle" min="-300" max="-150"/>
+      <property name="horizontal-angle" min="0" max="360"/>
+      <property name="position-x" min="-16" max="24"/>
+      <property name="position-y" min="-28" max="-8"/>
+      <property name="position-z" min="32" max="28"/>
+      <property name="acceleration" value="0"/>
+      <property name="output-pause" value="111"/>
+      <property name="output" min="1" max="1"/>
+      <property name="lifetime" value="50"/>
+      <property name="fade-in" value="1"/>
+      <property name="fade-out" value="40"/>
+      <property name="alpha" value="1"/>
+      <property name="gravity" value="0.6"/>
+      <property name="momentum" value="0"/>
+      <property name="power" min="1" max="1"/>
+      <property name="bounce" value="0.000001"/>
+      <property name="randomness" value="0"/>
+      <property name="image" value="graphics/particles/raindrop_8x8.png"/>
+
+      <emitter>
+        <property name="vertical-angle" min="-300" max="-150"/>
+        <property name="horizontal-angle" min="0" max="360"/>
+        <property name="acceleration" value="0"/>
+        <property name="output-pause" value="222"/>
+        <property name="output" min="1" max="1"/>
+        <property name="lifetime" value="200"/>
+        <property name="fade-in" value="40"/>
+        <property name="fade-out" value="180"/>
+        <property name="alpha" value="1"/>
+        <property name="gravity" value="0.6"/>
+        <property name="power" min="0" max="0"/>
+        <property name="bounce" value="0.000001"/>
+        <property name="follow-parent" value="1"/>
+        <animation imageset="graphics/particles/raindrop-hit_16x16.png" width="16" height="16">
+          <frame index="0" delay="80"/>
+          <sequence start="1" end="6" delay="22"/>
+          <frame index="7" delay="5000"/>
+        </animation>
+      </emitter>
+    </emitter>
+
+  </particle>
+</effect>

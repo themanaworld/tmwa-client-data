@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="140" height="120" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="17">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="140" height="120" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="18">
  <properties>
   <property name="minimap" value="graphics/minimaps/015-1.png"/>
   <property name="music" value="the-forest.ogg"/>
@@ -758,6 +758,14 @@
     <property name="max_beings" value="16"/>
     <property name="monster_id" value="1181"/>
     <property name="spawn" value="150000"/>
+   </properties>
+  </object>
+  <object id="17" name="WonderWoodling" type="spawn" x="0" y="0">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="8"/>
+    <property name="monster_id" value="1185"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
  </objectgroup>

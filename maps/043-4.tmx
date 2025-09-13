@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="220" height="200" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="39">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="220" height="200" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="40">
  <properties>
   <property name="music" value="cavesong.ogg"/>
   <property name="name" value="Troll Cave"/>
@@ -1243,6 +1243,14 @@
     <property name="dest_map" value="043-5"/>
     <property name="dest_x" value="30"/>
     <property name="dest_y" value="107"/>
+   </properties>
+  </object>
+  <object id="39" name="LavaSlime" type="spawn" x="4640" y="1664" width="448" height="384">
+   <properties>
+    <property name="death" value="30000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1132"/>
+    <property name="spawn" value="100000"/>
    </properties>
   </object>
  </objectgroup>

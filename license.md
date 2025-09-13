@@ -287,6 +287,7 @@ File | Artists | Licenses
 `graphics/items/equipment/head/pvpcap.png` | Black Don, kytty | GPLv2
 `graphics/items/equipment/head/pvpcap-golden.png` | Black Don, kytty, Ledmitz | GPLv2
 `graphics/items/equipment/head/rabbit-ears.png` | Black Don, Harufym | GPLv2
+`graphics/items/equipment/head/rainshroomhat.png` | Cassy, HoraK-FDF | CC BY-SA 3.0
 `graphics/items/equipment/head/rangerhat.png` | Pauan | GPLv2
 `graphics/items/equipment/head/rednose.png` | ChefChelios, UntamedMonkey | GPLv2, CC BY-SA 3.0
 `graphics/items/equipment/head/rosehat.png` | Nami, skipy, Alige | GPLv2
@@ -549,6 +550,7 @@ File | Artists | Licenses
 `graphics/items/generic/whitefur.png` | Crush, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/wolvern-pelt.png` | Len, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/wolvern-tooth.png` | Alige, Nami, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/wonder-wood.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/wooden-mouboo.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/wrapping-paper-dotted.png` | Lizandra, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/wrapping-paper-striped.png` | Lizandra, Enchilado | GPLv2, CC BY-SA 3.0
@@ -679,6 +681,8 @@ File | Artists | Licenses
 `graphics/particles/arrowh-banshee.png` | :grey_question:, V0id | GPLv2
 `graphics/particles/blaze.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/bubble_8px.png` | Crush | GPLv2, CC BY-SA 3.0
+`graphics/particles/bubble-ani_6x6.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/particles/bubble-ani_8x8.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/particles/anibubble_8px.png` | Crush,wushin | GPLv2, CC BY-SA 3.0
 `graphics/particles/anibubble_8px_green.png` | Crush,wushin | GPLv2, CC BY-SA 3.0
 `graphics/particles/beam.png` | Ledmitz | GPLv2, CC BY-SA 3.0
@@ -708,6 +712,10 @@ File | Artists | Licenses
 `graphics/particles/pool_32x59.particle.png` | Skipy | GPLv2
 `graphics/particles/pool_65x27.particle.png` | Skipy | GPLv2
 `graphics/particles/pool-undyed.png` | Alige, Skipy | GPLv2
+`graphics/particles/raindrop-hit_16x16.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/particles/raindrop-hit_8x8.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/particles/raindrop_3x5.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/particles/raindrop_8x8.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/particles/rainerang.png` | Ledmitz | GPLv2, CC BY-SA 3.0
 `graphics/particles/snowball.png` | Ledmitz, Reid | GPLv2, CC BY-SA 3.0
 `graphics/particles/star-medium.png` | Crush | GPLv2, CC BY-SA 3.0
@@ -954,6 +962,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/pvp-cap.png` | Black Don, kytty | GPLv2
 `graphics/sprites/equipment/head/pvpcap-golden.png` | Black Don, kytty, Ledmitz | GPLv2
 `graphics/sprites/equipment/head/rabbit-ears.png` | Black Don, Harufym | GPLv2
+`graphics/sprites/equipment/head/rainhroomhat.png` | Saulc, Cassy, HoraK-FDF | CC BY-SA 3.0
 `graphics/sprites/equipment/head/rangerhat.png` | Pauan | GPLv2
 `graphics/sprites/equipment/head/rednose.png` | ChefChelios, UntamedMonkey | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/rosehat.png` | Nami, skipy, Alige | GPLv2
@@ -1061,7 +1070,7 @@ File | Artists | Licenses
 `graphics/sprites/monsters/dragon.png` | Lunovox, Jesusalva | GPLv2
 `graphics/sprites/monsters/duck.png` | Meway | GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/element-ball.png` | Reid | GPLv2, CC BY-SA 3.0
-`graphics/sprites/monsters/ent.png` | macmanmatty, jesusalva | CC BY-SA 4.0
+`graphics/sprites/monsters/wonderwoodling.png` | macmanmatty, jesusalva | CC BY-SA 4.0
 `graphics/sprites/monsters/frog-big.png` | Hocus | MIT, GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/frog-small.png` | Hocus | MIT, GPLv2, CC BY-SA 3.0
 `graphics/sprites/monsters/ghost-pumpkin.png` | :grey_question:, Modanung | GPLv2
@@ -1089,6 +1098,7 @@ File | Artists | Licenses
 `graphics/sprites/monsters/moubootaur.png` | Hocus | MIT
 `graphics/sprites/monsters/montblanc.png` | KokoroReflections (piratehat.png | Fettsack | GPLv2) (cannon | AntumDeluge | CC BY 3.0, OGA BY 3.0) | CC BY 4.0
 `graphics/sprites/monsters/mushroom-moon.png` | Cassy, Yuuki | GPLv2
+`graphics/sprites/monsters/mushroom-rain.png` | Cassy, Yuuki, HoraK-FDF | GPLv2
 `graphics/sprites/monsters/mushroom-red.png` | Yuuki | GPLv2
 `graphics/sprites/monsters/mushroom-snow.png` | Cassy, Yuuki, HoraK-FDF | GPLv2
 `graphics/sprites/monsters/mushroom-spiky.png` | Yuuki | GPLv2

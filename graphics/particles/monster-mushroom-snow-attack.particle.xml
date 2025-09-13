@@ -7,14 +7,15 @@ Small white particles (spores/snowflakes) which float to the ground and is shot 
     <emitter>
       <property name="vertical-angle" min="0" max="360"/>
       <property name="horizontal-angle" min="0" max="360"/>
+      <property name="acceleration" value="0"/>
       <property name="alpha" value="0.9"/>
-      <property name="gravity" value="0.01"/>
+      <property name="gravity" value="0.03"/>
       <property name="momentum" value="0.9"/>
       <property name="image" value="graphics/particles/orb-small.png|W:#ffffff"/>
       <property name="lifetime" value="220"/>
       <property name="fade-in" value="10"/>
       <property name="fade-out" value="210"/>
-      <property name="bounce" value="0.8"/>
+      <property name="bounce" value="0.000001"/>
       <property name="output" min="4" max="6"/>
       <property name="output-pause" value="0"/>
       <property name="power" min="0.5" max="1"/>
@@ -27,14 +28,15 @@ Small white particles (spores/snowflakes) which float to the ground and is shot 
       <property name="horizontal-angle" min="0" max="360"/>
       <property name="output" min="1" max="2"/>
       <property name="output-pause" value="2"/>
-      <property name="lifetime" value="220"/>
+      <property name="lifetime" value="400"/>
       <property name="fade-in" value="10"/>
-      <property name="fade-out" value="210"/>
+      <property name="fade-out" value="350"/>
+      <property name="acceleration" value="0"/>
       <property name="alpha" value="0.9"/>
-      <property name="gravity" value="0.01"/>
+      <property name="gravity" value="0.04"/>
       <property name="momentum" value="0.9"/>
       <property name="power" min="0" max="1"/>
-      <property name="bounce" value="0.1"/>
+      <property name="bounce" value="0.000001"/>
       <property name="randomness" value="100"/>
       <property name="follow-parent" value="0"/>
       <property name="image" value="graphics/particles/snowflake-7x7.png"/>
@@ -43,14 +45,15 @@ Small white particles (spores/snowflakes) which float to the ground and is shot 
     <emitter>
       <property name="vertical-angle" min="0" max="360"/>
       <property name="horizontal-angle" min="0" max="360"/>
+      <property name="acceleration" value="0"/>
       <property name="alpha" value="0.9"/>
-      <property name="gravity" value="0.01"/>
+      <property name="gravity" value="0.03"/>
       <property name="momentum" value="0.9"/>
       <property name="image" value="graphics/particles/orb-small.png|W:#ffffff"/>
       <property name="lifetime" value="220"/>
       <property name="fade-in" value="10"/>
       <property name="fade-out" value="210"/>
-      <property name="bounce" value="0.8"/>
+      <property name="bounce" value="0.000001"/>
       <property name="output" min="4" max="6"/>
       <property name="output-pause" value="0"/>
       <property name="power" min="0.5" max="1"/>
@@ -63,14 +66,15 @@ Small white particles (spores/snowflakes) which float to the ground and is shot 
       <property name="horizontal-angle" min="0" max="360"/>
       <property name="output" min="2" max="3"/>
       <property name="output-pause" value="1"/>
-      <property name="lifetime" value="180"/>
+      <property name="lifetime" value="400"/>
       <property name="fade-in" value="10"/>
-      <property name="fade-out" value="170"/>
+      <property name="fade-out" value="350"/>
+      <property name="acceleration" value="0"/>
       <property name="alpha" value="0.9"/>
-      <property name="gravity" value="0.03"/>
+      <property name="gravity" value="0.04"/>
       <property name="momentum" value="0.9"/>
       <property name="power" min="0" max="1"/>
-      <property name="bounce" value="0.1"/>
+      <property name="bounce" value="0.000001"/>
       <property name="randomness" value="100"/>
       <property name="follow-parent" value="1"/>
       <property name="image" value="graphics/particles/snowflake-7x7.png"/>

@@ -8,20 +8,20 @@ Small yellow particles (spores/sundust) which float to the ground and start to b
     <emitter>
       <property name="vertical-angle" min="0" max="360"/>
       <property name="horizontal-angle" min="0" max="360"/>
-      <property name="position-x" min="-16" max="16"/>
-      <property name="position-y" min="-48" max="8"/>
-      <property name="position-z" min="-16" max="16"/>
-      <property name="acceleration" value="0.01"/>
+      <property name="position-x" min="-16" max="24"/>
+      <property name="position-y" min="-28" max="-8"/>
+      <property name="position-z" min="32" max="28"/>
+      <property name="acceleration" value="0"/>
       <property name="alpha" value="0.9"/>
       <property name="gravity" value="0.02"/>
       <property name="momentum" value="0.9"/>
       <property name="image" value="graphics/particles/orb-small.png|W:#ffff00"/>
-      <property name="lifetime" value="60"/>
+      <property name="lifetime" value="220"/>
       <property name="fade-in" value="10"/>
-      <property name="fade-out" value="50"/>
-      <property name="bounce" value="0.8"/>
-      <property name="output-pause" value="11"/>
-      <property name="output" min="1" max="2"/>
+      <property name="fade-out" value="210"/>
+      <property name="bounce" value="0.000001"/>
+      <property name="output-pause" value="22"/>
+      <property name="output" min="1" max="1"/>
       <property name="power" min="0.5" max="1.5"/>
       <property name="randomness" value="100"/>
     </emitter>
@@ -29,19 +29,19 @@ Small yellow particles (spores/sundust) which float to the ground and start to b
     <emitter>
       <property name="vertical-angle" min="0" max="360"/>
       <property name="horizontal-angle" min="0" max="360"/>
-      <property name="position-x" min="-8" max="24"/>
-      <property name="position-y" min="-48" max="8"/>
-      <property name="position-z" min="-16" max="16"/>
-      <property name="acceleration" value="0.01"/>
+      <property name="position-x" min="-16" max="24"/>
+      <property name="position-y" min="-28" max="-8"/>
+      <property name="position-z" min="32" max="28"/>
+      <property name="acceleration" value="0"/>
       <property name="alpha" value="0.9"/>
       <property name="gravity" value="0.01"/>
       <property name="momentum" value="0.9"/>
       <property name="image" value="graphics/particles/orb-small.png|W:#ffff00"/>
-      <property name="lifetime" value="60"/>
+      <property name="lifetime" value="220"/>
       <property name="fade-in" value="10"/>
-      <property name="fade-out" value="50"/>
-      <property name="bounce" value="0.8"/>
-      <property name="output-pause" value="22"/>
+      <property name="fade-out" value="210"/>
+      <property name="bounce" value="0.000001"/>
+      <property name="output-pause" value="33"/>
       <property name="output" min="1" max="1"/>
       <property name="power" min="0.5" max="1.5"/>
       <property name="randomness" value="100"/>
@@ -49,20 +49,20 @@ Small yellow particles (spores/sundust) which float to the ground and start to b
       <emitter>
         <property name="vertical-angle" min="-30" max="-150"/>
         <property name="horizontal-angle" min="0" max="360"/>
-        <property name="acceleration" value="0.01"/>
+        <property name="acceleration" value="0"/>
         <property name="output-pause" value="44"/>
         <property name="output" min="0" max="1"/>
-        <property name="lifetime" value="160"/>
-        <property name="fade-in" value="40"/>
-        <property name="fade-out" value="150"/>
+        <property name="lifetime" value="420"/>
+        <property name="fade-in" value="200"/>
+        <property name="fade-out" value="410"/>
         <property name="alpha" value="0.9"/>
-        <property name="gravity" value="0.09"/>
-        <property name="power" min="0" max="1"/>
-        <property name="bounce" value="0.1"/>
+        <property name="gravity" value="0.02"/>
+        <property name="power" min="0" max="0"/>
+        <property name="bounce" value="0.000001"/>
         <property name="follow-parent" value="1"/>
         <animation imageset="graphics/particles/flame_8x8.png" width="8" height="8">
-          <sequence start="0" end="4" delay="22"/>
-          <sequence start="3" end="0" delay="22"/>
+          <sequence start="0" end="5" delay="22"/>
+          <sequence start="4" end="0" delay="22"/>
         </animation>
       </emitter>
     </emitter>
