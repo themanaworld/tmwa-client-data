@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <var id="25">
+    <!-- Agostine Winter Gloves -->
+    <effect map="020-2.tmx" npc="137" value="0" effect="45"/>
+    <effect map="020-2.tmx" npc="137" value="1,2,3,4,5" effect="46"/>
+
+    <quest name="Refreshments" group="Kaizei" incomplete="1">
+      <name>Refreshments</name>
+      <text>Bring Agostine a nice beverage.</text>
+    </quest>
+
+    <quest name="Refreshments" group="Kaizei" incomplete="2,3">
+      <name>Refreshments</name>
+      <text>Follow up with Agostine about updating your wardrobe.</text>
+    </quest>
+
+    <quest name="Winter Gloves" group="Kaizei" incomplete="4">
+      <name>Winter Gloves</name>
+      <text>Bring Agostine the best fur for Winter Gloves.</text>
+    </quest>
+
+    <quest name="Winter Gloves" group="Kaizei" incomplete="5">
+      <name>Winter Gloves</name>
+      <text>Pay Agostine 15,000 GP to make you Winter Gloves.</text>
+    </quest>
+
+    <quest name="Winter Gloves" group="Kaizei" complete="6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23">
+      <name>Winter Gloves</name>
+      <text>Agostine made you a luxurious pair of Winter Gloves.</text>
+    </quest>
+
+    <!-- Agostine Furry Boots -->
+    <effect map="020-2.tmx" npc="137" value="6" effect="45"/>
+    <effect map="020-2.tmx" npc="137" value="7,8" effect="46"/>
+
+    <quest name="Furry Boots" group="Kaizei" incomplete="7">
+      <name>Furry Boots</name>
+      <text>Bring Agostine the best fur for Furry Boots.</text>
+    </quest>
+
+    <quest name="Furry Boots" group="Kaizei" incomplete="8">
+      <name>Furry Boots</name>
+      <text>Bring Agostine a pair of boots and 15,000 GP to make you Furry Boots.</text>
+    </quest>
+
+    <quest name="Furry Boots" group="Kaizei" complete="9,10,11,12,13,14,15,16,17,18,19,20,21,22,23">
+      <name>Furry Boots</name>
+      <text>Agostine made you a stupendous pair of Furry Boots.</text>
+    </quest>
+
+    <!-- Agostine Dream Dress -->
+    <effect map="020-2.tmx" npc="137" value="11" effect="45"/>
+    <effect map="020-2.tmx" npc="137" value="13,16,20,21,22" effect="46"/>
+
+    <!-- Lora Tay Dream Dress -->
+    <effect map="010-2.tmx" npc="151" value="9" effect="45"/>
+    <effect map="010-2.tmx" npc="151" value="10,12,14,15,17,18" effect="46"/>
+
+    <quest name="Bad Blood" group="Kaizei" incomplete="10">
+      <name>Bad Blood</name>
+      <text>Lora Tay hates Agostine's work. Ask her for more information.</text>
+    </quest>
+
+    <quest name="Bad Blood" group="Kaizei" incomplete="11">
+      <name>Bad Blood</name>
+      <text>Lora Tay is willing to work for you, if only to spite Agostine. Does Agostine have more fashion ideas?</text>
+    </quest>
+
+    <quest name="Collaboration" group="Kaizei" incomplete="12">
+      <name>Collaboration</name>
+      <text>Talk to Lora Tay about a possible collaboration with Agostine.</text>
+    </quest>
+
+    <quest name="Collaboration" group="Kaizei" incomplete="13">
+      <name>Collaboration</name>
+      <text>Return to Agostine to ask what he's planning.</text>
+    </quest>
+
+    <quest name="Dream Dress" group="Kaizei" incomplete="14">
+      <name>Dream Dress</name>
+      <text>Bring Lora Tay the materials for Agostine's dream dress.</text>
+    </quest>
+
+    <quest name="Dream Dress" group="Kaizei" incomplete="15">
+      <name>Dream Dress</name>
+      <text>Find enough silk cocoons for Lora Tay's thead.</text>
+    </quest>
+
+    <quest name="Dream Dress" group="Kaizei" incomplete="16">
+      <name>Dream Dress</name>
+      <text>Retrieve the design drawings from Agostine and deliver them to Lora Tay.</text>
+    </quest>
+
+    <quest name="Dream Dress" group="Kaizei" incomplete="17">
+      <name>Dream Dress</name>
+      <text>Deliver the design drawings to Lora Tay.</text>
+    </quest>
+
+    <quest name="Dream Dress" group="Kaizei" incomplete="18">
+      <name>Dream Dress</name>
+      <text>Give Lora Tay some time to work.</text>
+    </quest>
+
+    <!-- The ServerVar is never set to '19', likely due to revisions to the script. -->
+
+    <quest name="Dream Dress" group="Kaizei" incomplete="20">
+      <name>Dream Dress</name>
+      <text>Return to Agostine with the nearly completed dress.</text>
+    </quest>
+
+    <quest name="Dream Dress" group="Kaizei" incomplete="21">
+      <name>Dream Dress</name>
+      <text>Bring Agostine enough cotton cloths to finish the dress.</text>
+    </quest>
+
+    <quest name="Dream Dress" group="Kaizei" incomplete="22">
+      <name>Dream Dress</name>
+      <text>Purchase the dress from Agostine, so you can share his masterpiece with the world.</text>
+    </quest>
+
+    <quest name="Dream Dress" group="Kaizei" complete="23">
+      <name>Dream Dress</name>
+      <text>You assisted Agostine and Lora Tay to create Agostine's masterpiece.</text>
+    </quest>
+  </var>
+</quests>
