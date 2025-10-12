@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <var id="26">
+    <!-- Lena -->
+    <effect map="009-2" npc="182" value="0" effect="45"/>
+    <effect map="009-2" npc="182" value="1,2,5" effect="46"/>
+
+    <!-- Bryant -->
+    <effect map="009-2" npc="182" value="3" effect="46"/>
+
+    <quest name="Bandit Bounty" group="Argeas" incomplete="1">
+      <name>Bandit Bounty</name>
+      <text>Bring Lena 10 Bandit Hoods.</text>
+    </quest>
+
+    <quest name="Bandit Bounty" group="Argeas" incomplete="2">
+      <name>Bandit Bounty</name>
+      <text>Talk to Lena about the growing bandit threat.</text>
+    </quest>
+
+    <quest name="Bandit Bounty" group="Argeas" incomplete="3">
+      <name>Bandit Bounty</name>
+      <text>Find a way into the bandit leader's hideout.</text>
+    </quest>
+
+    <quest name="Bandit Bounty" group="Argeas" incomplete="4">
+      <name>Bandit Bounty</name>
+      <text>Use the key to enter the bandit leader's hideout.</text>
+    </quest>
+
+    <quest name="Bandit Bounty" group="Argeas" incomplete="5">
+      <name>Bandit Bounty</name>
+      <text>Return to Lena with the news of your success.</text>
+    </quest>
+
+    <quest name="Bandit Bounty" group="Argeas" complete="6">
+      <name>Bandit Bounty</name>
+      <text>You eliminated the bandits near Hurnscald.</text>
+    </quest>
+  </var>
+</quests>
