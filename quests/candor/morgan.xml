@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <var id="3">
+    <effect map="029-2.tmx" npc="355" value="0" effect="45"/>
+    <effect map="029-2.tmx" npc="355" value="1,2,3" effect="46"/>
+    <quest name="The Sorcerer's Apprentice" group="Candor Island" incomplete="1">
+      <name>The Sorcerer's Apprentice</name>
+      <text>Speak to Morgan in Candor to learn the basics of magic.</text>
+    </quest>
+    <quest name="The Sorcerer's Apprentice" group="Candor Island" incomplete="2">
+      <name>The Sorcerer's Apprentice</name>
+      <text>A wand? Well, give it a wave!</text>
+    </quest>
+    <quest name="The Sorcerer's Apprentice" group="Candor Island" incomplete="3">
+      <name>The Sorcerer's Apprentice</name>
+      <text>Talk to Morgan again.</text>
+    </quest>
+    <quest name="The Sorcerer's Apprentice" group="Candor Island" complete="4">
+      <name>The Sorcerer's Apprentice</name>
+      <text>You learned a basic wand attack from Morgan.</text>
+    </quest>
+  </var>
+</quests>
