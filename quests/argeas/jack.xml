@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <var id="30">
+    <!-- Jack -->
+    <effect map="009-1.tmx" npc="141" value="0" effect="45"/>
+    <effect map="009-1.tmx" npc="141" value="1,2" effect="46"/>
+
+    <quest name="Wooden Shield" group="Argeas" incomplete="1">
+      <name>Wooden Shield</name>
+      <text>Ask Jack about his offer for a Wooden Shield.</text>
+    </quest>
+
+    <quest name="Wooden Shield" group="Argeas" incomplete="2">
+      <name>Wooden Shield</name>
+      <text>Bring Jack 40 Raw Logs and 5,000 GP for a Wooden Shield.</text>
+    </quest>
+
+    <quest name="Wooden Shield" group="Argeas" complete="3">
+      <name>Wooden Shield</name>
+      <text>You helped Jack make a Wooden Shield.</text>
+    </quest>
+  </var>
+</quests>

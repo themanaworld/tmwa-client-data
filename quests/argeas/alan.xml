@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <var id="29">
+    <!-- Alan -->
+    <effect map="009-2.tmx" npc="125" value="0" effect="45"/>
+    <effect map="009-2.tmx" npc="125" value="1,2,3,4" effect="46"/>
+
+    <!-- Jack should show a '?' for '1', but it conflicts with his own quest -->
+
+    <quest name="Forest Bow" group="Argeas" incomplete="1">
+      <name>Forest Bow</name>
+      <text>Ask Jack why he can't deliver logs to Alan.</text>
+    </quest>
+
+    <quest name="Forest Bow" group="Argeas" incomplete="2">
+      <name>Forest Bow</name>
+      <text>Return to Alan with Jack's explanation.</text>
+    </quest>
+
+    <quest name="Forest Bow" group="Argeas" incomplete="3">
+      <name>Forest Bow</name>
+      <text>Bring Alan Raw Logs for a forest bow.</text>
+      <text/>
+      <text>Raw Logs can be collected from Log Heads southeast of Hurnscald.</text>
+    </quest>
+
+    <quest name="Forest Bow" group="Argeas" incomplete="4">
+      <name>Forest Bow</name>
+      <text>Bring Alan 10,000 GP for a Forest Bow.</text>
+    </quest>
+
+    <quest name="Forest Bow" group="Argeas" complete="5">
+      <name>Forest Bow</name>
+      <text>You helped Alan make a Forest Bow.</text>
+    </quest>
+  </var>
+</quests>
