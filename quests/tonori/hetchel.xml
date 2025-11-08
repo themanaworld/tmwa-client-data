@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <var id="27">
+    <!-- Hetchel -->
+    <effect map="002-2.tmx" npc="376" value="0" effect="45"/>
+    <effect map="002-2.tmx" npc="376" value="1,2,7,8" effect="46"/>
+
+    <!-- Crastur the Ugly -->
+    <effect map="011-6.tmx" npc="418" value="3,4,6" effect="46"/>
+
+    <quest name="Hetchel's Tears" group="Tonori" incomplete="1">
+      <name>Hetchel's Tears</name>
+      <text>Comfort Hetchel somehow.</text>
+    </quest>
+
+    <quest name="Hetchel's Tears" group="Tonori" incomplete="2">
+      <name>Hetchel's Tears</name>
+      <text>Ask why Hetchel is crying.</text>
+    </quest>
+
+    <quest name="Silk Pants" group="Tonori" incomplete="3">
+      <name>Silk Pants</name>
+      <text>Find someone in Hurnscald who can get all kinds of things.</text>
+    </quest>
+
+    <quest name="Silk Pants" group="Tonori" incomplete="4">
+      <name>Silk Pants</name>
+      <text>Explain Hetchel's plight to Crastur the Ugly.</text>
+    </quest>
+
+    <quest name="Silk Pants" group="Tonori" incomplete="5">
+      <name>Silk Pants</name>
+      <text>Deal with the pirates in Tulimshar, and bring Crastur the proof.</text>
+    </quest>
+
+    <quest name="Silk Pants" group="Tonori" incomplete="6">
+      <name>Silk Pants</name>
+      <text>Bring the bandana to Crastur the Ugly.</text>
+    </quest>
+
+    <quest name="Silk Pants" group="Tonori" incomplete="7">
+      <name>Silk Pants</name>
+      <text>Bring the stolen plans to Hetchel.</text>
+    </quest>
+
+    <quest name="Silk Pants" group="Tonori" incomplete="8">
+      <name>Silk Pants</name>
+      <text>Bring Hetchel the items to make the silk pants.</text>
+      <text/>
+      <text>You need:</text>
+      <text>  154x Silk Cocoons</text>
+      <text>  14x Cotton Cloths</text>
+      <text>  2x Silk Headbands</text>
+    </quest>
+
+    <quest name="Silk Pants" group="Tonori" complete="9">
+      <name>Silk Pants</name>
+      <text>You cheered up Hetchel by helping her make silk pants.</text>
+    </quest>
+  </var>
+</quests>
