@@ -17,7 +17,7 @@ imagemagiccheck:
   - ./.tools/imagemagiccheck.sh
   allow_failure: true
 
-manaplus:
+manaverse:
   stage: test
   image: debian:unstable
   script:
