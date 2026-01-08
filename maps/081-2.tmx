@@ -12,12 +12,8 @@
   <property name="music" value="night-is-calling.ogg"/>
   <property name="name" value="Northern Lights"/>
  </properties>
- <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32" tilecount="2" columns="2">
-  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
- </tileset>
- <tileset firstgid="3" name="icecave" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../graphics/tiles/icecave.png" width="512" height="256"/>
- </tileset>
+ <tileset firstgid="1" source="../tilesets/collision.tsx"/>
+ <tileset firstgid="3" source="../tilesets/icecave.tsx"/>
  <tileset firstgid="131" source="../tilesets/christmas.tsx"/>
  <tileset firstgid="435" source="../tilesets/edges_black_rotated.tsx"/>
  <layer id="2" name="Ground1" width="181" height="320">

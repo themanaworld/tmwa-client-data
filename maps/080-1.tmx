@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="200" height="200" tilewidth="32" tileheight="32" infinite="0" nextlayerid="17" nextobjectid="1">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="200" height="200" tilewidth="32" tileheight="32" infinite="0" nextlayerid="17" nextobjectid="1">
  <properties>
   <property name="author" value="poppet"/>
   <property name="license" value="GPLv3 / CC BY SA 4.0"/>
@@ -40,24 +40,12 @@
   <property name="overlay6scrollX" value="0.2"/>
   <property name="overlay6scrollY" value="0.1"/>
  </properties>
- <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32" tilecount="2" columns="2">
-  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
- </tileset>
- <tileset firstgid="3" name="woodland_ground" tilewidth="32" tileheight="32" tilecount="256" columns="16">
-  <image source="../graphics/tiles/woodland_ground.png" width="512" height="512"/>
- </tileset>
- <tileset firstgid="259" name="castle1" tilewidth="32" tileheight="32" tilecount="256" columns="16">
-  <image source="../graphics/tiles/castle1.png" width="512" height="512"/>
- </tileset>
- <tileset firstgid="515" name="castle2" tilewidth="32" tileheight="32" tilecount="256" columns="16">
-  <image source="../graphics/tiles/castle2.png" width="512" height="512"/>
- </tileset>
- <tileset firstgid="771" name="forest" tilewidth="32" tileheight="32" tilecount="399" columns="19">
-  <image source="../graphics/tiles/forest.png" width="608" height="672"/>
- </tileset>
- <tileset firstgid="1170" name="woodland_x3" tilewidth="32" tileheight="96" tilecount="32" columns="16">
-  <image source="../graphics/tiles/woodland_x3.png" width="512" height="192"/>
- </tileset>
+ <tileset firstgid="1" source="../tilesets/collision.tsx"/>
+ <tileset firstgid="3" source="../tilesets/woodland_ground.tsx"/>
+ <tileset firstgid="259" source="../tilesets/castle1.tsx"/>
+ <tileset firstgid="515" source="../tilesets/castle2.tsx"/>
+ <tileset firstgid="771" source="../tilesets/forest.tsx"/>
+ <tileset firstgid="1170" source="../tilesets/woodland_x3.tsx"/>
  <layer id="1" name="Ground1" width="200" height="200">
   <data encoding="csv">
 89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,

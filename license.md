@@ -1239,7 +1239,6 @@ File | Artists | Licenses
 `graphics/tiles/artis-lamps-x1x3.png` | Alige, Reid | GPLv2, CC BY-SA
 `graphics/tiles/barbarians_outdoor.png` | Salmondine | GPLv2
 `graphics/tiles/barbarians_yurt_x4.png` | Alige, Meway, Nami | GPLv2, CC BY-SA 3.0
-`graphics/tiles/cabana_in_fada.png` | Lunovox?, TMW-Br | GPLv2
 `graphics/tiles/castle1.png` | Alige, EJlol, Irukard, Len, MerlinX420 | GPLv2
 `graphics/tiles/castle2.png` | Alige, EJlol, Irukard, IvanMorve Len, MerlinX420 | GPLv2
 `graphics/tiles/cave_ani_wetwall.png` | Octalot | GPLv2
@@ -1356,11 +1355,15 @@ File | Artists | Licenses
 
 ### Br Tilesets
 `graphics/tilesets/br/christmastree.png` | ?, TMW-BR, TMW Org | GPL 2.0
+`graphics/tilesets/br/snow_x3.png` | ?, TMW-BR | GPL 2.0
 
 ### Lof Tilesets
 `graphics/tiles/lof/warp_gates.png` | ?, LoF | GPL 2.0
 `graphics/tiles/lof/woodland_indoor.png` | ?, LoF | GPL 2.0
 `graphics/tiles/lof/woodland_indoor_extra.png` | ?, LoF, Jesusalva | GPL 2.0
+
+### ML Tilesets
+`graphics/tiles/ml/cabana_in_fada.png` | Lunovox?, TMW-Br | GPLv2
 
 ## Sounds
 File | Artists | Licenses

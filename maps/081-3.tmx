@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.1" orientation="orthogonal" renderorder="right-down" width="90" height="70" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="28">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="90" height="70" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="28">
  <properties>
   <property name="background0image" value="graphics/images/ambient/aethyr.jpg"/>
   <property name="background0parallax" value="1.0"/>
@@ -12,12 +12,8 @@
   <property name="name" value="Existential Frontier"/>
   <property name="source" value="Moubootaur Legends"/>
  </properties>
- <tileset firstgid="1" name="Collision" tilewidth="32" tileheight="32" tilecount="2" columns="2">
-  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
- </tileset>
- <tileset firstgid="3" name="icecave" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../graphics/tiles/icecave.png" width="512" height="256"/>
- </tileset>
+ <tileset firstgid="1" source="../tilesets/collision.tsx"/>
+ <tileset firstgid="3" source="../tilesets/icecave.tsx"/>
  <layer id="1" name="Ground1" width="90" height="70">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,30,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
