@@ -19,9 +19,9 @@ imagemagiccheck:
 
 manaverse:
   stage: test
-  image: debian:unstable
+  image: ubuntu:trusty
   script:
-  - ./.tools/manaplus.sh manaplus master manaverse.log
+  - ./.tools/manaplus.sh master deb_pkg manaverse.log
   artifacts:
     paths:
     - shared
@@ -30,9 +30,9 @@ manaverse:
 
 old_manaplus:
   stage: test
-  image: debian:bullseye
+  image: ubuntu:trusty
   script:
-  - ./.tools/manaplus.sh packetver24 s20180215 manaplus.log
+  - ./.tools/manaplus.sh master deb_pkg_old manaplus.log
   artifacts:
     paths:
     - shared
