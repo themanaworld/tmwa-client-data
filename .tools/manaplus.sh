@@ -10,6 +10,9 @@ source ./.tools/init.sh
 
 clientdata_init
 
+# Stop tzdata from asking to pick a location, hanging the pipeline
+export DEBIAN_FRONTEND=noninteractive
+
 aptget_update
 # Evidently libcurl3-gnutls ships libcurl4-gnutls.so.4
 aptget_install \

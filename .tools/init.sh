@@ -69,7 +69,7 @@ function update_repos {
 
 function aptget_update {
     update_repos
-    retry_with_increasing_wait apt-get update
+    retry_with_increasing_wait apt-get -y -qq update
     check_error $?
 }
 
