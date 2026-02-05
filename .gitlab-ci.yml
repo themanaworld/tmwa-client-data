@@ -20,6 +20,8 @@ imagemagiccheck:
 manaverse:
   stage: test
   image: ubuntu:20.04
+  variables:
+    GIT_SUBMODULE_STRATEGY: recursive
   script:
   - ./.tools/manaplus.sh master deb_pkg manaverse.log
   artifacts:
@@ -31,6 +33,8 @@ manaverse:
 old_manaplus:
   stage: test
   image: ubuntu:20.04
+  variables:
+    GIT_SUBMODULE_STRATEGY: recursive
   script:
   - ./.tools/manaplus.sh master4old deb_pkg_old manaplus.log
   artifacts:
