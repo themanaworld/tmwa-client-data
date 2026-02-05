@@ -32,7 +32,7 @@ old_manaplus:
   stage: test
   image: ubuntu:20.04
   script:
-  - ./.tools/manaplus.sh master deb_pkg_old manaplus.log
+  - ./.tools/manaplus.sh master4old deb_pkg_old manaplus.log
   artifacts:
     paths:
     - shared
