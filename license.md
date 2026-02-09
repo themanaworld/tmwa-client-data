@@ -406,9 +406,11 @@ File | Artists | Licenses
 `graphics/items/generic/blackpearl.png` | :grey_question:, Fate, Enchilado | GPLv2
 `graphics/items/generic/blackscorpionclaw.png` | Saulc | CC BY-SA 3.0
 `graphics/items/generic/blanket.png` | Nami, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/blossom-wonderwoodling.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/bone.png` | Yosuhara, Enchilado | GPLv2
 `graphics/items/generic/bottle-empty.png` | FotherJ, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/bottle-ice.png` | FotherJ, Nami, Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/bottle-moon.png` | FotherJ, Enchilado, HoraK-FDF | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/bottle-sand.png` | FotherJ, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/brick-a.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/broken-fourleaf-amulet.png` | Alige, Fate, Enchilado | GPLv2, CC BY-SA 3.0
@@ -434,6 +436,7 @@ File | Artists | Licenses
 `graphics/items/generic/crystal-black-quartz.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/crystal-crozenite.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/crystal-mountain.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/items/generic/crystal-pink-quartz.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/crystalized-dragon-blood.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/dark-easter-egg.png` | :grey_question:, Enchilado | GPLv2
 `graphics/items/generic/dark-petal.png` | Enchilado | GPLv2, CC BY-SA 3.0
@@ -494,6 +497,7 @@ File | Artists | Licenses
 `graphics/items/generic/powder.png` | Crush, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/pumpkinseed.png` | Enchilado | GPLv2
 `graphics/items/generic/presentbox.png` | Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/items/generic/raindrop.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/rags-rotten.png` | FotherJ, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/rattotail.png` | Reid, Alige | CC BY-SA 3.0
 `graphics/items/generic/rattoteeth.png` | Reid, Alige | CC BY-SA 3.0
@@ -514,6 +518,7 @@ File | Artists | Licenses
 `graphics/items/generic/scorpionclaw.png` | Saulc | CC BY-SA 3.0
 `graphics/items/generic/scorpionstinger.png` | :grey_question:, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/scroll.png` | Adamaix, Enchilado | GPLv2
+`graphics/items/generic/seed-wonderwoodling.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/items/generic/sealed-soul.png` | V0id, Enchilado | GPLv2, CC BY-SA 3.0
 `graphics/items/generic/shipkey.png` | Hal9000, Reid | CC BY-SA 3.0
 `graphics/items/generic/silkcocoon.png` | Fate, Enchilado | GPLv2, CC BY-SA 3.0
