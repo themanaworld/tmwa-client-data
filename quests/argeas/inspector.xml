@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <var id="32">
+    <!-- Inspector -->
+    <effect map="009-2.tmx" npc="150" value="0" effect="45"/>
+    <effect map="009-2.tmx" npc="150" value="3,5,8,12,14" effect="46"/>
+
+    <!-- Old Woman -->
+    <effect map="009-1.tmx" npc="154" value="2,7,9" effect="46"/>
+
+    <!-- Old Man -->
+    <effect map="009-1.tmx" npc="159" value="6" effect="46"/>
+
+    <!-- Malek -->
+    <effect map="018-2.tmx" npc="109" value="10" effect="46"/>
+
+    <!-- Troupe Leader -->
+    <effect map="002-2.tmx" npc="165" value="4,13" effect="46"/>
+
+    <!-- books & unrelated NPCs aren't given icons, and values 1 and 11 don't either -->
+
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="1">
+      <name>Robberies In Hurnscald</name>
+      <text>Ask the residents of Hurnscald about the recent robberies.</text>
+    </quest>
+
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="2">
+      <name>Robberies In Hurnscald</name>
+      <text>The Old Woman will only talk to the Inspector. Or someone who looks like him.</text>
+    </quest>
+
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="3">
+      <name>Robberies In Hurnscald</name>
+      <text>Tell the Inspector about the person with a theater mask.</text>
+    </quest>
+
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="4">
+      <name>Robberies In Hurnscald</name>
+      <text>Ask the Troupe Leader in Tulimshar about the robberies.</text>
+    </quest>
+
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="5">
+      <name>Robberies In Hurnscald</name>
+      <text>Tell the Inspector about the Old Man.</text>
+    </quest>
+
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="6">
+      <name>Robberies In Hurnscald</name>
+      <text>Ask the Old Man what he was doing near the theater.</text>
+    </quest>
+
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="7">
+      <name>Robberies In Hurnscald</name>
+      <text>Verify the Old Man's alibi with the Old Woman.</text>
+    </quest>
+
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="8">
+      <name>Robberies In Hurnscald</name>
+      <text>Tell the Inspector about the Old Man's alibi.</text>
+    </quest>
+
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="9">
+      <name>Robberies In Hurnscald</name>
+      <text>Ask around Hurnscald for more information about the robberies.</text>
+    </quest>
+
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="10">
+      <name>Robberies In Hurnscald</name>
+      <text>Follow the Old Woman's lead north of Hurnscald.</text>
+    </quest>
+
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="11">
+      <name>Robberies In Hurnscald</name>
+      <text>Investigate the basement of the mining camp.</text>
+    </quest>
+
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="12">
+      <name>Robberies In Hurnscald</name>
+      <text>Return to the Inspector with the mask and the note.</text>
+    </quest>
+
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="13">
+      <name>Robberies In Hurnscald</name>
+      <text>Return the stolen mask to the Troupe Leader.</text>
+    </quest>
+
+    <quest name="Robberies In Hurnscald" group="Argeas" incomplete="14">
+      <name>Robberies In Hurnscald</name>
+      <text>Talk to the Inspector to conclude the investigation.</text>
+    </quest>
+
+    <quest name="Robberies In Hurnscald" group="Argeas" complete="15">
+      <name>Robberies In Hurnscald</name>
+      <text>You helped the Inspector recover stolen items.</text>
+    </quest>
+  </var>
+</quests>
