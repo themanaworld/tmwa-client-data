@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <var id="31">
+    <!-- There is no '0' value, as the quest begins when you enter the cave -->
+
+    <!-- Katze -->
+    <effect map="015-3.tmx" npc="172" value="1,3,5,6,7,9,10,11,12" effect="46"/>
+
+    <!-- Pot -->
+    <effect map="015-3.tmx" npc="400" value="1,3,5,7" effect="46"/>
+
+    <!-- Alice: clues in the player about what the cat needs -->
+    <effect map="015-1.tmx" npc="106" value="1,2,3,4,5,6,7,8,9" effect="46"/>
+
+    <quest name="Mad Katze" group="Argeas" incomplete="1">
+      <name>Mad Katze</name>
+      <text>The strange cat doesn't like you. What could you give her to help her warm up to you?</text>
+    </quest>
+
+    <quest name="Mad Katze" group="Argeas" incomplete="2">
+      <name>Mad Katze</name>
+      <text>Give the strange cat privacy to drink the milk.</text>
+    </quest>
+
+    <quest name="Mad Katze" group="Argeas" incomplete="3">
+      <name>Mad Katze</name>
+      <text>The strange cat liked the milk. Maybe she's hungry as well?</text>
+    </quest>
+
+    <quest name="Mad Katze" group="Argeas" incomplete="4">
+      <name>Mad Katze</name>
+      <text>Give the strange cat privacy to eat.</text>
+    </quest>
+
+    <quest name="Mad Katze" group="Argeas" incomplete="5">
+      <name>Mad Katze</name>
+      <text>The strange cat is warming up to you! Maybe she'd like to play with something?</text>
+    </quest>
+
+    <quest name="Mad Katze" group="Argeas" incomplete="6">
+      <name>Mad Katze</name>
+      <text>The strange cat can talk! What else can she say?</text>
+    </quest>
+
+    <quest name="Mad Katze" group="Argeas" incomplete="7">
+      <name>Mad Katze</name>
+      <text>The talking cat asked for something to scratch her claws on.</text>
+    </quest>
+
+    <quest name="Mad Katze" group="Argeas" incomplete="8">
+      <name>Mad Katze</name>
+      <text>Give the strange cat privacy to scratch her claws.</text>
+    </quest>
+
+    <quest name="Mad Katze" group="Argeas" incomplete="9">
+      <name>Mad Katze</name>
+      <text>What a curious experience, finding a talking cat. What else can she say?</text>
+    </quest>
+
+    <quest name="Mad Katze" group="Argeas" incomplete="10">
+      <name>Mad Katze</name>
+      <text>The talking cat wants to make you a present, but needs:</text>
+      <text/>
+      <text>  2 Snake Skins</text>
+      <text>  2 Snake Tongues</text>
+      <text>  2 Insect Slimes</text>
+      <text>  2 White Furs</text>
+      <text>  2 Hard Spikes</text>
+      <text>  2 Tiny Healing Potions</text>
+    </quest>
+
+    <quest name="Mad Katze" group="Argeas" incomplete="11">
+      <name>Mad Katze</name>
+      <text>Give the talking cat privacy to make a present for you.</text>
+    </quest>
+
+    <quest name="Mad Katze" group="Argeas" incomplete="12">
+      <name>Mad Katze</name>
+      <text>The talking cat has a present for you!</text>
+    </quest>
+
+    <quest name="Mad Katze" group="Argeas" complete="13">
+      <name>Mad Katze</name>
+      <text>You befriended a talking cat, and she made you a pair of cat ears.</text>
+    </quest>
+  </var>
+</quests>
