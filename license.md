@@ -1237,6 +1237,8 @@ File | Artists | Licenses
 `graphics/sprites/npcs/thermin_npcs.png` | Lien, Nami, Salmondine, Varuna | GPLv2
 `graphics/sprites/npcs/xmas-palm.png` | Chayenne, :grey_question:, Enchilado | GPLv2
 `graphics/sprites/npcs/xmastree-nosnow.png` | Chayenne, :grey_question:, Alige, Hal9000, Enchilado, Kekskiller, FotherJ | GPLv2
+`graphics/sprites/npcs/teapot.png` | Reid | CC-BY-SA 3.0
+
 
 ### Tilesets
 File | Artists | Licenses
