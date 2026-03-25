@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset name="base" src="graphics/sprites/npcs/portal_32x64-01.png" width="32" height="64"/>
+  <action name="stand" imageset="base">
+    <animation direction="default">
+      <sequence start="1" end="12" offsetY="-8" delay="222"/>
+    </animation>
+  </action>
+</sprite>

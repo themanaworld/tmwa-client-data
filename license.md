@@ -1226,6 +1226,7 @@ File | Artists | Licenses
 `graphics/sprites/npcs/npcs.png` | :grey_question:, Crush, Fate, Haay, Lien, Qwerty Dragon, Salmondine, Skipy, Wombat | GPLv2
 `graphics/sprites/npcs/npcs2.png` | Reid, Salmondine, Skipy | GPLv2
 `graphics/sprites/npcs/outfits.png` | Wombat | GPLv2, CC BY-SA 3.0
+`graphics/sprites/npcs/portal_32x64-01.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/sprites/npcs/poses.png` | Lien, Meemixes, Salmondine, Wombat | GPLv2
 `graphics/sprites/npcs/saboteur.png` | Wombat | GPLv2, CC BY-SA 3.0
 `graphics/sprites/npcs/sages.png` | Alige, Nami, Salmondine | GPLv2
