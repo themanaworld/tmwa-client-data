@@ -69,7 +69,7 @@ function update_repos {
 
 function aptget_update {
     update_repos
-    retry_with_increasing_wait apt-get update
+    retry_with_increasing_wait apt-get -y -qq update
     check_error $?
 }
 
@@ -80,7 +80,9 @@ function aptget_install {
 
 function clientdata_init {
     mkdir shared
+    if [[ "${PWD##*/}" != clientdata && ! -L ../clientdata ]]; then
+        ln -s "$PWD" ../clientdata
+        check_error $?
+    fi
     cd ..
-    ln -s clientdata client-data
-    check_error $?
 }
