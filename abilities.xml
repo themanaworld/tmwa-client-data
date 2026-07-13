@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Magic spells known to the server, for the benefit of the Mana client's
+    Abilities window and ability shortcut bar.
+
+    The values mirror the authoritative spell scripts in
+    serverdata/world/map/npc/magic/ and need to be kept in sync with them:
+
+      window-title  what the client calls these abilities in the UI
+      invocation    the chat command that casts the spell
+      mana          the SP cost checked by the script
+      target        "none" or "being" (spells targeting a player by name)
+      needs-target  the spell does nothing without a target
+      require       skill levels needed to cast (skill 340 is general magic,
+                    341-346 are the school skills)
+
+    Descriptions mention reagents, which the client does not check.
+-->
+<abilities window-title="Spells">
+
+  <!-- General -->
+  <ability id="1"
+           name="Charge Wand"
+           category="General"
+           invocation="#confringo"
+           target="none"
+           icon="graphics/skills/magic/basic.png"
+           rechargeable="false"
+           description="Charges an equipped wand or staff to fire neutral magic bolts on attack. Requires a wand equipped; no reagents."/>
+  <ability id="2"
+           name="Discharge"
+           category="General"
+           invocation="#discharge"
+           target="none"
+           icon="graphics/skills/magic/basic.png"
+           rechargeable="false"
+           description="Releases any active charged spell (such as wand charges) without effect. No mana cost or reagents."/>
+  <ability id="3"
+           name="Anti-Protect"
+           category="General"
+           invocation="#detsanc"
+           target="none"
+           icon="graphics/skills/magic/basic.png"
+           rechargeable="false"
+           description="Toggles refusal of the betsanc protect spell, dispelling any current physical shield. No mana cost or reagents."/>
+  <ability id="4"
+           name="Enchant Lifestone"
+           category="General"
+           invocation="#manpahil"
+           mana="15"
+           target="none"
+           icon="graphics/skills/magic/basic.png"
+           rechargeable="false"
+           description="Creates 1 Lifestone. Requires 1 Insect Leg, or 1 Insect Slime, or 1 each of Mauve, Alizarin, Cobalt and Gamboge Herb.">
+    <require skill="340" level="2"/>
+  </ability>
+  <ability id="5"
+           name="Detect Players"
+           category="General"
+           invocation="#inwilt"
+           mana="7"
+           target="none"
+           icon="graphics/skills/magic/basic.png"
+           rechargeable="false"
+           description="Lists the names of other players nearby on the same map. No reagents.">
+    <require skill="340" level="2"/>
+  </ability>
+  <ability id="6"
+           name="Detect Magic"
+           category="General"
+           invocation="#miteyo"
+           mana="3"
+           target="none"
+           icon="graphics/skills/magic/basic.png"
+           rechargeable="false"
+           description="Reveals nearby magical beings: highlights magic npcs and magician players with a visual effect. No reagents.">
+    <require skill="340" level="1"/>
+  </ability>
+  <ability id="7"
+           name="Sense Experience"
+           category="General"
+           invocation="#abizit"
+           mana="1"
+           target="none"
+           icon="graphics/skills/magic/basic.png"
+           rechargeable="false"
+           description="Tells you how well you control your magic, hinting at progress toward the next magic level. No reagents.">
+    <require skill="340" level="1"/>
+  </ability>
+  <ability id="8"
+           name="Sense Spouse"
+           category="General"
+           invocation="#inzuwilt"
+           target="none"
+           icon="graphics/skills/magic/basic.png"
+           rechargeable="false"
+           description="Tells you whether your spouse is currently online. Only works when married."/>
+
+  <!-- Life -->
+  <ability id="20"
+           name="Lesser Heal"
+           category="Life"
+           invocation="#lum"
+           mana="6"
+           target="being"
+           icon="graphics/skills/magic/life.png"
+           rechargeable="false"
+           description="Heals the target (or self) by 200 HP. Requires 1 Lifestone.">
+    <require skill="340" level="1"/>
+  </ability>
+  <ability id="21"
+           name="Lay On Hands"
+           category="Life"
+           invocation="#inma"
+           mana="10"
+           target="being"
+           needs-target="true"
+           icon="graphics/skills/magic/life.png"
+           rechargeable="false"
+           description="Heals another player fully by sacrificing part of the caster's own HP. No item reagents; pays with caster HP.">
+    <require skill="340" level="2"/>
+    <require skill="341" level="2"/>
+  </ability>
+
+  <!-- War -->
+  <ability id="40"
+           name="Flare Dart"
+           category="War"
+           invocation="#flar"
+           mana="10"
+           target="none"
+           icon="graphics/skills/magic/war.png"
+           rechargeable="false"
+           description="Imbues attacks with fire damage for several charges. Requires 1 Sulphur Powder; waived at war magic level 3+.">
+    <require skill="340" level="1"/>
+  </ability>
+  <ability id="41"
+           name="Magic Blade"
+           category="War"
+           invocation="#chiza"
+           mana="9"
+           target="none"
+           icon="graphics/skills/magic/war.png"
+           rechargeable="false"
+           description="Turns attacks into magic melee strikes. Requires 1 Sharp Knife or 1 Knife; waived at war magic level 3+.">
+    <require skill="340" level="1"/>
+  </ability>
+  <ability id="42"
+           name="Arrow Hail"
+           category="War"
+           invocation="#frillyar"
+           mana="25"
+           target="none"
+           icon="graphics/skills/magic/war.png"
+           rechargeable="false"
+           description="Summons a hail of arrows striking an area ahead of the caster. Requires 20 Arrows or 20 Iron Arrows plus 1 Sulphur Powder.">
+    <require skill="340" level="2"/>
+    <require skill="342" level="2"/>
+  </ability>
+  <ability id="43"
+           name="Lightning Strike"
+           category="War"
+           invocation="#ingrav"
+           mana="20"
+           target="none"
+           icon="graphics/skills/magic/war.png"
+           rechargeable="false"
+           description="Charges attacks with lightning bolts. Requires 1 Iron Powder; waived at war magic level 4+.">
+    <require skill="340" level="2"/>
+    <require skill="342" level="2"/>
+  </ability>
+  <ability id="44"
+           name="Magic Knuckles"
+           category="War"
+           invocation="#upmarmu"
+           mana="20"
+           target="none"
+           icon="graphics/skills/magic/war.png"
+           rechargeable="false"
+           description="Empowers bare-handed attacks with fast magic punches. Requires 1 Beer; waived at war magic level 4+.">
+    <require skill="340" level="2"/>
+    <require skill="342" level="2"/>
+  </ability>
+
+  <!-- Transmutation -->
+  <ability id="60"
+           name="Make Sulphur"
+           category="Transmutation"
+           invocation="#gole"
+           mana="4"
+           target="none"
+           icon="graphics/skills/magic/transmutation.png"
+           rechargeable="false"
+           description="Transmutes ash into Sulphur Powder; yield scales with spellpower. Requires 1 Pile of Ash.">
+    <require skill="340" level="1"/>
+  </ability>
+  <ability id="61"
+           name="Transmute Wood"
+           category="Transmutation"
+           invocation="#parum boo"
+           mana="5"
+           target="none"
+           icon="graphics/skills/magic/transmutation.png"
+           rechargeable="false"
+           description="Transmutes a Raw Log into a Mouboo Figurine, though the magic often fails and produces a Warped Log.">
+    <require skill="340" level="1"/>
+  </ability>
+  <ability id="62"
+           name="Make Arrows"
+           category="Transmutation"
+           invocation="#kularzufrill"
+           mana="8"
+           target="none"
+           icon="graphics/skills/magic/transmutation.png"
+           rechargeable="false"
+           description="Transmutes a Raw Log into Iron Arrows; amount scales with spellpower. Requires 1 Raw Log.">
+    <require skill="340" level="2"/>
+    <require skill="343" level="2"/>
+  </ability>
+  <ability id="63"
+           name="Make Bones"
+           category="Transmutation"
+           invocation="#kularzunevelafrill"
+           mana="16"
+           target="none"
+           icon="graphics/skills/magic/transmutation.png"
+           rechargeable="false"
+           description="Transmutes bones into Bone Arrows; amount scales with spellpower. Requires 1 Animal Bones or 1 Bone.">
+    <require skill="340" level="2"/>
+    <require skill="343" level="2"/>
+  </ability>
+  <ability id="64"
+           name="Make Iron Powder"
+           category="Transmutation"
+           invocation="#zukminbirf"
+           mana="8"
+           target="none"
+           icon="graphics/skills/magic/transmutation.png"
+           rechargeable="false"
+           description="Transmutes ore into Iron Powder; yield scales with spellpower. Requires 1 Iron Ore.">
+    <require skill="340" level="2"/>
+    <require skill="343" level="2"/>
+  </ability>
+  <ability id="65"
+           name="Make Shirt"
+           category="Transmutation"
+           invocation="#patmuploo"
+           mana="25"
+           target="none"
+           icon="graphics/skills/magic/transmutation.png"
+           rechargeable="false"
+           description="Transmutes cloth into a Cotton Shirt. Requires 5 Cotton Cloth.">
+    <require skill="343" level="2"/>
+  </ability>
+  <ability id="66"
+           name="Make Tanktop"
+           category="Transmutation"
+           invocation="#patloree"
+           mana="25"
+           target="none"
+           icon="graphics/skills/magic/transmutation.png"
+           rechargeable="false"
+           description="Transmutes cloth into a Tank Top. Requires 4 Cotton Cloth.">
+    <require skill="343" level="2"/>
+  </ability>
+  <ability id="67"
+           name="Make Short Tanktop"
+           category="Transmutation"
+           invocation="#patviloree"
+           mana="25"
+           target="none"
+           icon="graphics/skills/magic/transmutation.png"
+           rechargeable="false"
+           description="Transmutes cloth into a Short Tank Top. Requires 3 Cotton Cloth.">
+    <require skill="343" level="2"/>
+  </ability>
+
+  <!-- Nature -->
+  <ability id="80"
+           name="Aggravate"
+           category="Nature"
+           invocation="#itenplz"
+           mana="3"
+           target="none"
+           icon="graphics/skills/magic/nature.png"
+           rechargeable="false"
+           description="Draws the attention of nearby monsters to the caster (radius grows with spellpower). No reagents.">
+    <require skill="340" level="1"/>
+  </ability>
+  <ability id="81"
+           name="Grow Mauve"
+           category="Nature"
+           invocation="#modrilax"
+           mana="4"
+           target="none"
+           icon="graphics/skills/magic/nature.png"
+           rechargeable="false"
+           description="Summons Mauve Plants near the caster. Requires 1 Mauve Herb and 1 Root.">
+    <require skill="340" level="1"/>
+  </ability>
+  <ability id="82"
+           name="Grow Alizarin"
+           category="Nature"
+           invocation="#modriphoo"
+           mana="4"
+           target="none"
+           icon="graphics/skills/magic/nature.png"
+           rechargeable="false"
+           description="Summons Alizarin Plants near the caster. Requires 1 Alizarin Herb and 1 Root.">
+    <require skill="340" level="1"/>
+  </ability>
+  <ability id="83"
+           name="Grow Cobalt"
+           category="Nature"
+           invocation="#modrisump"
+           mana="4"
+           target="none"
+           icon="graphics/skills/magic/nature.png"
+           rechargeable="false"
+           description="Summons Cobalt Plants near the caster. Requires 1 Cobalt Herb and 1 Root.">
+    <require skill="340" level="1"/>
+  </ability>
+  <ability id="84"
+           name="Grow Gamboge"
+           category="Nature"
+           invocation="#modriyikam"
+           mana="4"
+           target="none"
+           icon="graphics/skills/magic/nature.png"
+           rechargeable="false"
+           description="Summons Gamboge Plants near the caster. Requires 1 Gamboge Herb and 1 Root.">
+    <require skill="340" level="1"/>
+  </ability>
+  <ability id="85"
+           name="Grow Shadow"
+           category="Nature"
+           invocation="#modrisha"
+           mana="4"
+           target="none"
+           icon="graphics/skills/magic/nature.png"
+           rechargeable="false"
+           description="Summons Shadow Plants near the caster. Requires 1 Shadow Herb and 1 Root.">
+    <require skill="340" level="1"/>
+  </ability>
+  <ability id="86"
+           name="Flying Backpack"
+           category="Nature"
+           invocation="#plugh"
+           mana="12"
+           target="being"
+           icon="graphics/skills/magic/nature.png"
+           rechargeable="false"
+           description="Levitates the target's backpack (SC_FLYING_BACKPACK) for a spellpower-scaled duration. Requires 1 Silk Cocoon; waived at school level 4+.">
+    <require skill="340" level="2"/>
+    <require skill="344" level="2"/>
+  </ability>
+  <ability id="87"
+           name="Happy Curse"
+           category="Nature"
+           invocation="#joyplim"
+           mana="13"
+           target="none"
+           icon="graphics/skills/magic/nature.png"
+           rechargeable="false"
+           description="Makes players around the caster repeatedly show happy emotes. Requires 1 Gingerbread Man; waived at school level 4+.">
+    <require skill="340" level="2"/>
+    <require skill="344" level="2"/>
+  </ability>
+  <ability id="88"
+           name="Protect"
+           category="Nature"
+           invocation="#betsanc"
+           mana="14"
+           target="being"
+           icon="graphics/skills/magic/nature.png"
+           rechargeable="false"
+           description="Grants the target a physical shield (SC_PHYS_SHIELD) scaling with spellpower. Requires 1 Hard Spike; waived at school level 4+.">
+    <require skill="340" level="2"/>
+    <require skill="344" level="2"/>
+  </ability>
+  <ability id="89"
+           name="Rain"
+           category="Nature"
+           invocation="#kaflosh"
+           mana="17"
+           target="none"
+           icon="graphics/skills/magic/nature.png"
+           rechargeable="false"
+           description="Summons a wandering rain cloud that soaks the area and injures fire-element beings. Requires 1 Bottle Of Water; waived at school level 4+.">
+    <require skill="340" level="2"/>
+    <require skill="344" level="2"/>
+  </ability>
+  <ability id="90"
+           name="Shear"
+           category="Nature"
+           invocation="#chipchip"
+           mana="23"
+           target="none"
+           icon="graphics/skills/magic/nature.png"
+           rechargeable="false"
+           description="Overrides your attack to shear a monster, making it drop fur, herbs, spikes, cocoons or antennae. No reagents.">
+    <require skill="340" level="2"/>
+    <require skill="344" level="2"/>
+  </ability>
+
+  <!-- Astral -->
+  <ability id="100"
+           name="Summon Maggots"
+           category="Astral"
+           invocation="#kalmurk"
+           mana="21"
+           target="none"
+           icon="graphics/skills/magic/astral.png"
+           rechargeable="false"
+           description="Summons maggots that fight for the caster. Requires 1 Insect Slime and 1 Root.">
+    <require skill="340" level="1"/>
+  </ability>
+  <ability id="101"
+           name="Summon Fluffies"
+           category="Astral"
+           invocation="#kalakarenk"
+           mana="39"
+           target="none"
+           icon="graphics/skills/magic/astral.png"
+           rechargeable="false"
+           description="Summons fluffies that fight for the caster. Requires 1 White Fur and 1 Root.">
+    <require skill="340" level="2"/>
+    <require skill="345" level="2"/>
+  </ability>
+  <ability id="102"
+           name="Summon Mouboo"
+           category="Astral"
+           invocation="#kalboo"
+           mana="35"
+           target="none"
+           icon="graphics/skills/magic/astral.png"
+           rechargeable="false"
+           description="Summons mouboos that fight for the caster. Requires 1 Mouboo Figurine and 1 Root.">
+    <require skill="340" level="2"/>
+    <require skill="345" level="2"/>
+  </ability>
+  <ability id="103"
+           name="Summon Pinkie"
+           category="Astral"
+           invocation="#kalgina"
+           mana="35"
+           target="none"
+           icon="graphics/skills/magic/astral.png"
+           rechargeable="false"
+           description="Summons pinkies that fight for the caster. Requires 1 Pink Antenna and 1 Root.">
+    <require skill="340" level="2"/>
+    <require skill="345" level="2"/>
+  </ability>
+  <ability id="104"
+           name="Summon Spiky Mushroom"
+           category="Astral"
+           invocation="#kalrenk"
+           mana="33"
+           target="none"
+           icon="graphics/skills/magic/astral.png"
+           rechargeable="false"
+           description="Summons spiky mushrooms that fight for the caster. Requires 1 Hard Spike and 1 Root.">
+    <require skill="340" level="2"/>
+    <require skill="345" level="2"/>
+  </ability>
+  <ability id="105"
+           name="Barrier"
+           category="Astral"
+           invocation="#asorm"
+           mana="15"
+           target="being"
+           icon="graphics/skills/magic/astral.png"
+           rechargeable="false"
+           description="Surrounds the target (or self) with a magical barrier that absorbs damage. Requires 1 Small Mushroom; waived at astral magic level 4+.">
+    <require skill="340" level="2"/>
+    <require skill="345" level="2"/>
+  </ability>
+  <ability id="106"
+           name="Hide"
+           category="Astral"
+           invocation="#anwiltyp"
+           mana="11"
+           target="being"
+           icon="graphics/skills/magic/astral.png"
+           rechargeable="false"
+           description="Turns the target (or self) invisible for a while. Requires 1 Cotton Cloth; waived at astral magic level 4+.">
+    <require skill="340" level="2"/>
+    <require skill="345" level="2"/>
+  </ability>
+
+  <!-- Dark -->
+  <ability id="120"
+           name="Summon Snakes"
+           category="Dark"
+           invocation="#halhiss"
+           mana="40"
+           target="none"
+           icon="graphics/skills/magic/dark.png"
+           rechargeable="false"
+           description="Summons 1+ random snakes (Cave/Mountain/Grass/normal) that fight for the caster. Requires 1 Dark Crystal and 1 Snake Egg.">
+    <require skill="340" level="2"/>
+    <require skill="346" level="2"/>
+  </ability>
+  <ability id="121"
+           name="Summon Wicked Mushroom"
+           category="Dark"
+           invocation="#helorp"
+           mana="42"
+           target="none"
+           icon="graphics/skills/magic/dark.png"
+           rechargeable="false"
+           description="Summons mushrooms (60% Wicked, 30% Moonshroom, 10% Evil) that fight for the caster. Requires 1 Dark Crystal and 1 Small Mushroom.">
+    <require skill="340" level="2"/>
+    <require skill="346" level="2"/>
+  </ability>
+  <ability id="122"
+           name="Toxic Dart"
+           category="Dark"
+           invocation="#phlex"
+           mana="15"
+           target="none"
+           icon="graphics/skills/magic/dark.png"
+           rechargeable="false"
+           description="Charges attacks with neutral/poison damage that also poisons player targets. Requires 2 Roots, waived at Dark level 3+.">
+    <require skill="346" level="2"/>
+  </ability>
+  <ability id="123"
+           name="Necromancy"
+           category="Dark"
+           invocation="#nevela"
+           mana="50"
+           target="being"
+           needs-target="true"
+           icon="graphics/skills/magic/dark.png"
+           rechargeable="false"
+           description="Revives a dead player after 6 seconds, leaving both caster and target at 1 HP and 0 SP. Requires 1 Soul.">
+    <require skill="340" level="3"/>
+    <require skill="346" level="3"/>
+  </ability>
+</abilities>
