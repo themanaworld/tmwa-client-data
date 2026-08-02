@@ -67,6 +67,7 @@ licensecheck:
   - lightweight
   script:
   - ln -s license.md LICENSE
+  - ln -s license.md ART_LICENSE
   - ./.tools/licensecheck.sh
   allow_failure: true
 
@@ -75,6 +76,5 @@ testxml:
   image: debian:bookworm
   script:
   - ./.tools/testxml.sh
-  - pwd
   allow_failure: true
 

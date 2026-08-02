@@ -65,14 +65,14 @@ function aptget_install {
 }
 
 function clientdata_init {
-    mkdir shared
-    if [[ "${PWD##*/}" != clientdata && ! -L ../clientdata ]]; then
-        ln -s "$PWD" ../clientdata
+    mkdir -p shared
+    if [[ "${PWD##*/}" != clientdata ]]; then
+        ln -sfn "$PWD" ../clientdata
         check_error $?
     fi
     # The tools scripts look for the checkout under its upstream name
-    if [[ "${PWD##*/}" != client-data && ! -L ../client-data ]]; then
-        ln -s "$PWD" ../client-data
+    if [[ "${PWD##*/}" != client-data ]]; then
+        ln -sfn "$PWD" ../client-data
         check_error $?
     fi
     cd ..
