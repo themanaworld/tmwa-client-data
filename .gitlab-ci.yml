@@ -20,6 +20,8 @@ imagemagiccheck:
 manaverse:
   stage: test
   image: ubuntu:20.04
+  tags:
+  - amd64
   variables:
     GIT_SUBMODULE_STRATEGY: recursive
   script:
@@ -33,6 +35,8 @@ manaverse:
 old_manaplus:
   stage: test
   image: ubuntu:20.04
+  tags:
+  - amd64
   variables:
     GIT_SUBMODULE_STRATEGY: recursive
   script:

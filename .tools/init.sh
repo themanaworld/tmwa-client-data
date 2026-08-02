@@ -31,23 +31,9 @@ retry_with_increasing_wait()
 }
 
 
-function gitclone1 {
-    echo git clone $2 $3
-    git clone $2 $3
-    if [ "$?" != 0 ]; then
-        echo git clone $1 $3
-        git clone $1 $3
-        return $?
-    fi
-    return $?
-}
-
 function gitclone {
-    export name1=$1/$2
-    export name2=${CI_BUILD_REPO##*@}
-    export name2=https://${name2%/*}/$2
-
-    retry_with_increasing_wait gitclone1 "$name1" "$name2" "$3"
+    echo git clone "$1/$2" "$3"
+    retry_with_increasing_wait git clone "$1/$2" "$3"
     check_error $?
 }
 
