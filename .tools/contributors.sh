@@ -8,7 +8,7 @@ aptget_update
 aptget_install git-core make xsltproc
 
 rm -rf tools
-gitclone https://git.themanaworld.org/evolved tools.git tools
+gitclone https://git.themanaworld.org/tmw tools.git tools
 
 cd tools/contrib_xsl
 

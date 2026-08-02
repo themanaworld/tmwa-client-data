@@ -72,7 +72,7 @@ licensecheck:
 
 testxml:
   stage: test
-  image: ubuntu:18.04
+  image: debian:bookworm
   script:
   - ./.tools/testxml.sh
   - pwd

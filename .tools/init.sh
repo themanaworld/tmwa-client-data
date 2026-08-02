@@ -70,5 +70,10 @@ function clientdata_init {
         ln -s "$PWD" ../clientdata
         check_error $?
     fi
+    # The tools scripts look for the checkout under its upstream name
+    if [[ "${PWD##*/}" != client-data && ! -L ../client-data ]]; then
+        ln -s "$PWD" ../client-data
+        check_error $?
+    fi
     cd ..
 }

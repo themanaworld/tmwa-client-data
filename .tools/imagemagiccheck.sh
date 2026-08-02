@@ -8,9 +8,9 @@ aptget_update
 aptget_install git-core imagemagick
 
 rm -rf tools
-gitclone https://git.themanaworld.org/evolved tools.git tools
+gitclone https://git.themanaworld.org/tmw tools.git tools
 
-cd tools/CI/imagescheck
+cd tools/imagescheck
 
 ./icccheck.sh >icccheck.log
 check_error $?

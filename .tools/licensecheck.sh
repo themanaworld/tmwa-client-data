@@ -8,9 +8,9 @@ aptget_update
 aptget_install git-core grep
 
 rm -rf tools
-gitclone https://git.themanaworld.org/evolved tools.git tools
+gitclone https://git.themanaworld.org/tmw tools.git tools
 
-cd tools/CI/licensecheck
+cd tools/licensecheck
 
 ./clientdata.sh >license.log
 check_error $?

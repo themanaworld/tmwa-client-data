@@ -5,30 +5,30 @@ source ./.tools/init.sh
 clientdata_init
 
 aptget_update
-aptget_install git-core libxml2-utils python python-pil python-pyvorbis
+aptget_install git libxml2-utils python3 python3-pil python3-soundfile
 
 rm -rf tools
-gitclone https://git.themanaworld.org/evolved tools.git tools
+gitclone https://git.themanaworld.org/tmw tools.git tools
 
-cd tools/CI/testxml
+cd tools/testxml
 
 ./xsdcheck.sh
 check_error $?
 export RES=$(cat errors.txt)
 if [[ -n "${RES}" ]]; then
-    echo "xml check failed" >../../../clientdata/shared/error.log
-    cat errors.txt >>../../../clientdata/shared/error.log
-    cat ../../../clientdata/shared/error.log
+    echo "xml check failed" >../../clientdata/shared/error.log
+    cat errors.txt >>../../clientdata/shared/error.log
+    cat ../../clientdata/shared/error.log
     exit 1
 fi
 
-echo >../../../clientdata/shared/error.log
-./testxml.py stfu >../../../clientdata/shared/error.log
+echo >../../clientdata/shared/error.log
+./testxml.py stfu >../../clientdata/shared/error.log
 res="$?"
-cat ../../../clientdata/shared/error.log
+cat ../../clientdata/shared/error.log
 if [ "$res" != 0 ]; then
     echo "test xml error"
     exit 1
 fi
 
-echo >../../../clientdata/shared/error.log
+echo >../../clientdata/shared/error.log
