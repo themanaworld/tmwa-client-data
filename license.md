@@ -930,6 +930,7 @@ File | Artists | Licenses
 `graphics/sprites/equipment/head/earmuffs.png` | Lizandra | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/eggshell.png` | Kyon | GPLv2
 `graphics/sprites/equipment/head/elf-nightcap.png` | Lien | GPLv2
+`graphics/sprites/equipment/head/eskimohat.png` | :grey_question:, Ledmitz | GPLv2, CC BY-SA 3.0
 `graphics/sprites/equipment/head/eyepatch.png` | Yosuhara | GPLv2
 `graphics/sprites/equipment/head/fairy_hat.png` | Goku | GPLv2
 `graphics/sprites/equipment/head/fancyhat.png` | Crush | GPLv2, CC BY-SA 3.0
