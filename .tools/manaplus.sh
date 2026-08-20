@@ -2,13 +2,16 @@
 
 client_branch="$1"
 client_job_name="$2"
+clientdata_path="$PWD"
 logfile="$3"
 
 set -e
 
+export HOME="$PWD/logs/home"
+rm -rf "$PWD/logs/"
+
 source ./.tools/init.sh
 
-clientdata_init
 
 # Stop tzdata from asking to pick a location, hanging the pipeline
 export DEBIAN_FRONTEND=noninteractive
@@ -25,6 +28,7 @@ aptget_install \
 pwd
 ls -la
 
+cd ..
 # --retry-on-host-error unknown option?
 wget --retry-connrefused --tries=10 --waitretry=5 \
     --progress=dot:mega \
@@ -47,7 +51,7 @@ popd
 PATH="$PATH:/usr/games"
 export SDL_VIDEODRIVER=dummy
 manaplus --version || exit 1
-manaplus --validate -u -d clientdata || exit 1
+manaplus --validate -u -d "$clientdata_path" || exit 1
 
 log_path="$HOME/.local/share/mana/$logfile"
 if [[ ! -f "$log_path" ]]; then
