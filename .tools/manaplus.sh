@@ -1,14 +1,18 @@
 #!/bin/bash
 
-client_branch="$1"
-client_job_name="$2"
+client_repo="https://git.themanaworld.org/$1"
+client_branch="$2"
+client_job_name="$3"
+dl_dir="${1//\//_}_$client_job_name" #mana_verse_pkg_deb or the like
 clientdata_path="$PWD"
-logfile="$3"
+logfile="$4"
 
 set -e
 
 export HOME="$PWD/logs/home"
 rm -rf "$PWD/logs/"
+mkdir -p "$PWD/logs/"
+wget_log="$PWD/logs/wget.log"
 
 source ./.tools/init.sh
 
@@ -19,28 +23,54 @@ export DEBIAN_FRONTEND=noninteractive
 aptget_update
 aptget_install wget unzip
 
-pwd
-ls -la
-
 cd ..
-# --retry-on-host-error unknown option?
+pwd
+ls -lah # timestamps for rough idea of version..
+mkdir -p "$dl_dir"
+pushd "$dl_dir"
+ls -lah
+
+# --no-if-modified-since to make only-newer downloads work.
 wget --retry-connrefused --tries=10 --waitretry=5 \
+    --timestamping --no-if-modified-since \
+    --retry-on-host-error \
     --progress=dot:mega \
-    -O "$client_job_name.zip" \
-    "https://git.themanaworld.org/mana/appimg-builder/-/jobs/artifacts/$client_branch/download?job=$client_job_name"
+    "$client_repo/-/jobs/artifacts/$client_branch/download?job=$client_job_name" \
+    2>&1 | tee "$wget_log"
+
+zip_path=""
+while read -r line; do
+    if [[ $line =~ ^"Saving to: '"(.*)"'"$ || \
+          $line =~ ^"File '"(.*)"' not modified on server. Omitting download."$ ]]; then
+        if [[ -z $zip_path ]]; then
+            zip_path="${BASH_REMATCH[1]}"
+        else
+            printf 'Multiple matches, aborting!\n'
+            exit 1
+        fi
+    fi
+done <"$wget_log"
+
+if [[ -z $zip_path ]]; then
+    printf 'Unable to determine zip path, aborting!\n'
+    exit 1
+fi
+printf 'Zip path: %s\n' "$zip_path"
 
 # Docker will cache the unpacked files, so make unzip only extract
 # if the archive contains newer ones. The same filesystem will
-# most likely contain exctracted MV/M+ from both CI jobs.
-unzip -o -u "$client_job_name.zip" -d "$client_job_name"
-pushd "$client_job_name"
+# most likely contain extracted MV/M+ from both CI jobs.
+# Unfortunately there's no way to tell unzip to delete files not in
+# archive, which will become a problem when version is included.
+rm -rf packages
+unzip -o -u "$zip_path" -d packages
 # Print package sums to troubleshoot docker caching
 printf "Using debian packages with the following checksums:\n"
-cat deb-sha256checksum.txt
+cat packages/deb-sha256checksum.txt
+ls -lah packages # timestamps for rough idea of version..
 # apt-get takes care of dependencies for us.
-aptget_install "./manaplus-data_latest_all.deb"
-aptget_install "./manaplus_latest_amd64.deb"
-aptget_install "./manaplus-dbg_latest_amd64.deb"
+aptget_install ./packages/*.deb
+rm -rf packages # And we'll delete them anyways, so there's no point caching.
 popd
 
 PATH="$PATH:/usr/games"

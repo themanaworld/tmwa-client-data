@@ -19,13 +19,13 @@ imagemagiccheck:
 
 manaverse:
   stage: test
-  image: ubuntu:20.04
+  image: debian:bookworm #2023
   tags:
   - amd64
   variables:
     GIT_SUBMODULE_STRATEGY: recursive
   script:
-  - ./.tools/manaplus.sh master deb_pkg manaverse.log
+  - ./.tools/manaplus.sh mana/verse master pkg_deb manaverse.log
   artifacts:
     paths:
     - logs
@@ -34,13 +34,13 @@ manaverse:
 
 old_manaplus:
   stage: test
-  image: ubuntu:20.04
+  image: debian:bookworm #2023
   tags:
   - amd64
   variables:
     GIT_SUBMODULE_STRATEGY: recursive
   script:
-  - ./.tools/manaplus.sh master4old deb_pkg_old manaplus.log
+  - ./.tools/manaplus.sh mana/verse old_manaplus_for_CI pkg_deb manaplus.log
   artifacts:
     paths:
     - logs
