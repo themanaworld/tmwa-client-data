@@ -17,13 +17,7 @@ source ./.tools/init.sh
 export DEBIAN_FRONTEND=noninteractive
 
 aptget_update
-# Evidently libcurl3-gnutls ships libcurl4-gnutls.so.4
-aptget_install \
-    x11-utils xdg-utils xsel \
-    ttf-dejavu-core fonts-liberation \
-    libcurl3-gnutls \
-    libsdl-gfx1.2 libsdl-image1.2 libsdl-mixer1.2 libsdl-net1.2 libsdl-ttf2.0 \
-    wget unzip
+aptget_install wget unzip
 
 pwd
 ls -la
@@ -43,9 +37,10 @@ pushd "$client_job_name"
 # Print package sums to troubleshoot docker caching
 printf "Using debian packages with the following checksums:\n"
 cat deb-sha256checksum.txt
-dpkg -i "manaplus-data_latest_all.deb"
-dpkg -i "manaplus_latest_amd64.deb"
-dpkg -i "manaplus-dbg_latest_amd64.deb"
+# apt-get takes care of dependencies for us.
+aptget_install "./manaplus-data_latest_all.deb"
+aptget_install "./manaplus_latest_amd64.deb"
+aptget_install "./manaplus-dbg_latest_amd64.deb"
 popd
 
 PATH="$PATH:/usr/games"
