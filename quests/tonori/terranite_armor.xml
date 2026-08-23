@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <quests>
   <var id="20">
-    <effect map="001-2.tmx" npc="147" value="0,2,5,8,11" effect="45"/>
-    <effect map="001-2.tmx" npc="147" value="1,3,4,6,7,9,10,12,13" effect="46"/>
+    <effect map="001-2.tmx" npc="147" value="0" effect="45" level="60"/>
+    <effect map="001-2.tmx" npc="147" value="2" effect="45" level="70"/>
+    <effect map="001-2.tmx" npc="147" value="5,8,11" effect="45" level="80"/>
+    <effect map="001-2.tmx" npc="147" value="1" effect="46" level="60"/>
+    <effect map="001-2.tmx" npc="147" value="3,4" effect="46" level="70"/>
+    <effect map="001-2.tmx" npc="147" value="6,7,9,10,12,13" effect="46" level="80"/>
     <quest name="Terranite Armor" group="Tonori" incomplete="1">
       <name>Terranite Armor</name>
       <text>Bring Heathin 50 Coal</text>
