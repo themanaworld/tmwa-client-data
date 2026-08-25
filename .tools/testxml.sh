@@ -6,7 +6,7 @@ clientdata_init
 
 aptget_update
 aptget_install ca-certificates git-core libxml2-utils \
-               python3 python3-pil python3-soundfile
+               python3 python3-numpy python3-pil python3-soundfile
 
 rm -rf tools
 gitclone https://git.themanaworld.org/tmw tools.git tools
