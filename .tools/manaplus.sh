@@ -21,7 +21,7 @@ source ./.tools/init.sh
 export DEBIAN_FRONTEND=noninteractive
 
 aptget_update
-aptget_install wget unzip
+aptget_install ca-certificates wget unzip
 
 cd ..
 pwd

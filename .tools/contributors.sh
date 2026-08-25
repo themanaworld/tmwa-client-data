@@ -5,7 +5,7 @@ source ./.tools/init.sh
 clientdata_init
 
 aptget_update
-aptget_install git-core make xsltproc
+aptget_install ca-certificates git-core make xsltproc
 
 rm -rf tools
 gitclone https://git.themanaworld.org/tmw tools.git tools

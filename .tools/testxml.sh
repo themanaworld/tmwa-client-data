@@ -5,7 +5,8 @@ source ./.tools/init.sh
 clientdata_init
 
 aptget_update
-aptget_install git libxml2-utils python3 python3-pil python3-soundfile
+aptget_install ca-certificates git-core libxml2-utils \
+               python3 python3-pil python3-soundfile
 
 rm -rf tools
 gitclone https://git.themanaworld.org/tmw tools.git tools
