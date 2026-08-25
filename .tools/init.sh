@@ -65,7 +65,7 @@ function aptget_update {
 }
 
 function aptget_install {
-    retry_with_increasing_wait apt-get -y -qq install $*
+    retry_with_increasing_wait apt-get --assume-yes -qq --no-install-recommends install "$@"
     check_error $?
 }
 
