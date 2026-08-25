@@ -43,6 +43,11 @@ function update_repos {
         return
     fi
 
+    # dpkg fsyncs after every package, which is pointless in CI
+    if [[ ! -f /etc/dpkg/dpkg.cfg.d/02speedup ]]; then
+        echo force-unsafe-io > /etc/dpkg/dpkg.cfg.d/02speedup
+    fi
+
     export DATA=$(cat /etc/resolv.conf|grep "nameserver 1.10.100.101")
     if [ "$DATA" != "" ];
     then
