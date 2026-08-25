@@ -12,6 +12,7 @@ retry_with_increasing_wait()
     local wait_time=1
 
     while true; do
+        printf "Running %s\n" "$*"
         "$@"
         local retval=$?
 
@@ -32,7 +33,6 @@ retry_with_increasing_wait()
 
 
 function gitclone {
-    echo git clone "$1/$2" "$3"
     retry_with_increasing_wait git clone "$1/$2" "$3"
     check_error $?
 }
