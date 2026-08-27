@@ -13,8 +13,9 @@ retry_with_increasing_wait()
 
     while true; do
         printf "Running %s\n" "$*"
-        "$@"
-        local retval=$?
+        # The || keeps a failure from tripping set -e in the caller.
+        local retval=0
+        "$@" || retval=$?
 
         if [[ $retval -eq 0  ||  $wait_time -gt 16 ]]; then
             break
