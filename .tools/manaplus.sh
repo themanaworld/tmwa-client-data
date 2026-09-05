@@ -33,6 +33,7 @@ ls -lah
 # can't be skipped based on timestamps. The artifact URL does redirect to
 # the job that produced it though, so cache the zip under that job id.
 artifact_url="$client_repo/-/jobs/artifacts/$client_branch/download?job=$client_job_name"
+printf "Checking for latest artifact at %s...\n" "$artifact_url"
 job_url=$(curl --silent --show-error --fail --output /dev/null \
     --retry 10 --retry-connrefused \
     --write-out '%{redirect_url}' "$artifact_url")
