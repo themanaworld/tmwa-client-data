@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The three subquests below live in the same server variable as the Blue Sage
+     investigation (blue_sage.xml). Each var is a view on part of that variable,
+     see db/quest-log.txt in serverdata. -->
+<quests>
+  <!-- Bits 0 to 4: number of missing book pages found (up to 31),
+       bit 5: got the Grimoire from Nikolai -->
+  <var id="33">
+    <quest name="Blue Sage Pages" group="Kaizei" incomplete="1,2,3,4,5,6,7,8">
+      <name>Scattered Pages</name>
+      <text>Ensio and the other helpers are trying to recreate the destroyed books from the pages the slimes left behind. Bring him any Book Pages you get from the Blue and White Slimes. So far he has only a handful of the missing pages.</text>
+      <text>Ensio can be found at (104,86) within the Blue Sages' Mansion.</text>
+    </quest>
+    <quest name="Blue Sage Pages" group="Kaizei" incomplete="9,10,11,12,13,14,15,16,17,18">
+      <name>Scattered Pages</name>
+      <text>Thanks to the Book Pages you brought, Ensio has recovered some of the missing pages, but many are still missing. The Blue and White Slimes carry more of them.</text>
+      <text>Ensio can be found at (104,86) within the Blue Sages' Mansion.</text>
+    </quest>
+    <quest name="Blue Sage Pages" group="Kaizei" incomplete="19,20,21,22,23,24,25,26">
+      <name>Scattered Pages</name>
+      <text>Ensio has already sorted quite a lot of the missing pages. Keep bringing him the Book Pages you get from the Blue and White Slimes.</text>
+      <text>Ensio can be found at (104,86) within the Blue Sages' Mansion.</text>
+    </quest>
+    <quest name="Blue Sage Pages" group="Kaizei" incomplete="27,28,29,30">
+      <name>Scattered Pages</name>
+      <text>Only a few pages are still missing. Keep bringing Book Pages to Ensio until he has found them all.</text>
+      <text>Ensio can be found at (104,86) within the Blue Sages' Mansion.</text>
+    </quest>
+    <quest name="Blue Sage Pages" group="Kaizei" incomplete="31">
+      <name>Every Page Accounted For</name>
+      <text>You found every page the helpers were missing! Once they also have all the material to repair the books, Nikolai will want to reward you.</text>
+      <text>Nikolai can be found at (98,106) within the Blue Sages' Mansion.</text>
+    </quest>
+    <quest name="Blue Sage Pages" group="Kaizei" complete="63">
+      <name>A Library Reborn</name>
+      <text>Nikolai gave you a Grimoire as thanks for your help with recovering the books of the library.</text>
+    </quest>
+  </var>
+
+  <!-- Bit 0: Reed Bundles, bit 1: Silk Cocoons, bit 2: Yeti Claws, bit 3: ink -->
+  <var id="34">
+    <quest name="Blue Sage Materials" group="Kaizei" incomplete="1,2,3,4,5,6,7,8,9,10,11,12,13,14">
+      <name>Paper, Glue, Ink and Covers</name>
+      <text>The helpers of the Blue Sage need material to repair the books and to create new ones. Kullervo needs 20 Reed Bundles for paper, Santeri 8 Yeti Claws for glue, Janika 80 Silk Cocoons for the covers, and Eevert 5 Bottles of Water, 4 Iron Powder, 3 Wisp Powder, 3 Spectre Powder and 3 Poltergeist Powder for ink. Some of them still lack what they need.</text>
+      <text>The helpers can be found in the workshop and the library of the Blue Sages' Mansion.</text>
+    </quest>
+    <quest name="Blue Sage Materials" group="Kaizei" complete="15">
+      <name>Paper, Glue, Ink and Covers</name>
+      <text>You brought the helpers all the material they need to repair the books. Nikolai rewards this together with the recovery of the missing pages.</text>
+    </quest>
+  </var>
+
+  <!-- Bit 0: agreed to hunt the slimes, bits 1 to 7: one flag per slime nest,
+       bit 8: got the Ice Gladius from Nikolai -->
+  <var id="35">
+    <effect map="048-2.tmx" npc="362" value="255" effect="46"/>
+    <quest name="Blue Sage Slimes" group="Kaizei" incomplete="1">
+      <name>Between the Bookshelves</name>
+      <text>Pyry told you about the slimes breeding in the deeper parts of the library and gladly accepted your offer to fight them. Every slime of a nest has to die before the nest is extinguished: the White Slimes come in groups, and the Blue Slimes protect themselves with smaller slimes.</text>
+      <text>Pyry can be found at (117,106) within the Blue Sages' Mansion.</text>
+    </quest>
+    <quest name="Blue Sage Slimes" group="Kaizei" incomplete="3,5,7,9,11,13,15,17,19,21,23,25,27,29,33,35,37,39,41,43,45,49,51,53,57,65,67,69,71,73,75,77,81,83,85,89,97,99,101,105,113,129,131,133,135,137,139,141,145,147,149,153,161,163,165,169,177,193,195,197,201,209,225">
+      <name>Between the Bookshelves</name>
+      <text>You extinguished some of the slime nests between the bookshelves, but most of them are still there. Pyry can tell you roughly how many are left.</text>
+      <text>Pyry can be found at (117,106) within the Blue Sages' Mansion.</text>
+    </quest>
+    <quest name="Blue Sage Slimes" group="Kaizei" incomplete="31,47,55,59,61,63,79,87,91,93,95,103,107,109,111,115,117,119,121,123,125,143,151,155,157,159,167,171,173,175,179,181,183,185,187,189,199,203,205,207,211,213,215,217,219,221,227,229,231,233,235,237,241,243,245,249">
+      <name>Between the Bookshelves</name>
+      <text>You extinguished more than half of the slime nests between the bookshelves. Pyry can tell you roughly how many are left.</text>
+      <text>Pyry can be found at (117,106) within the Blue Sages' Mansion.</text>
+    </quest>
+    <quest name="Blue Sage Slimes" group="Kaizei" incomplete="127,191,223,239,247,251,253">
+      <name>Between the Bookshelves</name>
+      <text>Only one slime nest is left somewhere between the bookshelves in the deeper parts of the library.</text>
+      <text>Pyry can be found at (117,106) within the Blue Sages' Mansion.</text>
+    </quest>
+    <quest name="Blue Sage Slimes" group="Kaizei" incomplete="255">
+      <name>A Clean Sweep</name>
+      <text>You extinguished every slime nest in the library! Nikolai will surely want to thank you for that.</text>
+      <text>Nikolai can be found at (98,106) within the Blue Sages' Mansion.</text>
+    </quest>
+    <quest name="Blue Sage Slimes" group="Kaizei" complete="511">
+      <name>A Clean Sweep</name>
+      <text>Nikolai gave you an Ice Gladius for wiping out the slimes in the library.</text>
+    </quest>
+  </var>
+</quests>
