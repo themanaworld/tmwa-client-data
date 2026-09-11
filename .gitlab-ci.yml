@@ -5,14 +5,37 @@ image: debian:bookworm
 before_script:
   - uname -a
 
+default:
+  interruptible: true
+
+# Shared rules for every check job: always run on master, and run when
+# the CI configuration itself changes. Job rules are OR'd, so jobs also
+# match their own changes rule below these.
+.shared-rules:
+  rules:
+  - if: $CI_COMMIT_BRANCH == "master"
+  - changes:
+    - .tools/init.sh
+    - .gitlab-ci.yml
+
 pngcheck:
   stage: test
+  rules:
+  - !reference [.shared-rules, rules]
+  - changes:
+    - "**/*.png"
+    - .tools/pngcheck.sh
   script:
   - ./.tools/pngcheck.sh
   #allow_failure: true
 
 imagemagiccheck:
   stage: test
+  rules:
+  - !reference [.shared-rules, rules]
+  - changes:
+    - "**/*.png"
+    - .tools/imagemagiccheck.sh
   script:
   - ./.tools/imagemagiccheck.sh
   allow_failure: true
@@ -50,6 +73,12 @@ newlines:
   stage: test
   tags:
   - lightweight
+  rules:
+  - !reference [.shared-rules, rules]
+  - changes:
+    - "**/*.xml"
+    - "**/*.tmx"
+    - .tools/newlines.sh
   script:
   - ./.tools/newlines.sh
   artifacts:
@@ -63,6 +92,15 @@ licensecheck:
   stage: test
   tags:
   - lightweight
+  rules:
+  - !reference [.shared-rules, rules]
+  - changes:
+    - "**/*.png"
+    - "**/*.jpg"
+    - "**/*.tmx"
+    - "sfx/**/*.ogg"
+    - license.md
+    - .tools/licensecheck.sh
   script:
   - ln -s license.md LICENSE
   - ln -s license.md ART_LICENSE
@@ -74,6 +112,12 @@ testxml:
   variables:
     GIT_SUBMODULE_STRATEGY: recursive
     GIT_SUBMODULE_PATHS: mods
+  rules:
+  - !reference [.shared-rules, rules]
+  - changes:
+    - "**/*.xml"
+    - "**/*.tmx"
+    - "**/*.png"
+    - .tools/testxml.sh
   script:
   - ./.tools/testxml.sh
-
