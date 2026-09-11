@@ -5,14 +5,45 @@ image: debian:bookworm
 before_script:
   - uname -a
 
+default:
+  interruptible: true
+
+# This project uses branch pipelines. Without this block, jobs having
+# rules also spawn a duplicate merge request pipeline for each push to
+# a branch with an open MR.
+workflow:
+  rules:
+  - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    when: never
+  - when: always
+
+# Shared rule: changes that affect every check job. Job rules are OR'd,
+# so jobs match this rule or their own changes rule below it.
+.ci-config: &when-ci-config-changes
+  changes:
+  - .tools/init.sh
+  - .gitlab-ci.yml
+
 pngcheck:
   stage: test
+  rules:
+  - if: $CI_COMMIT_BRANCH == "master"
+  - *when-ci-config-changes
+  - changes:
+    - "**/*.png"
+    - .tools/pngcheck.sh
   script:
   - ./.tools/pngcheck.sh
   #allow_failure: true
 
 imagemagiccheck:
   stage: test
+  rules:
+  - if: $CI_COMMIT_BRANCH == "master"
+  - *when-ci-config-changes
+  - changes:
+    - "**/*.png"
+    - .tools/imagemagiccheck.sh
   script:
   - ./.tools/imagemagiccheck.sh
   allow_failure: true
@@ -50,6 +81,13 @@ newlines:
   stage: test
   tags:
   - lightweight
+  rules:
+  - if: $CI_COMMIT_BRANCH == "master"
+  - *when-ci-config-changes
+  - changes:
+    - "**/*.xml"
+    - "**/*.tmx"
+    - .tools/newlines.sh
   script:
   - ./.tools/newlines.sh
   artifacts:
@@ -63,6 +101,16 @@ licensecheck:
   stage: test
   tags:
   - lightweight
+  rules:
+  - if: $CI_COMMIT_BRANCH == "master"
+  - *when-ci-config-changes
+  - changes:
+    - "**/*.png"
+    - "**/*.jpg"
+    - "**/*.tmx"
+    - "sfx/**/*.ogg"
+    - license.md
+    - .tools/licensecheck.sh
   script:
   - ln -s license.md LICENSE
   - ln -s license.md ART_LICENSE
@@ -71,7 +119,14 @@ licensecheck:
 
 testxml:
   stage: test
+  rules:
+  - if: $CI_COMMIT_BRANCH == "master"
+  - *when-ci-config-changes
+  - changes:
+    - "**/*.xml"
+    - "**/*.tmx"
+    - "**/*.png"
+    - .tools/testxml.sh
   script:
   - ./.tools/testxml.sh
   allow_failure: true
-
