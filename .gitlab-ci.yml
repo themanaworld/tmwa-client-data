@@ -1,7 +1,7 @@
 stages:
 - test
 
-image: debian:bullseye
+image: debian:bookworm
 before_script:
   - uname -a
 
@@ -19,7 +19,6 @@ imagemagiccheck:
 
 manaverse:
   stage: test
-  image: debian:bookworm #2023
   tags:
   - amd64
   variables:
@@ -34,7 +33,6 @@ manaverse:
 
 old_manaplus:
   stage: test
-  image: debian:bookworm #2023
   tags:
   - amd64
   variables:
@@ -73,7 +71,6 @@ licensecheck:
 
 testxml:
   stage: test
-  image: debian:bookworm
   script:
   - ./.tools/testxml.sh
   allow_failure: true
