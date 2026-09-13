@@ -71,7 +71,9 @@ licensecheck:
 
 testxml:
   stage: test
+  variables:
+    GIT_SUBMODULE_STRATEGY: recursive
+    GIT_SUBMODULE_PATHS: mods
   script:
   - ./.tools/testxml.sh
-  allow_failure: true
 
