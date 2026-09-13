@@ -3,7 +3,7 @@
   <imageset name="base" src="graphics/sprites/equipment/legs/pants.png|W" width="64" height="64"/>
   <action name="default" imageset="base"/>
   <action name="stand" imageset="base">
-    <animation direction="down">
+    <animation direction="default">
       <frame index="0"/>
     </animation>
   </action>
