@@ -684,20 +684,20 @@ File | Artists | Licenses
 ### Particles
 File | Artists | Licenses
 ---- |:-------:|:--------:
+`graphics/particles/aniblaze.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/aniblaze-large.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/aniblaze-medium.png` | Crush | GPLv2, CC BY-SA 3.0
-`graphics/particles/aniblaze.png` | Crush | GPLv2, CC BY-SA 3.0
-`graphics/particles/arrowh-banshee.png` | :grey_question:, V0id | GPLv2
-`graphics/particles/blaze.png` | Crush | GPLv2, CC BY-SA 3.0
-`graphics/particles/bubble_8px.png` | Crush | GPLv2, CC BY-SA 3.0
-`graphics/particles/bubble-ani_6x6.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
-`graphics/particles/bubble-ani_8x8.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/particles/anibubble_8px.png` | Crush,wushin | GPLv2, CC BY-SA 3.0
 `graphics/particles/anibubble_8px_green.png` | Crush,wushin | GPLv2, CC BY-SA 3.0
+`graphics/particles/arrowh-banshee.png` | :grey_question:, V0id | GPLv2
 `graphics/particles/beam.png` | Ledmitz | GPLv2, CC BY-SA 3.0
 `graphics/particles/beam-crit.png` | Ledmitz | GPLv2, CC BY-SA 3.0
+`graphics/particles/blaze.png` | Crush | GPLv2, CC BY-SA 3.0
+`graphics/particles/bubble_8px.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/bubble_12px.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/bubble_32px.png` | Crush | GPLv2, CC BY-SA 3.0
+`graphics/particles/bubble-ani_6x6.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/particles/bubble-ani_8x8.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/particles/casket-trap_96x96.png` | Skipy | GPLv2
 `graphics/particles/dart.png` | Ledmitz | GPLv2, CC BY-SA 3.0
 `graphics/particles/flame-8x8.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
@@ -708,12 +708,15 @@ File | Artists | Licenses
 `graphics/particles/glow-small.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/gloworb-medium.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/gloworb-small.png` | Crush | GPLv2, CC BY-SA 3.0
+`graphics/particles/hex-facet-outline.png` | ?, HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/particles/hex-facet-outline-50.png` | ?, HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/particles/leaf.png` | Enchilado | GPLv2, CC BY-SA 3.0
+`graphics/particles/manapearl_4x4.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/particles/mist-face-a.png` | Nmaligec | GPLv2
 `graphics/particles/mist-face-b.png` | Nmaligec | GPLv2
-`graphics/particles/monster-troll-foefire.particle.png` | FotherJ | GPLv2, CC BY-SA 3.0
 `graphics/particles/monster-rotter-crit.png` | Ledmitz | GPLv2, CC BY-SA 3.0
 `graphics/particles/monster-rotter-vomit.png` | Ledmitz | GPLv2, CC BY-SA 3.0
+`graphics/particles/monster-troll-foefire.particle.png` | FotherJ | GPLv2, CC BY-SA 3.0
 `graphics/particles/orb-large.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/orb-medium.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/orb-small.png` | Crush | GPLv2, CC BY-SA 3.0
@@ -721,20 +724,18 @@ File | Artists | Licenses
 `graphics/particles/pool_32x59.particle.png` | Skipy | GPLv2
 `graphics/particles/pool_65x27.particle.png` | Skipy | GPLv2
 `graphics/particles/pool-undyed.png` | Alige, Skipy | GPLv2
-`graphics/particles/raindrop-hit_16x16.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/particles/raindrop-hit_8x8.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/particles/raindrop-hit_16x16.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/particles/raindrop_3x5.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/particles/raindrop_8x8.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/particles/rainerang.png` | Ledmitz | GPLv2, CC BY-SA 3.0
+`graphics/particles/slots.png` | Ledmitz | GPLv2, CC BY-SA 3.0
 `graphics/particles/snowball.png` | Ledmitz, Reid | GPLv2, CC BY-SA 3.0
+`graphics/particles/snowflake-7x7.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
+`graphics/particles/snowflake-9x9.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
 `graphics/particles/star-medium.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/star-small.png` | Crush | GPLv2, CC BY-SA 3.0
 `graphics/particles/waterfall-a.png` | Modanung | GPLv2, CC BY-SA 3.0
-`graphics/particles/manapearl_4x4.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
-`graphics/particles/snowflake-7x7.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
-`graphics/particles/snowflake-9x9.png` | HoraK-FDF | GPLv2, CC BY-SA 4.0
-`graphics/particles/hex-facet-outline.png` | ?, HoraK-FDF | GPLv2, CC BY-SA 4.0
-`graphics/particles/hex-facet-outline-50.png` | ?, HoraK-FDF | GPLv2, CC BY-SA 4.0
 
 ### Skills
 File | Artists | Licenses
@@ -1395,6 +1396,16 @@ File | Artists | Licenses
 `sfx/env/spawn_burst.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/env/tiny_bell.ogg` | SamuelGremaud, Ledmitz | CC0
 `sfx/env/zap.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/env/slots/cha-ching.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/env/slots/coin_insert_1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/env/slots/coin_insert_2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/env/slots/coin_insert_3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/env/slots/free_spin.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/env/slots/jackpot_1.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/env/slots/jackpot_2.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/env/slots/jackpot_3.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/env/slots/need_coins.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
+`sfx/env/slots/slots_bonus.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/magic/astral.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/magic/betsanc-on.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0
 `sfx/magic/betsanc-off.ogg` | Ledmitz | GPLv2, CC BY-SA 3.0

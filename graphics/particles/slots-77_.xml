@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Author: Ledmitz (2026)-->
+<effect>
+  <particle position-x="0" position-y="-30" position-z="51" lifetime="1">
+    <emitter>
+      <property name="lifetime" value="300"/>
+      <animation imageset="graphics/particles/slots.png" width="28" height="23">
+        <frame index="4" delay="500"/>
+        <frame index="5" delay="2500"/>
+      </animation>
+    </emitter>
+  </particle>
+</effect>
