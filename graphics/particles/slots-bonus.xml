@@ -3,14 +3,14 @@
 <effect>
   <particle position-x="0" position-y="-30" position-z="51" lifetime="1">
     <emitter>
-      <property name="lifetime" value="600"/>
+      <property name="lifetime" value="550"/>
       <animation imageset="graphics/particles/slots.png" width="28" height="23">
+        <frame index="4" delay="500"/>
+        <frame index="8" delay="500"/>
         <frame index="10" delay="500"/>
         <frame index="11" delay="500"/>
-        <frame index="12" delay="1000"/>
-        <frame index="13" delay="500"/>
-        <frame index="12" delay="500"/>
-        <frame index="13" delay="3000"/>
+        <frame index="10" delay="500"/>
+        <frame index="11" delay="3000"/>
       </animation>
     </emitter>
   </particle>
