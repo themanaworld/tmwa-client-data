@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!-- For use with weapons that require no sprite. e.g. items/misc/ (magic) -->
 <sprite variants="135" variant_offset="1">
-  <imageset name="null" src="graphics/sprites/equipment/weapons/null.png|B;R" width="128" height="128"/>
+  <imageset name="null" src="graphics/sprites/equipment/weapons/null.png" width="128" height="128"/>
   <action name="default" imageset="null"/>
   <action name="stand" imageset="null">
     <animation direction="down">

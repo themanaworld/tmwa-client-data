@@ -399,7 +399,7 @@
     </monster>
 
     <monster id="1050" name="House Maggot" targetCursor="small">
-        <sprite>monsters/cave-maggot.xml|#4d422d,826242,d8c282,ffffff</sprite>
+        <sprite>monsters/cave-maggot.xml</sprite>
         <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
         <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
         <!-- <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound> -->
@@ -958,7 +958,7 @@
         <sound event="miss">monsters/slime-super/slime-super-miss3.ogg</sound>
         <sound event="move">monsters/slime-super/slime-super-move1.ogg</sound>
         <sound event="move">monsters/slime-super/slime-super-move2.ogg</sound>
-        <attack id="1" missile-particle="graphics/particles/arrowh-sea-slime.particle.xml|#4Ca16e,ffffff" action="attack"/>
+        <attack id="1" missile-particle="graphics/particles/arrowh-sea-slime.particle.xml" action="attack"/>
     </monster>
 
     <monster id="1116" name="Undead Witch">
@@ -1001,7 +1001,7 @@
         <sound event="miss">monsters/slime-super/slime-super-miss3.ogg</sound>
         <sound event="move">monsters/slime-super/slime-super-move1.ogg</sound>
         <sound event="move">monsters/slime-super/slime-super-move2.ogg</sound>
-        <attack id="1" missile-particle="graphics/particles/arrowh-green-slime.particle.xml|#72982c,ffffff" action="attack"/>
+        <attack id="1" missile-particle="graphics/particles/arrowh-green-slime.particle.xml" action="attack"/>
     </monster>
 
     <monster id="1119" name="Thug">
@@ -1167,7 +1167,7 @@
     </monster>
 
     <monster id="1131" name="Mana Bug" targetCursor="small">
-        <sprite>monsters/mana-bug.xml|#660000,FF3300,FFCC99,FFCCCC</sprite>
+        <sprite>monsters/mana-bug.xml</sprite>
         <sprite>monsters/accessories/generic-shadow-small-circle.xml</sprite>
     </monster>
 
@@ -1190,7 +1190,7 @@
     </monster>
 
     <monster id="1134" name="SUSAN" targetCursor="large">
-        <sprite>monsters/SUSAN.xml|R:#ff00e4</sprite>
+        <sprite>monsters/SUSAN.xml</sprite>
         <particlefx>graphics/particles/heartnecklace.particle.xml</particlefx>
         <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
         <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
@@ -1199,7 +1199,7 @@
     </monster>
 
     <monster id="1135" name="Lovely Maggot" targetCursor="small">
-        <sprite>monsters/lovely-maggot.xml|S:#524b51,8463a0,6f706f,af006d</sprite>
+        <sprite>monsters/lovely-maggot.xml</sprite>
         <sound event="hit">monsters/maggot/maggot-hit1.ogg</sound>
         <sound event="hit">monsters/maggot/maggot-hit2.ogg</sound>
         <!-- <sound event="miss">monsters/maggot/maggot-miss1.ogg</sound> -->
@@ -1631,7 +1631,7 @@
     </monster>
 
     <monster id="1175" name="Mega Mana Bug" targetCursor="medium">
-        <sprite>monsters/mega-mana-bug.xml|#660000,FF3300,FFCC99,FFCCCC</sprite>
+        <sprite>monsters/mega-mana-bug.xml</sprite>
         <sprite>monsters/accessories/generic-shadow-medium-circle.xml</sprite>
         <particlefx>graphics/particles/manadust.particle.xml</particlefx>
     </monster>
