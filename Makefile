@@ -38,8 +38,5 @@ optimize-pngs: $(PNG_OPT)
 
 opt/%.png: %.png
 	@mkdir -p $(@D)
-	@zopflipng -y $< $@.tmp >/dev/null 2>&1 || true
-	@if [ ! -s $@.tmp ] || [ ! $$(wc -c < $@.tmp) -lt $$(wc -c < $<) ]; \
-	then cp $< $@.tmp; fi
-	@mv $@.tmp $@
+	@zopflipng -y $< $@ >/dev/null 2>&1
 	@printf "%s: %d -> %d bytes\n" "$<" $$(wc -c < $<) $$(wc -c < $@)
