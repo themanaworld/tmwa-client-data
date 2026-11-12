@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<monsters offset="0">
+    <monster id="1176" name="Rotter">
+        <sprite>monsters/rotter.xml</sprite>
+        <particlefx>graphics/particles/monster-rotter-trail.xml</particlefx>
+        <sound event="die">monsters/rotter/die1.ogg</sound>
+        <sound event="die">monsters/rotter/die2.ogg</sound>
+        <sound event="hit">monsters/rotter/hit1.ogg</sound>
+        <sound event="hit">monsters/rotter/hit2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt2.ogg</sound>
+        <sound event="hurt">monsters/slime/slime-hurt3.ogg</sound>
+        <sound event="miss">monsters/rotter/miss1.ogg</sound>
+        <sound event="miss">monsters/rotter/miss2.ogg</sound>
+        <sound event="move">monsters/rotter/move1.ogg</sound>
+        <sound event="move">monsters/rotter/move2.ogg</sound>
+        <sound event="move">monsters/rotter/move3.ogg</sound>
+        <attack id="1" critical-hit-effect-id="71" hit-effect-id="70" missile-particle="graphics/particles/monster-rotter-vomit.xml" action="attack"/>
+    </monster>
+</monsters>

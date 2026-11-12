@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<monsters offset="0">
+    <monster id="1177" name="Rot" targetCursor="small">
+        <sprite>monsters/rot.xml</sprite>
+        <sound event="die">monsters/slime/slime-die1.ogg</sound>
+        <attack id="1" critical-hit-effect-id="71" hit-effect-id="70" action="attack"/>
+    </monster>
+</monsters>

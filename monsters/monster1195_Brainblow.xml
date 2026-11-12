@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<monsters offset="0">
+    <monster id="1195" name="Brainblow" targetCursor="small">
+        <sprite>monsters/brainblow.xml</sprite>
+        <sound event="die">monsters/brainblow/brainblow-die1.ogg</sound>
+        <sound event="die">monsters/brainblow/brainblow-die2.ogg</sound>
+        <sound event="die">monsters/brainblow/brainblow-die3.ogg</sound>
+        <attack id="1" hit-effect-id="72" critical-hit-effect-id="73" action="attack"/>
+    </monster>
+</monsters>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<monsters offset="0">
+    <monster id="1191" name="Tortuga" targetCursor="small" walkType="walkswim" sortOffsetY="30">
+        <sprite>monsters/tortuga.xml</sprite>
+        <sound event="die">monsters/tortuga/die1.ogg</sound> 
+        <sound event="hit">monsters/tortuga/hit1.ogg</sound>
+        <sound event="hit">monsters/tortuga/hit2.ogg</sound>
+        <sound event="hurt">monsters/tortuga/hurt1.ogg</sound>
+        <sound event="miss">monsters/tortuga/miss1.ogg</sound>
+        <sound event="spawn">monsters/tortuga/spawn1.ogg</sound>
+    </monster>
+</monsters>
