@@ -1,6 +1,8 @@
-# Note: for attributes to work, you must enable them in your git config
+# Note: the diff=csv2tsv driver must be enabled in your git config
 # This can be done by the tools/add-git-attributes script
 
 # makes tiles aligned in normal diff/show view
 # may also make diff --color-words useful
-*.tmx diff=csv2tsv
+*.tmx text eol=lf diff=csv2tsv
+
+*.xml text eol=lf
